@@ -179,14 +179,16 @@
     "pty0220/orca-git-graph": {
       "state": "rejected",
       "ref": "v0.1.0",
-      "reasons": [
+      "reasons": [],
+      "plugins": [
         {
-          "category": "no-manifest",
-          "detail": "no readable orca-plugin.json at the release"
-        },
-        {
-          "category": "no-manifest",
-          "detail": "no orca-plugin.json or orca-catalog.json"
+          "path": "plugin",
+          "id": "git-graph",
+          "reasons": [
+            {
+              "category": "manifest-format"
+            }
+          ]
         }
       ]
     },
