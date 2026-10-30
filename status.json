@@ -10,7 +10,7 @@
         },
         {
           "category": "publisher",
-          "detail": "publisher \"baroned\" does not match the GitHub owner \"baroned1707\""
+          "detail": "publisher \"baroned\" is not the GitHub owner \"baroned1707\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"baroned1707\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
         }
       ]
     },
@@ -105,7 +105,7 @@
         },
         {
           "category": "publisher",
-          "detail": "publisher \"controlvector\" does not match the GitHub owner \"lamtuanvu\""
+          "detail": "publisher \"controlvector\" is not the GitHub owner \"lamtuanvu\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"lamtuanvu\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
         },
         {
           "category": "licence",
@@ -132,7 +132,7 @@
         },
         {
           "category": "publisher",
-          "detail": "publisher \"vibeguard\" does not match the GitHub owner \"m1105\""
+          "detail": "publisher \"vibeguard\" is not the GitHub owner \"m1105\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"m1105\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
         }
       ]
     },
@@ -145,7 +145,11 @@
         },
         {
           "category": "publisher",
-          "detail": "publisher \"nacho\" does not match the GitHub owner \"nachodeluca\""
+          "detail": "publisher \"nacho\" is not the GitHub owner \"nachodeluca\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"nachodeluca\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
+        },
+        {
+          "category": "reserved-name",
+          "detail": "id \"orca-discord-presence\" starts with \"orca-\", which is reserved for official plugins"
         }
       ]
     },
