@@ -1,0 +1,247 @@
+{
+  "statusVersion": 1,
+  "repos": {
+    "baroned1707/orca-claude-accounts": {
+      "state": "rejected",
+      "ref": "v0.12.0",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        },
+        {
+          "category": "publisher",
+          "detail": "publisher \"baroned\" does not match the GitHub owner \"baroned1707\""
+        }
+      ]
+    },
+    "berkaysirtas/orca-turkish": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        }
+      ]
+    },
+    "craig-franklin/orca-commit-review": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        }
+      ]
+    },
+    "h4rkl/orca-git-blame": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "incompletebiped/orca-localdock": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "jerrazuw/orca-gallery-panel": {
+      "state": "rejected",
+      "ref": "v1.2.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
+        }
+      ]
+    },
+    "jojo252511/orca-german-plugin": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "jrmatos/orca-radio-fm": {
+      "state": "rejected",
+      "ref": "v1.1.0",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        }
+      ]
+    },
+    "kvdecvlt/orca-russian-language": {
+      "state": "rejected",
+      "ref": "v1.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): catalog cannot replace protected security copy at components.native-chat.approval"
+        }
+      ]
+    },
+    "lamtuanvu/cv-hub-orca-plugin": {
+      "state": "rejected",
+      "ref": "v0.5.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.commands[0]: unknown key \"panel\"; contributes.commands[1]: unknown key \"panel\"; contributes.commands[2]: unknown key \"panel\"; contributes.commands[3]: unknown key \"panel\"; contributes.commands[4]: unknown key \"panel\"; contributes.commands[5]: unknown key \"panel\"; contributes.commands[6]: unknown key \"panel\"; contributes.commands[7]: unknown key \"panel\"; (14 more)"
+        },
+        {
+          "category": "publisher",
+          "detail": "publisher \"controlvector\" does not match the GitHub owner \"lamtuanvu\""
+        },
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "luckury/orca-backlog-md": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "m1105/vibeguard": {
+      "state": "rejected",
+      "ref": "v0.2.4",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        },
+        {
+          "category": "publisher",
+          "detail": "publisher \"vibeguard\" does not match the GitHub owner \"m1105\""
+        }
+      ]
+    },
+    "nachodeluca/orca-discord-presence": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        },
+        {
+          "category": "publisher",
+          "detail": "publisher \"nacho\" does not match the GitHub owner \"nachodeluca\""
+        }
+      ]
+    },
+    "nknwns/orca-wakatime": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        }
+      ]
+    },
+    "noobitoo/orca-russian": {
+      "state": "rejected",
+      "ref": "v1.0.7",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): catalog cannot replace protected security copy at components.native-chat.approval"
+        },
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "pty0220/orca-git-graph": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
+        }
+      ]
+    },
+    "sks-other/orca-russian": {
+      "state": "rejected",
+      "ref": "v1.4.242",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): catalog cannot replace protected security copy at browser.loadFailure"
+        },
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "stnslvsvnv/orca-computer-use-neon-glow": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        },
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "stnslvsvnv/orca-windows-notification-dot": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "vale-c/orca-catppuccin": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "vilmarioia/orca-pt-br": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"pt-BR\" (locales/pt-BR.json): catalog cannot replace protected security copy at components.native-chat.approval"
+        }
+      ]
+    }
+  }
+}
