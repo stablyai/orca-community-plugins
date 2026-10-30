@@ -231,7 +231,7 @@
     },
     "vale-c/orca-catppuccin": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/vale-c/orca-catppuccin/1.0.1",
       "plugins": [
         "vale-c.catppuccin"
       ]
