@@ -229,6 +229,13 @@
         }
       ]
     },
+    "upstash/box-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "upstash.upstash-box"
+      ]
+    },
     "vale-c/orca-catppuccin": {
       "state": "listed",
       "ref": "refs/tags/vale-c/orca-catppuccin/1.0.1",

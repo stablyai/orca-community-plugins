@@ -5,6 +5,38 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "upstash.upstash-box",
+      "ownerId": 74989412,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/upstash/box-orca-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Experimental. Run each Orca workspace in its own Upstash Box, reached over SSH.",
+      "categories": [
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "01a1c8d01f87773e0c3c957276e6375ef3b962e4",
+          "contentHash": "fc709744197deab1022a54f0a005b30bc39d657be3b8165dd590ace265b55a6b",
+          "execution": "declarative",
+          "minimumOrca": "1.4.245",
+          "name": "Upstash Box",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "vm-recipe.json"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/upstash/box-orca-plugin",
+          "updatedAt": "2026-10-30T15:36:38+03:00"
+        }
+      ]
+    },
+    {
       "id": "vale-c.catppuccin",
       "ownerId": 21361479,
       "source": {
