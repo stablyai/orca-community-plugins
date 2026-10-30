@@ -9,15 +9,69 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vale-c/orca-catppuccin/1.0.0"
+        "url": "https://github.com/vale-c/orca-catppuccin.git",
+        "ref": "v1.0.1"
       },
-      "description": "Unofficial port of Catppuccin: soothing pastel app, syntax and terminal themes in all four flavors (Latte, Frappé, Macchiato, Mocha).",
+      "description": "Soothing pastel app and terminal themes in all four Catppuccin flavors, with matching syntax colors.",
       "categories": [
         "themes",
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "6851c969d75ce032fa6d5c8b09239824a17aebe1",
+          "contentHash": "6f831d82ae81c6bce0f6d4ff85882134c4a1d1087f3e896957e0b4a471c567e2",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Catppuccin for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Catppuccin Latte"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Frappé"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Macchiato"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Mocha"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Latte"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Frappé"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Macchiato"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Mocha"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.catppuccin/e0633deac6db5843.png",
+              "alt": "Orca in the four Catppuccin flavors, Latte, Frappé, Macchiato and Mocha, each showing the sidebar and syntax-highlighted TypeScript",
+              "sha256": "e0633deac6db5843c12bc476143bf619b526499bf105a1a8e507de5bf52d1288",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vale-c/orca-catppuccin",
+          "updatedAt": "2026-10-30T11:48:15+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "3bab2eac0d6762246bbc0de67947c5b81f2e0dae",
