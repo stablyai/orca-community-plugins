@@ -10,13 +10,46 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/upstash/box-orca-plugin.git",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "Experimental. Run each Orca workspace in its own Upstash Box, reached over SSH.",
       "categories": [
         "vm-recipes"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "89a2545e1324c0e0f6c8edf540ba7d84e340b915",
+          "contentHash": "9653fe4f1b0d1361c7f43fbe1cc1fc3fe774fceb7b9f333739df8d3c44e14c4c",
+          "execution": "declarative",
+          "minimumOrca": "1.4.245",
+          "name": "Upstash Box",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "vm-recipe.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/upstash.upstash-box/54c7bfbcb0ef80ca.png",
+              "alt": "Upstash logo with the text Box for Orca: every workspace in its own Upstash Box",
+              "sha256": "54c7bfbcb0ef80caf95119f101b402da61b9b0a17cc8716499c5f7eb8a1bbf71",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/upstash.upstash-box/1b7ac119437c24eb.png",
+              "alt": "Upstash Box icon",
+              "sha256": "1b7ac119437c24eb698a32a5bc3b326473f52b4c139d141206149423d0c93571",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/upstash/box-orca-plugin",
+          "updatedAt": "2026-10-30T15:49:09+03:00"
+        },
         {
           "version": "0.1.0",
           "commit": "01a1c8d01f87773e0c3c957276e6375ef3b962e4",
