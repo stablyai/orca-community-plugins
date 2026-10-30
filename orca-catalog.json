@@ -3,5 +3,76 @@
   "catalogVersion": 2,
   "name": "Orca Community Plugins",
   "owner": "stablyai",
-  "plugins": []
+  "plugins": [
+    {
+      "id": "vale-c.catppuccin",
+      "ownerId": 21361479,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vale-c/orca-catppuccin.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Unofficial port of Catppuccin: soothing pastel app, syntax and terminal themes in all four flavors (Latte, Frappé, Macchiato, Mocha).",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "3bab2eac0d6762246bbc0de67947c5b81f2e0dae",
+          "contentHash": "6c0fe538457db055d86d7cb0f1f6b5a7ceb6091fd0cbd3f0f5e09b811ebdf7a6",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Catppuccin for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Catppuccin Latte"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Frappé"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Macchiato"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Mocha"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Latte"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Frappé"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Macchiato"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Mocha"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.catppuccin/e0633deac6db5843.png",
+              "alt": "Orca in the four Catppuccin flavors, Latte, Frappé, Macchiato and Mocha, each showing the sidebar and syntax-highlighted TypeScript",
+              "sha256": "e0633deac6db5843c12bc476143bf619b526499bf105a1a8e507de5bf52d1288",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vale-c/orca-catppuccin",
+          "updatedAt": "2026-10-30T10:52:52+01:00"
+        }
+      ]
+    }
+  ]
 }
