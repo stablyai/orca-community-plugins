@@ -9,8 +9,8 @@
       "ownerId": 74989412,
       "source": {
         "kind": "git",
-        "url": "https://github.com/upstash/box-orca-plugin.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/upstash/box-orca-plugin/0.1.1"
       },
       "description": "Experimental. Run each Orca workspace in its own Upstash Box, reached over SSH.",
       "categories": [

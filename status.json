@@ -231,7 +231,7 @@
     },
     "upstash/box-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/upstash/box-orca-plugin/0.1.1",
       "plugins": [
         "upstash.upstash-box"
       ]
