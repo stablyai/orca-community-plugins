@@ -225,7 +225,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.6.2",
+      "ref": "refs/tags/senadaruc/orca-grazr/0.6.2",
       "plugins": [
         "senadaruc.grazr"
       ]
@@ -265,6 +265,13 @@
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
         }
+      ]
+    },
+    "thailoc-dev/orca-pptx-viewer": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "thailoc-dev.pptx-viewer"
       ]
     },
     "upstash/box-orca-plugin": {

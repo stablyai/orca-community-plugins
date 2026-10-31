@@ -179,8 +179,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/senadaruc/orca-grazr.git",
-        "ref": "v0.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/senadaruc/orca-grazr/0.6.2"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -342,6 +342,62 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-10-30T21:07:52+01:00"
+        }
+      ]
+    },
+    {
+      "id": "thailoc-dev.pptx-viewer",
+      "ownerId": 113083148,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thailoc-dev/orca-pptx-viewer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with shapes, pictures, tables, charts, slide navigation and zoom.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "ea7c5291e10fbe715edfe188995b012638c386dc",
+          "contentHash": "5e7db382012eed258c0f65a20b704190b09b66fd7da5e4c6ebadad90282c371e",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "Presentation Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Presentation Preview",
+              "detail": ".pptx, .ppsx, .potx, .pptm, .ppsm, .potm"
+            }
+          ],
+          "fileTypes": [
+            "pptx",
+            "ppsx",
+            "potx",
+            "pptm",
+            "ppsm",
+            "potm"
+          ],
+          "editorFileTypes": [
+            "pptx",
+            "ppsx",
+            "potx",
+            "pptm",
+            "ppsm",
+            "potm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.pptx-viewer/b1e3e3c7aba5371f.png",
+              "alt": "Presentation Viewer in an Orca editor tab, showing a quarterly-review slide with stat cards and a bar chart",
+              "sha256": "b1e3e3c7aba5371f2a459f34fd2b07c49869e9cf03b57d7f026a0478b920ca8a",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-pptx-viewer",
+          "updatedAt": "2026-10-31T11:46:20+07:00"
         }
       ]
     },
