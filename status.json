@@ -137,6 +137,13 @@
         }
       ]
     },
+    "lkgilgamesh/orca-ayu": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "lkgilgamesh.ayu"
+      ]
+    },
     "luckury/orca-backlog-md": {
       "state": "rejected",
       "ref": null,

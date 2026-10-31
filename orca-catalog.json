@@ -138,6 +138,68 @@
       ]
     },
     {
+      "id": "lkgilgamesh.ayu",
+      "ownerId": 6620302,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/LKGilgamesh/orca-ayu.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Ayu Dark, Mirage and Light app and terminal themes, with ayu's syntax colors in the editor.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "037c09a609184a4b3bae876abf2ce7556e833768",
+          "contentHash": "4c53bf83bac9aaa95adef82ff5204ad6d7105c4d21f5af40c993db48751e993a",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Ayu for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Ayu Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Ayu Mirage"
+            },
+            {
+              "kind": "themes",
+              "name": "Ayu Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Ayu Dark Terminal"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Ayu Mirage Terminal"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Ayu Light Terminal"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lkgilgamesh.ayu/61c92bb4b221ae19.png",
+              "alt": "Ayu Dark, Mirage and Light side by side, each showing the sidebar, editor and terminal",
+              "sha256": "61c92bb4b221ae195c29001b836b7719f5c556634b8156632258a6f99dbadbb8",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/LKGilgamesh/orca-ayu",
+          "updatedAt": "2026-10-31T10:26:13-04:00"
+        }
+      ]
+    },
+    {
       "id": "mbirepinte.asciidoc-viewer",
       "ownerId": 113261345,
       "source": {
