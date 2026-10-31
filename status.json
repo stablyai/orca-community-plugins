@@ -34,7 +34,7 @@
     },
     "dawidwetzler/orca-cobalt2-theme": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/dawidwetzler/orca-cobalt2-theme/1.0.0",
       "plugins": [
         "dawidwetzler.cobalt2-theme"
       ]
@@ -94,7 +94,7 @@
     },
     "kolebayev/orca-md-layout": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/kolebayev/orca-md-layout/0.1.0",
       "plugins": [
         "kolebayev.narrow-markdown"
       ]
@@ -152,7 +152,7 @@
     },
     "mbirepinte/orca-asciidoc-viewer": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/0.1.0",
       "plugins": [
         "mbirepinte.asciidoc-viewer"
       ]
@@ -225,7 +225,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/senadaruc/orca-grazr/0.6.1",
       "plugins": [
         "senadaruc.grazr"
       ]
@@ -283,7 +283,7 @@
     },
     "vale-c/orca-tokyonight": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/vale-c/orca-tokyonight/1.0.0",
       "plugins": [
         "vale-c.tokyonight"
       ]

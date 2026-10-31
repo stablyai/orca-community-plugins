@@ -9,8 +9,8 @@
       "ownerId": 49675685,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DawidWetzler/orca-cobalt2-theme.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dawidwetzler/orca-cobalt2-theme/1.0.0"
       },
       "description": "Wes Bos’s Cobalt2: a deep blue app theme with yellow, orange and green code colors, plus matching terminal colors.",
       "categories": [
@@ -71,8 +71,8 @@
       "ownerId": 24884175,
       "source": {
         "kind": "git",
-        "url": "https://github.com/kolebayev/orca-md-layout.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kolebayev/orca-md-layout/0.1.0"
       },
       "description": "Read Markdown files in a narrow column instead of the full editor width. To open it, pick Narrow in the view toggle at the top right of a Markdown tab.",
       "categories": [],
@@ -142,8 +142,8 @@
       "ownerId": 113261345,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Mbirepinte/Orca-asciidoc-viewer.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/0.1.0"
       },
       "description": "Edit AsciiDoc source beside a live preview in Orca.",
       "categories": [],
@@ -179,8 +179,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/senadaruc/orca-grazr.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/senadaruc/orca-grazr/0.6.1"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -462,8 +462,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vale-c/orca-tokyonight.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vale-c/orca-tokyonight/1.0.0"
       },
       "description": "App and terminal themes in all four Tokyo Night styles, Night, Storm, Moon and Day, with matching syntax colors.",
       "categories": [
