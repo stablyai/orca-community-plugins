@@ -214,6 +214,13 @@
         }
       ]
     },
+    "piter75/orca-gruvbox-material-theme": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "piter75.gruvbox-material-theme"
+      ]
+    },
     "pr1p/orca-mermaid-editor": {
       "state": "rejected",
       "ref": "v0.2.0",
