@@ -129,11 +129,11 @@
     },
     "lindoo67/drawio-plugin": {
       "state": "rejected",
-      "ref": "v0.1.2",
+      "ref": "v0.1.3",
       "reasons": [
         {
-          "category": "publisher",
-          "detail": "publisher \"lindoo\" is not the GitHub owner \"lindoo67\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"lindoo67\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
