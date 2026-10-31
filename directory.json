@@ -3,102 +3,197 @@
   "plugins": [
     {
       "id": "stablyai.orca-midnight-theme",
-      "stars": 15,
+      "stars": null,
       "stats": null
     },
     {
       "id": "stablyai.orca-nord-theme",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-oled-theme",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-minimal-icons",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-solarized-terminal",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-multipass-recipes",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-excalidraw",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-spreadsheet",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-gleam",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-prisma",
-      "stars": 15,
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-matlab",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-ocaml",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-julia",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-haskell",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-erlang",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-jsp",
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-dusk-ember",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-github-light-theme",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-solarized-light-theme",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-dracula-theme",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-gruvbox-theme",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-nix",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-godot",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-latex",
-      "stars": 15,
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-vhdl",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-vcl",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-qml",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-taxi",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-http",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-systemd",
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-docx",
-      "stars": 15,
+      "stars": 17,
       "stats": null
     },
     {
       "id": "stablyai.orca-runner",
-      "stars": 15,
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-catppuccin-theme",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-material-icons",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "stablyai.orca-sqlite-browser",
+      "stars": 17,
+      "stats": null
+    },
+    {
+      "id": "dawidwetzler.cobalt2-theme",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "kolebayev.narrow-markdown",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "mbirepinte.asciidoc-viewer",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "senadaruc.grazr",
+      "stars": 0,
       "stats": null
     },
     {
@@ -108,6 +203,11 @@
     },
     {
       "id": "vale-c.catppuccin",
+      "stars": 2,
+      "stats": null
+    },
+    {
+      "id": "vale-c.tokyonight",
       "stars": 0,
       "stats": null
     }

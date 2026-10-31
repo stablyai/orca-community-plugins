@@ -32,6 +32,13 @@
         }
       ]
     },
+    "dawidwetzler/orca-cobalt2-theme": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "dawidwetzler.cobalt2-theme"
+      ]
+    },
     "h4rkl/orca-git-blame": {
       "state": "rejected",
       "ref": null,
@@ -85,6 +92,13 @@
         }
       ]
     },
+    "kolebayev/orca-md-layout": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "kolebayev.narrow-markdown"
+      ]
+    },
     "kvdecvlt/orca-russian-language": {
       "state": "rejected",
       "ref": "v1.1.0",
@@ -136,6 +150,13 @@
         }
       ]
     },
+    "mbirepinte/orca-asciidoc-viewer": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "mbirepinte.asciidoc-viewer"
+      ]
+    },
     "nachodeluca/orca-discord-presence": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -176,6 +197,16 @@
         }
       ]
     },
+    "pr1p/orca-mermaid-editor": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "pty0220/orca-git-graph": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -190,6 +221,13 @@
             }
           ]
         }
+      ]
+    },
+    "senadaruc/orca-grazr": {
+      "state": "listed",
+      "ref": "v0.6.1",
+      "plugins": [
+        "senadaruc.grazr"
       ]
     },
     "sks-other/orca-russian": {
@@ -241,6 +279,13 @@
       "ref": "refs/tags/vale-c/orca-catppuccin/1.0.1",
       "plugins": [
         "vale-c.catppuccin"
+      ]
+    },
+    "vale-c/orca-tokyonight": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "vale-c.tokyonight"
       ]
     },
     "vilmarioia/orca-pt-br": {

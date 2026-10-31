@@ -5,6 +5,270 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "dawidwetzler.cobalt2-theme",
+      "ownerId": 49675685,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/DawidWetzler/orca-cobalt2-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Wes Bos’s Cobalt2: a deep blue app theme with yellow, orange and green code colors, plus matching terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "455897028f3ea666e05e78288704af32869c0f86",
+          "contentHash": "2c14bfae3c7fa37142cc9fb1400005536ffdb9615b9b9ec0e0eef1e65b02c756",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Cobalt2 for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Cobalt2"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Cobalt2"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dawidwetzler.cobalt2-theme/a17e038ab57cdafa.png",
+              "alt": "Orca in the Cobalt2 theme, showing a JavaScript file with Cobalt2 syntax colors",
+              "sha256": "a17e038ab57cdafa7dd3ab51278b775d24fcb577473fdc967d3f14ed149b3574",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/dawidwetzler.cobalt2-theme/20de8f95f2269808.png",
+                "alt": "A JavaScript router file in the Orca editor with Cobalt2 syntax colors",
+                "sha256": "20de8f95f226980852c779fd27d92a6004f2d24b93a72e6e95ce95d384c614e2",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/dawidwetzler.cobalt2-theme/2e8c1b3ead9e5f54.png",
+                "alt": "npm test output in the Orca terminal with the Cobalt2 palette",
+                "sha256": "2e8c1b3ead9e5f542538a2482c9a60dc651a8a8677b7d063e512fe11e671dabb",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/DawidWetzler/orca-cobalt2-theme",
+          "updatedAt": "2026-10-30T17:31:27+01:00"
+        }
+      ]
+    },
+    {
+      "id": "kolebayev.narrow-markdown",
+      "ownerId": 24884175,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/kolebayev/orca-md-layout.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Read Markdown files in a narrow column instead of the full editor width. To open it, pick Narrow in the view toggle at the top right of a Markdown tab.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "6060a677674a2491d818961745447073411607d8",
+          "contentHash": "42176307b209ff525018068803bc6a55f2c71b8792ceb0b20cd770deb396b7fe",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "Narrow Markdown",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Narrow",
+              "detail": ".md, .markdown"
+            }
+          ],
+          "fileTypes": [
+            "md",
+            "markdown"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kolebayev.narrow-markdown/aaf6f36a8c2356cc.png",
+              "alt": "Narrow wordmark above the Markdown logo on blue columns that narrow toward the center",
+              "sha256": "aaf6f36a8c2356ccd9a5ade4f5dbc9d51d1d25683a39cfa2e37f108f5130e5e8",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/kolebayev.narrow-markdown/43d70b68045fd20b.png",
+              "alt": "Narrow Markdown icon",
+              "sha256": "43d70b68045fd20bfffe47821f36ad9944de5139b6fd92f2b7b485d838b98519",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/kolebayev.narrow-markdown/c310a1c174825023.png",
+                "alt": "A Markdown document in a 700px centered column, with 500px, 700px, 900px and 100% width buttons at the top right",
+                "sha256": "c310a1c1748250233639ca6e0e4a06953e1be0193ea073aa72d2fb31be151a2a",
+                "width": 2469,
+                "height": 1600
+              },
+              {
+                "path": "assets/kolebayev.narrow-markdown/392a78e5d70c6889.png",
+                "alt": "Split view with the plugin manifest on the left and a Markdown document with a code block in a centered column on the right",
+                "sha256": "392a78e5d70c688907a0aa2955c9b83faf90cf51c164328f19cac9d22eba8429",
+                "width": 2469,
+                "height": 1599
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/kolebayev/orca-md-layout",
+          "updatedAt": "2026-10-31T00:42:52+01:00"
+        }
+      ]
+    },
+    {
+      "id": "mbirepinte.asciidoc-viewer",
+      "ownerId": 113261345,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Mbirepinte/Orca-asciidoc-viewer.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Edit AsciiDoc source beside a live preview in Orca.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "00681a638bb154b9c818a348b1f57b687055b286",
+          "contentHash": "45327fbd23c2ac4e1058ca474da188ca4109e3eecd92cb2a2edebdd879222ef5",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "AsciiDoc Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "AsciiDoc Preview",
+              "detail": ".adoc"
+            }
+          ],
+          "fileTypes": [
+            "adoc"
+          ],
+          "editorFileTypes": [
+            "adoc"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Mbirepinte/Orca-asciidoc-viewer",
+          "updatedAt": "2026-10-30T16:47:59+01:00"
+        }
+      ]
+    },
+    {
+      "id": "senadaruc.grazr",
+      "ownerId": 14252382,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.6.1"
+      },
+      "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
+          "contentHash": "0ca274d8edb533a497a3f1ed36cdfa59acefb0bae8b7e2234ae000af96bbe062",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap now (target)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh parked accounts (target)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Toggle rotation (target)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-10-30T21:07:52+01:00"
+        }
+      ]
+    },
+    {
       "id": "upstash.upstash-box",
       "ownerId": 74989412,
       "source": {
@@ -190,6 +454,76 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-catppuccin",
           "updatedAt": "2026-10-30T10:52:52+01:00"
+        }
+      ]
+    },
+    {
+      "id": "vale-c.tokyonight",
+      "ownerId": 21361479,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vale-c/orca-tokyonight.git",
+        "ref": "v1.0.0"
+      },
+      "description": "App and terminal themes in all four Tokyo Night styles, Night, Storm, Moon and Day, with matching syntax colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "3ccaf7f552a25f99250df4d0092744645982a7d4",
+          "contentHash": "c9f63fde0b0d0326cb25d84401da6922e69ce7ee750c6a1eb26905d20c8177e4",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Tokyo Night for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Tokyo Night"
+            },
+            {
+              "kind": "themes",
+              "name": "Tokyo Night Storm"
+            },
+            {
+              "kind": "themes",
+              "name": "Tokyo Night Moon"
+            },
+            {
+              "kind": "themes",
+              "name": "Tokyo Night Day"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night Storm"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night Moon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night Day"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.tokyonight/372320852d62c6b8.png",
+              "alt": "Orca in the four Tokyo Night styles, Night, Storm, Moon and Day, each showing the sidebar and syntax-highlighted TypeScript",
+              "sha256": "372320852d62c6b8b131c3c8345c0a24edb0f743ce6354ecaec123e0c280020d",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vale-c/orca-tokyonight",
+          "updatedAt": "2026-10-30T21:17:55+01:00"
         }
       ]
     }

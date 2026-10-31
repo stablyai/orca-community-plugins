@@ -1,4 +1,28 @@
 {
+  "dawidwetzler.cobalt2-theme@1.0.0": {
+    "commit": "455897028f3ea666e05e78288704af32869c0f86",
+    "contentHash": "2c14bfae3c7fa37142cc9fb1400005536ffdb9615b9b9ec0e0eef1e65b02c756",
+    "repoId": 1439973362,
+    "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "kolebayev.narrow-markdown@0.1.0": {
+    "commit": "6060a677674a2491d818961745447073411607d8",
+    "contentHash": "42176307b209ff525018068803bc6a55f2c71b8792ceb0b20cd770deb396b7fe",
+    "repoId": 1440333829,
+    "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "mbirepinte.asciidoc-viewer@0.1.0": {
+    "commit": "00681a638bb154b9c818a348b1f57b687055b286",
+    "contentHash": "45327fbd23c2ac4e1058ca474da188ca4109e3eecd92cb2a2edebdd879222ef5",
+    "repoId": 1439885549,
+    "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "senadaruc.grazr@0.6.1": {
+    "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
+    "contentHash": "0ca274d8edb533a497a3f1ed36cdfa59acefb0bae8b7e2234ae000af96bbe062",
+    "repoId": 1440225977,
+    "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
   "upstash.upstash-box@0.1.0": {
     "commit": "01a1c8d01f87773e0c3c957276e6375ef3b962e4",
     "contentHash": "fc709744197deab1022a54f0a005b30bc39d657be3b8165dd590ace265b55a6b",
@@ -22,5 +46,11 @@
     "contentHash": "6f831d82ae81c6bce0f6d4ff85882134c4a1d1087f3e896957e0b4a471c567e2",
     "repoId": 1438303768,
     "firstSeen": "2026-10-30T11:14:33.003Z"
+  },
+  "vale-c.tokyonight@1.0.0": {
+    "commit": "3ccaf7f552a25f99250df4d0092744645982a7d4",
+    "contentHash": "c9f63fde0b0d0326cb25d84401da6922e69ce7ee750c6a1eb26905d20c8177e4",
+    "repoId": 1440251542,
+    "firstSeen": "2026-10-31T00:27:00.334Z"
   }
 }
