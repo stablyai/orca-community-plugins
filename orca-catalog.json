@@ -179,8 +179,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/senadaruc/orca-grazr/0.6.2"
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.6.3"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -189,6 +189,83 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.3",
+          "commit": "c3e76fd9ff37fc41a532bca9907732a78096aeee",
+          "contentHash": "1ed9a24b2810abf329ecd6022ee86364517a3a37c5a4bcc2f6137ed5a6deacc8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap now (target)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh parked accounts (target)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Toggle rotation (target)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-10-31T09:15:58+01:00"
+        },
         {
           "version": "0.6.2",
           "commit": "4ed2366b75da58e18925f8f22f9ea77981b12507",
