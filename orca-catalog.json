@@ -242,7 +242,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/piter75/orca-gruvbox-material-theme.git",
-        "ref": "v1.0.0"
+        "ref": "v1.0.1"
       },
       "description": "Warm Gruvbox Material dark and light themes in Medium contrast, with uniform panel backgrounds, subtle dividers, and matching syntax and terminal colors.",
       "categories": [
@@ -250,6 +250,44 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "dc147f226fc2d039b71a3a3fa4baa730dd1204ed",
+          "contentHash": "c83d8f1faa7b61695593b239542468bfafb26348f6204df8fec4760077c4edce",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Gruvbox Material for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark Medium"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light Medium"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark Medium"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light Medium"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/piter75.gruvbox-material-theme/7ba72d68fcf6c55d.png",
+              "alt": "Gruvbox Material Dark Medium and Light Medium themes with uniform panel backgrounds, syntax highlighting, and matching terminal colors",
+              "sha256": "7ba72d68fcf6c55d0ae080cb5dbc2525be8bf26f0a838f3b1386527c6b16cbca",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/piter75/orca-gruvbox-material-theme",
+          "updatedAt": "2026-10-31T23:32:47+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "c06c51a4ab8fd73043ff91d3ad586940e178dd78",

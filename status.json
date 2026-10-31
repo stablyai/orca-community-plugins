@@ -216,7 +216,7 @@
     },
     "piter75/orca-gruvbox-material-theme": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "piter75.gruvbox-material-theme"
       ]
@@ -244,6 +244,16 @@
               "category": "manifest-format"
             }
           ]
+        }
+      ]
+    },
+    "schowave/orca-asciidoc-diagrams": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
         }
       ]
     },
