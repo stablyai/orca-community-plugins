@@ -209,11 +209,11 @@
     },
     "pr1p/orca-mermaid-editor": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.2.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
