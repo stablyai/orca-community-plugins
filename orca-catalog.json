@@ -479,6 +479,68 @@
       ]
     },
     {
+      "id": "thailoc-dev.rose-pine",
+      "ownerId": 113083148,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thailoc-dev/orca-rose-pine.git",
+        "ref": "v0.1.0"
+      },
+      "description": "All natural pine, faux fur and a bit of soho vibes: Rosé Pine, Moon and Dawn as app and terminal themes, with matching syntax colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "31ed15a0901402f78ba969db36937f0af56e1862",
+          "contentHash": "212f2a7ce6e90b512a9cafe508933ee5b5f5ded0c8f72d8b236b39931fb6704e",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Rosé Pine for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Rosé Pine"
+            },
+            {
+              "kind": "themes",
+              "name": "Rosé Pine Moon"
+            },
+            {
+              "kind": "themes",
+              "name": "Rosé Pine Dawn"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Rosé Pine"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Rosé Pine Moon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Rosé Pine Dawn"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.rose-pine/b4f4ad8c61d9dff8.png",
+              "alt": "Orca in Rosé Pine, Rosé Pine Moon and Rosé Pine Dawn, each showing workspaces, syntax-highlighted TypeScript and a terminal",
+              "sha256": "b4f4ad8c61d9dff807056a9f60d74820021303e61bf3b2aba2d27d125c78f4ef",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-rose-pine",
+          "updatedAt": "2026-10-31T16:59:22+07:00"
+        }
+      ]
+    },
+    {
       "id": "upstash.upstash-box",
       "ownerId": 74989412,
       "source": {

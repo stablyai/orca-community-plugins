@@ -284,6 +284,13 @@
         "thailoc-dev.pptx-viewer"
       ]
     },
+    "thailoc-dev/orca-rose-pine": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "thailoc-dev.rose-pine"
+      ]
+    },
     "upstash/box-orca-plugin": {
       "state": "listed",
       "ref": "refs/tags/upstash/box-orca-plugin/0.1.1",
