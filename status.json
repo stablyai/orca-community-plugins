@@ -269,7 +269,7 @@
     },
     "thailoc-dev/orca-pptx-viewer": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/thailoc-dev/orca-pptx-viewer/0.1.0",
       "plugins": [
         "thailoc-dev.pptx-viewer"
       ]

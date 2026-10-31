@@ -350,8 +350,8 @@
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thailoc-dev/orca-pptx-viewer.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thailoc-dev/orca-pptx-viewer/0.1.0"
       },
       "description": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with shapes, pictures, tables, charts, slide navigation and zoom.",
       "categories": [],
