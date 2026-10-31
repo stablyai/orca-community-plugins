@@ -277,6 +277,13 @@
         }
       ]
     },
+    "thailoc-dev/orca-dev-toolbox": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "thailoc-dev.dev-toolbox"
+      ]
+    },
     "thailoc-dev/orca-pptx-viewer": {
       "state": "listed",
       "ref": "refs/tags/thailoc-dev/orca-pptx-viewer/0.1.0",

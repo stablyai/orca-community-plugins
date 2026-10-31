@@ -423,6 +423,47 @@
       ]
     },
     {
+      "id": "thailoc-dev.dev-toolbox",
+      "ownerId": 113083148,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thailoc-dev/orca-dev-toolbox.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Everyday developer tools in Orca's sidebar, offline: JWT decoder, timestamps, cron, Base64, URL, UUID v4/v7, hashes and HMAC, JSON formatter and regex tester.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "a890386f8215ae75445651a7075bcf0dd946c7ad",
+          "contentHash": "d75bc9bf6aa33b340381da97a1eb860aaeb5c58b08a3ab7bd9546ce16c023c65",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "Dev Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Dev Toolbox"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.dev-toolbox/49d6dd8ebba4621c.png",
+              "alt": "Dev Toolbox in Orca's sidebar: the tool list, a decoded JWT with its expiry, and a regex test with highlighted matches",
+              "sha256": "49d6dd8ebba4621c77111b9b652e3eb74281334ab3ff1aa84607e6e3c69cf00a",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-dev-toolbox",
+          "updatedAt": "2026-10-31T17:32:45+07:00"
+        }
+      ]
+    },
+    {
       "id": "thailoc-dev.pptx-viewer",
       "ownerId": 113083148,
       "source": {
