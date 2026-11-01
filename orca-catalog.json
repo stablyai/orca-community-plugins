@@ -5,6 +5,56 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "cemalkilic.lima-recipes",
+      "ownerId": 13753694,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cemalkilic/lima-orca-vm-recipes.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Disposable Lima VM workspaces: create, suspend, resume and destroy with limactl.",
+      "categories": [
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "c67e4ba724a492210c93e49e69b63605519673ef",
+          "contentHash": "a9c7b490b6a60b8243fe70e9f1ef517f376354e49cb5aadb0bd940ab16efcfce",
+          "execution": "declarative",
+          "minimumOrca": "1.4.245",
+          "name": "Lima VM Recipes",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/ubuntu-lts.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cemalkilic.lima-recipes/3d00e639309e58d7.png",
+              "alt": "Lima VM Recipes runs each Orca workspace in its own disposable Lima VM on your computer, with no host mounts and no cloud account",
+              "sha256": "3d00e639309e58d7b07652d6543bf9dca090ee4b3a99b9d28e1736ae9863f6e1",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/cemalkilic.lima-recipes/e6e651a43ac5a305.png",
+                "alt": "What crosses into the VM: committed branches and credential-free remotes go in; uncommitted changes and your home directory stay on your Mac",
+                "sha256": "e6e651a43ac5a305554f6bb620fcc7bbeb4e5b1626a46a95509236e2fbfa735c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cemalkilic/lima-orca-vm-recipes",
+          "updatedAt": "2026-11-01T22:51:59+01:00"
+        }
+      ]
+    },
+    {
       "id": "dawidwetzler.cobalt2-theme",
       "ownerId": 49675685,
       "source": {

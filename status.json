@@ -24,13 +24,10 @@
       ]
     },
     "cemalkilic/lima-orca-vm-recipes": {
-      "state": "rejected",
-      "ref": "v1.0.1",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "screenshots[0].alt: must be at most 160 characters"
-        }
+      "state": "listed",
+      "ref": "v1.0.2",
+      "plugins": [
+        "cemalkilic.lima-recipes"
       ]
     },
     "craig-franklin/orca-commit-review": {
