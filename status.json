@@ -249,11 +249,11 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v1.1.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "binary-files",
+          "detail": "bundles binary files (vendor/plantuml-stdlib/archimate.min.js.gz, vendor/plantuml-stdlib/azure.min.js.gz, vendor/plantuml-stdlib/c4.min.js.gz, vendor/plantuml-stdlib/domainstory.min.js.gz, vendor/plantuml-stdlib/eip.min.js.gz, …)"
         }
       ]
     },
