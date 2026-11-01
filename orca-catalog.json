@@ -9,8 +9,8 @@
       "ownerId": 13753694,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cemalkilic/lima-orca-vm-recipes.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cemalkilic/lima-orca-vm-recipes/1.0.0"
       },
       "description": "Disposable Lima VM workspaces: create, suspend, resume and destroy with limactl.",
       "categories": [
