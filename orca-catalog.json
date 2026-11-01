@@ -5,38 +5,6 @@
   "owner": "stablyai",
   "plugins": [
     {
-      "id": "cemalkilic.lima-recipes",
-      "ownerId": 13753694,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cemalkilic/lima-orca-vm-recipes/1.0.0"
-      },
-      "description": "Disposable Lima VM workspaces: create, suspend, resume and destroy with limactl.",
-      "categories": [
-        "vm-recipes"
-      ],
-      "releases": [
-        {
-          "version": "1.0.0",
-          "commit": "a32aae8cf5d9e71692df4f7979fec7e728710a71",
-          "contentHash": "327bb2839c85c49be95523dd10cde7556dd458a96bacb19c1810e25a407f4768",
-          "execution": "declarative",
-          "minimumOrca": "1.4.245",
-          "name": "Lima VM Recipes",
-          "contributes": [
-            {
-              "kind": "vmRecipes",
-              "name": "recipes/ubuntu-lts.json"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/cemalkilic/lima-orca-vm-recipes",
-          "updatedAt": "2026-11-01T18:11:05+01:00"
-        }
-      ]
-    },
-    {
       "id": "dawidwetzler.cobalt2-theme",
       "ownerId": 49675685,
       "source": {
