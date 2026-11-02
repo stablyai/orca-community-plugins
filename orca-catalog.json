@@ -117,6 +117,54 @@
       ]
     },
     {
+      "id": "insforge.instabox",
+      "ownerId": 198419463,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/InsForge/orca-instabox-plugin.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Run each Orca workspace on its own Instabox cloud machine: created with the workspace, paused when it sleeps, deleted with it.",
+      "categories": [
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "b5426a50ac153b74e07973761b618e87f35bb47f",
+          "contentHash": "fad685fe7f00a23b9d9ef50e1af8002bc69271e5fd529e55ef7325eaa4c6ccf3",
+          "execution": "declarative",
+          "minimumOrca": "1.4.245",
+          "name": "Instabox",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/instabox.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/insforge.instabox/5027a22d9826a33b.png",
+              "alt": "A glowing black Instabox cube above the line Cloud Computers for AI Agents",
+              "sha256": "5027a22d9826a33b75493ac3bffb4a4c808c297a354d3136241f0c45d477f3b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/insforge.instabox/9248be9e0c8ad061.png",
+              "alt": "Instabox icon",
+              "sha256": "9248be9e0c8ad06190873762711aeab28d607993e7be92b8775cf72f39738848",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/InsForge/orca-instabox-plugin",
+          "updatedAt": "2026-11-01T21:36:27-08:00"
+        }
+      ]
+    },
+    {
       "id": "kolebayev.narrow-markdown",
       "ownerId": 24884175,
       "source": {

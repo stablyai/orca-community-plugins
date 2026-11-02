@@ -67,6 +67,13 @@
         }
       ]
     },
+    "insforge/orca-instabox-plugin": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "insforge.instabox"
+      ]
+    },
     "jerrazuw/orca-gallery-panel": {
       "state": "rejected",
       "ref": "v1.2.0",
