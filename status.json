@@ -19,7 +19,8 @@
       "ref": "v0.2.0",
       "reasons": [
         {
-          "category": "manifest-format"
+          "category": "validation",
+          "detail": "contributes.languagePacks \"tr\" (locales/tr.json): catalog cannot replace protected security copy at runtimeRpc.startupFailure.continueButton"
         }
       ]
     },
@@ -112,7 +113,7 @@
       "reasons": [
         {
           "category": "validation",
-          "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): catalog cannot replace protected security copy at components.native-chat.approval"
+          "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): catalog cannot replace protected security copy at rendererRecovery.reload"
         }
       ]
     },
@@ -213,7 +214,7 @@
       "reasons": [
         {
           "category": "validation",
-          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): catalog cannot replace protected security copy at components.native-chat.approval"
+          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): catalog cannot replace protected security copy at terminal.codexSharedServerBanner.cancel"
         },
         {
           "category": "licence",
@@ -277,7 +278,7 @@
       "reasons": [
         {
           "category": "validation",
-          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): catalog cannot replace protected security copy at browser.loadFailure"
+          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): catalog cannot replace protected security copy at jira.savedFilters.retry"
         },
         {
           "category": "licence",
@@ -356,7 +357,7 @@
       "reasons": [
         {
           "category": "validation",
-          "detail": "contributes.languagePacks \"pt-BR\" (locales/pt-BR.json): catalog cannot replace protected security copy at components.native-chat.approval"
+          "detail": "contributes.languagePacks \"pt-BR\" (locales/pt-BR.json): catalog cannot replace protected security copy at worktree.nestedRemoval.refreshFailed"
         }
       ]
     }
