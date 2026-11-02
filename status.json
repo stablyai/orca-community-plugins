@@ -69,7 +69,7 @@
     },
     "insforge/orca-instabox-plugin": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/insforge/orca-instabox-plugin/0.1.1",
       "plugins": [
         "insforge.instabox"
       ]
