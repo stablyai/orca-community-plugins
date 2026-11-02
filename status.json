@@ -182,6 +182,20 @@
         "mbirepinte.asciidoc-viewer"
       ]
     },
+    "miinwan/orca-vietnamese": {
+      "state": "rejected",
+      "ref": "v1.3.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"vi\" (locales/vi.json): catalog cannot replace protected security copy at installDirAcl.cause"
+        },
+        {
+          "category": "publisher",
+          "detail": "publisher \"minwan\" is not the GitHub owner \"miinwan\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"miinwan\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
+        }
+      ]
+    },
     "nachodeluca/orca-discord-presence": {
       "state": "rejected",
       "ref": "v0.1.0",
