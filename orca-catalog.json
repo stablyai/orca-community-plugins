@@ -1350,6 +1350,46 @@
       ]
     },
     {
+      "id": "reisen7.opencode-tps",
+      "ownerId": 89134690,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/reisen7/orca-tps.git",
+        "ref": "v0.4.0"
+      },
+      "description": "Shows how fast an agent is generating in Orca's status bar: tokens per second for the turn that just finished, or a live estimate while OpenCode writes. Follows whichever of OpenCode and pi was active last.",
+      "categories": [
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "34d5fd3399e1dd82f6c42ff2f628b83d0afbcabb",
+          "contentHash": "4a2a87b045ac135777bd5750b63364313d616bef57659d1a27dff30c572c12b9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenCode TPS",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "tok/s"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/reisen7/orca-tps",
+          "updatedAt": "2026-11-03T16:36:12+08:00"
+        }
+      ]
+    },
+    {
       "id": "rolottr.auto-collapse",
       "ownerId": 85008132,
       "source": {

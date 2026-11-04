@@ -528,6 +528,13 @@
         }
       ]
     },
+    "reisen7/orca-tps": {
+      "state": "listed",
+      "ref": "v0.4.0",
+      "plugins": [
+        "reisen7.opencode-tps"
+      ]
+    },
     "rolottr/orca-collapse": {
       "state": "listed",
       "ref": "refs/tags/rolottr/orca-collapse/1.0.0",
