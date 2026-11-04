@@ -219,11 +219,11 @@
     },
     "iml885203/orca-orbit": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -497,11 +497,11 @@
     },
     "pr1p/orca-mermaid-editor": {
       "state": "rejected",
-      "ref": "v0.3.0",
+      "ref": "v0.3.1",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "code"
         }
       ]
     },
@@ -606,11 +606,13 @@
     },
     "sks-other/orca-russian": {
       "state": "rejected",
-      "ref": "v1.4.242",
+      "ref": "v1.4.246",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): catalog cannot replace protected security copy at jira.savedFilters.retry"
+          "category": "archived"
+        },
+        {
+          "category": "manifest-format"
         },
         {
           "category": "licence",
