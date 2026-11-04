@@ -517,11 +517,11 @@
     },
     "palulabs/orca-tycoon": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.1.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "under-review",
+          "detail": "code, name"
         }
       ]
     },
@@ -725,6 +725,16 @@
       "ref": "refs/tags/thailoc-dev/orca-rose-pine/0.1.0",
       "plugins": [
         "thailoc-dev.rose-pine"
+      ]
+    },
+    "tienne/orca-plugins": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (ui/assets/codicon-DF1abBS2.ttf)"
+        }
       ]
     },
     "tourbut/orca-helm": {
