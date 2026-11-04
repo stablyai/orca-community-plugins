@@ -13,11 +13,11 @@
     },
     "awallsr/orca-beads": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -140,17 +140,25 @@
       "ref": "refs/tags/eliasjnior/orca-plugins/worktree-notes/1.1.2",
       "plugins": [
         "eliasjnior.worktree-notes"
-      ],
-      "rejected": [
+      ]
+    },
+    "eliasjnior/orca-script-runner": {
+      "state": "rejected",
+      "ref": "v1.2.0",
+      "reasons": [
         {
-          "path": "plugins/script-runner",
-          "id": "script-runner",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "code"
-            }
-          ]
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
+    "eliasjnior/orca-worktree-notes": {
+      "state": "rejected",
+      "ref": "v1.2.0",
+      "reasons": [
+        {
+          "category": "identity-refused",
+          "detail": "eliasjnior.worktree-notes already belongs to eliasjnior/orca-plugins (GitHub repository id 1444880386)"
         }
       ]
     },
