@@ -1,4 +1,28 @@
 {
+  "be0hhh.cpp-kit@1.0.1": {
+    "commit": "ac14acefb6f5e3404706211ac08b2805690bee10",
+    "contentHash": "31e4ea0991491432f71e2d9364360ba5eb1e05ec420405f1809b5e3d31d3f9d6",
+    "repoId": 1444720222,
+    "firstSeen": "2026-11-03T20:39:21.020Z"
+  },
+  "be0hhh.cpp-kit@1.0.2": {
+    "commit": "353e2761506189815b53d3244f1b344c9029c59a",
+    "contentHash": "bf088f66fa97cd648bfef99f84167daade95374a872b43fc64bc31276e6e9a5c",
+    "repoId": 1444720222,
+    "firstSeen": "2026-11-03T21:39:36.122Z"
+  },
+  "cd3vane.jetbrains-themes@1.0.0": {
+    "commit": "dbc699d0af71121dbe6a0b0ad7713204897f16e7",
+    "contentHash": "0bb7897de59c641707fa134c600767d96614948c17a2317f059a4f74866c85b1",
+    "repoId": 1444412158,
+    "firstSeen": "2026-11-03T15:13:45.643Z"
+  },
+  "cd3vane.jetbrains-themes@1.0.1": {
+    "commit": "4f62572024f614ae2731d685a44db5c43abfa1e7",
+    "contentHash": "48bc7b127780504599116d34eb2656908344531fa169c12ba7f54ce7ca8c7be8",
+    "repoId": 1444412158,
+    "firstSeen": "2026-11-03T20:39:21.020Z"
+  },
   "cemalkilic.lima-recipes@1.0.0": {
     "commit": "a32aae8cf5d9e71692df4f7979fec7e728710a71",
     "contentHash": "327bb2839c85c49be95523dd10cde7556dd458a96bacb19c1810e25a407f4768",
@@ -17,11 +41,65 @@
     "repoId": 1439973362,
     "firstSeen": "2026-10-31T00:27:00.334Z"
   },
+  "dohaidang.living-ascii-themes@1.4.0": {
+    "commit": "74b035f66f7f1f4559016caebf1b9874673d2af5",
+    "contentHash": "db7707297bb09e419e82cfce57dcff344ee17df3544f7c00c1784e4fdda7fbbd",
+    "repoId": 1445009325,
+    "firstSeen": "2026-11-04T01:40:52.596Z"
+  },
+  "dohaidang.vietnamese@1.1.0": {
+    "commit": "a919eed2d3efdbf8f295bb567a298eab65af8b4d",
+    "contentHash": "445f783b1d77bbf7d222296f69fe194708bbec2826c8a18bd9fc21d67612b0af",
+    "repoId": 1444105283,
+    "firstSeen": "2026-11-03T10:39:03.733Z"
+  },
+  "faisalmuhammad.monospace-dark@1.1.1": {
+    "commit": "6554b2e1908b59c9f4bc976b0925e4b97193de67",
+    "contentHash": "51f77c491ca77bf42480b8a9fc3dee57acde05ab053993784323c7a954c83837",
+    "repoId": 1443401001,
+    "firstSeen": "2026-11-02T20:13:35.006Z"
+  },
+  "faisalmuhammad.monospace-icons@1.0.4": {
+    "commit": "d62558e00628824a76651ed1992daee7f637fc68",
+    "contentHash": "1ad766516b4fc7dc9e03cba823817798dadb229c5cdf947fcacde1ead99901e0",
+    "repoId": 1443404387,
+    "firstSeen": "2026-11-02T21:40:41.285Z"
+  },
+  "faisalmuhammad.monospace-themes@1.1.2": {
+    "commit": "db831b284d4ac845f572d31fb957c4e152788674",
+    "contentHash": "176e06248fc4e20e79dda54e6b6f509d66861a94bd620670904c57d01f998a71",
+    "repoId": 1443401001,
+    "firstSeen": "2026-11-02T21:13:45.789Z"
+  },
+  "gaoshang212.csharp@0.1.0": {
+    "commit": "fef2711704172796084f8654569a354e48c45a4a",
+    "contentHash": "c2d540ac060b2569e01505903c4ebcc55bc313af155b5c437c7eef63977ebf10",
+    "repoId": 1442699329,
+    "firstSeen": "2026-11-02T09:19:51.152Z"
+  },
+  "gzimbron.svelte-syntax@1.0.0": {
+    "commit": "f758c2c793c61201ea7ec19c99d0cfffff709a5f",
+    "contentHash": "580cada0236d156eb702248cad1836d83e50dbbf4854abdd5362c86182a11aa8",
+    "repoId": 1443718470,
+    "firstSeen": "2026-11-03T02:39:31.994Z"
+  },
+  "gzimbron.vuejs-lang@1.0.0": {
+    "commit": "0b7de37d06bbb82741732a2e779c6923c6514f69",
+    "contentHash": "71688099e724e14eafc70a0e609a7c13d24ecaa45feb4209af14c15424ad1904",
+    "repoId": 1443689564,
+    "firstSeen": "2026-11-03T02:20:17.984Z"
+  },
   "insforge.instabox@0.1.1": {
     "commit": "b5426a50ac153b74e07973761b618e87f35bb47f",
     "contentHash": "fad685fe7f00a23b9d9ef50e1af8002bc69271e5fd529e55ef7325eaa4c6ccf3",
     "repoId": 1442493926,
     "firstSeen": "2026-11-02T05:39:32.817Z"
+  },
+  "ivo922.everforest-theme@1.0.0": {
+    "commit": "e0377a7bc7695d2896260b3825e40e4f62b227ba",
+    "contentHash": "9c7267e0ebfd15c3f1e999fdb9f82bbd7c76adffdfdcce7bfca438c4443e39b9",
+    "repoId": 1442610915,
+    "firstSeen": "2026-11-02T07:17:52.172Z"
   },
   "kolebayev.narrow-markdown@0.1.0": {
     "commit": "6060a677674a2491d818961745447073411607d8",
@@ -35,11 +113,23 @@
     "repoId": 1440935757,
     "firstSeen": "2026-10-31T14:39:05.596Z"
   },
+  "mars-crater.jsonnet-syntax@0.1.0": {
+    "commit": "7a65d0697fc9b3154b5e74baa2f5e21dc824003e",
+    "contentHash": "caabfd6b97349923b73285644d1147041d18d2300088e4c6ff028f1be2ab4da2",
+    "repoId": 1444137360,
+    "firstSeen": "2026-11-03T12:40:04.830Z"
+  },
   "mbirepinte.asciidoc-viewer@0.1.0": {
     "commit": "00681a638bb154b9c818a348b1f57b687055b286",
     "contentHash": "45327fbd23c2ac4e1058ca474da188ca4109e3eecd92cb2a2edebdd879222ef5",
     "repoId": 1439885549,
     "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "mrakofff.palenight-theme@1.0.0": {
+    "commit": "ce4d9848da5dcd1ce7c6d1594a1d147964c60378",
+    "contentHash": "37152349fa4f08a1023b43d0788d76cd5569ce06bedf87fe868b17629b6be68d",
+    "repoId": 1444621109,
+    "firstSeen": "2026-11-03T17:40:13.866Z"
   },
   "piter75.gruvbox-material-theme@1.0.0": {
     "commit": "c06c51a4ab8fd73043ff91d3ad586940e178dd78",
@@ -52,6 +142,30 @@
     "contentHash": "c83d8f1faa7b61695593b239542468bfafb26348f6204df8fec4760077c4edce",
     "repoId": 1441284983,
     "firstSeen": "2026-10-31T22:39:22.141Z"
+  },
+  "prabowosd.grok-themes@1.0.2": {
+    "commit": "5552f36a6c03f3f859a648a7c04ff8c9a458958e",
+    "contentHash": "5110f8af5ef56d9b6159c5eb2dc0068661142fde912bb425349bb07f2f7825c1",
+    "repoId": 1445112428,
+    "firstSeen": "2026-11-04T04:16:52.211Z"
+  },
+  "rolottr.auto-collapse@1.0.0": {
+    "commit": "ef486c35074d20a4d47304a8c9fac1eba5393fe5",
+    "contentHash": "51a90323ed4477cae181e26149562f9e4cc3b1f340943181eed2a7b920b762b2",
+    "repoId": 1444756898,
+    "firstSeen": "2026-11-03T20:14:59.950Z"
+  },
+  "rolottr.no-worktrees@1.0.0": {
+    "commit": "918ef63248c0555d5f06ed88b84daf3e50b6e85b",
+    "contentHash": "6cd4691b7370b2bd6771fcdee07b27a07ec324178c4f3af330145a3760dea5b6",
+    "repoId": 1444551954,
+    "firstSeen": "2026-11-03T16:40:44.759Z"
+  },
+  "sachabigou.synthwave-2077@1.0.2": {
+    "commit": "db2e8c407d374aec209855ee9ac86ad5d94de226",
+    "contentHash": "ef23dba605b890d571d81dec0c4627fdc244d5e2633c32a5b66d28dc6372af6e",
+    "repoId": 1444844994,
+    "firstSeen": "2026-11-03T21:39:36.122Z"
   },
   "senadaruc.grazr@0.6.1": {
     "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
@@ -118,5 +232,11 @@
     "contentHash": "c9f63fde0b0d0326cb25d84401da6922e69ce7ee750c6a1eb26905d20c8177e4",
     "repoId": 1440251542,
     "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "wurenrumian.canvas-view@0.1.1": {
+    "commit": "be056466a46af63de18ed27af6c95a19aa972e84",
+    "contentHash": "958177a53431705385b38f6ef6d9f8db969981c7bab80bf8d171e20fc198b894",
+    "repoId": 1443828386,
+    "firstSeen": "2026-11-03T05:14:51.642Z"
   }
 }

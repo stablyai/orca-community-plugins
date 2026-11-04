@@ -1,6 +1,16 @@
 {
   "statusVersion": 1,
   "repos": {
+    "awallsr/orca-beads": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "baroned1707/orca-claude-accounts": {
       "state": "rejected",
       "ref": "v0.12.0",
@@ -14,6 +24,33 @@
         }
       ]
     },
+    "bautistapessagno/orca-spotify": {
+      "state": "rejected",
+      "ref": "v0.3.2",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
+    "be0hhh/orca-binary-tools": {
+      "state": "rejected",
+      "ref": "v1.0.3",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (samples/sample.a, samples/sample.o)"
+        }
+      ]
+    },
+    "be0hhh/orca-cpp-kit": {
+      "state": "listed",
+      "ref": "refs/tags/be0hhh/orca-cpp-kit/1.0.2",
+      "plugins": [
+        "be0hhh.cpp-kit"
+      ]
+    },
     "berkaysirtas/orca-turkish": {
       "state": "rejected",
       "ref": "v0.2.0",
@@ -24,11 +61,38 @@
         }
       ]
     },
+    "bhojanibilal24/orca-activity-calendar": {
+      "state": "rejected",
+      "ref": "v0.1.3",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (web/fonts/Geist-Variable.woff2)"
+        }
+      ]
+    },
+    "cd3vane/jetbrains-orca": {
+      "state": "listed",
+      "ref": "refs/tags/cd3vane/jetbrains-orca/1.0.1",
+      "plugins": [
+        "cd3vane.jetbrains-themes"
+      ]
+    },
     "cemalkilic/lima-orca-vm-recipes": {
       "state": "listed",
       "ref": "refs/tags/cemalkilic/lima-orca-vm-recipes/1.0.2",
       "plugins": [
         "cemalkilic.lima-recipes"
+      ]
+    },
+    "chrisluo5311/orca-snippet": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "craig-franklin/orca-commit-review": {
@@ -47,6 +111,102 @@
         "dawidwetzler.cobalt2-theme"
       ]
     },
+    "dohaidang/orca-theme-plugin": {
+      "state": "listed",
+      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.4.0",
+      "plugins": [
+        "dohaidang.living-ascii-themes"
+      ]
+    },
+    "dohaidang/orca-vietnamese-plugin": {
+      "state": "listed",
+      "ref": "refs/tags/dohaidang/orca-vietnamese-plugin/1.1.0",
+      "plugins": [
+        "dohaidang.vietnamese"
+      ]
+    },
+    "eliasjnior/orca-plugins": {
+      "state": "rejected",
+      "ref": "v1.1.1",
+      "reasons": [],
+      "plugins": [
+        {
+          "path": "plugins/script-runner",
+          "id": "script-runner",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "code"
+            }
+          ]
+        },
+        {
+          "path": "plugins/worktree-notes",
+          "id": "worktree-notes",
+          "reasons": [
+            {
+              "category": "binary-files",
+              "detail": "bundles binary files (vendor/fonts/Geist-Variable.woff2)"
+            }
+          ]
+        }
+      ]
+    },
+    "etherll/orca-usage-insights": {
+      "state": "rejected",
+      "ref": "v1.0.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
+    "faisalmuhammad/orca-monospace-icons": {
+      "state": "listed",
+      "ref": "refs/tags/faisalmuhammad/orca-monospace-icons/1.0.4",
+      "plugins": [
+        "faisalmuhammad.monospace-icons"
+      ]
+    },
+    "faisalmuhammad/orca-monospace-themes": {
+      "state": "listed",
+      "ref": "refs/tags/faisalmuhammad/orca-monospace-themes/1.1.2",
+      "plugins": [
+        "faisalmuhammad.monospace-themes"
+      ]
+    },
+    "fullfran/orca-plugins": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "gaoshang212/orca-csharp": {
+      "state": "listed",
+      "ref": "refs/tags/gaoshang212/orca-csharp/0.1.0",
+      "plugins": [
+        "gaoshang212.csharp"
+      ]
+    },
+    "gzimbron/svelte-syntax-orca": {
+      "state": "listed",
+      "ref": "refs/tags/gzimbron/svelte-syntax-orca/1.0.0",
+      "plugins": [
+        "gzimbron.svelte-syntax"
+      ]
+    },
+    "gzimbron/vuejs-lang-orca": {
+      "state": "listed",
+      "ref": "refs/tags/gzimbron/vuejs-lang-orca/1.0.0",
+      "plugins": [
+        "gzimbron.vuejs-lang"
+      ]
+    },
     "h4rkl/orca-git-blame": {
       "state": "rejected",
       "ref": null,
@@ -54,6 +214,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "iml885203/orca-orbit": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
       ]
     },
@@ -72,19 +242,49 @@
       "ref": "refs/tags/insforge/orca-instabox-plugin/0.1.1",
       "plugins": [
         "insforge.instabox"
+      ],
+      "sourceUnavailable": true
+    },
+    "ivo922/everforest-theme": {
+      "state": "listed",
+      "ref": "refs/tags/ivo922/everforest-theme/1.0.0",
+      "plugins": [
+        "ivo922.everforest-theme"
+      ]
+    },
+    "ivo922/liquid-syntax": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "jerrazuw/orca-gallery-panel": {
       "state": "rejected",
-      "ref": "v1.2.0",
+      "ref": "v1.5.0",
+      "reasons": [],
+      "plugins": [
+        {
+          "path": "plugin",
+          "id": "gallery-panel-demo",
+          "reasons": [
+            {
+              "category": "manifest-format"
+            }
+          ]
+        }
+      ]
+    },
+    "jodac/orca-git-controls": {
+      "state": "rejected",
+      "ref": "v0.1.0",
       "reasons": [
         {
-          "category": "no-manifest",
-          "detail": "no readable orca-plugin.json at the release"
-        },
-        {
-          "category": "no-manifest",
-          "detail": "no orca-plugin.json or orca-catalog.json"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -121,6 +321,16 @@
         {
           "category": "validation",
           "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): catalog cannot replace protected security copy at rendererRecovery.reload"
+        }
+      ]
+    },
+    "kyino-pan/agents-director": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -182,6 +392,13 @@
         }
       ]
     },
+    "mars-crater/orca-jsonnet-syntax": {
+      "state": "listed",
+      "ref": "refs/tags/mars-crater/orca-jsonnet-syntax/0.1.0",
+      "plugins": [
+        "mars-crater.jsonnet-syntax"
+      ]
+    },
     "mbirepinte/orca-asciidoc-viewer": {
       "state": "listed",
       "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/0.1.0",
@@ -203,6 +420,23 @@
         }
       ]
     },
+    "molanojf/orca-json-canvas": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
+    "mrakofff/orca-palenight-theme-plugin": {
+      "state": "listed",
+      "ref": "refs/tags/mrakofff/orca-palenight-theme-plugin/1.0.0",
+      "plugins": [
+        "mrakofff.palenight-theme"
+      ]
+    },
     "nachodeluca/orca-discord-presence": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -222,10 +456,11 @@
     },
     "nknwns/orca-wakatime": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.2.0",
       "reasons": [
         {
-          "category": "manifest-format"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -250,14 +485,31 @@
         "piter75.gruvbox-material-theme"
       ]
     },
-    "pr1p/orca-mermaid-editor": {
+    "plozmun/orca-redmine": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.1.7",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "size"
+          "detail": "code"
         }
+      ]
+    },
+    "pr1p/orca-mermaid-editor": {
+      "state": "rejected",
+      "ref": "v0.3.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
+      ]
+    },
+    "prabowosd/orca-grok-themes": {
+      "state": "listed",
+      "ref": "refs/tags/prabowosd/orca-grok-themes/1.0.2",
+      "plugins": [
+        "prabowosd.grok-themes"
       ]
     },
     "pty0220/orca-git-graph": {
@@ -276,6 +528,36 @@
         }
       ]
     },
+    "rolottr/orca-collapse": {
+      "state": "listed",
+      "ref": "refs/tags/rolottr/orca-collapse/1.0.0",
+      "plugins": [
+        "rolottr.auto-collapse"
+      ],
+      "update": {
+        "ref": "v1.0.0",
+        "reasons": [
+          {
+            "category": "version-locked",
+            "detail": "tag v1.0.0 moved: version 1.0.0 was first listed at commit ef486c35074d20a4d47304a8c9fac1eba5393fe5 and stays that release; publish a new version instead"
+          }
+        ]
+      }
+    },
+    "rolottr/orca-no-worktrees": {
+      "state": "listed",
+      "ref": "refs/tags/rolottr/orca-no-worktrees/1.0.0",
+      "plugins": [
+        "rolottr.no-worktrees"
+      ]
+    },
+    "sachabigou/synthwave-2077-orca": {
+      "state": "listed",
+      "ref": "refs/tags/sachabigou/synthwave-2077-orca/1.0.2",
+      "plugins": [
+        "sachabigou.synthwave-2077"
+      ]
+    },
     "schowave/orca-asciidoc-diagrams": {
       "state": "rejected",
       "ref": "v1.1.3",
@@ -291,6 +573,35 @@
       "ref": "refs/tags/senadaruc/orca-grazr/0.6.3",
       "plugins": [
         "senadaruc.grazr"
+      ],
+      "update": {
+        "ref": "v0.8.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
+    },
+    "shakedm100/orca-latex-preview": {
+      "state": "rejected",
+      "ref": "v0.3.2",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (editor/vendor/pdfjs/cmaps/78-EUC-H.bcmap, editor/vendor/pdfjs/cmaps/78-EUC-V.bcmap, editor/vendor/pdfjs/cmaps/78-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-V.bcmap, …)"
+        }
+      ]
+    },
+    "shakedm100/orca-parquet-viewer": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
       ]
     },
     "sks-other/orca-russian": {
@@ -335,7 +646,16 @@
       "ref": "v0.1.0",
       "plugins": [
         "thailoc-dev.dev-toolbox"
-      ]
+      ],
+      "update": {
+        "ref": "v0.6.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "thailoc-dev/orca-pptx-viewer": {
       "state": "listed",
@@ -351,11 +671,35 @@
         "thailoc-dev.rose-pine"
       ]
     },
+    "tourbut/orca-helm": {
+      "state": "rejected",
+      "ref": "v0.4.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "upstash/box-orca-plugin": {
       "state": "listed",
       "ref": "refs/tags/upstash/box-orca-plugin/0.1.1",
       "plugins": [
         "upstash.upstash-box"
+      ]
+    },
+    "uttam-gelot/orca-todos": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
+        },
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (.claude/skills/change-audit (symlink), .claude/skills/coding-standards (symlink), .claude/skills/documentation (symlink), .claude/skills/error-handling-logging (symlink), .claude/skills/framework-conventions (symlink), …)"
+        }
       ]
     },
     "vale-c/orca-catppuccin": {
@@ -372,6 +716,16 @@
         "vale-c.tokyonight"
       ]
     },
+    "victorstochero/orca-agent-pool": {
+      "state": "rejected",
+      "ref": "v1.0.8",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "vilmarioia/orca-pt-br": {
       "state": "rejected",
       "ref": "v0.2.0",
@@ -381,6 +735,22 @@
           "detail": "contributes.languagePacks \"pt-BR\" (locales/pt-BR.json): catalog cannot replace protected security copy at worktree.nestedRemoval.refreshFailed"
         }
       ]
+    },
+    "wurenrumian/canvas-view": {
+      "state": "listed",
+      "ref": "refs/tags/wurenrumian/canvas-view/0.1.1",
+      "plugins": [
+        "wurenrumian.canvas-view"
+      ],
+      "update": {
+        "ref": "v0.1.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     }
   }
 }

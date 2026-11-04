@@ -1,4 +1,16 @@
 {
+  "be0hhh.cpp-kit": {
+    "repoId": 1444720222,
+    "ownerId": 182023099,
+    "repository": "be0hhh/orca-cpp-kit",
+    "firstSeen": "2026-11-03T20:39:21.020Z"
+  },
+  "cd3vane.jetbrains-themes": {
+    "repoId": 1444412158,
+    "ownerId": 50383155,
+    "repository": "cd3vane/jetbrains-orca",
+    "firstSeen": "2026-11-03T15:13:45.643Z"
+  },
   "cemalkilic.lima-recipes": {
     "repoId": 1441988944,
     "ownerId": 13753694,
@@ -11,11 +23,65 @@
     "repository": "DawidWetzler/orca-cobalt2-theme",
     "firstSeen": "2026-10-31T00:27:00.334Z"
   },
+  "dohaidang.living-ascii-themes": {
+    "repoId": 1445009325,
+    "ownerId": 41058561,
+    "repository": "dohaidang/orca-theme-plugin",
+    "firstSeen": "2026-11-04T01:40:52.596Z"
+  },
+  "dohaidang.vietnamese": {
+    "repoId": 1444105283,
+    "ownerId": 41058561,
+    "repository": "dohaidang/orca-vietnamese-plugin",
+    "firstSeen": "2026-11-03T10:39:03.733Z"
+  },
+  "faisalmuhammad.monospace-dark": {
+    "repoId": 1443401001,
+    "ownerId": 3476670,
+    "repository": "faisalmuhammad/orca-monospace-themes",
+    "firstSeen": "2026-11-02T20:13:35.006Z"
+  },
+  "faisalmuhammad.monospace-icons": {
+    "repoId": 1443404387,
+    "ownerId": 3476670,
+    "repository": "faisalmuhammad/orca-monospace-icons",
+    "firstSeen": "2026-11-02T21:40:41.285Z"
+  },
+  "faisalmuhammad.monospace-themes": {
+    "repoId": 1443401001,
+    "ownerId": 3476670,
+    "repository": "faisalmuhammad/orca-monospace-themes",
+    "firstSeen": "2026-11-02T21:13:45.789Z"
+  },
+  "gaoshang212.csharp": {
+    "repoId": 1442699329,
+    "ownerId": 7921785,
+    "repository": "gaoshang212/orca-csharp",
+    "firstSeen": "2026-11-02T09:19:51.152Z"
+  },
+  "gzimbron.svelte-syntax": {
+    "repoId": 1443718470,
+    "ownerId": 7065779,
+    "repository": "gzimbron/svelte-syntax-orca",
+    "firstSeen": "2026-11-03T02:39:31.994Z"
+  },
+  "gzimbron.vuejs-lang": {
+    "repoId": 1443689564,
+    "ownerId": 7065779,
+    "repository": "gzimbron/vuejs-lang-orca",
+    "firstSeen": "2026-11-03T02:20:17.984Z"
+  },
   "insforge.instabox": {
     "repoId": 1442493926,
     "ownerId": 198419463,
     "repository": "InsForge/orca-instabox-plugin",
     "firstSeen": "2026-11-02T05:39:32.817Z"
+  },
+  "ivo922.everforest-theme": {
+    "repoId": 1442610915,
+    "ownerId": 59027079,
+    "repository": "ivo922/everforest-theme",
+    "firstSeen": "2026-11-02T07:17:52.172Z"
   },
   "kolebayev.narrow-markdown": {
     "repoId": 1440333829,
@@ -29,17 +95,53 @@
     "repository": "LKGilgamesh/orca-ayu",
     "firstSeen": "2026-10-31T14:39:05.596Z"
   },
+  "mars-crater.jsonnet-syntax": {
+    "repoId": 1444137360,
+    "ownerId": 285895746,
+    "repository": "mars-crater/orca-jsonnet-syntax",
+    "firstSeen": "2026-11-03T12:40:04.830Z"
+  },
   "mbirepinte.asciidoc-viewer": {
     "repoId": 1439885549,
     "ownerId": 113261345,
     "repository": "Mbirepinte/Orca-asciidoc-viewer",
     "firstSeen": "2026-10-31T00:27:00.334Z"
   },
+  "mrakofff.palenight-theme": {
+    "repoId": 1444621109,
+    "ownerId": 21972136,
+    "repository": "mrakofff/orca-palenight-theme-plugin",
+    "firstSeen": "2026-11-03T17:40:13.866Z"
+  },
   "piter75.gruvbox-material-theme": {
     "repoId": 1441284983,
     "ownerId": 639590,
     "repository": "piter75/orca-gruvbox-material-theme",
     "firstSeen": "2026-10-31T22:12:32.874Z"
+  },
+  "prabowosd.grok-themes": {
+    "repoId": 1445112428,
+    "ownerId": 5931987,
+    "repository": "prabowosd/orca-grok-themes",
+    "firstSeen": "2026-11-04T04:16:52.211Z"
+  },
+  "rolottr.auto-collapse": {
+    "repoId": 1444756898,
+    "ownerId": 85008132,
+    "repository": "rolottr/orca-collapse",
+    "firstSeen": "2026-11-03T20:14:59.950Z"
+  },
+  "rolottr.no-worktrees": {
+    "repoId": 1444551954,
+    "ownerId": 85008132,
+    "repository": "rolottr/orca-no-worktrees",
+    "firstSeen": "2026-11-03T16:40:44.759Z"
+  },
+  "sachabigou.synthwave-2077": {
+    "repoId": 1444844994,
+    "ownerId": 97250860,
+    "repository": "sachabigou/synthwave-2077-orca",
+    "firstSeen": "2026-11-03T21:39:36.122Z"
   },
   "senadaruc.grazr": {
     "repoId": 1440225977,
@@ -82,5 +184,11 @@
     "ownerId": 21361479,
     "repository": "vale-c/orca-tokyonight",
     "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "wurenrumian.canvas-view": {
+    "repoId": 1443828386,
+    "ownerId": 78588705,
+    "repository": "wurenrumian/canvas-view",
+    "firstSeen": "2026-11-03T05:14:51.642Z"
   }
 }

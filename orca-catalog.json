@@ -5,6 +5,260 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "be0hhh.cpp-kit",
+      "ownerId": 182023099,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/be0hhh/orca-cpp-kit/1.0.2"
+      },
+      "description": "Modern C/C++ support including inline/template headers (.ipp, .inl, .tpp, .tcc, .ixx) and full CMake language syntax highlighting.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "353e2761506189815b53d3244f1b344c9029c59a",
+          "contentHash": "bf088f66fa97cd648bfef99f84167daade95374a872b43fc64bc31276e6e9a5c",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "C/C++ & CMake Kit",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "C++ Inlines & Templates",
+              "detail": ".ipp, .inl, .tpp, .tcc, .ixx, .cppm"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CMake",
+              "detail": ".cmake, CMakeLists.txt, CMakeCache.txt"
+            }
+          ],
+          "fileTypes": [
+            "ipp",
+            "inl",
+            "tpp",
+            "tcc",
+            "ixx",
+            "cppm",
+            "cmake"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/be0hhh.cpp-kit/61807d8254027cdf.jpg",
+              "alt": "C/C++ & CMake Kit",
+              "sha256": "61807d8254027cdf678fb9cbd565095951bb66e93376951e58a7ea6e3bf555fe",
+              "width": 1597,
+              "height": 985
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/be0hhh/orca-cpp-kit",
+          "updatedAt": "2026-11-04T00:38:34+03:00"
+        },
+        {
+          "version": "1.0.1",
+          "commit": "ac14acefb6f5e3404706211ac08b2805690bee10",
+          "contentHash": "31e4ea0991491432f71e2d9364360ba5eb1e05ec420405f1809b5e3d31d3f9d6",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "C/C++ & CMake Kit",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "C++ Inlines & Templates",
+              "detail": ".ipp, .inl, .tpp, .tcc"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CMake",
+              "detail": ".cmake, CMakeLists.txt, CMakeCache.txt"
+            }
+          ],
+          "fileTypes": [
+            "ipp",
+            "inl",
+            "tpp",
+            "tcc",
+            "cmake"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/be0hhh/orca-cpp-kit",
+          "updatedAt": "2026-11-03T23:33:07+03:00"
+        }
+      ]
+    },
+    {
+      "id": "cd3vane.jetbrains-themes",
+      "ownerId": 50383155,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cd3vane/jetbrains-orca/1.0.1"
+      },
+      "description": "Inspired by the JetBrains IDEs: Islands Dark, Islands Light and classic Dark colors, with matching editor syntax and terminal palettes. Not affiliated with JetBrains.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "4f62572024f614ae2731d685a44db5c43abfa1e7",
+          "contentHash": "48bc7b127780504599116d34eb2656908344531fa169c12ba7f54ce7ca8c7be8",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "JB-Style Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Islands Dark (JetBrains-style)"
+            },
+            {
+              "kind": "themes",
+              "name": "Dark (JetBrains-style)"
+            },
+            {
+              "kind": "themes",
+              "name": "Islands Light (JetBrains-style)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Islands Dark (JetBrains-style)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Dark (JetBrains-style)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Light (JetBrains-style)"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cd3vane.jetbrains-themes/0a08562b212d0801.png",
+              "alt": "Islands Dark (JetBrains-style) in Orca: a TypeScript file with JetBrains-style syntax colors beside the file explorer",
+              "sha256": "0a08562b212d0801db67e643028c8197e4557cb06902b582307bee4beffa7f79",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/cd3vane.jetbrains-themes/0a08562b212d0801.png",
+                "alt": "A TypeScript file in the Islands Dark (JetBrains-style) theme with git-modified files highlighted in the explorer",
+                "sha256": "0a08562b212d0801db67e643028c8197e4557cb06902b582307bee4beffa7f79",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cd3vane.jetbrains-themes/88806484c5c7ec34.png",
+                "alt": "git status, git log and a test run in the Islands Dark (JetBrains-style) terminal palette",
+                "sha256": "88806484c5c7ec34b1f27246e285ff51cd9a68cde2dd94085def51d811dca2ea",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cd3vane.jetbrains-themes/290a03ae870bacac.png",
+                "alt": "A Python file in the Islands Light (JetBrains-style) theme",
+                "sha256": "290a03ae870bacac696328f28d9af5ed4765972f7f9740f3fdba12d0322cce94",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cd3vane.jetbrains-themes/bdba30f997109d7f.png",
+                "alt": "An inline diff with source control changes in the Dark (JetBrains-style) theme",
+                "sha256": "bdba30f997109d7fd4587885d6ce59020b9672db95ea90a1f417f02f1dc53b75",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cd3vane/jetbrains-orca",
+          "updatedAt": "2026-11-03T15:24:04-05:00"
+        },
+        {
+          "version": "1.0.0",
+          "commit": "dbc699d0af71121dbe6a0b0ad7713204897f16e7",
+          "contentHash": "0bb7897de59c641707fa134c600767d96614948c17a2317f059a4f74866c85b1",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "JetBrains Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "JetBrains Islands Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "JetBrains Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "JetBrains Islands Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "JetBrains Islands Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "JetBrains Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "JetBrains Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cd3vane.jetbrains-themes/0a08562b212d0801.png",
+              "alt": "JetBrains Islands Dark in Orca: a TypeScript file with JetBrains syntax colors beside the file explorer",
+              "sha256": "0a08562b212d0801db67e643028c8197e4557cb06902b582307bee4beffa7f79",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/cd3vane.jetbrains-themes/0a08562b212d0801.png",
+                "alt": "A TypeScript file in JetBrains Islands Dark with git-modified files highlighted in the explorer",
+                "sha256": "0a08562b212d0801db67e643028c8197e4557cb06902b582307bee4beffa7f79",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cd3vane.jetbrains-themes/88806484c5c7ec34.png",
+                "alt": "git status, git log and a test run in the JetBrains Islands Dark terminal palette",
+                "sha256": "88806484c5c7ec34b1f27246e285ff51cd9a68cde2dd94085def51d811dca2ea",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cd3vane.jetbrains-themes/290a03ae870bacac.png",
+                "alt": "A Python file in JetBrains Islands Light",
+                "sha256": "290a03ae870bacac696328f28d9af5ed4765972f7f9740f3fdba12d0322cce94",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cd3vane.jetbrains-themes/bdba30f997109d7f.png",
+                "alt": "An inline diff with source control changes in JetBrains Dark",
+                "sha256": "bdba30f997109d7fd4587885d6ce59020b9672db95ea90a1f417f02f1dc53b75",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cd3vane/jetbrains-orca",
+          "updatedAt": "2026-11-03T09:48:58-05:00"
+        }
+      ]
+    },
+    {
       "id": "cemalkilic.lima-recipes",
       "ownerId": 13753694,
       "source": {
@@ -117,6 +371,469 @@
       ]
     },
     {
+      "id": "dohaidang.living-ascii-themes",
+      "ownerId": 41058561,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.4.0"
+      },
+      "description": "Eight dark themes with ASCII wallpapers, each with theme, dark or light sidebars, plus matching terminal palettes and file icons.",
+      "categories": [
+        "themes",
+        "terminal-themes",
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "1.4.0",
+          "commit": "74b035f66f7f1f4559016caebf1b9874673d2af5",
+          "contentHash": "db7707297bb09e419e82cfce57dcff344ee17df3544f7c00c1784e4fdda7fbbd",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Living ASCII Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (light sidebar)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Fireflies"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Honu Lagoon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Jellyfish"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Koi Pond"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Moonlit"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "ASCII · Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dohaidang.living-ascii-themes/175be7d12e885fda.png",
+              "alt": "Eight ASCII wallpapers: coral sunburst, drifting clouds, sea turtle, koi pond, jellyfish, paper boats, fireflies and a crescent moon",
+              "sha256": "175be7d12e885fdad2ab87bed59ebcd7fd668982abd9f0a4e609c7fc37b3b3be",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dohaidang.living-ascii-themes/ab2af755cb2d6ef5.png",
+              "alt": "Living ASCII Themes icon",
+              "sha256": "ab2af755cb2d6ef531ad076fecb15d13f7abc34bcd91f47e12e38937522ba321",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dohaidang/orca-theme-plugin",
+          "updatedAt": "2026-11-04T08:37:19+07:00"
+        }
+      ]
+    },
+    {
+      "id": "dohaidang.vietnamese",
+      "ownerId": 41058561,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dohaidang/orca-vietnamese-plugin/1.1.0"
+      },
+      "description": "Bản dịch tiếng Việt cho giao diện Orca 1.4.246.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "a919eed2d3efdbf8f295bb567a298eab65af8b4d",
+          "contentHash": "445f783b1d77bbf7d222296f69fe194708bbec2826c8a18bd9fc21d67612b0af",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Tiếng Việt cho Orca",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "vi-VN"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/dohaidang/orca-vietnamese-plugin",
+          "updatedAt": "2026-11-03T17:22:15+07:00"
+        }
+      ]
+    },
+    {
+      "id": "faisalmuhammad.monospace-icons",
+      "ownerId": 3476670,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-monospace-icons/1.0.4"
+      },
+      "description": "Monospace file icons for Orca, covering programming languages, documents, images, data files, and configuration files.",
+      "categories": [
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "1.0.4",
+          "commit": "d62558e00628824a76651ed1992daee7f637fc68",
+          "contentHash": "1ad766516b4fc7dc9e03cba823817798dadb229c5cdf947fcacde1ead99901e0",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Monospace Icons",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Monospace Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.monospace-icons/66e004566dc2406f.png",
+              "alt": "Monospace Icons cover showing an explorer and icons for programming languages, documents, images, and data files",
+              "sha256": "66e004566dc2406f4cbf6c34263a227adcdc6c49179452781b0a5d770a2ccdd8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.monospace-icons/ddf4eabc96dc5207.png",
+              "alt": "Monospace Icons icon",
+              "sha256": "ddf4eabc96dc520745ced552bafa52314a3573d1bc5a090445c6d71030c3358f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.monospace-icons/0602de7bb5822e1f.png",
+                "alt": "Rendered preview of 24 file types including programming languages, documents, images, data formats, and tools",
+                "sha256": "0602de7bb5822e1f4d9a700975943d472fd7465be41f6aaf20492cbbeb820d0f",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-monospace-icons",
+          "updatedAt": "2026-11-02T22:13:47+01:00"
+        }
+      ]
+    },
+    {
+      "id": "faisalmuhammad.monospace-themes",
+      "ownerId": 3476670,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-monospace-themes/1.1.2"
+      },
+      "description": "Monospace Light and Dark themes for Orca, with app colors, editor syntax highlighting, and matching terminal palettes. Ported from Keksi’s VS Code themes.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "db831b284d4ac845f572d31fb957c4e152788674",
+          "contentHash": "176e06248fc4e20e79dda54e6b6f509d66861a94bd620670904c57d01f998a71",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Monospace Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Monospace Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Monospace Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monospace Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monospace Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.monospace-themes/e6047cd805160a3c.png",
+              "alt": "Monospace Themes cover with a glowing purple monogram and palette for the Light and Dark theme collection",
+              "sha256": "e6047cd805160a3c5499692a074dcdcc74a3de3f4895a3f384b85fd5d5afbda6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.monospace-themes/12e724fcae273f06.png",
+              "alt": "Monospace Themes icon",
+              "sha256": "12e724fcae273f06fb156727a1d2d528975926f252bb4a0db4f2521c240638b2",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.monospace-themes/8f647e1e62b07f2a.png",
+                "alt": "Rendered preview of Monospace Dark code colors, file tree, and terminal ANSI palette",
+                "sha256": "8f647e1e62b07f2af4b5b9f1eebc7005a6da99a6a8305a3f938c3485f7e86e2a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.monospace-themes/f47cf0797cb2c23f.png",
+                "alt": "Rendered preview of Monospace Light syntax, pale sidebar, and matching terminal palette",
+                "sha256": "f47cf0797cb2c23fe243b046672a051e090a2b8d7e9a429e8a86900a8e39be74",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-monospace-themes",
+          "updatedAt": "2026-11-02T21:45:14+01:00"
+        }
+      ]
+    },
+    {
+      "id": "gaoshang212.csharp",
+      "ownerId": 7921785,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gaoshang212/orca-csharp/0.1.0"
+      },
+      "description": "Syntax highlighting, comment toggling and bracket pairing for C# files.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "fef2711704172796084f8654569a354e48c45a4a",
+          "contentHash": "c2d540ac060b2569e01505903c4ebcc55bc313af155b5c437c7eef63977ebf10",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "C# Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "C#",
+              "detail": ".cs, .csx, .cake"
+            }
+          ],
+          "fileTypes": [
+            "cs",
+            "csx",
+            "cake"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gaoshang212.csharp/a90539e9a6c81aa0.png",
+              "alt": "C# Syntax with an illustrative code preview highlighting a record, generic types and an interpolated string",
+              "sha256": "a90539e9a6c81aa0e35256bd10f232ce6c5d8839d376174eb70ec1f4091d76eb",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gaoshang212/orca-csharp",
+          "updatedAt": "2026-11-02T16:35:44+08:00"
+        }
+      ]
+    },
+    {
+      "id": "gzimbron.svelte-syntax",
+      "ownerId": 7065779,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gzimbron/svelte-syntax-orca/1.0.0"
+      },
+      "description": "Self-contained syntax highlighting for Svelte components (.svelte).",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "f758c2c793c61201ea7ec19c99d0cfffff709a5f",
+          "contentHash": "580cada0236d156eb702248cad1836d83e50dbbf4854abdd5362c86182a11aa8",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Svelte Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Svelte",
+              "detail": ".svelte"
+            }
+          ],
+          "fileTypes": [
+            "svelte"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/gzimbron/svelte-syntax-orca",
+          "updatedAt": "2026-11-02T20:26:50-06:00"
+        }
+      ]
+    },
+    {
+      "id": "gzimbron.vuejs-lang",
+      "ownerId": 7065779,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gzimbron/vuejs-lang-orca/1.0.0"
+      },
+      "description": "Self-contained syntax highlighting for Vue single-file components (.vue).",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "0b7de37d06bbb82741732a2e779c6923c6514f69",
+          "contentHash": "71688099e724e14eafc70a0e609a7c13d24ecaa45feb4209af14c15424ad1904",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Vue.js Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Vue.js",
+              "detail": ".vue"
+            }
+          ],
+          "fileTypes": [
+            "vue"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/gzimbron/vuejs-lang-orca",
+          "updatedAt": "2026-11-02T19:52:36-06:00"
+        }
+      ]
+    },
+    {
       "id": "insforge.instabox",
       "ownerId": 198419463,
       "source": {
@@ -160,7 +877,94 @@
           },
           "license": "MIT",
           "repository": "https://github.com/InsForge/orca-instabox-plugin",
-          "updatedAt": "2026-11-01T21:36:27-08:00"
+          "updatedAt": "2026-11-01T21:36:27-08:00",
+          "sourceUnavailable": true
+        }
+      ]
+    },
+    {
+      "id": "ivo922.everforest-theme",
+      "ownerId": 59027079,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ivo922/everforest-theme/1.0.0"
+      },
+      "description": "Comfortable green-based dark and light application themes in hard, medium and soft contrast, with matching Everforest terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "e0377a7bc7695d2896260b3825e40e4f62b227ba",
+          "contentHash": "9c7267e0ebfd15c3f1e999fdb9f82bbd7c76adffdfdcce7bfca438c4443e39b9",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Everforest for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Everforest Dark Hard"
+            },
+            {
+              "kind": "themes",
+              "name": "Everforest Dark Medium"
+            },
+            {
+              "kind": "themes",
+              "name": "Everforest Dark Soft"
+            },
+            {
+              "kind": "themes",
+              "name": "Everforest Light Hard"
+            },
+            {
+              "kind": "themes",
+              "name": "Everforest Light Medium"
+            },
+            {
+              "kind": "themes",
+              "name": "Everforest Light Soft"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Everforest Dark Hard"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Everforest Dark Medium"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Everforest Dark Soft"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Everforest Light Hard"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Everforest Light Medium"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Everforest Light Soft"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ivo922.everforest-theme/08eda1f7c1d3de70.png",
+              "alt": "Everforest Dark Medium and Light Medium preview with a file tree, syntax-highlighted TypeScript, terminal output, and palette swatches",
+              "sha256": "08eda1f7c1d3de703202d26aa636f17565b7fe33ec14c34223558cddc4b67578",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ivo922/everforest-theme",
+          "updatedAt": "2026-11-02T08:49:50+02:00"
         }
       ]
     },
@@ -298,6 +1102,43 @@
       ]
     },
     {
+      "id": "mars-crater.jsonnet-syntax",
+      "ownerId": 285895746,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mars-crater/orca-jsonnet-syntax/0.1.0"
+      },
+      "description": "Syntax highlighting, comment toggling and bracket matching for Jsonnet and Libsonnet files.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7a65d0697fc9b3154b5e74baa2f5e21dc824003e",
+          "contentHash": "caabfd6b97349923b73285644d1147041d18d2300088e4c6ff028f1be2ab4da2",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Jsonnet Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Jsonnet",
+              "detail": ".jsonnet, .libsonnet"
+            }
+          ],
+          "fileTypes": [
+            "jsonnet",
+            "libsonnet"
+          ],
+          "license": "MIT AND Apache-2.0",
+          "repository": "https://github.com/mars-crater/orca-jsonnet-syntax",
+          "updatedAt": "2026-11-03T12:34:30Z"
+        }
+      ]
+    },
+    {
       "id": "mbirepinte.asciidoc-viewer",
       "ownerId": 113261345,
       "source": {
@@ -331,6 +1172,43 @@
           "license": "MIT",
           "repository": "https://github.com/Mbirepinte/Orca-asciidoc-viewer",
           "updatedAt": "2026-10-30T16:47:59+01:00"
+        }
+      ]
+    },
+    {
+      "id": "mrakofff.palenight-theme",
+      "ownerId": 21972136,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mrakofff/orca-palenight-theme-plugin/1.0.0"
+      },
+      "description": "Material Palenight: a dark app theme with matching editor code colors and terminal palette.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "ce4d9848da5dcd1ce7c6d1594a1d147964c60378",
+          "contentHash": "37152349fa4f08a1023b43d0788d76cd5569ce06bedf87fe868b17629b6be68d",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Palenight",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Palenight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Palenight"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/mrakofff/orca-palenight-theme-plugin",
+          "updatedAt": "2026-11-03T18:37:41+01:00"
         }
       ]
     },
@@ -423,6 +1301,193 @@
           "license": "MIT",
           "repository": "https://github.com/piter75/orca-gruvbox-material-theme",
           "updatedAt": "2026-10-31T22:54:20+01:00"
+        }
+      ]
+    },
+    {
+      "id": "prabowosd.grok-themes",
+      "ownerId": 5931987,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/prabowosd/orca-grok-themes/1.0.2"
+      },
+      "description": "Grok Night and Grok Day app and terminal themes, using the GrokNight palette from xai-org/grok-build.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "5552f36a6c03f3f859a648a7c04ff8c9a458958e",
+          "contentHash": "5110f8af5ef56d9b6159c5eb2dc0068661142fde912bb425349bb07f2f7825c1",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Grok Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Grok Night"
+            },
+            {
+              "kind": "themes",
+              "name": "Grok Day"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Grok Night"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Grok Day"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/prabowosd/orca-grok-themes",
+          "updatedAt": "2026-11-04T10:40:45+07:00"
+        }
+      ]
+    },
+    {
+      "id": "rolottr.auto-collapse",
+      "ownerId": 85008132,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rolottr/orca-collapse/1.0.0"
+      },
+      "description": "Collapses sidebar projects you have already checked: nothing unread, no agent working or waiting, and not the workspace you are in. Projects open again when something needs you.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "ef486c35074d20a4d47304a8c9fac1eba5393fe5",
+          "contentHash": "51a90323ed4477cae181e26149562f9e4cc3b1f340943181eed2a7b920b762b2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Auto Collapse",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Auto Collapse: Collapse all checked projects now"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rolottr.auto-collapse/971bab41eab36610.webp",
+              "alt": "A sidebar with five example projects: two checked projects collapsed, two that need you open with a bell, and the one you are in open",
+              "sha256": "971bab41eab3661011d86d46b15ef9394c79b09d14eabe41f7cbb9c1a318136e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rolottr.auto-collapse/df7234a4db56c31b.png",
+              "alt": "Auto Collapse icon",
+              "sha256": "df7234a4db56c31b03983e3aeafbc146a21dfbfd22fd205e0971a12937d8e376",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rolottr/orca-collapse",
+          "updatedAt": "2026-11-03T20:44:30+01:00"
+        }
+      ]
+    },
+    {
+      "id": "rolottr.no-worktrees",
+      "ownerId": 85008132,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rolottr/orca-no-worktrees/1.0.0"
+      },
+      "description": "Stops Orca from creating Git worktrees so you work in each project's main checkout. Folder workspaces are not affected.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "918ef63248c0555d5f06ed88b84daf3e50b6e85b",
+          "contentHash": "6cd4691b7370b2bd6771fcdee07b27a07ec324178c4f3af330145a3760dea5b6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "No Worktrees",
+          "contributes": [
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/rolottr/orca-no-worktrees",
+          "updatedAt": "2026-11-03T17:31:18+01:00"
+        }
+      ]
+    },
+    {
+      "id": "sachabigou.synthwave-2077",
+      "ownerId": 97250860,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sachabigou/synthwave-2077-orca/1.0.2"
+      },
+      "description": "Neon dark theme for the Orca interface, editor, and terminal.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "db2e8c407d374aec209855ee9ac86ad5d94de226",
+          "contentHash": "ef23dba605b890d571d81dec0c4627fdc244d5e2633c32a5b66d28dc6372af6e",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Synthwave '2077",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Synthwave '2077"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Synthwave '2077"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sachabigou.synthwave-2077/bcf675aa4174132b.jpg",
+              "alt": "Synthwave ’2077 in Orca with a colorized terminal and TypeScript editor.",
+              "sha256": "bcf675aa4174132b861303fcc9ae358cf540463dda838839bfab883a3f8ae4fd",
+              "width": 1424,
+              "height": 640
+            }
+          },
+          "license": "GPL-3.0-only",
+          "repository": "https://github.com/sachabigou/synthwave-2077-orca",
+          "updatedAt": "2026-11-03T22:36:17+01:00"
         }
       ]
     },
@@ -1089,6 +2154,87 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-tokyonight",
           "updatedAt": "2026-10-30T21:17:55+01:00"
+        }
+      ]
+    },
+    {
+      "id": "wurenrumian.canvas-view",
+      "ownerId": 78588705,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wurenrumian/canvas-view/0.1.1"
+      },
+      "description": "Views images and SVGs on a canvas: drag to pan, wheel to zoom.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "be056466a46af63de18ed27af6c95a19aa972e84",
+          "contentHash": "958177a53431705385b38f6ef6d9f8db969981c7bab80bf8d171e20fc198b894",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Canvas View",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".png, .apng, .jpg, .jpeg, .gif, .webp, .bmp, .ico, .avif"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".svg"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".svg"
+            }
+          ],
+          "fileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "editorFileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wurenrumian.canvas-view/1dce3bf959b28a75.png",
+              "alt": "Canvas View cover: a photo and a magnifier on an indigo to cyan gradient.",
+              "sha256": "1dce3bf959b28a75607493538f583db57aa0e70a25aab1427ca6252cabff5b00",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wurenrumian.canvas-view/5baf5b14ed0f7491.png",
+              "alt": "Canvas View icon",
+              "sha256": "5baf5b14ed0f749103ed570f7c26a785011b1cb58c69af5a2a67cb41f67dfe36",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wurenrumian/canvas-view",
+          "updatedAt": "2026-11-03T13:13:41+08:00"
         }
       ]
     }
