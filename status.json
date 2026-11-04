@@ -305,6 +305,16 @@
         }
       ]
     },
+    "jig-harness/orca-plugin": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "jodac/orca-git-controls": {
       "state": "rejected",
       "ref": "v0.1.0",
