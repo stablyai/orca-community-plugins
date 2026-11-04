@@ -9,8 +9,8 @@
       "ownerId": 182023099,
       "source": {
         "kind": "git",
-        "url": "https://github.com/be0hhh/orca-cpp-kit.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/be0hhh/orca-cpp-kit/1.1.1"
       },
       "description": "C++ inline/template and module syntax with native-style colors, CMake scripts, and CMake cache highlighting.",
       "categories": [
@@ -646,8 +646,8 @@
       "ownerId": 5036316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eliasjnior/orca-plugins.git",
-        "ref": "v1.1.2",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eliasjnior/orca-plugins/worktree-notes/1.1.2",
         "path": "plugins/worktree-notes"
       },
       "description": "Notion-style Markdown notes for each worktree, in the right sidebar.",

@@ -56,7 +56,7 @@
     },
     "be0hhh/orca-cpp-kit": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/be0hhh/orca-cpp-kit/1.1.1",
       "plugins": [
         "be0hhh.cpp-kit"
       ]
@@ -137,7 +137,7 @@
     },
     "eliasjnior/orca-plugins": {
       "state": "listed",
-      "ref": "v1.1.2",
+      "ref": "refs/tags/eliasjnior/orca-plugins/worktree-notes/1.1.2",
       "plugins": [
         "eliasjnior.worktree-notes"
       ],
