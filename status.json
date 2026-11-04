@@ -1,6 +1,16 @@
 {
   "statusVersion": 1,
   "repos": {
+    "alexeyshishin/as-orca-plugins": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "awallsr/orca-beads": {
       "state": "rejected",
       "ref": "v0.2.0",
@@ -36,7 +46,7 @@
     },
     "be0hhh/orca-binary-tools": {
       "state": "rejected",
-      "ref": "v1.0.3",
+      "ref": "v1.1.2",
       "reasons": [
         {
           "category": "binary-files",
@@ -46,7 +56,7 @@
     },
     "be0hhh/orca-cpp-kit": {
       "state": "listed",
-      "ref": "refs/tags/be0hhh/orca-cpp-kit/1.0.2",
+      "ref": "v1.1.1",
       "plugins": [
         "be0hhh.cpp-kit"
       ]
@@ -126,10 +136,12 @@
       ]
     },
     "eliasjnior/orca-plugins": {
-      "state": "rejected",
-      "ref": "v1.1.1",
-      "reasons": [],
+      "state": "listed",
+      "ref": "v1.1.2",
       "plugins": [
+        "eliasjnior.worktree-notes"
+      ],
+      "rejected": [
         {
           "path": "plugins/script-runner",
           "id": "script-runner",
@@ -137,16 +149,6 @@
             {
               "category": "under-review",
               "detail": "code"
-            }
-          ]
-        },
-        {
-          "path": "plugins/worktree-notes",
-          "id": "worktree-notes",
-          "reasons": [
-            {
-              "category": "binary-files",
-              "detail": "bundles binary files (vendor/fonts/Geist-Variable.woff2)"
             }
           ]
         }
@@ -530,7 +532,7 @@
     },
     "reisen7/orca-tps": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/reisen7/orca-tps/0.4.0",
       "plugins": [
         "reisen7.opencode-tps"
       ]

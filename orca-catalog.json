@@ -9,14 +9,75 @@
       "ownerId": 182023099,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/be0hhh/orca-cpp-kit/1.0.2"
+        "url": "https://github.com/be0hhh/orca-cpp-kit.git",
+        "ref": "v1.1.1"
       },
-      "description": "Modern C/C++ support including inline/template headers (.ipp, .inl, .tpp, .tcc, .ixx) and full CMake language syntax highlighting.",
+      "description": "C++ inline/template and module syntax with native-style colors, CMake scripts, and CMake cache highlighting.",
       "categories": [
         "languages"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "ae7dbeffccf94ebd3e0d4652b913b8202e020193",
+          "contentHash": "fed830cebb056d9523adeb713584cae67ba7db93e6218758ab1ae32ae2b1563f",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "C/C++ & CMake Kit",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "C++ Inlines & Templates",
+              "detail": ".ipp, .inl, .tpp, .tcc, .ixx, .cppm"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CMake",
+              "detail": ".cmake, CMakeLists.txt"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CMake Cache",
+              "detail": "CMakeCache.txt"
+            },
+            {
+              "kind": "newFiles",
+              "name": "C++ template example",
+              "detail": ".ipp"
+            },
+            {
+              "kind": "newFiles",
+              "name": "C++ module example",
+              "detail": ".cppm"
+            },
+            {
+              "kind": "newFiles",
+              "name": "CMake script example",
+              "detail": ".cmake"
+            }
+          ],
+          "fileTypes": [
+            "ipp",
+            "inl",
+            "tpp",
+            "tcc",
+            "ixx",
+            "cppm",
+            "cmake"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/be0hhh.cpp-kit/61807d8254027cdf.jpg",
+              "alt": "C/C++ & CMake Kit",
+              "sha256": "61807d8254027cdf678fb9cbd565095951bb66e93376951e58a7ea6e3bf555fe",
+              "width": 1597,
+              "height": 985
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/be0hhh/orca-cpp-kit",
+          "updatedAt": "2026-11-04T14:38:59+03:00"
+        },
         {
           "version": "1.0.2",
           "commit": "353e2761506189815b53d3244f1b344c9029c59a",
@@ -577,6 +638,68 @@
           "license": "MIT",
           "repository": "https://github.com/dohaidang/orca-vietnamese-plugin",
           "updatedAt": "2026-11-03T17:22:15+07:00"
+        }
+      ]
+    },
+    {
+      "id": "eliasjnior.worktree-notes",
+      "ownerId": 5036316,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eliasjnior/orca-plugins.git",
+        "ref": "v1.1.2",
+        "path": "plugins/worktree-notes"
+      },
+      "description": "Notion-style Markdown notes for each worktree, in the right sidebar.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "f74d263f4bd4b5448d2c37bd47e891ad69b081f6",
+          "contentHash": "d9eaf323df021c7d52d03373704f52249a65140ee8500c6b3b203cde35a222cf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Notes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Notes"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/eliasjnior.worktree-notes/2668efac217cc022.png",
+              "alt": "The Notes panel in Orca's right sidebar, showing a release checklist with headings, tasks, a quote and code.",
+              "sha256": "2668efac217cc022014ad62e7832ee05dcc80a9b66451079cd543e778bf8fe3d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/eliasjnior.worktree-notes/85300daebdf51b40.png",
+              "alt": "Notes icon",
+              "sha256": "85300daebdf51b40ca2384b2faa29e03962976870ac62bbc804ef4e47d02a0a5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/eliasjnior.worktree-notes/e1172b489e2bbe49.png",
+                "alt": "The Notes panel with Markdown styled as you type: a heading, checked and open tasks, a quote and a code block.",
+                "sha256": "e1172b489e2bbe49da12bce3cca5064365ea8071ce84ee73acad29b45d7b2df7",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eliasjnior/orca-plugins",
+          "updatedAt": "2026-11-04T08:47:36-03:00"
         }
       ]
     },
@@ -1354,8 +1477,8 @@
       "ownerId": 89134690,
       "source": {
         "kind": "git",
-        "url": "https://github.com/reisen7/orca-tps.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/reisen7/orca-tps/0.4.0"
       },
       "description": "Shows how fast an agent is generating in Orca's status bar: tokens per second for the turn that just finished, or a live estimate while OpenCode writes. Follows whichever of OpenCode and pi was active last.",
       "categories": [
