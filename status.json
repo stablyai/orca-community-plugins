@@ -121,6 +121,16 @@
         "dawidwetzler.cobalt2-theme"
       ]
     },
+    "dennib/finline": {
+      "state": "rejected",
+      "ref": "v0.1.2",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
       "ref": "refs/tags/dohaidang/orca-theme-plugin/1.4.0",
@@ -492,6 +502,16 @@
         {
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "palulabs/orca-tycoon": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
         }
       ]
     },
