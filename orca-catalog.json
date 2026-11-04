@@ -957,6 +957,43 @@
       ]
     },
     {
+      "id": "heath0xff.stillwater",
+      "ownerId": 35548666,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/heath0xFF/stillwater.git",
+        "ref": "v1.1.0"
+      },
+      "description": "A quiet, dark theme for Orca's interface, code editor, and terminals. Blended from Nord and Dracula.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "cd9716183669139d52ce94296da29c06811aaba6",
+          "contentHash": "1e13a50e694cab4571c0934d7aa6989650d9c52911ad91d30ccb6cfb72fbcefa",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Stillwater",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Stillwater"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Stillwater"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/heath0xFF/stillwater",
+          "updatedAt": "2026-11-04T07:17:45-06:00"
+        }
+      ]
+    },
+    {
       "id": "insforge.instabox",
       "ownerId": 198419463,
       "source": {
