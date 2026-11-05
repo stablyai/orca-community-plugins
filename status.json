@@ -3,7 +3,7 @@
   "repos": {
     "alexesprit/orca-unfancy-file-icons": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/alexesprit/orca-unfancy-file-icons/1.0.0",
       "plugins": [
         "alexesprit.unfancy-file-icons"
       ]
@@ -355,19 +355,10 @@
       ]
     },
     "jerrazuw/orca-gallery-panel": {
-      "state": "rejected",
-      "ref": "v1.5.0",
-      "reasons": [],
+      "state": "listed",
+      "ref": "v1.5.1",
       "plugins": [
-        {
-          "path": "plugin",
-          "id": "gallery-panel-demo",
-          "reasons": [
-            {
-              "category": "manifest-format"
-            }
-          ]
-        }
+        "jerrazuw.gallery-panel-demo"
       ]
     },
     "jig-harness/orca-plugin": {
@@ -944,11 +935,25 @@
         "vale-c.arc-blueberry"
       ]
     },
+    "vale-c/orca-aura": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "vale-c.aura"
+      ]
+    },
     "vale-c/orca-catppuccin": {
       "state": "listed",
       "ref": "refs/tags/vale-c/orca-catppuccin/1.1.0",
       "plugins": [
         "vale-c.catppuccin"
+      ]
+    },
+    "vale-c/orca-shades-of-purple": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "vale-c.shades-of-purple"
       ]
     },
     "vale-c/orca-tokyonight": {
