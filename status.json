@@ -205,7 +205,7 @@
     },
     "faisalmuhammad/orca-graphiql": {
       "state": "rejected",
-      "ref": "v0.1.4",
+      "ref": "v0.1.5",
       "reasons": [
         {
           "category": "under-review",
@@ -546,7 +546,7 @@
     },
     "miragon/orca-modelers": {
       "state": "rejected",
-      "ref": "v0.1.4",
+      "ref": "v0.1.6",
       "reasons": [],
       "plugins": [
         {
@@ -554,8 +554,8 @@
           "id": "value-chain-modeler",
           "reasons": [
             {
-              "category": "binary-files",
-              "detail": "bundles binary files (editor/dist/fonts/geist-cyrillic-ext-wght-normal-RO72NYA2.woff2, editor/dist/fonts/geist-cyrillic-wght-normal-CK2XY27K.woff2, editor/dist/fonts/geist-latin-ext-wght-normal-XEQ56JUF.woff2, editor/dist/fonts/geist-latin-wght-normal-T72VVCUW.woff2, editor/dist/fonts/geist-mono-cyrillic-ext-wght-normal-QXKVIKFD.woff2, …)"
+              "category": "under-review",
+              "detail": "size"
             }
           ]
         },
@@ -584,8 +584,8 @@
           "id": "team-topologies-modeler",
           "reasons": [
             {
-              "category": "binary-files",
-              "detail": "bundles binary files (editor/dist/fonts/geist-cyrillic-ext-wght-normal-RO72NYA2.woff2, editor/dist/fonts/geist-cyrillic-wght-normal-CK2XY27K.woff2, editor/dist/fonts/geist-latin-ext-wght-normal-XEQ56JUF.woff2, editor/dist/fonts/geist-latin-wght-normal-T72VVCUW.woff2, editor/dist/fonts/geist-mono-cyrillic-ext-wght-normal-QXKVIKFD.woff2, …)"
+              "category": "under-review",
+              "detail": "size"
             }
           ]
         },
@@ -694,7 +694,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "under-review",
