@@ -375,11 +375,11 @@
     },
     "joneszeng/orca-orchestra": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code"
+          "detail": "code, size"
         }
       ]
     },
@@ -675,6 +675,16 @@
       "ref": "refs/tags/sachabigou/synthwave-2077-orca/1.0.2",
       "plugins": [
         "sachabigou.synthwave-2077"
+      ]
+    },
+    "savenkosy/orca-buttons": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "schowave/orca-asciidoc-diagrams": {
