@@ -2908,8 +2908,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vale-c/orca-arc-blueberry/1.0.0"
+        "url": "https://github.com/vale-c/orca-arc-blueberry.git",
+        "ref": "v1.0.1"
       },
       "description": "A deep blue dark app and terminal theme from Bearded Theme's Arc Blueberry, with matching syntax colors.",
       "categories": [
@@ -2917,6 +2917,36 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "b856eb9faa3f6dfffb53ad64162504b0f24627de",
+          "contentHash": "6ef86a83a13171b5e28e84bfa73d689b5ce8c2a3eb7a872fa859d5557c548d4e",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Arc Blueberry for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Arc Blueberry"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Arc Blueberry"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.arc-blueberry/656e6317bfaf9936.png",
+              "alt": "Arc Blueberry for Orca: the plugin name and its palette beside Orca's editor in Arc Blueberry",
+              "sha256": "656e6317bfaf9936264331b76bdfadf5181fb152f0a7f06ec2ed7c9662fc9df6",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "GPL-3.0-only",
+          "repository": "https://github.com/vale-c/orca-arc-blueberry",
+          "updatedAt": "2026-11-05T11:47:27+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "020f6a8c18ed37e93fc66255041ff23b06d0aba2",
@@ -2954,8 +2984,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vale-c/orca-catppuccin/1.0.1"
+        "url": "https://github.com/vale-c/orca-catppuccin.git",
+        "ref": "v1.1.0"
       },
       "description": "Soothing pastel app and terminal themes in all four Catppuccin flavors, with matching syntax colors.",
       "categories": [
@@ -2963,6 +2993,60 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "712d9d595a1e06418b6f0eea7f044b66d25b6c31",
+          "contentHash": "1228848b039b1cf2831b318717733b068ee55849c6d9b508bfcf406d42253740",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Catppuccin for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Catppuccin Latte"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Frappé"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Macchiato"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Mocha"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Latte"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Frappé"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Macchiato"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Catppuccin Mocha"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.catppuccin/3dc51f77a66c2223.png",
+              "alt": "Catppuccin for Orca: the plugin name and its four flavors beside Orca's editor, cut into one diagonal slice per flavor",
+              "sha256": "3dc51f77a66c2223d7245377b4ae80553e1a167753f9de6dd5496a9ca5beeae2",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vale-c/orca-catppuccin",
+          "updatedAt": "2026-11-05T11:47:27+01:00"
+        },
         {
           "version": "1.0.1",
           "commit": "6851c969d75ce032fa6d5c8b09239824a17aebe1",
@@ -3078,8 +3162,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vale-c/orca-tokyonight/1.0.0"
+        "url": "https://github.com/vale-c/orca-tokyonight.git",
+        "ref": "v1.1.0"
       },
       "description": "App and terminal themes in all four Tokyo Night styles, Night, Storm, Moon and Day, with matching syntax colors.",
       "categories": [
@@ -3087,6 +3171,60 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "2672c9a35842c2864d8a3f817c4a353730f2b392",
+          "contentHash": "979d0121bd7ac47be526ad8ad30aadc4e646ee424d63e987c9f2da3e1330fc22",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Tokyo Night for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Tokyo Night"
+            },
+            {
+              "kind": "themes",
+              "name": "Tokyo Night Storm"
+            },
+            {
+              "kind": "themes",
+              "name": "Tokyo Night Moon"
+            },
+            {
+              "kind": "themes",
+              "name": "Tokyo Night Day"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night Storm"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night Moon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Tokyo Night Day"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.tokyonight/7b9357418b2a5af3.png",
+              "alt": "Tokyo Night for Orca: the plugin name and its four styles beside Orca's editor, cut into one diagonal slice per style",
+              "sha256": "7b9357418b2a5af385b602678817f7281d88dad66a378c287a8b911377ed4ff5",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vale-c/orca-tokyonight",
+          "updatedAt": "2026-11-05T11:47:27+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "3ccaf7f552a25f99250df4d0092744645982a7d4",

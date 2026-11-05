@@ -293,6 +293,12 @@
     "repoId": 1446813529,
     "firstSeen": "2026-11-05T10:16:03.952Z"
   },
+  "vale-c.arc-blueberry@1.0.1": {
+    "commit": "b856eb9faa3f6dfffb53ad64162504b0f24627de",
+    "contentHash": "6ef86a83a13171b5e28e84bfa73d689b5ce8c2a3eb7a872fa859d5557c548d4e",
+    "repoId": 1446813529,
+    "firstSeen": "2026-11-05T11:14:07.919Z"
+  },
   "vale-c.catppuccin@1.0.0": {
     "commit": "3bab2eac0d6762246bbc0de67947c5b81f2e0dae",
     "contentHash": "6c0fe538457db055d86d7cb0f1f6b5a7ceb6091fd0cbd3f0f5e09b811ebdf7a6",
@@ -305,11 +311,23 @@
     "repoId": 1438303768,
     "firstSeen": "2026-10-30T11:14:33.003Z"
   },
+  "vale-c.catppuccin@1.1.0": {
+    "commit": "712d9d595a1e06418b6f0eea7f044b66d25b6c31",
+    "contentHash": "1228848b039b1cf2831b318717733b068ee55849c6d9b508bfcf406d42253740",
+    "repoId": 1438303768,
+    "firstSeen": "2026-11-05T11:14:07.919Z"
+  },
   "vale-c.tokyonight@1.0.0": {
     "commit": "3ccaf7f552a25f99250df4d0092744645982a7d4",
     "contentHash": "c9f63fde0b0d0326cb25d84401da6922e69ce7ee750c6a1eb26905d20c8177e4",
     "repoId": 1440251542,
     "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "vale-c.tokyonight@1.1.0": {
+    "commit": "2672c9a35842c2864d8a3f817c4a353730f2b392",
+    "contentHash": "979d0121bd7ac47be526ad8ad30aadc4e646ee424d63e987c9f2da3e1330fc22",
+    "repoId": 1440251542,
+    "firstSeen": "2026-11-05T11:14:07.919Z"
   },
   "wurenrumian.canvas-view@0.1.1": {
     "commit": "be056466a46af63de18ed27af6c95a19aa972e84",

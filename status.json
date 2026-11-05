@@ -529,6 +529,16 @@
         }
       ]
     },
+    "miragon/orca-modelers": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "molanojf/orca-json-canvas": {
       "state": "rejected",
       "ref": "v1.0.0",
@@ -862,21 +872,21 @@
     },
     "vale-c/orca-arc-blueberry": {
       "state": "listed",
-      "ref": "refs/tags/vale-c/orca-arc-blueberry/1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "vale-c.arc-blueberry"
       ]
     },
     "vale-c/orca-catppuccin": {
       "state": "listed",
-      "ref": "refs/tags/vale-c/orca-catppuccin/1.0.1",
+      "ref": "v1.1.0",
       "plugins": [
         "vale-c.catppuccin"
       ]
     },
     "vale-c/orca-tokyonight": {
       "state": "listed",
-      "ref": "refs/tags/vale-c/orca-tokyonight/1.0.0",
+      "ref": "v1.1.0",
       "plugins": [
         "vale-c.tokyonight"
       ]
