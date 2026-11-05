@@ -247,6 +247,16 @@
         "gaoshang212.csharp"
       ]
     },
+    "gentilfp/orca-snakai": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
       "ref": "refs/tags/gzimbron/svelte-syntax-orca/1.0.0",
@@ -821,7 +831,7 @@
     },
     "sumonta056/orca-monokai-midnight": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/sumonta056/orca-monokai-midnight/1.0.0",
       "plugins": [
         "sumonta056.monokai-midnight"
       ]
