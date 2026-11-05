@@ -708,11 +708,11 @@
     },
     "shakedm100/orca-latex-preview": {
       "state": "rejected",
-      "ref": "v0.3.2",
+      "ref": "v0.3.3",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (editor/vendor/pdfjs/cmaps/78-EUC-H.bcmap, editor/vendor/pdfjs/cmaps/78-EUC-V.bcmap, editor/vendor/pdfjs/cmaps/78-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-V.bcmap, …)"
+          "category": "under-review",
+          "detail": "code, size"
         }
       ]
     },
