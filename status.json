@@ -537,7 +537,16 @@
       "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/0.1.0",
       "plugins": [
         "mbirepinte.asciidoc-viewer"
-      ]
+      ],
+      "update": {
+        "ref": "v1.1.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "miinwan/orca-vietnamese": {
       "state": "rejected",
