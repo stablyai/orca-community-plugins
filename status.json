@@ -194,7 +194,7 @@
     },
     "faisalmuhammad/orca-monospace-icons": {
       "state": "listed",
-      "ref": "v1.0.5",
+      "ref": "refs/tags/faisalmuhammad/orca-monospace-icons/1.0.5",
       "plugins": [
         "faisalmuhammad.monospace-icons"
       ]
@@ -284,7 +284,7 @@
     },
     "ivanha-dev/mcp-openproject": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.0",
       "plugins": [
         "ivanha-dev.openproject"
       ]
@@ -363,7 +363,7 @@
     },
     "kianxm/orca-luau": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/kianxm/orca-luau/1.0.2",
       "plugins": [
         "kianxm.luau-syntax"
       ]
@@ -763,11 +763,11 @@
     },
     "tienne/orca-plugins": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (ui/assets/codicon-DF1abBS2.ttf)"
+          "category": "under-review",
+          "detail": "code, size"
         }
       ]
     },
