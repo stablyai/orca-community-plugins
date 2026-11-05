@@ -432,6 +432,86 @@
       ]
     },
     {
+      "id": "ddantran.rails-syntax",
+      "ownerId": 351825985,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ddantran/orca-rails-syntax.git",
+        "ref": "v0.2.3"
+      },
+      "description": "Ruby and ERB syntax highlighting for Rails, using the grammars of the Ruby LSP VS Code extension.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "c65f3727affdf2434e16702488e2027c7bac65be",
+          "contentHash": "3aa9dec7d21f05588c3b7483ed858ac62eb170cebe4043f6ce38cead29e05eab",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Rails Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Ruby",
+              "detail": ".rb, .rake, .gemspec, .ru, .jbuilder, .builder, .rbi, .podspec, Gemfile, Rakefile, Guardfile, Capfile, Podfile, Fastfile, Vagrantfile, Brewfile, Buildfile"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "ERB",
+              "detail": ".erb, .rhtml, .rhtm"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML (for ERB)"
+            }
+          ],
+          "fileTypes": [
+            "rb",
+            "rake",
+            "gemspec",
+            "ru",
+            "jbuilder",
+            "builder",
+            "rbi",
+            "podspec",
+            "erb",
+            "rhtml",
+            "rhtm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ddantran.rails-syntax/866a88afc6af9d71.png",
+              "alt": "A Rails model with highlighted Ruby in an editor window, shown with the Catppuccin Mocha theme, next to the title Rails Syntax",
+              "sha256": "866a88afc6af9d713adcf4a75d462f30caaf798047fb958b19d1f37e5fab60e5",
+              "width": 2560,
+              "height": 1600
+            },
+            "screenshots": [
+              {
+                "path": "assets/ddantran.rails-syntax/ef30e7e72915ca5e.png",
+                "alt": "An ERB view where <% %> tags highlight as Ruby in text and inside HTML attributes, shown with the Catppuccin Mocha theme",
+                "sha256": "ef30e7e72915ca5efed95c4502e84c1225679b9477417fdae3572580f3893424",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/ddantran.rails-syntax/9343b52d01962aec.png",
+                "alt": "A Rails controller with highlighted callbacks, redirect_to and render calls, shown with the Catppuccin Mocha theme",
+                "sha256": "9343b52d01962aec238854d0132b22875677623d1a9c1e7762daba655df6697c",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddantran/orca-rails-syntax",
+          "updatedAt": "2026-11-05T10:58:57+07:00"
+        }
+      ]
+    },
+    {
       "id": "dohaidang.living-ascii-themes",
       "ownerId": 41058561,
       "source": {

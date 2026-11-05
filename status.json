@@ -122,13 +122,10 @@
       ]
     },
     "ddantran/orca-rails-syntax": {
-      "state": "rejected",
-      "ref": "v0.2.2",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "no catalog release entry: committed plugin is not installable (a catalog would list it differently: the listed contributions do not match the catalog release)"
-        }
+      "state": "listed",
+      "ref": "v0.2.3",
+      "plugins": [
+        "ddantran.rails-syntax"
       ]
     },
     "dennib/finline": {
