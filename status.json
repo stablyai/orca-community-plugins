@@ -176,6 +176,16 @@
         }
       ]
     },
+    "eskono/orca-docker-logs": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "etherll/orca-usage-insights": {
       "state": "rejected",
       "ref": "v1.0.1",
@@ -322,7 +332,7 @@
     },
     "ivo922/liquid-syntax": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/ivo922/liquid-syntax/0.1.1",
       "plugins": [
         "ivo922.liquid-syntax"
       ]
