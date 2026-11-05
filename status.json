@@ -178,7 +178,7 @@
     },
     "eskono/orca-docker-logs": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "under-review",
@@ -858,6 +858,13 @@
           "category": "binary-files",
           "detail": "bundles binary files (.claude/skills/change-audit (symlink), .claude/skills/coding-standards (symlink), .claude/skills/documentation (symlink), .claude/skills/error-handling-logging (symlink), .claude/skills/framework-conventions (symlink), …)"
         }
+      ]
+    },
+    "vale-c/orca-arc-blueberry": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "vale-c.arc-blueberry"
       ]
     },
     "vale-c/orca-catppuccin": {

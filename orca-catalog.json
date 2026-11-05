@@ -2904,6 +2904,52 @@
       ]
     },
     {
+      "id": "vale-c.arc-blueberry",
+      "ownerId": 21361479,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vale-c/orca-arc-blueberry.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A deep blue dark app and terminal theme from Bearded Theme's Arc Blueberry, with matching syntax colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "020f6a8c18ed37e93fc66255041ff23b06d0aba2",
+          "contentHash": "a8ecff2a439db9c78e25cacb298b38cbb1f6f36a2a615d9bacd220e4bba381e6",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Arc Blueberry for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Arc Blueberry"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Arc Blueberry"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.arc-blueberry/20957e7dc46f0bb9.png",
+              "alt": "Orca in Arc Blueberry, showing the workspace sidebar, syntax-highlighted TypeScript and the file explorer",
+              "sha256": "20957e7dc46f0bb91691c3765a2eacc3a1fb837df03da5f8c0a6cdf519e54c98",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "GPL-3.0-only",
+          "repository": "https://github.com/vale-c/orca-arc-blueberry",
+          "updatedAt": "2026-11-05T10:41:02+01:00"
+        }
+      ]
+    },
+    {
       "id": "vale-c.catppuccin",
       "ownerId": 21361479,
       "source": {
