@@ -1628,8 +1628,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jondmarien/orca-discord-presence.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.1"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [

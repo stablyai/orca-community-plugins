@@ -361,7 +361,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.1",
       "plugins": [
         "jondmarien.discord-presence"
       ]
