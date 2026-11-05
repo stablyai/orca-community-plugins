@@ -227,6 +227,13 @@
         "faisalmuhammad.monospace-themes"
       ]
     },
+    "faisalmuhammad/orca-sidequest": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "faisalmuhammad.sidequest"
+      ]
+    },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "rejected",
       "ref": "v0.1.1",

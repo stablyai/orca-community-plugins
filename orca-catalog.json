@@ -1257,6 +1257,82 @@
       ]
     },
     {
+      "id": "faisalmuhammad.sidequest",
+      "ownerId": 3476670,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-sidequest.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Refresh your mind with quick games while your agents work. One compact sidebar, with saved progress and room for more games.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "ddc0e2eddb8f98798d0ad1f746f8ac134ae35822",
+          "contentHash": "afe3669c61d4fcc887c40a5a29e15b092c18c67fd528937f0045ed8f1c6bb1d5",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Sidequest - Quick Games in Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Sidequest"
+            },
+            {
+              "kind": "commands",
+              "name": "Sidequest: Toggle game sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "sidequest"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.sidequest/cc1a11b27f38d1ab.png",
+              "alt": "Sidequest puzzle emblem on a mint tile, with the message: Refresh your mind with a quick game while your agents work.",
+              "sha256": "cc1a11b27f38d1ab9b59cc40e71da04842dad7be0a337e9368104bb00128715c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.sidequest/0c160145404dc80c.png",
+              "alt": "Sidequest - Quick Games in Orca icon",
+              "sha256": "0c160145404dc80c9937e6e8c8bb96916c5fbd145e189e35264226edb8843f1e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.sidequest/aabeffffbdd6de8b.png",
+                "alt": "Sidequest game interfaces in the dark theme.",
+                "sha256": "aabeffffbdd6de8b0008fa151ee358b6eaa910efe5967d5ff0f30e3ec9a67071",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.sidequest/dfbed87e23bbbaea.png",
+                "alt": "Sidequest game interfaces in the light theme.",
+                "sha256": "dfbed87e23bbbaea39cb73c3a83227b53f4469cbe946240dae462ff1be84bb05",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-sidequest",
+          "updatedAt": "2026-11-05T22:04:12Z"
+        }
+      ]
+    },
+    {
       "id": "gaoshang212.csharp",
       "ownerId": 7921785,
       "source": {
