@@ -256,7 +256,7 @@
     },
     "gentilfp/orca-snakai": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/gentilfp/orca-snakai/0.1.2",
       "plugins": [
         "gentilfp.snakai"
       ]
@@ -546,11 +546,28 @@
     },
     "miragon/orca-modelers": {
       "state": "rejected",
-      "ref": null,
-      "reasons": [
+      "ref": "v0.1.1",
+      "reasons": [],
+      "plugins": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "path": "plugins/value-chain-modeler",
+          "id": "value-chain-modeler",
+          "reasons": [
+            {
+              "category": "binary-files",
+              "detail": "bundles binary files (editor/dist/fonts/geist-cyrillic-ext-wght-normal-RO72NYA2.woff2, editor/dist/fonts/geist-cyrillic-wght-normal-CK2XY27K.woff2, editor/dist/fonts/geist-latin-ext-wght-normal-XEQ56JUF.woff2, editor/dist/fonts/geist-latin-wght-normal-T72VVCUW.woff2, editor/dist/fonts/geist-mono-cyrillic-ext-wght-normal-QXKVIKFD.woff2, …)"
+            }
+          ]
+        },
+        {
+          "path": "plugins/wardley-maps-modeler",
+          "id": "wardley-maps-modeler",
+          "reasons": [
+            {
+              "category": "binary-files",
+              "detail": "bundles binary files (editor/dist/fonts/geist-cyrillic-ext-wght-italic-ACSCK6SX.woff2, editor/dist/fonts/geist-cyrillic-ext-wght-normal-RO72NYA2.woff2, editor/dist/fonts/geist-cyrillic-wght-italic-SZR2COYT.woff2, editor/dist/fonts/geist-cyrillic-wght-normal-CK2XY27K.woff2, editor/dist/fonts/geist-latin-ext-wght-italic-4VLB6ZQ6.woff2, …)"
+            }
+          ]
         }
       ]
     },
