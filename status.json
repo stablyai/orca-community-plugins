@@ -198,7 +198,7 @@
     },
     "faisalmuhammad/orca-graphiql": {
       "state": "rejected",
-      "ref": "v0.1.2",
+      "ref": "v0.1.3",
       "reasons": [
         {
           "category": "under-review",
@@ -249,11 +249,11 @@
     },
     "gentilfp/orca-snakai": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.1.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "reserved-name",
+          "detail": "id \"orca-snakai\" starts with \"orca-\", which is reserved for official plugins"
         }
       ]
     },
@@ -696,7 +696,7 @@
     },
     "rgarciade/orca-containers": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "under-review",
@@ -772,7 +772,7 @@
     },
     "shakedm100/orca-latex-preview": {
       "state": "rejected",
-      "ref": "v0.3.3",
+      "ref": "v0.3.4",
       "reasons": [
         {
           "category": "under-review",
