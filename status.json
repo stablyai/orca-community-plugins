@@ -660,7 +660,7 @@
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "rejected",
-      "ref": "v1.1.0",
+      "ref": "v1.1.1",
       "reasons": [
         {
           "category": "binary-files",
@@ -923,7 +923,7 @@
     },
     "thailoc-dev/orca-dev-toolbox": {
       "state": "listed",
-      "ref": "v0.6.2",
+      "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.6.2",
       "plugins": [
         "thailoc-dev.dev-toolbox"
       ]
