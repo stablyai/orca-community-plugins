@@ -1304,6 +1304,47 @@
       ]
     },
     {
+      "id": "gentilfp.snakai",
+      "ownerId": 356881,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gentilfp/orca-snakAI.git",
+        "ref": "v0.1.2"
+      },
+      "description": "A pixel art Snake for the Orca panel. Swim through the ocean, catch coding agents and dodge the bugs.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "30bddbd7c0e8337b38f38102675c01673ec1e5d2",
+          "contentHash": "cacaf751af14a448b1345e67af4d9e05eb08e7e55ee3c6660cabec11ed6b7246",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "snakAI",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "snakAI"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gentilfp.snakai/deff681ff13676b6.png",
+              "alt": "snakAI: a green snake swims through a dark pixel art ocean towards a rare orca, with a red bug nearby and the score above.",
+              "sha256": "deff681ff13676b6e47aa9a2e38e54db875b1b2cd41474528f735ec78b3244b3",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gentilfp/orca-snakAI",
+          "updatedAt": "2026-11-05T16:48:48+01:00"
+        }
+      ]
+    },
+    {
       "id": "gzimbron.svelte-syntax",
       "ownerId": 7065779,
       "source": {

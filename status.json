@@ -255,13 +255,10 @@
       ]
     },
     "gentilfp/orca-snakai": {
-      "state": "rejected",
-      "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "name"
-        }
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "gentilfp.snakai"
       ]
     },
     "gzimbron/svelte-syntax-orca": {
@@ -837,6 +834,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "sumonta056/orca-midnight-dev": {
+      "state": "rejected",
+      "ref": "v1.1.0",
+      "reasons": [
+        {
+          "category": "identity-hold",
+          "detail": "moved from Sumonta056/orca-monokai-midnight (sumonta056.monokai-midnight) to Sumonta056/orca-midnight-dev (sumonta056.monokai-midnight); new versions paused until a maintainer confirms the move in identity-moves.json"
         }
       ]
     },
