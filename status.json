@@ -287,7 +287,16 @@
       "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.0",
       "plugins": [
         "ivanha-dev.openproject"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "ivo922/everforest-theme": {
       "state": "listed",
