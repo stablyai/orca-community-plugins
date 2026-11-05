@@ -1346,8 +1346,8 @@
       "ownerId": 114482426,
       "source": {
         "kind": "git",
-        "url": "https://github.com/IvanHa-dev/mcp-openproject.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.2"
       },
       "description": "Community-built Orca sidebar and Rust MCP integration for OpenProject CE, with guarded ticket writes.",
       "categories": [

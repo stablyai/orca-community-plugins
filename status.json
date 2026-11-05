@@ -294,7 +294,7 @@
     },
     "ivanha-dev/mcp-openproject": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.2",
       "plugins": [
         "ivanha-dev.openproject"
       ]
@@ -359,6 +359,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "jondmarien/orca-discord-presence": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
