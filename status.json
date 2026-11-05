@@ -660,11 +660,11 @@
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "rejected",
-      "ref": "v1.1.1",
+      "ref": "v1.1.2",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (test/fixtures/macro.xlsm, test/fixtures/rich.xlsx, test/fixtures/styled.xlsx)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
