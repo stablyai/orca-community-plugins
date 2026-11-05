@@ -1624,6 +1624,68 @@
       ]
     },
     {
+      "id": "ivo922.liquid-syntax",
+      "ownerId": 59027079,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ivo922/liquid-syntax.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Shopify Liquid highlighting for .liquid files, with HTML, CSS, JavaScript and {% schema %} JSON inside them.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "b9c243c5eac1b591065d7dc80fb479f8c715e566",
+          "contentHash": "fe3567fbed34452a7073548e3c0206773cc183e0d7c02dc67589487b62067ae0",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Liquid Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Liquid",
+              "detail": ".liquid"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JavaScript (Liquid)",
+              "detail": ".js.liquid"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CSS (Liquid)",
+              "detail": ".css.liquid"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML (embedded in Liquid)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CSS (embedded in Liquid)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JavaScript (embedded in Liquid)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JSON (embedded in Liquid)"
+            }
+          ],
+          "fileTypes": [
+            "liquid"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ivo922/liquid-syntax",
+          "updatedAt": "2026-11-05T10:43:58+02:00"
+        }
+      ]
+    },
+    {
       "id": "jondmarien.discord-presence",
       "ownerId": 2687328,
       "source": {
