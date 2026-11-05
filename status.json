@@ -261,6 +261,16 @@
         "heath0xff.stillwater"
       ]
     },
+    "hubo1989/orca-codegraph-init": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "iml885203/orca-orbit": {
       "state": "rejected",
       "ref": "v0.1.1",
@@ -364,6 +374,16 @@
       "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.1",
       "plugins": [
         "jondmarien.discord-presence"
+      ]
+    },
+    "joneszeng/orca-orchestra": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "jrmatos/orca-radio-fm": {
