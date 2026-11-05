@@ -2680,6 +2680,52 @@
       ]
     },
     {
+      "id": "sumonta056.monokai-midnight",
+      "ownerId": 61287791,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sumonta056/orca-monokai-midnight.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A dark Monokai app and terminal theme with a deep editor and lighter sidebars, based on Bearded Theme Monokai Reversed.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "ad091a7c377395846a79165bb14bcd40f3100746",
+          "contentHash": "7388f873f3db9c975fe51817d86f8c2f66992595c59fec796ef819c429bf5fc0",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Monokai Midnight",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Monokai Midnight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monokai Midnight Terminal"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sumonta056.monokai-midnight/c776e5212d470093.png",
+              "alt": "Monokai Midnight in Orca, showing the sidebar, a TypeScript file in the editor and the terminal",
+              "sha256": "c776e5212d470093f6caf1e7e0b13f4cac689fd8e3a7dc6c764bf5692b33900e",
+              "width": 3200,
+              "height": 1612
+            }
+          },
+          "license": "GPL-3.0",
+          "repository": "https://github.com/Sumonta056/orca-monokai-midnight",
+          "updatedAt": "2026-11-05T18:05:39+06:00"
+        }
+      ]
+    },
+    {
       "id": "thailoc-dev.dev-toolbox",
       "ownerId": 113083148,
       "source": {

@@ -198,7 +198,7 @@
     },
     "faisalmuhammad/orca-graphiql": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "under-review",
@@ -430,6 +430,16 @@
         {
           "category": "validation",
           "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): catalog cannot replace protected security copy at rendererRecovery.reload"
+        }
+      ]
+    },
+    "ky1ezer0/orca-git-graph": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -674,6 +684,16 @@
         "reisen7.opencode-tps"
       ]
     },
+    "rgarciade/orca-containers": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "rolottr/orca-collapse": {
       "state": "listed",
       "ref": "refs/tags/rolottr/orca-collapse/1.0.0",
@@ -797,6 +817,13 @@
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
         }
+      ]
+    },
+    "sumonta056/orca-monokai-midnight": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "sumonta056.monokai-midnight"
       ]
     },
     "thailoc-dev/orca-dev-toolbox": {
