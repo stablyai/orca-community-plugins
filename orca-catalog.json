@@ -1730,8 +1730,8 @@
       "ownerId": 297254608,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jerrazuw/orca-gallery-panel.git",
-        "ref": "v1.5.1",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jerrazuw/orca-gallery-panel/gallery-panel-demo/1.5.1",
         "path": "plugin"
       },
       "description": "Background images for Orca: a side panel that rotates through your pictures. This install shows sample images; the panel explains how to show a folder of your own photos that updates as you add more.",
@@ -3112,8 +3112,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vale-c/orca-aura.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vale-c/orca-aura/1.0.0"
       },
       "description": "Aura Dark as app, syntax and terminal themes for Orca.",
       "categories": [
@@ -3336,8 +3336,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vale-c/orca-shades-of-purple.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vale-c/orca-shades-of-purple/1.0.0"
       },
       "description": "Shades of Purple and its Super Dark style as app, syntax and terminal themes for Orca.",
       "categories": [

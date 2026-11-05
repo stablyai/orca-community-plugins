@@ -256,11 +256,11 @@
     },
     "gentilfp/orca-snakai": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "reserved-name",
-          "detail": "id \"orca-snakai\" starts with \"orca-\", which is reserved for official plugins"
+          "category": "under-review",
+          "detail": "name"
         }
       ]
     },
@@ -356,7 +356,7 @@
     },
     "jerrazuw/orca-gallery-panel": {
       "state": "listed",
-      "ref": "v1.5.1",
+      "ref": "refs/tags/jerrazuw/orca-gallery-panel/gallery-panel-demo/1.5.1",
       "plugins": [
         "jerrazuw.gallery-panel-demo"
       ]
@@ -937,7 +937,7 @@
     },
     "vale-c/orca-aura": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/vale-c/orca-aura/1.0.0",
       "plugins": [
         "vale-c.aura"
       ]
@@ -951,7 +951,7 @@
     },
     "vale-c/orca-shades-of-purple": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/vale-c/orca-shades-of-purple/1.0.0",
       "plugins": [
         "vale-c.shades-of-purple"
       ]
