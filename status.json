@@ -182,9 +182,19 @@
         }
       ]
     },
+    "faisalmuhammad/orca-graphiql": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (editor/assets/codicon-DF1abBS2.ttf)"
+        }
+      ]
+    },
     "faisalmuhammad/orca-monospace-icons": {
       "state": "listed",
-      "ref": "refs/tags/faisalmuhammad/orca-monospace-icons/1.0.4",
+      "ref": "v1.0.5",
       "plugins": [
         "faisalmuhammad.monospace-icons"
       ]
@@ -272,6 +282,13 @@
       ],
       "sourceUnavailable": true
     },
+    "ivanha-dev/mcp-openproject": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "ivanha-dev.openproject"
+      ]
+    },
     "ivo922/everforest-theme": {
       "state": "listed",
       "ref": "refs/tags/ivo922/everforest-theme/1.0.0",
@@ -342,6 +359,13 @@
         {
           "category": "manifest-format"
         }
+      ]
+    },
+    "kianxm/orca-luau": {
+      "state": "listed",
+      "ref": "v1.0.2",
+      "plugins": [
+        "kianxm.luau-syntax"
       ]
     },
     "kolebayev/orca-md-layout": {
@@ -464,6 +488,16 @@
         {
           "category": "under-review",
           "detail": "code"
+        }
+      ]
+    },
+    "moseoh/orca-git-history": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
       ]
     },
@@ -633,7 +667,7 @@
         "reasons": [
           {
             "category": "under-review",
-            "detail": "code, update"
+            "detail": "code"
           }
         ]
       }

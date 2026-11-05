@@ -708,14 +708,56 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/faisalmuhammad/orca-monospace-icons/1.0.4"
+        "url": "https://github.com/faisalmuhammad/orca-monospace-icons.git",
+        "ref": "v1.0.5"
       },
       "description": "Monospace file icons for Orca, covering programming languages, documents, images, data files, and configuration files.",
       "categories": [
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.0.5",
+          "commit": "5e6823d5654b9b5f98d43f90355c5e5f1da094ee",
+          "contentHash": "66c607c6e9bbe0f2cf97dc7d53cdca0d69913b967ec1d23f58f089518e1cc954",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Monospace Icons",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Monospace Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.monospace-icons/66e004566dc2406f.png",
+              "alt": "Monospace Icons cover showing an explorer and icons for programming languages, documents, images, and data files",
+              "sha256": "66e004566dc2406f4cbf6c34263a227adcdc6c49179452781b0a5d770a2ccdd8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.monospace-icons/ddf4eabc96dc5207.png",
+              "alt": "Monospace Icons icon",
+              "sha256": "ddf4eabc96dc520745ced552bafa52314a3573d1bc5a090445c6d71030c3358f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.monospace-icons/0602de7bb5822e1f.png",
+                "alt": "Rendered preview of 24 file types including programming languages, documents, images, data formats, and tools",
+                "sha256": "0602de7bb5822e1f4d9a700975943d472fd7465be41f6aaf20492cbbeb820d0f",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-monospace-icons",
+          "updatedAt": "2026-11-04T23:55:38Z"
+        },
         {
           "version": "1.0.4",
           "commit": "d62558e00628824a76651ed1992daee7f637fc68",
@@ -1043,6 +1085,72 @@
       ]
     },
     {
+      "id": "ivanha-dev.openproject",
+      "ownerId": 114482426,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/IvanHa-dev/mcp-openproject.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Community-built Orca sidebar and Rust MCP integration for OpenProject CE, with guarded ticket writes.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7c917eb0e0d7e207b8801d8e67b85eb23b02b9cf",
+          "contentHash": "3555fd7b961fb401e3c866564ba5c41cca574a59f8c6d51d2e664837ac81f9cd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenProject MCP for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenProject"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenProject: Refresh Projects & Tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenProject: Clear Local Ticket Cache"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenProject"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ivanha-dev.openproject/e204b24d4c2d8125.png",
+              "alt": "Illustration of the OpenProject MCP for Orca ticket panel using synthetic demo tasks",
+              "sha256": "e204b24d4c2d8125187fca72f1c0fcb5b6162bd9867ef58f9fb325667d21c125",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/IvanHa-dev/mcp-openproject",
+          "updatedAt": "2026-11-05T07:06:38+07:00"
+        }
+      ]
+    },
+    {
       "id": "ivo922.everforest-theme",
       "ownerId": 59027079,
       "source": {
@@ -1125,6 +1233,43 @@
           "license": "MIT",
           "repository": "https://github.com/ivo922/everforest-theme",
           "updatedAt": "2026-11-02T08:49:50+02:00"
+        }
+      ]
+    },
+    {
+      "id": "kianxm.luau-syntax",
+      "ownerId": 73912215,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/kianxm/orca-luau.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Luau highlighting for .luau and .lua files: type annotations, generics, string interpolation, attributes and the Roblox standard library.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "de2bdd778acb3925b2e024f8a0465ca429697e0f",
+          "contentHash": "9f34fbae3f3b9981ea92d61b176807cfc1da6370174de5e5eef28b797a18a390",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Luau Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Luau",
+              "detail": ".luau, .lua"
+            }
+          ],
+          "fileTypes": [
+            "luau",
+            "lua"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/kianxm/orca-luau",
+          "updatedAt": "2026-11-04T16:19:41-08:00"
         }
       ]
     },
