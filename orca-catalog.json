@@ -2964,13 +2964,39 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/thailoc-dev/orca-dev-toolbox.git",
-        "ref": "v0.1.0"
+        "ref": "v0.6.2"
       },
-      "description": "Everyday developer tools in Orca's sidebar, offline: JWT decoder, timestamps, cron, Base64, URL, UUID v4/v7, hashes and HMAC, JSON formatter and regex tester.",
+      "description": "43 offline developer tools in Orca's sidebar: JWT, certificates, Docker run to Compose, .env to Kubernetes, JSONPath, semver, 2FA codes, mock data, VietQR and more.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "c8a1ec3132a5c56e551dc50d57ebba7972616b75",
+          "contentHash": "3ec6a8cc354e83447f4edc25630eb0398c031aeb399c2d225bba92c679eee430",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "Dev Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Dev Toolbox"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.dev-toolbox/462a77b986f78796.png",
+              "alt": "Dev Toolbox in Orca's sidebar: the tool list, a docker run command converted to a Compose service, and a VietQR bank-transfer code",
+              "sha256": "462a77b986f787960c4395669151eeff452a623eae9a86baed517736ab6f94e3",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-dev-toolbox",
+          "updatedAt": "2026-11-05T23:28:13+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "a890386f8215ae75445651a7075bcf0dd946c7ad",

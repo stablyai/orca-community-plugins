@@ -658,6 +658,16 @@
         }
       ]
     },
+    "narimanisakhanov-creator/orca-xlsx-editor": {
+      "state": "rejected",
+      "ref": "v1.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (test/fixtures/macro.xlsm, test/fixtures/rich.xlsx, test/fixtures/styled.xlsx)"
+        }
+      ]
+    },
     "nknwns/orca-wakatime": {
       "state": "rejected",
       "ref": "v0.2.0",
@@ -913,19 +923,10 @@
     },
     "thailoc-dev/orca-dev-toolbox": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.6.2",
       "plugins": [
         "thailoc-dev.dev-toolbox"
-      ],
-      "update": {
-        "ref": "v0.6.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "thailoc-dev/orca-pptx-viewer": {
       "state": "listed",
