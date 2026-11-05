@@ -1346,8 +1346,8 @@
       "ownerId": 114482426,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.0"
+        "url": "https://github.com/IvanHa-dev/mcp-openproject.git",
+        "ref": "v0.1.2"
       },
       "description": "Community-built Orca sidebar and Rust MCP integration for OpenProject CE, with guarded ticket writes.",
       "categories": [
@@ -1355,6 +1355,56 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "aaefcbfc1580ce37a4c77a1cfa844841cd1c3ebc",
+          "contentHash": "48db107e7a9b4974918a28fcf23d9afbf8b091e6e38cb78c3fa5fe5dc519317b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenProject MCP for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenProject"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenProject: Refresh Projects & Tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenProject: Clear Local Ticket Cache"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenProject"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ivanha-dev.openproject/e204b24d4c2d8125.png",
+              "alt": "Illustration of the OpenProject MCP for Orca ticket panel using synthetic demo tasks",
+              "sha256": "e204b24d4c2d8125187fca72f1c0fcb5b6162bd9867ef58f9fb325667d21c125",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/IvanHa-dev/mcp-openproject",
+          "updatedAt": "2026-04-11T11:12:00Z"
+        },
         {
           "version": "0.1.0",
           "commit": "7c917eb0e0d7e207b8801d8e67b85eb23b02b9cf",

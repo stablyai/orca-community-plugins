@@ -121,6 +121,16 @@
         "dawidwetzler.cobalt2-theme"
       ]
     },
+    "ddantran/orca-rails-syntax": {
+      "state": "rejected",
+      "ref": "v0.2.2",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "no catalog release entry: committed plugin is not installable (a catalog would list it differently: the listed contributions do not match the catalog release)"
+        }
+      ]
+    },
     "dennib/finline": {
       "state": "rejected",
       "ref": "v0.1.2",
@@ -284,19 +294,10 @@
     },
     "ivanha-dev/mcp-openproject": {
       "state": "listed",
-      "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.0",
+      "ref": "v0.1.2",
       "plugins": [
         "ivanha-dev.openproject"
-      ],
-      "update": {
-        "ref": "v0.1.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "ivo922/everforest-theme": {
       "state": "listed",
