@@ -2766,15 +2766,125 @@
       "ownerId": 61287791,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sumonta056/orca-monokai-midnight/1.0.0"
+        "url": "https://github.com/Sumonta056/orca-monokai-midnight.git",
+        "ref": "v1.1.0"
       },
-      "description": "A dark Monokai app and terminal theme with a deep editor and lighter sidebars, based on Bearded Theme Monokai Reversed.",
+      "description": "Monokai-style dark theme with deeper backgrounds, a matching terminal, and rich syntax for Java, Vue, Go, Python, C and C++.",
       "categories": [
         "themes",
-        "terminal-themes"
+        "terminal-themes",
+        "languages"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "5ae5812c5e6ac07ff754bc9ef2861f5dd034ca66",
+          "contentHash": "6447de473bc8cf2e608d7f98f21bb1373c4070f7bdfb99be28baafd820f5ef00",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Midnight Dev with Rich Syntax",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Midnight Dev"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Midnight Dev Terminal"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Java",
+              "detail": ".java"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Go",
+              "detail": ".go"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Python",
+              "detail": ".py, .pyi, .pyw"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Python Regular Expressions"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "C",
+              "detail": ".c"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "C++",
+              "detail": ".cpp, .cc, .cxx, .c++, .hpp, .hh, .hxx, .h++, .h, .inl, .ipp, .tpp"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "C++ Macros"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Vue",
+              "detail": ".vue"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML (Vue templates)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "TypeScript (embedded)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JavaScript (embedded)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CSS (embedded)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "SCSS (embedded)"
+            }
+          ],
+          "fileTypes": [
+            "java",
+            "go",
+            "py",
+            "pyi",
+            "pyw",
+            "c",
+            "cpp",
+            "cc",
+            "cxx",
+            "c++",
+            "hpp",
+            "hh",
+            "hxx",
+            "h++",
+            "h",
+            "inl",
+            "ipp",
+            "tpp",
+            "vue"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sumonta056.monokai-midnight/eeb4da3430a63112.png",
+              "alt": "Midnight Dev in Orca, showing the sidebar, a TypeScript file in the editor and the terminal",
+              "sha256": "eeb4da3430a63112ea3aeac7e10cdc5c319b641b9a829c379ef267547aecdb96",
+              "width": 3200,
+              "height": 1612
+            }
+          },
+          "license": "GPL-3.0",
+          "repository": "https://github.com/Sumonta056/orca-monokai-midnight",
+          "updatedAt": "2026-11-05T21:26:12+06:00"
+        },
         {
           "version": "1.0.0",
           "commit": "ad091a7c377395846a79165bb14bcd40f3100746",
