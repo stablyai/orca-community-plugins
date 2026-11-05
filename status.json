@@ -23,14 +23,11 @@
     },
     "baroned1707/orca-claude-accounts": {
       "state": "rejected",
-      "ref": "v0.12.0",
+      "ref": "v0.13.0",
       "reasons": [
         {
-          "category": "manifest-format"
-        },
-        {
-          "category": "publisher",
-          "detail": "publisher \"baroned\" is not the GitHub owner \"baroned1707\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"baroned1707\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
