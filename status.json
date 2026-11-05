@@ -210,6 +210,16 @@
         "faisalmuhammad.monospace-themes"
       ]
     },
+    "felix-lj-ct/orca-agent-inbox": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "fullfran/orca-plugins": {
       "state": "rejected",
       "ref": null,
