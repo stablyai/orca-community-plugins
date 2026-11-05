@@ -1,6 +1,13 @@
 {
   "statusVersion": 1,
   "repos": {
+    "alexesprit/orca-unfancy-file-icons": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "alexesprit.unfancy-file-icons"
+      ]
+    },
     "alexeyshishin/as-orca-plugins": {
       "state": "rejected",
       "ref": null,
@@ -569,6 +576,19 @@
         }
       ]
     },
+    "mortik/orca-dev-server": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        },
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "moseoh/orca-git-history": {
       "state": "rejected",
       "ref": "v0.1.2",
@@ -834,6 +854,16 @@
       "ref": "refs/tags/sumonta056/orca-monokai-midnight/1.0.0",
       "plugins": [
         "sumonta056.monokai-midnight"
+      ]
+    },
+    "telchine/orca-now-playing": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "thailoc-dev/orca-dev-toolbox": {

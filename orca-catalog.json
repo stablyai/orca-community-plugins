@@ -5,6 +5,46 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "alexesprit.unfancy-file-icons",
+      "ownerId": 1119267,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexesprit/orca-unfancy-file-icons.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Generic category file icons in Octicons, Codicons, and Lucide, with one balanced palette for light and dark backgrounds.",
+      "categories": [
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "9efea299b40b9a808c7b1dc34f890dd9b5f22428",
+          "contentHash": "784e003925028e02c0d1ea1fac9290616e42e45d69141822a04300f49ef89d0e",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Unfancy file icons",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Unfancy file icons (Octicons)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Unfancy file icons (Codicons)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Unfancy file icons (Lucide)"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/alexesprit/orca-unfancy-file-icons",
+          "updatedAt": "2026-11-05T17:48:58+04:00"
+        }
+      ]
+    },
+    {
       "id": "be0hhh.cpp-kit",
       "ownerId": 182023099,
       "source": {
