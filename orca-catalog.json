@@ -5,6 +5,52 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "aamonnaig4.oled-pair",
+      "ownerId": 67522529,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aamonnaig4/orca-plugins.git",
+        "ref": "v1.0.0",
+        "path": "plugins/oled-pair"
+      },
+      "description": "True black and true white themes with matching terminal colors. The dark theme is an unchanged copy of the MIT-licensed Orca OLED theme.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "23e34c5c35a4d8f56460a1d6adae8f83e245a93d",
+          "contentHash": "e89301eeff4f9abbf939ff2e7e9e40ffa4b5737f15902de9193ddad770db0752",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "OLED Pair",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "OLED Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "OLED Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "OLED Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "OLED Light"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aamonnaig4/orca-plugins",
+          "updatedAt": "2026-11-05T21:19:45-06:00"
+        }
+      ]
+    },
+    {
       "id": "alexesprit.unfancy-file-icons",
       "ownerId": 1119267,
       "source": {
@@ -2589,8 +2635,8 @@
       "ownerId": 328516895,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Runzivo/rzv-orca-plugin.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/runzivo/rzv-orca-plugin/0.1.1"
       },
       "description": "Run each Orca workspace in its own Runzivo Firecracker microVM, reached over SSH with short-lived certificates. Billed in equivalent minutes from your Runzivo workspace credits.",
       "categories": [
@@ -3865,12 +3911,75 @@
       "ownerId": 78588705,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wurenrumian/canvas-view/0.1.5"
+        "url": "https://github.com/wurenrumian/canvas-view.git",
+        "ref": "v1.0.0"
       },
       "description": "Views images and SVGs on a canvas: drag to pan, wheel to zoom.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "f373014e991d8891d7a0264dd8ea03713b999526",
+          "contentHash": "47e8f6040ccfe479e8e913a20c9c3034a7605b826e25adf536db44176b2ed7bc",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Canvas View",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".png, .apng, .jpg, .jpeg, .gif, .webp, .bmp, .ico, .avif"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".svg"
+            }
+          ],
+          "fileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "editorFileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wurenrumian.canvas-view/1dce3bf959b28a75.png",
+              "alt": "Canvas View cover: a photo and a magnifier on an indigo to cyan gradient.",
+              "sha256": "1dce3bf959b28a75607493538f583db57aa0e70a25aab1427ca6252cabff5b00",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wurenrumian.canvas-view/5baf5b14ed0f7491.png",
+              "alt": "Canvas View icon",
+              "sha256": "5baf5b14ed0f749103ed570f7c26a785011b1cb58c69af5a2a67cb41f67dfe36",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wurenrumian/canvas-view",
+          "updatedAt": "2026-11-06T11:03:33+08:00"
+        },
         {
           "version": "0.1.5",
           "commit": "8916294b8ae770233eec3530da5b448f2dd4490f",

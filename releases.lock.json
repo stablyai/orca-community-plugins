@@ -1,4 +1,10 @@
 {
+  "aamonnaig4.oled-pair@1.0.0": {
+    "commit": "23e34c5c35a4d8f56460a1d6adae8f83e245a93d",
+    "contentHash": "e89301eeff4f9abbf939ff2e7e9e40ffa4b5737f15902de9193ddad770db0752",
+    "repoId": 1447783832,
+    "firstSeen": "2026-11-06T03:39:42.123Z"
+  },
   "alexesprit.unfancy-file-icons@1.0.0": {
     "commit": "9efea299b40b9a808c7b1dc34f890dd9b5f22428",
     "contentHash": "784e003925028e02c0d1ea1fac9290616e42e45d69141822a04300f49ef89d0e",
@@ -406,5 +412,11 @@
     "contentHash": "0dec9066c6d1b49b5fcd49c78d9af9024049f0bc0459c8bcae3c0da0eccb4d37",
     "repoId": 1443828386,
     "firstSeen": "2026-11-06T02:19:23.192Z"
+  },
+  "wurenrumian.canvas-view@1.0.0": {
+    "commit": "f373014e991d8891d7a0264dd8ea03713b999526",
+    "contentHash": "47e8f6040ccfe479e8e913a20c9c3034a7605b826e25adf536db44176b2ed7bc",
+    "repoId": 1443828386,
+    "firstSeen": "2026-11-06T03:39:42.123Z"
   }
 }

@@ -1,6 +1,13 @@
 {
   "statusVersion": 1,
   "repos": {
+    "aamonnaig4/orca-plugins": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "aamonnaig4.oled-pair"
+      ]
+    },
     "alexesprit/orca-unfancy-file-icons": {
       "state": "listed",
       "ref": "refs/tags/alexesprit/orca-unfancy-file-icons/1.0.0",
@@ -255,7 +262,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "under-review",
@@ -838,7 +845,7 @@
     },
     "runzivo/rzv-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/runzivo/rzv-orca-plugin/0.1.1",
       "plugins": [
         "runzivo.runzivo-sandboxes"
       ]
@@ -1091,7 +1098,7 @@
     },
     "wurenrumian/canvas-view": {
       "state": "listed",
-      "ref": "refs/tags/wurenrumian/canvas-view/0.1.5",
+      "ref": "v1.0.0",
       "plugins": [
         "wurenrumian.canvas-view"
       ]
