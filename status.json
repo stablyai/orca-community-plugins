@@ -20,7 +20,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "under-review",
@@ -834,6 +834,13 @@
       "ref": "refs/tags/rolottr/orca-no-worktrees/1.0.0",
       "plugins": [
         "rolottr.no-worktrees"
+      ]
+    },
+    "runzivo/rzv-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "runzivo.runzivo-sandboxes"
       ]
     },
     "sachabigou/synthwave-2077-orca": {

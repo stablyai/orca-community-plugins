@@ -2585,6 +2585,59 @@
       ]
     },
     {
+      "id": "runzivo.runzivo-sandboxes",
+      "ownerId": 328516895,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Runzivo/rzv-orca-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Run each Orca workspace in its own Runzivo Firecracker microVM, reached over SSH with short-lived certificates. Billed in equivalent minutes from your Runzivo workspace credits.",
+      "categories": [
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "b5beca2893492b8b4070a84428cd20cb93ee3066",
+          "contentHash": "08552b9f62f0f7a00b3cb97596a4848c7d41ee64da1ffd63de89160d8f85c7b8",
+          "execution": "declarative",
+          "minimumOrca": "1.4.246",
+          "name": "Runzivo Sandboxes",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-2vcpu-8gb.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-4vcpu-16gb.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-8vcpu-32gb.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-16vcpu-64gb.json"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/runzivo.runzivo-sandboxes/9d1be56c38c88900.png",
+              "alt": "Runzivo Sandboxes icon",
+              "sha256": "9d1be56c38c8890052fd1a65b028f944113b6bfbaea077b965c3b9c4180d2df1",
+              "width": 500,
+              "height": 500
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Runzivo/rzv-orca-plugin",
+          "updatedAt": "2026-11-05T20:08:01-05:00"
+        }
+      ]
+    },
+    {
       "id": "sachabigou.synthwave-2077",
       "ownerId": 97250860,
       "source": {
