@@ -1010,6 +1010,16 @@
         }
       ]
     },
+    "tourbut/claude-pin": {
+      "state": "rejected",
+      "ref": "v0.3.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "tourbut/orca-helm": {
       "state": "rejected",
       "ref": "v0.5.0",
