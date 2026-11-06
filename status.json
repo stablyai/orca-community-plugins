@@ -838,7 +838,7 @@
     },
     "runzivo/rzv-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/runzivo/rzv-orca-plugin/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "runzivo.runzivo-sandboxes"
       ]
@@ -1091,7 +1091,7 @@
     },
     "wurenrumian/canvas-view": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/wurenrumian/canvas-view/0.1.5",
       "plugins": [
         "wurenrumian.canvas-view"
       ]

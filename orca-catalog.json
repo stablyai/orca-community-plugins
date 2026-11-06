@@ -2589,14 +2589,59 @@
       "ownerId": 328516895,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/runzivo/rzv-orca-plugin/0.1.0"
+        "url": "https://github.com/Runzivo/rzv-orca-plugin.git",
+        "ref": "v0.1.1"
       },
       "description": "Run each Orca workspace in its own Runzivo Firecracker microVM, reached over SSH with short-lived certificates. Billed in equivalent minutes from your Runzivo workspace credits.",
       "categories": [
         "vm-recipes"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "8813b786a32c0500b4f69324e6aebd5854fef010",
+          "contentHash": "96723f722cd66b5f1a6feb61bc61035e822acbe5d5bdf6a7fead12bf112fb9e6",
+          "execution": "declarative",
+          "minimumOrca": "1.4.246",
+          "name": "Runzivo Sandboxes",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-2vcpu-8gb.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-4vcpu-16gb.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-8vcpu-32gb.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/runzivo-16vcpu-64gb.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/runzivo.runzivo-sandboxes/3dafc83a61019a19.webp",
+              "alt": "Runzivo Sandboxes for Orca: every Orca workspace in its own Firecracker VM over SSH, 2 to 16 vCPU, 8, 12 or 24 hour lifetime, billed in equivalent minutes",
+              "sha256": "3dafc83a61019a19cb2d3fd39d136bf8bbd8377309f5edf8faa4c271e8b4e77d",
+              "width": 3840,
+              "height": 2400
+            },
+            "icon": {
+              "path": "assets/runzivo.runzivo-sandboxes/1de555d322082c94.png",
+              "alt": "Runzivo Sandboxes icon",
+              "sha256": "1de555d322082c94f0a18ca2bb46ba98916ac2a4cc3e0ad0952ea56b997d0369",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Runzivo/rzv-orca-plugin",
+          "updatedAt": "2026-11-05T21:37:14-05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "b5beca2893492b8b4070a84428cd20cb93ee3066",
@@ -3820,8 +3865,8 @@
       "ownerId": 78588705,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wurenrumian/canvas-view.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wurenrumian/canvas-view/0.1.5"
       },
       "description": "Views images and SVGs on a canvas: drag to pan, wheel to zoom.",
       "categories": [],
