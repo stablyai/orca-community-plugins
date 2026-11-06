@@ -232,7 +232,16 @@
       "ref": "refs/tags/faisalmuhammad/orca-sidequest/0.2.0",
       "plugins": [
         "faisalmuhammad.sidequest"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "rejected",
@@ -1045,7 +1054,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "rejected",
-      "ref": "v1.0.9",
+      "ref": "v1.0.10",
       "reasons": [
         {
           "category": "under-review",
