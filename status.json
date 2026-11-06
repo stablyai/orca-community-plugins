@@ -838,7 +838,7 @@
     },
     "runzivo/rzv-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/runzivo/rzv-orca-plugin/0.1.0",
       "plugins": [
         "runzivo.runzivo-sandboxes"
       ]
