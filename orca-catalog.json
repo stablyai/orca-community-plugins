@@ -51,6 +51,60 @@
       ]
     },
     {
+      "id": "aamonnaig4.putt-request",
+      "ownerId": 67522529,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aamonnaig4/orca-plugins.git",
+        "ref": "v1.1.0",
+        "path": "plugins/putt-request"
+      },
+      "description": "Pixel-art mini golf in Orca's sidebar for the wait between agents. Offline and solo, with a private leaderboard.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "91e659a756683be6af90bc4c540ed45f8c0a60cc",
+          "contentHash": "13eec85770d8e84463355f101c5e6dd77b61092177b8e1be475e81a3957e2dd0",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Putt Request",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Putt Request"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/aamonnaig4.putt-request/f20d2406960bc2bf.png",
+              "alt": "The title Putt Request above three pixel-art mini golf holes on a dark starfield",
+              "sha256": "f20d2406960bc2bff59558b1da7ec233de43a3d96dea85a0171049ecc00486de",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/aamonnaig4.putt-request/e4fb3b3af499c444.png",
+                "alt": "Three screens: the game library, a putt being lined up on the hole Off By One, and the private leaderboard",
+                "sha256": "e4fb3b3af499c44414c7f04a18b90bbd43efb152f7a5e2b6fbc9849babd24e99",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aamonnaig4/orca-plugins",
+          "updatedAt": "2026-11-06T12:48:28-06:00"
+        }
+      ]
+    },
+    {
       "id": "alexesprit.unfancy-file-icons",
       "ownerId": 1119267,
       "source": {
@@ -95,8 +149,8 @@
       "ownerId": 125106464,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ArthurLauCS/agent-ansi-palettes.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/arthurlaucs/agent-ansi-palettes/0.1.0"
       },
       "description": "Terminal palettes tuned for coding agents that use ANSI-only themes, such as Claude Code in Dark or Light mode (ANSI colors only).",
       "categories": [
@@ -2699,6 +2753,70 @@
       ]
     },
     {
+      "id": "ronancodes.reminders",
+      "ownerId": 6930753,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/RonanCodes/orca-reminders.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Remind me later: set reminders tied to a workspace or tab, get a desktop notification when they are due, and snooze, move or tick them off from a sidebar panel.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "231e7ffcab2b6af8bf792c0928d0c6dd270091a4",
+          "contentHash": "1c4f30ac0887ce9681d0627b1f253460b140f4d201eddc34426b0ea87686f8b1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Reminders",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Reminders"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Remind me in 15 minutes about this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Remind me in 1 hour about this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Remind me tomorrow at 09:00 about this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Show pending reminders"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show",
+            "workspace:read",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/RonanCodes/orca-reminders",
+          "updatedAt": "2026-11-06T15:20:40+01:00"
+        }
+      ]
+    },
+    {
       "id": "runzivo.runzivo-sandboxes",
       "ownerId": 328516895,
       "source": {
@@ -3247,18 +3365,115 @@
       ]
     },
     {
+      "id": "superfly.sprites",
+      "ownerId": 22525303,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/superfly/orca-sprites.git",
+        "ref": "v0.1.3"
+      },
+      "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
+      "categories": [
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "18b4c04c62ad740ade1ac8d6b9cbe42c6353a9ae",
+          "contentHash": "2e29260e039803d62dde0aeb67da9168117a2870badcbaa71d49e229b9816c6f",
+          "execution": "declarative",
+          "minimumOrca": "1.4.246",
+          "name": "Sprites",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/sprites.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/superfly.sprites/3ede592ce919ebe1.jpg",
+              "alt": "Sprites for Orca, with the Fly.io logo, beside an illustration of the Fly.io balloon in swim goggles swimming underwater with fish",
+              "sha256": "3ede592ce919ebe17b37238dd67b58bb17360235fc853b630dcc86c5a01c6644",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/superfly.sprites/25ad4c598d6e567e.png",
+              "alt": "Sprites icon",
+              "sha256": "25ad4c598d6e567ed13445b5d1fe2cd58842c73a71ced06fb8fb5469eaa3b04a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/superfly.sprites/413b366bdaa73495.png",
+                "alt": "Orca's Create worktree dialog with Run on open at Per-Workspace Environment, showing Sprites as the recipe",
+                "sha256": "413b366bdaa73495383b6291c47b5f22d30efbb1c94d85a7f2b332d294f27a93",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/7e40855bcc2c9634.jpg",
+                "alt": "Provisioning VM: the recipe log shows a new Sprite being created, Orca being installed and the repository being cloned",
+                "sha256": "7e40855bcc2c9634d91539fddf11b79d427eedb95f0c2e94ee3531e94c9c0d4f",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/superfly.sprites/06b6b79c1994cf93.jpg",
+                "alt": "Claude Code in the workspace writes GREETING.md, which reads Hello from orca-demo-sprites-1f3f5676adb1 (Linux 6.1.182-s2)",
+                "sha256": "06b6b79c1994cf939ab7a88853ecf2d233a195901075af07173e469a807482e7",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/superfly/orca-sprites",
+          "updatedAt": "2026-11-06T21:20:42Z"
+        }
+      ]
+    },
+    {
       "id": "thailoc-dev.dev-toolbox",
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.6.2"
+        "url": "https://github.com/thailoc-dev/orca-dev-toolbox.git",
+        "ref": "v0.7.0"
       },
-      "description": "43 offline developer tools in Orca's sidebar: JWT, certificates, Docker run to Compose, .env to Kubernetes, JSONPath, semver, 2FA codes, mock data, VietQR and more.",
+      "description": "47 offline developer tools in Orca's sidebar: JWT, certificates, Docker run to Compose, .env to Kubernetes, JSONPath, User-Agent, ports, 2FA codes, VietQR, Vietnamese IDs and more.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.7.0",
+          "commit": "3de0a52da3a659ac886101aa8435029f9c9a1662",
+          "contentHash": "6d78befa9dc88184f93351a75e4f3283df8a492d15a4a07030d979c04131be3e",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Dev Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Dev Toolbox"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.dev-toolbox/a0553a74582996c2.png",
+              "alt": "Dev Toolbox in Orca's sidebar: the tool list, a docker run command converted to a Compose service, and a VietQR bank-transfer code",
+              "sha256": "a0553a74582996c255d8e65d3307787801a8c26d6b35211fa61d8360f5305a2c",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-dev-toolbox",
+          "updatedAt": "2026-11-06T22:01:55+07:00"
+        },
         {
           "version": "0.6.2",
           "commit": "c8a1ec3132a5c56e551dc50d57ebba7972616b75",
