@@ -1619,8 +1619,8 @@
       "ownerId": 53224831,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gek0v/orca-signature-themes.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gek0v/orca-signature-themes/1.0.2"
       },
       "description": "Curated dual-mode themes (Material 3, Dala, Discord, Dope Security, Raycast, zkPass, Miranda) with matching ANSI terminal palettes for Orca.",
       "categories": [

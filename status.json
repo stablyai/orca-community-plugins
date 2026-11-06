@@ -18,6 +18,16 @@
               "detail": "code"
             }
           ]
+        },
+        {
+          "path": "plugins/now-playing",
+          "id": "now-playing",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "code"
+            }
+          ]
         }
       ]
     },
@@ -384,7 +394,7 @@
     },
     "gek0v/orca-signature-themes": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/gek0v/orca-signature-themes/1.0.2",
       "plugins": [
         "gek0v.signature-themes"
       ],
@@ -1041,7 +1051,7 @@
     },
     "ryusenkei-inc/hostslot": {
       "state": "rejected",
-      "ref": "v0.9.0",
+      "ref": "v0.10.0",
       "reasons": [
         {
           "category": "under-review",
