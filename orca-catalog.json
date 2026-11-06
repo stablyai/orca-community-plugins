@@ -109,8 +109,8 @@
       "ownerId": 165061558,
       "source": {
         "kind": "git",
-        "url": "https://github.com/albuquerquesz/orca-github-dark-theme.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.2"
       },
       "description": "A GitHub Dark theme for Orca with a lighter neutral gray interface and matching terminal colors.",
       "categories": [
@@ -1611,6 +1611,156 @@
           "license": "MIT",
           "repository": "https://github.com/gaoshang212/orca-csharp",
           "updatedAt": "2026-11-02T16:35:44+08:00"
+        }
+      ]
+    },
+    {
+      "id": "gek0v.signature-themes",
+      "ownerId": 53224831,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gek0v/orca-signature-themes.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Curated dual-mode themes (Material 3, Dala, Discord, Dope Security, Raycast, zkPass, Miranda) with matching ANSI terminal palettes for Orca.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "f47961d5ff7dde91febbc9d0ff6671603fc19eec",
+          "contentHash": "9b84d106408d05cee6a78cf06179e96aedc40138e04bb68b93972a4b447dd50f",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Signature Themes & Terminal Presets",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Material 3 Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Material 3 Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Dala Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Dala Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Discord Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Discord Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Dope Security Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Dope Security Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Raycast Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Raycast Light"
+            },
+            {
+              "kind": "themes",
+              "name": "zkPass Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "zkPass Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Miranda Ink"
+            },
+            {
+              "kind": "themes",
+              "name": "Miranda Paper"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Material 3 Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Material 3 Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Dala Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Dala Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Discord Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Discord Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Dope Security Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Dope Security Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Raycast Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Raycast Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "zkPass Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "zkPass Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Miranda Ink"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Miranda Paper"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gek0v.signature-themes/23204105e69e6a43.png",
+              "alt": "Signature Themes preview featuring custom cards for Material 3, Dala, Discord, Dope Security, Raycast, zkPass, and Miranda with matching ANSI palettes",
+              "sha256": "23204105e69e6a436450a1a877b6ac6cab5db5f24b628a816b22bbd6808b341e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gek0v/orca-signature-themes",
+          "updatedAt": "2026-11-07T00:10:44+01:00"
         }
       ]
     },

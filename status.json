@@ -23,7 +23,7 @@
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.2",
       "plugins": [
         "albuquerquesz.github-dark-theme"
       ]
@@ -377,6 +377,16 @@
       "ref": "refs/tags/gaoshang212/orca-csharp/0.1.0",
       "plugins": [
         "gaoshang212.csharp"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "gek0v/orca-signature-themes": {
+      "state": "listed",
+      "ref": "v1.0.2",
+      "plugins": [
+        "gek0v.signature-themes"
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
@@ -1027,6 +1037,16 @@
       "ref": "refs/tags/runzivo/rzv-orca-plugin/0.1.1",
       "plugins": [
         "runzivo.runzivo-sandboxes"
+      ]
+    },
+    "ryusenkei-inc/hostslot": {
+      "state": "rejected",
+      "ref": "v0.9.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "sachabigou/synthwave-2077-orca": {
