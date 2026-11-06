@@ -35,6 +35,13 @@
         }
       ]
     },
+    "arthurlaucs/agent-ansi-palettes": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "arthurlaucs.agent-ansi-palettes"
+      ]
+    },
     "awallsr/orca-beads": {
       "state": "rejected",
       "ref": "v0.2.1",

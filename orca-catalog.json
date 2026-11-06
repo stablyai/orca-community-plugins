@@ -91,6 +91,74 @@
       ]
     },
     {
+      "id": "arthurlaucs.agent-ansi-palettes",
+      "ownerId": 125106464,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ArthurLauCS/agent-ansi-palettes.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Terminal palettes tuned for coding agents that use ANSI-only themes, such as Claude Code in Dark or Light mode (ANSI colors only).",
+      "categories": [
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "921ef86b4cb6deb537ceb6187e9821dd61ff1ca9",
+          "contentHash": "3fca3b57a603f47d81a2f8da992ee752812270bb10612e3097549a1768c0a98c",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Agent ANSI Palettes",
+          "contributes": [
+            {
+              "kind": "terminalThemes",
+              "name": "Graphite Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Graphite Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Terracotta Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Terracotta Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Signal Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Signal Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/arthurlaucs.agent-ansi-palettes/c6728a23f7867d4d.png",
+              "alt": "Graphite, Terracotta and Signal palettes, dark and light, on a Claude Code session in an ANSI-only theme",
+              "sha256": "c6728a23f7867d4dd00788baa1f6cab852f9a34e25c8168d7cbc26d8acc85d84",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/arthurlaucs.agent-ansi-palettes/29f7956511d16b68.png",
+              "alt": "Agent ANSI Palettes icon",
+              "sha256": "29f7956511d16b68c15201934167c6000042cd9b6ffc0ce5a5dc291b7e0a6e32",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ArthurLauCS/agent-ansi-palettes",
+          "updatedAt": "2026-11-05T21:26:04-08:00"
+        }
+      ]
+    },
+    {
       "id": "be0hhh.cpp-kit",
       "ownerId": 182023099,
       "source": {
