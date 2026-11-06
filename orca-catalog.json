@@ -3820,12 +3820,75 @@
       "ownerId": 78588705,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wurenrumian/canvas-view/0.1.1"
+        "url": "https://github.com/wurenrumian/canvas-view.git",
+        "ref": "v0.1.5"
       },
       "description": "Views images and SVGs on a canvas: drag to pan, wheel to zoom.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "8916294b8ae770233eec3530da5b448f2dd4490f",
+          "contentHash": "0dec9066c6d1b49b5fcd49c78d9af9024049f0bc0459c8bcae3c0da0eccb4d37",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Canvas View",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".png, .apng, .jpg, .jpeg, .gif, .webp, .bmp, .ico, .avif"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".svg"
+            }
+          ],
+          "fileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "editorFileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wurenrumian.canvas-view/1dce3bf959b28a75.png",
+              "alt": "Canvas View cover: a photo and a magnifier on an indigo to cyan gradient.",
+              "sha256": "1dce3bf959b28a75607493538f583db57aa0e70a25aab1427ca6252cabff5b00",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wurenrumian.canvas-view/5baf5b14ed0f7491.png",
+              "alt": "Canvas View icon",
+              "sha256": "5baf5b14ed0f749103ed570f7c26a785011b1cb58c69af5a2a67cb41f67dfe36",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wurenrumian/canvas-view",
+          "updatedAt": "2026-11-06T10:11:50+08:00"
+        },
         {
           "version": "0.1.1",
           "commit": "be056466a46af63de18ed27af6c95a19aa972e84",
