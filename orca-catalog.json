@@ -9,8 +9,8 @@
       "ownerId": 67522529,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aamonnaig4/orca-plugins.git",
-        "ref": "v1.0.0",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aamonnaig4/orca-plugins/oled-pair/1.0.0",
         "path": "plugins/oled-pair"
       },
       "description": "True black and true white themes with matching terminal colors. The dark theme is an unchanged copy of the MIT-licensed Orca OLED theme.",
@@ -3911,8 +3911,8 @@
       "ownerId": 78588705,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wurenrumian/canvas-view.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wurenrumian/canvas-view/1.0.0"
       },
       "description": "Views images and SVGs on a canvas: drag to pan, wheel to zoom.",
       "categories": [],

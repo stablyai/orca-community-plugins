@@ -3,7 +3,7 @@
   "repos": {
     "aamonnaig4/orca-plugins": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/aamonnaig4/orca-plugins/oled-pair/1.0.0",
       "plugins": [
         "aamonnaig4.oled-pair"
       ]
@@ -1098,7 +1098,7 @@
     },
     "wurenrumian/canvas-view": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/wurenrumian/canvas-view/1.0.0",
       "plugins": [
         "wurenrumian.canvas-view"
       ]
