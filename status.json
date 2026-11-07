@@ -243,7 +243,7 @@
     },
     "ehart004/orca-monokai-theme": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "v1.1.0",
       "plugins": [
         "ehart004.monokai-theme"
       ]
@@ -508,8 +508,8 @@
       "ref": "v1.3.0",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[0].images.cover: sha256 does not match assets/cover.png"
+          "category": "under-review",
+          "detail": "name"
         }
       ]
     },
@@ -793,7 +793,7 @@
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "listed",
-      "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.4",
+      "ref": "v1.1.5",
       "plugins": [
         "narimanisakhanov-creator.xlsx-editor"
       ]
@@ -931,7 +931,7 @@
     },
     "royklo/orca-rego": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/royklo/orca-rego/1.0.2",
       "plugins": [
         "royklo.rego-syntax"
       ]

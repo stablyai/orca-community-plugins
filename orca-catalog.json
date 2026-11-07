@@ -2073,14 +2073,43 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ehart004/orca-monokai-theme.git",
-        "ref": "v1.0.0"
+        "ref": "v1.1.0"
       },
-      "description": "The classic Monokai color scheme for Orca's app, editor and terminal.",
+      "description": "Monokai for Orca's app, editor and terminal: the classic palette, plus a variant matching VS Code's built-in Monokai.",
       "categories": [
         "themes",
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "cb34f750f3c62a243d02a350ac497b704e5c7235",
+          "contentHash": "82d114af8df4cc6e5081ba858de6b6057a03d3b3328db1fb0554a27e09d1e8bf",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Monokai",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Monokai"
+            },
+            {
+              "kind": "themes",
+              "name": "Monokai (VS Code)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monokai"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monokai (VS Code)"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ehart004/orca-monokai-theme",
+          "updatedAt": "2026-11-07T12:42:16-06:00"
+        },
         {
           "version": "1.0.0",
           "commit": "426be9c56dc98c0ecb9946ea29f79696f92581dd",
@@ -6056,12 +6085,67 @@
       "ownerId": 291232506,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.4"
+        "url": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor.git",
+        "ref": "v1.1.5"
       },
       "description": "Open and edit Excel workbooks in Orca with their formatting: fills, fonts, borders, number formats, merged cells, frozen panes and every sheet. Insert or delete rows and columns with formulas and references updated safely, search the whole workbook, and copy with formatting. Saves in place without t",
       "categories": [],
       "releases": [
+        {
+          "version": "1.1.5",
+          "commit": "cd9285b205f73c86bd20360984613423094832ba",
+          "contentHash": "06b4fd4336c0780cfbd36d5ed8bd06ed0135627807fdffc96ff9e967afc46def",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "XLSX Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Workbook",
+              "detail": ".xlsx, .xlsm"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send"
+          ],
+          "fileTypes": [
+            "xlsx",
+            "xlsm"
+          ],
+          "editorFileTypes": [
+            "xlsx",
+            "xlsm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/narimanisakhanov-creator.xlsx-editor/b76456fc3c655aa8.png",
+              "alt": "A ledger workbook in the editor: painted header, banded rows with borders, currency and percentage columns, frozen panes, and the copy and export controls",
+              "sha256": "b76456fc3c655aa858d1cd32f1dd552f79e5acd1ff7f94856b9863e4a28d57aa",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/narimanisakhanov-creator.xlsx-editor/e7c8035ce082ae1d.png",
+              "alt": "XLSX Editor icon",
+              "sha256": "e7c8035ce082ae1d23f9224187c0ff283ccf9c43587ff95d67c2f3444faea079",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/narimanisakhanov-creator.xlsx-editor/4cbc74c2e754e655.png",
+                "alt": "A ledger with a painted header, alternating row fills, thin borders and formatted numbers",
+                "sha256": "4cbc74c2e754e655fef173a797e0258cc7a6c3bd7f67914b95cc1f06163f4453",
+                "width": 1369,
+                "height": 867
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor",
+          "updatedAt": "2026-11-07T22:09:03+03:00"
+        },
         {
           "version": "1.1.4",
           "commit": "26934633b2e3d92afc66d4e1d2c44d59df54d27a",
@@ -7047,8 +7131,8 @@
       "ownerId": 76492458,
       "source": {
         "kind": "git",
-        "url": "https://github.com/royklo/orca-rego.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/royklo/orca-rego/1.0.2"
       },
       "description": "Syntax highlighting for Open Policy Agent Rego (.rego) files.",
       "categories": [
