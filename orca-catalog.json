@@ -9,8 +9,8 @@
       "ownerId": 67522529,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aamonnaig4/orca-plugins.git",
-        "ref": "v1.2.0",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aamonnaig4/orca-plugins/activity-monitor/1.0.0",
         "path": "plugins/activity-monitor"
       },
       "description": "Live CPU cores, memory, network, disk, GPU and processes in Orca's sidebar, with a health strip that warns before your computer locks up.",
@@ -69,8 +69,8 @@
       "ownerId": 67522529,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aamonnaig4/orca-plugins.git",
-        "ref": "v1.2.0",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aamonnaig4/orca-plugins/now-playing/1.3.1",
         "path": "plugins/now-playing"
       },
       "description": "Control Spotify or Apple Music from Orca: now playing, controls, your library, search, queue and devices, in the sidebar. On a Mac it works with no setup; connecting Spotify adds your library and Queue.",
@@ -392,8 +392,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.2"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -516,8 +516,8 @@
       "ownerId": 79927536,
       "source": {
         "kind": "git",
-        "url": "https://github.com/awallsr/orca-beads.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/awallsr/orca-beads/0.2.1"
       },
       "description": "Beads task tracking in Orca's sidebar: browse, create, claim, close and start tasks in their own worktrees.",
       "categories": [
@@ -563,8 +563,8 @@
       "ownerId": 61402493,
       "source": {
         "kind": "git",
-        "url": "https://github.com/baroned1707/orca-claude-accounts.git",
-        "ref": "v0.13.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/baroned1707/orca-claude-accounts/0.13.0"
       },
       "description": "Add, label, update, remove and switch Claude Code accounts (one-year `claude setup-token` tokens kept in your system secret store), with token checks and per-account usage. The sidebar panel works on desktop, Orca mobile and the browser client.",
       "categories": [
@@ -650,8 +650,8 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BautistaPessagno/orca-spotify.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bautistapessagno/orca-spotify/0.3.2"
       },
       "description": "Control Spotify from Orca: the desktop app on macOS, or any device through the Spotify Web API. Not affiliated with Spotify.",
       "categories": [
@@ -903,8 +903,8 @@
       "ownerId": 274619991,
       "source": {
         "kind": "git",
-        "url": "https://github.com/bhojanibilal24/orca-activity-calendar.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bhojanibilal24/orca-activity-calendar/0.1.4"
       },
       "description": "A sidebar activity calendar for Codex and Claude: work blocks, parallel agents, Orca thread names, work recaps, and CSV timesheets. Reads local history; no external service.",
       "categories": [
@@ -1167,8 +1167,8 @@
       "ownerId": 77089596,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chrisluo5311/orca-snippet.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chrisluo5311/orca-snippet/0.1.1"
       },
       "description": "Save reusable commands and prompts, search them, and send them to a terminal or copy them in one click.",
       "categories": [
@@ -1212,8 +1212,8 @@
       "ownerId": 76873351,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cmdaltctr/orca-plugin-openspec.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.0"
       },
       "description": "See your OpenSpec changes on one board inside Orca. Each change shows its stage, planning files and task progress, across the current worktree and its sibling worktrees. Press Apply to send a change to a running agent.",
       "categories": [
@@ -1302,8 +1302,8 @@
       "ownerId": 76873351,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cmdaltctr/orca-plugin-prs-actions-releases-status.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cmdaltctr/orca-plugin-prs-actions-releases-status/0.1.2"
       },
       "description": "Shows the pull requests, GitHub Actions checks and release state of the project in your focused Orca workspace. It is for developers who ship from GitHub. Read the checks of any branch or added repository, re-run failed checks, and ask an agent to take over a release.",
       "categories": [
@@ -1536,8 +1536,8 @@
       "ownerId": 13068594,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dennib/finline.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dennib/finline/0.2.0"
       },
       "description": "Git graph for the active worktree: branches, tags and remotes in colored lanes, commit details, and git actions from a right-click.",
       "categories": [
@@ -2072,8 +2072,8 @@
       "ownerId": 5036316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eliasjnior/orca-script-runner.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eliasjnior/orca-script-runner/1.2.0"
       },
       "description": "Run your worktree's orca.yaml scripts from the right sidebar.",
       "categories": [
@@ -2133,8 +2133,8 @@
       "ownerId": 5036316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eliasjnior/orca-worktree-notes.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eliasjnior/orca-worktree-notes/1.2.0"
       },
       "description": "Notion-style Markdown notes for each worktree, in the right sidebar.",
       "categories": [
@@ -2194,8 +2194,8 @@
       "ownerId": 43491715,
       "source": {
         "kind": "git",
-        "url": "https://github.com/emamalet/orca-git-log-panel.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.5"
       },
       "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
       "categories": [
@@ -2293,8 +2293,8 @@
       "ownerId": 4644133,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eskono/orca-docker-logs.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eskono/orca-docker-logs/0.4.0"
       },
       "description": "Your Docker Compose containers in Orca: live logs with errors highlighted, stack traces that open the code, CPU and memory history, ports, start/stop/rebuild, a shell, and Ask agent.",
       "categories": [
@@ -2381,8 +2381,8 @@
       "ownerId": 61019402,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Etherll/orca-usage-insights.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/etherll/orca-usage-insights/1.0.1"
       },
       "description": "Charts of your Claude Code and Codex token use and estimated API cost by day, project, model and machine, with a pixel-art skyline drawn from the numbers. Reads local transcripts and any SSH hosts you add.",
       "categories": [
@@ -2470,8 +2470,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-graphiql.git",
-        "ref": "v0.1.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-graphiql/0.1.6"
       },
       "description": "A GraphiQL integration for Orca with saved sessions, named environments, schema exploration, and secure authentication.",
       "categories": [
@@ -2750,8 +2750,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-sidequest.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-sidequest/0.5.0"
       },
       "description": "Refresh your mind with quick games while your agents work. One compact sidebar, with saved progress and room for more games.",
       "categories": [
@@ -2877,8 +2877,8 @@
       "ownerId": 75980151,
       "source": {
         "kind": "git",
-        "url": "https://github.com/felix-lj-ct/orca-agent-inbox.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.1.2"
       },
       "description": "What your agents and scripts wait on you for, in one sidebar panel: workspaces they parked on the board with the reason, and the messages they sent. They call one CLI at the points of your workflow that need you.",
       "categories": [
@@ -3398,8 +3398,8 @@
       "ownerId": 770080,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hubo1989/orca-codegraph-init.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hubo1989/orca-codegraph-init/0.1.0"
       },
       "description": "Runs codegraph init --yes in newly created workspaces (observe-only hook, detached).",
       "categories": [],
@@ -3431,8 +3431,8 @@
       "ownerId": 17023091,
       "source": {
         "kind": "git",
-        "url": "https://github.com/iml885203/orca-orbit.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/iml885203/orca-orbit/0.1.1"
       },
       "description": "Read-only Orbit status: running instances, each instance's containers and services, SQL project sync, and logs in a terminal tab.",
       "categories": [
@@ -3515,8 +3515,8 @@
       "ownerId": 114482426,
       "source": {
         "kind": "git",
-        "url": "https://github.com/IvanHa-dev/mcp-openproject.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.4"
       },
       "description": "Community-built Orca sidebar and Rust MCP integration for OpenProject CE, with guarded ticket writes.",
       "categories": [
@@ -3871,8 +3871,8 @@
       "ownerId": 344299046,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jig-harness/orca-plugin.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jig-harness/orca-plugin/0.1.0"
       },
       "description": "Wakes Jig's dispatcher when an agent stops for input or finishes in a repository that uses Jig, and shows what the tick did.",
       "categories": [
@@ -3914,8 +3914,8 @@
       "ownerId": 24722398,
       "source": {
         "kind": "git",
-        "url": "https://github.com/JoDaC/orca-git-controls.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jodac/orca-git-controls/0.1.0"
       },
       "description": "IDE-style Git controls for Orca: a branches panel and Git menu to switch, create, merge, rebase, compare and delete branches in the focused workspace, with Smart Checkout and worktree-aware checkout.",
       "categories": [
@@ -4391,8 +4391,8 @@
       "ownerId": 37136863,
       "source": {
         "kind": "git",
-        "url": "https://github.com/JonesZeng/orca-orchestra.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/joneszeng/orca-orchestra/0.2.2"
       },
       "description": "See and steer Orca orchestration runs on this computer or a saved server: a live task DAG, workers and decisions, with every write previewed before it is sent.",
       "categories": [
@@ -4584,8 +4584,8 @@
       "ownerId": 61507247,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ky1ezer0/orca-git-graph.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.1"
       },
       "description": "Searchable, auto-refreshing Git graph with confirmed Git actions and one-click remote fetch for local Orca workspaces.",
       "categories": [
@@ -4640,8 +4640,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Kyino-Pan/agents-director.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kyino-pan/agents-director/0.1.1"
       },
       "description": "A rolling 7-day agent timeline reconstructed from Orca logs, with live status updates and orchestration message arrows.",
       "categories": [
@@ -4721,8 +4721,8 @@
       "ownerId": 268206566,
       "source": {
         "kind": "git",
-        "url": "https://github.com/lindoo67/drawio-plugin.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lindoo67/drawio-plugin/0.1.5"
       },
       "description": "在 Orca 中离线创建和编辑 draw.io 流程图、架构图及多页图表。",
       "categories": [],
@@ -4864,8 +4864,8 @@
       "ownerId": 47753684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/marco-calderon/nord-midnight-orca-theme.git",
-        "ref": "v1.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/marco-calderon/nord-midnight-orca-theme/1.3.0"
       },
       "description": "Nord on a deeper, uniform #1C1E21 background that is easier on the eyes, plus a matching light theme.",
       "categories": [
@@ -4962,8 +4962,8 @@
       "ownerId": 113261345,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Mbirepinte/Orca-asciidoc-viewer.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/1.1.0"
       },
       "description": "Edit AsciiDoc source beside a live preview in Orca.",
       "categories": [],
@@ -5039,8 +5039,8 @@
       "ownerId": 131314046,
       "source": {
         "kind": "git",
-        "url": "https://github.com/MichelVelzr/ork-dbclient.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/michelvelzr/ork-dbclient/0.1.0"
       },
       "description": "Explore and query PostgreSQL, MySQL, MariaDB, Percona, SQLite and Redis from an Orca sidebar panel.",
       "categories": [
@@ -5274,8 +5274,8 @@
       "ownerId": 199264747,
       "source": {
         "kind": "git",
-        "url": "https://github.com/MolanoJF/orca-json-canvas.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/molanojf/orca-json-canvas/1.0.0"
       },
       "description": "View and edit Obsidian-compatible .canvas boards in Orca: cards, notes, images, groups and connections, with the same look, navigation and file format.",
       "categories": [],
@@ -5347,8 +5347,8 @@
       "ownerId": 45132207,
       "source": {
         "kind": "git",
-        "url": "https://github.com/moseoh/orca-git-history.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/moseoh/orca-git-history/0.1.2"
       },
       "description": "Git history in an editor tab: commits, changed files and side-by-side diffs for your workspace or one file.",
       "categories": [],
@@ -5456,8 +5456,8 @@
       "ownerId": 291232506,
       "source": {
         "kind": "git",
-        "url": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor.git",
-        "ref": "v1.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.3"
       },
       "description": "Open and edit Excel workbooks in Orca with their formatting: fills, fonts, borders, number formats, merged cells, frozen panes and every sheet. Saves in place without touching the parts it did not edit. Hands a selection or a sheet to an agent in your workspace as a Markdown table or TSV.",
       "categories": [],
@@ -5524,8 +5524,8 @@
       "ownerId": 75518063,
       "source": {
         "kind": "git",
-        "url": "https://github.com/nknwns/orca-wakatime.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/nknwns/orca-wakatime/0.2.0"
       },
       "description": "Unofficial WakaTime integration: tracks time on focused files, saves, terminals, the built-in browser and AI agents while Orca is in focus. Data goes only to your own WakaTime account.",
       "categories": [
@@ -5608,8 +5608,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.0"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
@@ -5771,8 +5771,8 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/plozmun/orca-redmine.git",
-        "ref": "v0.1.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/plozmun/orca-redmine/0.1.7"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
@@ -5830,8 +5830,8 @@
       "ownerId": 48266347,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Pr1p/orca-mermaid-editor.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pr1p/orca-mermaid-editor/0.3.1"
       },
       "description": "Editable Mermaid diagrams with live rendering: chart, split, and source views. Works with the Mermaid view toggle on .mmd files.",
       "categories": [],
@@ -5954,8 +5954,8 @@
       "ownerId": 10086855,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rgarciade/orca-containers.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rgarciade/orca-containers/0.1.1"
       },
       "description": "Manage your Docker engine (Colima, Docker Desktop, OrbStack, Podman, Rancher Desktop or any Docker context) and the Compose stacks, containers, ports and logs of the active worktree from Orca's right sidebar.",
       "categories": [
@@ -6263,8 +6263,8 @@
       "ownerId": 289414937,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ryusenkei-inc/hostslot.git",
-        "ref": "v0.10.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ryusenkei-inc/hostslot/0.10.0"
       },
       "description": "Machine capacity for parallel agents from Hostslot: what runs and waits, why, how much memory is free, and what a guard stopped.",
       "categories": [
@@ -6350,8 +6350,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.5.0"
       },
       "description": "A lightweight Git client inside Orca: a full-tab history graph with changes, branches, merge/rebase, stash, worktrees, git config, right-click menus, and AI commit messages and conflict resolution.",
       "categories": [
@@ -6439,8 +6439,8 @@
       "ownerId": 9272724,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SavenkoSy/orca-buttons.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/savenkosy/orca-buttons/0.1.0"
       },
       "description": "Your own buttons in the status bar. Each button types keys into an agent terminal or runs a shell command.",
       "categories": [
@@ -6535,8 +6535,8 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
-        "ref": "v1.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.1.3"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],
@@ -6608,8 +6608,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/senadaruc/orca-grazr.git",
-        "ref": "v0.8.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/senadaruc/orca-grazr/0.8.1"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -6945,8 +6945,8 @@
       "ownerId": 32491464,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shakedm100/orca-latex-preview.git",
-        "ref": "v0.4.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shakedm100/orca-latex-preview/0.4.2"
       },
       "description": "Adds PDF and Editor | PDF views to .tex files: the compiled document, or the source and the PDF side by side, rebuilt as you type, with source and PDF jumps, autocomplete and an outline.",
       "categories": [],
@@ -7039,8 +7039,8 @@
       "ownerId": 32491464,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shakedm100/orca-parquet-viewer.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shakedm100/orca-parquet-viewer/0.1.2"
       },
       "description": "Opens Apache Parquet files in the editor: a fast data grid with sort, filter and export, the schema, and file details with per-column statistics.",
       "categories": [],
@@ -7598,8 +7598,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tienne/orca-plugins.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tienne/orca-plugins/0.1.1"
       },
       "description": "Explore Git logs in a visual Git tree and commit graph. Compare changes in a read-only side-by-side diff and run confirmed Git actions in Orca.",
       "categories": [
@@ -7654,8 +7654,8 @@
       "ownerId": 42790398,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tourbut/claude-pin.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tourbut/claude-pin/0.3.1"
       },
       "description": "Pin a Claude Code account to each project. Agents Orca launches in a pinned project start with that account. Unofficial; not affiliated with or endorsed by Anthropic.",
       "categories": [
@@ -7712,8 +7712,8 @@
       "ownerId": 42790398,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tourbut/orca-helm.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tourbut/orca-helm/0.5.0"
       },
       "description": "Hands Orca's agent alerts (done, waiting, blocked) from Orca's agent.status.changed hook to Grok Bot. The alert half of orca-helm.",
       "categories": [

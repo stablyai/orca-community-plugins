@@ -3,7 +3,7 @@
   "repos": {
     "aamonnaig4/orca-plugins": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/aamonnaig4/orca-plugins/activity-monitor/1.0.0",
       "plugins": [
         "aamonnaig4.activity-monitor",
         "aamonnaig4.now-playing",
@@ -37,7 +37,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.2",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -51,7 +51,7 @@
     },
     "awallsr/orca-beads": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/awallsr/orca-beads/0.2.1",
       "plugins": [
         "awallsr.beads"
       ],
@@ -61,7 +61,7 @@
     },
     "baroned1707/orca-claude-accounts": {
       "state": "listed",
-      "ref": "v0.13.0",
+      "ref": "refs/tags/baroned1707/orca-claude-accounts/0.13.0",
       "plugins": [
         "baroned1707.claude-accounts"
       ],
@@ -72,7 +72,7 @@
     },
     "bautistapessagno/orca-spotify": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/bautistapessagno/orca-spotify/0.3.2",
       "plugins": [
         "bautistapessagno.now-playing"
       ],
@@ -111,7 +111,7 @@
     },
     "bhojanibilal24/orca-activity-calendar": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/bhojanibilal24/orca-activity-calendar/0.1.4",
       "plugins": [
         "bhojanibilal24.activity-calendar"
       ],
@@ -151,14 +151,14 @@
     },
     "chrisluo5311/orca-snippet": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/chrisluo5311/orca-snippet/0.1.1",
       "plugins": [
         "chrisluo5311.snippets"
       ]
     },
     "cmdaltctr/orca-plugin-openspec": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.0",
       "plugins": [
         "cmdaltctr.openspec"
       ],
@@ -168,7 +168,7 @@
     },
     "cmdaltctr/orca-plugin-prs-actions-releases-status": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/cmdaltctr/orca-plugin-prs-actions-releases-status/0.1.2",
       "plugins": [
         "cmdaltctr.release-status"
       ],
@@ -204,7 +204,7 @@
     },
     "dennib/finline": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/dennib/finline/0.2.0",
       "plugins": [
         "dennib.finline"
       ]
@@ -243,42 +243,42 @@
     },
     "eliasjnior/orca-script-runner": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/eliasjnior/orca-script-runner/1.2.0",
       "plugins": [
         "eliasjnior.script-runner"
       ]
     },
     "eliasjnior/orca-worktree-notes": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/eliasjnior/orca-worktree-notes/1.2.0",
       "plugins": [
         "eliasjnior.worktree-notes"
       ]
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.5",
       "plugins": [
         "emamalet.git-log"
       ]
     },
     "eskono/orca-docker-logs": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/eskono/orca-docker-logs/0.4.0",
       "plugins": [
         "eskono.docker-logs"
       ]
     },
     "etherll/orca-usage-insights": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/etherll/orca-usage-insights/1.0.1",
       "plugins": [
         "etherll.usage-insights"
       ]
     },
     "faisalmuhammad/orca-graphiql": {
       "state": "listed",
-      "ref": "v0.1.6",
+      "ref": "refs/tags/faisalmuhammad/orca-graphiql/0.1.6",
       "plugins": [
         "faisalmuhammad.graphiql"
       ],
@@ -308,14 +308,14 @@
     },
     "faisalmuhammad/orca-sidequest": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/faisalmuhammad/orca-sidequest/0.5.0",
       "plugins": [
         "faisalmuhammad.sidequest"
       ]
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.1.2",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -438,14 +438,14 @@
     },
     "hubo1989/orca-codegraph-init": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/hubo1989/orca-codegraph-init/0.1.0",
       "plugins": [
         "hubo1989.codegraph-init"
       ]
     },
     "iml885203/orca-orbit": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/iml885203/orca-orbit/0.1.1",
       "plugins": [
         "iml885203.orbit-status"
       ]
@@ -470,7 +470,7 @@
     },
     "ivanha-dev/mcp-openproject": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.4",
       "plugins": [
         "ivanha-dev.openproject"
       ]
@@ -501,14 +501,14 @@
     },
     "jig-harness/orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/jig-harness/orca-plugin/0.1.0",
       "plugins": [
         "jig-harness.jig"
       ]
     },
     "jodac/orca-git-controls": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/jodac/orca-git-controls/0.1.0",
       "plugins": [
         "jodac.git-controls"
       ]
@@ -532,7 +532,7 @@
     },
     "joneszeng/orca-orchestra": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/joneszeng/orca-orchestra/0.2.2",
       "plugins": [
         "joneszeng.orchestra"
       ]
@@ -575,14 +575,14 @@
     },
     "ky1ezer0/orca-git-graph": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.1",
       "plugins": [
         "ky1ezer0.git-graph"
       ]
     },
     "kyino-pan/agents-director": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/kyino-pan/agents-director/0.1.1",
       "plugins": [
         "kyino-pan.agent-activity"
       ]
@@ -607,7 +607,7 @@
     },
     "lindoo67/drawio-plugin": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/lindoo67/drawio-plugin/0.1.5",
       "plugins": [
         "lindoo67.drawio"
       ],
@@ -650,7 +650,7 @@
     },
     "marco-calderon/nord-midnight-orca-theme": {
       "state": "listed",
-      "ref": "v1.3.0",
+      "ref": "refs/tags/marco-calderon/nord-midnight-orca-theme/1.3.0",
       "plugins": [
         "marco-calderon.nord-midnight-theme"
       ]
@@ -664,7 +664,7 @@
     },
     "mbirepinte/orca-asciidoc-viewer": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/1.1.0",
       "plugins": [
         "mbirepinte.asciidoc-viewer"
       ],
@@ -674,7 +674,7 @@
     },
     "michelvelzr/ork-dbclient": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/michelvelzr/ork-dbclient/0.1.0",
       "plugins": [
         "michelvelzr.ork-dbclient"
       ]
@@ -716,7 +716,7 @@
     },
     "molanojf/orca-json-canvas": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/molanojf/orca-json-canvas/1.0.0",
       "plugins": [
         "molanojf.json-canvas"
       ]
@@ -736,7 +736,7 @@
     },
     "moseoh/orca-git-history": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/moseoh/orca-git-history/0.1.2",
       "plugins": [
         "moseoh.git-history"
       ]
@@ -770,14 +770,14 @@
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "listed",
-      "ref": "v1.1.3",
+      "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.3",
       "plugins": [
         "narimanisakhanov-creator.xlsx-editor"
       ]
     },
     "nknwns/orca-wakatime": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/nknwns/orca-wakatime/0.2.0",
       "plugins": [
         "nknwns.wakatime"
       ]
@@ -797,7 +797,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.0",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -814,14 +814,14 @@
     },
     "plozmun/orca-redmine": {
       "state": "listed",
-      "ref": "v0.1.7",
+      "ref": "refs/tags/plozmun/orca-redmine/0.1.7",
       "plugins": [
         "plozmun.redmine-tasks"
       ]
     },
     "pr1p/orca-mermaid-editor": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/pr1p/orca-mermaid-editor/0.3.1",
       "plugins": [
         "pr1p.mermaid-editor"
       ],
@@ -864,7 +864,7 @@
     },
     "rgarciade/orca-containers": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/rgarciade/orca-containers/0.1.1",
       "plugins": [
         "rgarciade.containers"
       ]
@@ -918,7 +918,7 @@
     },
     "ryusenkei-inc/hostslot": {
       "state": "listed",
-      "ref": "v0.10.0",
+      "ref": "refs/tags/ryusenkei-inc/hostslot/0.10.0",
       "plugins": [
         "ryusenkei-inc.hostslot"
       ]
@@ -935,7 +935,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.5.0",
       "plugins": [
         "satangbudsai.git-control"
       ],
@@ -945,14 +945,14 @@
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/savenkosy/orca-buttons/0.1.0",
       "plugins": [
         "savenkosy.buttons"
       ]
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "v1.1.3",
+      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.1.3",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ],
@@ -962,7 +962,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.8.1",
+      "ref": "refs/tags/senadaruc/orca-grazr/0.8.1",
       "plugins": [
         "senadaruc.grazr"
       ],
@@ -972,14 +972,14 @@
     },
     "shakedm100/orca-latex-preview": {
       "state": "listed",
-      "ref": "v0.4.2",
+      "ref": "refs/tags/shakedm100/orca-latex-preview/0.4.2",
       "plugins": [
         "shakedm100.latex-preview"
       ]
     },
     "shakedm100/orca-parquet-viewer": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/shakedm100/orca-parquet-viewer/0.1.2",
       "plugins": [
         "shakedm100.parquet-viewer"
       ]
@@ -1076,21 +1076,21 @@
     },
     "tienne/orca-plugins": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/tienne/orca-plugins/0.1.1",
       "plugins": [
         "tienne.git-logs"
       ]
     },
     "tourbut/claude-pin": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/tourbut/claude-pin/0.3.1",
       "plugins": [
         "tourbut.claude-pin"
       ]
     },
     "tourbut/orca-helm": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/tourbut/orca-helm/0.5.0",
       "plugins": [
         "tourbut.grokbot-notify"
       ]
