@@ -2939,6 +2939,54 @@
       ]
     },
     {
+      "id": "felipemayerdev.omarchy-sync",
+      "ownerId": 65250731,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/FelipeMayerDev/omarchy-theme-sync.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Follow the current Omarchy palette across Orca's interface, editor and terminal.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "442031374deb424e64dfc5435e85fd27c0316a8f",
+          "contentHash": "6378beb821e129ccfa98b0efa48cc6bd393993118138edca05b60df3cfe946cd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.253",
+          "name": "Omarchy Theme Sync",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Omarchy: Sync theme"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Omarchy"
+            }
+          ],
+          "capabilities": [
+            "appearance:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/felipemayerdev.omarchy-sync/6a43576b653c3eb6.webp",
+              "alt": "Omarchy Theme Sync: Omarchy wordmark and geometric logo beside an orca and colorful ribbons connecting a desktop and code editor.",
+              "sha256": "6a43576b653c3eb69e50914f7bdca605f24cbc1aa3d01e4b626d124d0d20236e",
+              "width": 1585,
+              "height": 992
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/FelipeMayerDev/omarchy-theme-sync",
+          "updatedAt": "2026-11-07T16:50:12-03:00"
+        }
+      ]
+    },
+    {
       "id": "felix-lj-ct.agent-inbox",
       "ownerId": 75980151,
       "source": {
