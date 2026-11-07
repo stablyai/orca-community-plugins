@@ -725,7 +725,7 @@
     },
     "miragon/orca-modelers": {
       "state": "listed",
-      "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.2.0",
+      "ref": "v0.1.18",
       "plugins": [
         "miragon.context-maps-modeler",
         "miragon.event-storming-modeler",
