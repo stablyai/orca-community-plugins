@@ -302,7 +302,7 @@
     },
     "faisalmuhammad/orca-graphiql": {
       "state": "listed",
-      "ref": "refs/tags/faisalmuhammad/orca-graphiql/0.1.6",
+      "ref": "v0.1.7",
       "plugins": [
         "faisalmuhammad.graphiql"
       ],
@@ -1089,7 +1089,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/superfly/orca-sprites/0.2.1",
       "plugins": [
         "superfly.sprites"
       ]
