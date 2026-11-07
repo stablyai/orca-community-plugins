@@ -887,19 +887,10 @@
     },
     "roflochinsky/beads-orca": {
       "state": "listed",
-      "ref": "refs/tags/roflochinsky/beads-orca/0.2.1",
+      "ref": "v0.2.4",
       "plugins": [
         "roflochinsky.beads"
-      ],
-      "update": {
-        "ref": "v0.2.4",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "rolottr/orca-collapse": {
       "state": "listed",
@@ -1084,7 +1075,7 @@
     },
     "thailoc-dev/orca-dracula-night": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/thailoc-dev/orca-dracula-night/0.2.0",
       "plugins": [
         "thailoc-dev.dracula-night"
       ]
