@@ -33,7 +33,7 @@
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
-      "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.3",
+      "ref": "v1.0.4",
       "plugins": [
         "albuquerquesz.github-dark-theme"
       ]
@@ -472,6 +472,13 @@
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
         }
+      ]
+    },
+    "hadisd/moonlit-pastel": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "hadisd.moonlit-pastel"
       ]
     },
     "heath0xff/stillwater": {

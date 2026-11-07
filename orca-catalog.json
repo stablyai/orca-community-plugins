@@ -109,8 +109,8 @@
       "ownerId": 165061558,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.3"
+        "url": "https://github.com/albuquerquesz/orca-github-dark-theme.git",
+        "ref": "v1.0.4"
       },
       "description": "A GitHub Dark theme for Orca with a lighter neutral gray interface and matching terminal colors.",
       "categories": [
@@ -118,6 +118,36 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.0.4",
+          "commit": "26a70117bb5f0d7ea1e38252b9b149cfc245d7df",
+          "contentHash": "3e063829eb0b9a8483e008762aabfb238db45c81fa6cc90a06638f1c932467ba",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "GitHub Dark for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "GitHub Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "GitHub Dark"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/albuquerquesz.github-dark-theme/50622ad8515042e4.png",
+              "alt": "GitHub Dark theme in Orca, framed on a light background with the adapted gray palette and syntax colors",
+              "sha256": "50622ad8515042e405882d0bfda9589addadae1c2984cba2362c6940a659170f",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/albuquerquesz/orca-github-dark-theme",
+          "updatedAt": "2026-11-06T22:49:17-03:00"
+        },
         {
           "version": "1.0.3",
           "commit": "756dacac9fd8dc042d71048ea3aa3fe005bf54e2",
@@ -1904,6 +1934,52 @@
           "license": "MIT",
           "repository": "https://github.com/gzimbron/vuejs-lang-orca",
           "updatedAt": "2026-11-02T19:52:36-06:00"
+        }
+      ]
+    },
+    {
+      "id": "hadisd.moonlit-pastel",
+      "ownerId": 125417294,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Hadisd/moonlit-pastel.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A dark, pale blue-violet theme with soft pastel pink, orange, yellow, green, cyan and lavender accents, plus a matching terminal theme.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "bd0fec5d66e1677eb128b6de7c165a7190545808",
+          "contentHash": "0d5788a8b5a69889373e0234385e8d0f18d19ade776b1a72d4edf7a0b75adf56",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Moonlit Pastel",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Moonlit Pastel"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Moonlit Pastel Terminal"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.moonlit-pastel/0fb06cc765b2c19e.png",
+              "alt": "Moonlit Pastel preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
+              "sha256": "0fb06cc765b2c19e2a12a88afcd5c61e07a72f118e592766cafa7a36f9f3af1d",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/moonlit-pastel",
+          "updatedAt": "2026-11-07T11:14:11+09:00"
         }
       ]
     },
