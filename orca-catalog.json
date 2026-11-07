@@ -1943,14 +1943,52 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Hadisd/quiet-pastel.git",
-        "ref": "v1.0.0"
+        "ref": "v1.1.0"
       },
-      "description": "A dark, pale blue-violet theme with soft pastel pink, orange, yellow, green, cyan and lavender accents, plus a matching terminal theme.",
+      "description": "Two dark, pale blue-violet themes with pastel accents and matching terminal themes: Quiet Pastel Moonlit (brighter) and Quiet Pastel Hush (dimmer).",
       "categories": [
         "themes",
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "3a86a0a31bc075bbded0f48941e629c00a19f920",
+          "contentHash": "cbe18bdbeb03b084d67b26c5200de1ad4772753f7fff04b7ba112387c8e51f79",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Quiet Pastel",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Hush"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Moonlit Terminal"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Hush Terminal"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.quiet-pastel/d19ec9c5d474c55e.png",
+              "alt": "Quiet Pastel Moonlit preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
+              "sha256": "d19ec9c5d474c55ee8daae3253d5155b701db2cf9cb3f890f668e0bb153e328d",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/quiet-pastel",
+          "updatedAt": "2026-11-07T12:06:46+09:00"
+        },
         {
           "version": "1.0.0",
           "commit": "c3f3a75ef60c0c627dfeba9be0772cb942fa0494",
