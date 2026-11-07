@@ -5,6 +5,122 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "aamonnaig4.activity-monitor",
+      "ownerId": 67522529,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aamonnaig4/orca-plugins.git",
+        "ref": "v1.2.0",
+        "path": "plugins/activity-monitor"
+      },
+      "description": "Live CPU cores, memory, network, disk, GPU and processes in Orca's sidebar, with a health strip that warns before your computer locks up.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "0aa7174d882d23a29c0b45b7f9cb1bcacefb94f9",
+          "contentHash": "376839067d6b90578025765378b5ad6ce1c93493452836a0fd37737af4d81821",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Activity Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Activity Monitor"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Critical"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/aamonnaig4.activity-monitor/569c3b2f606f0c73.png",
+              "alt": "Activity Monitor with live CPU, memory, network, disk and GPU graphs, and a red Critical strip offering to quit Google Chrome",
+              "sha256": "569c3b2f606f0c737c1379ba3e6752552a0917ea3a79c51cda48be52917c1a78",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/aamonnaig4.activity-monitor/9d43f6aa4df33773.png",
+                "alt": "The All tab with a large CPU chart and tiles, the CPU tab with a graph per core, and the Processes tab sorted by CPU",
+                "sha256": "9d43f6aa4df3377379e1480d4a62b4b4bec650b433285e621da18a1c5ee47df5",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aamonnaig4/orca-plugins",
+          "updatedAt": "2026-11-06T17:04:05-06:00"
+        }
+      ]
+    },
+    {
+      "id": "aamonnaig4.now-playing",
+      "ownerId": 67522529,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aamonnaig4/orca-plugins.git",
+        "ref": "v1.2.0",
+        "path": "plugins/now-playing"
+      },
+      "description": "Control Spotify or Apple Music from Orca: now playing, controls, your library, search, queue and devices, in the sidebar. On a Mac it works with no setup; connecting Spotify adds your library and Queue.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.3.1",
+          "commit": "0aa7174d882d23a29c0b45b7f9cb1bcacefb94f9",
+          "contentHash": "268f7fb17978c1b5a5ad2541908d617c29a00adc70c17bdefa8a7a18d1cbb338",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Now Playing",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Now Playing"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/aamonnaig4.now-playing/57c9592f8ee0e027.png",
+              "alt": "Now Playing in Orca's sidebar: a song with its cover art, the device menu open with volume, and the Library with Liked Songs, DJ and daylist",
+              "sha256": "57c9592f8ee0e027e365601266c1dbff415e5a7b3ab5f47dd1b473d8ba9bcc06",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/aamonnaig4.now-playing/cd8876d547768101.png",
+                "alt": "Three panels: the Library with Made for you and playlists, search results for lantern, and the Queue",
+                "sha256": "cd8876d54776810169be1a087b24c80af3b1b567add13d101caac591a49fd238",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aamonnaig4/orca-plugins",
+          "updatedAt": "2026-11-06T17:04:05-06:00"
+        }
+      ]
+    },
+    {
       "id": "aamonnaig4.oled-pair",
       "ownerId": 67522529,
       "source": {
@@ -272,6 +388,62 @@
       ]
     },
     {
+      "id": "anthony-fp.agent-inbox",
+      "ownerId": 30504,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
+        "ref": "v0.2.2"
+      },
+      "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "c134b3a18670f16f319d3348ed47e3256dd233b1",
+          "contentHash": "9125025e29600aee04d1ee25365a044e8a4648ab1cf03eb26088cc738e71ccb2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send",
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/anthony-fp.agent-inbox/2308119db9fae4a1.png",
+              "alt": "Agent Inbox panel in Orca's right sidebar, with questions, tasks, issues, opportunities and the workspace plan",
+              "sha256": "2308119db9fae4a13e71283ec20d5669d55186c6b23e97cf927a4b2870a4de5e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/anthony-fp/orca-agent-inbox",
+          "updatedAt": "2026-11-06T09:56:51-05:00"
+        }
+      ]
+    },
+    {
       "id": "arthurlaucs.agent-ansi-palettes",
       "ownerId": 125106464,
       "source": {
@@ -336,6 +508,246 @@
           "license": "MIT",
           "repository": "https://github.com/ArthurLauCS/agent-ansi-palettes",
           "updatedAt": "2026-11-05T21:26:04-08:00"
+        }
+      ]
+    },
+    {
+      "id": "awallsr.beads",
+      "ownerId": 79927536,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/awallsr/orca-beads.git",
+        "ref": "v0.2.1"
+      },
+      "description": "Beads task tracking in Orca's sidebar: browse, create, claim, close and start tasks in their own worktrees.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "d2a527c3231a5a314b7416110329e462569f60d3",
+          "contentHash": "5bb129ac236fa6223e38b17060133e9d386b777216d27ff379dc8dd1eabad00b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Beads",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads"
+            },
+            {
+              "kind": "commands",
+              "name": "Beads: Show Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Beads: Show Ready Work"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "updatedAt": "2026-11-04T09:35:34-06:00",
+          "license": "MIT",
+          "repository": "https://github.com/awallsr/orca-beads"
+        }
+      ]
+    },
+    {
+      "id": "baroned1707.claude-accounts",
+      "ownerId": 61402493,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/baroned1707/orca-claude-accounts.git",
+        "ref": "v0.13.0"
+      },
+      "description": "Add, label, update, remove and switch Claude Code accounts (one-year `claude setup-token` tokens kept in your system secret store), with token checks and per-account usage. The sidebar panel works on desktop, Orca mobile and the browser client.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.13.0",
+          "commit": "de49b04d1bbeeb9bb60355e76594b3af20b818af",
+          "contentHash": "8add27194c4c6438f3ccca7b828d435382db36d222c21697b0f16087b98c062a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Accounts",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Manage Accounts…"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Switch to Next"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Show Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Use Slot 1"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Use Slot 2"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Use Slot 3"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Use Slot 4"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Use Slot 5"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Account: Use Default Login (no token)"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+M",
+              "detail": "manage"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+N",
+              "detail": "next"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "notifications:show"
+          ],
+          "updatedAt": "2026-11-05T14:25:35+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/baroned1707/orca-claude-accounts"
+        }
+      ]
+    },
+    {
+      "id": "bautistapessagno.now-playing",
+      "ownerId": 174156446,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/BautistaPessagno/orca-spotify.git",
+        "ref": "v0.3.2"
+      },
+      "description": "Control Spotify from Orca: the desktop app on macOS, or any device through the Spotify Web API. Not affiliated with Spotify.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "028ffd9adc54ed4849ae676e5f402602aa37df86",
+          "contentHash": "1e7df9075cfe8062ca4f9132f0c44bdc81979bf685f7dd73d19c0b5866d00181",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Now Playing",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Now Playing"
+            },
+            {
+              "kind": "commands",
+              "name": "Spotify: Play / Pause"
+            },
+            {
+              "kind": "commands",
+              "name": "Spotify: Next track"
+            },
+            {
+              "kind": "commands",
+              "name": "Spotify: Previous track"
+            },
+            {
+              "kind": "commands",
+              "name": "Spotify: Now playing"
+            },
+            {
+              "kind": "commands",
+              "name": "Spotify: Toggle shuffle"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+P",
+              "detail": "playpause"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+N",
+              "detail": "next"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+B",
+              "detail": "previous"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.now-playing/928f5ad6c9ef5bb5.png",
+              "alt": "Now Playing: the sidebar player in Orca next to its keyboard shortcuts",
+              "sha256": "928f5ad6c9ef5bb5be8de79f3986122420a08c097f0e579ce840a077895b4174",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.now-playing/546d7dcb2df10f7e.png",
+                "alt": "The Now Playing panel playing a track in Orca's dark theme",
+                "sha256": "546d7dcb2df10f7e17419ca4689da50be76e3617425d1125e099a36ccf54c120",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/ba99fe6dbd4f2925.png",
+                "alt": "The Now Playing panel, paused, in Orca's light theme",
+                "sha256": "ba99fe6dbd4f29256c471672b6c36c69fb12ef5a7c35777d531335cec295ed81",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/c9c77a6bdd42036d.png",
+                "alt": "The panel's messages for Spotify closed, missing macOS permission and nothing playing",
+                "sha256": "c9c77a6bdd42036deb54dd22510c635fe72ba7f83579b14ef277f319e061af43",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-spotify",
+          "updatedAt": "2026-11-02T13:33:26-03:00"
         }
       ]
     },
@@ -483,6 +895,52 @@
           "license": "MIT",
           "repository": "https://github.com/be0hhh/orca-cpp-kit",
           "updatedAt": "2026-11-03T23:33:07+03:00"
+        }
+      ]
+    },
+    {
+      "id": "bhojanibilal24.activity-calendar",
+      "ownerId": 274619991,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bhojanibilal24/orca-activity-calendar.git",
+        "ref": "v0.1.4"
+      },
+      "description": "A sidebar activity calendar for Codex and Claude: work blocks, parallel agents, Orca thread names, work recaps, and CSV timesheets. Reads local history; no external service.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "a87286c0f76cb7b5d3d079c1fbe7d2833343dacc",
+          "contentHash": "b933e3c0e4b3dcbc7a85603bc6849e1dc518cfb78b2eab72c290dda11a3adf25",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Activity Calendar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Activity Calendar"
+            },
+            {
+              "kind": "commands",
+              "name": "Activity Calendar: Refresh History"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "storage:own"
+          ],
+          "updatedAt": "2026-11-04T20:28:03+05:30",
+          "license": "MIT",
+          "repository": "https://github.com/bhojanibilal24/orca-activity-calendar"
         }
       ]
     },
@@ -705,6 +1163,233 @@
       ]
     },
     {
+      "id": "chrisluo5311.snippets",
+      "ownerId": 77089596,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chrisluo5311/orca-snippet.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Save reusable commands and prompts, search them, and send them to a terminal or copy them in one click.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "d5cea3efff5086c4a5e631edf0dd4c6e0109a954",
+          "contentHash": "fe2fc3a2d0eee53091d3e2d38f4cdf5497bba498b327f39496f091daefa1019e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Snippets",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Snippets"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/chrisluo5311.snippets/dd8e783aa2f4da00.png",
+              "alt": "The Snippets panel in Orca's sidebar, with buttons to run, insert, copy, edit and delete each snippet",
+              "sha256": "dd8e783aa2f4da00c25d1a758bfd03b3dcb7301f8b1bfd0bc82fb661618de233",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/chrisluo5311/orca-snippet",
+          "updatedAt": "2026-11-04T13:55:28+08:00"
+        }
+      ]
+    },
+    {
+      "id": "cmdaltctr.openspec",
+      "ownerId": 76873351,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cmdaltctr/orca-plugin-openspec.git",
+        "ref": "v0.2.0"
+      },
+      "description": "See your OpenSpec changes on one board inside Orca. Each change shows its stage, planning files and task progress, across the current worktree and its sibling worktrees. Press Apply to send a change to a running agent.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "f3b786daa9982def80bfde7ef4436001cea29112",
+          "contentHash": "1225ff41f883e9d0c481889af09c50cc85bc679a201fc251c3156d7fd31cb61f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "OpenSpec",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cmdaltctr.openspec/600b0ec1426f954a.png",
+              "alt": "The OpenSpec board with changes grouped by stage and a progress bar on each",
+              "sha256": "600b0ec1426f954a5171e4c0f4d269b8d44965b5734c0637a69223f88998e3d2",
+              "width": 1328,
+              "height": 830
+            },
+            "screenshots": [
+              {
+                "path": "assets/cmdaltctr.openspec/600b0ec1426f954a.png",
+                "alt": "Changes grouped into Planning, Ready, In progress and Complete, with run order and progress",
+                "sha256": "600b0ec1426f954a5171e4c0f4d269b8d44965b5734c0637a69223f88998e3d2",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/4ccff9312f0defdc.png",
+                "alt": "The All worktrees tab listing changes from sibling worktrees with their branch",
+                "sha256": "4ccff9312f0defdce37431c50b0d3a00a677fc079853293aea9b6b03de316507",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/6f1e5513d4ba7ffb.png",
+                "alt": "The Todo tab listing unfinished tasks, each with an Apply button",
+                "sha256": "6f1e5513d4ba7ffb17b923a54f3cf91204de3845107a24bf8555031163c4dbb5",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/12d906511a79a0a8.png",
+                "alt": "The Send to agent menu with its help note open",
+                "sha256": "12d906511a79a0a87263372212735073ae1cae471804a7eac6c9f9040f499cda",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/f4d4bedd86e90bba.png",
+                "alt": "A change opened to read its proposal",
+                "sha256": "f4d4bedd86e90bbadb8bf28d44f55416e6e341b495a54168bceda4e039e6e45d",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/ca787654a6ae89dc.png",
+                "alt": "The All worktrees tab in the light theme",
+                "sha256": "ca787654a6ae89dc78894162950cba2aca67c030a070d023a6521344c77269af",
+                "width": 1328,
+                "height": 830
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cmdaltctr/orca-plugin-openspec",
+          "updatedAt": "2026-11-06T17:59:23Z"
+        }
+      ]
+    },
+    {
+      "id": "cmdaltctr.release-status",
+      "ownerId": 76873351,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cmdaltctr/orca-plugin-prs-actions-releases-status.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Shows the pull requests, GitHub Actions checks and release state of the project in your focused Orca workspace. It is for developers who ship from GitHub. Read the checks of any branch or added repository, re-run failed checks, and ask an agent to take over a release.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "acd8eef9a612cde66a25a49f833898886b4342bb",
+          "contentHash": "86e89f073abf58892fe6eb619d4868fc5f5178749f6086d433815febf7d7fd2e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "PRs, Actions and Releases Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PRs, Actions and Releases"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "notifications:show",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cmdaltctr.release-status/efd78a97b7b3481f.png",
+              "alt": "The PRs tab lists five worktrees with a coloured dot and a badge: closed, merged, ready, running and failed.",
+              "sha256": "efd78a97b7b3481fb24251a4f9f8cebb11d6973829375332c1a0693902c89690",
+              "width": 1328,
+              "height": 830
+            },
+            "screenshots": [
+              {
+                "path": "assets/cmdaltctr.release-status/efd78a97b7b3481f.png",
+                "alt": "The PRs tab lists each worktree that has a pull request, with a coloured state badge and a button to open the pull request.",
+                "sha256": "efd78a97b7b3481fb24251a4f9f8cebb11d6973829375332c1a0693902c89690",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/15020915f5bd0b83.png",
+                "alt": "The Actions tab shows a pull request line and two passed checks for the feat/search-filter branch.",
+                "sha256": "15020915f5bd0b833b3a59c907c1e227c35fbe66ca0f4ff2ab288eccd0a93081",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/c603ab951858bae3.png",
+                "alt": "The Actions tab shows a failed check with a re-run button and a Failing badge for the fix/flaky-timeout branch.",
+                "sha256": "c603ab951858bae33943a62bbdbe46be099751707b50829716a35659111ddad1",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/c5fa18d1657abd35.png",
+                "alt": "The Actions tab shows a running check with a spinner and a Running badge for the feat/slow-build branch.",
+                "sha256": "c5fa18d1657abd35849a3f70117c35fb52f2cd99a1e2b80a1a65cbcc6c79033d",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/0808587f0083789e.png",
+                "alt": "The Releases tab shows an Up to date badge, a passed release run and the GitHub release v0.1.0.",
+                "sha256": "0808587f0083789e3fd183ede88f2385bf4bfb0387c65e46ef56f066065e2596",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/730053d208ebddef.png",
+                "alt": "The PRs tab in the light theme, with closed, merged, ready, running and failed pull requests.",
+                "sha256": "730053d208ebddef4c75a002444ef566534b5585f844a3067d27a88130f855c9",
+                "width": 1328,
+                "height": 830
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cmdaltctr/orca-plugin-prs-actions-releases-status",
+          "updatedAt": "2026-11-06T21:05:12Z"
+        }
+      ]
+    },
+    {
       "id": "dawidwetzler.cobalt2-theme",
       "ownerId": 49675685,
       "source": {
@@ -843,6 +1528,75 @@
           "license": "MIT",
           "repository": "https://github.com/ddantran/orca-rails-syntax",
           "updatedAt": "2026-11-05T10:58:57+07:00"
+        }
+      ]
+    },
+    {
+      "id": "dennib.finline",
+      "ownerId": 13068594,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dennib/finline.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Git graph for the active worktree: branches, tags and remotes in colored lanes, commit details, and git actions from a right-click.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "9e6cdce0602ee3df018261bea5bdd2ce2007440e",
+          "contentHash": "73efee03245fb9d27c562325e5f243fc9aba6c57d4f2acbedd84548ef23e35d8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Finline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Finline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dennib.finline/3ac7b2187738aaf3.png",
+              "alt": "Finline: a git graph for Orca, beside the panel showing a repository with branches, merges and tags",
+              "sha256": "3ac7b2187738aaf3b24da0a0ce91e95faf92e0564ec412dbc5aac10e55f31505",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dennib.finline/9b8f1b688a7db9e5.png",
+              "alt": "Finline icon",
+              "sha256": "9b8f1b688a7db9e5de47ec147b5e55d961acaab2eca68b50654808506eccc184",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/dennib.finline/ce1984225ffe7fe8.png",
+                "alt": "The Finline panel showing colored lanes for main, feature branches, a hotfix and their merges, with branch, remote and tag badges",
+                "sha256": "ce1984225ffe7fe87a06deda029a2fd407bfeea16a967f2466f312b787f0e101",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/dennib.finline/f92843ceb11cad43.png",
+                "alt": "The Finline panel at sidebar width, showing the graph, refs, commit subjects and ages",
+                "sha256": "f92843ceb11cad43657af6c8bcb26166d6b7b54cd59e832ac862ff3259792e32",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dennib/finline",
+          "updatedAt": "2026-11-06T10:17:55+01:00"
         }
       ]
     },
@@ -1314,13 +2068,73 @@
       ]
     },
     {
+      "id": "eliasjnior.script-runner",
+      "ownerId": 5036316,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eliasjnior/orca-script-runner.git",
+        "ref": "v1.2.0"
+      },
+      "description": "Run your worktree's orca.yaml scripts from the right sidebar.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "83f7f82583a54b1fbf5a1191b0cc1195a1821161",
+          "contentHash": "898376a04255b97afcd4e4860b42f04fd9f8ce5bc58b2d88d8e702307cf332f1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Scripts",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Scripts"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/eliasjnior.script-runner/5276aa542c757d5a.png",
+              "alt": "The Scripts panel in Orca's right sidebar, with a Run button for the setup, test and check scripts.",
+              "sha256": "5276aa542c757d5ac28c0b28cd8f7fe2d5f2749ee2aab8f2d69602cae032e087",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/eliasjnior.script-runner/913b5541c6f28410.png",
+              "alt": "Scripts icon",
+              "sha256": "913b5541c6f28410f23ad534b3d79223dc21cb5a927b0c1338dbc9fd53eefdfc",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/eliasjnior.script-runner/f055229cdf1c69da.png",
+                "alt": "The Scripts panel listing a worktree's orca.yaml scripts, each with a Run button.",
+                "sha256": "f055229cdf1c69da4f3a57149ca001ee0a2afc74d5588e5ee17c368867713724",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eliasjnior/orca-script-runner",
+          "updatedAt": "2026-11-04T12:17:35-03:00"
+        }
+      ]
+    },
+    {
       "id": "eliasjnior.worktree-notes",
       "ownerId": 5036316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/eliasjnior/orca-plugins/worktree-notes/1.1.2",
-        "path": "plugins/worktree-notes"
+        "url": "https://github.com/eliasjnior/orca-worktree-notes.git",
+        "ref": "v1.2.0"
       },
       "description": "Notion-style Markdown notes for each worktree, in the right sidebar.",
       "categories": [
@@ -1328,9 +2142,9 @@
       ],
       "releases": [
         {
-          "version": "1.1.2",
-          "commit": "f74d263f4bd4b5448d2c37bd47e891ad69b081f6",
-          "contentHash": "d9eaf323df021c7d52d03373704f52249a65140ee8500c6b3b203cde35a222cf",
+          "version": "1.2.0",
+          "commit": "87bf33538274632d8af7867ccbeccdbd90fa7602",
+          "contentHash": "08e6d2fcd7982d04cbdf940a117d88b7d434c1185443033fd498c02967c80f9c",
           "execution": "trusted-worker",
           "minimumOrca": "1.4.246",
           "name": "Notes",
@@ -1369,9 +2183,389 @@
               }
             ]
           },
+          "updatedAt": "2026-11-04T12:17:35-03:00",
           "license": "MIT",
-          "repository": "https://github.com/eliasjnior/orca-plugins",
-          "updatedAt": "2026-11-04T08:47:36-03:00"
+          "repository": "https://github.com/eliasjnior/orca-worktree-notes"
+        }
+      ]
+    },
+    {
+      "id": "emamalet.git-log",
+      "ownerId": 43491715,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/emamalet/orca-git-log-panel.git",
+        "ref": "v0.1.5"
+      },
+      "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "36f68b2f304aab6ca9410e90329809d5f20ccd12",
+          "contentHash": "08feb690c682c1b9f2848b15772c4ad39dfd2f4f1341e59bf7bf26436e396935",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Log",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Log: Open in Editor Tab"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Log",
+              "detail": ".gitlog"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitlog"
+          ],
+          "editorFileTypes": [
+            "gitlog"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/emamalet.git-log/ccc6dc64815d162a.png",
+              "alt": "Commit log with a colored branch graph, three selected commits and the right-click menu to squash, fixup or drop them",
+              "sha256": "ccc6dc64815d162ad37f9a885f298c667e84de420880c4121dca7874d3adb707",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/emamalet.git-log/71e73d4b3210781f.png",
+              "alt": "Git Log icon",
+              "sha256": "71e73d4b3210781fbae7b973a36913ea8942b8d491504e842337ac49bc0dcffe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/emamalet.git-log/fcf2ea594330e1d8.png",
+                "alt": "Commit log with three selected commits and the right-click menu open",
+                "sha256": "fcf2ea594330e1d8e623d2917ac585c4bb4f3e3ba599a3ee1baaef8c1e35a30e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/3e87c5ee26b66d1b.png",
+                "alt": "Side-by-side diff of a TypeScript file with added and removed lines highlighted",
+                "sha256": "3e87c5ee26b66d1b5a08950e578c144aac64433185bed1e86c58e3249cb46f46",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/beec194412fa5c01.png",
+                "alt": "Interactive rebase dialog listing four commits with pick actions",
+                "sha256": "beec194412fa5c01aca174a50d6527fd821c8f76bad600ed12409a4315038e97",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/91aaf6c2808b02af.png",
+                "alt": "Commit graph with branch tree and commit details in the light theme",
+                "sha256": "91aaf6c2808b02af479f750974e98f3cc5aad6433d45579c8d27c8627aacaa33",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/emamalet/orca-git-log-panel",
+          "updatedAt": "2026-11-06T17:16:23+01:00"
+        }
+      ]
+    },
+    {
+      "id": "eskono.docker-logs",
+      "ownerId": 4644133,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eskono/orca-docker-logs.git",
+        "ref": "v0.4.0"
+      },
+      "description": "Your Docker Compose containers in Orca: live logs with errors highlighted, stack traces that open the code, CPU and memory history, ports, start/stop/rebuild, a shell, and Ask agent.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "64fc3b217c5e1bd67f0b5ce7eb34a3cb16ae68c7",
+          "contentHash": "7e1df59588d406489c61205836ff28c94796c894fe1b636eb2f8237f4b05aa7d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Docker Logs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Docker Logs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Docker"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own",
+            "terminal:send",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/eskono.docker-logs/6fd571fa2005ccd5.webp",
+              "alt": "Docker Logs: a sidebar panel listing Compose services with CPU, memory and ports above a live container log",
+              "sha256": "6fd571fa2005ccd56a3efba702b94182f91fafb9310b078d1d5112edf45943d2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/eskono.docker-logs/d2f0e0b770df9972.png",
+              "alt": "Docker Logs icon",
+              "sha256": "d2f0e0b770df9972cf0e29b9478d47fa746d11a23882db8186b0563aeb148dfe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/eskono.docker-logs/5fa25fe8ee473559.webp",
+                "alt": "Docker Logs panel: Compose services with CPU and memory charts, ports and actions, above an api log with a linked Python traceback",
+                "sha256": "5fa25fe8ee473559c6568035e87d0487e169253415cebe28d9b6f6a8e42322ea",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/eskono.docker-logs/e82c2e350960e63d.webp",
+                "alt": "The same Docker Logs panel in a light theme",
+                "sha256": "e82c2e350960e63dd2ae9d82cde98b7b3312c8814f82451f325f30faf59e19fe",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/eskono.docker-logs/e282b9255d313b00.webp",
+                "alt": "Two panels: every service’s log merged and tagged by container, and the same log filtered to errors only",
+                "sha256": "e282b9255d313b00bfcba8307acc8ff733ee951cb23c68cfa41bbaf4d392c4ff",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eskono/orca-docker-logs",
+          "updatedAt": "2026-11-06T14:41:23+03:00"
+        }
+      ]
+    },
+    {
+      "id": "etherll.usage-insights",
+      "ownerId": 61019402,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Etherll/orca-usage-insights.git",
+        "ref": "v1.0.1"
+      },
+      "description": "Charts of your Claude Code and Codex token use and estimated API cost by day, project, model and machine, with a pixel-art skyline drawn from the numbers. Reads local transcripts and any SSH hosts you add.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "1a340cb675befc069c9293f5432887a679be6c0c",
+          "contentHash": "b736bff8ff404ca0a9711fe022b08bd3a1ffd75a57a61eb26b8139d71bed26f1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Usage Insights",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Usage Insights"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/etherll.usage-insights/a7514cf8a270caec.png",
+              "alt": "Usage Insights in an Orca window: 30-day token totals, a split by provider and machine, and a daily trend",
+              "sha256": "a7514cf8a270caec0d71518b4a11eed475566ec2d5d14609f644bd96ff5ee707",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/etherll.usage-insights/4952b51f89f10ac8.png",
+              "alt": "Usage Insights icon",
+              "sha256": "4952b51f89f10ac8d780f9156bd89771191e540ca22b61449e651e0d40504560",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/etherll.usage-insights/9a211625eff612ef.png",
+                "alt": "Overview with stat tiles, provider and machine split, totals and a smoothed daily trend per provider",
+                "sha256": "9a211625eff612efa4a4339ddd1c98296546861caaa8cbf21a01d3ccfad90e66",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/3a222565f88c3309.png",
+                "alt": "Daily cost bars, a 26-week activity calendar, a weekday by hour rhythm chart and a model breakdown table",
+                "sha256": "3a222565f88c33092fd6b915e5945e9dd2fd98a3fcaa17d38aa406743abc9255",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/fefc96b860793cfc.png",
+                "alt": "Filters menu open with session scope, provider and machine options and a Worktrees only chip",
+                "sha256": "fefc96b860793cfc309595fd8db447387d86b31b37f571fa96ce9b9059863e3b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/6bbe92c8e8c9515c.png",
+                "alt": "Light theme activity calendar, rhythm chart, breakdown, token mix donut and projects",
+                "sha256": "6bbe92c8e8c9515c43736097a900606ded56825bfae90d0ecf8901757970fbae",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/9ed7b7ae36127fde.png",
+                "alt": "The panel at sidebar width in dark and light themes",
+                "sha256": "9ed7b7ae36127fdeb0b06b6334e6ad7b777fb95b696943dcb8d17777ac50ae7c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Etherll/orca-usage-insights",
+          "updatedAt": "2026-11-04T00:30:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "faisalmuhammad.graphiql",
+      "ownerId": 3476670,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-graphiql.git",
+        "ref": "v0.1.6"
+      },
+      "description": "A GraphiQL integration for Orca with saved sessions, named environments, schema exploration, and secure authentication.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.6",
+          "commit": "d03b9297300ec3aae79b8cad5a0d343cc7e993a0",
+          "contentHash": "2904e47d355e43d6a055edcda0c4527931915fa947f0264366b642da5d8a37ff",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "GraphiQL for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GraphiQL Explorer"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "customEditors",
+              "name": "GraphQL IDE",
+              "detail": ".graphiql, .graphiql.json"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New GraphiQL Session",
+              "detail": ".graphiql"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "secrets:own"
+          ],
+          "fileTypes": [
+            "graphiql"
+          ],
+          "editorFileTypes": [
+            "graphiql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.graphiql/443f3cadf51d6092.png",
+              "alt": "Large Countries query/result editor on the left, with the GraphQL logo and glowing GraphiQL for Orca title on the right",
+              "sha256": "443f3cadf51d609298b4716321369c93552b6335cb88363a5d2a53a2ba55402b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.graphiql/7b91a9a4e0beba95.png",
+              "alt": "GraphiQL for Orca icon",
+              "sha256": "7b91a9a4e0beba9569874cb8bc87148419dfac9804787b1d9f4e6b7aac5390f5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.graphiql/a37ec30261553416.png",
+                "alt": "GraphiQL schema documentation and Countries query/result in Orca",
+                "sha256": "a37ec30261553416cd3a54e98dfce41e3a66ab5359ed5f52d12839721d689c47",
+                "width": 1408,
+                "height": 928
+              },
+              {
+                "path": "assets/faisalmuhammad.graphiql/b58453f4162384d2.png",
+                "alt": "GraphiQL connection settings for the Countries endpoint in Orca",
+                "sha256": "b58453f4162384d2f027d37f0fb76e922733d6c0228232834c5ad4aa16b84312",
+                "width": 1408,
+                "height": 928
+              },
+              {
+                "path": "assets/faisalmuhammad.graphiql/4361f5ea96812ea3.png",
+                "alt": "Schema-aware GraphQL field completion in Orca's GraphiQL editor",
+                "sha256": "4361f5ea96812ea347b1a05a870d9775abdb0ec2a3866da49728b724d7281065",
+                "width": 1408,
+                "height": 928
+              },
+              {
+                "path": "assets/faisalmuhammad.graphiql/c1f973fac48ee1dd.png",
+                "alt": "Countries query and Germany result beside GraphiQL Explorer with four sample sessions in Orca",
+                "sha256": "c1f973fac48ee1dd6756d3e5b90a194d452f6858d1623b8ce98cf84663391505",
+                "width": 1641,
+                "height": 1086
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-graphiql",
+          "updatedAt": "2026-11-06T11:42:25Z"
         }
       ]
     },
@@ -1556,15 +2750,66 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/faisalmuhammad/orca-sidequest/0.2.0"
+        "url": "https://github.com/faisalmuhammad/orca-sidequest.git",
+        "ref": "v0.5.0"
       },
       "description": "Refresh your mind with quick games while your agents work. One compact sidebar, with saved progress and room for more games.",
       "categories": [
-        "panels",
-        "commands"
+        "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "fc4ebe2eb9ac315af651c32449dd91b878e036a0",
+          "contentHash": "8c2e6f2c53c829cda3a27f4bfdff47dc0e11047e47b81d7812f7878bc3fb8449",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Sidequest - Quick Games in Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Sidequest"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.sidequest/ab810fa62dec2859.png",
+              "alt": "Sidequest puzzle emblem on a mint tile, with the message: Refresh your mind with a quick game while your agents work.",
+              "sha256": "ab810fa62dec2859a6c4569821c8e2e4313e31d6ebdf9dd17ad42b0a1b04304c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.sidequest/0c160145404dc80c.png",
+              "alt": "Sidequest - Quick Games in Orca icon",
+              "sha256": "0c160145404dc80c9937e6e8c8bb96916c5fbd145e189e35264226edb8843f1e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.sidequest/6461763d9159d69c.png",
+                "alt": "Sidequest game interfaces in the dark theme.",
+                "sha256": "6461763d9159d69c5170711ac41747382946a81a7a209df2dac7c5ae909ac447",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.sidequest/8215e0d56adeadab.png",
+                "alt": "Sidequest game interfaces in the light theme.",
+                "sha256": "8215e0d56adeadabba883174f8c21d06d5e7efc0fec7c4e3187b8b6c2819468a",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-sidequest",
+          "updatedAt": "2026-11-06T15:24:50Z"
+        },
         {
           "version": "0.2.0",
           "commit": "ddc0e2eddb8f98798d0ad1f746f8ac134ae35822",
@@ -1624,6 +2869,58 @@
           "license": "MIT",
           "repository": "https://github.com/faisalmuhammad/orca-sidequest",
           "updatedAt": "2026-11-05T22:04:12Z"
+        }
+      ]
+    },
+    {
+      "id": "felix-lj-ct.agent-inbox",
+      "ownerId": 75980151,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/felix-lj-ct/orca-agent-inbox.git",
+        "ref": "v0.1.2"
+      },
+      "description": "What your agents and scripts wait on you for, in one sidebar panel: workspaces they parked on the board with the reason, and the messages they sent. They call one CLI at the points of your workflow that need you.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "374a949470f966299f1b3b61d1df56dccc086e20",
+          "contentHash": "e8d55f5b3eca7c823481a5b3c3fc97a3b119c9d072eb406213bafd25eafa23d2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/felix-lj-ct.agent-inbox/e326b19e08f00373.png",
+              "alt": "The Agent Inbox panel: three asks waiting on you grouped by project, unread messages, and the wired points of a workflow.",
+              "sha256": "e326b19e08f00373b00b17e4a1c362f06e81fab0ff12cef98cb6ccef7ae1f493",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/felix-lj-ct.agent-inbox/7417dc976f5e6683.png",
+              "alt": "Agent Inbox icon",
+              "sha256": "7417dc976f5e6683ab9264b3f31be0cbb4fa74ffba1ae35410631a1bf0c46801",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/felix-lj-ct/orca-agent-inbox",
+          "updatedAt": "2026-11-06T11:15:45+08:00"
         }
       ]
     },
@@ -2097,6 +3394,74 @@
       ]
     },
     {
+      "id": "hubo1989.codegraph-init",
+      "ownerId": 770080,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hubo1989/orca-codegraph-init.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Runs codegraph init --yes in newly created workspaces (observe-only hook, detached).",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "052026402971133f913e79d854461ded29e98d73",
+          "contentHash": "19144631e8a81440f908efbd0d23154bda975e19c9a8a47faf3ecdfd26a187df",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "CodeGraph workspace init",
+          "contributes": [
+            {
+              "kind": "hooks",
+              "name": "workspace.create.after"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "updatedAt": "2026-11-05T13:57:33+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/hubo1989/orca-codegraph-init"
+        }
+      ]
+    },
+    {
+      "id": "iml885203.orbit-status",
+      "ownerId": 17023091,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/iml885203/orca-orbit.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Read-only Orbit status: running instances, each instance's containers and services, SQL project sync, and logs in a terminal tab.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "11f2753266f23cf82f1abc8fef0a68afaed8d021",
+          "contentHash": "cd3c41b40cc313dc6d2798d4824ff92a175b5041703830a9553afa3c1aadeb41",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Orbit",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orbit"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "updatedAt": "2026-11-04T17:50:56+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/iml885203/orca-orbit"
+        }
+      ]
+    },
+    {
       "id": "insforge.instabox",
       "ownerId": 198419463,
       "source": {
@@ -2150,8 +3515,8 @@
       "ownerId": 114482426,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.2"
+        "url": "https://github.com/IvanHa-dev/mcp-openproject.git",
+        "ref": "v0.1.4"
       },
       "description": "Community-built Orca sidebar and Rust MCP integration for OpenProject CE, with guarded ticket writes.",
       "categories": [
@@ -2159,6 +3524,56 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "f1cb38a20da2b5583bc160f2a331a507d61925b7",
+          "contentHash": "4c5cd902c24c21b03e9a0b368ce72941615a987942a22fd07011c0c94d21dcc7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenProject MCP for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenProject"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenProject: Refresh Projects & Tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenProject: Clear Local Ticket Cache"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenProject"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ivanha-dev.openproject/e204b24d4c2d8125.png",
+              "alt": "Illustration of the OpenProject MCP for Orca ticket panel using synthetic demo tasks",
+              "sha256": "e204b24d4c2d8125187fca72f1c0fcb5b6162bd9867ef58f9fb325667d21c125",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "updatedAt": "2026-11-06T07:47:53+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/IvanHa-dev/mcp-openproject"
+        },
         {
           "version": "0.1.2",
           "commit": "aaefcbfc1580ce37a4c77a1cfa844841cd1c3ebc",
@@ -2452,6 +3867,243 @@
       ]
     },
     {
+      "id": "jig-harness.jig",
+      "ownerId": 344299046,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jig-harness/orca-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Wakes Jig's dispatcher when an agent stops for input or finishes in a repository that uses Jig, and shows what the tick did.",
+      "categories": [
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "bb5165ac4c679b7c3e35ff215f0e84a8d57ab1ae",
+          "contentHash": "914cf36187e905247a9d9ee42ee5a4947618ba5b29b798e9133c837043a48c9f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Jig",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "updatedAt": "2026-11-02T13:37:22+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/jig-harness/orca-plugin"
+        }
+      ]
+    },
+    {
+      "id": "jodac.git-controls",
+      "ownerId": 24722398,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JoDaC/orca-git-controls.git",
+        "ref": "v0.1.0"
+      },
+      "description": "IDE-style Git controls for Orca: a branches panel and Git menu to switch, create, merge, rebase, compare and delete branches in the focused workspace, with Smart Checkout and worktree-aware checkout.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "446411e0746106fe1dfcb5cb0c540c55fb31f696",
+          "contentHash": "a2fbd3d1f0afa7df2534d98065608f6a96fdd9a8ec9453df96f1d23779c1411d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Git Controls",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Controls"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Branches…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: VCS Operations Popup…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Commit (Orca Source Control)"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Commit…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Push"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Update Project"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Pull"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Merge…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Rebase…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: New Branch…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: New Tag…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Checkout Tag or Revision…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Reset HEAD…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: New Worktree…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Worktrees…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Show Git Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Patch › Create Patch from Local Changes…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Patch › Apply Patch…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Uncommitted Changes › Stash Changes"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Uncommitted Changes › Unstash Latest"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Uncommitted Changes › Stashes…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Uncommitted Changes › Rollback…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Current File › Show History…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Current File › Annotate with Git Blame…"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Current File › Rollback…"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jodac.git-controls/82eb08e5939cd271.png",
+              "alt": "The Git Controls branches panel in dark and light themes",
+              "sha256": "82eb08e5939cd271406003a24d0ee23a012a015cac3b89bf8e3cb05592bd9a2e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jodac.git-controls/8fea8e3b6ace3145.png",
+              "alt": "Git Controls icon",
+              "sha256": "8fea8e3b6ace3145f1ad17eaa59de1fb3e9a05bad546b2d462f2986f74ef4bb7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jodac.git-controls/4945a1454d226e37.png",
+                "alt": "Branches panel listing recent, local and remote branches with incoming and outgoing counts, in dark and light themes",
+                "sha256": "4945a1454d226e379fe309896d7ce627b1bd5d232bfa3f7125fb806d986f433c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jodac.git-controls/f62f667659b4d143.png",
+                "alt": "Per-branch menu with checkout, rebase, merge, compare, rename and delete actions",
+                "sha256": "f62f667659b4d1431600e875172ffa0890dbb21a6976648515b975f5c91e335b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jodac.git-controls/feb0196d95db901a.png",
+                "alt": "Dialog offering Smart Checkout or Force Checkout when local changes would be overwritten",
+                "sha256": "feb0196d95db901aef565e633d301a3b0f48e8ccb897af6fe3ea3641f4e2093b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jodac.git-controls/bdd5f0e0c0cdc738.png",
+                "alt": "Search filtering branches and actions as you type",
+                "sha256": "bdd5f0e0c0cdc73897f4970e3381b3b437e1bb933cdb7424f7affb779ee23c92",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/JoDaC/orca-git-controls",
+          "updatedAt": "2026-11-02T16:57:52-08:00"
+        }
+      ]
+    },
+    {
       "id": "jondmarien.discord-presence",
       "ownerId": 2687328,
       "source": {
@@ -2735,6 +4387,91 @@
       ]
     },
     {
+      "id": "joneszeng.orchestra",
+      "ownerId": 37136863,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JonesZeng/orca-orchestra.git",
+        "ref": "v0.2.2"
+      },
+      "description": "See and steer Orca orchestration runs on this computer or a saved server: a live task DAG, workers and decisions, with every write previewed before it is sent.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "a97172382ee0c9eeee0d35de1a7ecf3f297827c0",
+          "contentHash": "8ba8f187c9e01718fc63953030a0e0783795ca8ba6d9caea0cf16e79cb21c6d4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Orchestra",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orchestra"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/joneszeng.orchestra/f5fe32d17b703c35.png",
+              "alt": "Orchestra: a framed view of the live task DAG on a calm neutral background",
+              "sha256": "f5fe32d17b703c3569ca1625033cf2ef01f6f6d09401da5650e78dda9b0831fe",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/joneszeng.orchestra/7e61e76c47e3947a.png",
+              "alt": "Orchestra icon",
+              "sha256": "7e61e76c47e3947a8eb0d1670082061bd545bb70c008204c981529b56a667e5a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/joneszeng.orchestra/963722f97decbfa5.png",
+                "alt": "The Orchestra panel in the Orca light theme, showing a run's live task DAG, six tasks and one pending decision",
+                "sha256": "963722f97decbfa5a763ed6a169ed34544e34754e6cc5e8c8d7cd5a64e16ac9c",
+                "width": 1598,
+                "height": 999
+              },
+              {
+                "path": "assets/joneszeng.orchestra/dddb7ca26ff89909.png",
+                "alt": "The same Orchestra run in the Orca dark theme",
+                "sha256": "dddb7ca26ff89909c2c140919b5ccaa036ab96007ef0d77ecf3ffcf87048fa4a",
+                "width": 1598,
+                "height": 999
+              },
+              {
+                "path": "assets/joneszeng.orchestra/f9e359d7d155238e.png",
+                "alt": "The Orchestra panel with the Host selector set to a saved remote server",
+                "sha256": "f9e359d7d155238eca522c784e92181f05a0e830a64a2cce1e07294335748dce",
+                "width": 1598,
+                "height": 999
+              },
+              {
+                "path": "assets/joneszeng.orchestra/ca817a4cde40973e.png",
+                "alt": "A confirm dialog previewing a new task, with its exact target and parameters",
+                "sha256": "ca817a4cde40973e1dd35bce07b6a9f4f25177ed1619e3184645839e77a56601",
+                "width": 1598,
+                "height": 999
+              },
+              {
+                "path": "assets/joneszeng.orchestra/d5491f0def63af78.png",
+                "alt": "The task board, with columns for waiting on dependencies, ready, in progress and finished tasks, plus dependency links and the dispatch terminal",
+                "sha256": "d5491f0def63af78755467ad6b865689300fec7ddce1e2edd0a7f4d7af9860ba",
+                "width": 1598,
+                "height": 999
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/JonesZeng/orca-orchestra",
+          "updatedAt": "2026-11-06T18:08:48+08:00"
+        }
+      ]
+    },
+    {
       "id": "kianxm.luau-syntax",
       "ownerId": 73912215,
       "source": {
@@ -2843,6 +4580,224 @@
       ]
     },
     {
+      "id": "ky1ezer0.git-graph",
+      "ownerId": 61507247,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Ky1ezer0/orca-git-graph.git",
+        "ref": "v1.0.1"
+      },
+      "description": "Searchable, auto-refreshing Git graph with confirmed Git actions and one-click remote fetch for local Orca workspaces.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "24bc65840b7e8f04ca8d759bd81844c57ef8470c",
+          "contentHash": "5126e0aec903a4ff980577b8e531b4b03b429356377bf1d2bf6d811cea0439d8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Graph"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Graph Diff",
+              "detail": ".git-graph-diff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "git-graph-diff"
+          ],
+          "editorFileTypes": [
+            "git-graph-diff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ky1ezer0.git-graph/dd04c312c831ca7f.jpg",
+              "alt": "Git Graph for Orca with cyan, mint, and lavender branching commit paths on a dark background.",
+              "sha256": "dd04c312c831ca7ffed41ca9c6443dc6f4f371146d7ed1cfbb2775d88d113c67",
+              "width": 1586,
+              "height": 992
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ky1ezer0/orca-git-graph",
+          "updatedAt": "2026-11-07T00:54:24+08:00"
+        }
+      ]
+    },
+    {
+      "id": "kyino-pan.agent-activity",
+      "ownerId": 63436915,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Kyino-Pan/agents-director.git",
+        "ref": "v0.1.1"
+      },
+      "description": "A rolling 7-day agent timeline reconstructed from Orca logs, with live status updates and orchestration message arrows.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "f2eb7ea1822ea82e8c3ae5557bfb715a21e61926",
+          "contentHash": "b0ef3077caf1df00f3e7f82433ff6f207ba07f62ad348c9cf6b45b2facf7a668",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Agents Director",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents Director"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents Director: Refresh logs"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "orca-activity"
+          ],
+          "editorFileTypes": [
+            "orca-activity"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/kyino-pan.agent-activity/6fe59358c8ed593f.png",
+                "alt": "Light timeline with synthetic agent states, spawn branches and message arrows",
+                "sha256": "6fe59358c8ed593f90f646b56e030f8e2d6bf5ee907b1d05ae0ece1c1189b237",
+                "width": 1280,
+                "height": 820
+              },
+              {
+                "path": "assets/kyino-pan.agent-activity/e7265d92fad613be.png",
+                "alt": "Dark timeline with synthetic agent states, spawn branches and message arrows",
+                "sha256": "e7265d92fad613be3e0126ad742bcc73b7d70499539c3bb143e259f2886be886",
+                "width": 1280,
+                "height": 820
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Kyino-Pan/agents-director",
+          "updatedAt": "2026-11-06T18:59:40+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lindoo67.drawio",
+      "ownerId": 268206566,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lindoo67/drawio-plugin.git",
+        "ref": "v0.1.5"
+      },
+      "description": "在 Orca 中离线创建和编辑 draw.io 流程图、架构图及多页图表。",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "4ca1f4e301b149f06d0252111406611c74947116",
+          "contentHash": "0e7240c3280f5e099b2400f6ecc13e7d99f2fa21b6a7e94eabf5adc0136dd7b2",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Draw.io",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Draw.io",
+              "detail": ".drawio, .drawio.xml"
+            },
+            {
+              "kind": "newFiles",
+              "name": "新建 Draw.io 图表",
+              "detail": ".drawio"
+            }
+          ],
+          "fileTypes": [
+            "drawio"
+          ],
+          "editorFileTypes": [
+            "drawio"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lindoo67.drawio/06f5cfeb0207be88.webp",
+              "alt": "深蓝色背景中的橙色与青色流程图卡片，标题 Draw.io by LinDoo",
+              "sha256": "06f5cfeb0207be8868b7078195c5ae9a9dae6708b85ea55078522218cbd7a843",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lindoo67.drawio/94a492ab617e6def.png",
+              "alt": "Draw.io icon",
+              "sha256": "94a492ab617e6def75ff6805a3292a561933ce5bde5b9094634046b062ea9f9f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lindoo67.drawio/581d3a3ecf4cb4ce.png",
+                "alt": "浅色主题的 draw.io 编辑器，展示中文离线图表工作流和常用图形库",
+                "sha256": "581d3a3ecf4cb4ce59fe10caf61462fdb30de90565367cc20bda56eca1c5ba2e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lindoo67.drawio/e818284b200dd338.png",
+                "alt": "深色主题的 draw.io 编辑器，展示相同的流程图和页面设置",
+                "sha256": "e818284b200dd33808e86d3b6be24ae8e4377c723e4f26d93d811c59625eae38",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lindoo67.drawio/4fd771496f56b910.png",
+                "alt": "选中流程图节点后的 draw.io 编辑器，右侧展示节点样式选项",
+                "sha256": "4fd771496f56b9101e29068493a1befde1418850f04dc2ecf446caf9b54ebb58",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/lindoo67/drawio-plugin",
+          "updatedAt": "2026-11-07T14:12:50+08:00"
+        }
+      ]
+    },
+    {
       "id": "lkgilgamesh.ayu",
       "ownerId": 6620302,
       "source": {
@@ -2905,6 +4860,67 @@
       ]
     },
     {
+      "id": "marco-calderon.nord-midnight-theme",
+      "ownerId": 47753684,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/marco-calderon/nord-midnight-orca-theme.git",
+        "ref": "v1.3.0"
+      },
+      "description": "Nord on a deeper, uniform #1C1E21 background that is easier on the eyes, plus a matching light theme.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "883afdcafe829d499574b00d87b131335af90458",
+          "contentHash": "2cea48eb04848d35f7ec226b85fa154bfe307653cbb3f8f0c6e6c1256317fb29",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Nord Midnight",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Nord Midnight"
+            },
+            {
+              "kind": "themes",
+              "name": "Nord Midnight Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/marco-calderon.nord-midnight-theme/58acc0b6b40ed323.png",
+              "alt": "Nord Midnight dark and light themes side by side on an editor with a file tree, code and chat",
+              "sha256": "58acc0b6b40ed323d9ed551dedab628f2bf3dbad09c75a38639c9f09e07891f3",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/marco-calderon.nord-midnight-theme/210f45c72780acb1.png",
+                "alt": "Nord Midnight on the editor, file tree, tabs and chat",
+                "sha256": "210f45c72780acb1b592c15fd66c19cc55d0fcf69d4e077fbfdebe70467a2c59",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/marco-calderon.nord-midnight-theme/bee4b49fe875dfc6.png",
+                "alt": "Nord Midnight Light on the editor, file tree, tabs and chat",
+                "sha256": "bee4b49fe875dfc604dfa1f06a0700db1443d73a918c30b7d3c1296f748ed3e0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/marco-calderon/nord-midnight-orca-theme",
+          "updatedAt": "2026-11-06T15:56:47-08:00"
+        }
+      ]
+    },
+    {
       "id": "mars-crater.jsonnet-syntax",
       "ownerId": 285895746,
       "source": {
@@ -2946,12 +4962,52 @@
       "ownerId": 113261345,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/0.1.0"
+        "url": "https://github.com/Mbirepinte/Orca-asciidoc-viewer.git",
+        "ref": "v1.1.0"
       },
       "description": "Edit AsciiDoc source beside a live preview in Orca.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "3f8721e9ab8829879055a0fb9fbf4b8524258b13",
+          "contentHash": "07d0bd9499d147fdecb87e8b8146050cd545e8c4c060edb6077591bf9e859bbe",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "AsciiDoc Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "AsciiDoc Preview",
+              "detail": ".adoc"
+            }
+          ],
+          "fileTypes": [
+            "adoc"
+          ],
+          "editorFileTypes": [
+            "adoc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mbirepinte.asciidoc-viewer/4a97a4b389d4afc4.png",
+              "alt": "AsciiDoc source beside its rendered preview, with a block being edited in place",
+              "sha256": "4a97a4b389d4afc4095410c33685f3c15b35a85c68a3b52d978f97269ae6ec9c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mbirepinte.asciidoc-viewer/f507839c6d340d74.png",
+              "alt": "AsciiDoc Viewer icon",
+              "sha256": "f507839c6d340d7419be6e80e577d8d53efa9d1e5e6cfb451354148caacb5550",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Mbirepinte/Orca-asciidoc-viewer",
+          "updatedAt": "2026-11-05T21:22:54+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "00681a638bb154b9c818a348b1f57b687055b286",
@@ -2979,12 +5035,57 @@
       ]
     },
     {
+      "id": "michelvelzr.ork-dbclient",
+      "ownerId": 131314046,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/MichelVelzr/ork-dbclient.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Explore and query PostgreSQL, MySQL, MariaDB, Percona, SQLite and Redis from an Orca sidebar panel.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "0e7ce33aea23bc4bbfd742960a7e369361ea3a12",
+          "contentHash": "9a775f19962635530797f91443ee509c69909e819e6c7fc5da9e282a29a767ea",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Ork DBclient",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Database Client"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/michelvelzr.ork-dbclient/97bcf44b2fe22b22.png",
+              "alt": "Ork DBclient icon",
+              "sha256": "97bcf44b2fe22b2226d1cae3da2d620cb80ba8d71a0f793cf465000883024d2c",
+              "width": 128,
+              "height": 128
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/MichelVelzr/ork-dbclient",
+          "updatedAt": "2026-11-06T14:14:03-05:00"
+        }
+      ]
+    },
+    {
       "id": "miragon.context-maps-modeler",
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.14",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.1.2",
         "path": "plugins/context-maps-modeler"
       },
       "description": "Open .cm and .cm.json files as context maps: model bounded contexts and their relationships, and see an agent's changes to the file as they happen.",
@@ -3030,8 +5131,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.14",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/event-storming-modeler/0.1.2",
         "path": "plugins/event-storming-modeler"
       },
       "description": "Open .storm files as Event Storming boards: model with stickies, notes and arrows, and see an agent's changes to the file as they happen.",
@@ -3077,8 +5178,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.14",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/value-chain-modeler/0.1.2",
         "path": "plugins/value-chain-modeler"
       },
       "description": "Open .vc and .vc.json files as value chain diagrams: model process steps, org units and their connections, and see an agent's changes to the file as they happen.",
@@ -3124,8 +5225,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.14",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/wardley-maps-modeler/0.1.2",
         "path": "plugins/wardley-maps-modeler"
       },
       "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and see an agent's changes to the file as they happen.",
@@ -3169,6 +5270,151 @@
       ]
     },
     {
+      "id": "molanojf.json-canvas",
+      "ownerId": 199264747,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/MolanoJF/orca-json-canvas.git",
+        "ref": "v1.0.0"
+      },
+      "description": "View and edit Obsidian-compatible .canvas boards in Orca: cards, notes, images, groups and connections, with the same look, navigation and file format.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "be1394f4fdb90ae0e39d88ce98fc2ccb5127ba21",
+          "contentHash": "c41b59e1623805dceca133f2d66a5bb2c2e5d9b91c0d857de725f291c21c3bd7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "JSON Canvas",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".canvas"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "canvas"
+          ],
+          "editorFileTypes": [
+            "canvas"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/molanojf.json-canvas/d794ae8001803772.png",
+              "alt": "A demo canvas with Markdown notes, image cards, colored groups and connections in dark mode.",
+              "sha256": "d794ae80018037727ac708d928d59a53f70dc108d89aba0d0d0f416609f32fb3",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/molanojf.json-canvas/9263df4b5d2a5a6e.png",
+                "alt": "Editing a text card with a wiki link completion popup.",
+                "sha256": "9263df4b5d2a5a6e712f180b83c9fac621fa4a18f2f36b53c61c4cfaedbcaaa8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/d84d57cda1edc2bf.png",
+                "alt": "Two selected cards and their color palette in light mode.",
+                "sha256": "d84d57cda1edc2bfc8241c58f2d283e0f47883b3fd0a9582c7bb773ca0337ff4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/ee8c322900395965.png",
+                "alt": "The note picker over a canvas board.",
+                "sha256": "ee8c3229003959654325c446ef7ce6f738a5f2b85e57d2a012dcb1b202217069",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/MolanoJF/orca-json-canvas",
+          "updatedAt": "2026-11-03T10:50:55-05:00"
+        }
+      ]
+    },
+    {
+      "id": "moseoh.git-history",
+      "ownerId": 45132207,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/moseoh/orca-git-history.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Git history in an editor tab: commits, changed files and side-by-side diffs for your workspace or one file.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "82aa5412f51d7ac813d6b6283ce83b009aa0298c",
+          "contentHash": "b6457ccc287b46bcf49b37ee21b6f47454f9ec48342b51320f96dd8901d6c76c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git History",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Git History",
+              "detail": ".githistory"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git History",
+              "detail": ".githistory"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "githistory"
+          ],
+          "editorFileTypes": [
+            "githistory"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/moseoh.git-history/5df28e716780b1a5.png",
+              "alt": "Git History icon",
+              "sha256": "5df28e716780b1a55d5329946aa256ffe715d57eba659734c3c1c9736fc5b47a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/moseoh.git-history/a76ccbac3bf79716.png",
+                "alt": "Git History tab: the project's commits on the left; the picked commit's message, changed files and a side-by-side diff on the right.",
+                "sha256": "a76ccbac3bf79716a79d0a060287732a1699f17cd12abff93647dd81fe3d0e2c",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/moseoh.git-history/9dfec0e8226c79c7.png",
+                "alt": "Git History tab narrowed to README.md: only the commits that changed it, with that file's diff in the unified view.",
+                "sha256": "9dfec0e8226c79c76ebf667721e037e80c60c5af150dd88a819c0c2bf059c232",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/moseoh/orca-git-history",
+          "updatedAt": "2026-11-05T10:57:05+09:00"
+        }
+      ]
+    },
+    {
       "id": "mrakofff.palenight-theme",
       "ownerId": 21972136,
       "source": {
@@ -3202,6 +5448,229 @@
           "license": "MIT",
           "repository": "https://github.com/mrakofff/orca-palenight-theme-plugin",
           "updatedAt": "2026-11-03T18:37:41+01:00"
+        }
+      ]
+    },
+    {
+      "id": "narimanisakhanov-creator.xlsx-editor",
+      "ownerId": 291232506,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor.git",
+        "ref": "v1.1.3"
+      },
+      "description": "Open and edit Excel workbooks in Orca with their formatting: fills, fonts, borders, number formats, merged cells, frozen panes and every sheet. Saves in place without touching the parts it did not edit. Hands a selection or a sheet to an agent in your workspace as a Markdown table or TSV.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.1.3",
+          "commit": "3450d6bf984ad44db6525d15db6a58d5d045f73d",
+          "contentHash": "6e84b1765c0546cd45b6480990f1a3a777dbd365136f780ec54aa97ba522d9a5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "XLSX Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Workbook",
+              "detail": ".xlsx, .xlsm"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send"
+          ],
+          "fileTypes": [
+            "xlsx",
+            "xlsm"
+          ],
+          "editorFileTypes": [
+            "xlsx",
+            "xlsm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/narimanisakhanov-creator.xlsx-editor/098f5ed064da8e27.png",
+              "alt": "A ledger workbook in the editor: painted header, banded rows with borders, currency and percentage columns, frozen panes, and the copy and export controls",
+              "sha256": "098f5ed064da8e279a7a73327549e3e35806f87a9eecdefb67aeb29236feed5a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/narimanisakhanov-creator.xlsx-editor/65f7d1fc78051e24.png",
+              "alt": "XLSX Editor icon",
+              "sha256": "65f7d1fc78051e249ec8ee923c63906a317d9f10f7446af0d5c6aff7998064cb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/narimanisakhanov-creator.xlsx-editor/4cbc74c2e754e655.png",
+                "alt": "A ledger with a painted header, alternating row fills, thin borders and formatted numbers",
+                "sha256": "4cbc74c2e754e655fef173a797e0258cc7a6c3bd7f67914b95cc1f06163f4453",
+                "width": 1369,
+                "height": 867
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor",
+          "updatedAt": "2026-11-06T23:45:32+03:00"
+        }
+      ]
+    },
+    {
+      "id": "nknwns.wakatime",
+      "ownerId": 75518063,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/nknwns/orca-wakatime.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Unofficial WakaTime integration: tracks time on focused files, saves, terminals, the built-in browser and AI agents while Orca is in focus. Data goes only to your own WakaTime account.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "3913f84dc24a61b1f42f14686c9ab4372dccc14b",
+          "contentHash": "2f4d396c41b577d6186483a1869f941361a86b29fc9d463e962b21c99a25bb96",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "WakaTime for Orca",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "WakaTime: Status"
+            },
+            {
+              "kind": "commands",
+              "name": "WakaTime: Today's Time"
+            },
+            {
+              "kind": "commands",
+              "name": "WakaTime: Open Dashboard"
+            },
+            {
+              "kind": "commands",
+              "name": "WakaTime: Pause Tracking"
+            },
+            {
+              "kind": "commands",
+              "name": "WakaTime: Resume Tracking"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/nknwns.wakatime/e62a23dc22bd213d.png",
+              "alt": "Stopwatch icon next to the title WakaTime for Orca and example activity categories: coding, code reviewing, ai coding, manual testing",
+              "sha256": "e62a23dc22bd213de2141ac432559a742d31e3ffb03d7558075e364fe3e19611",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/nknwns.wakatime/0bf8c0f041d3e09e.png",
+              "alt": "WakaTime for Orca icon",
+              "sha256": "0bf8c0f041d3e09e679254dcdcd2446a6d982bbff41a470e23addf09dd4267b1",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "BSD-3-Clause",
+          "repository": "https://github.com/nknwns/orca-wakatime",
+          "updatedAt": "2026-11-02T16:20:26+07:00"
+        }
+      ]
+    },
+    {
+      "id": "palulabs.office-tycoon",
+      "ownerId": 15814449,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/palulabs/orca-tycoon.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "83f881082b61ff024e58f807e2c433c6543d7a2f",
+          "contentHash": "34d7242f010d5d7417f0f1670fbff30dbe3547d3d3aa7b43c78e16d63dc1f6e6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Orca Tycoon",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca Tycoon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/palulabs.office-tycoon/65f2486153931c20.png",
+              "alt": "The commons of a pixel office: agents on the sofa and at the coffee corner, a foosball table, and Palú the dog eating from his bowl",
+              "sha256": "65f2486153931c2065716893a4bfb2c98d68bc27857675d242a2c936485a9071",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
+              "alt": "Orca Tycoon icon",
+              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/palulabs.office-tycoon/5f6e6b3af81d097d.png",
+                "alt": "The whole office: five teams at their desks around a commons band with a lounge, kitchen, foosball table and calling booths",
+                "sha256": "5f6e6b3af81d097deb9cd8837df5029cada32f1e23a445e46c08d21df63689c2",
+                "width": 2500,
+                "height": 1562
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/f9434ac0fd48efc5.png",
+                "alt": "A team at work with a speech bubble from an agent that just finished, and Palú asleep in his bed",
+                "sha256": "f9434ac0fd48efc5bdaeda18c75118c3645088b6966567140a7ebe55911da475",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/ad68a30cc6fab295.png",
+                "alt": "Desks showing agent states: a red flashing screen for blocked, an amber question mark for waiting, and specialists on stools",
+                "sha256": "ad68a30cc6fab2950455296c1a25dfec58e3b689d92ca17214108225fe0b4eac",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/palulabs/orca-tycoon",
+          "updatedAt": "2026-11-05T19:58:30+01:00"
         }
       ]
     },
@@ -3298,6 +5767,104 @@
       ]
     },
     {
+      "id": "plozmun.redmine-tasks",
+      "ownerId": 879675,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/plozmun/orca-redmine.git",
+        "ref": "v0.1.7"
+      },
+      "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.7",
+          "commit": "de6815dbe7d07366595e87ca5b8f496ab2c1d0c4",
+          "contentHash": "89c58dc9ef58ad41249c2974d26fd74e25c5bf5de1e210e76e80aa6ab2821676",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Redmine",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Redmine"
+            },
+            {
+              "kind": "commands",
+              "name": "Redmine: my open tasks"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/plozmun.redmine-tasks/8bd45c8b326b36c0.png",
+              "alt": "The Redmine logo on a white tile beside the title “Redmine for Orca” and the tagline “Your Redmine tasks, tied to workspaces and agents.”",
+              "sha256": "8bd45c8b326b36c098c6f38ba2f3857e0ccf22df8a2103827cd1ff9564750960",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/plozmun.redmine-tasks/58788fb1ad327929.png",
+              "alt": "Redmine icon",
+              "sha256": "58788fb1ad3279293eea337e4a32eac742bf7c49c78dc695a8d95f22d1ec1b78",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/plozmun/orca-redmine",
+          "updatedAt": "2026-11-04T08:50:51+01:00"
+        }
+      ]
+    },
+    {
+      "id": "pr1p.mermaid-editor",
+      "ownerId": 48266347,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Pr1p/orca-mermaid-editor.git",
+        "ref": "v0.3.1"
+      },
+      "description": "Editable Mermaid diagrams with live rendering: chart, split, and source views. Works with the Mermaid view toggle on .mmd files.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "d9acc95731c13f04dbe38766d202cfff36db0750",
+          "contentHash": "b821774aabbcecccbd7c34df3850da1e0651a6d811c50772efa0ee6c8194e4db",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "Mermaid Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Mermaid",
+              "detail": ".mmd, .mermaid"
+            }
+          ],
+          "fileTypes": [
+            "mmd",
+            "mermaid"
+          ],
+          "editorFileTypes": [
+            "mmd",
+            "mermaid"
+          ],
+          "updatedAt": "2026-11-04T18:10:37+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/Pr1p/orca-mermaid-editor"
+        }
+      ]
+    },
+    {
       "id": "prabowosd.grok-themes",
       "ownerId": 5931987,
       "source": {
@@ -3379,6 +5946,57 @@
           "license": "MIT",
           "repository": "https://github.com/reisen7/orca-tps",
           "updatedAt": "2026-11-03T16:36:12+08:00"
+        }
+      ]
+    },
+    {
+      "id": "rgarciade.containers",
+      "ownerId": 10086855,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rgarciade/orca-containers.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Manage your Docker engine (Colima, Docker Desktop, OrbStack, Podman, Rancher Desktop or any Docker context) and the Compose stacks, containers, ports and logs of the active worktree from Orca's right sidebar.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "b378065f81db7cc1998147bdc1ef89fa5e92c29f",
+          "contentHash": "e1bfb9ec3d1d098f3633f5f0cb3333c1c92c39bdad2c250a1935ed7799ffe9e1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Containers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Containers"
+            },
+            {
+              "kind": "commands",
+              "name": "Containers: refresh"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rgarciade.containers/14eb92345ca26678.png",
+              "alt": "Containers panel in Orca's sidebar: the All view grouping containers by Compose project, and a project's detail view with ports, CPU and memory",
+              "sha256": "14eb92345ca266789d69f6f07c479b57e53f2a0d7e7ec11e1fd193b9cdaf0fc5",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rgarciade/orca-containers",
+          "updatedAt": "2026-11-05T14:14:45+01:00"
         }
       ]
     },
@@ -3641,6 +6259,47 @@
       ]
     },
     {
+      "id": "ryusenkei-inc.hostslot",
+      "ownerId": 289414937,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ryusenkei-inc/hostslot.git",
+        "ref": "v0.10.0"
+      },
+      "description": "Machine capacity for parallel agents from Hostslot: what runs and waits, why, how much memory is free, and what a guard stopped.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.10.0",
+          "commit": "7f5df1d6f25cf6ed7d2ce682e4d4d9c6baa33bd9",
+          "contentHash": "e0bd7d37c12b0c0d18d7bb61db6059cae960fa66f22c508f77d6f6e60d317192",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Hostslot",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Hostslot"
+            },
+            {
+              "kind": "commands",
+              "name": "Hostslot: Show details"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Hostslot"
+            }
+          ],
+          "updatedAt": "2026-11-07T08:33:39+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/ryusenkei-inc/hostslot"
+        }
+      ]
+    },
+    {
       "id": "sachabigou.synthwave-2077",
       "ownerId": 97250860,
       "source": {
@@ -3687,12 +6346,270 @@
       ]
     },
     {
+      "id": "satangbudsai.git-control",
+      "ownerId": 123102920,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
+        "ref": "v0.5.0"
+      },
+      "description": "A lightweight Git client inside Orca: a full-tab history graph with changes, branches, merge/rebase, stash, worktrees, git config, right-click menus, and AI commit messages and conflict resolution.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "8636505234ddbdf16a82bbabd45c8b5d555c822d",
+          "contentHash": "60a2104bc4ef2e338672cb61aa392cb41ca076893044d13bfbdc8e6fa817d713",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Control",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Git: Open Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Review & MR"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Review & MR"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "terminal:send"
+          ],
+          "fileTypes": [
+            "gitgraph"
+          ],
+          "editorFileTypes": [
+            "gitgraph"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/satangbudsai.git-control/52d4b8b84577c2c3.jpg",
+              "alt": "Git Control: a blue and lavender paper Git history sculpture with ivory commit nodes and revision cards on a dark studio backdrop",
+              "sha256": "52d4b8b84577c2c3736dbe0aefadcecff18f691497289159e33ba31241e6c731",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/satangbudsai.git-control/3528d6f0bf936c96.png",
+              "alt": "Git Control icon",
+              "sha256": "3528d6f0bf936c96da9201e896edd1f2886f02112d3aee1b034c58cdfac5379f",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SatangBudsai/orca-git-extension",
+          "updatedAt": "2026-11-06T17:45:30+07:00"
+        }
+      ]
+    },
+    {
+      "id": "savenkosy.buttons",
+      "ownerId": 9272724,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SavenkoSy/orca-buttons.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Your own buttons in the status bar. Each button types keys into an agent terminal or runs a shell command.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "bbb9891c70781a6d6d0235290d6e2b0ed0be33df",
+          "contentHash": "cc2c1569ed31b26db835000f8790eda7853785fb0b7e8a93429ca6e5049b5cfe",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Buttons",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Buttons: press 1"
+            },
+            {
+              "kind": "commands",
+              "name": "Buttons: press 2"
+            },
+            {
+              "kind": "commands",
+              "name": "Buttons: press 3"
+            },
+            {
+              "kind": "commands",
+              "name": "Buttons: press 4"
+            },
+            {
+              "kind": "commands",
+              "name": "Buttons: press 5"
+            },
+            {
+              "kind": "commands",
+              "name": "Buttons: press 6"
+            },
+            {
+              "kind": "commands",
+              "name": "Buttons: press 7"
+            },
+            {
+              "kind": "commands",
+              "name": "Buttons: press 8"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b1"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b2"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b3"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b4"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b5"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b6"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b7"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "b8"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send"
+          ],
+          "updatedAt": "2026-11-05T10:00:06+02:00",
+          "license": "MIT",
+          "repository": "https://github.com/SavenkoSy/orca-buttons"
+        }
+      ]
+    },
+    {
+      "id": "schowave.asciidoc-diagrams",
+      "ownerId": 3199330,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
+        "ref": "v1.1.3"
+      },
+      "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.1.3",
+          "commit": "a103367dbdf79382a40aa2b6b343e0c56fb46b59",
+          "contentHash": "adfb05b87b5554eaaab64c19fe71687ec6023340f6ad01849d1f476e23b1a8db",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".adoc, .asciidoc, .asc"
+            }
+          ],
+          "fileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "editorFileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/schowave.asciidoc-diagrams/9a828b4b65631452.png",
+              "alt": "AsciiDoc document with a C4 context diagram rendered next to its table of contents",
+              "sha256": "9a828b4b65631452db1d42d5c6f6b463e12a4e001c826158884e30319706ca6b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/schowave.asciidoc-diagrams/a7250fb91f413a05.png",
+              "alt": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz icon",
+              "sha256": "a7250fb91f413a05516471026ad9bf40192d19bef32d0fd51331bb1860e7ce11",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/schowave.asciidoc-diagrams/4c22cf2df2326632.png",
+                "alt": "Architecture document with PlantUML C4, sequence and Mermaid diagrams in a light theme",
+                "sha256": "4c22cf2df232663299aaa722368112d37de2b2192716bc55c88ce559f8e8f8be",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/schowave.asciidoc-diagrams/0753e500d72b7ebd.png",
+                "alt": "Dark theme: a Graphviz event diagram, highlighted TypeScript and a KaTeX formula",
+                "sha256": "0753e500d72b7ebddcada6f214a9dd66ddf9a1972cea98994058e9c5fa2e9dc6",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/schowave/orca-asciidoc-diagrams",
+          "updatedAt": "2026-11-01T01:24:50Z"
+        }
+      ]
+    },
+    {
       "id": "senadaruc.grazr",
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/senadaruc/orca-grazr/0.6.3"
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.8.1"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -3701,6 +6618,95 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.1",
+          "commit": "a54bb1a6a6ff92517af7d3b777114a2156a7a8d2",
+          "contentHash": "125690f860ed6ad0a2b55f234acb9761e5f9ed11dbcb660a2166c87744bac02b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap to the next account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh parked accounts (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Turn rotation on/off (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Add an account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Show the focused workspace's host"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "updatedAt": "2026-11-03T21:05:53+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr"
+        },
         {
           "version": "0.6.3",
           "commit": "c3e76fd9ff37fc41a532bca9907732a78096aeee",
@@ -3935,12 +6941,198 @@
       ]
     },
     {
+      "id": "shakedm100.latex-preview",
+      "ownerId": 32491464,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shakedm100/orca-latex-preview.git",
+        "ref": "v0.4.2"
+      },
+      "description": "Adds PDF and Editor | PDF views to .tex files: the compiled document, or the source and the PDF side by side, rebuilt as you type, with source and PDF jumps, autocomplete and an outline.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.4.2",
+          "commit": "61bbd76a70c2ff70227d9e130f23caebdda273f9",
+          "contentHash": "1fb702aa3bb05e7d782ad7b7ddec4386317d2766d76207fbcc1d1cdf105e2c43",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LaTeX Preview",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Editor | PDF",
+              "detail": ".tex"
+            },
+            {
+              "kind": "customEditors",
+              "name": "PDF",
+              "detail": ".tex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "tex"
+          ],
+          "editorFileTypes": [
+            "tex"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shakedm100.latex-preview/d8cd3704cc7b1ae7.png",
+              "alt": "LaTeX Preview in Orca: LaTeX source on the left, its compiled PDF on the right, with a search for \"heat\" highlighted in the PDF",
+              "sha256": "d8cd3704cc7b1ae7a80e5a2d4754952018ecddf1513e4d4c69f9c526db138385",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/shakedm100.latex-preview/75172abb81a1d19d.png",
+              "alt": "LaTeX Preview icon",
+              "sha256": "75172abb81a1d19d93a42a9fcc1f1a916e68f7bc63d6d557c43344ad771d85d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/shakedm100.latex-preview/1446544f17e50c4a.png",
+                "alt": "LaTeX source in a dark editor on the left and the compiled two-page PDF on the right",
+                "sha256": "1446544f17e50c4a12875952579a30d27ad3e041ddd96caec3cf61725e21308a",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.latex-preview/b3c1964ae8d736c8.png",
+                "alt": "The same split view in Orca's light theme",
+                "sha256": "b3c1964ae8d736c8e822d3b3128e0bcfb18fc6cd6518e803e3c89f4c23c2e276",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.latex-preview/98d89bef442b5028.png",
+                "alt": "The PDF with a find bar searching for heat, its five matches highlighted and the current one in orange",
+                "sha256": "98d89bef442b502818419560a7700606c9e6c9e76cfdb9d5979b6b5e99563120",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.latex-preview/f62ec12af672a76c.png",
+                "alt": "A tooltip over a citation key showing the book title, author, year, publisher and reference number",
+                "sha256": "f62ec12af672a76cd6584e42aa5f1e89bb0c973cefcf47cc31488e5393c6c2d5",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shakedm100/orca-latex-preview",
+          "updatedAt": "2026-11-06T23:47:39+02:00"
+        }
+      ]
+    },
+    {
+      "id": "shakedm100.parquet-viewer",
+      "ownerId": 32491464,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shakedm100/orca-parquet-viewer.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Opens Apache Parquet files in the editor: a fast data grid with sort, filter and export, the schema, and file details with per-column statistics.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "91e4ba6371366fd885b2a1b21ce628abb5bbd2a6",
+          "contentHash": "6ad20f6c0c6f62e5fb0f1e4432c341ee23405362984b5e496b31ed3f2050475d",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Parquet Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Parquet",
+              "detail": ".parquet, .parq"
+            }
+          ],
+          "fileTypes": [
+            "parquet",
+            "parq"
+          ],
+          "editorFileTypes": [
+            "parquet",
+            "parq"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shakedm100.parquet-viewer/e8280d968d349782.png",
+              "alt": "Parquet Viewer in Orca: a grid of hourly weather readings with typed column headers",
+              "sha256": "e8280d968d3497825a4ef9c686a5fb207588b39d1b771c89c1142ae6e50d8b67",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/shakedm100.parquet-viewer/630634d3cc31ca58.png",
+              "alt": "Parquet Viewer icon",
+              "sha256": "630634d3cc31ca58b74d45ecbe07025368cd24b4760ec568d2e03682c7054180",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/shakedm100.parquet-viewer/c514eba3087acafe.png",
+                "alt": "The data grid with station, city, time and temperature columns in Orca's dark theme",
+                "sha256": "c514eba3087acafea99942f0c47fd5e2ba78cf1b7e60c8eec37fe60a4a7e9aeb",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.parquet-viewer/03a7f311cb7331ce.png",
+                "alt": "The same data grid in Orca's light theme",
+                "sha256": "03a7f311cb7331ce2572ef1f89aa5bdf817d0b9eb8806fdb2514907662a1f5ec",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.parquet-viewer/298dcc7a3ad5d5c6.png",
+                "alt": "Rows filtered by the word lightning: 527 of 70,080 rows match, showing list and struct columns",
+                "sha256": "298dcc7a3ad5d5c6c23a168cf13d61f2e1b91764b994829d51c2d38d186c69ef",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.parquet-viewer/a88559494cd66042.png",
+                "alt": "The Schema tab listing each field with its logical type, physical type and repetition",
+                "sha256": "a88559494cd66042865b3e8d277bf737b098bfb2b86d7912680eb0e0cdda95f0",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.parquet-viewer/3add114971acf71f.png",
+                "alt": "The Info tab with file size, compression and per-column codecs, sizes, null counts and min and max values",
+                "sha256": "3add114971acf71fa857d72ef131c9f15804a9bb0c05cc548e018d28888f08a5",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shakedm100/orca-parquet-viewer",
+          "updatedAt": "2026-11-07T00:01:39+02:00"
+        }
+      ]
+    },
+    {
       "id": "sumonta056.monokai-midnight",
       "ownerId": 61287791,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sumonta056/orca-midnight-dev.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sumonta056/orca-midnight-dev/1.1.0"
       },
       "description": "Monokai-style dark theme with deeper backgrounds, a matching terminal, and rich syntax for Java, Vue, Go, Python, C and C++.",
       "categories": [
@@ -4398,6 +7590,163 @@
           "license": "MIT",
           "repository": "https://github.com/thailoc-dev/orca-rose-pine",
           "updatedAt": "2026-10-31T16:59:22+07:00"
+        }
+      ]
+    },
+    {
+      "id": "tienne.git-logs",
+      "ownerId": 9584768,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tienne/orca-plugins.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Explore Git logs in a visual Git tree and commit graph. Compare changes in a read-only side-by-side diff and run confirmed Git actions in Orca.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "7376e52be94e0bd512906ffbc4f1f926111590c7",
+          "contentHash": "f094749f2d72c38625a1ca2e74f3bc331727fa6622945408b60202ab79cd6592",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Logs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Logs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".orcadiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "orcadiff"
+          ],
+          "editorFileTypes": [
+            "orcadiff"
+          ],
+          "updatedAt": "2026-11-05T09:48:09+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orca-plugins"
+        }
+      ]
+    },
+    {
+      "id": "tourbut.claude-pin",
+      "ownerId": 42790398,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tourbut/claude-pin.git",
+        "ref": "v0.3.1"
+      },
+      "description": "Pin a Claude Code account to each project. Agents Orca launches in a pinned project start with that account. Unofficial; not affiliated with or endorsed by Anthropic.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "519a4742c614341f0c6c04b5fb9b49079b4f25b7",
+          "contentHash": "7d16a4339baec9bbda36bc196c9227e8be9e4934ef8e3b4b223db010f1831591",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Pin",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Pin"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "pin"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "updatedAt": "2026-11-06T13:46:25+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/tourbut/claude-pin"
+        }
+      ]
+    },
+    {
+      "id": "tourbut.grokbot-notify",
+      "ownerId": 42790398,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tourbut/orca-helm.git",
+        "ref": "v0.5.0"
+      },
+      "description": "Hands Orca's agent alerts (done, waiting, blocked) from Orca's agent.status.changed hook to Grok Bot. The alert half of orca-helm.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "b3bafdf534f0959be52b0e22ceb570275640b7bc",
+          "contentHash": "737e05824b9411f325fcd5bb23a82667f06f209daf550289747fa5afdc754cae",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Grok Bot Notify",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Grok Bot"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "settings:own",
+            "secrets:own"
+          ],
+          "updatedAt": "2026-11-05T10:08:52+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/tourbut/orca-helm"
         }
       ]
     },

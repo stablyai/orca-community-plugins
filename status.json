@@ -3,32 +3,12 @@
   "repos": {
     "aamonnaig4/orca-plugins": {
       "state": "listed",
-      "ref": "refs/tags/aamonnaig4/orca-plugins/oled-pair/1.0.0",
+      "ref": "v1.2.0",
       "plugins": [
+        "aamonnaig4.activity-monitor",
+        "aamonnaig4.now-playing",
         "aamonnaig4.oled-pair",
         "aamonnaig4.putt-request"
-      ],
-      "rejected": [
-        {
-          "path": "plugins/activity-monitor",
-          "id": "activity-monitor",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "code"
-            }
-          ]
-        },
-        {
-          "path": "plugins/now-playing",
-          "id": "now-playing",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "code"
-            }
-          ]
-        }
       ]
     },
     "albuquerquesz/orca-github-dark-theme": {
@@ -56,13 +36,10 @@
       ]
     },
     "anthony-fp/orca-agent-inbox": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "anthony-fp.agent-inbox"
       ]
     },
     "arthurlaucs/agent-ansi-palettes": {
@@ -73,33 +50,34 @@
       ]
     },
     "awallsr/orca-beads": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "awallsr.beads"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "baroned1707/orca-claude-accounts": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.13.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "baroned1707.claude-accounts"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
+        "publisher \"baroned\" is ignored: Orca uses the GitHub owner \"baroned1707\"; remove \"publisher\" from orca-plugin.json"
       ]
     },
     "bautistapessagno/orca-spotify": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "bautistapessagno.now-playing"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "be0hhh/orca-binary-tools": {
@@ -132,13 +110,13 @@
       ]
     },
     "bhojanibilal24/orca-activity-calendar": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.4",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "bhojanibilal24.activity-calendar"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "canadianmaplefarmer/orca-azure-devops": {
@@ -172,33 +150,30 @@
       ]
     },
     "chrisluo5311/orca-snippet": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "chrisluo5311.snippets"
       ]
     },
     "cmdaltctr/orca-plugin-openspec": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "cmdaltctr.openspec"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "cmdaltctr/orca-plugin-prs-actions-releases-status": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "cmdaltctr.release-status"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "craig-franklin/orca-commit-review": {
@@ -228,13 +203,10 @@
       ]
     },
     "dennib/finline": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "dennib.finline"
       ]
     },
     "dohaidang/orca-theme-plugin": {
@@ -269,71 +241,49 @@
         }
       ]
     },
-    "eliasjnior/orca-plugins": {
+    "eliasjnior/orca-script-runner": {
       "state": "listed",
-      "ref": "refs/tags/eliasjnior/orca-plugins/worktree-notes/1.1.2",
+      "ref": "v1.2.0",
+      "plugins": [
+        "eliasjnior.script-runner"
+      ]
+    },
+    "eliasjnior/orca-worktree-notes": {
+      "state": "listed",
+      "ref": "v1.2.0",
       "plugins": [
         "eliasjnior.worktree-notes"
       ]
     },
-    "eliasjnior/orca-script-runner": {
-      "state": "rejected",
-      "ref": "v1.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
-      ]
-    },
-    "eliasjnior/orca-worktree-notes": {
-      "state": "rejected",
-      "ref": "v1.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
-      ]
-    },
     "emamalet/orca-git-log-panel": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.5",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "emamalet.git-log"
       ]
     },
     "eskono/orca-docker-logs": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.4.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "eskono.docker-logs"
       ]
     },
     "etherll/orca-usage-insights": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "etherll.usage-insights"
       ]
     },
     "faisalmuhammad/orca-graphiql": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.6",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "faisalmuhammad.graphiql"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "faisalmuhammad/orca-monospace-icons": {
@@ -358,28 +308,16 @@
     },
     "faisalmuhammad/orca-sidequest": {
       "state": "listed",
-      "ref": "refs/tags/faisalmuhammad/orca-sidequest/0.2.0",
+      "ref": "v0.5.0",
       "plugins": [
         "faisalmuhammad.sidequest"
-      ],
-      "update": {
-        "ref": "v0.5.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "felix-lj-ct/orca-agent-inbox": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "felix-lj-ct.agent-inbox"
       ]
     },
     "fullfran/orca-plugins": {
@@ -499,23 +437,17 @@
       ]
     },
     "hubo1989/orca-codegraph-init": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "hubo1989.codegraph-init"
       ]
     },
     "iml885203/orca-orbit": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "iml885203.orbit-status"
       ]
     },
     "incompletebiped/orca-localdock": {
@@ -538,19 +470,10 @@
     },
     "ivanha-dev/mcp-openproject": {
       "state": "listed",
-      "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.2",
+      "ref": "v0.1.4",
       "plugins": [
         "ivanha-dev.openproject"
-      ],
-      "update": {
-        "ref": "v0.1.4",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "ivo922/everforest-theme": {
       "state": "listed",
@@ -577,23 +500,17 @@
       ]
     },
     "jig-harness/orca-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "jig-harness.jig"
       ]
     },
     "jodac/orca-git-controls": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "jodac.git-controls"
       ]
     },
     "jojo252511/orca-german-plugin": {
@@ -614,13 +531,10 @@
       ]
     },
     "joneszeng/orca-orchestra": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "joneszeng.orchestra"
       ]
     },
     "jrmatos/orca-radio-fm": {
@@ -660,23 +574,17 @@
       ]
     },
     "ky1ezer0/orca-git-graph": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "ky1ezer0.git-graph"
       ]
     },
     "kyino-pan/agents-director": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "kyino-pan.agent-activity"
       ]
     },
     "lamtuanvu/cv-hub-orca-plugin": {
@@ -698,13 +606,13 @@
       ]
     },
     "lindoo67/drawio-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.5",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "lindoo67.drawio"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "lkgilgamesh/orca-ayu": {
@@ -741,13 +649,10 @@
       ]
     },
     "marco-calderon/nord-midnight-orca-theme": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.3.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "name"
-        }
+      "plugins": [
+        "marco-calderon.nord-midnight-theme"
       ]
     },
     "mars-crater/orca-jsonnet-syntax": {
@@ -759,28 +664,19 @@
     },
     "mbirepinte/orca-asciidoc-viewer": {
       "state": "listed",
-      "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/0.1.0",
+      "ref": "v1.1.0",
       "plugins": [
         "mbirepinte.asciidoc-viewer"
       ],
-      "update": {
-        "ref": "v1.1.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "michelvelzr/ork-dbclient": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "michelvelzr.ork-dbclient"
       ]
     },
     "miinwan/orca-vietnamese": {
@@ -798,7 +694,7 @@
     },
     "miragon/orca-modelers": {
       "state": "listed",
-      "ref": "v0.1.14",
+      "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.1.2",
       "plugins": [
         "miragon.context-maps-modeler",
         "miragon.event-storming-modeler",
@@ -819,13 +715,10 @@
       ]
     },
     "molanojf/orca-json-canvas": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "molanojf.json-canvas"
       ]
     },
     "mortik/orca-dev-server": {
@@ -842,13 +735,10 @@
       ]
     },
     "moseoh/orca-git-history": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "moseoh.git-history"
       ]
     },
     "mrakofff/orca-palenight-theme-plugin": {
@@ -879,23 +769,17 @@
       ]
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.1.3",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "narimanisakhanov-creator.xlsx-editor"
       ]
     },
     "nknwns/orca-wakatime": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "nknwns.wakatime"
       ]
     },
     "noobitoo/orca-russian": {
@@ -912,13 +796,10 @@
       ]
     },
     "palulabs/orca-tycoon": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, name"
-        }
+      "plugins": [
+        "palulabs.office-tycoon"
       ]
     },
     "piter75/orca-gruvbox-material-theme": {
@@ -932,23 +813,20 @@
       ]
     },
     "plozmun/orca-redmine": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.7",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "plozmun.redmine-tasks"
       ]
     },
     "pr1p/orca-mermaid-editor": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "pr1p.mermaid-editor"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "prabowosd/orca-grok-themes": {
@@ -985,13 +863,10 @@
       ]
     },
     "rgarciade/orca-containers": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "rgarciade.containers"
       ]
     },
     "roflochinsky/beads-orca": {
@@ -1042,13 +917,10 @@
       ]
     },
     "ryusenkei-inc/hostslot": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.10.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "ryusenkei-inc.hostslot"
       ]
     },
     "sachabigou/synthwave-2077-orca": {
@@ -1062,69 +934,54 @@
       ]
     },
     "satangbudsai/orca-git-extension": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.5.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "satangbudsai.git-control"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "savenkosy/orca-buttons": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "savenkosy.buttons"
       ]
     },
     "schowave/orca-asciidoc-diagrams": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.1.3",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "schowave.asciidoc-diagrams"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "refs/tags/senadaruc/orca-grazr/0.6.3",
+      "ref": "v0.8.1",
       "plugins": [
         "senadaruc.grazr"
       ],
-      "update": {
-        "ref": "v0.8.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "shakedm100/orca-latex-preview": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.4.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "shakedm100.latex-preview"
       ]
     },
     "shakedm100/orca-parquet-viewer": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "shakedm100.parquet-viewer"
       ]
     },
     "sks-other/orca-russian": {
@@ -1168,7 +1025,7 @@
     },
     "sumonta056/orca-midnight-dev": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/sumonta056/orca-midnight-dev/1.1.0",
       "plugins": [
         "sumonta056.monokai-midnight"
       ]
@@ -1218,33 +1075,24 @@
       ]
     },
     "tienne/orca-plugins": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "tienne.git-logs"
       ]
     },
     "tourbut/claude-pin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "tourbut.claude-pin"
       ]
     },
     "tourbut/orca-helm": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.5.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "tourbut.grokbot-notify"
       ]
     },
     "upstash/box-orca-plugin": {

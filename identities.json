@@ -1,4 +1,16 @@
 {
+  "aamonnaig4.activity-monitor": {
+    "repoId": 1447783832,
+    "ownerId": 67522529,
+    "repository": "aamonnaig4/orca-plugins",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "aamonnaig4.now-playing": {
+    "repoId": 1447783832,
+    "ownerId": 67522529,
+    "repository": "aamonnaig4/orca-plugins",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "aamonnaig4.oled-pair": {
     "repoId": 1447783832,
     "ownerId": 67522529,
@@ -23,17 +35,47 @@
     "repository": "alexesprit/orca-unfancy-file-icons",
     "firstSeen": "2026-11-05T14:15:56.349Z"
   },
+  "anthony-fp.agent-inbox": {
+    "repoId": 1447664604,
+    "ownerId": 30504,
+    "repository": "anthony-fp/orca-agent-inbox",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "arthurlaucs.agent-ansi-palettes": {
     "repoId": 1447876169,
     "ownerId": 125106464,
     "repository": "ArthurLauCS/agent-ansi-palettes",
     "firstSeen": "2026-11-06T06:24:23.168Z"
   },
+  "awallsr.beads": {
+    "repoId": 1431507996,
+    "ownerId": 79927536,
+    "repository": "awallsr/orca-beads",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "baroned1707.claude-accounts": {
+    "repoId": 1408195948,
+    "ownerId": 61402493,
+    "repository": "baroned1707/orca-claude-accounts",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "bautistapessagno.now-playing": {
+    "repoId": 1441966972,
+    "ownerId": 174156446,
+    "repository": "BautistaPessagno/orca-spotify",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "be0hhh.cpp-kit": {
     "repoId": 1444720222,
     "ownerId": 182023099,
     "repository": "be0hhh/orca-cpp-kit",
     "firstSeen": "2026-11-03T20:39:21.020Z"
+  },
+  "bhojanibilal24.activity-calendar": {
+    "repoId": 1443204535,
+    "ownerId": 274619991,
+    "repository": "bhojanibilal24/orca-activity-calendar",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "cd3vane.jetbrains-themes": {
     "repoId": 1444412158,
@@ -47,6 +89,24 @@
     "repository": "cemalkilic/lima-orca-vm-recipes",
     "firstSeen": "2026-11-01T19:39:23.458Z"
   },
+  "chrisluo5311.snippets": {
+    "repoId": 1445200428,
+    "ownerId": 77089596,
+    "repository": "chrisluo5311/orca-snippet",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "cmdaltctr.openspec": {
+    "repoId": 1444201316,
+    "ownerId": 76873351,
+    "repository": "cmdaltctr/orca-plugin-openspec",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "cmdaltctr.release-status": {
+    "repoId": 1444201248,
+    "ownerId": 76873351,
+    "repository": "cmdaltctr/orca-plugin-prs-actions-releases-status",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "dawidwetzler.cobalt2-theme": {
     "repoId": 1439973362,
     "ownerId": 49675685,
@@ -58,6 +118,12 @@
     "ownerId": 351825985,
     "repository": "ddantran/orca-rails-syntax",
     "firstSeen": "2026-11-05T04:17:00.316Z"
+  },
+  "dennib.finline": {
+    "repoId": 1446064030,
+    "ownerId": 13068594,
+    "repository": "dennib/finline",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "dohaidang.living-ascii-themes": {
     "repoId": 1445009325,
@@ -71,11 +137,44 @@
     "repository": "dohaidang/orca-vietnamese-plugin",
     "firstSeen": "2026-11-03T10:39:03.733Z"
   },
-  "eliasjnior.worktree-notes": {
-    "repoId": 1444880386,
+  "eliasjnior.script-runner": {
+    "repoId": 1445830071,
     "ownerId": 5036316,
-    "repository": "eliasjnior/orca-plugins",
-    "firstSeen": "2026-11-04T12:20:02.665Z"
+    "repository": "eliasjnior/orca-script-runner",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "eliasjnior.worktree-notes": {
+    "repoId": 1445830253,
+    "ownerId": 5036316,
+    "repository": "eliasjnior/orca-worktree-notes",
+    "firstSeen": "2026-11-04T12:20:02.665Z",
+    "previousRepoIds": [
+      1444880386
+    ]
+  },
+  "emamalet.git-log": {
+    "repoId": 1444427278,
+    "ownerId": 43491715,
+    "repository": "emamalet/orca-git-log-panel",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "eskono.docker-logs": {
+    "repoId": 1446788033,
+    "ownerId": 4644133,
+    "repository": "eskono/orca-docker-logs",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "etherll.usage-insights": {
+    "repoId": 1444892043,
+    "ownerId": 61019402,
+    "repository": "Etherll/orca-usage-insights",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "faisalmuhammad.graphiql": {
+    "repoId": 1446309071,
+    "ownerId": 3476670,
+    "repository": "faisalmuhammad/orca-graphiql",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "faisalmuhammad.monospace-dark": {
     "repoId": 1443401001,
@@ -100,6 +199,12 @@
     "ownerId": 3476670,
     "repository": "faisalmuhammad/orca-sidequest",
     "firstSeen": "2026-11-05T22:13:45.702Z"
+  },
+  "felix-lj-ct.agent-inbox": {
+    "repoId": 1446473404,
+    "ownerId": 75980151,
+    "repository": "felix-lj-ct/orca-agent-inbox",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "gaoshang212.csharp": {
     "repoId": 1442699329,
@@ -149,6 +254,18 @@
     "repository": "heath0xFF/stillwater",
     "firstSeen": "2026-11-04T13:40:05.964Z"
   },
+  "hubo1989.codegraph-init": {
+    "repoId": 1446601247,
+    "ownerId": 770080,
+    "repository": "hubo1989/orca-codegraph-init",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "iml885203.orbit-status": {
+    "repoId": 1445257937,
+    "ownerId": 17023091,
+    "repository": "iml885203/orca-orbit",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "insforge.instabox": {
     "repoId": 1442493926,
     "ownerId": 198419463,
@@ -179,11 +296,29 @@
     "repository": "jerrazuw/orca-gallery-panel",
     "firstSeen": "2026-11-05T14:40:06.953Z"
   },
+  "jig-harness.jig": {
+    "repoId": 1442927570,
+    "ownerId": 344299046,
+    "repository": "jig-harness/orca-plugin",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "jodac.git-controls": {
+    "repoId": 1443512208,
+    "ownerId": 24722398,
+    "repository": "JoDaC/orca-git-controls",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "jondmarien.discord-presence": {
     "repoId": 1357830522,
     "ownerId": 2687328,
     "repository": "jondmarien/orca-discord-presence",
     "firstSeen": "2026-11-05T04:39:18.589Z"
+  },
+  "joneszeng.orchestra": {
+    "repoId": 1446615741,
+    "ownerId": 37136863,
+    "repository": "JonesZeng/orca-orchestra",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "kianxm.luau-syntax": {
     "repoId": 1446327006,
@@ -197,11 +332,35 @@
     "repository": "kolebayev/orca-md-layout",
     "firstSeen": "2026-10-31T00:27:00.334Z"
   },
+  "ky1ezer0.git-graph": {
+    "repoId": 1446942384,
+    "ownerId": 61507247,
+    "repository": "Ky1ezer0/orca-git-graph",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "kyino-pan.agent-activity": {
+    "repoId": 1444060793,
+    "ownerId": 63436915,
+    "repository": "Kyino-Pan/agents-director",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "lindoo67.drawio": {
+    "repoId": 1440632874,
+    "ownerId": 268206566,
+    "repository": "lindoo67/drawio-plugin",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "lkgilgamesh.ayu": {
     "repoId": 1440935757,
     "ownerId": 6620302,
     "repository": "LKGilgamesh/orca-ayu",
     "firstSeen": "2026-10-31T14:39:05.596Z"
+  },
+  "marco-calderon.nord-midnight-theme": {
+    "repoId": 1448862369,
+    "ownerId": 47753684,
+    "repository": "marco-calderon/nord-midnight-orca-theme",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "mars-crater.jsonnet-syntax": {
     "repoId": 1444137360,
@@ -214,6 +373,12 @@
     "ownerId": 113261345,
     "repository": "Mbirepinte/Orca-asciidoc-viewer",
     "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "michelvelzr.ork-dbclient": {
+    "repoId": 1448636810,
+    "ownerId": 131314046,
+    "repository": "MichelVelzr/ork-dbclient",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "miragon.context-maps-modeler": {
     "repoId": 1446885777,
@@ -239,17 +404,59 @@
     "repository": "Miragon/orca-modelers",
     "firstSeen": "2026-11-07T08:07:58.652Z"
   },
+  "molanojf.json-canvas": {
+    "repoId": 1444503272,
+    "ownerId": 199264747,
+    "repository": "MolanoJF/orca-json-canvas",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "moseoh.git-history": {
+    "repoId": 1445571671,
+    "ownerId": 45132207,
+    "repository": "moseoh/orca-git-history",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "mrakofff.palenight-theme": {
     "repoId": 1444621109,
     "ownerId": 21972136,
     "repository": "mrakofff/orca-palenight-theme-plugin",
     "firstSeen": "2026-11-03T17:40:13.866Z"
   },
+  "narimanisakhanov-creator.xlsx-editor": {
+    "repoId": 1447300057,
+    "ownerId": 291232506,
+    "repository": "narimanisakhanov-creator/orca-xlsx-editor",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "nknwns.wakatime": {
+    "repoId": 1423645641,
+    "ownerId": 75518063,
+    "repository": "nknwns/orca-wakatime",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "palulabs.office-tycoon": {
+    "repoId": 1446103121,
+    "ownerId": 15814449,
+    "repository": "palulabs/orca-tycoon",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "piter75.gruvbox-material-theme": {
     "repoId": 1441284983,
     "ownerId": 639590,
     "repository": "piter75/orca-gruvbox-material-theme",
     "firstSeen": "2026-10-31T22:12:32.874Z"
+  },
+  "plozmun.redmine-tasks": {
+    "repoId": 1444025053,
+    "ownerId": 879675,
+    "repository": "plozmun/orca-redmine",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "pr1p.mermaid-editor": {
+    "repoId": 1439803990,
+    "ownerId": 48266347,
+    "repository": "Pr1p/orca-mermaid-editor",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "prabowosd.grok-themes": {
     "repoId": 1445112428,
@@ -262,6 +469,12 @@
     "ownerId": 89134690,
     "repository": "reisen7/orca-tps",
     "firstSeen": "2026-11-04T11:39:15.588Z"
+  },
+  "rgarciade.containers": {
+    "repoId": 1446899420,
+    "ownerId": 10086855,
+    "repository": "rgarciade/orca-containers",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "rolottr.auto-collapse": {
     "repoId": 1444756898,
@@ -287,17 +500,53 @@
     "repository": "Runzivo/rzv-orca-plugin",
     "firstSeen": "2026-11-06T01:15:05.036Z"
   },
+  "ryusenkei-inc.hostslot": {
+    "repoId": 1448164475,
+    "ownerId": 289414937,
+    "repository": "ryusenkei-inc/hostslot",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "sachabigou.synthwave-2077": {
     "repoId": 1444844994,
     "ownerId": 97250860,
     "repository": "sachabigou/synthwave-2077-orca",
     "firstSeen": "2026-11-03T21:39:36.122Z"
   },
+  "satangbudsai.git-control": {
+    "repoId": 1446721393,
+    "ownerId": 123102920,
+    "repository": "SatangBudsai/orca-git-extension",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "savenkosy.buttons": {
+    "repoId": 1446708900,
+    "ownerId": 9272724,
+    "repository": "SavenkoSy/orca-buttons",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "schowave.asciidoc-diagrams": {
+    "repoId": 1441331902,
+    "ownerId": 3199330,
+    "repository": "schowave/orca-asciidoc-diagrams",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
   "senadaruc.grazr": {
     "repoId": 1440225977,
     "ownerId": 14252382,
     "repository": "senadaruc/orca-grazr",
     "firstSeen": "2026-10-31T00:27:00.334Z"
+  },
+  "shakedm100.latex-preview": {
+    "repoId": 1444543423,
+    "ownerId": 32491464,
+    "repository": "shakedm100/orca-latex-preview",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "shakedm100.parquet-viewer": {
+    "repoId": 1445326020,
+    "ownerId": 32491464,
+    "repository": "shakedm100/orca-parquet-viewer",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "sumonta056.monokai-midnight": {
     "repoId": 1446949999,
@@ -328,6 +577,24 @@
     "ownerId": 113083148,
     "repository": "thailoc-dev/orca-rose-pine",
     "firstSeen": "2026-10-31T10:12:38.962Z"
+  },
+  "tienne.git-logs": {
+    "repoId": 1446153782,
+    "ownerId": 9584768,
+    "repository": "tienne/orca-plugins",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "tourbut.claude-pin": {
+    "repoId": 1447632672,
+    "ownerId": 42790398,
+    "repository": "tourbut/claude-pin",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "tourbut.grokbot-notify": {
+    "repoId": 1444000708,
+    "ownerId": 42790398,
+    "repository": "tourbut/orca-helm",
+    "firstSeen": "2026-11-07T08:13:00.007Z"
   },
   "upstash.upstash-box": {
     "repoId": 1439710636,
