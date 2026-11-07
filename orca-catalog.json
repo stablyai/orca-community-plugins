@@ -3976,8 +3976,8 @@
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thailoc-dev/orca-dev-toolbox.git",
-        "ref": "v0.8.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.8.0"
       },
       "description": "49 offline developer tools in Orca's sidebar: JWT, certificates, Docker run to Compose, JSON diff, TOML, secret redaction, LLM token counter, ANSI log cleaner, cron, regex and more.",
       "categories": [

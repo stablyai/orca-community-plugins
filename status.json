@@ -1227,7 +1227,7 @@
     },
     "thailoc-dev/orca-dev-toolbox": {
       "state": "listed",
-      "ref": "v0.8.0",
+      "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.8.0",
       "plugins": [
         "thailoc-dev.dev-toolbox"
       ]
