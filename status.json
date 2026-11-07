@@ -727,6 +727,16 @@
         "molanojf.json-canvas"
       ]
     },
+    "momokun7/orca-3d-viewer": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, content, size"
+        }
+      ]
+    },
     "mortik/orca-dev-server": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -942,9 +952,15 @@
       "plugins": [
         "satangbudsai.git-control"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.6.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size"
+          }
+        ]
+      }
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
