@@ -491,7 +491,7 @@
     },
     "jargez/orca-recipes": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/jargez/orca-recipes/0.1.0",
       "plugins": [
         "jargez.docker-vm"
       ]
@@ -867,7 +867,7 @@
     },
     "roflochinsky/beads-orca": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/roflochinsky/beads-orca/0.1.2",
       "plugins": [
         "roflochinsky.beads"
       ]

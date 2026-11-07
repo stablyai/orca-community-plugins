@@ -3829,8 +3829,8 @@
       "ownerId": 17633366,
       "source": {
         "kind": "git",
-        "url": "https://github.com/JargeZ/orca-recipes.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jargez/orca-recipes/0.1.0"
       },
       "description": "Isolated development environments: each Orca workspace runs in its own Docker container on your machine, so toolchains, dependencies and the agents' work leave no trace on the host. Fine-grained git tokens for one repository, no privileged containers, rootless Podman inside. Note: host ports stay re",
       "categories": [
@@ -6119,8 +6119,8 @@
       "ownerId": 188368209,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Roflochinsky/beads-orca.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/roflochinsky/beads-orca/0.1.2"
       },
       "description": "Live Beads board, dependencies and issue actions backed by your local bd CLI.",
       "categories": [
