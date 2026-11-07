@@ -33,7 +33,7 @@
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
-      "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.2",
+      "ref": "v1.0.3",
       "plugins": [
         "albuquerquesz.github-dark-theme"
       ]
@@ -720,6 +720,16 @@
         {
           "category": "publisher",
           "detail": "publisher \"vibeguard\" is not the GitHub owner \"m1105\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"m1105\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
+        }
+      ]
+    },
+    "marco-calderon/nord-midnight-orca-theme": {
+      "state": "rejected",
+      "ref": "v1.3.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name"
         }
       ]
     },

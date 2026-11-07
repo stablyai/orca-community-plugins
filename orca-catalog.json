@@ -109,8 +109,8 @@
       "ownerId": 165061558,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.2"
+        "url": "https://github.com/albuquerquesz/orca-github-dark-theme.git",
+        "ref": "v1.0.3"
       },
       "description": "A GitHub Dark theme for Orca with a lighter neutral gray interface and matching terminal colors.",
       "categories": [
@@ -118,6 +118,36 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "756dacac9fd8dc042d71048ea3aa3fe005bf54e2",
+          "contentHash": "38523183c42a2db2cb0223197866bdf9e04999486124594d064351aa6a216891",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "GitHub Dark for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "GitHub Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "GitHub Dark"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/albuquerquesz.github-dark-theme/50622ad8515042e4.png",
+              "alt": "GitHub Dark theme in Orca, framed on a light background with the adapted gray palette and syntax colors",
+              "sha256": "50622ad8515042e405882d0bfda9589addadae1c2984cba2362c6940a659170f",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/albuquerquesz/orca-github-dark-theme",
+          "updatedAt": "2026-11-06T21:02:29-03:00"
+        },
         {
           "version": "1.0.2",
           "commit": "499c4bd823515fd81fed6318efeb33ff5dd1954d",
