@@ -185,6 +185,12 @@
     "repoId": 1444105283,
     "firstSeen": "2026-11-03T10:39:03.733Z"
   },
+  "ehart004.monokai-theme@1.0.0": {
+    "commit": "426be9c56dc98c0ecb9946ea29f79696f92581dd",
+    "contentHash": "a3878c25bb4fa404c5695e8b76a8de47d89af8a57f001361463527751f90c02e",
+    "repoId": 1449636544,
+    "firstSeen": "2026-11-07T18:39:32.735Z"
+  },
   "eliasjnior.script-runner@1.2.0": {
     "commit": "83f7f82583a54b1fbf5a1191b0cc1195a1821161",
     "contentHash": "898376a04255b97afcd4e4860b42f04fd9f8ce5bc58b2d88d8e702307cf332f1",
@@ -706,6 +712,12 @@
     "contentHash": "20f597a041cfdcbc30e65348cca7a427dd122afc3707326401df400820612531",
     "repoId": 1449599161,
     "firstSeen": "2026-11-07T18:14:43.248Z"
+  },
+  "royklo.rego-syntax@1.0.2": {
+    "commit": "1bf32b1532601f447adc8f05a825aa47c208e9bf",
+    "contentHash": "de1e4f264c64193a473516a3611d5c9299853d5050cf8743a83d5cbda8ff04bd",
+    "repoId": 1449599161,
+    "firstSeen": "2026-11-07T18:39:32.735Z"
   },
   "runzivo.runzivo-sandboxes@0.1.0": {
     "commit": "b5beca2893492b8b4070a84428cd20cb93ee3066",

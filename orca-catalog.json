@@ -2068,6 +2068,43 @@
       ]
     },
     {
+      "id": "ehart004.monokai-theme",
+      "ownerId": 7690156,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ehart004/orca-monokai-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "The classic Monokai color scheme for Orca's app, editor and terminal.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "426be9c56dc98c0ecb9946ea29f79696f92581dd",
+          "contentHash": "a3878c25bb4fa404c5695e8b76a8de47d89af8a57f001361463527751f90c02e",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Monokai",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Monokai"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monokai"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ehart004/orca-monokai-theme",
+          "updatedAt": "2026-11-07T12:36:27-06:00"
+        }
+      ]
+    },
+    {
       "id": "eliasjnior.script-runner",
       "ownerId": 5036316,
       "source": {
@@ -6019,8 +6056,8 @@
       "ownerId": 291232506,
       "source": {
         "kind": "git",
-        "url": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor.git",
-        "ref": "v1.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.4"
       },
       "description": "Open and edit Excel workbooks in Orca with their formatting: fills, fonts, borders, number formats, merged cells, frozen panes and every sheet. Insert or delete rows and columns with formulas and references updated safely, search the whole workbook, and copy with formatting. Saves in place without t",
       "categories": [],
@@ -7011,13 +7048,43 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/royklo/orca-rego.git",
-        "ref": "v1.0.1"
+        "ref": "v1.0.2"
       },
       "description": "Syntax highlighting for Open Policy Agent Rego (.rego) files.",
       "categories": [
         "languages"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "1bf32b1532601f447adc8f05a825aa47c208e9bf",
+          "contentHash": "de1e4f264c64193a473516a3611d5c9299853d5050cf8743a83d5cbda8ff04bd",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Rego Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Rego",
+              "detail": ".rego"
+            }
+          ],
+          "fileTypes": [
+            "rego"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/royklo.rego-syntax/fd491c541436a98e.png",
+              "alt": "A Rego authorization policy in the Orca editor with keywords, strings, comments and built-in calls in their own colours",
+              "sha256": "fd491c541436a98e05165c3617bdba0860581d9422c54d394655221f1e9056ff",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/royklo/orca-rego",
+          "updatedAt": "2026-11-07T19:23:39+01:00"
+        },
         {
           "version": "1.0.1",
           "commit": "e7c0d3f730daea3996d0be3d87428c1fabe55456",

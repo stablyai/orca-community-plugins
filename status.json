@@ -241,6 +241,13 @@
         }
       ]
     },
+    "ehart004/orca-monokai-theme": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "ehart004.monokai-theme"
+      ]
+    },
     "eliasjnior/orca-script-runner": {
       "state": "listed",
       "ref": "refs/tags/eliasjnior/orca-script-runner/1.2.0",
@@ -786,7 +793,7 @@
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "listed",
-      "ref": "v1.1.4",
+      "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.4",
       "plugins": [
         "narimanisakhanov-creator.xlsx-editor"
       ]
@@ -924,12 +931,9 @@
     },
     "royklo/orca-rego": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "plugins": [
         "royklo.rego-syntax"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "runzivo/rzv-orca-plugin": {
