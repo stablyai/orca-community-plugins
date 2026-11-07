@@ -767,6 +767,12 @@
     "repoId": 1444543423,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "shakedm100.latex-preview@0.4.3": {
+    "commit": "20f2929d869fec46242777884107bcb68d3c4228",
+    "contentHash": "90e1f817f8edd2dae4cf17e93e35bb26de27c2d65a3f1aa68b60947088ee6d17",
+    "repoId": 1444543423,
+    "firstSeen": "2026-11-07T15:39:01.001Z"
+  },
   "shakedm100.parquet-viewer@0.1.2": {
     "commit": "91e4ba6371366fd885b2a1b21ce628abb5bbd2a6",
     "contentHash": "6ad20f6c0c6f62e5fb0f1e4432c341ee23405362984b5e496b31ed3f2050475d",
@@ -850,6 +856,12 @@
     "contentHash": "737e05824b9411f325fcd5bb23a82667f06f209daf550289747fa5afdc754cae",
     "repoId": 1444000708,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "unz47.neon-glass@1.0.1": {
+    "commit": "588bafabbd8b49f4d9b38435fc8f4ef99f572156",
+    "contentHash": "17d0aed4b94e83172b42171f61cabfb218a6c60730a597e2fd1a63bf6f6773e2",
+    "repoId": 1449485237,
+    "firstSeen": "2026-11-07T15:39:01.001Z"
   },
   "upstash.upstash-box@0.1.0": {
     "commit": "01a1c8d01f87773e0c3c957276e6375ef3b962e4",

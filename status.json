@@ -887,7 +887,7 @@
     },
     "roflochinsky/beads-orca": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/roflochinsky/beads-orca/0.2.1",
       "plugins": [
         "roflochinsky.beads"
       ]
@@ -953,7 +953,7 @@
         "satangbudsai.git-control"
       ],
       "update": {
-        "ref": "v0.6.1",
+        "ref": "v0.6.2",
         "reasons": [
           {
             "category": "under-review",
@@ -991,7 +991,7 @@
     },
     "shakedm100/orca-latex-preview": {
       "state": "listed",
-      "ref": "refs/tags/shakedm100/orca-latex-preview/0.4.2",
+      "ref": "v0.4.3",
       "plugins": [
         "shakedm100.latex-preview"
       ]
@@ -1112,6 +1112,13 @@
       "ref": "refs/tags/tourbut/orca-helm/0.5.0",
       "plugins": [
         "tourbut.grokbot-notify"
+      ]
+    },
+    "unz47/neon-glass-theme": {
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "unz47.neon-glass"
       ]
     },
     "upstash/box-orca-plugin": {

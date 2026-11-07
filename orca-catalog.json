@@ -6568,8 +6568,8 @@
       "ownerId": 188368209,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Roflochinsky/beads-orca.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/roflochinsky/beads-orca/0.2.1"
       },
       "description": "Beads board, handoff previews, documents and personal history for local and explicitly mapped SSH workspaces.",
       "categories": [
@@ -7745,12 +7745,93 @@
       "ownerId": 32491464,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shakedm100/orca-latex-preview/0.4.2"
+        "url": "https://github.com/shakedm100/orca-latex-preview.git",
+        "ref": "v0.4.3"
       },
       "description": "Adds PDF and Editor | PDF views to .tex files: the compiled document, or the source and the PDF side by side, rebuilt as you type, with source and PDF jumps, autocomplete and an outline.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.4.3",
+          "commit": "20f2929d869fec46242777884107bcb68d3c4228",
+          "contentHash": "90e1f817f8edd2dae4cf17e93e35bb26de27c2d65a3f1aa68b60947088ee6d17",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LaTeX Preview",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Editor | PDF",
+              "detail": ".tex"
+            },
+            {
+              "kind": "customEditors",
+              "name": "PDF",
+              "detail": ".tex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "tex"
+          ],
+          "editorFileTypes": [
+            "tex"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shakedm100.latex-preview/d8cd3704cc7b1ae7.png",
+              "alt": "LaTeX Preview in Orca: LaTeX source on the left, its compiled PDF on the right, with a search for \"heat\" highlighted in the PDF",
+              "sha256": "d8cd3704cc7b1ae7a80e5a2d4754952018ecddf1513e4d4c69f9c526db138385",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/shakedm100.latex-preview/75172abb81a1d19d.png",
+              "alt": "LaTeX Preview icon",
+              "sha256": "75172abb81a1d19d93a42a9fcc1f1a916e68f7bc63d6d557c43344ad771d85d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/shakedm100.latex-preview/1446544f17e50c4a.png",
+                "alt": "LaTeX source in a dark editor on the left and the compiled two-page PDF on the right",
+                "sha256": "1446544f17e50c4a12875952579a30d27ad3e041ddd96caec3cf61725e21308a",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.latex-preview/b3c1964ae8d736c8.png",
+                "alt": "The same split view in Orca's light theme",
+                "sha256": "b3c1964ae8d736c8e822d3b3128e0bcfb18fc6cd6518e803e3c89f4c23c2e276",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.latex-preview/98d89bef442b5028.png",
+                "alt": "The PDF with a find bar searching for heat, its five matches highlighted and the current one in orange",
+                "sha256": "98d89bef442b502818419560a7700606c9e6c9e76cfdb9d5979b6b5e99563120",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/shakedm100.latex-preview/f62ec12af672a76c.png",
+                "alt": "A tooltip over a citation key showing the book title, author, year, publisher and reference number",
+                "sha256": "f62ec12af672a76cd6584e42aa5f1e89bb0c973cefcf47cc31488e5393c6c2d5",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shakedm100/orca-latex-preview",
+          "updatedAt": "2026-11-07T17:29:01+02:00"
+        },
         {
           "version": "0.4.2",
           "commit": "61bbd76a70c2ff70227d9e130f23caebdda273f9",
@@ -8603,6 +8684,59 @@
           "license": "MIT",
           "repository": "https://github.com/tourbut/orca-helm",
           "updatedAt": "2026-11-05T10:08:52+09:00"
+        }
+      ]
+    },
+    {
+      "id": "unz47.neon-glass",
+      "ownerId": 130633356,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/unz47/neon-glass-theme.git",
+        "ref": "v1.0.1"
+      },
+      "description": "Frosted glass themes for Orca, dark and light, lit by a neon pink accent. With matching terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "588bafabbd8b49f4d9b38435fc8f4ef99f572156",
+          "contentHash": "17d0aed4b94e83172b42171f61cabfb218a6c60730a597e2fd1a63bf6f6773e2",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Neon Glass",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Neon Glass Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Neon Glass Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Neon Glass Clear Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Neon Glass Clear Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Neon Glass Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Neon Glass Light"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/unz47/neon-glass-theme",
+          "updatedAt": "2026-11-08T00:33:03+09:00"
         }
       ]
     },
