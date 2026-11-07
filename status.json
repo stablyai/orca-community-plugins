@@ -496,6 +496,16 @@
         "jargez.docker-vm"
       ]
     },
+    "jecyxyf/orca-tps-plugin": {
+      "state": "rejected",
+      "ref": "v1.3.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "/orca-catalog.json: plugins[0].releases[0].images.cover: sha256 does not match assets/cover.png"
+        }
+      ]
+    },
     "jerrazuw/orca-gallery-panel": {
       "state": "listed",
       "ref": "refs/tags/jerrazuw/orca-gallery-panel/gallery-panel-demo/1.5.1",
@@ -701,13 +711,25 @@
     },
     "miragon/orca-modelers": {
       "state": "listed",
-      "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.1.2",
+      "ref": "v0.1.15",
       "plugins": [
         "miragon.context-maps-modeler",
         "miragon.event-storming-modeler",
         "miragon.team-topologies-modeler",
         "miragon.value-chain-modeler",
         "miragon.wardley-maps-modeler"
+      ],
+      "rejected": [
+        {
+          "path": "plugins/team-topologies-modeler",
+          "id": "team-topologies-modeler",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "update"
+            }
+          ]
+        }
       ]
     },
     "molanojf/orca-json-canvas": {
