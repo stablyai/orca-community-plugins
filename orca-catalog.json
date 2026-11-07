@@ -6310,15 +6310,40 @@
       "ownerId": 289414937,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ryusenkei-inc/hostslot/0.10.0"
+        "url": "https://github.com/ryusenkei-inc/hostslot.git",
+        "ref": "v0.11.0"
       },
-      "description": "Machine capacity for parallel agents from Hostslot: what runs and waits, why, how much memory is free, and what a guard stopped.",
+      "description": "Schedules what parallel agents share on one machine: heavy commands wait for free memory and CPU, each worktree's dev server gets its own port, and you see what runs, what waits and why.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.11.0",
+          "commit": "a4c21abdb705da9da28d815dfe1e7120076e52d9",
+          "contentHash": "3b2c4f32954c3989e836441f6325b72dca4cb60ee8b8dce13e9b886370a641bf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Hostslot",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Hostslot"
+            },
+            {
+              "kind": "commands",
+              "name": "Hostslot: Show details"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Hostslot"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ryusenkei-inc/hostslot",
+          "updatedAt": "2026-11-07T17:49:04+09:00"
+        },
         {
           "version": "0.10.0",
           "commit": "7f5df1d6f25cf6ed7d2ce682e4d4d9c6baa33bd9",
