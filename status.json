@@ -689,11 +689,11 @@
     },
     "lindoo67/drawio-plugin": {
       "state": "rejected",
-      "ref": "v0.1.4",
+      "ref": "v0.1.5",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "size"
+          "detail": "code, size"
         }
       ]
     },
