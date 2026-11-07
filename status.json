@@ -44,7 +44,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -293,6 +293,13 @@
         "eskono.docker-logs"
       ]
     },
+    "esykai/orca-catppuccin-exact": {
+      "state": "listed",
+      "ref": "v1.0.2",
+      "plugins": [
+        "esykai.catppuccin-exact"
+      ]
+    },
     "etherll/orca-usage-insights": {
       "state": "listed",
       "ref": "refs/tags/etherll/orca-usage-insights/1.0.1",
@@ -302,7 +309,7 @@
     },
     "faisalmuhammad/orca-graphiql": {
       "state": "listed",
-      "ref": "v0.1.7",
+      "ref": "refs/tags/faisalmuhammad/orca-graphiql/0.1.7",
       "plugins": [
         "faisalmuhammad.graphiql"
       ],

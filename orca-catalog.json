@@ -440,8 +440,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.2"
+        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
+        "ref": "v0.2.3"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -449,6 +449,46 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "45e4f1304f2efd96b817dfb663f9052eb1c22426",
+          "contentHash": "8f8399ff65066aec42e6071b2fe85627e4fd3be5ca605b6f8f76d4b45089a776",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send",
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/anthony-fp.agent-inbox/2308119db9fae4a1.png",
+              "alt": "Agent Inbox panel in Orca's right sidebar, with questions, tasks, issues, opportunities and the workspace plan",
+              "sha256": "2308119db9fae4a13e71283ec20d5669d55186c6b23e97cf927a4b2870a4de5e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/anthony-fp/orca-agent-inbox",
+          "updatedAt": "2026-11-07T18:27:02-05:00"
+        },
         {
           "version": "0.2.2",
           "commit": "c134b3a18670f16f319d3348ed47e3256dd233b1",
@@ -2568,6 +2608,74 @@
       ]
     },
     {
+      "id": "esykai.catppuccin-exact",
+      "ownerId": 45533799,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/esykai/orca-catppuccin-exact.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Catppuccin for Orca: #1e1e2e canvas, #181825 panels and composer, without Orca's extra surface tint.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "8fee49a5f5183d6eca4f34d3353b938af3bc1fb0",
+          "contentHash": "7ef94f01e6c9eab5e9f17d6f0ed3e4a45f0c917b514c5f3f03307943143f4cb7",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Catppuccin Exact for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Catppuccin Exact"
+            },
+            {
+              "kind": "themes",
+              "name": "Catppuccin Latte Exact"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/esykai.catppuccin-exact/e26c7c47ef90810e.png",
+              "alt": "Catppuccin Exact for Orca: the title beside an Orca chat with a #1e1e2e canvas and #181825 composer",
+              "sha256": "e26c7c47ef90810e8538a7020420994c8d1a0f82d28681e7c0b70275757ccf38",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/esykai.catppuccin-exact/27406e58cc94e45d.png",
+              "alt": "Catppuccin Exact for Orca icon",
+              "sha256": "27406e58cc94e45d343b2fcac6f22511a9b330229d92782bbd43ae072de1cba6",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/esykai.catppuccin-exact/c636c1dcd60fa7a5.png",
+                "alt": "Orca with the dark Catppuccin Exact theme: worktree sidebar, chat transcript, diff and composer",
+                "sha256": "c636c1dcd60fa7a58b68889be27ced7bf0e29fb665608bd153aba6414e15b3b1",
+                "width": 1600,
+                "height": 875
+              },
+              {
+                "path": "assets/esykai.catppuccin-exact/e7c55a332fc15995.png",
+                "alt": "Orca with the light Catppuccin Latte Exact theme: worktree sidebar, chat transcript, diff and composer",
+                "sha256": "e7c55a332fc15995d65c291815f72837202fd43eba9a7299c26afe0cc1bd9fe5",
+                "width": 1600,
+                "height": 875
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/esykai/orca-catppuccin-exact",
+          "updatedAt": "2026-11-08T02:38:58+03:00"
+        }
+      ]
+    },
+    {
       "id": "etherll.usage-insights",
       "ownerId": 61019402,
       "source": {
@@ -2661,8 +2769,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-graphiql.git",
-        "ref": "v0.1.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-graphiql/0.1.7"
       },
       "description": "A GraphiQL integration for Orca with saved sessions, named environments, schema exploration, and secure authentication.",
       "categories": [
