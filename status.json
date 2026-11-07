@@ -141,6 +141,16 @@
         }
       ]
     },
+    "canadianmaplefarmer/orca-azure-devops": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
       "ref": "refs/tags/cd3vane/jetbrains-orca/1.0.1",
@@ -281,8 +291,8 @@
       "ref": "v1.2.0",
       "reasons": [
         {
-          "category": "identity-refused",
-          "detail": "eliasjnior.worktree-notes already belongs to eliasjnior/orca-plugins (GitHub repository id 1444880386)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -787,53 +797,18 @@
       ]
     },
     "miragon/orca-modelers": {
-      "state": "rejected",
-      "ref": "v0.1.9",
-      "reasons": [],
+      "state": "listed",
+      "ref": "v0.1.14",
       "plugins": [
-        {
-          "path": "plugins/value-chain-modeler",
-          "id": "value-chain-modeler",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "size"
-            }
-          ]
-        },
-        {
-          "path": "plugins/wardley-maps-modeler",
-          "id": "wardley-maps-modeler",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "size"
-            }
-          ]
-        },
-        {
-          "path": "plugins/event-storming-modeler",
-          "id": "event-storming-modeler",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "size"
-            }
-          ]
-        },
+        "miragon.context-maps-modeler",
+        "miragon.event-storming-modeler",
+        "miragon.value-chain-modeler",
+        "miragon.wardley-maps-modeler"
+      ],
+      "rejected": [
         {
           "path": "plugins/team-topologies-modeler",
           "id": "team-topologies-modeler",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "size"
-            }
-          ]
-        },
-        {
-          "path": "plugins/context-maps-modeler",
-          "id": "context-maps-modeler",
           "reasons": [
             {
               "category": "under-review",
@@ -1192,16 +1167,6 @@
       ]
     },
     "sumonta056/orca-midnight-dev": {
-      "state": "rejected",
-      "ref": "v1.1.0",
-      "reasons": [
-        {
-          "category": "identity-hold",
-          "detail": "moved from Sumonta056/orca-monokai-midnight (sumonta056.monokai-midnight) to Sumonta056/orca-midnight-dev (sumonta056.monokai-midnight); new versions paused until a maintainer confirms the move in identity-moves.json"
-        }
-      ]
-    },
-    "sumonta056/orca-monokai-midnight": {
       "state": "listed",
       "ref": "v1.1.0",
       "plugins": [

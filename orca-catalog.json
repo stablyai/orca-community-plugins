@@ -2979,6 +2979,196 @@
       ]
     },
     {
+      "id": "miragon.context-maps-modeler",
+      "ownerId": 58698887,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.14",
+        "path": "plugins/context-maps-modeler"
+      },
+      "description": "Open .cm and .cm.json files as context maps: model bounded contexts and their relationships, and see an agent's changes to the file as they happen.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
+          "contentHash": "81d79e27da80b7145fdb2b27c2d8ae8363e7630eba4777274cbd4edc5d4214cb",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Context Maps Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Context Map",
+              "detail": ".cm, .cm.json"
+            }
+          ],
+          "fileTypes": [
+            "cm"
+          ],
+          "editorFileTypes": [
+            "cm"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/miragon.context-maps-modeler/ad75604c53bd3392.png",
+              "alt": "Context Maps Modeler icon",
+              "sha256": "ad75604c53bd3392644f6b29806530ad9fd4644025e9d0b0ecb39064d18d9325",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-07T07:59:40Z"
+        }
+      ]
+    },
+    {
+      "id": "miragon.event-storming-modeler",
+      "ownerId": 58698887,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.14",
+        "path": "plugins/event-storming-modeler"
+      },
+      "description": "Open .storm files as Event Storming boards: model with stickies, notes and arrows, and see an agent's changes to the file as they happen.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
+          "contentHash": "463cdfa39efd73dfcefd1d92c1057e8dd4b092a7cb7342b13ac0fa8763f0eb5e",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Event Storming Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Event Storming",
+              "detail": ".storm"
+            }
+          ],
+          "fileTypes": [
+            "storm"
+          ],
+          "editorFileTypes": [
+            "storm"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/miragon.event-storming-modeler/99809fe3d5de90d8.png",
+              "alt": "Event Storming Modeler icon",
+              "sha256": "99809fe3d5de90d8bc1ff143795cc78c9911c152da6b2ed6b4a25fa0a771c3bb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-07T07:59:40Z"
+        }
+      ]
+    },
+    {
+      "id": "miragon.value-chain-modeler",
+      "ownerId": 58698887,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.14",
+        "path": "plugins/value-chain-modeler"
+      },
+      "description": "Open .vc and .vc.json files as value chain diagrams: model process steps, org units and their connections, and see an agent's changes to the file as they happen.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
+          "contentHash": "c2741b5a767911ba763744abd23dd59f605205e72696912473d69e6125cc484b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Value Chain Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Value Chain",
+              "detail": ".vc, .vc.json"
+            }
+          ],
+          "fileTypes": [
+            "vc"
+          ],
+          "editorFileTypes": [
+            "vc"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/miragon.value-chain-modeler/4c24a8280cdcf892.png",
+              "alt": "Value Chain Modeler icon",
+              "sha256": "4c24a8280cdcf892c62dbd924a99aedffea4922620c199a5c6437ca9865bb9b5",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-07T07:59:40Z"
+        }
+      ]
+    },
+    {
+      "id": "miragon.wardley-maps-modeler",
+      "ownerId": 58698887,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.14",
+        "path": "plugins/wardley-maps-modeler"
+      },
+      "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and see an agent's changes to the file as they happen.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
+          "contentHash": "61eebb23a5234901e505c566358ac384054251dd551661fd1c50b094b9b2073f",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Wardley Maps Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Wardley Map",
+              "detail": ".wmap, .owm"
+            }
+          ],
+          "fileTypes": [
+            "wmap",
+            "owm"
+          ],
+          "editorFileTypes": [
+            "wmap",
+            "owm"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/miragon.wardley-maps-modeler/76fda4a378f199ca.png",
+              "alt": "Wardley Maps Modeler icon",
+              "sha256": "76fda4a378f199ca8032ab969561df1a8cec1379e1ece1951ad5a234577d2fef",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-07T07:59:40Z"
+        }
+      ]
+    },
+    {
       "id": "mrakofff.palenight-theme",
       "ownerId": 21972136,
       "source": {
@@ -3749,7 +3939,7 @@
       "ownerId": 61287791,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sumonta056/orca-monokai-midnight.git",
+        "url": "https://github.com/Sumonta056/orca-midnight-dev.git",
         "ref": "v1.1.0"
       },
       "description": "Monokai-style dark theme with deeper backgrounds, a matching terminal, and rich syntax for Java, Vue, Go, Python, C and C++.",
@@ -3864,9 +4054,9 @@
               "height": 1612
             }
           },
+          "updatedAt": "2026-11-05T21:26:12+06:00",
           "license": "GPL-3.0",
-          "repository": "https://github.com/Sumonta056/orca-monokai-midnight",
-          "updatedAt": "2026-11-05T21:26:12+06:00"
+          "repository": "https://github.com/Sumonta056/orca-midnight-dev"
         },
         {
           "version": "1.0.0",
