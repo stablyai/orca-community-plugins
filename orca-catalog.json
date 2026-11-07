@@ -6568,14 +6568,84 @@
       "ownerId": 188368209,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/roflochinsky/beads-orca/0.2.0"
+        "url": "https://github.com/Roflochinsky/beads-orca.git",
+        "ref": "v0.2.1"
       },
       "description": "Beads board, handoff previews, documents and personal history for local and explicitly mapped SSH workspaces.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "fb0f9a95ab9fcb91a9035c92c3c65c97842b19fb",
+          "contentHash": "c1b82610fc66e131cadbf109b448e8ff61735850e6492646d52bbbdc41190f68",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.250",
+          "name": "Beads Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads Board"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Beads —"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own",
+            "storage:own",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/roflochinsky.beads/b155fa902de61bc2.png",
+              "alt": "A sample Beads board with ready, in-progress, blocked and closed issues.",
+              "sha256": "b155fa902de61bc26f5ae328e40ffd65665c79eeed7b0c796592b3567804500d",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/roflochinsky.beads/b155fa902de61bc2.png",
+                "alt": "Beads issues grouped into ready, in-progress, blocked and closed columns.",
+                "sha256": "b155fa902de61bc26f5ae328e40ffd65665c79eeed7b0c796592b3567804500d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/roflochinsky.beads/b2a8bc9c72e8e2f5.png",
+                "alt": "A table of Beads issues showing status, priority and relationships.",
+                "sha256": "b2a8bc9c72e8e2f5665b704e4c079d2c4d6ca248bdd64c5404eabf86f1653f38",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/roflochinsky.beads/35d08f7f6efbf3c1.png",
+                "alt": "A blocked issue's details, dependencies and comment form beside the board.",
+                "sha256": "35d08f7f6efbf3c1126acd7f474ebda824e88048a17c1147c7965b3976901434",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/roflochinsky.beads/dd46df93df19bd2a.png",
+                "alt": "A native Orca handoff preview selecting an OMP CLI session and a separate target worktree.",
+                "sha256": "dd46df93df19bd2a3dc26baff303493c8725c7385fb92e99c334230d60e28f32",
+                "width": 1301,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Roflochinsky/beads-orca",
+          "updatedAt": "2026-11-07T17:59:58+03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "717d9ebb68b04aa802424f3aa2c85eb62f586b19",

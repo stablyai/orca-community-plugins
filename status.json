@@ -729,7 +729,7 @@
     },
     "momokun7/orca-3d-viewer": {
       "state": "rejected",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "reasons": [
         {
           "category": "under-review",
@@ -887,7 +887,7 @@
     },
     "roflochinsky/beads-orca": {
       "state": "listed",
-      "ref": "refs/tags/roflochinsky/beads-orca/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "roflochinsky.beads"
       ]
