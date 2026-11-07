@@ -203,6 +203,12 @@
     "repoId": 1448951715,
     "firstSeen": "2026-11-07T03:15:40.987Z"
   },
+  "hadisd.quiet-pastel@1.1.1": {
+    "commit": "05130898a3b2f83c248629bc7ec418f3598ef7d5",
+    "contentHash": "2a10c7c99cb089211ba6eb111ba76ac772e0b9f197c785d28f8ed21fa98ba919",
+    "repoId": 1448951715,
+    "firstSeen": "2026-11-07T03:39:13.958Z"
+  },
   "heath0xff.stillwater@1.1.0": {
     "commit": "cd9716183669139d52ce94296da29c06811aaba6",
     "contentHash": "1e13a50e694cab4571c0934d7aa6989650d9c52911ad91d30ccb6cfb72fbcefa",
@@ -250,6 +256,12 @@
     "contentHash": "6163296b0d09136e1202692cee374ab991f27ef345f246f2fb77c7571ae29442",
     "repoId": 1357830522,
     "firstSeen": "2026-11-05T04:39:18.589Z"
+  },
+  "jondmarien.discord-presence@1.0.2": {
+    "commit": "f0ac386a8f013ef89927dd42b9ad4ab6c8c05324",
+    "contentHash": "3f62ffb71c9596a461198201f4a8358da712bd502bec25e31456c989eb948afd",
+    "repoId": 1357830522,
+    "firstSeen": "2026-11-07T03:39:13.958Z"
   },
   "kianxm.luau-syntax@1.0.2": {
     "commit": "de2bdd778acb3925b2e024f8a0465ca429697e0f",

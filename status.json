@@ -476,7 +476,7 @@
     },
     "hadisd/quiet-pastel": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "v1.1.1",
       "plugins": [
         "hadisd.quiet-pastel"
       ]
@@ -598,7 +598,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.1",
+      "ref": "v1.0.2",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -1368,7 +1368,7 @@
     },
     "wilkywayre/orcarchy": {
       "state": "rejected",
-      "ref": "v0.2.2",
+      "ref": "v0.3.0",
       "reasons": [
         {
           "category": "under-review",
