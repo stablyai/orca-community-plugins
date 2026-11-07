@@ -785,17 +785,10 @@
       ]
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.1.4",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[0].images.icon: sha256 does not match images/icon.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[0].images.cover: sha256 does not match images/cover.png"
-        }
+      "plugins": [
+        "narimanisakhanov-creator.xlsx-editor"
       ]
     },
     "nknwns/orca-wakatime": {
@@ -927,6 +920,16 @@
       "ref": "refs/tags/ronancodes/orca-reminders/0.1.0",
       "plugins": [
         "ronancodes.reminders"
+      ]
+    },
+    "royklo/orca-rego": {
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "royklo.rego-syntax"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "runzivo/rzv-orca-plugin": {
