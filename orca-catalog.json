@@ -1302,14 +1302,91 @@
       "ownerId": 76873351,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cmdaltctr/orca-plugin-prs-actions-releases-status/0.1.2"
+        "url": "https://github.com/cmdaltctr/orca-plugin-prs-actions-releases-status.git",
+        "ref": "v0.1.3"
       },
       "description": "Shows the pull requests, GitHub Actions checks and release state of the project in your focused Orca workspace. It is for developers who ship from GitHub. Read the checks of any branch or added repository, re-run failed checks, and ask an agent to take over a release.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "12bb357ec0344177fab95cec99d4cda6f0c7cb9c",
+          "contentHash": "805870b535e8e2a262e018907b344e88abc48116a4f98e7bc40b3d5047e1e12b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "PRs, Actions and Releases Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PRs, Actions and Releases"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "notifications:show",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cmdaltctr.release-status/efd78a97b7b3481f.png",
+              "alt": "The PRs tab lists five worktrees with a coloured dot and a badge: closed, merged, ready, running and failed.",
+              "sha256": "efd78a97b7b3481fb24251a4f9f8cebb11d6973829375332c1a0693902c89690",
+              "width": 1328,
+              "height": 830
+            },
+            "screenshots": [
+              {
+                "path": "assets/cmdaltctr.release-status/efd78a97b7b3481f.png",
+                "alt": "The PRs tab lists each worktree that has a pull request, with a coloured state badge and a button to open the pull request.",
+                "sha256": "efd78a97b7b3481fb24251a4f9f8cebb11d6973829375332c1a0693902c89690",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/15020915f5bd0b83.png",
+                "alt": "The Actions tab shows a pull request line and two passed checks for the feat/search-filter branch.",
+                "sha256": "15020915f5bd0b833b3a59c907c1e227c35fbe66ca0f4ff2ab288eccd0a93081",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/c603ab951858bae3.png",
+                "alt": "The Actions tab shows a failed check with a re-run button and a Failing badge for the fix/flaky-timeout branch.",
+                "sha256": "c603ab951858bae33943a62bbdbe46be099751707b50829716a35659111ddad1",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/c5fa18d1657abd35.png",
+                "alt": "The Actions tab shows a running check with a spinner and a Running badge for the feat/slow-build branch.",
+                "sha256": "c5fa18d1657abd35849a3f70117c35fb52f2cd99a1e2b80a1a65cbcc6c79033d",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/0808587f0083789e.png",
+                "alt": "The Releases tab shows an Up to date badge, a passed release run and the GitHub release v0.1.0.",
+                "sha256": "0808587f0083789e3fd183ede88f2385bf4bfb0387c65e46ef56f066065e2596",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.release-status/730053d208ebddef.png",
+                "alt": "The PRs tab in the light theme, with closed, merged, ready, running and failed pull requests.",
+                "sha256": "730053d208ebddef4c75a002444ef566534b5585f844a3067d27a88130f855c9",
+                "width": 1328,
+                "height": 830
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cmdaltctr/orca-plugin-prs-actions-releases-status",
+          "updatedAt": "2026-11-07T21:20:18Z"
+        },
         {
           "version": "0.1.2",
           "commit": "acd8eef9a612cde66a25a49f833898886b4342bb",
@@ -5265,8 +5342,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.18",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.3.0",
         "path": "plugins/context-maps-modeler"
       },
       "description": "Open .cm and .cm.json files as context maps: model bounded contexts and their relationships, and see an agent's changes to the file as they happen.",
@@ -5471,8 +5548,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.18",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/event-storming-modeler/0.3.0",
         "path": "plugins/event-storming-modeler"
       },
       "description": "Open .storm files as Event Storming boards: model with stickies, notes and arrows, and see an agent's changes to the file as they happen.",
@@ -5677,8 +5754,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.18",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/team-topologies-modeler/0.20.0",
         "path": "plugins/team-topologies-modeler"
       },
       "description": "Open .tt and .ttm.json files as Team Topologies diagrams: model teams, their interactions and the flow of change, and see an agent's changes to the file as they happen.",
@@ -5883,8 +5960,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.18",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/value-chain-modeler/0.3.0",
         "path": "plugins/value-chain-modeler"
       },
       "description": "Open .vc and .vc.json files as value chain diagrams: model process steps, org units and their connections, and see an agent's changes to the file as they happen.",
@@ -6089,8 +6166,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.18",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/wardley-maps-modeler/0.3.0",
         "path": "plugins/wardley-maps-modeler"
       },
       "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and see an agent's changes to the file as they happen.",

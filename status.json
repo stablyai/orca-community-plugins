@@ -168,7 +168,7 @@
     },
     "cmdaltctr/orca-plugin-prs-actions-releases-status": {
       "state": "listed",
-      "ref": "refs/tags/cmdaltctr/orca-plugin-prs-actions-releases-status/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "cmdaltctr.release-status"
       ],
@@ -725,7 +725,7 @@
     },
     "miragon/orca-modelers": {
       "state": "listed",
-      "ref": "v0.1.18",
+      "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.3.0",
       "plugins": [
         "miragon.context-maps-modeler",
         "miragon.event-storming-modeler",
