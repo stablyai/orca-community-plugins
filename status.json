@@ -892,7 +892,7 @@
         "roflochinsky.beads"
       ],
       "update": {
-        "ref": "v0.2.2",
+        "ref": "v0.2.4",
         "reasons": [
           {
             "category": "under-review",
@@ -1080,6 +1080,13 @@
       "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.8.0",
       "plugins": [
         "thailoc-dev.dev-toolbox"
+      ]
+    },
+    "thailoc-dev/orca-dracula-night": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "thailoc-dev.dracula-night"
       ]
     },
     "thailoc-dev/orca-pptx-viewer": {
