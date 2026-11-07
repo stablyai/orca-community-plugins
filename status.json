@@ -1227,19 +1227,10 @@
     },
     "thailoc-dev/orca-dev-toolbox": {
       "state": "listed",
-      "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.7.0",
+      "ref": "v0.8.0",
       "plugins": [
         "thailoc-dev.dev-toolbox"
-      ],
-      "update": {
-        "ref": "v0.8.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "thailoc-dev/orca-pptx-viewer": {
       "state": "listed",
