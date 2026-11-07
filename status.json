@@ -243,7 +243,7 @@
     },
     "ehart004/orca-monokai-theme": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/ehart004/orca-monokai-theme/1.1.0",
       "plugins": [
         "ehart004.monokai-theme"
       ]
@@ -793,7 +793,7 @@
     },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "listed",
-      "ref": "v1.1.5",
+      "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.5",
       "plugins": [
         "narimanisakhanov-creator.xlsx-editor"
       ]
@@ -1209,7 +1209,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "rejected",
-      "ref": "v1.0.10",
+      "ref": "v1.0.11",
       "reasons": [
         {
           "category": "under-review",

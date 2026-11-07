@@ -2072,8 +2072,8 @@
       "ownerId": 7690156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ehart004/orca-monokai-theme.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ehart004/orca-monokai-theme/1.1.0"
       },
       "description": "Monokai for Orca's app, editor and terminal: the classic palette, plus a variant matching VS Code's built-in Monokai.",
       "categories": [
@@ -6085,8 +6085,8 @@
       "ownerId": 291232506,
       "source": {
         "kind": "git",
-        "url": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor.git",
-        "ref": "v1.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.5"
       },
       "description": "Open and edit Excel workbooks in Orca with their formatting: fills, fonts, borders, number formats, merged cells, frozen panes and every sheet. Insert or delete rows and columns with formulas and references updated safely, search the whole workbook, and copy with formatting. Saves in place without t",
       "categories": [],
