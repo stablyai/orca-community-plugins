@@ -6568,8 +6568,8 @@
       "ownerId": 188368209,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Roflochinsky/beads-orca.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/roflochinsky/beads-orca/0.2.0"
       },
       "description": "Beads board, handoff previews, documents and personal history for local and explicitly mapped SSH workspaces.",
       "categories": [
@@ -8017,8 +8017,8 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/superfly/orca-sprites.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/superfly/orca-sprites/0.1.5"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [
