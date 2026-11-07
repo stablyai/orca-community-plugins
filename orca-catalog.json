@@ -3825,6 +3825,73 @@
       ]
     },
     {
+      "id": "jargez.docker-vm",
+      "ownerId": 17633366,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JargeZ/orca-recipes.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Isolated development environments: each Orca workspace runs in its own Docker container on your machine, so toolchains, dependencies and the agents' work leave no trace on the host. Fine-grained git tokens for one repository, no privileged containers, rootless Podman inside. Note: host ports stay re",
+      "categories": [
+        "commands",
+        "integrations",
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "10aed332baf67bd505ae3228b84b358f847b028a",
+          "contentHash": "da8de6c03a747d48d7b67d04e5e3615c062982632e809984dca372833273a218",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Docker VM",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Docker VM: next setup step"
+            },
+            {
+              "kind": "commands",
+              "name": "Docker VM: copy dev.Dockerfile prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Docker VM: prepare"
+            },
+            {
+              "kind": "commands",
+              "name": "Docker VM: git token"
+            },
+            {
+              "kind": "commands",
+              "name": "Docker VM: rebuild image"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "plugin/recipes/docker.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Docker VM"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/JargeZ/orca-recipes",
+          "updatedAt": "2026-11-07T20:15:42+11:00"
+        }
+      ]
+    },
+    {
       "id": "jerrazuw.gallery-panel-demo",
       "ownerId": 297254608,
       "source": {
@@ -6044,6 +6111,78 @@
           "license": "MIT",
           "repository": "https://github.com/rgarciade/orca-containers",
           "updatedAt": "2026-11-05T14:14:45+01:00"
+        }
+      ]
+    },
+    {
+      "id": "roflochinsky.beads",
+      "ownerId": 188368209,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Roflochinsky/beads-orca.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Live Beads board, dependencies and issue actions backed by your local bd CLI.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "9e2633e7318b03566b49945f8d2800a80f233f28",
+          "contentHash": "f00ec6ffbbfcad816749c67d250d5af3b7b6017e935199ae703000e46acd60a5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Beads Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads Board"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Beads —"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/roflochinsky.beads/b155fa902de61bc2.png",
+              "alt": "A sample Beads board with ready, in-progress, blocked and closed issues.",
+              "sha256": "b155fa902de61bc26f5ae328e40ffd65665c79eeed7b0c796592b3567804500d",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/roflochinsky.beads/b155fa902de61bc2.png",
+                "alt": "Beads issues grouped into ready, in-progress, blocked and closed columns.",
+                "sha256": "b155fa902de61bc26f5ae328e40ffd65665c79eeed7b0c796592b3567804500d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/roflochinsky.beads/b2a8bc9c72e8e2f5.png",
+                "alt": "A table of Beads issues showing status, priority and relationships.",
+                "sha256": "b2a8bc9c72e8e2f5665b704e4c079d2c4d6ca248bdd64c5404eabf86f1653f38",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/roflochinsky.beads/35d08f7f6efbf3c1.png",
+                "alt": "A blocked issue's details, dependencies and comment form beside the board.",
+                "sha256": "35d08f7f6efbf3c1126acd7f474ebda824e88048a17c1147c7965b3976901434",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Roflochinsky/beads-orca",
+          "updatedAt": "2026-11-06T23:07:35+03:00"
         }
       ]
     },

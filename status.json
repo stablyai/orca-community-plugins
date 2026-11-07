@@ -489,6 +489,13 @@
         "ivo922.liquid-syntax"
       ]
     },
+    "jargez/orca-recipes": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "jargez.docker-vm"
+      ]
+    },
     "jerrazuw/orca-gallery-panel": {
       "state": "listed",
       "ref": "refs/tags/jerrazuw/orca-gallery-panel/gallery-panel-demo/1.5.1",
@@ -859,13 +866,10 @@
       ]
     },
     "roflochinsky/beads-orca": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "binary-files",
-          "detail": "bundles binary files (src/ui/fonts/onest-cyrillic-ext.woff2, src/ui/fonts/onest-cyrillic.woff2, src/ui/fonts/onest-latin-ext.woff2, src/ui/fonts/onest-latin.woff2, src/ui/fonts/onest-math.woff2, …)"
-        }
+      "plugins": [
+        "roflochinsky.beads"
       ]
     },
     "rolottr/orca-collapse": {
