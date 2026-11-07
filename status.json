@@ -890,7 +890,16 @@
       "ref": "refs/tags/roflochinsky/beads-orca/0.2.1",
       "plugins": [
         "roflochinsky.beads"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "rolottr/orca-collapse": {
       "state": "listed",
@@ -991,7 +1000,7 @@
     },
     "shakedm100/orca-latex-preview": {
       "state": "listed",
-      "ref": "v0.4.3",
+      "ref": "refs/tags/shakedm100/orca-latex-preview/0.4.3",
       "plugins": [
         "shakedm100.latex-preview"
       ]
@@ -1116,7 +1125,7 @@
     },
     "unz47/neon-glass-theme": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/unz47/neon-glass-theme/1.0.1",
       "plugins": [
         "unz47.neon-glass"
       ]

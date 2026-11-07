@@ -7745,8 +7745,8 @@
       "ownerId": 32491464,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shakedm100/orca-latex-preview.git",
-        "ref": "v0.4.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shakedm100/orca-latex-preview/0.4.3"
       },
       "description": "Adds PDF and Editor | PDF views to .tex files: the compiled document, or the source and the PDF side by side, rebuilt as you type, with source and PDF jumps, autocomplete and an outline.",
       "categories": [],
@@ -8692,8 +8692,8 @@
       "ownerId": 130633356,
       "source": {
         "kind": "git",
-        "url": "https://github.com/unz47/neon-glass-theme.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/unz47/neon-glass-theme/1.0.1"
       },
       "description": "Frosted glass themes for Orca, dark and light, lit by a neon pink accent. With matching terminal colors.",
       "categories": [
