@@ -109,8 +109,8 @@
       "ownerId": 165061558,
       "source": {
         "kind": "git",
-        "url": "https://github.com/albuquerquesz/orca-github-dark-theme.git",
-        "ref": "v1.0.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.4"
       },
       "description": "A GitHub Dark theme for Orca with a lighter neutral gray interface and matching terminal colors.",
       "categories": [
@@ -1938,11 +1938,11 @@
       ]
     },
     {
-      "id": "hadisd.moonlit-pastel",
+      "id": "hadisd.quiet-pastel",
       "ownerId": 125417294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Hadisd/moonlit-pastel.git",
+        "url": "https://github.com/Hadisd/quiet-pastel.git",
         "ref": "v1.0.0"
       },
       "description": "A dark, pale blue-violet theme with soft pastel pink, orange, yellow, green, cyan and lavender accents, plus a matching terminal theme.",
@@ -1953,33 +1953,33 @@
       "releases": [
         {
           "version": "1.0.0",
-          "commit": "bd0fec5d66e1677eb128b6de7c165a7190545808",
-          "contentHash": "0d5788a8b5a69889373e0234385e8d0f18d19ade776b1a72d4edf7a0b75adf56",
+          "commit": "c3f3a75ef60c0c627dfeba9be0772cb942fa0494",
+          "contentHash": "26bbcf6f0f4f433bd245f68124ab00bb6fb6e7755c389f62a2c32965678f2f60",
           "execution": "data",
           "minimumOrca": "1.4.246",
-          "name": "Moonlit Pastel",
+          "name": "Quiet Pastel",
           "contributes": [
             {
               "kind": "themes",
-              "name": "Moonlit Pastel"
+              "name": "Quiet Pastel"
             },
             {
               "kind": "terminalThemes",
-              "name": "Moonlit Pastel Terminal"
+              "name": "Quiet Pastel Terminal"
             }
           ],
           "images": {
             "cover": {
-              "path": "assets/hadisd.moonlit-pastel/0fb06cc765b2c19e.png",
-              "alt": "Moonlit Pastel preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
-              "sha256": "0fb06cc765b2c19e2a12a88afcd5c61e07a72f118e592766cafa7a36f9f3af1d",
+              "path": "assets/hadisd.quiet-pastel/a371c8859c556b5a.png",
+              "alt": "Quiet Pastel preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
+              "sha256": "a371c8859c556b5ad6ff9699bc1f0915970a13f8077866b384d71a083735d310",
               "width": 1600,
               "height": 1000
             }
           },
           "license": "MIT",
-          "repository": "https://github.com/Hadisd/moonlit-pastel",
-          "updatedAt": "2026-11-07T11:14:11+09:00"
+          "repository": "https://github.com/Hadisd/quiet-pastel",
+          "updatedAt": "2026-11-07T11:23:18+09:00"
         }
       ]
     },

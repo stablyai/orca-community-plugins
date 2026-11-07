@@ -33,7 +33,7 @@
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
-      "ref": "v1.0.4",
+      "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.4",
       "plugins": [
         "albuquerquesz.github-dark-theme"
       ]
@@ -474,11 +474,11 @@
         }
       ]
     },
-    "hadisd/moonlit-pastel": {
+    "hadisd/quiet-pastel": {
       "state": "listed",
       "ref": "v1.0.0",
       "plugins": [
-        "hadisd.moonlit-pastel"
+        "hadisd.quiet-pastel"
       ]
     },
     "heath0xff/stillwater": {
