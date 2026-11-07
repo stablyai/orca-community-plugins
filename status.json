@@ -37,7 +37,7 @@
     },
     "aminechr54/orca-agent-split": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/aminechr54/orca-agent-split/1.0.0",
       "plugins": [
         "aminechr54.agent-split"
       ]
@@ -1089,7 +1089,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "refs/tags/superfly/orca-sprites/0.1.5",
+      "ref": "v0.2.1",
       "plugins": [
         "superfly.sprites"
       ]
