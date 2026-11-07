@@ -729,11 +729,11 @@
     },
     "momokun7/orca-3d-viewer": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, content, size"
+          "detail": "code, content"
         }
       ]
     },
