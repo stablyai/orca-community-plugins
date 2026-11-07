@@ -6310,8 +6310,8 @@
       "ownerId": 289414937,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ryusenkei-inc/hostslot.git",
-        "ref": "v0.11.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ryusenkei-inc/hostslot/0.11.0"
       },
       "description": "Schedules what parallel agents share on one machine: heavy commands wait for free memory and CPU, each worktree's dev server gets its own port, and you see what runs, what waits and why.",
       "categories": [
