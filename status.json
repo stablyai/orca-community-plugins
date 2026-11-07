@@ -476,7 +476,7 @@
     },
     "hadisd/quiet-pastel": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/hadisd/quiet-pastel/1.1.1",
       "plugins": [
         "hadisd.quiet-pastel"
       ]
@@ -598,7 +598,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.2",
       "plugins": [
         "jondmarien.discord-presence"
       ]
