@@ -5174,6 +5174,53 @@
       ]
     },
     {
+      "id": "miragon.team-topologies-modeler",
+      "ownerId": 58698887,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.14",
+        "path": "plugins/team-topologies-modeler"
+      },
+      "description": "Open .tt and .ttm.json files as Team Topologies diagrams: model teams, their interactions and the flow of change, and see an agent's changes to the file as they happen.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.18.2",
+          "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
+          "contentHash": "16687aaab100e7d73164f1b96efe3a17e5247b4b67c218ea6fd0004248cefd15",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Team Topologies Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Team Topologies",
+              "detail": ".tt, .ttm.json"
+            }
+          ],
+          "fileTypes": [
+            "tt"
+          ],
+          "editorFileTypes": [
+            "tt"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/miragon.team-topologies-modeler/5baee532eae5ca5a.png",
+              "alt": "Team Topologies Modeler icon",
+              "sha256": "5baee532eae5ca5a41154494d9c125470667d7a9c156d4e6040a62094f754b1a",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-07T07:59:40Z"
+        }
+      ]
+    },
+    {
       "id": "miragon.value-chain-modeler",
       "ownerId": 58698887,
       "source": {

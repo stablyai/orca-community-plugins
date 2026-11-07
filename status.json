@@ -698,20 +698,9 @@
       "plugins": [
         "miragon.context-maps-modeler",
         "miragon.event-storming-modeler",
+        "miragon.team-topologies-modeler",
         "miragon.value-chain-modeler",
         "miragon.wardley-maps-modeler"
-      ],
-      "rejected": [
-        {
-          "path": "plugins/team-topologies-modeler",
-          "id": "team-topologies-modeler",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "size"
-            }
-          ]
-        }
       ]
     },
     "molanojf/orca-json-canvas": {
