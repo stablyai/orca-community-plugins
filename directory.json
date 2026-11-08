@@ -363,7 +363,7 @@
     },
     {
       "id": "esykai.catppuccin-exact",
-      "stars": 0,
+      "stars": null,
       "stats": null
     },
     {
@@ -373,7 +373,7 @@
     },
     {
       "id": "faisalmuhammad.graphiql",
-      "stars": 4,
+      "stars": null,
       "stats": null
     },
     {
@@ -654,6 +654,11 @@
     },
     {
       "id": "royklo.rego-syntax",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "rr235.task-launcher",
       "stars": 0,
       "stats": null
     },

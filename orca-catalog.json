@@ -440,8 +440,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
-        "ref": "v0.2.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.3"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -7911,6 +7911,62 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/royklo/orca-rego",
           "updatedAt": "2026-11-07T18:56:28+01:00"
+        }
+      ]
+    },
+    {
+      "id": "rr235.task-launcher",
+      "ownerId": 24721832,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rr235/orca-task-launcher.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "e0e89ede4e2843e9077eadc5c9fa241fd441e0f3",
+          "contentHash": "af3aea867bd01d077096b0d52524d7074cf7384ee3aa44631757105700fc6204",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Task Launcher",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Launcher"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rr235.task-launcher/2ca4879a5d1ce446.png",
+              "alt": "Task Launcher: the Orca side panel in a dark and a light theme, with a prompt template and open GitHub issues",
+              "sha256": "2ca4879a5d1ce44647cd7b63b0580bdefc457505443da0114884087ac2dc25f9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rr235.task-launcher/a789119ef2ed3cd5.png",
+              "alt": "Task Launcher icon",
+              "sha256": "a789119ef2ed3cd5d21bd707356629a44ff0a13db4ad158d85715ede23132352",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rr235/orca-task-launcher",
+          "updatedAt": "2026-11-08T00:55:07+01:00"
         }
       ]
     },

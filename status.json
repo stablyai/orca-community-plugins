@@ -44,7 +44,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.2.3",
+      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.3",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -298,7 +298,16 @@
       "ref": "v1.0.2",
       "plugins": [
         "esykai.catppuccin-exact"
-      ]
+      ],
+      "update": {
+        "ref": "v1.0.0",
+        "reasons": [
+          {
+            "category": "identity-refused",
+            "detail": "esykai/orca-catppuccin-exact was deleted and recreated (GitHub repository id 1449815236 is now 1449835136); esykai.catppuccin-exact stays frozen at its listed releases"
+          }
+        ]
+      }
     },
     "etherll/orca-usage-insights": {
       "state": "listed",
@@ -313,9 +322,15 @@
       "plugins": [
         "faisalmuhammad.graphiql"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.1.8",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size, update"
+          }
+        ]
+      }
     },
     "faisalmuhammad/orca-monospace-icons": {
       "state": "listed",
@@ -965,6 +980,13 @@
       "ref": "refs/tags/royklo/orca-rego/1.0.2",
       "plugins": [
         "royklo.rego-syntax"
+      ]
+    },
+    "rr235/orca-task-launcher": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "rr235.task-launcher"
       ]
     },
     "runzivo/rzv-orca-plugin": {
