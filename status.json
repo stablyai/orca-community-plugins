@@ -247,7 +247,7 @@
     },
     "diegohonorio/orca-painel": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/diegohonorio/orca-painel/0.3.0",
       "plugins": [
         "diegohonorio.painel-trabalho"
       ],
@@ -1091,6 +1091,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "said-zenhr/orca-material-ocean-theme": {
+      "state": "rejected",
+      "ref": "v1.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.themes \"material-ocean\" (themes/material-ocean.json): tokens.--chat-selection: Invalid key in record"
+        }
       ]
     },
     "satangbudsai/orca-git-extension": {
