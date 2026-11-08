@@ -889,6 +889,13 @@
         "palulabs.office-tycoon"
       ]
     },
+    "pidack/orca-trace-viewer": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "pidack.trace-viewer"
+      ]
+    },
     "piter75/orca-gruvbox-material-theme": {
       "state": "listed",
       "ref": "refs/tags/piter75/orca-gruvbox-material-theme/1.0.1",

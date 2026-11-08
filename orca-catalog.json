@@ -7340,6 +7340,64 @@
       ]
     },
     {
+      "id": "pidack.trace-viewer",
+      "ownerId": 104877312,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/piDack/orca-trace-viewer.git",
+        "ref": "v0.1.1"
+      },
+      "description": "View PyTorch and Kineto Chrome traces as an offline CPU/GPU timeline.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "d4f8f5429e871c6e86ad4982d18b19e999092d74",
+          "contentHash": "e8ca91f63c76d8f8510da83f7b67d4ad9a20d3f46813fb7d16c28630e06a0253",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Trace Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Trace",
+              "detail": ".trace.json, .pt.trace.json, .json, trace.json"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Trace",
+              "detail": ".trace.json.gz, .pt.trace.json.gz, .json.gz, trace.json.gz"
+            }
+          ],
+          "fileTypes": [
+            "json"
+          ],
+          "editorFileTypes": [
+            "json"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pidack.trace-viewer/697e0a7adc2fe0b2.png",
+              "alt": "Trace Viewer: CPU operations and GPU kernels on a timeline, with search, zoom and event inspection.",
+              "sha256": "697e0a7adc2fe0b226153b7b8e704ddf819b7aea466bf5a42edc9bbd46c5ef5b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/pidack.trace-viewer/576686a85928da56.png",
+              "alt": "Trace Viewer icon",
+              "sha256": "576686a85928da564904c23b8379ecb66aded012cb919065d8081a89edaf6c67",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/piDack/orca-trace-viewer",
+          "updatedAt": "2026-11-08T03:32:38Z"
+        }
+      ]
+    },
+    {
       "id": "piter75.gruvbox-material-theme",
       "ownerId": 639590,
       "source": {
