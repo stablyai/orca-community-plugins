@@ -1037,8 +1037,8 @@
       "ownerId": 354898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Bigsy/milko.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bigsy/milko/0.1.2"
       },
       "description": "Edit Markdown directly in a rendered view, with local spelling and grammar checks powered by Harper. Includes Mermaid diagrams, maths, themes and recoverable drafts.",
       "categories": [],
@@ -6524,8 +6524,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.20",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/bpmn-modeler/0.1.1",
         "path": "plugins/bpmn-modeler"
       },
       "description": "Experimental. Open .bpmn and .dmn files as diagrams: view, simulate and lightly model BPMN processes and DMN decisions, and see an agent's changes to the file as they happen. No deployment, code links or Form editor yet.",
@@ -10563,8 +10563,8 @@
       "ownerId": 61287791,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sumonta056/orca-midnight-dev.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sumonta056/orca-midnight-dev/1.1.1"
       },
       "description": "Monokai-style dark theme with deeper backgrounds, a matching terminal, and rich syntax for Java, Vue, Go, Python, C and C++.",
       "categories": [
@@ -11325,8 +11325,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tienne/orca-plugins/0.1.1"
+        "url": "https://github.com/tienne/orca-plugins.git",
+        "ref": "v0.2.0"
       },
       "description": "Explore Git logs in a visual Git tree and commit graph. Compare changes in a read-only side-by-side diff and run confirmed Git actions in Orca.",
       "categories": [
@@ -11334,6 +11334,46 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "043727de05f1d23bb7ec52996d369f4886d70024",
+          "contentHash": "4f23fa98633181d0718d937d76cff9b910a1a5117af0e617a35409f91923c7f0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Logs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Logs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".orcadiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "orcadiff"
+          ],
+          "editorFileTypes": [
+            "orcadiff"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orca-plugins",
+          "updatedAt": "2026-11-08T22:26:29+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "7376e52be94e0bd512906ffbc4f1f926111590c7",
