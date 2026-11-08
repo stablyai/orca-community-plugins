@@ -153,11 +153,11 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v1.8.0",
+        "ref": "v1.9.0",
         "reasons": [
           {
             "category": "under-review",
-            "detail": "size, update"
+            "detail": "update"
           }
         ]
       }
