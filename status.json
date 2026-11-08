@@ -185,6 +185,13 @@
         "chrisluo5311.snippets"
       ]
     },
+    "christianlemer/orca-nushell-syntax": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "christianlemer.nushell-syntax"
+      ]
+    },
     "cmdaltctr/orca-plugin-openspec": {
       "state": "listed",
       "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.0",

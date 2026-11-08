@@ -2003,6 +2003,61 @@
       ]
     },
     {
+      "id": "christianlemer.nushell-syntax",
+      "ownerId": 7995484,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ChristianLemer/orca-nushell-syntax.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Syntax highlighting, comment toggling and bracket matching for Nushell scripts (.nu) and data files (.nuon).",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "feab2a64f1656804c4ccfaebb100c3f3f870a133",
+          "contentHash": "b6b090c47ab921f675de391e2015a83e5bbc8a6214a3e1b5b57a77311df0036e",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Nushell",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Nushell",
+              "detail": ".nu, .nuon"
+            }
+          ],
+          "fileTypes": [
+            "nu",
+            "nuon"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/christianlemer.nushell-syntax/02cc6f34700c341b.png",
+              "alt": "A Nushell script in Orca's editor, with comments, keywords, strings, interpolation and a typed custom command highlighted",
+              "sha256": "02cc6f34700c341b74040725416dea888333b3bbfa9ca4b831c0d0d6ee2c5ef6",
+              "width": 944,
+              "height": 590
+            },
+            "screenshots": [
+              {
+                "path": "assets/christianlemer.nushell-syntax/fb7a7046e8a2f43a.png",
+                "alt": "Highlighted Nushell values with units and dates, records, tables, closures, match, operators and external commands in Orca's editor",
+                "sha256": "fb7a7046e8a2f43a0ab94d0feda23790b45fb1447aec6569592516213c2bca22",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ChristianLemer/orca-nushell-syntax",
+          "updatedAt": "2026-11-08T23:06:14+01:00"
+        }
+      ]
+    },
+    {
       "id": "cmdaltctr.openspec",
       "ownerId": 76873351,
       "source": {
