@@ -742,6 +742,16 @@
         "mars-crater.jsonnet-syntax"
       ]
     },
+    "maximechbt/beads-orca-ui": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (docs/demo.mp4)"
+        }
+      ]
+    },
     "mbirepinte/orca-asciidoc-viewer": {
       "state": "listed",
       "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/1.1.0",
@@ -1202,7 +1212,7 @@
     },
     "tienne/orca-plugins": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/tienne/orca-plugins/0.2.0",
       "plugins": [
         "tienne.git-logs"
       ]
@@ -1311,11 +1321,15 @@
     },
     "weiping/wingline": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.2.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
         }
       ]
     },
