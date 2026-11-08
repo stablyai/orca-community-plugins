@@ -1095,13 +1095,13 @@
       ]
     },
     "said-zenhr/orca-material-ocean-theme": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.1.1",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "contributes.themes \"material-ocean\" (themes/material-ocean.json): tokens.--chat-selection: Invalid key in record"
-        }
+      "plugins": [
+        "said-zenhr.material-ocean-theme"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "satangbudsai/orca-git-extension": {

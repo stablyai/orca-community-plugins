@@ -3956,9 +3956,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-07T23:43:13Z",
           "license": "MIT",
-          "repository": "https://github.com/faisalmuhammad/orca-graphiql"
+          "repository": "https://github.com/faisalmuhammad/orca-graphiql",
+          "updatedAt": "2026-11-07T23:43:13Z"
         },
         {
           "version": "0.1.7",
@@ -9702,9 +9702,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-07T19:31:47+03:00",
           "license": "MIT",
-          "repository": "https://github.com/Roflochinsky/beads-orca"
+          "repository": "https://github.com/Roflochinsky/beads-orca",
+          "updatedAt": "2026-11-07T19:31:47+03:00"
         },
         {
           "version": "0.2.1",
@@ -10181,9 +10181,9 @@
               "height": 256
             }
           },
-          "updatedAt": "2026-11-08T12:15:45+01:00",
           "license": "MIT",
-          "repository": "https://github.com/rr235/orca-task-launcher"
+          "repository": "https://github.com/rr235/orca-task-launcher",
+          "updatedAt": "2026-11-08T12:15:45+01:00"
         },
         {
           "version": "0.1.1",
@@ -10476,6 +10476,68 @@
           "license": "GPL-3.0-only",
           "repository": "https://github.com/sachabigou/synthwave-2077-orca",
           "updatedAt": "2026-11-03T22:36:17+01:00"
+        }
+      ]
+    },
+    {
+      "id": "said-zenhr.material-ocean-theme",
+      "ownerId": 225670052,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/said-zenhr/orca-material-ocean-theme.git",
+        "ref": "v1.1.1"
+      },
+      "description": "Material Theme Ocean for the Orca app, code editor and terminal.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "2014b288f9044805fdb31b60c9f0b770e6489e95",
+          "contentHash": "4468d5b3bd58687d29db3efa0007913d3c76ffa14db2a26e72e24a98afbf5201",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Material Theme Ocean for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Material Ocean"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Material Ocean"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/said-zenhr.material-ocean-theme/549f94aa9fccba01.png",
+              "alt": "Material Ocean theme in the Orca code editor",
+              "sha256": "549f94aa9fccba01e200283fbc6b670fd61222b13759cc2df48ee2a828fe70d2",
+              "width": 1600,
+              "height": 855
+            },
+            "screenshots": [
+              {
+                "path": "assets/said-zenhr.material-ocean-theme/afc4abb8f0454821.png",
+                "alt": "TypeScript file in the Orca editor with Material Ocean colours",
+                "sha256": "afc4abb8f04548214931c722425495f636c7a5f80baee0ef9ea912c8d6a03295",
+                "width": 1728,
+                "height": 924
+              },
+              {
+                "path": "assets/said-zenhr.material-ocean-theme/ab6a1ab58ea9d9b5.png",
+                "alt": "Git log, diff and ANSI colours in the Orca terminal with Material Ocean",
+                "sha256": "ab6a1ab58ea9d9b548b2765a9da8de7d0e525567f7af76fd2a6c142f793ddbea",
+                "width": 1728,
+                "height": 924
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/said-zenhr/orca-material-ocean-theme",
+          "updatedAt": "2026-11-08T22:12:20+03:00"
         }
       ]
     },
