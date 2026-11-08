@@ -558,13 +558,10 @@
       ]
     },
     "jecyxyf/orca-tps-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.3.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "name"
-        }
+      "plugins": [
+        "jecyxyf.tps-stats"
       ]
     },
     "jerrazuw/orca-gallery-panel": {
@@ -789,13 +786,10 @@
       ]
     },
     "momokun7/orca-3d-viewer": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, content"
-        }
+      "plugins": [
+        "momokun7.3d-viewer"
       ]
     },
     "mortik/orca-dev-server": {
@@ -873,13 +867,10 @@
       ]
     },
     "oscarbotteri/orca-db-studio": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "oscarbotteri.db-studio"
       ]
     },
     "palulabs/orca-tycoon": {
@@ -1040,19 +1031,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.5.0",
+      "ref": "v0.6.2",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.6.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, size"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
@@ -1286,13 +1268,10 @@
       ]
     },
     "victorstochero/orca-agent-pool": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.11",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "victorstochero.agent-pool"
       ]
     },
     "vilmarioia/orca-pt-br": {

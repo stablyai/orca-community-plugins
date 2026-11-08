@@ -4587,6 +4587,82 @@
       ]
     },
     {
+      "id": "jecyxyf.tps-stats",
+      "ownerId": 89952284,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jecyxyf/Orca-TPS-Plugin.git",
+        "ref": "v1.3.0"
+      },
+      "description": "Real-time token usage, per-request TPS, TTFT, and prompt-cache hit rate statistics plugin for Orca IDE (Claude Code, Codex, OpenCode, Pi), powered by CC Switch metrics.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "ce71acef1553cb7975b44d6a20d6d9a58aaa329e",
+          "contentHash": "227e0a305430eb8b955f5f3a2744b75ce628b2e9e8701c9d703e7a52a2df419a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "Orca 软件 Tokens 统计插件",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "对话 TPS"
+            },
+            {
+              "kind": "commands",
+              "name": "刷新对话 TPS"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "🚀 — tokens/s · 🍪 命中 —"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jecyxyf.tps-stats/c420ba880a647994.png",
+              "alt": "Orca Tokens & Per-Request TPS Stats cover showing live status bar speed and per-request sidebar cards with TTFT and cache hit rates",
+              "sha256": "c420ba880a647994da5a8bec03615488ac0425f7d92db924e2578cf6444fe1a5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jecyxyf.tps-stats/8e1501049b18c550.png",
+              "alt": "Orca 软件 Tokens 统计插件 icon",
+              "sha256": "8e1501049b18c550b66ffcc02843db683d5752d3816cd719893a737f34e27a15",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jecyxyf.tps-stats/e0e82107f568da64.png",
+                "alt": "Orca dark workspace with the TPS & Token Statistics sidebar panel showing per-request speed, TTFT, subagent badges, and status bar",
+                "sha256": "e0e82107f568da640c6f3f50477187a475dd2476bb5696fa30a1d0d597cd5137",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jecyxyf.tps-stats/e81aa19b108cbba5.png",
+                "alt": "Orca light workspace with the TPS & Token Statistics sidebar panel showing per-request speed, TTFT, subagent badges, and status bar",
+                "sha256": "e81aa19b108cbba57aa66a8db5fa895963726533a43b47c09253084ece2b34b8",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jecyxyf/Orca-TPS-Plugin",
+          "updatedAt": "2026-11-08T02:01:29+08:00"
+        }
+      ]
+    },
+    {
       "id": "jerrazuw.gallery-panel-demo",
       "ownerId": 297254608,
       "source": {
@@ -6953,6 +7029,124 @@
       ]
     },
     {
+      "id": "momokun7.3d-viewer",
+      "ownerId": 105904524,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/momokun7/orca-3d-viewer.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Preview 3D models in Orca's editor: GLB and glTF, STL, PLY, OBJ and FBX. Orbit, zoom and pan, play animations, and check the model's real-world size on a floor grid. Read-only.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "7a86b01692663d4051a0181904fc1483a7c094d4",
+          "contentHash": "4826bc595f779cf18f7a3695e3c9baecb4baab4813880fc8d2d50bef2c10bc1e",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "3D Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".glb"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".gltf"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".stl"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".ply"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".obj"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".fbx"
+            }
+          ],
+          "fileTypes": [
+            "glb",
+            "gltf",
+            "stl",
+            "ply",
+            "obj",
+            "fbx"
+          ],
+          "editorFileTypes": [
+            "glb",
+            "gltf",
+            "stl",
+            "ply",
+            "obj",
+            "fbx"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/momokun7.3d-viewer/932acc538539f1b3.png",
+              "alt": "The Stanford Bunny on a floor grid in 3D Viewer, with its vertex count and real-world size in the status bar",
+              "sha256": "932acc538539f1b3682044c1bc891dfbfb3d18c18a6b2b91ba5147838d7ce2e2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/momokun7.3d-viewer/e2162cd04c8ca60e.png",
+              "alt": "3D Viewer icon",
+              "sha256": "e2162cd04c8ca60e3ea81e4626d0d612fce40cd9e5483b7e3850c39ee8349b00",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/momokun7.3d-viewer/8b6533cb1c9d4805.png",
+                "alt": "The Stanford Bunny on a floor grid, with the status bar reading 156 × 154 × 121 mm and Grid 10 mm",
+                "sha256": "8b6533cb1c9d480568dc72bea15107fc7ac36699cd6e019c1d1490b087397055",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/momokun7.3d-viewer/57ace7e04ac433ec.png",
+                "alt": "A textured chess set on a marble board, opened from a GLB file",
+                "sha256": "57ace7e04ac433ec7f5888ac1b7ae28827fb6491d33b301695449b56ec6b81f0",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/momokun7.3d-viewer/d7798891ea4a7198.png",
+                "alt": "A low-poly fox with its Survey animation chosen in the clip menu",
+                "sha256": "d7798891ea4a71981e5df1c045d54f431454acbc61a8ed1e785c6478045c675c",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/momokun7.3d-viewer/c000195e9c334a64.png",
+                "alt": "A boombox opened from an FBX file, shown with the dark theme",
+                "sha256": "c000195e9c334a641595d972d45762760424ff0b813472423e70a7a54c1bd51a",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/momokun7/orca-3d-viewer",
+          "updatedAt": "2026-11-07T23:44:22+09:00"
+        }
+      ]
+    },
+    {
       "id": "moseoh.git-history",
       "ownerId": 45132207,
       "source": {
@@ -7265,6 +7459,107 @@
           "license": "BSD-3-Clause",
           "repository": "https://github.com/nknwns/orca-wakatime",
           "updatedAt": "2026-11-02T16:20:26+07:00"
+        }
+      ]
+    },
+    {
+      "id": "oscarbotteri.db-studio",
+      "ownerId": 68121922,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/oscarbotteri/orca-db-studio.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Browse and query PostgreSQL, MySQL/MariaDB and SQLite from Orca. Reads each worktree's .env to offer its database.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "6ef0be15ad679202fb55d86393cf222194d12150",
+          "contentHash": "bc45c33c78ff169432c6d2416630d9870989d0df4af835fc721155790d01c2c9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "DB Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DB Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "DB Studio: Open SQLite File"
+            },
+            {
+              "kind": "customEditors",
+              "name": "DB Studio",
+              "detail": ".sql"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "sql"
+          ],
+          "editorFileTypes": [
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/oscarbotteri.db-studio/caaa7f8d3977b22f.png",
+              "alt": "DB Studio inside Orca: the customers table open in the SQL editor with its result grid, and the connections panel listing the tables on the right",
+              "sha256": "caaa7f8d3977b22f506511abb4c97178e835f66d11e5f03a772143b875a942ca",
+              "width": 2618,
+              "height": 1808
+            },
+            "icon": {
+              "path": "assets/oscarbotteri.db-studio/2242857db9008f8c.png",
+              "alt": "DB Studio icon",
+              "sha256": "2242857db9008f8cee85544c2897d06bbff1596cb4a9ea3e93c6a2bde1c4fb6a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/oscarbotteri.db-studio/332d1b0e442960bc.png",
+                "alt": "A custom SQL query and its result grid in DB Studio, in Orca's dark theme",
+                "sha256": "332d1b0e442960bcda67c236d44fd83a9078f8cc36d3bb88cd9bcbaf86044115",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/0a47d7aca0284d37.png",
+                "alt": "A custom SQL query and its result grid in DB Studio, in Orca's light theme",
+                "sha256": "0a47d7aca0284d37c403ba3aa1cb69deeb2886567b576146cf52e3c340c30717",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/9ff6f2d8d49785c8.png",
+                "alt": "The DB Studio panel listing the tables and views of a PostgreSQL connection, in Orca's dark theme",
+                "sha256": "9ff6f2d8d49785c82dde700b1d7c5318d070c143ac8f287aeb297d1da061fe9a",
+                "width": 1280,
+                "height": 999
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/34ed0c97217d4da4.png",
+                "alt": "The DB Studio panel listing the tables and views of a PostgreSQL connection, in Orca's light theme",
+                "sha256": "34ed0c97217d4da420a6876b060971f43626fb237da95f5e76c11b76521f7477",
+                "width": 1280,
+                "height": 999
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oscarbotteri/orca-db-studio",
+          "updatedAt": "2026-11-07T23:53:06-03:00"
         }
       ]
     },
@@ -8502,15 +8797,137 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/satangbudsai/orca-git-extension/0.5.0"
+        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
+        "ref": "v0.6.2"
       },
-      "description": "A lightweight Git client inside Orca: a full-tab history graph with changes, branches, merge/rebase, stash, worktrees, git config, right-click menus, and AI commit messages and conflict resolution.",
+      "description": "A Git client inside Orca: commit graph, commits, branches, stashes and worktrees, plus GitHub and GitLab merge requests and pipelines, with your existing Git login. In a full tab and the right sidebar.",
       "categories": [
+        "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "27137034c10fb315ba89a90cf8b71a787f096ca6",
+          "contentHash": "4312a727162b08087a3ee0851ec2ed440dc9d5bd85c8126fb43d800329590fc1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Control",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Review & MR"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Review & MR"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "terminal:send"
+          ],
+          "fileTypes": [
+            "gitgraph"
+          ],
+          "editorFileTypes": [
+            "gitgraph"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/satangbudsai.git-control/52d4b8b84577c2c3.jpg",
+              "alt": "Git Control: a blue and lavender paper Git history sculpture with ivory commit nodes and revision cards on a dark studio backdrop",
+              "sha256": "52d4b8b84577c2c3736dbe0aefadcecff18f691497289159e33ba31241e6c731",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/satangbudsai.git-control/3528d6f0bf936c96.png",
+              "alt": "Git Control icon",
+              "sha256": "3528d6f0bf936c96da9201e896edd1f2886f02112d3aee1b034c58cdfac5379f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/satangbudsai.git-control/ae7f39d29ef848d7.png",
+                "alt": "Git Control for Orca: what it does, from the commit graph and merge requests to CI pipelines",
+                "sha256": "ae7f39d29ef848d7adcc1a31d2be64cb0c2995086f835bad37be4e9394e1e55c",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/45086729a51d8479.png",
+                "alt": "The Commit tab with changed files on the left and a file diff on the right",
+                "sha256": "45086729a51d8479e86064dd54e1aef6e0bec0bf514a0b11551fd1f8e7ffdc93",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/3d14db5f79b1f8e5.png",
+                "alt": "A GitLab merge request page with description, reviewers, approvals and activity",
+                "sha256": "3d14db5f79b1f8e5a5ee9aa1f505dc3c406d6cdf15c3dd0b830875c5376c0033",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/234146515f1884de.png",
+                "alt": "The new merge request dialog with title, description, assignees and reviewers",
+                "sha256": "234146515f1884de2fb7932b63632c582dc05ffe266b5ff87639691d87ee1c82",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/2aa3fe1cc9ee26bb.png",
+                "alt": "A failed GitLab CI job log with its error lines highlighted",
+                "sha256": "2aa3fe1cc9ee26bbabc44ca93d3df4e3b0935163665c0dd0bf53bbd7cba0cd07",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/e6d19e4c122cb5f8.png",
+                "alt": "The command palette listing Pull, Pull with rebase and Push",
+                "sha256": "e6d19e4c122cb5f8ef2c2bf84dde2478b77cf81237c728e46c85d8d1cb8ee352",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SatangBudsai/orca-git-extension",
+          "updatedAt": "2026-11-07T22:25:34+07:00"
+        },
         {
           "version": "0.5.0",
           "commit": "8636505234ddbdf16a82bbabd45c8b5d555c822d",
@@ -10755,6 +11172,41 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-tokyonight",
           "updatedAt": "2026-10-30T21:17:55+01:00"
+        }
+      ]
+    },
+    {
+      "id": "victorstochero.agent-pool",
+      "ownerId": 92390114,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
+        "ref": "v1.0.11"
+      },
+      "description": "An agent pool and a test queue for any language: reserve agent slots by quota, run tests one at a time per resource, and configure everything from a panel.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.11",
+          "commit": "5f8726fd68cab9ddfb8c7c85b10b972f52d74b0f",
+          "contentHash": "ba8222a6a62c3cbc5b166cdd366acb989b83c27bfbaf7dafebaf7fa3d9db2769",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Agent Pool & Test Queue",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Pool"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "updatedAt": "2026-11-07T16:10:54-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/VictorStochero/orca-agent-pool"
         }
       ]
     },
