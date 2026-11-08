@@ -2769,14 +2769,103 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/faisalmuhammad/orca-graphiql/0.1.7"
+        "url": "https://github.com/faisalmuhammad/orca-graphiql.git",
+        "ref": "v0.1.8"
       },
       "description": "A GraphiQL integration for Orca with saved sessions, named environments, schema exploration, and secure authentication.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.8",
+          "commit": "4cb4a11a5d749ef8f6a0ee86e9957202c3015d73",
+          "contentHash": "1876e737b0c4345d06fb085608b94ae02139ef2ba54104ed44d6145fd7bb1038",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "GraphiQL for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GraphiQL Explorer"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "customEditors",
+              "name": "GraphQL IDE",
+              "detail": ".graphiql, .graphiql.json"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New GraphiQL Session",
+              "detail": ".graphiql"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "secrets:own"
+          ],
+          "fileTypes": [
+            "graphiql"
+          ],
+          "editorFileTypes": [
+            "graphiql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.graphiql/443f3cadf51d6092.png",
+              "alt": "Large Countries query/result editor on the left, with the GraphQL logo and glowing GraphiQL for Orca title on the right",
+              "sha256": "443f3cadf51d609298b4716321369c93552b6335cb88363a5d2a53a2ba55402b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.graphiql/7b91a9a4e0beba95.png",
+              "alt": "GraphiQL for Orca icon",
+              "sha256": "7b91a9a4e0beba9569874cb8bc87148419dfac9804787b1d9f4e6b7aac5390f5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.graphiql/a37ec30261553416.png",
+                "alt": "GraphiQL schema documentation and Countries query/result in Orca",
+                "sha256": "a37ec30261553416cd3a54e98dfce41e3a66ab5359ed5f52d12839721d689c47",
+                "width": 1408,
+                "height": 928
+              },
+              {
+                "path": "assets/faisalmuhammad.graphiql/b58453f4162384d2.png",
+                "alt": "GraphiQL connection settings for the Countries endpoint in Orca",
+                "sha256": "b58453f4162384d2f027d37f0fb76e922733d6c0228232834c5ad4aa16b84312",
+                "width": 1408,
+                "height": 928
+              },
+              {
+                "path": "assets/faisalmuhammad.graphiql/4361f5ea96812ea3.png",
+                "alt": "Schema-aware GraphQL field completion in Orca's GraphiQL editor",
+                "sha256": "4361f5ea96812ea347b1a05a870d9775abdb0ec2a3866da49728b724d7281065",
+                "width": 1408,
+                "height": 928
+              },
+              {
+                "path": "assets/faisalmuhammad.graphiql/c1f973fac48ee1dd.png",
+                "alt": "Countries query and Germany result beside GraphiQL Explorer with four sample sessions in Orca",
+                "sha256": "c1f973fac48ee1dd6756d3e5b90a194d452f6858d1623b8ce98cf84663391505",
+                "width": 1641,
+                "height": 1086
+              }
+            ]
+          },
+          "updatedAt": "2026-11-07T23:43:13Z",
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-graphiql"
+        },
         {
           "version": "0.1.7",
           "commit": "cda499686f8aa8f7dd4052067788ca072f2aca12",
@@ -7919,8 +8008,8 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rr235/orca-task-launcher.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rr235/orca-task-launcher/0.1.0"
       },
       "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
       "categories": [

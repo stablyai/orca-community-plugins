@@ -318,19 +318,13 @@
     },
     "faisalmuhammad/orca-graphiql": {
       "state": "listed",
-      "ref": "refs/tags/faisalmuhammad/orca-graphiql/0.1.7",
+      "ref": "v0.1.8",
       "plugins": [
         "faisalmuhammad.graphiql"
       ],
-      "update": {
-        "ref": "v0.1.8",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size, update"
-          }
-        ]
-      }
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "faisalmuhammad/orca-monospace-icons": {
       "state": "listed",
@@ -984,7 +978,7 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/rr235/orca-task-launcher/0.1.0",
       "plugins": [
         "rr235.task-launcher"
       ]
