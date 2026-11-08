@@ -107,15 +107,6 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
-    "berkaysirtas/orca-turkish": {
-      "state": "rejected",
-      "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "manifest-format"
-        }
-      ]
-    },
     "bhojanibilal24/orca-activity-calendar": {
       "state": "listed",
       "ref": "refs/tags/bhojanibilal24/orca-activity-calendar/0.1.4",
@@ -380,7 +371,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -1026,19 +1017,10 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "refs/tags/rr235/orca-task-launcher/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "rr235.task-launcher"
-      ],
-      "update": {
-        "ref": "v0.1.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "runzivo/rzv-orca-plugin": {
       "state": "listed",

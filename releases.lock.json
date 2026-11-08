@@ -377,6 +377,12 @@
     "repoId": 1446473404,
     "firstSeen": "2026-11-08T07:39:30.771Z"
   },
+  "felix-lj-ct.agent-inbox@0.2.1": {
+    "commit": "3700c849487122bbf92a2c8652c7552fe24d41c4",
+    "contentHash": "60f8b918494b61c5e569cee167c7990f3734fa0a4c3462794f6aa2eab1992e0e",
+    "repoId": 1446473404,
+    "firstSeen": "2026-11-08T12:18:20.017Z"
+  },
   "gaoshang212.csharp@0.1.0": {
     "commit": "fef2711704172796084f8654569a354e48c45a4a",
     "contentHash": "c2d540ac060b2569e01505903c4ebcc55bc313af155b5c437c7eef63977ebf10",
@@ -892,6 +898,12 @@
     "contentHash": "9fa8725c5aea3b4a2add27fed8f37f640ca636930b927dfa707c7118f0834965",
     "repoId": 1449838805,
     "firstSeen": "2026-11-08T09:39:27.044Z"
+  },
+  "rr235.task-launcher@0.1.2": {
+    "commit": "44ff347862d1f3d03d4c90487305af95818e3cf0",
+    "contentHash": "561047efa006d79e494c7182ddd2efd8410f4c987e01951a26c6748e705f5cd9",
+    "repoId": 1449838805,
+    "firstSeen": "2026-11-08T12:18:20.017Z"
   },
   "runzivo.runzivo-sandboxes@0.1.0": {
     "commit": "b5beca2893492b8b4070a84428cd20cb93ee3066",
