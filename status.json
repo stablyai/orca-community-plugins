@@ -328,7 +328,7 @@
     },
     "faisalmuhammad/orca-json-visualizer": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/faisalmuhammad/orca-json-visualizer/0.1.0",
       "plugins": [
         "faisalmuhammad.json-visualizer"
       ]
@@ -869,6 +869,16 @@
         {
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "oscarbotteri/orca-db-studio": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },

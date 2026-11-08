@@ -3051,8 +3051,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-json-visualizer.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-json-visualizer/0.1.0"
       },
       "description": "Explore JSON, JSONC, and YAML as interactive graphs beside editable source in Orca.",
       "categories": [],
