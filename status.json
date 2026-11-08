@@ -245,6 +245,16 @@
         "dennib.finline"
       ]
     },
+    "diegohonorio/orca-painel": {
+      "state": "listed",
+      "ref": "v0.3.0",
+      "plugins": [
+        "diegohonorio.painel-trabalho"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
       "ref": "refs/tags/dohaidang/orca-theme-plugin/1.5.0",
