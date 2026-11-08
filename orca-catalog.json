@@ -1037,12 +1037,69 @@
       "ownerId": 354898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bigsy/milko/0.1.1"
+        "url": "https://github.com/Bigsy/milko.git",
+        "ref": "v0.1.2"
       },
-      "description": "Rich Markdown editing for Orca with source preservation and recoverable conflict drafts.",
+      "description": "Edit Markdown directly in a rendered view, with local spelling and grammar checks powered by Harper. Includes Mermaid diagrams, maths, themes and recoverable drafts.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "9d33d66ade3332fce250ac9a477b3f2650c7e818",
+          "contentHash": "a7e819215a43dca6a005c7e171ff77ef4e9dd15b9c3d2ee9588ce052814c3172",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.251",
+          "name": "MilkO Markdown",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "MilkO Markdown",
+              "detail": ".md, .markdown, .mdown, .mkd, .mkdn"
+            }
+          ],
+          "fileTypes": [
+            "md",
+            "markdown",
+            "mdown",
+            "mkd",
+            "mkdn"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown",
+            "mdown",
+            "mkd",
+            "mkdn"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bigsy.milko/b4848278b296a01b.png",
+              "alt": "MilkO: Markdown already rendered, with a real sample note showing a table, tasks and maths.",
+              "sha256": "b4848278b296a01be79f393cd84a265ec182e43bb7ed6757fc8710c60a3d9661",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/bigsy.milko/fcc21402f6068487.png",
+                "alt": "MilkO's actual Harper spelling popup suggesting a correction in a rendered Markdown note.",
+                "sha256": "fcc21402f60684877740236c4dc163e4e62691521c2e0f47e13ca3ae6d8822da",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bigsy.milko/12f6b6f103c4abe6.png",
+                "alt": "A real MilkO document with a coloured Mermaid flowchart and syntax-highlighted TypeScript.",
+                "sha256": "12f6b6f103c4abe6a0a45537adc294c275ffaa641ea1bbc1034dc2d702ecc2b3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Bigsy/milko",
+          "updatedAt": "2026-11-08T12:42:20Z"
+        },
         {
           "version": "0.1.1",
           "commit": "1b6af32fd662d507c4ef7865d982442c6ba846a1",
@@ -6463,6 +6520,104 @@
       ]
     },
     {
+      "id": "miragon.bpmn-modeler",
+      "ownerId": 58698887,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.20",
+        "path": "plugins/bpmn-modeler"
+      },
+      "description": "Experimental. Open .bpmn and .dmn files as diagrams: view, simulate and lightly model BPMN processes and DMN decisions, and see an agent's changes to the file as they happen. No deployment, code links or Form editor yet.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "dd61650e7e6e78574fcc2dd3e3649e4be46b2c0d",
+          "contentHash": "9e436527636391e46b313bfce9452853acadeec3300be2a5461bafcd66f0d641",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "BPMN & DMN Modeler (Experimental)",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "BPMN Modeler",
+              "detail": ".bpmn"
+            },
+            {
+              "kind": "customEditors",
+              "name": "DMN Modeler",
+              "detail": ".dmn"
+            }
+          ],
+          "fileTypes": [
+            "bpmn",
+            "dmn"
+          ],
+          "editorFileTypes": [
+            "bpmn",
+            "dmn"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/miragon.bpmn-modeler/bb3df4d45d0d335f.webp",
+              "alt": "Miragon Modeler for BPMN, experimental: processes and decisions from plain .bpmn and .dmn files, edited by you and your agents.",
+              "sha256": "bb3df4d45d0d335f492c0b0b87414ef924d0b3d0161986bc30bac4c826ffd707",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/miragon.bpmn-modeler/c0730da4918a86a7.png",
+              "alt": "BPMN & DMN Modeler (Experimental) icon",
+              "sha256": "c0730da4918a86a7354f01668bc0cf4d98086c86abd027f618490000f760cbf4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/miragon.bpmn-modeler/bb3df4d45d0d335f.webp",
+                "alt": "Miragon Modeler for BPMN, experimental: processes and decisions from plain .bpmn and .dmn files, edited by you and your agents.",
+                "sha256": "bb3df4d45d0d335f492c0b0b87414ef924d0b3d0161986bc30bac4c826ffd707",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/miragon.bpmn-modeler/87bba38ee99f7b1f.webp",
+                "alt": "Orca with order-fulfilment.bpmn open, the user task Pack order selected and its implementation, assignment and form groups in the properties panel",
+                "sha256": "87bba38ee99f7b1f83c077f83dfac8e059b24fb06ca87039fd44b1129eea2cb4",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.bpmn-modeler/e1715afa51b0468f.webp",
+                "alt": "The order fulfilment process in token simulation, a token waiting after Pack order and the log listing In stock? and Pack order",
+                "sha256": "e1715afa51b0468fcbace6cab040992e4a13ad3543388c55ed6edc0835eb6c73",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.bpmn-modeler/19b9f221d6d6bee1.webp",
+                "alt": "return-handling.bpmn with red error markers on a service task without a job type and on two flows without a condition, and 3 Errors at the bottom",
+                "sha256": "19b9f221d6d6bee16a2e0e67004c4911083f62dbb1e8fac7dff2b61aac95fc02",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.bpmn-modeler/14470d8ed034f949.webp",
+                "alt": "The Choose carrier decision table from shipping.dmn, simulated for a 3 kg express parcel without a country: rule 8 matches, UPS Express for 39",
+                "sha256": "14470d8ed034f949465296fb68693507c0fb5d61f9dbd18604de742f4a5ecc56",
+                "width": 1919,
+                "height": 1199
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-08T12:19:17Z"
+        }
+      ]
+    },
+    {
       "id": "miragon.context-maps-modeler",
       "ownerId": 58698887,
       "source": {
@@ -10408,8 +10563,8 @@
       "ownerId": 61287791,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sumonta056/orca-midnight-dev/1.1.0"
+        "url": "https://github.com/Sumonta056/orca-midnight-dev.git",
+        "ref": "v1.1.1"
       },
       "description": "Monokai-style dark theme with deeper backgrounds, a matching terminal, and rich syntax for Java, Vue, Go, Python, C and C++.",
       "categories": [
@@ -10418,6 +10573,122 @@
         "languages"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "5dab0fa7a557ad49c9575b76e7025196138a5306",
+          "contentHash": "31ebaa2802d90e8fdbfb87178e228da8c76faaa2e388a34363ea4f8425745661",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Midnight Dev with Rich Syntax",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Midnight Dev"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Midnight Dev Terminal"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Java",
+              "detail": ".java"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Go",
+              "detail": ".go"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Python",
+              "detail": ".py, .pyi, .pyw"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Python Regular Expressions"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "C",
+              "detail": ".c"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "C++",
+              "detail": ".cpp, .cc, .cxx, .c++, .hpp, .hh, .hxx, .h++, .h, .inl, .ipp, .tpp"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "C++ Macros"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Vue",
+              "detail": ".vue"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML (Vue templates)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "TypeScript (embedded)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JavaScript (embedded)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CSS (embedded)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "SCSS (embedded)"
+            }
+          ],
+          "fileTypes": [
+            "java",
+            "go",
+            "py",
+            "pyi",
+            "pyw",
+            "c",
+            "cpp",
+            "cc",
+            "cxx",
+            "c++",
+            "hpp",
+            "hh",
+            "hxx",
+            "h++",
+            "h",
+            "inl",
+            "ipp",
+            "tpp",
+            "vue"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sumonta056.monokai-midnight/eeb4da3430a63112.png",
+              "alt": "Midnight Dev in Orca, showing the sidebar, a TypeScript file in the editor and the terminal",
+              "sha256": "eeb4da3430a63112ea3aeac7e10cdc5c319b641b9a829c379ef267547aecdb96",
+              "width": 3200,
+              "height": 1612
+            },
+            "icon": {
+              "path": "assets/sumonta056.monokai-midnight/2195d7a3105e6b2f.png",
+              "alt": "Midnight Dev with Rich Syntax icon",
+              "sha256": "2195d7a3105e6b2fa34fe53b4bbd6048b01a535b719a6dcd9243008d59d85452",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "GPL-3.0",
+          "repository": "https://github.com/Sumonta056/orca-midnight-dev",
+          "updatedAt": "2026-11-08T19:04:29+06:00"
+        },
         {
           "version": "1.1.0",
           "commit": "5ae5812c5e6ac07ff754bc9ef2861f5dd034ca66",

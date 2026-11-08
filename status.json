@@ -1,6 +1,16 @@
 {
   "statusVersion": 1,
   "repos": {
+    "1am/orca-agent-deck": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "aamonnaig4/orca-plugins": {
       "state": "listed",
       "ref": "refs/tags/aamonnaig4/orca-plugins/activity-monitor/1.0.0",
@@ -119,7 +129,7 @@
     },
     "bigsy/milko": {
       "state": "listed",
-      "ref": "refs/tags/bigsy/milko/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "bigsy.milko"
       ]
@@ -764,25 +774,14 @@
     },
     "miragon/orca-modelers": {
       "state": "listed",
-      "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.3.0",
+      "ref": "v0.1.20",
       "plugins": [
+        "miragon.bpmn-modeler",
         "miragon.context-maps-modeler",
         "miragon.event-storming-modeler",
         "miragon.team-topologies-modeler",
         "miragon.value-chain-modeler",
         "miragon.wardley-maps-modeler"
-      ],
-      "rejected": [
-        {
-          "path": "plugins/bpmn-modeler",
-          "id": "bpmn-modeler",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "size"
-            }
-          ]
-        }
       ]
     },
     "molanojf/orca-json-canvas": {
@@ -1133,9 +1132,19 @@
         }
       ]
     },
+    "sumonta056/orca-better-markdown-preview": {
+      "state": "rejected",
+      "ref": "v1.0.2",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
+      ]
+    },
     "sumonta056/orca-midnight-dev": {
       "state": "listed",
-      "ref": "refs/tags/sumonta056/orca-midnight-dev/1.1.0",
+      "ref": "v1.1.1",
       "plugins": [
         "sumonta056.monokai-midnight"
       ]
