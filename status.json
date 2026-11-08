@@ -146,7 +146,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.0",
+      "ref": "v2.0.1",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -744,7 +744,7 @@
     },
     "maximechbt/beads-orca-ui": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "binary-files",
@@ -1144,7 +1144,7 @@
     },
     "sumonta056/orca-better-markdown-preview": {
       "state": "rejected",
-      "ref": "v1.0.3",
+      "ref": "v1.0.4",
       "reasons": [
         {
           "category": "under-review",
@@ -1161,7 +1161,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "refs/tags/superfly/orca-sprites/0.2.1",
+      "ref": "v0.3.0",
       "plugins": [
         "superfly.sprites"
       ]
@@ -1316,6 +1316,16 @@
       "reasons": [
         {
           "category": "manifest-format"
+        }
+      ]
+    },
+    "wangxiaomo/orca-dark-aurora": {
+      "state": "rejected",
+      "ref": "v0.1.2",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
       ]
     },

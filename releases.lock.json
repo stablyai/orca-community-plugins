@@ -155,6 +155,12 @@
     "repoId": 1450002101,
     "firstSeen": "2026-11-08T10:12:28.036Z"
   },
+  "cattfan.enhance-prompt@2.0.1": {
+    "commit": "081e0695fd74e5c17b31b91b4b7981357c496068",
+    "contentHash": "ad58b37bf9577b8c0e98dff26595a364224e712218f38738dd5bd8f6332c86df",
+    "repoId": 1450002101,
+    "firstSeen": "2026-11-08T14:39:29.104Z"
+  },
   "cd3vane.jetbrains-themes@1.0.0": {
     "commit": "dbc699d0af71121dbe6a0b0ad7713204897f16e7",
     "contentHash": "0bb7897de59c641707fa134c600767d96614948c17a2317f059a4f74866c85b1",
@@ -1048,6 +1054,12 @@
     "contentHash": "30bca5e79803b2be289684a245b1f3599c2acf4e53e8b876b238a6d7ef50184f",
     "repoId": 1448256207,
     "firstSeen": "2026-11-07T22:39:02.618Z"
+  },
+  "superfly.sprites@0.3.0": {
+    "commit": "121ec125fd4c4de11df8fc130acfd25598bf9dac",
+    "contentHash": "de3195094422a7766d58c41fa984abc54d596ca28209affc674c7abadffcad3b",
+    "repoId": 1448256207,
+    "firstSeen": "2026-11-08T14:39:29.104Z"
   },
   "thailoc-dev.dev-toolbox@0.1.0": {
     "commit": "a890386f8215ae75445651a7075bcf0dd946c7ad",

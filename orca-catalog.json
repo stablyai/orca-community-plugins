@@ -1164,8 +1164,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.0"
+        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
+        "ref": "v2.0.1"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -1174,6 +1174,107 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "2.0.1",
+          "commit": "081e0695fd74e5c17b31b91b4b7981357c496068",
+          "contentHash": "ad58b37bf9577b8c0e98dff26595a364224e712218f38738dd5bd8f6332c86df",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/3b3c13f12de66ca5.jpg",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "3b3c13f12de66ca519e18ea19c411555a2dce783a63a9b397984e9be2d6c1799",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/b38060d7b509275a.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "b38060d7b509275aa1087cc1e1006acfa518f26a488cf9a069557897f4c4e444",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/a8aeeb52792b5e29.jpg",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "a8aeeb52792b5e29b18a1e010be32aeffe745a3b3e7f9d6768e1a3eb030a0a92",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/15b8efc874efd08d.jpg",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "15b8efc874efd08d576a55ecc2d8ecfe270afae3572b02e502eda4430121847b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/74698a963aaeaceb.jpg",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "74698a963aaeaceb7e5a1dff13bcc7368884fd65c4361d51c66ef24a92eb4759",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-08T21:13:54+07:00"
+        },
         {
           "version": "2.0.0",
           "commit": "d35d1f458f3bdaac44d831ca70c946206fc72d12",
@@ -10835,14 +10936,91 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/superfly/orca-sprites/0.2.1"
+        "url": "https://github.com/superfly/orca-sprites.git",
+        "ref": "v0.3.0"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [
         "vm-recipes"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "121ec125fd4c4de11df8fc130acfd25598bf9dac",
+          "contentHash": "de3195094422a7766d58c41fa984abc54d596ca28209affc674c7abadffcad3b",
+          "execution": "declarative",
+          "minimumOrca": "1.4.246",
+          "name": "Fly.io Sprites",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/sprites.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/superfly.sprites/24f59d9cd2f2a0fc.jpg",
+              "alt": "Sprites for Orca, with the Fly.io logo, beside an illustration of the Fly.io balloon in swim goggles swimming underwater with fish",
+              "sha256": "24f59d9cd2f2a0fc57b2f5d5ed12b469cc470c3fec8325ab75f77685e6abba7a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/superfly.sprites/25ad4c598d6e567e.png",
+              "alt": "Fly.io Sprites icon",
+              "sha256": "25ad4c598d6e567ed13445b5d1fe2cd58842c73a71ced06fb8fb5469eaa3b04a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/superfly.sprites/8fae1be508e81d55.jpg",
+                "alt": "Orca with four workspaces in the sidebar, each running on its own Sprite with its own VM tag and agent status: working, needs you, done",
+                "sha256": "8fae1be508e81d55dc167bc1bc5731dd3147069a8db94814e650461795dedb6f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/401f69f78ac772b8.jpg",
+                "alt": "Orca plugin directory filtered to Remote/VMs, with the Fly.io Sprites plugin card and its Install & enable button highlighted",
+                "sha256": "401f69f78ac772b8307b57ad541636086d65731b1eec46953201d57d3800cfa0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/3725161445bde22b.jpg",
+                "alt": "Orca new workspace dialog: Run on is set to Sprites, picked from the Per-Workspace Environment menu, with Claude Code as the agent",
+                "sha256": "3725161445bde22b716b23bfdb4c71bc35c1835609be1025e63540a9bdce9329",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/3c1fd9645f16861c.jpg",
+                "alt": "Provisioning steps for a Sprites workspace: create Sprite, install Orca, clone repo, start Orca, then ready in under two minutes",
+                "sha256": "3c1fd9645f16861c06db2841d12dbf6bfed6cc3b6f3c1dd4126b7be429b76bfa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/1475ee33467e6bb8.jpg",
+                "alt": "Orca Settings with the Host menu set to the workspace VM, the Claude accounts section and Add Account highlighted, and the new account active on that VM",
+                "sha256": "1475ee33467e6bb8217897e99b8d5f2608a632ea1749f7abd92b563ad2ad00ee",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/fb6c393b9ee2a1ce.jpg",
+                "alt": "Claude Code session in a workspace tagged with its Sprite VM, finishing with 87 tests passed",
+                "sha256": "fb6c393b9ee2a1ce45d40fed21557bbea01eb3b59cf54cd0332f9926ab34d450",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/superfly/orca-sprites",
+          "updatedAt": "2026-11-08T14:29:48Z"
+        },
         {
           "version": "0.2.1",
           "commit": "187909b78aec65864f64a912341a661916b199cc",
