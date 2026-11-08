@@ -1037,8 +1037,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v1.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/1.3.0"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -11414,8 +11414,8 @@
       "ownerId": 315470107,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Wilkywayre/orcarchy.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilkywayre/orcarchy/0.3.0"
       },
       "description": "Live Omarchy color synchronization for Orca. Requires Orca 1.4.251+. Python 3.11+ required.",
       "categories": [
