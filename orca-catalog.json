@@ -3771,14 +3771,51 @@
       "ownerId": 75980151,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.1.2"
+        "url": "https://github.com/felix-lj-ct/orca-agent-inbox.git",
+        "ref": "v0.2.0"
       },
       "description": "What your agents and scripts wait on you for, in one sidebar panel: workspaces they parked on the board with the reason, and the messages they sent. They call one CLI at the points of your workflow that need you.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "1760f64c740965c690260cc321c677619d89625d",
+          "contentHash": "188bbb80f32fc38083b98508efdee5e257729d8e7c7407407d8da094a6ab97da",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/felix-lj-ct.agent-inbox/e326b19e08f00373.png",
+              "alt": "The Agent Inbox panel: three asks waiting on you grouped by project, unread messages, and the wired points of a workflow.",
+              "sha256": "e326b19e08f00373b00b17e4a1c362f06e81fab0ff12cef98cb6ccef7ae1f493",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/felix-lj-ct.agent-inbox/7417dc976f5e6683.png",
+              "alt": "Agent Inbox icon",
+              "sha256": "7417dc976f5e6683ab9264b3f31be0cbb4fa74ffba1ae35410631a1bf0c46801",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/felix-lj-ct/orca-agent-inbox",
+          "updatedAt": "2026-11-08T15:31:06+08:00"
+        },
         {
           "version": "0.1.2",
           "commit": "374a949470f966299f1b3b61d1df56dccc086e20",
@@ -11379,8 +11416,8 @@
       "ownerId": 92390114,
       "source": {
         "kind": "git",
-        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
-        "ref": "v1.0.12"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.12"
       },
       "description": "Spread agent work across your Claude, Codex and other accounts by the quota each one has left, and run every test through one machine-wide queue so parallel worktrees don't overload the machine or share a test database.",
       "categories": [
