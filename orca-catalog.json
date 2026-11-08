@@ -1164,8 +1164,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-woodpecker-status.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.0"
       },
       "description": "Shows the status of all your Woodpecker CI projects in the sidebar, with error messages and a log excerpt of the failed step.",
       "categories": [
@@ -8132,8 +8132,8 @@
       "ownerId": 105904524,
       "source": {
         "kind": "git",
-        "url": "https://github.com/momokun7/orca-3d-viewer.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/momokun7/orca-3d-viewer/1.1.0"
       },
       "description": "Preview 3D models in Orca's editor: GLB and glTF, STL, PLY, OBJ, FBX and USD. Orbit, zoom and pan, play animations, and check the model's real-world size on a floor grid. Read-only.",
       "categories": [],

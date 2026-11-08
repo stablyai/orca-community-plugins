@@ -3,11 +3,11 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (packages/streamdeck-plugin/pl.1am.orca-agent-deck.sdPlugin/profiles/mobile-6.streamDeckProfile)"
+          "category": "under-review",
+          "detail": "code, name"
         }
       ]
     },
@@ -136,7 +136,7 @@
     },
     "brodesigns/orca-woodpecker-status": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.0",
       "plugins": [
         "brodesigns.woodpecker-status"
       ]
@@ -831,7 +831,7 @@
     },
     "momokun7/orca-3d-viewer": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/momokun7/orca-3d-viewer/1.1.0",
       "plugins": [
         "momokun7.3d-viewer"
       ]
