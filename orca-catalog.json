@@ -1255,14 +1255,44 @@
       "ownerId": 77089596,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/chrisluo5311/orca-snippet/0.1.1"
+        "url": "https://github.com/chrisluo5311/orca-snippet.git",
+        "ref": "v0.1.2"
       },
       "description": "Save reusable commands and prompts, search them, and send them to a terminal or copy them in one click.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "ee12fdb0d0864e8d5fa9459e177711b8b6920122",
+          "contentHash": "8b0ba6aa0d2c99e0dd79be5c6827dbce276a41c1528bdae06ef8a3aea7356d9c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Snippets",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Snippets"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/chrisluo5311.snippets/dd8e783aa2f4da00.png",
+              "alt": "The Snippets panel in Orca's sidebar, with buttons to run, insert, copy, edit and delete each snippet",
+              "sha256": "dd8e783aa2f4da00c25d1a758bfd03b3dcb7301f8b1bfd0bc82fb661618de233",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/chrisluo5311/orca-snippet",
+          "updatedAt": "2026-11-08T11:06:04+08:00"
+        },
         {
           "version": "0.1.1",
           "commit": "d5cea3efff5086c4a5e631edf0dd4c6e0109a954",
