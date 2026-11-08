@@ -128,11 +128,11 @@
     },
     "bigsy/milko": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (src/markdown/markdown-blocks.ts)"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
@@ -148,7 +148,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.0.0",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.0",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -964,6 +964,16 @@
       "ref": "refs/tags/reisen7/orca-tps/0.4.0",
       "plugins": [
         "reisen7.opencode-tps"
+      ]
+    },
+    "rem021/workspace-naming-guard": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "rgarciade/orca-containers": {
