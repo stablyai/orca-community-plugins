@@ -127,13 +127,10 @@
       ]
     },
     "bigsy/milko": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "bigsy.milko"
       ]
     },
     "canadianmaplefarmer/orca-azure-devops": {
@@ -968,7 +965,7 @@
     },
     "rem021/workspace-naming-guard": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "reasons": [
         {
           "category": "under-review",

@@ -1033,6 +1033,76 @@
       ]
     },
     {
+      "id": "bigsy.milko",
+      "ownerId": 354898,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Bigsy/milko.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Rich Markdown editing for Orca with source preservation and recoverable conflict drafts.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "1b6af32fd662d507c4ef7865d982442c6ba846a1",
+          "contentHash": "4b53f59aad7b2ca4cd2f7e4f11ca65d78a3047b46881384d6930f77d57e5da20",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.251",
+          "name": "MilkO Markdown",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "MilkO Markdown",
+              "detail": ".md, .markdown, .mdown, .mkd, .mkdn"
+            }
+          ],
+          "fileTypes": [
+            "md",
+            "markdown",
+            "mdown",
+            "mkd",
+            "mkdn"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown",
+            "mdown",
+            "mkd",
+            "mkdn"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bigsy.milko/7bf097741797aff6.png",
+              "alt": "MilkO in a dark theme with a rendered Mermaid flowchart, a Markdown table, maths and tasks.",
+              "sha256": "7bf097741797aff66937ccdef5485c2b0b899f9855a851f5a334b2521f2c4930",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/bigsy.milko/7bf097741797aff6.png",
+                "alt": "MilkO displaying a Mermaid flowchart, a table, maths and a task list in a dark theme.",
+                "sha256": "7bf097741797aff66937ccdef5485c2b0b899f9855a851f5a334b2521f2c4930",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bigsy.milko/f1ca576099d5e6bc.png",
+                "alt": "MilkO in the light Classic theme with the document outline, highlighted TypeScript and an equation.",
+                "sha256": "f1ca576099d5e6bc396a8a6f8df314c0a644991fe7d367a3a0f0ff00fc632c8f",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Bigsy/milko",
+          "updatedAt": "2026-11-08T10:29:10Z"
+        }
+      ]
+    },
+    {
       "id": "cattfan.enhance-prompt",
       "ownerId": 128306749,
       "source": {
