@@ -153,7 +153,7 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v1.6.2",
+        "ref": "v1.8.0",
         "reasons": [
           {
             "category": "under-review",
@@ -792,6 +792,18 @@
         "miragon.team-topologies-modeler",
         "miragon.value-chain-modeler",
         "miragon.wardley-maps-modeler"
+      ],
+      "rejected": [
+        {
+          "path": "plugins/bpmn-modeler",
+          "id": "bpmn-modeler",
+          "reasons": [
+            {
+              "category": "binary-files",
+              "detail": "bundles binary files (editor/shared/bpmn-Cyvp-fAH.eot, editor/shared/dmn-2EwrEScy.eot)"
+            }
+          ]
+        }
       ]
     },
     "molanojf/orca-json-canvas": {
