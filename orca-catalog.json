@@ -2188,8 +2188,8 @@
       "ownerId": 725182,
       "source": {
         "kind": "git",
-        "url": "https://github.com/davidtaboas/orca-fountain-plugin.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/davidtaboas/orca-fountain-plugin/1.0.0"
       },
       "description": "Fountain screenplay support: full-syntax highlighting, a Screenplay view to read your script as printed pages or write it with screenplay formatting as you type, page count and cast stats, and a New screenplay template.",
       "categories": [
