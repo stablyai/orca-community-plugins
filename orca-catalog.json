@@ -1037,8 +1037,8 @@
       "ownerId": 354898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Bigsy/milko.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bigsy/milko/0.1.1"
       },
       "description": "Rich Markdown editing for Orca with source preservation and recoverable conflict drafts.",
       "categories": [],

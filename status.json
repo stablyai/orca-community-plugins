@@ -128,7 +128,7 @@
     },
     "bigsy/milko": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/bigsy/milko/0.1.1",
       "plugins": [
         "bigsy.milko"
       ]
@@ -965,7 +965,7 @@
     },
     "rem021/workspace-naming-guard": {
       "state": "rejected",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "reasons": [
         {
           "category": "under-review",
@@ -1029,7 +1029,16 @@
       "ref": "refs/tags/rr235/orca-task-launcher/0.1.1",
       "plugins": [
         "rr235.task-launcher"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "runzivo/rzv-orca-plugin": {
       "state": "listed",
