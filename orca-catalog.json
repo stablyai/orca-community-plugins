@@ -1033,6 +1033,78 @@
       ]
     },
     {
+      "id": "cattfan.enhance-prompt",
+      "ownerId": 128306749,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
+        "ref": "v1.2.0"
+      },
+      "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "c2327f02bcd5a259552b0396496c3214ff509afe",
+          "contentHash": "e5b85ce966456c4802a5a553cc43d2565e26d4a26abcaf0c4c12f4d100fffa0c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance mode (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Turn auto-enhance off"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/d020e95ddcbd21f6.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "d020e95ddcbd21f69f348ef10dbde99d21bac805a6abf5ececf12d8bdcaf182c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-08T12:31:22+07:00"
+        }
+      ]
+    },
+    {
       "id": "cd3vane.jetbrains-themes",
       "ownerId": 50383155,
       "source": {
