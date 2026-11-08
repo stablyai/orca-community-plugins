@@ -151,7 +151,16 @@
       "ref": "refs/tags/cattfan/orca-enhance-prompt/1.3.0",
       "plugins": [
         "cattfan.enhance-prompt"
-      ]
+      ],
+      "update": {
+        "ref": "v1.5.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size, update"
+          }
+        ]
+      }
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -1276,7 +1285,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "listed",
-      "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.11",
+      "ref": "v1.0.12",
       "plugins": [
         "victorstochero.agent-pool"
       ]

@@ -11379,14 +11379,80 @@
       "ownerId": 92390114,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.11"
+        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
+        "ref": "v1.0.12"
       },
-      "description": "An agent pool and a test queue for any language: reserve agent slots by quota, run tests one at a time per resource, and configure everything from a panel.",
+      "description": "Spread agent work across your Claude, Codex and other accounts by the quota each one has left, and run every test through one machine-wide queue so parallel worktrees don't overload the machine or share a test database.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.12",
+          "commit": "4b1979e5f36871fd1f3ad71d048be4fe5d77cd80",
+          "contentHash": "6a084ba466ba20a3eb463d879076a420da7bf762c8708a92b6c9c0493c4378f2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Agent Pool & Test Queue",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Pool"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/victorstochero.agent-pool/48a0d8f2e438fe43.png",
+              "alt": "Agent Pool & Test Queue: the panel with two tests running and two waiting, the pool accounts with their quota, and a test waiting its turn.",
+              "sha256": "48a0d8f2e438fe43f8cd423c2608d3b9793f4bb67091db7e714bf68b20ec15c9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/victorstochero.agent-pool/02556df5ef6d59c5.png",
+              "alt": "Agent Pool & Test Queue icon",
+              "sha256": "02556df5ef6d59c529c6662ff8cdaf2b30ea9bdac6b20e15c399f5076139eca4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/victorstochero.agent-pool/066bee9bff0417d1.png",
+                "alt": "Orca with queued test runs in a terminal; the Agent Pool panel shows two tests running, two waiting, and each account's slots and quota.",
+                "sha256": "066bee9bff0417d1ed5f8080578860d7857a3ddca03b44b4c503b1c1931956c4",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/victorstochero.agent-pool/fab622e85f05df55.png",
+                "alt": "Accounts tab with an account's slots, weight, model and roles; in the terminal, agent-pool writer picks the account with the most quota left × its weight.",
+                "sha256": "fab622e85f05df55cc8dbc7eef6d9a7624d1015ff70b1bed82fc6898e3ac76dd",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/victorstochero.agent-pool/6b4bd2dd2cab6c71.png",
+                "alt": "Hooks tab with the Claude and Codex hooks installed, beside a terminal where the Claude hook turns away a bare npm test and prints the queued command.",
+                "sha256": "6b4bd2dd2cab6c713555ad49596a3293aaf90d66be6bf5246ac93480ea80a52a",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/victorstochero.agent-pool/ed4b81677e396f6b.png",
+                "alt": "Installation tab with Orca, both skills, the launcher and the agent hooks installed, above the Uninstall everything button.",
+                "sha256": "ed4b81677e396f6badd2a2e6c5be55aa9140162b946f8d5022a2b53f8b46f26f",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/VictorStochero/orca-agent-pool",
+          "updatedAt": "2026-11-08T04:04:11-03:00"
+        },
         {
           "version": "1.0.11",
           "commit": "5f8726fd68cab9ddfb8c7c85b10b972f52d74b0f",
