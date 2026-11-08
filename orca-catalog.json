@@ -3223,6 +3223,75 @@
       ]
     },
     {
+      "id": "faisalmuhammad.news-feeds",
+      "ownerId": 3476670,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-news-feeds.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A quiet place for RSS, Hacker News, and public Reddit feeds. Save what catches your eye and pick up where you left off.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "d3acd60c7acc1f82e80b9966f491beb374f027d1",
+          "contentHash": "9b0297401cfd4c1863645d68105d0d970f35708ec3878cc0bca60e6ac7edf66d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.253",
+          "name": "Feeds",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Feeds"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.news-feeds/0bd2502d0bc0dad6.png",
+              "alt": "Feeds on a deep slate-blue background with copper accents, signal rings and a real sample story list.",
+              "sha256": "0bd2502d0bc0dad68eb8c70baea26de2d1f974d731949c76e16dfa49fc83b0b0",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.news-feeds/54555f73d200faf7.png",
+              "alt": "Feeds icon",
+              "sha256": "54555f73d200faf73ee08932d9d966f349555dcd74cce64c1ab50291fbec275a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.news-feeds/22c9563dedb63325.png",
+                "alt": "Actual dark Feeds list beside an expanded RSS story, on a slate-blue background.",
+                "sha256": "22c9563dedb63325d31a620ebe6dc028af89dfa2e4030a0d796aff74ecc0926b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.news-feeds/81a4fe5755408256.png",
+                "alt": "Actual inline agent question form with sample story context and a preview workspace.",
+                "sha256": "81a4fe57554082564d35d660730aa53732f6a04baf03f14f2ef96443ab3132ab",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-news-feeds",
+          "updatedAt": "2026-11-08T02:11:45Z"
+        }
+      ]
+    },
+    {
       "id": "faisalmuhammad.sidequest",
       "ownerId": 3476670,
       "source": {

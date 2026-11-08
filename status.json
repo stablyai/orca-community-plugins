@@ -326,6 +326,16 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "faisalmuhammad/orca-json-visualizer": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
+      ]
+    },
     "faisalmuhammad/orca-monospace-icons": {
       "state": "listed",
       "ref": "refs/tags/faisalmuhammad/orca-monospace-icons/1.0.5",
@@ -344,6 +354,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "faisalmuhammad/orca-news-feeds": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "faisalmuhammad.news-feeds"
       ]
     },
     "faisalmuhammad/orca-sidequest": {
