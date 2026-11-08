@@ -1038,7 +1038,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v1.9.0"
+        "ref": "v2.0.0"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -1047,6 +1047,107 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "2.0.0",
+          "commit": "d35d1f458f3bdaac44d831ca70c946206fc72d12",
+          "contentHash": "1596da82394b4c13f011ca4a2941fd0cb929ad006f92a72ca1684465e9a5db62",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/3b3c13f12de66ca5.jpg",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "3b3c13f12de66ca519e18ea19c411555a2dce783a63a9b397984e9be2d6c1799",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/b38060d7b509275a.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "b38060d7b509275aa1087cc1e1006acfa518f26a488cf9a069557897f4c4e444",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/a8aeeb52792b5e29.jpg",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "a8aeeb52792b5e29b18a1e010be32aeffe745a3b3e7f9d6768e1a3eb030a0a92",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/15b8efc874efd08d.jpg",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "15b8efc874efd08d576a55ecc2d8ecfe270afae3572b02e502eda4430121847b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/74698a963aaeaceb.jpg",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "74698a963aaeaceb7e5a1dff13bcc7368884fd65c4361d51c66ef24a92eb4759",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-08T16:50:58+07:00"
+        },
         {
           "version": "1.9.0",
           "commit": "4db0af61f21b3431d440b885fc1d57351f44925e",
@@ -8868,8 +8969,8 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rr235/orca-task-launcher.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rr235/orca-task-launcher/0.1.1"
       },
       "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
       "categories": [
