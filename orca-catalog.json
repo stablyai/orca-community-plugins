@@ -3047,6 +3047,107 @@
       ]
     },
     {
+      "id": "faisalmuhammad.json-visualizer",
+      "ownerId": 3476670,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-json-visualizer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Explore JSON, JSONC, and YAML as interactive graphs beside editable source in Orca.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "f78ec0eb71a8854ce8d4a17cafcfb7271710b8f5",
+          "contentHash": "95a504a66eda01c2a0c8cc417c9ee2ea51ca8dbf1c8479e15fe32ed920b35b9f",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "JSON Visualizer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "JSON Visualizer",
+              "detail": ".json, .jsonc"
+            },
+            {
+              "kind": "customEditors",
+              "name": "JSON Visualizer",
+              "detail": ".yml, .yaml"
+            }
+          ],
+          "fileTypes": [
+            "json",
+            "jsonc",
+            "yml",
+            "yaml"
+          ],
+          "editorFileTypes": [
+            "json",
+            "jsonc",
+            "yml",
+            "yaml"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.json-visualizer/ab3c2f160f8db04a.png",
+              "alt": "JSON Visualizer with a tilted amber node icon, subtle rings and copper glow on charcoal. Orca's actual pen button shows how to open the viewer.",
+              "sha256": "ab3c2f160f8db04a25a734c963e35d2a42ce38a478b1528aa250ba5949bf86de",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.json-visualizer/4f51a4ae2f8fbce0.png",
+              "alt": "JSON Visualizer icon",
+              "sha256": "4f51a4ae2f8fbce0030cb1aaacb1e76388f4555c51f992ba335d6540c33776d7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.json-visualizer/ca705c26bdc3f0bf.png",
+                "alt": "JSON order source beside its connected graph in the dark viewer.",
+                "sha256": "ca705c26bdc3f0bf1f770147b9c0fc3e980e6a6f654067057ac2c57fd33c3bc3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.json-visualizer/a49f52b91ca9bdb4.png",
+                "alt": "JSON order source beside its connected graph in the light viewer.",
+                "sha256": "a49f52b91ca9bdb469519f17022da6d32a08ff14bc3491f604ec18da301c6f76",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.json-visualizer/df54095a95ef9557.png",
+                "alt": "Customer name tooltip showing its JSON path, string type, exact value, and source location.",
+                "sha256": "df54095a95ef955742250e25999474f6ceec9c16fcfca66e0f959f26aa322008",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.json-visualizer/1cfa202972fb1ecf.png",
+                "alt": "YAML source and graph with a tooltip preserving a large integer and its original source location.",
+                "sha256": "1cfa202972fb1ecf06eff2affde530d6eb5e6ef6d7e3784a8ca385bf654d93fb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.json-visualizer/f3172fe409e6e071.png",
+                "alt": "Selected customer node with its full original source value in the inspector.",
+                "sha256": "f3172fe409e6e071310c97bb9acb4067a3f69009726513ba4dc39b73d25bfdb4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-json-visualizer",
+          "updatedAt": "2026-11-08T01:52:03Z"
+        }
+      ]
+    },
+    {
       "id": "faisalmuhammad.monospace-icons",
       "ownerId": 3476670,
       "source": {
@@ -3227,8 +3328,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-news-feeds.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-news-feeds/0.1.0"
       },
       "description": "A quiet place for RSS, Hacker News, and public Reddit feeds. Save what catches your eye and pick up where you left off.",
       "categories": [

@@ -327,13 +327,10 @@
       ]
     },
     "faisalmuhammad/orca-json-visualizer": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "faisalmuhammad.json-visualizer"
       ]
     },
     "faisalmuhammad/orca-monospace-icons": {
@@ -358,7 +355,7 @@
     },
     "faisalmuhammad/orca-news-feeds": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/faisalmuhammad/orca-news-feeds/0.1.0",
       "plugins": [
         "faisalmuhammad.news-feeds"
       ]
