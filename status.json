@@ -247,7 +247,7 @@
     },
     "diegohonorio/orca-painel": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/diegohonorio/orca-painel/0.4.0",
       "plugins": [
         "diegohonorio.painel-trabalho"
       ]
@@ -778,13 +778,10 @@
       ]
     },
     "maximechbt/beads-orca-ui": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "maximechbt.beads-orca-ui"
       ]
     },
     "mbirepinte/orca-asciidoc-viewer": {
@@ -1092,7 +1089,7 @@
     },
     "said-zenhr/orca-material-ocean-theme": {
       "state": "rejected",
-      "ref": "v1.1.0",
+      "ref": "v1.1.1",
       "reasons": [
         {
           "category": "validation",

@@ -2560,8 +2560,8 @@
       "ownerId": 42255462,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DiegoHonorio/orca-painel.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/diegohonorio/orca-painel/0.4.0"
       },
       "description": "See what you worked on by day, week and month (Claude Code and Codex time, tokens, estimated cost, commits, pomodoro, to-dos), plus a light system view: CPU, memory, top programs, open ports, network and battery. Everything stays on your machine. English, Português, Español, 中文.",
       "categories": [
@@ -6962,6 +6962,75 @@
           "license": "MIT AND Apache-2.0",
           "repository": "https://github.com/mars-crater/orca-jsonnet-syntax",
           "updatedAt": "2026-11-03T12:34:30Z"
+        }
+      ]
+    },
+    {
+      "id": "maximechbt.beads-orca-ui",
+      "ownerId": 14289013,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/maximechbt/beads-orca-ui.git",
+        "ref": "v0.3.0"
+      },
+      "description": "A minimal beads panel for Orca: what's in progress, what's ready, and one press to hand a task to an agent.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "ee5c6801f39416e600269693d7245accb3fc9b7e",
+          "contentHash": "a9e03dd50861579b4695d5aa7e13c3ffdbf4c7ca52d1930e4eaa6994003298d3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Beads Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/maximechbt.beads-orca-ui/5841129c273ca58f.png",
+              "alt": "Beads Panel icon",
+              "sha256": "5841129c273ca58f3f30f2cb3e38f878d0de516a652f960b843aae606a32ce44",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/maximechbt.beads-orca-ui/870f73cb4ea73583.png",
+                "alt": "Three Beads panels: the All tab by state, the Ready tab, and the Epics tab with progress bars.",
+                "sha256": "870f73cb4ea73583bb8cb63ab9aad79ba985a989d3cd398c5bd81f5d2ceefaa5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/8ebec1fe1e47154b.png",
+                "alt": "A task opened in the Beads panel, then with its criteria and comments unfolded, and the finish form asking for a reason.",
+                "sha256": "8ebec1fe1e47154bbee48f9fdb99e8e2706c46afac9f3840f76fd70a5085fcbf",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/c87681bd2519a470.png",
+                "alt": "The launch form with agent, worktree and prompt; the new task form; the All tab in dark.",
+                "sha256": "c87681bd2519a4705dfc579ace3bd7b86f1345e7bd8254279f5a796f4ab6e7f7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maximechbt/beads-orca-ui",
+          "updatedAt": "2026-11-08T20:03:04+01:00"
         }
       ]
     },
