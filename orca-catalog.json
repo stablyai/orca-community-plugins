@@ -4591,8 +4591,8 @@
       "ownerId": 89952284,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jecyxyf/Orca-TPS-Plugin.git",
-        "ref": "v1.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jecyxyf/orca-tps-plugin/1.3.0"
       },
       "description": "Real-time token usage, per-request TPS, TTFT, and prompt-cache hit rate statistics plugin for Orca IDE (Claude Code, Codex, OpenCode, Pi), powered by CC Switch metrics.",
       "categories": [
@@ -7033,8 +7033,8 @@
       "ownerId": 105904524,
       "source": {
         "kind": "git",
-        "url": "https://github.com/momokun7/orca-3d-viewer.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/momokun7/orca-3d-viewer/1.0.2"
       },
       "description": "Preview 3D models in Orca's editor: GLB and glTF, STL, PLY, OBJ and FBX. Orbit, zoom and pan, play animations, and check the model's real-world size on a floor grid. Read-only.",
       "categories": [],
@@ -7467,8 +7467,8 @@
       "ownerId": 68121922,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oscarbotteri/orca-db-studio.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oscarbotteri/orca-db-studio/0.1.0"
       },
       "description": "Browse and query PostgreSQL, MySQL/MariaDB and SQLite from Orca. Reads each worktree's .env to offer its database.",
       "categories": [
@@ -8797,8 +8797,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.6.2"
       },
       "description": "A Git client inside Orca: commit graph, commits, branches, stashes and worktrees, plus GitHub and GitLab merge requests and pipelines, with your existing Git login. In a full tab and the right sidebar.",
       "categories": [
@@ -11180,8 +11180,8 @@
       "ownerId": 92390114,
       "source": {
         "kind": "git",
-        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
-        "ref": "v1.0.11"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.11"
       },
       "description": "An agent pool and a test queue for any language: reserve agent slots by quota, run tests one at a time per resource, and configure everything from a panel.",
       "categories": [
