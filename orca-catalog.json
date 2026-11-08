@@ -11758,14 +11758,91 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/superfly/orca-sprites/0.3.0"
+        "url": "https://github.com/superfly/orca-sprites.git",
+        "ref": "v0.4.0"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [
         "vm-recipes"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "78da59b75d7d53eab6b84dcabad3a68cdacb43bf",
+          "contentHash": "452e98d757b5ba5ff32f4c40a4a3816ad2551a6cd2c54d637c5672d2053f8b2c",
+          "execution": "declarative",
+          "minimumOrca": "1.4.246",
+          "name": "Fly.io Sprites",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/sprites.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/superfly.sprites/24f59d9cd2f2a0fc.jpg",
+              "alt": "Sprites for Orca, with the Fly.io logo, beside an illustration of the Fly.io balloon in swim goggles swimming underwater with fish",
+              "sha256": "24f59d9cd2f2a0fc57b2f5d5ed12b469cc470c3fec8325ab75f77685e6abba7a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/superfly.sprites/25ad4c598d6e567e.png",
+              "alt": "Fly.io Sprites icon",
+              "sha256": "25ad4c598d6e567ed13445b5d1fe2cd58842c73a71ced06fb8fb5469eaa3b04a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/superfly.sprites/8fae1be508e81d55.jpg",
+                "alt": "Orca with four workspaces in the sidebar, each running on its own Sprite with its own VM tag and agent status: working, needs you, done",
+                "sha256": "8fae1be508e81d55dc167bc1bc5731dd3147069a8db94814e650461795dedb6f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/401f69f78ac772b8.jpg",
+                "alt": "Orca plugin directory filtered to Remote/VMs, with the Fly.io Sprites plugin card and its Install & enable button highlighted",
+                "sha256": "401f69f78ac772b8307b57ad541636086d65731b1eec46953201d57d3800cfa0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/3725161445bde22b.jpg",
+                "alt": "Orca new workspace dialog: Run on is set to Sprites, picked from the Per-Workspace Environment menu, with Claude Code as the agent",
+                "sha256": "3725161445bde22b716b23bfdb4c71bc35c1835609be1025e63540a9bdce9329",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/3c1fd9645f16861c.jpg",
+                "alt": "Provisioning steps for a Sprites workspace: create Sprite, install Orca, clone repo, start Orca, then ready in under two minutes",
+                "sha256": "3c1fd9645f16861c06db2841d12dbf6bfed6cc3b6f3c1dd4126b7be429b76bfa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/1475ee33467e6bb8.jpg",
+                "alt": "Orca Settings with the Host menu set to the workspace VM, the Claude accounts section and Add Account highlighted, and the new account active on that VM",
+                "sha256": "1475ee33467e6bb8217897e99b8d5f2608a632ea1749f7abd92b563ad2ad00ee",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/fb6c393b9ee2a1ce.jpg",
+                "alt": "Claude Code session in a workspace tagged with its Sprite VM, finishing with 87 tests passed",
+                "sha256": "fb6c393b9ee2a1ce45d40fed21557bbea01eb3b59cf54cd0332f9926ab34d450",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/superfly/orca-sprites",
+          "updatedAt": "2026-11-08T21:22:35Z"
+        },
         {
           "version": "0.3.0",
           "commit": "121ec125fd4c4de11df8fc130acfd25598bf9dac",
