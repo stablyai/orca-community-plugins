@@ -2560,15 +2560,95 @@
       "ownerId": 42255462,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/diegohonorio/orca-painel/0.3.0"
+        "url": "https://github.com/DiegoHonorio/orca-painel.git",
+        "ref": "v0.4.0"
       },
-      "description": "See what you worked on by day, week and month: Claude Code and Codex active time, tokens and estimated cost, your commits, a pomodoro timer and a to-do list. Everything stays on your machine. English, Português, Español, 中文.",
+      "description": "See what you worked on by day, week and month (Claude Code and Codex time, tokens, estimated cost, commits, pomodoro, to-dos), plus a light system view: CPU, memory, top programs, open ports, network and battery. Everything stays on your machine. English, Português, Español, 中文.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "1c544ecd30ec77c93c7546aa3394f65a9ebbd0c1",
+          "contentHash": "43b121f332fda9e661b5ed61d7eaeff495c63226ee6187584462b4f910e55961",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Painel de Trabalho",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Painel de Trabalho"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: start / pause"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: stop"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pomodoro"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/diegohonorio.painel-trabalho/606e937c7a51ddff.png",
+              "alt": "The panel in Orca: weekly summary with active time, focus, cost, commits, time per project and bars per day, next to the session list.",
+              "sha256": "606e937c7a51ddff398abf21efc73a42f3a89c76c5dadd148330584cbc4f3b7a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/diegohonorio.painel-trabalho/f7d75da28495a7a1.png",
+              "alt": "Painel de Trabalho icon",
+              "sha256": "f7d75da28495a7a1f4fb0b539853ced3e2fd2f46d685e7967f0c2963be597e80",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/diegohonorio.painel-trabalho/3d3b1131e66b4677.png",
+                "alt": "Weekly summary with KPIs and sparklines, time per project, and a monthly view of estimated cost per day.",
+                "sha256": "3d3b1131e66b46779bde212d33b8d2b3a3307a07bd5a16af9ba532348d422a1a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/diegohonorio.painel-trabalho/9b6f72dc702ffab8.png",
+                "alt": "List of Claude Code and Codex sessions with project, branch, time and cost, next to the list of commits grouped by day.",
+                "sha256": "9b6f72dc702ffab8123ee616ec95c170e465011c8adb299f46686d5f2df547b0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/diegohonorio.painel-trabalho/fd5923a1e13053b1.png",
+                "alt": "Pomodoro running with the to-do list, next to the daily summary showing focus minutes per hour.",
+                "sha256": "fd5923a1e13053b172ab2c4ea0fa107367ca76ae80509ed33d943202b316edff",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/diegohonorio.painel-trabalho/a56d21ea5736accc.png",
+                "alt": "System tab: CPU, memory, top 5 programs, AI agents, open dev ports, network and battery",
+                "sha256": "a56d21ea5736accc701eeb450086164e417e36bf297c5421967597460554aa36",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/DiegoHonorio/orca-painel",
+          "updatedAt": "2026-11-08T15:43:42-03:00"
+        },
         {
           "version": "0.3.0",
           "commit": "37904fe3f0c41719f09185ed2f77728b62816903",
