@@ -4565,8 +4565,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gongxliang/claude-paper/0.1.1"
       },
       "description": "Unofficial Claude-inspired warm light and dark app, chat, editor and terminal colors. Content only; preserves native layouts and fonts.",
       "categories": [
@@ -5264,6 +5264,98 @@
           "license": "MIT",
           "repository": "https://github.com/ivo922/liquid-syntax",
           "updatedAt": "2026-11-05T10:43:58+02:00"
+        }
+      ]
+    },
+    {
+      "id": "jamesjfoong.github-workbench",
+      "ownerId": 52956968,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jamesjfoong/orca-plugin-github-workbench.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Browse GitHub issue relationships, pull requests, Actions checks, and release status from an Orca sidebar panel.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "fe9064c2809675ef1c3577c80b4dc89f4d0ff243",
+          "contentHash": "ff66419e06ffbb5e551111d9acfb7a5e25133ecddd706154dae24eadb7b13b2b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "GitHub Workbench",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Workbench"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "notifications:show",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jamesjfoong.github-workbench/efd78a97b7b3481f.png",
+              "alt": "The PRs tab lists five worktrees with a coloured dot and a badge: closed, merged, ready, running and failed.",
+              "sha256": "efd78a97b7b3481fb24251a4f9f8cebb11d6973829375332c1a0693902c89690",
+              "width": 1328,
+              "height": 830
+            },
+            "screenshots": [
+              {
+                "path": "assets/jamesjfoong.github-workbench/efd78a97b7b3481f.png",
+                "alt": "The PRs tab lists each worktree that has a pull request, with a coloured state badge and a button to open the pull request.",
+                "sha256": "efd78a97b7b3481fb24251a4f9f8cebb11d6973829375332c1a0693902c89690",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/jamesjfoong.github-workbench/15020915f5bd0b83.png",
+                "alt": "The Actions tab shows a pull request line and two passed checks for the feat/search-filter branch.",
+                "sha256": "15020915f5bd0b833b3a59c907c1e227c35fbe66ca0f4ff2ab288eccd0a93081",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/jamesjfoong.github-workbench/c603ab951858bae3.png",
+                "alt": "The Actions tab shows a failed check with a re-run button and a Failing badge for the fix/flaky-timeout branch.",
+                "sha256": "c603ab951858bae33943a62bbdbe46be099751707b50829716a35659111ddad1",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/jamesjfoong.github-workbench/c5fa18d1657abd35.png",
+                "alt": "The Actions tab shows a running check with a spinner and a Running badge for the feat/slow-build branch.",
+                "sha256": "c5fa18d1657abd35849a3f70117c35fb52f2cd99a1e2b80a1a65cbcc6c79033d",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/jamesjfoong.github-workbench/0808587f0083789e.png",
+                "alt": "The Releases tab shows an Up to date badge, a passed release run and the GitHub release v0.1.0.",
+                "sha256": "0808587f0083789e3fd183ede88f2385bf4bfb0387c65e46ef56f066065e2596",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/jamesjfoong.github-workbench/730053d208ebddef.png",
+                "alt": "The PRs tab in the light theme, with closed, merged, ready, running and failed pull requests.",
+                "sha256": "730053d208ebddef4c75a002444ef566534b5585f844a3067d27a88130f855c9",
+                "width": 1328,
+                "height": 830
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jamesjfoong/orca-plugin-github-workbench",
+          "updatedAt": "2026-11-08T22:10:41+07:00"
         }
       ]
     },
@@ -10701,6 +10793,79 @@
           "license": "MIT",
           "repository": "https://github.com/shakedm100/orca-parquet-viewer",
           "updatedAt": "2026-11-07T00:01:39+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sumonta056.better-markdown-preview",
+      "ownerId": 61287791,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sumonta056/orca-better-markdown-preview.git",
+        "ref": "v1.0.4"
+      },
+      "description": "Read and edit Markdown in one live preview: colored headings, organized lists, clean tables, highlighted code, callouts, front matter and Mermaid diagrams. To open it, open a .md file and click the first icon (the pen nib) in the editor's view toggle.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.0.4",
+          "commit": "57f3776e653fefaa4b2e3fe4073f7a83b191c7a2",
+          "contentHash": "6c885d8ed84438d5b32cf6d5956c859b193c7496e356c961a87a7e0c5a333524",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Better Markdown Preview",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".md, .markdown, .mdx"
+            }
+          ],
+          "fileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sumonta056.better-markdown-preview/deed576cd734b3a4.png",
+              "alt": "The plugin name, a hint to click the first icon in the view toggle, and a preview with a colored heading, bullets and a tip callout",
+              "sha256": "deed576cd734b3a493c50aae9c0cd9fa3e32a521f0f0557e42e6a24a88d1f5cf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sumonta056.better-markdown-preview/829f0a461054d8b5.png",
+              "alt": "Better Markdown Preview icon",
+              "sha256": "829f0a461054d8b5ae3c039bb538a1c2f2743d18d92cf6cf02d85b110c8ad1b9",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/sumonta056.better-markdown-preview/4596f1eafb0d57bb.png",
+                "alt": "A table with a compact header and a TypeScript code block with syntax colors and a copy button",
+                "sha256": "4596f1eafb0d57bbd1821953d9b14ad41b163383d977da95190fc2b70232adf0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sumonta056.better-markdown-preview/640525dd496d58db.png",
+                "alt": "A front matter card, a Mermaid flowchart and a numbered list",
+                "sha256": "640525dd496d58db4deb955cc48538790ef693b3603c5c92846bb2daa74bb50c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sumonta056/orca-better-markdown-preview",
+          "updatedAt": "2026-11-08T20:16:48+06:00"
         }
       ]
     },

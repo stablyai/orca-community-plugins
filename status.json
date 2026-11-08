@@ -466,7 +466,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/gongxliang/claude-paper/0.1.1",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -560,6 +560,13 @@
       "ref": "refs/tags/ivo922/liquid-syntax/0.1.1",
       "plugins": [
         "ivo922.liquid-syntax"
+      ]
+    },
+    "jamesjfoong/orca-plugin-github-workbench": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "jamesjfoong.github-workbench"
       ]
     },
     "jargez/orca-recipes": {
@@ -1150,13 +1157,10 @@
       ]
     },
     "sumonta056/orca-better-markdown-preview": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.4",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "sumonta056.better-markdown-preview"
       ]
     },
     "sumonta056/orca-midnight-dev": {
