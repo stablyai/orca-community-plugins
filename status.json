@@ -371,7 +371,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.1",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -778,8 +778,8 @@
           "id": "bpmn-modeler",
           "reasons": [
             {
-              "category": "binary-files",
-              "detail": "bundles binary files (editor/shared/bpmn-Cyvp-fAH.eot, editor/shared/dmn-2EwrEScy.eot)"
+              "category": "under-review",
+              "detail": "size"
             }
           ]
         }
@@ -1017,7 +1017,7 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/rr235/orca-task-launcher/0.1.2",
       "plugins": [
         "rr235.task-launcher"
       ]
