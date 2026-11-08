@@ -131,6 +131,12 @@
     "repoId": 1450002101,
     "firstSeen": "2026-11-08T06:12:29.165Z"
   },
+  "cattfan.enhance-prompt@1.9.0": {
+    "commit": "4db0af61f21b3431d440b885fc1d57351f44925e",
+    "contentHash": "8dd4c636cbaa76775e3854baf51c0aadfc424deb5b940ed34e443db892d9ec23",
+    "repoId": 1450002101,
+    "firstSeen": "2026-11-08T09:39:27.044Z"
+  },
   "cd3vane.jetbrains-themes@1.0.0": {
     "commit": "dbc699d0af71121dbe6a0b0ad7713204897f16e7",
     "contentHash": "0bb7897de59c641707fa134c600767d96614948c17a2317f059a4f74866c85b1",
@@ -868,6 +874,12 @@
     "contentHash": "af3aea867bd01d077096b0d52524d7074cf7384ee3aa44631757105700fc6204",
     "repoId": 1449838805,
     "firstSeen": "2026-11-08T00:37:57.772Z"
+  },
+  "rr235.task-launcher@0.1.1": {
+    "commit": "3a6d1c86b70fc986540594b9b0265ef2d88ac4a0",
+    "contentHash": "9fa8725c5aea3b4a2add27fed8f37f640ca636930b927dfa707c7118f0834965",
+    "repoId": 1449838805,
+    "firstSeen": "2026-11-08T09:39:27.044Z"
   },
   "runzivo.runzivo-sandboxes@0.1.0": {
     "commit": "b5beca2893492b8b4070a84428cd20cb93ee3066",

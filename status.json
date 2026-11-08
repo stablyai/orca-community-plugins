@@ -148,19 +148,10 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/1.3.0",
+      "ref": "v1.9.0",
       "plugins": [
         "cattfan.enhance-prompt"
-      ],
-      "update": {
-        "ref": "v1.9.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -1028,7 +1019,7 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "refs/tags/rr235/orca-task-launcher/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "rr235.task-launcher"
       ]

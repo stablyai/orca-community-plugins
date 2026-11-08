@@ -1037,8 +1037,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cattfan/orca-enhance-prompt/1.3.0"
+        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
+        "ref": "v1.9.0"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -1047,6 +1047,107 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.9.0",
+          "commit": "4db0af61f21b3431d440b885fc1d57351f44925e",
+          "contentHash": "8dd4c636cbaa76775e3854baf51c0aadfc424deb5b940ed34e443db892d9ec23",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/1629eb1fcc044326.jpg",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "1629eb1fcc044326e0509fe4bad9afcdb415f28bae9efde13490dbec224960e5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/b38060d7b509275a.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "b38060d7b509275aa1087cc1e1006acfa518f26a488cf9a069557897f4c4e444",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/f470093ed155c9e1.jpg",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "f470093ed155c9e174d19637a4e11d5a1127e9aa359b7bbe4d52f927c0c4984f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/2802a29bae105240.jpg",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "2802a29bae105240b0fec83ce47281e378955cde1aadbfad57da4c62caeee508",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/a388879e1684ee90.jpg",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "a388879e1684ee901ee001996ae88607c65a69be938f75b244320800d5d8de86",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-08T16:10:03+07:00"
+        },
         {
           "version": "1.3.0",
           "commit": "784ef1a87665425d31b07b853f0a239a24377c5b",
@@ -8767,14 +8868,55 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rr235/orca-task-launcher/0.1.0"
+        "url": "https://github.com/rr235/orca-task-launcher.git",
+        "ref": "v0.1.1"
       },
       "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "3a6d1c86b70fc986540594b9b0265ef2d88ac4a0",
+          "contentHash": "9fa8725c5aea3b4a2add27fed8f37f640ca636930b927dfa707c7118f0834965",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Task Launcher",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Launcher"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rr235.task-launcher/2ca4879a5d1ce446.png",
+              "alt": "Task Launcher: the Orca side panel in a dark and a light theme, with a prompt template and open GitHub issues",
+              "sha256": "2ca4879a5d1ce44647cd7b63b0580bdefc457505443da0114884087ac2dc25f9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rr235.task-launcher/a789119ef2ed3cd5.png",
+              "alt": "Task Launcher icon",
+              "sha256": "a789119ef2ed3cd5d21bd707356629a44ff0a13db4ad158d85715ede23132352",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rr235/orca-task-launcher",
+          "updatedAt": "2026-11-08T10:33:07+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "e0e89ede4e2843e9077eadc5c9fa241fd441e0f3",
