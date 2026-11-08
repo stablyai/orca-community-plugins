@@ -3,18 +3,11 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [],
-      "plugins": [
+      "ref": "v0.1.1",
+      "reasons": [
         {
-          "path": "orca-plugin",
-          "id": "agent-deck",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "name"
-            }
-          ]
+          "category": "binary-files",
+          "detail": "bundles binary files (packages/streamdeck-plugin/pl.1am.orca-agent-deck.sdPlugin/profiles/mobile-6.streamDeckProfile)"
         }
       ]
     },
@@ -139,6 +132,13 @@
       "ref": "refs/tags/bigsy/milko/0.1.2",
       "plugins": [
         "bigsy.milko"
+      ]
+    },
+    "brodesigns/orca-woodpecker-status": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "brodesigns.woodpecker-status"
       ]
     },
     "canadianmaplefarmer/orca-azure-devops": {
@@ -831,7 +831,7 @@
     },
     "momokun7/orca-3d-viewer": {
       "state": "listed",
-      "ref": "refs/tags/momokun7/orca-3d-viewer/1.0.2",
+      "ref": "v1.1.0",
       "plugins": [
         "momokun7.3d-viewer"
       ]

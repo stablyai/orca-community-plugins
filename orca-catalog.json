@@ -1160,6 +1160,84 @@
       ]
     },
     {
+      "id": "brodesigns.woodpecker-status",
+      "ownerId": 44358188,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/brodesigns/orca-woodpecker-status.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Shows the status of all your Woodpecker CI projects in the sidebar, with error messages and a log excerpt of the failed step.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "8300367499bd7e4f421df67150c0aecff81409a1",
+          "contentHash": "91d05c3bae6b8378a3353a0d920d5fd11a5c2d36d807aeff310e83da61e38346",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Woodpecker Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Woodpecker Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Woodpecker: Refresh status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CI"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brodesigns.woodpecker-status/ed8dbd53c65005c6.png",
+              "alt": "The Woodpecker Status panel in Orca's sidebar, showing one failed project with its steps and log, and several passing projects",
+              "sha256": "ed8dbd53c65005c6d331b5aa9e8d4aa063f602d19fd8151656e8a704aa741172",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/brodesigns.woodpecker-status/97940a31561cc63d.png",
+                "alt": "Project list with colored status dots, failed projects first",
+                "sha256": "97940a31561cc63d3169373f6d4be277d460a859eb05b846c8c37731ab1508ae",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/e969a1d5aca8b8ca.png",
+                "alt": "A failed project expanded with its steps and the log of the failed step",
+                "sha256": "e969a1d5aca8b8cab16b9e3aa7d46de73b88621818f8bd1f4a8570a7a8472c2e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/c87be38bcb9a607d.png",
+                "alt": "Setup form with server URL and token fields",
+                "sha256": "c87be38bcb9a607d02c412083f64397142161cd36e3cea95493cd75a24230cf8",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brodesigns/orca-woodpecker-status",
+          "updatedAt": "2026-11-08T19:00:43+02:00"
+        }
+      ]
+    },
+    {
       "id": "cattfan.enhance-prompt",
       "ownerId": 128306749,
       "source": {
@@ -8054,12 +8132,145 @@
       "ownerId": 105904524,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/momokun7/orca-3d-viewer/1.0.2"
+        "url": "https://github.com/momokun7/orca-3d-viewer.git",
+        "ref": "v1.1.0"
       },
-      "description": "Preview 3D models in Orca's editor: GLB and glTF, STL, PLY, OBJ and FBX. Orbit, zoom and pan, play animations, and check the model's real-world size on a floor grid. Read-only.",
+      "description": "Preview 3D models in Orca's editor: GLB and glTF, STL, PLY, OBJ, FBX and USD. Orbit, zoom and pan, play animations, and check the model's real-world size on a floor grid. Read-only.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "6dcf2dcd739685df40365413fb1f05efb9500f67",
+          "contentHash": "bb8068d2419d563aa137036308230dd7f4510ccf0753c2c9be8010c43bf2be9b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "3D Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".glb"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".gltf"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".stl"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".ply"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".obj"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".fbx"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".usdz"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".usda"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".usd"
+            },
+            {
+              "kind": "customEditors",
+              "name": "3D",
+              "detail": ".usdc"
+            }
+          ],
+          "fileTypes": [
+            "glb",
+            "gltf",
+            "stl",
+            "ply",
+            "obj",
+            "fbx",
+            "usdz",
+            "usda",
+            "usd",
+            "usdc"
+          ],
+          "editorFileTypes": [
+            "glb",
+            "gltf",
+            "stl",
+            "ply",
+            "obj",
+            "fbx",
+            "usdz",
+            "usda",
+            "usd",
+            "usdc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/momokun7.3d-viewer/932acc538539f1b3.png",
+              "alt": "The Stanford Bunny on a floor grid in 3D Viewer, with its vertex count and real-world size in the status bar",
+              "sha256": "932acc538539f1b3682044c1bc891dfbfb3d18c18a6b2b91ba5147838d7ce2e2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/momokun7.3d-viewer/e2162cd04c8ca60e.png",
+              "alt": "3D Viewer icon",
+              "sha256": "e2162cd04c8ca60e3ea81e4626d0d612fce40cd9e5483b7e3850c39ee8349b00",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/momokun7.3d-viewer/8b6533cb1c9d4805.png",
+                "alt": "The Stanford Bunny on a floor grid, with the status bar reading 156 × 154 × 121 mm and Grid 10 mm",
+                "sha256": "8b6533cb1c9d480568dc72bea15107fc7ac36699cd6e019c1d1490b087397055",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/momokun7.3d-viewer/57ace7e04ac433ec.png",
+                "alt": "A textured chess set on a marble board, opened from a GLB file",
+                "sha256": "57ace7e04ac433ec7f5888ac1b7ae28827fb6491d33b301695449b56ec6b81f0",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/momokun7.3d-viewer/d7798891ea4a7198.png",
+                "alt": "A low-poly fox with its Survey animation chosen in the clip menu",
+                "sha256": "d7798891ea4a71981e5df1c045d54f431454acbc61a8ed1e785c6478045c675c",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/momokun7.3d-viewer/c000195e9c334a64.png",
+                "alt": "A boombox opened from an FBX file, shown with the dark theme",
+                "sha256": "c000195e9c334a641595d972d45762760424ff0b813472423e70a7a54c1bd51a",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/momokun7/orca-3d-viewer",
+          "updatedAt": "2026-11-09T01:35:49+09:00"
+        },
         {
           "version": "1.0.2",
           "commit": "7a86b01692663d4051a0181904fc1483a7c094d4",
