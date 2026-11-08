@@ -2184,6 +2184,89 @@
       ]
     },
     {
+      "id": "davidtaboas.fountain",
+      "ownerId": 725182,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/davidtaboas/orca-fountain-plugin.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Fountain screenplay support: full-syntax highlighting, a Screenplay view to read your script as printed pages or write it with screenplay formatting as you type, page count and cast stats, and a New screenplay template.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "2331cf2c406570bcada0f885be8d38328f3fdb00",
+          "contentHash": "865a3788768bc8a03480a708fde7e1e7784a1235cce86baa3720e1b4fd020e7b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Fountain",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Fountain",
+              "detail": ".fountain, .spmd"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Screenplay",
+              "detail": ".fountain, .spmd"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Fountain screenplay",
+              "detail": ".fountain"
+            }
+          ],
+          "fileTypes": [
+            "fountain",
+            "spmd"
+          ],
+          "editorFileTypes": [
+            "fountain",
+            "spmd"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/davidtaboas.fountain/1ee09b8cd129fd22.png",
+              "alt": "Fountain plugin: the Screenplay view in Read mode showing a formatted script with page, scene and cast stats",
+              "sha256": "1ee09b8cd129fd22d5cf97e9fcb027654e1397654503834d902ef55d808b26c8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/davidtaboas.fountain/fab4cf99e0d099fc.png",
+              "alt": "Fountain icon",
+              "sha256": "fab4cf99e0d099fc3be3d8712416b3f75c9a87ee9bc84f05c5f16a89c8e426bb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/davidtaboas.fountain/23c37857134407cb.png",
+                "alt": "Screenplay view in Read mode, light theme, with the cast list open",
+                "sha256": "23c37857134407cb2cb764c3eecb0d26efbff8a791421e77621c41e6a35442f3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/davidtaboas.fountain/3ac802deb6b9e227.png",
+                "alt": "Screenplay view in Write mode, dark theme, with formatted Fountain text: sections, a synopsis, scene headings, a note and dialogue",
+                "sha256": "3ac802deb6b9e2272330df1f39011d38c9043ab144fefdde59b91e13174b2990",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/davidtaboas/orca-fountain-plugin",
+          "updatedAt": "2026-11-08T16:52:31+01:00"
+        }
+      ]
+    },
+    {
       "id": "dawidwetzler.cobalt2-theme",
       "ownerId": 49675685,
       "source": {
@@ -5272,8 +5355,8 @@
       "ownerId": 52956968,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jamesjfoong/orca-plugin-github-workbench.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jamesjfoong/orca-plugin-github-workbench/0.2.0"
       },
       "description": "Browse GitHub issue relationships, pull requests, Actions checks, and release status from an Orca sidebar panel.",
       "categories": [
@@ -10801,8 +10884,8 @@
       "ownerId": 61287791,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sumonta056/orca-better-markdown-preview.git",
-        "ref": "v1.0.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sumonta056/orca-better-markdown-preview/1.0.4"
       },
       "description": "Read and edit Markdown in one live preview: colored headings, organized lists, clean tables, highlighted code, callouts, front matter and Mermaid diagrams. To open it, open a .md file and click the first icon (the pen nib) in the editor's view toggle.",
       "categories": [],
