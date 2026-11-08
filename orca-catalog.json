@@ -1038,7 +1038,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v1.2.0"
+        "ref": "v1.3.0"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -1047,6 +1047,103 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "784ef1a87665425d31b07b853f0a239a24377c5b",
+          "contentHash": "3096cd73c1d95e3f966f566547ff9216e46ba7ef8a22761eee18f4911d753bd0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/7bd27fc23edd6284.png",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "7bd27fc23edd628405ad1c392926cfab018e73ea39c4b477c82caa6b6a514fab",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/d020e95ddcbd21f6.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "d020e95ddcbd21f69f348ef10dbde99d21bac805a6abf5ececf12d8bdcaf182c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/024cf91b3857827a.png",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "024cf91b3857827a4c4be0b99fed5c75243abcd8e77a2e502b035f7d115e9f0e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/b34d8073851d1a36.png",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "b34d8073851d1a36929e652674b53094be7a698723985fea6a489b82bebf9b31",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/374024e6bdfa32a6.png",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "374024e6bdfa32a620c92bc33ca08658030f8a778351c80b8f4bd171bd68456b",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-08T12:58:37+07:00"
+        },
         {
           "version": "1.2.0",
           "commit": "c2327f02bcd5a259552b0396496c3214ff509afe",
@@ -11309,6 +11406,103 @@
           "updatedAt": "2026-11-07T16:10:54-03:00",
           "license": "MIT",
           "repository": "https://github.com/VictorStochero/orca-agent-pool"
+        }
+      ]
+    },
+    {
+      "id": "wilkywayre.orcarchy",
+      "ownerId": 315470107,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Wilkywayre/orcarchy.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Live Omarchy color synchronization for Orca. Requires Orca 1.4.251+. Python 3.11+ required.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "b10655b96e5e4c0605e9dccfd85aa5d4d0705495",
+          "contentHash": "047edb7fef8e508605c29b36f633ffb724bf6ab2419cfa45f0e83cfb59dbd84b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "Orcarchy — Omarchy Sync",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Orcarchy: Sync now"
+            },
+            {
+              "kind": "commands",
+              "name": "Orcarchy: Disconnect (keep current appearance)"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Orcarchy: starting"
+            }
+          ],
+          "capabilities": [
+            "appearance:write",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilkywayre.orcarchy/0c3c48476cc09671.png",
+              "alt": "Orcarchy following Tokyo Night in Orca's application and editor",
+              "sha256": "0c3c48476cc0967124ac4c5059ca280e71b7f9c75ef12f8df48537ac14d001b2",
+              "width": 1599,
+              "height": 999
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilkywayre.orcarchy/0c3c48476cc09671.png",
+                "alt": "Tokyo Night application and editor",
+                "sha256": "0c3c48476cc0967124ac4c5059ca280e71b7f9c75ef12f8df48537ac14d001b2",
+                "width": 1599,
+                "height": 999
+              },
+              {
+                "path": "assets/wilkywayre.orcarchy/4db8d16a66a94824.png",
+                "alt": "Tokyo Night terminal with existing ANSI-colored output",
+                "sha256": "4db8d16a66a948241916171060e6199bc268ae7361ec1e50b3fd05b0fdffd3e9",
+                "width": 1599,
+                "height": 999
+              },
+              {
+                "path": "assets/wilkywayre.orcarchy/59a364492c1d2b71.png",
+                "alt": "Gruvbox application and editor",
+                "sha256": "59a364492c1d2b71bef72daca568a3232578207ccf346a94e180d756cdc9df22",
+                "width": 1599,
+                "height": 999
+              },
+              {
+                "path": "assets/wilkywayre.orcarchy/67ccd36520c2590a.png",
+                "alt": "The same terminal repainted with Gruvbox colors",
+                "sha256": "67ccd36520c2590aba78303d6ce0f90b695c65e2b581968dbc5f065281e44a02",
+                "width": 1599,
+                "height": 999
+              },
+              {
+                "path": "assets/wilkywayre.orcarchy/fc04e60cd35cd58b.png",
+                "alt": "Catppuccin Latte application and editor",
+                "sha256": "fc04e60cd35cd58b3b83ec63ec2b2e8c07fb55ad1912411e2b3fed8854a0c235",
+                "width": 1599,
+                "height": 999
+              },
+              {
+                "path": "assets/wilkywayre.orcarchy/b941d353c3baa6bb.png",
+                "alt": "The same terminal repainted with Catppuccin Latte colors",
+                "sha256": "b941d353c3baa6bbb909a995faf8ec915fc2eb822ba84797d287c10132d2ef6f",
+                "width": 1599,
+                "height": 999
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Wilkywayre/orcarchy",
+          "updatedAt": "2026-11-06T22:18:33-05:00"
         }
       ]
     },
