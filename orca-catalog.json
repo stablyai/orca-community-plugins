@@ -1164,8 +1164,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.1"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -4557,6 +4557,51 @@
           "license": "MIT",
           "repository": "https://github.com/gentilfp/orca-snakAI",
           "updatedAt": "2026-11-05T16:48:48+01:00"
+        }
+      ]
+    },
+    {
+      "id": "gongxliang.claude-paper",
+      "ownerId": 174983892,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/GongXLiang/Claude-paper.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Unofficial Claude-inspired warm light and dark app, chat, editor and terminal colors. Content only; preserves native layouts and fonts.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "bff83e4a6ae72804a000894fc25c2eca075efe11",
+          "contentHash": "72d6ad8680d57393d34d38abd0d3d8a69dbe764743639e33209b106e879bcc50",
+          "execution": "data",
+          "minimumOrca": "1.4.253",
+          "name": "Claude Paper",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-08T23:49:17+09:00"
         }
       ]
     },
@@ -10936,8 +10981,8 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/superfly/orca-sprites.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/superfly/orca-sprites/0.3.0"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [

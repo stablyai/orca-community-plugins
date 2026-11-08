@@ -146,7 +146,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.0.1",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.1",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -462,6 +462,13 @@
           "category": "validation",
           "detail": "/orca-catalog.json: plugins[0].releases[5].images.screenshots[0]: sha256 does not match assets/screenshot-graph.png"
         }
+      ]
+    },
+    "gongxliang/claude-paper": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "gongxliang.claude-paper"
       ]
     },
     "gzimbron/svelte-syntax-orca": {
@@ -1161,7 +1168,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/superfly/orca-sprites/0.3.0",
       "plugins": [
         "superfly.sprites"
       ]
