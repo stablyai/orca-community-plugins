@@ -153,7 +153,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.2",
+      "ref": "v2.1.0",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -535,7 +535,7 @@
     },
     "hadisd/quiet-pastel": {
       "state": "listed",
-      "ref": "v1.1.2",
+      "ref": "refs/tags/hadisd/quiet-pastel/1.1.2",
       "plugins": [
         "hadisd.quiet-pastel"
       ]
@@ -759,7 +759,7 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/llima/craftar-orca/0.2.0",
       "plugins": [
         "llima.craftar"
       ]
@@ -1123,7 +1123,7 @@
     },
     "sasagar/orca-ktrz-monokai": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/sasagar/orca-ktrz-monokai/1.1.1",
       "plugins": [
         "sasagar.ktrz-monokai"
       ]
