@@ -2993,441 +2993,6 @@
       ]
     },
     {
-      "id": "dohaidang.living-ascii-themes",
-      "ownerId": 41058561,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.5.0"
-      },
-      "description": "Fourteen ASCII wallpaper themes (thirteen dark, one light), each with theme, dark or light sidebars, plus matching terminal palettes and file icons.",
-      "categories": [
-        "themes",
-        "terminal-themes",
-        "icons"
-      ],
-      "releases": [
-        {
-          "version": "1.5.0",
-          "commit": "e53919addb0d314fb86f39ecd65697c45ff00fcc",
-          "contentHash": "d182bd07b6236fd2525198104ed7d29d66758f9ebcb7b86fe9467c7c13eb3717",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Living ASCII Themes",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Aurora"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Aurora (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Aurora (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Neon City"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Neon City (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Neon City (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Rainy Window"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Rainy Window (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Rainy Window (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Reef"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Reef (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Reef (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Snowfall Cabin"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Snowfall Cabin (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Snowfall Cabin (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cherry Blossom"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cherry Blossom (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cherry Blossom (light sidebar)"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Paper Boats"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Coral Sunburst"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Cloud Drift"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Fireflies"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Honu Lagoon"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Jellyfish"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Koi Pond"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Moonlit"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Aurora"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Neon City"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Rainy Window"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Coral Reef"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Snowfall Cabin"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Cherry Blossom"
-            },
-            {
-              "kind": "iconThemes",
-              "name": "ASCII · Icons"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/dohaidang.living-ascii-themes/2a760a4edec13af3.png",
-              "alt": "Fourteen ASCII wallpapers, from a coral sunburst, koi pond and jellyfish to an aurora, neon city, snowy cabin and cherry blossom",
-              "sha256": "2a760a4edec13af302cb50ec61dcad352c03c3154bd72ff05473565beab10637",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/dohaidang.living-ascii-themes/ab2af755cb2d6ef5.png",
-              "alt": "Living ASCII Themes icon",
-              "sha256": "ab2af755cb2d6ef531ad076fecb15d13f7abc34bcd91f47e12e38937522ba321",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/dohaidang/orca-theme-plugin",
-          "updatedAt": "2026-11-05T08:31:19+07:00"
-        },
-        {
-          "version": "1.4.0",
-          "commit": "74b035f66f7f1f4559016caebf1b9874673d2af5",
-          "contentHash": "db7707297bb09e419e82cfce57dcff344ee17df3544f7c00c1784e4fdda7fbbd",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Living ASCII Themes",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit (light sidebar)"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Paper Boats"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Coral Sunburst"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Cloud Drift"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Fireflies"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Honu Lagoon"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Jellyfish"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Koi Pond"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Moonlit"
-            },
-            {
-              "kind": "iconThemes",
-              "name": "ASCII · Icons"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/dohaidang.living-ascii-themes/175be7d12e885fda.png",
-              "alt": "Eight ASCII wallpapers: coral sunburst, drifting clouds, sea turtle, koi pond, jellyfish, paper boats, fireflies and a crescent moon",
-              "sha256": "175be7d12e885fdad2ab87bed59ebcd7fd668982abd9f0a4e609c7fc37b3b3be",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/dohaidang.living-ascii-themes/ab2af755cb2d6ef5.png",
-              "alt": "Living ASCII Themes icon",
-              "sha256": "ab2af755cb2d6ef531ad076fecb15d13f7abc34bcd91f47e12e38937522ba321",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/dohaidang/orca-theme-plugin",
-          "updatedAt": "2026-11-04T08:37:19+07:00"
-        }
-      ]
-    },
-    {
       "id": "dohaidang.vietnamese",
       "ownerId": 41058561,
       "source": {
@@ -6186,7 +5751,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/jiangwanyutao/orca-claude-theme.git",
-        "ref": "v1.3.0"
+        "ref": "v1.4.0"
       },
       "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, matching terminal themes, and minimal icons.",
       "categories": [
@@ -6195,6 +5760,55 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.4.0",
+          "commit": "f3a036ad0a510daaa3ce7111a7ed845c09f45a59",
+          "contentHash": "9adfef66312a6c0242b86cc8c18a31aa2aa11a61d88d0beb31c4de2e39dde7eb",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Claude Theme for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jiangwanyutao.claude-theme/af5ebb9d652bae41.png",
+              "alt": "Claude Theme for Orca preview showing the warm editor, file tree, terminal, and color palette",
+              "sha256": "af5ebb9d652bae4148f4e5bb8f69f1c7a818dd31750ad95598b33ffde59c4ef6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jiangwanyutao.claude-theme/23d364670288ba27.png",
+              "alt": "Claude Theme for Orca icon",
+              "sha256": "23d364670288ba270d703a97772bb8e1b14749fda6121f6b541af86ca6d5cd59",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
+          "updatedAt": "2026-11-09T15:37:32+08:00"
+        },
         {
           "version": "1.3.0",
           "commit": "12cbef91c7df3b2f4034e2e15b394373924261ac",

@@ -260,10 +260,13 @@
       ]
     },
     "dohaidang/orca-theme-plugin": {
-      "state": "listed",
-      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.5.0",
-      "plugins": [
-        "dohaidang.living-ascii-themes"
+      "state": "rejected",
+      "ref": "v1.6.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (images/aurora.webm, images/boats.webm, images/cloud.webm, images/coral.webm, images/fire.webm, …)"
+        }
       ]
     },
     "dohaidang/orca-vietnamese-plugin": {
@@ -623,7 +626,7 @@
     },
     "jiangwanyutao/orca-claude-theme": {
       "state": "listed",
-      "ref": "v1.3.0",
+      "ref": "v1.4.0",
       "plugins": [
         "jiangwanyutao.claude-theme"
       ],
@@ -1140,7 +1143,16 @@
       "ref": "v0.7.1",
       "plugins": [
         "satangbudsai.git-control"
-      ]
+      ],
+      "update": {
+        "ref": "v0.7.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size"
+          }
+        ]
+      }
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
