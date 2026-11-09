@@ -1279,8 +1279,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-woodpecker-status.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.1.0"
       },
       "description": "Shows the status of all your Woodpecker CI projects in the sidebar, newest build first, with search, filter, error messages and a log excerpt of the failed step. English and German. Read-only: talks only to your own Woodpecker server, no tracking.",
       "categories": [
@@ -7746,19 +7746,111 @@
       ]
     },
     {
-      "id": "lazyjerry.todo-list",
+      "id": "lazyjerry.forrrk",
       "ownerId": 22562898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lazyjerry/todo-for-orca/0.1.0"
+        "url": "https://github.com/lazyjerry/orca-forrrk.git",
+        "ref": "v0.1.0"
       },
-      "description": "A todo list in the sidebar with timed desktop reminders (repeat, stop conditions, duration) and the current / next todo in the status bar. 側欄 todo 清單：定時桌面通知（重複、停止條件、持續時間），狀態列顯示進行中與下一個 todo。",
+      "description": "在 Orca 右側邊欄檢視 workspace 所在儲存庫的唯讀 git 資訊與忽略變更設定，並一鍵用 Fork 開啟。",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "a2a7c422ba769fa618ced36d5137474060c26992",
+          "contentHash": "ad39432b62b1eb7a49d346b59c53c0c0685d9c1cdd87c3c22b6b45a6762861c6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "forrrk",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "forrrk"
+            },
+            {
+              "kind": "commands",
+              "name": "forrrk: Open Current Repository in Fork"
+            },
+            {
+              "kind": "commands",
+              "name": "forrrk: Open Repository Folder"
+            },
+            {
+              "kind": "commands",
+              "name": "forrrk: Run git-auto-push -a"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/lazyjerry.forrrk/b3150a762d30d08c.png",
+              "alt": "forrrk icon",
+              "sha256": "b3150a762d30d08c0017cd63d2ba7c72401f45811dba03c1cd1ce872ad5f8245",
+              "width": 128,
+              "height": 128
+            }
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/lazyjerry/orca-forrrk",
+          "updatedAt": "2026-11-08T20:33:50+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lazyjerry.todo-list",
+      "ownerId": 22562898,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lazyjerry/todo-for-orca.git",
+        "ref": "v0.2.0"
+      },
+      "description": "A sidebar to-do list for the small tasks of your day: timed desktop reminders, repeats and durations, with the current and next to-do in the status bar. 處理一天內小任務的側欄待辦清單：到點桌面提醒、可重複與設定持續時間，狀態列顯示進行中與下一件事。",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "d56514999bf6af19eaf795f6a0e8b3e8b9ad26a8",
+          "contentHash": "90d2657a40999cc2c9b3423eaba68d517a580ea04feaff2e66cf33ac8704851e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Daily To-Do List",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Daily To-Do List"
+            },
+            {
+              "kind": "commands",
+              "name": "Daily To-Do List: Show Current and Next To-Do"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "now"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "next"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "Apache-2.0",
+          "repository": "https://github.com/lazyjerry/todo-for-orca",
+          "updatedAt": "2026-11-09T20:53:58+08:00"
+        },
         {
           "version": "0.1.0",
           "commit": "2f95f795cfa3483005be87213c435286af7cd12a",
@@ -10750,8 +10842,8 @@
       "ownerId": 68121922,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/oscarbotteri/orca-db-studio/0.1.0"
+        "url": "https://github.com/oscarbotteri/orca-db-studio.git",
+        "ref": "v0.2.0"
       },
       "description": "Browse and query PostgreSQL, MySQL/MariaDB and SQLite from Orca. Reads each worktree's .env to offer its database.",
       "categories": [
@@ -10759,6 +10851,91 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "b8c5e5fe8acda2816853d0c46e252892cebf6fea",
+          "contentHash": "c91abf277fd615323fb37abdea95ff38451a3528282d27d984087861fa3ce641",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "DB Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DB Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "DB Studio: Open SQLite File"
+            },
+            {
+              "kind": "customEditors",
+              "name": "DB Studio",
+              "detail": ".sql"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "sql"
+          ],
+          "editorFileTypes": [
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/oscarbotteri.db-studio/caaa7f8d3977b22f.png",
+              "alt": "DB Studio inside Orca: the customers table open in the SQL editor with its result grid, and the connections panel listing the tables on the right",
+              "sha256": "caaa7f8d3977b22f506511abb4c97178e835f66d11e5f03a772143b875a942ca",
+              "width": 2618,
+              "height": 1808
+            },
+            "icon": {
+              "path": "assets/oscarbotteri.db-studio/2242857db9008f8c.png",
+              "alt": "DB Studio icon",
+              "sha256": "2242857db9008f8cee85544c2897d06bbff1596cb4a9ea3e93c6a2bde1c4fb6a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/oscarbotteri.db-studio/332d1b0e442960bc.png",
+                "alt": "A custom SQL query and its result grid in DB Studio, in Orca's dark theme",
+                "sha256": "332d1b0e442960bcda67c236d44fd83a9078f8cc36d3bb88cd9bcbaf86044115",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/0a47d7aca0284d37.png",
+                "alt": "A custom SQL query and its result grid in DB Studio, in Orca's light theme",
+                "sha256": "0a47d7aca0284d37c403ba3aa1cb69deeb2886567b576146cf52e3c340c30717",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/9ff6f2d8d49785c8.png",
+                "alt": "The DB Studio panel listing the tables and views of a PostgreSQL connection, in Orca's dark theme",
+                "sha256": "9ff6f2d8d49785c82dde700b1d7c5318d070c143ac8f287aeb297d1da061fe9a",
+                "width": 1280,
+                "height": 999
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/34ed0c97217d4da4.png",
+                "alt": "The DB Studio panel listing the tables and views of a PostgreSQL connection, in Orca's light theme",
+                "sha256": "34ed0c97217d4da420a6876b060971f43626fb237da95f5e76c11b76521f7477",
+                "width": 1280,
+                "height": 999
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oscarbotteri/orca-db-studio",
+          "updatedAt": "2026-11-09T10:02:35-03:00"
+        },
         {
           "version": "0.1.0",
           "commit": "6ef0be15ad679202fb55d86393cf222194d12150",
@@ -10851,14 +11028,70 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/palulabs/orca-tycoon/0.2.0"
+        "url": "https://github.com/palulabs/orca-tycoon.git",
+        "ref": "v0.2.1"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "596fa5df184d00a37081eef11b6d9c10469756d9",
+          "contentHash": "e773d4982ec96e1f2640376db6f66563937f779767f545f22d3eff70939fa443",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Orca Tycoon",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca Tycoon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/palulabs.office-tycoon/65f2486153931c20.png",
+              "alt": "The commons of a pixel office: agents on the sofa and at the coffee corner, a foosball table, and Palú the dog eating from his bowl",
+              "sha256": "65f2486153931c2065716893a4bfb2c98d68bc27857675d242a2c936485a9071",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
+              "alt": "Orca Tycoon icon",
+              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/palulabs.office-tycoon/5f6e6b3af81d097d.png",
+                "alt": "The whole office: five teams at their desks around a commons band with a lounge, kitchen, foosball table and calling booths",
+                "sha256": "5f6e6b3af81d097deb9cd8837df5029cada32f1e23a445e46c08d21df63689c2",
+                "width": 2500,
+                "height": 1562
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/f9434ac0fd48efc5.png",
+                "alt": "A team at work with a speech bubble from an agent that just finished, and Palú asleep in his bed",
+                "sha256": "f9434ac0fd48efc5bdaeda18c75118c3645088b6966567140a7ebe55911da475",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/ad68a30cc6fab295.png",
+                "alt": "Desks showing agent states: a red flashing screen for blocked, an amber question mark for waiting, and specialists on stools",
+                "sha256": "ad68a30cc6fab2950455296c1a25dfec58e3b689d92ca17214108225fe0b4eac",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/palulabs/orca-tycoon",
+          "updatedAt": "2026-11-09T14:15:07+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "83f881082b61ff024e58f807e2c433c6543d7a2f",
@@ -15029,6 +15262,63 @@
           "license": "MIT",
           "repository": "https://github.com/tourbut/orca-helm",
           "updatedAt": "2026-11-05T10:08:52+09:00"
+        }
+      ]
+    },
+    {
+      "id": "turingfx.omp-usage",
+      "ownerId": 250263194,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/turingfx/omp-stats.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Native Orca sidebar embedding of omp's official telemetry dashboard (http://127.0.0.1:59127). Directly queries ~/.omp/stats.db in read-only mode via an embedded Node SQLite worker (~9ms) to display live KPI sparklines, latency, throughput, token mix, and per-model performance tables.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7e9353ce424b3cadb9f4dcb8bd9f8ed4a310ccdf",
+          "contentHash": "a6d3422b07ca17ae70043e9bbbd62ac79e081bea874b25603ebb3e3dd952f573",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "omp stats",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "omp stats"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/turingfx.omp-usage/d91c067527ce0454.png",
+              "alt": "omp stats telemetry overview and models dashboard",
+              "sha256": "d91c067527ce0454fbbbfbc9b3ba5723ff336a5848110c2a626f0a68a11597a0",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/turingfx.omp-usage/04da69532d533325.png",
+              "alt": "omp stats icon",
+              "sha256": "04da69532d533325a9e316d63319cd5286e01fc2ead71615201aefe9dd766ad2",
+              "width": 128,
+              "height": 128
+            },
+            "screenshots": [
+              {
+                "path": "assets/turingfx.omp-usage/e2a5b86b06543043.png",
+                "alt": "omp stats overview with KPI sparklines and activity chart",
+                "sha256": "e2a5b86b065430431208db86f83ddc88674ed0ea06937380081c84065f41bfdb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/turingfx/omp-stats",
+          "updatedAt": "2026-11-09T20:47:57+08:00"
         }
       ]
     },

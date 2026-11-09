@@ -767,11 +767,23 @@
     "repoId": 1444060793,
     "firstSeen": "2026-11-09T08:21:51.742Z"
   },
+  "lazyjerry.forrrk@0.1.0": {
+    "commit": "a2a7c422ba769fa618ced36d5137474060c26992",
+    "contentHash": "ad39432b62b1eb7a49d346b59c53c0c0685d9c1cdd87c3c22b6b45a6762861c6",
+    "repoId": 1450076334,
+    "firstSeen": "2026-11-09T13:16:10.415Z"
+  },
   "lazyjerry.todo-list@0.1.0": {
     "commit": "2f95f795cfa3483005be87213c435286af7cd12a",
     "contentHash": "fd58f235434ecb30885a8ce270f525c3030a0489aab6e47da73d3bad10bf2909",
     "repoId": 1450910676,
     "firstSeen": "2026-11-09T04:18:32.114Z"
+  },
+  "lazyjerry.todo-list@0.2.0": {
+    "commit": "d56514999bf6af19eaf795f6a0e8b3e8b9ad26a8",
+    "contentHash": "90d2657a40999cc2c9b3423eaba68d517a580ea04feaff2e66cf33ac8704851e",
+    "repoId": 1450910676,
+    "firstSeen": "2026-11-09T13:16:10.415Z"
   },
   "lindoo67.drawio@0.1.5": {
     "commit": "4ca1f4e301b149f06d0252111406611c74947116",
@@ -1061,11 +1073,23 @@
     "repoId": 1448757961,
     "firstSeen": "2026-11-08T04:00:42.683Z"
   },
+  "oscarbotteri.db-studio@0.2.0": {
+    "commit": "b8c5e5fe8acda2816853d0c46e252892cebf6fea",
+    "contentHash": "c91abf277fd615323fb37abdea95ff38451a3528282d27d984087861fa3ce641",
+    "repoId": 1448757961,
+    "firstSeen": "2026-11-09T13:16:10.415Z"
+  },
   "palulabs.office-tycoon@0.2.0": {
     "commit": "83f881082b61ff024e58f807e2c433c6543d7a2f",
     "contentHash": "34d7242f010d5d7417f0f1670fbff30dbe3547d3d3aa7b43c78e16d63dc1f6e6",
     "repoId": 1446103121,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "palulabs.office-tycoon@0.2.1": {
+    "commit": "596fa5df184d00a37081eef11b6d9c10469756d9",
+    "contentHash": "e773d4982ec96e1f2640376db6f66563937f779767f545f22d3eff70939fa443",
+    "repoId": 1446103121,
+    "firstSeen": "2026-11-09T13:16:10.415Z"
   },
   "pidack.trace-viewer@0.1.1": {
     "commit": "d4f8f5429e871c6e86ad4982d18b19e999092d74",
@@ -1480,6 +1504,12 @@
     "contentHash": "737e05824b9411f325fcd5bb23a82667f06f209daf550289747fa5afdc754cae",
     "repoId": 1444000708,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "turingfx.omp-usage@0.1.0": {
+    "commit": "7e9353ce424b3cadb9f4dcb8bd9f8ed4a310ccdf",
+    "contentHash": "a6d3422b07ca17ae70043e9bbbd62ac79e081bea874b25603ebb3e3dd952f573",
+    "repoId": 1451354007,
+    "firstSeen": "2026-11-09T13:16:10.415Z"
   },
   "unz47.neon-glass@1.0.1": {
     "commit": "588bafabbd8b49f4d9b38435fc8f4ef99f572156",
