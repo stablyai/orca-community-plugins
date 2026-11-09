@@ -1140,7 +1140,16 @@
       "ref": "v0.6.3",
       "plugins": [
         "satangbudsai.git-control"
-      ]
+      ],
+      "update": {
+        "ref": "v0.6.5",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size"
+          }
+        ]
+      }
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
@@ -1454,7 +1463,7 @@
     },
     "woodfishhhh/better-project-tree": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/woodfishhhh/better-project-tree/0.1.1",
       "plugins": [
         "woodfishhhh.better-project-tree"
       ]
