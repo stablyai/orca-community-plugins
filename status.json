@@ -153,7 +153,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.1.0",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.1.0",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -1303,6 +1303,25 @@
       "ref": "refs/tags/tienne/orca-plugins/0.2.0",
       "plugins": [
         "tienne.git-logs"
+      ],
+      "update": {
+        "ref": "v0.2.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
+    },
+    "tienne/orcatopia": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name"
+        }
       ]
     },
     "tourbut/claude-pin": {
