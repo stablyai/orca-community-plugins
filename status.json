@@ -158,7 +158,7 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v2.4.3",
+        "ref": "v2.4.4",
         "reasons": [
           {
             "category": "under-review",
@@ -747,19 +747,10 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "refs/tags/llima/craftar-orca/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "llima.craftar"
-      ],
-      "update": {
-        "ref": "v0.2.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "luckury/orca-backlog-md": {
       "state": "rejected",
@@ -1127,7 +1118,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.5",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.5",
       "plugins": [
         "satangbudsai.git-control"
       ]
@@ -1193,7 +1184,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.1.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]

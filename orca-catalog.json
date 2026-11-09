@@ -7784,8 +7784,8 @@
       "ownerId": 777984,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/llima/craftar-orca/0.2.1"
+        "url": "https://github.com/llima/craftar-orca.git",
+        "ref": "v0.2.2"
       },
       "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
       "categories": [
@@ -7794,6 +7794,91 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "324c1f17c2b560271ea6e756445bb880b6bfbcaf",
+          "contentHash": "2bce21f626393a3a3360c121c799239ea60436489be1b12b8d8c2d3d0c65ed5f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "craftar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "craftar"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: show or hide the craftar panel"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: run the probe (measures what the plugin needs from Orca)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "craftar"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/llima.craftar/8e057626e8a67fec.png",
+              "alt": "craftar, its features and two of its panels (the Forge diagram and the Send all plan) on a synthetic acme workspace",
+              "sha256": "8e057626e8a67fec871d5007bd21c6cdf50fdb0c1d9bf9d9b1135f5bd2fe3a50",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/llima.craftar/65763f4e719aafea.png",
+              "alt": "craftar icon",
+              "sha256": "65763f4e719aafeaa50ae90f10b2d6e8e5d2ed848153926e7f94cffed332e57c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/llima.craftar/6689ff780732bb49.png",
+                "alt": "The craftar panel: the Forge a workspace follows, a newer tag on it, the files coming down and going up",
+                "sha256": "6689ff780732bb4968a17c031c390c827fd257d9feea9c2d5593a025af4ff59a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/743a25e474af22a7.png",
+                "alt": "Send all: one plan from craftar's dry run of every file edited by hand",
+                "sha256": "743a25e474af22a78869ded2a1125468da0cc598be9e63e01ac5fc5de8563b96",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/15ba1666a3d84396.png",
+                "alt": "The PR in the Forge: identity, branch, title, the paths craftar wrote and the body",
+                "sha256": "15ba1666a3d8439614714dd3299dac673a3726582bf04a83f14485feabd1e6c3",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/llima/craftar-orca",
+          "updatedAt": "2026-11-09T07:48:58-03:00"
+        },
         {
           "version": "0.2.1",
           "commit": "a62c919bc26e99085c974d8d20da66d2353f534b",
@@ -12055,8 +12140,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.8.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.5"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees, plus GitHub and GitLab merge requests (approve and merge) and every branch's pipelines, with your existing Git login. In a full tab and the right sidebar",
       "categories": [
@@ -13452,8 +13537,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.1.0"
       },
       "description": "Runs a ConPort epic with its spec and plan through Orca agents: pick an agent per role, start the run, follow the board, answer the stop-list questions.",
       "categories": [
