@@ -555,7 +555,7 @@
     },
     "hilbana/orca-plugin": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "hilbana.hilbana"
       ]
@@ -569,12 +569,9 @@
     },
     "ibazylchuk/orca-plugin-openspec-board": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "v0.5.3",
       "plugins": [
         "ibazylchuk.openspec-board"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "iml885203/orca-orbit": {
@@ -806,19 +803,10 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "refs/tags/llima/craftar-orca/0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "llima.craftar"
-      ],
-      "update": {
-        "ref": "v0.3.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "luckury/orca-backlog-md": {
       "state": "rejected",
@@ -879,7 +867,16 @@
       "ref": "refs/tags/michelvelzr/ork-dbclient/0.1.0",
       "plugins": [
         "michelvelzr.ork-dbclient"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "miinwan/orca-vietnamese": {
       "state": "rejected",
@@ -1200,7 +1197,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "v1.1.4",
+      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.1.4",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ],

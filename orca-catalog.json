@@ -6275,13 +6275,88 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/hilbana/orca-plugin.git",
-        "ref": "v0.6.0"
+        "ref": "v0.6.1"
       },
       "description": "Your Hilbana issues inside Orca: list, filters, search, detail, state changes, comments, a status bar counter and a button that runs the Hilbana command in your agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "3a12b31e45a1110c6a081ea04ac29e8347de8250",
+          "contentHash": "375c32e41c9039aed4479b3b14cc5ee2dc1b8e8b4a4067830349a853b31b723e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.250",
+          "name": "Hilbana",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Hilbana"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Hilbana —"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "settings:own",
+            "secrets:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hilbana.hilbana/b5b472e8d698d90e.png",
+              "alt": "Hilbana for Orca: the issue list with an issue open beside it, in the dark theme.",
+              "sha256": "b5b472e8d698d90e4f1761be7c4614938d387aaaa9f7d657cf96934d7aa8febd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/hilbana.hilbana/5ae98bc1f432f5e0.png",
+              "alt": "Hilbana icon",
+              "sha256": "5ae98bc1f432f5e044e91a1125ae85c7788d086196b6092200f5abd45d537655",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/hilbana.hilbana/be5b1334c6557c13.png",
+                "alt": "The Hilbana issue list inside Orca, with workspace, project and state filters, search, and coloured state badges.",
+                "sha256": "be5b1334c6557c13e780d62ef0eaaebe06d498178927aeb404f43c4211e07488",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/hilbana.hilbana/0da9646f4bb07f4c.png",
+                "alt": "An issue open in the panel, with its state, description and sub-issues.",
+                "sha256": "0da9646f4bb07f4c9356535bb760d41b6a4c46254a97a66c5a1eac8d14dd73c2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/hilbana.hilbana/ee13e834725d1589.png",
+                "alt": "The Run in agent button, highlighted, on an open issue.",
+                "sha256": "ee13e834725d158903827eb7dc76ee9c4eee859e95f7ad2e4c4671002c65af51",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/hilbana.hilbana/3fb29771ab258840.png",
+                "alt": "The issue list in the dark and the light theme, side by side.",
+                "sha256": "3fb29771ab2588403577e498e910f7cfabccb1552d48df3768c18eea77da096c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/hilbana/orca-plugin",
+          "updatedAt": "2026-11-09T20:54:29+01:00"
+        },
         {
           "version": "0.6.0",
           "commit": "d0e0f05a245ca8148c5b0524050da949e18ee27f",
@@ -6399,13 +6474,61 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/IBazylchuk/orca-plugin-openspec-board.git",
-        "ref": "v0.4.0"
+        "ref": "v0.5.3"
       },
       "description": "Kanban board for OpenSpec spec-driven development: every change by stage with task progress, next step, ticket and GitHub pull requests. Apply and Finish send /opsx:apply, a finish check or your own command to the Claude Code or Codex agent of the change's own workspace, or start that workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.3",
+          "commit": "d1f8bb40372870d2a6c658d80fdac438256d784a",
+          "contentHash": "92e143d56212abc1b8b68d167c81f952ffe259b2b319380cf56a099261f95610",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenSpec Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec Board"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ibazylchuk.openspec-board/fce975932e50d9af.png",
+              "alt": "OpenSpec Board for Orca: the board panel with changes grouped by stage (demo data)",
+              "sha256": "fce975932e50d9afdd060617fb5d7e9823453ae0868b960d5f2981f765822c32",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/ibazylchuk.openspec-board/20dd99adb9b897e0.png",
+                "alt": "The board in dark theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "20dd99adb9b897e031fab441b8ff2b626c665100f6a4d109e7eee162a3e23200",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/ibazylchuk.openspec-board/65a7d7f76aa6442d.png",
+                "alt": "The board in light theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "65a7d7f76aa6442de396e8a2823d72cb5f2ae9b2054071c853d16905e4e87d7e",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
+          "updatedAt": "2026-11-09T21:05:34+01:00"
+        },
         {
           "version": "0.4.0",
           "commit": "0bda5e8a4e69fd78a10b90dda7858498676cc589",
@@ -8688,8 +8811,8 @@
       "ownerId": 777984,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/llima/craftar-orca/0.3.0"
+        "url": "https://github.com/llima/craftar-orca.git",
+        "ref": "v0.3.1"
       },
       "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
       "categories": [
@@ -8698,6 +8821,91 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "cd628b57c2a7e47ed287651de5aa13358731c060",
+          "contentHash": "c4b091e62c28f295b3e9b400c064e36c7fd92713b457a0b3376e94092d90d5eb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "craftar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "craftar"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: show or hide the craftar panel"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: run the probe (measures what the plugin needs from Orca)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "craftar"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/llima.craftar/8e057626e8a67fec.png",
+              "alt": "craftar, its features and two of its panels (the Forge diagram and the Send all plan) on a synthetic acme workspace",
+              "sha256": "8e057626e8a67fec871d5007bd21c6cdf50fdb0c1d9bf9d9b1135f5bd2fe3a50",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/llima.craftar/65763f4e719aafea.png",
+              "alt": "craftar icon",
+              "sha256": "65763f4e719aafeaa50ae90f10b2d6e8e5d2ed848153926e7f94cffed332e57c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/llima.craftar/6689ff780732bb49.png",
+                "alt": "The craftar panel: the Forge a workspace follows, a newer tag on it, the files coming down and going up",
+                "sha256": "6689ff780732bb4968a17c031c390c827fd257d9feea9c2d5593a025af4ff59a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/743a25e474af22a7.png",
+                "alt": "Send all: one plan from craftar's dry run of every file edited by hand",
+                "sha256": "743a25e474af22a78869ded2a1125468da0cc598be9e63e01ac5fc5de8563b96",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/15ba1666a3d84396.png",
+                "alt": "The PR in the Forge: identity, branch, title, the paths craftar wrote and the body",
+                "sha256": "15ba1666a3d8439614714dd3299dac673a3726582bf04a83f14485feabd1e6c3",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "updatedAt": "2026-11-09T16:10:45-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/llima/craftar-orca"
+        },
         {
           "version": "0.3.0",
           "commit": "6b00de709d735fd45c7dd55cbf3bf06b38d28a99",
@@ -14166,8 +14374,8 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
-        "ref": "v1.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.1.4"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],
