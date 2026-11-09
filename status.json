@@ -153,7 +153,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.1",
+      "ref": "v2.0.2",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -747,6 +747,16 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "llima/craftar-orca": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "luckury/orca-backlog-md": {
       "state": "rejected",
       "ref": null,
@@ -1096,9 +1106,19 @@
     },
     "said-zenhr/orca-material-ocean-theme": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/said-zenhr/orca-material-ocean-theme/1.1.1",
       "plugins": [
         "said-zenhr.material-ocean-theme"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "sasagar/orca-ktrz-monokai": {
+      "state": "listed",
+      "ref": "v1.1.0",
+      "plugins": [
+        "sasagar.ktrz-monokai"
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"

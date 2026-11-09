@@ -1242,8 +1242,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.1"
+        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
+        "ref": "v2.0.2"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -1252,6 +1252,107 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "2.0.2",
+          "commit": "6e8c7d8d91fa19f333159fab80911fad93517c6a",
+          "contentHash": "cd2c7bf33d4434df64988e54f6f2a2249ce7e549d3701135fd23417f0594a86b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/3b3c13f12de66ca5.jpg",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "3b3c13f12de66ca519e18ea19c411555a2dce783a63a9b397984e9be2d6c1799",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/b38060d7b509275a.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "b38060d7b509275aa1087cc1e1006acfa518f26a488cf9a069557897f4c4e444",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/a8aeeb52792b5e29.jpg",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "a8aeeb52792b5e29b18a1e010be32aeffe745a3b3e7f9d6768e1a3eb030a0a92",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/15b8efc874efd08d.jpg",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "15b8efc874efd08d576a55ecc2d8ecfe270afae3572b02e502eda4430121847b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/74698a963aaeaceb.jpg",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "74698a963aaeaceb7e5a1dff13bcc7368884fd65c4361d51c66ef24a92eb4759",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-09T06:52:36+07:00"
+        },
         {
           "version": "2.0.1",
           "commit": "081e0695fd74e5c17b31b91b4b7981357c496068",
@@ -1651,61 +1752,6 @@
           "license": "MIT",
           "repository": "https://github.com/cattfan/orca-enhance-prompt",
           "updatedAt": "2026-11-08T12:58:37+07:00"
-        },
-        {
-          "version": "1.2.0",
-          "commit": "c2327f02bcd5a259552b0396496c3214ff509afe",
-          "contentHash": "e5b85ce966456c4802a5a553cc43d2565e26d4a26abcaf0c4c12f4d100fffa0c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Enhance Prompt",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Enhance Prompt"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Cycle auto-enhance mode (off / rules / AI)"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Turn auto-enhance off"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.prompt.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Enhance: off"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "terminal:read"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/cattfan.enhance-prompt/d020e95ddcbd21f6.png",
-              "alt": "Enhance Prompt icon",
-              "sha256": "d020e95ddcbd21f69f348ef10dbde99d21bac805a6abf5ececf12d8bdcaf182c",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/cattfan/orca-enhance-prompt",
-          "updatedAt": "2026-11-08T12:31:22+07:00"
         }
       ]
     },
@@ -10484,8 +10530,8 @@
       "ownerId": 225670052,
       "source": {
         "kind": "git",
-        "url": "https://github.com/said-zenhr/orca-material-ocean-theme.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/said-zenhr/orca-material-ocean-theme/1.1.1"
       },
       "description": "Material Theme Ocean for the Orca app, code editor and terminal.",
       "categories": [
@@ -10538,6 +10584,51 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/said-zenhr/orca-material-ocean-theme",
           "updatedAt": "2026-11-08T22:12:20+03:00"
+        }
+      ]
+    },
+    {
+      "id": "sasagar.ktrz-monokai",
+      "ownerId": 22128441,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/sasagar/orca-ktrz-monokai.git",
+        "ref": "v1.1.0"
+      },
+      "description": "A port of the KTRZ Monokai color scheme to Orca: flat Monokai themes (dark and light) with matching terminal themes and syntax colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "b8fcdc4fca90f775b46ed5b9e2713301076123a0",
+          "contentHash": "182d3d2e475a5c0d69e8895db246983861eb819008ee5b15a2c95f52668c1859",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "KTRZ Monokai for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "KTRZ Monokai"
+            },
+            {
+              "kind": "themes",
+              "name": "KTRZ Monokai Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "KTRZ Monokai"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "KTRZ Monokai Light"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/sasagar/orca-ktrz-monokai",
+          "updatedAt": "2026-11-09T09:12:55+09:00"
         }
       ]
     },
