@@ -1300,19 +1300,10 @@
     },
     "tienne/orca-plugins": {
       "state": "listed",
-      "ref": "refs/tags/tienne/orca-plugins/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "tienne.git-logs"
-      ],
-      "update": {
-        "ref": "v0.2.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "tienne/orcatopia": {
       "state": "rejected",
