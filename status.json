@@ -331,6 +331,16 @@
         "eliasjnior.worktree-notes"
       ]
     },
+    "ellebam/orca-context-meter": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
       "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.6",
@@ -730,14 +740,14 @@
     },
     "lazyjerry/orca-forrrk": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/lazyjerry/orca-forrrk/0.1.0",
       "plugins": [
         "lazyjerry.forrrk"
       ]
     },
     "lazyjerry/todo-for-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/lazyjerry/todo-for-orca/0.2.0",
       "plugins": [
         "lazyjerry.todo-list"
       ]
@@ -945,14 +955,14 @@
     },
     "oscarbotteri/orca-db-studio": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/oscarbotteri/orca-db-studio/0.2.0",
       "plugins": [
         "oscarbotteri.db-studio"
       ]
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -1336,11 +1346,20 @@
       "ref": "refs/tags/tourbut/orca-helm/0.5.0",
       "plugins": [
         "tourbut.grokbot-notify"
-      ]
+      ],
+      "update": {
+        "ref": "v0.6.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "turingfx/omp-stats": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/turingfx/omp-stats/0.1.0",
       "plugins": [
         "turingfx.omp-usage"
       ]
@@ -1422,6 +1441,16 @@
       "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.12",
       "plugins": [
         "victorstochero.agent-pool"
+      ]
+    },
+    "vidosen/orca-unity-tools": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "vilmarioia/orca-pt-br": {
