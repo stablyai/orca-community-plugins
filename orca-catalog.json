@@ -5,6 +5,89 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "1am.agent-deck",
+      "ownerId": 959323,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/1am/orca-agent-deck.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Shows Orca agent status on a Stream Deck and focuses panes from it.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "208668047b563821484dc57309e6bbd89d88339c",
+          "contentHash": "732c10824b585c9c5826f7e4d63a401c6d4b01c3228881094a958258c1a9031c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Orca Agent Deck",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Orca Agent Deck: Map pane to key"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca Agent Deck: Unmap pane"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca Agent Deck: Show status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/1am.agent-deck/b07fbe48c19bafb5.png",
+              "alt": "A Stream Deck showing Orca agent panes as colored keys: working, done, idle and empty",
+              "sha256": "b07fbe48c19bafb54ee1a71075d662e54158f015e5c17501610c96a3f630e0cd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/1am.agent-deck/e9db045d1cf33093.png",
+              "alt": "Orca Agent Deck icon",
+              "sha256": "e9db045d1cf330937b3774c86cc6af156744f7580dfe05305e8f261f77c4e416",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/1am.agent-deck/1e88ece0ccdbc3af.png",
+                "alt": "A 5x3 Stream Deck grid of Orca pane keys with status icons",
+                "sha256": "1e88ece0ccdbc3afe5f9fb72db863ec73165c5b178fdcd86ebf28e801c4ed6e5",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/1am/orca-agent-deck",
+          "updatedAt": "2026-11-08T18:33:12+01:00"
+        }
+      ]
+    },
+    {
       "id": "aamonnaig4.activity-monitor",
       "ownerId": 67522529,
       "source": {
@@ -1242,8 +1325,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.1.0"
+        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
+        "ref": "v2.1.1"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -1252,6 +1335,107 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "2.1.1",
+          "commit": "9e256343c914e325e7ab6e6511a6869271644e4a",
+          "contentHash": "98a32cda5d5f3c1321cac4f37f1b6671a25673e5d509777dea6a27aac0a6f9fa",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/3b3c13f12de66ca5.jpg",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "3b3c13f12de66ca519e18ea19c411555a2dce783a63a9b397984e9be2d6c1799",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/b38060d7b509275a.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "b38060d7b509275aa1087cc1e1006acfa518f26a488cf9a069557897f4c4e444",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/a8aeeb52792b5e29.jpg",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "a8aeeb52792b5e29b18a1e010be32aeffe745a3b3e7f9d6768e1a3eb030a0a92",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/15b8efc874efd08d.jpg",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "15b8efc874efd08d576a55ecc2d8ecfe270afae3572b02e502eda4430121847b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/74698a963aaeaceb.jpg",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "74698a963aaeaceb7e5a1dff13bcc7368884fd65c4361d51c66ef24a92eb4759",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-09T10:19:27+07:00"
+        },
         {
           "version": "2.1.0",
           "commit": "0f9ae7895afaa59376f535f990b396df9f689c89",
@@ -1655,107 +1839,6 @@
           "license": "MIT",
           "repository": "https://github.com/cattfan/orca-enhance-prompt",
           "updatedAt": "2026-11-08T16:50:58+07:00"
-        },
-        {
-          "version": "1.9.0",
-          "commit": "4db0af61f21b3431d440b885fc1d57351f44925e",
-          "contentHash": "8dd4c636cbaa76775e3854baf51c0aadfc424deb5b940ed34e443db892d9ec23",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Enhance Prompt",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Enhance Prompt"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance off"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance with rules"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance with AI"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Show / hide status bar item"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.prompt.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Enhance: off"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "terminal:read"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/cattfan.enhance-prompt/1629eb1fcc044326.jpg",
-              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
-              "sha256": "1629eb1fcc044326e0509fe4bad9afcdb415f28bae9efde13490dbec224960e5",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/cattfan.enhance-prompt/b38060d7b509275a.png",
-              "alt": "Enhance Prompt icon",
-              "sha256": "b38060d7b509275aa1087cc1e1006acfa518f26a488cf9a069557897f4c4e444",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/cattfan.enhance-prompt/f470093ed155c9e1.jpg",
-                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
-                "sha256": "f470093ed155c9e174d19637a4e11d5a1127e9aa359b7bbe4d52f927c0c4984f",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/cattfan.enhance-prompt/2802a29bae105240.jpg",
-                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
-                "sha256": "2802a29bae105240b0fec83ce47281e378955cde1aadbfad57da4c62caeee508",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/cattfan.enhance-prompt/a388879e1684ee90.jpg",
-                "alt": "The panel in Vietnamese and the history tab in Chinese",
-                "sha256": "a388879e1684ee901ee001996ae88607c65a69be938f75b244320800d5d8de86",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/cattfan/orca-enhance-prompt",
-          "updatedAt": "2026-11-08T16:10:03+07:00"
         }
       ]
     },
@@ -5189,6 +5272,71 @@
           "license": "MIT",
           "repository": "https://github.com/gzimbron/vuejs-lang-orca",
           "updatedAt": "2026-11-02T19:52:36-06:00"
+        }
+      ]
+    },
+    {
+      "id": "hadisd.markdown-colorize",
+      "ownerId": 125417294,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Hadisd/markdown-colorize.git",
+        "ref": "v1.1.2"
+      },
+      "description": "A colorful, editable view for Markdown and MDX files: colored headings, code, math, diagrams, badges and an outline. Click a block to edit it.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "98600d90e80221c3e87ccf08195c5a35a2945d55",
+          "contentHash": "a765cdb5d9a607599898b599df1be987a42cae1a6f7661c85157c6bd1cde0696",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Markdown Colorize",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Colorized",
+              "detail": ".md, .markdown"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Colorized",
+              "detail": ".mdx"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "fileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.markdown-colorize/2a161fe2e9fdce5c.png",
+              "alt": "Markdown Colorize preview: a README with a pink title, colored badges, a tagline and highlighted code, with Source and Colorized tabs.",
+              "sha256": "2a161fe2e9fdce5c8bc016d7ca2681c4f887c4f78f1310b04abdbef3701d4ffd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/hadisd.markdown-colorize/767cd4f620e1b56a.png",
+              "alt": "Markdown Colorize icon",
+              "sha256": "767cd4f620e1b56af06fa5433d5dd24f4929251a4a0c2c4067ec45bbccc26bf6",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/markdown-colorize",
+          "updatedAt": "2026-11-09T12:16:10+09:00"
         }
       ]
     },
@@ -12911,6 +13059,72 @@
           "license": "MIT",
           "repository": "https://github.com/tienne/orca-plugins",
           "updatedAt": "2026-11-05T09:48:09+09:00"
+        }
+      ]
+    },
+    {
+      "id": "tienne.landmark-island",
+      "ownerId": 9584768,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tienne/orcatopia.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Turn waiting time into a little island getaway. Earn tickets from new worktrees, discover world landmarks, and make the island your own.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "d5adbf32ea120e4ed9228f963ef285236f45801c",
+          "contentHash": "a3cf496c7a82d3a20c81fb1402a9d936e341c99d98df19b9f5e5fddb2c114007",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Orcatopia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orcatopia"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tienne.landmark-island/feb99cba9d3291f7.png",
+              "alt": "Orcatopia — A little escape between tasks, with a DEMO garden screen",
+              "sha256": "feb99cba9d3291f7b59b36e63ad88ed7ba5c596cc3e37a301bba3a876f2438bf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tienne.landmark-island/e659ad5f625e5f3a.png",
+              "alt": "Orcatopia icon",
+              "sha256": "e659ad5f625e5f3a4890d57758f468e44eed1ec689ab8810c0544e6d52ee1714",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tienne.landmark-island/13ddbeb02536865c.png",
+                "alt": "English DEMO of an expanded island with landmark gardens, paths, ponds and canvas menus",
+                "sha256": "13ddbeb02536865cdd11015ba2e95de1adf8f42de807d742b137d068b0888915",
+                "width": 1280,
+                "height": 1423
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orcatopia",
+          "updatedAt": "2026-11-09T10:43:01+09:00"
         }
       ]
     },

@@ -1,4 +1,10 @@
 {
+  "1am.agent-deck@0.1.2": {
+    "commit": "208668047b563821484dc57309e6bbd89d88339c",
+    "contentHash": "732c10824b585c9c5826f7e4d63a401c6d4b01c3228881094a958258c1a9031c",
+    "repoId": 1449267228,
+    "firstSeen": "2026-11-09T03:27:05.381Z"
+  },
   "aamonnaig4.activity-monitor@1.0.0": {
     "commit": "0aa7174d882d23a29c0b45b7f9cb1bcacefb94f9",
     "contentHash": "376839067d6b90578025765378b5ad6ce1c93493452836a0fd37737af4d81821",
@@ -178,6 +184,12 @@
     "contentHash": "55405801a2c625aa930318d16ba48267cf5f73d73110f956b5bb49159c21d544",
     "repoId": 1450002101,
     "firstSeen": "2026-11-09T01:41:58.825Z"
+  },
+  "cattfan.enhance-prompt@2.1.1": {
+    "commit": "9e256343c914e325e7ab6e6511a6869271644e4a",
+    "contentHash": "98a32cda5d5f3c1321cac4f37f1b6671a25673e5d509777dea6a27aac0a6f9fa",
+    "repoId": 1450002101,
+    "firstSeen": "2026-11-09T03:27:05.381Z"
   },
   "cd3vane.jetbrains-themes@1.0.0": {
     "commit": "dbc699d0af71121dbe6a0b0ad7713204897f16e7",
@@ -478,6 +490,12 @@
     "contentHash": "71688099e724e14eafc70a0e609a7c13d24ecaa45feb4209af14c15424ad1904",
     "repoId": 1443689564,
     "firstSeen": "2026-11-03T02:20:17.984Z"
+  },
+  "hadisd.markdown-colorize@1.1.2": {
+    "commit": "98600d90e80221c3e87ccf08195c5a35a2945d55",
+    "contentHash": "a765cdb5d9a607599898b599df1be987a42cae1a6f7661c85157c6bd1cde0696",
+    "repoId": 1450798059,
+    "firstSeen": "2026-11-09T03:27:05.381Z"
   },
   "hadisd.moonlit-pastel@1.0.0": {
     "commit": "bd0fec5d66e1677eb128b6de7c165a7190545808",
@@ -1234,6 +1252,12 @@
     "contentHash": "8aeae04cf9eb320442470d69e4e220636c88bbcc8d473188c76097cef391ba69",
     "repoId": 1446153782,
     "firstSeen": "2026-11-09T02:38:55.419Z"
+  },
+  "tienne.landmark-island@0.1.0": {
+    "commit": "d5adbf32ea120e4ed9228f963ef285236f45801c",
+    "contentHash": "a3cf496c7a82d3a20c81fb1402a9d936e341c99d98df19b9f5e5fddb2c114007",
+    "repoId": 1450826060,
+    "firstSeen": "2026-11-09T03:27:05.381Z"
   },
   "tourbut.claude-pin@0.3.1": {
     "commit": "519a4742c614341f0c6c04b5fb9b49079b4f25b7",
