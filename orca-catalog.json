@@ -5276,71 +5276,6 @@
       ]
     },
     {
-      "id": "hadisd.markdown-colorize",
-      "ownerId": 125417294,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/hadisd/markdown-colorize/1.1.2"
-      },
-      "description": "A colorful, editable view for Markdown and MDX files: colored headings, code, math, diagrams, badges and an outline. Click a block to edit it.",
-      "categories": [],
-      "releases": [
-        {
-          "version": "1.1.2",
-          "commit": "98600d90e80221c3e87ccf08195c5a35a2945d55",
-          "contentHash": "a765cdb5d9a607599898b599df1be987a42cae1a6f7661c85157c6bd1cde0696",
-          "execution": "sandboxed-ui",
-          "minimumOrca": "1.4.248",
-          "name": "Markdown Colorize",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "Colorized",
-              "detail": ".md, .markdown"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Colorized",
-              "detail": ".mdx"
-            }
-          ],
-          "capabilities": [
-            "settings:own"
-          ],
-          "fileTypes": [
-            "md",
-            "markdown",
-            "mdx"
-          ],
-          "editorFileTypes": [
-            "md",
-            "markdown",
-            "mdx"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/hadisd.markdown-colorize/2a161fe2e9fdce5c.png",
-              "alt": "Markdown Colorize preview: a README with a pink title, colored badges, a tagline and highlighted code, with Source and Colorized tabs.",
-              "sha256": "2a161fe2e9fdce5c8bc016d7ca2681c4f887c4f78f1310b04abdbef3701d4ffd",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/hadisd.markdown-colorize/767cd4f620e1b56a.png",
-              "alt": "Markdown Colorize icon",
-              "sha256": "767cd4f620e1b56af06fa5433d5dd24f4929251a4a0c2c4067ec45bbccc26bf6",
-              "width": 512,
-              "height": 512
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Hadisd/markdown-colorize",
-          "updatedAt": "2026-11-09T12:16:10+09:00"
-        }
-      ]
-    },
-    {
       "id": "hadisd.quiet-pastel",
       "ownerId": 125417294,
       "source": {
@@ -6246,6 +6181,65 @@
       ]
     },
     {
+      "id": "jiangwanyutao.claude-theme",
+      "ownerId": 94118879,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jiangwanyutao/orca-claude-theme.git",
+        "ref": "v1.2.0"
+      },
+      "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, matching terminal themes, and minimal icons.",
+      "categories": [
+        "themes",
+        "terminal-themes",
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "cd8fa8de07c47c358b5ea74b3cf8446cb7b3499a",
+          "contentHash": "01b658e0e57245bc850c1500ff0836f59cef31370229c9c1541bd55d95e9986e",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Claude Theme for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Icons"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/jiangwanyutao.claude-theme/23d364670288ba27.png",
+              "alt": "Claude Theme for Orca icon",
+              "sha256": "23d364670288ba270d703a97772bb8e1b14749fda6121f6b541af86ca6d5cd59",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
+          "updatedAt": "2026-11-09T11:58:15+08:00"
+        }
+      ]
+    },
+    {
       "id": "jig-harness.jig",
       "ownerId": 344299046,
       "source": {
@@ -7092,6 +7086,55 @@
           "license": "MIT",
           "repository": "https://github.com/Kyino-Pan/agents-director",
           "updatedAt": "2026-11-06T18:59:40+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lazyjerry.todo-list",
+      "ownerId": 22562898,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lazyjerry/todo-for-orca.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A todo list in the sidebar with timed desktop reminders (repeat, stop conditions, duration) and the current / next todo in the status bar. 側欄 todo 清單：定時桌面通知（重複、停止條件、持續時間），狀態列顯示進行中與下一個 todo。",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "2f95f795cfa3483005be87213c435286af7cd12a",
+          "contentHash": "fd58f235434ecb30885a8ce270f525c3030a0489aab6e47da73d3bad10bf2909",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Todo List",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Todo List"
+            },
+            {
+              "kind": "commands",
+              "name": "Todo List: Show Current and Next Todo"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "now"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "next"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "Apache-2.0",
+          "repository": "https://github.com/lazyjerry/todo-for-orca",
+          "updatedAt": "2026-11-09T12:08:06+08:00"
         }
       ]
     },
@@ -14020,6 +14063,44 @@
           "license": "MIT",
           "repository": "https://github.com/Wilkywayre/orcarchy",
           "updatedAt": "2026-11-06T22:18:33-05:00"
+        }
+      ]
+    },
+    {
+      "id": "woodfishhhh.better-project-tree",
+      "ownerId": 176751902,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/woodfishhhh/better-project-tree.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Your Orca projects and workspaces as a VS Code-style tree, with indent guides that make every level easy to follow.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c49207bb17f0c9fc3f4b8aa825dcc9947f3ccaf2",
+          "contentHash": "ba7e6d3c5fcdec541c4d315e5c13448d4f886a3b8b108ee1737c949741402995",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Better Project Tree",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Better Project Tree"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/woodfishhhh/better-project-tree",
+          "updatedAt": "2026-11-09T12:13:37+08:00"
         }
       ]
     },

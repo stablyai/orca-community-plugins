@@ -523,13 +523,6 @@
         }
       ]
     },
-    "hadisd/markdown-colorize": {
-      "state": "listed",
-      "ref": "refs/tags/hadisd/markdown-colorize/1.1.2",
-      "plugins": [
-        "hadisd.markdown-colorize"
-      ]
-    },
     "hadisd/quiet-pastel": {
       "state": "listed",
       "ref": "refs/tags/hadisd/quiet-pastel/1.1.2",
@@ -629,13 +622,13 @@
       ]
     },
     "jiangwanyutao/orca-claude-theme": {
-      "state": "rejected",
-      "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "reserved-name",
-          "detail": "id \"orca-claude-theme\" starts with \"orca-\", which is reserved for official plugins"
-        }
+      "state": "listed",
+      "ref": "v1.2.0",
+      "plugins": [
+        "jiangwanyutao.claude-theme"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "jig-harness/orca-plugin": {
@@ -742,6 +735,13 @@
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
+      ]
+    },
+    "lazyjerry/todo-for-orca": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "lazyjerry.todo-list"
       ]
     },
     "lindoo67/drawio-plugin": {
@@ -1450,6 +1450,13 @@
       "ref": "refs/tags/wilkywayre/orcarchy/0.3.0",
       "plugins": [
         "wilkywayre.orcarchy"
+      ]
+    },
+    "woodfishhhh/better-project-tree": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "woodfishhhh.better-project-tree"
       ]
     },
     "wurenrumian/canvas-view": {
