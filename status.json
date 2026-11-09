@@ -628,6 +628,16 @@
         "gallery-panel-demo: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "jiangwanyutao/orca-claude-theme": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "id \"orca-claude-theme\" starts with \"orca-\", which is reserved for official plugins"
+        }
+      ]
+    },
     "jig-harness/orca-plugin": {
       "state": "listed",
       "ref": "refs/tags/jig-harness/orca-plugin/0.1.0",
