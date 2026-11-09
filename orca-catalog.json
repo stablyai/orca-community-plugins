@@ -3167,8 +3167,8 @@
       "ownerId": 41058561,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dohaidang/orca-theme-plugin.git",
-        "ref": "v1.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.2"
       },
       "description": "Fifteen pixel-art wallpaper themes drawn in text characters, each with dark or light sidebar variants, terminal palettes and file icons.",
       "categories": [
@@ -5356,8 +5356,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gongxliang/claude-paper/0.1.1"
+        "url": "https://github.com/GongXLiang/Claude-paper.git",
+        "ref": "v0.2.0"
       },
       "description": "Unofficial Claude-inspired warm light and dark app, chat, editor and terminal colors. Content only; preserves native layouts and fonts.",
       "categories": [
@@ -5365,6 +5365,35 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "3ab7f6c2a6ef89978e4f74c2683bc78e05698461",
+          "contentHash": "aad60ee4d1e5b205b61c7ce403796eeb0c471cc7a109ed30ad62bd9eb2b44ece",
+          "execution": "data",
+          "minimumOrca": "1.4.253",
+          "name": "Claude Paper",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-09T19:18:44+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "bff83e4a6ae72804a000894fc25c2eca075efe11",
