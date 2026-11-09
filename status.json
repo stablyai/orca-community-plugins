@@ -197,6 +197,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "chandraliuswanto/orca-subagent-graph": {
+      "state": "listed",
+      "ref": "v0.4.1",
+      "plugins": [
+        "chandraliuswanto.subagent-graph"
+      ]
+    },
     "chrisluo5311/orca-snippet": {
       "state": "listed",
       "ref": "refs/tags/chrisluo5311/orca-snippet/0.1.2",
@@ -332,13 +339,10 @@
       ]
     },
     "ellebam/orca-context-meter": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "ellebam.context-meter"
       ]
     },
     "emamalet/orca-git-log-panel": {
@@ -962,7 +966,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -1148,7 +1152,16 @@
       "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.6",
       "plugins": [
         "satangbudsai.git-control"
-      ]
+      ],
+      "update": {
+        "ref": "v0.8.7",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size"
+          }
+        ]
+      }
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
@@ -1343,19 +1356,10 @@
     },
     "tourbut/orca-helm": {
       "state": "listed",
-      "ref": "refs/tags/tourbut/orca-helm/0.5.0",
+      "ref": "v0.6.0",
       "plugins": [
         "tourbut.grokbot-notify"
-      ],
-      "update": {
-        "ref": "v0.6.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "turingfx/omp-stats": {
       "state": "listed",
@@ -1444,13 +1448,10 @@
       ]
     },
     "vidosen/orca-unity-tools": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "vidosen.unity-tools"
       ]
     },
     "vilmarioia/orca-pt-br": {

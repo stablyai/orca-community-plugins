@@ -2307,6 +2307,51 @@
       ]
     },
     {
+      "id": "chandraliuswanto.subagent-graph",
+      "ownerId": 54279573,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ChandraLiuswanto/orca-subagent-graph.git",
+        "ref": "v0.4.1"
+      },
+      "description": "Counts your Orca orchestration subagents in the status bar and draws them as a nested graph, for this machine and paired Orca servers.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "c7a535b4b73abe2aa93b06b2ee59fce8eb44aed6",
+          "contentHash": "dbe0e8477ad5347b23fe6c365cba720619eeb39f39977e00a86161e7a1e7de58",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Subagent Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Subagents"
+            },
+            {
+              "kind": "commands",
+              "name": "Subagent Graph: Toggle right sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "0 subagents"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ChandraLiuswanto/orca-subagent-graph",
+          "updatedAt": "2026-11-09T15:15:57+07:00"
+        }
+      ]
+    },
+    {
       "id": "chrisluo5311.snippets",
       "ownerId": 77089596,
       "source": {
@@ -3745,6 +3790,71 @@
           "license": "MIT",
           "repository": "https://github.com/eliasjnior/orca-worktree-notes",
           "updatedAt": "2026-11-04T12:17:35-03:00"
+        }
+      ]
+    },
+    {
+      "id": "ellebam.context-meter",
+      "ownerId": 66612367,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Ellebam/orca-context-meter.git",
+        "ref": "v0.1.0"
+      },
+      "description": "How full each coding agent's context is: every live Claude Code and Codex agent in Orca's sidebar, on this machine and your paired Orcas, fullest first, with its compactions. No setup.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "4fba0420015b161d593893430c3505601872a3bf",
+          "contentHash": "496df8479342299d07eb36f7b61a48f554a0df95ab4281fbd15e165ac9445af0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Context Meter",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Context Meter"
+            },
+            {
+              "kind": "commands",
+              "name": "Context Meter: Show or hide the right sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fullest agent"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Second fullest agent"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Third fullest agent"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ellebam.context-meter/8cd178c916d1b953.png",
+              "alt": "The Context Meter panel: six agents, fullest context first, with each tool's logo, its context share and its compactions.",
+              "sha256": "8cd178c916d1b953bad18b9e0b240b9b91c7d574e271a5a2ca82cf93cc2ac8a1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ellebam.context-meter/e7b7c001027808b8.png",
+              "alt": "Context Meter icon",
+              "sha256": "e7b7c001027808b8dd1385ea714c92013bb61c6d388db3db421d76286c80c9dd",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ellebam/orca-context-meter",
+          "updatedAt": "2026-11-09T14:14:47+01:00"
         }
       ]
     },
@@ -11029,13 +11139,69 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.2"
+        "ref": "v0.2.3"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "dc670069b755184e281035eda01d5be699ad0780",
+          "contentHash": "a636f17a2d06a67acbe152957c6c68d3264e80dfd4fcd717d1238ef5f6d24e99",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Orca Tycoon",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca Tycoon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/palulabs.office-tycoon/65f2486153931c20.png",
+              "alt": "The commons of a pixel office: agents on the sofa and at the coffee corner, a foosball table, and Palú the dog eating from his bowl",
+              "sha256": "65f2486153931c2065716893a4bfb2c98d68bc27857675d242a2c936485a9071",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
+              "alt": "Orca Tycoon icon",
+              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/palulabs.office-tycoon/5f6e6b3af81d097d.png",
+                "alt": "The whole office: five teams at their desks around a commons band with a lounge, kitchen, foosball table and calling booths",
+                "sha256": "5f6e6b3af81d097deb9cd8837df5029cada32f1e23a445e46c08d21df63689c2",
+                "width": 2500,
+                "height": 1562
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/f9434ac0fd48efc5.png",
+                "alt": "A team at work with a speech bubble from an agent that just finished, and Palú asleep in his bed",
+                "sha256": "f9434ac0fd48efc5bdaeda18c75118c3645088b6966567140a7ebe55911da475",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/ad68a30cc6fab295.png",
+                "alt": "Desks showing agent states: a red flashing screen for blocked, an amber question mark for waiting, and specialists on stools",
+                "sha256": "ad68a30cc6fab2950455296c1a25dfec58e3b689d92ca17214108225fe0b4eac",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/palulabs/orca-tycoon",
+          "updatedAt": "2026-11-09T14:44:17+01:00"
+        },
         {
           "version": "0.2.2",
           "commit": "215a92bf42fd3912fa5250737c718042809a4ad1",
@@ -15283,8 +15449,8 @@
       "ownerId": 42790398,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tourbut/orca-helm/0.5.0"
+        "url": "https://github.com/tourbut/orca-helm.git",
+        "ref": "v0.6.0"
       },
       "description": "Hands Orca's agent alerts (done, waiting, blocked) from Orca's agent.status.changed hook to Grok Bot. The alert half of orca-helm.",
       "categories": [
@@ -15292,6 +15458,34 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "80b5a14c2c8e6e1c6d1743a49c4a0b1a73f80847",
+          "contentHash": "254585f5656f9e3ceffe71857c02d8eec449d5c0592cdc67ee28cc059e8f1ff1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Grok Bot Notify",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Grok Bot"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "terminal:read",
+            "settings:own",
+            "secrets:own"
+          ],
+          "updatedAt": "2026-11-09T22:27:53+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/tourbut/orca-helm"
+        },
         {
           "version": "0.5.0",
           "commit": "b3bafdf534f0959be52b0e22ceb570275640b7bc",
@@ -16072,6 +16266,70 @@
           "updatedAt": "2026-11-07T16:10:54-03:00",
           "license": "MIT",
           "repository": "https://github.com/VictorStochero/orca-agent-pool"
+        }
+      ]
+    },
+    {
+      "id": "vidosen.unity-tools",
+      "ownerId": 44365736,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Vidosen/orca-unity-tools.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Unity integrations for Orca: worktree setup hooks that share Library with the primary checkout, and a Dev Drive guide for Windows.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "84ce35319740336e42c876fd2fe783e71e02ef51",
+          "contentHash": "e9285c1c8b542f21cdab36b0dff4a7af2cf7b132909898205425473f68b13830",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Unity Tools",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Unity Tools"
+            },
+            {
+              "kind": "commands",
+              "name": "Unity Tools: Show suggestions"
+            },
+            {
+              "kind": "commands",
+              "name": "Unity Tools: Rescan Unity projects"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Unity"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "updatedAt": "2026-11-09T17:16:46+04:00",
+          "license": "MIT",
+          "repository": "https://github.com/Vidosen/orca-unity-tools"
         }
       ]
     },
