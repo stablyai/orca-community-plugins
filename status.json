@@ -517,7 +517,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.4.2",
+      "ref": "refs/tags/gongxliang/claude-paper/0.4.2",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -555,7 +555,7 @@
     },
     "hilbana/orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/hilbana/orca-plugin/0.5.0",
+      "ref": "v0.6.0",
       "plugins": [
         "hilbana.hilbana"
       ]
@@ -569,7 +569,7 @@
     },
     "ibazylchuk/orca-plugin-openspec-board": {
       "state": "listed",
-      "ref": "v0.3.3",
+      "ref": "v0.4.0",
       "plugins": [
         "ibazylchuk.openspec-board"
       ],
@@ -809,7 +809,16 @@
       "ref": "refs/tags/llima/craftar-orca/0.3.0",
       "plugins": [
         "llima.craftar"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "luckury/orca-backlog-md": {
       "state": "rejected",
@@ -1191,7 +1200,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.1.3",
+      "ref": "v1.1.4",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ],
@@ -1243,7 +1252,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.2.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]

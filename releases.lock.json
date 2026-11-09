@@ -671,6 +671,12 @@
     "repoId": 1451666508,
     "firstSeen": "2026-11-09T18:40:05.940Z"
   },
+  "hilbana.hilbana@0.6.0": {
+    "commit": "d0e0f05a245ca8148c5b0524050da949e18ee27f",
+    "contentHash": "cb5e058f3f6900d315a66b3edca0380088b247aec73b34761ac2f0c135808651",
+    "repoId": 1451666508,
+    "firstSeen": "2026-11-09T19:39:56.779Z"
+  },
   "hubo1989.codegraph-init@0.1.0": {
     "commit": "052026402971133f913e79d854461ded29e98d73",
     "contentHash": "19144631e8a81440f908efbd0d23154bda975e19c9a8a47faf3ecdfd26a187df",
@@ -682,6 +688,12 @@
     "contentHash": "9ed0b715dcf1747ef396e554d93f42d5f8eb2b3a478a77533c0bc44cd4f65030",
     "repoId": 1451586319,
     "firstSeen": "2026-11-09T19:14:58.688Z"
+  },
+  "ibazylchuk.openspec-board@0.4.0": {
+    "commit": "0bda5e8a4e69fd78a10b90dda7858498676cc589",
+    "contentHash": "ffd38f14ed5c52cb5246dc59e69144d7c0a9bb41fb8149942065c828c5cfc36f",
+    "repoId": 1451586319,
+    "firstSeen": "2026-11-09T19:39:56.779Z"
   },
   "iml885203.orbit-status@0.1.1": {
     "commit": "11f2753266f23cf82f1abc8fef0a68afaed8d021",
@@ -1444,6 +1456,12 @@
     "contentHash": "adfb05b87b5554eaaab64c19fe71687ec6023340f6ad01849d1f476e23b1a8db",
     "repoId": 1441331902,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "schowave.asciidoc-diagrams@1.1.4": {
+    "commit": "37abd610919e63457a9a1c117063abbe5364138c",
+    "contentHash": "13652455d8040314daa267bca8089f2e55a3d6059381d0b536a231de9f7f1df5",
+    "repoId": 1441331902,
+    "firstSeen": "2026-11-09T19:39:56.779Z"
   },
   "senadaruc.grazr@0.6.1": {
     "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
