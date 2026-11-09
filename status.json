@@ -136,7 +136,7 @@
     },
     "brodesigns/orca-woodpecker-status": {
       "state": "listed",
-      "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.3",
+      "ref": "v1.1.0",
       "plugins": [
         "brodesigns.woodpecker-status"
       ]
@@ -283,7 +283,7 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 1 protected string is ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 11 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebbop/orca-italiano": {
@@ -475,7 +475,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/gongxliang/claude-paper/0.2.1",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -1118,7 +1118,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.6",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.6",
       "plugins": [
         "satangbudsai.git-control"
       ]
