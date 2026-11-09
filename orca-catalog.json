@@ -1325,8 +1325,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.2.2"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -6185,8 +6185,8 @@
       "ownerId": 94118879,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.2.3"
+        "url": "https://github.com/jiangwanyutao/orca-claude-theme.git",
+        "ref": "v1.3.0"
       },
       "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, matching terminal themes, and minimal icons.",
       "categories": [
@@ -6195,6 +6195,55 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "12cbef91c7df3b2f4034e2e15b394373924261ac",
+          "contentHash": "caf546bb3aa55d9521976e7fab55b9d8d856f98594190bd20b78d164fbaaa80e",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Claude Theme for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jiangwanyutao.claude-theme/af5ebb9d652bae41.png",
+              "alt": "Claude Theme for Orca preview showing the warm editor, file tree, terminal, and color palette",
+              "sha256": "af5ebb9d652bae4148f4e5bb8f69f1c7a818dd31750ad95598b33ffde59c4ef6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jiangwanyutao.claude-theme/23d364670288ba27.png",
+              "alt": "Claude Theme for Orca icon",
+              "sha256": "23d364670288ba270d703a97772bb8e1b14749fda6121f6b541af86ca6d5cd59",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
+          "updatedAt": "2026-11-09T14:54:24+08:00"
+        },
         {
           "version": "1.2.3",
           "commit": "515335198178fe50b6ec65e16c57a0460cbf0ec9",
@@ -11044,7 +11093,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.7.0"
+        "ref": "v0.7.1"
       },
       "description": "A Git client inside Orca: commit graph, commits, branches, stashes and worktrees, plus GitHub and GitLab merge requests and pipelines, with your existing Git login. In a full tab and the right sidebar.",
       "categories": [
@@ -11053,6 +11102,127 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.7.1",
+          "commit": "5a0831b251cd16f9e32b103f7a0e63bdaf430ccd",
+          "contentHash": "99e5489a280a62d19524cd932293e2349fbb9855b956a12beb6de2175f059a8e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Control",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Review & MR"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Review & MR"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "terminal:send"
+          ],
+          "fileTypes": [
+            "gitgraph"
+          ],
+          "editorFileTypes": [
+            "gitgraph"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/satangbudsai.git-control/429655daf43d687b.jpg",
+              "alt": "Git Control: a blue and lavender paper Git history sculpture with ivory commit nodes and revision cards on a dark studio backdrop",
+              "sha256": "429655daf43d687bf6ee2613c395d91a3f925a6ee0d1c05f0fd2f6b57d6b27d6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/satangbudsai.git-control/3528d6f0bf936c96.png",
+              "alt": "Git Control icon",
+              "sha256": "3528d6f0bf936c96da9201e896edd1f2886f02112d3aee1b034c58cdfac5379f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/satangbudsai.git-control/fcf40de9ea07207d.png",
+                "alt": "Git Control for Orca: what it does, from the commit graph and merge requests to CI pipelines",
+                "sha256": "fcf40de9ea07207de04a48c07090179904a467ea432b3d18b4bfe0ebfae75810",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/c16bfcccddeb760a.png",
+                "alt": "The Commit tab with changed files on the left and a file diff on the right",
+                "sha256": "c16bfcccddeb760acc5261479a36488e94cf1e6f09fc17c2de0a811b615c16f3",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/d9c5988e467f92e1.png",
+                "alt": "A GitLab merge request page with description, pipeline, approvals with Approve, and Merge with its options",
+                "sha256": "d9c5988e467f92e14831b2b3a3f5ad1c6a887b765f897de373347fee0b0fb3fa",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/66e43bb90d153b2b.png",
+                "alt": "The new merge request dialog with title, description, assignees and reviewers",
+                "sha256": "66e43bb90d153b2b5ca305431dc23ec0177214c6a35a5153cdb35f4efb39c391",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/7a2fdf368ebc9fb4.png",
+                "alt": "A failed GitLab CI job log with its error lines highlighted",
+                "sha256": "7a2fdf368ebc9fb461ac5b3c09c7eb9f6a15ab2ce3025d1bafdf446944967f77",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/0ed6e61009f5df2c.png",
+                "alt": "The command palette listing Pull, Pull with rebase and Push",
+                "sha256": "0ed6e61009f5df2c0b1f7944d8c5824558f5e0528d136d03f386d5d7f697360b",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SatangBudsai/orca-git-extension",
+          "updatedAt": "2026-11-09T13:57:03+07:00"
+        },
         {
           "version": "0.7.0",
           "commit": "c5e4f135b3dff9b9170e21da959dea134f7cd947",
