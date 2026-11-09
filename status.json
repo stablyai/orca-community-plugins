@@ -26,7 +26,16 @@
       "ref": "v1.0.0",
       "plugins": [
         "addisflava.llm-router"
-      ]
+      ],
+      "update": {
+        "ref": "v1.0.0",
+        "reasons": [
+          {
+            "category": "version-locked",
+            "detail": "tag v1.0.0 moved: version 1.0.0 was first listed at commit e6a3f564fec97106af31390db1678b8b445b5918 and stays that release; publish a new version instead"
+          }
+        ]
+      }
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
@@ -280,7 +289,7 @@
     },
     "dennib/finline": {
       "state": "listed",
-      "ref": "refs/tags/dennib/finline/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "dennib.finline"
       ]
@@ -535,13 +544,6 @@
         }
       ]
     },
-    "hadisd/quiet-pastel": {
-      "state": "listed",
-      "ref": "refs/tags/hadisd/quiet-pastel/1.1.2",
-      "plugins": [
-        "hadisd.quiet-pastel"
-      ]
-    },
     "heath0xff/stillwater": {
       "state": "listed",
       "ref": "refs/tags/heath0xff/stillwater/1.1.0",
@@ -761,7 +763,16 @@
       "ref": "refs/tags/lazyjerry/todo-for-orca/0.2.0",
       "plugins": [
         "lazyjerry.todo-list"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "lindoo67/drawio-plugin": {
       "state": "listed",
@@ -1159,7 +1170,16 @@
       "ref": "v0.8.8",
       "plugins": [
         "satangbudsai.git-control"
-      ]
+      ],
+      "update": {
+        "ref": "v0.8.9",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size"
+          }
+        ]
+      }
     },
     "savenkosy/orca-buttons": {
       "state": "listed",

@@ -3043,14 +3043,68 @@
       "ownerId": 13068594,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dennib/finline/0.2.0"
+        "url": "https://github.com/dennib/finline.git",
+        "ref": "v0.2.1"
       },
       "description": "Git graph for the active worktree: branches, tags and remotes in colored lanes, commit details, and git actions from a right-click.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "a20dcd58159fd0166bc80117ba8490f9e511d1dd",
+          "contentHash": "5a963e5820acf987630996143cc43719cff43dc8e5fe71f6dfe0e526cdcf418b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Finline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Finline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dennib.finline/3ac7b2187738aaf3.png",
+              "alt": "Finline: a git graph for Orca, beside the panel showing a repository with branches, merges and tags",
+              "sha256": "3ac7b2187738aaf3b24da0a0ce91e95faf92e0564ec412dbc5aac10e55f31505",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dennib.finline/9b8f1b688a7db9e5.png",
+              "alt": "Finline icon",
+              "sha256": "9b8f1b688a7db9e5de47ec147b5e55d961acaab2eca68b50654808506eccc184",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/dennib.finline/ce1984225ffe7fe8.png",
+                "alt": "The Finline panel showing colored lanes for main, feature branches, a hotfix and their merges, with branch, remote and tag badges",
+                "sha256": "ce1984225ffe7fe87a06deda029a2fd407bfeea16a967f2466f312b787f0e101",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/dennib.finline/f92843ceb11cad43.png",
+                "alt": "The Finline panel at sidebar width, showing the graph, refs, commit subjects and ages",
+                "sha256": "f92843ceb11cad43657af6c8bcb26166d6b7b54cd59e832ac862ff3259792e32",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dennib/finline",
+          "updatedAt": "2026-11-09T16:25:38+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "9e6cdce0602ee3df018261bea5bdd2ce2007440e",
@@ -5835,166 +5889,6 @@
           "license": "MIT",
           "repository": "https://github.com/gzimbron/vuejs-lang-orca",
           "updatedAt": "2026-11-02T19:52:36-06:00"
-        }
-      ]
-    },
-    {
-      "id": "hadisd.quiet-pastel",
-      "ownerId": 125417294,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/hadisd/quiet-pastel/1.1.2"
-      },
-      "description": "Two dark, pale blue-violet themes with pastel accents and matching terminal themes: Quiet Pastel Moonlit (brighter) and Quiet Pastel Hush (dimmer).",
-      "categories": [
-        "themes",
-        "terminal-themes"
-      ],
-      "releases": [
-        {
-          "version": "1.1.2",
-          "commit": "a12063520555072d48ba7cf727b4cde3919d71ab",
-          "contentHash": "2e20c96bf0efd70c64a0656008c5ddcf86b40602270247994f70b157752eb166",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Quiet Pastel",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Quiet Pastel Moonlit"
-            },
-            {
-              "kind": "themes",
-              "name": "Quiet Pastel Hush"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Quiet Pastel Moonlit Terminal"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Quiet Pastel Hush Terminal"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/hadisd.quiet-pastel/20147350ee4823ee.png",
-              "alt": "Quiet Pastel Moonlit preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
-              "sha256": "20147350ee4823ee0bc5dac40452f8771cec689d8ef90ddd35842e4614596033",
-              "width": 1600,
-              "height": 1000
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Hadisd/quiet-pastel",
-          "updatedAt": "2026-11-09T10:04:12+09:00"
-        },
-        {
-          "version": "1.1.1",
-          "commit": "05130898a3b2f83c248629bc7ec418f3598ef7d5",
-          "contentHash": "2a10c7c99cb089211ba6eb111ba76ac772e0b9f197c785d28f8ed21fa98ba919",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Quiet Pastel",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Quiet Pastel Moonlit"
-            },
-            {
-              "kind": "themes",
-              "name": "Quiet Pastel Hush"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Quiet Pastel Moonlit Terminal"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Quiet Pastel Hush Terminal"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/hadisd.quiet-pastel/d19ec9c5d474c55e.png",
-              "alt": "Quiet Pastel Moonlit preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
-              "sha256": "d19ec9c5d474c55ee8daae3253d5155b701db2cf9cb3f890f668e0bb153e328d",
-              "width": 1600,
-              "height": 1000
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Hadisd/quiet-pastel",
-          "updatedAt": "2026-11-07T12:27:44+09:00"
-        },
-        {
-          "version": "1.1.0",
-          "commit": "3a86a0a31bc075bbded0f48941e629c00a19f920",
-          "contentHash": "cbe18bdbeb03b084d67b26c5200de1ad4772753f7fff04b7ba112387c8e51f79",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Quiet Pastel",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Quiet Pastel Moonlit"
-            },
-            {
-              "kind": "themes",
-              "name": "Quiet Pastel Hush"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Quiet Pastel Moonlit Terminal"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Quiet Pastel Hush Terminal"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/hadisd.quiet-pastel/d19ec9c5d474c55e.png",
-              "alt": "Quiet Pastel Moonlit preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
-              "sha256": "d19ec9c5d474c55ee8daae3253d5155b701db2cf9cb3f890f668e0bb153e328d",
-              "width": 1600,
-              "height": 1000
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Hadisd/quiet-pastel",
-          "updatedAt": "2026-11-07T12:06:46+09:00"
-        },
-        {
-          "version": "1.0.0",
-          "commit": "c3f3a75ef60c0c627dfeba9be0772cb942fa0494",
-          "contentHash": "26bbcf6f0f4f433bd245f68124ab00bb6fb6e7755c389f62a2c32965678f2f60",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Quiet Pastel",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Quiet Pastel"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Quiet Pastel Terminal"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/hadisd.quiet-pastel/a371c8859c556b5a.png",
-              "alt": "Quiet Pastel preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
-              "sha256": "a371c8859c556b5ad6ff9699bc1f0915970a13f8077866b384d71a083735d310",
-              "width": 1600,
-              "height": 1000
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Hadisd/quiet-pastel",
-          "updatedAt": "2026-11-07T11:23:18+09:00"
         }
       ]
     },
