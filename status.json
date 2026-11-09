@@ -21,6 +21,16 @@
         "aamonnaig4.putt-request"
       ]
     },
+    "actus7/orca-autocomplete": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
+      ]
+    },
     "addisflava/orca-llm-router": {
       "state": "listed",
       "ref": "v1.0.0",
@@ -566,7 +576,7 @@
     },
     "ibazylchuk/orca-plugin-openspec-board": {
       "state": "listed",
-      "ref": "v0.5.4",
+      "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.5.4",
       "plugins": [
         "ibazylchuk.openspec-board"
       ]
