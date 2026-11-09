@@ -431,6 +431,78 @@
       ]
     },
     {
+      "id": "alexesprit.unfancy-file-icons",
+      "ownerId": 1119267,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexesprit/orca-unfancy-file-icons.git",
+        "ref": "v1.0.3"
+      },
+      "description": "Generic category file icons in Octicons, Codicons, and Lucide, with one balanced palette for light and dark backgrounds.",
+      "categories": [
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "28d6fa1765a6e2eb9272b2ae7e628274f069ea2e",
+          "contentHash": "3bd842b21782bd56f52b78baa8b85beefecb863bc2a208ba59a1d6cc4cb594d9",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Unfancy file icons",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Unfancy file icons (Octicons)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Unfancy file icons (Codicons)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Unfancy file icons (Lucide)"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alexesprit.unfancy-file-icons/ee5264b92ed9b73f.png",
+              "alt": "Unfancy file icons: Octicons, Codicons, and Lucide shown side by side on a dark background.",
+              "sha256": "ee5264b92ed9b73f61c7f361dfa8a03f8d6b27e2cd36c04c3c406b49f21b17bb",
+              "width": 2400,
+              "height": 1600
+            },
+            "screenshots": [
+              {
+                "path": "assets/alexesprit.unfancy-file-icons/4dd56afd127dc49a.png",
+                "alt": "Rendered Unfancy Octicons preview with source, data, tooling, document, and media icons on a dark background.",
+                "sha256": "4dd56afd127dc49a8e51dd710f55b9690b9d68869ad581f0b77c0b1d31017f7b",
+                "width": 2400,
+                "height": 1600
+              },
+              {
+                "path": "assets/alexesprit.unfancy-file-icons/70ea4f9354ee5319.png",
+                "alt": "Rendered Unfancy Codicons preview with source, data, tooling, document, and media icons on a dark background.",
+                "sha256": "70ea4f9354ee5319217d7a775bd9ed67b549abe9900b30f039e68b7d0dfd5d87",
+                "width": 2400,
+                "height": 1600
+              },
+              {
+                "path": "assets/alexesprit.unfancy-file-icons/a1e3e0fb9bf0fde1.png",
+                "alt": "Rendered Unfancy Lucide preview with source, data, tooling, document, and media icons on a dark background.",
+                "sha256": "a1e3e0fb9bf0fde132d7dc0c4d4075550d9c28f38e4853227f344fc3aa3c3943",
+                "width": 2400,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alexesprit/orca-unfancy-file-icons",
+          "updatedAt": "2026-11-09T13:21:25+04:00"
+        }
+      ]
+    },
+    {
       "id": "aminechr54.agent-split",
       "ownerId": 139517320,
       "source": {
@@ -1207,8 +1279,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.2"
+        "url": "https://github.com/brodesigns/orca-woodpecker-status.git",
+        "ref": "v1.0.3"
       },
       "description": "Shows the status of all your Woodpecker CI projects in the sidebar, with error messages and a log excerpt of the failed step. Read-only: talks only to your own Woodpecker server, no tracking.",
       "categories": [
@@ -1216,6 +1288,75 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "668d9b1a8fe34a01f72afacf27bb9c4f68dcd018",
+          "contentHash": "b30d40b496baca48de014ea27c52e97b8161a7f1d4b2cbda30c811efa6367e8e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Woodpecker Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Woodpecker Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Woodpecker: Refresh status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CI"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brodesigns.woodpecker-status/ed8dbd53c65005c6.png",
+              "alt": "The Woodpecker Status panel in Orca's sidebar, showing one failed project with its steps and log, and several passing projects",
+              "sha256": "ed8dbd53c65005c6d331b5aa9e8d4aa063f602d19fd8151656e8a704aa741172",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/brodesigns.woodpecker-status/97940a31561cc63d.png",
+                "alt": "Project list with colored status dots, failed projects first",
+                "sha256": "97940a31561cc63d3169373f6d4be277d460a859eb05b846c8c37731ab1508ae",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/e969a1d5aca8b8ca.png",
+                "alt": "A failed project expanded with its steps and the log of the failed step",
+                "sha256": "e969a1d5aca8b8cab16b9e3aa7d46de73b88621818f8bd1f4a8570a7a8472c2e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/c87be38bcb9a607d.png",
+                "alt": "Setup form with server URL and token fields",
+                "sha256": "c87be38bcb9a607d02c412083f64397142161cd36e3cea95493cd75a24230cf8",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/8accef5d492d75aa.png",
+                "alt": "Four checkmarks explaining what the plugin does with the Full access label: read-only requests, one server over https, no files or programs, token stays local",
+                "sha256": "8accef5d492d75aa9845739398f7cc2492eb3e81bad491c1553084bac3bde829",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brodesigns/orca-woodpecker-status",
+          "updatedAt": "2026-11-09T11:39:02+02:00"
+        },
         {
           "version": "1.0.2",
           "commit": "29a9ef935a7471b7a9ab4b2a68c56004217ba197",
@@ -3246,8 +3387,8 @@
       "ownerId": 43491715,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.5"
+        "url": "https://github.com/emamalet/orca-git-log-panel.git",
+        "ref": "v0.1.6"
       },
       "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
       "categories": [
@@ -3255,6 +3396,89 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.6",
+          "commit": "cda6197c33ebada606438f7664ff274d01cb352b",
+          "contentHash": "eb0863f58bce640f0b9f1d9f12b426707427c6159fa1de6b131327b98720bebe",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Log",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Log: Open in Editor Tab"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Log",
+              "detail": ".gitlog"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitlog"
+          ],
+          "editorFileTypes": [
+            "gitlog"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/emamalet.git-log/837f35e2f23073cb.png",
+              "alt": "Git Log title and logo next to the commit graph with three selected commits and the right-click menu to squash, fixup or drop them",
+              "sha256": "837f35e2f23073cbb4dda11e4c17f858d0136c6d6671ddd0a58487ee545800cf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/emamalet.git-log/71e73d4b3210781f.png",
+              "alt": "Git Log icon",
+              "sha256": "71e73d4b3210781fbae7b973a36913ea8942b8d491504e842337ac49bc0dcffe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/emamalet.git-log/fcf2ea594330e1d8.png",
+                "alt": "Commit log with three selected commits and the right-click menu open",
+                "sha256": "fcf2ea594330e1d8e623d2917ac585c4bb4f3e3ba599a3ee1baaef8c1e35a30e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/3e87c5ee26b66d1b.png",
+                "alt": "Side-by-side diff of a TypeScript file with added and removed lines highlighted",
+                "sha256": "3e87c5ee26b66d1b5a08950e578c144aac64433185bed1e86c58e3249cb46f46",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/beec194412fa5c01.png",
+                "alt": "Interactive rebase dialog listing four commits with pick actions",
+                "sha256": "beec194412fa5c01aca174a50d6527fd821c8f76bad600ed12409a4315038e97",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/91aaf6c2808b02af.png",
+                "alt": "Commit graph with branch tree and commit details in the light theme",
+                "sha256": "91aaf6c2808b02af479f750974e98f3cc5aad6433d45579c8d27c8627aacaa33",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/emamalet/orca-git-log-panel",
+          "updatedAt": "2026-11-09T10:22:48+01:00"
+        },
         {
           "version": "0.1.5",
           "commit": "36f68b2f304aab6ca9410e90329809d5f20ccd12",
@@ -7241,8 +7465,8 @@
       "ownerId": 777984,
       "source": {
         "kind": "git",
-        "url": "https://github.com/llima/craftar-orca.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/llima/craftar-orca/0.2.1"
       },
       "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
       "categories": [
@@ -7717,8 +7941,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.22",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/bpmn-modeler/0.2.0",
         "path": "plugins/bpmn-modeler"
       },
       "description": "Experimental. Open .bpmn and .dmn files as diagrams: view, simulate and lightly model BPMN processes and DMN decisions, and see an agent's changes to the file as they happen. No deployment, code links or Form editor yet.",
@@ -11512,8 +11736,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.8.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.0"
       },
       "description": "A Git client inside Orca: commit graph, commits, branches, stashes and worktrees, plus GitHub and GitLab merge requests and pipelines, with your existing Git login. In a full tab and the right sidebar.",
       "categories": [
