@@ -329,17 +329,13 @@
       ]
     },
     "ebbop/orca-italiano": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.4.255",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"it\" (locales/it.json): translation at components.native-chat.failureWords.previousExitUnverifiable exceeds 144 characters (4x its English text, at least 64)"
-        },
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
+      "plugins": [
+        "ebbop.italiano"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "ehart004/orca-monokai-theme": {
@@ -528,7 +524,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/gongxliang/claude-paper/0.4.0",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -773,7 +769,7 @@
     },
     "lazyjerry/todo-for-orca": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/lazyjerry/todo-for-orca/0.3.0",
       "plugins": [
         "lazyjerry.todo-list"
       ]
@@ -988,7 +984,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.4",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.4",
       "plugins": [
         "palulabs.office-tycoon"
       ]

@@ -3733,6 +3733,38 @@
       ]
     },
     {
+      "id": "ebbop.italiano",
+      "ownerId": 205441686,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.255"
+      },
+      "description": "Traduzione italiana dell'interfaccia di Orca (allineata a Orca 1.4.255).",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.4.255",
+          "commit": "76e40ef5b8749ac982fab4b74bb2f65e5f104ecf",
+          "contentHash": "d8399cdfc10f16a8da74b6dc4230b04693194568fc229f73d46041cd38ecc5de",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-09T18:12:44+01:00"
+        }
+      ]
+    },
+    {
       "id": "ehart004.monokai-theme",
       "ownerId": 7690156,
       "source": {
@@ -5584,8 +5616,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gongxliang/claude-paper/0.4.0"
       },
       "description": "Warm paper light and charcoal dark for Orca: chat, code, diffs and terminal, with original Paper Fold file icons. Unofficial, data-only.",
       "categories": [
@@ -7988,8 +8020,8 @@
       "ownerId": 22562898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/lazyjerry/todo-for-orca.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lazyjerry/todo-for-orca/0.3.0"
       },
       "description": "A sidebar to-do list for the small tasks of your day: timed desktop reminders, repeats and durations, with the current and next to-do in the status bar. 處理一天內小任務的側欄待辦清單：到點桌面提醒、可重複與設定持續時間，狀態列顯示進行中與下一件事。",
       "categories": [
@@ -11242,8 +11274,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.4"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
