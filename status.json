@@ -114,12 +114,9 @@
     },
     "bautistapessagno/orca-spotify": {
       "state": "listed",
-      "ref": "refs/tags/bautistapessagno/orca-spotify/0.3.2",
+      "ref": "v0.4.0",
       "plugins": [
         "bautistapessagno.now-playing"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "be0hhh/orca-binary-tools": {
@@ -555,7 +552,7 @@
     },
     "hilbana/orca-plugin": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/hilbana/orca-plugin/0.6.1",
       "plugins": [
         "hilbana.hilbana"
       ]
@@ -569,7 +566,7 @@
     },
     "ibazylchuk/orca-plugin-openspec-board": {
       "state": "listed",
-      "ref": "v0.5.3",
+      "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.5.3",
       "plugins": [
         "ibazylchuk.openspec-board"
       ]
@@ -803,7 +800,7 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/llima/craftar-orca/0.3.1",
       "plugins": [
         "llima.craftar"
       ]
@@ -864,19 +861,10 @@
     },
     "michelvelzr/ork-dbclient": {
       "state": "listed",
-      "ref": "refs/tags/michelvelzr/ork-dbclient/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "michelvelzr.ork-dbclient"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "miinwan/orca-vietnamese": {
       "state": "rejected",

@@ -926,16 +926,72 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bautistapessagno/orca-spotify/0.3.2"
+        "url": "https://github.com/BautistaPessagno/orca-spotify.git",
+        "ref": "v0.4.0"
       },
-      "description": "Control Spotify from Orca: the desktop app on macOS, or any device through the Spotify Web API. Not affiliated with Spotify.",
+      "description": "Spotify in Orca's sidebar: Home, your library, search, queue and devices, plus a now-playing status bar item. Your coding agents can play, pause, search and queue too. Works with the Spotify app on a Mac out of the box. Not affiliated with Spotify.",
       "categories": [
-        "panels",
-        "commands",
-        "keybindings"
+        "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "67f7f48e015a53ebabba40170350ba6926090a50",
+          "contentHash": "27e9c9c6e07b6fc70b4dff7f851444e830491d86f581627a9560f2d384476e37",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Now Playing",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Now Playing"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Now Playing"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.now-playing/276211732ee29613.png",
+              "alt": "Now Playing in Orca's sidebar: Your Library with Liked Songs and playlists, the player with its device menu, and an agent playing music from a terminal",
+              "sha256": "276211732ee2961322033f3790b44f36dda4dc2df814cf42bbf90ca7c18da78a",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.now-playing/047489bd0c7ac0be.png",
+                "alt": "The panel in dark theme: Home with recently played albums and playlists, Your Library, and an album page",
+                "sha256": "047489bd0c7ac0bebea7a4021a88c9cc5e0402d0e950ec45f96a784cb7b047b9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/98aaba49ef0418df.png",
+                "alt": "A coding agent in an Orca terminal runs now-playing to search and play an album, and the panel updates",
+                "sha256": "98aaba49ef0418dfffddb36879c1872e58389095d3e0e4aa4c22a15c8dc2322b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/6a1ea6d749d10304.png",
+                "alt": "The desktop-app player in Orca's light theme next to the device picker of a connected Spotify account",
+                "sha256": "6a1ea6d749d10304d30ab2308bc10cd1cb48af0679e4db711cb8141da4221cbb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-spotify",
+          "updatedAt": "2026-11-09T17:14:56-03:00"
+        },
         {
           "version": "0.3.2",
           "commit": "028ffd9adc54ed4849ae676e5f402602aa37df86",
@@ -6274,8 +6330,8 @@
       "ownerId": 310960506,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hilbana/orca-plugin.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hilbana/orca-plugin/0.6.1"
       },
       "description": "Your Hilbana issues inside Orca: list, filters, search, detail, state changes, comments, a status bar counter and a button that runs the Hilbana command in your agent.",
       "categories": [
@@ -6473,8 +6529,8 @@
       "ownerId": 663999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/IBazylchuk/orca-plugin-openspec-board.git",
-        "ref": "v0.5.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.5.3"
       },
       "description": "Kanban board for OpenSpec spec-driven development: every change by stage with task progress, next step, ticket and GitHub pull requests. Apply and Finish send /opsx:apply, a finish check or your own command to the Claude Code or Codex agent of the change's own workspace, or start that workspace.",
       "categories": [
@@ -8811,8 +8867,8 @@
       "ownerId": 777984,
       "source": {
         "kind": "git",
-        "url": "https://github.com/llima/craftar-orca.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/llima/craftar-orca/0.3.1"
       },
       "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
       "categories": [
@@ -9497,14 +9553,51 @@
       "ownerId": 131314046,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/michelvelzr/ork-dbclient/0.1.0"
+        "url": "https://github.com/MichelVelzr/ork-dbclient.git",
+        "ref": "v0.2.0"
       },
-      "description": "Explore and query PostgreSQL, MySQL, MariaDB, Percona, SQLite and Redis from an Orca sidebar panel.",
+      "description": "Explore and query PostgreSQL, MySQL, MariaDB, Percona, Microsoft SQL Server, SQLite and Redis from an Orca sidebar panel.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "698d23587be307a9aa7cc9714d55f2fc4c623d2e",
+          "contentHash": "7a5c9b2e88419915e0df1e086fd4dbed33abec24b1ad6749b73e0f1e2ecd9da8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Ork DBclient",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Database Client"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/michelvelzr.ork-dbclient/6dd0ede09225f4da.png",
+              "alt": "Ork DBclient panel showing saved database connections, a SQL editor and a results table.",
+              "sha256": "6dd0ede09225f4daa3deb9c50fc782419297ed2fab3c58d9fd7b0d5ee78603a3",
+              "width": 1920,
+              "height": 1017
+            },
+            "icon": {
+              "path": "assets/michelvelzr.ork-dbclient/97bcf44b2fe22b22.png",
+              "alt": "Ork DBclient icon",
+              "sha256": "97bcf44b2fe22b2226d1cae3da2d620cb80ba8d71a0f793cf465000883024d2c",
+              "width": 128,
+              "height": 128
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/MichelVelzr/ork-dbclient",
+          "updatedAt": "2026-11-09T14:56:19-05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "0e7ce33aea23bc4bbfd742960a7e369361ea3a12",
