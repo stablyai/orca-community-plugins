@@ -604,7 +604,7 @@
     },
     {
       "id": "llima.craftar",
-      "stars": 0,
+      "stars": null,
       "stats": null
     },
     {
@@ -694,7 +694,7 @@
     },
     {
       "id": "oscarbotteri.db-studio",
-      "stars": 2,
+      "stars": 3,
       "stats": null
     },
     {
@@ -794,7 +794,7 @@
     },
     {
       "id": "satangbudsai.git-control",
-      "stars": null,
+      "stars": 1,
       "stats": null
     },
     {
@@ -819,6 +819,11 @@
     },
     {
       "id": "shakedm100.parquet-viewer",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "shaurgon.conport-orca",
       "stars": 0,
       "stats": null
     },

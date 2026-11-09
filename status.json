@@ -158,7 +158,7 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v2.4.2",
+        "ref": "v2.4.3",
         "reasons": [
           {
             "category": "under-review",
@@ -475,7 +475,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/gongxliang/claude-paper/0.2.0",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -750,7 +750,16 @@
       "ref": "refs/tags/llima/craftar-orca/0.2.1",
       "plugins": [
         "llima.craftar"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "luckury/orca-backlog-md": {
       "state": "rejected",
@@ -1118,19 +1127,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.0",
+      "ref": "v0.8.5",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.8.5",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, size"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
@@ -1189,6 +1189,13 @@
       "ref": "refs/tags/shakedm100/orca-parquet-viewer/0.1.2",
       "plugins": [
         "shakedm100.parquet-viewer"
+      ]
+    },
+    "shaurgon/conport-orca": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "shaurgon.conport-orca"
       ]
     },
     "sks-other/orca-russian": {
