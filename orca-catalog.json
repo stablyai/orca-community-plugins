@@ -9,8 +9,8 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/1am/orca-agent-deck.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/1am/orca-agent-deck/0.1.2"
       },
       "description": "Shows Orca agent status on a Stream Deck and focuses panes from it.",
       "categories": [
@@ -1325,8 +1325,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.1.1"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -5280,8 +5280,8 @@
       "ownerId": 125417294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Hadisd/markdown-colorize.git",
-        "ref": "v1.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hadisd/markdown-colorize/1.1.2"
       },
       "description": "A colorful, editable view for Markdown and MDX files: colored headings, code, math, diagrams, badges and an outline. Click a block to edit it.",
       "categories": [],
@@ -13067,8 +13067,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tienne/orcatopia.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tienne/orcatopia/0.1.0"
       },
       "description": "Turn waiting time into a little island getaway. Earn tickets from new worktrees, discover world landmarks, and make the island your own.",
       "categories": [
