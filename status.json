@@ -510,26 +510,17 @@
     },
     "gino8080/orca-git-overview": {
       "state": "listed",
-      "ref": "v0.1.10",
+      "ref": "refs/tags/gino8080/orca-git-overview/0.1.10",
       "plugins": [
         "gino8080.git-overview"
       ]
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "v0.4.2",
       "plugins": [
         "gongxliang.claude-paper"
-      ],
-      "update": {
-        "ref": "v0.4.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
@@ -564,7 +555,7 @@
     },
     "hilbana/orca-plugin": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/hilbana/orca-plugin/0.5.0",
       "plugins": [
         "hilbana.hilbana"
       ]
@@ -574,6 +565,16 @@
       "ref": "refs/tags/hubo1989/orca-codegraph-init/0.1.0",
       "plugins": [
         "hubo1989.codegraph-init"
+      ]
+    },
+    "ibazylchuk/orca-plugin-openspec-board": {
+      "state": "listed",
+      "ref": "v0.3.3",
+      "plugins": [
+        "ibazylchuk.openspec-board"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "iml885203/orca-orbit": {
@@ -805,7 +806,7 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/llima/craftar-orca/0.3.0",
       "plugins": [
         "llima.craftar"
       ]
@@ -1242,7 +1243,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]

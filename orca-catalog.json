@@ -5616,8 +5616,8 @@
       "ownerId": 1710920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gino8080/orca-git-overview.git",
-        "ref": "v0.1.10"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gino8080/orca-git-overview/0.1.10"
       },
       "description": "For a folder of independent git repos, each with its own .git and no shared parent. See which have pending changes, are behind their remote or sit on a different branch, and fetch them all in one click. Orca's native Source Control covers attached worktrees; this covers plain sub-repos.",
       "categories": [
@@ -5695,7 +5695,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.4.1"
+        "ref": "v0.4.2"
       },
       "description": "Warm paper light and charcoal dark for Orca: chat, code, diffs and terminal, with original Paper Fold file icons. Unofficial, data-only.",
       "categories": [
@@ -5704,6 +5704,99 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "0.4.2",
+          "commit": "a490bd261b43743a799d774116575fe292deb171",
+          "contentHash": "17e2a421f2171df560bd837814d97c595cfba160445237abafe865d8bf2c54ec",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Claude Paper",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Paper · 纸折图标"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gongxliang.claude-paper/8446292b8e2b895d.png",
+              "alt": "Claude Paper for Orca: native light chat and composer, dark Paper Fold file icons and terminal output from a public demo.",
+              "sha256": "8446292b8e2b895d23a8f75c7c94a5ce943ba8df53f07ad53ff277d5de36c95f",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
+              "alt": "Claude Paper icon",
+              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gongxliang.claude-paper/13d6f3330b2fbff3.png",
+                "alt": "Native light Orca chat, complete public demo reply, composer and Paper Fold file tree.",
+                "sha256": "13d6f3330b2fbff3288adc84229add01e0b46d4b88b750094d21d11fd880712d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/a257a422e2ae653d.png",
+                "alt": "Native dark code diff, actual test output and file tree composed from the same public demo.",
+                "sha256": "a257a422e2ae653ddb7618fee9aa03485da282a95998379edc059766eaf8304c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/e275d4354aa807eb.png",
+                "alt": "Native light JavaScript editor with syntax colors and Paper Fold icons; local path bar removed.",
+                "sha256": "e275d4354aa807ebe105eb8c1ffabe7afb0e8aee736db510bee01fc8492e1306",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/e862ab5c4d313fe6.png",
+                "alt": "Native dark terminal with real passing tests and normal/bright ANSI samples.",
+                "sha256": "e862ab5c4d313fe6c606ed08e65dd7345cf6e74d3024d24aec1b0633584eb102",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/36d1daa19c1dfaeb.png",
+                "alt": "Original Paper Fold SVG gallery: file formats and folder categories in light and dark. Folder names match exactly; unknown names use slate.",
+                "sha256": "36d1daa19c1dfaebc31294bff29b6da2f5f64e99a9f1437a79ea986222575178",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/066f0aafe9d8f3a2.png",
+                "alt": "Same native terminal output in Ghostty Default Style Dark and Claude Paper Dark: ANSI changes while explicit truecolor stays unchanged.",
+                "sha256": "066f0aafe9d8f3a25d8338ab628689689ef30beedce7fac9ef89283a24fae900",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-10T03:22:23+09:00"
+        },
         {
           "version": "0.4.1",
           "commit": "c8ff56ec1b7425da9e55e40813f3233280d4b9ee",
@@ -6064,35 +6157,6 @@
           "license": "MIT",
           "repository": "https://github.com/GongXLiang/Claude-paper",
           "updatedAt": "2026-11-09T20:39:07+09:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "3ab7f6c2a6ef89978e4f74c2683bc78e05698461",
-          "contentHash": "aad60ee4d1e5b205b61c7ce403796eeb0c471cc7a109ed30ad62bd9eb2b44ece",
-          "execution": "data",
-          "minimumOrca": "1.4.253",
-          "name": "Claude Paper",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖夜"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/GongXLiang/Claude-paper",
-          "updatedAt": "2026-11-09T19:18:44+09:00"
         }
       ]
     },
@@ -6210,8 +6274,8 @@
       "ownerId": 310960506,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hilbana/orca-plugin.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hilbana/orca-plugin/0.5.0"
       },
       "description": "Your Hilbana issues inside Orca: list, filters, search, detail, state changes, comments, a status bar counter and a button that runs the Hilbana command in your agent.",
       "categories": [
@@ -6288,6 +6352,69 @@
           "license": "MIT",
           "repository": "https://github.com/hubo1989/orca-codegraph-init",
           "updatedAt": "2026-11-05T13:57:33+08:00"
+        }
+      ]
+    },
+    {
+      "id": "ibazylchuk.openspec-board",
+      "ownerId": 663999,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/IBazylchuk/orca-plugin-openspec-board.git",
+        "ref": "v0.3.3"
+      },
+      "description": "Kanban board for OpenSpec spec-driven development: every change by stage with task progress, next step, ticket and GitHub pull requests. Apply and Finish send /opsx:apply, a finish check or your own command to the Claude Code or Codex agent of the change's own workspace, or start that workspace.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.3",
+          "commit": "e1177c6346fee6ac9d4620bf76b6830400db7b40",
+          "contentHash": "9ed0b715dcf1747ef396e554d93f42d5f8eb2b3a478a77533c0bc44cd4f65030",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenSpec Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec Board"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ibazylchuk.openspec-board/27e2b7dba9975d04.png",
+              "alt": "OpenSpec Board for Orca: the board panel with changes grouped by stage (demo data)",
+              "sha256": "27e2b7dba9975d04405501254e39c6d379f657bfcdb1cdd3ba1832e7bbf6a6de",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/ibazylchuk.openspec-board/91181094ffc4e536.png",
+                "alt": "The board in dark theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "91181094ffc4e5366407a2f573a19affd5a1b3ee05205eff51dcbd563ac90e46",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/ibazylchuk.openspec-board/f09310dd0b1d02a1.png",
+                "alt": "The board in light theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "f09310dd0b1d02a1d46d0d94be523ba567dd19a95ae708b76bfe2c1cf797edf6",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
+          "updatedAt": "2026-11-09T20:01:25+01:00"
         }
       ]
     },
@@ -8475,8 +8602,8 @@
       "ownerId": 777984,
       "source": {
         "kind": "git",
-        "url": "https://github.com/llima/craftar-orca.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/llima/craftar-orca/0.3.0"
       },
       "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
       "categories": [
@@ -14630,15 +14757,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.1.0"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.2.0"
       },
-      "description": "Runs a ConPort epic with its spec and plan through Orca agents: pick an agent per role, start the run, follow the board, answer the stop-list questions.",
+      "description": "Controls ConPort projects from Orca: the epics of a project by milestone, their start, continuation and stop with an agent per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
-        "panels",
-        "integrations"
+        "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "4d2cd9f9d21974de62cc36639bb5b9153880721c",
+          "contentHash": "6e3a840474588e334ecb68b9b703417d0f273ce38ff1e75c32e50e93887295ca",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-09T23:58:59+05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "00fab65ae82fbf9856e0f081173c0240fcff9d42",
