@@ -927,13 +927,78 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/BautistaPessagno/orca-spotify.git",
-        "ref": "v1.0.0"
+        "ref": "v1.0.1"
       },
       "description": "Spotify or Apple Music in Orca's sidebar: Home, your library, search, queue and devices for Spotify, the Music app's player for Apple Music, plus a now-playing status bar item. Your coding agents can play, pause, search and queue too. Works with the Spotify or Music app on a Mac out of the box. Not ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "05313a13863d02f3d2d1e6d3bfef700a39d52fd0",
+          "contentHash": "e4f8542d3b76c6aed60c2c0bf11f06acb6617f485eeeec6fa122aa1e86bc5a10",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Now Playing",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Now Playing"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Now Playing"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.now-playing/cfdaba0a83d0b5dd.png",
+              "alt": "Now Playing in Orca's sidebar: the Spotify player beside the Apple Music player in the Music app's look, and an agent playing music from a terminal",
+              "sha256": "cfdaba0a83d0b5dd5e8328a93d4e02894621502652a58498239732544572b0b7",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.now-playing/047489bd0c7ac0be.png",
+                "alt": "The panel in dark theme: Home with recently played albums and playlists, Your Library, and an album page",
+                "sha256": "047489bd0c7ac0bebea7a4021a88c9cc5e0402d0e950ec45f96a784cb7b047b9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/bf58f73bda832c7e.png",
+                "alt": "The Apple Music player in Orca's light and dark themes, with the Spotify and Apple Music switch at the bottom of each",
+                "sha256": "bf58f73bda832c7e3507433edb7e61138c46b1997b0615ae16aba15dda08c73c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/436cab449fcaf970.png",
+                "alt": "A coding agent in an Orca terminal runs now-playing to search and play an album, and the panel updates",
+                "sha256": "436cab449fcaf970ad855ba2c784213884767b9113982fd97acdc8abb87a54ca",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/97795edc71fc9eed.png",
+                "alt": "The Spotify desktop-app player in Orca's light theme next to the device picker of a connected Spotify account",
+                "sha256": "97795edc71fc9eed7f76fbbcfe3997f65a3c518666ab78a4ce110ac590e1e020",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-spotify",
+          "updatedAt": "2026-11-09T19:44:23-03:00"
+        },
         {
           "version": "1.0.0",
           "commit": "bfbbcf649a1293904d3051431889bc21f49a1843",
