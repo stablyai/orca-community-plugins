@@ -199,7 +199,7 @@
     },
     "chandraliuswanto/orca-subagent-graph": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/chandraliuswanto/orca-subagent-graph/0.4.1",
       "plugins": [
         "chandraliuswanto.subagent-graph"
       ]
@@ -340,7 +340,7 @@
     },
     "ellebam/orca-context-meter": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/ellebam/orca-context-meter/0.1.0",
       "plugins": [
         "ellebam.context-meter"
       ]
@@ -966,7 +966,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.3",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.3",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -1149,19 +1149,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.6",
+      "ref": "v0.8.7",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.8.7",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, size"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
@@ -1356,7 +1347,7 @@
     },
     "tourbut/orca-helm": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/tourbut/orca-helm/0.6.0",
       "plugins": [
         "tourbut.grokbot-notify"
       ]
@@ -1449,7 +1440,7 @@
     },
     "vidosen/orca-unity-tools": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/vidosen/orca-unity-tools/0.1.0",
       "plugins": [
         "vidosen.unity-tools"
       ]
