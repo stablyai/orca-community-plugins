@@ -114,7 +114,7 @@
     },
     "bautistapessagno/orca-spotify": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/bautistapessagno/orca-spotify/0.4.0",
       "plugins": [
         "bautistapessagno.now-playing"
       ]
@@ -566,7 +566,7 @@
     },
     "ibazylchuk/orca-plugin-openspec-board": {
       "state": "listed",
-      "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.5.3",
+      "ref": "v0.5.4",
       "plugins": [
         "ibazylchuk.openspec-board"
       ]
@@ -861,7 +861,7 @@
     },
     "michelvelzr/ork-dbclient": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/michelvelzr/ork-dbclient/0.2.0",
       "plugins": [
         "michelvelzr.ork-dbclient"
       ]

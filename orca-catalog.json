@@ -926,8 +926,8 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BautistaPessagno/orca-spotify.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bautistapessagno/orca-spotify/0.4.0"
       },
       "description": "Spotify in Orca's sidebar: Home, your library, search, queue and devices, plus a now-playing status bar item. Your coding agents can play, pause, search and queue too. Works with the Spotify app on a Mac out of the box. Not affiliated with Spotify.",
       "categories": [
@@ -6529,14 +6529,62 @@
       "ownerId": 663999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.5.3"
+        "url": "https://github.com/IBazylchuk/orca-plugin-openspec-board.git",
+        "ref": "v0.5.4"
       },
       "description": "Kanban board for OpenSpec spec-driven development: every change by stage with task progress, next step, ticket and GitHub pull requests. Apply and Finish send /opsx:apply, a finish check or your own command to the Claude Code or Codex agent of the change's own workspace, or start that workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.4",
+          "commit": "927413b89df7819cbe773814b45ae5c3b633810d",
+          "contentHash": "068e4d42c89d786009010c72c9dafa2bddfb56d5dd5ddd6932dad3ebadb6d99a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenSpec Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec Board"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ibazylchuk.openspec-board/fce975932e50d9af.png",
+              "alt": "OpenSpec Board for Orca: the board panel with changes grouped by stage (demo data)",
+              "sha256": "fce975932e50d9afdd060617fb5d7e9823453ae0868b960d5f2981f765822c32",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/ibazylchuk.openspec-board/20dd99adb9b897e0.png",
+                "alt": "The board in dark theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "20dd99adb9b897e031fab441b8ff2b626c665100f6a4d109e7eee162a3e23200",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/ibazylchuk.openspec-board/65a7d7f76aa6442d.png",
+                "alt": "The board in light theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "65a7d7f76aa6442de396e8a2823d72cb5f2ae9b2054071c853d16905e4e87d7e",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
+          "updatedAt": "2026-11-09T21:39:38+01:00"
+        },
         {
           "version": "0.5.3",
           "commit": "d1f8bb40372870d2a6c658d80fdac438256d784a",
@@ -9553,8 +9601,8 @@
       "ownerId": 131314046,
       "source": {
         "kind": "git",
-        "url": "https://github.com/MichelVelzr/ork-dbclient.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/michelvelzr/ork-dbclient/0.2.0"
       },
       "description": "Explore and query PostgreSQL, MySQL, MariaDB, Percona, Microsoft SQL Server, SQLite and Redis from an Orca sidebar panel.",
       "categories": [
