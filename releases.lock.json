@@ -65,6 +65,12 @@
     "repoId": 1449768754,
     "firstSeen": "2026-11-07T22:12:08.060Z"
   },
+  "anndii.cliproxyapi-usage@0.1.0": {
+    "commit": "5aa23229fb02d9ec0b21d3045870f4b88837edf0",
+    "contentHash": "1100b0f7c88e8a7af5aacc48b1ecbc1f3eeab101c85d264c7139d98dde4d3aa1",
+    "repoId": 1451123629,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
+  },
   "anthony-fp.agent-inbox@0.2.2": {
     "commit": "c134b3a18670f16f319d3348ed47e3256dd233b1",
     "contentHash": "9125025e29600aee04d1ee25365a044e8a4648ab1cf03eb26088cc738e71ccb2",
@@ -491,6 +497,12 @@
     "repoId": 1446983111,
     "firstSeen": "2026-11-05T16:18:38.814Z"
   },
+  "gino8080.git-overview@0.1.8": {
+    "commit": "f100096e093f443282acf7c246daf6f48de35dbd",
+    "contentHash": "5ca773098efa9c08f85eb2477bb5af699fda491872e8b806d1cc921cfc921da3",
+    "repoId": 1445790640,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
+  },
   "gongxliang.claude-paper@0.1.1": {
     "commit": "bff83e4a6ae72804a000894fc25c2eca075efe11",
     "contentHash": "72d6ad8680d57393d34d38abd0d3d8a69dbe764743639e33209b106e879bcc50",
@@ -647,6 +659,12 @@
     "repoId": 1450899416,
     "firstSeen": "2026-11-09T07:39:24.643Z"
   },
+  "jiangwanyutao.claude-theme@1.5.0": {
+    "commit": "a8c7af848f1f3518b5e874f5f27a95c98c5b1e42",
+    "contentHash": "54c0df9a73e0a43b08b2bbf6bf59c53c1f26616bdb9bf6e4da32110fc639d133",
+    "repoId": 1450899416,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
+  },
   "jig-harness.jig@0.1.0": {
     "commit": "bb5165ac4c679b7c3e35ff215f0e84a8d57ab1ae",
     "contentHash": "914cf36187e905247a9d9ee42ee5a4947618ba5b29b798e9133c837043a48c9f",
@@ -797,6 +815,12 @@
     "repoId": 1446885777,
     "firstSeen": "2026-11-07T21:11:52.954Z"
   },
+  "miragon.context-maps-modeler@0.4.0": {
+    "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+    "contentHash": "3b6240ab7f52cd958d7569ecdd2c819c9645ac3fc29eb990e5aa4213bd85cddc",
+    "repoId": 1446885777,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
+  },
   "miragon.event-storming-modeler@0.1.2": {
     "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
     "contentHash": "463cdfa39efd73dfcefd1d92c1057e8dd4b092a7cb7342b13ac0fa8763f0eb5e",
@@ -820,6 +844,12 @@
     "contentHash": "be165d791f5706368e077c3308f3f3f08f76f6e5f15bacca4e37fadc2401f31b",
     "repoId": 1446885777,
     "firstSeen": "2026-11-07T21:11:52.954Z"
+  },
+  "miragon.event-storming-modeler@0.4.0": {
+    "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+    "contentHash": "4decbeb1b4c05ee9cf4d9a90fef5d38711108df75754de1ea5cf8da08d170766",
+    "repoId": 1446885777,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
   },
   "miragon.team-topologies-modeler@0.18.2": {
     "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
@@ -845,6 +875,12 @@
     "repoId": 1446885777,
     "firstSeen": "2026-11-07T21:11:52.954Z"
   },
+  "miragon.team-topologies-modeler@0.21.0": {
+    "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+    "contentHash": "78c0582a85ad26d7a14cf8a4e827de0ea3333c0f102ec374e01096ff37c8b4ba",
+    "repoId": 1446885777,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
+  },
   "miragon.value-chain-modeler@0.1.2": {
     "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
     "contentHash": "c2741b5a767911ba763744abd23dd59f605205e72696912473d69e6125cc484b",
@@ -869,6 +905,12 @@
     "repoId": 1446885777,
     "firstSeen": "2026-11-07T21:11:52.954Z"
   },
+  "miragon.value-chain-modeler@0.4.0": {
+    "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+    "contentHash": "377bdcdb0a26627b0048d44f9ef5f3506b77331291a7406b7f2b579518509c64",
+    "repoId": 1446885777,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
+  },
   "miragon.wardley-maps-modeler@0.1.2": {
     "commit": "2a6986ab54cc3963131f7975dd8efaaf75cc87de",
     "contentHash": "61eebb23a5234901e505c566358ac384054251dd551661fd1c50b094b9b2073f",
@@ -892,6 +934,12 @@
     "contentHash": "766f92d6319748f978e717438d5d9deb0d67da5722cc06cee0422a9e2caa5ff2",
     "repoId": 1446885777,
     "firstSeen": "2026-11-07T21:11:52.954Z"
+  },
+  "miragon.wardley-maps-modeler@0.4.0": {
+    "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+    "contentHash": "bab3407ca46fc5308503caf7ef16dcd9b205c44940373777a459a2c4d2f27e50",
+    "repoId": 1446885777,
+    "firstSeen": "2026-11-09T08:55:33.576Z"
   },
   "molanojf.json-canvas@1.0.0": {
     "commit": "be1394f4fdb90ae0e39d88ce98fc2ccb5127ba21",

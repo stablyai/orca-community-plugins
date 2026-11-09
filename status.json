@@ -55,6 +55,13 @@
         "aminechr54.agent-split"
       ]
     },
+    "anndii/orca-cliproxyapi-usage": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "anndii.cliproxyapi-usage"
+      ]
+    },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
       "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.3",
@@ -139,7 +146,7 @@
     },
     "brodesigns/orca-woodpecker-status": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.2",
       "plugins": [
         "brodesigns.woodpecker-status"
       ]
@@ -264,11 +271,11 @@
     },
     "dohaidang/orca-theme-plugin": {
       "state": "rejected",
-      "ref": "v1.6.0",
+      "ref": "v1.6.1",
       "reasons": [
         {
           "category": "binary-files",
-          "detail": "bundles binary files (images/aurora.webm, images/boats.webm, images/cloud.webm, images/coral.webm, images/fire.webm, …)"
+          "detail": "bundles binary files (images/aurora.mp4, images/boats.mp4, images/cloud.mp4, images/coral.mp4, images/fire.mp4, …)"
         }
       ]
     },
@@ -461,41 +468,13 @@
       ]
     },
     "gino8080/orca-git-overview": {
-      "state": "rejected",
-      "ref": "v0.1.7",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[2].images.cover: sha256 does not match assets/cover.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[2].images.screenshots[0]: sha256 does not match assets/screenshot-graph.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[3].images.cover: sha256 does not match assets/cover.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[3].images.screenshots[0]: sha256 does not match assets/screenshot-graph.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[4].images.cover: sha256 does not match assets/cover.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[4].images.screenshots[0]: sha256 does not match assets/screenshot-graph.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[5].images.cover: sha256 does not match assets/cover.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[5].images.screenshots[0]: sha256 does not match assets/screenshot-graph.png"
-        }
+      "state": "listed",
+      "ref": "refs/tags/gino8080/orca-git-overview/0.1.8",
+      "plugins": [
+        "gino8080.git-overview"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "gongxliang/claude-paper": {
@@ -629,7 +608,7 @@
     },
     "jiangwanyutao/orca-claude-theme": {
       "state": "listed",
-      "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.4.0",
+      "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.5.0",
       "plugins": [
         "jiangwanyutao.claude-theme"
       ],
@@ -720,7 +699,7 @@
     },
     "kyino-pan/agents-director": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/kyino-pan/agents-director/0.1.2",
       "plugins": [
         "kyino-pan.agent-activity"
       ]
@@ -1143,7 +1122,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.7.2",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.7.2",
       "plugins": [
         "satangbudsai.git-control"
       ]

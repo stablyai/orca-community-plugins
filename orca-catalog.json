@@ -479,6 +479,56 @@
       ]
     },
     {
+      "id": "anndii.cliproxyapi-usage",
+      "ownerId": 7313239,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aNNdii/orca-cliproxyapi-usage.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Token and request usage of your CLIProxyAPI server per model and account, in a sidebar panel and the status bar.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "5aa23229fb02d9ec0b21d3045870f4b88837edf0",
+          "contentHash": "1100b0f7c88e8a7af5aacc48b1ecbc1f3eeab101c85d264c7139d98dde4d3aa1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "CLIProxyAPI Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CLIProxyAPI"
+            },
+            {
+              "kind": "commands",
+              "name": "CLIProxyAPI: Show today's usage"
+            },
+            {
+              "kind": "commands",
+              "name": "CLIProxyAPI: Refresh usage now"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CPA"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aNNdii/orca-cliproxyapi-usage",
+          "updatedAt": "2026-11-09T09:42:30+01:00"
+        }
+      ]
+    },
+    {
       "id": "anthony-fp.agent-inbox",
       "ownerId": 30504,
       "source": {
@@ -1207,8 +1257,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-woodpecker-status.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.2"
       },
       "description": "Shows the status of all your Woodpecker CI projects in the sidebar, with error messages and a log excerpt of the failed step. Read-only: talks only to your own Woodpecker server, no tracking.",
       "categories": [
@@ -4753,6 +4803,91 @@
       ]
     },
     {
+      "id": "gino8080.git-overview",
+      "ownerId": 1710920,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gino8080/orca-git-overview/0.1.8"
+      },
+      "description": "For a folder of independent git repos, each with its own .git and no shared parent. See which have pending changes, are behind their remote or sit on a different branch, and fetch them all in one click. Orca's native Source Control covers attached worktrees; this covers plain sub-repos.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.8",
+          "commit": "f100096e093f443282acf7c246daf6f48de35dbd",
+          "contentHash": "5ca773098efa9c08f85eb2477bb5af699fda491872e8b806d1cc921cfc921da3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Multi-Repo Git Overview",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Overview"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".gitdiff"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git Overview"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitdiff"
+          ],
+          "editorFileTypes": [
+            "gitdiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gino8080.git-overview/87a9b6a09719fe69.png",
+              "alt": "Multi-Repo Git Overview: every repository of a folder in one panel, with pending changes, ahead/behind and branch mismatches",
+              "sha256": "87a9b6a09719fe696971915c870126499d227f95a784bd06eba132fcc88f9a9e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gino8080.git-overview/5d3725cbb02cacde.png",
+              "alt": "Multi-Repo Git Overview icon",
+              "sha256": "5d3725cbb02cacde4468d7e2a3711861b2b1fd24740743d7ab6eda5c250b4c44",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gino8080.git-overview/57521e2cbb8bfeb4.png",
+                "alt": "Summary bar (5 repos, 3 with changes, 1 behind, 1 ahead, on 2 branches) above the list of five repositories and one repo's staged file",
+                "sha256": "57521e2cbb8bfeb4bac49e5bae66773e3f34375db42ae271ff0b49f1ba7a4eff",
+                "width": 1402,
+                "height": 876
+              },
+              {
+                "path": "assets/gino8080.git-overview/3b50247c329489f1.png",
+                "alt": "The same panel with the commit graph of one repository and the files changed by the selected commit",
+                "sha256": "3b50247c329489f1e6cb8a09f68b0dd0a8af7579e03422f93d0c228daad62956",
+                "width": 1402,
+                "height": 1050
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gino8080/orca-git-overview",
+          "updatedAt": "2026-11-09T09:24:12+01:00"
+        }
+      ]
+    },
+    {
       "id": "gongxliang.claude-paper",
       "ownerId": 174983892,
       "source": {
@@ -5780,15 +5915,80 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.4.0"
+        "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.5.0"
       },
-      "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, matching terminal themes, and minimal icons.",
+      "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, midnight and pure white variants, signature terracotta accents, full chat suite, terminal themes, and semantic folder icons.",
       "categories": [
         "themes",
         "terminal-themes",
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.5.0",
+          "commit": "a8c7af848f1f3518b5e874f5f27a95c98c5b1e42",
+          "contentHash": "54c0df9a73e0a43b08b2bbf6bf59c53c1f26616bdb9bf6e4da32110fc639d133",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Claude Theme for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Dark (Midnight OLED)"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light (Pure White)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark (Midnight OLED)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light (Charcoal Cursor)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jiangwanyutao.claude-theme/af5ebb9d652bae41.png",
+              "alt": "Claude Theme for Orca preview showing the warm editor, file tree, terminal, and color palette",
+              "sha256": "af5ebb9d652bae4148f4e5bb8f69f1c7a818dd31750ad95598b33ffde59c4ef6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jiangwanyutao.claude-theme/23d364670288ba27.png",
+              "alt": "Claude Theme for Orca icon",
+              "sha256": "23d364670288ba270d703a97772bb8e1b14749fda6121f6b541af86ca6d5cd59",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
+          "updatedAt": "2026-11-09T16:37:45+08:00"
+        },
         {
           "version": "1.4.0",
           "commit": "f3a036ad0a510daaa3ce7111a7ed845c09f45a59",
@@ -6747,8 +6947,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Kyino-Pan/agents-director.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kyino-pan/agents-director/0.1.2"
       },
       "description": "A rolling 7-day agent timeline reconstructed from Orca logs, with live status updates and orchestration message arrows.",
       "categories": [
@@ -7580,13 +7780,88 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.3.0",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.21",
         "path": "plugins/context-maps-modeler"
       },
-      "description": "Open .cm and .cm.json files as context maps: model bounded contexts and their relationships, and see an agent's changes to the file as they happen.",
+      "description": "Open .cm and .cm.json files as context maps: model bounded contexts and their relationships, and keep an agent's changes to the file merged with yours.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+          "contentHash": "3b6240ab7f52cd958d7569ecdd2c819c9645ac3fc29eb990e5aa4213bd85cddc",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.252",
+          "name": "Context Maps Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Context Map",
+              "detail": ".cm, .cm.json"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New context map from example",
+              "detail": ".cm"
+            }
+          ],
+          "fileTypes": [
+            "cm"
+          ],
+          "editorFileTypes": [
+            "cm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/miragon.context-maps-modeler/ceef88f0b5a9e5f4.webp",
+              "alt": "Miragon Modeler for Context Maps: Context maps from plain .cm files, edited by you and your agents.",
+              "sha256": "ceef88f0b5a9e5f41f6f0dba1c6dfa32eeab09596d8b874c7d77b4881c2ad3a5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/miragon.context-maps-modeler/ad75604c53bd3392.png",
+              "alt": "Context Maps Modeler icon",
+              "sha256": "ad75604c53bd3392644f6b29806530ad9fd4644025e9d0b0ecb39064d18d9325",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/miragon.context-maps-modeler/ceef88f0b5a9e5f4.webp",
+                "alt": "Miragon Modeler for Context Maps: Context maps from plain .cm files, edited by you and your agents.",
+                "sha256": "ceef88f0b5a9e5f41f6f0dba1c6dfa32eeab09596d8b874c7d77b4881c2ad3a5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/miragon.context-maps-modeler/b49534cd5c7f52fc.webp",
+                "alt": "Orca with the strategy-workshop folder open and conference-program.cm in the Context Maps editor, next to the project sidebar and the file tree",
+                "sha256": "b49534cd5c7f52fc53555969af7709b7c73f070948cf96b2781e7be128c84a0d",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.context-maps-modeler/70a177c617f0ff6e.webp",
+                "alt": "Orca with the Context Maps editor and a relationship selected and its pattern menu open: partnership, shared kernel, customer-supplier",
+                "sha256": "70a177c617f0ff6e03e985f6d21fbb8430173b4c2fe82a3ca3eb117e5feb4d17",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.context-maps-modeler/6bdef1ecfb83c658.webp",
+                "alt": "Orca with the Context Maps editor and its legend open, explaining subdomain types, integration roles and relationship patterns",
+                "sha256": "6bdef1ecfb83c658712e514e5fa98377068d42a11889b073e1ae0f6067cf30d7",
+                "width": 1919,
+                "height": 1199
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-09T08:45:32Z"
+        },
         {
           "version": "0.3.0",
           "commit": "27d04de633e38c0c3981975b5d57f309b43dd3c0",
@@ -7786,13 +8061,88 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/miragon/orca-modelers/event-storming-modeler/0.3.0",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.21",
         "path": "plugins/event-storming-modeler"
       },
-      "description": "Open .storm files as Event Storming boards: model with stickies, notes and arrows, and see an agent's changes to the file as they happen.",
+      "description": "Open .storm files as Event Storming boards: model with stickies, notes and arrows, and keep an agent's changes to the file merged with yours.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+          "contentHash": "4decbeb1b4c05ee9cf4d9a90fef5d38711108df75754de1ea5cf8da08d170766",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.252",
+          "name": "Event Storming Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Event Storming",
+              "detail": ".storm"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Event Storming board from example",
+              "detail": ".storm"
+            }
+          ],
+          "fileTypes": [
+            "storm"
+          ],
+          "editorFileTypes": [
+            "storm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/miragon.event-storming-modeler/45c58540c0fc799e.webp",
+              "alt": "Miragon Modeler for Event Storming: Event Storming boards from plain .storm files, edited by you and your agents.",
+              "sha256": "45c58540c0fc799ec71f3a23cc630f5da692c269ff69f59978c59c3b58e52d28",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/miragon.event-storming-modeler/99809fe3d5de90d8.png",
+              "alt": "Event Storming Modeler icon",
+              "sha256": "99809fe3d5de90d8bc1ff143795cc78c9911c152da6b2ed6b4a25fa0a771c3bb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/miragon.event-storming-modeler/45c58540c0fc799e.webp",
+                "alt": "Miragon Modeler for Event Storming: Event Storming boards from plain .storm files, edited by you and your agents.",
+                "sha256": "45c58540c0fc799ec71f3a23cc630f5da692c269ff69f59978c59c3b58e52d28",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/miragon.event-storming-modeler/ef7c7d00feacc5c6.webp",
+                "alt": "Orca with the strategy-workshop folder open and order-checkout.storm in the Event Storming editor, next to the project sidebar and the file tree",
+                "sha256": "ef7c7d00feacc5c642f702182ba5a5543d66a2e5b2f22a632906af70fc70f774",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.event-storming-modeler/a412be0163b63065.webp",
+                "alt": "Orca with the Event Storming editor and the Aggregates dialog listing each aggregate with its commands and events",
+                "sha256": "a412be0163b63065a6b5b0d60e567a272baab026f385ca79a6e94040def76e6a",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.event-storming-modeler/ed7a8e547040095b.webp",
+                "alt": "Orca with the Event Storming editor and its menu open at the levels big picture, process modeling and software design",
+                "sha256": "ed7a8e547040095be7ee3aad4dcb1eddaa209aef5036ad006984c7c7dc4d150b",
+                "width": 1919,
+                "height": 1199
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-09T08:45:32Z"
+        },
         {
           "version": "0.3.0",
           "commit": "27d04de633e38c0c3981975b5d57f309b43dd3c0",
@@ -7992,13 +8342,88 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/miragon/orca-modelers/team-topologies-modeler/0.20.0",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.21",
         "path": "plugins/team-topologies-modeler"
       },
-      "description": "Open .tt and .ttm.json files as Team Topologies diagrams: model teams, their interactions and the flow of change, and see an agent's changes to the file as they happen.",
+      "description": "Open .tt and .ttm.json files as Team Topologies diagrams: model teams, their interactions and the flow of change, and keep an agent's changes to the file merged with yours.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.21.0",
+          "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+          "contentHash": "78c0582a85ad26d7a14cf8a4e827de0ea3333c0f102ec374e01096ff37c8b4ba",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.252",
+          "name": "Team Topologies Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Team Topologies",
+              "detail": ".tt, .ttm.json"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New team topology from example",
+              "detail": ".tt"
+            }
+          ],
+          "fileTypes": [
+            "tt"
+          ],
+          "editorFileTypes": [
+            "tt"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/miragon.team-topologies-modeler/abc57806d08036f1.webp",
+              "alt": "Miragon Modeler for Team Topologies: Team Topologies diagrams from plain .tt files, edited by you and your agents.",
+              "sha256": "abc57806d08036f1e0a3c9e17b45d5458ab0e379ddf371edffd492e945756e6f",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/miragon.team-topologies-modeler/5baee532eae5ca5a.png",
+              "alt": "Team Topologies Modeler icon",
+              "sha256": "5baee532eae5ca5a41154494d9c125470667d7a9c156d4e6040a62094f754b1a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/miragon.team-topologies-modeler/abc57806d08036f1.webp",
+                "alt": "Miragon Modeler for Team Topologies: Team Topologies diagrams from plain .tt files, edited by you and your agents.",
+                "sha256": "abc57806d08036f1e0a3c9e17b45d5458ab0e379ddf371edffd492e945756e6f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/miragon.team-topologies-modeler/a547bc66c7a0dab7.webp",
+                "alt": "Orca with the strategy-workshop folder open and ride-hailing.tt in the Team Topologies editor, next to the project sidebar and the file tree",
+                "sha256": "a547bc66c7a0dab717ce583412f9213d74e76be4c9f923f8dba04a9030d4fda5",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.team-topologies-modeler/bf364ccfa073d1ef.webp",
+                "alt": "Orca with the Team Topologies editor and the Booking & Dispatch team selected and its properties open: type, name, description and colours",
+                "sha256": "bf364ccfa073d1ef1fd9dd2fe715bc720cabb6e7fa8b2bf398eeb757785ffd22",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.team-topologies-modeler/dc3ae1d85cb00e10.webp",
+                "alt": "Orca with the Team Topologies editor and its legend open, explaining the team types, interaction modes and other elements",
+                "sha256": "dc3ae1d85cb00e107de0cd82deb83a416672e0cb694e6e2bd93fe9f4ad9eb705",
+                "width": 1919,
+                "height": 1199
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-09T08:45:32Z"
+        },
         {
           "version": "0.20.0",
           "commit": "27d04de633e38c0c3981975b5d57f309b43dd3c0",
@@ -8198,13 +8623,88 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/miragon/orca-modelers/value-chain-modeler/0.3.0",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.21",
         "path": "plugins/value-chain-modeler"
       },
-      "description": "Open .vc and .vc.json files as value chain diagrams: model process steps, org units and their connections, and see an agent's changes to the file as they happen.",
+      "description": "Open .vc and .vc.json files as value chain diagrams: model process steps, org units and their connections, and keep an agent's changes to the file merged with yours.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+          "contentHash": "377bdcdb0a26627b0048d44f9ef5f3506b77331291a7406b7f2b579518509c64",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.252",
+          "name": "Value Chain Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Value Chain",
+              "detail": ".vc, .vc.json"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New value chain from example",
+              "detail": ".vc.json"
+            }
+          ],
+          "fileTypes": [
+            "vc"
+          ],
+          "editorFileTypes": [
+            "vc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/miragon.value-chain-modeler/eb0e8522d7481c7d.webp",
+              "alt": "Miragon Modeler for Value Chain: Value chains from plain .vc files, edited by you and your agents.",
+              "sha256": "eb0e8522d7481c7d451692c017303b9e10f770defbb5c9f90c75325bec97beaa",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/miragon.value-chain-modeler/4c24a8280cdcf892.png",
+              "alt": "Value Chain Modeler icon",
+              "sha256": "4c24a8280cdcf892c62dbd924a99aedffea4922620c199a5c6437ca9865bb9b5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/miragon.value-chain-modeler/eb0e8522d7481c7d.webp",
+                "alt": "Miragon Modeler for Value Chain: Value chains from plain .vc files, edited by you and your agents.",
+                "sha256": "eb0e8522d7481c7d451692c017303b9e10f770defbb5c9f90c75325bec97beaa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/miragon.value-chain-modeler/0c336d2d3a5a85bc.webp",
+                "alt": "Orca with the strategy-workshop folder open and porter.vc.json in the Value Chain editor, next to the project sidebar and the file tree",
+                "sha256": "0c336d2d3a5a85bc43cdc7e50a38b9b5fd32dc2ee379b76ef249f3148c21bd42",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.value-chain-modeler/e43855b431ee7585.webp",
+                "alt": "Orca with the Value Chain editor and five steps selected and the align menu open: align left, center, right, top, middle, bottom, distribute",
+                "sha256": "e43855b431ee75856ea5b1a39f90e2d4199a3d8036cedbea0a54f80f28fa62de",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.value-chain-modeler/f9748a30a6d08ce7.webp",
+                "alt": "Orca with the Value Chain editor and the Operations step selected and its context pad for appending steps, sub-steps and units",
+                "sha256": "f9748a30a6d08ce73518c871b8daaa06964d79551db17eb4af78a6e79bc70883",
+                "width": 1919,
+                "height": 1199
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-09T08:45:32Z"
+        },
         {
           "version": "0.3.0",
           "commit": "27d04de633e38c0c3981975b5d57f309b43dd3c0",
@@ -8404,13 +8904,90 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/miragon/orca-modelers/wardley-maps-modeler/0.3.0",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "v0.1.21",
         "path": "plugins/wardley-maps-modeler"
       },
-      "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and see an agent's changes to the file as they happen.",
+      "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and keep an agent's changes to the file merged with yours.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "431e96fac70ed06cd83a91e2780899c4dedf5519",
+          "contentHash": "bab3407ca46fc5308503caf7ef16dcd9b205c44940373777a459a2c4d2f27e50",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.252",
+          "name": "Wardley Maps Modeler",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Wardley Map",
+              "detail": ".wmap, .owm"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Wardley map from example",
+              "detail": ".wmap"
+            }
+          ],
+          "fileTypes": [
+            "wmap",
+            "owm"
+          ],
+          "editorFileTypes": [
+            "wmap",
+            "owm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/miragon.wardley-maps-modeler/472ced7a0568301c.webp",
+              "alt": "Miragon Modeler for Wardley Maps: Wardley maps from plain .wmap files, edited by you and your agents.",
+              "sha256": "472ced7a0568301c8dd86debfe29266ba16768f6671f2e75722bb56598cdb3ef",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/miragon.wardley-maps-modeler/76fda4a378f199ca.png",
+              "alt": "Wardley Maps Modeler icon",
+              "sha256": "76fda4a378f199ca8032ab969561df1a8cec1379e1ece1951ad5a234577d2fef",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/miragon.wardley-maps-modeler/472ced7a0568301c.webp",
+                "alt": "Miragon Modeler for Wardley Maps: Wardley maps from plain .wmap files, edited by you and your agents.",
+                "sha256": "472ced7a0568301c8dd86debfe29266ba16768f6671f2e75722bb56598cdb3ef",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/miragon.wardley-maps-modeler/c93f499204e29fd0.webp",
+                "alt": "Orca with the strategy-workshop folder open and online-grocery.wmap in the Wardley Maps editor, next to the project sidebar and the file tree",
+                "sha256": "c93f499204e29fd05153c146f716f57433ad074e446dce9eb47a7a592af5bdb5",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.wardley-maps-modeler/969e260ca6e25756.webp",
+                "alt": "Orca with the Wardley Maps editor and Product Catalogue selected and its settings open: type, sourcing (build, buy, outsource) and inertia",
+                "sha256": "969e260ca6e257564076d28fc9283143da4294c19128257aa6802a74aeb08c5a",
+                "width": 1919,
+                "height": 1199
+              },
+              {
+                "path": "assets/miragon.wardley-maps-modeler/58fca62b190f6f83.webp",
+                "alt": "Orca with the Wardley Maps editor and the X-axis labels dialog open, showing a preset and the four evolution stages",
+                "sha256": "58fca62b190f6f83bf4166ae42d2cfbbdf5330127aa7673dc8a5e5840b7dbf60",
+                "width": 1919,
+                "height": 1199
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Miragon/orca-modelers",
+          "updatedAt": "2026-11-09T08:45:32Z"
+        },
         {
           "version": "0.3.0",
           "commit": "27d04de633e38c0c3981975b5d57f309b43dd3c0",
@@ -10806,8 +11383,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.7.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.7.2"
       },
       "description": "A Git client inside Orca: commit graph, commits, branches, stashes and worktrees, plus GitHub and GitLab merge requests and pipelines, with your existing Git login. In a full tab and the right sidebar.",
       "categories": [
