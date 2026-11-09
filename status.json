@@ -28,11 +28,11 @@
         "addisflava.llm-router"
       ],
       "update": {
-        "ref": "v1.0.0",
+        "ref": "v1.0.1",
         "reasons": [
           {
-            "category": "version-locked",
-            "detail": "tag v1.0.0 moved: version 1.0.0 was first listed at commit e6a3f564fec97106af31390db1678b8b445b5918 and stays that release; publish a new version instead"
+            "category": "under-review",
+            "detail": "code, pricing"
           }
         ]
       }
@@ -509,17 +509,10 @@
       ]
     },
     "gino8080/orca-git-overview": {
-      "state": "rejected",
-      "ref": "v0.1.9",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[0].images.screenshots[0]: sha256 does not match assets/screenshot-overview.png"
-        },
-        {
-          "category": "validation",
-          "detail": "/orca-catalog.json: plugins[0].releases[0].images.screenshots[1]: assets/screenshot-graph.png is missing from the catalog repository"
-        }
+      "state": "listed",
+      "ref": "v0.1.10",
+      "plugins": [
+        "gino8080.git-overview"
       ]
     },
     "gongxliang/claude-paper": {
@@ -527,7 +520,16 @@
       "ref": "v0.4.1",
       "plugins": [
         "gongxliang.claude-paper"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
@@ -558,6 +560,13 @@
       "ref": "refs/tags/heath0xff/stillwater/1.1.0",
       "plugins": [
         "heath0xff.stillwater"
+      ]
+    },
+    "hilbana/orca-plugin": {
+      "state": "listed",
+      "ref": "v0.5.0",
+      "plugins": [
+        "hilbana.hilbana"
       ]
     },
     "hubo1989/orca-codegraph-init": {
@@ -796,7 +805,7 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "refs/tags/llima/craftar-orca/0.2.2",
+      "ref": "v0.3.0",
       "plugins": [
         "llima.craftar"
       ]

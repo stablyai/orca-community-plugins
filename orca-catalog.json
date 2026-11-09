@@ -5612,6 +5612,84 @@
       ]
     },
     {
+      "id": "gino8080.git-overview",
+      "ownerId": 1710920,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gino8080/orca-git-overview.git",
+        "ref": "v0.1.10"
+      },
+      "description": "For a folder of independent git repos, each with its own .git and no shared parent. See which have pending changes, are behind their remote or sit on a different branch, and fetch them all in one click. Orca's native Source Control covers attached worktrees; this covers plain sub-repos.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.10",
+          "commit": "60d32e139104724e446fdb491695f211b47180ba",
+          "contentHash": "e9637b5841370ee38ae34273d5f60b69317d40bf245bbe0c0641afe08fe0fc11",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Multi-Repo Git Overview",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Overview"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".gitdiff"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git Overview"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitdiff"
+          ],
+          "editorFileTypes": [
+            "gitdiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gino8080.git-overview/87a9b6a09719fe69.png",
+              "alt": "Multi-Repo Git Overview: every repository of a folder in one panel, with pending changes, ahead/behind and branch mismatches",
+              "sha256": "87a9b6a09719fe696971915c870126499d227f95a784bd06eba132fcc88f9a9e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gino8080.git-overview/5d3725cbb02cacde.png",
+              "alt": "Multi-Repo Git Overview icon",
+              "sha256": "5d3725cbb02cacde4468d7e2a3711861b2b1fd24740743d7ab6eda5c250b4c44",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gino8080.git-overview/24211ae05149aada.png",
+                "alt": "Summary bar (5 repos, 3 with changes, 1 behind, 1 ahead) over the five repos, with the commit graph and a commit's files of the selected repo",
+                "sha256": "24211ae05149aada70060e9568c4e583c21762c7751e935f3b0d869cdc53799f",
+                "width": 1402,
+                "height": 1260
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gino8080/orca-git-overview",
+          "updatedAt": "2026-11-09T18:52:02+01:00"
+        }
+      ]
+    },
+    {
       "id": "gongxliang.claude-paper",
       "ownerId": 174983892,
       "source": {
@@ -6124,6 +6202,59 @@
           "license": "MIT",
           "repository": "https://github.com/heath0xFF/stillwater",
           "updatedAt": "2026-11-04T07:17:45-06:00"
+        }
+      ]
+    },
+    {
+      "id": "hilbana.hilbana",
+      "ownerId": 310960506,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hilbana/orca-plugin.git",
+        "ref": "v0.5.0"
+      },
+      "description": "Your Hilbana issues inside Orca: list, filters, search, detail, state changes, comments, a status bar counter and a button that runs the Hilbana command in your agent.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "3071384634e0c7aa99d96f79cbaadfd04543c9f4",
+          "contentHash": "037226727c8cf9d20402025bc2c42dc75fdebba4d4158cc8740f6d64411f240d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.250",
+          "name": "Hilbana",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Hilbana"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Hilbana —"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "settings:own",
+            "secrets:own",
+            "storage:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/hilbana.hilbana/5ae98bc1f432f5e0.png",
+              "alt": "Hilbana icon",
+              "sha256": "5ae98bc1f432f5e044e91a1125ae85c7788d086196b6092200f5abd45d537655",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/hilbana/orca-plugin",
+          "updatedAt": "2026-11-09T18:51:32+01:00"
         }
       ]
     },
@@ -8344,8 +8475,8 @@
       "ownerId": 777984,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/llima/craftar-orca/0.2.2"
+        "url": "https://github.com/llima/craftar-orca.git",
+        "ref": "v0.3.0"
       },
       "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
       "categories": [
@@ -8354,6 +8485,91 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "6b00de709d735fd45c7dd55cbf3bf06b38d28a99",
+          "contentHash": "f270532b81a23645bc152db0f3a5110b21ec96666f005660979cbcdd645a4db3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "craftar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "craftar"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: show or hide the craftar panel"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: run the probe (measures what the plugin needs from Orca)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "craftar"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/llima.craftar/8e057626e8a67fec.png",
+              "alt": "craftar, its features and two of its panels (the Forge diagram and the Send all plan) on a synthetic acme workspace",
+              "sha256": "8e057626e8a67fec871d5007bd21c6cdf50fdb0c1d9bf9d9b1135f5bd2fe3a50",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/llima.craftar/65763f4e719aafea.png",
+              "alt": "craftar icon",
+              "sha256": "65763f4e719aafeaa50ae90f10b2d6e8e5d2ed848153926e7f94cffed332e57c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/llima.craftar/6689ff780732bb49.png",
+                "alt": "The craftar panel: the Forge a workspace follows, a newer tag on it, the files coming down and going up",
+                "sha256": "6689ff780732bb4968a17c031c390c827fd257d9feea9c2d5593a025af4ff59a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/743a25e474af22a7.png",
+                "alt": "Send all: one plan from craftar's dry run of every file edited by hand",
+                "sha256": "743a25e474af22a78869ded2a1125468da0cc598be9e63e01ac5fc5de8563b96",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/15ba1666a3d84396.png",
+                "alt": "The PR in the Forge: identity, branch, title, the paths craftar wrote and the body",
+                "sha256": "15ba1666a3d8439614714dd3299dac673a3726582bf04a83f14485feabd1e6c3",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/llima/craftar-orca",
+          "updatedAt": "2026-11-09T14:35:05-03:00"
+        },
         {
           "version": "0.2.2",
           "commit": "324c1f17c2b560271ea6e756445bb880b6bfbcaf",

@@ -557,6 +557,12 @@
     "repoId": 1446983111,
     "firstSeen": "2026-11-05T16:18:38.814Z"
   },
+  "gino8080.git-overview@0.1.10": {
+    "commit": "60d32e139104724e446fdb491695f211b47180ba",
+    "contentHash": "e9637b5841370ee38ae34273d5f60b69317d40bf245bbe0c0641afe08fe0fc11",
+    "repoId": 1445790640,
+    "firstSeen": "2026-11-09T18:40:05.940Z"
+  },
   "gino8080.git-overview@0.1.8": {
     "commit": "f100096e093f443282acf7c246daf6f48de35dbd",
     "contentHash": "5ca773098efa9c08f85eb2477bb5af699fda491872e8b806d1cc921cfc921da3",
@@ -652,6 +658,12 @@
     "contentHash": "1e13a50e694cab4571c0934d7aa6989650d9c52911ad91d30ccb6cfb72fbcefa",
     "repoId": 1442181874,
     "firstSeen": "2026-11-04T13:40:05.964Z"
+  },
+  "hilbana.hilbana@0.5.0": {
+    "commit": "3071384634e0c7aa99d96f79cbaadfd04543c9f4",
+    "contentHash": "037226727c8cf9d20402025bc2c42dc75fdebba4d4158cc8740f6d64411f240d",
+    "repoId": 1451666508,
+    "firstSeen": "2026-11-09T18:40:05.940Z"
   },
   "hubo1989.codegraph-init@0.1.0": {
     "commit": "052026402971133f913e79d854461ded29e98d73",
@@ -868,6 +880,12 @@
     "contentHash": "2bce21f626393a3a3360c121c799239ea60436489be1b12b8d8c2d3d0c65ed5f",
     "repoId": 1448274479,
     "firstSeen": "2026-11-09T11:39:36.617Z"
+  },
+  "llima.craftar@0.3.0": {
+    "commit": "6b00de709d735fd45c7dd55cbf3bf06b38d28a99",
+    "contentHash": "f270532b81a23645bc152db0f3a5110b21ec96666f005660979cbcdd645a4db3",
+    "repoId": 1448274479,
+    "firstSeen": "2026-11-09T18:40:05.940Z"
   },
   "marco-calderon.nord-midnight-theme@1.3.0": {
     "commit": "883afdcafe829d499574b00d87b131335af90458",
