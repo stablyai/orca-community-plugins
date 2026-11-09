@@ -1325,8 +1325,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.1.1"
+        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
+        "ref": "v2.2.0"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -1335,6 +1335,107 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "2.2.0",
+          "commit": "60427bac69a325eab1aa6dffd10f71c57a6b87f0",
+          "contentHash": "eddde0ba0cfb9f9798f67357e5a9d7b68fd290bbf147fda682e5a1ac4abe76bd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/f2733166bbedb599.jpg",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "f2733166bbedb59906409fe6c434fb360e61674213a0357735988dc71b3ec591",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/50daa14b425d12f8.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "50daa14b425d12f8be29fea651e5499eebf2f04dbb91fc54d91885feaeded3a9",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/0559af5bcb8a5cce.jpg",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "0559af5bcb8a5ccee61cd6bd53d991bf4f08b6b7eaf7c1c488665d2ec212d3f2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/08e1f8f85bbd4f73.jpg",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "08e1f8f85bbd4f73f4c5cb526f719b55b4544b3fd6fa24dade841d04e54c94d4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/b5f77ae884b601b0.jpg",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "b5f77ae884b601b08d8c9a50efa6e84834e1a0ef385e16e0507bb3b61533bf6d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-09T13:01:17+07:00"
+        },
         {
           "version": "2.1.1",
           "commit": "9e256343c914e325e7ab6e6511a6869271644e4a",
@@ -1738,107 +1839,6 @@
           "license": "MIT",
           "repository": "https://github.com/cattfan/orca-enhance-prompt",
           "updatedAt": "2026-11-08T21:13:54+07:00"
-        },
-        {
-          "version": "2.0.0",
-          "commit": "d35d1f458f3bdaac44d831ca70c946206fc72d12",
-          "contentHash": "1596da82394b4c13f011ca4a2941fd0cb929ad006f92a72ca1684465e9a5db62",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Enhance Prompt",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Enhance Prompt"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance off"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance with rules"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance with AI"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Show / hide status bar item"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.prompt.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Enhance: off"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "terminal:read"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/cattfan.enhance-prompt/3b3c13f12de66ca5.jpg",
-              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
-              "sha256": "3b3c13f12de66ca519e18ea19c411555a2dce783a63a9b397984e9be2d6c1799",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/cattfan.enhance-prompt/b38060d7b509275a.png",
-              "alt": "Enhance Prompt icon",
-              "sha256": "b38060d7b509275aa1087cc1e1006acfa518f26a488cf9a069557897f4c4e444",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/cattfan.enhance-prompt/a8aeeb52792b5e29.jpg",
-                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
-                "sha256": "a8aeeb52792b5e29b18a1e010be32aeffe745a3b3e7f9d6768e1a3eb030a0a92",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/cattfan.enhance-prompt/15b8efc874efd08d.jpg",
-                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
-                "sha256": "15b8efc874efd08d576a55ecc2d8ecfe270afae3572b02e502eda4430121847b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/cattfan.enhance-prompt/74698a963aaeaceb.jpg",
-                "alt": "The panel in Vietnamese and the history tab in Chinese",
-                "sha256": "74698a963aaeaceb7e5a1dff13bcc7368884fd65c4361d51c66ef24a92eb4759",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/cattfan/orca-enhance-prompt",
-          "updatedAt": "2026-11-08T16:50:58+07:00"
         }
       ]
     },
@@ -6185,8 +6185,8 @@
       "ownerId": 94118879,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.2.0"
+        "url": "https://github.com/jiangwanyutao/orca-claude-theme.git",
+        "ref": "v1.2.3"
       },
       "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, matching terminal themes, and minimal icons.",
       "categories": [
@@ -6195,6 +6195,48 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.2.3",
+          "commit": "515335198178fe50b6ec65e16c57a0460cbf0ec9",
+          "contentHash": "2cd77f651faed0a6b535d605085c620641f400c850757576da555b9df809ce15",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Claude Theme for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Icons"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/jiangwanyutao.claude-theme/23d364670288ba27.png",
+              "alt": "Claude Theme for Orca icon",
+              "sha256": "23d364670288ba270d703a97772bb8e1b14749fda6121f6b541af86ca6d5cd59",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
+          "updatedAt": "2026-11-09T14:20:18+08:00"
+        },
         {
           "version": "1.2.0",
           "commit": "cd8fa8de07c47c358b5ea74b3cf8446cb7b3499a",
