@@ -1242,8 +1242,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.2"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -5193,8 +5193,8 @@
       "ownerId": 125417294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/hadisd/quiet-pastel/1.1.1"
+        "url": "https://github.com/Hadisd/quiet-pastel.git",
+        "ref": "v1.1.2"
       },
       "description": "Two dark, pale blue-violet themes with pastel accents and matching terminal themes: Quiet Pastel Moonlit (brighter) and Quiet Pastel Hush (dimmer).",
       "categories": [
@@ -5202,6 +5202,44 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "a12063520555072d48ba7cf727b4cde3919d71ab",
+          "contentHash": "2e20c96bf0efd70c64a0656008c5ddcf86b40602270247994f70b157752eb166",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Quiet Pastel",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Hush"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Moonlit Terminal"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Hush Terminal"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.quiet-pastel/20147350ee4823ee.png",
+              "alt": "Quiet Pastel Moonlit preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
+              "sha256": "20147350ee4823ee0bc5dac40452f8771cec689d8ef90ddd35842e4614596033",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/quiet-pastel",
+          "updatedAt": "2026-11-09T10:04:12+09:00"
+        },
         {
           "version": "1.1.1",
           "commit": "05130898a3b2f83c248629bc7ec418f3598ef7d5",
@@ -7045,6 +7083,108 @@
           "license": "MIT",
           "repository": "https://github.com/LKGilgamesh/orca-ayu",
           "updatedAt": "2026-10-31T10:26:13-04:00"
+        }
+      ]
+    },
+    {
+      "id": "llima.craftar",
+      "ownerId": 777984,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/llima/craftar-orca.git",
+        "ref": "v0.2.0"
+      },
+      "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "aedd8f282d8999767fab373d840bcfa9585ece0d",
+          "contentHash": "cac70e76e163ee48745b49506d8cb550a740981ee279d8fc0638a72dbcbb5825",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "craftar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "craftar"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: show or hide the craftar panel"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: run the probe (measures what the plugin needs from Orca)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "craftar"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/llima.craftar/7eeb9bf007e4bc36.png",
+              "alt": "craftar, its features and two of its panels (the Forge diagram and the Send all plan) on a synthetic acme workspace",
+              "sha256": "7eeb9bf007e4bc3648cd25efe910544c8eeb942eae8052bcb22ecc1abda72a54",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/llima.craftar/65763f4e719aafea.png",
+              "alt": "craftar icon",
+              "sha256": "65763f4e719aafeaa50ae90f10b2d6e8e5d2ed848153926e7f94cffed332e57c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/llima.craftar/6689ff780732bb49.png",
+                "alt": "The craftar panel: the Forge a workspace follows, a newer tag on it, the files coming down and going up",
+                "sha256": "6689ff780732bb4968a17c031c390c827fd257d9feea9c2d5593a025af4ff59a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/743a25e474af22a7.png",
+                "alt": "Send all: one plan from craftar's dry run of every file edited by hand",
+                "sha256": "743a25e474af22a78869ded2a1125468da0cc598be9e63e01ac5fc5de8563b96",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/15ba1666a3d84396.png",
+                "alt": "The PR in the Forge: identity, branch, title, the paths craftar wrote and the body",
+                "sha256": "15ba1666a3d8439614714dd3299dac673a3726582bf04a83f14485feabd1e6c3",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/llima/craftar-orca",
+          "updatedAt": "2026-11-08T20:54:58-03:00"
         }
       ]
     },
@@ -10593,7 +10733,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/sasagar/orca-ktrz-monokai.git",
-        "ref": "v1.1.0"
+        "ref": "v1.1.1"
       },
       "description": "A port of the KTRZ Monokai color scheme to Orca: flat Monokai themes (dark and light) with matching terminal themes and syntax colors.",
       "categories": [
@@ -10601,6 +10741,35 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "ac7d4c9ea6556c86d73499a40af241d527639481",
+          "contentHash": "66ad6060d2981fb0efb8867b78338a48c2849ed9ec69696c373dfa0fafa266c6",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "KTRZ Monokai for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "KTRZ Monokai"
+            },
+            {
+              "kind": "themes",
+              "name": "KTRZ Monokai Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "KTRZ Monokai"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "KTRZ Monokai Light"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/sasagar/orca-ktrz-monokai",
+          "updatedAt": "2026-11-09T09:54:03+09:00"
+        },
         {
           "version": "1.1.0",
           "commit": "b8fcdc4fca90f775b46ed5b9e2713301076123a0",

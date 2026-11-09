@@ -153,7 +153,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.0.2",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.0.2",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -523,9 +523,19 @@
         }
       ]
     },
+    "hadisd/markdown-colorize": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
+      ]
+    },
     "hadisd/quiet-pastel": {
       "state": "listed",
-      "ref": "refs/tags/hadisd/quiet-pastel/1.1.1",
+      "ref": "v1.1.2",
       "plugins": [
         "hadisd.quiet-pastel"
       ]
@@ -748,13 +758,10 @@
       ]
     },
     "llima/craftar-orca": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "llima.craftar"
       ]
     },
     "luckury/orca-backlog-md": {
@@ -1116,12 +1123,9 @@
     },
     "sasagar/orca-ktrz-monokai": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "v1.1.1",
       "plugins": [
         "sasagar.ktrz-monokai"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "satangbudsai/orca-git-extension": {
