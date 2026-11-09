@@ -5585,7 +5585,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.3.0"
+        "ref": "v0.4.0"
       },
       "description": "Warm paper light and charcoal dark for Orca: chat, code, diffs and terminal, with original Paper Fold file icons. Unofficial, data-only.",
       "categories": [
@@ -5594,6 +5594,99 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "244b0851b1a27d4fae33909bb484282e09d99d92",
+          "contentHash": "b01d4d10848c8c48801b012d4acbc0d65085a15c6ee1c74aad3d4488f0f8ff6b",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Claude Paper",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Paper · 纸折图标"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gongxliang.claude-paper/8446292b8e2b895d.png",
+              "alt": "Claude Paper for Orca: native light chat and composer, dark Paper Fold file icons and terminal output from a public demo.",
+              "sha256": "8446292b8e2b895d23a8f75c7c94a5ce943ba8df53f07ad53ff277d5de36c95f",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
+              "alt": "Claude Paper icon",
+              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gongxliang.claude-paper/13d6f3330b2fbff3.png",
+                "alt": "Native light Orca chat, complete public demo reply, composer and Paper Fold file tree.",
+                "sha256": "13d6f3330b2fbff3288adc84229add01e0b46d4b88b750094d21d11fd880712d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/a257a422e2ae653d.png",
+                "alt": "Native dark code diff, actual test output and file tree composed from the same public demo.",
+                "sha256": "a257a422e2ae653ddb7618fee9aa03485da282a95998379edc059766eaf8304c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/e275d4354aa807eb.png",
+                "alt": "Native light JavaScript editor with syntax colors and Paper Fold icons; local path bar removed.",
+                "sha256": "e275d4354aa807ebe105eb8c1ffabe7afb0e8aee736db510bee01fc8492e1306",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/e862ab5c4d313fe6.png",
+                "alt": "Native dark terminal with real passing tests and normal/bright ANSI samples.",
+                "sha256": "e862ab5c4d313fe6c606ed08e65dd7345cf6e74d3024d24aec1b0633584eb102",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/bf87e22a2170e779.png",
+                "alt": "Rendered gallery of original Paper Fold SVGs: distinct file formats and semantic folders on both theme backgrounds.",
+                "sha256": "bf87e22a2170e779ad60db7a0b7b1203378ab01db45578e65abce6c421c13b2e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/066f0aafe9d8f3a2.png",
+                "alt": "Same native terminal output in Ghostty Default Style Dark and Claude Paper Dark: ANSI changes while explicit truecolor stays unchanged.",
+                "sha256": "066f0aafe9d8f3a25d8338ab628689689ef30beedce7fac9ef89283a24fae900",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-10T01:35:27+09:00"
+        },
         {
           "version": "0.3.0",
           "commit": "1bf229600611a14640398fb4b825e1d5629f1fdb",
@@ -7895,8 +7988,8 @@
       "ownerId": 22562898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lazyjerry/todo-for-orca/0.2.0"
+        "url": "https://github.com/lazyjerry/todo-for-orca.git",
+        "ref": "v0.3.0"
       },
       "description": "A sidebar to-do list for the small tasks of your day: timed desktop reminders, repeats and durations, with the current and next to-do in the status bar. 處理一天內小任務的側欄待辦清單：到點桌面提醒、可重複與設定持續時間，狀態列顯示進行中與下一件事。",
       "categories": [
@@ -7904,6 +7997,41 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "e4e5b23494143116000111b50a38d71381fe7f19",
+          "contentHash": "5660f2431e97ff14d791e955328abc7bfc7ff1ef0b7515e1ef29e985f459cc1f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Daily To-Do List",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Daily To-Do List"
+            },
+            {
+              "kind": "commands",
+              "name": "Daily To-Do List: Show Current and Next To-Do"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "now"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "next"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "updatedAt": "2026-11-09T23:29:00+08:00",
+          "license": "Apache-2.0",
+          "repository": "https://github.com/lazyjerry/todo-for-orca"
+        },
         {
           "version": "0.2.0",
           "commit": "d56514999bf6af19eaf795f6a0e8b3e8b9ad26a8",
@@ -11114,14 +11242,70 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/palulabs/orca-tycoon/0.2.3"
+        "url": "https://github.com/palulabs/orca-tycoon.git",
+        "ref": "v0.2.4"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.4",
+          "commit": "8f408db1635afebcd4633830374827df88864423",
+          "contentHash": "37438fe0d1dd8b1f937c84bbcd39f3e6e177ca58c522b802bfbe01c287c94ef7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Orca Tycoon",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca Tycoon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/palulabs.office-tycoon/65f2486153931c20.png",
+              "alt": "The commons of a pixel office: agents on the sofa and at the coffee corner, a foosball table, and Palú the dog eating from his bowl",
+              "sha256": "65f2486153931c2065716893a4bfb2c98d68bc27857675d242a2c936485a9071",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
+              "alt": "Orca Tycoon icon",
+              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/palulabs.office-tycoon/5f6e6b3af81d097d.png",
+                "alt": "The whole office: five teams at their desks around a commons band with a lounge, kitchen, foosball table and calling booths",
+                "sha256": "5f6e6b3af81d097deb9cd8837df5029cada32f1e23a445e46c08d21df63689c2",
+                "width": 2500,
+                "height": 1562
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/f9434ac0fd48efc5.png",
+                "alt": "A team at work with a speech bubble from an agent that just finished, and Palú asleep in his bed",
+                "sha256": "f9434ac0fd48efc5bdaeda18c75118c3645088b6966567140a7ebe55911da475",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/ad68a30cc6fab295.png",
+                "alt": "Desks showing agent states: a red flashing screen for blocked, an amber question mark for waiting, and specialists on stools",
+                "sha256": "ad68a30cc6fab2950455296c1a25dfec58e3b689d92ca17214108225fe0b4eac",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/palulabs/orca-tycoon",
+          "updatedAt": "2026-11-09T17:24:17+01:00"
+        },
         {
           "version": "0.2.3",
           "commit": "dc670069b755184e281035eda01d5be699ad0780",
@@ -12729,8 +12913,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.8.9"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.9"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees, plus GitHub and GitLab merge requests (approve and merge) and every branch's pipelines, with your existing Git login. In a full tab and the right sidebar",
       "categories": [

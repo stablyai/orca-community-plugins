@@ -73,7 +73,16 @@
       "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.3",
       "plugins": [
         "anthony-fp.agent-inbox"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "arthurlaucs/agent-ansi-palettes": {
       "state": "listed",
@@ -321,7 +330,7 @@
     },
     "ebbop/orca-italiano": {
       "state": "rejected",
-      "ref": "v1.4.251",
+      "ref": "v1.4.255",
       "reasons": [
         {
           "category": "validation",
@@ -519,7 +528,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -764,19 +773,10 @@
     },
     "lazyjerry/todo-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/lazyjerry/todo-for-orca/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "lazyjerry.todo-list"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "lindoo67/drawio-plugin": {
       "state": "listed",
@@ -988,7 +988,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.3",
+      "ref": "v0.2.4",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -1171,7 +1171,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.9",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.9",
       "plugins": [
         "satangbudsai.git-control"
       ]
