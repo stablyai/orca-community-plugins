@@ -30,7 +30,7 @@
     },
     "alexesprit/orca-unfancy-file-icons": {
       "state": "rejected",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "reasons": [
         {
           "category": "binary-files",
@@ -53,13 +53,6 @@
       "ref": "refs/tags/aminechr54/orca-agent-split/1.0.0",
       "plugins": [
         "aminechr54.agent-split"
-      ]
-    },
-    "anndii/orca-cliproxyapi-usage": {
-      "state": "listed",
-      "ref": "v0.1.0",
-      "plugins": [
-        "anndii.cliproxyapi-usage"
       ]
     },
     "anthony-fp/orca-agent-inbox": {
@@ -166,7 +159,16 @@
       "ref": "refs/tags/cattfan/orca-enhance-prompt/2.2.2",
       "plugins": [
         "cattfan.enhance-prompt"
-      ]
+      ],
+      "update": {
+        "ref": "v2.3.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -751,7 +753,7 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "refs/tags/llima/craftar-orca/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "llima.craftar"
       ]
@@ -832,7 +834,7 @@
     },
     "miragon/orca-modelers": {
       "state": "listed",
-      "ref": "refs/tags/miragon/orca-modelers/bpmn-modeler/0.1.1",
+      "ref": "v0.1.22",
       "plugins": [
         "miragon.bpmn-modeler",
         "miragon.context-maps-modeler",
@@ -1122,7 +1124,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.7.2",
+      "ref": "v0.8.0",
       "plugins": [
         "satangbudsai.git-control"
       ]
