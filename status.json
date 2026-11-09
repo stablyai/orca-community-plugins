@@ -29,10 +29,13 @@
       ]
     },
     "alexesprit/orca-unfancy-file-icons": {
-      "state": "listed",
-      "ref": "refs/tags/alexesprit/orca-unfancy-file-icons/1.0.0",
-      "plugins": [
-        "alexesprit.unfancy-file-icons"
+      "state": "rejected",
+      "ref": "v1.0.1",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (samples/sample.pyc, samples/sample.zip)"
+        }
       ]
     },
     "alexeyshishin/as-orca-plugins": {
@@ -136,7 +139,7 @@
     },
     "brodesigns/orca-woodpecker-status": {
       "state": "listed",
-      "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.0",
+      "ref": "v1.0.2",
       "plugins": [
         "brodesigns.woodpecker-status"
       ]
@@ -626,7 +629,7 @@
     },
     "jiangwanyutao/orca-claude-theme": {
       "state": "listed",
-      "ref": "v1.4.0",
+      "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.4.0",
       "plugins": [
         "jiangwanyutao.claude-theme"
       ],
@@ -717,7 +720,7 @@
     },
     "kyino-pan/agents-director": {
       "state": "listed",
-      "ref": "refs/tags/kyino-pan/agents-director/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "kyino-pan.agent-activity"
       ]
@@ -1140,19 +1143,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.7.1",
+      "ref": "v0.7.2",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.7.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, size"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
