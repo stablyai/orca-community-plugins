@@ -30,7 +30,7 @@
     },
     "alexesprit/orca-unfancy-file-icons": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "refs/tags/alexesprit/orca-unfancy-file-icons/1.0.3",
       "plugins": [
         "alexesprit.unfancy-file-icons"
       ]
@@ -136,7 +136,7 @@
     },
     "brodesigns/orca-woodpecker-status": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.0.3",
       "plugins": [
         "brodesigns.woodpecker-status"
       ]
@@ -158,7 +158,7 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v2.4.0",
+        "ref": "v2.4.2",
         "reasons": [
           {
             "category": "under-review",
@@ -269,13 +269,10 @@
       ]
     },
     "dohaidang/orca-theme-plugin": {
-      "state": "rejected",
-      "ref": "v1.6.1",
-      "reasons": [
-        {
-          "category": "binary-files",
-          "detail": "bundles binary files (images/aurora.mp4, images/boats.mp4, images/cloud.mp4, images/coral.mp4, images/fire.mp4, …)"
-        }
+      "state": "listed",
+      "ref": "v1.6.2",
+      "plugins": [
+        "dohaidang.living-ascii-themes"
       ]
     },
     "dohaidang/orca-vietnamese-plugin": {
@@ -326,7 +323,7 @@
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "v0.1.6",
+      "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.6",
       "plugins": [
         "emamalet.git-log"
       ]
@@ -1124,7 +1121,16 @@
       "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.0",
       "plugins": [
         "satangbudsai.git-control"
-      ]
+      ],
+      "update": {
+        "ref": "v0.8.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size"
+          }
+        ]
+      }
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
