@@ -525,7 +525,7 @@
     },
     "hadisd/markdown-colorize": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.1.2",
       "reasons": [
         {
           "category": "under-review",
@@ -1300,7 +1300,7 @@
     },
     "tienne/orca-plugins": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/tienne/orca-plugins/0.2.1",
       "plugins": [
         "tienne.git-logs"
       ]
