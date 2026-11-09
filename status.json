@@ -289,7 +289,7 @@
     },
     "dennib/finline": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/dennib/finline/0.2.1",
       "plugins": [
         "dennib.finline"
       ]
@@ -504,18 +504,22 @@
       ]
     },
     "gino8080/orca-git-overview": {
-      "state": "listed",
-      "ref": "refs/tags/gino8080/orca-git-overview/0.1.8",
-      "plugins": [
-        "gino8080.git-overview"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      "state": "rejected",
+      "ref": "v0.1.9",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "/orca-catalog.json: plugins[0].releases[0].images.screenshots[0]: sha256 does not match assets/screenshot-overview.png"
+        },
+        {
+          "category": "validation",
+          "detail": "/orca-catalog.json: plugins[0].releases[0].images.screenshots[1]: assets/screenshot-graph.png is missing from the catalog repository"
+        }
       ]
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "refs/tags/gongxliang/claude-paper/0.2.1",
+      "ref": "v0.3.0",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -1167,19 +1171,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.8",
+      "ref": "v0.8.9",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.8.9",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, size"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
