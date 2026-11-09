@@ -153,7 +153,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.2.0",
+      "ref": "v2.2.2",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -623,7 +623,7 @@
     },
     "jiangwanyutao/orca-claude-theme": {
       "state": "listed",
-      "ref": "v1.2.3",
+      "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.2.3",
       "plugins": [
         "jiangwanyutao.claude-theme"
       ],
@@ -1137,19 +1137,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.6.3",
+      "ref": "v0.7.0",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.7.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, size"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
