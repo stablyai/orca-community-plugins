@@ -113,6 +113,12 @@
     "repoId": 1447664604,
     "firstSeen": "2026-11-10T09:00:20.371Z"
   },
+  "arnaudrinquin.pomodoro@1.0.0": {
+    "commit": "98171e08b698cbf0a957c48e33a4c61960a44e95",
+    "contentHash": "280d9ff355b6f7b5aca01ed1e99a52c8af00c06619ae1c0ee9b4b3f74a39f1d8",
+    "repoId": 1452447007,
+    "firstSeen": "2026-11-10T09:59:04.512Z"
+  },
   "arthurlaucs.agent-ansi-palettes@0.1.0": {
     "commit": "921ef86b4cb6deb537ceb6187e9821dd61ff1ca9",
     "contentHash": "3fca3b57a603f47d81a2f8da992ee752812270bb10612e3097549a1768c0a98c",
@@ -190,6 +196,12 @@
     "contentHash": "a7e819215a43dca6a005c7e171ff77ef4e9dd15b9c3d2ee9588ce052814c3172",
     "repoId": 1449717078,
     "firstSeen": "2026-11-08T13:12:03.745Z"
+  },
+  "brezzashen.account-keys@0.1.4": {
+    "commit": "d699b0b5b755c9093859981d83144888a2578383",
+    "contentHash": "9f9280cda644d141d6e012eb49c89340e2f5af0bc2fd4c790ba360d9cb92f998",
+    "repoId": 1452471179,
+    "firstSeen": "2026-11-10T09:59:04.512Z"
   },
   "brodesigns.skill-usage@1.0.0": {
     "commit": "fdc7366cb3cc5165a2d8bb194280e469bdfbbcb2",
@@ -490,6 +502,12 @@
     "contentHash": "eb0863f58bce640f0b9f1d9f12b426707427c6159fa1de6b131327b98720bebe",
     "repoId": 1444427278,
     "firstSeen": "2026-11-09T09:39:40.593Z"
+  },
+  "emamalet.git-log@0.1.7": {
+    "commit": "0c01923eb149cad475ef898032bf3112e32f04fe",
+    "contentHash": "c03449ac1c41a26867a75ba07c5e1aab7805c630256d01357858e4ca371900a6",
+    "repoId": 1444427278,
+    "firstSeen": "2026-11-10T09:59:04.512Z"
   },
   "eskono.docker-logs@0.4.0": {
     "commit": "64fc3b217c5e1bd67f0b5ce7eb34a3cb16ae68c7",
@@ -1870,6 +1888,12 @@
     "contentHash": "a6d3422b07ca17ae70043e9bbbd62ac79e081bea874b25603ebb3e3dd952f573",
     "repoId": 1451354007,
     "firstSeen": "2026-11-09T13:16:10.415Z"
+  },
+  "turingfx.omp-usage@0.1.1": {
+    "commit": "02f1978d7cc69be97515a7de854e598ff3dada74",
+    "contentHash": "7dd212756f0b8ca4d01e3843de588ae754bce712db51750579c2d26489783567",
+    "repoId": 1451354007,
+    "firstSeen": "2026-11-10T09:59:04.512Z"
   },
   "unz47.neon-glass@1.0.1": {
     "commit": "588bafabbd8b49f4d9b38435fc8f4ef99f572156",

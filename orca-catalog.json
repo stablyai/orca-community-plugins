@@ -1119,6 +1119,65 @@
       ]
     },
     {
+      "id": "arnaudrinquin.pomodoro",
+      "ownerId": 228886,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ArnaudRinquin/orca-pomodoro.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A pomodoro timer in the status bar: click to start or pause, reset in one click, with a sound and a notification when a phase ends.",
+      "categories": [
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "98171e08b698cbf0a957c48e33a4c61960a44e95",
+          "contentHash": "280d9ff355b6f7b5aca01ed1e99a52c8af00c06619ae1c0ee9b4b3f74a39f1d8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pomodoro",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Start / Pause"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Skip to next phase"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Reset"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+P",
+              "detail": "pomodoro.toggle"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "25:00"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "reset"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "updatedAt": "2026-11-10T10:23:34+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/ArnaudRinquin/orca-pomodoro"
+        }
+      ]
+    },
+    {
       "id": "arthurlaucs.agent-ansi-palettes",
       "ownerId": 125106464,
       "source": {
@@ -1922,6 +1981,178 @@
           "license": "MIT",
           "repository": "https://github.com/Bigsy/milko",
           "updatedAt": "2026-11-08T10:29:10Z"
+        }
+      ]
+    },
+    {
+      "id": "brezzashen.account-keys",
+      "ownerId": 239109312,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/brezzashen/BrezzaOrca.git",
+        "ref": "v0.1.4"
+      },
+      "description": "Twelve account slots: Alt+F1 to Alt+F12, the palette or the sidebar panel open a new terminal tab in the focused workspace that runs the slot’s own command, such as an agent CLI on its own account profile.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "d699b0b5b755c9093859981d83144888a2578383",
+          "contentHash": "9f9280cda644d141d6e012eb49c89340e2f5af0bc2fd4c790ba360d9cb92f998",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Account Keys",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Account Keys"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 1"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 2"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 3"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 4"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 5"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 6"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 7"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 8"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 9"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 10"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 11"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Open Slot 12"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Keys: Show Slots"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F1",
+              "detail": "slot-1"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F2",
+              "detail": "slot-2"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F3",
+              "detail": "slot-3"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F4",
+              "detail": "slot-4"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F5",
+              "detail": "slot-5"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F6",
+              "detail": "slot-6"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F7",
+              "detail": "slot-7"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F8",
+              "detail": "slot-8"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F9",
+              "detail": "slot-9"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F10",
+              "detail": "slot-10"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F11",
+              "detail": "slot-11"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Alt+F12",
+              "detail": "slot-12"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Accounts"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "agent:read",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/brezzashen.account-keys/e77446e362b11516.png",
+              "alt": "Account Keys icon",
+              "sha256": "e77446e362b1151651411f6ada1ec86f48a783db127129e0f4ad609b60d1ad68",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brezzashen/BrezzaOrca",
+          "updatedAt": "2026-11-10T17:45:31+08:00"
         }
       ]
     },
@@ -4816,8 +5047,8 @@
       "ownerId": 43491715,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.6"
+        "url": "https://github.com/emamalet/orca-git-log-panel.git",
+        "ref": "v0.1.7"
       },
       "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
       "categories": [
@@ -4825,6 +5056,89 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.7",
+          "commit": "0c01923eb149cad475ef898032bf3112e32f04fe",
+          "contentHash": "c03449ac1c41a26867a75ba07c5e1aab7805c630256d01357858e4ca371900a6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Log",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Log: Open in Editor Tab"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Log",
+              "detail": ".gitlog"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitlog"
+          ],
+          "editorFileTypes": [
+            "gitlog"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/emamalet.git-log/837f35e2f23073cb.png",
+              "alt": "Git Log title and logo next to the commit graph with three selected commits and the right-click menu to squash, fixup or drop them",
+              "sha256": "837f35e2f23073cbb4dda11e4c17f858d0136c6d6671ddd0a58487ee545800cf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/emamalet.git-log/71e73d4b3210781f.png",
+              "alt": "Git Log icon",
+              "sha256": "71e73d4b3210781fbae7b973a36913ea8942b8d491504e842337ac49bc0dcffe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/emamalet.git-log/fcf2ea594330e1d8.png",
+                "alt": "Commit log with three selected commits and the right-click menu open",
+                "sha256": "fcf2ea594330e1d8e623d2917ac585c4bb4f3e3ba599a3ee1baaef8c1e35a30e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/3e87c5ee26b66d1b.png",
+                "alt": "Side-by-side diff of a TypeScript file with added and removed lines highlighted",
+                "sha256": "3e87c5ee26b66d1b5a08950e578c144aac64433185bed1e86c58e3249cb46f46",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/beec194412fa5c01.png",
+                "alt": "Interactive rebase dialog listing four commits with pick actions",
+                "sha256": "beec194412fa5c01aca174a50d6527fd821c8f76bad600ed12409a4315038e97",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/91aaf6c2808b02af.png",
+                "alt": "Commit graph with branch tree and commit details in the light theme",
+                "sha256": "91aaf6c2808b02af479f750974e98f3cc5aad6433d45579c8d27c8627aacaa33",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/emamalet/orca-git-log-panel",
+          "updatedAt": "2026-11-10T10:40:26+01:00"
+        },
         {
           "version": "0.1.6",
           "commit": "cda6197c33ebada606438f7664ff274d01cb352b",
@@ -18269,14 +18583,56 @@
       "ownerId": 250263194,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/turingfx/omp-stats/0.1.0"
+        "url": "https://github.com/turingfx/omp-stats.git",
+        "ref": "v0.1.1"
       },
       "description": "Native Orca sidebar embedding of omp's official telemetry dashboard (http://127.0.0.1:59127). Directly queries ~/.omp/stats.db in read-only mode via an embedded Node SQLite worker (~9ms) to display live KPI sparklines, latency, throughput, token mix, and per-model performance tables.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "02f1978d7cc69be97515a7de854e598ff3dada74",
+          "contentHash": "7dd212756f0b8ca4d01e3843de588ae754bce712db51750579c2d26489783567",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "omp stats",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "omp stats"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/turingfx.omp-usage/d91c067527ce0454.png",
+              "alt": "omp stats telemetry overview and models dashboard",
+              "sha256": "d91c067527ce0454fbbbfbc9b3ba5723ff336a5848110c2a626f0a68a11597a0",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/turingfx.omp-usage/04da69532d533325.png",
+              "alt": "omp stats icon",
+              "sha256": "04da69532d533325a9e316d63319cd5286e01fc2ead71615201aefe9dd766ad2",
+              "width": 128,
+              "height": 128
+            },
+            "screenshots": [
+              {
+                "path": "assets/turingfx.omp-usage/e2a5b86b06543043.png",
+                "alt": "omp stats overview with KPI sparklines and activity chart",
+                "sha256": "e2a5b86b065430431208db86f83ddc88674ed0ea06937380081c84065f41bfdb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/turingfx/omp-stats",
+          "updatedAt": "2026-11-10T17:52:55+08:00"
+        },
         {
           "version": "0.1.0",
           "commit": "7e9353ce424b3cadb9f4dcb8bd9f8ed4a310ccdf",

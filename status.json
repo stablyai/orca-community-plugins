@@ -100,13 +100,10 @@
       ]
     },
     "arnaudrinquin/orca-pomodoro": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "arnaudrinquin.pomodoro"
       ]
     },
     "arthurlaucs/agent-ansi-palettes": {
@@ -179,6 +176,13 @@
       "ref": "refs/tags/bigsy/milko/0.1.2",
       "plugins": [
         "bigsy.milko"
+      ]
+    },
+    "brezzashen/brezzaorca": {
+      "state": "listed",
+      "ref": "v0.1.4",
+      "plugins": [
+        "brezzashen.account-keys"
       ]
     },
     "brodesigns/orca-skill-usage": {
@@ -375,7 +379,7 @@
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.6",
+      "ref": "v0.1.7",
       "plugins": [
         "emamalet.git-log"
       ]
@@ -537,7 +541,16 @@
       "ref": "refs/tags/gongxliang/claude-paper/0.5.0",
       "plugins": [
         "gongxliang.claude-paper"
-      ]
+      ],
+      "update": {
+        "ref": "v0.6.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
@@ -1481,7 +1494,7 @@
     },
     "turingfx/omp-stats": {
       "state": "listed",
-      "ref": "refs/tags/turingfx/omp-stats/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "turingfx.omp-usage"
       ]
