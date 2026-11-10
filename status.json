@@ -7,9 +7,15 @@
       "plugins": [
         "1am.agent-deck"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "reserved-name",
+            "detail": "name \"Orca Agent Deck\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          }
+        ]
+      }
     },
     "2589195970/jumplens": {
       "state": "rejected",
@@ -82,6 +88,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "allanwinckler-daki/secondbrain-monitor-plugin": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
       ]
     },
@@ -633,7 +649,7 @@
     },
     "ias0nas/seaqull": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/ias0nas/seaqull/0.1.0",
       "plugins": [
         "ias0nas.seaqull"
       ]
@@ -696,6 +712,27 @@
       "ref": "refs/tags/j7-dev/orca-gherkin-syntax/0.1.0",
       "plugins": [
         "j7-dev.gherkin-syntax"
+      ]
+    },
+    "jake-101/ahakey-x1": {
+      "state": "rejected",
+      "ref": "v0.1.5",
+      "reasons": [],
+      "plugins": [
+        {
+          "path": "orca-ahakey",
+          "id": "ahakey",
+          "reasons": [
+            {
+              "category": "validation",
+              "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
+            },
+            {
+              "category": "binary-files",
+              "detail": "bundles binary files (node_modules/.bin/tsc (symlink), node_modules/@typescript/typescript-darwin-arm64/lib/tsc)"
+            }
+          ]
+        }
       ]
     },
     "jamesjfoong/orca-plugin-github-workbench": {

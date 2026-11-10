@@ -1235,9 +1235,9 @@
               "height": 1000
             }
           },
-          "updatedAt": "2026-11-09T12:35:18-05:00",
           "license": "MIT",
-          "repository": "https://github.com/anthony-fp/orca-agent-inbox"
+          "repository": "https://github.com/anthony-fp/orca-agent-inbox",
+          "updatedAt": "2026-11-09T12:35:18-05:00"
         },
         {
           "version": "0.2.3",
@@ -1374,9 +1374,9 @@
             "storage:own",
             "settings:own"
           ],
-          "updatedAt": "2026-11-10T10:23:34+01:00",
           "license": "MIT",
-          "repository": "https://github.com/ArnaudRinquin/orca-pomodoro"
+          "repository": "https://github.com/ArnaudRinquin/orca-pomodoro",
+          "updatedAt": "2026-11-10T10:23:34+01:00"
         }
       ]
     },
@@ -5975,9 +5975,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-10T13:28:46+03:00",
           "license": "MIT",
-          "repository": "https://github.com/eskono/orca-docker-logs"
+          "repository": "https://github.com/eskono/orca-docker-logs",
+          "updatedAt": "2026-11-10T13:28:46+03:00"
         },
         {
           "version": "0.4.0",
@@ -8889,8 +8889,8 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ias0nas/SeaQull.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ias0nas/seaqull/0.1.0"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
@@ -11610,9 +11610,9 @@
             "workspace:read",
             "workspace:write"
           ],
-          "updatedAt": "2026-11-09T23:29:00+08:00",
           "license": "Apache-2.0",
-          "repository": "https://github.com/lazyjerry/todo-for-orca"
+          "repository": "https://github.com/lazyjerry/todo-for-orca",
+          "updatedAt": "2026-11-09T23:29:00+08:00"
         },
         {
           "version": "0.2.0",
@@ -17482,9 +17482,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-11T02:29:13+07:00",
           "license": "MIT",
-          "repository": "https://github.com/SatangBudsai/orca-git-extension"
+          "repository": "https://github.com/SatangBudsai/orca-git-extension",
+          "updatedAt": "2026-11-11T02:29:13+07:00"
         },
         {
           "version": "0.9.2",
@@ -20582,9 +20582,9 @@
             "settings:own",
             "secrets:own"
           ],
-          "updatedAt": "2026-11-09T22:27:53+09:00",
           "license": "MIT",
-          "repository": "https://github.com/tourbut/orca-helm"
+          "repository": "https://github.com/tourbut/orca-helm",
+          "updatedAt": "2026-11-09T22:27:53+09:00"
         },
         {
           "version": "0.5.0",
@@ -20856,9 +20856,9 @@
             "settings:own",
             "storage:own"
           ],
-          "updatedAt": "2026-11-10T21:21:31+09:00",
           "license": "MIT",
-          "repository": "https://github.com/unitea1992/orca-extensions"
+          "repository": "https://github.com/unitea1992/orca-extensions",
+          "updatedAt": "2026-11-10T21:21:31+09:00"
         }
       ]
     },
@@ -21679,9 +21679,9 @@
             "settings:own",
             "notifications:show"
           ],
-          "updatedAt": "2026-11-09T17:16:46+04:00",
           "license": "MIT",
-          "repository": "https://github.com/Vidosen/orca-unity-tools"
+          "repository": "https://github.com/Vidosen/orca-unity-tools",
+          "updatedAt": "2026-11-09T17:16:46+04:00"
         }
       ]
     },
