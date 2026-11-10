@@ -929,6 +929,12 @@
     "repoId": 1450463636,
     "firstSeen": "2026-11-10T21:13:18.593Z"
   },
+  "ias0nas.seaqull@0.1.1": {
+    "commit": "f52133ec67f25b2df9336c781bbc611a9dcbed7b",
+    "contentHash": "055eb789e3ed35b39c075938cc6abc2f41df377aeca34bb034d3e5053b4bfc63",
+    "repoId": 1450463636,
+    "firstSeen": "2026-11-10T22:39:16.853Z"
+  },
   "ibazylchuk.openspec-board@0.3.3": {
     "commit": "e1177c6346fee6ac9d4620bf76b6830400db7b40",
     "contentHash": "9ed0b715dcf1747ef396e554d93f42d5f8eb2b3a478a77533c0bc44cd4f65030",
@@ -1739,6 +1745,12 @@
     "repoId": 1448164475,
     "firstSeen": "2026-11-07T08:54:20.791Z"
   },
+  "ryusenkei-inc.hostslot@0.11.1": {
+    "commit": "91c979692809865b356482dd8b160a56bb85ae55",
+    "contentHash": "f73094cbf11ec51535449b2f3d3a70f200ebed26b7c95cf546e8ec78f9f22676",
+    "repoId": 1448164475,
+    "firstSeen": "2026-11-10T22:39:16.853Z"
+  },
   "rzkmak.neuralwatt-usage@0.0.2": {
     "commit": "d822a727b9b03f0ddab51022fb6b95df3867e515",
     "contentHash": "86e8c14118bb0b504c5296b90d979f53f1f0662e7618ee83a1fa30aef48f9567",
@@ -1978,6 +1990,12 @@
     "contentHash": "7e2dafbd076cffa2cf0443a7ebb822d63c7ab0bc17f444d1d3bfede17c7b7b6b",
     "repoId": 1451239680,
     "firstSeen": "2026-11-10T08:19:40.259Z"
+  },
+  "shaurgon.conport-orca@0.4.0": {
+    "commit": "a48992d37f3b86864c72e7793d6bac8e2eb58947",
+    "contentHash": "34efa4ff258d626c34d903fe4b63663352588aaa588bca3a08bd012d58fe1658",
+    "repoId": 1451239680,
+    "firstSeen": "2026-11-10T22:39:16.853Z"
   },
   "spgsroot.omp-usage@1.0.0": {
     "commit": "6522b53b740f02bdc22d0744f53a23d6ec155230",

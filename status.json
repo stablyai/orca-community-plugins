@@ -639,7 +639,7 @@
     },
     "ias0nas/seaqull": {
       "state": "listed",
-      "ref": "refs/tags/ias0nas/seaqull/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "ias0nas.seaqull"
       ]
@@ -706,7 +706,7 @@
     },
     "jake-101/ahakey-x1": {
       "state": "listed",
-      "ref": "v0.1.8",
+      "ref": "refs/tags/jake-101/ahakey-x1/ahakey/0.1.8",
       "plugins": [
         "jake-101.ahakey"
       ],
@@ -1322,7 +1322,7 @@
     },
     "ryusenkei-inc/hostslot": {
       "state": "listed",
-      "ref": "refs/tags/ryusenkei-inc/hostslot/0.11.0",
+      "ref": "v0.11.1",
       "plugins": [
         "ryusenkei-inc.hostslot"
       ]
@@ -1452,7 +1452,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -1539,7 +1539,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/superfly/orca-sprites/0.5.0",
       "plugins": [
         "superfly.sprites"
       ]

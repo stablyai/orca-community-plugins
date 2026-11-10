@@ -8889,12 +8889,89 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ias0nas/seaqull/0.1.0"
+        "url": "https://github.com/ias0nas/SeaQull.git",
+        "ref": "v0.1.1"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "f52133ec67f25b2df9336c781bbc611a9dcbed7b",
+          "contentHash": "055eb789e3ed35b39c075938cc6abc2f41df377aeca34bb034d3e5053b4bfc63",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SeaQull",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "SeaQull",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SeaQull console",
+              "detail": ".sql"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New SeaQull workbook",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "activity"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "editorFileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ias0nas.seaqull/935292a1cd8010ec.png",
+              "alt": "The SeaQull logo and name beside a query window showing completion of a foreign-key join and a result grid",
+              "sha256": "935292a1cd8010ec2d1716ac7db1256fef39346b252053454cd2b3e3ae216a63",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ias0nas.seaqull/e010ca3342e8fe5c.png",
+              "alt": "SeaQull icon",
+              "sha256": "e010ca3342e8fe5c702dfa932bc3d24b54883041929c9e86b1f90698e8607a9a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ias0nas.seaqull/099a04598635756a.png",
+                "alt": "Completion offering a foreign-key join condition after ON, with a result grid below and the object explorer on the right",
+                "sha256": "099a04598635756ad120b5e235e4058a19a236ed65c7de5a39bc21e04d13a8d2",
+                "width": 2460,
+                "height": 1600
+              },
+              {
+                "path": "assets/ias0nas.seaqull/4785cc3ea9e1d397.png",
+                "alt": "The New connection dialog: name, colour, server and port, database, authentication, user and password, and encryption options",
+                "sha256": "4785cc3ea9e1d39780d73a78cff28fbccf4cc291e167250e939a192ca294bf46",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ias0nas/SeaQull",
+          "updatedAt": "2026-11-10T22:24:07Z"
+        },
         {
           "version": "0.1.0",
           "commit": "23caa20befceb38346f6141c68fa8cbf5ef7c1c9",
@@ -9661,8 +9738,8 @@
       "ownerId": 39825740,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jake-101/ahakey-x1.git",
-        "ref": "v0.1.8",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jake-101/ahakey-x1/ahakey/0.1.8",
         "path": "orca-ahakey"
       },
       "description": "Mirrors Orca agent status onto the AhaKey X1 light bar: blue sweep while working, red flash when an agent needs you, cyan siren when done.",
@@ -17090,8 +17167,8 @@
       "ownerId": 289414937,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ryusenkei-inc/hostslot/0.11.0"
+        "url": "https://github.com/ryusenkei-inc/hostslot.git",
+        "ref": "v0.11.1"
       },
       "description": "Schedules what parallel agents share on one machine: heavy commands wait for free memory and CPU, each worktree's dev server gets its own port, and you see what runs, what waits and why.",
       "categories": [
@@ -17099,6 +17176,47 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.11.1",
+          "commit": "91c979692809865b356482dd8b160a56bb85ae55",
+          "contentHash": "f73094cbf11ec51535449b2f3d3a70f200ebed26b7c95cf546e8ec78f9f22676",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Hostslot",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Hostslot"
+            },
+            {
+              "kind": "commands",
+              "name": "Hostslot: Show details"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Hostslot"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ryusenkei-inc.hostslot/af96f7973c260118.png",
+              "alt": "Hostslot's panel in Orca beside its summary: memory, slots, CPU and GPU; running and waiting jobs; dev servers with their own ports",
+              "sha256": "af96f7973c260118c6782a54b2bd0e8f26a5113742f9393954dff1293a7cf4a8",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/ryusenkei-inc.hostslot/958631ae8e76d200.png",
+              "alt": "Hostslot icon",
+              "sha256": "958631ae8e76d20004007db21b9b13d149d1b96250687fd844c53f0698538db6",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ryusenkei-inc/hostslot",
+          "updatedAt": "2026-11-11T07:32:09+09:00"
+        },
         {
           "version": "0.11.0",
           "commit": "a4c21abdb705da9da28d815dfe1e7120076e52d9",
@@ -19101,14 +19219,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.3.0"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.4.0"
       },
-      "description": "Controls ConPort projects from Orca: the epics of a project by milestone, their start, continuation and stop with an agent per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
+      "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "a48992d37f3b86864c72e7793d6bac8e2eb58947",
+          "contentHash": "34efa4ff258d626c34d903fe4b63663352588aaa588bca3a08bd012d58fe1658",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-10T22:38:43Z"
+        },
         {
           "version": "0.3.0",
           "commit": "4989dcd1b350455805daa7c027a52ef68fe9ceb2",
@@ -19667,8 +19808,8 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/superfly/orca-sprites.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/superfly/orca-sprites/0.5.0"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [
