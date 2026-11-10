@@ -231,7 +231,7 @@
     },
     "chandraliuswanto/orca-subagent-graph": {
       "state": "listed",
-      "ref": "refs/tags/chandraliuswanto/orca-subagent-graph/0.4.1",
+      "ref": "v0.4.2",
       "plugins": [
         "chandraliuswanto.subagent-graph"
       ]
@@ -1048,7 +1048,7 @@
     },
     "pluggi-maid/orca-server-monitor": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.4.1",
       "reasons": [
         {
           "category": "licence",
@@ -1542,6 +1542,16 @@
       "reasons": [
         {
           "category": "manifest-format"
+        }
+      ]
+    },
+    "vzxxbacq/orca-colab": {
+      "state": "rejected",
+      "ref": "v0.2.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, name"
         }
       ]
     },

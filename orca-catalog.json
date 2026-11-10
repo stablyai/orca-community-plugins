@@ -2563,8 +2563,8 @@
       "ownerId": 54279573,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/chandraliuswanto/orca-subagent-graph/0.4.1"
+        "url": "https://github.com/ChandraLiuswanto/orca-subagent-graph.git",
+        "ref": "v0.4.2"
       },
       "description": "Counts your Orca orchestration subagents in the status bar and draws them as a nested graph, for this machine and paired Orca servers.",
       "categories": [
@@ -2572,6 +2572,35 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.2",
+          "commit": "c8c950fec63f619e2cc923b377918df249722452",
+          "contentHash": "1aca9128ca4fea183eef8d96e08f002222b23afb329f64c5d473ae7297c9eac5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Subagent Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Subagents"
+            },
+            {
+              "kind": "commands",
+              "name": "Subagent Graph: Toggle right sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "0 subagents"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ChandraLiuswanto/orca-subagent-graph",
+          "updatedAt": "2026-11-10T09:13:51+07:00"
+        },
         {
           "version": "0.4.1",
           "commit": "c7a535b4b73abe2aa93b06b2ee59fce8eb44aed6",
