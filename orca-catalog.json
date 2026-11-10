@@ -4628,8 +4628,8 @@
       "ownerId": 49872514,
       "source": {
         "kind": "git",
-        "url": "https://github.com/fabiopbarbieri/omarchy-orca-plugin.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/fabiopbarbieri/omarchy-orca-plugin/1.0.2"
       },
       "description": "Follows your Omarchy theme: app, editor syntax and terminal colors, updated on every theme switch.",
       "categories": [
