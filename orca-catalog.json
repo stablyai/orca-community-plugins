@@ -375,6 +375,293 @@
       ]
     },
     {
+      "id": "actus7.autocomplete",
+      "ownerId": 24607590,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/actus7/orca-autocomplete.git",
+        "ref": "v0.3.1"
+      },
+      "description": "Gray inline suggestions as you type, powered by the AI provider you choose (OpenAI, Anthropic, OpenRouter, Mistral, Ollama or any compatible API), plus snippets, postfix templates and language servers with the AI off.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "e820e45a05c9ca5725f4bd6a661841d865c396e4",
+          "contentHash": "315cd11684b97ea5aba3895c9b2def8a33c446fa90d32549dcaa905ecd290bb3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Autocomplete",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Autocomplete"
+            },
+            {
+              "kind": "commands",
+              "name": "Autocomplete: Turn on or off"
+            },
+            {
+              "kind": "commands",
+              "name": "Autocomplete: Test connection"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".ts, .tsx, .mts, .cts"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".js, .jsx, .mjs, .cjs"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".py, .pyi, .pyw"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".go"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".rs"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".java"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".kt, .kts"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".cs, .csx"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".c, .h, .cpp, .cc, .cxx, .hpp, .hh, .hxx"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".php"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".rb, .rake, .gemspec, Gemfile, Rakefile"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".swift"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".sh, .bash, .zsh"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".sql"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".html, .htm"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Autocomplete",
+              "detail": ".css, .scss, .less, .xml, .yaml, .yml, .md, .dart, .lua, .r, .ps1, .bat, .scala, .ex, .clj, .pl, .fs, .jl, .tf, .proto, .graphql, .dockerfile, .txt, Dockerfile"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "setup"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own",
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "ts",
+            "tsx",
+            "mts",
+            "cts",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "py",
+            "pyi",
+            "pyw",
+            "go",
+            "rs",
+            "java",
+            "kt",
+            "kts",
+            "cs",
+            "csx",
+            "c",
+            "h",
+            "cpp",
+            "cc",
+            "cxx",
+            "hpp",
+            "hh",
+            "hxx",
+            "php",
+            "rb",
+            "rake",
+            "gemspec",
+            "swift",
+            "sh",
+            "bash",
+            "zsh",
+            "sql",
+            "html",
+            "htm",
+            "css",
+            "scss",
+            "less",
+            "xml",
+            "yaml",
+            "yml",
+            "md",
+            "dart",
+            "lua",
+            "r",
+            "ps1",
+            "bat",
+            "scala",
+            "ex",
+            "clj",
+            "pl",
+            "fs",
+            "jl",
+            "tf",
+            "proto",
+            "graphql",
+            "dockerfile",
+            "txt"
+          ],
+          "editorFileTypes": [
+            "ts",
+            "tsx",
+            "mts",
+            "cts",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "py",
+            "pyi",
+            "pyw",
+            "go",
+            "rs",
+            "java",
+            "kt",
+            "kts",
+            "cs",
+            "csx",
+            "c",
+            "h",
+            "cpp",
+            "cc",
+            "cxx",
+            "hpp",
+            "hh",
+            "hxx",
+            "php",
+            "rb",
+            "rake",
+            "gemspec",
+            "swift",
+            "sh",
+            "bash",
+            "zsh",
+            "sql",
+            "html",
+            "htm",
+            "css",
+            "scss",
+            "less",
+            "xml",
+            "yaml",
+            "yml",
+            "md",
+            "dart",
+            "lua",
+            "r",
+            "ps1",
+            "bat",
+            "scala",
+            "ex",
+            "clj",
+            "pl",
+            "fs",
+            "jl",
+            "tf",
+            "proto",
+            "graphql",
+            "dockerfile",
+            "txt"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/actus7.autocomplete/2da86eba6f6dbec9.png",
+              "alt": "The plugin name, Autocomplete, beside a code editor where gray suggested code follows the cursor and a Tab key hint shows how to accept it",
+              "sha256": "2da86eba6f6dbec9bee6b9e77eac0ba3969663d61fc0a5fdd3f42e3209a98194",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/actus7.autocomplete/fc8e2648b533b68a.png",
+              "alt": "Autocomplete icon",
+              "sha256": "fc8e2648b533b68aa05186a24e71cc093fc457ecd1505483d499bab1c8920821",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/actus7.autocomplete/5445c5f55b72a75b.png",
+                "alt": "A Python function in the Autocomplete editor where the gray suggestion a + b follows the cursor after return",
+                "sha256": "5445c5f55b72a75bbfd7cc84b6dfe5da42547f3d05ae7a0a5336179a10390269",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/actus7.autocomplete/7b945b0462bfa917.png",
+                "alt": "The Autocomplete panel in Orca: active, running on this computer, with the provider settings, statistics and help sections collapsed",
+                "sha256": "7b945b0462bfa9179710b0365164ebcbefe6b8fcec46a49303d37d61cbbcc559",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/actus7/orca-autocomplete",
+          "updatedAt": "2026-11-09T20:39:52-03:00"
+        }
+      ]
+    },
+    {
       "id": "addisflava.llm-router",
       "ownerId": 13881665,
       "source": {
@@ -699,8 +986,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.3"
+        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
+        "ref": "v0.4.0"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -708,6 +995,47 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "e98f74e79c5d22fb0564d158028417564ca05bea",
+          "contentHash": "b0293431962077ceadd5f0588633885385cc006ec8d873f696529ffb683a5cd5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send",
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/anthony-fp.agent-inbox/2308119db9fae4a1.png",
+              "alt": "Agent Inbox panel in Orca's right sidebar, with questions, tasks, issues, opportunities and the workspace plan",
+              "sha256": "2308119db9fae4a13e71283ec20d5669d55186c6b23e97cf927a4b2870a4de5e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "updatedAt": "2026-11-09T12:35:18-05:00",
+          "license": "MIT",
+          "repository": "https://github.com/anthony-fp/orca-agent-inbox"
+        },
         {
           "version": "0.2.3",
           "commit": "45e4f1304f2efd96b817dfb663f9052eb1c22426",
@@ -1594,6 +1922,105 @@
           "license": "MIT",
           "repository": "https://github.com/Bigsy/milko",
           "updatedAt": "2026-11-08T10:29:10Z"
+        }
+      ]
+    },
+    {
+      "id": "brodesigns.skill-usage",
+      "ownerId": 44358188,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/brodesigns/orca-skill-usage.git",
+        "ref": "v1.0.0"
+      },
+      "description": "See which skills, MCP servers, agents and plugins of Claude Code, Codex and Gemini you really use, per project, and what the unused ones cost in context tokens. English and German. Local only, no tracking.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "fdc7366cb3cc5165a2d8bb194280e469bdfbbcb2",
+          "contentHash": "fab462aa1b21ba97d4c7a99329419965c4cd59f7e6be105885724f219fd67c05",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Skill Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Skill Usage"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "agent:read",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brodesigns.skill-usage/9410a30fc83fb830.png",
+              "alt": "Skill Usage by Orca: the panel with summary tiles for always-loaded tokens, unused skills, MCP servers and agents",
+              "sha256": "9410a30fc83fb83051016665c9c9877ceeffa1e064ada0b0fc9de54b73db556e",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/brodesigns.skill-usage/a722096de0356544.png",
+                "alt": "Summary tiles: tokens always loaded per session, tokens in unused entries, unused skills, MCP servers and agents, number of calls",
+                "sha256": "a722096de03565446665f064653e45e0261ac2035522150974399e18c558436c",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/a513174aaa48157f.png",
+                "alt": "Skill cards showing calls, which AIs the skill is installed for, where it exists and which projects used it",
+                "sha256": "a513174aaa48157f6727da20237cc7648bc679ed00de74f252eb8de7a4c857a8",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/1df8f6ddcea6b6f7.png",
+                "alt": "The panel filtered to one project and the last 7 days",
+                "sha256": "1df8f6ddcea6b6f72a66e037836093eb248a79da010ff9c50e282d2ca87fe5a7",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/f8a36bd3d53e7156.png",
+                "alt": "MCP server cards with the projects each server was used in",
+                "sha256": "f8a36bd3d53e7156c56d46d9f6523023935575cd00f34896d650335eb4d423d4",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/1162be9228400ce6.png",
+                "alt": "Only the entries that were not called in the period, sorted by token cost",
+                "sha256": "1162be9228400ce61809936118d209eafce7e4fd7f6026eaafebf853c8825eb3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/971ee226c6dd732a.png",
+                "alt": "Four checkmarks explaining what the plugin does with the Full access label: read-only, names not secrets, no network, no actions",
+                "sha256": "971ee226c6dd732a433c8a6b2be4a766611a7187472a5d3808ac12c3e7538bc3",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brodesigns/orca-skill-usage",
+          "updatedAt": "2026-11-09T14:52:42+02:00"
         }
       ]
     },
@@ -2700,6 +3127,79 @@
           "license": "MIT",
           "repository": "https://github.com/ChandraLiuswanto/orca-subagent-graph",
           "updatedAt": "2026-11-09T15:15:57+07:00"
+        }
+      ]
+    },
+    {
+      "id": "choihjin.agent-haptics",
+      "ownerId": 103234587,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/choihjin/orca-agent-haptics.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Vibrates an MX Master 4, through the third-party HapticWeb plugin, when an Orca agent on this machine or over SSH finishes, fails or needs you, with a different vibration for each.",
+      "categories": [
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "3c4c89dbb5c44c168eb6fb6527c136356d3fa0b3",
+          "contentHash": "79270c4ccb196d88ce38d5db8b9865306487e83307ad8baee8f2de83b0b4eb80",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Agent Haptics",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.agent-haptics/b17999fcf0bb0a60.png",
+              "alt": "Agent Haptics for Orca: a generic mouse with vibration arcs and its three signals, completed, knock and angry_alert",
+              "sha256": "b17999fcf0bb0a6076d8d474d0fe565d68429350e4e8c509b7440611a123afd6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.agent-haptics/af7227509de4ea8d.png",
+              "alt": "Agent Haptics icon",
+              "sha256": "af7227509de4ea8df2a021d3f4850b60a0c728c6323bd1e1406358235f8ef6af",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.agent-haptics/ab2649acd0fbea7c.png",
+                "alt": "completed after a turn finishes, knock at once when the agent needs you, angry_alert after a failed turn; other changes stay silent",
+                "sha256": "ab2649acd0fbea7c87675accbb0bce19a7a29e971b9d849b558cffdc760127a5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.agent-haptics/6f88fea518c3c552.png",
+                "alt": "Local agent events and SSH host polling reach one worker on your machine, which asks HapticWeb on 127.0.0.1:41443 to vibrate",
+                "sha256": "6f88fea518c3c55278201d865c302f1be62b8014997ac7d122c8272bd7754ba4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-agent-haptics",
+          "updatedAt": "2026-11-10T17:49:11+09:00"
         }
       ]
     },
@@ -8952,6 +9452,110 @@
           "license": "MIT",
           "repository": "https://github.com/kianxm/orca-luau",
           "updatedAt": "2026-11-04T16:19:41-08:00"
+        }
+      ]
+    },
+    {
+      "id": "kloppers-labs.azure-devops",
+      "ownerId": 334841805,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/kloppers-labs/orca-azure-devops.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Unofficial. Azure DevOps work items, boards, pipelines, pull requests and wikis in the Orca sidebar.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "6a72da5da364c10e38df83f32b8dd027263f72b9",
+          "contentHash": "65eca3cf4555b2b2f3394b87297a37ea31a68aa1e84fc409798af85930251ea3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Azure DevOps",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Azure DevOps"
+            },
+            {
+              "kind": "commands",
+              "name": "Azure DevOps: Connection status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Azure DevOps board",
+              "detail": ".adoboard"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Azure DevOps run",
+              "detail": ".adorun"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Azure DevOps board",
+              "detail": ".adoboard"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "ADO"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "adoboard",
+            "adorun"
+          ],
+          "editorFileTypes": [
+            "adoboard",
+            "adorun"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/kloppers-labs.azure-devops/65b9a5b841828495.png",
+              "alt": "Azure DevOps icon",
+              "sha256": "65b9a5b84182849537a88e6783e3b0fd4fb360cfae5c77294ed36e805c5d49f7",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/kloppers-labs/orca-azure-devops",
+          "updatedAt": "2026-11-10T10:45:16+02:00"
         }
       ]
     },

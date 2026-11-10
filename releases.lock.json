@@ -35,6 +35,12 @@
     "repoId": 1447783832,
     "firstSeen": "2026-11-06T21:51:41.101Z"
   },
+  "actus7.autocomplete@0.3.1": {
+    "commit": "e820e45a05c9ca5725f4bd6a661841d865c396e4",
+    "contentHash": "315cd11684b97ea5aba3895c9b2def8a33c446fa90d32549dcaa905ecd290bb3",
+    "repoId": 1451333060,
+    "firstSeen": "2026-11-10T09:00:20.371Z"
+  },
   "addisflava.llm-router@1.0.0": {
     "commit": "e6a3f564fec97106af31390db1678b8b445b5918",
     "contentHash": "02e9514fb3e5946489000c7240325b4ac357536e02f6799bc4d46385bf54ed35",
@@ -100,6 +106,12 @@
     "contentHash": "8f8399ff65066aec42e6071b2fe85627e4fd3be5ca605b6f8f76d4b45089a776",
     "repoId": 1447664604,
     "firstSeen": "2026-11-07T23:39:32.009Z"
+  },
+  "anthony-fp.agent-inbox@0.4.0": {
+    "commit": "e98f74e79c5d22fb0564d158028417564ca05bea",
+    "contentHash": "b0293431962077ceadd5f0588633885385cc006ec8d873f696529ffb683a5cd5",
+    "repoId": 1447664604,
+    "firstSeen": "2026-11-10T09:00:20.371Z"
   },
   "arthurlaucs.agent-ansi-palettes@0.1.0": {
     "commit": "921ef86b4cb6deb537ceb6187e9821dd61ff1ca9",
@@ -178,6 +190,12 @@
     "contentHash": "a7e819215a43dca6a005c7e171ff77ef4e9dd15b9c3d2ee9588ce052814c3172",
     "repoId": 1449717078,
     "firstSeen": "2026-11-08T13:12:03.745Z"
+  },
+  "brodesigns.skill-usage@1.0.0": {
+    "commit": "fdc7366cb3cc5165a2d8bb194280e469bdfbbcb2",
+    "contentHash": "fab462aa1b21ba97d4c7a99329419965c4cd59f7e6be105885724f219fd67c05",
+    "repoId": 1451202841,
+    "firstSeen": "2026-11-10T09:00:20.371Z"
   },
   "brodesigns.woodpecker-status@1.0.0": {
     "commit": "8300367499bd7e4f421df67150c0aecff81409a1",
@@ -298,6 +316,12 @@
     "contentHash": "1aca9128ca4fea183eef8d96e08f002222b23afb329f64c5d473ae7297c9eac5",
     "repoId": 1450270269,
     "firstSeen": "2026-11-10T02:18:44.485Z"
+  },
+  "choihjin.agent-haptics@0.1.0": {
+    "commit": "3c4c89dbb5c44c168eb6fb6527c136356d3fa0b3",
+    "contentHash": "79270c4ccb196d88ce38d5db8b9865306487e83307ad8baee8f2de83b0b4eb80",
+    "repoId": 1452414884,
+    "firstSeen": "2026-11-10T09:00:20.371Z"
   },
   "chrisluo5311.snippets@0.1.1": {
     "commit": "d5cea3efff5086c4a5e631edf0dd4c6e0109a954",
@@ -928,6 +952,12 @@
     "contentHash": "9f34fbae3f3b9981ea92d61b176807cfc1da6370174de5e5eef28b797a18a390",
     "repoId": 1446327006,
     "firstSeen": "2026-11-05T00:35:49.772Z"
+  },
+  "kloppers-labs.azure-devops@0.2.0": {
+    "commit": "6a72da5da364c10e38df83f32b8dd027263f72b9",
+    "contentHash": "65eca3cf4555b2b2f3394b87297a37ea31a68aa1e84fc409798af85930251ea3",
+    "repoId": 1449153492,
+    "firstSeen": "2026-11-10T09:00:20.371Z"
   },
   "kolebayev.narrow-markdown@0.1.0": {
     "commit": "6060a677674a2491d818961745447073411607d8",

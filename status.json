@@ -11,6 +11,16 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "2589195970/jumplens": {
+      "state": "rejected",
+      "ref": "v0.3.2",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
+      ]
+    },
     "2589195970/orca-shiftlens": {
       "state": "listed",
       "ref": "refs/tags/2589195970/orca-shiftlens/0.1.0",
@@ -29,13 +39,10 @@
       ]
     },
     "actus7/orca-autocomplete": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "actus7.autocomplete"
       ]
     },
     "addisflava/orca-llm-router": {
@@ -87,19 +94,10 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.2.3",
+      "ref": "v0.4.0",
       "plugins": [
         "anthony-fp.agent-inbox"
-      ],
-      "update": {
-        "ref": "v0.4.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "arthurlaucs/agent-ansi-palettes": {
       "state": "listed",
@@ -174,13 +172,10 @@
       ]
     },
     "brodesigns/orca-skill-usage": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "brodesigns.skill-usage"
       ]
     },
     "brodesigns/orca-woodpecker-status": {
@@ -188,16 +183,6 @@
       "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.1.0",
       "plugins": [
         "brodesigns.woodpecker-status"
-      ]
-    },
-    "canadianmaplefarmer/orca-azure-devops": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
       ]
     },
     "cattfan/orca-enhance-prompt": {
@@ -241,6 +226,13 @@
       "ref": "refs/tags/chandraliuswanto/orca-subagent-graph/0.4.2",
       "plugins": [
         "chandraliuswanto.subagent-graph"
+      ]
+    },
+    "choihjin/orca-agent-haptics": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "choihjin.agent-haptics"
       ]
     },
     "chrisluo5311/orca-snippet": {
@@ -744,6 +736,13 @@
       "ref": "refs/tags/kianxm/orca-luau/1.0.2",
       "plugins": [
         "kianxm.luau-syntax"
+      ]
+    },
+    "kloppers-labs/orca-azure-devops": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "kloppers-labs.azure-devops"
       ]
     },
     "kolebayev/orca-md-layout": {
