@@ -299,6 +299,12 @@
     "repoId": 1450002101,
     "firstSeen": "2026-11-10T09:16:29.175Z"
   },
+  "cattfan.enhance-prompt@2.5.3": {
+    "commit": "2219ee95ec783a3a9977d419bdc678b40892d207",
+    "contentHash": "28cd1b80d99fce922e1c28e855326be18f7281962b326dd877efaac24b4c80a4",
+    "repoId": 1450002101,
+    "firstSeen": "2026-11-10T12:20:14.540Z"
+  },
   "cd3vane.jetbrains-themes@1.0.0": {
     "commit": "dbc699d0af71121dbe6a0b0ad7713204897f16e7",
     "contentHash": "0bb7897de59c641707fa134c600767d96614948c17a2317f059a4f74866c85b1",
@@ -1762,6 +1768,12 @@
     "contentHash": "7e2dafbd076cffa2cf0443a7ebb822d63c7ab0bc17f444d1d3bfede17c7b7b6b",
     "repoId": 1451239680,
     "firstSeen": "2026-11-10T08:19:40.259Z"
+  },
+  "spgsroot.omp-usage@1.0.0": {
+    "commit": "6522b53b740f02bdc22d0744f53a23d6ec155230",
+    "contentHash": "3e43d687086ca8647dfc50f286289182e621f838e150fd09ffd21eca7ebe8daa",
+    "repoId": 1452554647,
+    "firstSeen": "2026-11-10T12:20:14.540Z"
   },
   "sumonta056.better-markdown-preview@1.0.4": {
     "commit": "57f3776e653fefaa4b2e3fe4073f7a83b191c7a2",

@@ -202,7 +202,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.5.2",
+      "ref": "v2.5.3",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -1086,7 +1086,7 @@
     },
     "pr1p/orca-mermaid-editor": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/pr1p/orca-mermaid-editor/0.3.2",
       "plugins": [
         "pr1p.mermaid-editor"
       ],
@@ -1361,6 +1361,13 @@
         }
       ]
     },
+    "spgsroot/orca-usage-plugin": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "spgsroot.omp-usage"
+      ]
+    },
     "stnslvsvnv/orca-computer-use-neon-glow": {
       "state": "rejected",
       "ref": "v1.0.0",
@@ -1489,6 +1496,16 @@
       "ref": "refs/tags/turingfx/omp-stats/0.1.1",
       "plugins": [
         "turingfx.omp-usage"
+      ]
+    },
+    "unitea1992/orca-extensions": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json at the root; orca-catalog.json lists no plugin folder of unitea1992/orca-extensions that holds an orca-plugin.json (set each entry's source.url to this repository and source.path to its folder)"
+        }
       ]
     },
     "unz47/neon-glass-theme": {
