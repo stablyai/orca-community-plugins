@@ -216,7 +216,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.6.2",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.2",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -499,7 +499,7 @@
     },
     "felipemayerdev/orca-walkthrough": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.1",
       "plugins": [
         "felipemayerdev.walkthrough"
       ]
@@ -899,7 +899,7 @@
     },
     "mancunianez/orca-ukrainian": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/mancunianez/orca-ukrainian/0.1.1",
       "plugins": [
         "mancunianez.ukrainian"
       ],
@@ -1331,6 +1331,16 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "serhii-f8/orca-docker": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name"
+        }
+      ]
+    },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
       "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.3.1",
@@ -1534,6 +1544,16 @@
       "ref": "refs/tags/tourbut/orca-helm/0.6.0",
       "plugins": [
         "tourbut.grokbot-notify"
+      ]
+    },
+    "trunk-io/orca-plugin-firewatch": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "tuna-etech/gitgraph-orca": {

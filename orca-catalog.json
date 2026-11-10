@@ -2633,8 +2633,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.2"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -6945,8 +6945,8 @@
       "ownerId": 65250731,
       "source": {
         "kind": "git",
-        "url": "https://github.com/FelipeMayerDev/orca-walkthrough.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.1"
       },
       "description": "Read a change in the order it makes sense: steps grouped and ordered by purpose, each explained beside its code, with what no step covers.",
       "categories": [
@@ -11696,8 +11696,8 @@
       "ownerId": 20801333,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mancunianez/orca-ukrainian.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mancunianez/orca-ukrainian/0.1.1"
       },
       "description": "Translates the Orca interface into Ukrainian.",
       "categories": [
