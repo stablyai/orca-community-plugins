@@ -207,7 +207,7 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v2.5.0",
+        "ref": "v2.5.1",
         "reasons": [
           {
             "category": "under-review",
@@ -487,7 +487,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -771,7 +771,16 @@
       "ref": "refs/tags/kyino-pan/agents-director/0.1.2",
       "plugins": [
         "kyino-pan.agent-activity"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "lamtuanvu/cv-hub-orca-plugin": {
       "state": "rejected",
@@ -1232,7 +1241,7 @@
         "satangbudsai.git-control"
       ],
       "update": {
-        "ref": "v0.8.11",
+        "ref": "v0.8.13",
         "reasons": [
           {
             "category": "under-review",
