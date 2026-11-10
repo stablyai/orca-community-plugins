@@ -8889,8 +8889,8 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ias0nas/SeaQull.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ias0nas/seaqull/0.1.2"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
@@ -9815,16 +9815,70 @@
       "ownerId": 39825740,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jake-101/ahakey-x1/ahakey/0.1.8",
+        "url": "https://github.com/jake-101/ahakey-x1.git",
+        "ref": "v0.1.9",
         "path": "orca-ahakey"
       },
-      "description": "Mirrors Orca agent status onto the AhaKey X1 light bar: blue sweep while working, red flash when an agent needs you, cyan siren when done.",
+      "description": "macOS only. Requires the separately installed and running ahakey-daemon on the same Mac. Mirrors Orca agent status onto the AhaKey X1 light bar: blue sweep while working, red flash when an agent needs you, cyan siren when done.",
       "categories": [
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.9",
+          "commit": "966d03a22c82a66644356cc347cc0be2c798bc42",
+          "contentHash": "2ce699b380b44b11776d7a120fa60b4f7dc50583c0a121b422c411eee4cea9df",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "AhaKey Bridge",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "AhaKey: refresh agent status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "AhaKey"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jake-101.ahakey/2d7de8d87ea0e384.jpg",
+              "alt": "An AhaKey X1 macro keyboard on a dark desk, its LED light bar glowing blue in a Knight Rider sweep",
+              "sha256": "2d7de8d87ea0e384d756b1a4e06ea57a4e034d61c4749d7de6d58d7510244cbb",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jake-101.ahakey/44163aa48bc2be1c.png",
+              "alt": "AhaKey Bridge icon",
+              "sha256": "44163aa48bc2be1c27f7cc9812ba90d7896d66a14914150398d4f96475b1678e",
+              "width": 200,
+              "height": 200
+            }
+          },
+          "updatedAt": "2026-11-10T14:41:03-08:00",
+          "license": "MIT",
+          "repository": "https://github.com/jake-101/ahakey-x1"
+        },
         {
           "version": "0.1.8",
           "commit": "0a9a1303996b4fa030204b6c66c5d6d4f020e837",

@@ -639,7 +639,7 @@
     },
     "ias0nas/seaqull": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/ias0nas/seaqull/0.1.2",
       "plugins": [
         "ias0nas.seaqull"
       ]
@@ -706,21 +706,12 @@
     },
     "jake-101/ahakey-x1": {
       "state": "listed",
-      "ref": "refs/tags/jake-101/ahakey-x1/ahakey/0.1.8",
+      "ref": "v0.1.9",
       "plugins": [
         "jake-101.ahakey"
       ],
-      "rejected": [
-        {
-          "path": "orca-ahakey",
-          "id": "ahakey",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "update"
-            }
-          ]
-        }
+      "notes": [
+        "ahakey: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "jamesjfoong/orca-plugin-github-workbench": {
@@ -1499,9 +1490,6 @@
       "state": "rejected",
       "ref": "v1.4.246",
       "reasons": [
-        {
-          "category": "archived"
-        },
         {
           "category": "manifest-format"
         },
