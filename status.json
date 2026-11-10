@@ -101,7 +101,7 @@
     },
     "anhvangiang/orca-agent-accounts": {
       "state": "listed",
-      "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "anhvangiang.agent-accounts"
       ]
@@ -485,7 +485,7 @@
     },
     "faisalmuhammad/orca-n8n": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "faisalmuhammad.n8n"
       ]
@@ -626,7 +626,7 @@
     },
     "ibazylchuk/orca-plugin-openspec-board": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.6.0",
       "plugins": [
         "ibazylchuk.openspec-board"
       ]
@@ -1057,6 +1057,18 @@
       "ref": "v0.1.4",
       "plugins": [
         "nhangen.git-issues"
+      ],
+      "rejected": [
+        {
+          "path": "plugins/git-issues",
+          "id": "git-issues",
+          "reasons": [
+            {
+              "category": "version-locked",
+              "detail": "tag v0.1.4 moved: version 0.1.4 was first listed at commit c458942814e8dd275c9327ca61d172964f2aacd8 and stays that release; publish a new version instead"
+            }
+          ]
+        }
       ]
     },
     "nknwns/orca-wakatime": {
@@ -1314,19 +1326,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.9.2",
+      "ref": "v0.10.1",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.10.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
