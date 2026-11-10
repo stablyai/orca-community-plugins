@@ -131,6 +131,12 @@
     "repoId": 1431507996,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "bahachammakhi.kube-panel@0.1.0": {
+    "commit": "c379f36d6670edd7b58a832aad0fbede0e5069d9",
+    "contentHash": "2daf358b249bdf5b0d64416fa5bb3163eb6f381ace60db1833cc374db660530c",
+    "repoId": 1452710759,
+    "firstSeen": "2026-11-10T13:39:20.220Z"
+  },
   "baroned1707.claude-accounts@0.13.0": {
     "commit": "de49b04d1bbeeb9bb60355e76594b3af20b818af",
     "contentHash": "8add27194c4c6438f3ccca7b828d435382db36d222c21697b0f16087b98c062a",
@@ -1739,6 +1745,12 @@
     "repoId": 1440225977,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "serhii-f8.git-toolbox@0.1.0": {
+    "commit": "83789bdfb918b451e1bb1b4988ebaf205e908e5d",
+    "contentHash": "a108a8199fefbf6ee09c313ded122ec2c101322ef2978b39a4032556d1204ce5",
+    "repoId": 1452623725,
+    "firstSeen": "2026-11-10T13:39:20.220Z"
+  },
   "shakedm100.latex-preview@0.4.2": {
     "commit": "61bbd76a70c2ff70227d9e130f23caebdda273f9",
     "contentHash": "1fb702aa3bb05e7d782ad7b7ddec4386317d2766d76207fbcc1d1cdf105e2c43",
@@ -1786,6 +1798,12 @@
     "contentHash": "cd1c0dfa8f7b0ae034e74e6ccbde09b728487290333d3592e44036d01d1d183d",
     "repoId": 1452554647,
     "firstSeen": "2026-11-10T12:39:35.386Z"
+  },
+  "spgsroot.omp-usage@1.2.1": {
+    "commit": "2b9e71ef5ac5dc082b316fba2e8c566bdf0985ce",
+    "contentHash": "9a35e9eb8b8f70ed89bf1d36789352630e513c1af172a951b74eed10b9e6ab49",
+    "repoId": 1452554647,
+    "firstSeen": "2026-11-10T13:39:20.220Z"
   },
   "sumonta056.better-markdown-preview@1.0.4": {
     "commit": "57f3776e653fefaa4b2e3fe4073f7a83b191c7a2",

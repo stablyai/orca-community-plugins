@@ -1293,6 +1293,54 @@
       ]
     },
     {
+      "id": "bahachammakhi.kube-panel",
+      "ownerId": 44755179,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bahachammakhi/kube-panel.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Browse Kubernetes workloads, logs, events and YAML, and open k9s beside your code.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c379f36d6670edd7b58a832aad0fbede0e5069d9",
+          "contentHash": "2daf358b249bdf5b0d64416fa5bb3163eb6f381ace60db1833cc374db660530c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.254",
+          "name": "Kube Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kube Panel"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/bahachammakhi.kube-panel/0f3a9bf81a1d8d58.png",
+                "alt": "Kube Panel showing workloads and the log inspector with synthetic sample data.",
+                "sha256": "0f3a9bf81a1d8d58aebd9a8ff0b902f0386bb6f31c1e3b08fe0c8d412b156b00",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/bahachammakhi/kube-panel",
+          "updatedAt": "2026-11-10T14:37:30+01:00"
+        }
+      ]
+    },
+    {
       "id": "baroned1707.claude-accounts",
       "ownerId": 61402493,
       "source": {
@@ -15578,8 +15626,8 @@
       "ownerId": 12380302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rzkmak/orca-neuralwatt-usage.git",
-        "ref": "v0.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rzkmak/orca-neuralwatt-usage/0.0.2"
       },
       "description": "NeuralWatt quota, spend and credit balance in Orca's status bar.",
       "categories": [
@@ -17039,6 +17087,72 @@
       ]
     },
     {
+      "id": "serhii-f8.git-toolbox",
+      "ownerId": 22273976,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A PhpStorm-style Git panel for Orca: branch tree with ahead/behind counts, commit graph log, commit details and diffs, local changes and commit, plus a status bar branch indicator with auto-fetch.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "83789bdfb918b451e1bb1b4988ebaf205e908e5d",
+          "contentHash": "a108a8199fefbf6ee09c313ded122ec2c101322ef2978b39a4032556d1204ce5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Update (Pull)"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Push"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+T",
+              "detail": "gittoolbox.pull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/serhii-f8/orca-GitToolBox",
+          "updatedAt": "2026-11-10T14:32:12+01:00"
+        }
+      ]
+    },
+    {
       "id": "shakedm100.latex-preview",
       "ownerId": 32491464,
       "source": {
@@ -17403,8 +17517,8 @@
       "ownerId": 67481268,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/spgsroot/orca-usage-plugin/1.1.3"
+        "url": "https://github.com/spgsroot/orca-usage-plugin.git",
+        "ref": "v1.2.1"
       },
       "description": "Token-usage dashboard for the local omp corpus: stacked daily chart with series toggles, per-model table, corpus totals, and a status-bar item with today's spend.",
       "categories": [
@@ -17412,6 +17526,60 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "2b9e71ef5ac5dc082b316fba2e8c566bdf0985ce",
+          "contentHash": "9a35e9eb8b8f70ed89bf1d36789352630e513c1af172a951b74eed10b9e6ab49",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.255",
+          "name": "OMP Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OMP Usage"
+            },
+            {
+              "kind": "commands",
+              "name": "OMP Usage: Rescan local sessions"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "…"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/spgsroot.omp-usage/3efcaf518377926c.png",
+              "alt": "The OMP Usage dashboard: KPI cards for window tokens, cost, today and daily average; a stacked daily chart with a hover tooltip; and the per-model table.",
+              "sha256": "3efcaf518377926cfe069bfc5db148391fd9584940e666f6c8b63807d4a00f93",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/spgsroot.omp-usage/31f4297ed0d1a085.png",
+                "alt": "The OMP Usage panel: KPI cards, the stacked daily chart with series toggles, and the per-model table with costs.",
+                "sha256": "31f4297ed0d1a085d1e1ef0d47d97893588b7946807dbe92f42c5d21ec4fac8d",
+                "width": 1343,
+                "height": 922
+              },
+              {
+                "path": "assets/spgsroot.omp-usage/d1aa1ad2bc17a4ad.png",
+                "alt": "Day breakdown card with per-series percentages and a chart tooltip; the Today chevron points up while the detail is open.",
+                "sha256": "d1aa1ad2bc17a4ad14d5f980fa343f5b6fba57d700498fccdf7f3a31717f35b0",
+                "width": 2053,
+                "height": 922
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spgsroot/orca-usage-plugin",
+          "updatedAt": "2026-11-10T16:38:29+03:00"
+        },
         {
           "version": "1.1.3",
           "commit": "8b8713fe62fafd47ad87f986284c80666a41d9e7",
@@ -19007,8 +19175,8 @@
       "ownerId": 127289237,
       "source": {
         "kind": "git",
-        "url": "https://github.com/unitea1992/orca-extensions.git",
-        "ref": "v0.1.1",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/unitea1992/orca-extensions/gate-inbox/0.1.1",
         "path": "plugins/gate-inbox"
       },
       "description": "Orca の決定ゲート（確認待ち）を右サイドバーに積み、番号＋一言の回答行をまとめてコピーできるようにする。",
