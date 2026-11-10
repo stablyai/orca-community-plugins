@@ -970,8 +970,8 @@
       "ownerId": 6427696,
       "source": {
         "kind": "git",
-        "url": "https://github.com/AmethystLiang/orca-plugin.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/amethystliang/orca-plugin/1.0.0"
       },
       "description": "A beautiful, fast emoji palette in your sidebar. Search 1,900+ emoji, save favorites, choose skin tones, and copy in a click. Works entirely offline.",
       "categories": [
@@ -8885,6 +8885,89 @@
       ]
     },
     {
+      "id": "ias0nas.seaqull",
+      "ownerId": 9936844,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ias0nas/SeaQull.git",
+        "ref": "v0.1.0"
+      },
+      "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "23caa20befceb38346f6141c68fa8cbf5ef7c1c9",
+          "contentHash": "c23533d58bec7e99cdc3626bddb66a4c07bfc1b6c90a9b03b52ae40c95de69c0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SeaQull",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "SeaQull",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SeaQull console",
+              "detail": ".sql"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New SeaQull workbook",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "activity"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "editorFileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/ias0nas.seaqull/e010ca3342e8fe5c.png",
+              "alt": "SeaQull icon",
+              "sha256": "e010ca3342e8fe5c702dfa932bc3d24b54883041929c9e86b1f90698e8607a9a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ias0nas.seaqull/099a04598635756a.png",
+                "alt": "Completion offering a foreign-key join condition after ON, with a result grid below and the object explorer on the right",
+                "sha256": "099a04598635756ad120b5e235e4058a19a236ed65c7de5a39bc21e04d13a8d2",
+                "width": 2460,
+                "height": 1600
+              },
+              {
+                "path": "assets/ias0nas.seaqull/4785cc3ea9e1d397.png",
+                "alt": "The New connection dialog: name, colour, server and port, database, authentication, user and password, and encryption options",
+                "sha256": "4785cc3ea9e1d39780d73a78cff28fbccf4cc291e167250e939a192ca294bf46",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ias0nas/SeaQull",
+          "updatedAt": "2026-11-10T20:29:19Z"
+        }
+      ]
+    },
+    {
       "id": "ibazylchuk.openspec-board",
       "ownerId": 663999,
       "source": {
@@ -15876,8 +15959,8 @@
       "ownerId": 62075475,
       "source": {
         "kind": "git",
-        "url": "https://github.com/renanleonel/vesper-orca.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/renanleonel/vesper-orca/0.1.0"
       },
       "description": "Unofficial port of Rauno Freiberg's Vesper: a black theme with peppermint and orange accents, with matching code and terminal colors.",
       "categories": [
@@ -21202,8 +21285,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vale-c/orca-cyberpunk.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vale-c/orca-cyberpunk/1.0.0"
       },
       "description": "Neon Cyberpunk app, code and terminal colors for Orca, in three styles: Cyberpunk, Umbra and Scarlet.",
       "categories": [

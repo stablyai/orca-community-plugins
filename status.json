@@ -94,7 +94,7 @@
     },
     "amethystliang/orca-plugin": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/amethystliang/orca-plugin/1.0.0",
       "plugins": [
         "amethystliang.emoji-picker"
       ]
@@ -632,13 +632,10 @@
       ]
     },
     "ias0nas/seaqull": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "ias0nas.seaqull"
       ]
     },
     "ibazylchuk/orca-plugin-openspec-board": {
@@ -1230,7 +1227,7 @@
     },
     "renanleonel/vesper-orca": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/renanleonel/vesper-orca/0.1.0",
       "plugins": [
         "renanleonel.vesper-theme"
       ]
@@ -1691,7 +1688,7 @@
     },
     "vale-c/orca-cyberpunk": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/vale-c/orca-cyberpunk/1.0.0",
       "plugins": [
         "vale-c.cyberpunk"
       ]
