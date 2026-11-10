@@ -966,6 +966,54 @@
       ]
     },
     {
+      "id": "amethystliang.emoji-picker",
+      "ownerId": 6427696,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/AmethystLiang/orca-plugin.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A beautiful, fast emoji palette in your sidebar. Search 1,900+ emoji, save favorites, choose skin tones, and copy in a click. Works entirely offline.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "29a68b76aec9030ac9b2a7512b19b2c1917ccb69",
+          "contentHash": "bc53b34f1b9ea1c3c391bc806a6b8fbe53ea2ca295f385c18cdfeb998a200db3",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Emoji Picker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Emoji Picker"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/amethystliang.emoji-picker/c06c3e7a3b8698ae.png",
+              "alt": "Emoji Picker with neutral light and dark themes, emoji search, collections, categories, and a preview in the Orca sidebar.",
+              "sha256": "c06c3e7a3b8698ae1a98fa601f8e3058b0924bc270db6585a0ef952ec07830a8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/amethystliang.emoji-picker/3c6fdf2d13fd2c03.png",
+              "alt": "Emoji Picker icon",
+              "sha256": "3c6fdf2d13fd2c031b7977912da3a94039a5e1da35c45468d2a082baa13c45e1",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/AmethystLiang/orca-plugin",
+          "updatedAt": "2026-11-10T12:17:33-08:00"
+        }
+      ]
+    },
+    {
       "id": "aminechr54.agent-split",
       "ownerId": 139517320,
       "source": {
@@ -1018,8 +1066,8 @@
       "ownerId": 27738449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/AnhVanGiang/orca-agent-accounts.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.1.1"
       },
       "description": "Pick which Claude Code and Codex account each repo or workspace runs its agents on, using the accounts you added in Orca. macOS only.",
       "categories": [
@@ -6770,8 +6818,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-n8n.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-n8n/0.2.0"
       },
       "description": "Open your local or Cloud n8n instance in Orca. Browse workflows, read-only previews, recent runs, and insights in the sidebar.",
       "categories": [
@@ -15824,6 +15872,68 @@
       ]
     },
     {
+      "id": "renanleonel.vesper-theme",
+      "ownerId": 62075475,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/renanleonel/vesper-orca.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Unofficial port of Rauno Freiberg's Vesper: a black theme with peppermint and orange accents, with matching code and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "234f7e759f6ce9bc7a9bf9ee304e7bb1857b84b7",
+          "contentHash": "0e82ca60ce7cc32010de9ef2c77d6ae8d3374574ebf45380e990aa3d52095fc5",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Vesper for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Vesper"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Vesper"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/renanleonel.vesper-theme/ac1bf28f560c656c.png",
+              "alt": "Vesper on Orca's code editor with a TypeScript React file and the file tree",
+              "sha256": "ac1bf28f560c656ccf60b279a79379be328834ab594b19d585036b3a38a2b174",
+              "width": 1622,
+              "height": 998
+            },
+            "screenshots": [
+              {
+                "path": "assets/renanleonel.vesper-theme/ac1bf28f560c656c.png",
+                "alt": "Vesper on the code editor",
+                "sha256": "ac1bf28f560c656ccf60b279a79379be328834ab594b19d585036b3a38a2b174",
+                "width": 1622,
+                "height": 998
+              },
+              {
+                "path": "assets/renanleonel.vesper-theme/937ebacfbad94631.png",
+                "alt": "Vesper terminal palette with git status and a diff",
+                "sha256": "937ebacfbad94631261be1d2cb5fdd522c469641496f5f563fd22a82cd111eac",
+                "width": 1622,
+                "height": 998
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/renanleonel/vesper-orca",
+          "updatedAt": "2026-11-10T17:15:57-03:00"
+        }
+      ]
+    },
+    {
       "id": "rgarciade.containers",
       "ownerId": 10086855,
       "source": {
@@ -17144,8 +17254,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.10.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.10.1"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees; GitHub and GitLab merge requests (approve, merge in the background, AI review before you open one) and every branch's pipelines; Repo Overview for many r",
       "categories": [
@@ -21084,6 +21194,68 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-catppuccin",
           "updatedAt": "2026-10-30T10:52:52+01:00"
+        }
+      ]
+    },
+    {
+      "id": "vale-c.cyberpunk",
+      "ownerId": 21361479,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vale-c/orca-cyberpunk.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Neon Cyberpunk app, code and terminal colors for Orca, in three styles: Cyberpunk, Umbra and Scarlet.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "ecaaae2c4935223f05912d5ae4fb7caf3fa35645",
+          "contentHash": "b9f7bea3d20053f28be6d1a4c9c54d2215f3286959502c7a9f3b7b72114a0e60",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Cyberpunk for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Cyberpunk"
+            },
+            {
+              "kind": "themes",
+              "name": "Cyberpunk Umbra"
+            },
+            {
+              "kind": "themes",
+              "name": "Cyberpunk Scarlet"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Cyberpunk"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Cyberpunk Umbra"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Cyberpunk Scarlet"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.cyberpunk/caa9c37729ea204d.png",
+              "alt": "Cyberpunk for Orca: the plugin name and its palette beside Orca's editor in the Cyberpunk, Umbra and Scarlet styles",
+              "sha256": "caa9c37729ea204dded8b0c7e87db09c1c908085fe23d9eea37ef34224c06cc9",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "GPL-3.0",
+          "repository": "https://github.com/vale-c/orca-cyberpunk",
+          "updatedAt": "2026-11-10T21:11:20+01:00"
         }
       ]
     },
