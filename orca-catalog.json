@@ -379,8 +379,8 @@
       "ownerId": 24607590,
       "source": {
         "kind": "git",
-        "url": "https://github.com/actus7/orca-autocomplete.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/actus7/orca-autocomplete/0.3.1"
       },
       "description": "Gray inline suggestions as you type, powered by the AI provider you choose (OpenAI, Anthropic, OpenRouter, Mistral, Ollama or any compatible API), plus snippets, postfix templates and language servers with the AI off.",
       "categories": [
@@ -986,8 +986,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.0"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -1930,8 +1930,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-skill-usage.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-skill-usage/1.0.0"
       },
       "description": "See which skills, MCP servers, agents and plugins of Claude Code, Codex and Gemini you really use, per project, and what the unused ones cost in context tokens. English and German. Local only, no tracking.",
       "categories": [
@@ -3135,8 +3135,8 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/choihjin/orca-agent-haptics.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/choihjin/orca-agent-haptics/0.1.0"
       },
       "description": "Vibrates an MX Master 4, through the third-party HapticWeb plugin, when an Orca agent on this machine or over SSH finishes, fails or needs you, with a different vibration for each.",
       "categories": [
@@ -9461,7 +9461,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/kloppers-labs/orca-azure-devops.git",
-        "ref": "v0.2.0"
+        "ref": "v0.2.1"
       },
       "description": "Unofficial. Azure DevOps work items, boards, pipelines, pull requests and wikis in the Orca sidebar.",
       "categories": [
@@ -9470,6 +9470,130 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "263e8727006b925401efed90ff86ce660f84fdc8",
+          "contentHash": "5d6bda680b44150d29164694f658822feddcfefddf05336656b4c4b37cdc1933",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Azure DevOps",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Azure DevOps"
+            },
+            {
+              "kind": "commands",
+              "name": "Azure DevOps: Connection status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Azure DevOps board",
+              "detail": ".adoboard"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Azure DevOps run",
+              "detail": ".adorun"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Azure DevOps board",
+              "detail": ".adoboard"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "ADO"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "adoboard",
+            "adorun"
+          ],
+          "editorFileTypes": [
+            "adoboard",
+            "adorun"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kloppers-labs.azure-devops/ef377e14d1b88b41.jpg",
+              "alt": "The plugin's logo and name beside its Work tab, with board columns and tasks, and its PRs tab, with pull requests grouped by project.",
+              "sha256": "ef377e14d1b88b4133d66bc5c5deba19a4a5aae74b564e5dacba015139ae9955",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/kloppers-labs.azure-devops/36661f93ae18a087.png",
+              "alt": "Azure DevOps icon",
+              "sha256": "36661f93ae18a087b2ad3178490a9e6a40b0f6968d4be148d10db30daf24751c",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/kloppers-labs.azure-devops/2e930f9538a86622.jpg",
+                "alt": "The Work tab by board column, with tasks inside their story and a merge nudge, and again by the board's swimlanes.",
+                "sha256": "2e930f9538a8662292b6814073d1a64630563641eccdc8be315294cf91592aba",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/kloppers-labs.azure-devops/0ce00cc853a4aab7.jpg",
+                "alt": "The PRs tab: release sets grouped by project with their checks and actions, and the To review list grouped the same way.",
+                "sha256": "0ce00cc853a4aab7baf395b4037247cf4d1323f2a999b9dca6762f11bb8bfa39",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/kloppers-labs.azure-devops/1e1e0f2247d21b6c.jpg",
+                "alt": "The Pipelines tab: runs grouped by project with stage chips, and a production approval with Approve, Reject and Share.",
+                "sha256": "1e1e0f2247d21b6c9347ac9272739c828b7b24b37ef0c84c66a409eb3c86829d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/kloppers-labs.azure-devops/695504b47c8b65c8.jpg",
+                "alt": "The Wiki tab: the page tree with folders and drafts, and a page with diagram and table cards and Open in tab.",
+                "sha256": "695504b47c8b65c806562ff8996fe9db9b5916862715eace2ca5f7b59bfc3a02",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/kloppers-labs/orca-azure-devops",
+          "updatedAt": "2026-11-10T11:02:39+02:00"
+        },
         {
           "version": "0.2.0",
           "commit": "6a72da5da364c10e38df83f32b8dd027263f72b9",

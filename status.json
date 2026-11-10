@@ -40,7 +40,7 @@
     },
     "actus7/orca-autocomplete": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/actus7/orca-autocomplete/0.3.1",
       "plugins": [
         "actus7.autocomplete"
       ]
@@ -94,7 +94,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.0",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -173,7 +173,7 @@
     },
     "brodesigns/orca-skill-usage": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/brodesigns/orca-skill-usage/1.0.0",
       "plugins": [
         "brodesigns.skill-usage"
       ]
@@ -230,7 +230,7 @@
     },
     "choihjin/orca-agent-haptics": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/choihjin/orca-agent-haptics/0.1.0",
       "plugins": [
         "choihjin.agent-haptics"
       ]
@@ -740,7 +740,7 @@
     },
     "kloppers-labs/orca-azure-devops": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "kloppers-labs.azure-devops"
       ]
