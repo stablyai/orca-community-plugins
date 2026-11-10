@@ -711,7 +711,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.3",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -773,7 +773,7 @@
         "kyino-pan.agent-activity"
       ],
       "update": {
-        "ref": "v0.1.4",
+        "ref": "v0.1.5",
         "reasons": [
           {
             "category": "under-review",
