@@ -318,8 +318,9 @@
     },
     {
       "id": "brezzashen.account-keys",
-      "stars": 0,
-      "stats": null
+      "stars": null,
+      "stats": null,
+      "sourceUnavailable": true
     },
     {
       "id": "brodesigns.skill-usage",
@@ -443,7 +444,7 @@
     },
     {
       "id": "eskono.docker-logs",
-      "stars": 0,
+      "stars": null,
       "stats": null
     },
     {
