@@ -5575,8 +5575,8 @@
       "ownerId": 75980151,
       "source": {
         "kind": "git",
-        "url": "https://github.com/felix-lj-ct/orca-agent-inbox.git",
-        "ref": "v0.2.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.4"
       },
       "description": "What your agents and scripts wait on you for, in one sidebar panel: workspaces they parked on the board with the reason, and the messages they sent. They call one CLI at the points of your workflow that need you.",
       "categories": [
@@ -13204,8 +13204,8 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/plozmun/orca-redmine.git",
-        "ref": "v0.1.8"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/plozmun/orca-redmine/0.1.8"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
@@ -16002,8 +16002,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.3.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, their start, continuation and stop with an agent per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
