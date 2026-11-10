@@ -5575,8 +5575,8 @@
       "ownerId": 75980151,
       "source": {
         "kind": "git",
-        "url": "https://github.com/felix-lj-ct/orca-agent-inbox.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.2"
       },
       "description": "What your agents and scripts wait on you for, in one sidebar panel: workspaces they parked on the board with the reason, and the messages they sent. They call one CLI at the points of your workflow that need you.",
       "categories": [
