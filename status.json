@@ -85,6 +85,13 @@
         }
       ]
     },
+    "alterdianne/orca-inspo": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "alterdianne.inspo"
+      ]
+    },
     "aminechr54/orca-agent-split": {
       "state": "listed",
       "ref": "refs/tags/aminechr54/orca-agent-split/1.0.0",
@@ -209,7 +216,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.5.4",
+      "ref": "v2.6.0",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -491,13 +498,10 @@
       ]
     },
     "felipemayerdev/orca-walkthrough": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "felipemayerdev.walkthrough"
       ]
     },
     "felix-lj-ct/orca-agent-inbox": {
@@ -1217,7 +1221,7 @@
     },
     "rr235/orca-power-sessions": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/rr235/orca-power-sessions/0.1.0",
       "plugins": [
         "rr235.power-sessions"
       ]
@@ -1279,7 +1283,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.9.0",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.9.0",
       "plugins": [
         "satangbudsai.git-control"
       ]
