@@ -7578,8 +7578,8 @@
       "ownerId": 94118879,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.5.0"
+        "url": "https://github.com/jiangwanyutao/orca-claude-theme.git",
+        "ref": "v1.5.1"
       },
       "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, midnight and pure white variants, signature terracotta accents, full chat suite, terminal themes, and semantic folder icons.",
       "categories": [
@@ -7588,6 +7588,71 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.5.1",
+          "commit": "589a9e113bd618ed070aa10f6fcdc243e1e75aa9",
+          "contentHash": "4f3829d70277ca1146810e0a20ef0b195512eeb44da120512eaba4dd6630f953",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Claude Theme for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Dark (Midnight OLED)"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Light (Pure White)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Dark (Midnight OLED)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Light (Charcoal Cursor)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jiangwanyutao.claude-theme/af5ebb9d652bae41.png",
+              "alt": "Claude Theme for Orca preview showing the warm editor, file tree, terminal, and color palette",
+              "sha256": "af5ebb9d652bae4148f4e5bb8f69f1c7a818dd31750ad95598b33ffde59c4ef6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jiangwanyutao.claude-theme/23d364670288ba27.png",
+              "alt": "Claude Theme for Orca icon",
+              "sha256": "23d364670288ba270d703a97772bb8e1b14749fda6121f6b541af86ca6d5cd59",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
+          "updatedAt": "2026-11-10T09:16:54+08:00"
+        },
         {
           "version": "1.5.0",
           "commit": "a8c7af848f1f3518b5e874f5f27a95c98c5b1e42",
@@ -7792,48 +7857,6 @@
           "license": "MIT",
           "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
           "updatedAt": "2026-11-09T14:20:18+08:00"
-        },
-        {
-          "version": "1.2.0",
-          "commit": "cd8fa8de07c47c358b5ea74b3cf8446cb7b3499a",
-          "contentHash": "01b658e0e57245bc850c1500ff0836f59cef31370229c9c1541bd55d95e9986e",
-          "execution": "data",
-          "minimumOrca": "1.4.245",
-          "name": "Claude Theme for Orca",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Claude Dark"
-            },
-            {
-              "kind": "themes",
-              "name": "Claude Light"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Dark"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Light"
-            },
-            {
-              "kind": "iconThemes",
-              "name": "Claude Icons"
-            }
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/jiangwanyutao.claude-theme/23d364670288ba27.png",
-              "alt": "Claude Theme for Orca icon",
-              "sha256": "23d364670288ba270d703a97772bb8e1b14749fda6121f6b541af86ca6d5cd59",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
-          "updatedAt": "2026-11-09T11:58:15+08:00"
         }
       ]
     },
