@@ -541,7 +541,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/gongxliang/claude-paper/0.5.0",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -711,7 +711,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.2",
+      "ref": "v1.0.3",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -1236,7 +1236,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.14",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.14",
       "plugins": [
         "satangbudsai.git-control"
       ]

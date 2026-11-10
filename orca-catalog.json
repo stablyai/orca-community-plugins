@@ -6054,8 +6054,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gongxliang/claude-paper/0.5.0"
       },
       "description": "Claude-inspired warm light and dark themes for Orca: a calm, readable Chat, matching terminal colors for coding agents, and original Paper Fold file icons.",
       "categories": [
@@ -8254,8 +8254,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.2"
+        "url": "https://github.com/jondmarien/orca-discord-presence.git",
+        "ref": "v1.0.3"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -8264,6 +8264,143 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "1b858e5ad9c72e3bb9f10e4ed16e0af8928f6784",
+          "contentHash": "808a651a46c429b6196d7a01a9092cd17ec69a5c9a51676c92b2beaf8b161eda",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich Presence for Discord",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Rich Presence"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Enable/Disable"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show or Hide Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Reload RPC"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Cycle Detail Level"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Branch"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent State"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Terminal Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Machine Name"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Elapsed Timer"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Debug Logging"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Open Button"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Clear"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Configure"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Discord"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jondmarien.discord-presence/e2b815ffd538f18f.webp",
+              "alt": "Rich Presence for Discord: title, four agent state icons, Discord profile card showing Working in Orca",
+              "sha256": "e2b815ffd538f18f7f58150cedcf3af570393b1f7ac8cd67ae66196e539a96f3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jondmarien.discord-presence/97715988bb458fac.png",
+              "alt": "Rich Presence for Discord icon",
+              "sha256": "97715988bb458fac7de742d5ed999f4638639ca22eb9a3006b792b9d678bb093",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jondmarien.discord-presence/47f6349c40c45689.webp",
+                "alt": "Rich Presence panel Full view: Discord profile preview, last 30 minutes of agent states, agent list with chat names, and Show on Discord switches",
+                "sha256": "47f6349c40c45689b272e19ab03104995178b8b04fae992aebfb4419899d1cd0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jondmarien.discord-presence/8b25f52a96af6933.webp",
+                "alt": "Rich Presence panel Minimal view: state-coloured hero showing Working with 2 agents and a timer, plus the 30-minute strip",
+                "sha256": "8b25f52a96af693320c093d33bb7bc6b768d6e782dd7d7d2c6c67f34ea34cfe7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jondmarien/orca-discord-presence",
+          "updatedAt": "2026-11-10T01:14:00-05:00"
+        },
         {
           "version": "1.0.2",
           "commit": "f0ac386a8f013ef89927dd42b9ad4ab6c8c05324",
@@ -14177,8 +14314,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.8.14"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.14"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees, plus GitHub and GitLab merge requests (approve and merge) and every branch's pipelines, with your existing Git login. In a full tab and the right sidebar",
       "categories": [
