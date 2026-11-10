@@ -387,19 +387,10 @@
     },
     "eskono/orca-docker-logs": {
       "state": "listed",
-      "ref": "refs/tags/eskono/orca-docker-logs/0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "eskono.docker-logs"
-      ],
-      "update": {
-        "ref": "v0.5.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "esykai/orca-catppuccin-exact": {
       "state": "listed",
@@ -1257,7 +1248,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.16",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.16",
       "plugins": [
         "satangbudsai.git-control"
       ]
