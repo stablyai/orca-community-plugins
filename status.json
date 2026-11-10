@@ -187,19 +187,10 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.2.2",
+      "ref": "v2.5.2",
       "plugins": [
         "cattfan.enhance-prompt"
-      ],
-      "update": {
-        "ref": "v2.5.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -740,7 +731,7 @@
     },
     "kloppers-labs/orca-azure-devops": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.2.1",
       "plugins": [
         "kloppers-labs.azure-devops"
       ]
