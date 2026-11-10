@@ -200,7 +200,7 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v2.4.5",
+        "ref": "v2.5.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1004,7 +1004,16 @@
       "ref": "refs/tags/oscarbotteri/orca-db-studio/0.2.0",
       "plugins": [
         "oscarbotteri.db-studio"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
@@ -1055,6 +1064,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "prized-dev/orca-prized-plugin": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "pty0220/orca-git-graph": {
