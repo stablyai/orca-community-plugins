@@ -207,7 +207,7 @@
         "cattfan.enhance-prompt"
       ],
       "update": {
-        "ref": "v2.5.1",
+        "ref": "v2.5.2",
         "reasons": [
           {
             "category": "under-review",
@@ -487,7 +487,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -579,7 +579,7 @@
     },
     "hilbana/orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/hilbana/orca-plugin/0.6.1",
+      "ref": "v0.7.0",
       "plugins": [
         "hilbana.hilbana"
       ]
@@ -646,7 +646,7 @@
     },
     "j7-dev/orca-gherkin-syntax": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/j7-dev/orca-gherkin-syntax/0.1.0",
       "plugins": [
         "j7-dev.gherkin-syntax"
       ]
@@ -1243,7 +1243,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.15",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.15",
       "plugins": [
         "satangbudsai.git-control"
       ]
@@ -1468,7 +1468,7 @@
     },
     "tuna-etech/gitgraph-orca": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "v1.0.3",
       "plugins": [
         "tuna-etech.git-graph"
       ]

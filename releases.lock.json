@@ -581,6 +581,12 @@
     "repoId": 1446473404,
     "firstSeen": "2026-11-10T04:39:35.406Z"
   },
+  "felix-lj-ct.agent-inbox@0.2.3": {
+    "commit": "b1782cd6e4cc83b3f383e67b978c7b4e967adc9c",
+    "contentHash": "6dbae29040d8290dec7561ee5d14c1681e560f8e577167c2ac3b06b5dda160db",
+    "repoId": 1446473404,
+    "firstSeen": "2026-11-10T07:39:33.466Z"
+  },
   "gaoshang212.csharp@0.1.0": {
     "commit": "fef2711704172796084f8654569a354e48c45a4a",
     "contentHash": "c2d540ac060b2569e01505903c4ebcc55bc313af155b5c437c7eef63977ebf10",
@@ -730,6 +736,12 @@
     "contentHash": "375c32e41c9039aed4479b3b14cc5ee2dc1b8e8b4a4067830349a853b31b723e",
     "repoId": 1451666508,
     "firstSeen": "2026-11-09T20:14:47.685Z"
+  },
+  "hilbana.hilbana@0.7.0": {
+    "commit": "ee1dc8a549641c08c76a86e69cf6c60bc1899305",
+    "contentHash": "6ed31b6feae80f06530fd502e54c5c0f8726fbcd0efaf1216b5008280a8c96a3",
+    "repoId": 1451666508,
+    "firstSeen": "2026-11-10T07:39:33.466Z"
   },
   "hubo1989.codegraph-init@0.1.0": {
     "commit": "052026402971133f913e79d854461ded29e98d73",
@@ -1786,6 +1798,12 @@
     "contentHash": "27ad1f3c366be6dd2a334114beda0db43cb8a445ead94b33f47982a275432fbd",
     "repoId": 1452191927,
     "firstSeen": "2026-11-10T07:15:44.809Z"
+  },
+  "tuna-etech.git-graph@1.0.3": {
+    "commit": "c14d1f8006c1822c3611707ffe7ce524300c51be",
+    "contentHash": "d35288c1485967abcd37fa30582e6b7f73cb62ab35fe91e3a336d7f160642b8c",
+    "repoId": 1452191927,
+    "firstSeen": "2026-11-10T07:39:33.466Z"
   },
   "turingfx.omp-usage@0.1.0": {
     "commit": "7e9353ce424b3cadb9f4dcb8bd9f8ed4a310ccdf",
