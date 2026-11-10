@@ -1193,19 +1193,10 @@
     },
     "ronancodes/orca-reminders": {
       "state": "listed",
-      "ref": "refs/tags/ronancodes/orca-reminders/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "ronancodes.reminders"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "royklo/orca-rego": {
       "state": "listed",
@@ -1311,19 +1302,10 @@
     },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.3.1",
       "plugins": [
         "serhii-f8.git-toolbox"
-      ],
-      "update": {
-        "ref": "v0.3.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "shadowhelper93/soundcheck": {
       "state": "rejected",

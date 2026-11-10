@@ -15467,16 +15467,131 @@
       "ownerId": 6930753,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ronancodes/orca-reminders/0.1.0"
+        "url": "https://github.com/RonanCodes/orca-reminders.git",
+        "ref": "v0.2.0"
       },
-      "description": "Remind me later: set reminders tied to a workspace or tab, get a desktop notification when they are due, and snooze, move or tick them off from a sidebar panel.",
+      "description": "Remind me later about this workspace or tab: a desktop notification when it is due, a count in the status bar, and snooze, move, open or tick off from a sidebar panel or the palette.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "c1ad93f27320f6f5143d61aaa1b78c5f83e16824",
+          "contentHash": "aef866fec18d21aab12142e6e9fbaf642d7d8c41a8d74fe41937edb8ecf66bd7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Reminders",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Reminders"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Remind me in 15 minutes about this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Remind me in 1 hour about this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Remind me tomorrow morning about this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Show pending reminders"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Snooze due reminders 15 minutes"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Mark due reminders done"
+            },
+            {
+              "kind": "commands",
+              "name": "Reminders: Open the workspace of the oldest due reminder"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "count"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ronancodes.reminders/f3d27e8f4d33d004.png",
+              "alt": "The Reminders panel beside a workspace in Orca: a due reminder with Done, Snooze and Open buttons, the add form, and the pending list.",
+              "sha256": "f3d27e8f4d33d004f530fe945f9b16586aaaf5c468122803eba029190200eaf8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ronancodes.reminders/a1d5d3f832f7338a.png",
+              "alt": "Reminders icon",
+              "sha256": "a1d5d3f832f7338a479b2c9648898efce530a8bbd4de1456b151532c2e8cc1ef",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ronancodes.reminders/327669a3cb0c9531.png",
+                "alt": "The Reminders panel in a light Orca theme, with a due reminder, the add form and three pending reminders.",
+                "sha256": "327669a3cb0c95311bb316762c97a5876f64bf98679665e910911d0ed43f1468",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ronancodes.reminders/de52bec86a300fbd.png",
+                "alt": "The Reminders panel in a dark Orca theme, with a due reminder, the add form and three pending reminders.",
+                "sha256": "de52bec86a300fbdbd25a467b9680ce82bb4e377bb6963af57543f7b7cfa56d7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ronancodes.reminders/74e48ef3524e70a4.png",
+                "alt": "The add form set to At a time, with examples of times you can type, in a light Orca theme.",
+                "sha256": "74e48ef3524e70a4e8599d1d2255c3c2df83f93ddfef4f44b5ca1d47041317c6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ronancodes.reminders/5b0ab8a60e5f6e37.png",
+                "alt": "The add form set to At a time, with examples of times you can type, in a dark Orca theme.",
+                "sha256": "5b0ab8a60e5f6e379ee2487e6a23c456108e977e4c9cb90e451034372887fab8",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/RonanCodes/orca-reminders",
+          "updatedAt": "2026-11-10T15:23:21+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "231e7ffcab2b6af8bf792c0928d0c6dd270091a4",
@@ -17365,9 +17480,9 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
-        "ref": "v0.1.0"
+        "ref": "v0.3.1"
       },
-      "description": "A PhpStorm-style Git panel for Orca: branch tree with ahead/behind counts, commit graph log, commit details and diffs, local changes and commit, plus a status bar branch indicator with auto-fetch.",
+      "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, a project and worktree switcher, a status bar branch indicator and background fetch.",
       "categories": [
         "panels",
         "commands",
@@ -17375,6 +17490,113 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "c60f343d84eeb07f2f9427b392365098d2ef5853",
+          "contentHash": "b89b4c6b042e2de4bd6af632421146757fb99eeae0f157ca1299ab868112fedd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Update (Pull)"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Push"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Show Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Show Changes"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Switch Project or Worktree"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+T",
+              "detail": "gittoolbox.pull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/serhii-f8.git-toolbox/91fd54eeb9fc4130.png",
+              "alt": "Git Toolbox panel showing a commit graph with coloured lanes, a branch tree and commit details",
+              "sha256": "91fd54eeb9fc413050efc9d4a9f4d05245334b9c5d5c4a3c9448de03f96719ac",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/serhii-f8.git-toolbox/f8e88dfebc36ad2b.png",
+              "alt": "Git Toolbox icon",
+              "sha256": "f8e88dfebc36ad2b2cd24dff61be7f10bfdc472ff9a39e105f185c004d61f6aa",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/serhii-f8.git-toolbox/91fd54eeb9fc4130.png",
+                "alt": "Log view: branch tree, commit graph with branch labels, and the selected commit with its changed files",
+                "sha256": "91fd54eeb9fc413050efc9d4a9f4d05245334b9c5d5c4a3c9448de03f96719ac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/65b833985bca325e.png",
+                "alt": "Changes view: staged, changed and new files, a diff of a staged file and the commit message box",
+                "sha256": "65b833985bca325e37bf5461394c66ae1630bfd5805d6eaae59c3a4a2e7177c9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/98ce6c8c510750c7.png",
+                "alt": "Switcher listing worktrees grouped by project, with search",
+                "sha256": "98ce6c8c510750c7228cce81d631bf7e93d765e80bf2bc110bca4313e88494cb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/c418dbbd4c949e42.png",
+                "alt": "Log view in a light theme",
+                "sha256": "c418dbbd4c949e429a2afd3b463173f496d6a66f8fb2aef1956f47ce31d71df2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/serhii-f8/orca-GitToolBox",
+          "updatedAt": "2026-11-10T15:28:02+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "83789bdfb918b451e1bb1b4988ebaf205e908e5d",
