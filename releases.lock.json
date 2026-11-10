@@ -803,6 +803,12 @@
     "repoId": 1443441615,
     "firstSeen": "2026-11-05T09:15:58.009Z"
   },
+  "j7-dev.gherkin-syntax@0.1.0": {
+    "commit": "44a203ee8a866ccbd81aa8610b9c6c90afb1a54c",
+    "contentHash": "29c8a9f34468a3a8197da5bf0084ccab7d077790e6d79a20b26746cf5bbc144b",
+    "repoId": 1452319779,
+    "firstSeen": "2026-11-10T07:15:44.809Z"
+  },
   "jamesjfoong.github-workbench@0.2.0": {
     "commit": "fe9064c2809675ef1c3577c80b4dc89f4d0ff243",
     "contentHash": "ff66419e06ffbb5e551111d9acfb7a5e25133ecddd706154dae24eadb7b13b2b",
@@ -1529,6 +1535,12 @@
     "repoId": 1446721393,
     "firstSeen": "2026-11-10T05:39:35.863Z"
   },
+  "satangbudsai.git-control@0.8.15": {
+    "commit": "5f64084c936c12e491672b20081efc9cae75f9fe",
+    "contentHash": "b82bdf8bb55b37078a483ad778138cbff6f41bb78f44fdf751b5259e752548c6",
+    "repoId": 1446721393,
+    "firstSeen": "2026-11-10T07:15:44.809Z"
+  },
   "satangbudsai.git-control@0.8.5": {
     "commit": "56aee95c05e1022bbdea2bca6ac2a677cdf6fcb9",
     "contentHash": "061ff70bba16259416f8a83ca3dc774b69617ab3ee7ec205be322077f438ec96",
@@ -1768,6 +1780,12 @@
     "contentHash": "254585f5656f9e3ceffe71857c02d8eec449d5c0592cdc67ee28cc059e8f1ff1",
     "repoId": 1444000708,
     "firstSeen": "2026-11-09T14:15:49.138Z"
+  },
+  "tuna-etech.git-graph@1.0.2": {
+    "commit": "ba781cb167f0b6f4405f2def6ba38275d9ae7cdf",
+    "contentHash": "27ad1f3c366be6dd2a334114beda0db43cb8a445ead94b33f47982a275432fbd",
+    "repoId": 1452191927,
+    "firstSeen": "2026-11-10T07:15:44.809Z"
   },
   "turingfx.omp-usage@0.1.0": {
     "commit": "7e9353ce424b3cadb9f4dcb8bd9f8ed4a310ccdf",

@@ -644,6 +644,13 @@
         "ivo922.liquid-syntax"
       ]
     },
+    "j7-dev/orca-gherkin-syntax": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "j7-dev.gherkin-syntax"
+      ]
+    },
     "jamesjfoong/orca-plugin-github-workbench": {
       "state": "listed",
       "ref": "refs/tags/jamesjfoong/orca-plugin-github-workbench/0.2.0",
@@ -1236,7 +1243,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.14",
+      "ref": "v0.8.15",
       "plugins": [
         "satangbudsai.git-control"
       ]
@@ -1460,13 +1467,10 @@
       ]
     },
     "tuna-etech/gitgraph-orca": {
-      "state": "rejected",
-      "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
+      "state": "listed",
+      "ref": "v1.0.2",
+      "plugins": [
+        "tuna-etech.git-graph"
       ]
     },
     "turingfx/omp-stats": {
