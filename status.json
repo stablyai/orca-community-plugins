@@ -209,7 +209,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.5.3",
+      "ref": "v2.5.4",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -488,6 +488,16 @@
       "ref": "refs/tags/felipemayerdev/omarchy-theme-sync/0.1.1",
       "plugins": [
         "felipemayerdev.omarchy-sync"
+      ]
+    },
+    "felipemayerdev/orca-walkthrough": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
       ]
     },
     "felix-lj-ct/orca-agent-inbox": {
@@ -1205,6 +1215,13 @@
         "royklo.rego-syntax"
       ]
     },
+    "rr235/orca-power-sessions": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "rr235.power-sessions"
+      ]
+    },
     "rr235/orca-task-launcher": {
       "state": "listed",
       "ref": "refs/tags/rr235/orca-task-launcher/0.1.2",
@@ -1262,7 +1279,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.16",
+      "ref": "v0.9.0",
       "plugins": [
         "satangbudsai.git-control"
       ]

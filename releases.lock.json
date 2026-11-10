@@ -311,6 +311,12 @@
     "repoId": 1450002101,
     "firstSeen": "2026-11-10T12:20:14.540Z"
   },
+  "cattfan.enhance-prompt@2.5.4": {
+    "commit": "c86089a77ce1d8c6412d7e79e0599358ad871c78",
+    "contentHash": "bd9c56a0647ebec15128a157de184076d0f94ee5c45731b8d2232c064d6dc3a9",
+    "repoId": 1450002101,
+    "firstSeen": "2026-11-10T16:15:59.224Z"
+  },
   "cd3vane.jetbrains-themes@1.0.0": {
     "commit": "dbc699d0af71121dbe6a0b0ad7713204897f16e7",
     "contentHash": "0bb7897de59c641707fa134c600767d96614948c17a2317f059a4f74866c85b1",
@@ -1553,6 +1559,12 @@
     "repoId": 1449599161,
     "firstSeen": "2026-11-07T18:39:32.735Z"
   },
+  "rr235.power-sessions@0.1.0": {
+    "commit": "19386dc4c8933fecec9b424f540d882cbfa57662",
+    "contentHash": "712f84b2785339271133b0c0b88c4cd823c43473397349065a45b0f7d14d3224",
+    "repoId": 1451877372,
+    "firstSeen": "2026-11-10T16:15:59.224Z"
+  },
   "rr235.task-launcher@0.1.0": {
     "commit": "e0e89ede4e2843e9077eadc5c9fa241fd441e0f3",
     "contentHash": "af3aea867bd01d077096b0d52524d7074cf7384ee3aa44631757105700fc6204",
@@ -1720,6 +1732,12 @@
     "contentHash": "3633cc525adbf154e19bd534e3d298a9cd2eab9d2c3643db9306cd80c9f4e50f",
     "repoId": 1446721393,
     "firstSeen": "2026-11-09T16:15:56.039Z"
+  },
+  "satangbudsai.git-control@0.9.0": {
+    "commit": "6e5710d3b6630bc323921d3507c24e3245debd12",
+    "contentHash": "30a271c61ae73824cdb08c24ebcc6d8c5c684850a914e38578ebbc45ef15221b",
+    "repoId": 1446721393,
+    "firstSeen": "2026-11-10T16:15:59.224Z"
   },
   "savenkosy.buttons@0.1.0": {
     "commit": "bbb9891c70781a6d6d0235290d6e2b0ed0be33df",
