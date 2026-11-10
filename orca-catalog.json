@@ -5313,8 +5313,8 @@
       "ownerId": 4644133,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eskono/orca-docker-logs.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eskono/orca-docker-logs/0.5.0"
       },
       "description": "Docker Compose in Orca: combined live logs, saved views, context-preserving search, collapsible stack traces, operation progress, container events, diagnostics and Ask agent.",
       "categories": [
@@ -14495,12 +14495,47 @@
       "ownerId": 48266347,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/pr1p/orca-mermaid-editor/0.3.1"
+        "url": "https://github.com/Pr1p/orca-mermaid-editor.git",
+        "ref": "v0.3.2"
       },
       "description": "Editable Mermaid diagrams with live rendering: chart, split, and source views. Works with the Mermaid view toggle on .mmd files.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "fb8bebb2f5a29fbf725ffb087e30b689b3650174",
+          "contentHash": "208a2d185bc050b3b0332d01e0647a74b55d1751993ba3f439b9c5cf14f3b514",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.245",
+          "name": "Mermaid Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Mermaid",
+              "detail": ".mmd, .mermaid"
+            }
+          ],
+          "fileTypes": [
+            "mmd",
+            "mermaid"
+          ],
+          "editorFileTypes": [
+            "mmd",
+            "mermaid"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pr1p.mermaid-editor/3b29c0deacd2ded8.png",
+              "alt": "Split view: .mmd source beside the live-rendered diagram",
+              "sha256": "3b29c0deacd2ded8f0354c83cdf02338146213e2fc27e990250cba8df9a4d166",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Pr1p/orca-mermaid-editor",
+          "updatedAt": "2026-11-10T19:19:19+08:00"
+        },
         {
           "version": "0.3.1",
           "commit": "d9acc95731c13f04dbe38766d202cfff36db0750",

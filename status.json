@@ -387,7 +387,7 @@
     },
     "eskono/orca-docker-logs": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/eskono/orca-docker-logs/0.5.0",
       "plugins": [
         "eskono.docker-logs"
       ]
@@ -1086,7 +1086,7 @@
     },
     "pr1p/orca-mermaid-editor": {
       "state": "listed",
-      "ref": "refs/tags/pr1p/orca-mermaid-editor/0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "pr1p.mermaid-editor"
       ],
@@ -1588,7 +1588,7 @@
     },
     "vzxxbacq/orca-colab": {
       "state": "rejected",
-      "ref": "v0.2.2",
+      "ref": "v0.2.3",
       "reasons": [
         {
           "category": "under-review",
