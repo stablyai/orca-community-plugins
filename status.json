@@ -91,16 +91,6 @@
         }
       ]
     },
-    "allanwinckler-daki/secondbrain-monitor-plugin": {
-      "state": "rejected",
-      "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
-      ]
-    },
     "alterdianne/orca-inspo": {
       "state": "listed",
       "ref": "refs/tags/alterdianne/orca-inspo/0.1.0",
@@ -715,24 +705,13 @@
       ]
     },
     "jake-101/ahakey-x1": {
-      "state": "rejected",
-      "ref": "v0.1.5",
-      "reasons": [],
+      "state": "listed",
+      "ref": "v0.1.8",
       "plugins": [
-        {
-          "path": "orca-ahakey",
-          "id": "ahakey",
-          "reasons": [
-            {
-              "category": "validation",
-              "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
-            },
-            {
-              "category": "binary-files",
-              "detail": "bundles binary files (node_modules/.bin/tsc (symlink), node_modules/@typescript/typescript-darwin-arm64/lib/tsc)"
-            }
-          ]
-        }
+        "jake-101.ahakey"
+      ],
+      "notes": [
+        "ahakey: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "jamesjfoong/orca-plugin-github-workbench": {
@@ -1560,7 +1539,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "refs/tags/superfly/orca-sprites/0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "superfly.sprites"
       ]
