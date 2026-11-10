@@ -8890,11 +8890,88 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ias0nas/SeaQull.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "254aa22549cd4e5b8f0f7518b06ee13592370cc1",
+          "contentHash": "170f3d3f7ffdf8515ac543d70bd6bcfbfc6e4b6d929684281f2e4930fb23cbb2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SeaQull",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "SeaQull",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SeaQull console",
+              "detail": ".sql"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New SeaQull workbook",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "activity"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "editorFileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ias0nas.seaqull/935292a1cd8010ec.png",
+              "alt": "The SeaQull logo and name beside a query window showing completion of a foreign-key join and a result grid",
+              "sha256": "935292a1cd8010ec2d1716ac7db1256fef39346b252053454cd2b3e3ae216a63",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ias0nas.seaqull/e010ca3342e8fe5c.png",
+              "alt": "SeaQull icon",
+              "sha256": "e010ca3342e8fe5c702dfa932bc3d24b54883041929c9e86b1f90698e8607a9a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ias0nas.seaqull/099a04598635756a.png",
+                "alt": "Completion offering a foreign-key join condition after ON, with a result grid below and the object explorer on the right",
+                "sha256": "099a04598635756ad120b5e235e4058a19a236ed65c7de5a39bc21e04d13a8d2",
+                "width": 2460,
+                "height": 1600
+              },
+              {
+                "path": "assets/ias0nas.seaqull/4785cc3ea9e1d397.png",
+                "alt": "The New connection dialog: name, colour, server and port, database, authentication, user and password, and encryption options",
+                "sha256": "4785cc3ea9e1d39780d73a78cff28fbccf4cc291e167250e939a192ca294bf46",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ias0nas/SeaQull",
+          "updatedAt": "2026-11-10T22:56:49Z"
+        },
         {
           "version": "0.1.1",
           "commit": "f52133ec67f25b2df9336c781bbc611a9dcbed7b",
@@ -17167,8 +17244,8 @@
       "ownerId": 289414937,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ryusenkei-inc/hostslot.git",
-        "ref": "v0.11.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ryusenkei-inc/hostslot/0.11.1"
       },
       "description": "Schedules what parallel agents share on one machine: heavy commands wait for free memory and CPU, each worktree's dev server gets its own port, and you see what runs, what waits and why.",
       "categories": [
@@ -19219,8 +19296,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.4.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [

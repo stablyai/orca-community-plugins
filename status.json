@@ -639,7 +639,7 @@
     },
     "ias0nas/seaqull": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "ias0nas.seaqull"
       ]
@@ -710,8 +710,17 @@
       "plugins": [
         "jake-101.ahakey"
       ],
-      "notes": [
-        "ahakey: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      "rejected": [
+        {
+          "path": "orca-ahakey",
+          "id": "ahakey",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "update"
+            }
+          ]
+        }
       ]
     },
     "jamesjfoong/orca-plugin-github-workbench": {
@@ -1142,7 +1151,16 @@
       "ref": "refs/tags/palulabs/orca-tycoon/0.2.4",
       "plugins": [
         "palulabs.office-tycoon"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.5",
+        "reasons": [
+          {
+            "category": "reserved-name",
+            "detail": "name \"Orca Tycoon\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          }
+        ]
+      }
     },
     "pidack/orca-trace-viewer": {
       "state": "listed",
@@ -1322,7 +1340,7 @@
     },
     "ryusenkei-inc/hostslot": {
       "state": "listed",
-      "ref": "v0.11.1",
+      "ref": "refs/tags/ryusenkei-inc/hostslot/0.11.1",
       "plugins": [
         "ryusenkei-inc.hostslot"
       ]
@@ -1452,7 +1470,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.4.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
