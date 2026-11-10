@@ -88,6 +88,77 @@
       ]
     },
     {
+      "id": "2589195970.shiftlens",
+      "ownerId": 25520960,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/2589195970/orca-shiftlens.git",
+        "ref": "v0.1.0"
+      },
+      "description": "双击 Shift，搜文件、查内容、即刻预览。macOS 原生悬浮窗，支持源码高亮、图片和文档预览。",
+      "categories": [
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c4cfa5dc94d3d692e36a2fc580b013b95980ec12",
+          "contentHash": "33b502345956da5f8c350a436d1b9ab01edfb85a05a1ea09c19e8af23e54eeda",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "ShiftLens · 瞬搜",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "ShiftLens · 瞬搜"
+            },
+            {
+              "kind": "keybindings",
+              "name": "DoubleTap+Shift",
+              "detail": "open"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "open"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/2589195970.shiftlens/d9b0225b0706e73c.png",
+              "alt": "ShiftLens 原生悬浮窗中的文件与正文混合搜索，以及右侧代码高亮预览",
+              "sha256": "d9b0225b0706e73ccfab2b48ad03b6c2c7e05ce0a12295f7052a641aa43b3f2d",
+              "width": 2560,
+              "height": 1600
+            },
+            "screenshots": [
+              {
+                "path": "assets/2589195970.shiftlens/d9b0225b0706e73c.png",
+                "alt": "UserService 文件名结果、正文命中行及代码预览",
+                "sha256": "d9b0225b0706e73ccfab2b48ad03b6c2c7e05ce0a12295f7052a641aa43b3f2d",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/2589195970.shiftlens/d5d665acd3359b43.png",
+                "alt": "在搜索结果右侧预览 ShiftLens 示例图片",
+                "sha256": "d5d665acd3359b43c9c4dbf5222e5d094fffc52ac100643ad7e367800e265b6d",
+                "width": 2560,
+                "height": 1562
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/2589195970/orca-shiftlens",
+          "updatedAt": "2026-11-10T11:17:49+08:00"
+        }
+      ]
+    },
+    {
       "id": "aamonnaig4.activity-monitor",
       "ownerId": 67522529,
       "source": {
@@ -12923,8 +12994,8 @@
       "ownerId": 306136083,
       "source": {
         "kind": "git",
-        "url": "https://github.com/prized-dev/orca-prized-plugin.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/prized-dev/orca-prized-plugin/0.1.0"
       },
       "description": "Run each Orca workspace in its own Prized sandbox, reached over SSH. Sleeping the workspace pauses the sandbox with its memory and files, so a tmux session in it carries on when you wake it.",
       "categories": [
@@ -14054,8 +14125,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.8.10"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.10"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees, plus GitHub and GitLab merge requests (approve and merge) and every branch's pipelines, with your existing Git login. In a full tab and the right sidebar",
       "categories": [

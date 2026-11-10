@@ -11,6 +11,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "2589195970/orca-shiftlens": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "2589195970.shiftlens"
+      ]
+    },
     "aamonnaig4/orca-plugins": {
       "state": "listed",
       "ref": "refs/tags/aamonnaig4/orca-plugins/activity-monitor/1.0.0",
@@ -1078,7 +1085,7 @@
     },
     "prized-dev/orca-prized-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/prized-dev/orca-prized-plugin/0.1.0",
       "plugins": [
         "prized-dev.prized-sandbox"
       ],
@@ -1220,7 +1227,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.8.10",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.10",
       "plugins": [
         "satangbudsai.git-control"
       ]
