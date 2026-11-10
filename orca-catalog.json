@@ -2553,8 +2553,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.5.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.5.3"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -17343,7 +17343,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spgsroot/orca-usage-plugin.git",
-        "ref": "v1.0.0"
+        "ref": "v1.1.3"
       },
       "description": "Token-usage dashboard for the local omp corpus: stacked daily chart with series toggles, per-model table, corpus totals, and a status-bar item with today's spend.",
       "categories": [
@@ -17351,6 +17351,35 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.3",
+          "commit": "8b8713fe62fafd47ad87f986284c80666a41d9e7",
+          "contentHash": "cd1c0dfa8f7b0ae034e74e6ccbde09b728487290333d3592e44036d01d1d183d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.255",
+          "name": "OMP Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OMP Usage"
+            },
+            {
+              "kind": "commands",
+              "name": "OMP Usage: Rescan local sessions"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "…"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/spgsroot/orca-usage-plugin",
+          "updatedAt": "2026-11-10T15:31:32+03:00"
+        },
         {
           "version": "1.0.0",
           "commit": "6522b53b740f02bdc22d0744f53a23d6ec155230",
