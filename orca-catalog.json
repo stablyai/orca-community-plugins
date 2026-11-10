@@ -1297,8 +1297,8 @@
       "ownerId": 44755179,
       "source": {
         "kind": "git",
-        "url": "https://github.com/bahachammakhi/kube-panel.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bahachammakhi/kube-panel/0.1.0"
       },
       "description": "Browse Kubernetes workloads, logs, events and YAML, and open k9s beside your code.",
       "categories": [
@@ -4504,16 +4504,289 @@
       "ownerId": 41058561,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.2"
+        "url": "https://github.com/dohaidang/orca-theme-plugin.git",
+        "ref": "v1.6.3"
       },
-      "description": "Fifteen pixel-art wallpaper themes drawn in text characters, each with dark or light sidebar variants, terminal palettes and file icons.",
+      "description": "Fifteen pixel-art wallpaper themes drawn in text characters, each a seamless 30-second loop (video on Orca 1.4.254+), with dark or light sidebar variants, terminal palettes and file icons.",
       "categories": [
         "themes",
         "terminal-themes",
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.6.3",
+          "commit": "d50ea2c2954b45f14b6bb624f87b74c69dc99701",
+          "contentHash": "12046386fc0a25d8ba1cd3b801413f6e5c47aee5107705a84fc5cce61abe61e5",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "ASCII Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam (light sidebar)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Fireflies"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Honu Lagoon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Jellyfish"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Koi Pond"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Moonlit"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Aurora"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Neon City"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Rainy Window"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Coral Reef"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Snowfall Cabin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Cherry Blossom"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Việt Nam"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "ASCII · Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dohaidang.living-ascii-themes/136acee830f7195c.png",
+              "alt": "ASCII Themes: an Orca window with a turtle wallpaper beside the title, above a row of the fifteen pixel-art designs",
+              "sha256": "136acee830f7195cb910780dd5f6213e45831664c359c36e3b7c31c1d946d596",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dohaidang.living-ascii-themes/313c355026e28f47.png",
+              "alt": "ASCII Themes icon",
+              "sha256": "313c355026e28f4775d0f6755dab89a30176c3f321596e8d2f826622273887a8",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dohaidang/orca-theme-plugin",
+          "updatedAt": "2026-11-10T20:14:55+07:00"
+        },
         {
           "version": "1.6.2",
           "commit": "6c14b346021334fe325ca9bd0811935a27736817",
@@ -10810,8 +11083,8 @@
       "ownerId": 777984,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/llima/craftar-orca/0.3.2"
+        "url": "https://github.com/llima/craftar-orca.git",
+        "ref": "v0.3.3"
       },
       "description": "See which Forge a workspace follows, the surfaces craftar writes and the files coming and going, with the craftar you installed.",
       "categories": [
@@ -10820,6 +11093,91 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.3",
+          "commit": "b010eeff3f45b2fd24e60fd06724f8fd1debb8ea",
+          "contentHash": "3dbca6108272e03c0c6179cbcd60a7cd3d01be2a4de36c254a69f01ad0bea6e0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "craftar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "craftar"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: show or hide the craftar panel"
+            },
+            {
+              "kind": "commands",
+              "name": "craftar: run the probe (measures what the plugin needs from Orca)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "craftar"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/llima.craftar/8e057626e8a67fec.png",
+              "alt": "craftar, its features and two of its panels (the Forge diagram and the Send all plan) on a synthetic acme workspace",
+              "sha256": "8e057626e8a67fec871d5007bd21c6cdf50fdb0c1d9bf9d9b1135f5bd2fe3a50",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/llima.craftar/65763f4e719aafea.png",
+              "alt": "craftar icon",
+              "sha256": "65763f4e719aafeaa50ae90f10b2d6e8e5d2ed848153926e7f94cffed332e57c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/llima.craftar/6689ff780732bb49.png",
+                "alt": "The craftar panel: the Forge a workspace follows, a newer tag on it, the files coming down and going up",
+                "sha256": "6689ff780732bb4968a17c031c390c827fd257d9feea9c2d5593a025af4ff59a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/743a25e474af22a7.png",
+                "alt": "Send all: one plan from craftar's dry run of every file edited by hand",
+                "sha256": "743a25e474af22a78869ded2a1125468da0cc598be9e63e01ac5fc5de8563b96",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/llima.craftar/15ba1666a3d84396.png",
+                "alt": "The PR in the Forge: identity, branch, title, the paths craftar wrote and the body",
+                "sha256": "15ba1666a3d8439614714dd3299dac673a3726582bf04a83f14485feabd1e6c3",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/llima/craftar-orca",
+          "updatedAt": "2026-11-10T10:19:17-03:00"
+        },
         {
           "version": "0.3.2",
           "commit": "33cf7e9308d47e26035f3e92e5e933b06a4f910d",
@@ -11159,91 +11517,6 @@
           "license": "MIT",
           "repository": "https://github.com/llima/craftar-orca",
           "updatedAt": "2026-11-09T07:48:58-03:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "a62c919bc26e99085c974d8d20da66d2353f534b",
-          "contentHash": "c9c2d496b0d23d2ac1556fb761fb59f45d477c25de80564d5ef4fe4c989ef246",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "craftar",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "craftar"
-            },
-            {
-              "kind": "commands",
-              "name": "craftar: show or hide the craftar panel"
-            },
-            {
-              "kind": "commands",
-              "name": "craftar: run the probe (measures what the plugin needs from Orca)"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "editor.save.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "craftar"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "terminal:send",
-            "terminal:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/llima.craftar/6128b47a25fe06e6.png",
-              "alt": "craftar, its features and two of its panels (the Forge diagram and the Send all plan) on a synthetic acme workspace",
-              "sha256": "6128b47a25fe06e67d3d742e457230ac64ee340d71aa6da5a56a25da53baaf99",
-              "width": 3200,
-              "height": 2000
-            },
-            "icon": {
-              "path": "assets/llima.craftar/65763f4e719aafea.png",
-              "alt": "craftar icon",
-              "sha256": "65763f4e719aafeaa50ae90f10b2d6e8e5d2ed848153926e7f94cffed332e57c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/llima.craftar/6689ff780732bb49.png",
-                "alt": "The craftar panel: the Forge a workspace follows, a newer tag on it, the files coming down and going up",
-                "sha256": "6689ff780732bb4968a17c031c390c827fd257d9feea9c2d5593a025af4ff59a",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/llima.craftar/743a25e474af22a7.png",
-                "alt": "Send all: one plan from craftar's dry run of every file edited by hand",
-                "sha256": "743a25e474af22a78869ded2a1125468da0cc598be9e63e01ac5fc5de8563b96",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/llima.craftar/15ba1666a3d84396.png",
-                "alt": "The PR in the Forge: identity, branch, title, the paths craftar wrote and the body",
-                "sha256": "15ba1666a3d8439614714dd3299dac673a3726582bf04a83f14485feabd1e6c3",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/llima/craftar-orca",
-          "updatedAt": "2026-11-09T05:52:22-03:00"
         }
       ]
     },
@@ -17517,8 +17790,8 @@
       "ownerId": 67481268,
       "source": {
         "kind": "git",
-        "url": "https://github.com/spgsroot/orca-usage-plugin.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/spgsroot/orca-usage-plugin/1.2.1"
       },
       "description": "Token-usage dashboard for the local omp corpus: stacked daily chart with series toggles, per-model table, corpus totals, and a status-bar item with today's spend.",
       "categories": [
@@ -18634,8 +18907,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tienne/orca-plugins/0.2.1"
+        "url": "https://github.com/tienne/orca-plugins.git",
+        "ref": "v0.2.2"
       },
       "description": "Explore Git logs in a visual Git tree and commit graph. Compare changes in a read-only side-by-side diff and run confirmed Git actions in Orca.",
       "categories": [
@@ -18643,6 +18916,46 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "39ff7fca730fa341ed6371bb07cded53393b8b68",
+          "contentHash": "49e917d038504d6deb13a14f26eda7db6b19a079a84b920b2d9e3a4efefed150",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Logs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Logs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".orcadiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "orcadiff"
+          ],
+          "editorFileTypes": [
+            "orcadiff"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orca-plugins",
+          "updatedAt": "2026-11-10T22:57:10+09:00"
+        },
         {
           "version": "0.2.1",
           "commit": "276c3a2146481b2c09302b4ec48222ee3ff87fbc",

@@ -125,7 +125,7 @@
     },
     "bahachammakhi/kube-panel": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/bahachammakhi/kube-panel/0.1.0",
       "plugins": [
         "bahachammakhi.kube-panel"
       ]
@@ -331,19 +331,10 @@
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
-      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.2",
+      "ref": "v1.6.3",
       "plugins": [
         "dohaidang.living-ascii-themes"
-      ],
-      "update": {
-        "ref": "v1.6.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "dohaidang/orca-vietnamese-plugin": {
       "state": "listed",
@@ -864,7 +855,7 @@
     },
     "llima/craftar-orca": {
       "state": "listed",
-      "ref": "refs/tags/llima/craftar-orca/0.3.2",
+      "ref": "v0.3.3",
       "plugins": [
         "llima.craftar"
       ]
@@ -1314,7 +1305,16 @@
       "ref": "v0.1.0",
       "plugins": [
         "serhii-f8.git-toolbox"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "shadowhelper93/soundcheck": {
       "state": "rejected",
@@ -1393,7 +1393,7 @@
     },
     "spgsroot/orca-usage-plugin": {
       "state": "listed",
-      "ref": "v1.2.1",
+      "ref": "refs/tags/spgsroot/orca-usage-plugin/1.2.1",
       "plugins": [
         "spgsroot.omp-usage"
       ]
@@ -1488,7 +1488,7 @@
     },
     "tienne/orca-plugins": {
       "state": "listed",
-      "ref": "refs/tags/tienne/orca-plugins/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "tienne.git-logs"
       ]
