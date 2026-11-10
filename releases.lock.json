@@ -1313,6 +1313,12 @@
     "repoId": 1445112428,
     "firstSeen": "2026-11-04T04:16:52.211Z"
   },
+  "prized-dev.prized-sandbox@0.1.0": {
+    "commit": "2733604a57548632f94a4983cb3cc818112420dc",
+    "contentHash": "f548cbf5aa21d8665fad91b4b243c8c29bdeae022e350d5f4e9da2e5c2fc6d13",
+    "repoId": 1452048659,
+    "firstSeen": "2026-11-10T03:16:23.010Z"
+  },
   "reisen7.opencode-tps@0.4.0": {
     "commit": "34d5fd3399e1dd82f6c42ff2f628b83d0afbcabb",
     "contentHash": "4a2a87b045ac135777bd5750b63364313d616bef57659d1a27dff30c572c12b9",
@@ -1486,6 +1492,12 @@
     "contentHash": "6d30d80044128757ca32eba9a3aeeacd1129fb3f76dac945e3b8eef881bf873e",
     "repoId": 1446721393,
     "firstSeen": "2026-11-09T09:20:10.127Z"
+  },
+  "satangbudsai.git-control@0.8.10": {
+    "commit": "a1257bc25574174a749c3cd96a137d386426676e",
+    "contentHash": "0a631dfd4e64d4293b761df1c9517170d38344374d7d7fc46bde8c62d1198be5",
+    "repoId": 1446721393,
+    "firstSeen": "2026-11-10T03:16:23.010Z"
   },
   "satangbudsai.git-control@0.8.5": {
     "commit": "56aee95c05e1022bbdea2bca6ac2a677cdf6fcb9",

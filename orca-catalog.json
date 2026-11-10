@@ -12919,6 +12919,54 @@
       ]
     },
     {
+      "id": "prized-dev.prized-sandbox",
+      "ownerId": 306136083,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/prized-dev/orca-prized-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Run each Orca workspace in its own Prized sandbox, reached over SSH. Sleeping the workspace pauses the sandbox with its memory and files, so a tmux session in it carries on when you wake it.",
+      "categories": [
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "2733604a57548632f94a4983cb3cc818112420dc",
+          "contentHash": "f548cbf5aa21d8665fad91b4b243c8c29bdeae022e350d5f4e9da2e5c2fc6d13",
+          "execution": "declarative",
+          "minimumOrca": "1.4.245",
+          "name": "Prized Sandbox",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "vm-recipe.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/prized-dev.prized-sandbox/574bc620bde5b45a.png",
+              "alt": "Prized Sandbox for Orca: every workspace in its own sandbox, paused with its memory while it sleeps",
+              "sha256": "574bc620bde5b45a032dd32baa4fc5a442095f342247dc631d21d065cd618ae1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/prized-dev.prized-sandbox/9bf23ebc3a07abb1.png",
+              "alt": "Prized Sandbox icon",
+              "sha256": "9bf23ebc3a07abb1d301d411484fed8cc1b0b21a68f77bee33996a1b11788229",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/prized-dev/orca-prized-plugin",
+          "updatedAt": "2026-11-05T15:47:07Z"
+        }
+      ]
+    },
+    {
       "id": "reisen7.opencode-tps",
       "ownerId": 89134690,
       "source": {
@@ -14006,8 +14054,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.9"
+        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
+        "ref": "v0.8.10"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees, plus GitHub and GitLab merge requests (approve and merge) and every branch's pipelines, with your existing Git login. In a full tab and the right sidebar",
       "categories": [
@@ -14016,6 +14064,129 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.10",
+          "commit": "a1257bc25574174a749c3cd96a137d386426676e",
+          "contentHash": "0a631dfd4e64d4293b761df1c9517170d38344374d7d7fc46bde8c62d1198be5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Control",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Review & MR"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Control",
+              "detail": ".control, .gitgraph"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Review & MR"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "terminal:send"
+          ],
+          "fileTypes": [
+            "control",
+            "gitgraph"
+          ],
+          "editorFileTypes": [
+            "control",
+            "gitgraph"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/satangbudsai.git-control/d596fd498fe70839.jpg",
+              "alt": "Git Control: a blue and lavender paper Git history sculpture with ivory commit nodes and revision cards on a dark studio backdrop",
+              "sha256": "d596fd498fe7083946c5b66dd6da5072a2271eeca00fd46795f48f70315f7576",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/satangbudsai.git-control/3528d6f0bf936c96.png",
+              "alt": "Git Control icon",
+              "sha256": "3528d6f0bf936c96da9201e896edd1f2886f02112d3aee1b034c58cdfac5379f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/satangbudsai.git-control/7ac651787f488ea5.png",
+                "alt": "Git Control for Orca: what it does, from the commit graph and merge requests to CI pipelines",
+                "sha256": "7ac651787f488ea534100efdbe6dbf517dda97a7d05fee9f114193ac3210a800",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/3e152fb5143e9c99.png",
+                "alt": "The Commit tab with changed files on the left and a file diff on the right",
+                "sha256": "3e152fb5143e9c990d857b149ee39e5a9201e0d16cf7fb68bd2628180722f12d",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/cd8f7f4601dd6aa5.png",
+                "alt": "A GitLab merge request page with description, pipeline, approvals with Approve, and Merge with its options",
+                "sha256": "cd8f7f4601dd6aa5ed2ba4be41d0cdb1da1295ecfb1b7f8c1dbcd6cb1886af96",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/bee37e6d00e26f10.png",
+                "alt": "A phone lock screen and a desktop toast showing Git Control notifications for review requests and assigned merge requests",
+                "sha256": "bee37e6d00e26f10f29bc07a479d8126db1960a88c93361dbaa3dbd94916b279",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/c2d1126381b4ec05.png",
+                "alt": "A failed GitLab CI job log with its error lines highlighted",
+                "sha256": "c2d1126381b4ec0516fdbde7868ed5af687543cc2ce4a9e581a01f72b5a90275",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/b75a3b7609d14ef5.png",
+                "alt": "The Pipelines tab: every branch's runs with status, commit, trigger, branch or merge request, stages and who started them",
+                "sha256": "b75a3b7609d14ef5e24f72855663261f980553a3e48fa97cb7c7b2e54f67160c",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SatangBudsai/orca-git-extension",
+          "updatedAt": "2026-11-10T10:10:18+07:00"
+        },
         {
           "version": "0.8.9",
           "commit": "7a71109a44d9d94180c8e763d6d51ebf947058fa",
@@ -14507,129 +14678,6 @@
           "license": "MIT",
           "repository": "https://github.com/SatangBudsai/orca-git-extension",
           "updatedAt": "2026-11-09T19:05:30+07:00"
-        },
-        {
-          "version": "0.8.5",
-          "commit": "56aee95c05e1022bbdea2bca6ac2a677cdf6fcb9",
-          "contentHash": "061ff70bba16259416f8a83ca3dc774b69617ab3ee7ec205be322077f438ec96",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Git Control",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Git Control"
-            },
-            {
-              "kind": "commands",
-              "name": "Git: Open Git Control"
-            },
-            {
-              "kind": "commands",
-              "name": "Git: Open Review & MR"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Git Control",
-              "detail": ".control, .gitgraph"
-            },
-            {
-              "kind": "newFiles",
-              "name": "Git Control",
-              "detail": ".gitgraph"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Git"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Review & MR"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "notifications:show",
-            "storage:own",
-            "settings:own",
-            "terminal:send"
-          ],
-          "fileTypes": [
-            "control",
-            "gitgraph"
-          ],
-          "editorFileTypes": [
-            "control",
-            "gitgraph"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/satangbudsai.git-control/d596fd498fe70839.jpg",
-              "alt": "Git Control: a blue and lavender paper Git history sculpture with ivory commit nodes and revision cards on a dark studio backdrop",
-              "sha256": "d596fd498fe7083946c5b66dd6da5072a2271eeca00fd46795f48f70315f7576",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/satangbudsai.git-control/3528d6f0bf936c96.png",
-              "alt": "Git Control icon",
-              "sha256": "3528d6f0bf936c96da9201e896edd1f2886f02112d3aee1b034c58cdfac5379f",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/satangbudsai.git-control/7ac651787f488ea5.png",
-                "alt": "Git Control for Orca: what it does, from the commit graph and merge requests to CI pipelines",
-                "sha256": "7ac651787f488ea534100efdbe6dbf517dda97a7d05fee9f114193ac3210a800",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/3e152fb5143e9c99.png",
-                "alt": "The Commit tab with changed files on the left and a file diff on the right",
-                "sha256": "3e152fb5143e9c990d857b149ee39e5a9201e0d16cf7fb68bd2628180722f12d",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/cd8f7f4601dd6aa5.png",
-                "alt": "A GitLab merge request page with description, pipeline, approvals with Approve, and Merge with its options",
-                "sha256": "cd8f7f4601dd6aa5ed2ba4be41d0cdb1da1295ecfb1b7f8c1dbcd6cb1886af96",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/f260d2790e6c0924.png",
-                "alt": "The new merge request dialog with title, description, assignees and reviewers",
-                "sha256": "f260d2790e6c09243e6b49d1001c334471e3d1c198a88625a72953a2a510aa3e",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/c2d1126381b4ec05.png",
-                "alt": "A failed GitLab CI job log with its error lines highlighted",
-                "sha256": "c2d1126381b4ec0516fdbde7868ed5af687543cc2ce4a9e581a01f72b5a90275",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/b75a3b7609d14ef5.png",
-                "alt": "The Pipelines tab: every branch's runs with status, commit, trigger, branch or merge request, stages and who started them",
-                "sha256": "b75a3b7609d14ef5e24f72855663261f980553a3e48fa97cb7c7b2e54f67160c",
-                "width": 1440,
-                "height": 900
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/SatangBudsai/orca-git-extension",
-          "updatedAt": "2026-11-09T17:35:59+07:00"
         }
       ]
     },

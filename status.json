@@ -1077,13 +1077,13 @@
       ]
     },
     "prized-dev/orca-prized-plugin": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "prized-dev.prized-sandbox"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "pty0220/orca-git-graph": {
@@ -1220,7 +1220,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.9",
+      "ref": "v0.8.10",
       "plugins": [
         "satangbudsai.git-control"
       ]
