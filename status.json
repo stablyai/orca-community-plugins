@@ -487,7 +487,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.2.3",
+      "ref": "v0.2.4",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -1064,7 +1064,7 @@
     },
     "plozmun/orca-redmine": {
       "state": "listed",
-      "ref": "refs/tags/plozmun/orca-redmine/0.1.7",
+      "ref": "v0.1.8",
       "plugins": [
         "plozmun.redmine-tasks"
       ]
@@ -1309,7 +1309,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -1468,7 +1468,7 @@
     },
     "tuna-etech/gitgraph-orca": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "refs/tags/tuna-etech/gitgraph-orca/1.0.3",
       "plugins": [
         "tuna-etech.git-graph"
       ]

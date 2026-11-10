@@ -587,6 +587,12 @@
     "repoId": 1446473404,
     "firstSeen": "2026-11-10T07:39:33.466Z"
   },
+  "felix-lj-ct.agent-inbox@0.2.4": {
+    "commit": "ec61df69565175408875b2e221b6c5ed28a41544",
+    "contentHash": "9e75ba4ad9fefb2f57589c6cbd853be0223dd5752a63e1c46b8a29a2304ec2ec",
+    "repoId": 1446473404,
+    "firstSeen": "2026-11-10T08:19:40.259Z"
+  },
   "gaoshang212.csharp@0.1.0": {
     "commit": "fef2711704172796084f8654569a354e48c45a4a",
     "contentHash": "c2d540ac060b2569e01505903c4ebcc55bc313af155b5c437c7eef63977ebf10",
@@ -1343,6 +1349,12 @@
     "repoId": 1444025053,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "plozmun.redmine-tasks@0.1.8": {
+    "commit": "092bad4d5a1055cf81cca87e8f6c915a049e400e",
+    "contentHash": "3cb6bb6455899b68488a043d0f767ddfb12f2c40100de1fe5acc8d1dcff9eae3",
+    "repoId": 1444025053,
+    "firstSeen": "2026-11-10T08:19:40.259Z"
+  },
   "pr1p.mermaid-editor@0.3.1": {
     "commit": "d9acc95731c13f04dbe38766d202cfff36db0750",
     "contentHash": "b821774aabbcecccbd7c34df3850da1e0651a6d811c50772efa0ee6c8194e4db",
@@ -1654,6 +1666,12 @@
     "contentHash": "6e3a840474588e334ecb68b9b703417d0f273ce38ff1e75c32e50e93887295ca",
     "repoId": 1451239680,
     "firstSeen": "2026-11-09T19:14:58.688Z"
+  },
+  "shaurgon.conport-orca@0.3.0": {
+    "commit": "4989dcd1b350455805daa7c027a52ef68fe9ceb2",
+    "contentHash": "7e2dafbd076cffa2cf0443a7ebb822d63c7ab0bc17f444d1d3bfede17c7b7b6b",
+    "repoId": 1451239680,
+    "firstSeen": "2026-11-10T08:19:40.259Z"
   },
   "sumonta056.better-markdown-preview@1.0.4": {
     "commit": "57f3776e653fefaa4b2e3fe4073f7a83b191c7a2",
