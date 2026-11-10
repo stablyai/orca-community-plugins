@@ -1014,6 +1014,60 @@
       ]
     },
     {
+      "id": "anhvangiang.agent-accounts",
+      "ownerId": 27738449,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/AnhVanGiang/orca-agent-accounts.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Pick which Claude Code and Codex account each repo or workspace runs its agents on, using the accounts you added in Orca. macOS only.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "29c4db18445eb8247f3ed0af15ceb4749c223fca",
+          "contentHash": "45a144f8a00118c7e9ac5caed504f122a8426725c5bba9fc9c97c6071f58798e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Accounts",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent accounts: show panel"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Accounts: default"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/AnhVanGiang/orca-agent-accounts",
+          "updatedAt": "2026-11-11T01:58:10+07:00"
+        }
+      ]
+    },
+    {
       "id": "anthony-fp.agent-inbox",
       "ownerId": 30504,
       "source": {
@@ -7034,8 +7088,8 @@
       "ownerId": 65250731,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.1"
+        "url": "https://github.com/FelipeMayerDev/orca-walkthrough.git",
+        "ref": "v0.1.2"
       },
       "description": "Read a change in the order it makes sense: steps grouped and ordered by purpose, each explained beside its code, with what no step covers.",
       "categories": [
@@ -7043,6 +7097,45 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "dbf79fc7aacec365912ed85d9143be992a3f3852",
+          "contentHash": "60980cf795e800bf7e0b7adbaa9f94f66eb10fdfb03fd7409e7b7da2f1f309ba",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Walkthrough",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Walkthrough"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "turn"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/felipemayerdev.walkthrough/8f9bd8c1a35dfc6c.webp",
+              "alt": "Walkthrough wordmark beside the plugin's panel: a diff explained step by step, with each step's files and code.",
+              "sha256": "8f9bd8c1a35dfc6c0dc61568e78f3f0eaef498ea363548287a33c5952bfd2f3e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/FelipeMayerDev/orca-walkthrough",
+          "updatedAt": "2026-11-10T15:53:32-03:00"
+        },
         {
           "version": "0.1.1",
           "commit": "72c48e3f827a2c28ac8878e174de10e7ed22da8d",
@@ -8142,59 +8235,6 @@
           "license": "MIT",
           "repository": "https://github.com/GongXLiang/Claude-paper",
           "updatedAt": "2026-11-10T01:35:27+09:00"
-        }
-      ]
-    },
-    {
-      "id": "guillebe.inbox",
-      "ownerId": 65037298,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/guillebe/orca-inbox/0.1.0"
-      },
-      "description": "Questions and plans from Claude Code agents, answered when you have time while the agent keeps working.",
-      "categories": [
-        "panels",
-        "integrations"
-      ],
-      "releases": [
-        {
-          "version": "0.1.0",
-          "commit": "4a2d6c25d8918a580d0d293551e64d74cc3fa663",
-          "contentHash": "d58bb044ead7c363e68f32ddbbcd4dc438cba037bc8556c68c3b2db6bb7a3f18",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Inbox",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Inbox"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.tool.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Inbox"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "agent:read",
-            "terminal:send",
-            "notifications:show",
-            "workspace:write"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/guillebe/orca-inbox",
-          "updatedAt": "2026-11-10T14:54:51-03:00"
         }
       ]
     },
@@ -14360,7 +14400,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/nhangen/orca-plugins.git",
-        "ref": "v0.1.1",
+        "ref": "v0.1.3",
         "path": "plugins/git-issues"
       },
       "description": "Show GitHub issues, pull requests, and git branches for the currently loaded repository in Orca's sidebar.",
@@ -14369,6 +14409,31 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "c543c6603cea2df96a780eab1d2c95ea8adde288",
+          "contentHash": "1c85af680ec928daa1f5ec6ad96f46266233e5cc09b5c37421f3337253694959",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Issues, PRs & Branches",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Issues, PRs & Branches"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/nhangen/orca-plugins",
+          "updatedAt": "2026-11-10T14:05:28-05:00"
+        },
         {
           "version": "0.1.1",
           "commit": "26b6032ce7914d6c2ebf4f8c3ab939a35190a30f",
@@ -16766,8 +16831,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.9.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.9.2"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees; GitHub and GitLab merge requests (approve, merge in the background, AI review before you open one) and every branch's pipelines; Repo Overview for many r",
       "categories": [
