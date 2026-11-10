@@ -1018,8 +1018,8 @@
       "ownerId": 27738449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/AnhVanGiang/orca-agent-accounts.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.1.0"
       },
       "description": "Pick which Claude Code and Codex account each repo or workspace runs its agents on, using the accounts you added in Orca. macOS only.",
       "categories": [
@@ -6701,8 +6701,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/faisalmuhammad/orca-n8n/0.1.0"
+        "url": "https://github.com/faisalmuhammad/orca-n8n.git",
+        "ref": "v0.1.1"
       },
       "description": "Open your local or Cloud n8n instance in an Orca browser tab. Browse workflows, recent runs, and insights in the sidebar.",
       "categories": [
@@ -6710,6 +6710,79 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "0bc145613d710d5d9ed1259a1a2b2e517dbf4bb4",
+          "contentHash": "b73439726f8bdee3662a6e303e3e8649886ce0465938e095111335b2843f67bf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "n8n for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "n8n"
+            },
+            {
+              "kind": "commands",
+              "name": "New n8n workflow"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.n8n/53a7e6b3c56fdeda.png",
+              "alt": "n8n in Orca on one line, with n8n in signature pink, a tilted n8n-symbol tile, and Local / Cloud connection options.",
+              "sha256": "53a7e6b3c56fdedae43aa8cfb9fa8312c1d44f384bedfdc38cd902fafeb1e606",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.n8n/d95ef5baac6dba17.png",
+              "alt": "n8n for Orca icon",
+              "sha256": "d95ef5baac6dba17d86b0f3050b75c9e735e8d17db7bc39947fe037799caa732",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.n8n/c4826ac7e0e62337.png",
+                "alt": "Dark sidebar with sample workflows, publication state, separate Open actions, and expanded recent-run details.",
+                "sha256": "c4826ac7e0e62337e2b633f0824c10ae564e2a971245ee6e890dc4f7e2426f06",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.n8n/b4420e319979d825.png",
+                "alt": "Light sidebar with fading dotted workflow cards, instance controls, and a compact version footer.",
+                "sha256": "b4420e319979d825180ec101bcd70fb7c1ad921a1497e64adaf20d07f7cd82cf",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.n8n/69c649414cdc479e.png",
+                "alt": "Dark sidebar with a compact expanded seven-day insights grid above the workflow list.",
+                "sha256": "69c649414cdc479e18788f11b36a0cac6c702c780f5e4db3b4c4641d47282c3d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.n8n/d3c674cd6668f622.png",
+                "alt": "Light sidebar with five insights metrics in a compact grid and a refresh icon in the header.",
+                "sha256": "d3c674cd6668f6228e8988300f05545f6647bcacab0d9f22eacbc5fca4514378",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-n8n",
+          "updatedAt": "2026-11-10T19:28:08Z"
+        },
         {
           "version": "0.1.0",
           "commit": "a8e60a4a528c2920e65db1845e4a94cc5bbf072d",
@@ -7088,8 +7161,8 @@
       "ownerId": 65250731,
       "source": {
         "kind": "git",
-        "url": "https://github.com/FelipeMayerDev/orca-walkthrough.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.2"
       },
       "description": "Read a change in the order it makes sense: steps grouped and ordered by purpose, each explained beside its code, with what no step covers.",
       "categories": [
@@ -8626,14 +8699,62 @@
       "ownerId": 663999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.5.4"
+        "url": "https://github.com/IBazylchuk/orca-plugin-openspec-board.git",
+        "ref": "v0.6.0"
       },
       "description": "Kanban board for OpenSpec spec-driven development: every change by stage with task progress, next step, ticket and GitHub pull requests. Apply and Finish send /opsx:apply, a finish check or your own command to the Claude Code or Codex agent of the change's own workspace, or start that workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "17eb49c0c5cb27cb5c10e0d89ec1b8ad32e08d0a",
+          "contentHash": "c2644fd8582b417b286ea8a39fd9927712b7ed946a921a575583e481a67ef997",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenSpec Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec Board"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ibazylchuk.openspec-board/fce975932e50d9af.png",
+              "alt": "OpenSpec Board for Orca: the board panel with changes grouped by stage (demo data)",
+              "sha256": "fce975932e50d9afdd060617fb5d7e9823453ae0868b960d5f2981f765822c32",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/ibazylchuk.openspec-board/20dd99adb9b897e0.png",
+                "alt": "The board in dark theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "20dd99adb9b897e031fab441b8ff2b626c665100f6a4d109e7eee162a3e23200",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/ibazylchuk.openspec-board/65a7d7f76aa6442d.png",
+                "alt": "The board in light theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "65a7d7f76aa6442de396e8a2823d72cb5f2ae9b2054071c853d16905e4e87d7e",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
+          "updatedAt": "2026-11-10T20:19:05+01:00"
+        },
         {
           "version": "0.5.4",
           "commit": "927413b89df7819cbe773814b45ae5c3b633810d",
@@ -14400,7 +14521,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/nhangen/orca-plugins.git",
-        "ref": "v0.1.3",
+        "ref": "v0.1.4",
         "path": "plugins/git-issues"
       },
       "description": "Show GitHub issues, pull requests, and git branches for the currently loaded repository in Orca's sidebar.",
@@ -14409,6 +14530,56 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "c458942814e8dd275c9327ca61d172964f2aacd8",
+          "contentHash": "a28cf7ecfbd9545516f62f662be7b6a8f0371636a098ccaf681cd51af4aaf2af",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Issues, PRs & Branches",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Issues, PRs & Branches"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/nhangen.git-issues/0e1d190fc9acdf78.png",
+              "alt": "Git Issues, PRs & Branches for Orca",
+              "sha256": "0e1d190fc9acdf7819484020c72d59cb4c85275cc6e15894bf8277c03cf057fe",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/nhangen.git-issues/94af8f3325d7353b.png",
+              "alt": "Git Issues, PRs & Branches icon",
+              "sha256": "94af8f3325d7353bacd1dd8627cd16ce68dc6e49942b01137e53a8db2ff7f0b6",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/nhangen.git-issues/b3a91828c65edca6.png",
+                "alt": "Git Issues, PRs and Branches sidebar panel in Orca",
+                "sha256": "b3a91828c65edca613b21e3d9d8fd6daeecd9e96700c296ad594e0588573bb23",
+                "width": 1676,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/nhangen/orca-plugins",
+          "updatedAt": "2026-11-10T14:21:48-05:00"
+        },
         {
           "version": "0.1.3",
           "commit": "c543c6603cea2df96a780eab1d2c95ea8adde288",
