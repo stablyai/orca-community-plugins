@@ -13,7 +13,7 @@
     },
     "2589195970/orca-shiftlens": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/2589195970/orca-shiftlens/0.1.0",
       "plugins": [
         "2589195970.shiftlens"
       ]
@@ -1230,7 +1230,16 @@
       "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.10",
       "plugins": [
         "satangbudsai.git-control"
-      ]
+      ],
+      "update": {
+        "ref": "v0.8.11",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size"
+          }
+        ]
+      }
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
