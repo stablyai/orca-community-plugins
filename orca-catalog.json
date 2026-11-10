@@ -15574,6 +15574,67 @@
       ]
     },
     {
+      "id": "rzkmak.neuralwatt-usage",
+      "ownerId": 12380302,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rzkmak/orca-neuralwatt-usage.git",
+        "ref": "v0.0.2"
+      },
+      "description": "NeuralWatt quota, spend and credit balance in Orca's status bar.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.0.2",
+          "commit": "d822a727b9b03f0ddab51022fb6b95df3867e515",
+          "contentHash": "86e8c14118bb0b504c5296b90d979f53f1f0662e7618ee83a1fa30aef48f9567",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "NeuralWatt Usage",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "NeuralWatt: Refresh usage now"
+            },
+            {
+              "kind": "commands",
+              "name": "NeuralWatt: Forget stored API key"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "NeuralWatt Balance …"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rzkmak.neuralwatt-usage/ad10d209fd4de16b.png",
+              "alt": "The NeuralWatt Balance item in Orca's status bar showing 62% used and $18.20 of credits, with the colour thresholds green until 75%, amber to 90% and red above",
+              "sha256": "ad10d209fd4de16bdf90ed6dbc65e6989fc10689f8b80c73817a6fe3ac39dc2d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rzkmak.neuralwatt-usage/f0ae6f24ba424e2f.png",
+              "alt": "NeuralWatt Usage icon",
+              "sha256": "f0ae6f24ba424e2f9559eaa836705aa20df7ed1a07da3772b9d5e758e1af7637",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rzkmak/orca-neuralwatt-usage",
+          "updatedAt": "2026-11-10T22:08:18+09:00"
+        }
+      ]
+    },
+    {
       "id": "sachabigou.synthwave-2077",
       "ownerId": 97250860,
       "source": {
@@ -17342,8 +17403,8 @@
       "ownerId": 67481268,
       "source": {
         "kind": "git",
-        "url": "https://github.com/spgsroot/orca-usage-plugin.git",
-        "ref": "v1.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/spgsroot/orca-usage-plugin/1.1.3"
       },
       "description": "Token-usage dashboard for the local omp corpus: stacked daily chart with series toggles, per-model table, corpus totals, and a status-bar item with today's spend.",
       "categories": [
@@ -18938,6 +18999,43 @@
           "license": "MIT",
           "repository": "https://github.com/turingfx/omp-stats",
           "updatedAt": "2026-11-09T20:47:57+08:00"
+        }
+      ]
+    },
+    {
+      "id": "unitea1992.gate-inbox",
+      "ownerId": 127289237,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/unitea1992/orca-extensions.git",
+        "ref": "v0.1.1",
+        "path": "plugins/gate-inbox"
+      },
+      "description": "Orca の決定ゲート（確認待ち）を右サイドバーに積み、番号＋一言の回答行をまとめてコピーできるようにする。",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "7794bea682844181430097ecd51107b60f1ff43c",
+          "contentHash": "d0e27de81a905497c9e5e2f26788ed3464bba6f0a2e095597870d7bb9881cdae",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Gate Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Gate Inbox"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "updatedAt": "2026-11-10T21:21:31+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/unitea1992/orca-extensions"
         }
       ]
     },
