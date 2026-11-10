@@ -1193,7 +1193,7 @@
     },
     "ronancodes/orca-reminders": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/ronancodes/orca-reminders/0.2.0",
       "plugins": [
         "ronancodes.reminders"
       ]
@@ -1302,7 +1302,7 @@
     },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.3.1",
       "plugins": [
         "serhii-f8.git-toolbox"
       ]

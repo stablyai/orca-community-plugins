@@ -15467,8 +15467,8 @@
       "ownerId": 6930753,
       "source": {
         "kind": "git",
-        "url": "https://github.com/RonanCodes/orca-reminders.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ronancodes/orca-reminders/0.2.0"
       },
       "description": "Remind me later about this workspace or tab: a desktop notification when it is due, a count in the status bar, and snooze, move, open or tick off from a sidebar panel or the palette.",
       "categories": [
@@ -17479,8 +17479,8 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.3.1"
       },
       "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, a project and worktree switcher, a status bar branch indicator and background fetch.",
       "categories": [
