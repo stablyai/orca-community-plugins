@@ -99,6 +99,16 @@
         "anthony-fp.agent-inbox"
       ]
     },
+    "arnaudrinquin/orca-pomodoro": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "arthurlaucs/agent-ansi-palettes": {
       "state": "listed",
       "ref": "refs/tags/arthurlaucs/agent-ansi-palettes/0.1.0",
