@@ -6054,16 +6054,113 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gongxliang/claude-paper/0.4.2"
+        "url": "https://github.com/GongXLiang/Claude-paper.git",
+        "ref": "v0.5.0"
       },
-      "description": "Warm paper light and charcoal dark for Orca: chat, code, diffs and terminal, with original Paper Fold file icons. Unofficial, data-only.",
+      "description": "Claude-inspired warm light and dark themes for Orca: a calm, readable Chat, matching terminal colors for coding agents, and original Paper Fold file icons.",
       "categories": [
         "themes",
         "terminal-themes",
         "icons"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "2d02541653361dc01aae835ecdb4090ddc642815",
+          "contentHash": "9411c0ac5069c013fadfd7eb021249caef07224868591734b915734433d13be4",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Claude Paper",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Paper · 纸折图标"
+            },
+            {
+              "kind": "fonts",
+              "name": "IBM Plex Mono"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gongxliang.claude-paper/b48ed14518ed8088.png",
+              "alt": "Claude Paper for Orca: a complete light Chat scene, genuine dark Claude Code CLI and current Paper Fold file icons from a public date-kit demo.",
+              "sha256": "b48ed14518ed8088beaf973f830cc02b8351ba074b43cedf00f15618127968c8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
+              "alt": "Claude Paper icon",
+              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gongxliang.claude-paper/13d6f3330b2fbff3.png",
+                "alt": "Native light Orca chat, complete public demo reply, composer and Paper Fold file tree.",
+                "sha256": "13d6f3330b2fbff3288adc84229add01e0b46d4b88b750094d21d11fd880712d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/3650167d726b4dcd.png",
+                "alt": "Genuine Claude Code CLI with Orca theme sync and IBM Plex Mono, reviewing the public date-kit example. Account, local path and usage are cropped out.",
+                "sha256": "3650167d726b4dcd02499bb6490eee59d1c82f096ba7b8409a1c43d80fafd798",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/9180067c02441717.png",
+                "alt": "Genuine Codex CLI in Warm Paper with the optional claude-paper-light syntax theme and IBM Plex Mono. Public date-kit demo.",
+                "sha256": "9180067c024417179ed3c86e739db9f21314bb6e16816d74cea8badb8045fd0d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/a257a422e2ae653d.png",
+                "alt": "Native dark code diff, actual test output and file tree composed from the same public demo.",
+                "sha256": "a257a422e2ae653ddb7618fee9aa03485da282a95998379edc059766eaf8304c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/e275d4354aa807eb.png",
+                "alt": "Native light JavaScript editor with syntax colors and Paper Fold icons; local path bar removed.",
+                "sha256": "e275d4354aa807ebe105eb8c1ffabe7afb0e8aee736db510bee01fc8492e1306",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/36d1daa19c1dfaeb.png",
+                "alt": "Original Paper Fold SVG gallery: file formats and folder categories in light and dark. Folder names match exactly; unknown names use slate.",
+                "sha256": "36d1daa19c1dfaebc31294bff29b6da2f5f64e99a9f1437a79ea986222575178",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-10T13:43:29+09:00"
+        },
         {
           "version": "0.4.2",
           "commit": "a490bd261b43743a799d774116575fe292deb171",
@@ -6435,88 +6532,6 @@
           "license": "MIT",
           "repository": "https://github.com/GongXLiang/Claude-paper",
           "updatedAt": "2026-11-10T00:43:29+09:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "200be8457aa0f73b55f7f1fd2af0e5d691feef78",
-          "contentHash": "9cd5e7be1e6a2039c21d3a06950527988a7b5b876a6d619d494048417a5c94a3",
-          "execution": "data",
-          "minimumOrca": "1.4.253",
-          "name": "Claude Paper",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖夜"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gongxliang.claude-paper/6646e3743e841b21.png",
-              "alt": "Claude Paper: a split light/dark view of the same native Orca chat demo, with warm paper and charcoal colors.",
-              "sha256": "6646e3743e841b21940c3f2d0a96935c5c27ce94fe9d053177dd846fe8b1cced",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/gongxliang.claude-paper/82cbb9e94330f3ca.png",
-                "alt": "Warm light native Orca chat detail with lists, a TypeScript block and blue links.",
-                "sha256": "82cbb9e94330f3cad5222fa72bf57bf1e976eb11c03da7ebaf87fb8ba525b0a0",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/86247d6be3ba5298.png",
-                "alt": "Warm dark version of the same native Orca chat demo.",
-                "sha256": "86247d6be3ba5298e5882d95806ab6ff5384459c61d9544d10f149d90d47dcda",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/d9e02d4dfa6f550a.png",
-                "alt": "Warm light inline diff detail showing additions, deletions and word highlights.",
-                "sha256": "d9e02d4dfa6f550a1eda913c7492aefa4a6176cf62b9edc7efae15249306e089",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/7478c4ec6ed724bd.png",
-                "alt": "Warm dark TypeScript editor detail with keywords, strings, types and comments.",
-                "sha256": "7478c4ec6ed724bdf492a14dd4f79aedf7ec2f7db70ce497632ddb0fe6334922",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/dc970aa7901cab07.png",
-                "alt": "Warm light terminal detail with real date-formatting output and normal/bright ANSI samples.",
-                "sha256": "dc970aa7901cab07a22de305018609492d5455890e1faa616e8e16ab3c1f1753",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/b84f8185dd7312c4.png",
-                "alt": "Warm dark terminal detail with real date-formatting output and normal/bright ANSI samples.",
-                "sha256": "b84f8185dd7312c45f5914a97900b53296f5e33c19a45348b91a266f9f5f6a1a",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/GongXLiang/Claude-paper",
-          "updatedAt": "2026-11-09T20:39:07+09:00"
         }
       ]
     },
@@ -14162,8 +14177,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/satangbudsai/orca-git-extension/0.8.10"
+        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
+        "ref": "v0.8.14"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees, plus GitHub and GitLab merge requests (approve and merge) and every branch's pipelines, with your existing Git login. In a full tab and the right sidebar",
       "categories": [
@@ -14172,6 +14187,137 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.14",
+          "commit": "41d11768b47af941a87cb016d3ada4c1574d2fd3",
+          "contentHash": "89a2f43ed2340932daac87eb9b4fd63e184e672801d966f268f74dd1d1cd6c04",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Control",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Git Control"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Review & MR"
+            },
+            {
+              "kind": "commands",
+              "name": "Git: Open Repos overview"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Control",
+              "detail": ".control, .gitgraph"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git Control",
+              "detail": ".gitgraph"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Review & MR"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Repos"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "terminal:send"
+          ],
+          "fileTypes": [
+            "control",
+            "gitgraph"
+          ],
+          "editorFileTypes": [
+            "control",
+            "gitgraph"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/satangbudsai.git-control/1c71bff0bfda50b6.jpg",
+              "alt": "Git Control: a blue and lavender paper Git history sculpture with ivory commit nodes and revision cards on a dark studio backdrop",
+              "sha256": "1c71bff0bfda50b6c2bfc64c09cdd5a0f17ea86635674fbe9c25ff9a53c5057a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/satangbudsai.git-control/3528d6f0bf936c96.png",
+              "alt": "Git Control icon",
+              "sha256": "3528d6f0bf936c96da9201e896edd1f2886f02112d3aee1b034c58cdfac5379f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/satangbudsai.git-control/6555f9c5c118dbef.png",
+                "alt": "Git Control for Orca: what it does, from the commit graph and merge requests to CI pipelines",
+                "sha256": "6555f9c5c118dbef690867d87b5721df8491335a1a6c29e83046af7ef60b88b0",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/3e152fb5143e9c99.png",
+                "alt": "The Commit tab with changed files on the left and a file diff on the right",
+                "sha256": "3e152fb5143e9c990d857b149ee39e5a9201e0d16cf7fb68bd2628180722f12d",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/b74c3ca03f68d524.png",
+                "alt": "A GitLab merge request page with description, pipeline, approvals with Approve, and Merge with its options",
+                "sha256": "b74c3ca03f68d52443e9258c2e52f5ce03ff67d5a749c0999cd809b7f66cc338",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/bee37e6d00e26f10.png",
+                "alt": "A phone lock screen and a desktop toast showing Git Control notifications for review requests and assigned merge requests",
+                "sha256": "bee37e6d00e26f10f29bc07a479d8126db1960a88c93361dbaa3dbd94916b279",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/8aff350f316af00c.png",
+                "alt": "Repos overview: six repositories in one list with branch, ahead and behind, changes, CI and reviews, the ones that need attention first",
+                "sha256": "8aff350f316af00c40e783f0d5a2515a36beceade36ee44f9aa063af6a834054",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/satangbudsai.git-control/7a5d2348ba3cdc4a.png",
+                "alt": "The Pipelines tab: every branch's runs with status, commit, trigger, branch or merge request, stages and who started them",
+                "sha256": "7a5d2348ba3cdc4a88e868950676a6f70bf02e469017ea16235c3b61e0a07992",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SatangBudsai/orca-git-extension",
+          "updatedAt": "2026-11-10T11:43:51+07:00"
+        },
         {
           "version": "0.8.10",
           "commit": "a1257bc25574174a749c3cd96a137d386426676e",
@@ -14663,129 +14809,6 @@
           "updatedAt": "2026-11-09T20:58:03+07:00",
           "license": "MIT",
           "repository": "https://github.com/SatangBudsai/orca-git-extension"
-        },
-        {
-          "version": "0.8.6",
-          "commit": "5d4f2eaa8c22f48e7a9a6f4c64beff788dace79e",
-          "contentHash": "928d9f873c36384b5ba2d9f8e2b293b0d550f1cd5d60bdc943568efb3a95ad91",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Git Control",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Git Control"
-            },
-            {
-              "kind": "commands",
-              "name": "Git: Open Git Control"
-            },
-            {
-              "kind": "commands",
-              "name": "Git: Open Review & MR"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Git Control",
-              "detail": ".control, .gitgraph"
-            },
-            {
-              "kind": "newFiles",
-              "name": "Git Control",
-              "detail": ".gitgraph"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Git"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Review & MR"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "notifications:show",
-            "storage:own",
-            "settings:own",
-            "terminal:send"
-          ],
-          "fileTypes": [
-            "control",
-            "gitgraph"
-          ],
-          "editorFileTypes": [
-            "control",
-            "gitgraph"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/satangbudsai.git-control/d596fd498fe70839.jpg",
-              "alt": "Git Control: a blue and lavender paper Git history sculpture with ivory commit nodes and revision cards on a dark studio backdrop",
-              "sha256": "d596fd498fe7083946c5b66dd6da5072a2271eeca00fd46795f48f70315f7576",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/satangbudsai.git-control/3528d6f0bf936c96.png",
-              "alt": "Git Control icon",
-              "sha256": "3528d6f0bf936c96da9201e896edd1f2886f02112d3aee1b034c58cdfac5379f",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/satangbudsai.git-control/7ac651787f488ea5.png",
-                "alt": "Git Control for Orca: what it does, from the commit graph and merge requests to CI pipelines",
-                "sha256": "7ac651787f488ea534100efdbe6dbf517dda97a7d05fee9f114193ac3210a800",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/3e152fb5143e9c99.png",
-                "alt": "The Commit tab with changed files on the left and a file diff on the right",
-                "sha256": "3e152fb5143e9c990d857b149ee39e5a9201e0d16cf7fb68bd2628180722f12d",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/cd8f7f4601dd6aa5.png",
-                "alt": "A GitLab merge request page with description, pipeline, approvals with Approve, and Merge with its options",
-                "sha256": "cd8f7f4601dd6aa5ed2ba4be41d0cdb1da1295ecfb1b7f8c1dbcd6cb1886af96",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/bee37e6d00e26f10.png",
-                "alt": "A phone lock screen and a desktop toast showing Git Control notifications for review requests and assigned merge requests",
-                "sha256": "bee37e6d00e26f10f29bc07a479d8126db1960a88c93361dbaa3dbd94916b279",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/c2d1126381b4ec05.png",
-                "alt": "A failed GitLab CI job log with its error lines highlighted",
-                "sha256": "c2d1126381b4ec0516fdbde7868ed5af687543cc2ce4a9e581a01f72b5a90275",
-                "width": 1440,
-                "height": 900
-              },
-              {
-                "path": "assets/satangbudsai.git-control/b75a3b7609d14ef5.png",
-                "alt": "The Pipelines tab: every branch's runs with status, commit, trigger, branch or merge request, stages and who started them",
-                "sha256": "b75a3b7609d14ef5e24f72855663261f980553a3e48fa97cb7c7b2e54f67160c",
-                "width": 1440,
-                "height": 900
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/SatangBudsai/orca-git-extension",
-          "updatedAt": "2026-11-09T19:05:30+07:00"
         }
       ]
     },
