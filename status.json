@@ -359,7 +359,7 @@
     },
     "coffeepy/swampling": {
       "state": "listed",
-      "ref": "refs/tags/coffeepy/swampling/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "coffeepy.swampling"
       ]
@@ -1246,7 +1246,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.7",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.7",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -1415,7 +1415,7 @@
     },
     "rr235/orca-power-sessions": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/rr235/orca-power-sessions/0.1.2",
       "plugins": [
         "rr235.power-sessions"
       ]

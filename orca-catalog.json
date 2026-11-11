@@ -4654,14 +4654,35 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/coffeepy/swampling/0.3.0"
+        "url": "https://github.com/coffeepy/swampling.git",
+        "ref": "v0.4.0"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "9f2859b695ad6e384ee075adb5dc34f72da75df4",
+          "contentHash": "306d8f0ccf21b4d3fd502c6cfefda753ded219d0df90abc832bff895a5ec7b8f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Swampling",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Swampling"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/coffeepy/swampling",
+          "updatedAt": "2026-11-11T13:17:26-06:00"
+        },
         {
           "version": "0.3.0",
           "commit": "43048d51249763121b9885f26e3a7e38aed781a8",
@@ -17147,8 +17168,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.7"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
@@ -18682,8 +18703,8 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rr235/orca-power-sessions.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rr235/orca-power-sessions/0.1.2"
       },
       "description": "On macOS, monitor Claude and Codex sessions across projects with status, model and effort, token and context usage, turns, tool calls, compactions, workspace branches and pull requests; highlight Fable and Astra models and long conversations, compact sessions between turns, and show their tabs. Quic",
       "categories": [
