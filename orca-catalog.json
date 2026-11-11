@@ -1316,8 +1316,8 @@
       "ownerId": 279563360,
       "source": {
         "kind": "git",
-        "url": "https://github.com/anonalabs/anona-compute-orca.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anonalabs/anona-compute-orca/0.1.0"
       },
       "description": "Run each Orca workspace in its own Anona Compute sandbox: a disposable cloud microVM that pauses when the workspace sleeps and is deleted with it.",
       "categories": [
@@ -1351,7 +1351,8 @@
           ],
           "license": "MIT",
           "repository": "https://github.com/anonalabs/anona-compute-orca",
-          "updatedAt": "2026-11-11T22:21:57+05:30"
+          "updatedAt": "2026-11-11T22:21:57+05:30",
+          "sourceUnavailable": true
         }
       ]
     },
@@ -1861,13 +1862,86 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/BautistaPessagno/orca-calendar.git",
-        "ref": "v0.2.0"
+        "ref": "v0.2.1"
       },
       "description": "Your Google Calendar in Orca's sidebar: today's agenda and the next days, the next meeting counting down in the status bar, a join button for Meet, Zoom, Teams and Slack huddles, and a reminder before each meeting. Works with your Mac's calendars with no setup. Not affiliated with Google or Apple.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "bb9def868731b6d73fe42c2e4d9c8eeb62b4f3f9",
+          "contentHash": "2eb7018053e9ccf402b849f6059c4a323e7f810e681ec4ad0301c108c07e7a4c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Calendar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Calendar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Calendar"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "secrets:own",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.calendar/ae79618943dce0a4.png",
+              "alt": "Calendar in Orca's sidebar: the agenda with a call starting in 4 minutes and a Join button, and the same countdown in Orca's status bar. Sample data.",
+              "sha256": "ae79618943dce0a461bc6d44ec9591e1246631b456986c0a5a95cf0427e050a8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bautistapessagno.calendar/b8cb3691a8b68cb3.png",
+              "alt": "Calendar icon",
+              "sha256": "b8cb3691a8b68cb3b72251a7d5572ad02d1cf5f236c9582eaee1d94fa455c891",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.calendar/01794d2b00923313.png",
+                "alt": "The agenda in dark theme, and in light theme with an event open: Join Zoom, the room, guests with their answers, a red now line and free time.",
+                "sha256": "01794d2b00923313d223cb574925d66250b59e1fce3afcd880c22d62b0747d04",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.calendar/2ecd761c22d3159f.png",
+                "alt": "Status bar items counting down in grey, then amber, then now; a reminder notification; and the light panel with Join on the next meeting.",
+                "sha256": "2ecd761c22d3159f2680af4fbd1cc0f3dc3ff50b723a2781af97d2d760b67b90",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.calendar/55b95d603c0351c1.png",
+                "alt": "An invitation in light theme with Going? Yes, No, Maybe and each guest's answer, next to the dark calendar picker and source switch.",
+                "sha256": "55b95d603c0351c1c9fba05acd2f31721a15b7ccd71c17710da1970846fc52b3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.calendar/e367cfc0484fbdcf.png",
+                "alt": "The Connect Google Calendar screen with its steps and fields, next to the dark sample week whose top card leads to Google or Mac calendars.",
+                "sha256": "e367cfc0484fbdcfc95992b6f86410170758a5ba943536da276f3fc2fe09c58e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-calendar",
+          "updatedAt": "2026-11-11T14:27:18-03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "cdf2dbd047036e44f3319dea7f4dc42f1706a1a0",
@@ -1894,6 +1968,89 @@
           "license": "MIT",
           "repository": "https://github.com/BautistaPessagno/orca-calendar",
           "updatedAt": "2026-11-11T14:09:03-03:00"
+        }
+      ]
+    },
+    {
+      "id": "bautistapessagno.linear-issues",
+      "ownerId": 174156446,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/BautistaPessagno/orca-linear.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Your Linear issues in Orca's sidebar: everything assigned to you grouped by status, the current cycle, the team's backlog and triage, with issue details, comments and quick changes, plus a status bar count. Works through Orca's own Linear connection, no setup. Not affiliated with Linear.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "229121cc2be4bb83aecdac5542c2d2ac4a46c9b2",
+          "contentHash": "8c750b826af149d69b8d511ae0693413f9266daad26a79a083382f13eb50bc7c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Linear Issues",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Linear Issues"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Linear"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.linear-issues/f96fec7c125316f7.png",
+              "alt": "The panel in Orca's sidebar beside a terminal: made-up issues by status, the branch's issue pinned on top, and the status bar count: 4 in progress, 2 urgent",
+              "sha256": "f96fec7c125316f71b43adbca6941527062d40ed3621c62be3ae71ce4a03e97d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bautistapessagno.linear-issues/15dc1b92b2f61924.png",
+              "alt": "Linear Issues icon",
+              "sha256": "15dc1b92b2f61924ab7b93ab1d326f96bf023d73835772728cb473222d34c921",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.linear-issues/5f47c5a4edfa1471.png",
+                "alt": "Two panels in Orca's light theme: My issues grouped into In Progress, In Review, Todo and Backlog with the branch's issue pinned on top, and the team backlog",
+                "sha256": "5f47c5a4edfa14718c6a728adc3998b9bdbff6cd611fc46bb1a1ac2bdda42618",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.linear-issues/926f8036ef68e0e2.png",
+                "alt": "An issue in Orca's dark theme, its status picker open over the details, next to the same issue scrolled to its sub-issues, links and comments",
+                "sha256": "926f8036ef68e0e2b7c6bb4bf1840da0843aa1bb621b029bc5c9a7a86314e38b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.linear-issues/4d97870b6a4b1ff3.png",
+                "alt": "The current cycle in dark theme with its progress and days left, next to light theme settings: one workspace on an API key, one on Orca's connection",
+                "sha256": "4d97870b6a4b1ff3350d427676b0e34c0fe80d2efe6d3420807b963b4d5799bc",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-linear",
+          "updatedAt": "2026-11-11T14:31:40-03:00"
         }
       ]
     },
@@ -4497,8 +4654,8 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/coffeepy/swampling.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/coffeepy/swampling/0.3.0"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [

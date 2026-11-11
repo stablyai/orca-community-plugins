@@ -121,10 +121,11 @@
     },
     "anonalabs/anona-compute-orca": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/anonalabs/anona-compute-orca/0.1.0",
       "plugins": [
         "anonalabs.anona-compute"
-      ]
+      ],
+      "sourceUnavailable": true
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
@@ -177,9 +178,16 @@
     },
     "bautistapessagno/orca-calendar": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "bautistapessagno.calendar"
+      ]
+    },
+    "bautistapessagno/orca-linear": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "bautistapessagno.linear-issues"
       ]
     },
     "bautistapessagno/orca-spotify": {
@@ -351,7 +359,7 @@
     },
     "coffeepy/swampling": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/coffeepy/swampling/0.3.0",
       "plugins": [
         "coffeepy.swampling"
       ]
