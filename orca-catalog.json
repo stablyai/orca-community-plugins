@@ -3893,8 +3893,8 @@
       "ownerId": 77089596,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chrisluo5311/orca-claude-trajectory.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chrisluo5311/orca-claude-trajectory/1.0.0"
       },
       "description": "What a Claude Code session did, request by request: prompts, model requests, tool calls and subagents, with tokens and timing. Reads transcripts locally, read-only.",
       "categories": [
@@ -3938,14 +3938,44 @@
       "ownerId": 77089596,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/chrisluo5311/orca-snippet/0.1.2"
+        "url": "https://github.com/chrisluo5311/orca-snippet.git",
+        "ref": "v0.1.3"
       },
       "description": "Save reusable commands and prompts, search them, and send them to a terminal or copy them in one click.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "8fe7897829a07d8aa27157a3f41ed15239737e02",
+          "contentHash": "7ed9cd0fa6d17497ed53ac4abd9a6ab4739b556c90be984a99679138085c3dc2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Snippets",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Snippets"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/chrisluo5311.snippets/a898d68088b7187c.png",
+              "alt": "The Snippets panel in Orca's sidebar, with buttons to run, insert, copy, edit and delete each snippet",
+              "sha256": "a898d68088b7187c61fd027bf0732f698d67e616679438d492467bc6e68d8e7e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/chrisluo5311/orca-snippet",
+          "updatedAt": "2026-11-11T23:37:07+08:00"
+        },
         {
           "version": "0.1.2",
           "commit": "ee12fdb0d0864e8d5fa9459e177711b8b6920122",
@@ -16492,8 +16522,8 @@
       "ownerId": 68121922,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oscarbotteri/orca-db-studio.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oscarbotteri/orca-db-studio/0.3.1"
       },
       "description": "Browse and query PostgreSQL, MySQL/MariaDB and SQLite from Orca. Reads each worktree's .env to offer its database.",
       "categories": [
