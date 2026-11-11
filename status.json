@@ -236,7 +236,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.3",
+      "ref": "v2.6.4",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -358,14 +358,14 @@
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
-      "ref": "v1.6.4",
+      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.4",
       "plugins": [
         "dohaidang.living-ascii-themes"
       ]
     },
     "dohaidang/orca-vietnamese-plugin": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/dohaidang/orca-vietnamese-plugin/1.2.0",
       "plugins": [
         "dohaidang.vietnamese"
       ]
@@ -889,7 +889,7 @@
     },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/lilykos/orca-openrouter-usage/0.1.0",
       "plugins": [
         "lilykos.openrouter-usage"
       ]
