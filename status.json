@@ -530,7 +530,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.2.5",
+      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.5",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -584,7 +584,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "refs/tags/gongxliang/claude-paper/0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "gongxliang.claude-paper"
       ]
