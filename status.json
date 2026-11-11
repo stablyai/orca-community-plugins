@@ -896,7 +896,7 @@
         "kyino-pan.agent-activity"
       ],
       "update": {
-        "ref": "v0.1.5",
+        "ref": "v0.1.6",
         "reasons": [
           {
             "category": "under-review",
@@ -1067,6 +1067,7 @@
       "ref": "refs/tags/miragon/orca-modelers/bpmn-modeler/0.2.0",
       "plugins": [
         "miragon.bpmn-modeler",
+        "miragon.business-model-canvas-modeler",
         "miragon.context-maps-modeler",
         "miragon.event-storming-modeler",
         "miragon.team-topologies-modeler",
@@ -1377,7 +1378,7 @@
     },
     "rr235/orca-power-sessions": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/rr235/orca-power-sessions/0.1.1",
       "plugins": [
         "rr235.power-sessions"
       ]
