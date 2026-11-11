@@ -1312,6 +1312,50 @@
       ]
     },
     {
+      "id": "anonalabs.anona-compute",
+      "ownerId": 279563360,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/anonalabs/anona-compute-orca.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Run each Orca workspace in its own Anona Compute sandbox: a disposable cloud microVM that pauses when the workspace sleeps and is deleted with it.",
+      "categories": [
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "9f1e358bfcf55a39720d40f8b835f5d8fe44928b",
+          "contentHash": "9edd4c5604ae0fb9b2cb3e38ca04aa2581bb8bce486c5f795e4ee7374f8e11ed",
+          "execution": "declarative",
+          "minimumOrca": "1.4.246",
+          "name": "Anona Compute",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/small.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/medium.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/large.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/desktop.json"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/anonalabs/anona-compute-orca",
+          "updatedAt": "2026-11-11T22:21:57+05:30"
+        }
+      ]
+    },
+    {
       "id": "anthony-fp.agent-inbox",
       "ownerId": 30504,
       "source": {
@@ -1808,6 +1852,48 @@
           "license": "MIT",
           "repository": "https://github.com/baroned1707/orca-claude-accounts",
           "updatedAt": "2026-11-05T14:25:35+07:00"
+        }
+      ]
+    },
+    {
+      "id": "bautistapessagno.calendar",
+      "ownerId": 174156446,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/BautistaPessagno/orca-calendar.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Your Google Calendar in Orca's sidebar: today's agenda and the next days, the next meeting counting down in the status bar, a join button for Meet, Zoom, Teams and Slack huddles, and a reminder before each meeting. Works with your Mac's calendars with no setup. Not affiliated with Google or Apple.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "cdf2dbd047036e44f3319dea7f4dc42f1706a1a0",
+          "contentHash": "6c716fd062d2db00b98e694e477c861eb34cc8338334e614d656c68cf5aae179",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Calendar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Calendar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Calendar"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "secrets:own",
+            "settings:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-calendar",
+          "updatedAt": "2026-11-11T14:09:03-03:00"
         }
       ]
     },
@@ -4411,14 +4497,35 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/coffeepy/swampling/0.2.0"
+        "url": "https://github.com/coffeepy/swampling.git",
+        "ref": "v0.3.0"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "43048d51249763121b9885f26e3a7e38aed781a8",
+          "contentHash": "a7a8d63f196f74bfd45f601e0d75d50f847d0f7042094ab79d873c68b91626a7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Swampling",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Swampling"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/coffeepy/swampling",
+          "updatedAt": "2026-11-11T10:47:06-06:00"
+        },
         {
           "version": "0.2.0",
           "commit": "cde83e6c58d199075e161f20181a7676a62a811e",

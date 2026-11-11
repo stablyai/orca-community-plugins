@@ -131,6 +131,12 @@
     "repoId": 1451123629,
     "firstSeen": "2026-11-09T08:55:33.576Z"
   },
+  "anonalabs.anona-compute@0.1.0": {
+    "commit": "9f1e358bfcf55a39720d40f8b835f5d8fe44928b",
+    "contentHash": "9edd4c5604ae0fb9b2cb3e38ca04aa2581bb8bce486c5f795e4ee7374f8e11ed",
+    "repoId": 1454216419,
+    "firstSeen": "2026-11-11T17:14:43.097Z"
+  },
   "anthony-fp.agent-inbox@0.2.2": {
     "commit": "c134b3a18670f16f319d3348ed47e3256dd233b1",
     "contentHash": "9125025e29600aee04d1ee25365a044e8a4648ab1cf03eb26088cc738e71ccb2",
@@ -184,6 +190,12 @@
     "contentHash": "8add27194c4c6438f3ccca7b828d435382db36d222c21697b0f16087b98c062a",
     "repoId": 1408195948,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "bautistapessagno.calendar@0.2.0": {
+    "commit": "cdf2dbd047036e44f3319dea7f4dc42f1706a1a0",
+    "contentHash": "6c716fd062d2db00b98e694e477c861eb34cc8338334e614d656c68cf5aae179",
+    "repoId": 1454195013,
+    "firstSeen": "2026-11-11T17:14:43.097Z"
   },
   "bautistapessagno.now-playing@0.3.2": {
     "commit": "028ffd9adc54ed4849ae676e5f402602aa37df86",
@@ -502,6 +514,12 @@
     "contentHash": "49ecce892eadce7a0872e5182b886bd93303ec831f0d6de29967eeff36266763",
     "repoId": 1450018509,
     "firstSeen": "2026-11-11T16:15:40.513Z"
+  },
+  "coffeepy.swampling@0.3.0": {
+    "commit": "43048d51249763121b9885f26e3a7e38aed781a8",
+    "contentHash": "a7a8d63f196f74bfd45f601e0d75d50f847d0f7042094ab79d873c68b91626a7",
+    "repoId": 1450018509,
+    "firstSeen": "2026-11-11T17:14:43.097Z"
   },
   "cuni0716.monokai-pro-ce-theme@2.0.0": {
     "commit": "8a61d7f0a4d35121dc8c5db275d8970230bc6f44",

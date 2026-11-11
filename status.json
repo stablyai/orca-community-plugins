@@ -119,6 +119,13 @@
         ]
       }
     },
+    "anonalabs/anona-compute-orca": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "anonalabs.anona-compute"
+      ]
+    },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
       "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.0",
@@ -166,6 +173,13 @@
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
         "publisher \"baroned\" is ignored: Orca uses the GitHub owner \"baroned1707\"; remove \"publisher\" from orca-plugin.json"
+      ]
+    },
+    "bautistapessagno/orca-calendar": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "bautistapessagno.calendar"
       ]
     },
     "bautistapessagno/orca-spotify": {
@@ -337,7 +351,7 @@
     },
     "coffeepy/swampling": {
       "state": "listed",
-      "ref": "refs/tags/coffeepy/swampling/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "coffeepy.swampling"
       ]
