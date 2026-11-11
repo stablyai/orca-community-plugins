@@ -1486,7 +1486,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.10.1",
+      "ref": "v0.10.2",
       "plugins": [
         "satangbudsai.git-control"
       ]
