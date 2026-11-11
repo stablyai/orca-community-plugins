@@ -240,7 +240,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.6.5",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.5",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
