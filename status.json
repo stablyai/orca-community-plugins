@@ -1246,19 +1246,10 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.4",
+      "ref": "v0.2.7",
       "plugins": [
         "palulabs.office-tycoon"
-      ],
-      "update": {
-        "ref": "v0.2.5",
-        "reasons": [
-          {
-            "category": "reserved-name",
-            "detail": "name \"Orca Tycoon\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
-          }
-        ]
-      }
+      ]
     },
     "pcauhi/orca-hairline-theme": {
       "state": "listed",
@@ -1424,7 +1415,7 @@
     },
     "rr235/orca-power-sessions": {
       "state": "listed",
-      "ref": "refs/tags/rr235/orca-power-sessions/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "rr235.power-sessions"
       ]
@@ -1486,7 +1477,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.10.2",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.10.2",
       "plugins": [
         "satangbudsai.git-control"
       ]

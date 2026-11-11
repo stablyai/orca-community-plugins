@@ -17147,14 +17147,70 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/palulabs/orca-tycoon/0.2.4"
+        "url": "https://github.com/palulabs/orca-tycoon.git",
+        "ref": "v0.2.7"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.7",
+          "commit": "038757b7945caaed8bde27f4e771d5f37bf76d69",
+          "contentHash": "2c460cd5c3c9a86d462280b680755449b75f4e484dceaec7cf663d11da2d72b3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Office Tycoon for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Office Tycoon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/palulabs.office-tycoon/65f2486153931c20.png",
+              "alt": "The commons of a pixel office: agents on the sofa and at the coffee corner, a foosball table, and Palú the dog eating from his bowl",
+              "sha256": "65f2486153931c2065716893a4bfb2c98d68bc27857675d242a2c936485a9071",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
+              "alt": "Office Tycoon for Orca icon",
+              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/palulabs.office-tycoon/9c48b9ef352b410b.png",
+                "alt": "The whole office: five teams at their desks around a commons band with a lounge, kitchen, foosball table and calling booths",
+                "sha256": "9c48b9ef352b410bf2a270c0038e84dccf7e48f16491a5b95a6ac6a2056a26f9",
+                "width": 2500,
+                "height": 1562
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/f9434ac0fd48efc5.png",
+                "alt": "A team at work with a speech bubble from an agent that just finished, and Palú asleep in his bed",
+                "sha256": "f9434ac0fd48efc5bdaeda18c75118c3645088b6966567140a7ebe55911da475",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/ad68a30cc6fab295.png",
+                "alt": "Desks showing agent states: a red flashing screen for blocked, an amber question mark for waiting, and specialists on stools",
+                "sha256": "ad68a30cc6fab2950455296c1a25dfec58e3b689d92ca17214108225fe0b4eac",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/palulabs/orca-tycoon",
+          "updatedAt": "2026-11-11T20:10:06+01:00"
+        },
         {
           "version": "0.2.4",
           "commit": "8f408db1635afebcd4633830374827df88864423",
@@ -17378,62 +17434,6 @@
           "license": "MIT",
           "repository": "https://github.com/palulabs/orca-tycoon",
           "updatedAt": "2026-11-09T14:15:07+01:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "83f881082b61ff024e58f807e2c433c6543d7a2f",
-          "contentHash": "34d7242f010d5d7417f0f1670fbff30dbe3547d3d3aa7b43c78e16d63dc1f6e6",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Orca Tycoon",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Orca Tycoon"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/palulabs.office-tycoon/65f2486153931c20.png",
-              "alt": "The commons of a pixel office: agents on the sofa and at the coffee corner, a foosball table, and Palú the dog eating from his bowl",
-              "sha256": "65f2486153931c2065716893a4bfb2c98d68bc27857675d242a2c936485a9071",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
-              "alt": "Orca Tycoon icon",
-              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/palulabs.office-tycoon/5f6e6b3af81d097d.png",
-                "alt": "The whole office: five teams at their desks around a commons band with a lounge, kitchen, foosball table and calling booths",
-                "sha256": "5f6e6b3af81d097deb9cd8837df5029cada32f1e23a445e46c08d21df63689c2",
-                "width": 2500,
-                "height": 1562
-              },
-              {
-                "path": "assets/palulabs.office-tycoon/f9434ac0fd48efc5.png",
-                "alt": "A team at work with a speech bubble from an agent that just finished, and Palú asleep in his bed",
-                "sha256": "f9434ac0fd48efc5bdaeda18c75118c3645088b6966567140a7ebe55911da475",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/palulabs.office-tycoon/ad68a30cc6fab295.png",
-                "alt": "Desks showing agent states: a red flashing screen for blocked, an amber question mark for waiting, and specialists on stools",
-                "sha256": "ad68a30cc6fab2950455296c1a25dfec58e3b689d92ca17214108225fe0b4eac",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/palulabs/orca-tycoon",
-          "updatedAt": "2026-11-05T19:58:30+01:00"
         }
       ]
     },
@@ -18682,14 +18682,96 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rr235/orca-power-sessions/0.1.1"
+        "url": "https://github.com/rr235/orca-power-sessions.git",
+        "ref": "v0.1.2"
       },
       "description": "On macOS, monitor Claude and Codex sessions across projects with status, model and effort, token and context usage, turns, tool calls, compactions, workspace branches and pull requests; highlight Fable and Astra models and long conversations, compact sessions between turns, and show their tabs. Quic",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "c52d8fa03446854abb0b69e131aa6212d71ced05",
+          "contentHash": "0ac15cd88d4f8a10e5fd3a7597ff1edec6e1946c08c6b4917e39ee80b2a3ba64",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Power Sessions",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Power Sessions"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rr235.power-sessions/f71b49207a7361c2.png",
+              "alt": "Power Sessions: the Orca side panel with sessions by project, session details with model, tokens, context and pull requests, and quick actions",
+              "sha256": "f71b49207a7361c26a977e553ac633b9422268101f22b0b85b5cc7dee916d2cc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rr235.power-sessions/331ec5354281e797.png",
+              "alt": "Power Sessions icon",
+              "sha256": "331ec5354281e797f48c44bf90ddf7bac369a6de7a460fa5cba5802a9354e810",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rr235.power-sessions/3438ecd4b9acf341.png",
+                "alt": "The Sessions list in a dark theme: three projects with their Claude and Codex sessions, one marked with a green dot",
+                "sha256": "3438ecd4b9acf3412ffa3b127885038791f059863597691b314ab31f580b2e50",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/2c902b9bdc304a3d.png",
+                "alt": "Session details in a light theme: idle, Opus 5.5 High, 153M tokens, a context bar at 275k of 400k, turn counts, a branch and four pull requests",
+                "sha256": "2c902b9bdc304a3d1c137a8717a42fbcbf595233760b412afad37d518ead89c0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/480fec58c46d019a.png",
+                "alt": "Two session details in a dark theme: an active session with 27 turns in the warning colour, and an idle one with Fable 5.1 in the warning colour",
+                "sha256": "480fec58c46d019aeae406deeeb1819e34187db7ec4525fbddb23f8cafa9450a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/1800dfa8d6797737.png",
+                "alt": "Session details in a light theme with the Compact button and its tooltip, Run /compact in this session",
+                "sha256": "1800dfa8d679773708be931db0c5d8aa4731f9bc2f35da20ca317b62c7092610",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/490c415eafd0106a.png",
+                "alt": "Quick actions in a dark theme: two running actions with stop, terminal and open buttons, and two stopped ones with run and edit buttons",
+                "sha256": "490c415eafd0106ac6658f08b92730354aba304b6c5a466f34e47d6af5ff7be7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/1981fd23ef340864.png",
+                "alt": "The Add new action form in a light theme, with a project, a name, the command bun run dev and an optional URL",
+                "sha256": "1981fd23ef3408641aee51306a86f92a736e02651f0c7d46fb63b1ed06bdc3a4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rr235/orca-power-sessions",
+          "updatedAt": "2026-11-11T20:01:29+01:00"
+        },
         {
           "version": "0.1.1",
           "commit": "cddfe852552ab7f6f4c68164c8565b4bb171f444",
@@ -19447,8 +19529,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.10.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.10.2"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees; GitHub and GitLab merge requests (approve, merge in the background, AI review before you open one) and every branch's pipelines; Repo Overview for many r",
       "categories": [
