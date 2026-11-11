@@ -3,7 +3,7 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/1am/orca-agent-deck/0.2.1",
       "plugins": [
         "1am.agent-deck"
       ],
