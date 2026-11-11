@@ -4278,6 +4278,51 @@
       ]
     },
     {
+      "id": "cuni0716.monokai-pro-theme",
+      "ownerId": 9133999,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cuni0716/monokai-pro-orca.git",
+        "ref": "v1.2.0"
+      },
+      "description": "Unofficial dark themes based on Monokai Pro (default and Machine filters), with matching syntax and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "9caebd0f0eaf2e4fc5e78ca4b455f7b6de4bcdac",
+          "contentHash": "eb576ba8fcea1a88f718d6d03c20c14e4b18b03c458087c5491395fe8d71befb",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Monokai Pro for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Monokai Pro"
+            },
+            {
+              "kind": "themes",
+              "name": "Monokai Pro (Machine)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monokai Pro"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Monokai Pro (Machine)"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cuni0716/monokai-pro-orca",
+          "updatedAt": "2026-11-11T11:45:09+01:00"
+        }
+      ]
+    },
+    {
       "id": "davidtaboas.fountain",
       "ownerId": 725182,
       "source": {
@@ -8441,8 +8486,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gongxliang/claude-paper/0.6.1"
       },
       "description": "Claude-inspired light and dark colors for Orca Chat and agent terminals, with 455 distinct file icons, calm slate folders and optional IBM Plex Mono.",
       "categories": [
