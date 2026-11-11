@@ -9,8 +9,8 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/1am/orca-agent-deck/0.1.2"
+        "url": "https://github.com/1am/orca-agent-deck.git",
+        "ref": "v0.2.1"
       },
       "description": "Shows Orca agent status on a Stream Deck and focuses panes from it.",
       "categories": [
@@ -18,6 +18,73 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "e3ad47183285c7d675a9a1a9e53c6ccff8fdd476",
+          "contentHash": "3a5baba0cc94a399b9a03d21bbb616225ba687e562e42520814932b56986e69d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Agent Deck for Orca",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Map pane to key"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Unmap pane"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Show status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/1am.agent-deck/b07fbe48c19bafb5.png",
+              "alt": "A Stream Deck showing Orca agent panes as colored keys: working, done, idle and empty",
+              "sha256": "b07fbe48c19bafb54ee1a71075d662e54158f015e5c17501610c96a3f630e0cd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/1am.agent-deck/e9db045d1cf33093.png",
+              "alt": "Agent Deck for Orca icon",
+              "sha256": "e9db045d1cf330937b3774c86cc6af156744f7580dfe05305e8f261f77c4e416",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/1am.agent-deck/1e88ece0ccdbc3af.png",
+                "alt": "A 5x3 Stream Deck grid of Orca pane keys with status icons",
+                "sha256": "1e88ece0ccdbc3afe5f9fb72db863ec73165c5b178fdcd86ebf28e801c4ed6e5",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/1am/orca-agent-deck",
+          "updatedAt": "2026-11-11T07:02:27+01:00"
+        },
         {
           "version": "0.1.2",
           "commit": "208668047b563821484dc57309e6bbd89d88339c",

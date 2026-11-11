@@ -3,19 +3,13 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "refs/tags/1am/orca-agent-deck/0.1.2",
+      "ref": "v0.2.1",
       "plugins": [
         "1am.agent-deck"
       ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "reserved-name",
-            "detail": "name \"Orca Agent Deck\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
-          }
-        ]
-      }
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "2589195970/jumplens": {
       "state": "rejected",
@@ -219,6 +213,16 @@
         "brezzashen.account-keys"
       ],
       "sourceUnavailable": true
+    },
+    "brezzashen/orca-toolkit": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "name \"Orca Toolkit\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+        }
+      ]
     },
     "brodesigns/orca-skill-usage": {
       "state": "listed",
