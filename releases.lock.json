@@ -1607,6 +1607,12 @@
     "repoId": 1446103121,
     "firstSeen": "2026-11-09T16:41:09.787Z"
   },
+  "pcauhi.hairline-theme@1.1.0": {
+    "commit": "4a889ce3414e6032b45f602f5903ed907675f4ee",
+    "contentHash": "63bdf14fed68ca96940a0aefa58220850c81c1b58329112ea80c4d934010c188",
+    "repoId": 1453447879,
+    "firstSeen": "2026-11-11T03:16:45.666Z"
+  },
   "pidack.trace-viewer@0.1.1": {
     "commit": "d4f8f5429e871c6e86ad4982d18b19e999092d74",
     "contentHash": "e8ca91f63c76d8f8510da83f7b67d4ad9a20d3f46813fb7d16c28630e06a0253",
@@ -2230,6 +2236,12 @@
     "contentHash": "7dd212756f0b8ca4d01e3843de588ae754bce712db51750579c2d26489783567",
     "repoId": 1451354007,
     "firstSeen": "2026-11-10T09:59:04.512Z"
+  },
+  "turingfx.omp-usage@0.2.0": {
+    "commit": "69b14374abe75f65ea3279482b0dca63c8a9b53e",
+    "contentHash": "2cbf3fea949d904fe4d7ea6b7bcc31caaa7761420f43e8b3d364e82f4538a7ea",
+    "repoId": 1451354007,
+    "firstSeen": "2026-11-11T03:16:45.666Z"
   },
   "unitea1992.gate-inbox@0.1.1": {
     "commit": "7794bea682844181430097ecd51107b60f1ff43c",

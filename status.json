@@ -236,7 +236,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.6.4",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.4",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -1156,6 +1156,13 @@
         ]
       }
     },
+    "pcauhi/orca-hairline-theme": {
+      "state": "listed",
+      "ref": "v1.1.0",
+      "plugins": [
+        "pcauhi.hairline-theme"
+      ]
+    },
     "pidack/orca-trace-viewer": {
       "state": "listed",
       "ref": "refs/tags/pidack/orca-trace-viewer/0.1.1",
@@ -1602,7 +1609,16 @@
       "ref": "refs/tags/tienne/orca-plugins/0.2.2",
       "plugins": [
         "tienne.git-logs"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "tienne/orcatopia": {
       "state": "listed",
@@ -1644,7 +1660,7 @@
     },
     "turingfx/omp-stats": {
       "state": "listed",
-      "ref": "refs/tags/turingfx/omp-stats/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "turingfx.omp-usage"
       ]

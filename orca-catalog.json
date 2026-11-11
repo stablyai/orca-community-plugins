@@ -2804,8 +2804,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.6.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.4"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -16151,6 +16151,51 @@
       ]
     },
     {
+      "id": "pcauhi.hairline-theme",
+      "ownerId": 37795823,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pcauhi/orca-hairline-theme.git",
+        "ref": "v1.1.0"
+      },
+      "description": "A quiet near-black and gray theme with hairline borders, inspired by the look of modern AI code editors. Light and dark app, code and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "4a889ce3414e6032b45f602f5903ed907675f4ee",
+          "contentHash": "63bdf14fed68ca96940a0aefa58220850c81c1b58329112ea80c4d934010c188",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Hairline",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Hairline Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Hairline Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Hairline Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Hairline Light"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/pcauhi/orca-hairline-theme",
+          "updatedAt": "2026-11-11T13:57:09+11:00"
+        }
+      ]
+    },
+    {
       "id": "pidack.trace-viewer",
       "ownerId": 104877312,
       "source": {
@@ -21471,14 +21516,56 @@
       "ownerId": 250263194,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/turingfx/omp-stats/0.1.1"
+        "url": "https://github.com/turingfx/omp-stats.git",
+        "ref": "v0.2.0"
       },
       "description": "Native Orca sidebar embedding of omp's official telemetry dashboard (http://127.0.0.1:59127). Directly queries ~/.omp/stats.db in read-only mode via an embedded Node SQLite worker (~9ms) to display live KPI sparklines, latency, throughput, token mix, and per-model performance tables.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "69b14374abe75f65ea3279482b0dca63c8a9b53e",
+          "contentHash": "2cbf3fea949d904fe4d7ea6b7bcc31caaa7761420f43e8b3d364e82f4538a7ea",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "omp stats",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "omp stats"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/turingfx.omp-usage/d91c067527ce0454.png",
+              "alt": "omp stats telemetry overview and models dashboard",
+              "sha256": "d91c067527ce0454fbbbfbc9b3ba5723ff336a5848110c2a626f0a68a11597a0",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/turingfx.omp-usage/04da69532d533325.png",
+              "alt": "omp stats icon",
+              "sha256": "04da69532d533325a9e316d63319cd5286e01fc2ead71615201aefe9dd766ad2",
+              "width": 128,
+              "height": 128
+            },
+            "screenshots": [
+              {
+                "path": "assets/turingfx.omp-usage/e2a5b86b06543043.png",
+                "alt": "omp stats overview with KPI sparklines and activity chart",
+                "sha256": "e2a5b86b065430431208db86f83ddc88674ed0ea06937380081c84065f41bfdb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/turingfx/omp-stats",
+          "updatedAt": "2026-11-11T11:00:51+08:00"
+        },
         {
           "version": "0.1.1",
           "commit": "02f1978d7cc69be97515a7de854e598ff3dada74",
