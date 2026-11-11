@@ -1349,6 +1349,12 @@
     "repoId": 1444137360,
     "firstSeen": "2026-11-03T12:40:04.830Z"
   },
+  "maxfedorov.youtrack-for-orca@0.1.0": {
+    "commit": "052ad9a3900fe666a7fed86b313fbd383194fe4e",
+    "contentHash": "ba13c6d1f16d61ad6a645a6cfa83bf611cddefb9dc9f74e08a189f94b982fcad",
+    "repoId": 1453789863,
+    "firstSeen": "2026-11-11T11:39:58.743Z"
+  },
   "maximechbt.beads-orca-ui@0.3.0": {
     "commit": "ee5c6801f39416e600269693d7245accb3fc9b7e",
     "contentHash": "a9e03dd50861579b4695d5aa7e13c3ffdbf4c7ca52d1930e4eaa6994003298d3",
@@ -2104,6 +2110,12 @@
     "contentHash": "34efa4ff258d626c34d903fe4b63663352588aaa588bca3a08bd012d58fe1658",
     "repoId": 1451239680,
     "firstSeen": "2026-11-10T22:39:16.853Z"
+  },
+  "shaurgon.conport-orca@0.4.1": {
+    "commit": "4808dcbc40e6f4af79de9902a58407d93d5c45e9",
+    "contentHash": "95db81207b77550788e5810378e19be8bbc08c3fa4edbcc83dcc325869056173",
+    "repoId": 1451239680,
+    "firstSeen": "2026-11-11T11:39:58.743Z"
   },
   "spgsroot.omp-usage@1.0.0": {
     "commit": "6522b53b740f02bdc22d0744f53a23d6ec155230",

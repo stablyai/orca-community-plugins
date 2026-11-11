@@ -330,7 +330,7 @@
     },
     "cuni0716/monokai-pro-orca": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/cuni0716/monokai-pro-orca/1.2.0",
       "plugins": [
         "cuni0716.monokai-pro-theme"
       ]
@@ -371,7 +371,16 @@
       "ref": "refs/tags/diegohonorio/orca-painel/0.5.0",
       "plugins": [
         "diegohonorio.painel-trabalho"
-      ]
+      ],
+      "update": {
+        "ref": "v0.6.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
@@ -627,6 +636,20 @@
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
         }
+      ]
+    },
+    "hadisd/markdown-colorize": {
+      "state": "listed",
+      "ref": "refs/tags/hadisd/markdown-colorize/1.1.2",
+      "plugins": [
+        "hadisd.markdown-colorize"
+      ]
+    },
+    "hadisd/quiet-pastel": {
+      "state": "listed",
+      "ref": "refs/tags/hadisd/quiet-pastel/1.1.2",
+      "plugins": [
+        "hadisd.quiet-pastel"
       ]
     },
     "heath0xff/stillwater": {
@@ -985,6 +1008,13 @@
         "mars-crater.jsonnet-syntax"
       ]
     },
+    "maxfedorov/youtrack-for-orca": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "maxfedorov.youtrack-for-orca"
+      ]
+    },
     "maximechbt/beads-orca-ui": {
       "state": "listed",
       "ref": "refs/tags/maximechbt/beads-orca-ui/0.3.0",
@@ -1011,7 +1041,7 @@
     },
     "miinwan/orca-vietnamese": {
       "state": "rejected",
-      "ref": "v1.3.0",
+      "ref": "v1.4.0",
       "reasons": [
         {
           "category": "manifest-format"
@@ -1479,7 +1509,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.4.0",
+      "ref": "v0.4.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]

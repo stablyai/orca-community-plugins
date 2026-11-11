@@ -4282,8 +4282,8 @@
       "ownerId": 9133999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cuni0716/monokai-pro-orca.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cuni0716/monokai-pro-orca/1.2.0"
       },
       "description": "Unofficial dark themes based on Monokai Pro (default and Machine filters), with matching syntax and terminal colors.",
       "categories": [
@@ -9048,6 +9048,125 @@
       ]
     },
     {
+      "id": "hadisd.markdown-colorize",
+      "ownerId": 125417294,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hadisd/markdown-colorize/1.1.2"
+      },
+      "description": "A colorful, editable view for Markdown and MDX files: colored headings, code, math, diagrams, badges and an outline. Click a block to edit it.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "98600d90e80221c3e87ccf08195c5a35a2945d55",
+          "contentHash": "a765cdb5d9a607599898b599df1be987a42cae1a6f7661c85157c6bd1cde0696",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Markdown Colorize",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Colorized",
+              "detail": ".md, .markdown"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Colorized",
+              "detail": ".mdx"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "fileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.markdown-colorize/2a161fe2e9fdce5c.png",
+              "alt": "Markdown Colorize preview: a README with a pink title, colored badges, a tagline and highlighted code, with Source and Colorized tabs.",
+              "sha256": "2a161fe2e9fdce5c8bc016d7ca2681c4f887c4f78f1310b04abdbef3701d4ffd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/hadisd.markdown-colorize/767cd4f620e1b56a.png",
+              "alt": "Markdown Colorize icon",
+              "sha256": "767cd4f620e1b56af06fa5433d5dd24f4929251a4a0c2c4067ec45bbccc26bf6",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/markdown-colorize",
+          "updatedAt": "2026-11-09T12:16:10+09:00"
+        }
+      ]
+    },
+    {
+      "id": "hadisd.quiet-pastel",
+      "ownerId": 125417294,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hadisd/quiet-pastel/1.1.2"
+      },
+      "description": "Two dark, pale blue-violet themes with pastel accents and matching terminal themes: Quiet Pastel Moonlit (brighter) and Quiet Pastel Hush (dimmer).",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "a12063520555072d48ba7cf727b4cde3919d71ab",
+          "contentHash": "2e20c96bf0efd70c64a0656008c5ddcf86b40602270247994f70b157752eb166",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Quiet Pastel",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Hush"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Moonlit Terminal"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Hush Terminal"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.quiet-pastel/20147350ee4823ee.png",
+              "alt": "Quiet Pastel Moonlit preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
+              "sha256": "20147350ee4823ee0bc5dac40452f8771cec689d8ef90ddd35842e4614596033",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/quiet-pastel",
+          "updatedAt": "2026-11-09T10:04:12+09:00"
+        }
+      ]
+    },
+    {
       "id": "heath0xff.stillwater",
       "ownerId": 35548666,
       "source": {
@@ -13233,6 +13352,104 @@
           "license": "MIT AND Apache-2.0",
           "repository": "https://github.com/mars-crater/orca-jsonnet-syntax",
           "updatedAt": "2026-11-03T12:34:30Z"
+        }
+      ]
+    },
+    {
+      "id": "maxfedorov.youtrack-for-orca",
+      "ownerId": 10705898,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/maxfedorov/youtrack-for-orca.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Browse YouTrack issues in the right sidebar and start coding agents on them.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "052ad9a3900fe666a7fed86b313fbd383194fe4e",
+          "contentHash": "ba13c6d1f16d61ad6a645a6cfa83bf611cddefb9dc9f74e08a189f94b982fcad",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "YouTrack for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "YouTrack"
+            },
+            {
+              "kind": "commands",
+              "name": "YouTrack: Open panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "YT"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/maxfedorov.youtrack-for-orca/bbf3268142d7fc9a.png",
+              "alt": "The issue list for a YouTrack query, with saved searches, sortable columns and the actions of the selected issue",
+              "sha256": "bbf3268142d7fc9a3f136ee84f3d7ab1e544181df620a92989516ee1331bb65f",
+              "width": 2000,
+              "height": 1630
+            },
+            "icon": {
+              "path": "assets/maxfedorov.youtrack-for-orca/cd56641f29737a6b.png",
+              "alt": "YouTrack for Orca icon",
+              "sha256": "cd56641f29737a6b862efb223950b4410040b08aa7ea92652e1e7ebbc60f23a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/bbf3268142d7fc9a.png",
+                "alt": "The issue list for a YouTrack query, with saved searches, sortable columns and the actions of the selected issue",
+                "sha256": "bbf3268142d7fc9a3f136ee84f3d7ab1e544181df620a92989516ee1331bb65f",
+                "width": 2000,
+                "height": 1630
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/c9f6a642e3e655e3.png",
+                "alt": "The detail of an issue: creator, tags, Apply command, fields, description, linked issues and comments",
+                "sha256": "c9f6a642e3e655e35e3311cb234553eb220a04314b73596150fa3a4a80cde786",
+                "width": 2000,
+                "height": 1331
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/a460616e168114c0.png",
+                "alt": "The Start view: Run in New worktree, project, name, Create from, workspace, agent, the prompt switches, template and the editable prompt",
+                "sha256": "a460616e168114c02bf10632d0a900e016faf20f2e8c31b6c97ea554d8e07eb3",
+                "width": 2000,
+                "height": 1630
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maxfedorov/youtrack-for-orca",
+          "updatedAt": "2026-11-11T10:39:07+01:00"
         }
       ]
     },
@@ -20024,14 +20241,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.4.0"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.4.1"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "4808dcbc40e6f4af79de9902a58407d93d5c45e9",
+          "contentHash": "95db81207b77550788e5810378e19be8bbc08c3fa4edbcc83dcc325869056173",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-11T11:27:02Z"
+        },
         {
           "version": "0.4.0",
           "commit": "a48992d37f3b86864c72e7793d6bac8e2eb58947",
