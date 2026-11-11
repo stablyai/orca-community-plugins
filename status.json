@@ -330,7 +330,7 @@
     },
     "cuni0716/monokai-pro-orca": {
       "state": "listed",
-      "ref": "v2.0.0",
+      "ref": "refs/tags/cuni0716/monokai-pro-orca/2.0.0",
       "plugins": [
         "cuni0716.monokai-pro-ce-theme"
       ]
@@ -1020,7 +1020,7 @@
     },
     "maxfedorov/youtrack-for-orca": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.1",
       "plugins": [
         "maxfedorov.youtrack-for-orca"
       ]
@@ -1604,7 +1604,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "v0.5.1",
+      "ref": "refs/tags/superfly/orca-sprites/0.5.1",
       "plugins": [
         "superfly.sprites"
       ]

@@ -4282,8 +4282,8 @@
       "ownerId": 9133999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cuni0716/monokai-pro-orca.git",
-        "ref": "v2.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cuni0716/monokai-pro-orca/2.0.0"
       },
       "description": "Monokai Pro (CE), the community edition of Monokai Pro for Orca: application, syntax and terminal colors (default filter).",
       "categories": [
@@ -13352,8 +13352,8 @@
       "ownerId": 10705898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/maxfedorov/youtrack-for-orca.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.1"
       },
       "description": "Browse YouTrack issues in the right sidebar and start coding agents on them.",
       "categories": [
@@ -21307,8 +21307,8 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/superfly/orca-sprites.git",
-        "ref": "v0.5.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/superfly/orca-sprites/0.5.1"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [
