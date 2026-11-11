@@ -330,9 +330,9 @@
     },
     "cuni0716/monokai-pro-orca": {
       "state": "listed",
-      "ref": "refs/tags/cuni0716/monokai-pro-orca/1.2.0",
+      "ref": "v2.0.0",
       "plugins": [
-        "cuni0716.monokai-pro-theme"
+        "cuni0716.monokai-pro-ce-theme"
       ]
     },
     "davidtaboas/orca-fountain-plugin": {
@@ -384,11 +384,11 @@
     },
     "divlook/orca-sidenote": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
-          "category": "reserved-name",
-          "detail": "name \"orca-sidenote\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
@@ -1020,7 +1020,7 @@
     },
     "maxfedorov/youtrack-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "maxfedorov.youtrack-for-orca"
       ]
@@ -1604,7 +1604,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "refs/tags/superfly/orca-sprites/0.5.0",
+      "ref": "v0.5.1",
       "plugins": [
         "superfly.sprites"
       ]

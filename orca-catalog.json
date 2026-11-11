@@ -4278,47 +4278,39 @@
       ]
     },
     {
-      "id": "cuni0716.monokai-pro-theme",
+      "id": "cuni0716.monokai-pro-ce-theme",
       "ownerId": 9133999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cuni0716/monokai-pro-orca/1.2.0"
+        "url": "https://github.com/cuni0716/monokai-pro-orca.git",
+        "ref": "v2.0.0"
       },
-      "description": "Unofficial dark themes based on Monokai Pro (default and Machine filters), with matching syntax and terminal colors.",
+      "description": "Monokai Pro (CE), the community edition of Monokai Pro for Orca: application, syntax and terminal colors (default filter).",
       "categories": [
         "themes",
         "terminal-themes"
       ],
       "releases": [
         {
-          "version": "1.2.0",
-          "commit": "9caebd0f0eaf2e4fc5e78ca4b455f7b6de4bcdac",
-          "contentHash": "eb576ba8fcea1a88f718d6d03c20c14e4b18b03c458087c5491395fe8d71befb",
+          "version": "2.0.0",
+          "commit": "8a61d7f0a4d35121dc8c5db275d8970230bc6f44",
+          "contentHash": "a3eea16a89af57746668c28ad2dbf22e6c59b3e0f55fb3bd14a281ef2bcdba04",
           "execution": "data",
           "minimumOrca": "1.4.246",
-          "name": "Monokai Pro for Orca",
+          "name": "Monokai Pro (CE)",
           "contributes": [
             {
               "kind": "themes",
-              "name": "Monokai Pro"
-            },
-            {
-              "kind": "themes",
-              "name": "Monokai Pro (Machine)"
+              "name": "Monokai Pro (CE)"
             },
             {
               "kind": "terminalThemes",
-              "name": "Monokai Pro"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Monokai Pro (Machine)"
+              "name": "Monokai Pro (CE)"
             }
           ],
           "license": "MIT",
           "repository": "https://github.com/cuni0716/monokai-pro-orca",
-          "updatedAt": "2026-11-11T11:45:09+01:00"
+          "updatedAt": "2026-11-11T14:38:21+01:00"
         }
       ]
     },
@@ -13360,8 +13352,8 @@
       "ownerId": 10705898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.0"
+        "url": "https://github.com/maxfedorov/youtrack-for-orca.git",
+        "ref": "v0.1.1"
       },
       "description": "Browse YouTrack issues in the right sidebar and start coding agents on them.",
       "categories": [
@@ -13370,6 +13362,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "09dafd897e4d1cea3a8edfd359829fd9ea9c5e36",
+          "contentHash": "5bcb0ff8caebe99d8052b48d95ff11477303276914e9256ea98a7605e83795e9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "YouTrack for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "YouTrack"
+            },
+            {
+              "kind": "commands",
+              "name": "YouTrack: Open panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "YT"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/maxfedorov.youtrack-for-orca/f1457fb17a823935.png",
+              "alt": "YouTrack for Orca: the plugin's issue list and its Start view for an issue, next to the plugin name and a list of its features",
+              "sha256": "f1457fb17a8239355b41739a961a7641c234f6306129b5f3594a7b59e961cd35",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/maxfedorov.youtrack-for-orca/cd56641f29737a6b.png",
+              "alt": "YouTrack for Orca icon",
+              "sha256": "cd56641f29737a6b862efb223950b4410040b08aa7ea92652e1e7ebbc60f23a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/bbf3268142d7fc9a.png",
+                "alt": "The issue list for a YouTrack query, with saved searches, sortable columns and the actions of the selected issue",
+                "sha256": "bbf3268142d7fc9a3f136ee84f3d7ab1e544181df620a92989516ee1331bb65f",
+                "width": 2000,
+                "height": 1630
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/c9f6a642e3e655e3.png",
+                "alt": "The detail of an issue: creator, tags, Apply command, fields, description, linked issues and comments",
+                "sha256": "c9f6a642e3e655e35e3311cb234553eb220a04314b73596150fa3a4a80cde786",
+                "width": 2000,
+                "height": 1331
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/a460616e168114c0.png",
+                "alt": "The Start view: Run in New worktree, project, name, Create from, workspace, agent, the prompt switches, template and the editable prompt",
+                "sha256": "a460616e168114c02bf10632d0a900e016faf20f2e8c31b6c97ea554d8e07eb3",
+                "width": 2000,
+                "height": 1630
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maxfedorov/youtrack-for-orca",
+          "updatedAt": "2026-11-11T14:53:16+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "052ad9a3900fe666a7fed86b313fbd383194fe4e",
@@ -13878,8 +13951,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.23",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/business-model-canvas-modeler/0.1.0",
         "path": "plugins/business-model-canvas-modeler"
       },
       "description": "Open .bmc files as a Business Model Canvas: fill the nine blocks, colour stickies by what matters to your team, write notes on what to test, and keep an agent's changes to the file merged with yours.",
@@ -13967,8 +14040,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.23",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/context-maps-modeler/0.4.1",
         "path": "plugins/context-maps-modeler"
       },
       "description": "Open .cm and .cm.json files as context maps: model bounded contexts and their relationships, and keep an agent's changes to the file merged with yours.",
@@ -14290,8 +14363,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.23",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/event-storming-modeler/0.4.1",
         "path": "plugins/event-storming-modeler"
       },
       "description": "Open .storm files as Event Storming boards: model with stickies, notes and arrows, and keep an agent's changes to the file merged with yours.",
@@ -14613,8 +14686,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.23",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/team-topologies-modeler/0.21.1",
         "path": "plugins/team-topologies-modeler"
       },
       "description": "Open .tt and .ttm.json files as Team Topologies diagrams: model teams, their interactions and the flow of change, and keep an agent's changes to the file merged with yours.",
@@ -14936,8 +15009,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.23",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/value-chain-modeler/0.4.1",
         "path": "plugins/value-chain-modeler"
       },
       "description": "Open .vc and .vc.json files as value chain diagrams: model process steps, org units and their connections, and keep an agent's changes to the file merged with yours.",
@@ -15259,8 +15332,8 @@
       "ownerId": 58698887,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miragon/orca-modelers.git",
-        "ref": "v0.1.23",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miragon/orca-modelers/wardley-maps-modeler/0.4.1",
         "path": "plugins/wardley-maps-modeler"
       },
       "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and keep an agent's changes to the file merged with yours.",
@@ -21234,14 +21307,91 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/superfly/orca-sprites/0.5.0"
+        "url": "https://github.com/superfly/orca-sprites.git",
+        "ref": "v0.5.1"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [
         "vm-recipes"
       ],
       "releases": [
+        {
+          "version": "0.5.1",
+          "commit": "cdc0267a1c7f85da70c07dbcda556041e8df1e60",
+          "contentHash": "fe7d346723d2586d193392afc056e865590adf3935ecef28b8e8757c6327886e",
+          "execution": "declarative",
+          "minimumOrca": "1.4.246",
+          "name": "Fly.io Sprites",
+          "contributes": [
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/sprites.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/superfly.sprites/24f59d9cd2f2a0fc.jpg",
+              "alt": "Sprites for Orca, with the Fly.io logo, beside an illustration of the Fly.io balloon in swim goggles swimming underwater with fish",
+              "sha256": "24f59d9cd2f2a0fc57b2f5d5ed12b469cc470c3fec8325ab75f77685e6abba7a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/superfly.sprites/25ad4c598d6e567e.png",
+              "alt": "Fly.io Sprites icon",
+              "sha256": "25ad4c598d6e567ed13445b5d1fe2cd58842c73a71ced06fb8fb5469eaa3b04a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/superfly.sprites/8fae1be508e81d55.jpg",
+                "alt": "Orca with four workspaces in the sidebar, each running on its own Sprite with its own VM tag and agent status: working, needs you, done",
+                "sha256": "8fae1be508e81d55dc167bc1bc5731dd3147069a8db94814e650461795dedb6f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/401f69f78ac772b8.jpg",
+                "alt": "Orca plugin directory filtered to Remote/VMs, with the Fly.io Sprites plugin card and its Install & enable button highlighted",
+                "sha256": "401f69f78ac772b8307b57ad541636086d65731b1eec46953201d57d3800cfa0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/3725161445bde22b.jpg",
+                "alt": "Orca new workspace dialog: Run on is set to Sprites, picked from the Per-Workspace Environment menu, with Claude Code as the agent",
+                "sha256": "3725161445bde22b716b23bfdb4c71bc35c1835609be1025e63540a9bdce9329",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/3c1fd9645f16861c.jpg",
+                "alt": "Provisioning steps for a Sprites workspace: create Sprite, install Orca, clone repo, start Orca, then ready in under two minutes",
+                "sha256": "3c1fd9645f16861c06db2841d12dbf6bfed6cc3b6f3c1dd4126b7be429b76bfa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/1475ee33467e6bb8.jpg",
+                "alt": "Orca Settings with the Host menu set to the workspace VM, the Claude accounts section and Add Account highlighted, and the new account active on that VM",
+                "sha256": "1475ee33467e6bb8217897e99b8d5f2608a632ea1749f7abd92b563ad2ad00ee",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/superfly.sprites/fb6c393b9ee2a1ce.jpg",
+                "alt": "Claude Code session in a workspace tagged with its Sprite VM, finishing with 87 tests passed",
+                "sha256": "fb6c393b9ee2a1ce45d40fed21557bbea01eb3b59cf54cd0332f9926ab34d450",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/superfly/orca-sprites",
+          "updatedAt": "2026-11-11T13:56:53Z"
+        },
         {
           "version": "0.5.0",
           "commit": "6740030a02d43108f87f3294611d5b93046aecbd",
@@ -21549,62 +21699,6 @@
           "license": "MIT",
           "repository": "https://github.com/superfly/orca-sprites",
           "updatedAt": "2026-11-07T22:37:24Z"
-        },
-        {
-          "version": "0.1.5",
-          "commit": "0d32e67655880d9c9d3e5ca66c1f6ef48640c144",
-          "contentHash": "03fa9dc3db9f323bf3b86c053c79f2171f940d63c6b6f40e62d79c3f127eb5e2",
-          "execution": "declarative",
-          "minimumOrca": "1.4.246",
-          "name": "Fly.io Sprites",
-          "contributes": [
-            {
-              "kind": "vmRecipes",
-              "name": "recipes/sprites.json"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/superfly.sprites/24f59d9cd2f2a0fc.jpg",
-              "alt": "Sprites for Orca, with the Fly.io logo, beside an illustration of the Fly.io balloon in swim goggles swimming underwater with fish",
-              "sha256": "24f59d9cd2f2a0fc57b2f5d5ed12b469cc470c3fec8325ab75f77685e6abba7a",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/superfly.sprites/25ad4c598d6e567e.png",
-              "alt": "Fly.io Sprites icon",
-              "sha256": "25ad4c598d6e567ed13445b5d1fe2cd58842c73a71ced06fb8fb5469eaa3b04a",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/superfly.sprites/413b366bdaa73495.png",
-                "alt": "Orca's Create worktree dialog with Run on open at Per-Workspace Environment, showing Sprites as the recipe",
-                "sha256": "413b366bdaa73495383b6291c47b5f22d30efbb1c94d85a7f2b332d294f27a93",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/superfly.sprites/7e40855bcc2c9634.jpg",
-                "alt": "Provisioning VM: the recipe log shows a new Sprite being created, Orca being installed and the repository being cloned",
-                "sha256": "7e40855bcc2c9634d91539fddf11b79d427eedb95f0c2e94ee3531e94c9c0d4f",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/superfly.sprites/06b6b79c1994cf93.jpg",
-                "alt": "Claude Code in the workspace writes GREETING.md, which reads Hello from orca-demo-sprites-1f3f5676adb1 (Linux 6.1.182-s2)",
-                "sha256": "06b6b79c1994cf939ab7a88853ecf2d233a195901075af07173e469a807482e7",
-                "width": 2560,
-                "height": 1600
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/superfly/orca-sprites",
-          "updatedAt": "2026-11-07T12:31:45Z"
         }
       ]
     },
