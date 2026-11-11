@@ -12,13 +12,10 @@
       ]
     },
     "2589195970/jumplens": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "2589195970.jumplens"
       ]
     },
     "2589195970/orca-shiftlens": {
@@ -1400,19 +1397,10 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.1.4",
+      "ref": "v1.2.0",
       "plugins": [
         "schowave.asciidoc-diagrams"
-      ],
-      "update": {
-        "ref": "v1.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, size"
-          }
-        ]
-      }
+      ]
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
@@ -1825,6 +1813,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "xclas721/xclas721-theme": {
+      "state": "listed",
+      "ref": "v0.3.1",
+      "plugins": [
+        "xclas721.xclas721-theme"
       ]
     }
   }

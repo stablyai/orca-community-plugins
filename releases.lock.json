@@ -11,6 +11,12 @@
     "repoId": 1449267228,
     "firstSeen": "2026-11-11T06:23:28.570Z"
   },
+  "2589195970.jumplens@0.3.2": {
+    "commit": "4a04bb97038f9a2c433b4a2ca32fcc7950ee7782",
+    "contentHash": "11fdf28da7d379b9bc32b5ba8935ca1430cebefe631c30165ec45d74549e4041",
+    "repoId": 1452384566,
+    "firstSeen": "2026-11-11T10:02:52.458Z"
+  },
   "2589195970.shiftlens@0.1.0": {
     "commit": "c4cfa5dc94d3d692e36a2fc580b013b95980ec12",
     "contentHash": "33b502345956da5f8c350a436d1b9ab01edfb85a05a1ea09c19e8af23e54eeda",
@@ -1997,6 +2003,12 @@
     "repoId": 1441331902,
     "firstSeen": "2026-11-09T19:39:56.779Z"
   },
+  "schowave.asciidoc-diagrams@1.2.0": {
+    "commit": "2bf19740cd72ec2067ed3245727b8b50d55ee1a3",
+    "contentHash": "31fd581352bdb4a28b3f4ac813494d1a6a5cf93208c41de1fa87ac17963a8538",
+    "repoId": 1441331902,
+    "firstSeen": "2026-11-11T10:02:52.458Z"
+  },
   "senadaruc.grazr@0.6.1": {
     "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
     "contentHash": "0ca274d8edb533a497a3f1ed36cdfa59acefb0bae8b7e2234ae000af96bbe062",
@@ -2416,5 +2428,11 @@
     "contentHash": "47e8f6040ccfe479e8e913a20c9c3034a7605b826e25adf536db44176b2ed7bc",
     "repoId": 1443828386,
     "firstSeen": "2026-11-06T03:39:42.123Z"
+  },
+  "xclas721.xclas721-theme@0.3.1": {
+    "commit": "ccacf6176840f7204ec3a25af54ab4906ff216d6",
+    "contentHash": "15207468dad5d39c50bd1c61e2e9f4cca7ddc4e165d3d3db2b41c193842246ee",
+    "repoId": 1453629377,
+    "firstSeen": "2026-11-11T10:02:52.458Z"
   }
 }

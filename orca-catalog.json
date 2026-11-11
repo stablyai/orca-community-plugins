@@ -155,6 +155,66 @@
       ]
     },
     {
+      "id": "2589195970.jumplens",
+      "ownerId": 25520960,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/2589195970/JumpLens.git",
+        "ref": "v0.3.2"
+      },
+      "description": "Java、Vue 与 JS/TS 的语法高亮和语义跳转，支持候选选择、源码预览与导航历史，配色跟随 Orca 明暗主题。",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "4a04bb97038f9a2c433b4a2ca32fcc7950ee7782",
+          "contentHash": "11fdf28da7d379b9bc32b5ba8935ca1430cebefe631c30165ec45d74549e4041",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "JumpLens · 代码导航",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "JumpLens",
+              "detail": ".java, .vue, .ts, .tsx, .mts, .cts, .js, .jsx, .mjs, .cjs"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "java",
+            "vue",
+            "ts",
+            "tsx",
+            "mts",
+            "cts",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs"
+          ],
+          "editorFileTypes": [
+            "java",
+            "vue",
+            "ts",
+            "tsx",
+            "mts",
+            "cts",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs"
+          ],
+          "updatedAt": "2026-11-10T16:38:34+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/2589195970/JumpLens"
+        }
+      ]
+    },
+    {
       "id": "2589195970.shiftlens",
       "ownerId": 25520960,
       "source": {
@@ -18937,12 +18997,72 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.1.4"
+        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
+        "ref": "v1.2.0"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "2bf19740cd72ec2067ed3245727b8b50d55ee1a3",
+          "contentHash": "31fd581352bdb4a28b3f4ac813494d1a6a5cf93208c41de1fa87ac17963a8538",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".adoc, .asciidoc, .asc"
+            }
+          ],
+          "fileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "editorFileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/schowave.asciidoc-diagrams/9a828b4b65631452.png",
+              "alt": "AsciiDoc document with a C4 context diagram rendered next to its table of contents",
+              "sha256": "9a828b4b65631452db1d42d5c6f6b463e12a4e001c826158884e30319706ca6b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/schowave.asciidoc-diagrams/a7250fb91f413a05.png",
+              "alt": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz icon",
+              "sha256": "a7250fb91f413a05516471026ad9bf40192d19bef32d0fd51331bb1860e7ce11",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/schowave.asciidoc-diagrams/4c22cf2df2326632.png",
+                "alt": "Architecture document with PlantUML C4, sequence and Mermaid diagrams in a light theme",
+                "sha256": "4c22cf2df232663299aaa722368112d37de2b2192716bc55c88ce559f8e8f8be",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/schowave.asciidoc-diagrams/0753e500d72b7ebd.png",
+                "alt": "Dark theme: a Graphviz event diagram, highlighted TypeScript and a KaTeX formula",
+                "sha256": "0753e500d72b7ebddcada6f214a9dd66ddf9a1972cea98994058e9c5fa2e9dc6",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "updatedAt": "2026-11-10T08:26:53Z",
+          "license": "MIT",
+          "repository": "https://github.com/schowave/orca-asciidoc-diagrams"
+        },
         {
           "version": "1.1.4",
           "commit": "37abd610919e63457a9a1c117063abbe5364138c",
@@ -23020,6 +23140,43 @@
           "license": "MIT",
           "repository": "https://github.com/wurenrumian/canvas-view",
           "updatedAt": "2026-11-03T13:13:41+08:00"
+        }
+      ]
+    },
+    {
+      "id": "xclas721.xclas721-theme",
+      "ownerId": 190682545,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/xclas721/xclas721-theme.git",
+        "ref": "v0.3.1"
+      },
+      "description": "A dark teal app theme with matching code and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "ccacf6176840f7204ec3a25af54ab4906ff216d6",
+          "contentHash": "15207468dad5d39c50bd1c61e2e9f4cca7ddc4e165d3d3db2b41c193842246ee",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "xclas721-theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "xclas721-theme"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "xclas721-theme"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/xclas721/xclas721-theme",
+          "updatedAt": "2026-11-11T15:27:18+08:00"
         }
       ]
     }
