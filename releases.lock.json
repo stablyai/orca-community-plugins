@@ -509,11 +509,23 @@
     "repoId": 1445009325,
     "firstSeen": "2026-11-10T14:15:17.841Z"
   },
+  "dohaidang.living-ascii-themes@1.6.4": {
+    "commit": "32098a46e604bfc5c0c8f81afc57506dda2d74b4",
+    "contentHash": "b05e98ebbda8ecd6344a143fb732d6230ed7c60a11edcd67d6a292dc28fdb9d4",
+    "repoId": 1445009325,
+    "firstSeen": "2026-11-11T02:17:53.939Z"
+  },
   "dohaidang.vietnamese@1.1.0": {
     "commit": "a919eed2d3efdbf8f295bb567a298eab65af8b4d",
     "contentHash": "445f783b1d77bbf7d222296f69fe194708bbec2826c8a18bd9fc21d67612b0af",
     "repoId": 1444105283,
     "firstSeen": "2026-11-03T10:39:03.733Z"
+  },
+  "dohaidang.vietnamese@1.2.0": {
+    "commit": "32fef0bcae8d40d17e0d554cdec7c3ef10784982",
+    "contentHash": "f77720dca0512b7be04ebddc51924388928794032cf2b9a0b455782e64a8b366",
+    "repoId": 1444105283,
+    "firstSeen": "2026-11-11T02:17:53.939Z"
   },
   "ebbop.italiano@1.4.255": {
     "commit": "76e40ef5b8749ac982fab4b74bb2f65e5f104ecf",
@@ -1198,6 +1210,12 @@
     "contentHash": "5660f2431e97ff14d791e955328abc7bfc7ff1ef0b7515e1ef29e985f459cc1f",
     "repoId": 1450910676,
     "firstSeen": "2026-11-09T16:41:09.787Z"
+  },
+  "lilykos.openrouter-usage@0.1.0": {
+    "commit": "7a3d8bb0f987227fc0bd8b645ae2ef82cc45bd4f",
+    "contentHash": "ce532635568f36b33770e2dacdc688c6331cc4a725eaaf802ffed2995ae96d46",
+    "repoId": 1453417604,
+    "firstSeen": "2026-11-11T02:17:53.939Z"
   },
   "lindoo67.drawio@0.1.5": {
     "commit": "4ca1f4e301b149f06d0252111406611c74947116",

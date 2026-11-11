@@ -2804,8 +2804,8 @@
       "ownerId": 128306749,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.6.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.3"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -4752,8 +4752,8 @@
       "ownerId": 41058561,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.3"
+        "url": "https://github.com/dohaidang/orca-theme-plugin.git",
+        "ref": "v1.6.4"
       },
       "description": "Fifteen pixel-art wallpaper themes drawn in text characters, each a seamless 30-second loop (video on Orca 1.4.254+), with dark or light sidebar variants, terminal palettes and file icons.",
       "categories": [
@@ -4762,6 +4762,279 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.6.4",
+          "commit": "32098a46e604bfc5c0c8f81afc57506dda2d74b4",
+          "contentHash": "b05e98ebbda8ecd6344a143fb732d6230ed7c60a11edcd67d6a292dc28fdb9d4",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "ASCII Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam (light sidebar)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Fireflies"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Honu Lagoon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Jellyfish"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Koi Pond"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Moonlit"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Aurora"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Neon City"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Rainy Window"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Coral Reef"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Snowfall Cabin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Cherry Blossom"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Việt Nam"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "ASCII · Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dohaidang.living-ascii-themes/136acee830f7195c.png",
+              "alt": "ASCII Themes: an Orca window with a turtle wallpaper beside the title, above a row of the fifteen pixel-art designs",
+              "sha256": "136acee830f7195cb910780dd5f6213e45831664c359c36e3b7c31c1d946d596",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dohaidang.living-ascii-themes/313c355026e28f47.png",
+              "alt": "ASCII Themes icon",
+              "sha256": "313c355026e28f4775d0f6755dab89a30176c3f321596e8d2f826622273887a8",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dohaidang/orca-theme-plugin",
+          "updatedAt": "2026-11-11T08:55:07+07:00"
+        },
         {
           "version": "1.6.3",
           "commit": "d50ea2c2954b45f14b6bb624f87b74c69dc99701",
@@ -5315,14 +5588,31 @@
       "ownerId": 41058561,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dohaidang/orca-vietnamese-plugin/1.1.0"
+        "url": "https://github.com/dohaidang/orca-vietnamese-plugin.git",
+        "ref": "v1.2.0"
       },
-      "description": "Bản dịch tiếng Việt cho giao diện Orca 1.4.246.",
+      "description": "Bản dịch tiếng Việt cho giao diện Orca 1.4.255.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "32fef0bcae8d40d17e0d554cdec7c3ef10784982",
+          "contentHash": "f77720dca0512b7be04ebddc51924388928794032cf2b9a0b455782e64a8b366",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Tiếng Việt cho Orca",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "vi-VN"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/dohaidang/orca-vietnamese-plugin",
+          "updatedAt": "2026-11-11T09:04:44+07:00"
+        },
         {
           "version": "1.1.0",
           "commit": "a919eed2d3efdbf8f295bb567a298eab65af8b4d",
@@ -11949,6 +12239,101 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/lazyjerry/todo-for-orca",
           "updatedAt": "2026-11-09T12:08:06+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lilykos.openrouter-usage",
+      "ownerId": 2445433,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Lilykos/orca-openrouter-usage.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Keep an eye on your OpenRouter account from the sidebar: credits left and days of runway, spend and tokens by model and key, a daily ledger, low-balance alerts and a status bar item. Read-only, and your management key stays in the OS keyring.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7a3d8bb0f987227fc0bd8b645ae2ef82cc45bd4f",
+          "contentHash": "ce532635568f36b33770e2dacdc688c6331cc4a725eaaf802ffed2995ae96d46",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenRouter Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenRouter Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenRouter"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lilykos.openrouter-usage/6e8280a1ad04b44f.png",
+              "alt": "OpenRouter Usage: one input fanning out to several models, with the title and the features Credits and burn rate, Models, API keys and Daily ledger",
+              "sha256": "6e8280a1ad04b44f22d1aa747120ae4e3d3e65636dffcfc582659263b9772277",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lilykos.openrouter-usage/8afcf4398a709ea2.png",
+              "alt": "OpenRouter Usage icon",
+              "sha256": "8afcf4398a709ea2e948ed759cae8a41e035581356b4717103f4fa36c7143acb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lilykos.openrouter-usage/746e889771bc0a07.png",
+                "alt": "The Overview tab: a banner with credits left, days left and today's spend, stat tiles and a stacked daily spend chart by model",
+                "sha256": "746e889771bc0a07f29be4066b933e4135547ef7b81d0cc27fa699d1971ba781",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/3c307d505e522ef3.png",
+                "alt": "A model details drawer showing total, share, requests, token breakdown, cache hit rate and a daily sparkline",
+                "sha256": "3c307d505e522ef3f4c0ea2368253bd78065dac10a2c9e5150fd703111b69da4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/9b4133192a890806.png",
+                "alt": "The Keys tab with a 7d, 30d and All range switch and one compact card per API key with spend, limit meter and last use",
+                "sha256": "9b4133192a890806e124fd66111b3ad0d946b63e64dc7c9f2bb613a69f101d34",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/e5ad0a45954e16c6.png",
+                "alt": "The Ledger tab: a newest-first list of days with a bar and amount, and an activity calendar",
+                "sha256": "e5ad0a45954e16c6a3ab91fc4610bfbcf7d1b33c3e7fd1a9a1e593306a76f7b5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/18eb268ecc3e7265.png",
+                "alt": "The Settings tab with connection test, key replacement, refresh interval, alert thresholds and toggles",
+                "sha256": "18eb268ecc3e726530392124b955bf7d15ef4e4562b4963f314512f7386a0489",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-openrouter-usage",
+          "updatedAt": "2026-11-11T03:10:18+01:00"
         }
       ]
     },

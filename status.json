@@ -236,7 +236,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.6.3",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.3",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -358,20 +358,16 @@
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
-      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.3",
+      "ref": "v1.6.4",
       "plugins": [
         "dohaidang.living-ascii-themes"
       ]
     },
     "dohaidang/orca-vietnamese-plugin": {
       "state": "listed",
-      "ref": "refs/tags/dohaidang/orca-vietnamese-plugin/1.1.0",
+      "ref": "v1.2.0",
       "plugins": [
         "dohaidang.vietnamese"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 11 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebbop/orca-italiano": {
@@ -889,6 +885,13 @@
       "ref": "refs/tags/lazyjerry/todo-for-orca/0.3.0",
       "plugins": [
         "lazyjerry.todo-list"
+      ]
+    },
+    "lilykos/orca-openrouter-usage": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "lilykos.openrouter-usage"
       ]
     },
     "lindoo67/drawio-plugin": {
