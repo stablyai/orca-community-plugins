@@ -2872,7 +2872,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/cattfan/orca-enhance-prompt.git",
-        "ref": "v2.6.7"
+        "ref": "v2.6.8"
       },
       "description": "Turn rough ideas into project-aware prompts for your coding agents: 5 context levels (rules, stack, git, relevant code), multiple models with fallback, history, and send straight to an agent terminal.",
       "categories": [
@@ -2881,6 +2881,122 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "2.6.8",
+          "commit": "b2c2e3d61214735d78ffa190a5dd820baa35bb44",
+          "contentHash": "a337bc136a70b32826f7008821ffc764df249c398ae5559664c641bac1eeece1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Enhance Prompt",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Enhance Prompt"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance off"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with rules"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Auto-enhance with AI"
+            },
+            {
+              "kind": "commands",
+              "name": "Enhance Prompt: Show / hide status bar item"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Enhance: off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "terminal:read",
+            "agent:launch",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cattfan.enhance-prompt/c8dd7397cac13ca1.jpg",
+              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
+              "sha256": "c8dd7397cac13ca1d819183e1f85a1e66e3bc434c8a110ccbfecd7effb41bd10",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cattfan.enhance-prompt/dcba28ba6663e1ed.png",
+              "alt": "Enhance Prompt icon",
+              "sha256": "dcba28ba6663e1ed273076c28cef0e522a5d040393dfbbe35cfe56c314735b98",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cattfan.enhance-prompt/e9fc38fd83929a29.jpg",
+                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
+                "sha256": "e9fc38fd83929a29289d453c603d8585e4ae0d951bf32414d59cdc2cd23db534",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/bfb5ff8542c1c926.jpg",
+                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
+                "sha256": "bfb5ff8542c1c926edb13ca7974f9ff52a311b224c8daf70be675177f323984b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cattfan.enhance-prompt/861f649d7d8470f3.jpg",
+                "alt": "The panel in Vietnamese and the history tab in Chinese",
+                "sha256": "861f649d7d8470f3ab85635fd9cb15bc4e23f82cae5ef1800f4059b0cd57ac53",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-11T16:04:16+07:00"
+        },
         {
           "version": "2.6.7",
           "commit": "d9ebd0d8189a05cc785cc37cdd81e65e04a9cba7",
@@ -3344,122 +3460,6 @@
           "license": "MIT",
           "repository": "https://github.com/cattfan/orca-enhance-prompt",
           "updatedAt": "2026-11-11T09:30:36+07:00"
-        },
-        {
-          "version": "2.6.3",
-          "commit": "cc621b5c33a27f8b007f583bdafc89b0e1ede9d1",
-          "contentHash": "5fb966f691c3ce659056fda498867ddcf775ef7dfd6bf86f229378075d953652",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Enhance Prompt",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Enhance Prompt"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Show / hide the right sidebar (panel lives there)"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Cycle auto-enhance (off / rules / AI)"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance off"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance with rules"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Auto-enhance with AI"
-            },
-            {
-              "kind": "commands",
-              "name": "Enhance Prompt: Show / hide status bar item"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.prompt.before"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.tool.after"
-            },
-            {
-              "kind": "hooks",
-              "name": "editor.save.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Enhance: off"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "terminal:read",
-            "agent:launch",
-            "workspace:write",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/cattfan.enhance-prompt/c8dd7397cac13ca1.jpg",
-              "alt": "Enhance Prompt panel turning \"login page is broken on mobile\" into a structured, project-aware bug-fix prompt",
-              "sha256": "c8dd7397cac13ca1d819183e1f85a1e66e3bc434c8a110ccbfecd7effb41bd10",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/cattfan.enhance-prompt/dcba28ba6663e1ed.png",
-              "alt": "Enhance Prompt icon",
-              "sha256": "dcba28ba6663e1ed273076c28cef0e522a5d040393dfbbe35cfe56c314735b98",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/cattfan.enhance-prompt/e9fc38fd83929a29.jpg",
-                "alt": "The Enhance tab with the list of project context sent to the model: rules, stack, relevant files, git status and repo tree",
-                "sha256": "e9fc38fd83929a29289d453c603d8585e4ae0d951bf32414d59cdc2cd23db534",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/cattfan.enhance-prompt/bfb5ff8542c1c926.jpg",
-                "alt": "The Models tab with Claude Code subscription, OpenAI, Groq and Ollama models, fallback switch and one-click subscription CLI",
-                "sha256": "bfb5ff8542c1c926edb13ca7974f9ff52a311b224c8daf70be675177f323984b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/cattfan.enhance-prompt/861f649d7d8470f3.jpg",
-                "alt": "The panel in Vietnamese and the history tab in Chinese",
-                "sha256": "861f649d7d8470f3ab85635fd9cb15bc4e23f82cae5ef1800f4059b0cd57ac53",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/cattfan/orca-enhance-prompt",
-          "updatedAt": "2026-11-11T08:25:14+07:00"
         }
       ]
     },

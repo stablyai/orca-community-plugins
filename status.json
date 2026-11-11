@@ -216,7 +216,7 @@
     },
     "brezzashen/orca-toolkit": {
       "state": "rejected",
-      "ref": "v0.2.1",
+      "ref": "v0.2.2",
       "reasons": [
         {
           "category": "under-review",
@@ -240,7 +240,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.6.7",
+      "ref": "v2.6.8",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
