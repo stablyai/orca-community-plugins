@@ -4654,14 +4654,35 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/coffeepy/swampling/0.4.0"
+        "url": "https://github.com/coffeepy/swampling.git",
+        "ref": "v0.5.0"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "5fb46ca3b172a743be8fae7cc6f3a1ef6d49a28f",
+          "contentHash": "48eeb4480d407abc2abafa929e3da9e80cd00f6304bd7026b18d4983e585af8e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Swampling",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Swampling"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/coffeepy/swampling",
+          "updatedAt": "2026-11-11T16:27:07-06:00"
+        },
         {
           "version": "0.4.0",
           "commit": "9f2859b695ad6e384ee075adb5dc34f72da75df4",
@@ -9924,8 +9945,8 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ias0nas/SeaQull.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ias0nas/seaqull/0.1.3"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
