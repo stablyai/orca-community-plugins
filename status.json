@@ -730,7 +730,7 @@
     },
     "ias0nas/seaqull": {
       "state": "listed",
-      "ref": "refs/tags/ias0nas/seaqull/0.1.3",
+      "ref": "v0.1.4",
       "plugins": [
         "ias0nas.seaqull"
       ]
@@ -1921,6 +1921,13 @@
       "ref": "refs/tags/xclas721/xclas721-theme/0.3.1",
       "plugins": [
         "xclas721.xclas721-theme"
+      ]
+    },
+    "yuribodo/neon-horizon": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "yuribodo.neon-horizon"
       ]
     }
   }

@@ -1097,6 +1097,12 @@
     "repoId": 1450463636,
     "firstSeen": "2026-11-11T22:16:21.211Z"
   },
+  "ias0nas.seaqull@0.1.4": {
+    "commit": "dbbb61fa7e3e0b603f7bafd789ce393500d38348",
+    "contentHash": "f24dbee4f98b174dacd7dcb656b51350a9170d0db4abf9ef55f44770c3b58a53",
+    "repoId": 1450463636,
+    "firstSeen": "2026-11-11T23:39:41.127Z"
+  },
   "ibazylchuk.openspec-board@0.3.3": {
     "commit": "e1177c6346fee6ac9d4620bf76b6830400db7b40",
     "contentHash": "9ed0b715dcf1747ef396e554d93f42d5f8eb2b3a478a77533c0bc44cd4f65030",
@@ -2638,5 +2644,11 @@
     "contentHash": "15207468dad5d39c50bd1c61e2e9f4cca7ddc4e165d3d3db2b41c193842246ee",
     "repoId": 1453629377,
     "firstSeen": "2026-11-11T10:02:52.458Z"
+  },
+  "yuribodo.neon-horizon@0.1.1": {
+    "commit": "0d9d4af1650acd220cf11ea43bc4319002ce2392",
+    "contentHash": "7e0daad4065ae4c589492b69d6db6d21704b39cfa5253494c23086ae864d6a85",
+    "repoId": 1454613664,
+    "firstSeen": "2026-11-11T23:39:41.127Z"
   }
 }

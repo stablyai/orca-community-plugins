@@ -9945,12 +9945,89 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ias0nas/seaqull/0.1.3"
+        "url": "https://github.com/ias0nas/SeaQull.git",
+        "ref": "v0.1.4"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "dbbb61fa7e3e0b603f7bafd789ce393500d38348",
+          "contentHash": "f24dbee4f98b174dacd7dcb656b51350a9170d0db4abf9ef55f44770c3b58a53",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SeaQull",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "SeaQull",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SeaQull console",
+              "detail": ".sql"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New SeaQull workbook",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "activity"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "editorFileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ias0nas.seaqull/935292a1cd8010ec.png",
+              "alt": "The SeaQull logo and name beside a query window showing completion of a foreign-key join and a result grid",
+              "sha256": "935292a1cd8010ec2d1716ac7db1256fef39346b252053454cd2b3e3ae216a63",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ias0nas.seaqull/e010ca3342e8fe5c.png",
+              "alt": "SeaQull icon",
+              "sha256": "e010ca3342e8fe5c702dfa932bc3d24b54883041929c9e86b1f90698e8607a9a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ias0nas.seaqull/099a04598635756a.png",
+                "alt": "Completion offering a foreign-key join condition after ON, with a result grid below and the object explorer on the right",
+                "sha256": "099a04598635756ad120b5e235e4058a19a236ed65c7de5a39bc21e04d13a8d2",
+                "width": 2460,
+                "height": 1600
+              },
+              {
+                "path": "assets/ias0nas.seaqull/4785cc3ea9e1d397.png",
+                "alt": "The New connection dialog: name, colour, server and port, database, authentication, user and password, and encryption options",
+                "sha256": "4785cc3ea9e1d39780d73a78cff28fbccf4cc291e167250e939a192ca294bf46",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ias0nas/SeaQull",
+          "updatedAt": "2026-11-11T23:37:55Z"
+        },
         {
           "version": "0.1.3",
           "commit": "48b62ca7be5f535fc35ce683375c906e225e80a4",
@@ -24896,6 +24973,59 @@
           "license": "MIT",
           "repository": "https://github.com/xclas721/xclas721-theme",
           "updatedAt": "2026-11-11T15:27:18+08:00"
+        }
+      ]
+    },
+    {
+      "id": "yuribodo.neon-horizon",
+      "ownerId": 83407152,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yuribodo/neon-horizon.git",
+        "ref": "v0.1.1"
+      },
+      "description": "A retro '80s neon dark theme for the app and terminal.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "0d9d4af1650acd220cf11ea43bc4319002ce2392",
+          "contentHash": "7e0daad4065ae4c589492b69d6db6d21704b39cfa5253494c23086ae864d6a85",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Neon Horizon",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Neon Horizon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Neon Horizon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yuribodo.neon-horizon/14b85c4d4113d582.webp",
+              "alt": "Neon Horizon: a neon striped sun setting over a pink grid, with a code editor and terminal in the theme colors.",
+              "sha256": "14b85c4d4113d582f806228f87812c3b34e86b5c5747eaf052248431d2bfe8e5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/yuribodo.neon-horizon/dac3f6b339b656bb.png",
+              "alt": "Neon Horizon icon",
+              "sha256": "dac3f6b339b656bb379c0fa9b5ea544448e2c06e1d393aa30b8189a2369213e1",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yuribodo/neon-horizon",
+          "updatedAt": "2026-11-11T20:39:45-03:00"
         }
       ]
     }
