@@ -285,6 +285,13 @@
         "choihjin.agent-haptics"
       ]
     },
+    "chrisluo5311/orca-claude-trajectory": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "chrisluo5311.claude-trajectory"
+      ]
+    },
     "chrisluo5311/orca-snippet": {
       "state": "listed",
       "ref": "refs/tags/chrisluo5311/orca-snippet/0.1.2",
@@ -781,6 +788,16 @@
         "jecyxyf.tps-stats"
       ]
     },
+    "jeong-jae-hun/orca-ping-public": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "jerrazuw/orca-gallery-panel": {
       "state": "listed",
       "ref": "refs/tags/jerrazuw/orca-gallery-panel/gallery-panel-demo/1.5.1",
@@ -1184,19 +1201,10 @@
     },
     "oscarbotteri/orca-db-studio": {
       "state": "listed",
-      "ref": "refs/tags/oscarbotteri/orca-db-studio/0.2.0",
+      "ref": "v0.3.1",
       "plugins": [
         "oscarbotteri.db-studio"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "palulabs/orca-tycoon": {
       "state": "listed",

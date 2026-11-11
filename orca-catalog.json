@@ -3889,6 +3889,51 @@
       ]
     },
     {
+      "id": "chrisluo5311.claude-trajectory",
+      "ownerId": 77089596,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chrisluo5311/orca-claude-trajectory.git",
+        "ref": "v1.0.0"
+      },
+      "description": "What a Claude Code session did, request by request: prompts, model requests, tool calls and subagents, with tokens and timing. Reads transcripts locally, read-only.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "c59eb0b69833e07ec0293db81afd5da5019b3507",
+          "contentHash": "28312754897ff673c02b128e7c0a8b86fc5b0fdc6796b31666057850fcd555bb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Trajectory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Trajectory"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/chrisluo5311.claude-trajectory/fe435539b5d3c965.png",
+              "alt": "Claude Trajectory: the panel listing a session's prompts, Claude's requests and tool calls, with lanes for input, model and tools above",
+              "sha256": "fe435539b5d3c965bc4ab535a1336517575dd7b7a527b9048c9e803fdaf9d44c",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/chrisluo5311/orca-claude-trajectory",
+          "updatedAt": "2026-11-11T23:02:34+08:00"
+        }
+      ]
+    },
+    {
       "id": "chrisluo5311.snippets",
       "ownerId": 77089596,
       "source": {
@@ -16447,8 +16492,8 @@
       "ownerId": 68121922,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/oscarbotteri/orca-db-studio/0.2.0"
+        "url": "https://github.com/oscarbotteri/orca-db-studio.git",
+        "ref": "v0.3.1"
       },
       "description": "Browse and query PostgreSQL, MySQL/MariaDB and SQLite from Orca. Reads each worktree's .env to offer its database.",
       "categories": [
@@ -16456,6 +16501,91 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "acbc67bd4174bdc5bd141ddd4d9632db38c9d88f",
+          "contentHash": "6cb614fa309c80d571b17a3ec4d10ac2efb64f8b4e2103e490e572f7ded7e8a1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "DB Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DB Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "DB Studio: Open SQLite File"
+            },
+            {
+              "kind": "customEditors",
+              "name": "DB Studio",
+              "detail": ".sql"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "sql"
+          ],
+          "editorFileTypes": [
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/oscarbotteri.db-studio/1a4534bc2f986b6e.png",
+              "alt": "DB Studio inside Orca: the customers table open in the SQL editor with its result grid, and the connections panel listing the tables on the right",
+              "sha256": "1a4534bc2f986b6e7a48e202bb5c09c155b4a98b0c983ed1e7cb724e33854558",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/oscarbotteri.db-studio/2242857db9008f8c.png",
+              "alt": "DB Studio icon",
+              "sha256": "2242857db9008f8cee85544c2897d06bbff1596cb4a9ea3e93c6a2bde1c4fb6a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/oscarbotteri.db-studio/ecdd5101bf6be4bd.png",
+                "alt": "The DB Studio SQL editor suggesting column names for a query on the events table of a MariaDB connection",
+                "sha256": "ecdd5101bf6be4bd2757df7d25bff75ca306b7d1fd1fcd623b31bad49961eaec",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/0339db47cb8224c0.png",
+                "alt": "The New connection form in the DB Studio panel, with a connection string field and the PostgreSQL, MySQL / MariaDB and SQLite engine choices",
+                "sha256": "0339db47cb8224c063a49345e790a64e5ccc56b969f030466cac07baae7c1b45",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/81574594befc266b.png",
+                "alt": "A SQL query and its result grid in DB Studio, with the connections panel beside it, in Orca's light theme",
+                "sha256": "81574594befc266b37fb2a22603c27e24400f856f9cadb9597c3953c9938ec1d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/19ade454bc63a130.png",
+                "alt": "The order_totals view of a PostgreSQL connection, marked as a view in the connections panel, queried in the DB Studio SQL editor",
+                "sha256": "19ade454bc63a130a88b0bfda4cb25cb02c1152f5d0478ae53320f0105a79689",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oscarbotteri/orca-db-studio",
+          "updatedAt": "2026-11-11T12:04:11-03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "b8c5e5fe8acda2816853d0c46e252892cebf6fea",
