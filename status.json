@@ -178,14 +178,14 @@
     },
     "bautistapessagno/orca-calendar": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/bautistapessagno/orca-calendar/0.2.1",
       "plugins": [
         "bautistapessagno.calendar"
       ]
     },
     "bautistapessagno/orca-linear": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/bautistapessagno/orca-linear/0.1.0",
       "plugins": [
         "bautistapessagno.linear-issues"
       ]

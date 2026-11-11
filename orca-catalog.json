@@ -1861,8 +1861,8 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BautistaPessagno/orca-calendar.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bautistapessagno/orca-calendar/0.2.1"
       },
       "description": "Your Google Calendar in Orca's sidebar: today's agenda and the next days, the next meeting counting down in the status bar, a join button for Meet, Zoom, Teams and Slack huddles, and a reminder before each meeting. Works with your Mac's calendars with no setup. Not affiliated with Google or Apple.",
       "categories": [
@@ -1976,8 +1976,8 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BautistaPessagno/orca-linear.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bautistapessagno/orca-linear/0.1.0"
       },
       "description": "Your Linear issues in Orca's sidebar: everything assigned to you grouped by status, the current cycle, the team's backlog and triage, with issue details, comments and quick changes, plus a status bar count. Works through Orca's own Linear connection, no setup. Not affiliated with Linear.",
       "categories": [
