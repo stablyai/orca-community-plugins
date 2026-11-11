@@ -21034,8 +21034,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tienne/orca-plugins.git",
-        "ref": "v0.2.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tienne/orca-plugins/0.2.3"
       },
       "description": "Explore Git logs in a visual Git tree and commit graph. Compare changes in a read-only side-by-side diff and run confirmed Git actions in Orca.",
       "categories": [

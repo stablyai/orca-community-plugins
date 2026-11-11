@@ -1606,7 +1606,7 @@
     },
     "tienne/orca-plugins": {
       "state": "listed",
-      "ref": "v0.2.3",
+      "ref": "refs/tags/tienne/orca-plugins/0.2.3",
       "plugins": [
         "tienne.git-logs"
       ]
