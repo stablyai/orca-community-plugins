@@ -13,7 +13,7 @@
     },
     "2589195970/jumplens": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/2589195970/jumplens/0.3.2",
       "plugins": [
         "2589195970.jumplens"
       ]
@@ -530,7 +530,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.4",
+      "ref": "v0.2.5",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -1397,7 +1397,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.2.0",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ]
@@ -1817,7 +1817,7 @@
     },
     "xclas721/xclas721-theme": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/xclas721/xclas721-theme/0.3.1",
       "plugins": [
         "xclas721.xclas721-theme"
       ]
