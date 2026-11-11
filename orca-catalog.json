@@ -16809,6 +16809,82 @@
       ]
     },
     {
+      "id": "nithinpaul1360.tmux-peek",
+      "ownerId": 45524206,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/NithinPaul1360/orca-plugins.git",
+        "ref": "v1.0.0",
+        "path": "plugins/tmux-peek"
+      },
+      "description": "Watch, message and drive your Claude Code agent teammates from Orca's sidebar. macOS and Linux; needs tmux and Claude Code's tmux teammate mode.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "8e981ae7bbda95028b2f55d104e55ae18cadecfb",
+          "contentHash": "e118c3b02284c87f72ac40fbbba312634754b8a0643180e884a096896e421bbd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Tmux Peek",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Tmux Peek"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/nithinpaul1360.tmux-peek/faf4b4ec436ce8d1.webp",
+              "alt": "Tmux Peek in Orca's right sidebar: four Claude Code teammates working live in a two-by-two grid, with a message bar below.",
+              "sha256": "faf4b4ec436ce8d17307559b58839dc4b25882bed371309784fd1ab0ceebf710",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/nithinpaul1360.tmux-peek/2d4293ee6cdb916c.png",
+              "alt": "Tmux Peek icon",
+              "sha256": "2d4293ee6cdb916c72a0ca650613d5a15dd3db15797d8efb94c0ea38ea17dc0b",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/nithinpaul1360.tmux-peek/6645dbb9af160724.webp",
+                "alt": "Orca with a Claude lead chat on the left and Tmux Peek on the right: four agent teammates in a grid, one of them working.",
+                "sha256": "6645dbb9af160724a2b3eb58a6ddea977519b4987a713b2514aa77e4ee1ab8b9",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/nithinpaul1360.tmux-peek/3f05225349619516.webp",
+                "alt": "One teammate maximized inside the Tmux Peek panel, outlined in green because keys typed now go straight to it.",
+                "sha256": "3f05225349619516a002de24dc3a4115896c7dcb5d2bf032b32575f9e7d24566",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/nithinpaul1360.tmux-peek/3dd3b8757224b63c.webp",
+                "alt": "A narrower sidebar: the four teammates redraw to fit their smaller panes.",
+                "sha256": "3dd3b8757224b63cbf42d4ae5a70561cc8da5792eb7907a3d69bbe493bd2f396",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/NithinPaul1360/orca-plugins",
+          "updatedAt": "2026-11-11T16:37:46-05:00"
+        }
+      ]
+    },
+    {
       "id": "nknwns.wakatime",
       "ownerId": 75518063,
       "source": {
@@ -24097,8 +24173,8 @@
       "ownerId": 92390114,
       "source": {
         "kind": "git",
-        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
-        "ref": "v1.0.13"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.13"
       },
       "description": "Spread agent work across your Claude, Codex and other accounts by the quota each one has left, and run every test through one machine-wide queue so parallel worktrees don't overload the machine or share a test database.",
       "categories": [

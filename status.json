@@ -1217,6 +1217,13 @@
         }
       ]
     },
+    "nithinpaul1360/orca-plugins": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "nithinpaul1360.tmux-peek"
+      ]
+    },
     "nknwns/orca-wakatime": {
       "state": "listed",
       "ref": "refs/tags/nknwns/orca-wakatime/0.2.0",
@@ -1830,7 +1837,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "listed",
-      "ref": "v1.0.13",
+      "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.13",
       "plugins": [
         "victorstochero.agent-pool"
       ]
