@@ -730,7 +730,7 @@
     },
     "ias0nas/seaqull": {
       "state": "listed",
-      "ref": "refs/tags/ias0nas/seaqull/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "ias0nas.seaqull"
       ]
@@ -1219,7 +1219,7 @@
     },
     "nithinpaul1360/orca-plugins": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/nithinpaul1360/orca-plugins/tmux-peek/1.0.0",
       "plugins": [
         "nithinpaul1360.tmux-peek"
       ]
