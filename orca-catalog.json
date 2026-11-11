@@ -1627,14 +1627,68 @@
       "ownerId": 44755179,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bahachammakhi/kube-panel/0.1.0"
+        "url": "https://github.com/bahachammakhi/kube-panel.git",
+        "ref": "v0.1.2"
       },
-      "description": "Browse Kubernetes workloads, logs, events and YAML, and open k9s beside your code.",
+      "description": "Inspect Kubernetes beside your code: browse pods and deployments, search and filter container logs, expand JSON log fields, and inspect events and highlighted YAML. Choose a context and namespace, optionally refresh logs every three seconds, or open a read-only k9s terminal; uses your local kubectl ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "28405a76cf4e16c0dbdfbc277aeac6c679b6b863",
+          "contentHash": "4066161f9d2c970cf77123df121c0b6a1f6c6ed8547c2139a5252180163d9e50",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.254",
+          "name": "Kube Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kube Panel"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bahachammakhi.kube-panel/d03ba68765be7e82.png",
+              "alt": "Kube Panel running inside Orca beside a Kubernetes deployment file, with the workload list and log viewer open. Captured in Orca with demo data.",
+              "sha256": "d03ba68765be7e822832ac75b9ec97c3738dc78884b6f2af14337b64843f425f",
+              "width": 1862,
+              "height": 1050
+            },
+            "screenshots": [
+              {
+                "path": "assets/bahachammakhi.kube-panel/d03ba68765be7e82.png",
+                "alt": "Actual Orca window showing a deployment manifest beside Kube Panel's workloads and logs, using demo data.",
+                "sha256": "d03ba68765be7e822832ac75b9ec97c3738dc78884b6f2af14337b64843f425f",
+                "width": 1862,
+                "height": 1050
+              },
+              {
+                "path": "assets/bahachammakhi.kube-panel/dd20a4ad676c97f7.png",
+                "alt": "Kube Panel's event inspector captured in Orca, showing scheduling, startup, and readiness events with demo data.",
+                "sha256": "dd20a4ad676c97f7af00e07569b037b4634b703e44a38185ca2bb2b24ac80e1a",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/bahachammakhi.kube-panel/0f3a9bf81a1d8d58.png",
+                "alt": "Detailed view of log search, severity filters, timestamps, and structured messages with sample data.",
+                "sha256": "0f3a9bf81a1d8d58aebd9a8ff0b902f0386bb6f31c1e3b08fe0c8d412b156b00",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/bahachammakhi/kube-panel",
+          "updatedAt": "2026-11-11T16:54:59+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "c379f36d6670edd7b58a832aad0fbede0e5069d9",
@@ -3938,8 +3992,8 @@
       "ownerId": 77089596,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chrisluo5311/orca-snippet.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chrisluo5311/orca-snippet/0.1.3"
       },
       "description": "Save reusable commands and prompts, search them, and send them to a terminal or copy them in one click.",
       "categories": [
@@ -4349,6 +4403,42 @@
           "license": "MIT",
           "repository": "https://github.com/cmdaltctr/orca-plugin-prs-actions-releases-status",
           "updatedAt": "2026-11-06T21:05:12Z"
+        }
+      ]
+    },
+    {
+      "id": "coffeepy.swampling",
+      "ownerId": 20525302,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/coffeepy/swampling.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "cde83e6c58d199075e161f20181a7676a62a811e",
+          "contentHash": "49ecce892eadce7a0872e5182b886bd93303ec831f0d6de29967eeff36266763",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Swampling",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Swampling"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/coffeepy/swampling",
+          "updatedAt": "2026-11-11T10:11:10-06:00"
         }
       ]
     },
