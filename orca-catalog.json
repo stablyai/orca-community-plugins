@@ -16155,8 +16155,8 @@
       "ownerId": 37795823,
       "source": {
         "kind": "git",
-        "url": "https://github.com/pcauhi/orca-hairline-theme.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pcauhi/orca-hairline-theme/1.1.0"
       },
       "description": "A quiet near-black and gray theme with hairline borders, inspired by the look of modern AI code editors. Light and dark app, code and terminal colors.",
       "categories": [
@@ -21034,8 +21034,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tienne/orca-plugins/0.2.2"
+        "url": "https://github.com/tienne/orca-plugins.git",
+        "ref": "v0.2.3"
       },
       "description": "Explore Git logs in a visual Git tree and commit graph. Compare changes in a read-only side-by-side diff and run confirmed Git actions in Orca.",
       "categories": [
@@ -21043,6 +21043,85 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "fec30376a5a62f73432d517629f8807a1835674a",
+          "contentHash": "85003122c0fffdc48e9654a2d8a16cc60fb510eecd934d3e8279136651b15e43",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Logs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Logs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".orcadiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "orcadiff"
+          ],
+          "editorFileTypes": [
+            "orcadiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tienne.git-logs/11e455c49cd9b2b6.png",
+              "alt": "Git Logs, a commit graph and side-by-side diff in Orca, shown with a DEMO capture",
+              "sha256": "11e455c49cd9b2b667decbc0c2e822694a479fd7a20eb75bf7b424509c5e66fd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tienne.git-logs/2bda46f746064e2f.png",
+              "alt": "Git Logs icon",
+              "sha256": "2bda46f746064e2fa1f09d419173048c19299431e7f8af90288a49f1566eb974",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tienne.git-logs/cd3b1d3480350f1e.png",
+                "alt": "English DEMO of the commit graph, changed files and side-by-side diff in dark mode",
+                "sha256": "cd3b1d3480350f1e85e056fb9c5c3123a5ec756710a0ca26dcdb6dc1cf667fd8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.git-logs/c3a0b5e3d02a1964.png",
+                "alt": "English DEMO of the same view in light mode",
+                "sha256": "c3a0b5e3d02a19645c09d7c0d46257a2505cf3b1ba9e5ffee8831077ddfde758",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.git-logs/f0e7290f4935f67b.png",
+                "alt": "English DEMO of the commit context menu in dark mode",
+                "sha256": "f0e7290f4935f67be3a78a1981aa01776fa73da05935ad1bbbe544e7e36afc16",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orca-plugins",
+          "updatedAt": "2026-11-11T11:57:48+09:00"
+        },
         {
           "version": "0.2.2",
           "commit": "39ff7fca730fa341ed6371bb07cded53393b8b68",
@@ -21516,8 +21595,8 @@
       "ownerId": 250263194,
       "source": {
         "kind": "git",
-        "url": "https://github.com/turingfx/omp-stats.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/turingfx/omp-stats/0.2.0"
       },
       "description": "Native Orca sidebar embedding of omp's official telemetry dashboard (http://127.0.0.1:59127). Directly queries ~/.omp/stats.db in read-only mode via an embedded Node SQLite worker (~9ms) to display live KPI sparklines, latency, throughput, token mix, and per-model performance tables.",
       "categories": [

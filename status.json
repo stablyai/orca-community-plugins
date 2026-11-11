@@ -1158,7 +1158,7 @@
     },
     "pcauhi/orca-hairline-theme": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/pcauhi/orca-hairline-theme/1.1.0",
       "plugins": [
         "pcauhi.hairline-theme"
       ]
@@ -1606,19 +1606,10 @@
     },
     "tienne/orca-plugins": {
       "state": "listed",
-      "ref": "refs/tags/tienne/orca-plugins/0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "tienne.git-logs"
-      ],
-      "update": {
-        "ref": "v0.2.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "tienne/orcatopia": {
       "state": "listed",
@@ -1660,7 +1651,7 @@
     },
     "turingfx/omp-stats": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/turingfx/omp-stats/0.2.0",
       "plugins": [
         "turingfx.omp-usage"
       ]
