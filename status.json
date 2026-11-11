@@ -240,7 +240,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.6.8",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.8",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -1426,7 +1426,7 @@
     },
     "serhii-f8/orca-docker": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "under-review",
