@@ -13360,8 +13360,8 @@
       "ownerId": 10705898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/maxfedorov/youtrack-for-orca.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.0"
       },
       "description": "Browse YouTrack issues in the right sidebar and start coding agents on them.",
       "categories": [
@@ -20241,8 +20241,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.4.1"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [

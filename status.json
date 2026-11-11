@@ -1010,7 +1010,7 @@
     },
     "maxfedorov/youtrack-for-orca": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.0",
       "plugins": [
         "maxfedorov.youtrack-for-orca"
       ]
@@ -1509,7 +1509,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/shaurgon/conport-orca/0.4.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]
