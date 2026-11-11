@@ -17796,14 +17796,96 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rr235/orca-power-sessions/0.1.0"
+        "url": "https://github.com/rr235/orca-power-sessions.git",
+        "ref": "v0.1.1"
       },
       "description": "On macOS, monitor Claude and Codex sessions across projects with status, model and effort, token and context usage, turns, tool calls, compactions, workspace branches and pull requests; highlight Fable and Astra models and long conversations, compact sessions between turns, and show their tabs. Quic",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "cddfe852552ab7f6f4c68164c8565b4bb171f444",
+          "contentHash": "db361395ab3d5147f56a4ac816efde1ec12aedc7dc90f13752ce0e799808acd3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Power Sessions",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Power Sessions"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rr235.power-sessions/ff5ac4090a33762e.png",
+              "alt": "Power Sessions: the Orca side panel with sessions by project, session details with model, tokens, context and pull requests, and quick actions",
+              "sha256": "ff5ac4090a33762e31c3768d25cdc39d755cb242f93babc491047d037056ae12",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rr235.power-sessions/331ec5354281e797.png",
+              "alt": "Power Sessions icon",
+              "sha256": "331ec5354281e797f48c44bf90ddf7bac369a6de7a460fa5cba5802a9354e810",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rr235.power-sessions/3438ecd4b9acf341.png",
+                "alt": "The Sessions list in a dark theme: three projects with their Claude and Codex sessions, one marked with a green dot",
+                "sha256": "3438ecd4b9acf3412ffa3b127885038791f059863597691b314ab31f580b2e50",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/2c902b9bdc304a3d.png",
+                "alt": "Session details in a light theme: idle, Opus 5.5 High, 153M tokens, a context bar at 275k of 400k, turn counts, a branch and four pull requests",
+                "sha256": "2c902b9bdc304a3d1c137a8717a42fbcbf595233760b412afad37d518ead89c0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/480fec58c46d019a.png",
+                "alt": "Two session details in a dark theme: an active session with 27 turns in the warning colour, and an idle one with Fable 5.1 in the warning colour",
+                "sha256": "480fec58c46d019aeae406deeeb1819e34187db7ec4525fbddb23f8cafa9450a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/1800dfa8d6797737.png",
+                "alt": "Session details in a light theme with the Compact button and its tooltip, Run /compact in this session",
+                "sha256": "1800dfa8d679773708be931db0c5d8aa4731f9bc2f35da20ca317b62c7092610",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/490c415eafd0106a.png",
+                "alt": "Quick actions in a dark theme: two running actions with stop, terminal and open buttons, and two stopped ones with run and edit buttons",
+                "sha256": "490c415eafd0106ac6658f08b92730354aba304b6c5a466f34e47d6af5ff7be7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rr235.power-sessions/1981fd23ef340864.png",
+                "alt": "The Add new action form in a light theme, with a project, a name, the command bun run dev and an optional URL",
+                "sha256": "1981fd23ef3408641aee51306a86f92a736e02651f0c7d46fb63b1ed06bdc3a4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rr235/orca-power-sessions",
+          "updatedAt": "2026-11-11T14:01:10+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "19386dc4c8933fecec9b424f540d882cbfa57662",
