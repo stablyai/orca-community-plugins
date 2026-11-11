@@ -152,7 +152,7 @@
     },
     "bahachammakhi/kube-panel": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/bahachammakhi/kube-panel/0.1.2",
       "plugins": [
         "bahachammakhi.kube-panel"
       ]
@@ -173,7 +173,16 @@
       "ref": "refs/tags/bautistapessagno/orca-spotify/1.0.1",
       "plugins": [
         "bautistapessagno.now-playing"
-      ]
+      ],
+      "update": {
+        "ref": "v1.1.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "be0hhh/orca-binary-tools": {
       "state": "rejected",
@@ -328,7 +337,7 @@
     },
     "coffeepy/swampling": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/coffeepy/swampling/0.2.0",
       "plugins": [
         "coffeepy.swampling"
       ]
@@ -1831,7 +1840,7 @@
     },
     "vzxxbacq/orca-colab": {
       "state": "rejected",
-      "ref": "v0.2.4",
+      "ref": "v0.2.5",
       "reasons": [
         {
           "category": "under-review",
