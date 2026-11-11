@@ -216,11 +216,11 @@
     },
     "brezzashen/orca-toolkit": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
-          "category": "reserved-name",
-          "detail": "name \"Orca Toolkit\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -240,7 +240,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.5",
+      "ref": "v2.6.6",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
