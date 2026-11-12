@@ -472,7 +472,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/divlook/orca-sidenote/0.4.1",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1147,11 +1147,28 @@
         "marco-calderon.nord-midnight-theme"
       ]
     },
+    "marcoronline/ballast-orca-plugin": {
+      "state": "rejected",
+      "ref": "v0.6.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "mars-crater/orca-jsonnet-syntax": {
       "state": "listed",
       "ref": "refs/tags/mars-crater/orca-jsonnet-syntax/0.1.0",
       "plugins": [
         "mars-crater.jsonnet-syntax"
+      ]
+    },
+    "matteoeusebi/orca-italiano": {
+      "state": "listed",
+      "ref": "v1.4.257",
+      "plugins": [
+        "matteoeusebi.italiano"
       ]
     },
     "maxfedorov/youtrack-for-orca": {
@@ -1269,7 +1286,7 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.1.0",
       "plugins": [
         "mswdev.fleet-monitor"
       ]
@@ -1675,7 +1692,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.4.5",
+      "ref": "refs/tags/shaurgon/conport-orca/0.4.5",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -1830,7 +1847,16 @@
       "ref": "refs/tags/tienne/orcatopia/0.1.0",
       "plugins": [
         "tienne.landmark-island"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "tourbut/claude-pin": {
       "state": "listed",
@@ -2056,7 +2082,7 @@
     },
     "yeonjin1357/orca-line-blame": {
       "state": "listed",
-      "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.5",
+      "ref": "v0.1.6",
       "plugins": [
         "yeonjin1357.line-blame"
       ]
