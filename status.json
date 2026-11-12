@@ -565,7 +565,7 @@
     },
     "estalions/claude-code-session-status": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/estalions/claude-code-session-status/0.1.0",
       "plugins": [
         "estalions.claude-code-session-status"
       ],
@@ -1407,7 +1407,7 @@
     },
     "pierreb40/claude-memory": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/pierreb40/claude-memory/0.4.0",
       "plugins": [
         "pierreb40.claude-memory"
       ]
@@ -1424,19 +1424,10 @@
     },
     "plozmun/orca-redmine": {
       "state": "listed",
-      "ref": "refs/tags/plozmun/orca-redmine/0.1.8",
+      "ref": "v0.2.0",
       "plugins": [
         "plozmun.redmine-tasks"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "pluggi-maid/orca-server-monitor": {
       "state": "rejected",
@@ -1516,6 +1507,16 @@
       "ref": "refs/tags/renanleonel/vesper-orca/0.1.0",
       "plugins": [
         "renanleonel.vesper-theme"
+      ]
+    },
+    "renanluiz/limits-tracker": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "manifestVersion: must be one of 1, 2"
+        }
       ]
     },
     "rgarciade/orca-containers": {

@@ -8283,8 +8283,8 @@
       "ownerId": 16132478,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Estalions/claude-code-session-status.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/estalions/claude-code-session-status/0.1.0"
       },
       "description": "Claude Code's statusline for Orca: folder, git state, model, effort, context, edits and the next /loop trigger of every conversation, in the status bar and a sidebar panel.",
       "categories": [
@@ -19711,8 +19711,8 @@
       "ownerId": 29147306,
       "source": {
         "kind": "git",
-        "url": "https://github.com/PierreB40/claude-memory.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pierreb40/claude-memory/0.4.0"
       },
       "description": "What Claude Code remembers about the project in front of you, and what no longer holds: memories citing deleted code, broken links, entries Claude cannot see. Read any memory in place; hand the fixes to a new Claude.",
       "categories": [
@@ -19966,15 +19966,95 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/plozmun/orca-redmine/0.1.8"
+        "url": "https://github.com/plozmun/orca-redmine.git",
+        "ref": "v0.2.0"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
         "panels",
-        "commands"
+        "commands",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "2bdb4a72c199e956648cc193b86b1548e605bba8",
+          "contentHash": "e8d65e29caf5f8eb32a29a5a29e95fb19fdad1e5bcce675082737da5f0dc1d1a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Redmine",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Redmine"
+            },
+            {
+              "kind": "commands",
+              "name": "Redmine: my open tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Redmine: open panel"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "open-tasks"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/plozmun.redmine-tasks/8bd45c8b326b36c0.png",
+              "alt": "The Redmine logo on a white tile beside the title “Redmine for Orca” and the tagline “Your Redmine tasks, tied to workspaces and agents.”",
+              "sha256": "8bd45c8b326b36c098c6f38ba2f3857e0ccf22df8a2103827cd1ff9564750960",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/plozmun.redmine-tasks/58788fb1ad327929.png",
+              "alt": "Redmine icon",
+              "sha256": "58788fb1ad3279293eea337e4a32eac742bf7c49c78dc695a8d95f22d1ec1b78",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "updatedAt": "2026-11-12T15:11:23+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/plozmun/orca-redmine"
+        },
         {
           "version": "0.1.8",
           "commit": "092bad4d5a1055cf81cca87e8f6c915a049e400e",
