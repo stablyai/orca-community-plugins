@@ -9945,8 +9945,8 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ias0nas/SeaQull.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ias0nas/seaqull/0.1.4"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
@@ -19805,6 +19805,89 @@
       ]
     },
     {
+      "id": "santiagocaprile.chat-board",
+      "ownerId": 103329387,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SantiagoCaprile/orca-chat-board.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A kanban of your agent chats (Claude, Cursor, Codex tabs) across every workspace, with your own columns and live agent status.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "26ad11b817dc6433db915a9651635b080796e7f0",
+          "contentHash": "e564bda424abf984390c1ffd3c3b9a48a4e629d02b792dd9b459355eaa2e9c23",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Chat Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Chat Board"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "agent:read",
+            "workspace:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/santiagocaprile.chat-board/270d71b00b3b53f0.png",
+              "alt": "Chat Board panel: four kanban columns of agent chats with status icons, a yellow unseen highlight and a monitoring loop",
+              "sha256": "270d71b00b3b53f00fc396467bb858652dbe5a1148455b07411a37b9e7546150",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/santiagocaprile.chat-board/e5ef327d5e78e77d.png",
+              "alt": "Chat Board icon",
+              "sha256": "e5ef327d5e78e77d1db55aa9bb9887b67f02cc1f3411d206fa1c371d4fa554f5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/santiagocaprile.chat-board/393a524ad3c95b5b.png",
+                "alt": "Chat Board in dark theme with cards in Backlog, In progress, In review and Done",
+                "sha256": "393a524ad3c95b5b0ebf16bb047b4743aa6d5cdebdf390b8312409d644311066",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/santiagocaprile.chat-board/2c600708d819b5c6.png",
+                "alt": "Chat Board in light theme",
+                "sha256": "2c600708d819b5c60a4175cb46637f109b4cbe3acf3c6ecf01d192bc37e8f89b",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SantiagoCaprile/orca-chat-board",
+          "updatedAt": "2026-11-11T21:18:56-03:00"
+        }
+      ]
+    },
+    {
       "id": "sasagar.ktrz-monokai",
       "ownerId": 22128441,
       "source": {
@@ -24981,8 +25064,8 @@
       "ownerId": 83407152,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yuribodo/neon-horizon.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yuribodo/neon-horizon/0.1.1"
       },
       "description": "A retro '80s neon dark theme for the app and terminal.",
       "categories": [
