@@ -286,6 +286,78 @@
       ]
     },
     {
+      "id": "4bdullatif.php-syntax",
+      "ownerId": 152618437,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/4bdullatif/orca-php-syntax.git",
+        "ref": "v0.1.0"
+      },
+      "description": "PHP highlighting with the HTML, CSS, JavaScript and SQL around and inside it, using VS Code's grammars.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "9c2f7f378fc6ed2bef0b0a7cdc1dfba9e72708a0",
+          "contentHash": "ea21a88b930705092cf5e6f2a541d006f305bd2a73abd0cdfe834c679efc1775",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "PHP Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "PHP",
+              "detail": ".php, .php4, .php5, .phtml, .ctp"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "PHP code grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML (derivative) grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JavaScript grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CSS grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "SQL grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JSON grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "XML grammar dependency"
+            }
+          ],
+          "fileTypes": [
+            "php",
+            "php4",
+            "php5",
+            "phtml",
+            "ctp"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/4bdullatif/orca-php-syntax",
+          "updatedAt": "2026-11-12T12:04:49+04:00"
+        }
+      ]
+    },
+    {
       "id": "aamonnaig4.activity-monitor",
       "ownerId": 67522529,
       "source": {
@@ -985,6 +1057,45 @@
           "license": "MIT",
           "repository": "https://github.com/albuquerquesz/orca-github-dark-theme",
           "updatedAt": "2026-11-06T19:31:18-03:00"
+        }
+      ]
+    },
+    {
+      "id": "alexander-64.agent-pipeline",
+      "ownerId": 20501510,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Alexander-64/orca-pipeline.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Visual agent DAG planner with Orca execution, Beads tracking and quota-aware failover.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "eb849e5ead780624f58627ea861f7b2fee112745",
+          "contentHash": "3e54f49de622abced9f107794e3758b15b9e7723a169f197f364ec6cf7f0aa6f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Pipeline"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Alexander-64/orca-pipeline",
+          "updatedAt": "2026-11-12T11:05:09+03:00"
         }
       ]
     },
@@ -5280,15 +5391,111 @@
       "ownerId": 42255462,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/diegohonorio/orca-painel/0.5.0"
+        "url": "https://github.com/DiegoHonorio/orca-painel.git",
+        "ref": "v0.6.0"
       },
-      "description": "See what you worked on by day, week and month (Claude Code and Codex time, tokens, estimated cost, commits, pomodoro, to-dos), plus a light system view: CPU, GPU, memory, top programs, open ports, network and battery. Everything stays on your machine. English, Português, Español, 中文.",
+      "description": "See what you worked on by day, week and month (Claude Code and Codex time, tokens, estimated cost, commits, pomodoro, to-dos), the chats open in each folder, plus a light system view: CPU, GPU, memory, top programs, open ports, network and battery. Everything stays on your machine. English, Portuguê",
       "categories": [
         "panels",
-        "commands"
+        "commands",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "52cc6688b0b6b67a212c97165a22697043ecb38c",
+          "contentHash": "902621fe3e0d138dfcd328d368aee1c485be497f78832cda0686816e4783a10a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Painel de Trabalho",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Painel de Trabalho"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: start / pause"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: stop"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pomodoro"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/diegohonorio.painel-trabalho/c815cb8eeb6e4cde.png",
+              "alt": "The panel in Orca: weekly summary with active time, focus, cost, commits, time per project and bars per day, next to the session list.",
+              "sha256": "c815cb8eeb6e4cdea2265915ceba775680c97bc941ff54efbc515c5b7d1cfe49",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/diegohonorio.painel-trabalho/f7d75da28495a7a1.png",
+              "alt": "Painel de Trabalho icon",
+              "sha256": "f7d75da28495a7a1f4fb0b539853ced3e2fd2f46d685e7967f0c2963be597e80",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/diegohonorio.painel-trabalho/038f442b8b609887.png",
+                "alt": "Weekly summary with KPIs and sparklines, time per project, and a monthly view of estimated cost per day.",
+                "sha256": "038f442b8b6098878ce336e6b885fe466d827c794d8990e0a3d34afaa9cb435b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/diegohonorio.painel-trabalho/00ac3f583e26fb8d.png",
+                "alt": "List of Claude Code and Codex sessions with project, branch, time and cost, next to the list of commits grouped by day.",
+                "sha256": "00ac3f583e26fb8d422872376f3f6044ca5f10360ace1b67671f1d80354330ee",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/diegohonorio.painel-trabalho/0b7f6320192095e1.png",
+                "alt": "Pomodoro running with the to-do list, next to the daily summary showing focus minutes per hour.",
+                "sha256": "0b7f6320192095e135c0d572e523cf643e20958872615074cb7e455982f2a5d8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/diegohonorio.painel-trabalho/68052c99f2c0fb71.png",
+                "alt": "System tab: CPU, memory, top 5 programs, AI agents, open dev ports, network and battery",
+                "sha256": "68052c99f2c0fb716475c77f9b2850719b4719c54feac1e5fabbc440c6afe1af",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-10T10:19:18-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/DiegoHonorio/orca-painel"
+        },
         {
           "version": "0.5.0",
           "commit": "50b24a2a910d7ffa0e1dcdf54a8150fd097f3cdc",
@@ -5521,6 +5728,42 @@
           "license": "MIT",
           "repository": "https://github.com/DiegoHonorio/orca-painel",
           "updatedAt": "2026-11-08T15:08:41-03:00"
+        }
+      ]
+    },
+    {
+      "id": "divlook.sidenote",
+      "ownerId": 11136980,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.3.2"
+      },
+      "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "93c5a5ef491b2ea5a060abc6878e8e6e50366ef6",
+          "contentHash": "2453efa72863120f98d46421448ec989fdc2387fc3eaac30eca89f85dcf6dfd1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "updatedAt": "2026-11-12T12:57:30+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote"
         }
       ]
     },
@@ -25472,12 +25715,75 @@
       "ownerId": 78588705,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wurenrumian/canvas-view/1.0.0"
+        "url": "https://github.com/wurenrumian/canvas-view.git",
+        "ref": "v1.0.1"
       },
       "description": "Views images and SVGs on a canvas: drag to pan, wheel to zoom.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "64f4ffa9d5210301090a571f0e14010478465867",
+          "contentHash": "1a12d452daccaf4a83cebb7d498c41699727cb0278207a569a15da1a9ff79190",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Canvas View",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".png, .apng, .jpg, .jpeg, .gif, .webp, .bmp, .ico, .avif"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".svg"
+            }
+          ],
+          "fileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "editorFileTypes": [
+            "png",
+            "apng",
+            "jpg",
+            "jpeg",
+            "gif",
+            "webp",
+            "bmp",
+            "ico",
+            "avif",
+            "svg"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wurenrumian.canvas-view/1dce3bf959b28a75.png",
+              "alt": "Canvas View cover: a photo and a magnifier on an indigo to cyan gradient.",
+              "sha256": "1dce3bf959b28a75607493538f583db57aa0e70a25aab1427ca6252cabff5b00",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wurenrumian.canvas-view/5baf5b14ed0f7491.png",
+              "alt": "Canvas View icon",
+              "sha256": "5baf5b14ed0f749103ed570f7c26a785011b1cb58c69af5a2a67cb41f67dfe36",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wurenrumian/canvas-view",
+          "updatedAt": "2026-11-12T16:19:27+08:00"
+        },
         {
           "version": "1.0.0",
           "commit": "f373014e991d8891d7a0264dd8ea03713b999526",

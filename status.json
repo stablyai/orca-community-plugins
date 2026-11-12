@@ -25,6 +25,13 @@
         "2589195970.shiftlens"
       ]
     },
+    "4bdullatif/orca-php-syntax": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "4bdullatif.php-syntax"
+      ]
+    },
     "aamonnaig4/orca-plugins": {
       "state": "listed",
       "ref": "refs/tags/aamonnaig4/orca-plugins/activity-monitor/1.0.0",
@@ -63,6 +70,16 @@
       "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.4",
       "plugins": [
         "albuquerquesz.github-dark-theme"
+      ]
+    },
+    "alexander-64/orca-pipeline": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "alexander-64.agent-pipeline"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "alexesprit/orca-unfancy-file-icons": {
@@ -436,19 +453,10 @@
     },
     "diegohonorio/orca-painel": {
       "state": "listed",
-      "ref": "refs/tags/diegohonorio/orca-painel/0.5.0",
+      "ref": "v0.6.0",
       "plugins": [
         "diegohonorio.painel-trabalho"
-      ],
-      "update": {
-        "ref": "v0.6.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "dinhkarate/orca-incognito": {
       "state": "rejected",
@@ -471,13 +479,10 @@
       ]
     },
     "divlook/orca-sidenote": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "divlook.sidenote"
       ]
     },
     "dohaidang/orca-theme-plugin": {
@@ -881,7 +886,7 @@
     },
     "jeong-jae-hun/orca-ping-public": {
       "state": "rejected",
-      "ref": "v0.3.1",
+      "ref": "v0.4.1",
       "reasons": [
         {
           "category": "under-review",
@@ -978,7 +983,16 @@
       "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.2.1",
       "plugins": [
         "kloppers-labs.azure-devops"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "kolebayev/orca-md-layout": {
       "state": "listed",
@@ -2005,7 +2019,7 @@
     },
     "wurenrumian/canvas-view": {
       "state": "listed",
-      "ref": "refs/tags/wurenrumian/canvas-view/1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "wurenrumian.canvas-view"
       ],
