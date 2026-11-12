@@ -605,6 +605,12 @@
     "repoId": 1450018509,
     "firstSeen": "2026-11-11T22:39:38.953Z"
   },
+  "coffeepy.swampling@0.5.1": {
+    "commit": "2cb0c13402769a9efeded6fa7f0982bb80bae153",
+    "contentHash": "80f21070a99c871c19c635c908eca1de8c4ee3a33fee2fe9b7d270b552245fb5",
+    "repoId": 1450018509,
+    "firstSeen": "2026-11-12T16:40:37.534Z"
+  },
   "cuni0716.monokai-pro-ce-theme@2.0.0": {
     "commit": "8a61d7f0a4d35121dc8c5db275d8970230bc6f44",
     "contentHash": "a3eea16a89af57746668c28ad2dbf22e6c59b3e0f55fb3bd14a281ef2bcdba04",
@@ -1018,6 +1024,12 @@
     "contentHash": "cacaf751af14a448b1345e67af4d9e05eb08e7e55ee3c6660cabec11ed6b7246",
     "repoId": 1446983111,
     "firstSeen": "2026-11-05T16:18:38.814Z"
+  },
+  "geromendez135.pr-review@0.4.0": {
+    "commit": "97780ee9daa87bcf76eecee20696a5909c51683a",
+    "contentHash": "9f9138caa8d90f5e6ff46af2a9bdfbb0cf23db5ba1d8f1af8549d6079b478131",
+    "repoId": 1455564960,
+    "firstSeen": "2026-11-12T16:40:37.534Z"
   },
   "gino8080.git-overview@0.1.10": {
     "commit": "60d32e139104724e446fdb491695f211b47180ba",
@@ -2890,6 +2902,12 @@
     "contentHash": "4bcb73a5c06d9184ae80d334498e98856555eed39ffa5eb8ac0915c6c902e357",
     "repoId": 1453629377,
     "firstSeen": "2026-11-12T03:16:34.956Z"
+  },
+  "xuan666-lab.artifact-workbench@0.1.0": {
+    "commit": "b65369fa62075627ae0f65b69b2e71a977a9383c",
+    "contentHash": "3968760d29a1b58ca801400e22f2e79a18f675fbf0458e8dfb0c222d72bb3eef",
+    "repoId": 1455563571,
+    "firstSeen": "2026-11-12T16:40:37.534Z"
   },
   "yeonjin1357.line-blame@0.1.0": {
     "commit": "45165ad5e5f9ea0b2978c7b0a8ea1f72c171a996",

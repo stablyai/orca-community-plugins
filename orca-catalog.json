@@ -5302,14 +5302,35 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/coffeepy/swampling/0.5.0"
+        "url": "https://github.com/coffeepy/swampling.git",
+        "ref": "v0.5.1"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.1",
+          "commit": "2cb0c13402769a9efeded6fa7f0982bb80bae153",
+          "contentHash": "80f21070a99c871c19c635c908eca1de8c4ee3a33fee2fe9b7d270b552245fb5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Swampling",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Swampling"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "updatedAt": "2026-11-12T10:13:54-06:00",
+          "license": "MIT",
+          "repository": "https://github.com/coffeepy/swampling"
+        },
         {
           "version": "0.5.0",
           "commit": "5fb46ca3b172a743be8fae7cc6f3a1ef6d49a28f",
@@ -10203,6 +10224,56 @@
           "license": "MIT",
           "repository": "https://github.com/gentilfp/orca-snakAI",
           "updatedAt": "2026-11-05T16:48:48+01:00"
+        }
+      ]
+    },
+    {
+      "id": "geromendez135.pr-review",
+      "ownerId": 113253381,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Geromendez135/orca-pr-review.git",
+        "ref": "v0.4.0"
+      },
+      "description": "Review a branch's PR changes in a file tree: mark files and single changes as viewed, see whole files, search with Cmd+F, and send line comments to your agent.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "97780ee9daa87bcf76eecee20696a5909c51683a",
+          "contentHash": "9f9138caa8d90f5e6ff46af2a9bdfbb0cf23db5ba1d8f1af8549d6079b478131",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "PR Review",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PR Review"
+            },
+            {
+              "kind": "customEditors",
+              "name": "PR Review",
+              "detail": ".prreview"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "prreview"
+          ],
+          "editorFileTypes": [
+            "prreview"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Geromendez135/orca-pr-review",
+          "updatedAt": "2026-11-12T13:38:04-03:00"
         }
       ]
     },
@@ -24164,8 +24235,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.5.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
@@ -27597,6 +27668,74 @@
           "license": "MIT",
           "repository": "https://github.com/xclas721/xclas721-theme",
           "updatedAt": "2026-11-11T15:27:18+08:00"
+        }
+      ]
+    },
+    {
+      "id": "xuan666-lab.artifact-workbench",
+      "ownerId": 276170146,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/xuan666-lab/orca-latest-artifacts.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Recent files from your current agent session. Local macOS preview release.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "b65369fa62075627ae0f65b69b2e71a977a9383c",
+          "contentHash": "3968760d29a1b58ca801400e22f2e79a18f675fbf0458e8dfb0c222d72bb3eef",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.257",
+          "name": "Latest Artifacts / 最新产物",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Latest artifacts / 最新产物"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/xuan666-lab.artifact-workbench/44d965c2a82f8431.png",
+              "alt": "Latest Artifacts / 最新产物 icon",
+              "sha256": "44d965c2a82f84316c7f002debd63dc9bfab00fe9924ac48ea8ab22d3cb0272f",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/xuan666-lab.artifact-workbench/48fdbeba9dadbed0.png",
+                "alt": "Latest Artifacts list in English with synthetic example files",
+                "sha256": "48fdbeba9dadbed0dee7b30501dcf46d36be909dd6ccf8253c87067314d582b7",
+                "width": 1360,
+                "height": 1300
+              },
+              {
+                "path": "assets/xuan666-lab.artifact-workbench/b415b6b61d6bc3cf.png",
+                "alt": "最新产物中文界面，使用合成演示文件",
+                "sha256": "b415b6b61d6bc3cf18609bec1ffc1b79af4837becfad6467c3bcf6de19c56cf0",
+                "width": 1360,
+                "height": 1300
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/xuan666-lab/orca-latest-artifacts",
+          "updatedAt": "2026-11-13T01:36:45+09:00"
         }
       ]
     },

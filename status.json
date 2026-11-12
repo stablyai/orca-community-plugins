@@ -397,19 +397,10 @@
     },
     "coffeepy/swampling": {
       "state": "listed",
-      "ref": "refs/tags/coffeepy/swampling/0.5.0",
+      "ref": "v0.5.1",
       "plugins": [
         "coffeepy.swampling"
-      ],
-      "update": {
-        "ref": "v0.5.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "craig-franklin/orca-commit-review": {
       "state": "rejected",
@@ -732,6 +723,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "geromendez135/orca-pr-review": {
+      "state": "listed",
+      "ref": "v0.4.0",
+      "plugins": [
+        "geromendez135.pr-review"
       ]
     },
     "gino8080/orca-git-overview": {
@@ -1796,7 +1794,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.5.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -2182,6 +2180,13 @@
       "ref": "refs/tags/xclas721/xclas721-theme/0.3.2",
       "plugins": [
         "xclas721.xclas721-theme"
+      ]
+    },
+    "xuan666-lab/orca-latest-artifacts": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "xuan666-lab.artifact-workbench"
       ]
     },
     "yeonjin1357/orca-line-blame": {
