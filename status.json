@@ -463,6 +463,16 @@
         }
       ]
     },
+    "dinhkarate/orca-quota": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "divlook/orca-sidenote": {
       "state": "rejected",
       "ref": "v0.3.2",
@@ -1988,7 +1998,7 @@
     },
     "yeonjin1357/orca-line-blame": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "v0.1.5",
       "plugins": [
         "yeonjin1357.line-blame"
       ]
