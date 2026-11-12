@@ -290,8 +290,8 @@
       "ownerId": 152618437,
       "source": {
         "kind": "git",
-        "url": "https://github.com/4bdullatif/orca-php-syntax.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/4bdullatif/orca-php-syntax/0.1.0"
       },
       "description": "PHP highlighting with the HTML, CSS, JavaScript and SQL around and inside it, using VS Code's grammars.",
       "categories": [
@@ -1065,8 +1065,8 @@
       "ownerId": 20501510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Alexander-64/orca-pipeline.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alexander-64/orca-pipeline/0.1.0"
       },
       "description": "Visual agent DAG planner with Orca execution, Beads tracking and quota-aware failover.",
       "categories": [
@@ -1972,14 +1972,87 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bautistapessagno/orca-calendar/0.2.1"
+        "url": "https://github.com/BautistaPessagno/orca-calendar.git",
+        "ref": "v0.3.0"
       },
-      "description": "Your Google Calendar in Orca's sidebar: today's agenda and the next days, the next meeting counting down in the status bar, a join button for Meet, Zoom, Teams and Slack huddles, and a reminder before each meeting. Works with your Mac's calendars with no setup. Not affiliated with Google or Apple.",
+      "description": "Your Google Calendar in Orca's sidebar: today's agenda and the next days with your Google Tasks, the next meeting counting down in the status bar, a join button for Meet, Zoom, Teams and Slack huddles, and a reminder before each meeting. Works with your Mac's calendars with no setup. Not affiliated ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "a2247aaa914ce96c39a120be1a53a90096787794",
+          "contentHash": "cd1bfd583223921699bd4b8b5079c625191a04a2e00819ca56b9cf62905f0600",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Calendar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Calendar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Calendar"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "secrets:own",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.calendar/42bc67f42dd7a5de.png",
+              "alt": "Calendar in Orca's sidebar: the agenda with a call starting in 4 minutes and a Join button, and the same countdown in Orca's status bar. Sample data.",
+              "sha256": "42bc67f42dd7a5de812df1fb7b9a37df824c3ed8ae321e5908d7a25fb74bf005",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bautistapessagno.calendar/b8cb3691a8b68cb3.png",
+              "alt": "Calendar icon",
+              "sha256": "b8cb3691a8b68cb3b72251a7d5572ad02d1cf5f236c9582eaee1d94fa455c891",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.calendar/ccf187a68d18ddf2.png",
+                "alt": "The agenda in dark and light theme: Google Tasks with an overdue one and a done one, Join Zoom, guests with their answers, a red now line and free time.",
+                "sha256": "ccf187a68d18ddf2ebe72df4b1e2c5252ed63bda7fd3c5e9c36858447b04f2ed",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.calendar/6b47abc3b1d56290.png",
+                "alt": "Status bar items counting down in grey, then amber, then now; a reminder notification; and the light panel with Join on the next meeting.",
+                "sha256": "6b47abc3b1d56290f7c1d88dac21dd2d779a02a8c5326df963d8943ce6a1464e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.calendar/da1b046c778ee611.png",
+                "alt": "An invitation in light theme with Going? Yes, No, Maybe and each guest's answer, next to the dark calendar picker and source switch.",
+                "sha256": "da1b046c778ee6113c2b6ddd45fc9f398d85c62f3a669038eba22029d814207b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.calendar/61c2376ce8d90161.png",
+                "alt": "The Connect Google Calendar screen with its steps and fields, next to the dark sample week whose top card leads to Google or Mac calendars.",
+                "sha256": "61c2376ce8d90161dc611a23c48e076307edaa7bd86aa28cdac12f15e476612b",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-calendar",
+          "updatedAt": "2026-11-11T20:50:22-03:00"
+        },
         {
           "version": "0.2.1",
           "commit": "bb9def868731b6d73fe42c2e4d9c8eeb62b4f3f9",
@@ -2170,14 +2243,79 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bautistapessagno/orca-spotify/1.0.1"
+        "url": "https://github.com/BautistaPessagno/orca-spotify.git",
+        "ref": "v1.1.0"
       },
       "description": "Spotify or Apple Music in Orca's sidebar: Home, your library, search, queue and devices for Spotify, the Music app's player for Apple Music, plus a now-playing status bar item. Your coding agents can play, pause, search and queue too. Works with the Spotify or Music app on a Mac out of the box. Not ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "9b90460d945ff08b5f4c5e5a39cdc17faf007c06",
+          "contentHash": "50d974030f2442d7ce7a70cca17372ffb4422273797554ab908c9f0b9ecb3b0f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Now Playing",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Now Playing"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Now Playing"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.now-playing/cfdaba0a83d0b5dd.png",
+              "alt": "Now Playing in Orca's sidebar: the Spotify player beside the Apple Music player in the Music app's look, and an agent playing music from a terminal",
+              "sha256": "cfdaba0a83d0b5dd5e8328a93d4e02894621502652a58498239732544572b0b7",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.now-playing/047489bd0c7ac0be.png",
+                "alt": "The panel in dark theme: Home with recently played albums and playlists, Your Library, and an album page",
+                "sha256": "047489bd0c7ac0bebea7a4021a88c9cc5e0402d0e950ec45f96a784cb7b047b9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/bf58f73bda832c7e.png",
+                "alt": "The Apple Music player in Orca's light and dark themes, with the Spotify and Apple Music switch at the bottom of each",
+                "sha256": "bf58f73bda832c7e3507433edb7e61138c46b1997b0615ae16aba15dda08c73c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/436cab449fcaf970.png",
+                "alt": "A coding agent in an Orca terminal runs now-playing to search and play an album, and the panel updates",
+                "sha256": "436cab449fcaf970ad855ba2c784213884767b9113982fd97acdc8abb87a54ca",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bautistapessagno.now-playing/97795edc71fc9eed.png",
+                "alt": "The Spotify desktop-app player in Orca's light theme next to the device picker of a connected Spotify account",
+                "sha256": "97795edc71fc9eed7f76fbbcfe3997f65a3c518666ab78a4ce110ac590e1e020",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-11T13:28:47-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-spotify"
+        },
         {
           "version": "1.0.1",
           "commit": "05313a13863d02f3d2d1e6d3bfef700a39d52fd0",
@@ -4345,14 +4483,97 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/choihjin/orca-containers/0.3.0"
+        "url": "https://github.com/choihjin/orca-containers.git",
+        "ref": "v0.4.0"
       },
       "description": "Lists and manages containers, images, volumes and networks on this computer (macOS or Linux) and on Linux or macOS SSH hosts from a sidebar panel: logs in the panel, a shell and image pulls in an Orca terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "bf4f380faf87fe58b12038df34934269e51f840b",
+          "contentHash": "c17558b16a8ccac4e190b3ddb332cfbda247ad66f23d045caeb897aa9b70d199",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.255",
+          "name": "Containers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Containers"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.containers/8337c18298543dcd.png",
+              "alt": "The Containers icon and name beside two Containers panels, one light and one dark",
+              "sha256": "8337c18298543dcd07ee5bb95a519eb16a0bc6e8a13274f4f2c086f485cc2b4e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.containers/dcbdbfee6a26dd45.png",
+              "alt": "Containers icon",
+              "sha256": "dcbdbfee6a26dd450b051a8176f692c91ded03e7dd5303b1e1a0e0bffaafe2f5",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.containers/531632bd3e2f3897.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "531632bd3e2f3897e8fb2d8399d7d7f072587567ad9f6cd2c4b0d1f0e49bd4b8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/1958874f5d1266b1.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "1958874f5d1266b1a3716f8c7703a58a37faf678bfb46af11e17509130f6b37f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/382aea424b236e8f.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "382aea424b236e8f11460857ff4eb94add3b27a104a72528045e3caa0b41cc80",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/eba3b1f7aabd3d47.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "eba3b1f7aabd3d479aa027a80329f150cd61958daf0400c9e230c4c40f053b52",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/3c5634d210791c48.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "3c5634d210791c4859dd7b3ad5877393714fac55416c452507c0204a84808d89",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/66dd490a1c790e00.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "66dd490a1c790e00e5fb63dd86bdc9733024096aa84bfed866facce282c225ee",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-containers",
+          "updatedAt": "2026-11-12T17:57:27+09:00"
+        },
         {
           "version": "0.3.0",
           "commit": "de8285967029943fb1bfbd89dcb55797b02ee713",
@@ -5391,8 +5612,8 @@
       "ownerId": 42255462,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DiegoHonorio/orca-painel.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/diegohonorio/orca-painel/0.6.0"
       },
       "description": "See what you worked on by day, week and month (Claude Code and Codex time, tokens, estimated cost, commits, pomodoro, to-dos), the chats open in each folder, plus a light system view: CPU, GPU, memory, top programs, open ports, network and battery. Everything stays on your machine. English, Portuguê",
       "categories": [
@@ -5736,8 +5957,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.3.2"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -6922,6 +7143,75 @@
           "license": "MIT",
           "repository": "https://github.com/dohaidang/orca-vietnamese-plugin",
           "updatedAt": "2026-11-03T17:22:15+07:00"
+        }
+      ]
+    },
+    {
+      "id": "duck1eee.void-glow",
+      "ownerId": 90901839,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/duck1eee/void-glow.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A near-black deep-space theme with a realistic starfield and drifting cosmic dust wallpaper, plus a pure OLED black variant. To see the wallpaper, set \"Background Opacity\" below 1 and turn off \"Reduce Visual Effects\".",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "95133d5b72b4eb6e0b2271c96540cffe18b1dce6",
+          "contentHash": "dde91ccb721368fa4de3fdb39187b790f9de468108369f0e39faf3f096f5ff49",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Void Glow",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Void Glow"
+            },
+            {
+              "kind": "themes",
+              "name": "Void Glow (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "Void Glow (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "Void Glow OLED (pure black)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Void Glow"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Void Glow OLED"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/duck1eee.void-glow/9ca719761d35db13.png",
+              "alt": "Void Glow: a near-black sky with a violet and teal nebula and a starfield",
+              "sha256": "9ca719761d35db1346f945d838efdc1aebf38dff3db643d59d5ea10c312df81c",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/duck1eee.void-glow/9ed4f5f293ceee8f.png",
+              "alt": "Void Glow icon",
+              "sha256": "9ed4f5f293ceee8fb5351a40a06518e22234529555f60ff8b80a6400950f88c5",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/duck1eee/void-glow",
+          "updatedAt": "2026-11-12T15:50:23+07:00"
         }
       ]
     },
@@ -12592,6 +12882,68 @@
           "license": "MIT",
           "repository": "https://github.com/JoDaC/orca-git-controls",
           "updatedAt": "2026-11-02T16:57:52-08:00"
+        }
+      ]
+    },
+    {
+      "id": "jolynestarchaser.svg-annotate",
+      "ownerId": 210427748,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jolynestarchaser/orca-svg-annotate.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Mark up an SVG exported from Figma (pins, pen, highlight, rectangles, ellipses, arrows, text), write what each mark means, and copy one prompt for your AI agent. No Figma MCP needed.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "7975074b4907dde050523c81218a18e72eb27950",
+          "contentHash": "6a34b1210b342bd412b62725053b01dea584503f1e1347d6470e777e81713d1a",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "SVG Annotate",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "SVG Annotate",
+              "detail": ".svg"
+            }
+          ],
+          "fileTypes": [
+            "svg"
+          ],
+          "editorFileTypes": [
+            "svg"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jolynestarchaser.svg-annotate/e789c9683e12ae92.png",
+              "alt": "A sign-in and dashboard design marked with a rectangle, pin, arrow, highlight and ellipse, with each note listed on the right",
+              "sha256": "e789c9683e12ae924fd5ee9f0bd8b66d5be919f76b568cdd16073e485e760507",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jolynestarchaser.svg-annotate/63413be46ea84746.png",
+              "alt": "SVG Annotate icon",
+              "sha256": "63413be46ea84746f6871745575f21c4fc67981e411932916cead2a437783837",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jolynestarchaser.svg-annotate/ac577b2450cc52f9.png",
+                "alt": "The notes panel with the prompt preview open, listing each mark with its layer id, position and note",
+                "sha256": "ac577b2450cc52f99322a09cf09a9735215483a154d4e8c4d97f161a0019d001",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jolynestarchaser/orca-svg-annotate",
+          "updatedAt": "2026-11-12T15:26:32+07:00"
         }
       ]
     },
@@ -22167,6 +22519,86 @@
       ]
     },
     {
+      "id": "serhii-f8.docker",
+      "ownerId": 22273976,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/serhii-f8/orca-Docker.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Manage Docker Compose projects and containers from Orca's sidebar: colour-coded status, Up/Stop/Restart/Down, live logs and a one-click shell.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "0595e85a29b82189908213294ee0674798a52319",
+          "contentHash": "f152094757185144424f802ac2e1b61abe627685d78db17c91c313f523468865",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Docker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Docker"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/serhii-f8.docker/1ee68306d7d20805.png",
+              "alt": "Docker icon",
+              "sha256": "1ee68306d7d20805bfa1b67087d2d73b2704ae58de00cd744b35cba8af76bbce",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/serhii-f8.docker/c798d7e54a1c19d5.png",
+                "alt": "The Docker panel listing compose projects with colour-coded status badges: running, partly running, failed, stopped and not started.",
+                "sha256": "c798d7e54a1c19d58703cb1acf384e0de2f169f0678a98fd075093e04a20ccee",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/serhii-f8.docker/40ea706c3be16a80.png",
+                "alt": "The Docker panel with a running container selected and its logs shown below the tree, with Follow and Save controls.",
+                "sha256": "40ea706c3be16a80b9e9a92ebe59a3d7e44e86863ab6ca4665191bf106685a36",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/serhii-f8.docker/eef371058a7be71d.png",
+                "alt": "The Docker panel with a failed project expanded and its exited container selected, showing image, status and project details.",
+                "sha256": "eef371058a7be71d74f9da0b0de8ba35bd4e5778fc29021ed344324f28906438",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/serhii-f8/orca-Docker",
+          "updatedAt": "2026-11-11T10:29:31+01:00"
+        }
+      ]
+    },
+    {
       "id": "serhii-f8.git-toolbox",
       "ownerId": 22273976,
       "source": {
@@ -25715,8 +26147,8 @@
       "ownerId": 78588705,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wurenrumian/canvas-view.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wurenrumian/canvas-view/1.0.1"
       },
       "description": "Views images and SVGs on a canvas: drag to pan, wheel to zoom.",
       "categories": [],

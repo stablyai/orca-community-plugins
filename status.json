@@ -27,7 +27,7 @@
     },
     "4bdullatif/orca-php-syntax": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/4bdullatif/orca-php-syntax/0.1.0",
       "plugins": [
         "4bdullatif.php-syntax"
       ]
@@ -74,7 +74,7 @@
     },
     "alexander-64/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/alexander-64/orca-pipeline/0.1.0",
       "plugins": [
         "alexander-64.agent-pipeline"
       ],
@@ -195,19 +195,10 @@
     },
     "bautistapessagno/orca-calendar": {
       "state": "listed",
-      "ref": "refs/tags/bautistapessagno/orca-calendar/0.2.1",
+      "ref": "v0.3.0",
       "plugins": [
         "bautistapessagno.calendar"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "bautistapessagno/orca-linear": {
       "state": "listed",
@@ -218,19 +209,10 @@
     },
     "bautistapessagno/orca-spotify": {
       "state": "listed",
-      "ref": "refs/tags/bautistapessagno/orca-spotify/1.0.1",
+      "ref": "v1.1.0",
       "plugins": [
         "bautistapessagno.now-playing"
-      ],
-      "update": {
-        "ref": "v1.1.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "be0hhh/orca-binary-tools": {
       "state": "rejected",
@@ -351,7 +333,7 @@
     },
     "choihjin/orca-containers": {
       "state": "listed",
-      "ref": "refs/tags/choihjin/orca-containers/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "choihjin.containers"
       ]
@@ -453,7 +435,7 @@
     },
     "diegohonorio/orca-painel": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/diegohonorio/orca-painel/0.6.0",
       "plugins": [
         "diegohonorio.painel-trabalho"
       ]
@@ -480,7 +462,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/divlook/orca-sidenote/0.3.2",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -497,6 +479,13 @@
       "ref": "refs/tags/dohaidang/orca-vietnamese-plugin/1.2.0",
       "plugins": [
         "dohaidang.vietnamese"
+      ]
+    },
+    "duck1eee/void-glow": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "duck1eee.void-glow"
       ]
     },
     "ebbop/orca-italiano": {
@@ -886,7 +875,7 @@
     },
     "jeong-jae-hun/orca-ping-public": {
       "state": "rejected",
-      "ref": "v0.4.1",
+      "ref": "v0.5.0",
       "reasons": [
         {
           "category": "under-review",
@@ -939,13 +928,10 @@
       ]
     },
     "jolynestarchaser/orca-svg-annotate": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "reserved-name",
-          "detail": "id \"orca-svg-annotate\" starts with \"orca-\", which is reserved for official plugins"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "jolynestarchaser.svg-annotate"
       ]
     },
     "jondmarien/orca-discord-presence": {
@@ -1615,13 +1601,10 @@
       ]
     },
     "serhii-f8/orca-docker": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "name"
-        }
+      "plugins": [
+        "serhii-f8.docker"
       ]
     },
     "serhii-f8/orca-gittoolbox": {
@@ -2019,7 +2002,7 @@
     },
     "wurenrumian/canvas-view": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/wurenrumian/canvas-view/1.0.1",
       "plugins": [
         "wurenrumian.canvas-view"
       ],
