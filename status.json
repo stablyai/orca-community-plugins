@@ -1755,7 +1755,7 @@
     },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.0",
       "plugins": [
         "serhii-f8.git-toolbox"
       ]
@@ -2086,7 +2086,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "listed",
-      "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.13",
+      "ref": "v1.0.14",
       "plugins": [
         "victorstochero.agent-pool"
       ]
