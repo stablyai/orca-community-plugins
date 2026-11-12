@@ -333,7 +333,7 @@
     },
     "choihjin/orca-containers": {
       "state": "listed",
-      "ref": "v0.5.1",
+      "ref": "refs/tags/choihjin/orca-containers/0.5.1",
       "plugins": [
         "choihjin.containers"
       ]
@@ -483,7 +483,7 @@
     },
     "dohaidang/orca-wallpaper-studio": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/dohaidang/orca-wallpaper-studio/1.0.2",
       "plugins": [
         "dohaidang.wallpaper-studio"
       ]
@@ -973,19 +973,10 @@
     },
     "kloppers-labs/orca-azure-devops": {
       "state": "listed",
-      "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.2.1",
+      "ref": "v0.3.1",
       "plugins": [
         "kloppers-labs.azure-devops"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "kolebayev/orca-md-layout": {
       "state": "listed",
@@ -1361,7 +1352,7 @@
     },
     "pierreb40/claude-memory": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/pierreb40/claude-memory/0.3.0",
       "plugins": [
         "pierreb40.claude-memory"
       ]
