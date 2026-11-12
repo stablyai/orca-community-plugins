@@ -397,7 +397,7 @@
     },
     "coffeepy/swampling": {
       "state": "listed",
-      "ref": "v0.5.1",
+      "ref": "refs/tags/coffeepy/swampling/0.5.1",
       "plugins": [
         "coffeepy.swampling"
       ]
@@ -727,7 +727,7 @@
     },
     "geromendez135/orca-pr-review": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/geromendez135/orca-pr-review/0.4.0",
       "plugins": [
         "geromendez135.pr-review"
       ]
@@ -1755,7 +1755,7 @@
     },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
-      "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.3.1",
+      "ref": "v0.4.0",
       "plugins": [
         "serhii-f8.git-toolbox"
       ]
@@ -2184,7 +2184,7 @@
     },
     "xuan666-lab/orca-latest-artifacts": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.0",
       "plugins": [
         "xuan666-lab.artifact-workbench"
       ]

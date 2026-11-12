@@ -5302,8 +5302,8 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/coffeepy/swampling.git",
-        "ref": "v0.5.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/coffeepy/swampling/0.5.1"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [
@@ -10232,8 +10232,8 @@
       "ownerId": 113253381,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Geromendez135/orca-pr-review.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/geromendez135/orca-pr-review/0.4.0"
       },
       "description": "Review a branch's PR changes in a file tree: mark files and single changes as viewed, see whole files, search with Cmd+F, and send line comments to your agent.",
       "categories": [
@@ -23795,10 +23795,10 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.3.1"
+        "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
+        "ref": "v0.4.0"
       },
-      "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, a project and worktree switcher, a status bar branch indicator and background fetch.",
+      "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, side-by-side merge conflict resolution, a project and worktree switcher, a status bar branch indicator and background fetch.",
       "categories": [
         "panels",
         "commands",
@@ -23806,6 +23806,120 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "3ac034fb75ed5312a860b1717abc713c3f7b93fa",
+          "contentHash": "c186a254392fb44a022115a8103974e7f4554934e3c25cbab63c186742b76d6f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Update (Pull)"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Push"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Show Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Show Changes"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Switch Project or Worktree"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+T",
+              "detail": "gittoolbox.pull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/serhii-f8.git-toolbox/91fd54eeb9fc4130.png",
+              "alt": "Git Toolbox panel showing a commit graph with coloured lanes, a branch tree and commit details",
+              "sha256": "91fd54eeb9fc413050efc9d4a9f4d05245334b9c5d5c4a3c9448de03f96719ac",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/serhii-f8.git-toolbox/f8e88dfebc36ad2b.png",
+              "alt": "Git Toolbox icon",
+              "sha256": "f8e88dfebc36ad2b2cd24dff61be7f10bfdc472ff9a39e105f185c004d61f6aa",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/serhii-f8.git-toolbox/91fd54eeb9fc4130.png",
+                "alt": "Log view: branch tree, commit graph with branch labels, and the selected commit with its changed files",
+                "sha256": "91fd54eeb9fc413050efc9d4a9f4d05245334b9c5d5c4a3c9448de03f96719ac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/65b833985bca325e.png",
+                "alt": "Changes view: staged, changed and new files, a diff of a staged file and the commit message box",
+                "sha256": "65b833985bca325e37bf5461394c66ae1630bfd5805d6eaae59c3a4a2e7177c9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/cf2fa58343e90951.png",
+                "alt": "Merge view: your version, the editable result and their version side by side, with conflicting chunks highlighted and buttons to take either side",
+                "sha256": "cf2fa58343e90951288db7a681b3fa2dc62905f747d2e8b48f31dc36ed98a3a9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/98ce6c8c510750c7.png",
+                "alt": "Switcher listing worktrees grouped by project, with search",
+                "sha256": "98ce6c8c510750c7228cce81d631bf7e93d765e80bf2bc110bca4313e88494cb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/c418dbbd4c949e42.png",
+                "alt": "Log view in a light theme",
+                "sha256": "c418dbbd4c949e429a2afd3b463173f496d6a66f8fb2aef1956f47ce31d71df2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/serhii-f8/orca-GitToolBox",
+          "updatedAt": "2026-11-12T13:26:10+01:00"
+        },
         {
           "version": "0.3.1",
           "commit": "c60f343d84eeb07f2f9427b392365098d2ef5853",
@@ -27676,8 +27790,8 @@
       "ownerId": 276170146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/xuan666-lab/orca-latest-artifacts.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.0"
       },
       "description": "Recent files from your current agent session. Local macOS preview release.",
       "categories": [
