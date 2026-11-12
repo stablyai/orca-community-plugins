@@ -193,7 +193,7 @@
     },
     "balakumardev/orca-folder-sessionizer": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/balakumardev/orca-folder-sessionizer/0.1.1",
       "plugins": [
         "balakumardev.folder-sessionizer"
       ]
@@ -478,7 +478,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.4.2",
+      "ref": "refs/tags/divlook/orca-sidenote/0.4.2",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1064,7 +1064,7 @@
     },
     "lazyjerry/todo-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/lazyjerry/todo-for-orca/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "lazyjerry.todo-list"
       ]
@@ -1155,7 +1155,7 @@
     },
     "marcoronline/ballast-orca-plugin": {
       "state": "rejected",
-      "ref": "v0.6.0",
+      "ref": "v0.7.0",
       "reasons": [
         {
           "category": "under-review",
@@ -1400,7 +1400,16 @@
       "ref": "refs/tags/pierreb40/claude-memory/0.3.0",
       "plugins": [
         "pierreb40.claude-memory"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "piter75/orca-gruvbox-material-theme": {
       "state": "listed",

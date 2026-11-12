@@ -1926,8 +1926,8 @@
       "ownerId": 20134279,
       "source": {
         "kind": "git",
-        "url": "https://github.com/balakumardev/orca-folder-sessionizer.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/balakumardev/orca-folder-sessionizer/0.1.1"
       },
       "description": "Fuzzy-pick a project folder in a native floating picker and open it in Orca as a terminal, a Claude or Codex agent, or a new worktree.",
       "categories": [
@@ -6131,8 +6131,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.4.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.4.2"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -14673,8 +14673,8 @@
       "ownerId": 22562898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lazyjerry/todo-for-orca/0.3.0"
+        "url": "https://github.com/lazyjerry/todo-for-orca.git",
+        "ref": "v0.4.0"
       },
       "description": "A sidebar to-do list for the small tasks of your day: timed desktop reminders, repeats and durations, with the current and next to-do in the status bar. 處理一天內小任務的側欄待辦清單：到點桌面提醒、可重複與設定持續時間，狀態列顯示進行中與下一件事。",
       "categories": [
@@ -14682,6 +14682,41 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "8620c49131eabce7a15fafac05172c3dc32ebfc7",
+          "contentHash": "39d49d79f5efa240b8f0d08e750f956a10d64ea0b5be246fcc88abdb1f334649",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Daily To-Do List",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Daily To-Do List"
+            },
+            {
+              "kind": "commands",
+              "name": "Daily To-Do List: Show Current and Next To-Do"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "now"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "next"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "license": "Apache-2.0",
+          "repository": "https://github.com/lazyjerry/todo-for-orca",
+          "updatedAt": "2026-11-12T21:23:50+08:00"
+        },
         {
           "version": "0.3.0",
           "commit": "e4e5b23494143116000111b50a38d71381fe7f19",
