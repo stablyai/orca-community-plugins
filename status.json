@@ -146,7 +146,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.0",
+      "ref": "v0.4.1",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -180,6 +180,16 @@
       "ref": "refs/tags/bahachammakhi/kube-panel/0.1.2",
       "plugins": [
         "bahachammakhi.kube-panel"
+      ]
+    },
+    "balakumardev/orca-folder-sessionizer": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (bin/orca-folder-picker)"
+        }
       ]
     },
     "baroned1707/orca-claude-accounts": {
@@ -465,7 +475,16 @@
       "ref": "refs/tags/divlook/orca-sidenote/0.3.2",
       "plugins": [
         "divlook.sidenote"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
@@ -943,7 +962,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.3",
+      "ref": "v1.1.0",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -973,7 +992,7 @@
     },
     "kloppers-labs/orca-azure-devops": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.3.1",
       "plugins": [
         "kloppers-labs.azure-devops"
       ]
@@ -1250,7 +1269,16 @@
       "ref": "refs/tags/mswdev/orca-fleet-monitor/1.0.0",
       "plugins": [
         "mswdev.fleet-monitor"
-      ]
+      ],
+      "update": {
+        "ref": "v1.1.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "nachodeluca/orca-discord-presence": {
       "state": "rejected",
@@ -1742,7 +1770,7 @@
         "superfly.sprites"
       ]
     },
-    "sydneyhylia/requests": {
+    "sydneydesign/requests": {
       "state": "rejected",
       "ref": null,
       "reasons": [

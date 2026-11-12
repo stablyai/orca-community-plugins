@@ -1472,8 +1472,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.0"
+        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
+        "ref": "v0.4.1"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -1481,6 +1481,47 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "d52241d59231068f9bb840627015df4e18cfba34",
+          "contentHash": "baf0fda6c28d1382618a17cbf5c5ba6261d7992ef87a8a9ccb6ed968c09ab82a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send",
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/anthony-fp.agent-inbox/2308119db9fae4a1.png",
+              "alt": "Agent Inbox panel in Orca's right sidebar, with questions, tasks, issues, opportunities and the workspace plan",
+              "sha256": "2308119db9fae4a13e71283ec20d5669d55186c6b23e97cf927a4b2870a4de5e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/anthony-fp/orca-agent-inbox",
+          "updatedAt": "2026-11-10T10:45:24-05:00"
+        },
         {
           "version": "0.4.0",
           "commit": "e98f74e79c5d22fb0564d158028417564ca05bea",
@@ -13128,8 +13169,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jondmarien/orca-discord-presence/1.0.3"
+        "url": "https://github.com/jondmarien/orca-discord-presence.git",
+        "ref": "v1.1.0"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -13138,6 +13179,143 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "d445060c9b6109a951e070d2af539eaef30d8a4d",
+          "contentHash": "8f57ced7fab3ca6463086dd3c02d2ae1986356c661086385c9b423f680a29f02",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich Presence for Discord",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Rich Presence"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Enable/Disable"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show or Hide Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Reload RPC"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Cycle Detail Level"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Branch"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent State"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Terminal Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Machine Name"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Elapsed Timer"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Debug Logging"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Open Button"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Clear"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Configure"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Discord"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jondmarien.discord-presence/e2b815ffd538f18f.webp",
+              "alt": "Rich Presence for Discord: title, four agent state icons, Discord profile card showing Working in Orca",
+              "sha256": "e2b815ffd538f18f7f58150cedcf3af570393b1f7ac8cd67ae66196e539a96f3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jondmarien.discord-presence/97715988bb458fac.png",
+              "alt": "Rich Presence for Discord icon",
+              "sha256": "97715988bb458fac7de742d5ed999f4638639ca22eb9a3006b792b9d678bb093",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jondmarien.discord-presence/47f6349c40c45689.webp",
+                "alt": "Rich Presence panel Full view: Discord profile preview, last 30 minutes of agent states, agent list with chat names, and Show on Discord switches",
+                "sha256": "47f6349c40c45689b272e19ab03104995178b8b04fae992aebfb4419899d1cd0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jondmarien.discord-presence/8b25f52a96af6933.webp",
+                "alt": "Rich Presence panel Minimal view: state-coloured hero showing Working with 2 agents and a timer, plus the 30-minute strip",
+                "sha256": "8b25f52a96af693320c093d33bb7bc6b768d6e782dd7d7d2c6c67f34ea34cfe7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jondmarien/orca-discord-presence",
+          "updatedAt": "2026-11-12T06:04:36-05:00"
+        },
         {
           "version": "1.0.3",
           "commit": "1b858e5ad9c72e3bb9f10e4ed16e0af8928f6784",
@@ -13670,8 +13848,8 @@
       "ownerId": 334841805,
       "source": {
         "kind": "git",
-        "url": "https://github.com/kloppers-labs/orca-azure-devops.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.3.1"
       },
       "description": "Unofficial. Azure DevOps work items, boards, pipelines, pull requests and wikis in the Orca sidebar.",
       "categories": [

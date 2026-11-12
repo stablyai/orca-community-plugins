@@ -167,6 +167,12 @@
     "repoId": 1447664604,
     "firstSeen": "2026-11-10T09:00:20.371Z"
   },
+  "anthony-fp.agent-inbox@0.4.1": {
+    "commit": "d52241d59231068f9bb840627015df4e18cfba34",
+    "contentHash": "baf0fda6c28d1382618a17cbf5c5ba6261d7992ef87a8a9ccb6ed968c09ab82a",
+    "repoId": 1447664604,
+    "firstSeen": "2026-11-12T11:14:19.179Z"
+  },
   "arnaudrinquin.pomodoro@1.0.0": {
     "commit": "98171e08b698cbf0a957c48e33a4c61960a44e95",
     "contentHash": "280d9ff355b6f7b5aca01ed1e99a52c8af00c06619ae1c0ee9b4b3f74a39f1d8",
@@ -1372,6 +1378,12 @@
     "contentHash": "808a651a46c429b6196d7a01a9092cd17ec69a5c9a51676c92b2beaf8b161eda",
     "repoId": 1357830522,
     "firstSeen": "2026-11-10T06:22:46.613Z"
+  },
+  "jondmarien.discord-presence@1.1.0": {
+    "commit": "d445060c9b6109a951e070d2af539eaef30d8a4d",
+    "contentHash": "8f57ced7fab3ca6463086dd3c02d2ae1986356c661086385c9b423f680a29f02",
+    "repoId": 1357830522,
+    "firstSeen": "2026-11-12T11:14:19.179Z"
   },
   "joneszeng.orchestra@0.2.2": {
     "commit": "a97172382ee0c9eeee0d35de1a7ecf3f297827c0",
