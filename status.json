@@ -334,7 +334,7 @@
     },
     "choihjin/orca-containers": {
       "state": "rejected",
-      "ref": "v0.1.2",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "under-review",
@@ -1607,7 +1607,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.4.1",
+      "ref": "v0.4.4",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -1903,11 +1903,11 @@
     },
     "vzxxbacq/orca-colab": {
       "state": "rejected",
-      "ref": "v0.2.5",
+      "ref": "v0.3.0",
       "reasons": [
         {
-          "category": "under-review",
-          "detail": "code, name"
+          "category": "reserved-name",
+          "detail": "name \"Orca Colab Community\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
         }
       ]
     },
@@ -1967,10 +1967,13 @@
       ]
     },
     "yeonjin1357/orca-line-blame": {
-      "state": "listed",
-      "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.1",
-      "plugins": [
-        "yeonjin1357.line-blame"
+      "state": "rejected",
+      "ref": "v0.1.2",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "no catalog release entry: committed plugin is not installable (a catalog would list it differently: the listed contributions do not match the catalog release)"
+        }
       ]
     },
     "yuribodo/neon-horizon": {

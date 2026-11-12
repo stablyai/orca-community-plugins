@@ -22187,14 +22187,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.4.1"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.4.4"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.4",
+          "commit": "c57cb9ec28898b37873f36c5590cbb67d24aaf67",
+          "contentHash": "8a06f462fbe47d542417119056faf1e3d20cee1dc787e91eae5a9f3c8cf049cd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-12T04:34:39Z"
+        },
         {
           "version": "0.4.1",
           "commit": "4808dcbc40e6f4af79de9902a58407d93d5c45e9",
@@ -22286,38 +22309,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-09T23:58:59+05:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "00fab65ae82fbf9856e0f081173c0240fcff9d42",
-          "contentHash": "bb1359b6b5c36c48542fe83ec8795cb3771f047c4e0834341a6044a5ecced1e3",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "run"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "notifications:show",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-09T15:45:15+05:00"
         }
       ]
     },
@@ -25566,176 +25557,6 @@
           "license": "MIT",
           "repository": "https://github.com/xclas721/xclas721-theme",
           "updatedAt": "2026-11-11T15:27:18+08:00"
-        }
-      ]
-    },
-    {
-      "id": "yeonjin1357.line-blame",
-      "ownerId": 85864510,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.1"
-      },
-      "description": "See who changed a line, when and why, without leaving Orca. Click a line for its commit, then step back through the commits that changed it before.",
-      "categories": [],
-      "releases": [
-        {
-          "version": "0.1.1",
-          "commit": "3005178ad4adc76df5cffd7ac46194f3f10a8e51",
-          "contentHash": "e1b49f55373cbe825c5b15681592ce4fe65f5a0cef0beaf83960ceeeb9f89362",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Line Blame",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".vue, .ts, .tsx, .mts, .cts, .js, .jsx, .mjs, .cjs, .scss, .css, .json, .md, .html, .yaml, .yml, .sh"
-            }
-          ],
-          "capabilities": [
-            "workspace:read"
-          ],
-          "fileTypes": [
-            "vue",
-            "ts",
-            "tsx",
-            "mts",
-            "cts",
-            "js",
-            "jsx",
-            "mjs",
-            "cjs",
-            "scss",
-            "css",
-            "json",
-            "md",
-            "html",
-            "yaml",
-            "yml",
-            "sh"
-          ],
-          "editorFileTypes": [
-            "vue",
-            "ts",
-            "tsx",
-            "mts",
-            "cts",
-            "js",
-            "jsx",
-            "mjs",
-            "cjs",
-            "scss",
-            "css",
-            "json",
-            "md",
-            "html",
-            "yaml",
-            "yml",
-            "sh"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/yeonjin1357.line-blame/69e0ddddecfe0c76.png",
-              "alt": "A code file in the Blame view: the clicked line shows its author, date and commit title, and a card shows what that commit changed.",
-              "sha256": "69e0ddddecfe0c76c76ca497d5452fa644c128e91e10d2823bdee2a36782ba48",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/yeonjin1357.line-blame/d1a9ef33705d8b39.png",
-              "alt": "Line Blame icon",
-              "sha256": "d1a9ef33705d8b39820682d362bfca0fde08492054f571dda84ef76fd6e5ab8e",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/yeonjin1357.line-blame/87a8c6526bfc278b.png",
-                "alt": "The clicked line shows who changed it and when; a card shows the commit message and the line before and after.",
-                "sha256": "87a8c6526bfc278b11e870beb36955a3377f3ed3bb3965431843c28469ea9a70",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/yeonjin1357.line-blame/36ef721ecab6de52.png",
-                "alt": "The card pinned on an earlier change of the same line, with buttons to step earlier and later.",
-                "sha256": "36ef721ecab6de52f560d53e69011313ae61913d0e89910d4992188dd61b9c3b",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/yeonjin1357.line-blame/1dacd67a6ce4d1bd.png",
-                "alt": "The find bar open with every match highlighted in the file.",
-                "sha256": "1dacd67a6ce4d1bd00b20c429007bcd6f3275d972ea72502aaa9e043cb86f746",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/yeonjin1357/orca-line-blame",
-          "updatedAt": "2026-11-12T11:43:24+09:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "45165ad5e5f9ea0b2978c7b0a8ea1f72c171a996",
-          "contentHash": "cf6786b039a29a998472c4df08b51b2d494bff0ad867fc4d27f399fc95aa43ce",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Line Blame",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".vue, .ts, .tsx, .mts, .cts, .js, .jsx, .mjs, .cjs, .scss, .css, .json, .md, .html, .yaml, .yml, .sh"
-            }
-          ],
-          "capabilities": [
-            "workspace:read"
-          ],
-          "fileTypes": [
-            "vue",
-            "ts",
-            "tsx",
-            "mts",
-            "cts",
-            "js",
-            "jsx",
-            "mjs",
-            "cjs",
-            "scss",
-            "css",
-            "json",
-            "md",
-            "html",
-            "yaml",
-            "yml",
-            "sh"
-          ],
-          "editorFileTypes": [
-            "vue",
-            "ts",
-            "tsx",
-            "mts",
-            "cts",
-            "js",
-            "jsx",
-            "mjs",
-            "cjs",
-            "scss",
-            "css",
-            "json",
-            "md",
-            "html",
-            "yaml",
-            "yml",
-            "sh"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/yeonjin1357/orca-line-blame",
-          "updatedAt": "2026-11-12T11:12:57+09:00"
         }
       ]
     },
