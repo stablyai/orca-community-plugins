@@ -5485,6 +5485,58 @@
       ]
     },
     {
+      "id": "ctodarealpro.specsmd-fire",
+      "ownerId": 6902605,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ctodarealpro/orca-specsmd.git",
+        "ref": "v0.2.0",
+        "path": "plugin"
+      },
+      "description": "Painel não oficial para projetos specs.md no Orca: runs ativas e concluídas, intents e work items com progresso e visão geral do projeto FIRE (.specs-fire), como a extensão do VS Code.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "f83363e5072777c504a1d2a9322174726ec81e2a",
+          "contentHash": "4c18e78204d8603e79704c9c03cb6deb11c753397159184f51232ab39b370873",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "FIRE board for specs.md",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "specs.md"
+            },
+            {
+              "kind": "commands",
+              "name": "specs.md: recarregar o projeto FIRE"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "FIRE"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ctodarealpro/orca-specsmd",
+          "updatedAt": "2026-11-12T16:38:47-03:00"
+        }
+      ]
+    },
+    {
       "id": "cuni0716.monokai-pro-ce-theme",
       "ownerId": 9133999,
       "source": {
@@ -14264,8 +14316,8 @@
       "ownerId": 68127491,
       "source": {
         "kind": "git",
-        "url": "https://github.com/klausbegnis/agent-center.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/klausbegnis/agent-center/0.1.0"
       },
       "description": "One room per project where every agent and subagent is a character acting out what it is doing. Swappable themes.",
       "categories": [
@@ -23731,12 +23783,72 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.2.1"
+        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
+        "ref": "v1.2.2"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.2.2",
+          "commit": "6b23e44655e85595c69f6db5909176e0add34672",
+          "contentHash": "c0c4f28019e56609464d4caed452bb59a6bbb30ebeed8f3afd5a7fb4b23b735e",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".adoc, .asciidoc, .asc"
+            }
+          ],
+          "fileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "editorFileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/schowave.asciidoc-diagrams/e6d912e0e6521f26.jpg",
+              "alt": "The plugin name and formats next to a rendered C4 context diagram",
+              "sha256": "e6d912e0e6521f26e026c1c89efe345c0aff0798bb8e90149cfb22d04c3d3c7e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/schowave.asciidoc-diagrams/a7250fb91f413a05.png",
+              "alt": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz icon",
+              "sha256": "a7250fb91f413a05516471026ad9bf40192d19bef32d0fd51331bb1860e7ce11",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/schowave.asciidoc-diagrams/fd5bee4f7704ad2f.png",
+                "alt": "Architecture document with a PlantUML sequence diagram and a Mermaid state diagram in a light theme",
+                "sha256": "fd5bee4f7704ad2fe4f8167d07c7f8ceb33a46c81eea948bc80b5691c3ec2792",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/schowave.asciidoc-diagrams/ccb442aac523bb5f.png",
+                "alt": "Dark theme: a Graphviz event diagram, highlighted TypeScript and a KaTeX formula",
+                "sha256": "ccb442aac523bb5f2ffa7cae59f29878900b0ecc7675b26870c7b3def8379ec6",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/schowave/orca-asciidoc-diagrams",
+          "updatedAt": "2026-11-12T22:43:29Z"
+        },
         {
           "version": "1.2.1",
           "commit": "7de4d87f97e9f258322ce1d0d4dd1f4a42417054",

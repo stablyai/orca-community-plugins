@@ -422,13 +422,10 @@
       ]
     },
     "ctodarealpro/orca-specsmd": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "ctodarealpro.specsmd-fire"
       ]
     },
     "cuni0716/monokai-pro-orca": {
@@ -1043,7 +1040,7 @@
     },
     "klausbegnis/agent-center": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/klausbegnis/agent-center/0.1.0",
       "plugins": [
         "klausbegnis.agent-center"
       ]
@@ -1823,7 +1820,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.2.1",
+      "ref": "v1.2.2",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ]
