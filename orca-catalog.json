@@ -18703,8 +18703,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.2.0"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -19715,8 +19715,8 @@
       "ownerId": 20598460,
       "source": {
         "kind": "git",
-        "url": "https://github.com/OstKost/avari-glow-orca-tweaks.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ostkost/avari-glow-orca-tweaks/0.1.1"
       },
       "description": "Optional macOS interface tweaks for Avari Glow. Builds a local tool with Go and modifies Orca.app after an explicit action.",
       "categories": [
@@ -23596,12 +23596,72 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.2.0"
+        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
+        "ref": "v1.2.1"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "7de4d87f97e9f258322ce1d0d4dd1f4a42417054",
+          "contentHash": "3d7999741fe9b5edf23b1781049cd6647f605886f83eecfe15a1bf23ae864d6b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".adoc, .asciidoc, .asc"
+            }
+          ],
+          "fileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "editorFileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/schowave.asciidoc-diagrams/9a828b4b65631452.png",
+              "alt": "AsciiDoc document with a C4 context diagram rendered next to its table of contents",
+              "sha256": "9a828b4b65631452db1d42d5c6f6b463e12a4e001c826158884e30319706ca6b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/schowave.asciidoc-diagrams/a7250fb91f413a05.png",
+              "alt": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz icon",
+              "sha256": "a7250fb91f413a05516471026ad9bf40192d19bef32d0fd51331bb1860e7ce11",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/schowave.asciidoc-diagrams/4c22cf2df2326632.png",
+                "alt": "Architecture document with PlantUML C4, sequence and Mermaid diagrams in a light theme",
+                "sha256": "4c22cf2df232663299aaa722368112d37de2b2192716bc55c88ce559f8e8f8be",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/schowave.asciidoc-diagrams/0753e500d72b7ebd.png",
+                "alt": "Dark theme: a Graphviz event diagram, highlighted TypeScript and a KaTeX formula",
+                "sha256": "0753e500d72b7ebddcada6f214a9dd66ddf9a1972cea98994058e9c5fa2e9dc6",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/schowave/orca-asciidoc-diagrams",
+          "updatedAt": "2026-11-12T22:12:17Z"
+        },
         {
           "version": "1.2.0",
           "commit": "2bf19740cd72ec2067ed3245727b8b50d55ee1a3",
