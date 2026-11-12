@@ -9,8 +9,8 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/1am/orca-agent-deck/0.2.1"
+        "url": "https://github.com/1am/orca-agent-deck.git",
+        "ref": "v0.2.2"
       },
       "description": "Shows Orca agent status on a Stream Deck and focuses panes from it.",
       "categories": [
@@ -18,6 +18,73 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "38c0afa8d66d36ebea2569dd6a77bf3256df331d",
+          "contentHash": "d7a6479deafe350d280885692757e4ecfdd7a845032ebc1abdc7e8e4cca97769",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Agent Deck for Orca",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Map pane to key"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Unmap pane"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Show status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/1am.agent-deck/b07fbe48c19bafb5.png",
+              "alt": "A Stream Deck showing Orca agent panes as colored keys: working, done, idle and empty",
+              "sha256": "b07fbe48c19bafb54ee1a71075d662e54158f015e5c17501610c96a3f630e0cd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/1am.agent-deck/e9db045d1cf33093.png",
+              "alt": "Agent Deck for Orca icon",
+              "sha256": "e9db045d1cf330937b3774c86cc6af156744f7580dfe05305e8f261f77c4e416",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/1am.agent-deck/1e88ece0ccdbc3af.png",
+                "alt": "A 5x3 Stream Deck grid of Orca pane keys with status icons",
+                "sha256": "1e88ece0ccdbc3afe5f9fb72db863ec73165c5b178fdcd86ebf28e801c4ed6e5",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/1am/orca-agent-deck",
+          "updatedAt": "2026-11-12T22:09:45+01:00"
+        },
         {
           "version": "0.2.1",
           "commit": "e3ad47183285c7d675a9a1a9e53c6ccff8fdd476",
@@ -8452,6 +8519,119 @@
       ]
     },
     {
+      "id": "faisalmuhammad.assets-library",
+      "ownerId": 3476670,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-assets-library.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Automatically discover agent-generated images, videos, SVGs, Markdown and HTML in your current Orca worktree, including outputs from identifiable past chats.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "337264e30595fb3dee1f01227d8eb8594d5ec9ac",
+          "contentHash": "3d34f45855476288aed0d5d5ff7bb06bb626fbba05dd3af7be613a4e2af4c223",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.257",
+          "name": "Assets Library",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Assets Library"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.assets-library/c02e5311f8ae5c06.png",
+              "alt": "Assets Library automatically discovers agent-generated images, videos, SVGs, Markdown and HTML in Orca.",
+              "sha256": "c02e5311f8ae5c0633ff4964b68d9764db8c6b3dd29908976ac29706c61d4149",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.assets-library/e209790ad29048a7.png",
+              "alt": "Assets Library icon",
+              "sha256": "e209790ad29048a72caeb5ea02339818b61277fb862c71d7ab0d17c17636ffe5",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.assets-library/d288cf0699b542a1.png",
+                "alt": "Automatically discovered agent-generated image and Markdown samples in Orca’s dark appearance.",
+                "sha256": "d288cf0699b542a104c3b868fe2f756f30870f26b8ea766a27952b2e1b3f4ffb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.assets-library/9c2f907b4b364119.png",
+                "alt": "Automatically discovered image and Markdown samples for the active Orca worktree in light appearance.",
+                "sha256": "9c2f907b4b364119d473d84ad4543f3fa260ec9a4d1e3cc6e45354f5252b3f33",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.assets-library/5a64bfdc16b8de32.png",
+                "alt": "Assets Library list view with readable filenames, asset types and file sizes.",
+                "sha256": "5a64bfdc16b8de32203b01e94e1fade3e494a6ac446238d7acd00beb252c13b4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.assets-library/b90938d8a1beb421.png",
+                "alt": "Assets Library inspector with a compact rendered Markdown preview and file details.",
+                "sha256": "b90938d8a1beb421f2b923693e27e8f599e86b6a3f68da63645185bd0d611f55",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-assets-library",
+          "updatedAt": "2026-11-12T20:32:55Z"
+        }
+      ]
+    },
+    {
       "id": "faisalmuhammad.graphiql",
       "ownerId": 3476670,
       "source": {
@@ -12614,6 +12794,85 @@
           "license": "MIT",
           "repository": "https://github.com/JargeZ/orca-recipes",
           "updatedAt": "2026-11-07T20:15:42+11:00"
+        }
+      ]
+    },
+    {
+      "id": "javiervinus.vinus-arcade",
+      "ownerId": 24733930,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Javiervinus/vinus-arcade-orca.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Pixel art games for the wait between agents, in an office that is yours: your projects hang on its wall, your agents sit at its desks and send you what they finish while you play, and it takes you to the agent that needs you. The first game is Blip; more are on the way.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "898c7b3bf32103a92dae28f1f9cd83adc5152431",
+          "contentHash": "b463cfae0ce5b0335414bb30643db3d08859a7daba9643a222836530ae6faa68",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Vinus Arcade",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Vinus Arcade"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/javiervinus.vinus-arcade/d528040bcc8a899a.png",
+              "alt": "Vinus Arcade: its seven pixel art characters beside a run of Blip, the first game, in an office at dusk.",
+              "sha256": "d528040bcc8a899a25f8e7d908c9d3cd78d0b23f3a02af996b9677e6b0eb7932",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/javiervinus.vinus-arcade/1e16ea433779d755.png",
+              "alt": "Vinus Arcade icon",
+              "sha256": "1e16ea433779d7558749e3188148a0ddfee54110b7b1e5f117a6960e789aa79d",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/javiervinus.vinus-arcade/10806e16de1cb39e.png",
+                "alt": "Three views of Blip: the office with agents at its desks before a run, a run with the x2 tile, and a project sent in by an agent that finished.",
+                "sha256": "10806e16de1cb39e45da1789c061ac6d682dfc483cffb9b6bfe6b077740d09a4",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/javiervinus.vinus-arcade/65e3ec7252b80004.png",
+                "alt": "A notice from an agent that is waiting, the characters to buy with coins, and the games window with Blip and two games still to come.",
+                "sha256": "65e3ec7252b80004319b50491a580995edfd15230c5f4a413c27061c2b773458",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Javiervinus/vinus-arcade-orca",
+          "updatedAt": "2026-11-12T16:12:00-05:00"
         }
       ]
     },
@@ -19336,6 +19595,75 @@
       ]
     },
     {
+      "id": "ostkost.avari-glow-theme",
+      "ownerId": 20598460,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/OstKost/avari-glow-orca-theme.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Avari Glow dark theme inspired by @SIREN.UIX",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "cb9dce9f9a6a8352f240d642bc3406c85c19f182",
+          "contentHash": "42d24206dc2d37794a5f67586e2ccaf5bbece50987fb54477bc952e0ef54e885",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Avari Glow",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Avari Glow"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Avari Glow"
+            }
+          ],
+          "license": "LicenseRef-Avari",
+          "repository": "https://github.com/OstKost/avari-glow-orca-theme",
+          "updatedAt": "2026-11-13T00:06:45+03:00"
+        }
+      ]
+    },
+    {
+      "id": "ostkost.avari-glow-tweaks",
+      "ownerId": 20598460,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/OstKost/avari-glow-orca-tweaks.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Optional macOS interface tweaks for Avari Glow. Builds a local tool with Go and modifies Orca.app after an explicit action.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "a2c4559b7ab67f3c8e270e2f51f653a986c24834",
+          "contentHash": "252907274e41107f69e1a490929e9b23736984f76e89d46d17ed0d132c861a3b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Avari Glow Tweaks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Avari Glow Tweaks"
+            }
+          ],
+          "license": "LicenseRef-Avari",
+          "repository": "https://github.com/OstKost/avari-glow-orca-tweaks",
+          "updatedAt": "2026-11-13T00:11:01+03:00"
+        }
+      ]
+    },
+    {
       "id": "palulabs.office-tycoon",
       "ownerId": 15814449,
       "source": {
@@ -25950,8 +26278,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tienne/orcatopia.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tienne/orcatopia/0.3.0"
       },
       "description": "Turn waiting time into a little island getaway. Earn tickets from new worktrees, discover world landmarks, and make the island your own.",
       "categories": [

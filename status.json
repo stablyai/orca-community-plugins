@@ -3,7 +3,7 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "refs/tags/1am/orca-agent-deck/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "1am.agent-deck"
       ],
@@ -630,13 +630,10 @@
       ]
     },
     "faisalmuhammad/orca-assets-library": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "faisalmuhammad.assets-library"
       ]
     },
     "faisalmuhammad/orca-graphiql": {
@@ -927,6 +924,13 @@
       "ref": "refs/tags/jargez/orca-recipes/0.1.0",
       "plugins": [
         "jargez.docker-vm"
+      ]
+    },
+    "javiervinus/vinus-arcade-orca": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "javiervinus.vinus-arcade"
       ]
     },
     "jdflament/orca-coordinator": {
@@ -1410,7 +1414,16 @@
       "ref": "refs/tags/mswdev/orca-fleet-monitor/1.1.0",
       "plugins": [
         "mswdev.fleet-monitor"
-      ]
+      ],
+      "update": {
+        "ref": "v1.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "nachodeluca/orca-discord-presence": {
       "state": "rejected",
@@ -1494,6 +1507,20 @@
       "ref": "refs/tags/ossianravn/orca-cache-expiry/0.1.0",
       "plugins": [
         "ossianravn.cache-expiry"
+      ]
+    },
+    "ostkost/avari-glow-orca-theme": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "ostkost.avari-glow-theme"
+      ]
+    },
+    "ostkost/avari-glow-orca-tweaks": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "ostkost.avari-glow-tweaks"
       ]
     },
     "palulabs/orca-tycoon": {
@@ -1986,7 +2013,7 @@
     },
     "tienne/orcatopia": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/tienne/orcatopia/0.3.0",
       "plugins": [
         "tienne.landmark-island"
       ]
