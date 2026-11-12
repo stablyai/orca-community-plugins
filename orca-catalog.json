@@ -1972,8 +1972,8 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BautistaPessagno/orca-calendar.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bautistapessagno/orca-calendar/0.3.0"
       },
       "description": "Your Google Calendar in Orca's sidebar: today's agenda and the next days with your Google Tasks, the next meeting counting down in the status bar, a join button for Meet, Zoom, Teams and Slack huddles, and a reminder before each meeting. Works with your Mac's calendars with no setup. Not affiliated ",
       "categories": [
@@ -2243,8 +2243,8 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BautistaPessagno/orca-spotify.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bautistapessagno/orca-spotify/1.1.0"
       },
       "description": "Spotify or Apple Music in Orca's sidebar: Home, your library, search, queue and devices for Spotify, the Music app's player for Apple Music, plus a now-playing status bar item. Your coding agents can play, pause, search and queue too. Works with the Spotify or Music app on a Mac out of the box. Not ",
       "categories": [
@@ -4483,8 +4483,8 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/choihjin/orca-containers.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/choihjin/orca-containers/0.4.0"
       },
       "description": "Lists and manages containers, images, volumes and networks on this computer (macOS or Linux) and on Linux or macOS SSH hosts from a sidebar panel: logs in the panel, a shell and image pulls in an Orca terminal.",
       "categories": [
@@ -7151,8 +7151,8 @@
       "ownerId": 90901839,
       "source": {
         "kind": "git",
-        "url": "https://github.com/duck1eee/void-glow.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/duck1eee/void-glow/1.0.0"
       },
       "description": "A near-black deep-space theme with a realistic starfield and drifting cosmic dust wallpaper, plus a pure OLED black variant. To see the wallpaper, set \"Background Opacity\" below 1 and turn off \"Reduce Visual Effects\".",
       "categories": [
@@ -11284,14 +11284,62 @@
       "ownerId": 663999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.6.0"
+        "url": "https://github.com/IBazylchuk/orca-plugin-openspec-board.git",
+        "ref": "v0.6.1"
       },
       "description": "Kanban board for OpenSpec spec-driven development: every change by stage with task progress, next step, ticket and GitHub pull requests. Apply and Finish send /opsx:apply, a finish check or your own command to the Claude Code or Codex agent of the change's own workspace, or start that workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "bb0b92422717f7666285380e6c931f2dc53e67cf",
+          "contentHash": "63ad3bef5e1ae7e98d0b5412113f479fe2bd210e5ca6fc1e4b5c61559fb396f1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenSpec Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec Board"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ibazylchuk.openspec-board/fce975932e50d9af.png",
+              "alt": "OpenSpec Board for Orca: the board panel with changes grouped by stage (demo data)",
+              "sha256": "fce975932e50d9afdd060617fb5d7e9823453ae0868b960d5f2981f765822c32",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/ibazylchuk.openspec-board/20dd99adb9b897e0.png",
+                "alt": "The board in dark theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "20dd99adb9b897e031fab441b8ff2b626c665100f6a4d109e7eee162a3e23200",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/ibazylchuk.openspec-board/65a7d7f76aa6442d.png",
+                "alt": "The board in light theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
+                "sha256": "65a7d7f76aa6442de396e8a2823d72cb5f2ae9b2054071c853d16905e4e87d7e",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
+          "updatedAt": "2026-11-12T10:28:37+01:00"
+        },
         {
           "version": "0.6.0",
           "commit": "17eb49c0c5cb27cb5c10e0d89ec1b8ad32e08d0a",
@@ -11483,54 +11531,6 @@
           "license": "MIT",
           "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
           "updatedAt": "2026-11-09T20:39:58+01:00"
-        },
-        {
-          "version": "0.3.3",
-          "commit": "e1177c6346fee6ac9d4620bf76b6830400db7b40",
-          "contentHash": "9ed0b715dcf1747ef396e554d93f42d5f8eb2b3a478a77533c0bc44cd4f65030",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "OpenSpec Board",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "OpenSpec Board"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "terminal:send"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ibazylchuk.openspec-board/27e2b7dba9975d04.png",
-              "alt": "OpenSpec Board for Orca: the board panel with changes grouped by stage (demo data)",
-              "sha256": "27e2b7dba9975d04405501254e39c6d379f657bfcdb1cdd3ba1832e7bbf6a6de",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/ibazylchuk.openspec-board/91181094ffc4e536.png",
-                "alt": "The board in dark theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
-                "sha256": "91181094ffc4e5366407a2f573a19affd5a1b3ee05205eff51dcbd563ac90e46",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/ibazylchuk.openspec-board/f09310dd0b1d02a1.png",
-                "alt": "The board in light theme: stage filter buttons, a change in review with its open pull request, and a merged change with Finish (demo data)",
-                "sha256": "f09310dd0b1d02a1d46d0d94be523ba567dd19a95ae708b76bfe2c1cf797edf6",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
-          "updatedAt": "2026-11-09T20:01:25+01:00"
         }
       ]
     },
@@ -12890,8 +12890,8 @@
       "ownerId": 210427748,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jolynestarchaser/orca-svg-annotate.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jolynestarchaser/orca-svg-annotate/0.1.1"
       },
       "description": "Mark up an SVG exported from Figma (pins, pen, highlight, rectangles, ellipses, arrows, text), write what each mark means, and copy one prompt for your AI agent. No Figma MCP needed.",
       "categories": [],
@@ -22523,8 +22523,8 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/serhii-f8/orca-Docker.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/serhii-f8/orca-docker/0.1.2"
       },
       "description": "Manage Docker Compose projects and containers from Orca's sidebar: colour-coded status, Up/Stop/Restart/Down, live logs and a one-click shell.",
       "categories": [
