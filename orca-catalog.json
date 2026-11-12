@@ -27064,8 +27064,8 @@
       "ownerId": 92390114,
       "source": {
         "kind": "git",
-        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
-        "ref": "v1.0.14"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.14"
       },
       "description": "Spread agent work across your Claude, Codex and other accounts by the quota each one has left, and run every test through one machine-wide queue so parallel worktrees don't overload the machine or share a test database.",
       "categories": [

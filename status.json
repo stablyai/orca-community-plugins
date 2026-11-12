@@ -2086,7 +2086,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "listed",
-      "ref": "v1.0.14",
+      "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.14",
       "plugins": [
         "victorstochero.agent-pool"
       ]
