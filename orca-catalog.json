@@ -14260,6 +14260,141 @@
       ]
     },
     {
+      "id": "klausbegnis.agent-center",
+      "ownerId": 68127491,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/klausbegnis/agent-center.git",
+        "ref": "v0.1.0"
+      },
+      "description": "One room per project where every agent and subagent is a character acting out what it is doing. Swappable themes.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c726b5c81798cf1ccc0d3a44e4dee0f1cad071c4",
+          "contentHash": "92a41e8a73f6675680890878ced01a1f56c9247e35514712002a1174474a90db",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Center",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Center"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Center: Show or Hide the Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Center: External View Address"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agent Center",
+              "detail": ".agentcenter"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Agent Center",
+              "detail": ".agentcenter"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Agents"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "agentcenter"
+          ],
+          "editorFileTypes": [
+            "agentcenter"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/klausbegnis.agent-center/fefbebb77f36e741.png",
+              "alt": "Six project rooms in Gallery view, each with its agents as characters",
+              "sha256": "fefbebb77f36e7415b968ba670be7ed2d57be25a3bbb142deeff5488ee49610b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/klausbegnis.agent-center/737c419820822d08.png",
+              "alt": "Agent Center icon",
+              "sha256": "737c419820822d080c4791e02418fbee834449fbacefb6e3a2d872c4f325de9b",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/klausbegnis.agent-center/2ba3721972721d39.png",
+                "alt": "Six project rooms in Gallery view on three themes",
+                "sha256": "2ba3721972721d392f02b471b8d2e4ffb458facd4bc955e073dc2f4ed6fe9dc0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/62b59256345f5933.png",
+                "alt": "The Pixel Dark theme: a developer office with agents at their desks",
+                "sha256": "62b59256345f593372329939fb2eed2a2d3b791122b068b1ba7d54eb8fb463b9",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/934c84c3cdcc84e2.png",
+                "alt": "The Guild Hall theme: agents by the fireplace, one with a familiar",
+                "sha256": "934c84c3cdcc84e248284388cbc637f5d07a7e6f5b932f954937c97e71ad6d42",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/e467ac0220565759.png",
+                "alt": "The Gothic Dungeon theme: an agent with three familiars",
+                "sha256": "e467ac0220565759069afe5ebf269d0166804572f3053c3216a3aaff9d17fef5",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/klausbegnis/agent-center",
+          "updatedAt": "2026-11-12T19:38:54-03:00"
+        }
+      ]
+    },
+    {
       "id": "kloppers-labs.azure-devops",
       "ownerId": 334841805,
       "source": {
@@ -23596,8 +23731,8 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.2.1"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],

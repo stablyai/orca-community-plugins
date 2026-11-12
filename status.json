@@ -1041,6 +1041,13 @@
         "kianxm.luau-syntax"
       ]
     },
+    "klausbegnis/agent-center": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "klausbegnis.agent-center"
+      ]
+    },
     "klcd/ade-nvidia-openshell-plugin": {
       "state": "rejected",
       "ref": "v0.3.0",
@@ -1049,6 +1056,23 @@
         {
           "path": "orca-plugin",
           "id": "openshell-bridge",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "code"
+            }
+          ]
+        }
+      ]
+    },
+    "klcd/agent-cli-permissions": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [],
+      "plugins": [
+        {
+          "path": "orca-plugin",
+          "id": "agent-permissions",
           "reasons": [
             {
               "category": "under-review",
@@ -1799,7 +1823,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "v1.2.1",
+      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.2.1",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ]
