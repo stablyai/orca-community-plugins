@@ -299,6 +299,16 @@
         "brodesigns.woodpecker-status"
       ]
     },
+    "buravchik/orca-claude-key": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
       "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.8",
@@ -408,6 +418,16 @@
       "reasons": [
         {
           "category": "manifest-format"
+        }
+      ]
+    },
+    "ctodarealpro/orca-specsmd": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
         }
       ]
     },
@@ -1253,7 +1273,7 @@
     },
     "miragon/orca-plugins": {
       "state": "rejected",
-      "ref": "v0.1.25",
+      "ref": "v0.1.27",
       "reasons": [],
       "plugins": [
         {
@@ -1486,7 +1506,7 @@
     },
     "pierreb40/claude-memory": {
       "state": "listed",
-      "ref": "refs/tags/pierreb40/claude-memory/0.4.0",
+      "ref": "v0.4.1",
       "plugins": [
         "pierreb40.claude-memory"
       ]
@@ -1794,14 +1814,14 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.5.0",
+      "ref": "v0.5.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]
     },
     "shu-vro/orca-read-aloud": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/shu-vro/orca-read-aloud/0.1.0",
       "plugins": [
         "shu-vro.read-aloud"
       ]

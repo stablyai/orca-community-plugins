@@ -19827,8 +19827,8 @@
       "ownerId": 29147306,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/pierreb40/claude-memory/0.4.0"
+        "url": "https://github.com/PierreB40/claude-memory.git",
+        "ref": "v0.4.1"
       },
       "description": "What Claude Code remembers about the project in front of you, and what no longer holds: memories citing deleted code, broken links, entries Claude cannot see. Read any memory in place; hand the fixes to a new Claude.",
       "categories": [
@@ -19837,6 +19837,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "e2dc2edac41e2a6ba6855659e68d00b0dffcd57b",
+          "contentHash": "2615fcfaa13cae23d3352c16165671d057a35d2bfa9bcd8c5fa8d0eecb49eaef",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Memory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Memory"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Show or Hide the Sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Have Claude Verify the Memory"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": " "
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pierreb40.claude-memory/c8b313b6c9a70bb0.png",
+              "alt": "The panel listing memories to verify: a deleted file in the index, a broken link, a cited file not found, one to update at merge.",
+              "sha256": "c8b313b6c9a70bb01344c48a0ff5ad8b28be75da32886508cf1f2514873ca1bb",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/pierreb40.claude-memory/9861cfd2cd2d6c0b.png",
+              "alt": "Claude Memory icon",
+              "sha256": "9861cfd2cd2d6c0babdd01ba9b6a941aebca4bfd3cd5b4800fa3d6333876c0c1",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/pierreb40.claude-memory/62af216fbeb586be.png",
+                "alt": "The panel’s three tabs side by side: memories to verify, what Claude learned this week, and every memory grouped by type.",
+                "sha256": "62af216fbeb586be3bbae308bdc20cb1bef190b7304280ca1b4482e42480a8ab",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/PierreB40/claude-memory",
+          "updatedAt": "2026-11-12T20:23:31+01:00"
+        },
         {
           "version": "0.4.0",
           "commit": "2c33aed1928821496eadacc48cbe3379d75e43df",
@@ -24349,14 +24425,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.5.0"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.5.1"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.1",
+          "commit": "6ac9c9ac7f31d7dec02088dc47fad83e79ec7111",
+          "contentHash": "bfe387a63b0d4c9ca2cea49610a785756280570282458a313e9ce5fdbcbbee7f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-12T19:23:27Z"
+        },
         {
           "version": "0.5.0",
           "commit": "7df7bd08059163e1cd433a86f67cbecd04e15532",
@@ -24448,29 +24547,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-11T11:27:02Z"
-        },
-        {
-          "version": "0.4.0",
-          "commit": "a48992d37f3b86864c72e7793d6bac8e2eb58947",
-          "contentHash": "34efa4ff258d626c34d903fe4b63663352588aaa588bca3a08bd012d58fe1658",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-10T22:38:43Z"
         }
       ]
     },
@@ -24479,8 +24555,8 @@
       "ownerId": 72239897,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shu-vro/orca-read-aloud.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shu-vro/orca-read-aloud/0.1.0"
       },
       "description": "Read chat replies and any other text aloud with Microsoft Edge neural voices, highlighting each word as it is spoken.",
       "categories": [
