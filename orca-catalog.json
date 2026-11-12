@@ -17138,8 +17138,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.0.0"
       },
       "description": "Live CPU, memory, load and the busiest workspaces for this computer and every paired Orca server, in one sidebar panel.",
       "categories": [
