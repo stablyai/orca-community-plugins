@@ -400,7 +400,16 @@
       "ref": "refs/tags/coffeepy/swampling/0.5.0",
       "plugins": [
         "coffeepy.swampling"
-      ]
+      ],
+      "update": {
+        "ref": "v0.5.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "craig-franklin/orca-commit-review": {
       "state": "rejected",
@@ -1242,15 +1251,80 @@
         "miragon.team-topologies-modeler",
         "miragon.value-chain-modeler",
         "miragon.wardley-maps-modeler"
-      ],
-      "rejected": [
+      ]
+    },
+    "miragon/orca-plugins": {
+      "state": "rejected",
+      "ref": "v0.1.25",
+      "reasons": [],
+      "plugins": [
+        {
+          "path": "plugins/value-chain-modeler",
+          "id": "value-chain-modeler",
+          "reasons": [
+            {
+              "category": "identity-hold",
+              "detail": "moved from Miragon/orca-modelers (miragon.value-chain-modeler) to Miragon/orca-plugins (miragon.value-chain-modeler); new versions paused until a maintainer confirms the move in identity-moves.json"
+            }
+          ]
+        },
+        {
+          "path": "plugins/wardley-maps-modeler",
+          "id": "wardley-maps-modeler",
+          "reasons": [
+            {
+              "category": "identity-hold",
+              "detail": "moved from Miragon/orca-modelers (miragon.wardley-maps-modeler) to Miragon/orca-plugins (miragon.wardley-maps-modeler); new versions paused until a maintainer confirms the move in identity-moves.json"
+            }
+          ]
+        },
+        {
+          "path": "plugins/event-storming-modeler",
+          "id": "event-storming-modeler",
+          "reasons": [
+            {
+              "category": "identity-hold",
+              "detail": "moved from Miragon/orca-modelers (miragon.event-storming-modeler) to Miragon/orca-plugins (miragon.event-storming-modeler); new versions paused until a maintainer confirms the move in identity-moves.json"
+            }
+          ]
+        },
+        {
+          "path": "plugins/team-topologies-modeler",
+          "id": "team-topologies-modeler",
+          "reasons": [
+            {
+              "category": "identity-hold",
+              "detail": "moved from Miragon/orca-modelers (miragon.team-topologies-modeler) to Miragon/orca-plugins (miragon.team-topologies-modeler); new versions paused until a maintainer confirms the move in identity-moves.json"
+            }
+          ]
+        },
+        {
+          "path": "plugins/context-maps-modeler",
+          "id": "context-maps-modeler",
+          "reasons": [
+            {
+              "category": "identity-hold",
+              "detail": "moved from Miragon/orca-modelers (miragon.context-maps-modeler) to Miragon/orca-plugins (miragon.context-maps-modeler); new versions paused until a maintainer confirms the move in identity-moves.json"
+            }
+          ]
+        },
         {
           "path": "plugins/bpmn-modeler",
           "id": "bpmn-modeler",
           "reasons": [
             {
-              "category": "under-review",
-              "detail": "size, update"
+              "category": "identity-hold",
+              "detail": "moved from Miragon/orca-modelers (miragon.bpmn-modeler) to Miragon/orca-plugins (miragon.bpmn-modeler); new versions paused until a maintainer confirms the move in identity-moves.json"
+            }
+          ]
+        },
+        {
+          "path": "plugins/business-model-canvas-modeler",
+          "id": "business-model-canvas-modeler",
+          "reasons": [
+            {
+              "category": "identity-hold",
+              "detail": "moved from Miragon/orca-modelers (miragon.business-model-canvas-modeler) to Miragon/orca-plugins (miragon.business-model-canvas-modeler); new versions paused until a maintainer confirms the move in identity-moves.json"
             }
           ]
         }
@@ -1386,7 +1460,7 @@
     },
     "ossianravn/orca-cache-expiry": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/ossianravn/orca-cache-expiry/0.1.0",
       "plugins": [
         "ossianravn.cache-expiry"
       ]
@@ -1722,7 +1796,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.4.5",
+      "ref": "v0.5.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]

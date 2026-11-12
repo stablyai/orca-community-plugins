@@ -19313,8 +19313,8 @@
       "ownerId": 29551107,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ossianravn/orca-cache-expiry.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ossianravn/orca-cache-expiry/0.1.0"
       },
       "description": "How long each Claude Code session's prompt cache has left, in the status bar and a sidebar panel. Needs the cache-expiry-handoff Claude Code mod.",
       "categories": [
@@ -24164,14 +24164,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.4.5"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.5.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "7df7bd08059163e1cd433a86f67cbecd04e15532",
+          "contentHash": "54d8a3550ea7d14cffe928036c32dffe7a7b20cc3c994befa262d5b9d355de69",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-12T15:48:29Z"
+        },
         {
           "version": "0.4.5",
           "commit": "15596002c4c3d7354aeef440264496efd63c9d22",
@@ -24263,29 +24286,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-10T22:38:43Z"
-        },
-        {
-          "version": "0.3.0",
-          "commit": "4989dcd1b350455805daa7c027a52ef68fe9ceb2",
-          "contentHash": "7e2dafbd076cffa2cf0443a7ebb822d63c7ab0bc17f444d1d3bfede17c7b7b6b",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-10T08:17:20Z"
         }
       ]
     },
