@@ -19966,8 +19966,8 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/plozmun/orca-redmine.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/plozmun/orca-redmine/0.2.0"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
@@ -20409,6 +20409,38 @@
           "license": "MIT",
           "repository": "https://github.com/renanleonel/vesper-orca",
           "updatedAt": "2026-11-10T17:15:57-03:00"
+        }
+      ]
+    },
+    {
+      "id": "renanluiz.limits-tracker",
+      "ownerId": 51143814,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/renanluiz/usage-companion.git",
+        "ref": "v0.2.2"
+      },
+      "description": "Shows your Claude 5-hour and 7-day usage limits and when each one resets, refreshed every minute.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "015c215b4f3532c48f5f4d19626225ca88d5b050",
+          "contentHash": "73e38324f008a77d8587540fb46bccb7fdfbf75561e240c561a50115d0659c2d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Usage Companion",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Usage Companion"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/renanluiz/usage-companion",
+          "updatedAt": "2026-11-12T11:59:51-03:00"
         }
       ]
     },

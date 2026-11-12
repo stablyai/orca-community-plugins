@@ -1424,7 +1424,7 @@
     },
     "plozmun/orca-redmine": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/plozmun/orca-redmine/0.2.0",
       "plugins": [
         "plozmun.redmine-tasks"
       ]
@@ -1509,14 +1509,11 @@
         "renanleonel.vesper-theme"
       ]
     },
-    "renanluiz/limits-tracker": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "manifestVersion: must be one of 1, 2"
-        }
+    "renanluiz/usage-companion": {
+      "state": "listed",
+      "ref": "v0.2.2",
+      "plugins": [
+        "renanluiz.limits-tracker"
       ]
     },
     "rgarciade/orca-containers": {
