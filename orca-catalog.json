@@ -4483,14 +4483,97 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/choihjin/orca-containers/0.4.0"
+        "url": "https://github.com/choihjin/orca-containers.git",
+        "ref": "v0.5.1"
       },
       "description": "Lists and manages containers, images, volumes and networks on this computer (macOS or Linux) and on Linux or macOS SSH hosts from a sidebar panel: logs in the panel, a shell and image pulls in an Orca terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.1",
+          "commit": "c68fa1eb296a78552030303a45f93cb961740959",
+          "contentHash": "4e4ddc9edbb98f2e3c5de79917ade6741242ca5cd410ee86134b8a849f297e7b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.255",
+          "name": "Containers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Containers"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.containers/8337c18298543dcd.png",
+              "alt": "The Containers icon and name beside two Containers panels, one light and one dark",
+              "sha256": "8337c18298543dcd07ee5bb95a519eb16a0bc6e8a13274f4f2c086f485cc2b4e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.containers/dcbdbfee6a26dd45.png",
+              "alt": "Containers icon",
+              "sha256": "dcbdbfee6a26dd450b051a8176f692c91ded03e7dd5303b1e1a0e0bffaafe2f5",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.containers/531632bd3e2f3897.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "531632bd3e2f3897e8fb2d8399d7d7f072587567ad9f6cd2c4b0d1f0e49bd4b8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/1958874f5d1266b1.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "1958874f5d1266b1a3716f8c7703a58a37faf678bfb46af11e17509130f6b37f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/382aea424b236e8f.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "382aea424b236e8f11460857ff4eb94add3b27a104a72528045e3caa0b41cc80",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/eba3b1f7aabd3d47.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "eba3b1f7aabd3d479aa027a80329f150cd61958daf0400c9e230c4c40f053b52",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/3c5634d210791c48.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "3c5634d210791c4859dd7b3ad5877393714fac55416c452507c0204a84808d89",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/66dd490a1c790e00.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "66dd490a1c790e00e5fb63dd86bdc9733024096aa84bfed866facce282c225ee",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-containers",
+          "updatedAt": "2026-11-12T19:02:03+09:00"
+        },
         {
           "version": "0.4.0",
           "commit": "bf4f380faf87fe58b12038df34934269e51f840b",
@@ -7143,6 +7226,99 @@
           "license": "MIT",
           "repository": "https://github.com/dohaidang/orca-vietnamese-plugin",
           "updatedAt": "2026-11-03T17:22:15+07:00"
+        }
+      ]
+    },
+    {
+      "id": "dohaidang.wallpaper-studio",
+      "ownerId": 41058561,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dohaidang/orca-wallpaper-studio.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Use your own pictures and videos as Orca wallpapers: crop, trim and adjust them, and Studio keeps the My Wallpaper themes up to date with them.",
+      "categories": [
+        "panels",
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "6c254ae76114bc045fd48c9c22dad80a7f96fccc",
+          "contentHash": "10c45ff8cc35a5f707a5aa52aafad5e43f96ea77a8d498e925c8bd9e3b9f624b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Wallpaper Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Wallpaper Studio"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper 2"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper 2 (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper 2 (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper 3"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper 3 (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "My Wallpaper 3 (light sidebar)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "My Wallpaper"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dohaidang.wallpaper-studio/9db4d236e4fc7874.png",
+              "alt": "Wallpaper Studio: a crop frame over a night landscape, with a translucent terminal and a play button, beside the title",
+              "sha256": "9db4d236e4fc78740cbe2fc2928ab6e08e95ff8dcba2eb21c63de505dd2eb10f",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dohaidang.wallpaper-studio/a3fa87743aca9c05.png",
+              "alt": "Wallpaper Studio icon",
+              "sha256": "a3fa87743aca9c05c3e71ab8e424e144bc4cfa7e648d746aa278b9c0b4c06499",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dohaidang/orca-wallpaper-studio",
+          "updatedAt": "2026-11-12T17:03:56+07:00"
         }
       ]
     },
@@ -11284,8 +11460,8 @@
       "ownerId": 663999,
       "source": {
         "kind": "git",
-        "url": "https://github.com/IBazylchuk/orca-plugin-openspec-board.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.6.1"
       },
       "description": "Kanban board for OpenSpec spec-driven development: every change by stage with task progress, next step, ticket and GitHub pull requests. Apply and Finish send /opsx:apply, a finish check or your own command to the Claude Code or Codex agent of the change's own workspace, or start that workspace.",
       "categories": [
@@ -18902,6 +19078,93 @@
           "license": "MIT",
           "repository": "https://github.com/piDack/orca-trace-viewer",
           "updatedAt": "2026-11-08T03:32:38Z"
+        }
+      ]
+    },
+    {
+      "id": "pierreb40.claude-memory",
+      "ownerId": 29147306,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/PierreB40/claude-memory.git",
+        "ref": "v0.3.0"
+      },
+      "description": "What Claude Code remembers about the project in front of you, and what no longer holds: memories citing deleted code, broken links, entries Claude cannot see. Read any memory in place; hand the fixes to a new Claude.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "2c5e205cc06d33663cced01bc98d42a9c67f5162",
+          "contentHash": "dd865c0ce25833accb9377607fcd798a2e6ca7f7472b68aa58e66b6d01c0c196",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Memory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Memory"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Show or Hide the Sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Have Claude Verify the Memory"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": " "
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pierreb40.claude-memory/c8b313b6c9a70bb0.png",
+              "alt": "The panel listing memories to verify: a deleted file in the index, a broken link, a cited file not found, one to update at merge.",
+              "sha256": "c8b313b6c9a70bb01344c48a0ff5ad8b28be75da32886508cf1f2514873ca1bb",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/pierreb40.claude-memory/9861cfd2cd2d6c0b.png",
+              "alt": "Claude Memory icon",
+              "sha256": "9861cfd2cd2d6c0babdd01ba9b6a941aebca4bfd3cd5b4800fa3d6333876c0c1",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/pierreb40.claude-memory/62af216fbeb586be.png",
+                "alt": "The panel’s three tabs side by side: memories to verify, what Claude learned this week, and every memory grouped by type.",
+                "sha256": "62af216fbeb586be3bbae308bdc20cb1bef190b7304280ca1b4482e42480a8ab",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/PierreB40/claude-memory",
+          "updatedAt": "2026-11-12T10:48:38+01:00"
         }
       ]
     },
