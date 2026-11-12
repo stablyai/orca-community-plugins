@@ -313,7 +313,7 @@
     },
     "cfmleditor/orca-cfml": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/cfmleditor/orca-cfml/0.1.1",
       "plugins": [
         "cfmleditor.cfml"
       ]
@@ -334,7 +334,7 @@
     },
     "choihjin/orca-containers": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "under-review",
@@ -465,7 +465,7 @@
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
-      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.4",
+      "ref": "v1.6.6",
       "plugins": [
         "dohaidang.living-ascii-themes"
       ]
@@ -1964,6 +1964,13 @@
       "ref": "refs/tags/xclas721/xclas721-theme/0.3.1",
       "plugins": [
         "xclas721.xclas721-theme"
+      ]
+    },
+    "yeonjin1357/orca-line-blame": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "yeonjin1357.line-blame"
       ]
     },
     "yuribodo/neon-horizon": {
