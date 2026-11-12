@@ -1799,6 +1799,13 @@
         "shaurgon.conport-orca"
       ]
     },
+    "shu-vro/orca-read-aloud": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "shu-vro.read-aloud"
+      ]
+    },
     "sks-other/orca-dsh-web": {
       "state": "rejected",
       "ref": null,

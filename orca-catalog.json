@@ -24475,6 +24475,47 @@
       ]
     },
     {
+      "id": "shu-vro.read-aloud",
+      "ownerId": 72239897,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shu-vro/orca-read-aloud.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Read chat replies and any other text aloud with Microsoft Edge neural voices, highlighting each word as it is spoken.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7e0b47b37dd029940197d116f090a67b07642579",
+          "contentHash": "3083fb1ead1d1d257c355a3251aac6a54326780ce975b77572837c78fcc9f850",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Read Aloud",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Read Aloud"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/shu-vro.read-aloud/02e811c8bee6c2c7.png",
+              "alt": "Read Aloud icon",
+              "sha256": "02e811c8bee6c2c768a374cd44ef6bd44c8702ea7921dc4300edb88c2334328e",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shu-vro/orca-read-aloud",
+          "updatedAt": "2026-11-13T01:10:36+06:00"
+        }
+      ]
+    },
+    {
       "id": "spgsroot.omp-usage",
       "ownerId": 67481268,
       "source": {
