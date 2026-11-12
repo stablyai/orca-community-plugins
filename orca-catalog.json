@@ -23199,14 +23199,43 @@
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.8.0"
+        "url": "https://github.com/thailoc-dev/orca-dev-toolbox.git",
+        "ref": "v0.8.1"
       },
       "description": "49 offline developer tools in Orca's sidebar: JWT, certificates, Docker run to Compose, JSON diff, TOML, secret redaction, LLM token counter, ANSI log cleaner, cron, regex and more.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.8.1",
+          "commit": "9d38dbc2925dec65a6d82e13eaa54fe4a26f2bd5",
+          "contentHash": "aa29178b35a874f43b6148ed4ed7c6ef687aa3cd961342318bd8a1149c3954b4",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Dev Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Dev Toolbox"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.dev-toolbox/c2aca4129a30b1fd.png",
+              "alt": "Dev Toolbox in Orca's sidebar: the tool list, a docker run command converted to a Compose service, and colour codes stripped from test output",
+              "sha256": "c2aca4129a30b1fdb488c41d0882b0284ae29423b0232e0a26f8a7696d566636",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-dev-toolbox",
+          "updatedAt": "2026-11-12T10:31:59+07:00"
+        },
         {
           "version": "0.8.0",
           "commit": "5f055dc74c52b7c713e2d4db4a1af211c8ef751e",
@@ -25478,8 +25507,8 @@
       "ownerId": 190682545,
       "source": {
         "kind": "git",
-        "url": "https://github.com/xclas721/xclas721-theme.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/xclas721/xclas721-theme/0.3.2"
       },
       "description": "A dark teal app theme with matching code and terminal colors.",
       "categories": [
@@ -25545,8 +25574,8 @@
       "ownerId": 85864510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yeonjin1357/orca-line-blame.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.1"
       },
       "description": "See who changed a line, when and why, without leaving Orca. Click a line for its commit, then step back through the commits that changed it before.",
       "categories": [],

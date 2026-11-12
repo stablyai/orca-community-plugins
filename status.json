@@ -864,7 +864,7 @@
     },
     "jeong-jae-hun/orca-ping-public": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.3.0",
       "reasons": [
         {
           "category": "under-review",
@@ -1708,7 +1708,7 @@
     },
     "thailoc-dev/orca-dev-toolbox": {
       "state": "listed",
-      "ref": "refs/tags/thailoc-dev/orca-dev-toolbox/0.8.0",
+      "ref": "v0.8.1",
       "plugins": [
         "thailoc-dev.dev-toolbox"
       ]
@@ -1961,14 +1961,14 @@
     },
     "xclas721/xclas721-theme": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/xclas721/xclas721-theme/0.3.2",
       "plugins": [
         "xclas721.xclas721-theme"
       ]
     },
     "yeonjin1357/orca-line-blame": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.1",
       "plugins": [
         "yeonjin1357.line-blame"
       ]
