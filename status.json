@@ -47,7 +47,16 @@
       "ref": "refs/tags/actus7/orca-autocomplete/0.3.1",
       "plugins": [
         "actus7.autocomplete"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
@@ -183,13 +192,10 @@
       ]
     },
     "balakumardev/orca-folder-sessionizer": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "binary-files",
-          "detail": "bundles binary files (bin/orca-folder-picker)"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "balakumardev.folder-sessionizer"
       ]
     },
     "baroned1707/orca-claude-accounts": {
@@ -472,7 +478,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.4.1",
+      "ref": "v0.4.2",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1166,7 +1172,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.257",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.257",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -2082,7 +2088,7 @@
     },
     "yeonjin1357/orca-line-blame": {
       "state": "listed",
-      "ref": "v0.1.6",
+      "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.6",
       "plugins": [
         "yeonjin1357.line-blame"
       ]

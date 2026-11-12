@@ -1922,6 +1922,56 @@
       ]
     },
     {
+      "id": "balakumardev.folder-sessionizer",
+      "ownerId": 20134279,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/balakumardev/orca-folder-sessionizer.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Fuzzy-pick a project folder in a native floating picker and open it in Orca as a terminal, a Claude or Codex agent, or a new worktree.",
+      "categories": [
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "c009a2e9a5bc4c70c6b39ef97a35c091cf5d5abc",
+          "contentHash": "f2dabd7ed5461254c1017949a11507ec1a35393fb3483f88b7b723fa4abb0f84",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Folder Sessionizer",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Folder Sessionizer: Open Project Folder…"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Ctrl+Shift+F",
+              "detail": "folder-sessionizer.open"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Projects"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "agent:launch",
+            "settings:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/balakumardev/orca-folder-sessionizer",
+          "updatedAt": "2026-11-12T18:06:16+05:30"
+        }
+      ]
+    },
+    {
       "id": "baroned1707.claude-accounts",
       "ownerId": 61402493,
       "source": {
@@ -6081,14 +6131,60 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.4.1"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.4.2"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.2",
+          "commit": "cb9e170f60d04c6c245a006677567cfc1d383fe0",
+          "contentHash": "17b41889a7b9f1ebbb7def471cccdbdafc70e71df7b8013a0006394df7dfa43c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/138b66f77b3e60b5.png",
+              "alt": "SideNote Preview showing a sample project checklist with Markdown headings, tasks, and shell commands",
+              "sha256": "138b66f77b3e60b5de0adbc8a89778a640e38fd53de223617be1495bc3946c32",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/138b66f77b3e60b5.png",
+                "alt": "SideNote Preview showing a sample project checklist with Markdown headings, tasks, and shell commands",
+                "sha256": "138b66f77b3e60b5de0adbc8a89778a640e38fd53de223617be1495bc3946c32",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/8006874212461d4b.png",
+                "alt": "SideNote Source editor showing the same sample Markdown checklist with syntax highlighting and line numbers",
+                "sha256": "8006874212461d4be1f36d9fb5c0f0f85d908f88135512b1ecd1b50c8656731d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-12T21:45:22+09:00"
+        },
         {
           "version": "0.4.1",
           "commit": "7ecfc77ea1e9ae625373954450785d74ade3f6c5",
@@ -15504,8 +15600,8 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/matteoeusebi/orca-italiano.git",
-        "ref": "v1.4.257"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.257"
       },
       "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.257. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -27201,8 +27297,8 @@
       "ownerId": 85864510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yeonjin1357/orca-line-blame.git",
-        "ref": "v0.1.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.6"
       },
       "description": "Git blame for each line, GitLens style: click a line to see who changed it, when and why, then step back through the commits that changed it before.",
       "categories": [],
