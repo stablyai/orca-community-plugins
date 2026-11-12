@@ -5302,14 +5302,35 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/coffeepy/swampling/0.5.1"
+        "url": "https://github.com/coffeepy/swampling.git",
+        "ref": "v0.5.2"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.2",
+          "commit": "673e454b1f10791d21f5d81a4f169cb9ac50dbcd",
+          "contentHash": "d5bd143b25a9f5397a975dd1551951b70d9ce2e54fcf16cafa4dc9bdd2c6d2c0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Swampling",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Swampling"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/coffeepy/swampling",
+          "updatedAt": "2026-11-12T14:13:46-06:00"
+        },
         {
           "version": "0.5.1",
           "commit": "2cb0c13402769a9efeded6fa7f0982bb80bae153",
@@ -5393,27 +5414,6 @@
           "license": "MIT",
           "repository": "https://github.com/coffeepy/swampling",
           "updatedAt": "2026-11-11T10:47:06-06:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "cde83e6c58d199075e161f20181a7676a62a811e",
-          "contentHash": "49ecce892eadce7a0872e5182b886bd93303ec831f0d6de29967eeff36266763",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Swampling",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Swampling"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "terminal:send"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/coffeepy/swampling",
-          "updatedAt": "2026-11-11T10:11:10-06:00"
         }
       ]
     },
@@ -8404,95 +8404,6 @@
           "license": "MIT",
           "repository": "https://github.com/esykai/orca-catppuccin-exact",
           "updatedAt": "2026-11-08T02:38:58+03:00"
-        }
-      ]
-    },
-    {
-      "id": "etherll.usage-insights",
-      "ownerId": 61019402,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/etherll/orca-usage-insights/1.0.1"
-      },
-      "description": "Charts of your Claude Code and Codex token use and estimated API cost by day, project, model and machine, with a pixel-art skyline drawn from the numbers. Reads local transcripts and any SSH hosts you add.",
-      "categories": [
-        "panels"
-      ],
-      "releases": [
-        {
-          "version": "1.0.1",
-          "commit": "1a340cb675befc069c9293f5432887a679be6c0c",
-          "contentHash": "b736bff8ff404ca0a9711fe022b08bd3a1ffd75a57a61eb26b8139d71bed26f1",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Usage Insights",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Usage Insights"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/etherll.usage-insights/a7514cf8a270caec.png",
-              "alt": "Usage Insights in an Orca window: 30-day token totals, a split by provider and machine, and a daily trend",
-              "sha256": "a7514cf8a270caec0d71518b4a11eed475566ec2d5d14609f644bd96ff5ee707",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/etherll.usage-insights/4952b51f89f10ac8.png",
-              "alt": "Usage Insights icon",
-              "sha256": "4952b51f89f10ac8d780f9156bd89771191e540ca22b61449e651e0d40504560",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/etherll.usage-insights/9a211625eff612ef.png",
-                "alt": "Overview with stat tiles, provider and machine split, totals and a smoothed daily trend per provider",
-                "sha256": "9a211625eff612efa4a4339ddd1c98296546861caaa8cbf21a01d3ccfad90e66",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/etherll.usage-insights/3a222565f88c3309.png",
-                "alt": "Daily cost bars, a 26-week activity calendar, a weekday by hour rhythm chart and a model breakdown table",
-                "sha256": "3a222565f88c33092fd6b915e5945e9dd2fd98a3fcaa17d38aa406743abc9255",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/etherll.usage-insights/fefc96b860793cfc.png",
-                "alt": "Filters menu open with session scope, provider and machine options and a Worktrees only chip",
-                "sha256": "fefc96b860793cfc309595fd8db447387d86b31b37f571fa96ce9b9059863e3b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/etherll.usage-insights/6bbe92c8e8c9515c.png",
-                "alt": "Light theme activity calendar, rhythm chart, breakdown, token mix donut and projects",
-                "sha256": "6bbe92c8e8c9515c43736097a900606ded56825bfae90d0ecf8901757970fbae",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/etherll.usage-insights/9ed7b7ae36127fde.png",
-                "alt": "The panel at sidebar width in dark and light themes",
-                "sha256": "9ed7b7ae36127fdeb0b06b6334e6ad7b777fb95b696943dcb8d17777ac50ae7c",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Etherll/orca-usage-insights",
-          "updatedAt": "2026-11-04T00:30:00+02:00"
         }
       ]
     },
@@ -19827,8 +19738,8 @@
       "ownerId": 29147306,
       "source": {
         "kind": "git",
-        "url": "https://github.com/PierreB40/claude-memory.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pierreb40/claude-memory/0.4.1"
       },
       "description": "What Claude Code remembers about the project in front of you, and what no longer holds: memories citing deleted code, broken links, entries Claude cannot see. Read any memory in place; hand the fixes to a new Claude.",
       "categories": [
@@ -24425,8 +24336,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.5.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.5.1"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [

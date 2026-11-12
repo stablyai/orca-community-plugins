@@ -407,7 +407,7 @@
     },
     "coffeepy/swampling": {
       "state": "listed",
-      "ref": "refs/tags/coffeepy/swampling/0.5.1",
+      "ref": "v0.5.2",
       "plugins": [
         "coffeepy.swampling"
       ]
@@ -610,10 +610,13 @@
       }
     },
     "etherll/orca-usage-insights": {
-      "state": "listed",
-      "ref": "refs/tags/etherll/orca-usage-insights/1.0.1",
-      "plugins": [
-        "etherll.usage-insights"
+      "state": "rejected",
+      "ref": "v1.2.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (tests/fixtures/codex.jsonl.zst)"
+        }
       ]
     },
     "fabiopbarbieri/omarchy-orca-plugin": {
@@ -1506,7 +1509,7 @@
     },
     "pierreb40/claude-memory": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/pierreb40/claude-memory/0.4.1",
       "plugins": [
         "pierreb40.claude-memory"
       ]
@@ -1814,7 +1817,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.5.1",
+      "ref": "refs/tags/shaurgon/conport-orca/0.5.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -1978,7 +1981,7 @@
         "tienne.landmark-island"
       ],
       "update": {
-        "ref": "v0.2.0",
+        "ref": "v0.3.0",
         "reasons": [
           {
             "category": "under-review",
