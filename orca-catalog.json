@@ -4230,6 +4230,104 @@
       ]
     },
     {
+      "id": "choihjin.containers",
+      "ownerId": 103234587,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/choihjin/orca-containers.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Lists and manages containers, images, volumes and networks on this computer (macOS or Linux) and on Linux or macOS SSH hosts from a sidebar panel: logs in the panel, a shell and image pulls in an Orca terminal.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "de8285967029943fb1bfbd89dcb55797b02ee713",
+          "contentHash": "b2ee8dfacee4be525f2e58d68648f7518176c58b667cf9ec637623eb1357e29c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.255",
+          "name": "Containers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Containers"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.containers/8337c18298543dcd.png",
+              "alt": "The Containers icon and name beside two Containers panels, one light and one dark",
+              "sha256": "8337c18298543dcd07ee5bb95a519eb16a0bc6e8a13274f4f2c086f485cc2b4e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.containers/dcbdbfee6a26dd45.png",
+              "alt": "Containers icon",
+              "sha256": "dcbdbfee6a26dd450b051a8176f692c91ded03e7dd5303b1e1a0e0bffaafe2f5",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.containers/531632bd3e2f3897.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "531632bd3e2f3897e8fb2d8399d7d7f072587567ad9f6cd2c4b0d1f0e49bd4b8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/1958874f5d1266b1.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "1958874f5d1266b1a3716f8c7703a58a37faf678bfb46af11e17509130f6b37f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/382aea424b236e8f.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "382aea424b236e8f11460857ff4eb94add3b27a104a72528045e3caa0b41cc80",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/eba3b1f7aabd3d47.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "eba3b1f7aabd3d479aa027a80329f150cd61958daf0400c9e230c4c40f053b52",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/3c5634d210791c48.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "3c5634d210791c4859dd7b3ad5877393714fac55416c452507c0204a84808d89",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/66dd490a1c790e00.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "66dd490a1c790e00e5fb63dd86bdc9733024096aa84bfed866facce282c225ee",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-containers",
+          "updatedAt": "2026-11-12T15:01:08+09:00"
+        }
+      ]
+    },
+    {
       "id": "chrisluo5311.claude-trajectory",
       "ownerId": 77089596,
       "source": {
@@ -25565,8 +25663,8 @@
       "ownerId": 85864510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yeonjin1357/orca-line-blame.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.5"
       },
       "description": "See who changed a line, when and why, without leaving Orca. Click a line for its commit, then step back through the commits that changed it before.",
       "categories": [],
