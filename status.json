@@ -3,7 +3,7 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/1am/orca-agent-deck/0.2.2",
       "plugins": [
         "1am.agent-deck"
       ],
@@ -631,7 +631,7 @@
     },
     "faisalmuhammad/orca-assets-library": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/faisalmuhammad/orca-assets-library/1.0.0",
       "plugins": [
         "faisalmuhammad.assets-library"
       ]
@@ -928,7 +928,7 @@
     },
     "javiervinus/vinus-arcade-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.2.0",
       "plugins": [
         "javiervinus.vinus-arcade"
       ]
@@ -1411,19 +1411,10 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.1.0",
+      "ref": "v1.2.0",
       "plugins": [
         "mswdev.fleet-monitor"
-      ],
-      "update": {
-        "ref": "v1.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "nachodeluca/orca-discord-presence": {
       "state": "rejected",
@@ -1511,14 +1502,14 @@
     },
     "ostkost/avari-glow-orca-theme": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/ostkost/avari-glow-orca-theme/0.1.1",
       "plugins": [
         "ostkost.avari-glow-theme"
       ]
     },
     "ostkost/avari-glow-orca-tweaks": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "ostkost.avari-glow-tweaks"
       ]

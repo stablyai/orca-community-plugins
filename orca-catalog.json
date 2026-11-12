@@ -9,8 +9,8 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/1am/orca-agent-deck.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/1am/orca-agent-deck/0.2.2"
       },
       "description": "Shows Orca agent status on a Stream Deck and focuses panes from it.",
       "categories": [
@@ -8523,8 +8523,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-assets-library.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-assets-library/1.0.0"
       },
       "description": "Automatically discover agent-generated images, videos, SVGs, Markdown and HTML in your current Orca worktree, including outputs from identifiable past chats.",
       "categories": [
@@ -12802,8 +12802,8 @@
       "ownerId": 24733930,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Javiervinus/vinus-arcade-orca.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.2.0"
       },
       "description": "Pixel art games for the wait between agents, in an office that is yours: your projects hang on its wall, your agents sit at its desks and send you what they finish while you play, and it takes you to the agent that needs you. The first game is Blip; more are on the way.",
       "categories": [
@@ -18703,8 +18703,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.1.0"
+        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
+        "ref": "v1.2.0"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -18712,6 +18712,85 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "af37bb24b11708d8a088e1d0ba864c674975fe29",
+          "contentHash": "e0a620e3981df59730e62afd9be1823186b1dd3838fc7ae2478c95238d8172a0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Fleet Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Fleet Monitor: Send a test alert"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fleet"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mswdev.fleet-monitor/44467abc88394983.png",
+              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
+              "sha256": "44467abc88394983b807d72b3319eefbc74e751c5c241ed3c76943494cb4c551",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
+              "alt": "Fleet Monitor icon",
+              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/mswdev.fleet-monitor/6284f1f5fd2beb42.png",
+                "alt": "Five sample machines with health, CPU and memory, beside one strained machine's detail: its tabs, charts, per-core load and the process using the most memory.",
+                "sha256": "6284f1f5fd2beb425582c72e06aebd5cdfc08babf45d21cfee0ef20ab2b05e16",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/497b808748ca4923.png",
+                "alt": "The same overview and machine detail in the dark theme.",
+                "sha256": "497b808748ca49230a4f742ded254ac2437ce63bc86750cdcca97d7d6ff61e93",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/3fe5a39658bf2301.png",
+                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
+                "sha256": "3fe5a39658bf23012d444f2df61807a7dd9b43bbb4b5a2e17be09db04dc76e74",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/b5ed503d106220f3.png",
+                "alt": "This computer's network, disk, GPU and battery readings above its processes sorted by CPU, beside a paired Mac's readings and its 60 busiest processes.",
+                "sha256": "b5ed503d106220f336e3c42c3b13ab3c094518a6122656c2dbd070c396c18344",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mswdev/orca-fleet-monitor",
+          "updatedAt": "2026-11-13T10:44:50+14:00"
+        },
         {
           "version": "1.1.0",
           "commit": "5bb91c1ef742ba39860feb8c0ed59719c7498568",
@@ -19599,8 +19678,8 @@
       "ownerId": 20598460,
       "source": {
         "kind": "git",
-        "url": "https://github.com/OstKost/avari-glow-orca-theme.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ostkost/avari-glow-orca-theme/0.1.1"
       },
       "description": "Avari Glow dark theme inspired by @SIREN.UIX",
       "categories": [
@@ -19637,13 +19716,30 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/OstKost/avari-glow-orca-tweaks.git",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "Optional macOS interface tweaks for Avari Glow. Builds a local tool with Go and modifies Orca.app after an explicit action.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "a4e5f5a1bafac0376e73c64c4eadffcc89b646b4",
+          "contentHash": "226501c5aef758077221500cf5bc62b2d2902db7f11958013208bab2bb030e02",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Avari Glow Tweaks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Avari Glow Tweaks"
+            }
+          ],
+          "license": "LicenseRef-Avari",
+          "repository": "https://github.com/OstKost/avari-glow-orca-tweaks",
+          "updatedAt": "2026-11-13T00:25:47+03:00"
+        },
         {
           "version": "0.1.0",
           "commit": "a2c4559b7ab67f3c8e270e2f51f653a986c24834",
