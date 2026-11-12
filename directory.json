@@ -267,6 +267,11 @@
       "stats": null
     },
     {
+      "id": "aetna000.atmem-architect",
+      "stars": 0,
+      "stats": null
+    },
+    {
       "id": "albuquerquesz.github-dark-theme",
       "stars": 0,
       "stats": null
@@ -278,11 +283,6 @@
     },
     {
       "id": "alexesprit.unfancy-file-icons",
-      "stars": 0,
-      "stats": null
-    },
-    {
-      "id": "alterdianne.inspo",
       "stars": 0,
       "stats": null
     },
@@ -605,13 +605,15 @@
     },
     {
       "id": "felipemayerdev.omarchy-sync",
-      "stars": 0,
-      "stats": null
+      "stars": null,
+      "stats": null,
+      "sourceUnavailable": true
     },
     {
       "id": "felipemayerdev.walkthrough",
-      "stars": 0,
-      "stats": null
+      "stars": null,
+      "stats": null,
+      "sourceUnavailable": true
     },
     {
       "id": "felix-lj-ct.agent-inbox",
@@ -941,7 +943,7 @@
     },
     {
       "id": "mswdev.fleet-monitor",
-      "stars": 7,
+      "stars": 8,
       "stats": null
     },
     {
