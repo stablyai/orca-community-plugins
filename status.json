@@ -312,13 +312,10 @@
       ]
     },
     "cfmleditor/orca-cfml": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "cfmleditor.cfml"
       ]
     },
     "chandraliuswanto/orca-subagent-graph": {
@@ -333,6 +330,16 @@
       "ref": "refs/tags/choihjin/orca-agent-haptics/0.1.0",
       "plugins": [
         "choihjin.agent-haptics"
+      ]
+    },
+    "choihjin/orca-containers": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "chrisluo5311/orca-claude-trajectory": {
@@ -448,7 +455,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "rejected",
-      "ref": "v0.2.1",
+      "ref": "v0.3.0",
       "reasons": [
         {
           "category": "under-review",
@@ -1506,7 +1513,7 @@
     },
     "santiagocaprile/orca-chat-board": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/santiagocaprile/orca-chat-board/1.1.1",
       "plugins": [
         "santiagocaprile.chat-board"
       ]

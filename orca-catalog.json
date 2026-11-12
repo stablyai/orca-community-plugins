@@ -208,9 +208,9 @@
             "mjs",
             "cjs"
           ],
-          "updatedAt": "2026-11-10T16:38:34+08:00",
           "license": "MIT",
-          "repository": "https://github.com/2589195970/JumpLens"
+          "repository": "https://github.com/2589195970/JumpLens",
+          "updatedAt": "2026-11-10T16:38:34+08:00"
         }
       ]
     },
@@ -4035,6 +4035,50 @@
           "license": "MIT",
           "repository": "https://github.com/cemalkilic/lima-orca-vm-recipes",
           "updatedAt": "2026-11-01T22:51:59+01:00"
+        }
+      ]
+    },
+    {
+      "id": "cfmleditor.cfml",
+      "ownerId": 153613449,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cfmleditor/orca-cfml.git",
+        "ref": "v0.1.1"
+      },
+      "description": "ColdFusion (CFML) highlighting for tag templates, script components and .cfs files, with embedded CSS, JavaScript and SQL.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "e2b53932eaca45fc3447cb53512d6363652a2b7e",
+          "contentHash": "fdb43271565f92019f7a33a9a2f0976ea148f87b9778b683f86b5a67adac7f95",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "CFML",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "CFML",
+              "detail": ".cfm, .cfml, .cfc"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CFScript",
+              "detail": ".cfs"
+            }
+          ],
+          "fileTypes": [
+            "cfm",
+            "cfml",
+            "cfc",
+            "cfs"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cfmleditor/orca-cfml",
+          "updatedAt": "2026-11-12T11:21:06+10:00"
         }
       ]
     },
@@ -11085,9 +11129,9 @@
               "height": 200
             }
           },
-          "updatedAt": "2026-11-10T14:41:03-08:00",
           "license": "MIT",
-          "repository": "https://github.com/jake-101/ahakey-x1"
+          "repository": "https://github.com/jake-101/ahakey-x1",
+          "updatedAt": "2026-11-10T14:41:03-08:00"
         },
         {
           "version": "0.1.8",
@@ -19809,8 +19853,8 @@
       "ownerId": 103329387,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SantiagoCaprile/orca-chat-board.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/santiagocaprile/orca-chat-board/1.1.1"
       },
       "description": "A kanban of your agent chats (Claude, Cursor, Codex tabs) across every workspace, with your own columns and live agent status.",
       "categories": [
@@ -20962,9 +21006,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-10T08:26:53Z",
           "license": "MIT",
-          "repository": "https://github.com/schowave/orca-asciidoc-diagrams"
+          "repository": "https://github.com/schowave/orca-asciidoc-diagrams",
+          "updatedAt": "2026-11-10T08:26:53Z"
         },
         {
           "version": "1.1.4",
