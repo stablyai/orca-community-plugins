@@ -25478,8 +25478,8 @@
       "ownerId": 190682545,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/xclas721/xclas721-theme/0.3.1"
+        "url": "https://github.com/xclas721/xclas721-theme.git",
+        "ref": "v0.3.2"
       },
       "description": "A dark teal app theme with matching code and terminal colors.",
       "categories": [
@@ -25487,6 +25487,36 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "30a1fc0cfe24a591cb977e694e6fa043f1218111",
+          "contentHash": "4bcb73a5c06d9184ae80d334498e98856555eed39ffa5eb8ac0915c6c902e357",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "xclas721-theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "xclas721-theme"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "xclas721-theme"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/xclas721.xclas721-theme/557286281ca0d8fc.jpg",
+              "alt": "AI-composed cover based on xclas721-theme in Orca, showing the Markdown preview and palette with private workspace information removed",
+              "sha256": "557286281ca0d8fcdcf87b2346f6eac34669724cd8f4094e2651b8dc54e65ca5",
+              "width": 1586,
+              "height": 992
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/xclas721/xclas721-theme",
+          "updatedAt": "2026-11-12T11:16:37+08:00"
+        },
         {
           "version": "0.3.1",
           "commit": "ccacf6176840f7204ec3a25af54ab4906ff216d6",
@@ -25515,12 +25545,110 @@
       "ownerId": 85864510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.0"
+        "url": "https://github.com/yeonjin1357/orca-line-blame.git",
+        "ref": "v0.1.1"
       },
-      "description": "Read-only code view that shows who last changed the line you click, when and in which commit, and walks back through the commits that changed it before.",
+      "description": "See who changed a line, when and why, without leaving Orca. Click a line for its commit, then step back through the commits that changed it before.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "3005178ad4adc76df5cffd7ac46194f3f10a8e51",
+          "contentHash": "e1b49f55373cbe825c5b15681592ce4fe65f5a0cef0beaf83960ceeeb9f89362",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Line Blame",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".vue, .ts, .tsx, .mts, .cts, .js, .jsx, .mjs, .cjs, .scss, .css, .json, .md, .html, .yaml, .yml, .sh"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "vue",
+            "ts",
+            "tsx",
+            "mts",
+            "cts",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "scss",
+            "css",
+            "json",
+            "md",
+            "html",
+            "yaml",
+            "yml",
+            "sh"
+          ],
+          "editorFileTypes": [
+            "vue",
+            "ts",
+            "tsx",
+            "mts",
+            "cts",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "scss",
+            "css",
+            "json",
+            "md",
+            "html",
+            "yaml",
+            "yml",
+            "sh"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yeonjin1357.line-blame/69e0ddddecfe0c76.png",
+              "alt": "A code file in the Blame view: the clicked line shows its author, date and commit title, and a card shows what that commit changed.",
+              "sha256": "69e0ddddecfe0c76c76ca497d5452fa644c128e91e10d2823bdee2a36782ba48",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/yeonjin1357.line-blame/d1a9ef33705d8b39.png",
+              "alt": "Line Blame icon",
+              "sha256": "d1a9ef33705d8b39820682d362bfca0fde08492054f571dda84ef76fd6e5ab8e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/yeonjin1357.line-blame/87a8c6526bfc278b.png",
+                "alt": "The clicked line shows who changed it and when; a card shows the commit message and the line before and after.",
+                "sha256": "87a8c6526bfc278b11e870beb36955a3377f3ed3bb3965431843c28469ea9a70",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/yeonjin1357.line-blame/36ef721ecab6de52.png",
+                "alt": "The card pinned on an earlier change of the same line, with buttons to step earlier and later.",
+                "sha256": "36ef721ecab6de52f560d53e69011313ae61913d0e89910d4992188dd61b9c3b",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/yeonjin1357.line-blame/1dacd67a6ce4d1bd.png",
+                "alt": "The find bar open with every match highlighted in the file.",
+                "sha256": "1dacd67a6ce4d1bd00b20c429007bcd6f3275d972ea72502aaa9e043cb86f746",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yeonjin1357/orca-line-blame",
+          "updatedAt": "2026-11-12T11:43:24+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "45165ad5e5f9ea0b2978c7b0a8ea1f72c171a996",
