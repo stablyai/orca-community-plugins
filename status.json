@@ -146,7 +146,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.1",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -472,19 +472,10 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.3.2",
+      "ref": "v0.4.1",
       "plugins": [
         "divlook.sidenote"
-      ],
-      "update": {
-        "ref": "v0.4.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
@@ -962,7 +953,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/jondmarien/orca-discord-presence/1.1.0",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -1218,6 +1209,18 @@
         "miragon.team-topologies-modeler",
         "miragon.value-chain-modeler",
         "miragon.wardley-maps-modeler"
+      ],
+      "rejected": [
+        {
+          "path": "plugins/bpmn-modeler",
+          "id": "bpmn-modeler",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "size, update"
+            }
+          ]
+        }
       ]
     },
     "molanojf/orca-json-canvas": {
@@ -1266,19 +1269,10 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.0.0",
+      "ref": "v1.1.0",
       "plugins": [
         "mswdev.fleet-monitor"
-      ],
-      "update": {
-        "ref": "v1.1.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "nachodeluca/orca-discord-presence": {
       "state": "rejected",
@@ -1681,7 +1675,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.4.4",
+      "ref": "v0.4.5",
       "plugins": [
         "shaurgon.conport-orca"
       ]

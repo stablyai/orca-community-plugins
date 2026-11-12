@@ -1472,8 +1472,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.1"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -6081,14 +6081,53 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.3.2"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.4.1"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "7ecfc77ea1e9ae625373954450785d74ade3f6c5",
+          "contentHash": "d3b23e4043a15a2a1ccef465b21ae0967e51f8db0c096fcaa5799c98857d7458",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/138b66f77b3e60b5.png",
+                "alt": "SideNote Preview showing a sample project checklist with Markdown headings, tasks, and shell commands",
+                "sha256": "138b66f77b3e60b5de0adbc8a89778a640e38fd53de223617be1495bc3946c32",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/8006874212461d4b.png",
+                "alt": "SideNote Source editor showing the same sample Markdown checklist with syntax highlighting and line numbers",
+                "sha256": "8006874212461d4be1f36d9fb5c0f0f85d908f88135512b1ecd1b50c8656731d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-12T20:11:23+09:00"
+        },
         {
           "version": "0.3.2",
           "commit": "93c5a5ef491b2ea5a060abc6878e8e6e50366ef6",
@@ -13169,8 +13208,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jondmarien/orca-discord-presence.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jondmarien/orca-discord-presence/1.1.0"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -18211,15 +18250,87 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.0.0"
+        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
+        "ref": "v1.1.0"
       },
-      "description": "Live CPU, memory, load and the busiest workspaces for this computer and every paired Orca server, in one sidebar panel.",
+      "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "5bb91c1ef742ba39860feb8c0ed59719c7498568",
+          "contentHash": "314c1954342ea3bb66257c6e8a0899a52afacbe71f38cd81dc90422cc6bf8c0d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Fleet Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Fleet Monitor: Send a test alert"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fleet"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mswdev.fleet-monitor/27025ff0250e34a5.png",
+              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
+              "sha256": "27025ff0250e34a515baaf7c382646038b1a1b8733eda022c745efb1df31a2ae",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
+              "alt": "Fleet Monitor icon",
+              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/mswdev.fleet-monitor/81ad8790f175a474.png",
+                "alt": "Five sample machines with health, CPU, memory and sparklines, beside one strained machine's charts, per-core load and busiest workspaces.",
+                "sha256": "81ad8790f175a4741883fc1a8fd2a9b0fd695e440ed08f9a98281434e06f0999",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/dd18acd3ffdd5f5e.png",
+                "alt": "The same overview and machine detail in the dark theme.",
+                "sha256": "dd18acd3ffdd5f5e3a4655d19d028d7fe3084a97d2818bb9e9da0729dd57a6d6",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/713db8e06afc2fb7.png",
+                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
+                "sha256": "713db8e06afc2fb7e26eef728c59e70c0e0f73e4f61557325cb5b7c896ccb838",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mswdev/orca-fleet-monitor",
+          "updatedAt": "2026-11-13T00:39:18+14:00"
+        },
         {
           "version": "1.0.0",
           "commit": "8ea260994bff483213ecbae62a4b5febfc0ae48d",
@@ -23608,14 +23719,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.4.4"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.4.5"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.5",
+          "commit": "15596002c4c3d7354aeef440264496efd63c9d22",
+          "contentHash": "af2eb23e37674d48c2806ad7e0229c2236485d079904cb532bada0815cdf6dec",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-12T11:39:37Z"
+        },
         {
           "version": "0.4.4",
           "commit": "c57cb9ec28898b37873f36c5590cbb67d24aaf67",
@@ -23707,29 +23841,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-10T08:17:20Z"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "4d2cd9f9d21974de62cc36639bb5b9153880721c",
-          "contentHash": "6e3a840474588e334ecb68b9b703417d0f273ce38ff1e75c32e50e93887295ca",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-09T23:58:59+05:00"
         }
       ]
     },
