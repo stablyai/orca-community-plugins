@@ -5302,8 +5302,8 @@
       "ownerId": 20525302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/coffeepy/swampling.git",
-        "ref": "v0.5.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/coffeepy/swampling/0.5.2"
       },
       "description": "Shows the swamp workflows of the focused workspace's repo with each run's steps, logs, outputs and data; approves or rejects waiting gates; and hands a failed run to an agent terminal.",
       "categories": [
@@ -25950,8 +25950,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tienne/orcatopia/0.1.0"
+        "url": "https://github.com/tienne/orcatopia.git",
+        "ref": "v0.3.0"
       },
       "description": "Turn waiting time into a little island getaway. Earn tickets from new worktrees, discover world landmarks, and make the island your own.",
       "categories": [
@@ -25959,6 +25959,61 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "fd5f82506c7f324425d1eab483e33bd9f019f811",
+          "contentHash": "1350d72c03a3b97c976b3c4c695a36282df7b0c3880609b46e64c2a10cdea36f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Orcatopia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orcatopia"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tienne.landmark-island/feb99cba9d3291f7.png",
+              "alt": "Orcatopia — A little escape between tasks, with a DEMO garden screen",
+              "sha256": "feb99cba9d3291f7b59b36e63ad88ed7ba5c596cc3e37a301bba3a876f2438bf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tienne.landmark-island/e659ad5f625e5f3a.png",
+              "alt": "Orcatopia icon",
+              "sha256": "e659ad5f625e5f3a4890d57758f468e44eed1ec689ab8810c0544e6d52ee1714",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tienne.landmark-island/13ddbeb02536865c.png",
+                "alt": "English DEMO of an expanded island with landmark gardens, paths, ponds and canvas menus",
+                "sha256": "13ddbeb02536865cdd11015ba2e95de1adf8f42de807d742b137d068b0888915",
+                "width": 1280,
+                "height": 1423
+              }
+            ]
+          },
+          "updatedAt": "2026-11-13T04:57:56+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orcatopia"
+        },
         {
           "version": "0.1.0",
           "commit": "d5adbf32ea120e4ed9228f963ef285236f45801c",
