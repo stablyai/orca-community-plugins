@@ -17134,6 +17134,89 @@
       ]
     },
     {
+      "id": "mswdev.fleet-monitor",
+      "ownerId": 11341771,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Live CPU, memory, load and the busiest workspaces for this computer and every paired Orca server, in one sidebar panel.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "8ea260994bff483213ecbae62a4b5febfc0ae48d",
+          "contentHash": "5e7f88ae223c6a7a21984e403ed49ae9259566f038752ce2fdb17c5e010f7943",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Fleet Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Fleet Monitor"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fleet"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mswdev.fleet-monitor/aea564f0db347e42.png",
+              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
+              "sha256": "aea564f0db347e4253b9f17c00e47169906d05db52c48436a5bbc483bb91100e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
+              "alt": "Fleet Monitor icon",
+              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/mswdev.fleet-monitor/328bbd2b407b0567.png",
+                "alt": "Five sample machines with health, CPU, memory and sparklines, beside one strained machine's charts, per-core load and busiest workspaces.",
+                "sha256": "328bbd2b407b0567429ce647a3b1877d1cb593dc5d65e8f802da86aa3da97063",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/46b4f0eef908b49c.png",
+                "alt": "The same overview and machine detail in the dark theme.",
+                "sha256": "46b4f0eef908b49ce38e44dd98b34e943fdcac64484226e98d7ba3f5dac04eb5",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/727bad5ee2b6f5a4.png",
+                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
+                "sha256": "727bad5ee2b6f5a439f0843f39cd10f0399f5f828ff14fb6587d4a6f7333aa63",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mswdev/orca-fleet-monitor",
+          "updatedAt": "2026-11-12T00:20:02-07:00"
+        }
+      ]
+    },
+    {
       "id": "narimanisakhanov-creator.xlsx-editor",
       "ownerId": 291232506,
       "source": {
