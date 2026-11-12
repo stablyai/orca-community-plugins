@@ -19309,6 +19309,51 @@
       ]
     },
     {
+      "id": "ossianravn.cache-expiry",
+      "ownerId": 29551107,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ossianravn/orca-cache-expiry.git",
+        "ref": "v0.1.0"
+      },
+      "description": "How long each Claude Code session's prompt cache has left, in the status bar and a sidebar panel. Needs the cache-expiry-handoff Claude Code mod.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7bc91dd25bd008cb4c3f0240f04d75c9427a26ba",
+          "contentHash": "26f38dd4b3b30060666f6cd7b767aaafc844605f36e0ad42f24fa04004835c84",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Prompt cache",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Prompt cache"
+            },
+            {
+              "kind": "commands",
+              "name": "Prompt cache: Open the session that expires first"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "cache"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ossianravn/orca-cache-expiry",
+          "updatedAt": "2026-11-12T16:11:08+01:00"
+        }
+      ]
+    },
+    {
       "id": "palulabs.office-tycoon",
       "ownerId": 15814449,
       "source": {
@@ -20417,8 +20462,8 @@
       "ownerId": 51143814,
       "source": {
         "kind": "git",
-        "url": "https://github.com/renanluiz/usage-companion.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/renanluiz/usage-companion/0.2.2"
       },
       "description": "Shows your Claude 5-hour and 7-day usage limits and when each one resets, refreshed every minute.",
       "categories": [

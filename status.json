@@ -1384,6 +1384,13 @@
         "oscarbotteri.db-studio"
       ]
     },
+    "ossianravn/orca-cache-expiry": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "ossianravn.cache-expiry"
+      ]
+    },
     "palulabs/orca-tycoon": {
       "state": "listed",
       "ref": "refs/tags/palulabs/orca-tycoon/0.2.7",
@@ -1511,7 +1518,7 @@
     },
     "renanluiz/usage-companion": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/renanluiz/usage-companion/0.2.2",
       "plugins": [
         "renanluiz.limits-tracker"
       ]
