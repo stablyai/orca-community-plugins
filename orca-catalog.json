@@ -5431,8 +5431,8 @@
       "ownerId": 41058561,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dohaidang/orca-theme-plugin.git",
-        "ref": "v1.6.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.6"
       },
       "description": "Animated ASCII wallpapers with matching sidebar variants, terminal palettes and file icons. Video on Orca 1.4.254+, still image on older versions. To see the wallpaper, set \"Background Opacity\" below 1 and turn off \"Reduce Visual Effects\"",
       "categories": [
@@ -25515,8 +25515,8 @@
       "ownerId": 85864510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yeonjin1357/orca-line-blame.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.0"
       },
       "description": "Read-only code view that shows who last changed the line you click, when and in which commit, and walks back through the commits that changed it before.",
       "categories": [],

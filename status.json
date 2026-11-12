@@ -455,7 +455,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "rejected",
-      "ref": "v0.3.0",
+      "ref": "v0.3.1",
       "reasons": [
         {
           "category": "under-review",
@@ -465,7 +465,7 @@
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
-      "ref": "v1.6.6",
+      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.6",
       "plugins": [
         "dohaidang.living-ascii-themes"
       ]
@@ -864,7 +864,7 @@
     },
     "jeong-jae-hun/orca-ping-public": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "under-review",
@@ -987,7 +987,7 @@
         "kyino-pan.agent-activity"
       ],
       "update": {
-        "ref": "v0.1.6",
+        "ref": "v0.1.7",
         "reasons": [
           {
             "category": "under-review",
@@ -1968,7 +1968,7 @@
     },
     "yeonjin1357/orca-line-blame": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.0",
       "plugins": [
         "yeonjin1357.line-blame"
       ]
