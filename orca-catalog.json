@@ -8279,6 +8279,46 @@
       ]
     },
     {
+      "id": "estalions.claude-code-session-status",
+      "ownerId": 16132478,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Estalions/claude-code-session-status.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Claude Code's statusline for Orca: folder, git state, model, effort, context, edits and the next /loop trigger of every conversation, in the status bar and a sidebar panel.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "1f7d2940084bc0c26c1a4170d7188d439674f310",
+          "contentHash": "eb73d5e10659e5468986d562f3fb3c65f79454bb44c27640842f592ae66bfc50",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Session Status for Claude Code",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Code sessions"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude Code"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Estalions/claude-code-session-status",
+          "updatedAt": "2026-11-12T14:57:58+01:00"
+        }
+      ]
+    },
+    {
       "id": "esykai.catppuccin-exact",
       "ownerId": 45533799,
       "source": {
@@ -14673,8 +14713,8 @@
       "ownerId": 22562898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/lazyjerry/todo-for-orca.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lazyjerry/todo-for-orca/0.4.0"
       },
       "description": "A sidebar to-do list for the small tasks of your day: timed desktop reminders, repeats and durations, with the current and next to-do in the status bar. 處理一天內小任務的側欄待辦清單：到點桌面提醒、可重複與設定持續時間，狀態列顯示進行中與下一件事。",
       "categories": [
@@ -19671,8 +19711,8 @@
       "ownerId": 29147306,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/pierreb40/claude-memory/0.3.0"
+        "url": "https://github.com/PierreB40/claude-memory.git",
+        "ref": "v0.4.0"
       },
       "description": "What Claude Code remembers about the project in front of you, and what no longer holds: memories citing deleted code, broken links, entries Claude cannot see. Read any memory in place; hand the fixes to a new Claude.",
       "categories": [
@@ -19681,6 +19721,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "2c33aed1928821496eadacc48cbe3379d75e43df",
+          "contentHash": "ea60f7022f6c15a5e00483e4812516d79689c059b9acd978aece1a638629ddb3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Memory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Memory"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Show or Hide the Sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Have Claude Verify the Memory"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": " "
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pierreb40.claude-memory/c8b313b6c9a70bb0.png",
+              "alt": "The panel listing memories to verify: a deleted file in the index, a broken link, a cited file not found, one to update at merge.",
+              "sha256": "c8b313b6c9a70bb01344c48a0ff5ad8b28be75da32886508cf1f2514873ca1bb",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/pierreb40.claude-memory/9861cfd2cd2d6c0b.png",
+              "alt": "Claude Memory icon",
+              "sha256": "9861cfd2cd2d6c0babdd01ba9b6a941aebca4bfd3cd5b4800fa3d6333876c0c1",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/pierreb40.claude-memory/62af216fbeb586be.png",
+                "alt": "The panel’s three tabs side by side: memories to verify, what Claude learned this week, and every memory grouped by type.",
+                "sha256": "62af216fbeb586be3bbae308bdc20cb1bef190b7304280ca1b4482e42480a8ab",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-12T14:13:38+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/PierreB40/claude-memory"
+        },
         {
           "version": "0.3.0",
           "commit": "2c5e205cc06d33663cced01bc98d42a9c67f5162",

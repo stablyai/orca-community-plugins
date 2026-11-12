@@ -563,6 +563,16 @@
         "eskono.docker-logs"
       ]
     },
+    "estalions/claude-code-session-status": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "estalions.claude-code-session-status"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "esykai/orca-catppuccin-exact": {
       "state": "listed",
       "ref": "v1.0.2",
@@ -1064,7 +1074,7 @@
     },
     "lazyjerry/todo-for-orca": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/lazyjerry/todo-for-orca/0.4.0",
       "plugins": [
         "lazyjerry.todo-list"
       ]
@@ -1397,19 +1407,10 @@
     },
     "pierreb40/claude-memory": {
       "state": "listed",
-      "ref": "refs/tags/pierreb40/claude-memory/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "pierreb40.claude-memory"
-      ],
-      "update": {
-        "ref": "v0.4.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "piter75/orca-gruvbox-material-theme": {
       "state": "listed",
@@ -1426,7 +1427,16 @@
       "ref": "refs/tags/plozmun/orca-redmine/0.1.8",
       "plugins": [
         "plozmun.redmine-tasks"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "pluggi-maid/orca-server-monitor": {
       "state": "rejected",
