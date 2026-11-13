@@ -1341,8 +1341,8 @@
       "ownerId": 1119267,
       "source": {
         "kind": "git",
-        "url": "https://github.com/alexesprit/orca-clock.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alexesprit/orca-clock/0.1.1"
       },
       "description": "Current local time in the Orca status bar.",
       "categories": [],
@@ -16978,14 +16978,94 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lilykos/orca-openrouter-usage/0.1.0"
+        "url": "https://github.com/Lilykos/orca-openrouter-usage.git",
+        "ref": "v1.0.0"
       },
       "description": "Keep an eye on your OpenRouter account from the sidebar: credits left and days of runway, spend and tokens by model and key, a daily ledger, low-balance alerts and a status bar item. Read-only, and your management key stays in the OS keyring.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "a12f943f3442b503f9de14e92aac8a8c59a62c22",
+          "contentHash": "af3aba80fc539667952966b0a9e86f457dcd635e83b827834281ffd9056766fc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenRouter Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenRouter Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenRouter"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lilykos.openrouter-usage/6e8280a1ad04b44f.png",
+              "alt": "OpenRouter Usage: one input fanning out to several models, with the title and the features Credits and burn rate, Models, API keys and Daily ledger",
+              "sha256": "6e8280a1ad04b44f22d1aa747120ae4e3d3e65636dffcfc582659263b9772277",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lilykos.openrouter-usage/8afcf4398a709ea2.png",
+              "alt": "OpenRouter Usage icon",
+              "sha256": "8afcf4398a709ea2e948ed759cae8a41e035581356b4717103f4fa36c7143acb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lilykos.openrouter-usage/8f7a9f5d96c9f4ef.png",
+                "alt": "The Overview tab: a banner with credits left, days left and today's spend, stat tiles and a stacked daily spend chart by model",
+                "sha256": "8f7a9f5d96c9f4efa66e8f0c2065f254be1642f867c06d74a541efe976b4b73d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/590f6e626f493a46.png",
+                "alt": "A model details drawer showing total, share, requests, token breakdown, cache hit rate and a daily sparkline",
+                "sha256": "590f6e626f493a4658dce8fc9d20faeb3324a75101978818a04006badc7afe01",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/57c2e2cb3f71247b.png",
+                "alt": "The Keys tab with a 7d, 30d and All range switch and one compact card per API key with spend, limit meter and last use",
+                "sha256": "57c2e2cb3f71247ba680b95bd0252ef79ba1d7b60ed1ecb0cbd30966296682e2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/38ab8b1523f6723a.png",
+                "alt": "The Ledger tab: a newest-first list of days with a bar and amount, and an activity calendar",
+                "sha256": "38ab8b1523f6723a8b513c47b1dc279f47c37959bc9295998e3caf51f41e69ed",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/84a28113aa14e237.png",
+                "alt": "The Settings tab with connection test, key replacement, refresh interval, alert thresholds and toggles",
+                "sha256": "84a28113aa14e2371ee3596829a79dcd969d6106a31760b5dc9498f34a8f5020",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-openrouter-usage",
+          "updatedAt": "2026-11-13T19:46:40+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "7a3d8bb0f987227fc0bd8b645ae2ef82cc45bd4f",
@@ -17065,6 +17145,151 @@
           "license": "MIT",
           "repository": "https://github.com/Lilykos/orca-openrouter-usage",
           "updatedAt": "2026-11-11T03:10:18+01:00"
+        }
+      ]
+    },
+    {
+      "id": "lilykos.the-lobby",
+      "ownerId": 2445433,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Lilykos/orca-the-lobby.git",
+        "ref": "v1.0.0"
+      },
+      "description": "See every agent in every worktree in one live view: pixel people in a room per project, who needs you or seems stuck, org charts of who started whom, and context and tokens per agent. Everything is read on your machine. Tour and guide: https://lilykos.github.io/orca-the-lobby/",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "2c9d5a4f42ae06849af245ebce3f12b00fe97492",
+          "contentHash": "6a1a5ae735e429b11a9d35e64e34181715138d8807f820a2aa6a37f7df1b04a4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "The Lobby",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "The Lobby"
+            },
+            {
+              "kind": "commands",
+              "name": "Previous agent"
+            },
+            {
+              "kind": "commands",
+              "name": "Next agent"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+ArrowUp",
+              "detail": "office.previousAgent"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+ArrowDown",
+              "detail": "office.nextAgent"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Lobby"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "workspace:write",
+            "notifications:show",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lilykos.the-lobby/cb1610d85218359c.png",
+              "alt": "The Lobby: the pixel title and orca mascot, a tagline, and two project rooms with Need you!, Stuck? and Failed speech bubbles",
+              "sha256": "cb1610d85218359ce1e248dc8f268b8bfa05a8de7f99a78e3db6afe5857d7750",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lilykos.the-lobby/26b3ac82e60284d3.png",
+              "alt": "The Lobby icon",
+              "sha256": "26b3ac82e60284d3a8ea88015005cdfa34bebec9aa2d065e2fcc691cf1116e87",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lilykos.the-lobby/fa5c7d54d90f06de.png",
+                "alt": "The Office tab in Grid: two project rooms with pixel agents at their desks, today's tokens and the first agents of each room",
+                "sha256": "fa5c7d54d90f06de2650b0a06c1849318bd3e59be922a0257aa5a18d39714c8a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/a21b03a9256387c8.png",
+                "alt": "Two project rooms with Need you!, Stuck? and Failed speech bubbles over the agents, and a finished agent's reply",
+                "sha256": "a21b03a9256387c8b33d42e0cb844649f7ce4a7acd640ae6d9744e69eac8a521",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/d4a2205a01c91b90.png",
+                "alt": "The Activity tab: an org chart for one project, with a coordinator and the three workers it started",
+                "sha256": "d4a2205a01c91b9007dd89163b7f82c92d3374d0a175f037b7d8fedc716f31b7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/0f65dfbcb080b91d.png",
+                "alt": "The agent drawer over the Office: context, tokens today, Go to agent, View in Activity and an instruction box",
+                "sha256": "0f65dfbcb080b91dbad994d88d768007e59cafeefff36af4cd3d8ee49f9b38c0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/ce1e3a5f95a322d4.png",
+                "alt": "The agent drawer's context line: 81% of a 400k window, one compaction, 1.9M tokens today and the workspace's cache share",
+                "sha256": "ce1e3a5f95a322d4f02a0c986c4bdfa33111cdfcb0fb6d2b9ef0f8ea667a4c41",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/08638e016a37798d.png",
+                "alt": "The Office tab in the light theme, with the daytime window: two project rooms in Grid",
+                "sha256": "08638e016a37798d76c81ba9368320aca04e628f145096e056357b5a4a62c242",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-the-lobby",
+          "updatedAt": "2026-11-13T19:43:17+01:00"
         }
       ]
     },

@@ -109,7 +109,7 @@
     },
     "alexesprit/orca-clock": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/alexesprit/orca-clock/0.1.1",
       "plugins": [
         "alexesprit.clock"
       ]
@@ -1264,9 +1264,16 @@
     },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
-      "ref": "refs/tags/lilykos/orca-openrouter-usage/0.1.0",
+      "ref": "v1.0.0",
       "plugins": [
         "lilykos.openrouter-usage"
+      ]
+    },
+    "lilykos/orca-the-lobby": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "lilykos.the-lobby"
       ]
     },
     "lindoo67/drawio-plugin": {
