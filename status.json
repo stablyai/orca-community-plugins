@@ -171,7 +171,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.4.4",
+      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.4",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -407,7 +407,7 @@
     },
     "chimeyrock999/orca-github-plugins": {
       "state": "listed",
-      "ref": "refs/tags/chimeyrock999/orca-github-plugins/gh-focus/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "chimeyrock999.gh-focus"
       ]
@@ -1575,6 +1575,13 @@
         }
       ]
     },
+    "naitsric/orca-claude-procesos": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "naitsric.claude-procesos"
+      ]
+    },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "listed",
       "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.5",
@@ -2012,7 +2019,7 @@
         "shaurgon.conport-orca"
       ],
       "update": {
-        "ref": "v0.7.1",
+        "ref": "v0.7.2",
         "reasons": [
           {
             "category": "under-review",
