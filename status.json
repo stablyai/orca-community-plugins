@@ -617,6 +617,13 @@
         "emamalet.git-log"
       ]
     },
+    "erlhon9/orca-pod": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "erlhon9.pod"
+      ]
+    },
     "eskono/orca-docker-logs": {
       "state": "listed",
       "ref": "refs/tags/eskono/orca-docker-logs/0.5.0",
@@ -1090,7 +1097,7 @@
     },
     "klcd/ade-nvidia-openshell-plugin": {
       "state": "rejected",
-      "ref": "v0.3.1",
+      "ref": "v0.3.2",
       "reasons": [],
       "plugins": [
         {
@@ -1106,20 +1113,13 @@
       ]
     },
     "klcd/agent-cli-permissions": {
-      "state": "rejected",
-      "ref": "v0.1.1",
-      "reasons": [],
+      "state": "listed",
+      "ref": "v0.1.2",
       "plugins": [
-        {
-          "path": "orca-plugin",
-          "id": "agent-permissions",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "code"
-            }
-          ]
-        }
+        "klcd.agent-permissions"
+      ],
+      "notes": [
+        "agent-permissions: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "kloppers-labs/orca-azure-devops": {
@@ -1593,7 +1593,7 @@
     },
     "ostkost/avari-glow-orca-tweaks": {
       "state": "listed",
-      "ref": "refs/tags/ostkost/avari-glow-orca-tweaks/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "ostkost.avari-glow-tweaks"
       ]
@@ -1939,7 +1939,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]

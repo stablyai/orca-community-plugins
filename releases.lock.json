@@ -887,6 +887,12 @@
     "repoId": 1444427278,
     "firstSeen": "2026-11-10T09:59:04.512Z"
   },
+  "erlhon9.pod@0.1.0": {
+    "commit": "6aa82a7e5d2511fbebad59200c5b8d3f3ff46220",
+    "contentHash": "e37f449309c6550b13ecd21232462051d757e0c4bdbc5e6822db81d4d6fa5f33",
+    "repoId": 1456275386,
+    "firstSeen": "2026-11-13T07:15:49.640Z"
+  },
   "eskono.docker-logs@0.4.0": {
     "commit": "64fc3b217c5e1bd67f0b5ce7eb34a3cb16ae68c7",
     "contentHash": "7e1df59588d406489c61205836ff28c94796c894fe1b636eb2f8237f4b05aa7d",
@@ -1541,6 +1547,12 @@
     "repoId": 1455824267,
     "firstSeen": "2026-11-12T22:39:17.336Z"
   },
+  "klcd.agent-permissions@0.1.2": {
+    "commit": "11ac84fafdfb42b9d87b1166e3b62dc707b34bfd",
+    "contentHash": "ed6a9a113ac200cbb2890f20b231d4e39500a16968a4923fb6f6487e65060c07",
+    "repoId": 1455781426,
+    "firstSeen": "2026-11-13T07:15:49.640Z"
+  },
   "kloppers-labs.azure-devops@0.2.0": {
     "commit": "6a72da5da364c10e38df83f32b8dd027263f72b9",
     "contentHash": "65eca3cf4555b2b2f3394b87297a37ea31a68aa1e84fc409798af85930251ea3",
@@ -2086,6 +2098,12 @@
     "contentHash": "226501c5aef758077221500cf5bc62b2d2902db7f11958013208bab2bb030e02",
     "repoId": 1455834986,
     "firstSeen": "2026-11-12T21:39:39.945Z"
+  },
+  "ostkost.avari-glow-tweaks@0.1.2": {
+    "commit": "ffa09fb471846ce266ef2b44c3b528225f6eb8b4",
+    "contentHash": "d3d6eddb1f8efd18551129233f42ad817a90bfa9258b84553b640783271e9768",
+    "repoId": 1455834986,
+    "firstSeen": "2026-11-13T07:15:49.640Z"
   },
   "palulabs.office-tycoon@0.2.0": {
     "commit": "83f881082b61ff024e58f807e2c433c6543d7a2f",
@@ -2704,6 +2722,12 @@
     "contentHash": "b283fce349d661870d17d9e009613ca60b0223681eda4c104b1de446319f8f90",
     "repoId": 1451239680,
     "firstSeen": "2026-11-13T05:38:55.714Z"
+  },
+  "shaurgon.conport-orca@0.6.1": {
+    "commit": "d3d0136d901ae306b9c0341995afcdf2e72a3925",
+    "contentHash": "9db0d5365ccb5e3ddd928c5e4de9f6238e7c236b9ead734c247da54f7cb76e9b",
+    "repoId": 1451239680,
+    "firstSeen": "2026-11-13T07:15:49.640Z"
   },
   "shu-vro.read-aloud@0.1.0": {
     "commit": "7e0b47b37dd029940197d116f090a67b07642579",
