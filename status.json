@@ -2142,6 +2142,16 @@
         }
       ]
     },
+    "tagliatti/orca-openapi": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "tazaq/jb-like-docker-service": {
       "state": "listed",
       "ref": "refs/tags/tazaq/jb-like-docker-service/0.7.6",
