@@ -406,17 +406,10 @@
       ]
     },
     "chimeyrock999/orca-github-plugins": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "no-manifest",
-          "detail": "no readable orca-plugin.json at the release"
-        },
-        {
-          "category": "no-manifest",
-          "detail": "no orca-plugin.json or orca-catalog.json"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "chimeyrock999.gh-focus"
       ]
     },
     "choihjin/orca-agent-haptics": {
@@ -466,7 +459,7 @@
     },
     "cmdaltctr/orca-plugin-openspec": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.2",
       "plugins": [
         "cmdaltctr.openspec"
       ]
@@ -870,7 +863,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.6.4",
+      "ref": "refs/tags/gongxliang/claude-paper/0.6.4",
       "plugins": [
         "gongxliang.claude-paper"
       ]
