@@ -8624,8 +8624,8 @@
       "ownerId": 108442817,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Erlhon9/orca-pod.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erlhon9/orca-pod/0.1.0"
       },
       "description": "See and steer every Orca workspace and agent session on one map — 워크스페이스와 세션을 한 화면에서 보고 조작",
       "categories": [
@@ -11664,8 +11664,8 @@
       "ownerId": 125417294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/hadisd/quiet-pastel/1.1.2"
+        "url": "https://github.com/Hadisd/quiet-pastel.git",
+        "ref": "v1.1.3"
       },
       "description": "Two dark, pale blue-violet themes with pastel accents and matching terminal themes: Quiet Pastel Moonlit (brighter) and Quiet Pastel Hush (dimmer).",
       "categories": [
@@ -11673,6 +11673,44 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.3",
+          "commit": "686fb63053445706dddb5797fa1cad01fadc8057",
+          "contentHash": "b1f4c7a4e5ac29d1f5be61b655c0fba435806f2cb6b3d9afc28252566efed857",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Quiet Pastel",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "Quiet Pastel Hush"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Moonlit Terminal"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Quiet Pastel Hush Terminal"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.quiet-pastel/20147350ee4823ee.png",
+              "alt": "Quiet Pastel Moonlit preview: a file tree, syntax-highlighted TypeScript, terminal output and palette swatches",
+              "sha256": "20147350ee4823ee0bc5dac40452f8771cec689d8ef90ddd35842e4614596033",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/quiet-pastel",
+          "updatedAt": "2026-11-13T16:35:59+09:00"
+        },
         {
           "version": "1.1.2",
           "commit": "a12063520555072d48ba7cf727b4cde3919d71ab",
@@ -15188,8 +15226,8 @@
       "ownerId": 26007047,
       "source": {
         "kind": "git",
-        "url": "https://github.com/klcd/agent-cli-permissions.git",
-        "ref": "v0.1.2",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/klcd/agent-cli-permissions/agent-permissions/0.1.2",
         "path": "orca-plugin"
       },
       "description": "Inspect canonical .agents/permissions/*.yml CLI command rules (DENY > ASK > ALLOW), test commands against permission groups, and sync them into the native permission formats of compatible AI coding agents (Claude Code, Codex, Antigravity, and more).",
@@ -16914,14 +16952,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.257"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.258"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.257. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.258. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.258",
+          "commit": "aa574a367ca3cf483a5abd6e3e7bfbbc801cdf11",
+          "contentHash": "f28804d4493c5f86432b2aeee48ede52731b5a30e5e380c18ac8170100c75d1e",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-13T08:18:02+01:00"
+        },
         {
           "version": "1.4.257",
           "commit": "fd32b4df234c429493c9e9da71ee8fb5b9fe8be7",
@@ -20793,13 +20864,39 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/OstKost/avari-glow-orca-tweaks.git",
-        "ref": "v0.1.2"
+        "ref": "v0.1.3"
       },
       "description": "Optional macOS interface tweaks for Avari Glow. Builds a local tool with Go and modifies Orca.app after an explicit action.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "c5563cc5758a6484d93717fe889d4b4972f7dc23",
+          "contentHash": "3ff169fd4d15dbd7722728058cf7dc305298f617521046a610d527ff543a02b2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Avari Glow Tweaks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Avari Glow Tweaks"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ostkost.avari-glow-tweaks/fa0947ad3cfbc0ec.png",
+              "alt": "Illustrated preview of Avari Glow Tweaks with styled tabs, sidebars, workspace highlight and composer",
+              "sha256": "fa0947ad3cfbc0ec53b6a64a9a0cbc9f4e5b197d11ffffe7f041dc3d5e8885ff",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "license": "LicenseRef-Avari",
+          "repository": "https://github.com/OstKost/avari-glow-orca-tweaks",
+          "updatedAt": "2026-11-13T10:33:41+03:00"
+        },
         {
           "version": "0.1.2",
           "commit": "ffa09fb471846ce266ef2b44c3b528225f6eb8b4",
@@ -25983,8 +26080,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.6.1"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
