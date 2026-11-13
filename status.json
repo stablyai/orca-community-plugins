@@ -114,6 +114,13 @@
         "alexesprit.clock"
       ]
     },
+    "alexesprit/orca-straude": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "alexesprit.straude"
+      ]
+    },
     "alexesprit/orca-unfancy-file-icons": {
       "state": "listed",
       "ref": "refs/tags/alexesprit/orca-unfancy-file-icons/1.0.3",
@@ -1669,7 +1676,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.8",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.8",
       "plugins": [
         "palulabs.office-tycoon"
       ]

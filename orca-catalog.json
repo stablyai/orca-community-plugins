@@ -1379,6 +1379,64 @@
       ]
     },
     {
+      "id": "alexesprit.straude",
+      "ownerId": 1119267,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexesprit/orca-straude.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Straude daily spend, token usage, profile and rankings in Orca.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "1cc8023cb8038f48d687029dcb9016a95597341e",
+          "contentHash": "f6784a5df063c0a770f384cbde45269eec05be7a15edf952b1ded8cc1e9dc745",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Straude for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Straude"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Straude: set username"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alexesprit.straude/54f0786dfd75a355.png",
+              "alt": "Straude for Orca showing daily spend in the status bar and a colored model-spend breakdown in the sidebar of a dark editor window.",
+              "sha256": "54f0786dfd75a355b646c2f64fc0fa5be30c9b97c68c988408a1b6d31c07b2cc",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/alexesprit.straude/b272fc82c5ee8c0e.png",
+                "alt": "Orca with a terminal open and the Straude sidebar showing daily spend, token usage, model costs, profile statistics and rankings.",
+                "sha256": "b272fc82c5ee8c0e665582f20d995f68e0931d262418fba1be42a62623efe283",
+                "width": 2189,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alexesprit/orca-straude",
+          "updatedAt": "2026-11-14T01:54:47+04:00"
+        }
+      ]
+    },
+    {
       "id": "alexesprit.unfancy-file-icons",
       "ownerId": 1119267,
       "source": {
@@ -22144,8 +22202,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.8"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.8"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
