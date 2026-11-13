@@ -216,7 +216,7 @@
     },
     "balakumardev/orca-worktree-kit-sync": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/balakumardev/orca-worktree-kit-sync/0.2.0",
       "plugins": [
         "balakumardev.worktree-kit-sync"
       ]
