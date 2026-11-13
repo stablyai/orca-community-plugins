@@ -171,7 +171,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.1",
+      "ref": "v0.4.3",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -2316,7 +2316,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "listed",
-      "ref": "v1.0.15",
+      "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.15",
       "plugins": [
         "victorstochero.agent-pool"
       ]

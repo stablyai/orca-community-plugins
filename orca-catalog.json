@@ -1741,8 +1741,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.1"
+        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
+        "ref": "v0.4.3"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -1750,6 +1750,47 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.3",
+          "commit": "7bc2c5f6064a8e817ff7b6552586aae06c148293",
+          "contentHash": "a552c99b8b6bc64058b36bd9153663be9fc7a068d7218fdc59644100a109f630",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send",
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/anthony-fp.agent-inbox/2308119db9fae4a1.png",
+              "alt": "Agent Inbox panel in Orca's right sidebar, with questions, tasks, issues, opportunities and the workspace plan",
+              "sha256": "2308119db9fae4a13e71283ec20d5669d55186c6b23e97cf927a4b2870a4de5e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/anthony-fp/orca-agent-inbox",
+          "updatedAt": "2026-11-13T10:14:35-05:00"
+        },
         {
           "version": "0.4.1",
           "commit": "d52241d59231068f9bb840627015df4e18cfba34",
@@ -29763,8 +29804,8 @@
       "ownerId": 92390114,
       "source": {
         "kind": "git",
-        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
-        "ref": "v1.0.15"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.15"
       },
       "description": "Spread agent work across your Claude, Codex and other accounts by the quota each one has left, and run every test through one machine-wide queue so parallel worktrees don't overload the machine or share a test database.",
       "categories": [
