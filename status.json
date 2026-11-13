@@ -2107,13 +2107,10 @@
       ]
     },
     "tazaq/jb-like-docker-service": {
-      "state": "rejected",
-      "ref": "v0.7.5",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "name"
-        }
+      "state": "listed",
+      "ref": "v0.7.6",
+      "plugins": [
+        "tazaq.jb-containers"
       ]
     },
     "telchine/orca-now-playing": {

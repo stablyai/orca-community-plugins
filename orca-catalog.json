@@ -27869,6 +27869,87 @@
       ]
     },
     {
+      "id": "tazaq.jb-containers",
+      "ownerId": 12658664,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/TAZAQ/jb-like-docker-service.git",
+        "ref": "v0.7.6"
+      },
+      "description": "Manage Docker containers, Compose projects, images, networks and volumes in a JetBrains-inspired sidebar, with live logs and crash notifications. Independent plugin; not affiliated with or endorsed by JetBrains or Docker.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.7.6",
+          "commit": "381bd2b5253c26a59131c13a87691acc16c74f62",
+          "contentHash": "a4cdfca6d361868bcff380161b10d0337811460ff91305c6be9f42f01eee90d4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "JB Containers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "JB Containers"
+            },
+            {
+              "kind": "commands",
+              "name": "JB Containers: Show Compose Status"
+            },
+            {
+              "kind": "commands",
+              "name": "JB Containers: Toggle Crash Notifications"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "notifications:show",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tazaq.jb-containers/4a3d5028cff4a1b9.png",
+              "alt": "Expanded Docker Compose project with services and worker containers in light and dark themes",
+              "sha256": "4a3d5028cff4a1b9201ea95ed90b46c157a8bfcc7943c30d1e4f61eca00347db",
+              "width": 1120,
+              "height": 700
+            },
+            "icon": {
+              "path": "assets/tazaq.jb-containers/3e67bbdb297881df.png",
+              "alt": "JB Containers icon",
+              "sha256": "3e67bbdb297881df87b6ce84698a460eb6477d91ab7d645ea4f7ff1c40e79db4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tazaq.jb-containers/95e003ba26d9dd86.png",
+                "alt": "Docker Compose services and live PostgreSQL container logs in light and dark themes",
+                "sha256": "95e003ba26d9dd86f2887b67d34a8050d414bb00c8b03e401022544f309c6061",
+                "width": 1280,
+                "height": 1262
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TAZAQ/jb-like-docker-service",
+          "updatedAt": "2026-11-13T19:07:05+05:00"
+        }
+      ]
+    },
+    {
       "id": "thailoc-dev.dev-toolbox",
       "ownerId": 113083148,
       "source": {
