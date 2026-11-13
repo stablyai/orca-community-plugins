@@ -1359,6 +1359,16 @@
         "mars-crater.jsonnet-syntax"
       ]
     },
+    "matteoeusebi/orca-extensions": {
+      "state": "rejected",
+      "ref": "v1.4.258",
+      "reasons": [
+        {
+          "category": "identity-hold",
+          "detail": "moved from matteoeusebi/orca-italiano (matteoeusebi.italiano) to matteoeusebi/orca-extensions (matteoeusebi.italiano); new versions paused until a maintainer confirms the move in identity-moves.json"
+        }
+      ]
+    },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.258",
@@ -2003,7 +2013,16 @@
       "ref": "refs/tags/shaurgon/conport-orca/0.6.1",
       "plugins": [
         "shaurgon.conport-orca"
-      ]
+      ],
+      "update": {
+        "ref": "v0.7.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "shu-vro/orca-read-aloud": {
       "state": "listed",
@@ -2297,7 +2316,7 @@
     },
     "victorstochero/orca-agent-pool": {
       "state": "listed",
-      "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.14",
+      "ref": "v1.0.15",
       "plugins": [
         "victorstochero.agent-pool"
       ]
