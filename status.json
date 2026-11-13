@@ -115,6 +115,13 @@
         }
       ]
     },
+    "alterdianne/orca-plugin": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "alterdianne.inspo-board"
+      ]
+    },
     "amethystliang/orca-plugin": {
       "state": "listed",
       "ref": "refs/tags/amethystliang/orca-plugin/1.0.0",
@@ -1573,6 +1580,16 @@
       "ref": "refs/tags/palulabs/orca-tycoon/0.2.7",
       "plugins": [
         "palulabs.office-tycoon"
+      ]
+    },
+    "pantoninho/orca-devtrees": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "pcauhi/orca-hairline-theme": {

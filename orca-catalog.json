@@ -1353,6 +1353,70 @@
       ]
     },
     {
+      "id": "alterdianne.inspo-board",
+      "ownerId": 106173789,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alterdianne/orca-plugin.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Drag screenshots into a sidebar board and keep your references beside your work.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "dffa7676c10842aa9c528b9cb8e503f79e14b382",
+          "contentHash": "d1f659cb7e3ae589148cb7a3c760de7ce4f46496c67e7a9de271971be55d9f62",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Inspo",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Inspo"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alterdianne.inspo-board/85af88bc2705f5a0.png",
+              "alt": "The Inspo panel in Orca's sidebar, showing a pinned screenshot above a two-column grid, next to the expanded viewer.",
+              "sha256": "85af88bc2705f5a0b2e93433d5c5078f8dda110b5b127d3da0efdd32105ff731",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/alterdianne.inspo-board/8581a3bcf5501ed5.png",
+                "alt": "The empty Inspo panel inviting you to drop screenshots, next to the panel highlighted while three files are dragged over it.",
+                "sha256": "8581a3bcf5501ed504bffe10e6a6d8fe2e1c66c9c0fcd946fc40773127bcecd2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alterdianne.inspo-board/041783d98932ee89.png",
+                "alt": "A pinned screenshot shown large at the top of the panel, with the rest of the screenshots in a two-column grid below.",
+                "sha256": "041783d98932ee895b10a8a4aaab4a436ef009d992e975707bee902262e73f71",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alterdianne.inspo-board/da1667a612c6a04f.png",
+                "alt": "The expanded viewer showing one screenshot larger, with previous and next arrows, the file name, and pin and remove buttons.",
+                "sha256": "da1667a612c6a04fcea961c3f6f56deb229633307b5c97aae2823542754379c3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alterdianne/orca-plugin",
+          "updatedAt": "2026-11-12T21:38:32-05:00"
+        }
+      ]
+    },
+    {
       "id": "amethystliang.emoji-picker",
       "ownerId": 6427696,
       "source": {
