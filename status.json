@@ -76,7 +76,7 @@
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "aetna000.atmem-architect"
       ]
@@ -419,6 +419,13 @@
         {
           "category": "manifest-format"
         }
+      ]
+    },
+    "csavur/simple-todo": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "csavur.simple-todo"
       ]
     },
     "ctodarealpro/orca-specsmd": {
@@ -1012,7 +1019,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "refs/tags/jondmarien/orca-discord-presence/1.1.0",
+      "ref": "v1.1.1",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -1049,7 +1056,7 @@
     },
     "klcd/ade-nvidia-openshell-plugin": {
       "state": "rejected",
-      "ref": "v0.3.0",
+      "ref": "v0.3.1",
       "reasons": [],
       "plugins": [
         {
@@ -1066,7 +1073,7 @@
     },
     "klcd/agent-cli-permissions": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [],
       "plugins": [
         {
@@ -1451,7 +1458,7 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.2.0",
+      "ref": "v1.2.1",
       "plugins": [
         "mswdev.fleet-monitor"
       ]
@@ -1822,7 +1829,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "v1.3.0",
+      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.3.0",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ]
@@ -2280,7 +2287,7 @@
     },
     "yeonjin1357/orca-line-blame": {
       "state": "listed",
-      "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.6",
+      "ref": "v0.1.7",
       "plugins": [
         "yeonjin1357.line-blame"
       ]

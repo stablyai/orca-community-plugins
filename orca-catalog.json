@@ -1006,13 +1006,46 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/aetna000/atmem-ai-architect-orca.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Design in Architect, open its local UI in Orca, and inspect exported project specifications.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "a95f9a473a01eaefeecba0318391442a35d1207d",
+          "contentHash": "70fe8d825ca39ae26bbed494ae83bf07178dcd9602a0b9140dbede4e549bea83",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.257",
+          "name": "AtMem AI Architect",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "AtMem AI Architect"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/aetna000.atmem-architect/dfecc37d0568b682.png",
+              "alt": "AtMem AI Architect icon",
+              "sha256": "dfecc37d0568b682c61091858aad85f886b2cb3742656c6f50ff6cbda2847582",
+              "width": 192,
+              "height": 192
+            }
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/aetna000/atmem-ai-architect-orca",
+          "updatedAt": "2026-11-13T11:15:03+11:00"
+        },
         {
           "version": "0.1.1",
           "commit": "39bdab4c0da27dbaf4d8de390bc26f05f9bac850",
@@ -5497,6 +5530,83 @@
           "license": "MIT",
           "repository": "https://github.com/coffeepy/swampling",
           "updatedAt": "2026-11-11T10:47:06-06:00"
+        }
+      ]
+    },
+    {
+      "id": "csavur.simple-todo",
+      "ownerId": 147931,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/csavur/simple-todo.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A to-do list in the sidebar: Markdown to-dos with priorities, due days, tags and lists, tagged with your Orca projects, that you can hand to an agent and follow. Open to-dos show in the status bar.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "67c24295b2d458a5ce92ff8b4b24f4f2e63dd850",
+          "contentHash": "9fbd348446f6d21b304fde02350c991003f43c238211299e3314d9b48836bec5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Simple Todo",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Simple Todo"
+            },
+            {
+              "kind": "commands",
+              "name": "Simple Todo: Show Open Tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Simple Todo: New To-do"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Slash",
+              "detail": "simple-todo.quickAdd"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "open"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/csavur.simple-todo/d5827a13ff59c9ab.png",
+              "alt": "The Simple Todo panel in Orca: to-do cards with priorities, due days, tags and an agent at work on one of them.",
+              "sha256": "d5827a13ff59c9ab2cf1af6245468f59a7c8564a1c75a876ead9b861bd24a230",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/csavur.simple-todo/ac2768b5f2f31dce.png",
+              "alt": "Simple Todo icon",
+              "sha256": "ac2768b5f2f31dce505b20c3e52a4d29dbbdcb1ea2c38ef17bd8722e7bbd06cc",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/csavur/simple-todo",
+          "updatedAt": "2026-11-12T16:11:48-08:00"
         }
       ]
     },
@@ -13657,8 +13767,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jondmarien/orca-discord-presence/1.1.0"
+        "url": "https://github.com/jondmarien/orca-discord-presence.git",
+        "ref": "v1.1.1"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -13667,6 +13777,143 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "ae774739126cfcd0c606e37c835aef5f3de003ab",
+          "contentHash": "40fec7411c0ffdd15a821044831a673a007b9bb5f0239ebe09e9e67c6e6611e0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich Presence for Discord",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Rich Presence"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Enable/Disable"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show or Hide Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Reload RPC"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Cycle Detail Level"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Branch"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent State"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Terminal Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Machine Name"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Elapsed Timer"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Debug Logging"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Open Button"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Clear"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Configure"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Discord"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jondmarien.discord-presence/e2b815ffd538f18f.webp",
+              "alt": "Rich Presence for Discord: title, four agent state icons, Discord profile card showing Working in Orca",
+              "sha256": "e2b815ffd538f18f7f58150cedcf3af570393b1f7ac8cd67ae66196e539a96f3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jondmarien.discord-presence/97715988bb458fac.png",
+              "alt": "Rich Presence for Discord icon",
+              "sha256": "97715988bb458fac7de742d5ed999f4638639ca22eb9a3006b792b9d678bb093",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jondmarien.discord-presence/47f6349c40c45689.webp",
+                "alt": "Rich Presence panel Full view: Discord profile preview, last 30 minutes of agent states, agent list with chat names, and Show on Discord switches",
+                "sha256": "47f6349c40c45689b272e19ab03104995178b8b04fae992aebfb4419899d1cd0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jondmarien.discord-presence/8b25f52a96af6933.webp",
+                "alt": "Rich Presence panel Minimal view: state-coloured hero showing Working with 2 agents and a timer, plus the 30-minute strip",
+                "sha256": "8b25f52a96af693320c093d33bb7bc6b768d6e782dd7d7d2c6c67f34ea34cfe7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jondmarien/orca-discord-presence",
+          "updatedAt": "2026-11-12T19:31:03-05:00"
+        },
         {
           "version": "1.1.0",
           "commit": "d445060c9b6109a951e070d2af539eaef30d8a4d",
@@ -18910,8 +19157,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.2.0"
+        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
+        "ref": "v1.2.1"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -18919,6 +19166,85 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "a5bac578c1afded5024686722cc43ede28f91586",
+          "contentHash": "89c2041809819b9586e111f11fb8acaf784a5f3ef659e272cf389bb6307920b2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Fleet Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Fleet Monitor: Send a test alert"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fleet"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mswdev.fleet-monitor/44467abc88394983.png",
+              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
+              "sha256": "44467abc88394983b807d72b3319eefbc74e751c5c241ed3c76943494cb4c551",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
+              "alt": "Fleet Monitor icon",
+              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/mswdev.fleet-monitor/6284f1f5fd2beb42.png",
+                "alt": "Five sample machines with health, CPU and memory, beside one strained machine's detail: its tabs, charts, per-core load and the process using the most memory.",
+                "sha256": "6284f1f5fd2beb425582c72e06aebd5cdfc08babf45d21cfee0ef20ab2b05e16",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/497b808748ca4923.png",
+                "alt": "The same overview and machine detail in the dark theme.",
+                "sha256": "497b808748ca49230a4f742ded254ac2437ce63bc86750cdcca97d7d6ff61e93",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/3fe5a39658bf2301.png",
+                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
+                "sha256": "3fe5a39658bf23012d444f2df61807a7dd9b43bbb4b5a2e17be09db04dc76e74",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/b5ed503d106220f3.png",
+                "alt": "This computer's network, disk, GPU and battery readings above its processes sorted by CPU, beside a paired Mac's readings and its 60 busiest processes.",
+                "sha256": "b5ed503d106220f336e3c42c3b13ab3c094518a6122656c2dbd070c396c18344",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mswdev/orca-fleet-monitor",
+          "updatedAt": "2026-11-12T17:12:59-07:00"
+        },
         {
           "version": "1.2.0",
           "commit": "af37bb24b11708d8a088e1d0ba864c674975fe29",
@@ -23803,8 +24129,8 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
-        "ref": "v1.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.3.0"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],
@@ -28758,12 +29084,529 @@
       "ownerId": 85864510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.6"
+        "url": "https://github.com/yeonjin1357/orca-line-blame.git",
+        "ref": "v0.1.7"
       },
       "description": "Git blame for each line, GitLens style: click a line to see who changed it, when and why, then step back through the commits that changed it before.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.7",
+          "commit": "1a7011648cb88b2858798095053e1dc5e30e3e18",
+          "contentHash": "1891cc66e58bd5bb1ce1db64166c155c8151c1f787e199ab2d77398a0c704b9f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Line Blame",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".vue, .svelte, .ts, .tsx, .js, .jsx, .py, .java, .kt, .go, .rs, .cs, .cpp, .c, .h, .rb, .php, .swift, .dart, .sql, .sh"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".astro, .mts, .cts, .mjs, .cjs, .html, .htm, .xhtml, .css, .scss, .sass, .less, .styl, .pcss, .coffee, .elm"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".ejs, .hbs, .handlebars, .mustache, .pug, .twig, .njk, .liquid, .jinja, .j2, .erb, .haml, .jsp, .razor, .cshtml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".pyi, .pyw, .pyx, .rake, .gemspec, .phtml, .pl, .pm, .lua, .r, .jl, Gemfile, Rakefile, Podfile, Fastfile, Brewfile"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".kts, .scala, .sc, .groovy, .gradle, .clj, .cljs, .cljc, .edn, .ex, .exs, .erl, .hrl, .hs, .ml, .mli, .sml, .lisp, .el, .scm, .rkt"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".csx, .fs, .fsx, .fsi, .vb, .vbs, .xaml, .csproj, .fsproj, .vbproj, .sln, .props, .targets"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".cc, .cxx, .hpp, .hh, .hxx, .ino, .m, .mm, .zig, .nim, .d, .cr, .pas, .adb, .ads, .f90, .f95, .f, .for, .vala"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".v, .sv, .svh, .vhd, .vhdl, .asm, .ll, .glsl, .vert, .frag, .wat, .sol, .gd, .hx, .qml, .applescript"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".bash, .zsh, .ksh, .fish, .ps1, .psm1, .psd1, .bat, .cmd, .awk, .tcl, .vim, .bashrc, .zshrc, .profile, .bash_profile"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".mk, .cmake, .dockerfile, .nginx, .tf, .tfvars, .hcl, .nix, .bzl, .bazel, .pp, Dockerfile, Containerfile, Makefile, GNUmakefile, CMakeLists.txt, Jenkinsfile"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".pgsql, .prisma, .graphql, .graphqls, .gql, .proto, .thrift, .http, .rest, .diff, .patch, Vagrantfile, Procfile, Justfile, Caddyfile, BUILD, WORKSPACE"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".json, .jsonc, .json5, .yaml, .yml, .toml, .ini, .cfg, .conf, .properties, .xml, .xsd, .xsl, .xslt, .plist, CODEOWNERS, .editorconfig, .nvmrc, .stylelintrc"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".md, .markdown, .mdx, .rst, .adoc, .asciidoc, .txt, .tex, .sty, .bib, .org, .feature"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".gitignore, .gitattributes, .gitmodules, .dockerignore, .npmignore, .eslintignore, .prettierignore, .prettierrc, .eslintrc, .babelrc, .browserslistrc"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "vue",
+            "svelte",
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "py",
+            "java",
+            "kt",
+            "go",
+            "rs",
+            "cs",
+            "cpp",
+            "c",
+            "h",
+            "rb",
+            "php",
+            "swift",
+            "dart",
+            "sql",
+            "sh",
+            "astro",
+            "mts",
+            "cts",
+            "mjs",
+            "cjs",
+            "html",
+            "htm",
+            "xhtml",
+            "css",
+            "scss",
+            "sass",
+            "less",
+            "styl",
+            "pcss",
+            "coffee",
+            "elm",
+            "ejs",
+            "hbs",
+            "handlebars",
+            "mustache",
+            "pug",
+            "twig",
+            "njk",
+            "liquid",
+            "jinja",
+            "j2",
+            "erb",
+            "haml",
+            "jsp",
+            "razor",
+            "cshtml",
+            "pyi",
+            "pyw",
+            "pyx",
+            "rake",
+            "gemspec",
+            "phtml",
+            "pl",
+            "pm",
+            "lua",
+            "r",
+            "jl",
+            "kts",
+            "scala",
+            "sc",
+            "groovy",
+            "gradle",
+            "clj",
+            "cljs",
+            "cljc",
+            "edn",
+            "ex",
+            "exs",
+            "erl",
+            "hrl",
+            "hs",
+            "ml",
+            "mli",
+            "sml",
+            "lisp",
+            "el",
+            "scm",
+            "rkt",
+            "csx",
+            "fs",
+            "fsx",
+            "fsi",
+            "vb",
+            "vbs",
+            "xaml",
+            "csproj",
+            "fsproj",
+            "vbproj",
+            "sln",
+            "props",
+            "targets",
+            "cc",
+            "cxx",
+            "hpp",
+            "hh",
+            "hxx",
+            "ino",
+            "m",
+            "mm",
+            "zig",
+            "nim",
+            "d",
+            "cr",
+            "pas",
+            "adb",
+            "ads",
+            "f90",
+            "f95",
+            "f",
+            "for",
+            "vala",
+            "v",
+            "sv",
+            "svh",
+            "vhd",
+            "vhdl",
+            "asm",
+            "ll",
+            "glsl",
+            "vert",
+            "frag",
+            "wat",
+            "sol",
+            "gd",
+            "hx",
+            "qml",
+            "applescript",
+            "bash",
+            "zsh",
+            "ksh",
+            "fish",
+            "ps1",
+            "psm1",
+            "psd1",
+            "bat",
+            "cmd",
+            "awk",
+            "tcl",
+            "vim",
+            "mk",
+            "cmake",
+            "dockerfile",
+            "nginx",
+            "tf",
+            "tfvars",
+            "hcl",
+            "nix",
+            "bzl",
+            "bazel",
+            "pp",
+            "pgsql",
+            "prisma",
+            "graphql",
+            "graphqls",
+            "gql",
+            "proto",
+            "thrift",
+            "http",
+            "rest",
+            "diff",
+            "patch",
+            "json",
+            "jsonc",
+            "json5",
+            "yaml",
+            "yml",
+            "toml",
+            "ini",
+            "cfg",
+            "conf",
+            "properties",
+            "xml",
+            "xsd",
+            "xsl",
+            "xslt",
+            "plist",
+            "md",
+            "markdown",
+            "mdx",
+            "rst",
+            "adoc",
+            "asciidoc",
+            "txt",
+            "tex",
+            "sty",
+            "bib",
+            "org",
+            "feature"
+          ],
+          "editorFileTypes": [
+            "vue",
+            "svelte",
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "py",
+            "java",
+            "kt",
+            "go",
+            "rs",
+            "cs",
+            "cpp",
+            "c",
+            "h",
+            "rb",
+            "php",
+            "swift",
+            "dart",
+            "sql",
+            "sh",
+            "astro",
+            "mts",
+            "cts",
+            "mjs",
+            "cjs",
+            "html",
+            "htm",
+            "xhtml",
+            "css",
+            "scss",
+            "sass",
+            "less",
+            "styl",
+            "pcss",
+            "coffee",
+            "elm",
+            "ejs",
+            "hbs",
+            "handlebars",
+            "mustache",
+            "pug",
+            "twig",
+            "njk",
+            "liquid",
+            "jinja",
+            "j2",
+            "erb",
+            "haml",
+            "jsp",
+            "razor",
+            "cshtml",
+            "pyi",
+            "pyw",
+            "pyx",
+            "rake",
+            "gemspec",
+            "phtml",
+            "pl",
+            "pm",
+            "lua",
+            "r",
+            "jl",
+            "kts",
+            "scala",
+            "sc",
+            "groovy",
+            "gradle",
+            "clj",
+            "cljs",
+            "cljc",
+            "edn",
+            "ex",
+            "exs",
+            "erl",
+            "hrl",
+            "hs",
+            "ml",
+            "mli",
+            "sml",
+            "lisp",
+            "el",
+            "scm",
+            "rkt",
+            "csx",
+            "fs",
+            "fsx",
+            "fsi",
+            "vb",
+            "vbs",
+            "xaml",
+            "csproj",
+            "fsproj",
+            "vbproj",
+            "sln",
+            "props",
+            "targets",
+            "cc",
+            "cxx",
+            "hpp",
+            "hh",
+            "hxx",
+            "ino",
+            "m",
+            "mm",
+            "zig",
+            "nim",
+            "d",
+            "cr",
+            "pas",
+            "adb",
+            "ads",
+            "f90",
+            "f95",
+            "f",
+            "for",
+            "vala",
+            "v",
+            "sv",
+            "svh",
+            "vhd",
+            "vhdl",
+            "asm",
+            "ll",
+            "glsl",
+            "vert",
+            "frag",
+            "wat",
+            "sol",
+            "gd",
+            "hx",
+            "qml",
+            "applescript",
+            "bash",
+            "zsh",
+            "ksh",
+            "fish",
+            "ps1",
+            "psm1",
+            "psd1",
+            "bat",
+            "cmd",
+            "awk",
+            "tcl",
+            "vim",
+            "mk",
+            "cmake",
+            "dockerfile",
+            "nginx",
+            "tf",
+            "tfvars",
+            "hcl",
+            "nix",
+            "bzl",
+            "bazel",
+            "pp",
+            "pgsql",
+            "prisma",
+            "graphql",
+            "graphqls",
+            "gql",
+            "proto",
+            "thrift",
+            "http",
+            "rest",
+            "diff",
+            "patch",
+            "json",
+            "jsonc",
+            "json5",
+            "yaml",
+            "yml",
+            "toml",
+            "ini",
+            "cfg",
+            "conf",
+            "properties",
+            "xml",
+            "xsd",
+            "xsl",
+            "xslt",
+            "plist",
+            "md",
+            "markdown",
+            "mdx",
+            "rst",
+            "adoc",
+            "asciidoc",
+            "txt",
+            "tex",
+            "sty",
+            "bib",
+            "org",
+            "feature"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yeonjin1357.line-blame/69e0ddddecfe0c76.png",
+              "alt": "A code file in the Blame view: the clicked line shows its author, date and commit title, and a card shows what that commit changed.",
+              "sha256": "69e0ddddecfe0c76c76ca497d5452fa644c128e91e10d2823bdee2a36782ba48",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/yeonjin1357.line-blame/d1a9ef33705d8b39.png",
+              "alt": "Line Blame icon",
+              "sha256": "d1a9ef33705d8b39820682d362bfca0fde08492054f571dda84ef76fd6e5ab8e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/yeonjin1357.line-blame/87a8c6526bfc278b.png",
+                "alt": "The clicked line shows who changed it and when; a card shows the commit message and the line before and after.",
+                "sha256": "87a8c6526bfc278b11e870beb36955a3377f3ed3bb3965431843c28469ea9a70",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/yeonjin1357.line-blame/36ef721ecab6de52.png",
+                "alt": "The card pinned on an earlier change of the same line, with buttons to step earlier and later.",
+                "sha256": "36ef721ecab6de52f560d53e69011313ae61913d0e89910d4992188dd61b9c3b",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/yeonjin1357.line-blame/1dacd67a6ce4d1bd.png",
+                "alt": "The find bar open with every match highlighted in the file.",
+                "sha256": "1dacd67a6ce4d1bd00b20c429007bcd6f3275d972ea72502aaa9e043cb86f746",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yeonjin1357/orca-line-blame",
+          "updatedAt": "2026-11-13T09:10:57+09:00"
+        },
         {
           "version": "0.1.6",
           "commit": "20a1ebb55f699fb5c1c9dfda922b70c25fa5bf78",
