@@ -1005,8 +1005,8 @@
       "ownerId": 300051964,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aetna000/atmem-ai-architect-orca.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.1.2"
       },
       "description": "Design in Architect, open its local UI in Orca, and inspect exported project specifications.",
       "categories": [
@@ -5538,8 +5538,8 @@
       "ownerId": 147931,
       "source": {
         "kind": "git",
-        "url": "https://github.com/csavur/simple-todo.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/csavur/simple-todo/0.1.0"
       },
       "description": "A to-do list in the sidebar: Markdown to-dos with priorities, due days, tags and lists, tagged with your Orca projects, that you can hand to an agent and follow. Open to-dos show in the status bar.",
       "categories": [
@@ -13767,8 +13767,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jondmarien/orca-discord-presence.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jondmarien/orca-discord-presence/1.1.1"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -19157,8 +19157,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.2.1"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -29084,8 +29084,8 @@
       "ownerId": 85864510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yeonjin1357/orca-line-blame.git",
-        "ref": "v0.1.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.7"
       },
       "description": "Git blame for each line, GitLens style: click a line to see who changed it, when and why, then step back through the commits that changed it before.",
       "categories": [],
