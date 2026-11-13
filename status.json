@@ -16,7 +16,16 @@
       "ref": "refs/tags/2589195970/jumplens/0.3.2",
       "plugins": [
         "2589195970.jumplens"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size, update"
+          }
+        ]
+      }
     },
     "2589195970/orca-shiftlens": {
       "state": "listed",
@@ -117,7 +126,7 @@
     },
     "alterdianne/orca-plugin": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/alterdianne/orca-plugin/1.0.0",
       "plugins": [
         "alterdianne.inspo-board"
       ]
@@ -321,7 +330,16 @@
       "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.8",
       "plugins": [
         "cattfan.enhance-prompt"
-      ]
+      ],
+      "update": {
+        "ref": "v2.7.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -390,6 +408,16 @@
       "ref": "refs/tags/christianlemer/orca-nushell-syntax/0.1.0",
       "plugins": [
         "christianlemer.nushell-syntax"
+      ]
+    },
+    "christinaxvg/orca-plugin-workshop": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "christinaxvg.design-direction"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "cmdaltctr/orca-plugin-openspec": {

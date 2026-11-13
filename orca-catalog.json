@@ -1357,8 +1357,8 @@
       "ownerId": 106173789,
       "source": {
         "kind": "git",
-        "url": "https://github.com/alterdianne/orca-plugin.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alterdianne/orca-plugin/1.0.0"
       },
       "description": "Drag screenshots into a sidebar board and keep your references beside your work.",
       "categories": [
@@ -5248,6 +5248,38 @@
           "license": "MIT",
           "repository": "https://github.com/ChristianLemer/orca-nushell-syntax",
           "updatedAt": "2026-11-08T23:06:14+01:00"
+        }
+      ]
+    },
+    {
+      "id": "christinaxvg.design-direction",
+      "ownerId": 280850037,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/christinaxvg/orca-plugin-workshop.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Turn an early product idea into a focused visual direction and prototype plan.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "d338b33e8ac47423845d216778c500aa9d493a8e",
+          "contentHash": "4a9efae630666d69f7db08e0505860065b4e0826a2b6927bc40582f029c38361",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Design Direction",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Design Direction"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/christinaxvg/orca-plugin-workshop",
+          "updatedAt": "2026-11-12T18:59:33-08:00"
         }
       ]
     },
