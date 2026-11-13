@@ -6341,8 +6341,8 @@
       "ownerId": 13068594,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dennib/finline.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dennib/finline/0.3.1"
       },
       "description": "Git graph for the active worktree: branches, tags and remotes in colored lanes, commit details, and git actions from a right-click.",
       "categories": [
@@ -11317,8 +11317,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gongxliang/claude-paper/0.6.2"
       },
       "description": "Claude-inspired light and dark colors for Orca Chat and agent terminals, with 455 distinct file icons, calm slate folders and optional IBM Plex Mono.",
       "categories": [
@@ -28343,8 +28343,8 @@
       "ownerId": 250263194,
       "source": {
         "kind": "git",
-        "url": "https://github.com/turingfx/omp-stats.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/turingfx/omp-stats/0.2.1"
       },
       "description": "Native Orca sidebar embedding of omp's official telemetry dashboard (http://127.0.0.1:59127). Directly queries ~/.omp/stats.db in read-only mode via an embedded Node SQLite worker (~9ms) to display live KPI sparklines, latency, throughput, token mix, and per-model performance tables.",
       "categories": [
