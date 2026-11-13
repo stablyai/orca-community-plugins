@@ -5605,14 +5605,89 @@
       "ownerId": 76873351,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.0"
+        "url": "https://github.com/cmdaltctr/orca-plugin-openspec.git",
+        "ref": "v0.2.2"
       },
       "description": "See your OpenSpec changes on one board inside Orca. Each change shows its stage, planning files and task progress, across the current worktree and its sibling worktrees. Press Apply to send a change to a running agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "f4bfb2e8a474ca52c2cdd0bfdee80b886686e32c",
+          "contentHash": "31bfc85f3a548d9f2f2ff021150237b6eeacb7daab5ea28f2722604222b200d8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "OpenSpec",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cmdaltctr.openspec/600b0ec1426f954a.png",
+              "alt": "The OpenSpec board with changes grouped by stage and a progress bar on each",
+              "sha256": "600b0ec1426f954a5171e4c0f4d269b8d44965b5734c0637a69223f88998e3d2",
+              "width": 1328,
+              "height": 830
+            },
+            "screenshots": [
+              {
+                "path": "assets/cmdaltctr.openspec/600b0ec1426f954a.png",
+                "alt": "Changes grouped into Planning, Ready, In progress and Complete, with run order and progress",
+                "sha256": "600b0ec1426f954a5171e4c0f4d269b8d44965b5734c0637a69223f88998e3d2",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/4ccff9312f0defdc.png",
+                "alt": "The All worktrees tab listing changes from sibling worktrees with their branch",
+                "sha256": "4ccff9312f0defdce37431c50b0d3a00a677fc079853293aea9b6b03de316507",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/6f1e5513d4ba7ffb.png",
+                "alt": "The Todo tab listing unfinished tasks, each with an Apply button",
+                "sha256": "6f1e5513d4ba7ffb17b923a54f3cf91204de3845107a24bf8555031163c4dbb5",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/12d906511a79a0a8.png",
+                "alt": "The Send to agent menu with its help note open",
+                "sha256": "12d906511a79a0a87263372212735073ae1cae471804a7eac6c9f9040f499cda",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/f4d4bedd86e90bba.png",
+                "alt": "A change opened to read its proposal",
+                "sha256": "f4d4bedd86e90bbadb8bf28d44f55416e6e341b495a54168bceda4e039e6e45d",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/ca787654a6ae89dc.png",
+                "alt": "The All worktrees tab in the light theme",
+                "sha256": "ca787654a6ae89dc78894162950cba2aca67c030a070d023a6521344c77269af",
+                "width": 1328,
+                "height": 830
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cmdaltctr/orca-plugin-openspec",
+          "updatedAt": "2026-11-13T12:06:00Z"
+        },
         {
           "version": "0.2.0",
           "commit": "f3b786daa9982def80bfde7ef4436001cea29112",
@@ -11449,15 +11524,112 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.6.3"
+        "ref": "v0.6.4"
       },
-      "description": "Claude-inspired light and dark colors for Orca Chat and agent terminals, with 455 distinct file icons, calm warm clay folders and optional IBM Plex Mono.",
+      "description": "Claude-inspired light and dark colors for Orca Chat and agent terminals, with 455 distinct file icons, calm honey-kraft folders and optional IBM Plex Mono.",
       "categories": [
         "themes",
         "terminal-themes",
         "icons"
       ],
       "releases": [
+        {
+          "version": "0.6.4",
+          "commit": "3631734474a48f46f3c7e284988ce7deaed37765",
+          "contentHash": "0926209ad83378daf55751f0e2a2cd28a777f76636837416b1b3623cf0f330da",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Claude Paper theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Paper · 纸折图标"
+            },
+            {
+              "kind": "fonts",
+              "name": "IBM Plex Mono"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gongxliang.claude-paper/869e0fa9730a6b6d.png",
+              "alt": "Claude Paper: a complete Orca workspace with Claude Code and Codex side by side, original file icons and warm charcoal colors.",
+              "sha256": "869e0fa9730a6b6d670883d8c92c3f09a9698e3c6a9751563571a6eecf4093e5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
+              "alt": "Claude Paper theme icon",
+              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gongxliang.claude-paper/ca4643b48de15eea.png",
+                "alt": "Complete native Orca: public Chat response, composer, code and file tree in Warm Paper.",
+                "sha256": "ca4643b48de15eea34be75bc3b112515bcfe61e6d0470e4e9eb4e8abc16399ea",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/1a9bc2af7eabaf1e.png",
+                "alt": "Complete native Orca: real Claude Code and Codex sessions reviewing the same public task side by side.",
+                "sha256": "1a9bc2af7eabaf1e5d515ac942bc4e192db617cffe7176f415a1ee3dcdea41b2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/a4db88f72b0cf7d6.png",
+                "alt": "Light/dark Paper Fold comparison: 36 file types and honey-kraft folders, closed and open. Rendered SVG specimens, not an Orca screenshot.",
+                "sha256": "a4db88f72b0cf7d66689127833a75b26a42016077c0b283d6edfa8a01d4c2b8f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/ec18b33d30548b75.png",
+                "alt": "Complete native Orca: a public input-validation change and its tests in the native diff view.",
+                "sha256": "ec18b33d30548b75b98f611e0518d9dcbf7d7549634988184cd15d84a8fc9fc3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/686679ab7622756d.png",
+                "alt": "Complete native Orca: JavaScript tests in the editor and current file icons.",
+                "sha256": "686679ab7622756daad311d9934fd6c04e22196073750a04f383ec1befacecf6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/cc1e616a15ef5f2a.png",
+                "alt": "Complete native Orca: Markdown preview and a file tree. This earlier capture shows the previous slate folder design.",
+                "sha256": "cc1e616a15ef5f2abfe410b70b4506b4dabd85e36eb9f7006d2b652df84d529a",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-13T21:07:33+09:00"
+        },
         {
           "version": "0.6.3",
           "commit": "8918f04c67b56e0025f455561d3a45cc99370452",
@@ -11845,103 +12017,6 @@
           "license": "MIT",
           "repository": "https://github.com/GongXLiang/Claude-paper",
           "updatedAt": "2026-11-10T18:39:44+09:00"
-        },
-        {
-          "version": "0.5.0",
-          "commit": "2d02541653361dc01aae835ecdb4090ddc642815",
-          "contentHash": "9411c0ac5069c013fadfd7eb021249caef07224868591734b915734433d13be4",
-          "execution": "data",
-          "minimumOrca": "1.4.255",
-          "name": "Claude Paper",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "iconThemes",
-              "name": "Claude Paper · 纸折图标"
-            },
-            {
-              "kind": "fonts",
-              "name": "IBM Plex Mono"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gongxliang.claude-paper/b48ed14518ed8088.png",
-              "alt": "Claude Paper for Orca: a complete light Chat scene, genuine dark Claude Code CLI and current Paper Fold file icons from a public date-kit demo.",
-              "sha256": "b48ed14518ed8088beaf973f830cc02b8351ba074b43cedf00f15618127968c8",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
-              "alt": "Claude Paper icon",
-              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/gongxliang.claude-paper/13d6f3330b2fbff3.png",
-                "alt": "Native light Orca chat, complete public demo reply, composer and Paper Fold file tree.",
-                "sha256": "13d6f3330b2fbff3288adc84229add01e0b46d4b88b750094d21d11fd880712d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/3650167d726b4dcd.png",
-                "alt": "Genuine Claude Code CLI with Orca theme sync and IBM Plex Mono, reviewing the public date-kit example. Account, local path and usage are cropped out.",
-                "sha256": "3650167d726b4dcd02499bb6490eee59d1c82f096ba7b8409a1c43d80fafd798",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/9180067c02441717.png",
-                "alt": "Genuine Codex CLI in Warm Paper with the optional claude-paper-light syntax theme and IBM Plex Mono. Public date-kit demo.",
-                "sha256": "9180067c024417179ed3c86e739db9f21314bb6e16816d74cea8badb8045fd0d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/a257a422e2ae653d.png",
-                "alt": "Native dark code diff, actual test output and file tree composed from the same public demo.",
-                "sha256": "a257a422e2ae653ddb7618fee9aa03485da282a95998379edc059766eaf8304c",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/e275d4354aa807eb.png",
-                "alt": "Native light JavaScript editor with syntax colors and Paper Fold icons; local path bar removed.",
-                "sha256": "e275d4354aa807ebe105eb8c1ffabe7afb0e8aee736db510bee01fc8492e1306",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/36d1daa19c1dfaeb.png",
-                "alt": "Original Paper Fold SVG gallery: file formats and folder categories in light and dark. Folder names match exactly; unknown names use slate.",
-                "sha256": "36d1daa19c1dfaebc31294bff29b6da2f5f64e99a9f1437a79ea986222575178",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/GongXLiang/Claude-paper",
-          "updatedAt": "2026-11-10T13:43:29+09:00"
         }
       ]
     },

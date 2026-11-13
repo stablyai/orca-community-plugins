@@ -641,6 +641,12 @@
     "repoId": 1444201316,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "cmdaltctr.openspec@0.2.2": {
+    "commit": "f4bfb2e8a474ca52c2cdd0bfdee80b886686e32c",
+    "contentHash": "31bfc85f3a548d9f2f2ff021150237b6eeacb7daab5ea28f2722604222b200d8",
+    "repoId": 1444201316,
+    "firstSeen": "2026-11-13T12:20:44.061Z"
+  },
   "cmdaltctr.release-status@0.1.2": {
     "commit": "acd8eef9a612cde66a25a49f833898886b4342bb",
     "contentHash": "86e89f073abf58892fe6eb619d4868fc5f5178749f6086d433815febf7d7fd2e",
@@ -1240,6 +1246,12 @@
     "contentHash": "f06f0e4f67dfa0778e62b3d483b8a9bae823bff43a53b5eef1cf052392689be4",
     "repoId": 1450372557,
     "firstSeen": "2026-11-13T11:42:14.217Z"
+  },
+  "gongxliang.claude-paper@0.6.4": {
+    "commit": "3631734474a48f46f3c7e284988ce7deaed37765",
+    "contentHash": "0926209ad83378daf55751f0e2a2cd28a777f76636837416b1b3623cf0f330da",
+    "repoId": 1450372557,
+    "firstSeen": "2026-11-13T12:20:44.061Z"
   },
   "guillebe.inbox@0.1.0": {
     "commit": "4a2d6c25d8918a580d0d293551e64d74cc3fa663",
