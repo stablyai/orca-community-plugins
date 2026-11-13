@@ -407,7 +407,7 @@
     },
     "chimeyrock999/orca-github-plugins": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "chimeyrock999.gh-focus"
       ]
@@ -1174,7 +1174,7 @@
         "kloppers-labs.azure-devops"
       ],
       "update": {
-        "ref": "v0.4.0",
+        "ref": "v0.4.1",
         "reasons": [
           {
             "category": "under-review",
@@ -1951,7 +1951,7 @@
     },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
-      "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.0",
+      "ref": "v0.4.1",
       "plugins": [
         "serhii-f8.git-toolbox"
       ]
@@ -2108,7 +2108,7 @@
     },
     "tazaq/jb-like-docker-service": {
       "state": "rejected",
-      "ref": "v0.7.3",
+      "ref": "v0.7.5",
       "reasons": [
         {
           "category": "under-review",
