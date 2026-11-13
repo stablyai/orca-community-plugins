@@ -2241,6 +2241,50 @@
       ]
     },
     {
+      "id": "balakumardev.worktree-kit-sync",
+      "ownerId": 20134279,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/balakumardev/orca-worktree-kit-sync.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Copies your gitignored local files (CLAUDE.md, .claude, .mcp.json, or anything you list, such as .env) into every new worktree, in every repo, before the agent starts.",
+      "categories": [
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "ff88f3b1381f4ebd762b719bb70ec12e73f52837",
+          "contentHash": "8af7ade6e142524a534d405522c0a12cb448e3d34d4b63414db4399071172e32",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Worktree Kit Sync",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/balakumardev/orca-worktree-kit-sync",
+          "updatedAt": "2026-11-13T11:09:09+05:30"
+        }
+      ]
+    },
+    {
       "id": "baroned1707.claude-accounts",
       "ownerId": 61402493,
       "source": {
@@ -8849,8 +8893,8 @@
       "ownerId": 61019402,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Etherll/orca-usage-insights.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/etherll/orca-usage-insights/1.2.1"
       },
       "description": "Charts of your Claude Code, Codex and OpenCode token use and estimated API cost by day, project, model and machine, plus a Breakdown of what the spend went on, down to the file or command, with prompts your agent can use to explain the costly patterns. Reads local transcripts and any SSH hosts you a",
       "categories": [
@@ -13280,8 +13324,8 @@
       "ownerId": 24733930,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Javiervinus/vinus-arcade-orca.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.3.0"
       },
       "description": "Pixel art games for the wait between agents, in an office that is yours: your projects hang on the wall, your agents sit at the desks and call you when they need you, and a world ranking crowns the best runs of the week. Blip is the first game; more are on the way. Your projects and agents never lea",
       "categories": [
@@ -25779,8 +25823,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.6.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [

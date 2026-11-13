@@ -214,6 +214,13 @@
         "balakumardev.folder-sessionizer"
       ]
     },
+    "balakumardev/orca-worktree-kit-sync": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "balakumardev.worktree-kit-sync"
+      ]
+    },
     "baroned1707/orca-claude-accounts": {
       "state": "listed",
       "ref": "refs/tags/baroned1707/orca-claude-accounts/0.13.0",
@@ -645,7 +652,7 @@
     },
     "etherll/orca-usage-insights": {
       "state": "listed",
-      "ref": "v1.2.1",
+      "ref": "refs/tags/etherll/orca-usage-insights/1.2.1",
       "plugins": [
         "etherll.usage-insights"
       ]
@@ -961,7 +968,7 @@
     },
     "javiervinus/vinus-arcade-orca": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.3.0",
       "plugins": [
         "javiervinus.vinus-arcade"
       ]
@@ -1529,8 +1536,8 @@
           "id": "git-issues",
           "reasons": [
             {
-              "category": "version-locked",
-              "detail": "tag v0.1.4 moved: version 0.1.4 was first listed at commit c458942814e8dd275c9327ca61d172964f2aacd8 and stays that release; publish a new version instead"
+              "category": "under-review",
+              "detail": "update"
             }
           ]
         }
@@ -1932,7 +1939,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.6.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
