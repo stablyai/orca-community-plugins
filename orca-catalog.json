@@ -1005,8 +1005,8 @@
       "ownerId": 300051964,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aetna000/atmem-ai-architect-orca.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.1.5"
       },
       "description": "Design applications in AtMem AI Architect’s visual workspace, open it inside Orca, and inspect specifications and Terraform files.",
       "categories": [
@@ -8845,6 +8845,110 @@
       ]
     },
     {
+      "id": "etherll.usage-insights",
+      "ownerId": 61019402,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Etherll/orca-usage-insights.git",
+        "ref": "v1.2.1"
+      },
+      "description": "Charts of your Claude Code, Codex and OpenCode token use and estimated API cost by day, project, model and machine, plus a Breakdown of what the spend went on, down to the file or command, with prompts your agent can use to explain the costly patterns. Reads local transcripts and any SSH hosts you a",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "eae3fa08f21323c5679a7dbbeced2a1777a272a1",
+          "contentHash": "6b76ab3792206fe72933c9fe8309536f95f9536400b5f31ea330db3c9661a789",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Usage Insights",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Usage Insights"
+            },
+            {
+              "kind": "commands",
+              "name": "Usage Insights: Show or hide the right sidebar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "—"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/etherll.usage-insights/dbedf38ee7f01320.png",
+              "alt": "Usage Insights in an Orca window: 30-day token totals, a split by provider and machine, and a daily trend",
+              "sha256": "dbedf38ee7f013201ea920bbfdf1eee46e600d0ea9d7498b418361f18c1e3bf6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/etherll.usage-insights/4952b51f89f10ac8.png",
+              "alt": "Usage Insights icon",
+              "sha256": "4952b51f89f10ac8d780f9156bd89771191e540ca22b61449e651e0d40504560",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/etherll.usage-insights/07e67b87fed24dbc.png",
+                "alt": "Overview with stat tiles, provider and machine split, totals and a smoothed daily trend per provider",
+                "sha256": "07e67b87fed24dbcba7cc94482828b35b21bc6cad0bef5baa048709ebe2f6b6b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/69e6b9c9938d92f4.png",
+                "alt": "Daily cost bars, a 26-week activity calendar, a weekday by hour rhythm chart and a model breakdown table",
+                "sha256": "69e6b9c9938d92f433917d8b890b72e879b0e753bfd6172ced18bba1f7f7e976",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/30666a59ea8f45e1.png",
+                "alt": "Filters menu open with session scope, provider and machine options and a Worktrees only chip",
+                "sha256": "30666a59ea8f45e1422b27934953a4f6c206746f2c9d5d9480e39deb882ee07e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/9feed6d547fe50ca.png",
+                "alt": "Light theme activity calendar, rhythm chart, breakdown, token mix donut and projects",
+                "sha256": "9feed6d547fe50ca9c0a5d71bbe4e079b365c6c1865b907920d076e98556c386",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/etherll.usage-insights/d208356024c62df9.png",
+                "alt": "The panel at sidebar width in dark and light themes",
+                "sha256": "d208356024c62df906cb2a1171659247be7447c18c7c5a7c1ecdc116e55e4287",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Etherll/orca-usage-insights",
+          "updatedAt": "2026-11-13T06:54:40+02:00"
+        }
+      ]
+    },
+    {
       "id": "fabiopbarbieri.omarchy",
       "ownerId": 49872514,
       "source": {
@@ -13176,15 +13280,85 @@
       "ownerId": 24733930,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.2.0"
+        "url": "https://github.com/Javiervinus/vinus-arcade-orca.git",
+        "ref": "v0.3.0"
       },
-      "description": "Pixel art games for the wait between agents, in an office that is yours: your projects hang on its wall, your agents sit at its desks and send you what they finish while you play, and it takes you to the agent that needs you. The first game is Blip; more are on the way.",
+      "description": "Pixel art games for the wait between agents, in an office that is yours: your projects hang on the wall, your agents sit at the desks and call you when they need you, and a world ranking crowns the best runs of the week. Blip is the first game; more are on the way. Your projects and agents never lea",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "9dfac78c91437fd569aa7d4ea1c63cc90dcbce9b",
+          "contentHash": "4814a076942f924d1609d7a17e633160754201ca7f0152f70d9fab7f96ce2e50",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Vinus Arcade",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Vinus Arcade"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/javiervinus.vinus-arcade/d528040bcc8a899a.png",
+              "alt": "Vinus Arcade: its seven pixel art characters beside a run of Blip, the first game, in an office at dusk.",
+              "sha256": "d528040bcc8a899a25f8e7d908c9d3cd78d0b23f3a02af996b9677e6b0eb7932",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/javiervinus.vinus-arcade/1e16ea433779d755.png",
+              "alt": "Vinus Arcade icon",
+              "sha256": "1e16ea433779d7558749e3188148a0ddfee54110b7b1e5f117a6960e789aa79d",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/javiervinus.vinus-arcade/fe6cf4cd7a1e5734.png",
+                "alt": "Three views of Blip: the office with agents at its desks before a run, a run with the x2 tile, and a project sent in by an agent that finished.",
+                "sha256": "fe6cf4cd7a1e5734a99a3feaf263b670cba863e16c8cebbab2c9867d5e3590d0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/javiervinus.vinus-arcade/84f5feca8700be68.png",
+                "alt": "A notice from an agent that is waiting, the characters to buy with coins, and the games window with Blip and two games still to come.",
+                "sha256": "84f5feca8700be685fd3bc39c01bb6d705dd8db2c2f416f288d84c98d1eccbaf",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/javiervinus.vinus-arcade/cb6d0c06783d8e16.png",
+                "alt": "The world ranking of Blip: the ten best runs of the week, the card telling a new best and its place on the board, and the way in with a nickname.",
+                "sha256": "cb6d0c06783d8e168bea1cbf7a543b07d02e632a3d7daded2e49b5b7cee80ea7",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Javiervinus/vinus-arcade-orca",
+          "updatedAt": "2026-11-13T00:00:28-05:00"
+        },
         {
           "version": "0.2.0",
           "commit": "898c7b3bf32103a92dae28f1f9cd83adc5152431",
@@ -25605,14 +25779,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.5.1"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.6.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "68d5510e6fd04d4fe36e2bcce260f67fc2c75849",
+          "contentHash": "b283fce349d661870d17d9e009613ca60b0223681eda4c104b1de446319f8f90",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-13T05:24:28Z"
+        },
         {
           "version": "0.5.1",
           "commit": "6ac9c9ac7f31d7dec02088dc47fad83e79ec7111",
@@ -25704,29 +25901,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-12T04:34:39Z"
-        },
-        {
-          "version": "0.4.1",
-          "commit": "4808dcbc40e6f4af79de9902a58407d93d5c45e9",
-          "contentHash": "95db81207b77550788e5810378e19be8bbc08c3fa4edbcc83dcc325869056173",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-11T11:27:02Z"
         }
       ]
     },

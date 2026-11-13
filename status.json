@@ -85,7 +85,7 @@
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.1.5",
       "plugins": [
         "aetna000.atmem-architect"
       ]
@@ -644,13 +644,10 @@
       }
     },
     "etherll/orca-usage-insights": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.2.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "etherll.usage-insights"
       ]
     },
     "fabiopbarbieri/omarchy-orca-plugin": {
@@ -964,19 +961,10 @@
     },
     "javiervinus/vinus-arcade-orca": {
       "state": "listed",
-      "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "javiervinus.vinus-arcade"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "jdflament/orca-coordinator": {
       "state": "rejected",
@@ -1944,7 +1932,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.5.1",
+      "ref": "v0.6.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
