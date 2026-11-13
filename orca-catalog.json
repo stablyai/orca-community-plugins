@@ -1337,6 +1337,48 @@
       ]
     },
     {
+      "id": "alexesprit.clock",
+      "ownerId": 1119267,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alexesprit/orca-clock.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Current local time in the Orca status bar.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "9860ea565a3189f7d5b8dba685daea460db2322b",
+          "contentHash": "895c612562180bbe1b10c58f8120ccad9d7aedeba39243a16aca08a2719f46bd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Clock for Orca",
+          "contributes": [
+            {
+              "kind": "statusBarItems",
+              "name": "…"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alexesprit.clock/89138dc2b56063b3.png",
+              "alt": "Clock for Orca showing 24-hour and 12-hour local time in two dark status bar previews.",
+              "sha256": "89138dc2b56063b3601ec9af3cb13c208ea62932acd218b5ba5a59cb02a55f97",
+              "width": 1200,
+              "height": 750
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alexesprit/orca-clock",
+          "updatedAt": "2026-11-13T22:31:21+04:00"
+        }
+      ]
+    },
+    {
       "id": "alexesprit.unfancy-file-icons",
       "ownerId": 1119267,
       "source": {

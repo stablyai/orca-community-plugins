@@ -108,13 +108,10 @@
       ]
     },
     "alexesprit/orca-clock": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "reserved-name",
-          "detail": "name \"Orca Clock\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "alexesprit.clock"
       ]
     },
     "alexesprit/orca-unfancy-file-icons": {
