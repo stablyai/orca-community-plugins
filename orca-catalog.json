@@ -5649,8 +5649,8 @@
       "ownerId": 77089596,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chrisluo5311/orca-claude-trajectory.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chrisluo5311/orca-claude-trajectory/1.0.1"
       },
       "description": "What a Claude Code session did, request by request: prompts, model requests, tool calls and subagents, with tokens and timing, in Orca's light and dark themes. Reads transcripts locally, read-only.",
       "categories": [
@@ -22144,14 +22144,70 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/palulabs/orca-tycoon/0.2.7"
+        "url": "https://github.com/palulabs/orca-tycoon.git",
+        "ref": "v0.2.8"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.8",
+          "commit": "e38107d6a8182b3e3dc135894a8502d714d27ea5",
+          "contentHash": "71373fe9b5864b8c29e4b8eb2c8ce1880aa4cb70559df96915378e3fee16bf6d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Office Tycoon for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Office Tycoon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/palulabs.office-tycoon/914857d883235d36.png",
+              "alt": "The hangout in the Loft: agents chatting at a round white table, one on the sofa on a pink rug, a coffee counter and foosball",
+              "sha256": "914857d883235d3614ea1283e2b16c80fe9ded8d4b3f94e812b59f638c642065",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
+              "alt": "Office Tycoon for Orca icon",
+              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/palulabs.office-tycoon/54dc7c2deebe72aa.png",
+                "alt": "The whole office in the Loft: five teams at islands of desks behind navy curtains under tall garden windows, and the hangout in the middle",
+                "sha256": "54dc7c2deebe72aa092b6f2ff528e4c6296ea0a1e2ab1e1556d8278545a1769c",
+                "width": 2500,
+                "height": 1562
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/487b253d0b2f9916.png",
+                "alt": "A team at its island of six desks, nameplates on the monitors, and a speech bubble from an agent that just finished",
+                "sha256": "487b253d0b2f99165f2e2739e49df882c7bd4908360ca90de0b09a51a88b482f",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/c124391071136e31.png",
+                "alt": "Two small teams sharing a room: a red screen for blocked, specialists on stools beside their agent, a dimmed sleeping desk",
+                "sha256": "c124391071136e311a53f7452b3a1f4dea1fa8fd7ab8e0c2cfb86fbdcdb4d48c",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/palulabs/orca-tycoon",
+          "updatedAt": "2026-11-13T22:35:38+01:00"
+        },
         {
           "version": "0.2.7",
           "commit": "038757b7945caaed8bde27f4e771d5f37bf76d69",
@@ -22375,62 +22431,6 @@
           "license": "MIT",
           "repository": "https://github.com/palulabs/orca-tycoon",
           "updatedAt": "2026-11-09T14:38:46+01:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "596fa5df184d00a37081eef11b6d9c10469756d9",
-          "contentHash": "e773d4982ec96e1f2640376db6f66563937f779767f545f22d3eff70939fa443",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Orca Tycoon",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Orca Tycoon"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/palulabs.office-tycoon/65f2486153931c20.png",
-              "alt": "The commons of a pixel office: agents on the sofa and at the coffee corner, a foosball table, and Palú the dog eating from his bowl",
-              "sha256": "65f2486153931c2065716893a4bfb2c98d68bc27857675d242a2c936485a9071",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
-              "alt": "Orca Tycoon icon",
-              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/palulabs.office-tycoon/5f6e6b3af81d097d.png",
-                "alt": "The whole office: five teams at their desks around a commons band with a lounge, kitchen, foosball table and calling booths",
-                "sha256": "5f6e6b3af81d097deb9cd8837df5029cada32f1e23a445e46c08d21df63689c2",
-                "width": 2500,
-                "height": 1562
-              },
-              {
-                "path": "assets/palulabs.office-tycoon/f9434ac0fd48efc5.png",
-                "alt": "A team at work with a speech bubble from an agent that just finished, and Palú asleep in his bed",
-                "sha256": "f9434ac0fd48efc5bdaeda18c75118c3645088b6966567140a7ebe55911da475",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/palulabs.office-tycoon/ad68a30cc6fab295.png",
-                "alt": "Desks showing agent states: a red flashing screen for blocked, an amber question mark for waiting, and specialists on stools",
-                "sha256": "ad68a30cc6fab2950455296c1a25dfec58e3b689d92ca17214108225fe0b4eac",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/palulabs/orca-tycoon",
-          "updatedAt": "2026-11-09T14:15:07+01:00"
         }
       ]
     },

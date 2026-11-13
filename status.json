@@ -435,7 +435,7 @@
     },
     "chrisluo5311/orca-claude-trajectory": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/chrisluo5311/orca-claude-trajectory/1.0.1",
       "plugins": [
         "chrisluo5311.claude-trajectory"
       ]
@@ -1669,7 +1669,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.7",
+      "ref": "v0.2.8",
       "plugins": [
         "palulabs.office-tycoon"
       ]
