@@ -1264,14 +1264,14 @@
     },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/lilykos/orca-openrouter-usage/1.0.0",
       "plugins": [
         "lilykos.openrouter-usage"
       ]
     },
     "lilykos/orca-the-lobby": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/lilykos/orca-the-lobby/1.0.0",
       "plugins": [
         "lilykos.the-lobby"
       ]

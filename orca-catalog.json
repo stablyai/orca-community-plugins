@@ -16978,8 +16978,8 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Lilykos/orca-openrouter-usage.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lilykos/orca-openrouter-usage/1.0.0"
       },
       "description": "Keep an eye on your OpenRouter account from the sidebar: credits left and days of runway, spend and tokens by model and key, a daily ledger, low-balance alerts and a status bar item. Read-only, and your management key stays in the OS keyring.",
       "categories": [
@@ -17153,8 +17153,8 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Lilykos/orca-the-lobby.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lilykos/orca-the-lobby/1.0.0"
       },
       "description": "See every agent in every worktree in one live view: pixel people in a room per project, who needs you or seems stuck, org charts of who started whom, and context and tokens per agent. Everything is read on your machine. Tour and guide: https://lilykos.github.io/orca-the-lobby/",
       "categories": [
