@@ -524,7 +524,7 @@
     },
     "dennib/finline": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "dennib.finline"
       ]
@@ -647,7 +647,7 @@
         "erlhon9.pod"
       ],
       "update": {
-        "ref": "v0.2.1",
+        "ref": "v0.2.2",
         "reasons": [
           {
             "category": "under-review",
@@ -850,7 +850,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "refs/tags/gongxliang/claude-paper/0.6.1",
+      "ref": "v0.6.2",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -2175,7 +2175,7 @@
     },
     "turingfx/omp-stats": {
       "state": "listed",
-      "ref": "refs/tags/turingfx/omp-stats/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "turingfx.omp-usage"
       ]

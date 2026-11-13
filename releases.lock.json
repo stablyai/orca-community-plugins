@@ -743,6 +743,12 @@
     "repoId": 1446064030,
     "firstSeen": "2026-11-13T08:38:57.140Z"
   },
+  "dennib.finline@0.3.1": {
+    "commit": "f560bd1a6fa39c9cb8a5534e2fe26956efb8e2c2",
+    "contentHash": "f1530af3c397578da8227705819dca82e57d263967c3015bc28583bd097cbb82",
+    "repoId": 1446064030,
+    "firstSeen": "2026-11-13T09:17:33.308Z"
+  },
   "diegohonorio.painel-trabalho@0.3.0": {
     "commit": "37904fe3f0c41719f09185ed2f77728b62816903",
     "contentHash": "2b9733e9f8426f9a10403b29a250779fbf04987c709e628217385235c24f240d",
@@ -1210,6 +1216,12 @@
     "contentHash": "c4a0b70f4ea1e2de12473150c47f6022d64da67614936dcf869938ddaf3105cb",
     "repoId": 1450372557,
     "firstSeen": "2026-11-11T10:39:09.199Z"
+  },
+  "gongxliang.claude-paper@0.6.2": {
+    "commit": "b5c661819301d4a4f45d4d6ba64797381849bbab",
+    "contentHash": "23a73dde825fddfc64f6190ff04be7b9edc67a025202f468cf92ea63d0cc464a",
+    "repoId": 1450372557,
+    "firstSeen": "2026-11-13T09:17:33.308Z"
   },
   "guillebe.inbox@0.1.0": {
     "commit": "4a2d6c25d8918a580d0d293551e64d74cc3fa663",
@@ -2992,6 +3004,12 @@
     "contentHash": "2cbf3fea949d904fe4d7ea6b7bcc31caaa7761420f43e8b3d364e82f4538a7ea",
     "repoId": 1451354007,
     "firstSeen": "2026-11-11T03:16:45.666Z"
+  },
+  "turingfx.omp-usage@0.2.1": {
+    "commit": "3eb85a67c8edfeb06db1701aa9441c5bce0fc931",
+    "contentHash": "3f2d4186cfb041733202316f20e81ddd2e08e002a3b16e7421aa3380506bd2ac",
+    "repoId": 1451354007,
+    "firstSeen": "2026-11-13T09:17:33.308Z"
   },
   "unitea1992.gate-inbox@0.1.1": {
     "commit": "7794bea682844181430097ecd51107b60f1ff43c",

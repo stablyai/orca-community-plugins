@@ -6342,13 +6342,67 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dennib/finline.git",
-        "ref": "v0.3.0"
+        "ref": "v0.3.1"
       },
       "description": "Git graph for the active worktree: branches, tags and remotes in colored lanes, commit details, and git actions from a right-click.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "f560bd1a6fa39c9cb8a5534e2fe26956efb8e2c2",
+          "contentHash": "f1530af3c397578da8227705819dca82e57d263967c3015bc28583bd097cbb82",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Finline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Finline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dennib.finline/be888abcf98b6659.png",
+              "alt": "Finline: a git graph for Orca, beside the panel showing a repository with branches, merges, tags and uncommitted changes",
+              "sha256": "be888abcf98b6659551f9b12c63807757670a391c39c673b45b223003e72814f",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dennib.finline/a399499d138ad2dc.png",
+              "alt": "Finline icon",
+              "sha256": "a399499d138ad2dc6ed3f16300cdfa194e541a89e6d805d3205d278b84300f07",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/dennib.finline/fd0829b05aefc9b9.png",
+                "alt": "The Finline panel with colored lanes, branch, remote and tag badges, and an expanded uncommitted changes row listing the changed files",
+                "sha256": "fd0829b05aefc9b973262d54627dbe47ecdd226439462bd1c6d87398431776d9",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/dennib.finline/d1e663b4a7493cf8.png",
+                "alt": "The Finline panel with the right-click menu of a branch badge open: check out, merge, rebase, push, rename, delete and copy name",
+                "sha256": "d1e663b4a7493cf8a95d65e19b8792130a761a2c9b1888aac38984b41fc5c1a1",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dennib/finline",
+          "updatedAt": "2026-11-13T09:59:44+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "06be277a2f31f08eb40e59bec959fb6acf9011d6",
@@ -11263,8 +11317,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gongxliang/claude-paper/0.6.1"
+        "url": "https://github.com/GongXLiang/Claude-paper.git",
+        "ref": "v0.6.2"
       },
       "description": "Claude-inspired light and dark colors for Orca Chat and agent terminals, with 455 distinct file icons, calm slate folders and optional IBM Plex Mono.",
       "categories": [
@@ -11273,6 +11327,103 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "b5c661819301d4a4f45d4d6ba64797381849bbab",
+          "contentHash": "23a73dde825fddfc64f6190ff04be7b9edc67a025202f468cf92ea63d0cc464a",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Claude Paper theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Paper · 纸折图标"
+            },
+            {
+              "kind": "fonts",
+              "name": "IBM Plex Mono"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gongxliang.claude-paper/869e0fa9730a6b6d.png",
+              "alt": "Claude Paper: a complete Orca workspace with Claude Code and Codex side by side, original file icons and warm charcoal colors.",
+              "sha256": "869e0fa9730a6b6d670883d8c92c3f09a9698e3c6a9751563571a6eecf4093e5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
+              "alt": "Claude Paper theme icon",
+              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gongxliang.claude-paper/ca4643b48de15eea.png",
+                "alt": "Complete native Orca: public Chat response, composer, code and file tree in Warm Paper.",
+                "sha256": "ca4643b48de15eea34be75bc3b112515bcfe61e6d0470e4e9eb4e8abc16399ea",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/1a9bc2af7eabaf1e.png",
+                "alt": "Complete native Orca: real Claude Code and Codex sessions reviewing the same public task side by side.",
+                "sha256": "1a9bc2af7eabaf1e5d515ac942bc4e192db617cffe7176f415a1ee3dcdea41b2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/435c5208638cfce5.png",
+                "alt": "Light/dark Paper Fold comparison: 36 file types and slate folders, closed and open. Rendered SVG specimens, not an Orca screenshot.",
+                "sha256": "435c5208638cfce59866de8b470f6725d293761371027dea682f834f719c5cc8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/ec18b33d30548b75.png",
+                "alt": "Complete native Orca: a public input-validation change and its tests in the native diff view.",
+                "sha256": "ec18b33d30548b75b98f611e0518d9dcbf7d7549634988184cd15d84a8fc9fc3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/686679ab7622756d.png",
+                "alt": "Complete native Orca: JavaScript tests in the editor and current file icons.",
+                "sha256": "686679ab7622756daad311d9934fd6c04e22196073750a04f383ec1befacecf6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/cc1e616a15ef5f2a.png",
+                "alt": "Complete native Orca: Markdown preview and a file tree with uniform slate folders and distinct file types.",
+                "sha256": "cc1e616a15ef5f2abfe410b70b4506b4dabd85e36eb9f7006d2b652df84d529a",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-13T17:45:37+09:00"
+        },
         {
           "version": "0.6.1",
           "commit": "f0fa40e03443176b0fa00222ae88dc16930ae33c",
@@ -11656,99 +11807,6 @@
           "license": "MIT",
           "repository": "https://github.com/GongXLiang/Claude-paper",
           "updatedAt": "2026-11-10T03:22:23+09:00"
-        },
-        {
-          "version": "0.4.1",
-          "commit": "c8ff56ec1b7425da9e55e40813f3233280d4b9ee",
-          "contentHash": "24b7cb86d8e30c68fbd8fba354520390d5e6af091e76dec26001153c96dd5ea4",
-          "execution": "data",
-          "minimumOrca": "1.4.255",
-          "name": "Claude Paper",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "iconThemes",
-              "name": "Claude Paper · 纸折图标"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gongxliang.claude-paper/8446292b8e2b895d.png",
-              "alt": "Claude Paper for Orca: native light chat and composer, dark Paper Fold file icons and terminal output from a public demo.",
-              "sha256": "8446292b8e2b895d23a8f75c7c94a5ce943ba8df53f07ad53ff277d5de36c95f",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
-              "alt": "Claude Paper icon",
-              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/gongxliang.claude-paper/13d6f3330b2fbff3.png",
-                "alt": "Native light Orca chat, complete public demo reply, composer and Paper Fold file tree.",
-                "sha256": "13d6f3330b2fbff3288adc84229add01e0b46d4b88b750094d21d11fd880712d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/a257a422e2ae653d.png",
-                "alt": "Native dark code diff, actual test output and file tree composed from the same public demo.",
-                "sha256": "a257a422e2ae653ddb7618fee9aa03485da282a95998379edc059766eaf8304c",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/e275d4354aa807eb.png",
-                "alt": "Native light JavaScript editor with syntax colors and Paper Fold icons; local path bar removed.",
-                "sha256": "e275d4354aa807ebe105eb8c1ffabe7afb0e8aee736db510bee01fc8492e1306",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/e862ab5c4d313fe6.png",
-                "alt": "Native dark terminal with real passing tests and normal/bright ANSI samples.",
-                "sha256": "e862ab5c4d313fe6c606ed08e65dd7345cf6e74d3024d24aec1b0633584eb102",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/9912dbbb374fb770.png",
-                "alt": "Original Paper Fold SVG gallery: file formats and folder categories in light and dark. Folder names match exactly; unknown names use slate.",
-                "sha256": "9912dbbb374fb770b76f9f5e5bbe961b15aafb7cadaf09d59f0a7c8aa7c75107",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/066f0aafe9d8f3a2.png",
-                "alt": "Same native terminal output in Ghostty Default Style Dark and Claude Paper Dark: ANSI changes while explicit truecolor stays unchanged.",
-                "sha256": "066f0aafe9d8f3a25d8338ab628689689ef30beedce7fac9ef89283a24fae900",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/GongXLiang/Claude-paper",
-          "updatedAt": "2026-11-10T02:19:47+09:00"
         }
       ]
     },
@@ -28285,14 +28343,56 @@
       "ownerId": 250263194,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/turingfx/omp-stats/0.2.0"
+        "url": "https://github.com/turingfx/omp-stats.git",
+        "ref": "v0.2.1"
       },
       "description": "Native Orca sidebar embedding of omp's official telemetry dashboard (http://127.0.0.1:59127). Directly queries ~/.omp/stats.db in read-only mode via an embedded Node SQLite worker (~9ms) to display live KPI sparklines, latency, throughput, token mix, and per-model performance tables.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "3eb85a67c8edfeb06db1701aa9441c5bce0fc931",
+          "contentHash": "3f2d4186cfb041733202316f20e81ddd2e08e002a3b16e7421aa3380506bd2ac",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "omp stats",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "omp stats"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/turingfx.omp-usage/d91c067527ce0454.png",
+              "alt": "omp stats telemetry overview and models dashboard",
+              "sha256": "d91c067527ce0454fbbbfbc9b3ba5723ff336a5848110c2a626f0a68a11597a0",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/turingfx.omp-usage/04da69532d533325.png",
+              "alt": "omp stats icon",
+              "sha256": "04da69532d533325a9e316d63319cd5286e01fc2ead71615201aefe9dd766ad2",
+              "width": 128,
+              "height": 128
+            },
+            "screenshots": [
+              {
+                "path": "assets/turingfx.omp-usage/e2a5b86b06543043.png",
+                "alt": "omp stats overview with KPI sparklines and activity chart",
+                "sha256": "e2a5b86b065430431208db86f83ddc88674ed0ea06937380081c84065f41bfdb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/turingfx/omp-stats",
+          "updatedAt": "2026-11-13T17:12:00+08:00"
+        },
         {
           "version": "0.2.0",
           "commit": "69b14374abe75f65ea3279482b0dca63c8a9b53e",
