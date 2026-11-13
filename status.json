@@ -327,19 +327,10 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.6.8",
+      "ref": "v2.7.0",
       "plugins": [
         "cattfan.enhance-prompt"
-      ],
-      "update": {
-        "ref": "v2.7.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -412,7 +403,7 @@
     },
     "christinaxvg/orca-plugin-workshop": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/christinaxvg/orca-plugin-workshop/0.1.0",
       "plugins": [
         "christinaxvg.design-direction"
       ],
