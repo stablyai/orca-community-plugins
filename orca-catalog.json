@@ -1741,8 +1741,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
-        "ref": "v0.4.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.3"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -15902,8 +15902,8 @@
       "ownerId": 26007047,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/klcd/agent-cli-permissions/agent-permissions/0.1.2",
+        "url": "https://github.com/klcd/agent-cli-permissions.git",
+        "ref": "v0.1.3",
         "path": "orca-plugin"
       },
       "description": "Inspect canonical .agents/permissions/*.yml CLI command rules (DENY > ASK > ALLOW), test commands against permission groups, and sync them into the native permission formats of compatible AI coding agents (Claude Code, Codex, Antigravity, and more).",
@@ -15912,6 +15912,63 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "d83506f7a9e5aba58119c6255d4562da1a38e0ee",
+          "contentHash": "c7bcb918e27096d1a29caca630d35215f9d26a8ebb3b1b42c983965787f4fbf3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent CLI Permissions",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CLI Permissions"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Permissions: Sync Canonical YAML Rules"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/klcd.agent-permissions/6ed320d51d50ec34.png",
+              "alt": "Agent CLI Permissions: two-tier permission governance for AI coding agents, with the DENY > ASK > ALLOW precedence chain and target agent names.",
+              "sha256": "6ed320d51d50ec345c7c0286aece6ad48ad125602103d96f0b04104cffa78206",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/klcd.agent-permissions/5c1ecba7fd957d7b.png",
+              "alt": "Agent CLI Permissions icon",
+              "sha256": "5c1ecba7fd957d7b87a6fe7c3ddf604897c730ad667b08847961847b47328c5a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/klcd.agent-permissions/47e75a79d8d8f617.png",
+                "alt": "The panel showing 207 rules across the company baseline and project tiers, colour-coded allow or deny and grouped by permission set.",
+                "sha256": "47e75a79d8d8f61714e0b746180bc0ef9f55d2484146fbe718d9e407d623334a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/klcd.agent-permissions/56e88a8e176110e9.png",
+                "alt": "The panel in the Orca sidebar with a command tester, governance badges for remote policy, auto-sync and git gate, and an Enforce button.",
+                "sha256": "56e88a8e176110e9a4adcc0490933d6af3a74f3d5782f40340c969555030c7b8",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/klcd/agent-cli-permissions",
+          "updatedAt": "2026-11-13T16:41:01+01:00"
+        },
         {
           "version": "0.1.2",
           "commit": "11ac84fafdfb42b9d87b1166e3b62dc707b34bfd",

@@ -171,7 +171,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.4.3",
+      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.3",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -561,7 +561,7 @@
     },
     "dinhkarate/orca-quota": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "under-review",
@@ -1159,12 +1159,9 @@
     },
     "klcd/agent-cli-permissions": {
       "state": "listed",
-      "ref": "refs/tags/klcd/agent-cli-permissions/agent-permissions/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "klcd.agent-permissions"
-      ],
-      "notes": [
-        "agent-permissions: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "kloppers-labs/orca-azure-devops": {
@@ -2015,7 +2012,7 @@
         "shaurgon.conport-orca"
       ],
       "update": {
-        "ref": "v0.7.0",
+        "ref": "v0.7.1",
         "reasons": [
           {
             "category": "under-review",
@@ -2334,6 +2331,20 @@
       "reasons": [
         {
           "category": "manifest-format"
+        }
+      ]
+    },
+    "vishwakulkarni/tidyagents": {
+      "state": "rejected",
+      "ref": "v0.3.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
         }
       ]
     },
