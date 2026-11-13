@@ -209,7 +209,7 @@
     },
     "balakumardev/orca-agent-roster": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/balakumardev/orca-agent-roster/0.1.0",
       "plugins": [
         "balakumardev.agent-roster"
       ]
@@ -344,7 +344,16 @@
       "ref": "v0.1.0",
       "plugins": [
         "caocuong2404.observability"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.0",
+        "reasons": [
+          {
+            "category": "version-locked",
+            "detail": "tag v0.1.0 moved: version 0.1.0 was first listed at commit 1088663113034296ce8279e63e10e76bfe62b8a4 and stays that release; publish a new version instead"
+          }
+        ]
+      }
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
@@ -515,7 +524,7 @@
     },
     "dennib/finline": {
       "state": "listed",
-      "ref": "refs/tags/dennib/finline/0.2.1",
+      "ref": "v0.3.0",
       "plugins": [
         "dennib.finline"
       ]
@@ -636,7 +645,16 @@
       "ref": "refs/tags/erlhon9/orca-pod/0.1.0",
       "plugins": [
         "erlhon9.pod"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "eskono/orca-docker-logs": {
       "state": "listed",

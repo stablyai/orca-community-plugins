@@ -2195,8 +2195,8 @@
       "ownerId": 20134279,
       "source": {
         "kind": "git",
-        "url": "https://github.com/balakumardev/orca-agent-roster.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/balakumardev/orca-agent-roster/0.1.0"
       },
       "description": "Orca's Activity view in its own sidebar pane, with real session titles and shortcuts to cycle between agents.",
       "categories": [
@@ -6341,14 +6341,68 @@
       "ownerId": 13068594,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dennib/finline/0.2.1"
+        "url": "https://github.com/dennib/finline.git",
+        "ref": "v0.3.0"
       },
       "description": "Git graph for the active worktree: branches, tags and remotes in colored lanes, commit details, and git actions from a right-click.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "06be277a2f31f08eb40e59bec959fb6acf9011d6",
+          "contentHash": "06793f0d8ecda60b6444e52201195a80b26d952950b7c4a6fe19789a29917e42",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Finline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Finline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dennib.finline/3ac7b2187738aaf3.png",
+              "alt": "Finline: a git graph for Orca, beside the panel showing a repository with branches, merges and tags",
+              "sha256": "3ac7b2187738aaf3b24da0a0ce91e95faf92e0564ec412dbc5aac10e55f31505",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dennib.finline/9b8f1b688a7db9e5.png",
+              "alt": "Finline icon",
+              "sha256": "9b8f1b688a7db9e5de47ec147b5e55d961acaab2eca68b50654808506eccc184",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/dennib.finline/ce1984225ffe7fe8.png",
+                "alt": "The Finline panel showing colored lanes for main, feature branches, a hotfix and their merges, with branch, remote and tag badges",
+                "sha256": "ce1984225ffe7fe87a06deda029a2fd407bfeea16a967f2466f312b787f0e101",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/dennib.finline/f92843ceb11cad43.png",
+                "alt": "The Finline panel at sidebar width, showing the graph, refs, commit subjects and ages",
+                "sha256": "f92843ceb11cad43657af6c8bcb26166d6b7b54cd59e832ac862ff3259792e32",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dennib/finline",
+          "updatedAt": "2026-11-13T09:36:24+01:00"
+        },
         {
           "version": "0.2.1",
           "commit": "a20dcd58159fd0166bc80117ba8490f9e511d1dd",
