@@ -107,6 +107,16 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "alexesprit/orca-clock": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "name \"Orca Clock\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+        }
+      ]
+    },
     "alexesprit/orca-unfancy-file-icons": {
       "state": "listed",
       "ref": "refs/tags/alexesprit/orca-unfancy-file-icons/1.0.3",
