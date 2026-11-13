@@ -9385,15 +9385,112 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/faisalmuhammad/orca-assets-library/1.0.0"
+        "url": "https://github.com/faisalmuhammad/orca-assets-library.git",
+        "ref": "v1.0.1"
       },
-      "description": "Automatically discover agent-generated images, videos, SVGs, Markdown and HTML in your current Orca worktree, including outputs from identifiable past chats.",
+      "description": "Automatically discover agent-generated images, videos, SVGs, Markdown and HTML in your current Orca worktree and its associated chat folders.",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "d51c282f401a71d5a164c658a907323cbfd7ab0d",
+          "contentHash": "cd3cb8d7225f733c829586442e6638aef5a2af4baa40292caea778c670dac7ac",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.257",
+          "name": "Assets Library",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Assets Library"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/faisalmuhammad.assets-library/15d02be41f399575.png",
+              "alt": "Assets Library automatically discovers agent-generated images, videos, SVGs, Markdown and HTML in Orca.",
+              "sha256": "15d02be41f39957515de9a6b9e207b45400a0fd91c0a0dae3063fd70c0803273",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/faisalmuhammad.assets-library/e209790ad29048a7.png",
+              "alt": "Assets Library icon",
+              "sha256": "e209790ad29048a72caeb5ea02339818b61277fb862c71d7ab0d17c17636ffe5",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/faisalmuhammad.assets-library/db0e3a7b109918eb.png",
+                "alt": "Automatically discovered agent-generated image and Markdown samples in Orca’s dark appearance.",
+                "sha256": "db0e3a7b109918eb5d94926f61b5b38f738ae3f552164ab01be394ea55b3ff77",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.assets-library/b474d734d576ec7a.png",
+                "alt": "Automatically discovered image and Markdown samples for the active Orca worktree in light appearance.",
+                "sha256": "b474d734d576ec7adeb3e06ba07f9653635aa2e81ab44ecb4ae267daeb19e5d7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.assets-library/fa7a4a179e981013.png",
+                "alt": "Assets Library list view with readable filenames, asset types and file sizes.",
+                "sha256": "fa7a4a179e981013c1fb7a96abad29f6eba11fbce2d250aed762f61dd218ceca",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/faisalmuhammad.assets-library/a81d94337f97d5e3.png",
+                "alt": "Assets Library inspector with a compact rendered Markdown preview and file details.",
+                "sha256": "a81d94337f97d5e376a1965d1f26947b0ba0846cd7a6a2246396d638d12421ed",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/faisalmuhammad/orca-assets-library",
+          "updatedAt": "2026-11-13T10:04:15Z"
+        },
         {
           "version": "1.0.0",
           "commit": "337264e30595fb3dee1f01227d8eb8594d5ec9ac",

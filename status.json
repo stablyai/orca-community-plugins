@@ -647,7 +647,7 @@
         "erlhon9.pod"
       ],
       "update": {
-        "ref": "v0.2.4",
+        "ref": "v0.3.0",
         "reasons": [
           {
             "category": "under-review",
@@ -708,7 +708,7 @@
     },
     "faisalmuhammad/orca-assets-library": {
       "state": "listed",
-      "ref": "refs/tags/faisalmuhammad/orca-assets-library/1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "faisalmuhammad.assets-library"
       ]
@@ -2081,6 +2081,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "tazaq/orca-docker-plugin": {
+      "state": "rejected",
+      "ref": "v0.7.2",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name"
         }
       ]
     },
