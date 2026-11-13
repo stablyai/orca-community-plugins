@@ -2108,7 +2108,7 @@
     },
     "tazaq/jb-like-docker-service": {
       "state": "listed",
-      "ref": "v0.7.6",
+      "ref": "refs/tags/tazaq/jb-like-docker-service/0.7.6",
       "plugins": [
         "tazaq.jb-containers"
       ]
