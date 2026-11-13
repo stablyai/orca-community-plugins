@@ -1807,7 +1807,16 @@
       "ref": "refs/tags/renanluiz/usage-companion/0.2.2",
       "plugins": [
         "renanluiz.limits-tracker"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "rgarciade/orca-containers": {
       "state": "listed",
