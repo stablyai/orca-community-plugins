@@ -396,6 +396,20 @@
         "chandraliuswanto.subagent-graph"
       ]
     },
+    "chimeyrock999/orca-github-plugins": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
+        }
+      ]
+    },
     "choihjin/orca-agent-haptics": {
       "state": "listed",
       "ref": "refs/tags/choihjin/orca-agent-haptics/0.1.0",
@@ -850,7 +864,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "refs/tags/gongxliang/claude-paper/0.6.2",
+      "ref": "v0.6.3",
       "plugins": [
         "gongxliang.claude-paper"
       ]
