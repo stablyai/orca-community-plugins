@@ -435,7 +435,7 @@
     },
     "chrisluo5311/orca-claude-trajectory": {
       "state": "listed",
-      "ref": "refs/tags/chrisluo5311/orca-claude-trajectory/1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "chrisluo5311.claude-trajectory"
       ]
@@ -2144,11 +2144,11 @@
     },
     "tagliatti/orca-openapi": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.1.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "under-review",
+          "detail": "name"
         }
       ]
     },

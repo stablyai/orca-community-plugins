@@ -5649,14 +5649,74 @@
       "ownerId": 77089596,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/chrisluo5311/orca-claude-trajectory/1.0.0"
+        "url": "https://github.com/chrisluo5311/orca-claude-trajectory.git",
+        "ref": "v1.0.1"
       },
-      "description": "What a Claude Code session did, request by request: prompts, model requests, tool calls and subagents, with tokens and timing. Reads transcripts locally, read-only.",
+      "description": "What a Claude Code session did, request by request: prompts, model requests, tool calls and subagents, with tokens and timing, in Orca's light and dark themes. Reads transcripts locally, read-only.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "064a652a41430f0d42825b47211b4dcdf150d6e3",
+          "contentHash": "36ad658810370d0d221b5097ecd0fd62cc1f6d741d90b87500af786cf3485780",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Trajectory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Trajectory"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/chrisluo5311.claude-trajectory/fe435539b5d3c965.png",
+              "alt": "Claude Trajectory: the panel listing a session's prompts, Claude's requests and tool calls, with lanes for input, model and tools above",
+              "sha256": "fe435539b5d3c965bc4ab535a1336517575dd7b7a527b9048c9e803fdaf9d44c",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/chrisluo5311.claude-trajectory/776ff24bd14a9380.png",
+                "alt": "The panel in Orca's light theme: a session's rows, one request's tokens and cache hit, and the fixed overhead by category",
+                "sha256": "776ff24bd14a9380539593664c36f2c1e1df21dc57cb30e470677fbb5b1aee82",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/chrisluo5311.claude-trajectory/225d0eb6535de5ed.png",
+                "alt": "The same three views of the panel in Orca's dark theme",
+                "sha256": "225d0eb6535de5ed4675f467d2000ab79397d1c6bab77b7c51caf65d3bbbdb81",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/chrisluo5311.claude-trajectory/e62cc043c21e3a29.png",
+                "alt": "The panel in Orca's light theme: a failed tool call's result, a subagent's own calls, and a request's timing",
+                "sha256": "e62cc043c21e3a292de6dd1a51652760e3990b4df807331cae7902382893a752",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/chrisluo5311.claude-trajectory/4b2d49c898b5d877.png",
+                "alt": "The same three details of the panel in Orca's dark theme",
+                "sha256": "4b2d49c898b5d87734486676e916f80c4ef481a2842069ecd0d43c912c456638",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/chrisluo5311/orca-claude-trajectory",
+          "updatedAt": "2026-11-14T05:00:18+08:00"
+        },
         {
           "version": "1.0.0",
           "commit": "c59eb0b69833e07ec0293db81afd5da5019b3507",
