@@ -5031,8 +5031,8 @@
       "ownerId": 57527992,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chimeyrock999/orca-github-plugins.git",
-        "ref": "v0.1.2",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chimeyrock999/orca-github-plugins/gh-focus/0.1.2",
         "path": "plugins/gh-focus"
       },
       "description": "For GitHub repos: the issue, pull request and Actions runs of the workspace you're in, beside your code. Read, comment, review and rerun without leaving the editor for the Tasks page. Uses the gh CLI; not affiliated with GitHub.",
@@ -26161,8 +26161,8 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.1"
       },
       "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, side-by-side merge conflict resolution, a project and worktree switcher, a status bar branch indicator and background fetch.",
       "categories": [

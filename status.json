@@ -407,7 +407,7 @@
     },
     "chimeyrock999/orca-github-plugins": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/chimeyrock999/orca-github-plugins/gh-focus/0.1.2",
       "plugins": [
         "chimeyrock999.gh-focus"
       ]
@@ -1951,7 +1951,7 @@
     },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.1",
       "plugins": [
         "serhii-f8.git-toolbox"
       ]
