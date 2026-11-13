@@ -76,7 +76,7 @@
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
-      "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "aetna000.atmem-architect"
       ]
@@ -519,6 +519,9 @@
       "ref": "refs/tags/dohaidang/orca-vietnamese-plugin/1.2.0",
       "plugins": [
         "dohaidang.vietnamese"
+      ],
+      "notes": [
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 1 protected string is ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "dohaidang/orca-wallpaper-studio": {
@@ -542,7 +545,8 @@
         "ebbop.italiano"
       ],
       "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
+        "contributes.languagePacks \"it\" (locales/it.json): 1 protected string is ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ehart004/orca-monokai-theme": {
@@ -1244,7 +1248,7 @@
         "mancunianez.ukrainian"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (locales/uk.json): 12 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (locales/uk.json): 13 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "marco-calderon/nord-midnight-orca-theme": {
@@ -1276,6 +1280,9 @@
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.257",
       "plugins": [
         "matteoeusebi.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 1 protected string is ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "maxfedorov/youtrack-for-orca": {
