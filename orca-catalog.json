@@ -2290,8 +2290,8 @@
       "ownerId": 20134279,
       "source": {
         "kind": "git",
-        "url": "https://github.com/balakumardev/orca-folder-sessionizer.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/balakumardev/orca-folder-sessionizer/0.1.2"
       },
       "description": "Fuzzy-pick a project folder in a native floating picker and open it in Orca as a terminal, a Claude or Codex agent, or a new worktree.",
       "categories": [
