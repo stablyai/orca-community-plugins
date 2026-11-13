@@ -216,7 +216,7 @@
     },
     "balakumardev/orca-folder-sessionizer": {
       "state": "listed",
-      "ref": "refs/tags/balakumardev/orca-folder-sessionizer/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "balakumardev.folder-sessionizer"
       ]
@@ -708,7 +708,7 @@
     },
     "faisalmuhammad/orca-assets-library": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/faisalmuhammad/orca-assets-library/1.0.1",
       "plugins": [
         "faisalmuhammad.assets-library"
       ]
@@ -1159,7 +1159,16 @@
       "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.3.1",
       "plugins": [
         "kloppers-labs.azure-devops"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "kolebayev/orca-md-layout": {
       "state": "listed",

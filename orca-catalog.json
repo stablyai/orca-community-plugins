@@ -2290,8 +2290,8 @@
       "ownerId": 20134279,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/balakumardev/orca-folder-sessionizer/0.1.1"
+        "url": "https://github.com/balakumardev/orca-folder-sessionizer.git",
+        "ref": "v0.1.2"
       },
       "description": "Fuzzy-pick a project folder in a native floating picker and open it in Orca as a terminal, a Claude or Codex agent, or a new worktree.",
       "categories": [
@@ -2299,6 +2299,40 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "b8a65cc1f59b88fd5b896e115f087cf276e1a354",
+          "contentHash": "414f3f00bda58479d7b55fcc2ca14e6c6c59d1ce8f1a6ebca654cc87a8bc62c3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Folder Sessionizer",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Folder Sessionizer: Open Project Folder…"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Ctrl+Shift+F",
+              "detail": "folder-sessionizer.open"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Projects"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "agent:launch",
+            "settings:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/balakumardev/orca-folder-sessionizer",
+          "updatedAt": "2026-11-13T16:02:52+05:30"
+        },
         {
           "version": "0.1.1",
           "commit": "c009a2e9a5bc4c70c6b39ef97a35c091cf5d5abc",
@@ -9385,8 +9419,8 @@
       "ownerId": 3476670,
       "source": {
         "kind": "git",
-        "url": "https://github.com/faisalmuhammad/orca-assets-library.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/faisalmuhammad/orca-assets-library/1.0.1"
       },
       "description": "Automatically discover agent-generated images, videos, SVGs, Markdown and HTML in your current Orca worktree and its associated chat folders.",
       "categories": [
