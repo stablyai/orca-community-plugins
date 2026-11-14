@@ -9644,15 +9644,102 @@
       "ownerId": 4644133,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/eskono/orca-docker-logs/0.8.1"
+        "url": "https://github.com/eskono/orca-docker-logs.git",
+        "ref": "v0.8.2"
       },
-      "description": "Docker Compose in Orca: combined live logs, saved views, context-preserving search, collapsible stack traces, operation progress, container events, diagnostics and Ask agent.",
+      "description": "Docker Compose inside Orca: discover root and nested configs, detect running stacks, resolve .env profiles, and inspect containers, live logs, stats and errors with Ask agent.",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.2",
+          "commit": "ee0edd0a8e26948e0a61fb329bc472f42f005cdf",
+          "contentHash": "79fd8643b4553c7c014b9c715ffc1472b8ecbc5b316137193a03b8ab5b1f0936",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Docker Logs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Docker Logs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Docker"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own",
+            "terminal:send",
+            "terminal:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/eskono.docker-logs/f4c2948d2e485a79.webp",
+              "alt": "Docker Logs in Orca: effective and running profiles, container health, resource usage, ports, log search and a collapsed Python traceback",
+              "sha256": "f4c2948d2e485a799bd32084aa65e8b7892f9e54d4706d26160efb49dd4c8e72",
+              "width": 1600,
+              "height": 1100
+            },
+            "icon": {
+              "path": "assets/eskono.docker-logs/d2f0e0b770df9972.png",
+              "alt": "Docker Logs icon",
+              "sha256": "d2f0e0b770df9972cf0e29b9478d47fa746d11a23882db8186b0563aeb148dfe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/eskono.docker-logs/09aeb293928a16a1.webp",
+                "alt": "Current Docker Logs panel in dark mode showing Compose profiles, six services, container health, CPU, memory, ports and searchable API logs",
+                "sha256": "09aeb293928a16a1d3ca5d1d409c5b7cb228860cb41a3fac287381176c5c6c16",
+                "width": 1600,
+                "height": 1100
+              },
+              {
+                "path": "assets/eskono.docker-logs/14750e453eafce02.webp",
+                "alt": "Current Docker Logs panel with the same container, profile and log controls in a light theme",
+                "sha256": "14750e453eafce02f2023cdb5e92897b72033fd4bcdafdc449a537eb967c2d0d",
+                "width": 1600,
+                "height": 1100
+              },
+              {
+                "path": "assets/eskono.docker-logs/19e4c78e79eba8bb.webp",
+                "alt": "Two current panels comparing all services' merged logs with the same logs filtered to warnings and errors",
+                "sha256": "19e4c78e79eba8bbdad62088bb137bbd72fd9eb6851b09a4a777a8eec18391e9",
+                "width": 1600,
+                "height": 1100
+              },
+              {
+                "path": "assets/eskono.docker-logs/04b6ce4b7bdfe386.webp",
+                "alt": "Compose settings showing nested base and override files, a nested environment file, inherited web and jobs profiles and enabled services",
+                "sha256": "04b6ce4b7bdfe3867ea101713d3a9996f848f32849d421b4b1261718f5e1d296",
+                "width": 1600,
+                "height": 1100
+              },
+              {
+                "path": "assets/eskono.docker-logs/66a102f8f7e777f5.webp",
+                "alt": "Detected Compose stack picker with a custom project name, running-service profile memberships and verified existing containers",
+                "sha256": "66a102f8f7e777f50e85b9da607c08a14ab860def938b68d1e2f1c31768590e4",
+                "width": 1600,
+                "height": 1100
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eskono/orca-docker-logs",
+          "updatedAt": "2026-11-14T13:51:22+03:00"
+        },
         {
           "version": "0.8.1",
           "commit": "1dad504f8059acf570f879b133f46da722808c00",
@@ -9944,79 +10031,6 @@
           "license": "MIT",
           "repository": "https://github.com/eskono/orca-docker-logs",
           "updatedAt": "2026-11-14T02:37:33+03:00"
-        },
-        {
-          "version": "0.5.0",
-          "commit": "a1e8750ea108733920a0651b3035f914d62b4b31",
-          "contentHash": "77f1e80acc7403a431e2df9603287c934386d220a8a99a29a725b00160cacb34",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Docker Logs",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Docker Logs"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Docker"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "storage:own",
-            "settings:own",
-            "terminal:send",
-            "terminal:read",
-            "agent:launch",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/eskono.docker-logs/6fd571fa2005ccd5.webp",
-              "alt": "Docker Logs: a sidebar panel listing Compose services with CPU, memory and ports above a live container log",
-              "sha256": "6fd571fa2005ccd56a3efba702b94182f91fafb9310b078d1d5112edf45943d2",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/eskono.docker-logs/d2f0e0b770df9972.png",
-              "alt": "Docker Logs icon",
-              "sha256": "d2f0e0b770df9972cf0e29b9478d47fa746d11a23882db8186b0563aeb148dfe",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/eskono.docker-logs/5fa25fe8ee473559.webp",
-                "alt": "Docker Logs panel: Compose services with CPU and memory charts, ports and actions, above an api log with a linked Python traceback",
-                "sha256": "5fa25fe8ee473559c6568035e87d0487e169253415cebe28d9b6f6a8e42322ea",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/eskono.docker-logs/e82c2e350960e63d.webp",
-                "alt": "The same Docker Logs panel in a light theme",
-                "sha256": "e82c2e350960e63dd2ae9d82cde98b7b3312c8814f82451f325f30faf59e19fe",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/eskono.docker-logs/e282b9255d313b00.webp",
-                "alt": "Two panels: every service’s log merged and tagged by container, and the same log filtered to errors only",
-                "sha256": "e282b9255d313b00bfcba8307acc8ff733ee951cb23c68cfa41bbaf4d392c4ff",
-                "width": 2560,
-                "height": 1600
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/eskono/orca-docker-logs",
-          "updatedAt": "2026-11-10T13:28:46+03:00"
         }
       ]
     },
@@ -30044,8 +30058,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tienne/orcatopia.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tienne/orcatopia/0.4.1"
       },
       "description": "A relaxing island-building game between tasks. Earn tickets from new worktrees, collect world landmarks, and decorate the land, rivers and sea.",
       "categories": [

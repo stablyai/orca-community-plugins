@@ -685,7 +685,7 @@
     },
     "eskono/orca-docker-logs": {
       "state": "listed",
-      "ref": "refs/tags/eskono/orca-docker-logs/0.8.1",
+      "ref": "v0.8.2",
       "plugins": [
         "eskono.docker-logs"
       ]
@@ -2236,7 +2236,7 @@
     },
     "tienne/orcatopia": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/tienne/orcatopia/0.4.1",
       "plugins": [
         "tienne.landmark-island"
       ]
