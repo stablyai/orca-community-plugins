@@ -1790,13 +1790,10 @@
       ]
     },
     "rem021/workspace-naming-guard": {
-      "state": "rejected",
-      "ref": "v1.0.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "state": "listed",
+      "ref": "v1.1.0",
+      "plugins": [
+        "rem021.workspace-naming-guard"
       ]
     },
     "renanleonel/vesper-orca": {
@@ -1975,7 +1972,7 @@
     },
     "sergei-popov/orca-media-viewer": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/sergei-popov/orca-media-viewer/0.1.1",
       "plugins": [
         "sergei-popov.media-viewer"
       ]
@@ -2216,7 +2213,7 @@
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "thanhtrung5763.git-graph"
       ]
@@ -2230,7 +2227,7 @@
     },
     "tienne/orcatopia": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/tienne/orcatopia/0.4.0",
       "plugins": [
         "tienne.landmark-island"
       ]

@@ -23795,6 +23795,98 @@
       ]
     },
     {
+      "id": "rem021.workspace-naming-guard",
+      "ownerId": 302418465,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Rem021/workspace-naming-guard.git",
+        "ref": "v1.1.0"
+      },
+      "description": "Keeps workspace names in a tidy 'Project｜Topic' form: adds the project prefix to the titles Orca gives new workspaces, fixes generic prefixes and suggests names for older ones. Once it has named a workspace, your own rename is final. Uses only Orca's plugin API.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "2398aece247cbfe550b8c4d972e9ba24d3542435",
+          "contentHash": "3904014191fa61f0c5ae54233179acb02553e2828cfc41444d02288aea57d40a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Workspace Naming Guard",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Naming Guard"
+            },
+            {
+              "kind": "commands",
+              "name": "Naming Guard: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Naming Guard: Check Names Now"
+            },
+            {
+              "kind": "commands",
+              "name": "Naming Guard: Pause or Resume"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Naming Guard"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rem021.workspace-naming-guard/ff0b24db46d7c45b.png",
+              "alt": "Workspace Naming Guard turning slugs such as codex/mojarra and blobfish into Project｜Topic names in Orca's sidebar",
+              "sha256": "ff0b24db46d7c45b9cacb10e960f56ea2fdf5e7b75d5dcc1b755d2f4b0a6292a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rem021.workspace-naming-guard/1d6df1b318820b0d.png",
+              "alt": "Workspace Naming Guard icon",
+              "sha256": "1d6df1b318820b0d136358cf5c1a27526d553b5cec1a2592059da954b9fc0a2c",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/rem021.workspace-naming-guard/ecd73aa859653f05.png",
+                "alt": "The Naming Guard sidebar panel with its status, recent renames and an Undo button",
+                "sha256": "ecd73aa859653f05f0246c251947a48664a39d88de91573f2cd4b242510ecbf3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rem021.workspace-naming-guard/c3ee18c45f575636.png",
+                "alt": "How a new workspace is named: Orca's agent title, the project prefix, then a lock once you rename it yourself",
+                "sha256": "c3ee18c45f57563648eb81886817af2e1a32b292d0222e411e65b6f7960aaa63",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Rem021/workspace-naming-guard",
+          "updatedAt": "2026-11-14T01:04:10-08:00"
+        }
+      ]
+    },
+    {
       "id": "renanleonel.vesper-theme",
       "ownerId": 62075475,
       "source": {
@@ -27163,8 +27255,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-media-viewer.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-media-viewer/0.1.1"
       },
       "description": "Video and audio in Orca's editor tabs: plays .mkv, .mka and .weba, which Orca cannot show, and adds a full player view to .mp4, .mov, .webm, .mp3, .flac and other media. Speed, frame stepping, repeat, frame snapshots, file info and keyboard shortcuts.",
       "categories": [],
@@ -29468,7 +29560,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/thanhtrung5763/orca-git-graph.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "View a graph of your Git history and run common Git actions from it. Based on neo-git-graph.",
       "categories": [
@@ -29476,6 +29568,44 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "4eec54a0a6b86e92ba3c043e1ce06d1b4ac5df71",
+          "contentHash": "01cc8e4db9bae5452ebbe3d31750572bc7cd8025cf058c6c04e21fa9bb7c0a9f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Graph"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git Graph"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/thanhtrung5763/orca-git-graph",
+          "updatedAt": "2026-11-14T15:40:21+07:00"
+        },
         {
           "version": "0.1.1",
           "commit": "b2a4d1aec915c1e1f6cc810470ead3cefcd6a8bf",
@@ -29776,8 +29906,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tienne/orcatopia.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tienne/orcatopia/0.4.0"
       },
       "description": "A relaxing island-building game between tasks. Earn tickets from new worktrees, collect world landmarks, and decorate the land, rivers and sea.",
       "categories": [
