@@ -22112,8 +22112,8 @@
       "ownerId": 45524206,
       "source": {
         "kind": "git",
-        "url": "https://github.com/NithinPaul1360/orca-plugins.git",
-        "ref": "v1.0.4",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/nithinpaul1360/orca-plugins/claude-subagent-viewer/1.3.0",
         "path": "plugins/claude-subagent-viewer"
       },
       "description": "See, message and drive your Claude Code subagents from Orca's sidebar. macOS and Linux; needs tmux and Claude Code's tmux teammate mode.",
@@ -32058,8 +32058,8 @@
       "ownerId": 61113260,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wahaha1024/inkstone-orca.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wahaha1024/inkstone-orca/0.5.0"
       },
       "description": "墨观 Inkstone — six Chinese-colour themes (three light, three dark) for the Orca interface, each with a matching terminal palette.",
       "categories": [
