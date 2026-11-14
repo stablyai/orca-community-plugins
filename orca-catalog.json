@@ -23799,8 +23799,8 @@
       "ownerId": 302418465,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Rem021/workspace-naming-guard.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rem021/workspace-naming-guard/1.1.0"
       },
       "description": "Keeps workspace names in a tidy 'Project｜Topic' form: adds the project prefix to the titles Orca gives new workspaces, fixes generic prefixes and suggests names for older ones. Once it has named a workspace, your own rename is final. Uses only Orca's plugin API.",
       "categories": [
@@ -27255,12 +27255,131 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sergei-popov/orca-media-viewer/0.1.1"
+        "url": "https://github.com/Sergei-Popov/orca-media-viewer.git",
+        "ref": "v0.2.0"
       },
       "description": "Video and audio in Orca's editor tabs: plays .mkv, .mka and .weba, which Orca cannot show, and adds a full player view to .mp4, .mov, .webm, .mp3, .flac and other media. Speed, frame stepping, repeat, frame snapshots, file info and keyboard shortcuts.",
-      "categories": [],
+      "categories": [
+        "icons"
+      ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "5d49dc7f62845326974d6120bc7347257f42df25",
+          "contentHash": "5b0c6f4884724de1da9fc764b2c392864149953f0188b589e35bdc660b0e12b1",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Media Viewer",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Media Viewer"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mkv"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mka, .weba"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mp4, .m4v, .mov, .webm"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mp3, .wav, .m4a, .aac, .ogg, .oga, .flac, .opus"
+            }
+          ],
+          "fileTypes": [
+            "mkv",
+            "mka",
+            "weba",
+            "mp4",
+            "m4v",
+            "mov",
+            "webm",
+            "mp3",
+            "wav",
+            "m4a",
+            "aac",
+            "ogg",
+            "oga",
+            "flac",
+            "opus"
+          ],
+          "editorFileTypes": [
+            "mkv",
+            "mka",
+            "weba",
+            "mp4",
+            "m4v",
+            "mov",
+            "webm",
+            "mp3",
+            "wav",
+            "m4a",
+            "aac",
+            "ogg",
+            "oga",
+            "flac",
+            "opus"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.media-viewer/98474359409cec11.png",
+              "alt": "Media Player in an Orca tab: a paused clip of a sunset over hills, with the seek bar, volume, speed, repeat, snapshot, fit, info and full screen controls below.",
+              "sha256": "98474359409cec11b85e0670cedfd9b75c9b4d145e332e33721588e7139ca0a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.media-viewer/bf2cc939d40f9377.png",
+              "alt": "Media Viewer icon",
+              "sha256": "bf2cc939d40f93771be6f0e87d5a3276d6ca9b4f3129380840eb520ab6689786",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.media-viewer/e23dc1ebd7aadf12.png",
+                "alt": "An .mkv video paused at 0:12 in the Media Player tab with Orca's dark theme.",
+                "sha256": "e23dc1ebd7aadf127155f18c46072f5f2f54808d643e6cc887fd7ea5d82d0a7c",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/55c2234aeecd0074.png",
+                "alt": "The same video in the Media Player tab with Orca's light theme.",
+                "sha256": "55c2234aeecd0074049b20aca3cfab9cecfdcbf668cbb873acf26105c53c5bca",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/fc2d793314470202.png",
+                "alt": "The file info overlay over the video: file, size 1.9 MB, resolution 1920 × 1080, duration 0:30, frame rate, type .mkv.",
+                "sha256": "fc2d793314470202e053ba2f77e48b6687ebf8557e6bc70596ac806802f76c2f",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/df7e5709721d7322.png",
+                "alt": "An audio file in the Media Player: a music note cover above the seek bar at 1:04 of 3:34.",
+                "sha256": "df7e5709721d73228b3371e3bd064e442b9952453ea465b2537c01706b9ed314",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sergei-Popov/orca-media-viewer",
+          "updatedAt": "2026-11-14T14:16:19+05:00"
+        },
         {
           "version": "0.1.1",
           "commit": "8a682ac8da8e4c48e269b0a1212b6f33e076dac3",
@@ -29559,8 +29678,8 @@
       "ownerId": 69342146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thanhtrung5763/orca-git-graph.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.2"
       },
       "description": "View a graph of your Git history and run common Git actions from it. Based on neo-git-graph.",
       "categories": [

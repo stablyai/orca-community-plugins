@@ -1791,7 +1791,7 @@
     },
     "rem021/workspace-naming-guard": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/rem021/workspace-naming-guard/1.1.0",
       "plugins": [
         "rem021.workspace-naming-guard"
       ]
@@ -1972,7 +1972,7 @@
     },
     "sergei-popov/orca-media-viewer": {
       "state": "listed",
-      "ref": "refs/tags/sergei-popov/orca-media-viewer/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "sergei-popov.media-viewer"
       ]
@@ -2213,7 +2213,7 @@
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.2",
       "plugins": [
         "thanhtrung5763.git-graph"
       ]
