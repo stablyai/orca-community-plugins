@@ -17,6 +17,12 @@
     "repoId": 1449267228,
     "firstSeen": "2026-11-12T21:13:05.981Z"
   },
+  "1am.agent-deck@0.3.0": {
+    "commit": "7636b4c86d6195489f105311174dc576ce3f410b",
+    "contentHash": "6d5c8c73e139fe414c40770b9561010606ffe84b4617b6c98b46e98fc0275817",
+    "repoId": 1449267228,
+    "firstSeen": "2026-11-14T19:08:18.719Z"
+  },
   "2589195970.jumplens@0.3.2": {
     "commit": "4a04bb97038f9a2c433b4a2ca32fcc7950ee7782",
     "contentHash": "11fdf28da7d379b9bc32b5ba8935ca1430cebefe631c30165ec45d74549e4041",
@@ -2878,6 +2884,12 @@
     "contentHash": "125690f860ed6ad0a2b55f234acb9761e5f9ed11dbcb660a2166c87744bac02b",
     "repoId": 1440225977,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "sergei-popov.archive-viewer@0.1.0": {
+    "commit": "2934a3146315772abf89cdb72e88260ff62e55b2",
+    "contentHash": "780da2044c6e72dccd969f73aab6c0996b559421a12d03a5e76896acff518694",
+    "repoId": 1457892568,
+    "firstSeen": "2026-11-14T19:08:18.719Z"
   },
   "sergei-popov.media-viewer@0.1.1": {
     "commit": "8a682ac8da8e4c48e269b0a1212b6f33e076dac3",

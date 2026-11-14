@@ -3,19 +3,10 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "refs/tags/1am/orca-agent-deck/0.2.2",
+      "ref": "v0.3.0",
       "plugins": [
         "1am.agent-deck"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "2589195970/jumplens": {
       "state": "listed",
@@ -1453,7 +1444,7 @@
     },
     "miragon/orca-plugins": {
       "state": "rejected",
-      "ref": "v0.1.27",
+      "ref": "v0.1.28",
       "reasons": [],
       "plugins": [
         {
@@ -1984,13 +1975,10 @@
       ]
     },
     "sergei-popov/orca-archive-viewer": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "sergei-popov.archive-viewer"
       ]
     },
     "sergei-popov/orca-font-viewer": {

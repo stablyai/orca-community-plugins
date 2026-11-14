@@ -9,15 +9,92 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/1am/orca-agent-deck/0.2.2"
+        "url": "https://github.com/1am/orca-agent-deck.git",
+        "ref": "v0.3.0"
       },
       "description": "Shows Orca agent status on a Stream Deck and focuses panes from it.",
       "categories": [
+        "panels",
         "commands",
-        "integrations"
+        "integrations",
+        "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "7636b4c86d6195489f105311174dc576ce3f410b",
+          "contentHash": "6d5c8c73e139fe414c40770b9561010606ffe84b4617b6c98b46e98fc0275817",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Deck for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Deck"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Open panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Record events"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Uninstall"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+K",
+              "detail": "deck.map"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Agent Deck"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/1am.agent-deck/b07fbe48c19bafb5.png",
+              "alt": "A Stream Deck showing Orca agent panes as colored keys: working, done, idle and empty",
+              "sha256": "b07fbe48c19bafb54ee1a71075d662e54158f015e5c17501610c96a3f630e0cd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/1am.agent-deck/e9db045d1cf33093.png",
+              "alt": "Agent Deck for Orca icon",
+              "sha256": "e9db045d1cf330937b3774c86cc6af156744f7580dfe05305e8f261f77c4e416",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/1am.agent-deck/1e88ece0ccdbc3af.png",
+                "alt": "A 5x3 Stream Deck grid of Orca pane keys with status icons",
+                "sha256": "1e88ece0ccdbc3afe5f9fb72db863ec73165c5b178fdcd86ebf28e801c4ed6e5",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "updatedAt": "2026-11-14T15:45:22+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/1am/orca-agent-deck"
+        },
         {
           "version": "0.2.2",
           "commit": "38c0afa8d66d36ebea2569dd6a77bf3256df331d",
@@ -27415,6 +27492,131 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-10-30T21:07:52+01:00"
+        }
+      ]
+    },
+    {
+      "id": "sergei-popov.archive-viewer",
+      "ownerId": 131901981,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sergei-Popov/orca-archive-viewer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Browse archives in Orca's editor tabs: .zip, .jar, .apk, .whl, .epub and other ZIP files, .tar, and .gz, .bz2, .xz or .zst (also .tar.gz and friends). A fast file tree with sizes and dates, a filter, previews of the text, images and hex inside, nested archives, legacy code page names and saving sing",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "2934a3146315772abf89cdb72e88260ff62e55b2",
+          "contentHash": "780da2044c6e72dccd969f73aab6c0996b559421a12d03a5e76896acff518694",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Archive Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Archive Viewer",
+              "detail": ".zip, .jar, .war, .ear, .aar, .apk, .whl, .nupkg, .vsix, .xpi, .ipa, .epub, .tar, .gz, .tgz, .bz2, .tbz2, .tbz, .xz, .txz, .zst, .tzst"
+            }
+          ],
+          "fileTypes": [
+            "zip",
+            "jar",
+            "war",
+            "ear",
+            "aar",
+            "apk",
+            "whl",
+            "nupkg",
+            "vsix",
+            "xpi",
+            "ipa",
+            "epub",
+            "tar",
+            "gz",
+            "tgz",
+            "bz2",
+            "tbz2",
+            "tbz",
+            "xz",
+            "txz",
+            "zst",
+            "tzst"
+          ],
+          "editorFileTypes": [
+            "zip",
+            "jar",
+            "war",
+            "ear",
+            "aar",
+            "apk",
+            "whl",
+            "nupkg",
+            "vsix",
+            "xpi",
+            "ipa",
+            "epub",
+            "tar",
+            "gz",
+            "tgz",
+            "bz2",
+            "tbz2",
+            "tbz",
+            "xz",
+            "txz",
+            "zst",
+            "tzst"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.archive-viewer/c990e644280a3b28.png",
+              "alt": "A ZIP in Archive Viewer: the file tree with sizes and dates on the left, its README with line numbers and details on the right.",
+              "sha256": "c990e644280a3b28db2ae586df1e58f4b8476ea98111a077662c51a5ca9e7113",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.archive-viewer/eb62f3b6fe7ce86c.png",
+              "alt": "Archive Viewer icon",
+              "sha256": "eb62f3b6fe7ce86c3c98e4055566e1a0ffd0bc5e3bb926cc758772183c3cddef",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.archive-viewer/6e945542b69586c9.png",
+                "alt": "src/index.ts from a ZIP with Orca's light theme: the src folder open in the tree, the file with line numbers, compression method, CRC-32 and encoding.",
+                "sha256": "6e945542b69586c9a318ac472554be6b693956c21288e0bd7396c4ffa251b563",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.archive-viewer/31a70a525c0b3b6f.png",
+                "alt": "public/hero.png selected in the archive tree with Orca's dark theme, previewed on a checkerboard with its dimensions, 480 × 300.",
+                "sha256": "31a70a525c0b3b6fadacf86b737c0eedca769011c2356234a0241f863e5b2e19",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.archive-viewer/f0702352752132fc.png",
+                "alt": "charts-1.8.2.jar opened from inside the ZIP, with the breadcrumb Archive › charts-1.8.2.jar; BarChart.class shows as hex starting with ca fe ba be.",
+                "sha256": "f0702352752132fc0e07055782f06f17e6c325c2604d7afc1292bef7a7611acb",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.archive-viewer/18e33c3ac07d40fd.png",
+                "alt": "A .tar.gz filtered by \".ts\" with Orca's light theme: the matching files highlighted in their folders, forecast.ts previewed on the right.",
+                "sha256": "18e33c3ac07d40fd2a70c050184dee43f66ad9c0d44f0fda6f720f741092c8d7",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sergei-Popov/orca-archive-viewer",
+          "updatedAt": "2026-11-14T22:14:28+05:00"
         }
       ]
     },
