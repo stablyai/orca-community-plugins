@@ -21599,8 +21599,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
-        "ref": "v1.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.3.1"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -23274,6 +23274,66 @@
           "license": "MIT",
           "repository": "https://github.com/pcauhi/orca-hairline-theme",
           "updatedAt": "2026-11-11T13:57:09+11:00"
+        }
+      ]
+    },
+    {
+      "id": "petercr.entire",
+      "ownerId": 26460352,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/petercr/orca-entire-extension.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Entire trails, findings and checkpoints for your Orca workspaces.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "f18c7f800853582927836a732b9552c30b3a1f7a",
+          "contentHash": "8893c04922faebe41a47281e2b2e5d655fb9b87d68210bb20a9e61756bef7deb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Entire",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Entire"
+            },
+            {
+              "kind": "commands",
+              "name": "Entire: Check connection"
+            },
+            {
+              "kind": "commands",
+              "name": "Entire: Refresh panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/petercr.entire/18ca53c29e735068.jpg",
+              "alt": "An orca leaps past the Golden Gate Bridge along a glowing path through cards for trails, findings and checkpoints, under the words Entire for Orca",
+              "sha256": "18ca53c29e735068f50e6f027bf2888f2f26de06c3633bca0325c8a0411f97a9",
+              "width": 1506,
+              "height": 941
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/petercr/orca-entire-extension",
+          "updatedAt": "2026-11-14T16:58:51-05:00"
         }
       ]
     },
