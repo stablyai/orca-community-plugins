@@ -1704,7 +1704,7 @@
     },
     "petercr/orca-entire-extension": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/petercr/orca-entire-extension/0.1.0",
       "plugins": [
         "petercr.entire"
       ]
