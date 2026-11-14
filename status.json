@@ -375,6 +375,13 @@
         ]
       }
     },
+    "carlosmanueldiaz/task-bridge": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "carlosmanueldiaz.task-bridge"
+      ]
+    },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
       "ref": "refs/tags/cattfan/orca-enhance-prompt/2.7.0",
@@ -1524,7 +1531,7 @@
     },
     "molanojf/orca-json-canvas": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/molanojf/orca-json-canvas/1.0.1",
       "plugins": [
         "molanojf.json-canvas"
       ]
