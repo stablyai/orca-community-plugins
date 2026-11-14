@@ -7425,8 +7425,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.6.1"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -27159,6 +27159,122 @@
       ]
     },
     {
+      "id": "sergei-popov.media-viewer",
+      "ownerId": 131901981,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sergei-Popov/orca-media-viewer.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Video and audio in Orca's editor tabs: plays .mkv, .mka and .weba, which Orca cannot show, and adds a full player view to .mp4, .mov, .webm, .mp3, .flac and other media. Speed, frame stepping, repeat, frame snapshots, file info and keyboard shortcuts.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "8a682ac8da8e4c48e269b0a1212b6f33e076dac3",
+          "contentHash": "4b75c9c6f33cd75d6fdc633145ad3e2d11ef0dbc99734b527c05b33d10fe90b8",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Media Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mkv, .mka, .weba"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mp4, .m4v, .mov, .webm, .mp3, .wav, .m4a, .aac, .ogg, .oga, .flac, .opus"
+            }
+          ],
+          "fileTypes": [
+            "mkv",
+            "mka",
+            "weba",
+            "mp4",
+            "m4v",
+            "mov",
+            "webm",
+            "mp3",
+            "wav",
+            "m4a",
+            "aac",
+            "ogg",
+            "oga",
+            "flac",
+            "opus"
+          ],
+          "editorFileTypes": [
+            "mkv",
+            "mka",
+            "weba",
+            "mp4",
+            "m4v",
+            "mov",
+            "webm",
+            "mp3",
+            "wav",
+            "m4a",
+            "aac",
+            "ogg",
+            "oga",
+            "flac",
+            "opus"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.media-viewer/98474359409cec11.png",
+              "alt": "Media Player in an Orca tab: a paused clip of a sunset over hills, with the seek bar, volume, speed, repeat, snapshot, fit, info and full screen controls below.",
+              "sha256": "98474359409cec11b85e0670cedfd9b75c9b4d145e332e33721588e7139ca0a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.media-viewer/bf2cc939d40f9377.png",
+              "alt": "Media Viewer icon",
+              "sha256": "bf2cc939d40f93771be6f0e87d5a3276d6ca9b4f3129380840eb520ab6689786",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.media-viewer/e23dc1ebd7aadf12.png",
+                "alt": "An .mkv video paused at 0:12 in the Media Player tab with Orca's dark theme.",
+                "sha256": "e23dc1ebd7aadf127155f18c46072f5f2f54808d643e6cc887fd7ea5d82d0a7c",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/55c2234aeecd0074.png",
+                "alt": "The same video in the Media Player tab with Orca's light theme.",
+                "sha256": "55c2234aeecd0074049b20aca3cfab9cecfdcbf668cbb873acf26105c53c5bca",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/fc2d793314470202.png",
+                "alt": "The file info overlay over the video: file, size 1.9 MB, resolution 1920 × 1080, duration 0:30, frame rate, type .mkv.",
+                "sha256": "fc2d793314470202e053ba2f77e48b6687ebf8557e6bc70596ac806802f76c2f",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/df7e5709721d7322.png",
+                "alt": "An audio file in the Media Player: a music note cover above the seek bar at 1:04 of 3:34.",
+                "sha256": "df7e5709721d73228b3371e3bd064e442b9952453ea465b2537c01706b9ed314",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sergei-Popov/orca-media-viewer",
+          "updatedAt": "2026-11-14T13:33:03+05:00"
+        }
+      ]
+    },
+    {
       "id": "serhii-f8.docker",
       "ownerId": 22273976,
       "source": {
@@ -29347,6 +29463,60 @@
       ]
     },
     {
+      "id": "thanhtrung5763.git-graph",
+      "ownerId": 69342146,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thanhtrung5763/orca-git-graph.git",
+        "ref": "v0.1.1"
+      },
+      "description": "View a graph of your Git history and run common Git actions from it. Based on neo-git-graph.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "b2a4d1aec915c1e1f6cc810470ead3cefcd6a8bf",
+          "contentHash": "03ea3c6d4e722065c9984ec42fc48cb9e69d7da4d236a77bbe09957cf8cc356e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Graph"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git Graph"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/thanhtrung5763/orca-git-graph",
+          "updatedAt": "2026-11-14T15:32:29+07:00"
+        }
+      ]
+    },
+    {
       "id": "tienne.git-logs",
       "ownerId": 9584768,
       "source": {
@@ -29606,15 +29776,105 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tienne/orcatopia/0.3.0"
+        "url": "https://github.com/tienne/orcatopia.git",
+        "ref": "v0.4.0"
       },
-      "description": "Turn waiting time into a little island getaway. Earn tickets from new worktrees, discover world landmarks, and make the island your own.",
+      "description": "A relaxing island-building game between tasks. Earn tickets from new worktrees, collect world landmarks, and decorate the land, rivers and sea.",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "b6bcd743e1e18001736b6044266ddf1099170d72",
+          "contentHash": "5a38ecdffa822d2c0c0065a3bfcfe9404af596f126855f61bc22c1e252b26d19",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Orcatopia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orcatopia"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tienne.landmark-island/5dbba492ef061bb0.png",
+              "alt": "Orcatopia: a DEMO sea-and-river island with enlarged Wonder-tier landmark scenes",
+              "sha256": "5dbba492ef061bb0ad02338a99536cb598ccb48904d2023ff5355d9a541e3283",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tienne.landmark-island/e659ad5f625e5f3a.png",
+              "alt": "Orcatopia icon",
+              "sha256": "e659ad5f625e5f3a4890d57758f468e44eed1ec689ab8810c0544e6d52ee1714",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tienne.landmark-island/214f90fb58a9ce73.png",
+                "alt": "English DEMO island with Ha Long Bay, Great Barrier Reef, a river to the sea, Li River and Middle Rhine landmarks",
+                "sha256": "214f90fb58a9ce7383fabb4efd338e7e999ce2ae05c1a7e03256ecd0e34b766d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/099ccdd7e15b0cad.png",
+                "alt": "Enlarged Wonder-tier scenes of Mont-Saint-Michel, Machu Picchu and Petra",
+                "sha256": "099ccdd7e15b0cad324e541689aac14aba5f3fa0fa69dd2504b7907b12251115",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/56c813e66653eac4.png",
+                "alt": "Great Wall plus fusion result with its original workers and equipment",
+                "sha256": "56c813e66653eac4882b9abd1be14686d36e19ebe9c54ad039f074f3fbef0ce7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/9cece36e98c55e6b.png",
+                "alt": "하롱베이와 산호초, 넓은 강과 강 전용 랜드마크로 꾸민 한국어 DEMO 휴양지",
+                "sha256": "9cece36e98c55e6bc49d11d232692ba09c26cc4429fd3babeed956f0d4eb7f9d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/4858c80dba0bb3ec.png",
+                "alt": "몽생미셸·마추픽추·페트라를 크게 보여주는 한국어 DEMO 불가사의 장면",
+                "sha256": "4858c80dba0bb3ec5eee0e40e1b637670b221f7c50dcf4ebbdaa5d423c1e2fb7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/5d902776a471fccd.png",
+                "alt": "인부와 작업 장비를 유지한 만리장성 플러스 합성 결과의 한국어 DEMO",
+                "sha256": "5d902776a471fccd6a4a08c3e753335feefb255f557ae1eb21228f566a8bb2e0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orcatopia",
+          "updatedAt": "2026-11-14T16:35:15+09:00"
+        },
         {
           "version": "0.3.0",
           "commit": "fd5f82506c7f324425d1eab483e33bd9f019f811",

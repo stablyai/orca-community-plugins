@@ -2831,6 +2831,12 @@
     "repoId": 1440225977,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "sergei-popov.media-viewer@0.1.1": {
+    "commit": "8a682ac8da8e4c48e269b0a1212b6f33e076dac3",
+    "contentHash": "4b75c9c6f33cd75d6fdc633145ad3e2d11ef0dbc99734b527c05b33d10fe90b8",
+    "repoId": 1457245484,
+    "firstSeen": "2026-11-14T08:39:05.935Z"
+  },
   "serhii-f8.docker@0.1.2": {
     "commit": "0595e85a29b82189908213294ee0674798a52319",
     "contentHash": "f152094757185144424f802ac2e1b61abe627685d78db17c91c313f523468865",
@@ -3089,6 +3095,12 @@
     "repoId": 1440728806,
     "firstSeen": "2026-10-31T10:12:38.962Z"
   },
+  "thanhtrung5763.git-graph@0.1.1": {
+    "commit": "b2a4d1aec915c1e1f6cc810470ead3cefcd6a8bf",
+    "contentHash": "03ea3c6d4e722065c9984ec42fc48cb9e69d7da4d236a77bbe09957cf8cc356e",
+    "repoId": 1457539965,
+    "firstSeen": "2026-11-14T08:39:05.935Z"
+  },
   "tienne.git-logs@0.1.1": {
     "commit": "7376e52be94e0bd512906ffbc4f1f926111590c7",
     "contentHash": "f094749f2d72c38625a1ca2e74f3bc331727fa6622945408b60202ab79cd6592",
@@ -3130,6 +3142,12 @@
     "contentHash": "1350d72c03a3b97c976b3c4c695a36282df7b0c3880609b46e64c2a10cdea36f",
     "repoId": 1450826060,
     "firstSeen": "2026-11-12T20:39:56.376Z"
+  },
+  "tienne.landmark-island@0.4.0": {
+    "commit": "b6bcd743e1e18001736b6044266ddf1099170d72",
+    "contentHash": "5a38ecdffa822d2c0c0065a3bfcfe9404af596f126855f61bc22c1e252b26d19",
+    "repoId": 1450826060,
+    "firstSeen": "2026-11-14T08:39:05.935Z"
   },
   "tourbut.claude-pin@0.3.1": {
     "commit": "519a4742c614341f0c6c04b5fb9b49079b4f25b7",

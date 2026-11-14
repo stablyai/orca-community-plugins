@@ -585,7 +585,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/divlook/orca-sidenote/0.6.1",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1973,6 +1973,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "sergei-popov/orca-media-viewer": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "sergei-popov.media-viewer"
+      ]
+    },
     "serhii-f8/orca-docker": {
       "state": "listed",
       "ref": "refs/tags/serhii-f8/orca-docker/0.1.2",
@@ -2207,6 +2214,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "thanhtrung5763/orca-git-graph": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "thanhtrung5763.git-graph"
+      ]
+    },
     "tienne/orca-plugins": {
       "state": "listed",
       "ref": "refs/tags/tienne/orca-plugins/0.2.3",
@@ -2216,19 +2230,10 @@
     },
     "tienne/orcatopia": {
       "state": "listed",
-      "ref": "refs/tags/tienne/orcatopia/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "tienne.landmark-island"
-      ],
-      "update": {
-        "ref": "v0.4.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "tourbut/claude-pin": {
       "state": "listed",
