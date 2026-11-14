@@ -7425,8 +7425,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.7.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.7.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -30044,8 +30044,8 @@
       "ownerId": 9584768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tienne/orcatopia/0.4.0"
+        "url": "https://github.com/tienne/orcatopia.git",
+        "ref": "v0.4.1"
       },
       "description": "A relaxing island-building game between tasks. Earn tickets from new worktrees, collect world landmarks, and decorate the land, rivers and sea.",
       "categories": [
@@ -30053,6 +30053,96 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "ee1e3037b496e157d722f242d3037716d4d66ab4",
+          "contentHash": "37ecac3d65ace3eeb5845e6c73d67675b7c8761a72f408b19b7871c9435adabc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Orcatopia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orcatopia"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tienne.landmark-island/5dbba492ef061bb0.png",
+              "alt": "Orcatopia: a DEMO sea-and-river island with enlarged Wonder-tier landmark scenes",
+              "sha256": "5dbba492ef061bb0ad02338a99536cb598ccb48904d2023ff5355d9a541e3283",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tienne.landmark-island/e659ad5f625e5f3a.png",
+              "alt": "Orcatopia icon",
+              "sha256": "e659ad5f625e5f3a4890d57758f468e44eed1ec689ab8810c0544e6d52ee1714",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tienne.landmark-island/214f90fb58a9ce73.png",
+                "alt": "English DEMO island with Ha Long Bay, Great Barrier Reef, a river to the sea, Li River and Middle Rhine landmarks",
+                "sha256": "214f90fb58a9ce7383fabb4efd338e7e999ce2ae05c1a7e03256ecd0e34b766d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/099ccdd7e15b0cad.png",
+                "alt": "Enlarged Wonder-tier scenes of Mont-Saint-Michel, Machu Picchu and Petra",
+                "sha256": "099ccdd7e15b0cad324e541689aac14aba5f3fa0fa69dd2504b7907b12251115",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/56c813e66653eac4.png",
+                "alt": "Great Wall plus fusion result with its original workers and equipment",
+                "sha256": "56c813e66653eac4882b9abd1be14686d36e19ebe9c54ad039f074f3fbef0ce7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/9cece36e98c55e6b.png",
+                "alt": "하롱베이와 산호초, 넓은 강과 강 전용 랜드마크로 꾸민 한국어 DEMO 휴양지",
+                "sha256": "9cece36e98c55e6bc49d11d232692ba09c26cc4429fd3babeed956f0d4eb7f9d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/4858c80dba0bb3ec.png",
+                "alt": "몽생미셸·마추픽추·페트라를 크게 보여주는 한국어 DEMO 불가사의 장면",
+                "sha256": "4858c80dba0bb3ec5eee0e40e1b637670b221f7c50dcf4ebbdaa5d423c1e2fb7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.landmark-island/5d902776a471fccd.png",
+                "alt": "인부와 작업 장비를 유지한 만리장성 플러스 합성 결과의 한국어 DEMO",
+                "sha256": "5d902776a471fccd6a4a08c3e753335feefb255f557ae1eb21228f566a8bb2e0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tienne/orcatopia",
+          "updatedAt": "2026-11-14T19:13:10+09:00"
+        },
         {
           "version": "0.4.0",
           "commit": "b6bcd743e1e18001736b6044266ddf1099170d72",

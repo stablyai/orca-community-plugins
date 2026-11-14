@@ -585,7 +585,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.7.0",
+      "ref": "refs/tags/divlook/orca-sidenote/0.7.0",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -2236,7 +2236,7 @@
     },
     "tienne/orcatopia": {
       "state": "listed",
-      "ref": "refs/tags/tienne/orcatopia/0.4.0",
+      "ref": "v0.4.1",
       "plugins": [
         "tienne.landmark-island"
       ]
