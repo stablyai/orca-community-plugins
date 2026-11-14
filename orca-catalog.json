@@ -33789,8 +33789,8 @@
       "ownerId": 150507592,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yubinfengjjd/orca-roundtable.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yubinfengjjd/orca-roundtable/0.4.1"
       },
       "description": "Native-chat roundtable meetings: invoke $roundtable in Orca chat. The host agent orchestrates independent proposals, cross-examination and explicit-version consensus through native dispatch; this trusted worker only registers the skill and self-checks it. No panel UI.",
       "categories": [
