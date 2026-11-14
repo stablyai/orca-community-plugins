@@ -16471,6 +16471,53 @@
       ]
     },
     {
+      "id": "jonstuebe.todos",
+      "ownerId": 156722,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jonstuebe/orca-todos.git",
+        "ref": "v0.1.1"
+      },
+      "description": "A shared TODO.md task list between you and your agents: agents add and check off tasks, and when you check off one they asked you to do, the agent you pick gets told.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "fb2628bcd4ef00a69fd512e53948d72d8ca723ac",
+          "contentHash": "c028298f1b1950badf60b8aaa8958bd015892795d79c3ae5b6b77921a8affb57",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Todos",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Todos"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/jonstuebe/orca-todos",
+          "updatedAt": "2026-11-14T10:44:42-07:00"
+        }
+      ]
+    },
+    {
       "id": "kianxm.luau-syntax",
       "ownerId": 73912215,
       "source": {
@@ -23845,8 +23892,8 @@
       "ownerId": 302418465,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Rem021/workspace-naming-guard.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rem021/workspace-naming-guard/1.1.1"
       },
       "description": "Keeps workspace names in a tidy 'Project｜Topic' form: adds the project prefix to the titles Orca gives new workspaces, fixes generic prefixes and suggests names for older ones. Once it has named a workspace, your own rename is final. Uses only Orca's plugin API.",
       "categories": [
