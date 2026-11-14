@@ -7425,14 +7425,73 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.5.0"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.6.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
-        "panels"
+        "panels",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "07a9e3af356cadcd539465aa9877e4e8cc233973",
+          "contentHash": "049ebb4e0b32bc044c05764d25beacf9a16ae7cf85bc0d6b0693ce70f87b74e3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/3607be6557de4c48.png",
+              "alt": "SideNote displaying two reading-mode notes and a minimized note",
+              "sha256": "3607be6557de4c483c1ec790125f9f88db0462d4209ccf5233b4fd7a85d27306",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/57e464d3d659f708.png",
+                "alt": "A checklist and next steps in reading mode with a minimized implementation note between them",
+                "sha256": "57e464d3d659f708d631dd64507605c4e71c8eac3dbd30291d8ebec79b08575c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/cc10fe9f62044ddd.png",
+                "alt": "A Markdown note open for editing below a reading-mode checklist and above a minimized note",
+                "sha256": "cc10fe9f62044ddd587f495c887d23bd182d01f83b67042a39d923ce70e1385a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/2742770999d782f2.png",
+                "alt": "Two minimized notes above an expanded note with next steps",
+                "sha256": "2742770999d782f22ef7b375a3c739b56a08b6b126a0822b4c09a83f590306b4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-14T15:41:24+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote"
+        },
         {
           "version": "0.5.0",
           "commit": "c38096fed4f6d498ceeb9eafc9d4484bf7e047bb",
@@ -14803,6 +14862,46 @@
           "license": "MIT",
           "repository": "https://github.com/Javiervinus/vinus-arcade-orca",
           "updatedAt": "2026-11-12T16:12:00-05:00"
+        }
+      ]
+    },
+    {
+      "id": "jdflament.coordinator-board",
+      "ownerId": 24875026,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jdflament/orca-coordinator.git",
+        "ref": "v1.1.0"
+      },
+      "description": "Your coordinator agent in Orca: one click sets it up, then the board shows what needs you, work by ticket and running workers.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "efd32d89c7e31f546865d5c55d24034b8e1a6aef",
+          "contentHash": "13c407f57ad7f7ec25879897e4c63355139ff69d3a18c191c796048610927ebc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Coordinator board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Coordinator board"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "terminal:send",
+            "agent:read",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/jdflament/orca-coordinator",
+          "updatedAt": "2026-11-14T16:38:40+09:00"
         }
       ]
     },
