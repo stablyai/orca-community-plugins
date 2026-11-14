@@ -685,7 +685,7 @@
     },
     "eskono/orca-docker-logs": {
       "state": "listed",
-      "ref": "v0.7.0",
+      "ref": "refs/tags/eskono/orca-docker-logs/0.7.0",
       "plugins": [
         "eskono.docker-logs"
       ]
