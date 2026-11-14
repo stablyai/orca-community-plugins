@@ -3,7 +3,7 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/1am/orca-agent-deck/0.3.0",
       "plugins": [
         "1am.agent-deck"
       ]
@@ -1976,7 +1976,7 @@
     },
     "sergei-popov/orca-archive-viewer": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/sergei-popov/orca-archive-viewer/0.1.0",
       "plugins": [
         "sergei-popov.archive-viewer"
       ]
