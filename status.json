@@ -1565,7 +1565,7 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.2.1",
+      "ref": "v1.3.0",
       "plugins": [
         "mswdev.fleet-monitor"
       ]
