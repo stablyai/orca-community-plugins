@@ -14539,8 +14539,8 @@
       "ownerId": 24733930,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.3.0"
+        "url": "https://github.com/Javiervinus/vinus-arcade-orca.git",
+        "ref": "v0.3.1"
       },
       "description": "Pixel art games for the wait between agents, in an office that is yours: your projects hang on the wall, your agents sit at the desks and call you when they need you, and a world ranking crowns the best runs of the week. Blip is the first game; more are on the way. Your projects and agents never lea",
       "categories": [
@@ -14548,6 +14548,76 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "b5f98d934632ca6c98768e2def7baf56a51b2512",
+          "contentHash": "525cc146e94a7ac2e3e7a7f8b580d9402b677ff793869e38b36d9668b7918c12",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Vinus Arcade",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Vinus Arcade"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/javiervinus.vinus-arcade/d528040bcc8a899a.png",
+              "alt": "Vinus Arcade: its seven pixel art characters beside a run of Blip, the first game, in an office at dusk.",
+              "sha256": "d528040bcc8a899a25f8e7d908c9d3cd78d0b23f3a02af996b9677e6b0eb7932",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/javiervinus.vinus-arcade/1e16ea433779d755.png",
+              "alt": "Vinus Arcade icon",
+              "sha256": "1e16ea433779d7558749e3188148a0ddfee54110b7b1e5f117a6960e789aa79d",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/javiervinus.vinus-arcade/fe6cf4cd7a1e5734.png",
+                "alt": "Three views of Blip: the office with agents at its desks before a run, a run with the x2 tile, and a project sent in by an agent that finished.",
+                "sha256": "fe6cf4cd7a1e5734a99a3feaf263b670cba863e16c8cebbab2c9867d5e3590d0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/javiervinus.vinus-arcade/84f5feca8700be68.png",
+                "alt": "A notice from an agent that is waiting, the characters to buy with coins, and the games window with Blip and two games still to come.",
+                "sha256": "84f5feca8700be685fd3bc39c01bb6d705dd8db2c2f416f288d84c98d1eccbaf",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/javiervinus.vinus-arcade/cb6d0c06783d8e16.png",
+                "alt": "The world ranking of Blip: the ten best runs of the week, the card telling a new best and its place on the board, and the way in with a nickname.",
+                "sha256": "cb6d0c06783d8e168bea1cbf7a543b07d02e632a3d7daded2e49b5b7cee80ea7",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Javiervinus/vinus-arcade-orca",
+          "updatedAt": "2026-11-13T23:13:59-05:00"
+        },
         {
           "version": "0.3.0",
           "commit": "9dfac78c91437fd569aa7d4ea1c63cc90dcbce9b",
