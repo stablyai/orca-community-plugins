@@ -30945,6 +30945,79 @@
       ]
     },
     {
+      "id": "vzxxbacq.colab",
+      "ownerId": 29952934,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vzxxbacq/orca-colab.git",
+        "ref": "v0.3.2"
+      },
+      "description": "Community plugin: use a Google Colab GPU runtime as a compute backend from your local Orca workspace and agents. Unofficial; not affiliated with or endorsed by Google.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "d9176a8b8a6fa195b66a19814dde9fce26eb0b6d",
+          "contentHash": "fd18f3e1dcbac4361f31b1f7cb2baec62504164da4667eb9d80e9cdb0ee50796",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Colab GPU (Community) for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Colab GPU"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Start GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Stop GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Show sessions"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Colab"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vzxxbacq.colab/cfb5cd966b39428e.png",
+              "alt": "The Colab GPU panel in Orca: agent runs, guardrails and live output of a job on a Tesla T4",
+              "sha256": "cfb5cd966b39428e9ba910bc4d71dc1c69e3c53e2f99eb7760fc2857d5cac448",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vzxxbacq.colab/e942b52743daff60.png",
+              "alt": "Colab GPU (Community) for Orca icon",
+              "sha256": "e942b52743daff6019983b07c9d0485bd72f245ad866b07b5ae2bcd3ece3b233",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vzxxbacq/orca-colab",
+          "updatedAt": "2026-11-14T03:24:31Z"
+        }
+      ]
+    },
+    {
       "id": "wilkywayre.orcarchy",
       "ownerId": 315470107,
       "source": {

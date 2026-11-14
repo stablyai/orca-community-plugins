@@ -2386,13 +2386,10 @@
       ]
     },
     "vzxxbacq/orca-colab": {
-      "state": "rejected",
-      "ref": "v0.3.1",
-      "reasons": [
-        {
-          "category": "reserved-name",
-          "detail": "name \"Orca Colab Community\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
-        }
+      "state": "listed",
+      "ref": "v0.3.2",
+      "plugins": [
+        "vzxxbacq.colab"
       ]
     },
     "wangxiaomo/orca-dark-aurora": {
