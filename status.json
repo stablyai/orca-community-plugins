@@ -585,7 +585,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.6.1",
+      "ref": "v0.7.0",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1975,7 +1975,16 @@
       "ref": "v0.2.0",
       "plugins": [
         "sergei-popov.media-viewer"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "content, update"
+          }
+        ]
+      }
     },
     "serhii-f8/orca-docker": {
       "state": "listed",

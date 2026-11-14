@@ -7425,8 +7425,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.6.1"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.7.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -7434,6 +7434,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.7.0",
+          "commit": "9426b8590e219e0ace2864ed2a60238b6ce5d472",
+          "contentHash": "eabb3de2843ea0206a43b956d390540fe2a3e9f0e639343d0eae11c8bbe0d940",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/8305575f8e29ad9e.png",
+              "alt": "SideNote displaying two reading-mode notes and a minimized note",
+              "sha256": "8305575f8e29ad9e076e2e7e6455f6a0d397c91ee053833d3ac193db1ceb60fc",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/232728bb90476261.png",
+                "alt": "A checklist and next steps in reading mode with a minimized implementation note between them",
+                "sha256": "232728bb90476261c826f804add6b54620e239f13cad38e1570ea2f9632cbd0a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/1321ee838b965a07.png",
+                "alt": "A Markdown note open for editing below a reading-mode checklist and above a minimized note",
+                "sha256": "1321ee838b965a079c4772b35746ebada6d37ea9b8e7130691a283088613c634",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/5d345c14b79e35c8.png",
+                "alt": "Two minimized notes above an expanded note with next steps",
+                "sha256": "5d345c14b79e35c8f99cdb32070bd8b1b2ed5a07ff76ae3ca45b487878aa39fe",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-14T18:56:14+09:00"
+        },
         {
           "version": "0.6.1",
           "commit": "2b65975b286162925dfdd5fdc7504c5e84757f21",
@@ -7648,45 +7706,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-12T21:45:22+09:00"
-        },
-        {
-          "version": "0.4.1",
-          "commit": "7ecfc77ea1e9ae625373954450785d74ade3f6c5",
-          "contentHash": "d3b23e4043a15a2a1ccef465b21ae0967e51f8db0c096fcaa5799c98857d7458",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read"
-          ],
-          "images": {
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/138b66f77b3e60b5.png",
-                "alt": "SideNote Preview showing a sample project checklist with Markdown headings, tasks, and shell commands",
-                "sha256": "138b66f77b3e60b5de0adbc8a89778a640e38fd53de223617be1495bc3946c32",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/8006874212461d4b.png",
-                "alt": "SideNote Source editor showing the same sample Markdown checklist with syntax highlighting and line numbers",
-                "sha256": "8006874212461d4be1f36d9fb5c0f0f85d908f88135512b1ecd1b50c8656731d",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-12T20:11:23+09:00"
         }
       ]
     },
