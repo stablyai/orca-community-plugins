@@ -585,7 +585,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.8.0",
+      "ref": "refs/tags/divlook/orca-sidenote/0.8.0",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -2227,6 +2227,13 @@
         "thanhtrung5763.git-graph"
       ]
     },
+    "tienne/jira-tasks": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "tienne.jira-tasks"
+      ]
+    },
     "tienne/orca-plugins": {
       "state": "listed",
       "ref": "refs/tags/tienne/orca-plugins/0.2.3",
@@ -2514,7 +2521,7 @@
     },
     "zifengjiang/orca-workspace-namer": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/zifengjiang/orca-workspace-namer/0.1.2",
       "plugins": [
         "zifengjiang.workspace-namer"
       ]

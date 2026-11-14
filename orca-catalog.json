@@ -7425,8 +7425,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.8.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.8.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -30066,6 +30066,81 @@
       ]
     },
     {
+      "id": "tienne.jira-tasks",
+      "ownerId": 9584768,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tienne/jira-tasks.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Keep Jira within reach in the Orca sidebar. Browse issues, follow parent and child tickets, and query children by status or assignee using your existing Jira connection.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "2d619b7a5cabbd2e2cee836f686f691195e1d2f1",
+          "contentHash": "8757f04579f4e231509439fd2fc8ee7a058b5bc15f68bf4d80f1028288f5a204",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Jira Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Jira Tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Jira Tasks"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+J",
+              "detail": "jira-tasks.open"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tienne.jira-tasks/20d3e2b6c2a0f7d6.png",
+              "alt": "Jira Tasks — Keep Jira within reach, beside an English DEMO ticket detail view.",
+              "sha256": "20d3e2b6c2a0f7d684cee77ad76bff81203c6968c55ad6bb30a7ae55f4ed3d29",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tienne.jira-tasks/1e1773e75dc9d78c.png",
+              "alt": "Jira Tasks icon",
+              "sha256": "1e1773e75dc9d78c33dca1f1d441214469414bb5165678a4eefc916fbeb8f2ea",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tienne.jira-tasks/3304e7fee2f9886a.png",
+                "alt": "English DEMO issue list and ticket details in dark mode, with parent, assignee, reporter and child query controls.",
+                "sha256": "3304e7fee2f9886a622d91f6055ba1c65c0275ede8174142d3a7358c3d3f0376",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tienne.jira-tasks/c94b6151641cf2c3.png",
+                "alt": "English DEMO issue list and ticket details in light mode, with parent, assignee, reporter and child query controls.",
+                "sha256": "c94b6151641cf2c36cbbc6d005f4a043be4eda14a4f0e9c7cdbc1bd057d573fc",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tienne/jira-tasks",
+          "updatedAt": "2026-11-14T22:47:59+09:00"
+        }
+      ]
+    },
+    {
       "id": "tienne.landmark-island",
       "ownerId": 9584768,
       "source": {
@@ -34719,8 +34794,8 @@
       "ownerId": 63494980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/zifengjiang/orca-workspace-namer.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/zifengjiang/orca-workspace-namer/0.1.2"
       },
       "description": "Renames a workspace once its agent stops, using what the agent was asked to do. The agent itself is never interrupted.",
       "categories": [
