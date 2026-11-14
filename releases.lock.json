@@ -875,6 +875,12 @@
     "repoId": 1453378312,
     "firstSeen": "2026-11-14T10:12:35.788Z"
   },
+  "divlook.sidenote@0.8.0": {
+    "commit": "b89cecb66df9104e8fcf8c029a3f4871ebf5defd",
+    "contentHash": "caddf0453781da2d80890ea7ad11e069e966f30061f7c6cd2f0b068613533529",
+    "repoId": 1453378312,
+    "firstSeen": "2026-11-14T14:12:35.695Z"
+  },
   "dohaidang.living-ascii-themes@1.4.0": {
     "commit": "74b035f66f7f1f4559016caebf1b9874673d2af5",
     "contentHash": "db7707297bb09e419e82cfce57dcff344ee17df3544f7c00c1784e4fdda7fbbd",
@@ -3365,6 +3371,12 @@
     "repoId": 1450989917,
     "firstSeen": "2026-11-14T03:39:29.959Z"
   },
+  "vzxxbacq.colab@0.3.3": {
+    "commit": "ce26dc88769f97895ed2eb13e9714a041bfe4c2e",
+    "contentHash": "0123a5de7c558b77d11c38b0a73020d6edec334165274bff345bfb0a3da12fb7",
+    "repoId": 1450989917,
+    "firstSeen": "2026-11-14T14:12:35.695Z"
+  },
   "wilkywayre.orcarchy@0.3.0": {
     "commit": "b10655b96e5e4c0605e9dccfd85aa5d4d0705495",
     "contentHash": "047edb7fef8e508605c29b36f633ffb724bf6ab2419cfa45f0e83cfb59dbd84b",
@@ -3472,5 +3484,11 @@
     "contentHash": "7e0daad4065ae4c589492b69d6db6d21704b39cfa5253494c23086ae864d6a85",
     "repoId": 1454613664,
     "firstSeen": "2026-11-11T23:39:41.127Z"
+  },
+  "zifengjiang.workspace-namer@0.1.2": {
+    "commit": "17236b68aaadab479027b656403aa23b3813a535",
+    "contentHash": "a7c199536d3981c3ad8f94042944eab2e6d71c54d7ccf56113ceffcd191f8d50",
+    "repoId": 1457809652,
+    "firstSeen": "2026-11-14T14:12:35.695Z"
   }
 }

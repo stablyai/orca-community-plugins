@@ -585,7 +585,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.7.0",
+      "ref": "v0.8.0",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -2404,7 +2404,7 @@
     },
     "vzxxbacq/orca-colab": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "v0.3.3",
       "plugins": [
         "vzxxbacq.colab"
       ]
@@ -2481,6 +2481,16 @@
         "xuan666-lab.artifact-workbench"
       ]
     },
+    "xztsummer/orca-im-notify": {
+      "state": "rejected",
+      "ref": "v0.3.2",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "yeonjin1357/orca-line-blame": {
       "state": "listed",
       "ref": "refs/tags/yeonjin1357/orca-line-blame/0.1.7",
@@ -2500,6 +2510,13 @@
       "ref": "refs/tags/yuribodo/neon-horizon/0.1.1",
       "plugins": [
         "yuribodo.neon-horizon"
+      ]
+    },
+    "zifengjiang/orca-workspace-namer": {
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "zifengjiang.workspace-namer"
       ]
     }
   }

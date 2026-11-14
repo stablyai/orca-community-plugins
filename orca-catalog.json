@@ -7425,8 +7425,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.7.0"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.8.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -7434,6 +7434,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.0",
+          "commit": "b89cecb66df9104e8fcf8c029a3f4871ebf5defd",
+          "contentHash": "caddf0453781da2d80890ea7ad11e069e966f30061f7c6cd2f0b068613533529",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-14T23:02:45+09:00"
+        },
         {
           "version": "0.7.0",
           "commit": "9426b8590e219e0ace2864ed2a60238b6ce5d472",
@@ -7660,52 +7718,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-14T14:03:22+09:00"
-        },
-        {
-          "version": "0.4.2",
-          "commit": "cb9e170f60d04c6c245a006677567cfc1d383fe0",
-          "contentHash": "17b41889a7b9f1ebbb7def471cccdbdafc70e71df7b8013a0006394df7dfa43c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/138b66f77b3e60b5.png",
-              "alt": "SideNote Preview showing a sample project checklist with Markdown headings, tasks, and shell commands",
-              "sha256": "138b66f77b3e60b5de0adbc8a89778a640e38fd53de223617be1495bc3946c32",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/138b66f77b3e60b5.png",
-                "alt": "SideNote Preview showing a sample project checklist with Markdown headings, tasks, and shell commands",
-                "sha256": "138b66f77b3e60b5de0adbc8a89778a640e38fd53de223617be1495bc3946c32",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/8006874212461d4b.png",
-                "alt": "SideNote Source editor showing the same sample Markdown checklist with syntax highlighting and line numbers",
-                "sha256": "8006874212461d4be1f36d9fb5c0f0f85d908f88135512b1ecd1b50c8656731d",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-12T21:45:22+09:00"
         }
       ]
     },
@@ -31841,14 +31853,71 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/vzxxbacq/orca-colab.git",
-        "ref": "v0.3.2"
+        "ref": "v0.3.3"
       },
-      "description": "Community plugin: use a Google Colab GPU runtime as a compute backend from your local Orca workspace and agents. Unofficial; not affiliated with or endorsed by Google.",
+      "description": "Give Claude Code, Codex and your other Orca agents a Google Colab GPU: launch T4, L4 or A100 runtimes, sync code, run training jobs and pull results back.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.3",
+          "commit": "ce26dc88769f97895ed2eb13e9714a041bfe4c2e",
+          "contentHash": "0123a5de7c558b77d11c38b0a73020d6edec334165274bff345bfb0a3da12fb7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Colab GPU (Community) for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Colab GPU"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Start GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Stop GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Show sessions"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Colab"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vzxxbacq.colab/cfb5cd966b39428e.png",
+              "alt": "The Colab GPU panel in Orca: agent runs, guardrails and live output of a job on a Tesla T4",
+              "sha256": "cfb5cd966b39428e9ba910bc4d71dc1c69e3c53e2f99eb7760fc2857d5cac448",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vzxxbacq.colab/e942b52743daff60.png",
+              "alt": "Colab GPU (Community) for Orca icon",
+              "sha256": "e942b52743daff6019983b07c9d0485bd72f245ad866b07b5ae2bcd3ece3b233",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vzxxbacq/orca-colab",
+          "updatedAt": "2026-11-14T13:49:22Z"
+        },
         {
           "version": "0.3.2",
           "commit": "d9176a8b8a6fa195b66a19814dde9fce26eb0b6d",
@@ -34642,6 +34711,59 @@
           "license": "MIT",
           "repository": "https://github.com/yuribodo/neon-horizon",
           "updatedAt": "2026-11-11T20:39:45-03:00"
+        }
+      ]
+    },
+    {
+      "id": "zifengjiang.workspace-namer",
+      "ownerId": 63494980,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/zifengjiang/orca-workspace-namer.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Renames a workspace once its agent stops, using what the agent was asked to do. The agent itself is never interrupted.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "17236b68aaadab479027b656403aa23b3813a535",
+          "contentHash": "a7c199536d3981c3ad8f94042944eab2e6d71c54d7ccf56113ceffcd191f8d50",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Workspace Namer",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Rename this workspace after its task"
+            },
+            {
+              "kind": "commands",
+              "name": "Rename workspaces still called after their folder"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "terminal:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/zifengjiang/orca-workspace-namer",
+          "updatedAt": "2026-11-14T21:53:35+08:00"
         }
       ]
     }
