@@ -29812,6 +29812,42 @@
       ]
     },
     {
+      "id": "thirstydevil.rhai-syntax",
+      "ownerId": 280485,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thirstydevil/rhai-syntax.git",
+        "ref": "v1.0.1"
+      },
+      "description": "Rhai syntax highlighting, adapted from rhaiscript/sublime-rhai for Orca.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "dbe4431a7197507355abda4d0ab099d93187a3a4",
+          "contentHash": "56eb6d8d945bdcd3a4522b1bee75e23d14df7bdc1c1cd7c6fe8d1953d7dc4f0d",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Rhai Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Rhai",
+              "detail": ".rhai"
+            }
+          ],
+          "fileTypes": [
+            "rhai"
+          ],
+          "license": "MPL-2.0",
+          "repository": "https://github.com/thirstydevil/rhai-syntax",
+          "updatedAt": "2026-11-14T16:50:39Z"
+        }
+      ]
+    },
+    {
       "id": "tienne.git-logs",
       "ownerId": 9584768,
       "source": {

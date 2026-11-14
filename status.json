@@ -2233,6 +2233,13 @@
         "thanhtrung5763.git-graph"
       ]
     },
+    "thirstydevil/rhai-syntax": {
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "thirstydevil.rhai-syntax"
+      ]
+    },
     "tienne/jira-tasks": {
       "state": "listed",
       "ref": "refs/tags/tienne/jira-tasks/0.1.0",
