@@ -21166,12 +21166,79 @@
       "ownerId": 199264747,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/molanojf/orca-json-canvas/1.0.0"
+        "url": "https://github.com/MolanoJF/orca-json-canvas.git",
+        "ref": "v1.0.1"
       },
       "description": "View and edit Obsidian-compatible .canvas boards in Orca: cards, notes, images, groups and connections, with the same look, navigation and file format.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "20075fe70277eb893f6cb6c5d532dc812ca29113",
+          "contentHash": "94be4aca0172c8880d77962a7fd469a6ac51219e2c34091280ff1a340f219072",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "JSON Canvas",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".canvas"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "canvas"
+          ],
+          "editorFileTypes": [
+            "canvas"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/molanojf.json-canvas/2789c7a9043b3bbc.png",
+              "alt": "A Riverside pavilion canvas in dark mode: Markdown notes, SVG image cards, colored groups, labelled connections, a table and a callout.",
+              "sha256": "2789c7a9043b3bbc74349c11e73c5f0d397c5cda20981b19e60ba67362f77782",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/molanojf.json-canvas/0b5e2baec843d248.png",
+                "alt": "Editing a Markdown card in place, with a wiki link completion popup listing notes from the vault.",
+                "sha256": "0b5e2baec843d248dfb3189f4934a57dea81a692a01d3ffe166b1fa8e1f61fd8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/c61d33e30c5fea4a.png",
+                "alt": "Dragging a new connection from one card to another, shown as a curved arrow across two groups.",
+                "sha256": "c61d33e30c5fea4ad7f809b3af643188d6f0459b09019f5a325e7f5b7f1a2ad6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/b57912144a4fbc8d.png",
+                "alt": "Two selected cards with the color palette open above them, in light mode.",
+                "sha256": "b57912144a4fbc8d04f650ff956e48317870d85787b032be43e7e6d270075178",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/eb5a39ecd0442660.png",
+                "alt": "The note picker open over a canvas, listing vault notes and canvases to add as cards.",
+                "sha256": "eb5a39ecd04426600fbc5aeaadf911e296f7f10e3c9d7de94fb7252a6f8e105b",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/MolanoJF/orca-json-canvas",
+          "updatedAt": "2026-11-14T22:58:28Z"
+        },
         {
           "version": "1.0.0",
           "commit": "be1394f4fdb90ae0e39d88ce98fc2ccb5127ba21",
