@@ -1624,9 +1624,9 @@
     },
     "nithinpaul1360/orca-plugins": {
       "state": "listed",
-      "ref": "refs/tags/nithinpaul1360/orca-plugins/tmux-peek/1.0.0",
+      "ref": "v1.0.3",
       "plugins": [
-        "nithinpaul1360.tmux-peek"
+        "nithinpaul1360.tmux-subagent-viewer"
       ]
     },
     "nknwns/orca-wakatime": {
