@@ -601,7 +601,7 @@
         "dohaidang.vietnamese"
       ],
       "notes": [
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 1 protected string is ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 6 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "dohaidang/orca-wallpaper-studio": {
@@ -626,7 +626,7 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
-        "contributes.languagePacks \"it\" (locales/it.json): 1 protected string is ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"it\" (locales/it.json): 5 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ehart004/orca-monokai-theme": {
@@ -1351,7 +1351,7 @@
         "mancunianez.ukrainian"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (locales/uk.json): 13 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (locales/uk.json): 20 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "marco-calderon/nord-midnight-orca-theme": {
@@ -1383,6 +1383,9 @@
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.258",
       "plugins": [
         "matteoeusebi.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 6 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "maxfedorov/youtrack-for-orca": {
@@ -1565,7 +1568,7 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.3.0",
+      "ref": "v1.3.1",
       "plugins": [
         "mswdev.fleet-monitor"
       ]
