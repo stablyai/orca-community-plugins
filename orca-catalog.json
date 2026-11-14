@@ -7426,7 +7426,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.6.0"
+        "ref": "v0.6.1"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -7434,6 +7434,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "2b65975b286162925dfdd5fdc7504c5e84757f21",
+          "contentHash": "bd1bdebe09470a0e3bdfad7bd847254c36ca5e909057ce9abfe60dd1b7715fe1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/2fad0a3c1e8dbb9e.png",
+              "alt": "SideNote displaying two reading-mode notes and a minimized note",
+              "sha256": "2fad0a3c1e8dbb9e378184330c312c4d193849e09c02ed4c737f08a943eca6fc",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/b29417a924f1c1e0.png",
+                "alt": "A checklist and next steps in reading mode with a minimized implementation note between them",
+                "sha256": "b29417a924f1c1e049b02ad131d2e0857e779d6ec6b64cb0618d19d9bd1d32e4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/8c5f4d2d336ea8e1.png",
+                "alt": "A Markdown note open for editing below a reading-mode checklist and above a minimized note",
+                "sha256": "8c5f4d2d336ea8e1d74fb50d1625ccc46c5c415a759fed42ab2886c1d268b12d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/5db3685f439eaa96.png",
+                "alt": "Two minimized notes above an expanded note with next steps",
+                "sha256": "5db3685f439eaa96b938cbbcfa8b5b175595fafc84046d4766c40c3f13f429db",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-14T17:13:50+09:00"
+        },
         {
           "version": "0.6.0",
           "commit": "07a9e3af356cadcd539465aa9877e4e8cc233973",
@@ -7629,27 +7687,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-12T20:11:23+09:00"
-        },
-        {
-          "version": "0.3.2",
-          "commit": "93c5a5ef491b2ea5a060abc6878e8e6e50366ef6",
-          "contentHash": "2453efa72863120f98d46421448ec989fdc2387fc3eaac30eca89f85dcf6dfd1",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read"
-          ],
-          "updatedAt": "2026-11-12T12:57:30+09:00",
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote"
         }
       ]
     },
@@ -14870,8 +14907,8 @@
       "ownerId": 24875026,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jdflament/orca-coordinator.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jdflament/orca-coordinator/1.1.0"
       },
       "description": "Your coordinator agent in Orca: one click sets it up, then the board shows what needs you, work by ticket and running workers.",
       "categories": [
