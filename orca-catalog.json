@@ -16475,8 +16475,8 @@
       "ownerId": 156722,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jonstuebe/orca-todos.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jonstuebe/orca-todos/0.1.1"
       },
       "description": "A shared TODO.md task list between you and your agents: agents add and check off tasks, and when you check off one they asked you to do, the agent you pick gets told.",
       "categories": [
