@@ -1624,9 +1624,9 @@
     },
     "nithinpaul1360/orca-plugins": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "v1.0.4",
       "plugins": [
-        "nithinpaul1360.tmux-subagent-viewer"
+        "nithinpaul1360.claude-subagent-viewer"
       ]
     },
     "nknwns/orca-wakatime": {
@@ -2420,6 +2420,16 @@
       "ref": "v0.3.3",
       "plugins": [
         "vzxxbacq.colab"
+      ]
+    },
+    "wahaha1024/inkstone-orca": {
+      "state": "listed",
+      "ref": "v0.5.0",
+      "plugins": [
+        "wahaha1024.inkstone-theme"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "wangxiaomo/orca-dark-aurora": {
