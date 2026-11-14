@@ -9644,8 +9644,8 @@
       "ownerId": 4644133,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eskono/orca-docker-logs.git",
-        "ref": "v0.8.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eskono/orca-docker-logs/0.8.2"
       },
       "description": "Docker Compose inside Orca: discover root and nested configs, detect running stacks, resolve .env profiles, and inspect containers, live logs, stats and errors with Ask agent.",
       "categories": [
