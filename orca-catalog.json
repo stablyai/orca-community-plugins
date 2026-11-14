@@ -33785,6 +33785,46 @@
       ]
     },
     {
+      "id": "yubinfengjjd.roundtable",
+      "ownerId": 150507592,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yubinfengjjd/orca-roundtable.git",
+        "ref": "v0.4.1"
+      },
+      "description": "Native-chat roundtable meetings: invoke $roundtable in Orca chat. The host agent orchestrates independent proposals, cross-examination and explicit-version consensus through native dispatch; this trusted worker only registers the skill and self-checks it. No panel UI.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "9b430a444e1cc8ab5beefaf6917f8cdd003f84f8",
+          "contentHash": "dbfd4670800db187da48d204ed7020349924fd56c10e01bae26c4f9941f34c8b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.253",
+          "name": "Roundtable",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Roundtable: 显示会议与注册状态"
+            },
+            {
+              "kind": "commands",
+              "name": "Roundtable: 重新同步技能并自检"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "圆桌"
+            }
+          ],
+          "license": "Apache-2.0",
+          "repository": "https://github.com/yubinfengjjd/orca-roundtable",
+          "updatedAt": "2026-11-14T14:14:42+08:00"
+        }
+      ]
+    },
+    {
       "id": "yuribodo.neon-horizon",
       "ownerId": 83407152,
       "source": {
