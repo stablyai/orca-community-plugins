@@ -7,9 +7,15 @@
       "plugins": [
         "1am.agent-deck"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "2589195970/jumplens": {
       "state": "listed",
@@ -2229,7 +2235,7 @@
     },
     "tienne/jira-tasks": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/tienne/jira-tasks/0.1.0",
       "plugins": [
         "tienne.jira-tasks"
       ]
