@@ -9794,6 +9794,102 @@
       ]
     },
     {
+      "id": "ebrgr.backlog-md",
+      "ownerId": 28059587,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ebrgr/backlog-md-orca.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Browse and start Backlog.md tasks from Orca: tasks grouped by status for the focused workspace, search, and a status-bar counter.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "4054862a86a7eb50e36020d17b4394d30cdc120e",
+          "contentHash": "f4671de67f80f4c986af4b844b76a605aca80c2b3bc848f0a26e6b01914c08e8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog.md",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog.md"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "count"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "settings:own",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebrgr.backlog-md/faf53bbdef69696b.png",
+              "alt": "Original task-list illustration for Backlog.md for Orca, showing three fictional tasks and an illustrated review counter.",
+              "sha256": "faf53bbdef69696b6c68e174732ed0cd4eb69828756122f205c3edb33de1ef49",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebrgr.backlog-md/cc87b777bc18a37f.png",
+              "alt": "Backlog.md icon",
+              "sha256": "cc87b777bc18a37f776b4e4d9d3a2ccbf763887ce552ced26bdd15475147a83f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ebrgr.backlog-md/ce13e50626c71f46.png",
+                "alt": "Backlog.md panel in light theme with six fictional tasks grouped by status.",
+                "sha256": "ce13e50626c71f46c293e13481b8b9c46ecc416af071cdae13030f91f4c3ebfa",
+                "width": 1280,
+                "height": 942
+              },
+              {
+                "path": "assets/ebrgr.backlog-md/8962ae5c910f4571.png",
+                "alt": "Backlog.md panel in dark theme with six fictional tasks grouped by status.",
+                "sha256": "8962ae5c910f4571eab1f62ad79e32fbe3bf83229d693547349eaf8abecda9fa",
+                "width": 1280,
+                "height": 942
+              },
+              {
+                "path": "assets/ebrgr.backlog-md/9957fe178a946977.png",
+                "alt": "Light theme confirmation preview of workspace.create for fictional TASK-12 with agent claude.",
+                "sha256": "9957fe178a9469771cb15f0c51f0d1c9591da537c65ea89e54c61395debe3789",
+                "width": 1280,
+                "height": 944
+              },
+              {
+                "path": "assets/ebrgr.backlog-md/dc0a37cc4ea18908.png",
+                "alt": "Dark theme confirmation preview including an agent prompt for fictional TASK-12.",
+                "sha256": "dc0a37cc4ea18908acd620667bafda302c70aae1a8d493b7278088ba57f7b15a",
+                "width": 1280,
+                "height": 944
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ebrgr/backlog-md-orca",
+          "updatedAt": "2026-11-15T16:24:41-03:00"
+        }
+      ]
+    },
+    {
       "id": "ehart004.monokai-theme",
       "ownerId": 7690156,
       "source": {
@@ -10376,8 +10472,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
-        "ref": "v2.0.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.6"
       },
       "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
       "categories": [
@@ -24073,14 +24169,40 @@
       "ownerId": 20598460,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ostkost/avari-glow-orca-tweaks/0.1.3"
+        "url": "https://github.com/OstKost/avari-glow-orca-tweaks.git",
+        "ref": "v0.1.4"
       },
       "description": "Optional macOS interface tweaks for Avari Glow. Builds a local tool with Go and modifies Orca.app after an explicit action.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "bcd5e75d8d61f2e06b6681cbc1af2e2e1d652561",
+          "contentHash": "30387822d924f70909a905457ebd1e672e7470342757b135802dd0f9052119c4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Avari Glow Tweaks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Avari Glow Tweaks"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ostkost.avari-glow-tweaks/fa0947ad3cfbc0ec.png",
+              "alt": "Illustrated preview of Avari Glow Tweaks with styled tabs, sidebars, workspace highlight and composer",
+              "sha256": "fa0947ad3cfbc0ec53b6a64a9a0cbc9f4e5b197d11ffffe7f041dc3d5e8885ff",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "license": "LicenseRef-Avari",
+          "repository": "https://github.com/OstKost/avari-glow-orca-tweaks",
+          "updatedAt": "2026-11-15T22:07:28+03:00"
+        },
         {
           "version": "0.1.3",
           "commit": "c5563cc5758a6484d93717fe889d4b4972f7dc23",
@@ -29165,8 +29287,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-class-viewer.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-class-viewer/0.1.0"
       },
       "description": "Read compiled .class files in Orca's editor tabs: declarations in Java syntax, bytecode listed like javap, the file's structure and a linked constant pool. Jars, wars, ears, aars and jmods open as a tree of packages and classes. Offline, no JDK needed. Independent; not affiliated with Oracle.",
       "categories": [],
@@ -29270,8 +29392,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-har-viewer.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-har-viewer/0.1.0"
       },
       "description": "Shows .har and Playwright .har.zip files as a network log: request list, waterfall, filters and each request's headers, payload, response, cookies, timing and WebSocket frames. Copy as cURL, export an agent digest, save a masked copy. Independent; not affiliated with Playwright or any browser maker.",
       "categories": [],
@@ -29357,6 +29479,165 @@
           "license": "MIT",
           "repository": "https://github.com/Sergei-Popov/orca-har-viewer",
           "updatedAt": "2026-11-15T23:54:18+05:00"
+        }
+      ]
+    },
+    {
+      "id": "sergei-popov.image-viewer",
+      "ownerId": 131901981,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sergei-Popov/orca-image-viewer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Image formats Orca can't show, in its editor tabs: TIFF, HEIC and HEIF, PSD and PSB, EXR, HDR, TGA, DDS, QOI, ICNS, and the embedded previews of camera RAW files. Zoom to the pixel, pages, layers and mip levels, HDR exposure, channels, EXIF, XMP and GPS details, Save as PNG. Read-only, offline.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "d8de41bef0f0fb27f215390790d315351528def0",
+          "contentHash": "8bb4b0f8315b3679ff3d40cac43b9ac6993d40d541a9f56b8d95e5c6bca626b4",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Image Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Image Viewer",
+              "detail": ".tif, .tiff, .heic, .heif, .hif, .psd, .psb, .exr, .hdr, .pic, .tga, .dds, .qoi, .icns"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Image Viewer",
+              "detail": ".dng, .cr2, .cr3, .nef, .nrw, .arw, .srf, .raf, .rw2, .orf, .pef, .srw, .sr2, .ori, .rwl, .iiq, .erf, .kdc, .mos"
+            }
+          ],
+          "fileTypes": [
+            "tif",
+            "tiff",
+            "heic",
+            "heif",
+            "hif",
+            "psd",
+            "psb",
+            "exr",
+            "hdr",
+            "pic",
+            "tga",
+            "dds",
+            "qoi",
+            "icns",
+            "dng",
+            "cr2",
+            "cr3",
+            "nef",
+            "nrw",
+            "arw",
+            "srf",
+            "raf",
+            "rw2",
+            "orf",
+            "pef",
+            "srw",
+            "sr2",
+            "ori",
+            "rwl",
+            "iiq",
+            "erf",
+            "kdc",
+            "mos"
+          ],
+          "editorFileTypes": [
+            "tif",
+            "tiff",
+            "heic",
+            "heif",
+            "hif",
+            "psd",
+            "psb",
+            "exr",
+            "hdr",
+            "pic",
+            "tga",
+            "dds",
+            "qoi",
+            "icns",
+            "dng",
+            "cr2",
+            "cr3",
+            "nef",
+            "nrw",
+            "arw",
+            "srf",
+            "raf",
+            "rw2",
+            "orf",
+            "pef",
+            "srw",
+            "sr2",
+            "ori",
+            "rwl",
+            "iiq",
+            "erf",
+            "kdc",
+            "mos"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.image-viewer/7d5a938ccda3d187.png",
+              "alt": "Image Viewer on an OpenEXR render: the Part picker, +0.5 EV exposure and Filmic tone mapping in the toolbar above the image.",
+              "sha256": "7d5a938ccda3d187b6cfaea86a63dc00c8d801d05b76f4bd92f7d893190dfe1e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.image-viewer/283611c9d24aa1c7.png",
+              "alt": "Image Viewer icon",
+              "sha256": "283611c9d24aa1c7b51f213feaaa86737853cf13629373ac1dee88e8dceaafb2",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.image-viewer/bbf17027918bdb22.png",
+                "alt": "The Layers tab lists layers and groups with blend mode, opacity and size; the Badge smart object is shown alone at 100%.",
+                "sha256": "bbf17027918bdb222b3cc4d77f2d1a2b98471b08d76843d47a2a6e6d3a9fb5be",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.image-viewer/a07dcdb22d91296b.png",
+                "alt": "A Radiance HDR render at −2.0 EV, Filmic: the lamp keeps its shape, and the pixel readout shows its stored R 16.0625.",
+                "sha256": "a07dcdb22d91296bfca1b8d5a5f28d244c378a9199c5ddfe43342613716947d5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.image-viewer/da8c9c91c7b9a4e8.png",
+                "alt": "A DNG's embedded preview beside its camera and location details: 1/250 s, f/8, ISO 100, 35 mm, 40° 45′ 36″ N, 113° 53′ 24″ W.",
+                "sha256": "da8c9c91c7b9a4e8c0a6a4178b7a259de61377e8c63f2984e7a39bb4f5822927",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.image-viewer/b03f750c32488b16.png",
+                "alt": "A DDS cube map in 16-bit float: the Face and Mip pickers in the toolbar, and a Faces list of all six faces with −Z shown.",
+                "sha256": "b03f750c32488b16ed008e7b66589b5f776e0f2edd850b1e8cd05bbea0086026",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.image-viewer/bf62c9da6d419f2f.png",
+                "alt": "A HEIC photo with its details: a 4 × 2 grid of 512 × 512 tiles, codec hvc1.3.E.L90.B0, 8-bit. Shown in Orca's light theme.",
+                "sha256": "bf62c9da6d419f2f1e8f15cf1887f28625fc3ef155bb923824ba23ae8e2f6727",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sergei-Popov/orca-image-viewer",
+          "updatedAt": "2026-11-16T00:30:33+05:00"
         }
       ]
     },
