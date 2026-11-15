@@ -85,7 +85,16 @@
       "ref": "v0.1.6",
       "plugins": [
         "aetna000.atmem-architect"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
