@@ -19089,6 +19089,51 @@
       ]
     },
     {
+      "id": "matteoeusebi.pulse",
+      "ownerId": 263868399,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/matteoeusebi/orca-pulse.git",
+        "ref": "v0.1.1"
+      },
+      "description": "What is happening in the project you are looking at: orchestration progress, agent chats, scheduled automations and an optional written plan.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "a9e1001b3a2ef985b928212ca4c5c491965130da",
+          "contentHash": "79a2ca8ade63f08bd5de8f168620b2af4613bb26660968bf0cf336a34a9fc04b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.257",
+          "name": "Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pulse"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-pulse",
+          "updatedAt": "2026-11-15T03:05:14+01:00"
+        }
+      ]
+    },
+    {
       "id": "maxfedorov.youtrack-for-orca",
       "ownerId": 10705898,
       "source": {

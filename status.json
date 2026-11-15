@@ -1402,6 +1402,13 @@
         "contributes.languagePacks \"it\" (locales/it.json): 6 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
+    "matteoeusebi/orca-pulse": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "matteoeusebi.pulse"
+      ]
+    },
     "maxfedorov/youtrack-for-orca": {
       "state": "listed",
       "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.1",
