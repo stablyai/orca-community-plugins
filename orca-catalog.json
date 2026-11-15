@@ -9798,8 +9798,8 @@
       "ownerId": 28059587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ebrgr/backlog-md-orca.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebrgr/backlog-md-orca/0.1.0"
       },
       "description": "Browse and start Backlog.md tasks from Orca: tasks grouped by status for the focused workspace, search, and a status-bar counter.",
       "categories": [
@@ -10472,8 +10472,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.6"
+        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
+        "ref": "v2.0.7"
       },
       "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
       "categories": [
@@ -10482,6 +10482,81 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "2.0.7",
+          "commit": "f625497b69132b0184c49bd973adfaa5e91b3332",
+          "contentHash": "e28566dcc589a6c55224ff047ba166cddc509f7c850ed11478b5ab5d64c7f837",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Profiles",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: relaunch last profile"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+L",
+              "detail": "agentProfiles.relaunchLast"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-profiles/c12f7df29748f807.png",
+              "alt": "The Agents panel with profiles grouped by agent, beside the command a Claude profile launches through Ollama.",
+              "sha256": "c12f7df29748f807d8cc93af810b2e26c1663709257341974bc15a9cc5e0369e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-profiles/9a9dc6f3eb8861f3.png",
+              "alt": "Agent Profiles icon",
+              "sha256": "9a9dc6f3eb8861f3931ee8b3577918c2c4144402fed4cd417a345c7ea688c15e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-profiles/07410678b9161c09.png",
+                "alt": "The Agents panel in Orca's light theme: Antigravity and Claude groups, each profile with its model, effort, launch and edit buttons.",
+                "sha256": "07410678b9161c0940085d7aafa60019ed1511f91114dcc68849ebd8d964c024",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/ffb58ec24d00e4ba.png",
+                "alt": "The dark profile form for a Claude profile: name, avatar, model glm-5.3:cloud[1m], effort Max, provider Ollama, extra arguments.",
+                "sha256": "ffb58ec24d00e4baa3cb78b221aaae1613911b57fe6fcec03dfb96fadaff9ab2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/3347c20e0cb19f6c.png",
+                "alt": "The same profile form in the light theme.",
+                "sha256": "3347c20e0cb19f6c52b7b54af7fd5c4ba015bb8191339b3c52c07eba0ce4a27c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-profiles",
+          "updatedAt": "2026-11-15T20:28:41+01:00"
+        },
         {
           "version": "2.0.6",
           "commit": "ee2fec9e24f77fba99194598c7fe862b8523c10a",
@@ -24169,8 +24244,8 @@
       "ownerId": 20598460,
       "source": {
         "kind": "git",
-        "url": "https://github.com/OstKost/avari-glow-orca-tweaks.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ostkost/avari-glow-orca-tweaks/0.1.4"
       },
       "description": "Optional macOS interface tweaks for Avari Glow. Builds a local tool with Go and modifies Orca.app after an explicit action.",
       "categories": [
@@ -29487,8 +29562,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-image-viewer.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-image-viewer/0.1.0"
       },
       "description": "Image formats Orca can't show, in its editor tabs: TIFF, HEIC and HEIF, PSD and PSB, EXR, HDR, TGA, DDS, QOI, ICNS, and the embedded previews of camera RAW files. Zoom to the pixel, pages, layers and mip levels, HDR exposure, channels, EXIF, XMP and GPS details, Save as PNG. Read-only, offline.",
       "categories": [],

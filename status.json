@@ -668,7 +668,7 @@
     },
     "ebrgr/backlog-md-orca": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/ebrgr/backlog-md-orca/0.1.0",
       "plugins": [
         "ebrgr.backlog-md"
       ]
@@ -726,7 +726,7 @@
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
-      "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.6",
+      "ref": "v2.0.7",
       "plugins": [
         "erom.agent-profiles"
       ]
@@ -1779,7 +1779,7 @@
     },
     "ostkost/avari-glow-orca-tweaks": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/ostkost/avari-glow-orca-tweaks/0.1.4",
       "plugins": [
         "ostkost.avari-glow-tweaks"
       ]
@@ -2132,7 +2132,7 @@
     },
     "sergei-popov/orca-image-viewer": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/sergei-popov/orca-image-viewer/0.1.0",
       "plugins": [
         "sergei-popov.image-viewer"
       ]
