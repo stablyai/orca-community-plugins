@@ -24680,8 +24680,8 @@
       "ownerId": 302418465,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Rem021/workspace-naming-guard.git",
-        "ref": "v1.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rem021/workspace-naming-guard/1.1.2"
       },
       "description": "Keeps workspace names in a tidy 'Project｜Topic' form: adds the project prefix to the titles Orca gives new workspaces, fixes generic prefixes and suggests names for older ones. Once it has named a workspace, your own rename is final. Uses only Orca's plugin API.",
       "categories": [
