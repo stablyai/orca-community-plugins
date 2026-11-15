@@ -4366,8 +4366,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.1"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -15235,8 +15235,8 @@
       "ownerId": 269060510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jalarrea2/orca-agent-trace.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jalarrea2/orca-agent-trace/0.3.0"
       },
       "description": "A live, animated run view of your agents: every active workspace as a tree of agents and subagents with state, model, tokens, estimated cost and duration, a sequence diagram of the messages between agents, a trace timeline and an event log. Any agent Orca runs shows its state and tool calls; local C",
       "categories": [

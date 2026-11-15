@@ -386,7 +386,7 @@
     },
     "carlosmanueldiaz/task-bridge": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.1",
       "plugins": [
         "carlosmanueldiaz.task-bridge"
       ]
@@ -1047,7 +1047,7 @@
     },
     "jalarrea2/orca-agent-trace": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/jalarrea2/orca-agent-trace/0.3.0",
       "plugins": [
         "jalarrea2.agent-trace"
       ]
