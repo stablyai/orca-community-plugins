@@ -30787,6 +30787,85 @@
       ]
     },
     {
+      "id": "syharipf.antigravity-rotator",
+      "ownerId": 154748261,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Syharipf/orca-agy-rotator.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Account rotation and auto-resume for Antigravity on Orca ADE. Switches to lowest-usage account upon rate limits (429 / RESOURCE_EXHAUSTED).",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "8f3e60b15cadd7e4d0cd116baf170aeb4964c0bb",
+          "contentHash": "aa5fb1bd5bf18eabe8917e2ff6bb82f34e7562921ac1b7a1fcaf11ecec4f3c60",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Antigravity Auto-Switcher",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Antigravity Switcher"
+            },
+            {
+              "kind": "commands",
+              "name": "Antigravity: Show Switcher Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Antigravity: Rotate Account Now"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Antigravity: Checking..."
+            }
+          ],
+          "capabilities": [
+            "terminal:send",
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "notifications:show",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/syharipf.antigravity-rotator/01665f9b87b5c40f.png",
+              "alt": "Antigravity Auto-Switcher dashboard and rotation monitor in Orca ADE",
+              "sha256": "01665f9b87b5c40f4435039311323b1e9678fd76f479277d2dc7b1db405ac5dd",
+              "width": 960,
+              "height": 600
+            },
+            "icon": {
+              "path": "assets/syharipf.antigravity-rotator/3c9f9d775e6a0755.png",
+              "alt": "Antigravity Auto-Switcher icon",
+              "sha256": "3c9f9d775e6a075586e5d32c568cd29cacc21745425f974cdb3f1321445f5c52",
+              "width": 128,
+              "height": 128
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Syharipf/orca-agy-rotator",
+          "updatedAt": "2026-11-15T23:03:43+07:00"
+        }
+      ]
+    },
+    {
       "id": "tazaq.jb-containers",
       "ownerId": 12658664,
       "source": {
