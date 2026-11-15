@@ -4366,8 +4366,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.0"
+        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
+        "ref": "v0.1.1"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -4377,6 +4377,112 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "6dde9c05ce7c90d770eed7330cd3b94e0bd995a9",
+          "contentHash": "2cff30b0a6a00ea67292cb7002384ba99668e418659cd3943c461bbe31bcbaf7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Task Bridge (Linear, Jira & Notion)",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Sync Tickets (Linear, Jira & Notion)"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Move Active Workspace Ticket to In Review"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+Y",
+              "detail": "taskBridge.sync"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "No linked ticket"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/carlosmanueldiaz.task-bridge/3e703120b25c60c7.png",
+              "alt": "Task Bridge — Linear, Jira, and Notion to Orca worktrees with CLAUDE.md guidelines, Plan-First Lock, Fleet monitoring, and comment feedback.",
+              "sha256": "3e703120b25c60c7e4267eec9f91376b089c34481a83c9b81846b2e3d05bd88b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/carlosmanueldiaz.task-bridge/06ec5f4d32af93e4.png",
+              "alt": "Task Bridge (Linear, Jira & Notion) icon",
+              "sha256": "06ec5f4d32af93e449cf18eb053a6440e424b163fbee980a42674f7b5d169396",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/cdca6c085e37561a.png",
+                "alt": "In-Flight Fleet monitoring, CLAUDE.md guidelines, custom branch profiles, Plan-First Execution Gate, and comment feedback loop in dark mode.",
+                "sha256": "cdca6c085e37561a93a89cc6e3e2c6c3f2cdadbd11f5f17569dd4605a213a6f4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/a61ff877500c5fef.png",
+                "alt": "English DEMO queue and workbench view in dark mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "a61ff877500c5feff045bd787d93799a1e4bb766cb0dacfe0b9a733cdd646fac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/2ce54c8c5c502006.png",
+                "alt": "Task Bridge Add & Connect provider setup, multi-repo prefix routing, Verify AC, Done/In Review transitions, and Fleet Clear Finished / Remove cleanup.",
+                "sha256": "2ce54c8c5c50200642559e9c09c2100917a346e2e6de601e0a14e77d8bcc57f8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/ff262d219a23b11b.png",
+                "alt": "English DEMO queue and workbench view in light mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "ff262d219a23b11b98a612bf35e07a45a820882aaf53bd8d4609322b34e4de63",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/CarlosManuelDiaz/task-bridge",
+          "updatedAt": "2026-11-15T15:25:51+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "01a72adc53178c11ce7dd7968269c7d3efeda0f1",
@@ -15121,6 +15227,124 @@
           "license": "MIT",
           "repository": "https://github.com/jake-101/ahakey-x1",
           "updatedAt": "2026-11-10T14:01:59-08:00"
+        }
+      ]
+    },
+    {
+      "id": "jalarrea2.agent-trace",
+      "ownerId": 269060510,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jalarrea2/orca-agent-trace.git",
+        "ref": "v0.3.0"
+      },
+      "description": "A live, animated run view of your agents: every active workspace as a tree of agents and subagents with state, model, tokens, estimated cost and duration, a sequence diagram of the messages between agents, a trace timeline and an event log. Any agent Orca runs shows its state and tool calls; local C",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "aca9c128ac96b7c6d7c0d468714674bcc0a87b30",
+          "contentHash": "1d51e60f5ef96cf59c0d4a5461df29535a90610296da2bd3c3270752e7698c25",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Trace",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Trace"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Trace: Show or hide the right sidebar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agent Trace",
+              "detail": ".agenttrace"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Agent Trace view",
+              "detail": ".agenttrace"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "agenttrace"
+          ],
+          "editorFileTypes": [
+            "agenttrace"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jalarrea2.agent-trace/fe81b2f6c85cee45.png",
+              "alt": "Agent Trace showing two active workspaces as a tree of agent cards above a trace timeline, drawn from sample data",
+              "sha256": "fe81b2f6c85cee4513c2021c60cb7c4384d3b42252598f19d17c24af74a08d2e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jalarrea2.agent-trace/95fe200374c6f0fb.png",
+              "alt": "Agent Trace icon",
+              "sha256": "95fe200374c6f0fba6c98acccab2b6964f5f1fa64e5dad0cb0c596ed75fcdc08",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jalarrea2.agent-trace/fe81b2f6c85cee45.png",
+                "alt": "All active workspaces: a tree of workspaces, agents and subagents with state, cost and duration, over a trace timeline (sample data)",
+                "sha256": "fe81b2f6c85cee4513c2021c60cb7c4384d3b42252598f19d17c24af74a08d2e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jalarrea2.agent-trace/2a7344262849817a.png",
+                "alt": "The Sequence view: one lane per agent, arrows for prompts, subagent calls and orchestration messages between agents in two workspaces (sample data)",
+                "sha256": "2a7344262849817ad76d9726008966879b30669ab44d6eca68831177268bdd7f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jalarrea2.agent-trace/fe93c6db11bc5b0c.png",
+                "alt": "One workspace in the light theme: five agents side by side, with model turns, tool calls and a failed call on the timeline (sample data)",
+                "sha256": "fe93c6db11bc5b0c2356e4b633ad530d131b4f2b52f973388a4ea3e3aec366d0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jalarrea2.agent-trace/23c05a936f469fe7.png",
+                "alt": "The Tokens and cost tab: input, output and cache tokens and estimated cost per agent, grouped by workspace (sample data)",
+                "sha256": "23c05a936f469fe75bfe6f2015477dfd132f88c29b350522e52e2c066dc832d6",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jalarrea2/orca-agent-trace",
+          "updatedAt": "2026-11-15T11:13:44-03:00"
         }
       ]
     },

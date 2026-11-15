@@ -386,7 +386,7 @@
     },
     "carlosmanueldiaz/task-bridge": {
       "state": "listed",
-      "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "carlosmanueldiaz.task-bridge"
       ]
@@ -1043,6 +1043,13 @@
       ],
       "notes": [
         "ahakey: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "jalarrea2/orca-agent-trace": {
+      "state": "listed",
+      "ref": "v0.3.0",
+      "plugins": [
+        "jalarrea2.agent-trace"
       ]
     },
     "jamesjfoong/orca-plugin-github-workbench": {

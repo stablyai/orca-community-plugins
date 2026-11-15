@@ -443,6 +443,12 @@
     "repoId": 1458270078,
     "firstSeen": "2026-11-14T23:39:15.027Z"
   },
+  "carlosmanueldiaz.task-bridge@0.1.1": {
+    "commit": "6dde9c05ce7c90d770eed7330cd3b94e0bd995a9",
+    "contentHash": "2cff30b0a6a00ea67292cb7002384ba99668e418659cd3943c461bbe31bcbaf7",
+    "repoId": 1458270078,
+    "firstSeen": "2026-11-15T14:39:24.670Z"
+  },
   "cattfan.enhance-prompt@1.2.0": {
     "commit": "c2327f02bcd5a259552b0396496c3214ff509afe",
     "contentHash": "e5b85ce966456c4802a5a553cc43d2565e26d4a26abcaf0c4c12f4d100fffa0c",
@@ -1642,6 +1648,12 @@
     "contentHash": "2ce699b380b44b11776d7a120fa60b4f7dc50583c0a121b422c411eee4cea9df",
     "repoId": 1453143696,
     "firstSeen": "2026-11-10T23:39:06.466Z"
+  },
+  "jalarrea2.agent-trace@0.3.0": {
+    "commit": "aca9c128ac96b7c6d7c0d468714674bcc0a87b30",
+    "contentHash": "1d51e60f5ef96cf59c0d4a5461df29535a90610296da2bd3c3270752e7698c25",
+    "repoId": 1458043945,
+    "firstSeen": "2026-11-15T14:39:24.670Z"
   },
   "jamesjfoong.github-workbench@0.2.0": {
     "commit": "fe9064c2809675ef1c3577c80b4dc89f4d0ff243",
