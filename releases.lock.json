@@ -263,6 +263,12 @@
     "repoId": 1458999950,
     "firstSeen": "2026-11-15T16:39:37.191Z"
   },
+  "augustovicente.pipeline@0.2.0": {
+    "commit": "542351bfbdf34b8d238202823a8a560cddb75435",
+    "contentHash": "c4268e12c90e91fcc82ea11700f0da43d758b26d9214ec7f71a208f93459b752",
+    "repoId": 1458999950,
+    "firstSeen": "2026-11-15T18:15:34.112Z"
+  },
   "awallsr.beads@0.2.1": {
     "commit": "d2a527c3231a5a314b7416110329e462569f60d3",
     "contentHash": "5bb129ac236fa6223e38b17060133e9d386b777216d27ff379dc8dd1eabad00b",
@@ -2722,6 +2728,12 @@
     "contentHash": "4d4122c9d0ace4963d16e99b08b70dcd8cb7d9a8e0abccc5210331a161755606",
     "repoId": 1451877372,
     "firstSeen": "2026-11-11T21:06:00.099Z"
+  },
+  "rr235.power-sessions@0.1.4": {
+    "commit": "43e0493aff2014a652b9e6f08cace6e8c3063b83",
+    "contentHash": "d1cda9f30e8c370e84880674be83c555795b8d256dace5d5737013cba47e86da",
+    "repoId": 1451877372,
+    "firstSeen": "2026-11-15T18:15:34.112Z"
   },
   "rr235.task-launcher@0.1.0": {
     "commit": "e0e89ede4e2843e9077eadc5c9fa241fd441e0f3",
