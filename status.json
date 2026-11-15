@@ -393,19 +393,10 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.8.0",
+      "ref": "v2.8.1",
       "plugins": [
         "cattfan.enhance-prompt"
-      ],
-      "update": {
-        "ref": "v2.8.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -1070,7 +1061,7 @@
     },
     "javierorp/orca-nan-credits": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/javierorp/orca-nan-credits/0.1.0",
       "plugins": [
         "javierorp.nan-credits"
       ]
@@ -1707,6 +1698,20 @@
         {
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "orvillelim/orca-code-explainer": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "no catalog release entry: committed plugin is not installable (a catalog would list it differently: the listed contributions do not match the catalog release)"
+        },
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (dist/codicon.ttf)"
         }
       ]
     },
