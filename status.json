@@ -396,7 +396,16 @@
       "ref": "refs/tags/cattfan/orca-enhance-prompt/2.8.0",
       "plugins": [
         "cattfan.enhance-prompt"
-      ]
+      ],
+      "update": {
+        "ref": "v2.8.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -1057,6 +1066,13 @@
       "ref": "refs/tags/jargez/orca-recipes/0.1.0",
       "plugins": [
         "jargez.docker-vm"
+      ]
+    },
+    "javierorp/orca-nan-credits": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "javierorp.nan-credits"
       ]
     },
     "javiervinus/vinus-arcade-orca": {

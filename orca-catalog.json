@@ -15277,6 +15277,72 @@
       ]
     },
     {
+      "id": "javierorp.nan-credits",
+      "ownerId": 55992061,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/javierorp/orca-nan-credits.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Shows your NaN Cloud credit usage in Orca's status bar, with a panel for the billing period, remaining and pack credits, per-model usage and your API key. This project is not affiliated with NaN.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "373f671b7755f07041e4b6fe11ca67a1789a8107",
+          "contentHash": "66bf2c0e25e671f56d90fb2310a329cadd9270c3bb1a59b8b3693b545f6ee1dd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "NaN Credits",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "NaN Credits"
+            },
+            {
+              "kind": "commands",
+              "name": "NaN Credits: Refresh now"
+            },
+            {
+              "kind": "commands",
+              "name": "NaN Credits: Reset all settings"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "—"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/javierorp.nan-credits/bbfce419001900ad.png",
+              "alt": "NaN Credits cover: Orca's right sidebar showing the NaN Cloud credit panel with usage, billing period and per-model breakdown.",
+              "sha256": "bbfce419001900add028b39f9f66ea8f87730074984a711b9a688b2e5db35bd1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/javierorp.nan-credits/a5ebc41f973b9807.png",
+              "alt": "NaN Credits icon",
+              "sha256": "a5ebc41f973b9807ccfe11a3e3979e442f90dc6f257687583a46734ebdfae8e6",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "GPL-3.0-or-later",
+          "repository": "https://github.com/javierorp/orca-nan-credits",
+          "updatedAt": "2026-11-14T21:39:13+01:00"
+        }
+      ]
+    },
+    {
       "id": "javiervinus.vinus-arcade",
       "ownerId": 24733930,
       "source": {
