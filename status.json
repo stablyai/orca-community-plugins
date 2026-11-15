@@ -977,7 +977,7 @@
     },
     "harsh97/agent-awake-display-off": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/harsh97/agent-awake-display-off/1.1.0",
       "plugins": [
         "harsh97.agent-awake-display-off"
       ]
@@ -2088,19 +2088,10 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "refs/tags/satangbudsai/orca-git-extension/0.10.2",
+      "ref": "v0.11.0",
       "plugins": [
         "satangbudsai.git-control"
-      ],
-      "update": {
-        "ref": "v0.11.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "savenkosy/orca-buttons": {
       "state": "listed",
