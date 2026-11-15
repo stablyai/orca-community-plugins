@@ -888,7 +888,7 @@
     },
     "glaicer/orca-sidebar-player": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/glaicer/orca-sidebar-player/1.0.0",
       "plugins": [
         "glaicer.sidebar-player"
       ]
@@ -1653,7 +1653,7 @@
     },
     "nikolasgannon/orca-swarm-visualiser": {
       "state": "rejected",
-      "ref": "v0.2.1",
+      "ref": "v0.3.0",
       "reasons": [
         {
           "category": "under-review",

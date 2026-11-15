@@ -12660,8 +12660,8 @@
       "ownerId": 23294266,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Glaicer/orca-sidebar-player.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/glaicer/orca-sidebar-player/1.0.0"
       },
       "description": "Watch videos in Orca's sidebar while agents work: files from your own folders, or YouTube videos and playlists. Playback pauses when an agent finishes or needs you.",
       "categories": [
