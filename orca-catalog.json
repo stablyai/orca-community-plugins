@@ -12656,6 +12656,74 @@
       ]
     },
     {
+      "id": "glaicer.sidebar-player",
+      "ownerId": 23294266,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Glaicer/orca-sidebar-player.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Watch videos in Orca's sidebar while agents work: files from your own folders, or YouTube videos and playlists. Playback pauses when an agent finishes or needs you.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "eff2e2cf4099a6ba6a3c64ca31854b86dba640ca",
+          "contentHash": "df1ccd4517bdfb963eed0f9e3359993f0b7616fdcad46b9c7ed26187c941b861",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Sidebar Player",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Player"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/glaicer.sidebar-player/82f104c96f04e0db.jpg",
+              "alt": "Sidebar Player in Orca's right sidebar, playing a video picked from a local folder tree",
+              "sha256": "82f104c96f04e0db60ad79dea9e90a3e2b0d886cd5beae2101b1c31b74bdbb33",
+              "width": 1585,
+              "height": 992
+            },
+            "icon": {
+              "path": "assets/glaicer.sidebar-player/e5cea1fc25c51289.png",
+              "alt": "Sidebar Player icon",
+              "sha256": "e5cea1fc25c512895cb70e07d2a7d51bf244c7f5d040c48e13b529bbc87a4366",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/glaicer.sidebar-player/7556d4fbbc2d5fdb.jpg",
+                "alt": "A local video playing in the sidebar above the folder tree, next to an agent session",
+                "sha256": "7556d4fbbc2d5fdb1d5e2e1ffcec1964cc73c28d3771a77635ee51d1ccdf4c94",
+                "width": 2560,
+                "height": 1358
+              },
+              {
+                "path": "assets/glaicer.sidebar-player/01977fd64ab0eb77.jpg",
+                "alt": "A YouTube playlist loaded in the sidebar, with the current video playing above the list",
+                "sha256": "01977fd64ab0eb7750e9e67a273a2785b7d2cebcf0c562cd06d408604284448f",
+                "width": 2560,
+                "height": 1358
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Glaicer/orca-sidebar-player",
+          "updatedAt": "2026-11-15T12:30:23+07:00"
+        }
+      ]
+    },
+    {
       "id": "gongxliang.claude-paper",
       "ownerId": 174983892,
       "source": {
