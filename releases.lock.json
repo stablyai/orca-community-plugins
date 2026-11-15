@@ -1607,6 +1607,12 @@
     "repoId": 1443441615,
     "firstSeen": "2026-11-05T09:15:58.009Z"
   },
+  "ivo922.liquid-syntax@0.2.0": {
+    "commit": "423f8af64d57e43f342bf4f42753f79e84963bbd",
+    "contentHash": "473fde8a88452b01aabf7ddb49e2e1955baeaf2350b04dc2148d03ba20b150bd",
+    "repoId": 1443441615,
+    "firstSeen": "2026-11-15T07:39:00.603Z"
+  },
   "j7-dev.gherkin-syntax@0.1.0": {
     "commit": "44a203ee8a866ccbd81aa8610b9c6c90afb1a54c",
     "contentHash": "29c8a9f34468a3a8197da5bf0084ccab7d077790e6d79a20b26746cf5bbc144b",
@@ -1966,6 +1972,12 @@
     "contentHash": "f28804d4493c5f86432b2aeee48ede52731b5a30e5e380c18ac8170100c75d1e",
     "repoId": 1455231145,
     "firstSeen": "2026-11-13T07:39:01.456Z"
+  },
+  "matteoeusebi.italiano@1.4.259": {
+    "commit": "a16dbb1104c0d2756b5596adcc1e7909427f79e4",
+    "contentHash": "d1b0f9f4f0a7136d82bbcb09e9b510396ba573dd59b6c75d53c2e851af85e551",
+    "repoId": 1455231145,
+    "firstSeen": "2026-11-15T07:39:00.603Z"
   },
   "matteoeusebi.pulse@0.1.1": {
     "commit": "a9e1001b3a2ef985b928212ca4c5c491965130da",
