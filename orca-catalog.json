@@ -27848,8 +27848,8 @@
       "ownerId": 123102920,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SatangBudsai/orca-git-extension.git",
-        "ref": "v0.11.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/satangbudsai/orca-git-extension/0.11.0"
       },
       "description": "A Git client inside Orca, with AI: commit graph, commits, merges with a side-by-side conflict resolver, interactive rebase, stashes and worktrees; GitHub and GitLab merge requests (approve, merge in the background, AI review before you open one) and every branch's pipelines; Bitbucket Cloud pull req",
       "categories": [
@@ -29298,6 +29298,102 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-10-30T21:07:52+01:00"
+        }
+      ]
+    },
+    {
+      "id": "sergei-popov.api-spec-viewer",
+      "ownerId": 131901981,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sergei-Popov/orca-api-spec-viewer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Browse OpenAPI 3.x, Swagger 2.0, AsyncAPI 2/3, Arazzo and Overlay files in Orca's tabs: operations, schemas, code samples, search and problems. Opens openapi.yaml and *.openapi.json by itself. Independent; not affiliated with the OpenAPI Initiative, SmartBear or the AsyncAPI Initiative.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "ed8eed1f1b9434eb56d35d96aa6530c511c9360b",
+          "contentHash": "200dd366f65b9d5cea153cd7a316c10452bcab5d7697e0cbdda0eba109e84a72",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "API Spec Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "API Spec Viewer",
+              "detail": ".openapi.yaml, .openapi.yml, .openapi.json, .swagger.yaml, .swagger.yml, .swagger.json, .oas.yaml, .oas.yml, .oas.json, .oas3.yaml, .oas3.yml, .oas3.json, .asyncapi.yaml, .asyncapi.yml, .asyncapi.json, .arazzo.yaml, .arazzo.yml, .arazzo.json, .overlay.yaml, .overlay.yml, .overlay.json, .yaml, .yml, .json, .jsonc, openapi.yaml, openapi.yml, openapi.json, swagger.yaml, swagger.yml, swagger.json, asyncapi.yaml, asyncapi.yml, asyncapi.json, arazzo.yaml, arazzo.yml, arazzo.json"
+            }
+          ],
+          "fileTypes": [
+            "yaml",
+            "yml",
+            "json",
+            "jsonc"
+          ],
+          "editorFileTypes": [
+            "yaml",
+            "yml",
+            "json",
+            "jsonc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.api-spec-viewer/f04eaa4964c18eb0.png",
+              "alt": "The Bookshelf API's 10 operations by tag with coloured method badges, beside Add a book, POST /books, and its request body.",
+              "sha256": "f04eaa4964c18eb09965902c99cc2ee6514e11c5af5f7eccd1f0e3615cd75c92",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.api-spec-viewer/9d5f8066cd02a6cb.png",
+              "alt": "API Spec Viewer icon",
+              "sha256": "9d5f8066cd02a6cbba86e93e32d1efa003dcf09cd601d976a2d36293cf81aeee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/2899f9fa86d58ac6.png",
+                "alt": "A draft spec's 4 errors and 1 warning, each with its line and column, and the source at line 207: a duplicate operationId.",
+                "sha256": "2899f9fa86d58ac669c9e894d96e42ecfa6482b64e9a6c710d19fb5ac7de39eb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/2a3dc30b797140a5.png",
+                "alt": "Add a book's code samples: a curl POST to /v2/books built from the examples, with JavaScript, Python and HTTPie tabs to copy.",
+                "sha256": "2a3dc30b797140a53740990a44d18b40a4412244ee37b81ff86d3621c9d61c3e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/3d7ed3df6d684d89.png",
+                "alt": "The Book schema as a tree, its nested shelf open: each field's type, format, required and read-only flags, and examples.",
+                "sha256": "3d7ed3df6d684d89f121fc7e1fe0c0ee470ca352778621622fea7750c1b8ba61",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/a64cf44c61a3b3cf.png",
+                "alt": "Greenhouse Sensors, AsyncAPI 3.0.0: Open or close the vents sends a Vent command; its Alert reply comes on greenhouse/alerts.",
+                "sha256": "a64cf44c61a3b3cfba2813738f27e9b493ddb64b2fff85bb4a3717e46de141ee",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/7b2ab2f03b0cf481.png",
+                "alt": "Borrow a book in 3 steps: findBook, borrow and confirm, each naming the operation it calls. Shown in Orca's light theme.",
+                "sha256": "7b2ab2f03b0cf481b91a5a7d77c5217e3bc2792d5413796367f92f922fda89b2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT AND ISC",
+          "repository": "https://github.com/Sergei-Popov/orca-api-spec-viewer",
+          "updatedAt": "2026-11-16T02:14:00+05:00"
         }
       ]
     },

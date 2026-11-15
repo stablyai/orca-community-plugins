@@ -2088,7 +2088,7 @@
     },
     "satangbudsai/orca-git-extension": {
       "state": "listed",
-      "ref": "v0.11.0",
+      "ref": "refs/tags/satangbudsai/orca-git-extension/0.11.0",
       "plugins": [
         "satangbudsai.git-control"
       ]
@@ -2115,6 +2115,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "sergei-popov/orca-api-spec-viewer": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "sergei-popov.api-spec-viewer"
       ]
     },
     "sergei-popov/orca-archive-viewer": {
