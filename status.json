@@ -1727,13 +1727,10 @@
       ]
     },
     "nik45114/mail-desk": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.3.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "nik45114.gmail-desk"
       ]
     },
     "nikolasgannon/orca-swarm-visualiser": {

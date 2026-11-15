@@ -23787,6 +23787,57 @@
       ]
     },
     {
+      "id": "nik45114.gmail-desk",
+      "ownerId": 237370226,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/nik45114/mail-desk.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Multi-account mail panel for Gmail, Outlook and IMAP/SMTP, with a companion MCP server. Preview: Google test access or your own OAuth client; Outlook needs your Microsoft app registration.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "0c9d45467b2df8089e753b2f00d185185f150fd2",
+          "contentHash": "bf44e9c4fcbb864087825f2db731ebc7d26e088c4b45a578d414f16eef238c62",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Mail Desk",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Mail Desk"
+            }
+          ],
+          "capabilities": [
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/nik45114.gmail-desk/c76a43c149816edc.png",
+              "alt": "Illustration of Mail Desk with Gmail, Outlook and IMAP/SMTP accounts beside an envelope icon",
+              "sha256": "c76a43c149816edc0280bc118b2b5f580cd9e44e7b41ef36b2caf075a495d37b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/nik45114.gmail-desk/d4f6f0f5d6f4cfe5.png",
+              "alt": "Mail Desk icon",
+              "sha256": "d4f6f0f5d6f4cfe58e793240afbf00ca1bfe13fb1bd58adb8c0bc412072f7cc0",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/nik45114/mail-desk",
+          "updatedAt": "2026-11-15T18:36:24+03:00"
+        }
+      ]
+    },
+    {
       "id": "nithinpaul1360.claude-subagent-viewer",
       "ownerId": 45524206,
       "source": {
