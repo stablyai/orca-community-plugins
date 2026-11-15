@@ -718,13 +718,10 @@
       }
     },
     "erom/orca-plugin-agent-profiles": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v2.0.6",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "erom.agent-profiles"
       ]
     },
     "eskono/orca-docker-logs": {
@@ -2102,6 +2099,13 @@
         "sergei-popov.archive-viewer"
       ]
     },
+    "sergei-popov/orca-class-viewer": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "sergei-popov.class-viewer"
+      ]
+    },
     "sergei-popov/orca-font-viewer": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -2110,6 +2114,13 @@
           "category": "under-review",
           "detail": "code"
         }
+      ]
+    },
+    "sergei-popov/orca-har-viewer": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "sergei-popov.har-viewer"
       ]
     },
     "sergei-popov/orca-media-viewer": {

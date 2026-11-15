@@ -494,6 +494,12 @@
     "repository": "Erlhon9/orca-pod",
     "firstSeen": "2026-11-13T07:15:49.640Z"
   },
+  "erom.agent-profiles": {
+    "repoId": 1459055882,
+    "ownerId": 146684,
+    "repository": "eRom/orca-plugin-agent-profiles",
+    "firstSeen": "2026-11-15T19:11:12.954Z"
+  },
   "eskono.docker-logs": {
     "repoId": 1446788033,
     "ownerId": 4644133,
@@ -1315,6 +1321,18 @@
     "ownerId": 131901981,
     "repository": "Sergei-Popov/orca-archive-viewer",
     "firstSeen": "2026-11-14T19:08:18.719Z"
+  },
+  "sergei-popov.class-viewer": {
+    "repoId": 1458826256,
+    "ownerId": 131901981,
+    "repository": "Sergei-Popov/orca-class-viewer",
+    "firstSeen": "2026-11-15T19:11:12.954Z"
+  },
+  "sergei-popov.har-viewer": {
+    "repoId": 1458825842,
+    "ownerId": 131901981,
+    "repository": "Sergei-Popov/orca-har-viewer",
+    "firstSeen": "2026-11-15T19:11:12.954Z"
   },
   "sergei-popov.media-viewer": {
     "repoId": 1457245484,

@@ -10372,6 +10372,98 @@
       ]
     },
     {
+      "id": "erom.agent-profiles",
+      "ownerId": 146684,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
+        "ref": "v2.0.6"
+      },
+      "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "2.0.6",
+          "commit": "ee2fec9e24f77fba99194598c7fe862b8523c10a",
+          "contentHash": "c3641ac6ef1387b57cef1d23dcfb468d49baa6d30499afe7a30cb1e09267a47d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Profiles",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents : relancer le dernier profil"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+L",
+              "detail": "agentProfiles.relaunchLast"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-profiles/c12f7df29748f807.png",
+              "alt": "The Agents panel with profiles grouped by agent, beside the command a Claude profile launches through Ollama.",
+              "sha256": "c12f7df29748f807d8cc93af810b2e26c1663709257341974bc15a9cc5e0369e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-profiles/9a9dc6f3eb8861f3.png",
+              "alt": "Agent Profiles icon",
+              "sha256": "9a9dc6f3eb8861f3931ee8b3577918c2c4144402fed4cd417a345c7ea688c15e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-profiles/07410678b9161c09.png",
+                "alt": "The Agents panel in Orca's light theme: Antigravity and Claude groups, each profile with its model, effort, launch and edit buttons.",
+                "sha256": "07410678b9161c0940085d7aafa60019ed1511f91114dcc68849ebd8d964c024",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/ffb58ec24d00e4ba.png",
+                "alt": "The dark profile form for a Claude profile: name, avatar, model glm-5.3:cloud[1m], effort Max, provider Ollama, extra arguments.",
+                "sha256": "ffb58ec24d00e4baa3cb78b221aaae1613911b57fe6fcec03dfb96fadaff9ab2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/3347c20e0cb19f6c.png",
+                "alt": "The same profile form in the light theme.",
+                "sha256": "3347c20e0cb19f6c52b7b54af7fd5c4ba015bb8191339b3c52c07eba0ce4a27c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-profiles",
+          "updatedAt": "2026-11-15T19:30:06+01:00"
+        }
+      ]
+    },
+    {
       "id": "eskono.docker-logs",
       "ownerId": 4644133,
       "source": {
@@ -29065,6 +29157,206 @@
           "license": "MIT",
           "repository": "https://github.com/Sergei-Popov/orca-archive-viewer",
           "updatedAt": "2026-11-14T22:14:28+05:00"
+        }
+      ]
+    },
+    {
+      "id": "sergei-popov.class-viewer",
+      "ownerId": 131901981,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sergei-Popov/orca-class-viewer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Read compiled .class files in Orca's editor tabs: declarations in Java syntax, bytecode listed like javap, the file's structure and a linked constant pool. Jars, wars, ears, aars and jmods open as a tree of packages and classes. Offline, no JDK needed. Independent; not affiliated with Oracle.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "a414d4c1fc300555fce178cba953ca71759e113c",
+          "contentHash": "41144c4c7644b5342389bfaf8b703bd036eed8fdd907ac6e0639bc2472f77239",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Class File Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Class File Viewer",
+              "detail": ".class, .jmod"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Class File Viewer",
+              "detail": ".jar, .war, .ear, .aar"
+            }
+          ],
+          "fileTypes": [
+            "class",
+            "jmod",
+            "jar",
+            "war",
+            "ear",
+            "aar"
+          ],
+          "editorFileTypes": [
+            "class",
+            "jmod",
+            "jar",
+            "war",
+            "ear",
+            "aar"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.class-viewer/322bdd8cfe640d39.png",
+              "alt": "Class File Viewer on a jar: the package tree with Telescope selected, and its declarations in Java syntax with a Java 21 badge.",
+              "sha256": "322bdd8cfe640d39d8ea3568f7fb0b08026c33a760f1b1649949d54401c19b43",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.class-viewer/cb147192f2ddc014.png",
+              "alt": "Class File Viewer icon",
+              "sha256": "cb147192f2ddc014af8e41ed3da53eb75de01c9d0bf490dfeba64693838d3815",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.class-viewer/ed01257f00bcc0fa.png",
+                "alt": "The Bytecode tab on Telescope.point(): stack=4, locals=4, args_size=2, and each constant explained in a comment.",
+                "sha256": "ed01257f00bcc0fa80e120f98f3d586fae006fe1034dd03cb72f294e2f467456",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.class-viewer/c34e51169af5eacb.png",
+                "alt": "A jar's overview: 84 classes, 9 packages, 1 resource; 83 compiled for Java 21, 1 for Java 8; its module and main class.",
+                "sha256": "c34e51169af5eacbc9c7a61fc78a4a795550ae4a3116092aebe72d67841d985b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.class-viewer/d1d16cf86a8c91d9.png",
+                "alt": "The Constant pool tab, 4 Methodrefs: #67 Optics.limitingMagnitude refers to #68 and #69 and is used in observe at offset 12.",
+                "sha256": "d1d16cf86a8c91d96b1be822256c2954e1b783275eb45ec511b3c11a5d9c417b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.class-viewer/5402c426a7574c48.png",
+                "alt": "The Structure tab: Telescope's class header (6,880 bytes, CA FE BA BE, version 65.0) and the table of its 8 fields.",
+                "sha256": "5402c426a7574c482d5596743a4f4d22270f1fe7de5f86e694f6a081727250db",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.class-viewer/795e2ef77aaac7d6.png",
+                "alt": "Units in a multi-release jar, switched from Base to Java 17+: its Java 17 copy, outlined. Shown in Orca's light theme.",
+                "sha256": "795e2ef77aaac7d66ce2d62ce2b1e610eee6e09402746396aa6a0440cb4ceb9e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sergei-Popov/orca-class-viewer",
+          "updatedAt": "2026-11-16T00:00:22+05:00"
+        }
+      ]
+    },
+    {
+      "id": "sergei-popov.har-viewer",
+      "ownerId": 131901981,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sergei-Popov/orca-har-viewer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Shows .har and Playwright .har.zip files as a network log: request list, waterfall, filters and each request's headers, payload, response, cookies, timing and WebSocket frames. Copy as cURL, export an agent digest, save a masked copy. Independent; not affiliated with Playwright or any browser maker.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "fb46f7db75da1a4f477d3cb99b61e6c4255b8946",
+          "contentHash": "f6fb1b221d1c6f168d1eb2510caf4e38e139cc738af874c322ea5e5dbc32464b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "HAR Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "HAR Viewer",
+              "detail": ".har"
+            },
+            {
+              "kind": "customEditors",
+              "name": "HAR Viewer",
+              "detail": ".har.zip"
+            }
+          ],
+          "fileTypes": [
+            "har"
+          ],
+          "editorFileTypes": [
+            "har"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.har-viewer/de219696fc156c0b.png",
+              "alt": "Known secrets masked, 28 values in 15 requests: the request list and waterfall, a failed POST /v1/reports/export selected.",
+              "sha256": "de219696fc156c0b46c1c3cf96c9d40b3eb534559c0e2e660ed1bd20d9cf1fa3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.har-viewer/5040dfe297f16f69.png",
+              "alt": "HAR Viewer icon",
+              "sha256": "5040dfe297f16f6984f006d7b729305c962dbd8b8d78846853701e274882d5da",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.har-viewer/5a63e7fb032b5e36.png",
+                "alt": "A Markdown digest of the 4 failed requests, bodies cut to 2,000 characters and known secrets masked, to copy or save as .md.",
+                "sha256": "5a63e7fb032b5e3684ae177b634d2a30dea6b8a8a926769dc02e13b05e82b8f5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.har-viewer/0b3ed5c6ce7b4859.png",
+                "alt": "The Errors filter keeps 4 of 29 requests, beside an overview of their types, status codes and the 2 domains they came from.",
+                "sha256": "0b3ed5c6ce7b48592651aff4a30fe99f4191c85308e03198c8da65081dd3a548",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.har-viewer/8ea1d277d15c0870.png",
+                "alt": "A slow request by phase: DNS 18 ms, connection 42 ms, SSL/TLS 31 ms, waiting 1.20 s, and Server-Timing's report query 1.10 s.",
+                "sha256": "8ea1d277d15c08703e921c105764d73a8e4f9ce8dd82b5887eb43325ebf742a5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.har-viewer/edd5a4b2a6ecae7d.png",
+                "alt": "A 2.4 kB JSON response in Tree view, Source a click away: 20 orders, the first opened to its id, customer, total and status.",
+                "sha256": "edd5a4b2a6ecae7db41dd978695da5ab4bcd52b7abe47c19da7e27df896a9017",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.har-viewer/d411b2a2be5a116b.png",
+                "alt": "Follow one order: 4 of 19 socket messages match 48207, sent and received, one opened as JSON. Shown in Orca's light theme.",
+                "sha256": "d411b2a2be5a116bbb760a5099b58c359c37259d3d43e6ba63fa9c2ce2a23a05",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sergei-Popov/orca-har-viewer",
+          "updatedAt": "2026-11-15T23:54:18+05:00"
         }
       ]
     },

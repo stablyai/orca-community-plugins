@@ -1073,6 +1073,12 @@
     "repoId": 1456275386,
     "firstSeen": "2026-11-13T07:15:49.640Z"
   },
+  "erom.agent-profiles@2.0.6": {
+    "commit": "ee2fec9e24f77fba99194598c7fe862b8523c10a",
+    "contentHash": "c3641ac6ef1387b57cef1d23dcfb468d49baa6d30499afe7a30cb1e09267a47d",
+    "repoId": 1459055882,
+    "firstSeen": "2026-11-15T19:11:12.954Z"
+  },
   "eskono.docker-logs@0.4.0": {
     "commit": "64fc3b217c5e1bd67f0b5ce7eb34a3cb16ae68c7",
     "contentHash": "7e1df59588d406489c61205836ff28c94796c894fe1b636eb2f8237f4b05aa7d",
@@ -3028,6 +3034,18 @@
     "contentHash": "780da2044c6e72dccd969f73aab6c0996b559421a12d03a5e76896acff518694",
     "repoId": 1457892568,
     "firstSeen": "2026-11-14T19:08:18.719Z"
+  },
+  "sergei-popov.class-viewer@0.1.0": {
+    "commit": "a414d4c1fc300555fce178cba953ca71759e113c",
+    "contentHash": "41144c4c7644b5342389bfaf8b703bd036eed8fdd907ac6e0639bc2472f77239",
+    "repoId": 1458826256,
+    "firstSeen": "2026-11-15T19:11:12.954Z"
+  },
+  "sergei-popov.har-viewer@0.1.0": {
+    "commit": "fb46f7db75da1a4f477d3cb99b61e6c4255b8946",
+    "contentHash": "f6fb1b221d1c6f168d1eb2510caf4e38e139cc738af874c322ea5e5dbc32464b",
+    "repoId": 1458825842,
+    "firstSeen": "2026-11-15T19:11:12.954Z"
   },
   "sergei-popov.media-viewer@0.1.1": {
     "commit": "8a682ac8da8e4c48e269b0a1212b6f33e076dac3",
