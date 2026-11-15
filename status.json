@@ -212,7 +212,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/augustovicente/orca-pipeline/0.1.0",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -390,6 +390,13 @@
           }
         ]
       }
+    },
+    "carlosmanueldiaz/agent-relay": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "carlosmanueldiaz.agent-relay"
+      ]
     },
     "carlosmanueldiaz/task-bridge": {
       "state": "listed",

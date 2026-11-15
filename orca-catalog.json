@@ -2321,8 +2321,8 @@
       "ownerId": 41742354,
       "source": {
         "kind": "git",
-        "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/augustovicente/orca-pipeline/0.1.0"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -4409,6 +4409,147 @@
           "license": "MIT",
           "repository": "https://github.com/caocuong2404/orca-observability",
           "updatedAt": "2026-11-13T14:58:05+07:00"
+        }
+      ]
+    },
+    {
+      "id": "carlosmanueldiaz.agent-relay",
+      "ownerId": 46677574,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/CarlosManuelDiaz/agent-relay.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Clean sequential handoff loop for coding agents using Git and short .relay.md contracts: Plan with edge cases, Implement in a clean session, Read-Only Review with Scope Drift detection and structured counterexamples, optional Auto-Review on Done, capped 1-click Fix, and Human Gate with Commit Handof",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "bee54a399c277e44aa4996db1d3ae44c8d417c28",
+          "contentHash": "51af644e920cdc9b08e59741e374af792335a64865d032156c21cad2743823d8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Relay",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Relay"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Relay: Focus Pipeline Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Relay: Create Relay Contract (.relay.md)"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Relay: Run Implement Phase"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Relay: Run Read-Only Review"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Relay: Convert Counterexample & Fix"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Relay: Accept Relay Contract"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agent Relay",
+              "detail": ".relay.md"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agent Relay",
+              "detail": ".md"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Relay Contract",
+              "detail": ".relay.md"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Relay: Idle"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:read",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "md"
+          ],
+          "editorFileTypes": [
+            "md"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/carlosmanueldiaz.agent-relay/049e3a998ce43c1f.png",
+              "alt": "Agent Relay — Git and .relay.md sequential handoff loop for Plan, Implement, Read-Only Review, Fix, and Human Gate.",
+              "sha256": "049e3a998ce43c1f5815793190b0e55e3be89168fb6f28cc6d2e1c9b07a27755",
+              "width": 1120,
+              "height": 630
+            },
+            "icon": {
+              "path": "assets/carlosmanueldiaz.agent-relay/aad1d573c9d4956f.png",
+              "alt": "Agent Relay icon",
+              "sha256": "aad1d573c9d4956f9f17256dc75a376d2cbc5d608bca30bafee7ab2f3a6b89ea",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/carlosmanueldiaz.agent-relay/e89fa312b10655cf.png",
+                "alt": "Agent Relay Custom Contract Editor and Sidebar Panel running in Orca dark mode with cross-model Implementer and Reviewer routing.",
+                "sha256": "e89fa312b10655cfb8a51aa8a0c502cefa1a399d9db6814018d21ce18489ca6a",
+                "width": 1660,
+                "height": 960
+              },
+              {
+                "path": "assets/carlosmanueldiaz.agent-relay/af82e0368fd784e2.png",
+                "alt": "Agent Relay visual .relay.md editor showing Auto-Review toggle, Implementer and Reviewer routing, Goal, Scope, and Edge Cases.",
+                "sha256": "af82e0368fd784e2cb0d63f09208b5039f2709c7215d126e6c23ffeff15041a7",
+                "width": 1280,
+                "height": 920
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/CarlosManuelDiaz/agent-relay",
+          "updatedAt": "2026-11-15T17:57:19+01:00"
         }
       ]
     },
