@@ -2317,6 +2317,57 @@
       ]
     },
     {
+      "id": "augustovicente.pipeline",
+      "ownerId": 41742354,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/augustovicente/orca-pipeline.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "9383c5af62b059e42a3d76730fdbc67a571a8b17",
+          "contentHash": "c5317a7fa0ab1584032972ee372f5a1e51c1875931f2622534ea83f62eed36a0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-15T13:27:15-03:00"
+        }
+      ]
+    },
+    {
       "id": "awallsr.beads",
       "ownerId": 79927536,
       "source": {
@@ -30791,8 +30842,8 @@
       "ownerId": 154748261,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Syharipf/orca-agy-rotator.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/syharipf/orca-agy-rotator/1.0.0"
       },
       "description": "Account rotation and auto-resume for Antigravity on Orca ADE. Switches to lowest-usage account upon rate limits (429 / RESOURCE_EXHAUSTED).",
       "categories": [

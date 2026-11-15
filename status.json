@@ -210,6 +210,13 @@
         "arthurlaucs.agent-ansi-palettes"
       ]
     },
+    "augustovicente/orca-pipeline": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "augustovicente.pipeline"
+      ]
+    },
     "awallsr/orca-beads": {
       "state": "listed",
       "ref": "refs/tags/awallsr/orca-beads/0.2.1",
@@ -2279,7 +2286,7 @@
     },
     "syharipf/orca-agy-rotator": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/syharipf/orca-agy-rotator/1.0.0",
       "plugins": [
         "syharipf.antigravity-rotator"
       ],
