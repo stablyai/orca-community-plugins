@@ -212,7 +212,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/augustovicente/orca-pipeline/0.2.0",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -716,6 +716,16 @@
           }
         ]
       }
+    },
+    "erom/orca-plugin-agent-profiles": {
+      "state": "rejected",
+      "ref": "v2.0.6",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
     },
     "eskono/orca-docker-logs": {
       "state": "listed",
@@ -1978,7 +1988,7 @@
     },
     "rr235/orca-power-sessions": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/rr235/orca-power-sessions/0.1.4",
       "plugins": [
         "rr235.power-sessions"
       ]

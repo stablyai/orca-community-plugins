@@ -2321,8 +2321,8 @@
       "ownerId": 41742354,
       "source": {
         "kind": "git",
-        "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/augustovicente/orca-pipeline/0.2.0"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -26270,8 +26270,8 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rr235/orca-power-sessions.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rr235/orca-power-sessions/0.1.4"
       },
       "description": "See what every Claude and Codex agent is doing and how much it has used, compact long chats, and run your dev scripts.",
       "categories": [
