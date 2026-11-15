@@ -7627,13 +7627,68 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dimsedra/borderless-mono.git",
-        "ref": "v0.1.6"
+        "ref": "v0.1.7"
       },
-      "description": "Borderless monochrome dark and light themes for Orca.",
+      "description": "Borderless monochrome dark and light app and terminal themes for Orca.",
       "categories": [
-        "themes"
+        "themes",
+        "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "0.1.7",
+          "commit": "fa2b7c2cdbd12cb104b90b78ca2256bd595c017e",
+          "contentHash": "35b44daf2e6f145856d3103755e84ed191e3e3b37d008b9f995bb98be127e08f",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Borderless Mono",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Borderless Mono Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Borderless Mono Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Borderless Mono Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Borderless Mono Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dimsedra.borderless-mono/8f59bccdd03f73a8.png",
+              "alt": "Borderless Mono Dark theme showing the code editor and borderless sidebars in Orca",
+              "sha256": "8f59bccdd03f73a8d4ba7c8621b91ed2f83fad7e60492a6ba42bdfa9a6024c10",
+              "width": 1920,
+              "height": 1080
+            },
+            "screenshots": [
+              {
+                "path": "assets/dimsedra.borderless-mono/8f59bccdd03f73a8.png",
+                "alt": "Borderless Mono Dark theme showing the code editor and borderless sidebars in Orca",
+                "sha256": "8f59bccdd03f73a8d4ba7c8621b91ed2f83fad7e60492a6ba42bdfa9a6024c10",
+                "width": 1920,
+                "height": 1080
+              },
+              {
+                "path": "assets/dimsedra.borderless-mono/54e9871324c0240e.png",
+                "alt": "Borderless Mono Light theme showing the code editor and borderless sidebars in Orca",
+                "sha256": "54e9871324c0240e9b7de57975bc7bcc1aa8e394c5f99e927b6b43caa5578cff",
+                "width": 1920,
+                "height": 1080
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dimsedra/borderless-mono",
+          "updatedAt": "2026-11-15T08:02:03+07:00"
+        },
         {
           "version": "0.1.6",
           "commit": "1f0dc3eb4a194554b1a6cb5eecd316c3b5e2c500",
