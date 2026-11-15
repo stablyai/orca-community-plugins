@@ -24680,8 +24680,8 @@
       "ownerId": 302418465,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rem021/workspace-naming-guard/1.1.1"
+        "url": "https://github.com/Rem021/workspace-naming-guard.git",
+        "ref": "v1.1.2"
       },
       "description": "Keeps workspace names in a tidy 'Project｜Topic' form: adds the project prefix to the titles Orca gives new workspaces, fixes generic prefixes and suggests names for older ones. Once it has named a workspace, your own rename is final. Uses only Orca's plugin API.",
       "categories": [
@@ -24690,6 +24690,81 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "e1ce4ef31db9628aa422c6468e08f2d8908155a6",
+          "contentHash": "eada26f433a58b3a89af4ba1f92c09aed181bce6bff8ef4b1b0e2b3ec778b4bf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Workspace Naming Guard",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Naming Guard"
+            },
+            {
+              "kind": "commands",
+              "name": "Naming Guard: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Naming Guard: Check Names Now"
+            },
+            {
+              "kind": "commands",
+              "name": "Naming Guard: Pause or Resume"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Naming Guard"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rem021.workspace-naming-guard/ff0b24db46d7c45b.png",
+              "alt": "Workspace Naming Guard turning slugs such as codex/mojarra and blobfish into Project｜Topic names in Orca's sidebar",
+              "sha256": "ff0b24db46d7c45b9cacb10e960f56ea2fdf5e7b75d5dcc1b755d2f4b0a6292a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rem021.workspace-naming-guard/1d6df1b318820b0d.png",
+              "alt": "Workspace Naming Guard icon",
+              "sha256": "1d6df1b318820b0d136358cf5c1a27526d553b5cec1a2592059da954b9fc0a2c",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/rem021.workspace-naming-guard/ecd73aa859653f05.png",
+                "alt": "The Naming Guard sidebar panel with its status, recent renames and an Undo button",
+                "sha256": "ecd73aa859653f05f0246c251947a48664a39d88de91573f2cd4b242510ecbf3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rem021.workspace-naming-guard/c3ee18c45f575636.png",
+                "alt": "How a new workspace is named: Orca's agent title, the project prefix, then a lock once you rename it yourself",
+                "sha256": "c3ee18c45f57563648eb81886817af2e1a32b292d0222e411e65b6f7960aaa63",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Rem021/workspace-naming-guard",
+          "updatedAt": "2026-11-15T00:21:20-08:00"
+        },
         {
           "version": "1.1.1",
           "commit": "5e7260c75b129828559ad87063d7f2efca8f7a1d",
