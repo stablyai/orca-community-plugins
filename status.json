@@ -1703,15 +1703,11 @@
     },
     "orvillelim/orca-code-explainer": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "no catalog release entry: committed plugin is not installable (a catalog would list it differently: the listed contributions do not match the catalog release)"
-        },
-        {
-          "category": "binary-files",
-          "detail": "bundles binary files (dist/codicon.ttf)"
+          "category": "under-review",
+          "detail": "code, content, size"
         }
       ]
     },
