@@ -1644,6 +1644,16 @@
         }
       ]
     },
+    "nikolasgannon/orca-swarm-visualiser": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "nithinpaul1360/orca-plugins": {
       "state": "listed",
       "ref": "refs/tags/nithinpaul1360/orca-plugins/claude-subagent-viewer/1.3.0",
