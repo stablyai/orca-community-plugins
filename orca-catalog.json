@@ -4310,8 +4310,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.0"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -7618,6 +7618,67 @@
           "license": "MIT",
           "repository": "https://github.com/DiegoHonorio/orca-painel",
           "updatedAt": "2026-11-08T15:08:41-03:00"
+        }
+      ]
+    },
+    {
+      "id": "dimsedra.borderless-mono",
+      "ownerId": 162383832,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dimsedra/borderless-mono.git",
+        "ref": "v0.1.6"
+      },
+      "description": "Borderless monochrome dark and light themes for Orca.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.6",
+          "commit": "1f0dc3eb4a194554b1a6cb5eecd316c3b5e2c500",
+          "contentHash": "67817f39274fcb9e8fd948532d4329a5e2e9f4d02374c4ebf6c25e9c7592a13e",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Borderless Mono",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Borderless Mono Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Borderless Mono Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dimsedra.borderless-mono/8f59bccdd03f73a8.png",
+              "alt": "Borderless Mono Dark theme showing the code editor and borderless sidebars in Orca",
+              "sha256": "8f59bccdd03f73a8d4ba7c8621b91ed2f83fad7e60492a6ba42bdfa9a6024c10",
+              "width": 1920,
+              "height": 1080
+            },
+            "screenshots": [
+              {
+                "path": "assets/dimsedra.borderless-mono/8f59bccdd03f73a8.png",
+                "alt": "Borderless Mono Dark theme showing the code editor and borderless sidebars in Orca",
+                "sha256": "8f59bccdd03f73a8d4ba7c8621b91ed2f83fad7e60492a6ba42bdfa9a6024c10",
+                "width": 1920,
+                "height": 1080
+              },
+              {
+                "path": "assets/dimsedra.borderless-mono/54e9871324c0240e.png",
+                "alt": "Borderless Mono Light theme showing the code editor and borderless sidebars in Orca",
+                "sha256": "54e9871324c0240e9b7de57975bc7bcc1aa8e394c5f99e927b6b43caa5578cff",
+                "width": 1920,
+                "height": 1080
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dimsedra/borderless-mono",
+          "updatedAt": "2026-11-15T07:35:44+07:00"
         }
       ]
     },

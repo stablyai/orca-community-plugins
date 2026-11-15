@@ -377,7 +377,7 @@
     },
     "carlosmanueldiaz/task-bridge": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.0",
       "plugins": [
         "carlosmanueldiaz.task-bridge"
       ]
@@ -565,6 +565,13 @@
       "ref": "refs/tags/diegohonorio/orca-painel/0.6.0",
       "plugins": [
         "diegohonorio.painel-trabalho"
+      ]
+    },
+    "dimsedra/borderless-mono": {
+      "state": "listed",
+      "ref": "v0.1.6",
+      "plugins": [
+        "dimsedra.borderless-mono"
       ]
     },
     "dinhkarate/orca-incognito": {
