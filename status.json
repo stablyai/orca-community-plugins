@@ -387,7 +387,16 @@
       "ref": "refs/tags/cattfan/orca-enhance-prompt/2.7.0",
       "plugins": [
         "cattfan.enhance-prompt"
-      ]
+      ],
+      "update": {
+        "ref": "v2.8.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
