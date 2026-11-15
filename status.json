@@ -888,7 +888,7 @@
     },
     "glaicer/orca-sidebar-player": {
       "state": "listed",
-      "ref": "refs/tags/glaicer/orca-sidebar-player/1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "glaicer.sidebar-player"
       ]
