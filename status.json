@@ -384,7 +384,7 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "v2.8.0",
+      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.8.0",
       "plugins": [
         "cattfan.enhance-prompt"
       ]
@@ -1646,7 +1646,7 @@
     },
     "nikolasgannon/orca-swarm-visualiser": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "under-review",
