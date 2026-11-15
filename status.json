@@ -393,7 +393,7 @@
     },
     "carlosmanueldiaz/agent-relay": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/carlosmanueldiaz/agent-relay/0.1.0",
       "plugins": [
         "carlosmanueldiaz.agent-relay"
       ]

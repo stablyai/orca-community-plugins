@@ -4417,8 +4417,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/CarlosManuelDiaz/agent-relay.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/carlosmanueldiaz/agent-relay/0.1.0"
       },
       "description": "Clean sequential handoff loop for coding agents using Git and short .relay.md contracts: Plan with edge cases, Implement in a clean session, Read-Only Review with Scope Drift detection and structured counterexamples, optional Auto-Review on Done, capped 1-click Fix, and Human Gate with Commit Handof",
       "categories": [
