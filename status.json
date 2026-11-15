@@ -384,19 +384,10 @@
     },
     "cattfan/orca-enhance-prompt": {
       "state": "listed",
-      "ref": "refs/tags/cattfan/orca-enhance-prompt/2.7.0",
+      "ref": "v2.8.0",
       "plugins": [
         "cattfan.enhance-prompt"
-      ],
-      "update": {
-        "ref": "v2.8.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "cd3vane/jetbrains-orca": {
       "state": "listed",
@@ -1655,7 +1646,7 @@
     },
     "nikolasgannon/orca-swarm-visualiser": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "under-review",
