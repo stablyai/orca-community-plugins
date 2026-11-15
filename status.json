@@ -726,7 +726,7 @@
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
-      "ref": "v2.0.7",
+      "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.7",
       "plugins": [
         "erom.agent-profiles"
       ]
@@ -973,6 +973,33 @@
       "ref": "refs/tags/hadisd/quiet-pastel/1.1.3",
       "plugins": [
         "hadisd.quiet-pastel"
+      ]
+    },
+    "harsh97/agent-awake-display-off": {
+      "state": "listed",
+      "ref": "v1.1.0",
+      "plugins": [
+        "harsh97.agent-awake-display-off"
+      ]
+    },
+    "harsh97/command-code-usage": {
+      "state": "rejected",
+      "ref": "v1.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "pricing"
+        }
+      ]
+    },
+    "harsh97/muse-usage": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "pricing"
+        }
       ]
     },
     "heath0xff/stillwater": {

@@ -10472,8 +10472,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
-        "ref": "v2.0.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.7"
       },
       "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
       "categories": [
@@ -14163,6 +14163,67 @@
           "license": "MIT",
           "repository": "https://github.com/Hadisd/quiet-pastel",
           "updatedAt": "2026-11-09T10:04:12+09:00"
+        }
+      ]
+    },
+    {
+      "id": "harsh97.agent-awake-display-off",
+      "ownerId": 12786118,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/harsh97/agent-awake-display-off.git",
+        "ref": "v1.1.0"
+      },
+      "description": "Keeps the machine awake while letting the display turn off: it holds a logind sleep inhibitor, not a display blocker. Linux only — it uses systemd-inhibit, so macOS and Windows show Awake: n/a.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "40ff8d4cb869bbc1a60128144898f5ce9823c59c",
+          "contentHash": "df5582506b95aa965ca25c71b674e2ca768c81a45cc26e1123544347f60976d3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Awake, Display Off",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Agent Awake: Switch Mode (On, Agent, Off)"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Awake: Always Keep Awake (On)"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Awake: Keep Awake While Agents Work (Agent)"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Awake: Allow Sleep (Off)"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Awake: Re-check Now"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Awake: Agent"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/harsh97/agent-awake-display-off",
+          "updatedAt": "2026-11-16T01:48:26+05:30"
         }
       ]
     },
