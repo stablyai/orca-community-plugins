@@ -1970,6 +1970,16 @@
         "rgarciade.containers"
       ]
     },
+    "rodrigorodrigo/orca-agent-config-sync": {
+      "state": "rejected",
+      "ref": "v0.2.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "roflochinsky/beads-orca": {
       "state": "listed",
       "ref": "refs/tags/roflochinsky/beads-orca/0.2.4",
@@ -2661,6 +2671,16 @@
       "ref": "refs/tags/wilkywayre/orcarchy/0.3.0",
       "plugins": [
         "wilkywayre.orcarchy"
+      ]
+    },
+    "williamwxz/orca-bot": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "name \"Orca Bot\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+        }
       ]
     },
     "wilsonliu123/orca-token-used": {
