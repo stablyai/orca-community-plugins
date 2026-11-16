@@ -150,7 +150,7 @@
     },
     "anhvangiang/orca-agent-accounts": {
       "state": "listed",
-      "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "anhvangiang.agent-accounts"
       ]
@@ -682,7 +682,7 @@
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "v0.1.8",
+      "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.8",
       "plugins": [
         "emamalet.git-log"
       ]
@@ -694,7 +694,7 @@
         "erlhon9.pod"
       ],
       "update": {
-        "ref": "v0.4.8",
+        "ref": "v0.4.9",
         "reasons": [
           {
             "category": "under-review",
@@ -1446,7 +1446,7 @@
     },
     "mathiassol/prisjakt-tracker": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/mathiassol/prisjakt-tracker/0.1.1",
       "plugins": [
         "mathiassol.prisjakt-tracker"
       ]
@@ -1734,7 +1734,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.6",
+      "ref": "v0.1.7",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
@@ -2662,7 +2662,7 @@
     },
     "xuan666-lab/orca-latest-artifacts": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "xuan666-lab.artifact-workbench"
       ]
