@@ -2897,8 +2897,8 @@
       "ownerId": 41742354,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/augustovicente/orca-pipeline/0.5.1"
+        "url": "https://github.com/augustovicente/orca-pipeline.git",
+        "ref": "v0.7.2"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.7.2",
+          "commit": "b59866b678995686468c336cd639deeac6c46fb5",
+          "contentHash": "bf17a21c0de9c684cfdd891adecfa7510f98121505d94690ab338911faac9c40",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T12:48:58-03:00"
+        },
         {
           "version": "0.5.1",
           "commit": "62ccdc1a866a2e17638b925516b47a05581b283a",
@@ -3045,41 +3080,6 @@
           "license": "MIT",
           "repository": "https://github.com/augustovicente/orca-pipeline",
           "updatedAt": "2026-11-16T09:57:06-03:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "542351bfbdf34b8d238202823a8a560cddb75435",
-          "contentHash": "c4268e12c90e91fcc82ea11700f0da43d758b26d9214ec7f71a208f93459b752",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Pipeline",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pipeline"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Pipeline"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "terminal:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/augustovicente/orca-pipeline",
-          "updatedAt": "2026-11-15T15:09:13-03:00"
         }
       ]
     },
@@ -7786,8 +7786,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.2.1"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [

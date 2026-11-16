@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "refs/tags/augustovicente/orca-pipeline/0.5.1",
+      "ref": "v0.7.2",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -521,9 +521,18 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.2.1",
       "plugins": [
         "cnzgray.mattpocock-workflow"
+      ]
+    },
+    "codeious/orca-boat-sandbox": {
+      "state": "rejected",
+      "ref": "v1.1.1",
+      "reasons": [
+        {
+          "category": "manifest-format"
+        }
       ]
     },
     "coffeepy/swampling": {
