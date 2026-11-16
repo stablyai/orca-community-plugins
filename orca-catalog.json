@@ -2897,8 +2897,8 @@
       "ownerId": 41742354,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/augustovicente/orca-pipeline/0.2.0"
+        "url": "https://github.com/augustovicente/orca-pipeline.git",
+        "ref": "v0.3.1"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "69c59a2beb1a8286659e4d8f644b638da47e218c",
+          "contentHash": "481926c34ce9136963c083845d93a18f008479bada7338e9465207c566851b54",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T09:57:06-03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "542351bfbdf34b8d238202823a8a560cddb75435",
@@ -5226,8 +5261,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.1"
+        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
+        "ref": "v0.2.0"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -5237,6 +5272,112 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "d0fcff67b8481fdb81407a2741059c29744b4f8d",
+          "contentHash": "30271de6989c84de184e3fbb3cf075d61757c84934fe622556e91f3f5788e6cf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Task Bridge (Linear, Jira & Notion)",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Sync Tickets (Linear, Jira & Notion)"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Move Active Workspace Ticket to In Review"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+Y",
+              "detail": "taskBridge.sync"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "No linked ticket"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/carlosmanueldiaz.task-bridge/3e703120b25c60c7.png",
+              "alt": "Task Bridge — Linear, Jira, and Notion to Orca worktrees with CLAUDE.md guidelines, Plan-First Lock, Fleet monitoring, and comment feedback.",
+              "sha256": "3e703120b25c60c7e4267eec9f91376b089c34481a83c9b81846b2e3d05bd88b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/carlosmanueldiaz.task-bridge/06ec5f4d32af93e4.png",
+              "alt": "Task Bridge (Linear, Jira & Notion) icon",
+              "sha256": "06ec5f4d32af93e449cf18eb053a6440e424b163fbee980a42674f7b5d169396",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/cdca6c085e37561a.png",
+                "alt": "In-Flight Fleet monitoring, CLAUDE.md guidelines, custom branch profiles, Plan-First Execution Gate, and comment feedback loop in dark mode.",
+                "sha256": "cdca6c085e37561a93a89cc6e3e2c6c3f2cdadbd11f5f17569dd4605a213a6f4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/a61ff877500c5fef.png",
+                "alt": "English DEMO queue and workbench view in dark mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "a61ff877500c5feff045bd787d93799a1e4bb766cb0dacfe0b9a733cdd646fac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/2ce54c8c5c502006.png",
+                "alt": "Task Bridge Add & Connect provider setup, multi-repo prefix routing, Verify AC, Done/In Review transitions, and Fleet Clear Finished / Remove cleanup.",
+                "sha256": "2ce54c8c5c50200642559e9c09c2100917a346e2e6de601e0a14e77d8bcc57f8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/ff262d219a23b11b.png",
+                "alt": "English DEMO queue and workbench view in light mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "ff262d219a23b11b98a612bf35e07a45a820882aaf53bd8d4609322b34e4de63",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/CarlosManuelDiaz/task-bridge",
+          "updatedAt": "2026-11-16T13:35:33+01:00"
+        },
         {
           "version": "0.1.1",
           "commit": "6dde9c05ce7c90d770eed7330cd3b94e0bd995a9",
@@ -20828,8 +20969,8 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lilykos/orca-the-lobby/1.0.0"
+        "url": "https://github.com/Lilykos/orca-the-lobby.git",
+        "ref": "v1.1.0"
       },
       "description": "See every agent in every worktree in one live view: pixel people in a room per project, who needs you or seems stuck, org charts of who started whom, and context and tokens per agent. Everything is read on your machine. Tour and guide: https://lilykos.github.io/orca-the-lobby/",
       "categories": [
@@ -20839,6 +20980,133 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "1b3ccce4810089f555dec951111d142c520b6041",
+          "contentHash": "2eab9eec6faca02068301c58738f6350e1de32cd429683fd73f34581579e2eec",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "The Lobby",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "The Lobby"
+            },
+            {
+              "kind": "commands",
+              "name": "Previous agent"
+            },
+            {
+              "kind": "commands",
+              "name": "Next agent"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+ArrowUp",
+              "detail": "office.previousAgent"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+ArrowDown",
+              "detail": "office.nextAgent"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Lobby"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "workspace:write",
+            "notifications:show",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lilykos.the-lobby/cb1610d85218359c.png",
+              "alt": "The Lobby: the pixel title and orca mascot, a tagline, and two project rooms with Need you!, Stuck? and Failed speech bubbles",
+              "sha256": "cb1610d85218359ce1e248dc8f268b8bfa05a8de7f99a78e3db6afe5857d7750",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lilykos.the-lobby/26b3ac82e60284d3.png",
+              "alt": "The Lobby icon",
+              "sha256": "26b3ac82e60284d3a8ea88015005cdfa34bebec9aa2d065e2fcc691cf1116e87",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lilykos.the-lobby/fa5c7d54d90f06de.png",
+                "alt": "The Office tab in Grid: two project rooms with pixel agents at their desks, today's tokens and the first agents of each room",
+                "sha256": "fa5c7d54d90f06de2650b0a06c1849318bd3e59be922a0257aa5a18d39714c8a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/a21b03a9256387c8.png",
+                "alt": "Two project rooms with Need you!, Stuck? and Failed speech bubbles over the agents, and a finished agent's reply",
+                "sha256": "a21b03a9256387c8b33d42e0cb844649f7ce4a7acd640ae6d9744e69eac8a521",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/d4a2205a01c91b90.png",
+                "alt": "The Activity tab: an org chart for one project, with a coordinator and the three workers it started",
+                "sha256": "d4a2205a01c91b9007dd89163b7f82c92d3374d0a175f037b7d8fedc716f31b7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/0f65dfbcb080b91d.png",
+                "alt": "The agent drawer over the Office: context, tokens today, Go to agent, View in Activity and an instruction box",
+                "sha256": "0f65dfbcb080b91dbad994d88d768007e59cafeefff36af4cd3d8ee49f9b38c0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/ce1e3a5f95a322d4.png",
+                "alt": "The agent drawer's context line: 81% of a 400k window, one compaction, 1.9M tokens today and the workspace's cache share",
+                "sha256": "ce1e3a5f95a322d4f02a0c986c4bdfa33111cdfcb0fb6d2b9ef0f8ea667a4c41",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.the-lobby/08638e016a37798d.png",
+                "alt": "The Office tab in the light theme, with the daytime window: two project rooms in Grid",
+                "sha256": "08638e016a37798d76c81ba9368320aca04e628f145096e056357b5a4a62c242",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-the-lobby",
+          "updatedAt": "2026-11-16T13:48:06+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "2c9d5a4f42ae06849af245ebce3f12b00fe97492",
@@ -25862,14 +26130,108 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.8"
+        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
+        "ref": "v0.1.9"
       },
       "description": "IntelliJ IDEA-style Git: commit, Log graph, diffs and blame.",
       "categories": [
-        "panels"
+        "panels",
+        "commands",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.9",
+          "commit": "183ac2aa1d55da3e94fc11e8e99a7edfa9935844",
+          "contentHash": "ca08964de138570ce4e0fb7089696664c62ee8b61d0d9624006d0e2ca51802f9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "HayBrains Git",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Commit"
+            },
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "commands",
+              "name": "HayBrains Git: Show Git Panel"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "HayBrains Git",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "gitpanel"
+          ],
+          "editorFileTypes": [
+            "gitpanel"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/omerfarukgzr.git-panel/a8417060111192a1.webp",
+              "alt": "The commit graph of the Git panel's Log with coloured branch lanes and ref labels, beside the Commit panel's ticked local changes",
+              "sha256": "a8417060111192a1db9bd7e5998f68e67bbaf1b34bcd19b700680bada18b86b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/omerfarukgzr.git-panel/fd08e0247070dae9.png",
+              "alt": "HayBrains Git icon",
+              "sha256": "fd08e0247070dae98234408f2cbba856c712c80dac6c2aafb7779f4e78d390aa",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/omerfarukgzr.git-panel/15f9d10e29ffe8f3.webp",
+                "alt": "Right sidebar panels: Commit with changes ticked and a message; Git with the Log and a selected commit's files; Git with its Branches drawer",
+                "sha256": "15f9d10e29ffe8f3a17e1b57c26eb8ac60892ee4baa33f1910cc934305b78faa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/omerfarukgzr.git-panel/e8a944afa4bd58f2.webp",
+                "alt": "A commit's change to a TypeScript file, side by side, in a tab of Orca's center area opened from the Git panel",
+                "sha256": "e8a944afa4bd58f206a2f57bce727ef5efafe8eef2884fb3653fa7e4a6c70a10",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/omerfarukgzr.git-panel/0dfd9c76301a737e.webp",
+                "alt": "Right sidebar Commit panel: the Stash tab with two stashes and one's files; the Worktrees list; a linked worktree shown with Back",
+                "sha256": "0dfd9c76301a737ed0f33777f85c283d8807c9a07873fc422bf889badf4b510e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
+          "updatedAt": "2026-11-16T15:39:44+03:00"
+        },
         {
           "version": "0.1.8",
           "commit": "e34e7b2cd48f41fd1d1cddc3a7d6e2948d2fd52a",
@@ -35815,8 +36177,8 @@
       "ownerId": 69342146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thanhtrung5763/orca-git-graph.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.4"
       },
       "description": "View a graph of your Git history and run common Git actions from it. Based on neo-git-graph.",
       "categories": [

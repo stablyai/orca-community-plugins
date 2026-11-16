@@ -305,6 +305,12 @@
     "repoId": 1458999950,
     "firstSeen": "2026-11-15T18:15:34.112Z"
   },
+  "augustovicente.pipeline@0.3.1": {
+    "commit": "69c59a2beb1a8286659e4d8f644b638da47e218c",
+    "contentHash": "481926c34ce9136963c083845d93a18f008479bada7338e9465207c566851b54",
+    "repoId": 1458999950,
+    "firstSeen": "2026-11-16T12:58:37.347Z"
+  },
   "awallsr.beads@0.2.1": {
     "commit": "d2a527c3231a5a314b7416110329e462569f60d3",
     "contentHash": "5bb129ac236fa6223e38b17060133e9d386b777216d27ff379dc8dd1eabad00b",
@@ -508,6 +514,12 @@
     "contentHash": "2cff30b0a6a00ea67292cb7002384ba99668e418659cd3943c461bbe31bcbaf7",
     "repoId": 1458270078,
     "firstSeen": "2026-11-15T14:39:24.670Z"
+  },
+  "carlosmanueldiaz.task-bridge@0.2.0": {
+    "commit": "d0fcff67b8481fdb81407a2741059c29744b4f8d",
+    "contentHash": "30271de6989c84de184e3fbb3cf075d61757c84934fe622556e91f3f5788e6cf",
+    "repoId": 1458270078,
+    "firstSeen": "2026-11-16T12:58:37.347Z"
   },
   "cattfan.enhance-prompt@1.2.0": {
     "commit": "c2327f02bcd5a259552b0396496c3214ff509afe",
@@ -2093,6 +2105,12 @@
     "repoId": 1456960610,
     "firstSeen": "2026-11-13T19:12:38.522Z"
   },
+  "lilykos.the-lobby@1.1.0": {
+    "commit": "1b3ccce4810089f555dec951111d142c520b6041",
+    "contentHash": "2eab9eec6faca02068301c58738f6350e1de32cd429683fd73f34581579e2eec",
+    "repoId": 1456960610,
+    "firstSeen": "2026-11-16T12:58:37.347Z"
+  },
   "lindoo67.drawio@0.1.5": {
     "commit": "4ca1f4e301b149f06d0252111406611c74947116",
     "contentHash": "0e7240c3280f5e099b2400f6ecc13e7d99f2fa21b6a7e94eabf5adc0136dd7b2",
@@ -2626,6 +2644,12 @@
     "contentHash": "113988209d04d152678e89f73be7108b405782f533ec949c9bfa9e649ef7f3c6",
     "repoId": 1459212452,
     "firstSeen": "2026-11-16T11:17:33.577Z"
+  },
+  "omerfarukgzr.git-panel@0.1.9": {
+    "commit": "183ac2aa1d55da3e94fc11e8e99a7edfa9935844",
+    "contentHash": "ca08964de138570ce4e0fb7089696664c62ee8b61d0d9624006d0e2ca51802f9",
+    "repoId": 1459212452,
+    "firstSeen": "2026-11-16T12:58:37.347Z"
   },
   "orvillelim.code-explainer@1.0.2": {
     "commit": "fb14a773afae189db519c8ba75f198b2da68c2d6",

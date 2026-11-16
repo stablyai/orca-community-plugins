@@ -70,7 +70,16 @@
       "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.2.0",
       "plugins": [
         "aetna000.atmem-architect"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
@@ -199,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "refs/tags/augustovicente/orca-pipeline/0.2.0",
+      "ref": "v0.3.1",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -388,7 +397,7 @@
     },
     "carlosmanueldiaz/task-bridge": {
       "state": "listed",
-      "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "carlosmanueldiaz.task-bridge"
       ],
@@ -539,7 +548,7 @@
     },
     "crilofer/orca-streamdeck": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "reasons": [
         {
           "category": "under-review",
@@ -1398,7 +1407,7 @@
     },
     "lilykos/orca-the-lobby": {
       "state": "listed",
-      "ref": "refs/tags/lilykos/orca-the-lobby/1.0.0",
+      "ref": "v1.1.0",
       "plugins": [
         "lilykos.the-lobby"
       ]
@@ -1798,7 +1807,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.8",
+      "ref": "v0.1.9",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
@@ -2441,7 +2450,7 @@
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.4",
       "plugins": [
         "thanhtrung5763.git-graph"
       ]
