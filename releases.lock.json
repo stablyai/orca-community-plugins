@@ -23,6 +23,12 @@
     "repoId": 1449267228,
     "firstSeen": "2026-11-14T19:08:18.719Z"
   },
+  "1am.agent-deck@0.3.1": {
+    "commit": "514c60a75f9eb04310940d0a0e12bb903ceb95ef",
+    "contentHash": "dac9d2a4b7284ae22c8b73bba1810f6b2945b3057704ae8287b181016e4e8734",
+    "repoId": 1449267228,
+    "firstSeen": "2026-11-16T21:13:46.802Z"
+  },
   "2589195970.jumplens@0.3.2": {
     "commit": "4a04bb97038f9a2c433b4a2ca32fcc7950ee7782",
     "contentHash": "11fdf28da7d379b9bc32b5ba8935ca1430cebefe631c30165ec45d74549e4041",
@@ -88,6 +94,12 @@
     "contentHash": "02e9514fb3e5946489000c7240325b4ac357536e02f6799bc4d46385bf54ed35",
     "repoId": 1451481681,
     "firstSeen": "2026-11-09T15:15:11.116Z"
+  },
+  "addisflava.llm-router@1.0.2": {
+    "commit": "8eb9c68f03370260d2ae8c756e4c6478d387f747",
+    "contentHash": "322d97d0cc798658f240c71190dba4cc60f6593cccca67fc601a1dd49252d533",
+    "repoId": 1451481681,
+    "firstSeen": "2026-11-16T21:13:46.802Z"
   },
   "aetna000.atmem-architect@0.1.1": {
     "commit": "39bdab4c0da27dbaf4d8de390bc26f05f9bac850",
@@ -1528,6 +1540,12 @@
     "contentHash": "96f2e949305452cb705f4756db3045d2185e7c12502007755e14ee2ef62fa062",
     "repoId": 1446473404,
     "firstSeen": "2026-11-16T07:02:04.819Z"
+  },
+  "fladioarmandika.project-prs@0.2.0": {
+    "commit": "3a0ca9c726b9c79cb09d9b1261f612c4ff2a21a1",
+    "contentHash": "2421c542ffe0c966e3ead9c2d6a8abd98218a44247b3b8dad52b4b7e9ffaba85",
+    "repoId": 1460268720,
+    "firstSeen": "2026-11-16T21:13:46.802Z"
   },
   "gaoshang212.csharp@0.1.0": {
     "commit": "fef2711704172796084f8654569a354e48c45a4a",
@@ -3394,6 +3412,12 @@
     "contentHash": "200dd366f65b9d5cea153cd7a316c10452bcab5d7697e0cbdda0eba109e84a72",
     "repoId": 1458826849,
     "firstSeen": "2026-11-15T21:20:48.528Z"
+  },
+  "sergei-popov.api-spec-viewer@0.1.1": {
+    "commit": "a96fcf7d8ca3892730e64756025ad3dd86092e83",
+    "contentHash": "c690ceb6c30cfe4aa8c94fcea9f974c918d5f82eb98377d8a2a5c1200f2e0c74",
+    "repoId": 1458826849,
+    "firstSeen": "2026-11-16T21:13:46.802Z"
   },
   "sergei-popov.archive-viewer@0.1.0": {
     "commit": "2934a3146315772abf89cdb72e88260ff62e55b2",

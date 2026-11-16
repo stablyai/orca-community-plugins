@@ -9,10 +9,10 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/1am/orca-agent-deck/0.3.0"
+        "url": "https://github.com/1am/orca-agent-deck.git",
+        "ref": "v0.3.1"
       },
-      "description": "Shows Orca agent status on a Stream Deck and focuses panes from it.",
+      "description": "See at a glance which Orca agent needs you. Each pane gets a Stream Deck key that shows its state and focuses the pane when pressed.",
       "categories": [
         "panels",
         "commands",
@@ -20,6 +20,88 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "514c60a75f9eb04310940d0a0e12bb903ceb95ef",
+          "contentHash": "dac9d2a4b7284ae22c8b73bba1810f6b2945b3057704ae8287b181016e4e8734",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Deck for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Deck"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Open panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Record events"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Uninstall"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+K",
+              "detail": "deck.map"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Agent Deck"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/1am.agent-deck/b07fbe48c19bafb5.png",
+              "alt": "A Stream Deck showing Orca agent panes as colored keys: working, done, idle and empty",
+              "sha256": "b07fbe48c19bafb54ee1a71075d662e54158f015e5c17501610c96a3f630e0cd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/1am.agent-deck/e9db045d1cf33093.png",
+              "alt": "Agent Deck for Orca icon",
+              "sha256": "e9db045d1cf330937b3774c86cc6af156744f7580dfe05305e8f261f77c4e416",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/1am.agent-deck/1e88ece0ccdbc3af.png",
+                "alt": "A 5x3 Stream Deck grid of Orca pane keys with status icons",
+                "sha256": "1e88ece0ccdbc3afe5f9fb72db863ec73165c5b178fdcd86ebf28e801c4ed6e5",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/1am.agent-deck/fee60629c40d439f.jpg",
+                "alt": "A Stream Deck in front of a laptop, its keys lit with agent status colors and one key counting 1 agent that needs you",
+                "sha256": "fee60629c40d439f2fb315ac3201c50a5b3ae3f19f4c8de4eabb9ad1dffb7494",
+                "width": 1920,
+                "height": 1656
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/1am/orca-agent-deck",
+          "updatedAt": "2026-11-16T22:04:54+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "7636b4c86d6195489f105311174dc576ce3f410b",
@@ -1363,15 +1445,103 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/addisflava/orca-llm-router.git",
-        "ref": "v1.0.0"
+        "ref": "v1.0.2"
       },
-      "description": "A self-contained local LLM gateway for Orca agents: direct provider connections (Anthropic, OpenAI, OpenRouter, DeepSeek, …), conditional routing rules with rewrites, fallback chains, credential pools, a request log and usage dashboard.",
+      "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, and routing different providers behind a single model name with seamless fallback.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "8eb9c68f03370260d2ae8c756e4c6478d387f747",
+          "contentHash": "322d97d0cc798658f240c71190dba4cc60f6593cccca67fc601a1dd49252d533",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LLM Router for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca LLM Router"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: gateway status"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: start sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: stop sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: restart sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: test providers"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "router:18080"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/addisflava.llm-router/951ba25285458050.jpg",
+              "alt": "Orca LLM Router gateway overview banner showing intelligent multi-provider routing",
+              "sha256": "951ba25285458050479bf679cd7b4cebc82cc669757e46e292beb943bded9880",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/addisflava.llm-router/c08a9eba6ad9af52.png",
+              "alt": "LLM Router for Orca icon",
+              "sha256": "c08a9eba6ad9af52a372810c5be0338212e4b6ee31d15744f05cbf35452efd41",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/addisflava.llm-router/8f25b3b29ce021a4.png",
+                "alt": "Orca LLM Router overview panel showing active gateway, metrics, and agent endpoints",
+                "sha256": "8f25b3b29ce021a4c942d7fd62c63838539ac73851a91a8b0280b5be1ddf9e67",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/f75b0c44bb30fc92.png",
+                "alt": "Orca LLM Router providers panel showing multi-provider configuration and model discovery",
+                "sha256": "f75b0c44bb30fc92b3d3047c5b1ac540da364969053c3f2fd5ee64ef7b1f458d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/addisflava/orca-llm-router",
+          "updatedAt": "2026-11-17T00:01:34+03:00"
+        },
         {
           "version": "1.0.0",
           "commit": "e6a3f564fec97106af31390db1678b8b445b5918",
@@ -14483,6 +14653,54 @@
           "license": "MIT",
           "repository": "https://github.com/felix-lj-ct/orca-agent-inbox",
           "updatedAt": "2026-11-10T12:33:02+08:00"
+        }
+      ]
+    },
+    {
+      "id": "fladioarmandika.project-prs",
+      "ownerId": 12187126,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/FladioArmandika/orca-gh-plugin.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Every open pull request of the GitHub repos inside an Orca project, grouped by task across repos: review with diffs, merge in order (backend first) or when green, check a task out in every repo, open and merge releases, and follow it all from the status bar. Uses the gh CLI.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "3a0ca9c726b9c79cb09d9b1261f612c4ff2a21a1",
+          "contentHash": "2421c542ffe0c966e3ead9c2d6a8abd98218a44247b3b8dad52b4b7e9ffaba85",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Project PRs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Project PRs"
+            },
+            {
+              "kind": "commands",
+              "name": "Project PRs: Refresh pull requests"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "PRs"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own",
+            "agent:launch",
+            "notifications:show",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/FladioArmandika/orca-gh-plugin",
+          "updatedAt": "2026-11-17T03:40:25+07:00"
         }
       ]
     },
@@ -33124,12 +33342,95 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sergei-popov/orca-api-spec-viewer/0.1.0"
+        "url": "https://github.com/Sergei-Popov/orca-api-spec-viewer.git",
+        "ref": "v0.1.1"
       },
       "description": "Browse OpenAPI 3.x, Swagger 2.0, AsyncAPI 2/3, Arazzo and Overlay files in Orca's tabs: operations, schemas, code samples, search and problems. Opens openapi.yaml and *.openapi.json by itself. Independent; not affiliated with the OpenAPI Initiative, SmartBear or the AsyncAPI Initiative.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "a96fcf7d8ca3892730e64756025ad3dd86092e83",
+          "contentHash": "c690ceb6c30cfe4aa8c94fcea9f974c918d5f82eb98377d8a2a5c1200f2e0c74",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "API Spec Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "API Spec Viewer",
+              "detail": ".openapi.yaml, .openapi.yml, .openapi.json, .swagger.yaml, .swagger.yml, .swagger.json, .oas.yaml, .oas.yml, .oas.json, .oas3.yaml, .oas3.yml, .oas3.json, .asyncapi.yaml, .asyncapi.yml, .asyncapi.json, .arazzo.yaml, .arazzo.yml, .arazzo.json, .overlay.yaml, .overlay.yml, .overlay.json, .yaml, .yml, .json, .jsonc, openapi.yaml, openapi.yml, openapi.json, swagger.yaml, swagger.yml, swagger.json, asyncapi.yaml, asyncapi.yml, asyncapi.json, arazzo.yaml, arazzo.yml, arazzo.json"
+            }
+          ],
+          "fileTypes": [
+            "yaml",
+            "yml",
+            "json",
+            "jsonc"
+          ],
+          "editorFileTypes": [
+            "yaml",
+            "yml",
+            "json",
+            "jsonc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.api-spec-viewer/f04eaa4964c18eb0.png",
+              "alt": "The Bookshelf API's 10 operations by tag with coloured method badges, beside Add a book, POST /books, and its request body.",
+              "sha256": "f04eaa4964c18eb09965902c99cc2ee6514e11c5af5f7eccd1f0e3615cd75c92",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.api-spec-viewer/9d5f8066cd02a6cb.png",
+              "alt": "API Spec Viewer icon",
+              "sha256": "9d5f8066cd02a6cbba86e93e32d1efa003dcf09cd601d976a2d36293cf81aeee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/2899f9fa86d58ac6.png",
+                "alt": "A draft spec's 4 errors and 1 warning, each with its line and column, and the source at line 207: a duplicate operationId.",
+                "sha256": "2899f9fa86d58ac669c9e894d96e42ecfa6482b64e9a6c710d19fb5ac7de39eb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/2a3dc30b797140a5.png",
+                "alt": "Add a book's code samples: a curl POST to /v2/books built from the examples, with JavaScript, Python and HTTPie tabs to copy.",
+                "sha256": "2a3dc30b797140a53740990a44d18b40a4412244ee37b81ff86d3621c9d61c3e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/3d7ed3df6d684d89.png",
+                "alt": "The Book schema as a tree, its nested shelf open: each field's type, format, required and read-only flags, and examples.",
+                "sha256": "3d7ed3df6d684d89f121fc7e1fe0c0ee470ca352778621622fea7750c1b8ba61",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/a64cf44c61a3b3cf.png",
+                "alt": "Greenhouse Sensors, AsyncAPI 3.0.0: Open or close the vents sends a Vent command; its Alert reply comes on greenhouse/alerts.",
+                "sha256": "a64cf44c61a3b3cfba2813738f27e9b493ddb64b2fff85bb4a3717e46de141ee",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/7b2ab2f03b0cf481.png",
+                "alt": "Borrow a book in 3 steps: findBook, borrow and confirm, each naming the operation it calls. Shown in Orca's light theme.",
+                "sha256": "7b2ab2f03b0cf481b91a5a7d77c5217e3bc2792d5413796367f92f922fda89b2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT AND ISC",
+          "repository": "https://github.com/Sergei-Popov/orca-api-spec-viewer",
+          "updatedAt": "2026-11-17T02:08:42+05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "ed8eed1f1b9434eb56d35d96aa6530c511c9360b",
@@ -36472,8 +36773,8 @@
       "ownerId": 4907036,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Tagliatti/orca-openapi.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tagliatti/orca-openapi/0.1.1"
       },
       "description": "OpenAPI/Swagger preview beside the YAML: endpoints by tag, colour-coded methods and schemas.",
       "categories": [],
