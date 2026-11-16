@@ -884,7 +884,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.5",
+      "ref": "v0.3.0",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -1791,13 +1791,10 @@
       ]
     },
     "omerfarukgzr/orca-git-plugin": {
-      "state": "rejected",
-      "ref": "v0.1.4",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "state": "listed",
+      "ref": "v0.1.5",
+      "plugins": [
+        "omerfarukgzr.git-panel"
       ]
     },
     "orvillelim/orca-code-explainer": {
@@ -2558,7 +2555,7 @@
     },
     "uttam-gelot/orca-todos": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/uttam-gelot/orca-todos/0.1.2",
       "plugins": [
         "uttam-gelot.todos"
       ]

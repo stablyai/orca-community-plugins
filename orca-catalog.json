@@ -13018,14 +13018,59 @@
       "ownerId": 75980151,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.2.5"
+        "url": "https://github.com/felix-lj-ct/orca-agent-inbox.git",
+        "ref": "v0.3.0"
       },
       "description": "What your agents and scripts wait on you for, in one sidebar panel: workspaces they parked on the board with the reason, and the messages they sent. They call one CLI at the points of your workflow that need you.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "118d67a1d73a2b4847caa945346001cc37039f21",
+          "contentHash": "96f2e949305452cb705f4756db3045d2185e7c12502007755e14ee2ef62fa062",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/felix-lj-ct.agent-inbox/e326b19e08f00373.png",
+              "alt": "The Agent Inbox panel: three asks waiting on you grouped by project, unread messages, and the wired points of a workflow.",
+              "sha256": "e326b19e08f00373b00b17e4a1c362f06e81fab0ff12cef98cb6ccef7ae1f493",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/felix-lj-ct.agent-inbox/7417dc976f5e6683.png",
+              "alt": "Agent Inbox icon",
+              "sha256": "7417dc976f5e6683ab9264b3f31be0cbb4fa74ffba1ae35410631a1bf0c46801",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/felix-lj-ct/orca-agent-inbox",
+          "updatedAt": "2026-11-16T15:00:37+08:00"
+        },
         {
           "version": "0.2.5",
           "commit": "30debdefe1f4d547d720bbbc45f48d4c48d867cf",
@@ -13197,43 +13242,6 @@
           "license": "MIT",
           "repository": "https://github.com/felix-lj-ct/orca-agent-inbox",
           "updatedAt": "2026-11-10T12:33:02+08:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "3700c849487122bbf92a2c8652c7552fe24d41c4",
-          "contentHash": "60f8b918494b61c5e569cee167c7990f3734fa0a4c3462794f6aa2eab1992e0e",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Inbox",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Inbox"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/felix-lj-ct.agent-inbox/e326b19e08f00373.png",
-              "alt": "The Agent Inbox panel: three asks waiting on you grouped by project, unread messages, and the wired points of a workflow.",
-              "sha256": "e326b19e08f00373b00b17e4a1c362f06e81fab0ff12cef98cb6ccef7ae1f493",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/felix-lj-ct.agent-inbox/7417dc976f5e6683.png",
-              "alt": "Agent Inbox icon",
-              "sha256": "7417dc976f5e6683ab9264b3f31be0cbb4fa74ffba1ae35410631a1bf0c46801",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/felix-lj-ct/orca-agent-inbox",
-          "updatedAt": "2026-11-08T19:40:16+08:00"
         }
       ]
     },
@@ -24345,6 +24353,367 @@
       ]
     },
     {
+      "id": "omerfarukgzr.git-panel",
+      "ownerId": 114485198,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
+        "ref": "v0.1.5"
+      },
+      "description": "An IntelliJ IDEA-style Git tool window for the focused workspace: local changes and commit, the Log with its graph and branches, diffs and histories in the editor area.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "9ffd860bbcac0ba1e53a3d9fd7edf0eaeb27ab70",
+          "contentHash": "267dfc8e373dc547d7a00fb0ef8dab999e5c31641c723a68bb37a83f155b296a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Commit"
+            },
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Panel",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".go, .ts, .tsx, .js, .jsx, .mjs, .cjs, .json, .md, .yaml, .yml, .toml, .xml, .html, .css, .scss, .vue, .svelte, .py, .rb, .php, .java, .kt, .swift, .c"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".h, .cpp, .hpp, .cs, .rs, .sh, .sql, .dart, .lua, .gradle, .properties, .ini, .conf, .cfg, .txt, .csv, .tsv, .graphql, .gql, .proto, .tf, .hcl, .ex"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".exs, .erl, .hs, .ml, .scala, .clj, .r, .jl, .pl, .pm, .m, .mm, .zsh, .bash, .fish, .ps1, .kts, .groovy, .less, .sass, .styl, .htm, .xhtml, .jsonc"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".json5, .lock, .mdx, .rst, .tex, .astro, .hbs, .ejs, .pug, .twig, .erb, .j2, .tpl, .plist, .pbxproj, .xcconfig, .entitlements, .storyboard, .xib"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".strings, .cmake, .mk, .bat, .cmd, .cc, .cxx, .hh, .hxx, .fs, .fsx, .vb, .nim, .zig, .sol, .elm, .cr, .d, .s, .asm, .svg, .diff, .patch, .log, .mod"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".sum, .env, .iml, .gemspec, .podspec, .cjsx, .mts, .cts, .prisma, .nix, .bzl, .cabal, Dockerfile, Makefile, Gemfile, Rakefile, Podfile, Procfile"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": "Brewfile, Vagrantfile, Jenkinsfile, LICENSE, README, CHANGELOG, NOTICE, AUTHORS, CODEOWNERS, .gitignore, .gitattributes, .gitmodules, .editorconfig"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Blame",
+              "detail": ".env, .npmrc, .nvmrc, .prettierrc, .eslintrc, .babelrc, .dockerignore, .zshrc, .bashrc"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git",
+              "detail": ".gitpanel"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "gitpanel",
+            "go",
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "json",
+            "md",
+            "yaml",
+            "yml",
+            "toml",
+            "xml",
+            "html",
+            "css",
+            "scss",
+            "vue",
+            "svelte",
+            "py",
+            "rb",
+            "php",
+            "java",
+            "kt",
+            "swift",
+            "c",
+            "h",
+            "cpp",
+            "hpp",
+            "cs",
+            "rs",
+            "sh",
+            "sql",
+            "dart",
+            "lua",
+            "gradle",
+            "properties",
+            "ini",
+            "conf",
+            "cfg",
+            "txt",
+            "csv",
+            "tsv",
+            "graphql",
+            "gql",
+            "proto",
+            "tf",
+            "hcl",
+            "ex",
+            "exs",
+            "erl",
+            "hs",
+            "ml",
+            "scala",
+            "clj",
+            "r",
+            "jl",
+            "pl",
+            "pm",
+            "m",
+            "mm",
+            "zsh",
+            "bash",
+            "fish",
+            "ps1",
+            "kts",
+            "groovy",
+            "less",
+            "sass",
+            "styl",
+            "htm",
+            "xhtml",
+            "jsonc",
+            "json5",
+            "lock",
+            "mdx",
+            "rst",
+            "tex",
+            "astro",
+            "hbs",
+            "ejs",
+            "pug",
+            "twig",
+            "erb",
+            "j2",
+            "tpl",
+            "plist",
+            "pbxproj",
+            "xcconfig",
+            "entitlements",
+            "storyboard",
+            "xib",
+            "strings",
+            "cmake",
+            "mk",
+            "bat",
+            "cmd",
+            "cc",
+            "cxx",
+            "hh",
+            "hxx",
+            "fs",
+            "fsx",
+            "vb",
+            "nim",
+            "zig",
+            "sol",
+            "elm",
+            "cr",
+            "d",
+            "s",
+            "asm",
+            "svg",
+            "diff",
+            "patch",
+            "log",
+            "mod",
+            "sum",
+            "env",
+            "iml",
+            "gemspec",
+            "podspec",
+            "cjsx",
+            "mts",
+            "cts",
+            "prisma",
+            "nix",
+            "bzl",
+            "cabal"
+          ],
+          "editorFileTypes": [
+            "gitpanel",
+            "go",
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "json",
+            "md",
+            "yaml",
+            "yml",
+            "toml",
+            "xml",
+            "html",
+            "css",
+            "scss",
+            "vue",
+            "svelte",
+            "py",
+            "rb",
+            "php",
+            "java",
+            "kt",
+            "swift",
+            "c",
+            "h",
+            "cpp",
+            "hpp",
+            "cs",
+            "rs",
+            "sh",
+            "sql",
+            "dart",
+            "lua",
+            "gradle",
+            "properties",
+            "ini",
+            "conf",
+            "cfg",
+            "txt",
+            "csv",
+            "tsv",
+            "graphql",
+            "gql",
+            "proto",
+            "tf",
+            "hcl",
+            "ex",
+            "exs",
+            "erl",
+            "hs",
+            "ml",
+            "scala",
+            "clj",
+            "r",
+            "jl",
+            "pl",
+            "pm",
+            "m",
+            "mm",
+            "zsh",
+            "bash",
+            "fish",
+            "ps1",
+            "kts",
+            "groovy",
+            "less",
+            "sass",
+            "styl",
+            "htm",
+            "xhtml",
+            "jsonc",
+            "json5",
+            "lock",
+            "mdx",
+            "rst",
+            "tex",
+            "astro",
+            "hbs",
+            "ejs",
+            "pug",
+            "twig",
+            "erb",
+            "j2",
+            "tpl",
+            "plist",
+            "pbxproj",
+            "xcconfig",
+            "entitlements",
+            "storyboard",
+            "xib",
+            "strings",
+            "cmake",
+            "mk",
+            "bat",
+            "cmd",
+            "cc",
+            "cxx",
+            "hh",
+            "hxx",
+            "fs",
+            "fsx",
+            "vb",
+            "nim",
+            "zig",
+            "sol",
+            "elm",
+            "cr",
+            "d",
+            "s",
+            "asm",
+            "svg",
+            "diff",
+            "patch",
+            "log",
+            "mod",
+            "sum",
+            "env",
+            "iml",
+            "gemspec",
+            "podspec",
+            "cjsx",
+            "mts",
+            "cts",
+            "prisma",
+            "nix",
+            "bzl",
+            "cabal"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/omerfarukgzr.git-panel/fd08e0247070dae9.png",
+              "alt": "Git Panel icon",
+              "sha256": "fd08e0247070dae98234408f2cbba856c712c80dac6c2aafb7779f4e78d390aa",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
+          "updatedAt": "2026-11-16T09:56:20+03:00"
+        }
+      ]
+    },
+    {
       "id": "oscarbotteri.db-studio",
       "ownerId": 68121922,
       "source": {
@@ -34122,8 +34491,8 @@
       "ownerId": 38095267,
       "source": {
         "kind": "git",
-        "url": "https://github.com/uttam-gelot/orca-todos.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/uttam-gelot/orca-todos/0.1.2"
       },
       "description": "Personal to-dos with custom states, tags, priorities, markdown notes, and list and board views.",
       "categories": [
