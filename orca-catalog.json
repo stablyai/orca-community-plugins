@@ -8446,8 +8446,8 @@
       "ownerId": 41058561,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dohaidang/orca-theme-plugin.git",
-        "ref": "v1.6.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.7"
       },
       "description": "Animated ASCII wallpapers with matching sidebar variants, terminal palettes and file icons. Video on Orca 1.4.254+, still image on older versions. To see the wallpaper, set \"Background Opacity\" below 1 and turn off \"Reduce Visual Effects\"",
       "categories": [
