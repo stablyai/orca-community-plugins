@@ -3,7 +3,7 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/1am/orca-agent-deck/0.3.1",
       "plugins": [
         "1am.agent-deck"
       ]
@@ -51,7 +51,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/addisflava/orca-llm-router/1.0.2",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -913,7 +913,7 @@
     },
     "fladioarmandika/orca-gh-plugin": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/fladioarmandika/orca-gh-plugin/0.2.0",
       "plugins": [
         "fladioarmandika.project-prs"
       ]
@@ -2198,7 +2198,7 @@
     },
     "sergei-popov/orca-api-spec-viewer": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/sergei-popov/orca-api-spec-viewer/0.1.1",
       "plugins": [
         "sergei-popov.api-spec-viewer"
       ]

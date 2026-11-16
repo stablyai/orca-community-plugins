@@ -9,8 +9,8 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/1am/orca-agent-deck.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/1am/orca-agent-deck/0.3.1"
       },
       "description": "See at a glance which Orca agent needs you. Each pane gets a Stream Deck key that shows its state and focuses the pane when pressed.",
       "categories": [
@@ -1444,8 +1444,8 @@
       "ownerId": 13881665,
       "source": {
         "kind": "git",
-        "url": "https://github.com/addisflava/orca-llm-router.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/addisflava/orca-llm-router/1.0.2"
       },
       "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, and routing different providers behind a single model name with seamless fallback.",
       "categories": [
@@ -14661,8 +14661,8 @@
       "ownerId": 12187126,
       "source": {
         "kind": "git",
-        "url": "https://github.com/FladioArmandika/orca-gh-plugin.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/fladioarmandika/orca-gh-plugin/0.2.0"
       },
       "description": "Every open pull request of the GitHub repos inside an Orca project, grouped by task across repos: review with diffs, merge in order (backend first) or when green, check a task out in every repo, open and merge releases, and follow it all from the status bar. Uses the gh CLI.",
       "categories": [
@@ -33342,8 +33342,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-api-spec-viewer.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-api-spec-viewer/0.1.1"
       },
       "description": "Browse OpenAPI 3.x, Swagger 2.0, AsyncAPI 2/3, Arazzo and Overlay files in Orca's tabs: operations, schemas, code samples, search and problems. Opens openapi.yaml and *.openapi.json by itself. Independent; not affiliated with the OpenAPI Initiative, SmartBear or the AsyncAPI Initiative.",
       "categories": [],
