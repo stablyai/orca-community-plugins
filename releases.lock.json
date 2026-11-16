@@ -791,6 +791,12 @@
     "repoId": 1444201248,
     "firstSeen": "2026-11-07T21:39:11.650Z"
   },
+  "cnzgray.mattpocock-workflow@0.1.0": {
+    "commit": "7728d10cd1c9d5ebdf746c11ac4a8a979324752f",
+    "contentHash": "b0c31578c9e65a59d3fecadd23aed8278073eb6b211a1e2022e474cdeec1e6c9",
+    "repoId": 1457826992,
+    "firstSeen": "2026-11-16T08:57:34.178Z"
+  },
   "coffeepy.swampling@0.2.0": {
     "commit": "cde83e6c58d199075e161f20181a7676a62a811e",
     "contentHash": "49ecce892eadce7a0872e5182b886bd93303ec831f0d6de29967eeff36266763",
@@ -1126,6 +1132,12 @@
     "contentHash": "e37f449309c6550b13ecd21232462051d757e0c4bdbc5e6822db81d4d6fa5f33",
     "repoId": 1456275386,
     "firstSeen": "2026-11-13T07:15:49.640Z"
+  },
+  "erlhon9.pod@0.4.7": {
+    "commit": "5ef7c3f14110b7f5e1e36107c184e94ea898698c",
+    "contentHash": "9a7a4daf6bc6287c026613a7fe04ed54b82c7d7baf710200e788278759be50bc",
+    "repoId": 1456275386,
+    "firstSeen": "2026-11-16T08:57:34.178Z"
   },
   "erom.agent-profiles@2.0.6": {
     "commit": "ee2fec9e24f77fba99194598c7fe862b8523c10a",
@@ -3388,6 +3400,12 @@
     "contentHash": "112a42b5f8be62b25afe39c856baa0590d66e24633572ecbe28e5e8136a15673",
     "repoId": 1459738990,
     "firstSeen": "2026-11-16T08:36:55.622Z"
+  },
+  "shumkov.cliproxy-usage@0.1.1": {
+    "commit": "a78ad52f45ed28bd67027153a5f9c0032de5d270",
+    "contentHash": "c25c357d089987410e3c977a3cd7a7d423e6d865e94d121a0c2a0a2ebb96be37",
+    "repoId": 1459738990,
+    "firstSeen": "2026-11-16T08:57:34.178Z"
   },
   "spgsroot.omp-usage@1.0.0": {
     "commit": "6522b53b740f02bdc22d0744f53a23d6ec155230",

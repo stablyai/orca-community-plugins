@@ -490,6 +490,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "cnzgray/orca-mattpocock-workflow": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "cnzgray.mattpocock-workflow"
+      ]
+    },
     "coffeepy/swampling": {
       "state": "listed",
       "ref": "refs/tags/coffeepy/swampling/0.5.2",
@@ -574,7 +581,7 @@
     },
     "dinhkarate/orca-incognito": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/dinhkarate/orca-incognito/0.2.0",
       "plugins": [
         "dinhkarate.incognito-projects"
       ]
@@ -682,19 +689,10 @@
     },
     "erlhon9/orca-pod": {
       "state": "listed",
-      "ref": "refs/tags/erlhon9/orca-pod/0.1.0",
+      "ref": "v0.4.7",
       "plugins": [
         "erlhon9.pod"
-      ],
-      "update": {
-        "ref": "v0.4.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
@@ -977,15 +975,11 @@
     },
     "heyfey/vaporview-orca": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
-        },
-        {
-          "category": "binary-files",
-          "detail": "bundles binary files (test/data/tpu.fst)"
+          "category": "under-review",
+          "detail": "content"
         }
       ]
     },
@@ -1244,7 +1238,7 @@
           "reasons": [
             {
               "category": "under-review",
-              "detail": "code"
+              "detail": "code, content"
             }
           ]
         }
@@ -1350,9 +1344,15 @@
       "plugins": [
         "lindoo67.drawio"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.1.7",
+        "reasons": [
+          {
+            "category": "version-locked",
+            "detail": "tag v0.1.7 moved: version 0.1.6 was first listed at commit e7601b2a07b2cfd6d2b6ddccb96e2977aa992d3e and stays that release; publish a new version instead"
+          }
+        ]
+      }
     },
     "linkrjr/buildkite-orca-plugin": {
       "state": "rejected",
@@ -2172,7 +2172,7 @@
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, pricing"
+          "detail": "code"
         }
       ]
     },
@@ -2192,7 +2192,7 @@
     },
     "shumkov/orca-cliproxy-usage": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "shumkov.cliproxy-usage"
       ]

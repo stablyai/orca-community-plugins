@@ -380,9 +380,9 @@
             "cjs",
             "jumplens-review"
           ],
-          "updatedAt": "2026-11-13T10:43:22+08:00",
           "license": "MIT",
-          "repository": "https://github.com/2589195970/JumpLens"
+          "repository": "https://github.com/2589195970/JumpLens",
+          "updatedAt": "2026-11-13T10:43:22+08:00"
         },
         {
           "version": "0.3.2",
@@ -1080,9 +1080,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-12T09:39:01-03:00",
           "license": "MIT",
-          "repository": "https://github.com/actus7/orca-autocomplete"
+          "repository": "https://github.com/actus7/orca-autocomplete",
+          "updatedAt": "2026-11-12T09:39:01-03:00"
         },
         {
           "version": "0.3.1",
@@ -4200,9 +4200,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-13T11:45:24Z",
           "license": "MIT",
-          "repository": "https://github.com/Bigsy/milko"
+          "repository": "https://github.com/Bigsy/milko",
+          "updatedAt": "2026-11-13T11:45:24Z"
         },
         {
           "version": "0.1.2",
@@ -5470,9 +5470,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-15T18:29:59+07:00",
           "license": "MIT",
-          "repository": "https://github.com/cattfan/orca-enhance-prompt"
+          "repository": "https://github.com/cattfan/orca-enhance-prompt",
+          "updatedAt": "2026-11-15T18:29:59+07:00"
         },
         {
           "version": "2.8.0",
@@ -7456,6 +7456,59 @@
       ]
     },
     {
+      "id": "cnzgray.mattpocock-workflow",
+      "ownerId": 5411281,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7728d10cd1c9d5ebdf746c11ac4a8a979324752f",
+          "contentHash": "b0c31578c9e65a59d3fecadd23aed8278073eb6b211a1e2022e474cdeec1e6c9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "MattWorkflow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "MattWorkflow"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Refresh tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Open current workspace in Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
+          "updatedAt": "2026-11-16T16:43:32+08:00"
+        }
+      ]
+    },
+    {
       "id": "coffeepy.swampling",
       "ownerId": 20525302,
       "source": {
@@ -8663,8 +8716,8 @@
       "ownerId": 57869841,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dinhkarate/orca-incognito.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dinhkarate/orca-incognito/0.2.0"
       },
       "description": "Hide private projects from Orca behind a passcode, and bring them back when you need them.",
       "categories": [
@@ -8693,9 +8746,9 @@
             "secrets:own",
             "workspace:read"
           ],
-          "updatedAt": "2026-11-12T14:09:08+07:00",
           "license": "MIT",
-          "repository": "https://github.com/dinhkarate/orca-incognito"
+          "repository": "https://github.com/dinhkarate/orca-incognito",
+          "updatedAt": "2026-11-12T14:09:08+07:00"
         }
       ]
     },
@@ -11260,15 +11313,96 @@
       "ownerId": 108442817,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/erlhon9/orca-pod/0.1.0"
+        "url": "https://github.com/Erlhon9/orca-pod.git",
+        "ref": "v0.4.7"
       },
-      "description": "See and steer every Orca workspace and agent session on one map — 워크스페이스와 세션을 한 화면에서 보고 조작",
+      "description": "See and steer every Orca workspace and agent session on one map",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.7",
+          "commit": "5ef7c3f14110b7f5e1e36107c184e94ea898698c",
+          "contentHash": "9a7a4daf6bc6287c026613a7fe04ed54b82c7d7baf710200e788278759be50bc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pod",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pod"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erlhon9.pod/51794b616efde629.jpg",
+              "alt": "Pod graph: a repository in the middle, topics around it, workspace cards with live sessions, and the control bar at the bottom",
+              "sha256": "51794b616efde629aaf6e9123065f4f289ec2f308673dee7cd9d52b6f083fe16",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/erlhon9.pod/51794b616efde629.jpg",
+                "alt": "Graph of workspaces grouped by topic with session states",
+                "sha256": "51794b616efde629aaf6e9123065f4f289ec2f308673dee7cd9d52b6f083fe16",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erlhon9.pod/0cb704b903eaa6c5.jpg",
+                "alt": "Session window showing a fictional terminal conversation",
+                "sha256": "0cb704b903eaa6c521bd71b6ca6cc271a6ade95eaff98a227ee78cf82d9ced96",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erlhon9.pod/ef205ef0aa0b229a.jpg",
+                "alt": "Control bar with an agent selector and a fictional coordination exchange",
+                "sha256": "ef205ef0aa0b229a01e044f6d21b96a3c52f635c723b8994edb9cd9d5773567c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erlhon9.pod/4dcd1c372c9b535b.jpg",
+                "alt": "Board view with urgent sessions on top and workspaces grouped by topic",
+                "sha256": "4dcd1c372c9b535b37dffa469c81de6a2e4f46ec809c3990e39dcc86539ca709",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Erlhon9/orca-pod",
+          "updatedAt": "2026-11-16T17:57:35+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "6aa82a7e5d2511fbebad59200c5b8d3f3ff46220",
@@ -15170,9 +15304,9 @@
               "name": "Cmd …"
             }
           ],
-          "updatedAt": "2026-11-16T01:48:18+05:30",
           "license": "MIT",
-          "repository": "https://github.com/harsh97/command-code-usage"
+          "repository": "https://github.com/harsh97/command-code-usage",
+          "updatedAt": "2026-11-16T01:48:18+05:30"
         }
       ]
     },
@@ -15210,9 +15344,9 @@
               "name": "Muse wk …"
             }
           ],
-          "updatedAt": "2026-11-16T01:48:26+05:30",
           "license": "MIT",
-          "repository": "https://github.com/harsh97/muse-usage"
+          "repository": "https://github.com/harsh97/muse-usage",
+          "updatedAt": "2026-11-16T01:48:26+05:30"
         }
       ]
     },
@@ -17489,9 +17623,9 @@
             "workspace:read",
             "workspace:write"
           ],
-          "updatedAt": "2026-11-12T17:21:38+09:00",
           "license": "MIT",
-          "repository": "https://github.com/Jeong-Jae-Hun/orca-ping-public"
+          "repository": "https://github.com/Jeong-Jae-Hun/orca-ping-public",
+          "updatedAt": "2026-11-12T17:21:38+09:00"
         }
       ]
     },
@@ -20001,9 +20135,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-12T10:28:23+08:00",
           "license": "MIT",
-          "repository": "https://github.com/Kyino-Pan/agents-director"
+          "repository": "https://github.com/Kyino-Pan/agents-director",
+          "updatedAt": "2026-11-12T10:28:23+08:00"
         },
         {
           "version": "0.1.2",
@@ -30527,9 +30661,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-15T16:06:18+07:00",
           "license": "MIT",
-          "repository": "https://github.com/SatangBudsai/orca-git-extension"
+          "repository": "https://github.com/SatangBudsai/orca-git-extension",
+          "updatedAt": "2026-11-15T16:06:18+07:00"
         },
         {
           "version": "0.10.2",
@@ -32629,9 +32763,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-14T14:47:01+05:00",
           "license": "MIT AND LGPL-2.1-or-later",
-          "repository": "https://github.com/Sergei-Popov/orca-media-viewer"
+          "repository": "https://github.com/Sergei-Popov/orca-media-viewer",
+          "updatedAt": "2026-11-14T14:47:01+05:00"
         },
         {
           "version": "0.2.0",
@@ -33635,9 +33769,9 @@
             "terminal:send",
             "storage:own"
           ],
-          "updatedAt": "2026-11-13T17:12:33Z",
           "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca"
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-13T17:12:33Z"
         },
         {
           "version": "0.6.1",
@@ -33780,7 +33914,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/shumkov/orca-cliproxy-usage.git",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "Codex and Claude account usage, across local and SSH-connected CLIProxy hosts.",
       "categories": [
@@ -33788,6 +33922,64 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "a78ad52f45ed28bd67027153a5f9c0032de5d270",
+          "contentHash": "c25c357d089987410e3c977a3cd7a7d423e6d865e94d121a0c2a0a2ebb96be37",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.258",
+          "name": "CLIProxy Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CLIProxy Usage"
+            },
+            {
+              "kind": "commands",
+              "name": "CLIProxy: Open Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Codex —"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude —"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shumkov.cliproxy-usage/433a8fc574656f78.png",
+              "alt": "CLIProxy Usage: Codex and Claude usage across local and SSH hosts, with an illustrative quota gauge.",
+              "sha256": "433a8fc574656f7837910296bca1d585ad53029dbe3a297f567c3b719ecb9f3e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/shumkov.cliproxy-usage/869b0280f122120d.png",
+              "alt": "CLIProxy Usage icon",
+              "sha256": "869b0280f122120d314483795da89cb7026e29a173c7838bcfc035592fb9cbd2",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/shumkov.cliproxy-usage/86e174922753555c.png",
+                "alt": "Compact, Detailed and account detail views with fictional accounts and simulated quota.",
+                "sha256": "86e174922753555c77afa1728301afed74479110ec48fdb07d2f3acf699b3bc7",
+                "width": 1280,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shumkov/orca-cliproxy-usage",
+          "updatedAt": "2026-11-16T15:54:31+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "ffe80713ec5186ebfed6ad93d9552c86726221cb",
