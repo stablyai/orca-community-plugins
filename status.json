@@ -1316,7 +1316,7 @@
     },
     "ky1ezer0/orca-git-graph": {
       "state": "listed",
-      "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.1",
+      "ref": "v1.0.2",
       "plugins": [
         "ky1ezer0.git-graph"
       ]
@@ -2652,6 +2652,13 @@
         }
       ]
     },
+    "web-tree/orca-runspore": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "web-tree.runspore"
+      ]
+    },
     "weiping/wingline": {
       "state": "rejected",
       "ref": "v0.2.0",
@@ -2675,11 +2682,11 @@
     },
     "williamwxz/orca-bot": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.2",
       "reasons": [
         {
-          "category": "reserved-name",
-          "detail": "name \"Orca Bot\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },

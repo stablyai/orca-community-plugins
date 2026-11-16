@@ -18644,14 +18644,71 @@
       "ownerId": 61507247,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.1"
+        "url": "https://github.com/Ky1ezer0/orca-git-graph.git",
+        "ref": "v1.0.2"
       },
       "description": "Searchable, auto-refreshing Git graph with confirmed Git actions and one-click remote fetch for local Orca workspaces.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "ff901c5d29254f09644dabdc3be573e61152b142",
+          "contentHash": "1a4fc0d1efae3eb14b6e5bf3f4009ccf14d19b01befe5c9f3b43a82fb5af87e0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Graph"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Graph Diff",
+              "detail": ".git-graph-diff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "git-graph-diff"
+          ],
+          "editorFileTypes": [
+            "git-graph-diff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ky1ezer0.git-graph/dd04c312c831ca7f.jpg",
+              "alt": "Git Graph for Orca with cyan, mint, and lavender branching commit paths on a dark background.",
+              "sha256": "dd04c312c831ca7ffed41ca9c6443dc6f4f371146d7ed1cfbb2775d88d113c67",
+              "width": 1586,
+              "height": 992
+            },
+            "screenshots": [
+              {
+                "path": "assets/ky1ezer0.git-graph/d3e1440c31830bbf.png",
+                "alt": "Git Graph in Orca showing commit history, HEAD, local and remote branch labels, release tags, search, and uncommitted changes.",
+                "sha256": "d3e1440c31830bbf3273d506da6ccdc02af8b1687a9fd4ec257f398f20063309",
+                "width": 1280,
+                "height": 885
+              },
+              {
+                "path": "assets/ky1ezer0.git-graph/acdb599c92cdc595.png",
+                "alt": "Git Graph demo showing four colored branches, a merged feature/search branch, HEAD on main, and the v1.1.0 release tag.",
+                "sha256": "acdb599c92cdc595ebc293bb32240b4fa8f2094bcb1b2fba82a9edbe321d6eff",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ky1ezer0/orca-git-graph",
+          "updatedAt": "2026-11-16T08:22:49+08:00"
+        },
         {
           "version": "1.0.1",
           "commit": "24bc65840b7e8f04ca8d759bd81844c57ef8470c",
@@ -34878,6 +34935,57 @@
           "license": "MIT",
           "repository": "https://github.com/wahaha1024/inkstone-orca",
           "updatedAt": "2026-11-15T00:05:05+08:00"
+        }
+      ]
+    },
+    {
+      "id": "web-tree.runspore",
+      "ownerId": 4123740,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Web-tree/orca-runspore.git",
+        "ref": "v0.2.0"
+      },
+      "description": "See your Runspore workflow runs, get told when one needs you or fails, and answer, retry or cancel it without leaving Orca.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "c8656a7a98df681a1f1123a7b43a2220904d87d6",
+          "contentHash": "7c1ec4cb6774db441cca4380df49193bc88e8b1dff004c3230c962baf5036446",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Runspore",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Runspore"
+            },
+            {
+              "kind": "commands",
+              "name": "Runspore: Refresh Runs"
+            },
+            {
+              "kind": "commands",
+              "name": "Runspore: Toggle Right Sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "spore"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Web-tree/orca-runspore",
+          "updatedAt": "2026-11-16T01:23:13+01:00"
         }
       ]
     },
