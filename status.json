@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.11.0",
+      "ref": "v0.11.3",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -1581,20 +1581,14 @@
       ]
     },
     "mbirepinte/orca-asciidoc-viewer": {
-      "state": "listed",
-      "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/1.1.0",
-      "plugins": [
-        "mbirepinte.asciidoc-viewer"
-      ],
-      "update": {
-        "ref": "v2.0.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      "state": "rejected",
+      "ref": "v2.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (vendor/plantuml-stdlib-tupadr3.json.gz)"
+        }
+      ]
     },
     "michelvelzr/ork-dbclient": {
       "state": "listed",

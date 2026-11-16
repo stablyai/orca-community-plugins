@@ -2898,7 +2898,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.11.0"
+        "ref": "v0.11.3"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.3",
+          "commit": "e9c5352c9678ad21590e84f9aa49006abf93acd7",
+          "contentHash": "7b2ca6d728b5d1422b7f509b1ead2792eb9e11f115061869980b60efdb41e4a4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T14:30:25-03:00"
+        },
         {
           "version": "0.11.0",
           "commit": "04a1be2b805d60d29f763a05b20b07d4145ee818",
@@ -3045,41 +3080,6 @@
           "license": "MIT",
           "repository": "https://github.com/augustovicente/orca-pipeline",
           "updatedAt": "2026-11-16T12:48:58-03:00"
-        },
-        {
-          "version": "0.5.1",
-          "commit": "62ccdc1a866a2e17638b925516b47a05581b283a",
-          "contentHash": "93656f53ca6ae0a58fd0c17b48a1b0ff38dc06cbb8b5b0711346bb7723d5d7ea",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Pipeline",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pipeline"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Pipeline"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "terminal:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/augustovicente/orca-pipeline",
-          "updatedAt": "2026-11-16T11:48:25-03:00"
         }
       ]
     },
@@ -22878,83 +22878,6 @@
           "license": "MIT",
           "repository": "https://github.com/maximechbt/beads-orca-ui",
           "updatedAt": "2026-11-08T20:03:04+01:00"
-        }
-      ]
-    },
-    {
-      "id": "mbirepinte.asciidoc-viewer",
-      "ownerId": 113261345,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mbirepinte/orca-asciidoc-viewer/1.1.0"
-      },
-      "description": "Edit AsciiDoc source beside a live preview in Orca.",
-      "categories": [],
-      "releases": [
-        {
-          "version": "1.1.0",
-          "commit": "3f8721e9ab8829879055a0fb9fbf4b8524258b13",
-          "contentHash": "07d0bd9499d147fdecb87e8b8146050cd545e8c4c060edb6077591bf9e859bbe",
-          "execution": "sandboxed-ui",
-          "minimumOrca": "1.4.245",
-          "name": "AsciiDoc Viewer",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "AsciiDoc Preview",
-              "detail": ".adoc"
-            }
-          ],
-          "fileTypes": [
-            "adoc"
-          ],
-          "editorFileTypes": [
-            "adoc"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/mbirepinte.asciidoc-viewer/4a97a4b389d4afc4.png",
-              "alt": "AsciiDoc source beside its rendered preview, with a block being edited in place",
-              "sha256": "4a97a4b389d4afc4095410c33685f3c15b35a85c68a3b52d978f97269ae6ec9c",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/mbirepinte.asciidoc-viewer/f507839c6d340d74.png",
-              "alt": "AsciiDoc Viewer icon",
-              "sha256": "f507839c6d340d7419be6e80e577d8d53efa9d1e5e6cfb451354148caacb5550",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Mbirepinte/Orca-asciidoc-viewer",
-          "updatedAt": "2026-11-05T21:22:54+01:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "00681a638bb154b9c818a348b1f57b687055b286",
-          "contentHash": "45327fbd23c2ac4e1058ca474da188ca4109e3eecd92cb2a2edebdd879222ef5",
-          "execution": "sandboxed-ui",
-          "minimumOrca": "1.4.245",
-          "name": "AsciiDoc Viewer",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "AsciiDoc Preview",
-              "detail": ".adoc"
-            }
-          ],
-          "fileTypes": [
-            "adoc"
-          ],
-          "editorFileTypes": [
-            "adoc"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/Mbirepinte/Orca-asciidoc-viewer",
-          "updatedAt": "2026-10-30T16:47:59+01:00"
         }
       ]
     },
