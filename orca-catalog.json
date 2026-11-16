@@ -36472,12 +36472,62 @@
       "ownerId": 4907036,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tagliatti/orca-openapi/0.1.0"
+        "url": "https://github.com/Tagliatti/orca-openapi.git",
+        "ref": "v0.1.1"
       },
       "description": "OpenAPI/Swagger preview beside the YAML: endpoints by tag, colour-coded methods and schemas.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "0840a8ecf9df2dda9e3a59364b33d3ba7f121455",
+          "contentHash": "78012edc305937c01d2a98c8a084444ddc9c516e9aa63924242583abc170701d",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "OpenAPI Preview",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "API",
+              "detail": "openapi.yaml, openapi.yml, openapi.json, swagger.yaml, swagger.yml, swagger.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tagliatti.openapi-preview/d714ccd0234a7206.png",
+              "alt": "OpenAPI Preview: colour-coded GET, POST, PUT and DELETE endpoints beside the Swagger Petstore YAML.",
+              "sha256": "d714ccd0234a72069e1c592c3c8924430bc05d7965333e8a344d4dee1c35c9af",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tagliatti.openapi-preview/9a9b9df31f15d918.png",
+              "alt": "OpenAPI Preview icon",
+              "sha256": "9a9b9df31f15d91870a90d1c2b888baa21236c697b11340680d8704a8432be73",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tagliatti.openapi-preview/43bb7c466840a561.png",
+                "alt": "The OpenAPI Preview tab on the Swagger Petstore spec: version and OAS 3.0 badges, a servers picker with Authorize, and pet endpoints colour-coded by method.",
+                "sha256": "43bb7c466840a5617d29a63fb751a560ab381cce38c8c621d4ea479b72a4b770",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tagliatti.openapi-preview/cfcf37a239b01ca7.png",
+                "alt": "The OpenAPI Preview tab on the Swagger Petstore spec: version and OAS 3.0 badges, a servers picker with Authorize, and pet endpoints colour-coded by method.",
+                "sha256": "cfcf37a239b01ca7656fe0c5d445a5939d5059fb18f346ce781ab7fa3df09640",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/Tagliatti/orca-openapi",
+          "updatedAt": "2026-11-16T17:18:49-03:00"
+        },
         {
           "version": "0.1.0",
           "commit": "ef949604d1513e1c49a9406d5a843d04dbbb278c",
@@ -37083,8 +37133,8 @@
       "ownerId": 5731176,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TiagoDanin/Orca-Flutter.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tiagodanin/orca-flutter/0.3.1"
       },
       "description": "Flutter and Dart support for Orca",
       "categories": [

@@ -2430,7 +2430,7 @@
     },
     "tagliatti/orca-openapi": {
       "state": "listed",
-      "ref": "refs/tags/tagliatti/orca-openapi/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "tagliatti.openapi-preview"
       ]
@@ -2502,7 +2502,7 @@
     },
     "tiagodanin/orca-flutter": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/tiagodanin/orca-flutter/0.3.1",
       "plugins": [
         "tiagodanin.flutter"
       ]
