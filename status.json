@@ -141,13 +141,13 @@
         "aminechr54.agent-split"
       ]
     },
-    "anhtuan2111/orca-machines": {
+    "anhtuan2111/orca-megazinee": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.2.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
       ]
     },
@@ -622,7 +622,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.8.2",
+      "ref": "refs/tags/divlook/orca-sidenote/0.8.2",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1788,7 +1788,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "v0.1.8",
+      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.8",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
@@ -2434,7 +2434,16 @@
       "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.2",
       "plugins": [
         "thanhtrung5763.git-graph"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "thirstydevil/rhai-syntax": {
       "state": "listed",
@@ -2726,7 +2735,7 @@
     },
     "xuan666-lab/orca-latest-artifacts": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.4",
       "plugins": [
         "xuan666-lab.artifact-workbench"
       ]
