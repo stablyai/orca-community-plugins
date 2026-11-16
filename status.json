@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.8.0",
+      "ref": "v0.9.0",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -650,7 +650,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.8.3",
+      "ref": "v0.8.4",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -770,6 +770,16 @@
       ],
       "notes": [
         "engines.orca: must be at least >=1.4.259, because src/worker.ts calls host method \"terminal.focus\", which needs Orca 1.4.259; or guard the call with orca.host.has('terminal.focus')"
+      ]
+    },
+    "erom/orca-plugin-agent-skills": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "eskono/orca-docker-logs": {
@@ -2187,7 +2197,7 @@
     },
     "sergei-popov/orca-archive-viewer": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/sergei-popov/orca-archive-viewer/0.1.1",
       "plugins": [
         "sergei-popov.archive-viewer"
       ]

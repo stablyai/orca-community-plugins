@@ -2898,7 +2898,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.8.0"
+        "ref": "v0.9.0"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.9.0",
+          "commit": "c328ca9eac6d309f45b8215b9c85207443e15924",
+          "contentHash": "32007d967c1d2f8244b8cc2d2933c4930fa12e0d44b926c2ae4798e92b18baf1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T13:28:17-03:00"
+        },
         {
           "version": "0.8.0",
           "commit": "318986d36c1dc3cddd245413384e06b950f87bfe",
@@ -3045,41 +3080,6 @@
           "license": "MIT",
           "repository": "https://github.com/augustovicente/orca-pipeline",
           "updatedAt": "2026-11-16T10:48:22-03:00"
-        },
-        {
-          "version": "0.3.2",
-          "commit": "b103a39b2210d233a349f370a7af7ef214b95b36",
-          "contentHash": "44e90a1bb6b8190202a49c0866d434717baac2e841a04523a60867b5bf54bc01",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Pipeline",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pipeline"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Pipeline"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "terminal:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/augustovicente/orca-pipeline",
-          "updatedAt": "2026-11-16T10:18:10-03:00"
         }
       ]
     },
@@ -9155,8 +9155,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.8.3"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.8.4"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -9164,6 +9164,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.4",
+          "commit": "4f7cd5b70baf3ce852ee592fbb87954fb14e7811",
+          "contentHash": "acb342df64f017d77b8ea83df2a2613eb568fa00c640912f5c5c30db98b8f62c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-17T01:20:11+09:00"
+        },
         {
           "version": "0.8.3",
           "commit": "732b6ee850ecd90715ba2f946e89b7c2d92841f8",
@@ -9395,64 +9453,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-14T23:02:45+09:00"
-        },
-        {
-          "version": "0.7.0",
-          "commit": "9426b8590e219e0ace2864ed2a60238b6ce5d472",
-          "contentHash": "eabb3de2843ea0206a43b956d390540fe2a3e9f0e639343d0eae11c8bbe0d940",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/8305575f8e29ad9e.png",
-              "alt": "SideNote displaying two reading-mode notes and a minimized note",
-              "sha256": "8305575f8e29ad9e076e2e7e6455f6a0d397c91ee053833d3ac193db1ceb60fc",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/232728bb90476261.png",
-                "alt": "A checklist and next steps in reading mode with a minimized implementation note between them",
-                "sha256": "232728bb90476261c826f804add6b54620e239f13cad38e1570ea2f9632cbd0a",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/1321ee838b965a07.png",
-                "alt": "A Markdown note open for editing below a reading-mode checklist and above a minimized note",
-                "sha256": "1321ee838b965a079c4772b35746ebada6d37ea9b8e7130691a283088613c634",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/5d345c14b79e35c8.png",
-                "alt": "Two minimized notes above an expanded note with next steps",
-                "sha256": "5d345c14b79e35c8f99cdb32070bd8b1b2ed5a07ff76ae3ca45b487878aa39fe",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-14T18:56:14+09:00"
         }
       ]
     },
@@ -33297,8 +33297,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-archive-viewer.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-archive-viewer/0.1.1"
       },
       "description": "Browse archives in Orca's editor tabs: .zip, .jar, .apk, .whl, .epub and other ZIP files, .tar, .gz, .bz2, .xz and .zst, .tar.gz too. A file tree with sizes and dates, a filter, previews of text, images and hex, archives inside archives, old code page names and saving one file. Read-only, offline.",
       "categories": [],
