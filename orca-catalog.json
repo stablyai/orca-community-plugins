@@ -2898,7 +2898,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.3.1"
+        "ref": "v0.3.2"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "b103a39b2210d233a349f370a7af7ef214b95b36",
+          "contentHash": "44e90a1bb6b8190202a49c0866d434717baac2e841a04523a60867b5bf54bc01",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T10:18:10-03:00"
+        },
         {
           "version": "0.3.1",
           "commit": "69c59a2beb1a8286659e4d8f644b638da47e218c",
@@ -5261,8 +5296,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.2.0"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -9013,8 +9048,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.8.2"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.8.3"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -9022,6 +9057,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.3",
+          "commit": "732b6ee850ecd90715ba2f946e89b7c2d92841f8",
+          "contentHash": "6fef1436c97d997fc070ffea5bc49039d3a3aa17dfc6c43ad972118332fcc2f4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-16T22:08:23+09:00"
+        },
         {
           "version": "0.8.2",
           "commit": "9856bc5ab4d6dc591a21d837c43b0ac09cf3f019",
@@ -9253,64 +9346,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-14T18:56:14+09:00"
-        },
-        {
-          "version": "0.6.1",
-          "commit": "2b65975b286162925dfdd5fdc7504c5e84757f21",
-          "contentHash": "bd1bdebe09470a0e3bdfad7bd847254c36ca5e909057ce9abfe60dd1b7715fe1",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/2fad0a3c1e8dbb9e.png",
-              "alt": "SideNote displaying two reading-mode notes and a minimized note",
-              "sha256": "2fad0a3c1e8dbb9e378184330c312c4d193849e09c02ed4c737f08a943eca6fc",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/b29417a924f1c1e0.png",
-                "alt": "A checklist and next steps in reading mode with a minimized implementation note between them",
-                "sha256": "b29417a924f1c1e049b02ad131d2e0857e779d6ec6b64cb0618d19d9bd1d32e4",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/8c5f4d2d336ea8e1.png",
-                "alt": "A Markdown note open for editing below a reading-mode checklist and above a minimized note",
-                "sha256": "8c5f4d2d336ea8e1d74fb50d1625ccc46c5c415a759fed42ab2886c1d268b12d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/5db3685f439eaa96.png",
-                "alt": "Two minimized notes above an expanded note with next steps",
-                "sha256": "5db3685f439eaa96b938cbbcfa8b5b175595fafc84046d4766c40c3f13f429db",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-14T17:13:50+09:00"
         }
       ]
     },
@@ -11304,8 +11339,8 @@
       "ownerId": 43491715,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.8"
+        "url": "https://github.com/emamalet/orca-git-log-panel.git",
+        "ref": "v0.1.10"
       },
       "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
       "categories": [
@@ -11313,6 +11348,96 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.10",
+          "commit": "48bfd4460d821af8be852cd02e6e729e07dc1af5",
+          "contentHash": "04c37e39cba7f3c52e9d4e87503b1f91edcbdbc84c4c928ec4e643997f5ccc3d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Log",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Log: Open in Editor Tab"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Log",
+              "detail": ".gitlog"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".gitdiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitlog",
+            "gitdiff"
+          ],
+          "editorFileTypes": [
+            "gitlog",
+            "gitdiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/emamalet.git-log/837f35e2f23073cb.png",
+              "alt": "Git Log title and logo next to the commit graph with three selected commits and the right-click menu to squash, fixup or drop them",
+              "sha256": "837f35e2f23073cbb4dda11e4c17f858d0136c6d6671ddd0a58487ee545800cf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/emamalet.git-log/71e73d4b3210781f.png",
+              "alt": "Git Log icon",
+              "sha256": "71e73d4b3210781fbae7b973a36913ea8942b8d491504e842337ac49bc0dcffe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/emamalet.git-log/fcf2ea594330e1d8.png",
+                "alt": "Commit log with three selected commits and the right-click menu open",
+                "sha256": "fcf2ea594330e1d8e623d2917ac585c4bb4f3e3ba599a3ee1baaef8c1e35a30e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/3e87c5ee26b66d1b.png",
+                "alt": "Side-by-side diff of a TypeScript file with added and removed lines highlighted",
+                "sha256": "3e87c5ee26b66d1b5a08950e578c144aac64433185bed1e86c58e3249cb46f46",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/beec194412fa5c01.png",
+                "alt": "Interactive rebase dialog listing four commits with pick actions",
+                "sha256": "beec194412fa5c01aca174a50d6527fd821c8f76bad600ed12409a4315038e97",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/91aaf6c2808b02af.png",
+                "alt": "Commit graph with branch tree and commit details in the light theme",
+                "sha256": "91aaf6c2808b02af479f750974e98f3cc5aad6433d45579c8d27c8627aacaa33",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/emamalet/orca-git-log-panel",
+          "updatedAt": "2026-11-16T14:29:29+01:00"
+        },
         {
           "version": "0.1.8",
           "commit": "1fd12e19571a55a1bbd7446c040118ca21af2195",
@@ -20969,8 +21094,8 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Lilykos/orca-the-lobby.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lilykos/orca-the-lobby/1.1.0"
       },
       "description": "See every agent in every worktree in one live view: pixel people in a room per project, who needs you or seems stuck, org charts of who started whom, and context and tokens per agent. Everything is read on your machine. Tour and guide: https://lilykos.github.io/orca-the-lobby/",
       "categories": [
@@ -26130,8 +26255,8 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
-        "ref": "v0.1.9"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.9"
       },
       "description": "IntelliJ IDEA-style Git: commit, Log graph, diffs and blame.",
       "categories": [
@@ -27107,12 +27232,188 @@
       "ownerId": 14125451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/orvillelim/orca-code-explainer/1.0.2"
+        "url": "https://github.com/orvillelim/orca-code-explainer.git",
+        "ref": "v1.0.3"
       },
       "description": "Highlight code and Claude Code or Codex explains it: a quick overview, a piece-by-piece breakdown, a call hierarchy, or an interactive flowchart you step through. Reads your project read-only.",
-      "categories": [],
+      "categories": [
+        "integrations"
+      ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "7c134b3862a5160b6ac702324df92a26a672ef6c",
+          "contentHash": "7023c567ce3f41f03c834a0061a86e6fa0b2fccaf426b56fa84967b5eda0ae7f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Code Explainer",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Code Explainer",
+              "detail": ".ts, .tsx, .js, .jsx, .mjs, .cjs, .py, .go, .rs, .java, .kt, .swift, .c, .h, .cpp, .hpp, .cs, .rb, .php, .sh, .sql, .lua, .scala, .dart, .vue, .svelte"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Code Explainer",
+              "detail": ".json, .md, .yaml, .yml, .toml, .css"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Code Explainer",
+              "detail": ".gd, .gdshader, .gdshaderinc, .tscn, .tres, .escn, .godot, .gdextension"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "py",
+            "go",
+            "rs",
+            "java",
+            "kt",
+            "swift",
+            "c",
+            "h",
+            "cpp",
+            "hpp",
+            "cs",
+            "rb",
+            "php",
+            "sh",
+            "sql",
+            "lua",
+            "scala",
+            "dart",
+            "vue",
+            "svelte",
+            "json",
+            "md",
+            "yaml",
+            "yml",
+            "toml",
+            "css",
+            "gd",
+            "gdshader",
+            "gdshaderinc",
+            "tscn",
+            "tres",
+            "escn",
+            "godot",
+            "gdextension"
+          ],
+          "editorFileTypes": [
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "mjs",
+            "cjs",
+            "py",
+            "go",
+            "rs",
+            "java",
+            "kt",
+            "swift",
+            "c",
+            "h",
+            "cpp",
+            "hpp",
+            "cs",
+            "rb",
+            "php",
+            "sh",
+            "sql",
+            "lua",
+            "scala",
+            "dart",
+            "vue",
+            "svelte",
+            "json",
+            "md",
+            "yaml",
+            "yml",
+            "toml",
+            "css",
+            "gd",
+            "gdshader",
+            "gdshaderinc",
+            "tscn",
+            "tres",
+            "escn",
+            "godot",
+            "gdextension"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/orvillelim.code-explainer/819769f5f88a6f28.png",
+              "alt": "Code Explainer: the selection menu with Explain, Break it down, Call hierarchy and Interactive, next to an interactive flowchart of a loop.",
+              "sha256": "819769f5f88a6f28c971c645dcf732cd438aed302ccbb62166ce11aa41658ceb",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/orvillelim.code-explainer/f144d76d5c12e47e.png",
+              "alt": "Code Explainer icon",
+              "sha256": "f144d76d5c12e47edf59fc51ad4d62572536c29bb59b5e466bb53e2ba90b04c5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/orvillelim.code-explainer/743f5fbaa75bff5c.png",
+                "alt": "A loop selected in the editor with the stacked menu open: Explain, Break it down, Call hierarchy and Interactive, each with its shortcut.",
+                "sha256": "743f5fbaa75bff5c1892426563ba24ac57ef21465be3b3d73267d89423a5702d",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/orvillelim.code-explainer/a4e17f9135ee813a.png",
+                "alt": "The explain pane showing a high-level overview of the selected loop: In short, What it is for, Where it fits, Inputs and outputs, Ask next.",
+                "sha256": "a4e17f9135ee813a0dadc46e8effa938899637a5c58339832cdf4290a1eee725",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/orvillelim.code-explainer/8443a67299d8a153.png",
+                "alt": "The explain pane showing a text call tree of the selected loop with file and line notes.",
+                "sha256": "8443a67299d8a1538abe3ddd08d984c2b49f094cb5289f250b1902bff67b2653",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/orvillelim.code-explainer/dd3dc6f145bbedde.png",
+                "alt": "An interactive flowchart of the loop at step 4 of 8, with the active boxes highlighted and the variable values listed.",
+                "sha256": "dd3dc6f145bbedde006ec25bea065c2e3b8ca1dd58244caca3ea1df1f8631aa1",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/orvillelim.code-explainer/37bb1a3e21841b17.png",
+                "alt": "The interactive flowchart switched to the state iteration 3, with lines 3 to 7 highlighted in the editor.",
+                "sha256": "37bb1a3e21841b17558b5817060af5ee1aea4195ccedc55acdbe3c8f5d14dc0a",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/orvillelim/orca-code-explainer",
+          "updatedAt": "2026-11-16T21:20:17+08:00"
+        },
         {
           "version": "1.0.2",
           "commit": "fb14a773afae189db519c8ba75f198b2da68c2d6",
