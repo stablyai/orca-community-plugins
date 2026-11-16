@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/augustovicente/orca-pipeline/0.4.0",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -521,7 +521,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -732,7 +732,7 @@
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.10",
+      "ref": "v0.2.0",
       "plugins": [
         "emamalet.git-log"
       ]
@@ -1168,7 +1168,7 @@
     },
     "javiervinus/vinus-arcade-orca": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.3.2",
       "plugins": [
         "javiervinus.vinus-arcade"
       ]
@@ -2183,7 +2183,7 @@
     },
     "sergei-popov/orca-font-viewer": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/sergei-popov/orca-font-viewer/0.1.1",
       "plugins": [
         "sergei-popov.font-viewer"
       ]
