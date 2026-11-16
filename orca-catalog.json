@@ -11531,14 +11531,60 @@
       "ownerId": 5036316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/eliasjnior/orca-worktree-notes/1.2.0"
+        "url": "https://github.com/eliasjnior/orca-worktree-notes.git",
+        "ref": "v1.3.0"
       },
       "description": "Notion-style Markdown notes for each worktree, in the right sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "768f6cb4cf707195882aebcd98f4bbaa1b671b39",
+          "contentHash": "08f8976bc460867e4ce73c243154dbff556f5ef1d1250f9ea1f65e57d977ae48",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Notes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Notes"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/eliasjnior.worktree-notes/2668efac217cc022.png",
+              "alt": "The Notes panel in Orca's right sidebar, showing a release checklist with headings, tasks, a quote and code.",
+              "sha256": "2668efac217cc022014ad62e7832ee05dcc80a9b66451079cd543e778bf8fe3d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/eliasjnior.worktree-notes/85300daebdf51b40.png",
+              "alt": "Notes icon",
+              "sha256": "85300daebdf51b40ca2384b2faa29e03962976870ac62bbc804ef4e47d02a0a5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/eliasjnior.worktree-notes/e1172b489e2bbe49.png",
+                "alt": "The Notes panel with Markdown styled as you type: a heading, checked and open tasks, a quote and a code block.",
+                "sha256": "e1172b489e2bbe49da12bce3cca5064365ea8071ce84ee73acad29b45d7b2df7",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eliasjnior/orca-worktree-notes",
+          "updatedAt": "2026-11-16T20:29:20-03:00"
+        },
         {
           "version": "1.2.0",
           "commit": "87bf33538274632d8af7867ccbeccdbd90fa7602",
@@ -15811,12 +15857,64 @@
       "ownerId": 125417294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/hadisd/markdown-colorize/1.2.0"
+        "url": "https://github.com/Hadisd/markdown-colorize.git",
+        "ref": "v1.2.1"
       },
       "description": "A colorful, editable view for Markdown and MDX files: colored headings, code, math, diagrams, badges and an outline. Click a block to edit it.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "d91417ce4cac6a9c705c7c8b3eaa448de989ab6c",
+          "contentHash": "6c592788ce505a6a98b5f36854739f780cc440a8054bdcedd61373c24c90db9c",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Markdown Colorize",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Colorized",
+              "detail": ".md, .markdown"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Colorized",
+              "detail": ".mdx"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "fileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hadisd.markdown-colorize/2a161fe2e9fdce5c.png",
+              "alt": "Markdown Colorize preview: a README with a pink title, colored badges, a tagline and highlighted code, with Source and Colorized tabs.",
+              "sha256": "2a161fe2e9fdce5c8bc016d7ca2681c4f887c4f78f1310b04abdbef3701d4ffd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/hadisd.markdown-colorize/767cd4f620e1b56a.png",
+              "alt": "Markdown Colorize icon",
+              "sha256": "767cd4f620e1b56af06fa5433d5dd24f4929251a4a0c2c4067ec45bbccc26bf6",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Hadisd/markdown-colorize",
+          "updatedAt": "2026-11-17T08:32:30+09:00"
+        },
         {
           "version": "1.2.0",
           "commit": "6c2ba4816868987cacdeaa2a42c0490154fac799",
@@ -26628,8 +26726,8 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
-        "ref": "v0.1.10"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.10"
       },
       "description": "IntelliJ IDEA-style Git: commit, Log graph, diffs and blame.",
       "categories": [
@@ -40381,16 +40479,96 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.1"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.1.2"
       },
-      "description": "Real-time token usage, generation TPS, and live model cost analytics across Claude Code, Codex, Gemini, and Antigravity.",
+      "description": "Real-time token usage, generation TPS, and live model cost analytics across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "c9dc51df2b0ac537c6eda17c79dc19214f5073d9",
+          "contentHash": "674ecd701520114d36b0b281cf5d4d0d8ea79a961e128d3f337a3d7ed8a56272",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/650aba6c9d578e05.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "650aba6c9d578e0507f9a5e7e12abb0f8e10a926c4c97a272e6e11c8a69bb25b",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/21cfe0c0e580cf46.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "21cfe0c0e580cf46df5f5afe89baf9a112f52a42c13edf80a1555f5c7a8e2832",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "updatedAt": "2026-11-17T06:50:05+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used"
+        },
         {
           "version": "0.1.1",
           "commit": "6c3938114aadbc0ffa383c19dfe5a99df0b0148d",

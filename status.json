@@ -740,12 +740,9 @@
     },
     "eliasjnior/orca-worktree-notes": {
       "state": "listed",
-      "ref": "refs/tags/eliasjnior/orca-worktree-notes/1.2.0",
+      "ref": "v1.3.0",
       "plugins": [
         "eliasjnior.worktree-notes"
-      ],
-      "notes": [
-        "engines.orca: must be at least >=1.4.247, because src/worker.ts calls host method \"workspace.list\", which needs Orca 1.4.247; or guard the call with orca.host.has('workspace.list')"
       ]
     },
     "ellebam/orca-context-meter": {
@@ -1037,7 +1034,7 @@
     },
     "hadisd/markdown-colorize": {
       "state": "listed",
-      "ref": "refs/tags/hadisd/markdown-colorize/1.2.0",
+      "ref": "v1.2.1",
       "plugins": [
         "hadisd.markdown-colorize"
       ]
@@ -1868,7 +1865,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "v0.1.10",
+      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.10",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
@@ -2782,19 +2779,10 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "wilsonliu123.token-pulse"
-      ],
-      "update": {
-        "ref": "v0.1.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "woodfishhhh/better-project-tree": {
       "state": "listed",
