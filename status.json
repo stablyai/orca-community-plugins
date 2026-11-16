@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "refs/tags/augustovicente/orca-pipeline/0.4.0",
+      "ref": "v0.5.1",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -228,6 +228,16 @@
       "ref": "refs/tags/bahachammakhi/kube-panel/0.1.2",
       "plugins": [
         "bahachammakhi.kube-panel"
+      ]
+    },
+    "bakescakes/orca-plannotator-inbox": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "balakumardev/orca-agent-roster": {
@@ -521,7 +531,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.2.0",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -732,7 +742,7 @@
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.3.1",
       "plugins": [
         "emamalet.git-log"
       ]
@@ -1178,7 +1188,16 @@
       "ref": "refs/tags/jdflament/orca-coordinator/1.1.0",
       "plugins": [
         "jdflament.coordinator-board"
-      ]
+      ],
+      "update": {
+        "ref": "v1.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "jecyxyf/orca-tps-plugin": {
       "state": "listed",

@@ -2897,8 +2897,8 @@
       "ownerId": 41742354,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/augustovicente/orca-pipeline/0.4.0"
+        "url": "https://github.com/augustovicente/orca-pipeline.git",
+        "ref": "v0.5.1"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.5.1",
+          "commit": "62ccdc1a866a2e17638b925516b47a05581b283a",
+          "contentHash": "93656f53ca6ae0a58fd0c17b48a1b0ff38dc06cbb8b5b0711346bb7723d5d7ea",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T11:48:25-03:00"
+        },
         {
           "version": "0.4.0",
           "commit": "ea642bd390086348e9a5611c7005f3d346375345",
@@ -3045,41 +3080,6 @@
           "license": "MIT",
           "repository": "https://github.com/augustovicente/orca-pipeline",
           "updatedAt": "2026-11-15T15:09:13-03:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "9383c5af62b059e42a3d76730fdbc67a571a8b17",
-          "contentHash": "c5317a7fa0ab1584032972ee372f5a1e51c1875931f2622534ea83f62eed36a0",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Pipeline",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pipeline"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Pipeline"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "terminal:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/augustovicente/orca-pipeline",
-          "updatedAt": "2026-11-15T13:27:15-03:00"
         }
       ]
     },
@@ -7786,8 +7786,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.2.0"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -11411,7 +11411,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/emamalet/orca-git-log-panel.git",
-        "ref": "v0.2.0"
+        "ref": "v0.3.1"
       },
       "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
       "categories": [
@@ -11419,6 +11419,96 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "ca9c02c2aadd597a77f2598aa9613d0ae33765d1",
+          "contentHash": "7ebca689f802ec767e6f3ce9308476e8b2781af4a471e12bed924906c2ece7ad",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Log",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Log: Open in Editor Tab"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Log",
+              "detail": ".gitlog"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".gitdiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitlog",
+            "gitdiff"
+          ],
+          "editorFileTypes": [
+            "gitlog",
+            "gitdiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/emamalet.git-log/837f35e2f23073cb.png",
+              "alt": "Git Log title and logo next to the commit graph with three selected commits and the right-click menu to squash, fixup or drop them",
+              "sha256": "837f35e2f23073cbb4dda11e4c17f858d0136c6d6671ddd0a58487ee545800cf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/emamalet.git-log/71e73d4b3210781f.png",
+              "alt": "Git Log icon",
+              "sha256": "71e73d4b3210781fbae7b973a36913ea8942b8d491504e842337ac49bc0dcffe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/emamalet.git-log/fcf2ea594330e1d8.png",
+                "alt": "Commit log with three selected commits and the right-click menu open",
+                "sha256": "fcf2ea594330e1d8e623d2917ac585c4bb4f3e3ba599a3ee1baaef8c1e35a30e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/3e87c5ee26b66d1b.png",
+                "alt": "Side-by-side diff of a TypeScript file with added and removed lines highlighted",
+                "sha256": "3e87c5ee26b66d1b5a08950e578c144aac64433185bed1e86c58e3249cb46f46",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/beec194412fa5c01.png",
+                "alt": "Interactive rebase dialog listing four commits with pick actions",
+                "sha256": "beec194412fa5c01aca174a50d6527fd821c8f76bad600ed12409a4315038e97",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/91aaf6c2808b02af.png",
+                "alt": "Commit graph with branch tree and commit details in the light theme",
+                "sha256": "91aaf6c2808b02af479f750974e98f3cc5aad6433d45579c8d27c8627aacaa33",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/emamalet/orca-git-log-panel",
+          "updatedAt": "2026-11-16T15:48:16+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "6a1e23620a080fadcdcf67235bb4e36f0ad3b4e9",
@@ -11771,89 +11861,6 @@
           "license": "MIT",
           "repository": "https://github.com/emamalet/orca-git-log-panel",
           "updatedAt": "2026-11-10T10:40:26+01:00"
-        },
-        {
-          "version": "0.1.6",
-          "commit": "cda6197c33ebada606438f7664ff274d01cb352b",
-          "contentHash": "eb0863f58bce640f0b9f1d9f12b426707427c6159fa1de6b131327b98720bebe",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Git Log",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Git Log"
-            },
-            {
-              "kind": "commands",
-              "name": "Git Log: Open in Editor Tab"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Git Log",
-              "detail": ".gitlog"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "settings:own"
-          ],
-          "fileTypes": [
-            "gitlog"
-          ],
-          "editorFileTypes": [
-            "gitlog"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/emamalet.git-log/837f35e2f23073cb.png",
-              "alt": "Git Log title and logo next to the commit graph with three selected commits and the right-click menu to squash, fixup or drop them",
-              "sha256": "837f35e2f23073cbb4dda11e4c17f858d0136c6d6671ddd0a58487ee545800cf",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/emamalet.git-log/71e73d4b3210781f.png",
-              "alt": "Git Log icon",
-              "sha256": "71e73d4b3210781fbae7b973a36913ea8942b8d491504e842337ac49bc0dcffe",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/emamalet.git-log/fcf2ea594330e1d8.png",
-                "alt": "Commit log with three selected commits and the right-click menu open",
-                "sha256": "fcf2ea594330e1d8e623d2917ac585c4bb4f3e3ba599a3ee1baaef8c1e35a30e",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/emamalet.git-log/3e87c5ee26b66d1b.png",
-                "alt": "Side-by-side diff of a TypeScript file with added and removed lines highlighted",
-                "sha256": "3e87c5ee26b66d1b5a08950e578c144aac64433185bed1e86c58e3249cb46f46",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/emamalet.git-log/beec194412fa5c01.png",
-                "alt": "Interactive rebase dialog listing four commits with pick actions",
-                "sha256": "beec194412fa5c01aca174a50d6527fd821c8f76bad600ed12409a4315038e97",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/emamalet.git-log/91aaf6c2808b02af.png",
-                "alt": "Commit graph with branch tree and commit details in the light theme",
-                "sha256": "91aaf6c2808b02af479f750974e98f3cc5aad6433d45579c8d27c8627aacaa33",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/emamalet/orca-git-log-panel",
-          "updatedAt": "2026-11-09T10:22:48+01:00"
         }
       ]
     },
