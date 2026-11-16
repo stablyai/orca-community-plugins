@@ -33996,14 +33996,133 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sergei-popov/orca-media-viewer/0.3.0"
+        "url": "https://github.com/Sergei-Popov/orca-media-viewer.git",
+        "ref": "v0.3.1"
       },
-      "description": "Video and audio in Orca's editor tabs: plays .mkv, .avi, .mka and .weba, which Orca cannot show (AVI is converted offline in the tab), and adds a full player view to .mp4, .mov, .webm, .mp3, .flac and other media. Speed, frame stepping, repeat, frame snapshots, file info and keyboard shortcuts.",
+      "description": "A media player in Orca's editor tabs: plays .mkv, .avi, .mka and .weba, which Orca cannot show (AVI is converted offline in the tab), and a full player view for .mp4, .mov, .webm, .mp3, .flac and more. Speed, frame stepping, repeat, frame snapshots, file info, shortcuts, media file icons.",
       "categories": [
         "icons"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "7218997dd856e480abd13a00d565b0f343254ada",
+          "contentHash": "1dda57d84748374d148cefb29540487888d95140b6ea05b3916c3b931c2f2f46",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Media Viewer",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Media Viewer"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mkv, .avi"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mka, .weba"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mp4, .m4v, .mov, .webm"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Media Player",
+              "detail": ".mp3, .wav, .m4a, .aac, .ogg, .oga, .flac, .opus"
+            }
+          ],
+          "fileTypes": [
+            "mkv",
+            "avi",
+            "mka",
+            "weba",
+            "mp4",
+            "m4v",
+            "mov",
+            "webm",
+            "mp3",
+            "wav",
+            "m4a",
+            "aac",
+            "ogg",
+            "oga",
+            "flac",
+            "opus"
+          ],
+          "editorFileTypes": [
+            "mkv",
+            "avi",
+            "mka",
+            "weba",
+            "mp4",
+            "m4v",
+            "mov",
+            "webm",
+            "mp3",
+            "wav",
+            "m4a",
+            "aac",
+            "ogg",
+            "oga",
+            "flac",
+            "opus"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.media-viewer/f8db67d6e138cd10.png",
+              "alt": "A clip paused at 0:06 of 0:12 in Media Viewer, above the seek bar, frame steps, volume, speed, repeat, snapshot, fit, info.",
+              "sha256": "f8db67d6e138cd10d0f47dd2159b84b0872ce5b58f3308ac51619c1cbb38649d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.media-viewer/76302f960f547460.png",
+              "alt": "Media Viewer icon",
+              "sha256": "76302f960f54746058816edc07f20f2acad213eb451b420f493c4750f4dfa348",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.media-viewer/93101f1896f11286.png",
+                "alt": "An .avi converted to MP4 in the tab, offline, paused at 0:02; File info: 9.2 MB, 1280 × 720, 1:00, frame rate 24, .avi.",
+                "sha256": "93101f1896f11286baf18e1ce67201c1f9ab9f0c3829479af1ac7715d48142a0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/5940b01d1190407a.png",
+                "alt": "Speed set to 0.5× and the clip paused at 0:04; the two buttons beside Play step it one frame back or forward.",
+                "sha256": "5940b01d1190407ade887a288d1ed243920e76d64bef569e080ca7e30b786303",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/c89d9149d732e13e.png",
+                "alt": "The camera button (S) saves the paused frame at 0:08 as a PNG file you name, and the player confirms: Frame saved.",
+                "sha256": "c89d9149d732e13e474e1c479ff525c0aa6f3d01e3413450ff1db5aa2d465aa6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.media-viewer/e8bcffaa1e88b147.png",
+                "alt": "Open .mp4, .mov or .webm in Media Player for speed, frame steps and snapshots, at 0:11 of 0:12. Shown in Orca's light theme.",
+                "sha256": "e8bcffaa1e88b1476be1b269be69d233b6122cf671bea55729accaa3e96d00f6",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT AND LGPL-2.1-or-later",
+          "repository": "https://github.com/Sergei-Popov/orca-media-viewer",
+          "updatedAt": "2026-11-17T00:33:52+05:00"
+        },
         {
           "version": "0.3.0",
           "commit": "3fe63fd60f4583fb997d4fa630898e2bbb245b59",
@@ -35098,8 +35217,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.8.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.8.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
@@ -36964,8 +37083,8 @@
       "ownerId": 5731176,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TiagoDanin/Orca-Flutter.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tiagodanin/orca-flutter/0.3.0"
       },
       "description": "Flutter and Dart support for Orca",
       "categories": [

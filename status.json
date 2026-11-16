@@ -2232,7 +2232,7 @@
     },
     "sergei-popov/orca-media-viewer": {
       "state": "listed",
-      "ref": "refs/tags/sergei-popov/orca-media-viewer/0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "sergei-popov.media-viewer"
       ]
@@ -2295,7 +2295,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.8.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.8.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -2492,7 +2492,7 @@
     },
     "tiagodanin/orca-flutter": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/tiagodanin/orca-flutter/0.3.0",
       "plugins": [
         "tiagodanin.flutter"
       ]
