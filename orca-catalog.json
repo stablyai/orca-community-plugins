@@ -2189,8 +2189,8 @@
       "ownerId": 27738449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/AnhVanGiang/orca-agent-accounts.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.2.1"
       },
       "description": "Pick which Claude Code and Codex account each repo, workspace or tab runs its agents on, using the accounts you added in Orca. Move a running Claude tab to another account. macOS only.",
       "categories": [
@@ -2784,6 +2784,43 @@
           "license": "MIT",
           "repository": "https://github.com/ArnaudRinquin/orca-pomodoro",
           "updatedAt": "2026-11-10T10:23:34+01:00"
+        }
+      ]
+    },
+    {
+      "id": "arshvinw5.vesper-pp-theme",
+      "ownerId": 96484421,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/arshvinw5/Vesper-Orca-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Vesper++ for Orca: warm peach and mint on near-black, ported from the Vesper++ VS Code theme (based on Vesper by raunofreiberg).",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "199a08d4e464f252bca98475369434c2824bbe81",
+          "contentHash": "d667243c90b615ea934a7f7df3daf81117599cf0ecc6f832f8357d76369578f8",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Vesper++",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Vesper++"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Vesper++"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/arshvinw5/Vesper-Orca-theme",
+          "updatedAt": "2026-11-16T15:55:22+05:30"
         }
       ]
     },
@@ -12388,50 +12425,6 @@
           "license": "MIT",
           "repository": "https://github.com/Etherll/orca-usage-insights",
           "updatedAt": "2026-11-13T06:54:40+02:00"
-        }
-      ]
-    },
-    {
-      "id": "fabiopbarbieri.omarchy",
-      "ownerId": 49872514,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/fabiopbarbieri/omarchy-orca-plugin/1.0.2"
-      },
-      "description": "Follows your Omarchy theme: app, editor syntax and terminal colors, updated on every theme switch.",
-      "categories": [
-        "commands"
-      ],
-      "releases": [
-        {
-          "version": "1.0.2",
-          "commit": "b99149e5b06538019f1bb7cc581e9eafa0eeb4bf",
-          "contentHash": "d0b9e1264d2c6e57d6e5c1cd997cc7ac40512c9d4d5a6849522e33c19ce77761",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.249",
-          "name": "Omarchy",
-          "contributes": [
-            {
-              "kind": "commands",
-              "name": "Omarchy: Reapply current theme"
-            },
-            {
-              "kind": "commands",
-              "name": "Omarchy: Toggle following the theme"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Omarchy"
-            }
-          ],
-          "capabilities": [
-            "settings:own",
-            "appearance:write"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/fabiopbarbieri/omarchy-orca-plugin",
-          "updatedAt": "2026-11-09T20:55:35-03:00"
         }
       ]
     },
@@ -25869,8 +25862,8 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
-        "ref": "v0.1.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.7"
       },
       "description": "IntelliJ IDEA-style Git: commit, Log graph, diffs and blame.",
       "categories": [
@@ -38988,8 +38981,8 @@
       "ownerId": 276170146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/xuan666-lab/orca-latest-artifacts.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.3"
       },
       "description": "Recent files from your current agent session. Local macOS preview release.",
       "categories": [
