@@ -1745,7 +1745,7 @@
     },
     "nikolasgannon/orca-swarm-visualiser": {
       "state": "rejected",
-      "ref": "v0.4.0",
+      "ref": "v0.4.1",
       "reasons": [
         {
           "category": "under-review",
@@ -1777,6 +1777,16 @@
         {
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "omerfarukgzr/orca-git-plugin": {
+      "state": "rejected",
+      "ref": "v0.1.2",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
         }
       ]
     },
