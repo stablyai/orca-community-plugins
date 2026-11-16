@@ -10,7 +10,7 @@
     },
     "2589195970/jumplens": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/2589195970/jumplens/0.4.0",
       "plugins": [
         "2589195970.jumplens"
       ]
@@ -41,7 +41,7 @@
     },
     "actus7/orca-autocomplete": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/actus7/orca-autocomplete/0.4.0",
       "plugins": [
         "actus7.autocomplete"
       ]
@@ -64,7 +64,7 @@
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.2.0",
       "plugins": [
         "aetna000.atmem-architect"
       ]
@@ -150,7 +150,7 @@
     },
     "anhvangiang/orca-agent-accounts": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.2.0",
       "plugins": [
         "anhvangiang.agent-accounts"
       ]
@@ -293,7 +293,7 @@
     },
     "bigsy/milko": {
       "state": "listed",
-      "ref": "v0.1.3",
+      "ref": "refs/tags/bigsy/milko/0.1.3",
       "plugins": [
         "bigsy.milko"
       ]
@@ -573,13 +573,10 @@
       ]
     },
     "dinhkarate/orca-incognito": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "dinhkarate.incognito-projects"
       ]
     },
     "dinhkarate/orca-quota": {
@@ -690,7 +687,7 @@
         "erlhon9.pod"
       ],
       "update": {
-        "ref": "v0.4.1",
+        "ref": "v0.4.3",
         "reasons": [
           {
             "category": "under-review",
@@ -938,7 +935,7 @@
     },
     "hadisd/markdown-colorize": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/hadisd/markdown-colorize/1.2.0",
       "plugins": [
         "hadisd.markdown-colorize"
       ]
@@ -959,14 +956,14 @@
     },
     "harsh97/command-code-usage": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/harsh97/command-code-usage/1.1.0",
       "plugins": [
         "harsh97.command-code-usage"
       ]
     },
     "harsh97/muse-usage": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/harsh97/muse-usage/1.0.0",
       "plugins": [
         "harsh97.muse-usage"
       ]
@@ -1136,7 +1133,7 @@
     },
     "jeong-jae-hun/orca-ping-public": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/jeong-jae-hun/orca-ping-public/0.5.0",
       "plugins": [
         "jeong-jae-hun.ping-inbox"
       ]
@@ -1262,7 +1259,7 @@
     },
     "kloppers-labs/orca-azure-devops": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.4.1",
       "plugins": [
         "kloppers-labs.azure-devops"
       ]
@@ -1296,7 +1293,7 @@
     },
     "kyino-pan/agents-director": {
       "state": "listed",
-      "ref": "v0.1.7",
+      "ref": "refs/tags/kyino-pan/agents-director/0.1.7",
       "plugins": [
         "kyino-pan.agent-activity"
       ]
@@ -1349,7 +1346,7 @@
     },
     "lindoo67/drawio-plugin": {
       "state": "listed",
-      "ref": "v0.1.6",
+      "ref": "refs/tags/lindoo67/drawio-plugin/0.1.6",
       "plugins": [
         "lindoo67.drawio"
       ],
@@ -1426,7 +1423,7 @@
     },
     "marcoronline/ballast-orca-plugin": {
       "state": "listed",
-      "ref": "v0.7.0",
+      "ref": "refs/tags/marcoronline/ballast-orca-plugin/0.7.0",
       "plugins": [
         "marcoronline.ballast"
       ]
@@ -1670,7 +1667,7 @@
     },
     "nhangen/orca-plugins": {
       "state": "listed",
-      "ref": "v0.1.8",
+      "ref": "refs/tags/nhangen/orca-plugins/git-issues/0.1.8",
       "plugins": [
         "nhangen.git-issues"
       ]
@@ -1721,14 +1718,14 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "v0.1.6",
+      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.6",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
     },
     "orvillelim/orca-code-explainer": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/orvillelim/orca-code-explainer/1.0.2",
       "plugins": [
         "orvillelim.code-explainer"
       ]
@@ -1925,7 +1922,7 @@
     },
     "rodrigorodrigo/orca-agent-config-sync": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/rodrigorodrigo/orca-agent-config-sync/0.2.1",
       "plugins": [
         "rodrigorodrigo.agent-config-sync"
       ]
@@ -2097,7 +2094,7 @@
     },
     "sergei-popov/orca-font-viewer": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/sergei-popov/orca-font-viewer/0.1.0",
       "plugins": [
         "sergei-popov.font-viewer"
       ]
@@ -2118,7 +2115,7 @@
     },
     "sergei-popov/orca-media-viewer": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/sergei-popov/orca-media-viewer/0.3.0",
       "plugins": [
         "sergei-popov.media-viewer"
       ]
@@ -2181,7 +2178,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.7.2",
+      "ref": "refs/tags/shaurgon/conport-orca/0.7.2",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -2191,6 +2188,13 @@
       "ref": "refs/tags/shu-vro/orca-read-aloud/0.1.0",
       "plugins": [
         "shu-vro.read-aloud"
+      ]
+    },
+    "shumkov/orca-cliproxy-usage": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "shumkov.cliproxy-usage"
       ]
     },
     "sks-other/orca-dsh-web": {
@@ -2299,7 +2303,7 @@
     },
     "tagliatti/orca-openapi": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/tagliatti/orca-openapi/0.1.0",
       "plugins": [
         "tagliatti.openapi-preview"
       ]
@@ -2611,7 +2615,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.1",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

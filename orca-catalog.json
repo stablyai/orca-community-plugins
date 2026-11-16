@@ -303,8 +303,8 @@
       "ownerId": 25520960,
       "source": {
         "kind": "git",
-        "url": "https://github.com/2589195970/JumpLens.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/2589195970/jumplens/0.4.0"
       },
       "description": "Java、Vue 与 JS/TS 代码导航、Java 语义着色和同版本 Git 提交阅读，提供 One Dark 与 IDEA 配色。",
       "categories": [
@@ -797,8 +797,8 @@
       "ownerId": 24607590,
       "source": {
         "kind": "git",
-        "url": "https://github.com/actus7/orca-autocomplete.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/actus7/orca-autocomplete/0.4.0"
       },
       "description": "Gray inline suggestions as you type, powered by the AI provider you choose (OpenAI, Anthropic, OpenRouter, Mistral, Ollama or any compatible API), plus snippets, postfix templates and language servers with the AI off.",
       "categories": [
@@ -1435,8 +1435,8 @@
       "ownerId": 300051964,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aetna000/atmem-ai-architect-orca.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.2.0"
       },
       "description": "Explore a complete AI project, create your own design and download project files inside Orca. Contact: hello@atmem.ai.",
       "categories": [
@@ -2189,8 +2189,8 @@
       "ownerId": 27738449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/AnhVanGiang/orca-agent-accounts.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.2.0"
       },
       "description": "Pick which Claude Code and Codex account each repo, workspace or tab runs its agents on, using the accounts you added in Orca. Move a running Claude tab to another account. macOS only.",
       "categories": [
@@ -4141,8 +4141,8 @@
       "ownerId": 354898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Bigsy/milko.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bigsy/milko/0.1.3"
       },
       "description": "Edit Markdown directly in a rendered view, with local spelling and grammar checks powered by Harper. Includes Mermaid diagrams, maths, themes and recoverable drafts.",
       "categories": [],
@@ -8655,6 +8655,47 @@
           "license": "MIT",
           "repository": "https://github.com/dimsedra/borderless-mono",
           "updatedAt": "2026-11-15T07:35:44+07:00"
+        }
+      ]
+    },
+    {
+      "id": "dinhkarate.incognito-projects",
+      "ownerId": 57869841,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dinhkarate/orca-incognito.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Hide private projects from Orca behind a passcode, and bring them back when you need them.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "4ef565d9ab0f8e6a877875a075d0da991594463b",
+          "contentHash": "c6d0e67672c0d69b1d9c0e952c6e3cd4fea8ad65b505e4913aa90ad88c0ca9d4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Incognito Projects",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Incognito"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "workspace:read"
+          ],
+          "updatedAt": "2026-11-12T14:09:08+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/dinhkarate/orca-incognito"
         }
       ]
     },
@@ -14829,8 +14870,8 @@
       "ownerId": 125417294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Hadisd/markdown-colorize.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hadisd/markdown-colorize/1.2.0"
       },
       "description": "A colorful, editable view for Markdown and MDX files: colored headings, code, math, diagrams, badges and an outline. Click a block to edit it.",
       "categories": [],
@@ -15099,8 +15140,8 @@
       "ownerId": 12786118,
       "source": {
         "kind": "git",
-        "url": "https://github.com/harsh97/command-code-usage.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/harsh97/command-code-usage/1.1.0"
       },
       "description": "Shows Command Code subscription usage in Orca: one status bar item with your tightest limit, and a panel with the 5-hour window, the weekly window and your monthly credit balance side by side. Reads the key `commandcode login` already stored, so there is nothing to configure.",
       "categories": [
@@ -15140,8 +15181,8 @@
       "ownerId": 12786118,
       "source": {
         "kind": "git",
-        "url": "https://github.com/harsh97/muse-usage.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/harsh97/muse-usage/1.0.0"
       },
       "description": "Shows your Muse subscription usage (window and weekly) in Orca's status bar — percent used and time to reset. It reads the local muse CLI, which must be installed and signed in, and makes no network requests.",
       "categories": [
@@ -17411,8 +17452,8 @@
       "ownerId": 122011723,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Jeong-Jae-Hun/orca-ping-public.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jeong-jae-hun/orca-ping-public/0.5.0"
       },
       "description": "개인 수집기의 보고와 작업 제안을 모으고, 프로젝트별 작업 세션을 이어갑니다.",
       "categories": [
@@ -19216,8 +19257,8 @@
       "ownerId": 334841805,
       "source": {
         "kind": "git",
-        "url": "https://github.com/kloppers-labs/orca-azure-devops.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.4.1"
       },
       "description": "Unofficial. Azure DevOps in Orca: a board you can work in, one-click agents, and work items, pull requests, pipelines and wikis.",
       "categories": [
@@ -19883,8 +19924,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Kyino-Pan/agents-director.git",
-        "ref": "v0.1.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kyino-pan/agents-director/0.1.7"
       },
       "description": "A rolling 7-day agent timeline reconstructed from Orca logs, with live status updates and orchestration message arrows.",
       "categories": [
@@ -20637,8 +20678,8 @@
       "ownerId": 268206566,
       "source": {
         "kind": "git",
-        "url": "https://github.com/lindoo67/drawio-plugin.git",
-        "ref": "v0.1.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lindoo67/drawio-plugin/0.1.6"
       },
       "description": "在 Orca 中完全离线创建和编辑 draw.io 流程图、架构图及多页图表，支持无界画布、可折叠侧栏、常用矢量图形库、撤销重做、自动同步，以及高清 PNG 和 SVG 剪贴板复制。",
       "categories": [],
@@ -21383,8 +21424,8 @@
       "ownerId": 7857568,
       "source": {
         "kind": "git",
-        "url": "https://github.com/MarcorOnline/ballast-orca-plugin.git",
-        "ref": "v0.7.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/marcoronline/ballast-orca-plugin/0.7.0"
       },
       "description": "Shows what weighs on your coding agent's context in a folder (plugins, skills, MCP servers, claude.ai connectors, memory) and turns each item on or off for that folder only. Supports Claude Code and Codex.",
       "categories": [
@@ -25051,8 +25092,8 @@
       "ownerId": 451202,
       "source": {
         "kind": "git",
-        "url": "https://github.com/nhangen/orca-plugins.git",
-        "ref": "v0.1.8",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/nhangen/orca-plugins/git-issues/0.1.8",
         "path": "plugins/git-issues"
       },
       "description": "Show GitHub issues, pull requests, and git branches for the currently loaded repository in Orca's sidebar.",
@@ -25460,8 +25501,8 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
-        "ref": "v0.1.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.6"
       },
       "description": "An IntelliJ IDEA-style Git tool window: commit, the Log with its branch graph, diffs and blame.",
       "categories": [
@@ -26197,8 +26238,8 @@
       "ownerId": 14125451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/orvillelim/orca-code-explainer.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/orvillelim/orca-code-explainer/1.0.2"
       },
       "description": "Highlight code and Claude Code or Codex explains it: a quick overview, a piece-by-piece breakdown, a call hierarchy, or an interactive flowchart you step through. Reads your project read-only.",
       "categories": [],
@@ -28425,8 +28466,8 @@
       "ownerId": 46758811,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rodrigorodrigo/orca-agent-config-sync.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rodrigorodrigo/orca-agent-config-sync/0.2.1"
       },
       "description": "Alpha: back up and restore AI-agent configuration through a git repository.",
       "categories": [
@@ -32125,8 +32166,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-font-viewer.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-font-viewer/0.1.0"
       },
       "description": "Fonts in Orca's editor tabs: opens .ttf, .otf, .woff, .woff2, .ttc and .otc files with sample text at any size, a waterfall of sizes, variable axes and named instances, OpenType feature switches, every character grouped by Unicode block with code points to copy, and the font's names, metrics, licenc",
       "categories": [],
@@ -32465,8 +32506,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-media-viewer.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-media-viewer/0.3.0"
       },
       "description": "Video and audio in Orca's editor tabs: plays .mkv, .avi, .mka and .weba, which Orca cannot show (AVI is converted offline in the tab), and adds a full player view to .mp4, .mov, .webm, .mp3, .flac and other media. Speed, frame stepping, repeat, frame snapshots, file info and keyboard shortcuts.",
       "categories": [
@@ -33567,8 +33608,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.7.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.7.2"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
@@ -33730,6 +33771,80 @@
           "license": "MIT",
           "repository": "https://github.com/shu-vro/orca-read-aloud",
           "updatedAt": "2026-11-13T01:10:36+06:00"
+        }
+      ]
+    },
+    {
+      "id": "shumkov.cliproxy-usage",
+      "ownerId": 24296,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shumkov/orca-cliproxy-usage.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Codex and Claude account usage, across local and SSH-connected CLIProxy hosts.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "ffe80713ec5186ebfed6ad93d9552c86726221cb",
+          "contentHash": "112a42b5f8be62b25afe39c856baa0590d66e24633572ecbe28e5e8136a15673",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.258",
+          "name": "CLIProxy Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CLIProxy Usage"
+            },
+            {
+              "kind": "commands",
+              "name": "CLIProxy: Open Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Codex —"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude —"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shumkov.cliproxy-usage/433a8fc574656f78.png",
+              "alt": "CLIProxy Usage: Codex and Claude usage across local and SSH hosts, with an illustrative quota gauge.",
+              "sha256": "433a8fc574656f7837910296bca1d585ad53029dbe3a297f567c3b719ecb9f3e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/shumkov.cliproxy-usage/869b0280f122120d.png",
+              "alt": "CLIProxy Usage icon",
+              "sha256": "869b0280f122120d314483795da89cb7026e29a173c7838bcfc035592fb9cbd2",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/shumkov.cliproxy-usage/86e174922753555c.png",
+                "alt": "Compact, Detailed and account detail views with fictional accounts and simulated quota.",
+                "sha256": "86e174922753555c77afa1728301afed74479110ec48fdb07d2f3acf699b3bc7",
+                "width": 1280,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shumkov/orca-cliproxy-usage",
+          "updatedAt": "2026-11-16T15:25:17+07:00"
         }
       ]
     },
@@ -34690,8 +34805,8 @@
       "ownerId": 4907036,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Tagliatti/orca-openapi.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tagliatti/orca-openapi/0.1.0"
       },
       "description": "OpenAPI/Swagger preview beside the YAML: endpoints by tag, colour-coded methods and schemas.",
       "categories": [],
@@ -37880,8 +37995,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.1"
       },
       "description": "Real-time token usage, generation TPS, and live model cost analytics across Claude Code, Codex, Gemini, and Antigravity.",
       "categories": [
