@@ -216,7 +216,7 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.0",
       "plugins": [
         "aywengo.omlx"
       ]
@@ -1868,7 +1868,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.9",
+      "ref": "v0.1.10",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
@@ -2785,7 +2785,16 @@
       "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.1",
       "plugins": [
         "wilsonliu123.token-pulse"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "woodfishhhh/better-project-tree": {
       "state": "listed",

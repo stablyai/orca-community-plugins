@@ -3305,8 +3305,8 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.0"
       },
       "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
       "categories": [
@@ -26628,8 +26628,8 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.9"
+        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
+        "ref": "v0.1.10"
       },
       "description": "IntelliJ IDEA-style Git: commit, Log graph, diffs and blame.",
       "categories": [
@@ -26638,6 +26638,98 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.10",
+          "commit": "84673dcf27dd819c44d8bed391f7598778dcf42e",
+          "contentHash": "ace06f0806a7b69d12e8be3641f440b3a8adc64e3bab132f2218bdfbcff5ea4c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "HayBrains Git",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Commit"
+            },
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "commands",
+              "name": "HayBrains Git: Show Git Panel"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "HayBrains Git",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "gitpanel"
+          ],
+          "editorFileTypes": [
+            "gitpanel"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/omerfarukgzr.git-panel/a8417060111192a1.webp",
+              "alt": "The commit graph of the Git panel's Log with coloured branch lanes and ref labels, beside the Commit panel's ticked local changes",
+              "sha256": "a8417060111192a1db9bd7e5998f68e67bbaf1b34bcd19b700680bada18b86b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/omerfarukgzr.git-panel/fd08e0247070dae9.png",
+              "alt": "HayBrains Git icon",
+              "sha256": "fd08e0247070dae98234408f2cbba856c712c80dac6c2aafb7779f4e78d390aa",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/omerfarukgzr.git-panel/15f9d10e29ffe8f3.webp",
+                "alt": "Right sidebar panels: Commit with changes ticked and a message; Git with the Log and a selected commit's files; Git with its Branches drawer",
+                "sha256": "15f9d10e29ffe8f3a17e1b57c26eb8ac60892ee4baa33f1910cc934305b78faa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/omerfarukgzr.git-panel/e8a944afa4bd58f2.webp",
+                "alt": "A commit's change to a TypeScript file, side by side, in a tab of Orca's center area opened from the Git panel",
+                "sha256": "e8a944afa4bd58f206a2f57bce727ef5efafe8eef2884fb3653fa7e4a6c70a10",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/omerfarukgzr.git-panel/0dfd9c76301a737e.webp",
+                "alt": "Right sidebar Commit panel: the Stash tab with two stashes and one's files; the Worktrees list; a linked worktree shown with Back",
+                "sha256": "0dfd9c76301a737ed0f33777f85c283d8807c9a07873fc422bf889badf4b510e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
+          "updatedAt": "2026-11-17T01:59:20+03:00"
+        },
         {
           "version": "0.1.9",
           "commit": "183ac2aa1d55da3e94fc11e8e99a7edfa9935844",
@@ -27251,352 +27343,6 @@
           "license": "MIT",
           "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
           "updatedAt": "2026-11-16T11:10:31+03:00"
-        },
-        {
-          "version": "0.1.5",
-          "commit": "9ffd860bbcac0ba1e53a3d9fd7edf0eaeb27ab70",
-          "contentHash": "267dfc8e373dc547d7a00fb0ef8dab999e5c31641c723a68bb37a83f155b296a",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Git Panel",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Commit"
-            },
-            {
-              "kind": "panels",
-              "name": "Git"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Git Panel",
-              "detail": ".gitpanel"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".go, .ts, .tsx, .js, .jsx, .mjs, .cjs, .json, .md, .yaml, .yml, .toml, .xml, .html, .css, .scss, .vue, .svelte, .py, .rb, .php, .java, .kt, .swift, .c"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".h, .cpp, .hpp, .cs, .rs, .sh, .sql, .dart, .lua, .gradle, .properties, .ini, .conf, .cfg, .txt, .csv, .tsv, .graphql, .gql, .proto, .tf, .hcl, .ex"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".exs, .erl, .hs, .ml, .scala, .clj, .r, .jl, .pl, .pm, .m, .mm, .zsh, .bash, .fish, .ps1, .kts, .groovy, .less, .sass, .styl, .htm, .xhtml, .jsonc"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".json5, .lock, .mdx, .rst, .tex, .astro, .hbs, .ejs, .pug, .twig, .erb, .j2, .tpl, .plist, .pbxproj, .xcconfig, .entitlements, .storyboard, .xib"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".strings, .cmake, .mk, .bat, .cmd, .cc, .cxx, .hh, .hxx, .fs, .fsx, .vb, .nim, .zig, .sol, .elm, .cr, .d, .s, .asm, .svg, .diff, .patch, .log, .mod"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".sum, .env, .iml, .gemspec, .podspec, .cjsx, .mts, .cts, .prisma, .nix, .bzl, .cabal, Dockerfile, Makefile, Gemfile, Rakefile, Podfile, Procfile"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": "Brewfile, Vagrantfile, Jenkinsfile, LICENSE, README, CHANGELOG, NOTICE, AUTHORS, CODEOWNERS, .gitignore, .gitattributes, .gitmodules, .editorconfig"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Blame",
-              "detail": ".env, .npmrc, .nvmrc, .prettierrc, .eslintrc, .babelrc, .dockerignore, .zshrc, .bashrc"
-            },
-            {
-              "kind": "newFiles",
-              "name": "Git",
-              "detail": ".gitpanel"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write"
-          ],
-          "fileTypes": [
-            "gitpanel",
-            "go",
-            "ts",
-            "tsx",
-            "js",
-            "jsx",
-            "mjs",
-            "cjs",
-            "json",
-            "md",
-            "yaml",
-            "yml",
-            "toml",
-            "xml",
-            "html",
-            "css",
-            "scss",
-            "vue",
-            "svelte",
-            "py",
-            "rb",
-            "php",
-            "java",
-            "kt",
-            "swift",
-            "c",
-            "h",
-            "cpp",
-            "hpp",
-            "cs",
-            "rs",
-            "sh",
-            "sql",
-            "dart",
-            "lua",
-            "gradle",
-            "properties",
-            "ini",
-            "conf",
-            "cfg",
-            "txt",
-            "csv",
-            "tsv",
-            "graphql",
-            "gql",
-            "proto",
-            "tf",
-            "hcl",
-            "ex",
-            "exs",
-            "erl",
-            "hs",
-            "ml",
-            "scala",
-            "clj",
-            "r",
-            "jl",
-            "pl",
-            "pm",
-            "m",
-            "mm",
-            "zsh",
-            "bash",
-            "fish",
-            "ps1",
-            "kts",
-            "groovy",
-            "less",
-            "sass",
-            "styl",
-            "htm",
-            "xhtml",
-            "jsonc",
-            "json5",
-            "lock",
-            "mdx",
-            "rst",
-            "tex",
-            "astro",
-            "hbs",
-            "ejs",
-            "pug",
-            "twig",
-            "erb",
-            "j2",
-            "tpl",
-            "plist",
-            "pbxproj",
-            "xcconfig",
-            "entitlements",
-            "storyboard",
-            "xib",
-            "strings",
-            "cmake",
-            "mk",
-            "bat",
-            "cmd",
-            "cc",
-            "cxx",
-            "hh",
-            "hxx",
-            "fs",
-            "fsx",
-            "vb",
-            "nim",
-            "zig",
-            "sol",
-            "elm",
-            "cr",
-            "d",
-            "s",
-            "asm",
-            "svg",
-            "diff",
-            "patch",
-            "log",
-            "mod",
-            "sum",
-            "env",
-            "iml",
-            "gemspec",
-            "podspec",
-            "cjsx",
-            "mts",
-            "cts",
-            "prisma",
-            "nix",
-            "bzl",
-            "cabal"
-          ],
-          "editorFileTypes": [
-            "gitpanel",
-            "go",
-            "ts",
-            "tsx",
-            "js",
-            "jsx",
-            "mjs",
-            "cjs",
-            "json",
-            "md",
-            "yaml",
-            "yml",
-            "toml",
-            "xml",
-            "html",
-            "css",
-            "scss",
-            "vue",
-            "svelte",
-            "py",
-            "rb",
-            "php",
-            "java",
-            "kt",
-            "swift",
-            "c",
-            "h",
-            "cpp",
-            "hpp",
-            "cs",
-            "rs",
-            "sh",
-            "sql",
-            "dart",
-            "lua",
-            "gradle",
-            "properties",
-            "ini",
-            "conf",
-            "cfg",
-            "txt",
-            "csv",
-            "tsv",
-            "graphql",
-            "gql",
-            "proto",
-            "tf",
-            "hcl",
-            "ex",
-            "exs",
-            "erl",
-            "hs",
-            "ml",
-            "scala",
-            "clj",
-            "r",
-            "jl",
-            "pl",
-            "pm",
-            "m",
-            "mm",
-            "zsh",
-            "bash",
-            "fish",
-            "ps1",
-            "kts",
-            "groovy",
-            "less",
-            "sass",
-            "styl",
-            "htm",
-            "xhtml",
-            "jsonc",
-            "json5",
-            "lock",
-            "mdx",
-            "rst",
-            "tex",
-            "astro",
-            "hbs",
-            "ejs",
-            "pug",
-            "twig",
-            "erb",
-            "j2",
-            "tpl",
-            "plist",
-            "pbxproj",
-            "xcconfig",
-            "entitlements",
-            "storyboard",
-            "xib",
-            "strings",
-            "cmake",
-            "mk",
-            "bat",
-            "cmd",
-            "cc",
-            "cxx",
-            "hh",
-            "hxx",
-            "fs",
-            "fsx",
-            "vb",
-            "nim",
-            "zig",
-            "sol",
-            "elm",
-            "cr",
-            "d",
-            "s",
-            "asm",
-            "svg",
-            "diff",
-            "patch",
-            "log",
-            "mod",
-            "sum",
-            "env",
-            "iml",
-            "gemspec",
-            "podspec",
-            "cjsx",
-            "mts",
-            "cts",
-            "prisma",
-            "nix",
-            "bzl",
-            "cabal"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/omerfarukgzr.git-panel/fd08e0247070dae9.png",
-              "alt": "Git Panel icon",
-              "sha256": "fd08e0247070dae98234408f2cbba856c712c80dac6c2aafb7779f4e78d390aa",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
-          "updatedAt": "2026-11-16T09:56:20+03:00"
         }
       ]
     },
