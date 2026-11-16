@@ -2898,7 +2898,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.7.2"
+        "ref": "v0.8.0"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.0",
+          "commit": "318986d36c1dc3cddd245413384e06b950f87bfe",
+          "contentHash": "53a0c6cad2a19eb2636e040e0a8f75ff5fde3eeeded35de45ef7cbb4661d8155",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T12:57:35-03:00"
+        },
         {
           "version": "0.7.2",
           "commit": "b59866b678995686468c336cd639deeac6c46fb5",
@@ -3045,41 +3080,6 @@
           "license": "MIT",
           "repository": "https://github.com/augustovicente/orca-pipeline",
           "updatedAt": "2026-11-16T10:18:10-03:00"
-        },
-        {
-          "version": "0.3.1",
-          "commit": "69c59a2beb1a8286659e4d8f644b638da47e218c",
-          "contentHash": "481926c34ce9136963c083845d93a18f008479bada7338e9465207c566851b54",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Pipeline",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pipeline"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Pipeline"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "terminal:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/augustovicente/orca-pipeline",
-          "updatedAt": "2026-11-16T09:57:06-03:00"
         }
       ]
     },
@@ -33297,12 +33297,131 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sergei-popov/orca-archive-viewer/0.1.0"
+        "url": "https://github.com/Sergei-Popov/orca-archive-viewer.git",
+        "ref": "v0.1.1"
       },
-      "description": "Browse archives in Orca's editor tabs: .zip, .jar, .apk, .whl, .epub and other ZIP files, .tar, and .gz, .bz2, .xz or .zst (also .tar.gz and friends). A fast file tree with sizes and dates, a filter, previews of the text, images and hex inside, nested archives, legacy code page names and saving sing",
+      "description": "Browse archives in Orca's editor tabs: .zip, .jar, .apk, .whl, .epub and other ZIP files, .tar, .gz, .bz2, .xz and .zst, .tar.gz too. A file tree with sizes and dates, a filter, previews of text, images and hex, archives inside archives, old code page names and saving one file. Read-only, offline.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "57efe8832715022b7dfe0f107f8e82552ca3bd59",
+          "contentHash": "6ecd666cde12f7ba55de8ecbb5a75c1f328056647c98ed15dd0851775bb1dc0b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Archive Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Archive Viewer",
+              "detail": ".zip, .jar, .war, .ear, .aar, .apk, .whl, .nupkg, .vsix, .xpi, .ipa, .epub, .tar, .gz, .tgz, .bz2, .tbz2, .tbz, .xz, .txz, .zst, .tzst"
+            }
+          ],
+          "fileTypes": [
+            "zip",
+            "jar",
+            "war",
+            "ear",
+            "aar",
+            "apk",
+            "whl",
+            "nupkg",
+            "vsix",
+            "xpi",
+            "ipa",
+            "epub",
+            "tar",
+            "gz",
+            "tgz",
+            "bz2",
+            "tbz2",
+            "tbz",
+            "xz",
+            "txz",
+            "zst",
+            "tzst"
+          ],
+          "editorFileTypes": [
+            "zip",
+            "jar",
+            "war",
+            "ear",
+            "aar",
+            "apk",
+            "whl",
+            "nupkg",
+            "vsix",
+            "xpi",
+            "ipa",
+            "epub",
+            "tar",
+            "gz",
+            "tgz",
+            "bz2",
+            "tbz2",
+            "tbz",
+            "xz",
+            "txz",
+            "zst",
+            "tzst"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.archive-viewer/aee455ebe6091b21.png",
+              "alt": "Archive Viewer on a 1,856-file ZIP: the folder tree with sizes, and the selected image's size, method, CRC-32 and dimensions.",
+              "sha256": "aee455ebe6091b21968d0db0746ea6968998743e3cb68dfe1a5e6abe463f7aa9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.archive-viewer/759974f67834afa6.png",
+              "alt": "Archive Viewer icon",
+              "sha256": "759974f67834afa6616949a0c0751c7e768c13933b8e15299128b61e5f261410",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.archive-viewer/3f124b9884eec761.png",
+                "alt": "A jar inside a ZIP opened in place: a trail back to Archive, the jar's 86 files in 16 folders, and its MANIFEST.MF previewed.",
+                "sha256": "3f124b9884eec761930af07528c90cc41d8af477e5ec2bdb09562aca74647b0d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.archive-viewer/fe238cc3d2e5ab3d.png",
+                "alt": "A .tar.xz of 1,856 files filtered by .ts: the matches in their folders, and src/app/router.ts opened with line numbers.",
+                "sha256": "fe238cc3d2e5ab3da2a9018a8c36ee003bd4f68a1122aaf94c81ca22770e3779",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.archive-viewer/28cecb7ab758e717.png",
+                "alt": "hero.png previewed without unpacking, found with the .png filter, under its size, method, CRC-32 and dimensions: 1600 × 640.",
+                "sha256": "28cecb7ab758e717a36f97b4b0f2355dad75ebf2b68fac17e9187feb056972a5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.archive-viewer/607d4fbeed52209a.png",
+                "alt": "Russian file names stored in DOS code page 866 read correctly once CP866 · DOS Cyrillic is picked in the Names menu.",
+                "sha256": "607d4fbeed52209ae6a45c967d93f86d71786fe50db00d3ff1d9edcc68a6acc6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.archive-viewer/b3fd85c970c8b708.png",
+                "alt": "CHANGELOG.md saved on its own with Save… and a Saved notice, below its size, method and CRC-32. Shown in Orca's light theme.",
+                "sha256": "b3fd85c970c8b70821aeed253a40a234bb18bce7a5661369887e9d1540bfabe6",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Sergei-Popov/orca-archive-viewer",
+          "updatedAt": "2026-11-16T20:00:26+05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "2934a3146315772abf89cdb72e88260ff62e55b2",

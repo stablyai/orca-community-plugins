@@ -335,6 +335,12 @@
     "repoId": 1458999950,
     "firstSeen": "2026-11-16T15:55:16.295Z"
   },
+  "augustovicente.pipeline@0.8.0": {
+    "commit": "318986d36c1dc3cddd245413384e06b950f87bfe",
+    "contentHash": "53a0c6cad2a19eb2636e040e0a8f75ff5fde3eeeded35de45ef7cbb4661d8155",
+    "repoId": 1458999950,
+    "firstSeen": "2026-11-16T16:18:18.711Z"
+  },
   "awallsr.beads@0.2.1": {
     "commit": "d2a527c3231a5a314b7416110329e462569f60d3",
     "contentHash": "5bb129ac236fa6223e38b17060133e9d386b777216d27ff379dc8dd1eabad00b",
@@ -3364,6 +3370,12 @@
     "contentHash": "780da2044c6e72dccd969f73aab6c0996b559421a12d03a5e76896acff518694",
     "repoId": 1457892568,
     "firstSeen": "2026-11-14T19:08:18.719Z"
+  },
+  "sergei-popov.archive-viewer@0.1.1": {
+    "commit": "57efe8832715022b7dfe0f107f8e82552ca3bd59",
+    "contentHash": "6ecd666cde12f7ba55de8ecbb5a75c1f328056647c98ed15dd0851775bb1dc0b",
+    "repoId": 1457892568,
+    "firstSeen": "2026-11-16T16:18:18.711Z"
   },
   "sergei-popov.class-viewer@0.1.0": {
     "commit": "a414d4c1fc300555fce178cba953ca71759e113c",

@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.7.2",
+      "ref": "v0.8.0",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -2187,19 +2187,10 @@
     },
     "sergei-popov/orca-archive-viewer": {
       "state": "listed",
-      "ref": "refs/tags/sergei-popov/orca-archive-viewer/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "sergei-popov.archive-viewer"
-      ],
-      "update": {
-        "ref": "v0.1.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "sergei-popov/orca-class-viewer": {
       "state": "listed",
