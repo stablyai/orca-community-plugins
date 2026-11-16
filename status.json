@@ -492,7 +492,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.1.0",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -689,7 +689,7 @@
     },
     "erlhon9/orca-pod": {
       "state": "listed",
-      "ref": "v0.4.7",
+      "ref": "refs/tags/erlhon9/orca-pod/0.4.7",
       "plugins": [
         "erlhon9.pod"
       ]
@@ -2192,7 +2192,7 @@
     },
     "shumkov/orca-cliproxy-usage": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/shumkov/orca-cliproxy-usage/0.1.1",
       "plugins": [
         "shumkov.cliproxy-usage"
       ]
@@ -2646,7 +2646,7 @@
     },
     "xuan666-lab/orca-latest-artifacts": {
       "state": "listed",
-      "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "xuan666-lab.artifact-workbench"
       ]
