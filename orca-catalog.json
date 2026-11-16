@@ -33996,8 +33996,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-media-viewer.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-media-viewer/0.3.1"
       },
       "description": "A media player in Orca's editor tabs: plays .mkv, .avi, .mka and .weba, which Orca cannot show (AVI is converted offline in the tab), and a full player view for .mp4, .mov, .webm, .mp3, .flac and more. Speed, frame stepping, repeat, frame snapshots, file info, shortcuts, media file icons.",
       "categories": [
@@ -37083,8 +37083,8 @@
       "ownerId": 5731176,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tiagodanin/orca-flutter/0.3.0"
+        "url": "https://github.com/TiagoDanin/Orca-Flutter.git",
+        "ref": "v0.3.1"
       },
       "description": "Flutter and Dart support for Orca",
       "categories": [
@@ -37094,6 +37094,249 @@
         "languages"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "102b97b4cc64d32781deb16b030b302bf3b0ec9e",
+          "contentHash": "00887dea739e58621a20d98a9a175edb3e9eae0634d7694c4da1017372ba7573",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Flutter",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Flutter"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run (Profile)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run (Release)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Attach"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Stop"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot Reload"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot Restart"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Next Device"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Widget Inspector"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Debug Painting"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Performance Overlay"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Override Platform"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Brightness"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Save Screenshot"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Open DevTools"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Dump Widget Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Dump Render Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Get Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Upgrade Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Upgrade Packages (--major-versions)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: List Outdated Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Add Dependency"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run build_runner"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Generate Localizations"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Clean Project"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Analyze"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Format"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Apply Fixes"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Tests"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Tests with Coverage"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Create Project"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Flutter Doctor"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Flutter Upgrade"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+X",
+              "detail": "flutter.run"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+L",
+              "detail": "flutter.hotReload"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+K",
+              "detail": "flutter.hotRestart"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+S",
+              "detail": "flutter.doctor"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+U",
+              "detail": "flutter.test"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+P",
+              "detail": "flutter.createProject"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Dart",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Dart file",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatelessWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatefulWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter widget with AnimationController",
+              "detail": ".dart"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "No device"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Flutter: Idle"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "dart"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tiagodanin.flutter/8f506153eeb92362.webp",
+              "alt": "Flutter for Orca: the Orca window with code, the Flutter panel buttons Run, Hot Reload, Devices and Analyze, and a phone preview",
+              "sha256": "8f506153eeb923625e6a26b0215a801f9a2c8f0117bd3482c3e845938e62bf5c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tiagodanin.flutter/b4f60c6890c042db.png",
+              "alt": "Flutter icon",
+              "sha256": "b4f60c6890c042db760069c63c2c1ae95e1342132f4bda647ad833a9add75233",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TiagoDanin/Orca-Flutter",
+          "updatedAt": "2026-11-16T17:11:31-03:00"
+        },
         {
           "version": "0.3.0",
           "commit": "53231a679e4a39a1626fd404257eee284c0de5a2",

@@ -1426,6 +1426,16 @@
         "lazyjerry.todo-list"
       ]
     },
+    "leobessin/orca-mongo-studio": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
+      ]
+    },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
       "ref": "refs/tags/lilykos/orca-openrouter-usage/1.0.0",
@@ -2232,7 +2242,7 @@
     },
     "sergei-popov/orca-media-viewer": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/sergei-popov/orca-media-viewer/0.3.1",
       "plugins": [
         "sergei-popov.media-viewer"
       ]
@@ -2492,7 +2502,7 @@
     },
     "tiagodanin/orca-flutter": {
       "state": "listed",
-      "ref": "refs/tags/tiagodanin/orca-flutter/0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "tiagodanin.flutter"
       ]
