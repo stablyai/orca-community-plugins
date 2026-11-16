@@ -2792,8 +2792,8 @@
       "ownerId": 96484421,
       "source": {
         "kind": "git",
-        "url": "https://github.com/arshvinw5/Vesper-Orca-theme.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/arshvinw5/vesper-orca-theme/1.0.0"
       },
       "description": "Vesper++ for Orca: warm peach and mint on near-black, ported from the Vesper++ VS Code theme (based on Vesper by raunofreiberg).",
       "categories": [
@@ -8872,8 +8872,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.8.1"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.8.2"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -8881,6 +8881,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.2",
+          "commit": "9856bc5ab4d6dc591a21d837c43b0ac09cf3f019",
+          "contentHash": "a07efb2f09c4f51571f317275abf89420f6c87843f5f2e259beb416663c5e43f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-16T19:49:48+09:00"
+        },
         {
           "version": "0.8.1",
           "commit": "272f3f64c950e83def22b25fc67d5d1c5c635be7",
@@ -9112,64 +9170,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-14T17:13:50+09:00"
-        },
-        {
-          "version": "0.6.0",
-          "commit": "07a9e3af356cadcd539465aa9877e4e8cc233973",
-          "contentHash": "049ebb4e0b32bc044c05764d25beacf9a16ae7cf85bc0d6b0693ce70f87b74e3",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/3607be6557de4c48.png",
-              "alt": "SideNote displaying two reading-mode notes and a minimized note",
-              "sha256": "3607be6557de4c483c1ec790125f9f88db0462d4209ccf5233b4fd7a85d27306",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/57e464d3d659f708.png",
-                "alt": "A checklist and next steps in reading mode with a minimized implementation note between them",
-                "sha256": "57e464d3d659f708d631dd64507605c4e71c8eac3dbd30291d8ebec79b08575c",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/cc10fe9f62044ddd.png",
-                "alt": "A Markdown note open for editing below a reading-mode checklist and above a minimized note",
-                "sha256": "cc10fe9f62044ddd587f495c887d23bd182d01f83b67042a39d923ce70e1385a",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/2742770999d782f2.png",
-                "alt": "Two minimized notes above an expanded note with next steps",
-                "sha256": "2742770999d782f22ef7b375a3c739b56a08b6b126a0822b4c09a83f590306b4",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "updatedAt": "2026-11-14T15:41:24+09:00",
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote"
         }
       ]
     },
@@ -25862,14 +25862,87 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.7"
+        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
+        "ref": "v0.1.8"
       },
       "description": "IntelliJ IDEA-style Git: commit, Log graph, diffs and blame.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.8",
+          "commit": "e34e7b2cd48f41fd1d1cddc3a7d6e2948d2fd52a",
+          "contentHash": "113988209d04d152678e89f73be7108b405782f533ec949c9bfa9e649ef7f3c6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "HayBrains Git",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Commit"
+            },
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "customEditors",
+              "name": "HayBrains Git",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git",
+              "detail": ".gitpanel"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "gitpanel"
+          ],
+          "editorFileTypes": [
+            "gitpanel"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/omerfarukgzr.git-panel/a8417060111192a1.webp",
+              "alt": "The commit graph of the Git panel's Log with coloured branch lanes and ref labels, beside the Commit panel's ticked local changes",
+              "sha256": "a8417060111192a1db9bd7e5998f68e67bbaf1b34bcd19b700680bada18b86b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/omerfarukgzr.git-panel/fd08e0247070dae9.png",
+              "alt": "HayBrains Git icon",
+              "sha256": "fd08e0247070dae98234408f2cbba856c712c80dac6c2aafb7779f4e78d390aa",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/omerfarukgzr.git-panel/15f9d10e29ffe8f3.webp",
+                "alt": "Right sidebar panels: Commit with changes ticked and a message; Git with the Log and a selected commit's files; Git with its Branches drawer",
+                "sha256": "15f9d10e29ffe8f3a17e1b57c26eb8ac60892ee4baa33f1910cc934305b78faa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/omerfarukgzr.git-panel/e8a944afa4bd58f2.webp",
+                "alt": "A commit's change to a TypeScript file, side by side, in a tab of Orca's center area opened from the Git panel",
+                "sha256": "e8a944afa4bd58f206a2f57bce727ef5efafe8eef2884fb3653fa7e4a6c70a10",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
+          "updatedAt": "2026-11-16T13:50:20+03:00"
+        },
         {
           "version": "0.1.7",
           "commit": "932c9cce93f704449c35322cb93039d9daf0e480",
@@ -38981,8 +39054,8 @@
       "ownerId": 276170146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.3"
+        "url": "https://github.com/xuan666-lab/orca-latest-artifacts.git",
+        "ref": "v0.1.4"
       },
       "description": "Recent files from your current agent session. Local macOS preview release.",
       "categories": [
@@ -38990,6 +39063,58 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "1dcd95a752113741836b21f1bc31a3c088dd39e3",
+          "contentHash": "6f04fa20a3dba27fab2a3eae54a49b01d6c7bc4a291d9338eb6168f86258e009",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.257",
+          "name": "Latest Artifacts / 最新产物",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Latest artifacts / 最新产物"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/xuan666-lab.artifact-workbench/44d965c2a82f8431.png",
+              "alt": "Latest Artifacts / 最新产物 icon",
+              "sha256": "44d965c2a82f84316c7f002debd63dc9bfab00fe9924ac48ea8ab22d3cb0272f",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/xuan666-lab.artifact-workbench/48fdbeba9dadbed0.png",
+                "alt": "Latest Artifacts list in English with synthetic example files",
+                "sha256": "48fdbeba9dadbed0dee7b30501dcf46d36be909dd6ccf8253c87067314d582b7",
+                "width": 1360,
+                "height": 1300
+              },
+              {
+                "path": "assets/xuan666-lab.artifact-workbench/b415b6b61d6bc3cf.png",
+                "alt": "最新产物中文界面，使用合成演示文件",
+                "sha256": "b415b6b61d6bc3cf18609bec1ffc1b79af4837becfad6467c3bcf6de19c56cf0",
+                "width": 1360,
+                "height": 1300
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/xuan666-lab/orca-latest-artifacts",
+          "updatedAt": "2026-11-16T20:00:15+09:00"
+        },
         {
           "version": "0.1.3",
           "commit": "e21df62e838f748a24bfd9041fd27ab456d2e591",
