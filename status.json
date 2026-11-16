@@ -884,7 +884,7 @@
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/felix-lj-ct/orca-agent-inbox/0.3.0",
       "plugins": [
         "felix-lj-ct.agent-inbox"
       ]
@@ -1792,7 +1792,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.5",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
