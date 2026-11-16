@@ -682,7 +682,7 @@
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.7",
+      "ref": "v0.1.8",
       "plugins": [
         "emamalet.git-log"
       ]
@@ -692,7 +692,16 @@
       "ref": "refs/tags/erlhon9/orca-pod/0.4.7",
       "plugins": [
         "erlhon9.pod"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.8",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
@@ -1433,6 +1442,13 @@
       "ref": "refs/tags/mars-crater/orca-jsonnet-syntax/0.1.0",
       "plugins": [
         "mars-crater.jsonnet-syntax"
+      ]
+    },
+    "mathiassol/prisjakt-tracker": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "mathiassol.prisjakt-tracker"
       ]
     },
     "matteoeusebi/orca-italiano": {
@@ -2646,7 +2662,7 @@
     },
     "xuan666-lab/orca-latest-artifacts": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "xuan666-lab.artifact-workbench"
       ]

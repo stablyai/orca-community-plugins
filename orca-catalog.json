@@ -11048,8 +11048,8 @@
       "ownerId": 43491715,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.7"
+        "url": "https://github.com/emamalet/orca-git-log-panel.git",
+        "ref": "v0.1.8"
       },
       "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
       "categories": [
@@ -11057,6 +11057,96 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.8",
+          "commit": "1fd12e19571a55a1bbd7446c040118ca21af2195",
+          "contentHash": "a7d30b633092d474bccfe510d09b0409ebff6119c90e6b15aaa8e4868bb5cdb4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Log",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Log: Open in Editor Tab"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Log",
+              "detail": ".gitlog"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Diff",
+              "detail": ".gitdiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "gitlog",
+            "gitdiff"
+          ],
+          "editorFileTypes": [
+            "gitlog",
+            "gitdiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/emamalet.git-log/837f35e2f23073cb.png",
+              "alt": "Git Log title and logo next to the commit graph with three selected commits and the right-click menu to squash, fixup or drop them",
+              "sha256": "837f35e2f23073cbb4dda11e4c17f858d0136c6d6671ddd0a58487ee545800cf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/emamalet.git-log/71e73d4b3210781f.png",
+              "alt": "Git Log icon",
+              "sha256": "71e73d4b3210781fbae7b973a36913ea8942b8d491504e842337ac49bc0dcffe",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/emamalet.git-log/fcf2ea594330e1d8.png",
+                "alt": "Commit log with three selected commits and the right-click menu open",
+                "sha256": "fcf2ea594330e1d8e623d2917ac585c4bb4f3e3ba599a3ee1baaef8c1e35a30e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/3e87c5ee26b66d1b.png",
+                "alt": "Side-by-side diff of a TypeScript file with added and removed lines highlighted",
+                "sha256": "3e87c5ee26b66d1b5a08950e578c144aac64433185bed1e86c58e3249cb46f46",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/beec194412fa5c01.png",
+                "alt": "Interactive rebase dialog listing four commits with pick actions",
+                "sha256": "beec194412fa5c01aca174a50d6527fd821c8f76bad600ed12409a4315038e97",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/emamalet.git-log/91aaf6c2808b02af.png",
+                "alt": "Commit graph with branch tree and commit details in the light theme",
+                "sha256": "91aaf6c2808b02af479f750974e98f3cc5aad6433d45579c8d27c8627aacaa33",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/emamalet/orca-git-log-panel",
+          "updatedAt": "2026-11-16T10:42:26+01:00"
+        },
         {
           "version": "0.1.7",
           "commit": "0c01923eb149cad475ef898032bf3112e32f04fe",
@@ -21667,6 +21757,72 @@
           "license": "MIT AND Apache-2.0",
           "repository": "https://github.com/mars-crater/orca-jsonnet-syntax",
           "updatedAt": "2026-11-03T12:34:30Z"
+        }
+      ]
+    },
+    {
+      "id": "mathiassol.prisjakt-tracker",
+      "ownerId": 114577027,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mathiassol/prisjakt-tracker.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Track Prisjakt and PriceSpy products from Orca's sidebar: search or paste a link, see every item's price history at a glance, set target prices and get notified when they drop. Not affiliated with Prisjakt.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "2b46819ae435a89ec4ebc7656ff4f2ed7fb5c8fd",
+          "contentHash": "c50d6b267634f5ea98d4ddbc535e53d5b39d4c9e49367ea476eaecfc750715dd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Prisjakt Tracker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Price Tracker"
+            },
+            {
+              "kind": "commands",
+              "name": "Prisjakt: Refresh all prices"
+            },
+            {
+              "kind": "commands",
+              "name": "Prisjakt: Show price summary"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Prices"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mathiassol.prisjakt-tracker/cc8b296324ee9801.png",
+              "alt": "Prisjakt Tracker in Orca's sidebar: tracked products with prices and sparklines, beside one product's price chart, target and shops",
+              "sha256": "cc8b296324ee9801ac67b365c0ba34fc57953984a78a39cd8e4c9b544b454437",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mathiassol.prisjakt-tracker/48f8e7f4d377b33c.png",
+              "alt": "Prisjakt Tracker icon",
+              "sha256": "48f8e7f4d377b33c66e47701cead397feafd12b1be6f71abffe13985fdc0c2ae",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mathiassol/prisjakt-tracker",
+          "updatedAt": "2026-11-16T10:44:13+01:00"
         }
       ]
     },
@@ -38682,7 +38838,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/xuan666-lab/orca-latest-artifacts.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Recent files from your current agent session. Local macOS preview release.",
       "categories": [
@@ -38690,6 +38846,58 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "5039c37b4a0946d8d3bffadb0bc47e2630dd77e4",
+          "contentHash": "de39523ddff9d6b2e3eb8fa34be59cb0b05207a1dd99d2a3fb6da74ff242fa92",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.257",
+          "name": "Latest Artifacts / 最新产物",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Latest artifacts / 最新产物"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/xuan666-lab.artifact-workbench/44d965c2a82f8431.png",
+              "alt": "Latest Artifacts / 最新产物 icon",
+              "sha256": "44d965c2a82f84316c7f002debd63dc9bfab00fe9924ac48ea8ab22d3cb0272f",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/xuan666-lab.artifact-workbench/48fdbeba9dadbed0.png",
+                "alt": "Latest Artifacts list in English with synthetic example files",
+                "sha256": "48fdbeba9dadbed0dee7b30501dcf46d36be909dd6ccf8253c87067314d582b7",
+                "width": 1360,
+                "height": 1300
+              },
+              {
+                "path": "assets/xuan666-lab.artifact-workbench/b415b6b61d6bc3cf.png",
+                "alt": "最新产物中文界面，使用合成演示文件",
+                "sha256": "b415b6b61d6bc3cf18609bec1ffc1b79af4837becfad6467c3bcf6de19c56cf0",
+                "width": 1360,
+                "height": 1300
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/xuan666-lab/orca-latest-artifacts",
+          "updatedAt": "2026-11-16T18:38:43+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "8580d18c03c7385048b06e56a53e7ca86476ad33",
