@@ -311,6 +311,24 @@
         "bigsy.milko"
       ]
     },
+    "bmelton/paraspool": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
+        },
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (assets/aicopyto.stl, assets/deeplee.stl, assets/eSunLarge.stl, assets/eSunSmall.stl, assets/elegoo.stl, …)"
+        }
+      ]
+    },
     "brezzashen/brezzaorca": {
       "state": "listed",
       "ref": "refs/tags/brezzashen/brezzaorca/0.1.4",
@@ -519,7 +537,7 @@
     },
     "codeious/orca-boat-sandbox": {
       "state": "rejected",
-      "ref": "v1.1.1",
+      "ref": "v1.2.0",
       "reasons": [
         {
           "category": "manifest-format"
@@ -2621,7 +2639,7 @@
     },
     "vale-c/orca-cyberpunk": {
       "state": "listed",
-      "ref": "refs/tags/vale-c/orca-cyberpunk/1.0.0",
+      "ref": "v1.1.0",
       "plugins": [
         "vale-c.cyberpunk"
       ]

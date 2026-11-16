@@ -39523,8 +39523,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vale-c/orca-cyberpunk/1.0.0"
+        "url": "https://github.com/vale-c/orca-cyberpunk.git",
+        "ref": "v1.1.0"
       },
       "description": "Neon Cyberpunk app, code and terminal colors for Orca, in three styles: Cyberpunk, Umbra and Scarlet.",
       "categories": [
@@ -39532,6 +39532,52 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "fbaf600fd3ba298539c35784c715d9e2b09539d0",
+          "contentHash": "3ba121e29318cf1363f4e2ea0b061d07912780e216befd4fb1725aab2989cf1c",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Cyberpunk for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Cyberpunk"
+            },
+            {
+              "kind": "themes",
+              "name": "Cyberpunk Umbra"
+            },
+            {
+              "kind": "themes",
+              "name": "Cyberpunk Scarlet"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Cyberpunk"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Cyberpunk Umbra"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Cyberpunk Scarlet"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vale-c.cyberpunk/d851e18d876e81dd.png",
+              "alt": "Cyberpunk for Orca: the plugin name and its palette beside Orca's editor in the Cyberpunk, Umbra and Scarlet styles",
+              "sha256": "d851e18d876e81ddfd76b0e4698ae5130e7bcd98ce3e4845e4eaa02a9a7c531c",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "GPL-3.0",
+          "repository": "https://github.com/vale-c/orca-cyberpunk",
+          "updatedAt": "2026-11-16T22:39:34+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "ecaaae2c4935223f05912d5ae4fb7caf3fa35645",
