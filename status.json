@@ -165,6 +165,16 @@
         "aminechr54.agent-split"
       ]
     },
+    "anhtuan2111/orca-machines": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "anhvangiang/orca-agent-accounts": {
       "state": "listed",
       "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.1.1",
@@ -725,7 +735,7 @@
         "erlhon9.pod"
       ],
       "update": {
-        "ref": "v0.3.2",
+        "ref": "v0.4.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1782,11 +1792,11 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "rejected",
-      "ref": "v0.1.2",
+      "ref": "v0.1.4",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "code"
         }
       ]
     },
@@ -2547,17 +2557,10 @@
       ]
     },
     "uttam-gelot/orca-todos": {
-      "state": "rejected",
-      "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
-        },
-        {
-          "category": "binary-files",
-          "detail": "bundles binary files (.claude/skills/change-audit (symlink), .claude/skills/coding-standards (symlink), .claude/skills/documentation (symlink), .claude/skills/error-handling-logging (symlink), .claude/skills/framework-conventions (symlink), …)"
-        }
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "uttam-gelot.todos"
       ]
     },
     "vale-c/orca-arc-blueberry": {

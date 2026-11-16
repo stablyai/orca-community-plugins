@@ -34118,6 +34118,89 @@
       ]
     },
     {
+      "id": "uttam-gelot.todos",
+      "ownerId": 38095267,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/uttam-gelot/orca-todos.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Personal to-dos with custom states, tags, priorities, markdown notes, and list and board views.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "18bc8f713c62185eb1c25b0e63483542045e8287",
+          "contentHash": "1dfc4ff03a895870b629bf54ce460d44472735f5aaa435551f2383c5b4fd0957",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "ToDos Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ToDos"
+            },
+            {
+              "kind": "customEditors",
+              "name": "ToDos",
+              "detail": ".todos, ToDos"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Open ToDos board",
+              "detail": ".todos"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "fileTypes": [
+            "todos"
+          ],
+          "editorFileTypes": [
+            "todos"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/uttam-gelot.todos/627f65c73353caae.png",
+              "alt": "The ToDos board in dark mode, with one column for each state",
+              "sha256": "627f65c73353caaed20dc3afffe011dcd22893f610004138e0df64d8bb2aab6c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/uttam-gelot.todos/c0bf22723300f9d5.png",
+              "alt": "ToDos Board icon",
+              "sha256": "c0bf22723300f9d5eb05a992bb01526436c04b8c83ae42d39639c1e9208678b1",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/uttam-gelot.todos/ac1231349105971e.png",
+                "alt": "The board view in light mode: cards in Backlog, ToDo, In Progress and Done columns",
+                "sha256": "ac1231349105971e7d5edc8b87295196e6e03351214183df7937b172d61631ad",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/uttam-gelot.todos/056663f27ae48e91.png",
+                "alt": "The list view in dark mode: to-dos grouped by state, with the details pane open",
+                "sha256": "056663f27ae48e91b8968df995abf0c810bd5734690aa31d4097eb1514a12a08",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/uttam-gelot/orca-todos",
+          "updatedAt": "2026-11-16T11:11:47+05:30"
+        }
+      ]
+    },
+    {
       "id": "vale-c.arc-blueberry",
       "ownerId": 21361479,
       "source": {
