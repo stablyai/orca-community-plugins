@@ -2897,8 +2897,8 @@
       "ownerId": 41742354,
       "source": {
         "kind": "git",
-        "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.12.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/augustovicente/orca-pipeline/0.12.2"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
