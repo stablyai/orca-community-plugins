@@ -29,6 +29,12 @@
     "repoId": 1452384566,
     "firstSeen": "2026-11-11T10:02:52.458Z"
   },
+  "2589195970.jumplens@0.4.0": {
+    "commit": "b607ae52ba82ac4b59c41660679f1741b83c7b77",
+    "contentHash": "1f6f22cdd8e609745703e9f11dd02e73bfa248e8a10eda3fe097b22f232c2170",
+    "repoId": 1452384566,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "2589195970.shiftlens@0.1.0": {
     "commit": "c4cfa5dc94d3d692e36a2fc580b013b95980ec12",
     "contentHash": "33b502345956da5f8c350a436d1b9ab01edfb85a05a1ea09c19e8af23e54eeda",
@@ -71,6 +77,12 @@
     "repoId": 1451333060,
     "firstSeen": "2026-11-10T09:00:20.371Z"
   },
+  "actus7.autocomplete@0.4.0": {
+    "commit": "5727da78ab31a3abc235bbcb26df225a68fc5830",
+    "contentHash": "81537501c75fd6827234adf57a16504e2dfddea99b8618b3b993427564e69177",
+    "repoId": 1451333060,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "addisflava.llm-router@1.0.0": {
     "commit": "e6a3f564fec97106af31390db1678b8b445b5918",
     "contentHash": "02e9514fb3e5946489000c7240325b4ac357536e02f6799bc4d46385bf54ed35",
@@ -106,6 +118,12 @@
     "contentHash": "4b6ba5ad76d1fa6c2bb5ee45e45bb4a2e20d6a1fe415efcd43db31038e00a898",
     "repoId": 1455936895,
     "firstSeen": "2026-11-15T10:39:15.465Z"
+  },
+  "aetna000.atmem-architect@0.2.0": {
+    "commit": "482ba6ab714f45d2922f3db308e9139f3c06ebb0",
+    "contentHash": "1e95f05ab909504daec4196982a03b19b3064ae31f54edadb7edfd01986a65c7",
+    "repoId": 1455936895,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "albuquerquesz.github-dark-theme@1.0.1": {
     "commit": "06c813c2c879d91338247c4fbac144037bb9f5da",
@@ -196,6 +214,12 @@
     "contentHash": "212b301ab1265907387477b37b18aba69251028578bef1329c800ebf74a03bbe",
     "repoId": 1453071198,
     "firstSeen": "2026-11-10T20:14:52.078Z"
+  },
+  "anhvangiang.agent-accounts@0.2.0": {
+    "commit": "ddae988aefb5e70e8b16335ec695258f63eb6ec1",
+    "contentHash": "22b787c5e7c9c910734735d812e029de1247daf424c12241a84e0940ad4068b6",
+    "repoId": 1453071198,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "anndii.cliproxyapi-usage@0.1.0": {
     "commit": "5aa23229fb02d9ec0b21d3045870f4b88837edf0",
@@ -406,6 +430,12 @@
     "contentHash": "a7e819215a43dca6a005c7e171ff77ef4e9dd15b9c3d2ee9588ce052814c3172",
     "repoId": 1449717078,
     "firstSeen": "2026-11-08T13:12:03.745Z"
+  },
+  "bigsy.milko@0.1.3": {
+    "commit": "3743c7f3455a813c30f5643c05902e6c14142dd0",
+    "contentHash": "062ed0bec36954c80a3cf2a270bb6c6a5b7d10c3b3a077113a90b62a6e0e02a1",
+    "repoId": 1449717078,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "brezzashen.account-keys@0.1.4": {
     "commit": "d699b0b5b755c9093859981d83144888a2578383",
@@ -1499,6 +1529,12 @@
     "repoId": 1450798059,
     "firstSeen": "2026-11-09T03:27:05.381Z"
   },
+  "hadisd.markdown-colorize@1.2.0": {
+    "commit": "6c2ba4816868987cacdeaa2a42c0490154fac799",
+    "contentHash": "2ba6eb6b479e712d32b979dbaf2792cace4e2f6adeef5e1e08c5f15bab9c57cc",
+    "repoId": 1450798059,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "hadisd.moonlit-pastel@1.0.0": {
     "commit": "bd0fec5d66e1677eb128b6de7c165a7190545808",
     "contentHash": "0d5788a8b5a69889373e0234385e8d0f18d19ade776b1a72d4edf7a0b75adf56",
@@ -1540,6 +1576,18 @@
     "contentHash": "df5582506b95aa965ca25c71b674e2ca768c81a45cc26e1123544347f60976d3",
     "repoId": 1459206358,
     "firstSeen": "2026-11-15T20:39:05.036Z"
+  },
+  "harsh97.command-code-usage@1.1.0": {
+    "commit": "e250ae7d52b693b31cf8b6d4e2f3eb75a6ea58ca",
+    "contentHash": "bac6948dbfc777bdfa7792003b074b573097dee69835329794088b0a5a9c3908",
+    "repoId": 1459206208,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
+  "harsh97.muse-usage@1.0.0": {
+    "commit": "02920cecfb5dd8d784e5a99d1c281c1d4f144874",
+    "contentHash": "2bf4748670066fa561801dcc94df5cb87fae80b34e3d7bf83cde6e999424a908",
+    "repoId": 1459206271,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "heath0xff.stillwater@1.1.0": {
     "commit": "cd9716183669139d52ce94296da29c06811aaba6",
@@ -1763,6 +1811,12 @@
     "repoId": 1449216058,
     "firstSeen": "2026-11-08T04:00:42.683Z"
   },
+  "jeong-jae-hun.ping-inbox@0.5.0": {
+    "commit": "ace1b66d3949968b4d6ee705c5f06cfc976c57a3",
+    "contentHash": "e1703f3cc23bd62bb4351a0ad43294049cc8384afa429a7c6eeff4a177879a37",
+    "repoId": 1454137375,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "jerrazuw.gallery-panel-demo@1.5.1": {
     "commit": "99990c2e9c535a492e877321360d198d1799e26e",
     "contentHash": "b704875786bc1e3561432f3df10453c30c169518a9108e56dd9a718092456b37",
@@ -1907,6 +1961,12 @@
     "repoId": 1449153492,
     "firstSeen": "2026-11-12T10:39:29.769Z"
   },
+  "kloppers-labs.azure-devops@0.4.1": {
+    "commit": "c998e2fb831f60a0186e1a2acf6a15810d20a3e8",
+    "contentHash": "206059256f34a6614cda6ab0335165a66ca0638fecfbadcc102dabbcbb6d3e1c",
+    "repoId": 1449153492,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "kolebayev.narrow-markdown@0.1.0": {
     "commit": "6060a677674a2491d818961745447073411607d8",
     "contentHash": "42176307b209ff525018068803bc6a55f2c71b8792ceb0b20cd770deb396b7fe",
@@ -1936,6 +1996,12 @@
     "contentHash": "27273cb74d4212912f395ce4a454c357620bd63d261f24bbb59986527a81d6a2",
     "repoId": 1444060793,
     "firstSeen": "2026-11-09T08:21:51.742Z"
+  },
+  "kyino-pan.agent-activity@0.1.7": {
+    "commit": "21a22caeac15dd35e06a54c3f600814e3d246a42",
+    "contentHash": "be7a9f488795515d1473da4374351b9aaf3aa86b017cdb87efcf1e452622f841",
+    "repoId": 1444060793,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "lazyjerry.forrrk@0.1.0": {
     "commit": "a2a7c422ba769fa618ced36d5137474060c26992",
@@ -1990,6 +2056,12 @@
     "contentHash": "0e7240c3280f5e099b2400f6ecc13e7d99f2fa21b6a7e94eabf5adc0136dd7b2",
     "repoId": 1440632874,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "lindoo67.drawio@0.1.6": {
+    "commit": "e7601b2a07b2cfd6d2b6ddccb96e2977aa992d3e",
+    "contentHash": "87258e214fb1a010d1d1da8dd19ea3a871090fbc67c636d2bfd6e56cf371e351",
+    "repoId": 1440632874,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "lkgilgamesh.ayu@1.0.0": {
     "commit": "037c09a609184a4b3bae876abf2ce7556e833768",
@@ -2050,6 +2122,12 @@
     "contentHash": "2cea48eb04848d35f7ec226b85fa154bfe307653cbb3f8f0c6e6c1256317fb29",
     "repoId": 1448862369,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "marcoronline.ballast@0.7.0": {
+    "commit": "83e0ee87e9f35b01514feb9ee4499a4d03bc4aea",
+    "contentHash": "822c0505c3a53e92381399d69168a7532f249cbc1311b89fe2f29e5e05b595ed",
+    "repoId": 1455184754,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "mars-crater.jsonnet-syntax@0.1.0": {
     "commit": "7a65d0697fc9b3154b5e74baa2f5e21dc824003e",
@@ -2441,6 +2519,12 @@
     "repoId": 1452251963,
     "firstSeen": "2026-11-10T19:39:30.485Z"
   },
+  "nhangen.git-issues@0.1.8": {
+    "commit": "1beb495136e0a5a5235421fa46392665301c81ea",
+    "contentHash": "3be8bb17e1542e5d24408f9e059ebbcb6b66f9907081258d1fdd799d34aaaffc",
+    "repoId": 1452251963,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "nik45114.gmail-desk@0.3.0": {
     "commit": "0c9d45467b2df8089e753b2f00d185185f150fd2",
     "contentHash": "bf44e9c4fcbb864087825f2db731ebc7d26e088c4b45a578d414f16eef238c62",
@@ -2476,6 +2560,18 @@
     "contentHash": "267dfc8e373dc547d7a00fb0ef8dab999e5c31641c723a68bb37a83f155b296a",
     "repoId": 1459212452,
     "firstSeen": "2026-11-16T07:02:04.819Z"
+  },
+  "omerfarukgzr.git-panel@0.1.6": {
+    "commit": "0b0d3586f30011d79286fcfce399489f4fbb49c1",
+    "contentHash": "2aff93b7aff9991224262bac17529d8dd5242f538ac7e7d14e40bdc3e96ae30b",
+    "repoId": 1459212452,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
+  "orvillelim.code-explainer@1.0.2": {
+    "commit": "fb14a773afae189db519c8ba75f198b2da68c2d6",
+    "contentHash": "71c99d0093d03f056fe467342a2d1fc7b6374b5a9b4fe7cda6d3e2a0399cc0ed",
+    "repoId": 1458765176,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "oscarbotteri.db-studio@0.1.0": {
     "commit": "6ef0be15ad679202fb55d86393cf222194d12150",
@@ -2710,6 +2806,12 @@
     "contentHash": "e1bfb9ec3d1d098f3633f5f0cb3333c1c92c39bdad2c250a1935ed7799ffe9e1",
     "repoId": 1446899420,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "rodrigorodrigo.agent-config-sync@0.2.1": {
+    "commit": "687ef74861bcd9c6ad562440164684bb210e41b0",
+    "contentHash": "42932799f443d6ce19590330bf12012278d938f7b161a56be20a2c8b547fe132",
+    "repoId": 1457808336,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "roflochinsky.beads@0.1.2": {
     "commit": "9e2633e7318b03566b49945f8d2800a80f233f28",
@@ -3113,6 +3215,12 @@
     "repoId": 1458826256,
     "firstSeen": "2026-11-15T19:11:12.954Z"
   },
+  "sergei-popov.font-viewer@0.1.0": {
+    "commit": "00b200c1855e06251fe93ebba10336955b417709",
+    "contentHash": "07615befae4e1e893cd00f990ec1222690bdeb0bc2ceecffc5188ba86aca0f67",
+    "repoId": 1457893031,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "sergei-popov.har-viewer@0.1.0": {
     "commit": "fb46f7db75da1a4f477d3cb99b61e6c4255b8946",
     "contentHash": "f6fb1b221d1c6f168d1eb2510caf4e38e139cc738af874c322ea5e5dbc32464b",
@@ -3136,6 +3244,12 @@
     "contentHash": "5b0c6f4884724de1da9fc764b2c392864149953f0188b589e35bdc660b0e12b1",
     "repoId": 1457245484,
     "firstSeen": "2026-11-14T09:39:09.263Z"
+  },
+  "sergei-popov.media-viewer@0.3.0": {
+    "commit": "3fe63fd60f4583fb997d4fa630898e2bbb245b59",
+    "contentHash": "e51eef294e739765cf0383f2aafcc6f45579630458fe14b723c4bea3e2582105",
+    "repoId": 1457245484,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "serhii-f8.docker@0.1.2": {
     "commit": "0595e85a29b82189908213294ee0674798a52319",
@@ -3251,6 +3365,12 @@
     "repoId": 1451239680,
     "firstSeen": "2026-11-13T07:15:49.640Z"
   },
+  "shaurgon.conport-orca@0.7.2": {
+    "commit": "a710ba00bf1f69a4ddac471548ca9cdcfbb4fee1",
+    "contentHash": "e446fe1192b8fd7c6f100923044c2e6af3a232173b86a8056fe95a4d5ddbc04e",
+    "repoId": 1451239680,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
   "shu-vro.read-aloud@0.1.0": {
     "commit": "7e0b47b37dd029940197d116f090a67b07642579",
     "contentHash": "3083fb1ead1d1d257c355a3251aac6a54326780ce975b77572837c78fcc9f850",
@@ -3346,6 +3466,12 @@
     "contentHash": "aa5fb1bd5bf18eabe8917e2ff6bb82f34e7562921ac1b7a1fcaf11ecec4f3c60",
     "repoId": 1458871008,
     "firstSeen": "2026-11-15T16:13:56.116Z"
+  },
+  "tagliatti.openapi-preview@0.1.0": {
+    "commit": "ef949604d1513e1c49a9406d5a843d04dbbb278c",
+    "contentHash": "6c918d8b13388dc518fd6412572f44b6ff80b89c81814fedb9d069814ef14419",
+    "repoId": 1457071871,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "tazaq.jb-containers@0.7.6": {
     "commit": "381bd2b5253c26a59131c13a87691acc16c74f62",
@@ -3694,6 +3820,12 @@
     "contentHash": "047edb7fef8e508605c29b36f633ffb724bf6ab2419cfa45f0e83cfb59dbd84b",
     "repoId": 1446321459,
     "firstSeen": "2026-11-08T06:12:29.165Z"
+  },
+  "wilsonliu123.token-pulse@0.1.1": {
+    "commit": "6c3938114aadbc0ffa383c19dfe5a99df0b0148d",
+    "contentHash": "983e44f8bbe40b191c5f247491eeac6174b2de61964f208c070b03600e537719",
+    "repoId": 1453595219,
+    "firstSeen": "2026-11-16T08:16:25.574Z"
   },
   "woodfishhhh.better-project-tree@0.1.0": {
     "commit": "c49207bb17f0c9fc3f4b8aa825dcc9947f3ccaf2",

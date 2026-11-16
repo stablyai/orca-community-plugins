@@ -10,19 +10,10 @@
     },
     "2589195970/jumplens": {
       "state": "listed",
-      "ref": "refs/tags/2589195970/jumplens/0.3.2",
+      "ref": "v0.4.0",
       "plugins": [
         "2589195970.jumplens"
-      ],
-      "update": {
-        "ref": "v0.4.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size, update"
-          }
-        ]
-      }
+      ]
     },
     "2589195970/orca-shiftlens": {
       "state": "listed",
@@ -50,19 +41,10 @@
     },
     "actus7/orca-autocomplete": {
       "state": "listed",
-      "ref": "refs/tags/actus7/orca-autocomplete/0.3.1",
+      "ref": "v0.4.0",
       "plugins": [
         "actus7.autocomplete"
-      ],
-      "update": {
-        "ref": "v0.4.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
@@ -82,19 +64,10 @@
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
-      "ref": "v0.1.6",
+      "ref": "v0.2.0",
       "plugins": [
         "aetna000.atmem-architect"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
@@ -177,19 +150,10 @@
     },
     "anhvangiang/orca-agent-accounts": {
       "state": "listed",
-      "ref": "refs/tags/anhvangiang/orca-agent-accounts/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "anhvangiang.agent-accounts"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "anonalabs/anona-compute-orca": {
       "state": "listed",
@@ -329,19 +293,10 @@
     },
     "bigsy/milko": {
       "state": "listed",
-      "ref": "refs/tags/bigsy/milko/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "bigsy.milko"
-      ],
-      "update": {
-        "ref": "v0.1.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "brezzashen/brezzaorca": {
       "state": "listed",
@@ -735,7 +690,7 @@
         "erlhon9.pod"
       ],
       "update": {
-        "ref": "v0.4.0",
+        "ref": "v0.4.1",
         "reasons": [
           {
             "category": "under-review",
@@ -983,7 +938,7 @@
     },
     "hadisd/markdown-colorize": {
       "state": "listed",
-      "ref": "refs/tags/hadisd/markdown-colorize/1.1.2",
+      "ref": "v1.2.0",
       "plugins": [
         "hadisd.markdown-colorize"
       ]
@@ -1003,23 +958,17 @@
       ]
     },
     "harsh97/command-code-usage": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "pricing"
-        }
+      "plugins": [
+        "harsh97.command-code-usage"
       ]
     },
     "harsh97/muse-usage": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "pricing"
-        }
+      "plugins": [
+        "harsh97.muse-usage"
       ]
     },
     "heath0xff/stillwater": {
@@ -1027,6 +976,20 @@
       "ref": "refs/tags/heath0xff/stillwater/1.1.0",
       "plugins": [
         "heath0xff.stillwater"
+      ]
+    },
+    "heyfey/vaporview-orca": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
+        },
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (test/data/tpu.fst)"
+        }
       ]
     },
     "hilbana/orca-plugin": {
@@ -1080,7 +1043,9 @@
       "plugins": [
         "insforge.instabox"
       ],
-      "sourceUnavailable": true
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "ivanha-dev/mcp-openproject": {
       "state": "listed",
@@ -1170,13 +1135,10 @@
       ]
     },
     "jeong-jae-hun/orca-ping-public": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.5.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "jeong-jae-hun.ping-inbox"
       ]
     },
     "jerrazuw/orca-gallery-panel": {
@@ -1300,19 +1262,10 @@
     },
     "kloppers-labs/orca-azure-devops": {
       "state": "listed",
-      "ref": "refs/tags/kloppers-labs/orca-azure-devops/0.3.1",
+      "ref": "v0.4.1",
       "plugins": [
         "kloppers-labs.azure-devops"
-      ],
-      "update": {
-        "ref": "v0.4.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "kolebayev/orca-md-layout": {
       "state": "listed",
@@ -1343,19 +1296,10 @@
     },
     "kyino-pan/agents-director": {
       "state": "listed",
-      "ref": "refs/tags/kyino-pan/agents-director/0.1.2",
+      "ref": "v0.1.7",
       "plugins": [
         "kyino-pan.agent-activity"
-      ],
-      "update": {
-        "ref": "v0.1.7",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "lamtuanvu/cv-hub-orca-plugin": {
       "state": "rejected",
@@ -1405,7 +1349,7 @@
     },
     "lindoo67/drawio-plugin": {
       "state": "listed",
-      "ref": "refs/tags/lindoo67/drawio-plugin/0.1.5",
+      "ref": "v0.1.6",
       "plugins": [
         "lindoo67.drawio"
       ],
@@ -1481,13 +1425,10 @@
       ]
     },
     "marcoronline/ballast-orca-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.7.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "marcoronline.ballast"
       ]
     },
     "mars-crater/orca-jsonnet-syntax": {
@@ -1729,21 +1670,9 @@
     },
     "nhangen/orca-plugins": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "v0.1.8",
       "plugins": [
         "nhangen.git-issues"
-      ],
-      "rejected": [
-        {
-          "path": "plugins/git-issues",
-          "id": "git-issues",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "update"
-            }
-          ]
-        }
       ]
     },
     "nik45114/mail-desk": {
@@ -1792,19 +1721,16 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.5",
+      "ref": "v0.1.6",
       "plugins": [
         "omerfarukgzr.git-panel"
       ]
     },
     "orvillelim/orca-code-explainer": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, content, size"
-        }
+      "plugins": [
+        "orvillelim.code-explainer"
       ]
     },
     "oscarbotteri/orca-db-studio": {
@@ -1998,13 +1924,10 @@
       ]
     },
     "rodrigorodrigo/orca-agent-config-sync": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "rodrigorodrigo.agent-config-sync"
       ]
     },
     "roflochinsky/beads-orca": {
@@ -2173,13 +2096,10 @@
       ]
     },
     "sergei-popov/orca-font-viewer": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "sergei-popov.font-viewer"
       ]
     },
     "sergei-popov/orca-har-viewer": {
@@ -2198,19 +2118,10 @@
     },
     "sergei-popov/orca-media-viewer": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "sergei-popov.media-viewer"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "content, update"
-          }
-        ]
-      }
+      ]
     },
     "serhii-f8/orca-docker": {
       "state": "listed",
@@ -2270,19 +2181,10 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.6.1",
+      "ref": "v0.7.2",
       "plugins": [
         "shaurgon.conport-orca"
-      ],
-      "update": {
-        "ref": "v0.7.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "shu-vro/orca-read-aloud": {
       "state": "listed",
@@ -2396,13 +2298,10 @@
       ]
     },
     "tagliatti/orca-openapi": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "name"
-        }
+      "plugins": [
+        "tagliatti.openapi-preview"
       ]
     },
     "tazaq/jb-like-docker-service": {
@@ -2711,13 +2610,10 @@
       ]
     },
     "wilsonliu123/orca-token-used": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "wilsonliu123.token-pulse"
       ]
     },
     "woodfishhhh/better-project-tree": {
