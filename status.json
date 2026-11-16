@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.9.0",
+      "ref": "v0.11.0",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -650,7 +650,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.8.4",
+      "ref": "refs/tags/divlook/orca-sidenote/0.8.4",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1586,9 +1586,15 @@
       "plugins": [
         "mbirepinte.asciidoc-viewer"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v2.0.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "michelvelzr/ork-dbclient": {
       "state": "listed",

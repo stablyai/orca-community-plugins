@@ -2898,7 +2898,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.9.0"
+        "ref": "v0.11.0"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.0",
+          "commit": "04a1be2b805d60d29f763a05b20b07d4145ee818",
+          "contentHash": "9149c200f7c879c35dbaede6a674f66c6acf3cd0d5d7f2d75d7c31e6b07bdd0d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T14:14:01-03:00"
+        },
         {
           "version": "0.9.0",
           "commit": "c328ca9eac6d309f45b8215b9c85207443e15924",
@@ -3045,41 +3080,6 @@
           "license": "MIT",
           "repository": "https://github.com/augustovicente/orca-pipeline",
           "updatedAt": "2026-11-16T11:48:25-03:00"
-        },
-        {
-          "version": "0.4.0",
-          "commit": "ea642bd390086348e9a5611c7005f3d346375345",
-          "contentHash": "11be6d8f0de2080e63add0f9673cc1137a6aea11224b5c247810a27d68ff14b1",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Pipeline",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pipeline"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Pipeline"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "terminal:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/augustovicente/orca-pipeline",
-          "updatedAt": "2026-11-16T10:48:22-03:00"
         }
       ]
     },
@@ -9155,8 +9155,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.8.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.8.4"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
