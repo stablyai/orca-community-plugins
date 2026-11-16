@@ -18644,8 +18644,8 @@
       "ownerId": 61507247,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ky1ezer0/orca-git-graph.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.2"
       },
       "description": "Searchable, auto-refreshing Git graph with confirmed Git actions and one-click remote fetch for local Orca workspaces.",
       "categories": [
@@ -34944,7 +34944,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Web-tree/orca-runspore.git",
-        "ref": "v0.2.0"
+        "ref": "v0.2.2"
       },
       "description": "See your Runspore workflow runs, get told when one needs you or fails, and answer, retry or cancel it without leaving Orca.",
       "categories": [
@@ -34952,6 +34952,73 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "694528a092d3c3dd09b53803a112ca4b1e4b8ad3",
+          "contentHash": "035606d22c8033691a774fe2f55eac9b509221b05a9055063ae19721c692cfdb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Runspore",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Runspore"
+            },
+            {
+              "kind": "commands",
+              "name": "Runspore: Refresh Runs"
+            },
+            {
+              "kind": "commands",
+              "name": "Runspore: Toggle Right Sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "spore"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/web-tree.runspore/62c9cf1e7a512f80.png",
+              "alt": "The Runspore panel in Orca: two runs waiting for approval, with answer buttons, above a list of finished runs",
+              "sha256": "62c9cf1e7a512f802c3cb759af6534c36b2c874766accb654a5351736c95040b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/web-tree.runspore/bb7900265174c442.png",
+              "alt": "Runspore icon",
+              "sha256": "bb7900265174c442a381f38c849c950823c14be9d4f3ebc33947ab4bf9b62747",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/web-tree.runspore/6c08189e3944cdf4.png",
+                "alt": "Orca with a terminal where spore run started a run that waits for approval, and the Runspore panel beside it offering approved and rejected",
+                "sha256": "6c08189e3944cdf4055fdf120c02b1410326df1ee808eadc13696d74fc051ce5",
+                "width": 2554,
+                "height": 1000
+              },
+              {
+                "path": "assets/web-tree.runspore/562a0479ad555e43.png",
+                "alt": "The Runspore panel: a worker switch, two runs waiting for approval with approved and rejected buttons, and finished runs",
+                "sha256": "562a0479ad555e43d2e48789fbd9d5413de565ce8c5d3894ff110c354d9b2acc",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Web-tree/orca-runspore",
+          "updatedAt": "2026-11-16T02:00:07+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "c8656a7a98df681a1f1123a7b43a2220904d87d6",
