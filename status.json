@@ -537,6 +537,16 @@
         }
       ]
     },
+    "crilofer/orca-streamdeck": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "csavur/simple-todo": {
       "state": "listed",
       "ref": "refs/tags/csavur/simple-todo/0.1.0",
@@ -2431,19 +2441,10 @@
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
-      "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.2",
+      "ref": "v0.1.4",
       "plugins": [
         "thanhtrung5763.git-graph"
-      ],
-      "update": {
-        "ref": "v0.1.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "thirstydevil/rhai-syntax": {
       "state": "listed",
