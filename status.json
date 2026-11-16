@@ -214,6 +214,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "aywengo/orca-mlx-plugin": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "aywengo.omlx"
+      ]
+    },
     "bahachammakhi/kube-panel": {
       "state": "listed",
       "ref": "refs/tags/bahachammakhi/kube-panel/0.1.2",
@@ -2639,7 +2646,7 @@
     },
     "vale-c/orca-cyberpunk": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/vale-c/orca-cyberpunk/1.1.0",
       "plugins": [
         "vale-c.cyberpunk"
       ]

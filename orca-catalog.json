@@ -3301,6 +3301,47 @@
       ]
     },
     {
+      "id": "aywengo.omlx",
+      "ownerId": 800531,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "38aa32167ca7402f9ab41b312a4ec8affa23b4b6",
+          "contentHash": "33b0d65adcc4ef9bb8fb568c516566f63ebdbbb9bcf8f678fe6de88e8b41067d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "oMLX",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "oMLX"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "oMLX"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aywengo/orca-mlx-plugin",
+          "updatedAt": "2026-11-16T23:37:11+01:00"
+        }
+      ]
+    },
+    {
       "id": "bahachammakhi.kube-panel",
       "ownerId": 44755179,
       "source": {
@@ -39523,8 +39564,8 @@
       "ownerId": 21361479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vale-c/orca-cyberpunk.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vale-c/orca-cyberpunk/1.1.0"
       },
       "description": "Neon Cyberpunk app, code and terminal colors for Orca, in three styles: Cyberpunk, Umbra and Scarlet.",
       "categories": [
