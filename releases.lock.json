@@ -317,6 +317,12 @@
     "repoId": 1458999950,
     "firstSeen": "2026-11-16T13:33:33.917Z"
   },
+  "augustovicente.pipeline@0.4.0": {
+    "commit": "ea642bd390086348e9a5611c7005f3d346375345",
+    "contentHash": "11be6d8f0de2080e63add0f9673cc1137a6aea11224b5c247810a27d68ff14b1",
+    "repoId": 1458999950,
+    "firstSeen": "2026-11-16T14:06:21.422Z"
+  },
   "awallsr.beads@0.2.1": {
     "commit": "d2a527c3231a5a314b7416110329e462569f60d3",
     "contentHash": "5bb129ac236fa6223e38b17060133e9d386b777216d27ff379dc8dd1eabad00b",
@@ -1871,6 +1877,12 @@
     "repoId": 1455830705,
     "firstSeen": "2026-11-14T04:16:02.596Z"
   },
+  "javiervinus.vinus-arcade@0.3.2": {
+    "commit": "9ac9aed9fea71222475ff27d50b843ef1192d634",
+    "contentHash": "193bf5e4477ba400fc47bfcef037abd0a486b1a86df3d9f7e1711aaea78b68e7",
+    "repoId": 1455830705,
+    "firstSeen": "2026-11-16T14:06:21.422Z"
+  },
   "jdflament.coordinator-board@1.1.0": {
     "commit": "efd32d89c7e31f546865d5c55d24034b8e1a6aef",
     "contentHash": "13c407f57ad7f7ec25879897e4c63355139ff69d3a18c191c796048610927ebc",
@@ -3328,6 +3340,12 @@
     "contentHash": "07615befae4e1e893cd00f990ec1222690bdeb0bc2ceecffc5188ba86aca0f67",
     "repoId": 1457893031,
     "firstSeen": "2026-11-16T08:16:25.574Z"
+  },
+  "sergei-popov.font-viewer@0.1.1": {
+    "commit": "2d354866c47a5556fdd33ca988345dc5fc894a49",
+    "contentHash": "827bc5272b7d2085480fd2147704f1ad5ee3904f6855e9df152da4b0bbc452bb",
+    "repoId": 1457893031,
+    "firstSeen": "2026-11-16T14:06:21.422Z"
   },
   "sergei-popov.har-viewer@0.1.0": {
     "commit": "fb46f7db75da1a4f477d3cb99b61e6c4255b8946",

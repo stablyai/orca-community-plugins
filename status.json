@@ -208,7 +208,7 @@
     },
     "augustovicente/orca-pipeline": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "v0.4.0",
       "plugins": [
         "augustovicente.pipeline"
       ]
@@ -641,7 +641,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.8.3",
+      "ref": "refs/tags/divlook/orca-sidenote/0.8.3",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -732,7 +732,7 @@
     },
     "emamalet/orca-git-log-panel": {
       "state": "listed",
-      "ref": "v0.1.10",
+      "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.10",
       "plugins": [
         "emamalet.git-log"
       ]
@@ -1168,7 +1168,7 @@
     },
     "javiervinus/vinus-arcade-orca": {
       "state": "listed",
-      "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "javiervinus.vinus-arcade"
       ]
@@ -1814,7 +1814,7 @@
     },
     "orvillelim/orca-code-explainer": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "refs/tags/orvillelim/orca-code-explainer/1.0.3",
       "plugins": [
         "orvillelim.code-explainer"
       ]
@@ -2183,19 +2183,10 @@
     },
     "sergei-popov/orca-font-viewer": {
       "state": "listed",
-      "ref": "refs/tags/sergei-popov/orca-font-viewer/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "sergei-popov.font-viewer"
-      ],
-      "update": {
-        "ref": "v0.1.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "sergei-popov/orca-har-viewer": {
       "state": "listed",

@@ -2898,7 +2898,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/augustovicente/orca-pipeline.git",
-        "ref": "v0.3.2"
+        "ref": "v0.4.0"
       },
       "description": "Staged workflows for your agents: plan, build, test and review chained in one agent session.",
       "categories": [
@@ -2906,6 +2906,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "ea642bd390086348e9a5611c7005f3d346375345",
+          "contentHash": "11be6d8f0de2080e63add0f9673cc1137a6aea11224b5c247810a27d68ff14b1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pipeline",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pipeline"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pipeline"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/augustovicente/orca-pipeline",
+          "updatedAt": "2026-11-16T10:48:22-03:00"
+        },
         {
           "version": "0.3.2",
           "commit": "b103a39b2210d233a349f370a7af7ef214b95b36",
@@ -9048,8 +9083,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.8.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.8.3"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -11339,8 +11374,8 @@
       "ownerId": 43491715,
       "source": {
         "kind": "git",
-        "url": "https://github.com/emamalet/orca-git-log-panel.git",
-        "ref": "v0.1.10"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/emamalet/orca-git-log-panel/0.1.10"
       },
       "description": "Git log: commit graph, branches, filters, details and file diffs, with multi-select squash, fixup, drop, reword, interactive rebase, cherry-pick, revert and reset from a right-click menu.",
       "categories": [
@@ -17678,8 +17713,8 @@
       "ownerId": 24733930,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/javiervinus/vinus-arcade-orca/0.3.1"
+        "url": "https://github.com/Javiervinus/vinus-arcade-orca.git",
+        "ref": "v0.3.2"
       },
       "description": "Pixel art games for the wait between agents, in an office that is yours: your projects hang on the wall, your agents sit at the desks and call you when they need you, and a world ranking crowns the best runs of the week. Blip is the first game; more are on the way. Your projects and agents never lea",
       "categories": [
@@ -17687,6 +17722,76 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "9ac9aed9fea71222475ff27d50b843ef1192d634",
+          "contentHash": "193bf5e4477ba400fc47bfcef037abd0a486b1a86df3d9f7e1711aaea78b68e7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Vinus Arcade",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Vinus Arcade"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/javiervinus.vinus-arcade/d528040bcc8a899a.png",
+              "alt": "Vinus Arcade: its seven pixel art characters beside a run of Blip, the first game, in an office at dusk.",
+              "sha256": "d528040bcc8a899a25f8e7d908c9d3cd78d0b23f3a02af996b9677e6b0eb7932",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/javiervinus.vinus-arcade/1e16ea433779d755.png",
+              "alt": "Vinus Arcade icon",
+              "sha256": "1e16ea433779d7558749e3188148a0ddfee54110b7b1e5f117a6960e789aa79d",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/javiervinus.vinus-arcade/fe6cf4cd7a1e5734.png",
+                "alt": "Three views of Blip: the office with agents at its desks before a run, a run with the x2 tile, and a project sent in by an agent that finished.",
+                "sha256": "fe6cf4cd7a1e5734a99a3feaf263b670cba863e16c8cebbab2c9867d5e3590d0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/javiervinus.vinus-arcade/84f5feca8700be68.png",
+                "alt": "A notice from an agent that is waiting, the characters to buy with coins, and the games window with Blip and two games still to come.",
+                "sha256": "84f5feca8700be685fd3bc39c01bb6d705dd8db2c2f416f288d84c98d1eccbaf",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/javiervinus.vinus-arcade/cb6d0c06783d8e16.png",
+                "alt": "The world ranking of Blip: the ten best runs of the week, the card telling a new best and its place on the board, and the way in with a nickname.",
+                "sha256": "cb6d0c06783d8e168bea1cbf7a543b07d02e632a3d7daded2e49b5b7cee80ea7",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Javiervinus/vinus-arcade-orca",
+          "updatedAt": "2026-11-16T08:48:37-05:00"
+        },
         {
           "version": "0.3.1",
           "commit": "b5f98d934632ca6c98768e2def7baf56a51b2512",
@@ -27232,8 +27337,8 @@
       "ownerId": 14125451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/orvillelim/orca-code-explainer.git",
-        "ref": "v1.0.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/orvillelim/orca-code-explainer/1.0.3"
       },
       "description": "Highlight code and Claude Code or Codex explains it: a quick overview, a piece-by-piece breakdown, a call hierarchy, or an interactive flowchart you step through. Reads your project read-only.",
       "categories": [
@@ -33336,12 +33441,99 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sergei-popov/orca-font-viewer/0.1.0"
+        "url": "https://github.com/Sergei-Popov/orca-font-viewer.git",
+        "ref": "v0.1.1"
       },
-      "description": "Fonts in Orca's editor tabs: opens .ttf, .otf, .woff, .woff2, .ttc and .otc files with sample text at any size, a waterfall of sizes, variable axes and named instances, OpenType feature switches, every character grouped by Unicode block with code points to copy, and the font's names, metrics, licenc",
+      "description": "Fonts in Orca's editor tabs: .ttf, .otf, .woff, .woff2, .ttc and .otc. Type your own sample at any size, move variable axes, switch OpenType features, browse every character by Unicode block with code points to copy, and read names, metrics, licence and tables. Works offline; never edits the file.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "2d354866c47a5556fdd33ca988345dc5fc894a49",
+          "contentHash": "827bc5272b7d2085480fd2147704f1ad5ee3904f6855e9df152da4b0bbc452bb",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Font Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Font Viewer",
+              "detail": ".ttf, .otf, .woff, .woff2, .ttc, .otc"
+            }
+          ],
+          "fileTypes": [
+            "ttf",
+            "otf",
+            "woff",
+            "woff2",
+            "ttc",
+            "otc"
+          ],
+          "editorFileTypes": [
+            "ttf",
+            "otf",
+            "woff",
+            "woff2",
+            "ttc",
+            "otc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.font-viewer/f3f69ec87517a796.png",
+              "alt": "Font Viewer on a variable font: your own text as a large sample at 72 px in a heavy, casual style, under the size controls.",
+              "sha256": "f3f69ec87517a796d286ef58fa66f8be38dcc5a593ca9c2769fde12b1a68b20e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.font-viewer/03e0193fc29ab88a.png",
+              "alt": "Font Viewer icon",
+              "sha256": "03e0193fc29ab88a31eab9115200837d1c3567738c7aa8cbaf1ad1703945bbda",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.font-viewer/c28b619648934904.png",
+                "alt": "Variable axes at work: weight 800, Casual 1 and slant -15 on the sample text; the named instance reads Custom.",
+                "sha256": "c28b6196489349044b97d9b58305ca9b6237a5879801d18d7edd7f52eeb060a2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.font-viewer/c2f011bb738fa653.png",
+                "alt": "Code ligatures switched on in a monospaced font: the dlig feature checked and != => >= drawn as single glyphs.",
+                "sha256": "c2f011bb738fa653de852f96bc7c242a410d27e69eb6ea8a375cf8634428b33d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.font-viewer/b93660c506822b55.png",
+                "alt": "A CJK font with 47,336 glyphs by Unicode block: 20,992 CJK Unified Ideographs, one selected with its code point to copy.",
+                "sha256": "b93660c506822b55b5b54797852a8b3f4a4fc8f67ed4331f2116fbe20b15ba34",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.font-viewer/0aace016f17566ae.png",
+                "alt": "A .ttc font collection with face 33 of 36 picked in Face: its name, style and 2,937 glyphs, previewed on the sample.",
+                "sha256": "0aace016f17566aefd2c73f7db47ce4e72dd208372b488220ef6901074251506",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.font-viewer/e04390c6f2529be9.png",
+                "alt": "The Info tab: vertical metrics and variable axes, then the OFL licence and its embedding rights. Shown in Orca's light theme.",
+                "sha256": "e04390c6f2529be92e8e945e9262dd6a6a781941785becd32d4f7d29bab32583",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT AND Apache-2.0",
+          "repository": "https://github.com/Sergei-Popov/orca-font-viewer",
+          "updatedAt": "2026-11-16T18:05:41+05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "00b200c1855e06251fe93ebba10336955b417709",
