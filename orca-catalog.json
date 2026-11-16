@@ -35098,14 +35098,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.7.2"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.8.0"
       },
       "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.8.0",
+          "commit": "9dff3b27459e2e6334e282efb1cec41aa424883d",
+          "contentHash": "ecb2302fa28d9938a684908fa82f6ec61a4848703152f994f51034874e64d857",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort Epics",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort Epics"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-16T18:56:53Z"
+        },
         {
           "version": "0.7.2",
           "commit": "a710ba00bf1f69a4ddac471548ca9cdcfbb4fee1",
@@ -35197,29 +35220,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-12T19:23:27Z"
-        },
-        {
-          "version": "0.5.0",
-          "commit": "7df7bd08059163e1cd433a86f67cbecd04e15532",
-          "contentHash": "54d8a3550ea7d14cffe928036c32dffe7a7b20cc3c994befa262d5b9d355de69",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-12T15:48:29Z"
         }
       ]
     },
@@ -36956,6 +36956,260 @@
           "license": "MPL-2.0",
           "repository": "https://github.com/thirstydevil/rhai-syntax",
           "updatedAt": "2026-11-14T16:50:39Z"
+        }
+      ]
+    },
+    {
+      "id": "tiagodanin.flutter",
+      "ownerId": 5731176,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/TiagoDanin/Orca-Flutter.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Flutter and Dart support for Orca",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings",
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "53231a679e4a39a1626fd404257eee284c0de5a2",
+          "contentHash": "9e7e3ee3eeab37867e98c683b84b308fdce18de869fda7b7e907267b0d6c747d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Flutter",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Flutter"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run (Profile)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run (Release)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Attach"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Stop"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot Reload"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot Restart"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Next Device"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Widget Inspector"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Debug Painting"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Performance Overlay"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Override Platform"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Brightness"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Save Screenshot"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Open DevTools"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Dump Widget Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Dump Render Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Get Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Upgrade Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Upgrade Packages (--major-versions)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: List Outdated Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Add Dependency"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run build_runner"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Generate Localizations"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Clean Project"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Analyze"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Format"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Apply Fixes"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Tests"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Tests with Coverage"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Create Project"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Flutter Doctor"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Flutter Upgrade"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+X",
+              "detail": "flutter.run"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+L",
+              "detail": "flutter.hotReload"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+K",
+              "detail": "flutter.hotRestart"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+S",
+              "detail": "flutter.doctor"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+U",
+              "detail": "flutter.test"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+P",
+              "detail": "flutter.createProject"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Dart",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Dart file",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatelessWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatefulWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter widget with AnimationController",
+              "detail": ".dart"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "No device"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Flutter: Idle"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "dart"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tiagodanin.flutter/b4f60c6890c042db.png",
+              "alt": "Flutter icon",
+              "sha256": "b4f60c6890c042db760069c63c2c1ae95e1342132f4bda647ad833a9add75233",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TiagoDanin/Orca-Flutter",
+          "updatedAt": "2026-11-16T15:12:22-03:00"
         }
       ]
     },
