@@ -2359,8 +2359,8 @@
       "ownerId": 22537210,
       "source": {
         "kind": "git",
-        "url": "https://github.com/angelcrown24/orca-traffic-light.git",
-        "ref": "v0.3.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/angelcrown24/orca-traffic-light/0.3.3"
       },
       "description": "Show observed skill, plugin, MCP and agent activity.",
       "categories": [
@@ -6904,8 +6904,8 @@
       "ownerId": 29829921,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chilango74/orca-agent-preflight.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chilango74/orca-agent-preflight/0.1.0"
       },
       "description": "Run a configurable preparation command before terminal agents start in local Git workspaces.",
       "categories": [],
@@ -15891,8 +15891,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.9.9"
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.9.11"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes. English and Korean. macOS only for now.",
       "categories": [
@@ -15900,6 +15900,54 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.9.11",
+          "commit": "a197a8d0315bbd65b674b6454759994f93e76bb8",
+          "contentHash": "fbdbde5831fcce7fa72091975580cf3a251471d942d86ad8a4df8d1ec9937f21",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/aa7c66cb5f80dc6b.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "aa7c66cb5f80dc6b0237146ce22574babc721a6e2436d17cc18a87859d96c4b3",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-17T12:39:27+09:00"
+        },
         {
           "version": "0.9.9",
           "commit": "424a2f870db06c7e287691f67d46eb32e77ee828",
@@ -28810,6 +28858,102 @@
       ]
     },
     {
+      "id": "pereiraemerson-afk.sql-syntax",
+      "ownerId": 353447018,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pereiraemerson-afk/orca-sql-syntax.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Syntax highlighting for SQL (ANSI, PostgreSQL, T-SQL, PL/SQL, MySQL, BigQuery) and Dataform .sqlx files.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "09d9a4e5da83a799db73428b6196cb08e94a1d0a",
+          "contentHash": "f45d108f10502c4b12c2b91f530e11618712fea62ad1f18cda3395e144c2f845",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "SQL & Dataform SQLX Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "SQL",
+              "detail": ".sql, .ddl, .dml, .pgsql, .psql, .mysql, .tsql, .plsql, .pls, .pks, .pkb, .prc, .fnc, .trg, .hql, .bql"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "SQLX (Dataform)",
+              "detail": ".sqlx"
+            }
+          ],
+          "fileTypes": [
+            "sql",
+            "ddl",
+            "dml",
+            "pgsql",
+            "psql",
+            "mysql",
+            "tsql",
+            "plsql",
+            "pls",
+            "pks",
+            "pkb",
+            "prc",
+            "fnc",
+            "trg",
+            "hql",
+            "bql",
+            "sqlx"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pereiraemerson-afk.sql-syntax/95675baa82519b80.png",
+              "alt": "SQL file highlighted in the Orca editor next to the plugin name and feature list.",
+              "sha256": "95675baa82519b80bcc5cf2efd93f7185925e5eb5fa6abe1205c8a30f47d8b7b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/pereiraemerson-afk.sql-syntax/07221326b7a85336.png",
+              "alt": "SQL & Dataform SQLX Syntax icon",
+              "sha256": "07221326b7a85336da1ca7bf66cf2d7eb75ec6b84d9e908e5aa596db1e3b03d9",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/pereiraemerson-afk.sql-syntax/95675baa82519b80.png",
+                "alt": "PostgreSQL file with a CTE, window function, JSON operators and a dollar-quoted function body, highlighted in the Orca editor.",
+                "sha256": "95675baa82519b80bcc5cf2efd93f7185925e5eb5fa6abe1205c8a30f47d8b7b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/pereiraemerson-afk.sql-syntax/0f552b45558f6624.png",
+                "alt": "Dataform .sqlx file with a config block highlighted as JavaScript and ${ref()} / ${self()} templates inside the SQL.",
+                "sha256": "0f552b45558f662400f85de583684886dd635d4d2f02e6c8b4310def67cb2646",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/pereiraemerson-afk.sql-syntax/9582af4f9826d051.png",
+                "alt": "SQL Server stored procedure with TRY/CATCH, transactions and bracketed identifiers highlighted in the Orca editor.",
+                "sha256": "9582af4f9826d05127fb5e186050d6d7429651debdbfb15b48c79d2d8125d169",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/pereiraemerson-afk/orca-sql-syntax",
+          "updatedAt": "2026-11-17T00:34:39-03:00"
+        }
+      ]
+    },
+    {
       "id": "petercr.entire",
       "ownerId": 26460352,
       "source": {
@@ -40666,7 +40810,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.1.3"
+        "ref": "v0.1.4"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -40675,6 +40819,86 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "118689271a1efb4f172cbbf4386ba0ffb86e94da",
+          "contentHash": "6653107e05776ab3e15a3ff3699fa77add7a7130b88de1793d2da39de5fbf74e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-17T11:36:30+08:00"
+        },
         {
           "version": "0.1.3",
           "commit": "4579897787c3db004e9c9e85941114d10523f913",

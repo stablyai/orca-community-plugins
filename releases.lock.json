@@ -1703,6 +1703,12 @@
     "repoId": 1450372557,
     "firstSeen": "2026-11-13T12:20:44.061Z"
   },
+  "gook-lab.agent-scheduler@0.9.11": {
+    "commit": "a197a8d0315bbd65b674b6454759994f93e76bb8",
+    "contentHash": "fbdbde5831fcce7fa72091975580cf3a251471d942d86ad8a4df8d1ec9937f21",
+    "repoId": 1460739421,
+    "firstSeen": "2026-11-17T03:39:47.165Z"
+  },
   "gook-lab.agent-scheduler@0.9.7": {
     "commit": "84bcfa0b59a03f4a088798e2f29fcb468d12ee9e",
     "contentHash": "410c07008a990d00e58cd37a4c03481ce7edf1218505c3007b274e823d5e11bd",
@@ -2945,6 +2951,12 @@
     "repoId": 1453447879,
     "firstSeen": "2026-11-11T03:16:45.666Z"
   },
+  "pereiraemerson-afk.sql-syntax@1.0.0": {
+    "commit": "09d9a4e5da83a799db73428b6196cb08e94a1d0a",
+    "contentHash": "f45d108f10502c4b12c2b91f530e11618712fea62ad1f18cda3395e144c2f845",
+    "repoId": 1460868675,
+    "firstSeen": "2026-11-17T03:39:47.165Z"
+  },
   "petercr.entire@0.1.0": {
     "commit": "f18c7f800853582927836a732b9552c30b3a1f7a",
     "contentHash": "8893c04922faebe41a47281e2b2e5d655fb9b87d68210bb20a9e61756bef7deb",
@@ -4174,6 +4186,12 @@
     "contentHash": "13d856794fed233cf014fd5242ee30ec1a85644a26282abdbb0aae9be0a2bf1b",
     "repoId": 1453595219,
     "firstSeen": "2026-11-17T03:16:59.323Z"
+  },
+  "wilsonliu123.token-pulse@0.1.4": {
+    "commit": "118689271a1efb4f172cbbf4386ba0ffb86e94da",
+    "contentHash": "6653107e05776ab3e15a3ff3699fa77add7a7130b88de1793d2da39de5fbf74e",
+    "repoId": 1453595219,
+    "firstSeen": "2026-11-17T03:39:47.165Z"
   },
   "woodfishhhh.better-project-tree@0.1.0": {
     "commit": "c49207bb17f0c9fc3f4b8aa825dcc9947f3ccaf2",
