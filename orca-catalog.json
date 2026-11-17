@@ -3495,13 +3495,48 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/aywengo/orca-mlx-plugin.git",
-        "ref": "v1.0.1"
+        "ref": "v1.1.1"
       },
       "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "b44a246fff6ea73aecabbcc691c52ec7d579a34e",
+          "contentHash": "905eba442c5d78bab304904bc46b5c4944dcec88e09ac0909df61e6becb033e5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "oMLX",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "oMLX"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "oMLX"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/aywengo.omlx/3bb536a94fe30f0e.png",
+              "alt": "oMLX icon",
+              "sha256": "3bb536a94fe30f0e90e95deef5318c629c88485d00561ea983eb298dc43a4977",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aywengo/orca-mlx-plugin",
+          "updatedAt": "2026-11-17T15:17:32+01:00"
+        },
         {
           "version": "1.0.1",
           "commit": "7474ec008b6946f8b858bf3f058032c733d02b6f",
@@ -7834,14 +7869,54 @@
       "ownerId": 7995484,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/christianlemer/orca-nushell-syntax/0.1.0"
+        "url": "https://github.com/ChristianLemer/orca-nushell-syntax.git",
+        "ref": "v0.1.1"
       },
       "description": "Syntax highlighting, comment toggling and bracket matching for Nushell scripts (.nu) and data files (.nuon).",
       "categories": [
         "languages"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "37fb7958654c6453b60e91ae27d9990df2afb371",
+          "contentHash": "1d436f5d0b8595bd8695d8dc9707dfeed041c5ad25d4400655614da5695d9a82",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Nushell",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Nushell",
+              "detail": ".nu, .nuon"
+            }
+          ],
+          "fileTypes": [
+            "nu",
+            "nuon"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/christianlemer.nushell-syntax/78b038f3e4edfdfe.png",
+              "alt": "A Nushell script in Orca's editor: a typed custom command, strings with interpolation, numbers, durations, file sizes, dates and ranges, each in its own color",
+              "sha256": "78b038f3e4edfdfe0cf0949c6d0d1d854bb1a890686aed8555e9b95e3a97f941",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/christianlemer.nushell-syntax/b9e595a4c8c69b0c.png",
+                "alt": "Nushell closures, pipelines, match, loops, try and catch, operators, external commands, environment variables, aliases and modules highlighted in Orca's editor",
+                "sha256": "b9e595a4c8c69b0c1799a8d0d31866fef414a59f05ad3659b6b3d1a555b66c0e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ChristianLemer/orca-nushell-syntax",
+          "updatedAt": "2026-11-17T15:19:34+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "feab2a64f1656804c4ccfaebb100c3f3f870a133",
@@ -12778,6 +12853,101 @@
       ]
     },
     {
+      "id": "erom.agent-progress-sp",
+      "ownerId": 146684,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eRom/orca-plugin-agent-progress-sp.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Requires Superpowers. Shows where each Superpowers plan stands, read from its spec, plan and ledger: the current workspace's tasks and agent, the other work in progress, and the stage in the status bar.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "5bd52ee821887bffbb2d37dd1c34581d197b6662",
+          "contentHash": "c8fc4d1f2760c28aed4040786403e9e3d613ee27903175efc0fbe99fd0865e2d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Progress for Superpowers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Progress"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Progress: Toggle the sidebar"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "progress"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-progress-sp/fe734317e689dcc9.png",
+              "alt": "The Agent Progress panel in Orca: a stage strip, a progress bar and the task list of a plan, beside a table of the other workspaces with live work.",
+              "sha256": "fe734317e689dcc9a3d4ea55881aa357792bf38a351963aa4375123a897476d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-progress-sp/42c9de4363d67834.png",
+              "alt": "Agent Progress for Superpowers icon",
+              "sha256": "42c9de4363d678341734031be612c813925c72ad1f2461ccb05b45209dd8f7b1",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-progress-sp/486514e023a202f1.png",
+                "alt": "The dark Agent Progress panel: two plans, one at the Tasks stage with a task in a fix round, one at the Review stage with every task done.",
+                "sha256": "486514e023a202f1c687448b6fc37a653548df4fab1c7c2ead8f4ffc74efe8c1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-progress-sp/78cd7ca83a4f17c6.png",
+                "alt": "The same two plans in Orca's light theme.",
+                "sha256": "78cd7ca83a4f17c649d634056bb2b04dda29251f5ab9dc9d979649366e81f139",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-progress-sp/48894ff32ef5a01c.png",
+                "alt": "A panel with an agent that needs you, in amber, next to a table of other workspaces where one agent is waiting for you and another is working.",
+                "sha256": "48894ff32ef5a01ccece763c1309d0b97cb4aa45f557d357ef3f5ecf6f6168b0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-progress-sp",
+          "updatedAt": "2026-11-17T14:10:20+01:00"
+        }
+      ]
+    },
+    {
       "id": "eskono.docker-logs",
       "ownerId": 4644133,
       "source": {
@@ -16097,8 +16267,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.12.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.3"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -21568,8 +21738,8 @@
       "ownerId": 61507247,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ky1ezer0/orca-git-graph.git",
-        "ref": "v1.0.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.4"
       },
       "description": "Searchable, auto-refreshing Git graph with confirmed Git actions and one-click remote fetch for local Orca workspaces.",
       "categories": [
@@ -27135,7 +27305,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/naitsric/orca-claude-procesos.git",
-        "ref": "v0.2.0"
+        "ref": "v0.3.0"
       },
       "description": "Monitor de las sesiones de Claude Code, los procesos que lanzan y los que quedaron huérfanos, con el veredicto de cuáles cerrar.",
       "categories": [
@@ -27143,6 +27313,53 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "a504f725fb49c4a26586dcfcf6ff6bf86f08300e",
+          "contentHash": "f223ac97bca38cb1011eb0b73a5278bd4bca7a3fcbed5321d90b73b2cf1faae3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Procesos de Claude",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Procesos de Claude"
+            },
+            {
+              "kind": "panels",
+              "name": "Actividad de Claude"
+            },
+            {
+              "kind": "commands",
+              "name": "Procesos de Claude: revisar ahora"
+            },
+            {
+              "kind": "commands",
+              "name": "Procesos de Claude: cerrar los huérfanos seguros"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
+              "alt": "Procesos de Claude icon",
+              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/naitsric/orca-claude-procesos",
+          "updatedAt": "2026-11-17T09:28:18-05:00"
+        },
         {
           "version": "0.2.0",
           "commit": "116f0e7bfef18120580d5ed304db0871575a3129",
