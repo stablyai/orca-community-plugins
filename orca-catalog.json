@@ -21790,6 +21790,41 @@
       ]
     },
     {
+      "id": "leeleelee3264.spyhop-orca",
+      "ownerId": 35620531,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/leeleelee3264/spyhop-orca.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Every AI session on one list in the Orca sidebar: steps, TODO and whose turn it is. Needs the Spyhop app.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "b8555f9cba1e65d015e1098d80f012787b607d3d",
+          "contentHash": "3e3f28e966352e2e31110b01fee3f9cf7f713bc4a447e3b867f89ff3df87ac91",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Spyhop",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Spyhop"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/leeleelee3264/spyhop-orca",
+          "updatedAt": "2026-11-17T14:38:23+09:00"
+        }
+      ]
+    },
+    {
       "id": "lilykos.openrouter-usage",
       "ownerId": 2445433,
       "source": {

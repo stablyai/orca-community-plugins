@@ -1449,6 +1449,16 @@
         "lazyjerry.todo-list"
       ]
     },
+    "leeleelee3264/spyhop-orca": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "leeleelee3264.spyhop-orca"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "leobessin/orca-mongo-studio": {
       "state": "rejected",
       "ref": "v1.0.1",
