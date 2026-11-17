@@ -716,7 +716,7 @@
         "dohaidang.vietnamese"
       ],
       "notes": [
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 6 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 8 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "dohaidang/orca-wallpaper-studio": {
@@ -742,9 +742,12 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.261",
+      "ref": "refs/tags/ebbop/orca-italiano/1.4.261",
       "plugins": [
         "ebbop.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 34 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -1653,7 +1656,7 @@
         "mancunianez.ukrainian"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (locales/uk.json): 20 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (locales/uk.json): 22 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "marco-calderon/nord-midnight-orca-theme": {
@@ -1696,6 +1699,9 @@
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.261",
       "plugins": [
         "matteoeusebi.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 35 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -2513,6 +2519,16 @@
         {
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "sofiacnm/inside-the-blackbox": {
+      "state": "rejected",
+      "ref": "v0.3.3",
+      "reasons": [
+        {
+          "category": "identity-hold",
+          "detail": "moved from sofiacnm/orca-workshop-plugin (sofiacnm.inside-the-black-box) to sofiacnm/inside-the-blackbox (sofiacnm.inside-the-black-box); new versions paused until a maintainer confirms the move in identity-moves.json"
         }
       ]
     },
