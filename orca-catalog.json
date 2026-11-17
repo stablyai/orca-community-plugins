@@ -23264,14 +23264,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.259"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.261"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.259. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.261. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.261",
+          "commit": "669c60dccddb67b460685721017561253973f260",
+          "contentHash": "472b376a9a0b3d4b1db33e31c05f08cf418b00bb550ba0d587385187dcbbb515",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-17T08:19:18+01:00"
+        },
         {
           "version": "1.4.259",
           "commit": "a16dbb1104c0d2756b5596adcc1e7909427f79e4",
@@ -29943,8 +29976,8 @@
       "ownerId": 143376457,
       "source": {
         "kind": "git",
-        "url": "https://github.com/quocnt85/orca-better-tasks.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/quocnt85/orca-better-tasks/1.0.0"
       },
       "description": "Single-scroll workspace command center for Orca grouping local & paired Mac/PC projects into cards with English/Vietnamese support, Work/Personal schedule modes, Freshness indicators, Waiting list, Pinned items, and customizable status tags.",
       "categories": [
@@ -35985,14 +36018,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.8.0"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.9.0"
       },
-      "description": "Controls ConPort projects from Orca: the epics of a project by milestone, the start of an epic in a terminal of the chosen harness with a subagent type per role, an agent to prepare an epic without a spec or plan, and the tasks outside the epics handed to an agent to do or to review.",
+      "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.9.0",
+          "commit": "ab0216e8332059cad31cd6b78d38bd046ce9ce8c",
+          "contentHash": "d02eaebf0c4e005898dd8047af0b9293a60f6156f7b4181d91adb9846f56478e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort SDD",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort SDD"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-17T07:38:45Z"
+        },
         {
           "version": "0.8.0",
           "commit": "9dff3b27459e2e6334e282efb1cec41aa424883d",
@@ -36084,29 +36140,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-13T05:24:28Z"
-        },
-        {
-          "version": "0.5.1",
-          "commit": "6ac9c9ac7f31d7dec02088dc47fad83e79ec7111",
-          "contentHash": "bfe387a63b0d4c9ca2cea49610a785756280570282458a313e9ce5fdbcbbee7f",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-12T19:23:27Z"
         }
       ]
     },
@@ -40639,8 +40672,8 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vrwolf1004/orca-radio.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vrwolf1004/orca-radio/0.6.1"
       },
       "description": "Orca 사이드바에서 인터넷 라디오를 재생한다.",
       "categories": [

@@ -1020,7 +1020,7 @@
         "gook-lab.agent-scheduler"
       ],
       "update": {
-        "ref": "v0.10.1",
+        "ref": "v0.10.3",
         "reasons": [
           {
             "category": "under-review",
@@ -1612,7 +1612,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.259",
+      "ref": "v1.4.261",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -2060,7 +2060,7 @@
     },
     "quocnt85/orca-better-tasks": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/quocnt85/orca-better-tasks/1.0.0",
       "plugins": [
         "quocnt85.workspace-radar"
       ]
@@ -2367,7 +2367,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.8.0",
+      "ref": "v0.9.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -2765,7 +2765,7 @@
     },
     "vrwolf1004/orca-radio": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/vrwolf1004/orca-radio/0.6.1",
       "plugins": [
         "vrwolf1004.radio-for-orca"
       ],
