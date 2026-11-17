@@ -2377,7 +2377,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.9.1",
+      "ref": "refs/tags/shaurgon/conport-orca/0.9.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -2847,7 +2847,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.4",
+      "ref": "v0.1.5",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
@@ -2916,7 +2916,7 @@
     },
     "zifengjiang/orca-workspace-namer": {
       "state": "listed",
-      "ref": "refs/tags/zifengjiang/orca-workspace-namer/0.1.2",
+      "ref": "v0.2.0",
       "plugins": [
         "zifengjiang.workspace-namer"
       ]

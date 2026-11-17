@@ -36321,8 +36321,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.9.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.9.1"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
@@ -41446,8 +41446,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.4"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.1.5"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -41456,6 +41456,86 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "a1b10b22783e6888067739acde4f96a0dadfa89a",
+          "contentHash": "a29dcadd551e54dbf03a2c79431af7d613f36f48f442fb3b4cc4c080bc987e03",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-17T17:52:48+08:00"
+        },
         {
           "version": "0.1.4",
           "commit": "118689271a1efb4f172cbbf4386ba0ffb86e94da",
@@ -44630,15 +44710,47 @@
       "ownerId": 63494980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/zifengjiang/orca-workspace-namer/0.1.2"
+        "url": "https://github.com/zifengjiang/orca-workspace-namer.git",
+        "ref": "v0.2.0"
       },
-      "description": "Renames a workspace once its agent stops, using what the agent was asked to do. The agent itself is never interrupted.",
+      "description": "Renames a conversation tab once its agent stops, using what that conversation was asked to do. Workspaces keep their names.",
       "categories": [
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "ed55b66ff015f31fda58884627884b4fe6aea12c",
+          "contentHash": "e0846ffa2c12f03eea4a5f059decd29f4e5ef5ebda6c494dee35718539cc94e7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Tab Namer",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Rename this conversation after its task"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/zifengjiang/orca-workspace-namer",
+          "updatedAt": "2026-11-17T18:01:49+08:00"
+        },
         {
           "version": "0.1.2",
           "commit": "17236b68aaadab479027b656403aa23b3813a535",

@@ -4277,6 +4277,12 @@
     "repoId": 1453595219,
     "firstSeen": "2026-11-17T03:39:47.165Z"
   },
+  "wilsonliu123.token-pulse@0.1.5": {
+    "commit": "a1b10b22783e6888067739acde4f96a0dadfa89a",
+    "contentHash": "a29dcadd551e54dbf03a2c79431af7d613f36f48f442fb3b4cc4c080bc987e03",
+    "repoId": 1453595219,
+    "firstSeen": "2026-11-17T10:14:58.602Z"
+  },
   "woodfishhhh.better-project-tree@0.1.0": {
     "commit": "c49207bb17f0c9fc3f4b8aa825dcc9947f3ccaf2",
     "contentHash": "ba7e6d3c5fcdec541c4d315e5c13448d4f886a3b8b108ee1737c949741402995",
@@ -4408,5 +4414,11 @@
     "contentHash": "a7c199536d3981c3ad8f94042944eab2e6d71c54d7ccf56113ceffcd191f8d50",
     "repoId": 1457809652,
     "firstSeen": "2026-11-14T14:12:35.695Z"
+  },
+  "zifengjiang.workspace-namer@0.2.0": {
+    "commit": "ed55b66ff015f31fda58884627884b4fe6aea12c",
+    "contentHash": "e0846ffa2c12f03eea4a5f059decd29f4e5ef5ebda6c494dee35718539cc94e7",
+    "repoId": 1457809652,
+    "firstSeen": "2026-11-17T10:14:58.602Z"
   }
 }
