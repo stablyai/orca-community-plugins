@@ -12755,6 +12755,59 @@
       ]
     },
     {
+      "id": "ernlel.d-syntax",
+      "ownerId": 14764900,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ernlel/orca-d-syntax.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Syntax highlighting for the D programming language: .d and .di files, with attributes, template syntax, string interpolation and nested comments.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "6601134bc11db145bc73498e09be488a2123f67f",
+          "contentHash": "399cdafa33f441e43bce0b52916b3e453a029827f9dcafd224bfa72fa3038c76",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "D",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "D",
+              "detail": ".d, .di"
+            }
+          ],
+          "fileTypes": [
+            "d",
+            "di"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ernlel.d-syntax/b75de80c00da82fb.png",
+              "alt": "The D plugin's name and a D source sample coloured by the grammar: keywords, types, attributes, numbers and operators",
+              "sha256": "b75de80c00da82fbaa967b148490facf3fe2bafdb1b0d9a7b65ec86c20d8a6bc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ernlel.d-syntax/8fd5a26cdffee467.png",
+              "alt": "D icon",
+              "sha256": "8fd5a26cdffee467b22036d59aed032e795a3fc3e4f82b24d8ef025550e7d1ec",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ernlel/orca-d-syntax",
+          "updatedAt": "2026-11-17T18:15:25Z"
+        }
+      ]
+    },
+    {
       "id": "erom.agent-profiles",
       "ownerId": 146684,
       "source": {
@@ -27373,8 +27426,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/naitsric/orca-claude-procesos/0.3.0"
+        "url": "https://github.com/naitsric/orca-claude-procesos.git",
+        "ref": "v0.4.0"
       },
       "description": "Monitor de las sesiones de Claude Code, los procesos que lanzan y los que quedaron huérfanos, con el veredicto de cuáles cerrar.",
       "categories": [
@@ -27382,6 +27435,53 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "06864e68aca5f62b379e89fc7a38bdc990429ac2",
+          "contentHash": "0775fc3121f3c8035f6e53c467b1b2186244b14a9e7294dd32536f2b14126ec3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Procesos de Claude",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Procesos de Claude"
+            },
+            {
+              "kind": "panels",
+              "name": "Actividad de Claude"
+            },
+            {
+              "kind": "commands",
+              "name": "Procesos de Claude: revisar ahora"
+            },
+            {
+              "kind": "commands",
+              "name": "Procesos de Claude: cerrar los huérfanos seguros"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
+              "alt": "Procesos de Claude icon",
+              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/naitsric/orca-claude-procesos",
+          "updatedAt": "2026-11-17T12:45:54-05:00"
+        },
         {
           "version": "0.3.0",
           "commit": "a504f725fb49c4a26586dcfcf6ff6bf86f08300e",
@@ -41376,8 +41476,8 @@
       "ownerId": 357952307,
       "source": {
         "kind": "git",
-        "url": "https://github.com/VectorFlight/symbols-orca-icon-theme.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vectorflight/symbols-orca-icon-theme/1.0.1"
       },
       "description": "The Symbols file icon theme by Miguel Solorio, ported from VS Code to Orca.",
       "categories": [
