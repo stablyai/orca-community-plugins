@@ -805,7 +805,7 @@
     },
     "ernlel/orca-d-syntax": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/ernlel/orca-d-syntax/1.0.0",
       "plugins": [
         "ernlel.d-syntax"
       ]
@@ -1910,7 +1910,7 @@
     },
     "naitsric/orca-claude-procesos": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/naitsric/orca-claude-procesos/0.4.0",
       "plugins": [
         "naitsric.claude-procesos"
       ]

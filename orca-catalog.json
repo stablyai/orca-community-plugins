@@ -12759,8 +12759,8 @@
       "ownerId": 14764900,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ernlel/orca-d-syntax.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ernlel/orca-d-syntax/1.0.0"
       },
       "description": "Syntax highlighting for the D programming language: .d and .di files, with attributes, template syntax, string interpolation and nested comments.",
       "categories": [
@@ -27426,8 +27426,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/naitsric/orca-claude-procesos.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/naitsric/orca-claude-procesos/0.4.0"
       },
       "description": "Monitor de las sesiones de Claude Code, los procesos que lanzan y los que quedaron huérfanos, con el veredicto de cuáles cerrar.",
       "categories": [
