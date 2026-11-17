@@ -11426,6 +11426,60 @@
       ]
     },
     {
+      "id": "dr-xjx.session-progress",
+      "ownerId": 208565774,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dr-xjx/orca-session-progress.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Shows what the focused workspace's agent is doing now, how long it has been running, and its own todo plan as a task tree, read from the session files it already writes.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c40c5912d9ba58e4983ba663810035361e8f359d",
+          "contentHash": "eaa087f21f66b3f31e7ead180dd43a4a74c8d2d06226c61194c5930946e8fc73",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Session Progress",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "会话进度"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/dr-xjx.session-progress/0f506f8a9843dc8e.png",
+              "alt": "Session Progress icon",
+              "sha256": "0f506f8a9843dc8e47274d6b1fd13def936e31bbcfbd34e652c2e9402e5e5b1c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/dr-xjx.session-progress/9e7b0b80450096d6.png",
+                "alt": "The Session Progress panel with a status line and a phased task tree, the current task highlighted",
+                "sha256": "9e7b0b80450096d6d6e1fff14032f87825c13c44545a675e328a6081380beec1",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dr-xjx/orca-session-progress",
+          "updatedAt": "2026-11-17T20:14:19+08:00"
+        }
+      ]
+    },
+    {
       "id": "duck1eee.void-glow",
       "ownerId": 90901839,
       "source": {
@@ -16008,8 +16062,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.11.2"
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.12.1"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -16017,6 +16071,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.12.1",
+          "commit": "265d50425bd3c1048eb8d034af4b20891de58464",
+          "contentHash": "b802d4085a5b808e9948a5667dba3ea2b596bcaec78582a5474f48b6c9c85a58",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
+                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
+                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-17T21:10:09+09:00"
+        },
         {
           "version": "0.11.2",
           "commit": "263eceac9ccdd8131b156ceea469801b3a75a185",
@@ -16224,38 +16342,6 @@
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler",
           "updatedAt": "2026-11-17T10:33:27+09:00"
-        },
-        {
-          "version": "0.9.7",
-          "commit": "84bcfa0b59a03f4a088798e2f29fcb468d12ee9e",
-          "contentHash": "410c07008a990d00e58cd37a4c03481ce7edf1218505c3007b274e823d5e11bd",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Scheduler",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Scheduler"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Schedules"
-            }
-          ],
-          "capabilities": [
-            "terminal:read",
-            "agent:read",
-            "workspace:read",
-            "storage:own",
-            "notifications:show"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
-          "updatedAt": "2026-11-17T09:44:55+09:00"
         }
       ]
     },
@@ -23923,6 +24009,59 @@
           "license": "MIT",
           "repository": "https://github.com/MichelVelzr/ork-dbclient",
           "updatedAt": "2026-11-06T14:14:03-05:00"
+        }
+      ]
+    },
+    {
+      "id": "mike623.kanagawa-theme",
+      "ownerId": 14008281,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mike623/kanagawa-orca-theme.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Kanagawa Wave, Dragon and Lotus app, editor and terminal themes.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "05c6b24f846cd4cf60dee831d3f766886f25a0e4",
+          "contentHash": "f3ce98bc45d71425bdcd4b667d51f62e62c30ada6ae4d4797613648d410e9ba8",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Kanagawa",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Kanagawa Wave"
+            },
+            {
+              "kind": "themes",
+              "name": "Kanagawa Dragon"
+            },
+            {
+              "kind": "themes",
+              "name": "Kanagawa Lotus"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Kanagawa Wave"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Kanagawa Dragon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Kanagawa Lotus"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/mike623/kanagawa-orca-theme",
+          "updatedAt": "2026-11-17T01:00:28Z"
         }
       ]
     },

@@ -709,6 +709,13 @@
         "dohaidang.wallpaper-studio"
       ]
     },
+    "dr-xjx/orca-session-progress": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "dr-xjx.session-progress"
+      ]
+    },
     "duck1eee/void-glow": {
       "state": "listed",
       "ref": "refs/tags/duck1eee/void-glow/1.0.0",
@@ -1024,7 +1031,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.11.2",
+      "ref": "v0.12.1",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1676,6 +1683,13 @@
           "category": "publisher",
           "detail": "publisher \"minwan\" is not the GitHub owner \"miinwan\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"miinwan\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
         }
+      ]
+    },
+    "mike623/kanagawa-orca-theme": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "mike623.kanagawa-theme"
       ]
     },
     "miragon/orca-modelers": {

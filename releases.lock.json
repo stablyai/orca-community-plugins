@@ -1211,6 +1211,12 @@
     "repoId": 1452188762,
     "firstSeen": "2026-11-12T10:15:06.330Z"
   },
+  "dr-xjx.session-progress@0.1.0": {
+    "commit": "c40c5912d9ba58e4983ba663810035361e8f359d",
+    "contentHash": "eaa087f21f66b3f31e7ead180dd43a4a74c8d2d06226c61194c5930946e8fc73",
+    "repoId": 1461364184,
+    "firstSeen": "2026-11-17T12:20:52.001Z"
+  },
   "duck1eee.void-glow@1.0.0": {
     "commit": "95133d5b72b4eb6e0b2271c96540cffe18b1dce6",
     "contentHash": "dde91ccb721368fa4de3fdb39187b790f9de468108369f0e39faf3f096f5ff49",
@@ -1720,6 +1726,12 @@
     "contentHash": "2dc5cdb1c46a77baea0c5715c380123cb88883e2131948eb54b5b637b5b4477e",
     "repoId": 1460739421,
     "firstSeen": "2026-11-17T09:17:15.103Z"
+  },
+  "gook-lab.agent-scheduler@0.12.1": {
+    "commit": "265d50425bd3c1048eb8d034af4b20891de58464",
+    "contentHash": "b802d4085a5b808e9948a5667dba3ea2b596bcaec78582a5474f48b6c9c85a58",
+    "repoId": 1460739421,
+    "firstSeen": "2026-11-17T12:20:52.001Z"
   },
   "gook-lab.agent-scheduler@0.9.11": {
     "commit": "a197a8d0315bbd65b674b6454759994f93e76bb8",
@@ -2482,6 +2494,12 @@
     "contentHash": "7a5c9b2e88419915e0df1e086fd4dbed33abec24b1ad6749b73e0f1e2ecd9da8",
     "repoId": 1448636810,
     "firstSeen": "2026-11-09T20:39:23.915Z"
+  },
+  "mike623.kanagawa-theme@0.1.0": {
+    "commit": "05c6b24f846cd4cf60dee831d3f766886f25a0e4",
+    "contentHash": "f3ce98bc45d71425bdcd4b667d51f62e62c30ada6ae4d4797613648d410e9ba8",
+    "repoId": 1460746101,
+    "firstSeen": "2026-11-17T12:20:52.001Z"
   },
   "miragon.bpmn-modeler@0.1.1": {
     "commit": "dd61650e7e6e78574fcc2dd3e3649e4be46b2c0d",
