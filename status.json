@@ -141,6 +141,13 @@
         "aminechr54.agent-split"
       ]
     },
+    "angelcrown24/orca-traffic-light": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "angelcrown24.traffic-light"
+      ]
+    },
     "anhtuan2111/orca-megazinee": {
       "state": "rejected",
       "ref": "v0.2.0",
@@ -992,7 +999,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.9.7",
+      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.9.7",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]

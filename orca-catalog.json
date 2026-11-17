@@ -2355,6 +2355,49 @@
       ]
     },
     {
+      "id": "angelcrown24.traffic-light",
+      "ownerId": 22537210,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/angelcrown24/orca-traffic-light.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Observe tool calls from local agents in Orca terminals.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "afee6ee4a7e4d8b87a0013275c27cc0909c61cb2",
+          "contentHash": "be7985c5cb173630e84e39752962c7409f54e46a3c4fe2253f0efe2cb6209598",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Traffic Light",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Traffic Light"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "license": "MIT-0",
+          "repository": "https://github.com/angelcrown24/orca-traffic-light",
+          "updatedAt": "2026-11-17T10:09:42+09:00"
+        }
+      ]
+    },
+    {
       "id": "anhvangiang.agent-accounts",
       "ownerId": 27738449,
       "source": {
@@ -15785,8 +15828,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.9.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.9.7"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes. English and Korean.",
       "categories": [
