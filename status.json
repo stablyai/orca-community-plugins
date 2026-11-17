@@ -150,6 +150,13 @@
         "aminechr54.agent-split"
       ]
     },
+    "and3r817/orca-codegraph": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "and3r817.codegraph"
+      ]
+    },
     "angelcrown24/orca-traffic-light": {
       "state": "listed",
       "ref": "refs/tags/angelcrown24/orca-traffic-light/0.3.4",
@@ -241,7 +248,7 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "v1.1.2",
+      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.2",
       "plugins": [
         "aywengo.omlx"
       ]
@@ -1964,7 +1971,16 @@
       "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.10",
       "plugins": [
         "omerfarukgzr.git-panel"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.11",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size, update"
+          }
+        ]
+      }
     },
     "orvillelim/orca-code-explainer": {
       "state": "listed",
@@ -2003,7 +2019,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.9",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.9",
       "plugins": [
         "palulabs.office-tycoon"
       ]

@@ -2443,6 +2443,40 @@
       ]
     },
     {
+      "id": "and3r817.codegraph",
+      "ownerId": 29005602,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/and3r817/orca-codegraph.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Unofficial. Builds the CodeGraph index of each new workspace and holds the agent until the index is ready.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "ff9f90472043736cc608bfaad365fb6ec9e84167",
+          "contentHash": "fb375700a98c1ae8cd489082c956473da765636da4b12cfc91a23e416522e8a5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "CodeGraph Index",
+          "contributes": [
+            {
+              "kind": "hooks",
+              "name": "workspace.create.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/and3r817/orca-codegraph",
+          "updatedAt": "2026-11-17T17:30:03+01:00"
+        }
+      ]
+    },
+    {
       "id": "angelcrown24.traffic-light",
       "ownerId": 22537210,
       "source": {
@@ -3494,8 +3528,8 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
-        "ref": "v1.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.2"
       },
       "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
       "categories": [
@@ -29586,8 +29620,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.9"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.9"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
