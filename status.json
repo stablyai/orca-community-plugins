@@ -525,6 +525,16 @@
         "christianlemer.nushell-syntax"
       ]
     },
+    "christinaxvg/care-lens": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "christinaxvg.care-lens"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "christinaxvg/orca-plugin-workshop": {
       "state": "listed",
       "ref": "refs/tags/christinaxvg/orca-plugin-workshop/0.1.0",

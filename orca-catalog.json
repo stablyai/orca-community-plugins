@@ -8065,6 +8065,38 @@
       ]
     },
     {
+      "id": "christinaxvg.care-lens",
+      "ownerId": 280850037,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/christinaxvg/care-lens.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Review a screen for potential barriers across accessibility, clarity, sensory load, user control, and privacy.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "020cd25b1f6e80815fdee296048f6259baf459d0",
+          "contentHash": "21f7e364ad5f0f3e36bec955d77098cce33f4014e4e61e15912b30368ec6123a",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Care Lens",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Care Lens"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/christinaxvg/care-lens",
+          "updatedAt": "2026-11-17T13:55:52-08:00"
+        }
+      ]
+    },
+    {
       "id": "christinaxvg.design-direction",
       "ownerId": 280850037,
       "source": {
