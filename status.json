@@ -1024,7 +1024,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.11.2",
+      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.11.2",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -2377,7 +2377,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.9.0",
+      "ref": "v0.9.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]
