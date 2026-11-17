@@ -2447,8 +2447,8 @@
       "ownerId": 29005602,
       "source": {
         "kind": "git",
-        "url": "https://github.com/and3r817/orca-codegraph.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/and3r817/orca-codegraph/0.1.0"
       },
       "description": "Unofficial. Builds the CodeGraph index of each new workspace and holds the agent until the index is ready.",
       "categories": [],
