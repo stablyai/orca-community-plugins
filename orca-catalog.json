@@ -3494,8 +3494,8 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.1"
       },
       "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
       "categories": [
@@ -7869,8 +7869,8 @@
       "ownerId": 7995484,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ChristianLemer/orca-nushell-syntax.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/christianlemer/orca-nushell-syntax/0.1.1"
       },
       "description": "Syntax highlighting, comment toggling and bracket matching for Nushell scripts (.nu) and data files (.nuon).",
       "categories": [
@@ -12857,8 +12857,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-progress-sp.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-progress-sp/0.1.0"
       },
       "description": "Requires Superpowers. Shows where each Superpowers plan stands, read from its spec, plan and ledger: the current workspace's tasks and agent, the other work in progress, and the stage in the status bar.",
       "categories": [
@@ -27304,8 +27304,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/naitsric/orca-claude-procesos.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/naitsric/orca-claude-procesos/0.3.0"
       },
       "description": "Monitor de las sesiones de Claude Code, los procesos que lanzan y los que quedaron huérfanos, con el veredicto de cuáles cerrar.",
       "categories": [
@@ -41307,14 +41307,80 @@
       "ownerId": 92390114,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/victorstochero/orca-agent-pool/1.0.15"
+        "url": "https://github.com/VictorStochero/orca-agent-pool.git",
+        "ref": "v1.0.16"
       },
       "description": "Spread agent work across your Claude, Codex and other accounts by the quota each one has left, and run every test through one machine-wide queue so parallel worktrees don't overload the machine or share a test database.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.16",
+          "commit": "7d86b3ffccad7fb642b3ec23bf09755eb62ae57a",
+          "contentHash": "1d32a8ba684eda1d5a52f820e6c44d1d2da498dbe5446a9caff654f8518f1a5f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Pool & Test Queue",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Pool"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/victorstochero.agent-pool/48a0d8f2e438fe43.png",
+              "alt": "Agent Pool & Test Queue: the panel with two tests running and two waiting, the pool accounts with their quota, and a test waiting its turn.",
+              "sha256": "48a0d8f2e438fe43f8cd423c2608d3b9793f4bb67091db7e714bf68b20ec15c9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/victorstochero.agent-pool/02556df5ef6d59c5.png",
+              "alt": "Agent Pool & Test Queue icon",
+              "sha256": "02556df5ef6d59c529c6662ff8cdaf2b30ea9bdac6b20e15c399f5076139eca4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/victorstochero.agent-pool/066bee9bff0417d1.png",
+                "alt": "Orca with queued test runs in a terminal; the Agent Pool panel shows two tests running, two waiting, and each account's slots and quota.",
+                "sha256": "066bee9bff0417d1ed5f8080578860d7857a3ddca03b44b4c503b1c1931956c4",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/victorstochero.agent-pool/fab622e85f05df55.png",
+                "alt": "Accounts tab with an account's slots, weight, model and roles; in the terminal, agent-pool writer picks the account with the most quota left × its weight.",
+                "sha256": "fab622e85f05df55cc8dbc7eef6d9a7624d1015ff70b1bed82fc6898e3ac76dd",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/victorstochero.agent-pool/6b4bd2dd2cab6c71.png",
+                "alt": "Hooks tab with the Claude and Codex hooks installed, beside a terminal where the Claude hook turns away a bare npm test and prints the queued command.",
+                "sha256": "6b4bd2dd2cab6c713555ad49596a3293aaf90d66be6bf5246ac93480ea80a52a",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/victorstochero.agent-pool/ed4b81677e396f6b.png",
+                "alt": "Installation tab with Orca, both skills, the launcher and the agent hooks installed, above the Uninstall everything button.",
+                "sha256": "ed4b81677e396f6badd2a2e6c5be55aa9140162b946f8d5022a2b53f8b46f26f",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/VictorStochero/orca-agent-pool",
+          "updatedAt": "2026-11-17T11:29:06-03:00"
+        },
         {
           "version": "1.0.15",
           "commit": "2a037dd380f16df754f5f37b39fa652082c74c08",
@@ -41578,26 +41644,6 @@
           "license": "MIT",
           "repository": "https://github.com/VictorStochero/orca-agent-pool",
           "updatedAt": "2026-11-08T04:04:11-03:00"
-        },
-        {
-          "version": "1.0.11",
-          "commit": "5f8726fd68cab9ddfb8c7c85b10b972f52d74b0f",
-          "contentHash": "ba8222a6a62c3cbc5b166cdd366acb989b83c27bfbaf7dafebaf7fa3d9db2769",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.247",
-          "name": "Agent Pool & Test Queue",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Pool"
-            }
-          ],
-          "capabilities": [
-            "storage:own"
-          ],
-          "updatedAt": "2026-11-07T16:10:54-03:00",
-          "license": "MIT",
-          "repository": "https://github.com/VictorStochero/orca-agent-pool"
         }
       ]
     },
