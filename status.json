@@ -527,7 +527,7 @@
     },
     "christinaxvg/care-lens": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/christinaxvg/care-lens/0.1.0",
       "plugins": [
         "christinaxvg.care-lens"
       ],
@@ -1437,7 +1437,7 @@
     },
     "klcd/ade-nvidia-openshell-plugin": {
       "state": "rejected",
-      "ref": "v0.3.3",
+      "ref": "v0.3.4",
       "reasons": [],
       "plugins": [
         {
@@ -2579,7 +2579,16 @@
       "ref": "refs/tags/superfly/orca-sprites/0.5.1",
       "plugins": [
         "superfly.sprites"
-      ]
+      ],
+      "update": {
+        "ref": "v0.6.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "sydneydesign/requests": {
       "state": "rejected",
