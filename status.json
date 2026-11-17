@@ -200,7 +200,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "v0.4.5",
+      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.5",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -1427,7 +1427,7 @@
     },
     "klcd/ade-nvidia-openshell-plugin": {
       "state": "rejected",
-      "ref": "v0.3.2",
+      "ref": "v0.3.3",
       "reasons": [],
       "plugins": [
         {
@@ -2593,7 +2593,7 @@
     },
     "tagliatti/orca-openapi": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/tagliatti/orca-openapi/0.2.0",
       "plugins": [
         "tagliatti.openapi-preview"
       ]

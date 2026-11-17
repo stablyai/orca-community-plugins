@@ -2906,8 +2906,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
-        "ref": "v0.4.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.5"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -38563,8 +38563,8 @@
       "ownerId": 4907036,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Tagliatti/orca-openapi.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tagliatti/orca-openapi/0.2.0"
       },
       "description": "OpenAPI/Swagger preview beside the YAML: endpoints by tag, colour-coded methods and schemas.",
       "categories": [],
