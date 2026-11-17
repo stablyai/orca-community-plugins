@@ -11430,8 +11430,8 @@
       "ownerId": 208565774,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dr-xjx/orca-session-progress.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dr-xjx/orca-session-progress/0.1.0"
       },
       "description": "Shows what the focused workspace's agent is doing now, how long it has been running, and its own todo plan as a task tree, read from the session files it already writes.",
       "categories": [
@@ -16062,8 +16062,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.12.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.1"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -24017,8 +24017,8 @@
       "ownerId": 14008281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mike623/kanagawa-orca-theme.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mike623/kanagawa-orca-theme/0.1.0"
       },
       "description": "Kanagawa Wave, Dragon and Lotus app, editor and terminal themes.",
       "categories": [

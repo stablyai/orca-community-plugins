@@ -711,7 +711,7 @@
     },
     "dr-xjx/orca-session-progress": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/dr-xjx/orca-session-progress/0.1.0",
       "plugins": [
         "dr-xjx.session-progress"
       ]
@@ -1031,7 +1031,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.12.1",
+      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.1",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1687,7 +1687,7 @@
     },
     "mike623/kanagawa-orca-theme": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/mike623/kanagawa-orca-theme/0.1.0",
       "plugins": [
         "mike623.kanagawa-theme"
       ]
