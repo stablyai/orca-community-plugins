@@ -148,7 +148,7 @@
         "angelcrown24.traffic-light"
       ],
       "update": {
-        "ref": "v0.4.0",
+        "ref": "v0.5.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1020,7 +1020,7 @@
         "gook-lab.agent-scheduler"
       ],
       "update": {
-        "ref": "v0.10.0",
+        "ref": "v0.10.1",
         "reasons": [
           {
             "category": "under-review",
@@ -2058,6 +2058,13 @@
         }
       ]
     },
+    "quocnt85/orca-better-tasks": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "quocnt85.workspace-radar"
+      ]
+    },
     "reisen7/orca-tps": {
       "state": "listed",
       "ref": "refs/tags/reisen7/orca-tps/0.4.0",
@@ -2757,13 +2764,13 @@
       ]
     },
     "vrwolf1004/orca-radio": {
-      "state": "rejected",
-      "ref": "v0.6.0",
-      "reasons": [
-        {
-          "category": "reserved-name",
-          "detail": "id \"orca-radio\" starts with \"orca-\", which is reserved for official plugins"
-        }
+      "state": "listed",
+      "ref": "v0.6.1",
+      "plugins": [
+        "vrwolf1004.radio-for-orca"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "vzxxbacq/orca-colab": {

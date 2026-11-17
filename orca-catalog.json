@@ -29939,6 +29939,71 @@
       ]
     },
     {
+      "id": "quocnt85.workspace-radar",
+      "ownerId": 143376457,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/quocnt85/orca-better-tasks.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Single-scroll workspace command center for Orca grouping local & paired Mac/PC projects into cards with English/Vietnamese support, Work/Personal schedule modes, Freshness indicators, Waiting list, Pinned items, and customizable status tags.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "c1527ae098b80cf1d2fe8571762db4df8e1b3a20",
+          "contentHash": "8f814aa4792c9f3fc2bd04a9299bd68c8fae4862d5df48684602e6ffc0470acd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Better Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Better Tasks"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/quocnt85.workspace-radar/60568b39cb6aebeb.png",
+              "alt": "Better Tasks icon",
+              "sha256": "60568b39cb6aebeb9f99b829d8ac2f49f85d1909b1c1457d3d185518b89e0bf5",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/quocnt85/orca-better-tasks",
+          "updatedAt": "2026-11-17T13:50:06+07:00"
+        }
+      ]
+    },
+    {
       "id": "reisen7.opencode-tps",
       "ownerId": 89134690,
       "source": {
@@ -40566,6 +40631,38 @@
           "license": "MIT",
           "repository": "https://github.com/Vidosen/orca-unity-tools",
           "updatedAt": "2026-11-09T17:16:46+04:00"
+        }
+      ]
+    },
+    {
+      "id": "vrwolf1004.radio-for-orca",
+      "ownerId": 181196302,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vrwolf1004/orca-radio.git",
+        "ref": "v0.6.1"
+      },
+      "description": "Orca 사이드바에서 인터넷 라디오를 재생한다.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "bbd866ada5daab4f4d6e5cdfaaf21b8d997b23d0",
+          "contentHash": "26de5c36e34951987770d604a3e981869a9742bee3c856b0bb306aed68df3503",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Radio for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Radio"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-radio",
+          "updatedAt": "2026-11-17T15:55:06+09:00"
         }
       ]
     },
