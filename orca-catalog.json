@@ -2360,13 +2360,42 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/angelcrown24/orca-traffic-light.git",
-        "ref": "v0.1.0"
+        "ref": "v0.3.3"
       },
-      "description": "Observe tool calls from local agents in Orca terminals.",
+      "description": "Show observed skill, plugin, MCP and agent activity.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.3",
+          "commit": "575cf41441872c8d19939430c2e142b504fddf71",
+          "contentHash": "a5ea08bb3a257aa4fb4d20040ab16125de43ee01a507e7782a11d6e986fd92a0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Traffic Light",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Traffic Light"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "updatedAt": "2026-11-17T11:28:08+09:00",
+          "license": "MIT-0",
+          "repository": "https://github.com/angelcrown24/orca-traffic-light"
+        },
         {
           "version": "0.1.0",
           "commit": "afee6ee4a7e4d8b87a0013275c27cc0909c61cb2",
@@ -6867,6 +6896,40 @@
           "license": "MIT",
           "repository": "https://github.com/ChandraLiuswanto/orca-subagent-graph",
           "updatedAt": "2026-11-09T15:15:57+07:00"
+        }
+      ]
+    },
+    {
+      "id": "chilango74.agent-preflight",
+      "ownerId": 29829921,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chilango74/orca-agent-preflight.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Run a configurable preparation command before terminal agents start in local Git workspaces.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7317ee4f7b651a05acbea47d11960c9f69621f62",
+          "contentHash": "a9e0dd9f9bd1520136cc5986be6c62ee1abb486124259738bd224c895639d32a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Preflight",
+          "contributes": [
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/chilango74/orca-agent-preflight",
+          "updatedAt": "2026-11-17T07:51:23+05:00"
         }
       ]
     },
@@ -40602,16 +40665,96 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.2"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.1.3"
       },
-      "description": "Real-time token usage, generation TPS, and live model cost analytics across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
+      "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "4579897787c3db004e9c9e85941114d10523f913",
+          "contentHash": "13d856794fed233cf014fd5242ee30ec1a85644a26282abdbb0aae9be0a2bf1b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-17T10:58:56+08:00"
+        },
         {
           "version": "0.1.2",
           "commit": "c9dc51df2b0ac537c6eda17c79dc19214f5073d9",
