@@ -241,7 +241,7 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.0",
+      "ref": "v1.0.1",
       "plugins": [
         "aywengo.omlx"
       ]
@@ -1031,7 +1031,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.12.2",
+      "ref": "v0.12.3",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1100,6 +1100,16 @@
       "ref": "refs/tags/heath0xff/stillwater/1.1.0",
       "plugins": [
         "heath0xff.stillwater"
+      ]
+    },
+    "helldweller/vscode-dark-plus-theme": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "heyfey/vaporview-orca": {
@@ -1430,7 +1440,7 @@
     },
     "ky1ezer0/orca-git-graph": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "v1.0.4",
       "plugins": [
         "ky1ezer0.git-graph"
       ]
@@ -1622,7 +1632,7 @@
     },
     "mathiassol/orca-notes": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/mathiassol/orca-notes/0.1.0",
       "plugins": [
         "mathiassol.notes"
       ]
@@ -1859,7 +1869,7 @@
     },
     "naitsric/orca-claude-procesos": {
       "state": "listed",
-      "ref": "refs/tags/naitsric/orca-claude-procesos/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "naitsric.claude-procesos"
       ]

@@ -3494,14 +3494,49 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.0"
+        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
+        "ref": "v1.0.1"
       },
       "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "7474ec008b6946f8b858bf3f058032c733d02b6f",
+          "contentHash": "c8b49ed45645113039c77fb79d54aba909538cca5c4134268b1161026503e62d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "oMLX",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "oMLX"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "oMLX"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/aywengo.omlx/3bb536a94fe30f0e.png",
+              "alt": "oMLX icon",
+              "sha256": "3bb536a94fe30f0e90e95deef5318c629c88485d00561ea983eb298dc43a4977",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aywengo/orca-mlx-plugin",
+          "updatedAt": "2026-11-17T15:14:38+01:00"
+        },
         {
           "version": "1.1.0",
           "commit": "38aa32167ca7402f9ab41b312a4ec8affa23b4b6",
@@ -16063,7 +16098,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.12.2"
+        "ref": "v0.12.3"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -16071,6 +16106,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.12.3",
+          "commit": "01a2962898aad42d1ce268b4733756ae4db455be",
+          "contentHash": "3bc6732a2fbfbe6e431e8db11664abbc3dfcb3f72137fbea765e87ba38b5fc20",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
+                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
+                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-17T22:52:15+09:00"
+        },
         {
           "version": "0.12.2",
           "commit": "6cd840b28afb2de568d25a85074623ca9eb816c2",
@@ -16326,54 +16425,6 @@
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler",
           "updatedAt": "2026-11-17T13:15:43+09:00"
-        },
-        {
-          "version": "0.9.11",
-          "commit": "a197a8d0315bbd65b674b6454759994f93e76bb8",
-          "contentHash": "fbdbde5831fcce7fa72091975580cf3a251471d942d86ad8a4df8d1ec9937f21",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Scheduler",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Scheduler"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Schedules"
-            }
-          ],
-          "capabilities": [
-            "terminal:read",
-            "agent:read",
-            "workspace:read",
-            "storage:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gook-lab.agent-scheduler/aa7c66cb5f80dc6b.png",
-              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
-              "sha256": "aa7c66cb5f80dc6b0237146ce22574babc721a6e2436d17cc18a87859d96c4b3",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
-              "alt": "Agent Scheduler icon",
-              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
-              "width": 512,
-              "height": 512
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
-          "updatedAt": "2026-11-17T12:39:27+09:00"
         }
       ]
     },
@@ -21518,13 +21569,70 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Ky1ezer0/orca-git-graph.git",
-        "ref": "v1.0.3"
+        "ref": "v1.0.4"
       },
       "description": "Searchable, auto-refreshing Git graph with confirmed Git actions and one-click remote fetch for local Orca workspaces.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.4",
+          "commit": "d1d5e93372ddb6ff32b8c6422547e0c0027a7d26",
+          "contentHash": "6cb9533cb3da3474fcc3e98a271dd675fc1ec8e560ed9cef0d69745ee80ec573",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Graph"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Graph Diff",
+              "detail": ".git-graph-diff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "git-graph-diff"
+          ],
+          "editorFileTypes": [
+            "git-graph-diff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ky1ezer0.git-graph/dd04c312c831ca7f.jpg",
+              "alt": "Git Graph for Orca with cyan, mint, and lavender branching commit paths on a dark background.",
+              "sha256": "dd04c312c831ca7ffed41ca9c6443dc6f4f371146d7ed1cfbb2775d88d113c67",
+              "width": 1586,
+              "height": 992
+            },
+            "screenshots": [
+              {
+                "path": "assets/ky1ezer0.git-graph/d3e1440c31830bbf.png",
+                "alt": "Git Graph in Orca showing commit history, HEAD, local and remote branch labels, release tags, search, and uncommitted changes.",
+                "sha256": "d3e1440c31830bbf3273d506da6ccdc02af8b1687a9fd4ec257f398f20063309",
+                "width": 1280,
+                "height": 885
+              },
+              {
+                "path": "assets/ky1ezer0.git-graph/acdb599c92cdc595.png",
+                "alt": "Git Graph demo showing four colored branches, a merged feature/search branch, HEAD on main, and the v1.1.0 release tag.",
+                "sha256": "acdb599c92cdc595ebc293bb32240b4fa8f2094bcb1b2fba82a9edbe321d6eff",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ky1ezer0/orca-git-graph",
+          "updatedAt": "2026-11-17T22:09:16+08:00"
+        },
         {
           "version": "1.0.3",
           "commit": "0d7e1b42503cbc4f3688c815dd91116b71597027",
@@ -23525,8 +23633,8 @@
       "ownerId": 114577027,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mathiassol/orca-notes.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mathiassol/orca-notes/0.1.0"
       },
       "description": "A fast, minimal notes app in Orca's sidebar, styled after iPhone Notes. Plain Markdown files with an Obsidian-style live editor: checklists, #tags, [[links]], highlights and folders.",
       "categories": [
@@ -27026,8 +27134,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/naitsric/orca-claude-procesos/0.1.1"
+        "url": "https://github.com/naitsric/orca-claude-procesos.git",
+        "ref": "v0.2.0"
       },
       "description": "Monitor de las sesiones de Claude Code, los procesos que lanzan y los que quedaron huérfanos, con el veredicto de cuáles cerrar.",
       "categories": [
@@ -27035,6 +27143,53 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "116f0e7bfef18120580d5ed304db0871575a3129",
+          "contentHash": "de64ebca8272375bf19251d0b4ce602c5988d89fe1a9551f019e48a34ae2abf6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Procesos de Claude",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Procesos de Claude"
+            },
+            {
+              "kind": "panels",
+              "name": "Actividad de Claude"
+            },
+            {
+              "kind": "commands",
+              "name": "Procesos de Claude: revisar ahora"
+            },
+            {
+              "kind": "commands",
+              "name": "Procesos de Claude: cerrar los huérfanos seguros"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
+              "alt": "Procesos de Claude icon",
+              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/naitsric/orca-claude-procesos",
+          "updatedAt": "2026-11-17T09:05:05-05:00"
+        },
         {
           "version": "0.1.1",
           "commit": "901bc88e3afaa6b9d94cde7e7efd715848cbcb01",
