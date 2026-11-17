@@ -146,7 +146,16 @@
       "ref": "refs/tags/angelcrown24/orca-traffic-light/0.3.4",
       "plugins": [
         "angelcrown24.traffic-light"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "anhtuan2111/orca-megazinee": {
       "state": "rejected",
@@ -1451,12 +1460,9 @@
     },
     "leeleelee3264/spyhop-orca": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "leeleelee3264.spyhop-orca"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "leobessin/orca-mongo-studio": {
@@ -2738,6 +2744,16 @@
         {
           "category": "no-manifest",
           "detail": "no orca-plugin.json or orca-catalog.json"
+        }
+      ]
+    },
+    "vrwolf1004/orca-radio": {
+      "state": "rejected",
+      "ref": "v0.6.0",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "id \"orca-radio\" starts with \"orca-\", which is reserved for official plugins"
         }
       ]
     },

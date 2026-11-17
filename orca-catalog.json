@@ -21795,13 +21795,72 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/leeleelee3264/spyhop-orca.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Every AI session on one list in the Orca sidebar: steps, TODO and whose turn it is. Needs the Spyhop app.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "1984f4bfda65b2c84a63af48494173580e7c00cd",
+          "contentHash": "365dde6f4a5c7bf41512bcab07f23a94c24cc5fc6fd84ad5916d9387cd9e25c5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Spyhop",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Spyhop"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/leeleelee3264.spyhop-orca/e115ef8949d05f15.png",
+              "alt": "Spyhop board in the Orca sidebar, with sessions grouped by workspace",
+              "sha256": "e115ef8949d05f1535e65e100736a9e3466a664c2d8e39fbbc5d7cf450d82bbe",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/leeleelee3264.spyhop-orca/b5f95c6be8ea0a88.png",
+              "alt": "Spyhop icon",
+              "sha256": "b5f95c6be8ea0a88bca02a9a7dac6c968f775e3317018860fc023695413e197d",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/leeleelee3264.spyhop-orca/5ee617a12be5cb77.png",
+                "alt": "A wide Spyhop panel with three workspace columns of session cards",
+                "sha256": "5ee617a12be5cb7761a0fb357374fe0346461fe5ef6ad9bee785426ede0de38e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/leeleelee3264.spyhop-orca/d00a9ac85156fc1b.png",
+                "alt": "Session detail with steps, last reply and TODO",
+                "sha256": "d00a9ac85156fc1baca25a66816b92cdb31fa07e7d76f7b0a84c506420d3feda",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/leeleelee3264.spyhop-orca/a18aeb4cbd2ccd97.png",
+                "alt": "The Spyhop panel in a light Orca theme",
+                "sha256": "a18aeb4cbd2ccd975e3b5a478ad38e7d6333e0e059148325bfc03930ecd4764c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/leeleelee3264/spyhop-orca",
+          "updatedAt": "2026-11-17T14:57:46+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "b8555f9cba1e65d015e1098d80f012787b607d3d",
