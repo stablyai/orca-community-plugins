@@ -16062,8 +16062,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.1"
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.12.2"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -16071,6 +16071,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.12.2",
+          "commit": "6cd840b28afb2de568d25a85074623ca9eb816c2",
+          "contentHash": "226fd2678d1bdf24e8aff27b7361b97b08262593255f8ae1758231cc8104396d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
+                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
+                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-17T22:28:41+09:00"
+        },
         {
           "version": "0.12.1",
           "commit": "265d50425bd3c1048eb8d034af4b20891de58464",
@@ -16310,38 +16374,6 @@
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler",
           "updatedAt": "2026-11-17T12:39:27+09:00"
-        },
-        {
-          "version": "0.9.9",
-          "commit": "424a2f870db06c7e287691f67d46eb32e77ee828",
-          "contentHash": "4e9d61b41a31dba8e82699be5cc5a63dfa0ebee36e5edb156f0ea89c0eadd13a",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Scheduler",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Scheduler"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Schedules"
-            }
-          ],
-          "capabilities": [
-            "terminal:read",
-            "agent:read",
-            "workspace:read",
-            "storage:own",
-            "notifications:show"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
-          "updatedAt": "2026-11-17T10:33:27+09:00"
         }
       ]
     },
@@ -21485,14 +21517,71 @@
       "ownerId": 61507247,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.2"
+        "url": "https://github.com/Ky1ezer0/orca-git-graph.git",
+        "ref": "v1.0.3"
       },
       "description": "Searchable, auto-refreshing Git graph with confirmed Git actions and one-click remote fetch for local Orca workspaces.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "0d7e1b42503cbc4f3688c815dd91116b71597027",
+          "contentHash": "2688ed500b3190b6efead399980d02ff977ce64664bf3a532c05c5cfddffca51",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Graph"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Graph Diff",
+              "detail": ".git-graph-diff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "git-graph-diff"
+          ],
+          "editorFileTypes": [
+            "git-graph-diff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ky1ezer0.git-graph/dd04c312c831ca7f.jpg",
+              "alt": "Git Graph for Orca with cyan, mint, and lavender branching commit paths on a dark background.",
+              "sha256": "dd04c312c831ca7ffed41ca9c6443dc6f4f371146d7ed1cfbb2775d88d113c67",
+              "width": 1586,
+              "height": 992
+            },
+            "screenshots": [
+              {
+                "path": "assets/ky1ezer0.git-graph/d3e1440c31830bbf.png",
+                "alt": "Git Graph in Orca showing commit history, HEAD, local and remote branch labels, release tags, search, and uncommitted changes.",
+                "sha256": "d3e1440c31830bbf3273d506da6ccdc02af8b1687a9fd4ec257f398f20063309",
+                "width": 1280,
+                "height": 885
+              },
+              {
+                "path": "assets/ky1ezer0.git-graph/acdb599c92cdc595.png",
+                "alt": "Git Graph demo showing four colored branches, a merged feature/search branch, HEAD on main, and the v1.1.0 release tag.",
+                "sha256": "acdb599c92cdc595ebc293bb32240b4fa8f2094bcb1b2fba82a9edbe321d6eff",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ky1ezer0/orca-git-graph",
+          "updatedAt": "2026-11-17T21:28:36+08:00"
+        },
         {
           "version": "1.0.2",
           "commit": "ff901c5d29254f09644dabdc3be573e61152b142",
@@ -23428,6 +23517,63 @@
           "license": "MIT AND Apache-2.0",
           "repository": "https://github.com/mars-crater/orca-jsonnet-syntax",
           "updatedAt": "2026-11-03T12:34:30Z"
+        }
+      ]
+    },
+    {
+      "id": "mathiassol.notes",
+      "ownerId": 114577027,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mathiassol/orca-notes.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A fast, minimal notes app in Orca's sidebar, styled after iPhone Notes. Plain Markdown files with an Obsidian-style live editor: checklists, #tags, [[links]], highlights and folders.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "0e261197310fa97e205b00063fdcf1c0f6efc532",
+          "contentHash": "569d22ba5a3980652ea8254d31fa5d563901e2770b09b8121646bca7ecd024ba",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Notes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Notes"
+            },
+            {
+              "kind": "commands",
+              "name": "Notes: Show notes folder"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mathiassol.notes/f0c48f07df1ec68b.png",
+              "alt": "Notes in Orca's sidebar: a list of notes grouped by date beside a note with checklists, tags and a callout",
+              "sha256": "f0c48f07df1ec68bb2e28c39ada1ef8b7de3aa4019c0d03e6f1ab3c4040d6ec8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mathiassol.notes/436ea9f5bd82d0f8.png",
+              "alt": "Notes icon",
+              "sha256": "436ea9f5bd82d0f8e6b398de2808bd9f0b1cbb1852609987664bc8512627d1c3",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mathiassol/orca-notes",
+          "updatedAt": "2026-11-17T14:27:46+01:00"
         }
       ]
     },

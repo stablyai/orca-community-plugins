@@ -1031,7 +1031,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.1",
+      "ref": "v0.12.2",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1430,7 +1430,7 @@
     },
     "ky1ezer0/orca-git-graph": {
       "state": "listed",
-      "ref": "refs/tags/ky1ezer0/orca-git-graph/1.0.2",
+      "ref": "v1.0.3",
       "plugins": [
         "ky1ezer0.git-graph"
       ]
@@ -1618,6 +1618,13 @@
       "ref": "refs/tags/mars-crater/orca-jsonnet-syntax/0.1.0",
       "plugins": [
         "mars-crater.jsonnet-syntax"
+      ]
+    },
+    "mathiassol/orca-notes": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "mathiassol.notes"
       ]
     },
     "mathiassol/prisjakt-tracker": {
