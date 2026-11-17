@@ -742,13 +742,9 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/ebbop/orca-italiano/1.4.255",
+      "ref": "v1.4.261",
       "plugins": [
         "ebbop.italiano"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
-        "contributes.languagePacks \"it\" (locales/it.json): 5 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -2521,13 +2517,10 @@
       ]
     },
     "sofiacnm/orca-workshop-plugin": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
+      "state": "listed",
+      "ref": "v0.3.1",
+      "plugins": [
+        "sofiacnm.inside-the-black-box"
       ]
     },
     "spgsroot/orca-usage-plugin": {

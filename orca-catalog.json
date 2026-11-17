@@ -11800,14 +11800,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.255"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.261"
       },
-      "description": "Traduzione italiana dell'interfaccia di Orca (allineata a Orca 1.4.255).",
+      "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.261. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.261",
+          "commit": "0e3a575d22c842f4345a032ad88f832dbd920499",
+          "contentHash": "f0143815e28e032ade2e8b710616bc92d275599c0c71e1bc4ba3fc3c9f2b768a",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
+              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
+              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-18T00:08:04+01:00"
+        },
         {
           "version": "1.4.255",
           "commit": "76e40ef5b8749ac982fab4b74bb2f65e5f104ecf",
@@ -37635,6 +37668,77 @@
           "license": "MIT",
           "repository": "https://github.com/shumkov/orca-cliproxy-usage",
           "updatedAt": "2026-11-16T15:25:17+07:00"
+        }
+      ]
+    },
+    {
+      "id": "sofiacnm.inside-the-black-box",
+      "ownerId": 180988982,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/sofiacnm/orca-workshop-plugin.git",
+        "ref": "v0.3.1"
+      },
+      "description": "Learn the language of AI in daily bites: streaks, flashcards, quizzes and a dictionary for designers.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "815b2bb6e5746431109bb298f16dd44c4751b9ae",
+          "contentHash": "d62f265adb4f8d18b7cba38cd48377e3b1f60a89040e3ef20fdf7d26323645ec",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Inside the Black Box",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Inside the Black Box"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sofiacnm.inside-the-black-box/6566fce87e86f422.jpg",
+              "alt": "Inside the Black Box: a flashcard explaining tokens with a diagram, beside the dashboard showing a day streak and today’s bite.",
+              "sha256": "6566fce87e86f4225048f95ba234f1bf3341eeb0243da4b8b0ffce509d3e92a0",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sofiacnm.inside-the-black-box/a479ba0434ece4d6.png",
+              "alt": "Inside the Black Box icon",
+              "sha256": "a479ba0434ece4d69f42d847240c4451a6be2c6e09ff70d2da12f472b4e70a9e",
+              "width": 280,
+              "height": 280
+            },
+            "screenshots": [
+              {
+                "path": "assets/sofiacnm.inside-the-black-box/d7b79b8530988d6a.jpg",
+                "alt": "The course library, the dashboard with streak and today’s bite, and the bite-complete screen.",
+                "sha256": "d7b79b8530988d6a8308abbf3874df5235e1703c9d86efdaa6a1698ec9926a09",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sofiacnm.inside-the-black-box/9df9018d2b92d2ce.jpg",
+                "alt": "A Token flashcard with a diagram and Go deeper link, its definition with a designer’s lens, and a quiz question.",
+                "sha256": "9df9018d2b92d2ce687a5d03d297df16756da6fe37957b43ce82d180f1f842ef",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sofiacnm.inside-the-black-box/954a0f180e17c373.jpg",
+                "alt": "An AI in Practice situation card about a forgetful chat, and the searchable dictionary.",
+                "sha256": "954a0f180e17c373ac966f93fce66d9f86c317ec1345a287668bad57df49675c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/sofiacnm/orca-workshop-plugin",
+          "updatedAt": "2026-11-17T15:13:14-08:00"
         }
       ]
     },
