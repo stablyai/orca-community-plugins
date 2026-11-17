@@ -38071,8 +38071,8 @@
       "ownerId": 69342146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.4"
+        "url": "https://github.com/thanhtrung5763/orca-git-graph.git",
+        "ref": "v0.1.5"
       },
       "description": "View a graph of your Git history and run common Git actions from it. Based on neo-git-graph.",
       "categories": [
@@ -38080,6 +38080,44 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "b61934f4419dfd8d3397cf16212a7ef1171ba7ec",
+          "contentHash": "403780ebaceb949e2aa7149fd2b515a1896f2f95add2196ac0c08ca6ad3f0776",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Graph",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Graph"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git Graph"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/thanhtrung5763/orca-git-graph",
+          "updatedAt": "2026-11-17T17:44:14+07:00"
+        },
         {
           "version": "0.1.4",
           "commit": "caeaea42c386d9916a9c6cf47370962048b50974",
