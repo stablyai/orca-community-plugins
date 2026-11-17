@@ -41372,6 +41372,77 @@
       ]
     },
     {
+      "id": "vectorflight.symbols-icons",
+      "ownerId": 357952307,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/VectorFlight/symbols-orca-icon-theme.git",
+        "ref": "v1.0.1"
+      },
+      "description": "The Symbols file icon theme by Miguel Solorio, ported from VS Code to Orca.",
+      "categories": [
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "dfac7e3b052e8f20a86f8a0fc9a4e191558e844f",
+          "contentHash": "1c5eb7756a91c0e1cee752461b0d11e8a5e64d2df7b1f2a2c4ed5a3a58e4fc71",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Symbols",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Symbols"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vectorflight.symbols-icons/484a2d0e00a0239c.png",
+              "alt": "The Symbols logo and name above a row of Symbols file and folder icons",
+              "sha256": "484a2d0e00a0239c46b12901568e7225cbe581f5eb7357c31e497c237417e6e5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vectorflight.symbols-icons/a14416deb374a4c3.png",
+              "alt": "Symbols icon",
+              "sha256": "a14416deb374a4c38efdb2e7a7474e12579e8fa9c3852b87b18464cbd5a4d9ca",
+              "width": 400,
+              "height": 400
+            },
+            "screenshots": [
+              {
+                "path": "assets/vectorflight.symbols-icons/6694b04da62095c9.png",
+                "alt": "A web project's file tree in Orca with Symbols icons for TypeScript, React, Docker, Vite, Tailwind and config files",
+                "sha256": "6694b04da62095c9a1c555dd9ca75500fff21e14fac7fe58f1b21bd08091226c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vectorflight.symbols-icons/aaf5cd5846b1a6b9.png",
+                "alt": "A Go, Rust, Python and SQL project's file tree with Symbols icons on a light background",
+                "sha256": "aaf5cd5846b1a6b9550e952ebf9b666c0614b75aef1d3712a95852a6ae43ea80",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vectorflight.symbols-icons/c63bde7c049811fb.png",
+                "alt": "A grid of all 321 file and folder icons in the theme",
+                "sha256": "c63bde7c049811fb8e3b3b0a9ec06ece78a40c96c06132511ade6b91db94a013",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/VectorFlight/symbols-orca-icon-theme",
+          "updatedAt": "2026-11-17T09:37:00-08:00"
+        }
+      ]
+    },
+    {
       "id": "victorstochero.agent-pool",
       "ownerId": 92390114,
       "source": {

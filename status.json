@@ -1005,6 +1005,16 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "gdulamat/ork-db": {
+      "state": "rejected",
+      "ref": "v0.6.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "gek0v/orca-signature-themes": {
       "state": "listed",
       "ref": "refs/tags/gek0v/orca-signature-themes/1.0.2",
@@ -2790,6 +2800,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "vectorflight/symbols-orca-icon-theme": {
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "vectorflight.symbols-icons"
+      ]
+    },
     "verifiedorganic/orca-matriarch": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -2820,6 +2837,16 @@
       "reasons": [
         {
           "category": "manifest-format"
+        }
+      ]
+    },
+    "vincentferniot/catppuccin-orca-icons": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
