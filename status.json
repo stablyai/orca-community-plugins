@@ -148,7 +148,7 @@
         "angelcrown24.traffic-light"
       ],
       "update": {
-        "ref": "v0.5.0",
+        "ref": "v0.5.1",
         "reasons": [
           {
             "category": "under-review",
@@ -159,7 +159,7 @@
     },
     "anhtuan2111/orca-megazinee": {
       "state": "rejected",
-      "ref": "v0.2.1",
+      "ref": "v0.3.0",
       "reasons": [
         {
           "category": "licence",
@@ -1020,7 +1020,7 @@
         "gook-lab.agent-scheduler"
       ],
       "update": {
-        "ref": "v0.10.3",
+        "ref": "v0.11.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1572,6 +1572,16 @@
         }
       ]
     },
+    "manasbhati24/orca-before-after": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "mancunianez/orca-ukrainian": {
       "state": "listed",
       "ref": "refs/tags/mancunianez/orca-ukrainian/0.1.1",
@@ -1612,7 +1622,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.261",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.261",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -2060,7 +2070,7 @@
     },
     "quocnt85/orca-better-tasks": {
       "state": "listed",
-      "ref": "refs/tags/quocnt85/orca-better-tasks/1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "quocnt85.workspace-radar"
       ]
@@ -2367,7 +2377,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.9.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.9.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -2765,12 +2775,9 @@
     },
     "vrwolf1004/orca-radio": {
       "state": "listed",
-      "ref": "refs/tags/vrwolf1004/orca-radio/0.6.1",
+      "ref": "v0.6.2",
       "plugins": [
         "vrwolf1004.radio-for-orca"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "vzxxbacq/orca-colab": {
