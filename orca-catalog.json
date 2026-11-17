@@ -2359,14 +2359,43 @@
       "ownerId": 22537210,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/angelcrown24/orca-traffic-light/0.3.3"
+        "url": "https://github.com/angelcrown24/orca-traffic-light.git",
+        "ref": "v0.3.4"
       },
       "description": "Show observed skill, plugin, MCP and agent activity.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.4",
+          "commit": "ee8e93e0c0031d591c7ce9c68a95bbe542774fe6",
+          "contentHash": "d47e399b59ca598ff870fb35fea07c8213cd1ff1a350ff573e9b8bbc269338ab",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Traffic Light",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Traffic Light"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "license": "MIT-0",
+          "repository": "https://github.com/angelcrown24/orca-traffic-light",
+          "updatedAt": "2026-11-17T12:41:24+09:00"
+        },
         {
           "version": "0.3.3",
           "commit": "575cf41441872c8d19939430c2e142b504fddf71",
@@ -15892,7 +15921,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.9.11"
+        "ref": "v0.9.13"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes. English and Korean. macOS only for now.",
       "categories": [
@@ -15900,6 +15929,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.9.13",
+          "commit": "4d680188ba2c3dc5eed1dbb1d9d040c80e5a0be3",
+          "contentHash": "45e3ce1222a14cec761d6ffe01cf1252a4a61d7972af3301d7a54252446a0558",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/aa7c66cb5f80dc6b.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "aa7c66cb5f80dc6b0237146ce22574babc721a6e2436d17cc18a87859d96c4b3",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/a09c8101cf7410dc.png",
+                "alt": "The Schedules tab: a schedule that ran after its time shows 'sent 3 h 12 min late', another is running, a third waits while the agent works",
+                "sha256": "a09c8101cf7410dc9096e8e5a3a0edd5927583998645a57cb646d0e81df06fb0",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/1c0131f3e758dd80.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "1c0131f3e758dd809b539ba45c99a687f352d85deebbe178ad72073fd95f223d",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-17T13:15:43+09:00"
+        },
         {
           "version": "0.9.11",
           "commit": "a197a8d0315bbd65b674b6454759994f93e76bb8",
@@ -28862,8 +28955,8 @@
       "ownerId": 353447018,
       "source": {
         "kind": "git",
-        "url": "https://github.com/pereiraemerson-afk/orca-sql-syntax.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pereiraemerson-afk/orca-sql-syntax/1.0.0"
       },
       "description": "Syntax highlighting for SQL (ANSI, PostgreSQL, T-SQL, PL/SQL, MySQL, BigQuery) and Dataform .sqlx files.",
       "categories": [
@@ -40809,8 +40902,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.4"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [

@@ -227,6 +227,12 @@
     "repoId": 1460754580,
     "firstSeen": "2026-11-17T03:16:59.323Z"
   },
+  "angelcrown24.traffic-light@0.3.4": {
+    "commit": "ee8e93e0c0031d591c7ce9c68a95bbe542774fe6",
+    "contentHash": "d47e399b59ca598ff870fb35fea07c8213cd1ff1a350ff573e9b8bbc269338ab",
+    "repoId": 1460754580,
+    "firstSeen": "2026-11-17T04:16:41.192Z"
+  },
   "anhvangiang.agent-accounts@0.1.0": {
     "commit": "29c4db18445eb8247f3ed0af15ceb4749c223fca",
     "contentHash": "45a144f8a00118c7e9ac5caed504f122a8426725c5bba9fc9c97c6071f58798e",
@@ -1708,6 +1714,12 @@
     "contentHash": "fbdbde5831fcce7fa72091975580cf3a251471d942d86ad8a4df8d1ec9937f21",
     "repoId": 1460739421,
     "firstSeen": "2026-11-17T03:39:47.165Z"
+  },
+  "gook-lab.agent-scheduler@0.9.13": {
+    "commit": "4d680188ba2c3dc5eed1dbb1d9d040c80e5a0be3",
+    "contentHash": "45e3ce1222a14cec761d6ffe01cf1252a4a61d7972af3301d7a54252446a0558",
+    "repoId": 1460739421,
+    "firstSeen": "2026-11-17T04:16:41.192Z"
   },
   "gook-lab.agent-scheduler@0.9.7": {
     "commit": "84bcfa0b59a03f4a088798e2f29fcb468d12ee9e",

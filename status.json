@@ -143,14 +143,14 @@
     },
     "angelcrown24/orca-traffic-light": {
       "state": "listed",
-      "ref": "refs/tags/angelcrown24/orca-traffic-light/0.3.3",
+      "ref": "v0.3.4",
       "plugins": [
         "angelcrown24.traffic-light"
       ]
     },
     "anhtuan2111/orca-megazinee": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "licence",
@@ -1006,7 +1006,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.9.11",
+      "ref": "v0.9.13",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1934,7 +1934,7 @@
     },
     "pereiraemerson-afk/orca-sql-syntax": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/pereiraemerson-afk/orca-sql-syntax/1.0.0",
       "plugins": [
         "pereiraemerson-afk.sql-syntax"
       ]
@@ -2625,7 +2625,16 @@
       "ref": "refs/tags/uttam-gelot/orca-todos/0.1.2",
       "plugins": [
         "uttam-gelot.todos"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "vale-c/orca-arc-blueberry": {
       "state": "listed",
@@ -2789,7 +2798,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.4",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
