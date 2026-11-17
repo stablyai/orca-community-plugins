@@ -54,7 +54,16 @@
       "ref": "v1.0.3",
       "plugins": [
         "addisflava.llm-router"
-      ]
+      ],
+      "update": {
+        "ref": "v1.0.3",
+        "reasons": [
+          {
+            "category": "version-locked",
+            "detail": "tag v1.0.3 moved: version 1.0.3 was first listed at commit 12af1a975a904395366b46ff8aeb031d10ee9830 and stays that release; publish a new version instead"
+          }
+        ]
+      }
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
@@ -1015,19 +1024,10 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.9.13",
+      "ref": "v0.11.2",
       "plugins": [
         "gook-lab.agent-scheduler"
-      ],
-      "update": {
-        "ref": "v0.11.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
@@ -2070,7 +2070,7 @@
     },
     "quocnt85/orca-better-tasks": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/quocnt85/orca-better-tasks/1.0.2",
       "plugins": [
         "quocnt85.workspace-radar"
       ]

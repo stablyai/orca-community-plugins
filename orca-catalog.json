@@ -16008,15 +16008,79 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.9.13"
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.11.2"
       },
-      "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes. English and Korean. macOS only for now.",
+      "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.2",
+          "commit": "263eceac9ccdd8131b156ceea469801b3a75a185",
+          "contentHash": "2dc5cdb1c46a77baea0c5715c380123cb88883e2131948eb54b5b637b5b4477e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/aa7c66cb5f80dc6b.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "aa7c66cb5f80dc6b0237146ce22574babc721a6e2436d17cc18a87859d96c4b3",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/a09c8101cf7410dc.png",
+                "alt": "The Schedules tab: a schedule that ran after its time shows 'sent 3 h 12 min late', another is running, a third waits while the agent works",
+                "sha256": "a09c8101cf7410dc9096e8e5a3a0edd5927583998645a57cb646d0e81df06fb0",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/1c0131f3e758dd80.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "1c0131f3e758dd809b539ba45c99a687f352d85deebbe178ad72073fd95f223d",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "updatedAt": "2026-11-17T17:24:31+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler"
+        },
         {
           "version": "0.9.13",
           "commit": "4d680188ba2c3dc5eed1dbb1d9d040c80e5a0be3",
@@ -30064,8 +30128,8 @@
       "ownerId": 143376457,
       "source": {
         "kind": "git",
-        "url": "https://github.com/quocnt85/orca-better-tasks.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/quocnt85/orca-better-tasks/1.0.2"
       },
       "description": "Cross-machine Orca command center (Mac & PC) in one scroll: auto-switch Work/Personal repos on schedule, catch Waiting/Asking agents fast, track Freshness (Fresh to Rotten), 1-click jump to remote worktrees (0 AI tokens), rename tasks, and switch EN/VI.",
       "categories": [
