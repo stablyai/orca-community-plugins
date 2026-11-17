@@ -15781,6 +15781,54 @@
       ]
     },
     {
+      "id": "gook-lab.agent-scheduler",
+      "ownerId": 319692094,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.9.7"
+      },
+      "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes. English and Korean.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.9.7",
+          "commit": "84bcfa0b59a03f4a088798e2f29fcb468d12ee9e",
+          "contentHash": "410c07008a990d00e58cd37a4c03481ce7edf1218505c3007b274e823d5e11bd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-17T09:44:55+09:00"
+        }
+      ]
+    },
+    {
       "id": "gzimbron.svelte-syntax",
       "ownerId": 7065779,
       "source": {

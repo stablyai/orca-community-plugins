@@ -990,6 +990,13 @@
         "gongxliang.claude-paper"
       ]
     },
+    "gook-lab/orca-agent-scheduler": {
+      "state": "listed",
+      "ref": "v0.9.7",
+      "plugins": [
+        "gook-lab.agent-scheduler"
+      ]
+    },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
       "ref": "refs/tags/gzimbron/svelte-syntax-orca/1.0.0",
