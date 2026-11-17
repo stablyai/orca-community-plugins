@@ -832,7 +832,7 @@
     },
     "erom/orca-plugin-agent-progress-sp": {
       "state": "listed",
-      "ref": "refs/tags/erom/orca-plugin-agent-progress-sp/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "erom.agent-progress-sp"
       ]
@@ -1416,7 +1416,7 @@
         "klausbegnis.agent-center"
       ],
       "update": {
-        "ref": "v0.2.0",
+        "ref": "v0.3.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1910,7 +1910,7 @@
     },
     "naitsric/orca-claude-procesos": {
       "state": "listed",
-      "ref": "refs/tags/naitsric/orca-claude-procesos/0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "naitsric.claude-procesos"
       ]
@@ -1980,7 +1980,7 @@
         "omerfarukgzr.git-panel"
       ],
       "update": {
-        "ref": "v0.1.11",
+        "ref": "v0.1.12",
         "reasons": [
           {
             "category": "under-review",
@@ -2026,7 +2026,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.9",
+      "ref": "v0.2.10",
       "plugins": [
         "palulabs.office-tycoon"
       ]
