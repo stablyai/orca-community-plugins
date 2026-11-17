@@ -1444,8 +1444,8 @@
       "ownerId": 13881665,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/addisflava/orca-llm-router/1.0.2"
+        "url": "https://github.com/addisflava/orca-llm-router.git",
+        "ref": "v1.0.3"
       },
       "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, and routing different providers behind a single model name with seamless fallback.",
       "categories": [
@@ -1454,6 +1454,94 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "12af1a975a904395366b46ff8aeb031d10ee9830",
+          "contentHash": "69ac4f047e160ea2af624d2b1bb0e92cc60614d0a12a74ff48f965ca8a862eb2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LLM Router for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca LLM Router"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: gateway status"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: start sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: stop sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: restart sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: test providers"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "router:18080"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/addisflava.llm-router/a5451af529ae50b1.jpg",
+              "alt": "LLM Router for Orca cover with gateway overview and provider panels beside a short feature summary",
+              "sha256": "a5451af529ae50b191a93eb58e85adb6eae096fa1490a645e45d283579b5e7cc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/addisflava.llm-router/c08a9eba6ad9af52.png",
+              "alt": "LLM Router for Orca icon",
+              "sha256": "c08a9eba6ad9af52a372810c5be0338212e4b6ee31d15744f05cbf35452efd41",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/addisflava.llm-router/8f25b3b29ce021a4.png",
+                "alt": "Orca LLM Router overview panel showing active gateway, metrics, and agent endpoints",
+                "sha256": "8f25b3b29ce021a4c942d7fd62c63838539ac73851a91a8b0280b5be1ddf9e67",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/f75b0c44bb30fc92.png",
+                "alt": "Orca LLM Router providers panel showing multi-provider configuration and model discovery",
+                "sha256": "f75b0c44bb30fc92b3d3047c5b1ac540da364969053c3f2fd5ee64ef7b1f458d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/addisflava/orca-llm-router",
+          "updatedAt": "2026-11-17T11:41:53+03:00"
+        },
         {
           "version": "1.0.2",
           "commit": "8eb9c68f03370260d2ae8c756e4c6478d387f747",
@@ -29977,14 +30065,93 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/quocnt85/orca-better-tasks.git",
-        "ref": "v1.0.1"
+        "ref": "v1.0.2"
       },
-      "description": "Single-scroll workspace command center for Orca grouping local & paired Mac/PC projects into cards with English/Vietnamese support, Work/Personal schedule modes, Freshness indicators, Waiting list, Pinned items, and customizable status tags.",
+      "description": "Cross-machine Orca command center (Mac & PC) in one scroll: auto-switch Work/Personal repos on schedule, catch Waiting/Asking agents fast, track Freshness (Fresh to Rotten), 1-click jump to remote worktrees (0 AI tokens), rename tasks, and switch EN/VI.",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "494896d6b070d05329553bfe2dda5bef4797358d",
+          "contentHash": "0d58df94fd379812f9eca829f15e246ce48a1c7a4e95ea6768620784f98de600",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Better Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Better Tasks"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/quocnt85.workspace-radar/94073b78240ab523.png",
+              "alt": "Better Tasks right-sidebar command center for Orca showing Work/Personal project cards, Freshness indicators, Waiting List, and Mac/Windows host icons",
+              "sha256": "94073b78240ab52378d70143bf6441d94160055558e1c5681adb7bb96f624300",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/quocnt85.workspace-radar/60568b39cb6aebeb.png",
+              "alt": "Better Tasks icon",
+              "sha256": "60568b39cb6aebeb9f99b829d8ac2f49f85d1909b1c1457d3d185518b89e0bf5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/quocnt85.workspace-radar/c8417a2b2d1e516f.png",
+                "alt": "Better Tasks panel in light mode alongside Orca workspaces, displaying Waiting List, Pinned items, Freshness icons, and live activity badges",
+                "sha256": "c8417a2b2d1e516f559e6462c29d959a04839058aab4aa954e704bff777aa006",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/quocnt85.workspace-radar/4e157a9e5a00c73b.png",
+                "alt": "Better Tasks in dark mode showing Vietnamese UI preview and the Settings view with EN/VI language selector, custom status colors, and Freshness rules",
+                "sha256": "4e157a9e5a00c73b848b7d77cdc0857d76a5b8dc7f160a1219f01867eb6616fa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/quocnt85.workspace-radar/90cdca92b8d5fb53.png",
+                "alt": "Better Tasks core strengths: Work/Personal auto-schedule, Freshness radar with 0.5s tooltips, and 1-click Remote Quick-Jump",
+                "sha256": "90cdca92b8d5fb5325b845d8d44fd8f3d54d9416b865eee826fb2629e9cc9939",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/quocnt85/orca-better-tasks",
+          "updatedAt": "2026-11-17T15:43:01+07:00"
+        },
         {
           "version": "1.0.1",
           "commit": "7516021ddd5e95c93c097c7ed18f482a310ff0c0",
@@ -40744,8 +40911,8 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vrwolf1004/orca-radio.git",
-        "ref": "v0.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vrwolf1004/orca-radio/0.6.2"
       },
       "description": "Orca 사이드바에서 인터넷 라디오를 재생한다.",
       "categories": [

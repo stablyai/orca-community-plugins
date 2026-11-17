@@ -51,7 +51,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "refs/tags/addisflava/orca-llm-router/1.0.2",
+      "ref": "v1.0.3",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -159,7 +159,7 @@
     },
     "anhtuan2111/orca-megazinee": {
       "state": "rejected",
-      "ref": "v0.3.0",
+      "ref": "v0.4.0",
       "reasons": [
         {
           "category": "licence",
@@ -1020,7 +1020,7 @@
         "gook-lab.agent-scheduler"
       ],
       "update": {
-        "ref": "v0.11.0",
+        "ref": "v0.11.2",
         "reasons": [
           {
             "category": "under-review",
@@ -1476,11 +1476,11 @@
     },
     "leobessin/orca-mongo-studio": {
       "state": "rejected",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "size"
         }
       ]
     },
@@ -2070,7 +2070,7 @@
     },
     "quocnt85/orca-better-tasks": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "plugins": [
         "quocnt85.workspace-radar"
       ]
@@ -2775,7 +2775,7 @@
     },
     "vrwolf1004/orca-radio": {
       "state": "listed",
-      "ref": "v0.6.2",
+      "ref": "refs/tags/vrwolf1004/orca-radio/0.6.2",
       "plugins": [
         "vrwolf1004.radio-for-orca"
       ]
