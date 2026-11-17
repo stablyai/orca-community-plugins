@@ -241,7 +241,7 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.1",
+      "ref": "v1.1.2",
       "plugins": [
         "aywengo.omlx"
       ]
@@ -2003,7 +2003,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.8",
+      "ref": "v0.2.9",
       "plugins": [
         "palulabs.office-tycoon"
       ]
