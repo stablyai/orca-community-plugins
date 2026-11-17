@@ -2906,8 +2906,8 @@
       "ownerId": 30504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.4"
+        "url": "https://github.com/anthony-fp/orca-agent-inbox.git",
+        "ref": "v0.4.5"
       },
       "description": "Adds an Agent Inbox tab to the right sidebar. It gives a high-level view of the workspace plan, the questions waiting on your decision, and the bugs your agent finds as it reads your code. It also lists the follow-up tasks you must do yourself, so you don't lose track of them. Works with Claude Code",
       "categories": [
@@ -2915,6 +2915,47 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.5",
+          "commit": "763e076202d44ccec26f49d285313de1b57eae8b",
+          "contentHash": "f4d32675bb83ed167b7aaea8694e441d7a17dd1efb6402fc4ef38d5d06949053",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Inbox"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "terminal:send",
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/anthony-fp.agent-inbox/2308119db9fae4a1.png",
+              "alt": "Agent Inbox panel in Orca's right sidebar, with questions, tasks, issues, opportunities and the workspace plan",
+              "sha256": "2308119db9fae4a13e71283ec20d5669d55186c6b23e97cf927a4b2870a4de5e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/anthony-fp/orca-agent-inbox",
+          "updatedAt": "2026-11-17T15:17:43-05:00"
+        },
         {
           "version": "0.4.4",
           "commit": "2f38cd6d16c37d837b21d781d84135d8b4a52b11",
@@ -3078,46 +3119,6 @@
           "license": "MIT",
           "repository": "https://github.com/anthony-fp/orca-agent-inbox",
           "updatedAt": "2026-11-09T12:35:18-05:00"
-        },
-        {
-          "version": "0.2.3",
-          "commit": "45e4f1304f2efd96b817dfb663f9052eb1c22426",
-          "contentHash": "8f8399ff65066aec42e6071b2fe85627e4fd3be5ca605b6f8f76d4b45089a776",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Inbox",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Inbox"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.launch.before"
-            }
-          ],
-          "capabilities": [
-            "agent:read",
-            "terminal:send",
-            "storage:own",
-            "workspace:read"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/anthony-fp.agent-inbox/2308119db9fae4a1.png",
-              "alt": "Agent Inbox panel in Orca's right sidebar, with questions, tasks, issues, opportunities and the workspace plan",
-              "sha256": "2308119db9fae4a13e71283ec20d5669d55186c6b23e97cf927a4b2870a4de5e",
-              "width": 1600,
-              "height": 1000
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/anthony-fp/orca-agent-inbox",
-          "updatedAt": "2026-11-07T18:27:02-05:00"
         }
       ]
     },
@@ -13014,8 +13015,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-progress-sp.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-progress-sp/0.2.0"
       },
       "description": "Requires Superpowers. Shows where each Superpowers plan stands, read from its spec, plan and ledger: the current project's tasks and agents, main checkout and worktrees together, the other work in progress, and the stage in the status bar.",
       "categories": [
@@ -27539,8 +27540,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/naitsric/orca-claude-procesos.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/naitsric/orca-claude-procesos/0.5.0"
       },
       "description": "Monitor for Claude Code sessions, the processes they start and the ones left orphaned, with a verdict on which to close. In English and Spanish.",
       "categories": [
@@ -29880,8 +29881,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.10"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.10"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
@@ -38562,12 +38563,62 @@
       "ownerId": 4907036,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tagliatti/orca-openapi/0.1.1"
+        "url": "https://github.com/Tagliatti/orca-openapi.git",
+        "ref": "v0.2.0"
       },
       "description": "OpenAPI/Swagger preview beside the YAML: endpoints by tag, colour-coded methods and schemas.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "6e06dd15dd9649a9bfe5f8df304ff94e0d6b6664",
+          "contentHash": "8a8fb8b7ce97e7624cda7c05411df80bcfdeb7c15010a6729480bed0e002ed56",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "OpenAPI Preview",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "API",
+              "detail": ".openapi.yaml, .openapi.yml, .openapi.json, .swagger.yaml, .swagger.yml, .swagger.json, openapi.yaml, openapi.yml, openapi.json, swagger.yaml, swagger.yml, swagger.json"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tagliatti.openapi-preview/d714ccd0234a7206.png",
+              "alt": "OpenAPI Preview: colour-coded GET, POST, PUT and DELETE endpoints beside the Swagger Petstore YAML.",
+              "sha256": "d714ccd0234a72069e1c592c3c8924430bc05d7965333e8a344d4dee1c35c9af",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tagliatti.openapi-preview/9a9b9df31f15d918.png",
+              "alt": "OpenAPI Preview icon",
+              "sha256": "9a9b9df31f15d91870a90d1c2b888baa21236c697b11340680d8704a8432be73",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tagliatti.openapi-preview/43bb7c466840a561.png",
+                "alt": "The OpenAPI Preview tab on the Swagger Petstore spec: version and OAS 3.0 badges, a servers picker with Authorize, and pet endpoints colour-coded by method.",
+                "sha256": "43bb7c466840a5617d29a63fb751a560ab381cce38c8c621d4ea479b72a4b770",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tagliatti.openapi-preview/cfcf37a239b01ca7.png",
+                "alt": "The OpenAPI Preview tab on the Swagger Petstore spec: version and OAS 3.0 badges, a servers picker with Authorize, and pet endpoints colour-coded by method.",
+                "sha256": "cfcf37a239b01ca7656fe0c5d445a5939d5059fb18f346ce781ab7fa3df09640",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/Tagliatti/orca-openapi",
+          "updatedAt": "2026-11-17T17:45:02-03:00"
+        },
         {
           "version": "0.1.1",
           "commit": "0840a8ecf9df2dda9e3a59364b33d3ba7f121455",

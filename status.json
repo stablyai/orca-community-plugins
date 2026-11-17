@@ -200,7 +200,7 @@
     },
     "anthony-fp/orca-agent-inbox": {
       "state": "listed",
-      "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.4",
+      "ref": "v0.4.5",
       "plugins": [
         "anthony-fp.agent-inbox"
       ]
@@ -832,7 +832,7 @@
     },
     "erom/orca-plugin-agent-progress-sp": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/erom/orca-plugin-agent-progress-sp/0.2.0",
       "plugins": [
         "erom.agent-progress-sp"
       ]
@@ -1910,7 +1910,7 @@
     },
     "naitsric/orca-claude-procesos": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/naitsric/orca-claude-procesos/0.5.0",
       "plugins": [
         "naitsric.claude-procesos"
       ]
@@ -2026,7 +2026,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.10",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.10",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -2510,6 +2510,16 @@
         }
       ]
     },
+    "sofiacnm/orca-workshop-plugin": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "spgsroot/orca-usage-plugin": {
       "state": "listed",
       "ref": "refs/tags/spgsroot/orca-usage-plugin/1.2.1",
@@ -2583,7 +2593,7 @@
     },
     "tagliatti/orca-openapi": {
       "state": "listed",
-      "ref": "refs/tags/tagliatti/orca-openapi/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "tagliatti.openapi-preview"
       ]
