@@ -1018,7 +1018,16 @@
       "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.9.13",
       "plugins": [
         "gook-lab.agent-scheduler"
-      ]
+      ],
+      "update": {
+        "ref": "v0.10.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
@@ -1460,7 +1469,7 @@
     },
     "leeleelee3264/spyhop-orca": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/leeleelee3264/spyhop-orca/0.1.2",
       "plugins": [
         "leeleelee3264.spyhop-orca"
       ]
