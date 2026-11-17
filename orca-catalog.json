@@ -38071,8 +38071,8 @@
       "ownerId": 69342146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thanhtrung5763/orca-git-graph.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thanhtrung5763/orca-git-graph/0.1.5"
       },
       "description": "View a graph of your Git history and run common Git actions from it. Based on neo-git-graph.",
       "categories": [
