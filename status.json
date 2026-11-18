@@ -704,7 +704,7 @@
         "dohaidang.vietnamese"
       ],
       "notes": [
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 8 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 76 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "dohaidang/orca-wallpaper-studio": {
@@ -745,7 +745,7 @@
         "ebbop.italiano"
       ],
       "notes": [
-        "contributes.languagePacks \"it\" (locales/it.json): 34 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"it\" (locales/it.json): 104 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -1668,7 +1668,7 @@
         "mancunianez.ukrainian"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (locales/uk.json): 22 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (locales/uk.json): 90 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "marco-calderon/nord-midnight-orca-theme": {
@@ -1711,6 +1711,9 @@
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.262",
       "plugins": [
         "matteoeusebi.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 72 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -2378,7 +2381,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.3.0",
+      "ref": "v1.3.1",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ]
