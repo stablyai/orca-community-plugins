@@ -2314,6 +2314,13 @@
         "santiagocaprile.chat-board"
       ]
     },
+    "santii90/orca-plugin-artifact-viewer": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "santii90.artifact-viewer"
+      ]
+    },
     "sasagar/orca-ktrz-monokai": {
       "state": "listed",
       "ref": "refs/tags/sasagar/orca-ktrz-monokai/1.1.1",

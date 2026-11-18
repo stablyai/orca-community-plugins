@@ -34181,6 +34181,83 @@
       ]
     },
     {
+      "id": "santii90.artifact-viewer",
+      "ownerId": 4355286,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/santii90/orca-plugin-artifact-viewer.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Lists the claude.ai Artifacts and Orca chat visuals Claude made in this repo's worktrees, in the right sidebar, and opens them in Orca's browser with one click.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c068a842e85a9fcba5206b2905b1c090487f28d5",
+          "contentHash": "abc0ba9a0e07731d6edeeb83b440eeedfcb925ab8c362d3b0e590c8639127dd3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Artifacts",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Artifacts"
+            },
+            {
+              "kind": "commands",
+              "name": "Artifacts: Show or hide the right sidebar"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/santii90.artifact-viewer/066ea50ad813c42f.png",
+              "alt": "Three Artifacts sidebar panels in Orca's dark theme: a List grouped by date, Cards with preview thumbnails, and Sessions with a timeline per Claude chat.",
+              "sha256": "066ea50ad813c42ffb72f2df3e990a498e5b4e27322e37859d8bcf4a941d8705",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/santii90.artifact-viewer/aa04d6e62edfd7b5.png",
+              "alt": "Artifacts icon",
+              "sha256": "aa04d6e62edfd7b504485521eee6dc09e54d4c2c2ffb1f70f205e920565c583b",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/santii90.artifact-viewer/066ea50ad813c42f.png",
+                "alt": "The Artifacts panel in its three views: List grouped by date, Cards with previews and a pinned rail, and Sessions with a timeline per Claude chat.",
+                "sha256": "066ea50ad813c42ffb72f2df3e990a498e5b4e27322e37859d8bcf4a941d8705",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/santii90/orca-plugin-artifact-viewer",
+          "updatedAt": "2026-11-18T02:36:52-03:00"
+        }
+      ]
+    },
+    {
       "id": "sasagar.ktrz-monokai",
       "ownerId": 22128441,
       "source": {
