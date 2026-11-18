@@ -361,30 +361,21 @@
     },
     "brodesigns/orca-session-check": {
       "state": "listed",
-      "ref": "refs/tags/brodesigns/orca-session-check/1.0.2",
+      "ref": "v1.2.0",
       "plugins": [
         "brodesigns.session-check"
-      ],
-      "update": {
-        "ref": "v1.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "brodesigns/orca-skill-usage": {
       "state": "listed",
-      "ref": "refs/tags/brodesigns/orca-skill-usage/1.0.0",
+      "ref": "v1.1.0",
       "plugins": [
         "brodesigns.skill-usage"
       ]
     },
     "brodesigns/orca-woodpecker-status": {
       "state": "listed",
-      "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.1.0",
+      "ref": "v1.2.1",
       "plugins": [
         "brodesigns.woodpecker-status"
       ]
@@ -1428,6 +1419,16 @@
         }
       ]
     },
+    "kawamura0807/orca-asana-tasks": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "kianxm/orca-luau": {
       "state": "listed",
       "ref": "refs/tags/kianxm/orca-luau/1.0.2",
@@ -1564,7 +1565,7 @@
     },
     "leobessin/orca-mongo-studio": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/leobessin/orca-mongo-studio/1.1.0",
       "plugins": [
         "leobessin.mongo-studio"
       ]
@@ -2101,7 +2102,7 @@
     },
     "pblobp/orca-plugins": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/pblobp/orca-plugins/os-vitals/1.0.0",
       "plugins": [
         "pblobp.os-vitals"
       ]

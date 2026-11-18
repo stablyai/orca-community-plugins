@@ -611,11 +611,23 @@
     "repoId": 1462698702,
     "firstSeen": "2026-11-18T12:20:25.794Z"
   },
+  "brodesigns.session-check@1.2.0": {
+    "commit": "bb2f77a243cbace5cd3ef120475c281a67b925ae",
+    "contentHash": "72df7d2d870b53717438954fd99a9f08c937d108fc0dc7e417b7b30da3b9afd9",
+    "repoId": 1462698702,
+    "firstSeen": "2026-11-18T15:14:57.661Z"
+  },
   "brodesigns.skill-usage@1.0.0": {
     "commit": "fdc7366cb3cc5165a2d8bb194280e469bdfbbcb2",
     "contentHash": "fab462aa1b21ba97d4c7a99329419965c4cd59f7e6be105885724f219fd67c05",
     "repoId": 1451202841,
     "firstSeen": "2026-11-10T09:00:20.371Z"
+  },
+  "brodesigns.skill-usage@1.1.0": {
+    "commit": "1594dd4de82d9756bdf09886406d0299a19ce433",
+    "contentHash": "263f5056c04418481d8fb38af7406c7c013cf7499ee49ce36efde5ed51e99e47",
+    "repoId": 1451202841,
+    "firstSeen": "2026-11-18T15:14:57.661Z"
   },
   "brodesigns.woodpecker-status@1.0.0": {
     "commit": "8300367499bd7e4f421df67150c0aecff81409a1",
@@ -640,6 +652,12 @@
     "contentHash": "ccd85a4bf633c205a2b51b0f30dfa8bbf332423b8d740cfb7f7611f2b39e406e",
     "repoId": 1450467772,
     "firstSeen": "2026-11-09T12:40:57.115Z"
+  },
+  "brodesigns.woodpecker-status@1.2.1": {
+    "commit": "88382c065445d9b8c5c9feec4178b3baa156a525",
+    "contentHash": "823c7e7be9f03b677aa3603e4ee6fea3de11cc14ada266204a7db9297b306bcd",
+    "repoId": 1450467772,
+    "firstSeen": "2026-11-18T15:14:57.661Z"
   },
   "caocuong2404.observability@0.1.0": {
     "commit": "1088663113034296ce8279e63e10e76bfe62b8a4",

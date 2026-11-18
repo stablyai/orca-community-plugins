@@ -5323,16 +5323,118 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/brodesigns/orca-session-check/1.0.2"
+        "url": "https://github.com/brodesigns/orca-session-check.git",
+        "ref": "v1.2.0"
       },
-      "description": "See at a glance which of your Orca worktrees still have uncommitted files, unpushed commits, stashes or a running agent, and which sessions are safe to close. Read-only, no network.",
+      "description": "See at a glance which of your Orca worktrees still have uncommitted files, unpushed commits, stashes or a running agent, and which sessions are safe to close. Status bar count, a notification when an agent leaves open work, and a warning for files named like secrets that are not ignored. Read-only, ",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "bb2f77a243cbace5cd3ef120475c281a67b925ae",
+          "contentHash": "72df7d2d870b53717438954fd99a9f08c937d108fc0dc7e417b7b30da3b9afd9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Session Check",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Session Check"
+            },
+            {
+              "kind": "commands",
+              "name": "Session Check: Rescan worktrees"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Sessions"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brodesigns.session-check/75de8789b3f4ca27.png",
+              "alt": "The Session Check panel in Orca's sidebar: the current session on top, then worktrees grouped by uncommitted files, check first and can close",
+              "sha256": "75de8789b3f4ca27c14f61b50a152d057c772b032019994fbafcf0b58a663385",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/brodesigns.session-check/696fad7be0efb429.png",
+                "alt": "Current session pinned on top, then worktrees grouped by status with colored chips for changed, unpushed and untracked files",
+                "sha256": "696fad7be0efb429675c6a1bcebd76ec09bdb2c6bb37a81d2242f56937e3ba78",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/af114ab84f9e3055.png",
+                "alt": "A status bar item reading Sessions 3 open with a tooltip listing the worktrees, and a desktop notification that an agent finished and left uncommitted files",
+                "sha256": "af114ab84f9e30557ad23303484b3d05147cf3a0ad30d95e61f8d9c0568f17d3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/9c9311f015af0407.png",
+                "alt": "One worktree card opened: chips, lines changed, the changed files in plain words and the unpushed commits",
+                "sha256": "9c9311f015af04073fe39e4e9d8d91928c00a2a0d2b8d4ed20ecb7b8e81b806d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/8a39e69348bcfc5f.png",
+                "alt": "The four verdicts: keep open, check first, can close and not checked, each with example chips",
+                "sha256": "8a39e69348bcfc5f834e61846848383b82b3b76856d3a3bffa0350dac6a58681",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/dd47bcceaabb056f.png",
+                "alt": "The same panel in English, German and Spanish",
+                "sha256": "dd47bcceaabb056fed1c0889edfaf7a25ef5cef52ab345066f9e97a3ad906da8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/6a4794b0358bf435.png",
+                "alt": "Why Full access: read-only, repositories are untrusted, no network, almost nothing stored",
+                "sha256": "6a4794b0358bf4355a66157fc856a580bc514a18b5b39ea6dc12ae8b6edd06eb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brodesigns/orca-session-check",
+          "updatedAt": "2026-11-18T16:05:01+02:00"
+        },
         {
           "version": "1.0.2",
           "commit": "736129b54e106653d2be6b435d461f9a7de2b598",
@@ -5513,15 +5615,98 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/brodesigns/orca-skill-usage/1.0.0"
+        "url": "https://github.com/brodesigns/orca-skill-usage.git",
+        "ref": "v1.1.0"
       },
-      "description": "See which skills, MCP servers, agents and plugins of Claude Code, Codex and Gemini you really use, per project, and what the unused ones cost in context tokens. English and German. Local only, no tracking.",
+      "description": "See which skills, MCP servers, agents and plugins of Claude Code, Codex and Gemini you really use, per project, and what the unused ones cost in context tokens. English, German and Spanish. Local only, no tracking.",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "1594dd4de82d9756bdf09886406d0299a19ce433",
+          "contentHash": "263f5056c04418481d8fb38af7406c7c013cf7499ee49ce36efde5ed51e99e47",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Skill Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Skill Usage"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "agent:read",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brodesigns.skill-usage/d2a6d0a109c77a36.png",
+              "alt": "Skill Usage by Orca: the panel with summary tiles for always-loaded tokens, unused skills, MCP servers and agents",
+              "sha256": "d2a6d0a109c77a367b1dd94020fa53e6a45004c3957b1c4d3117499c50454758",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/brodesigns.skill-usage/648c2ac6a654ac18.png",
+                "alt": "Summary tiles: tokens always loaded per session, tokens in unused entries, unused skills, MCP servers and agents, number of calls",
+                "sha256": "648c2ac6a654ac1863cfba6f395d2dd50960c2f2ea8e1d0ad1b8e842a4001796",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/b2d29419c27128c2.png",
+                "alt": "One skill card opened: folder with an Open folder button, tokens always loaded in the period, projects that used it, AIs, tokens loaded on a call",
+                "sha256": "b2d29419c27128c25e68413c9817bddff4a219ea2b6afadd3f343a7b23efe7da",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/109764d5a07c29ad.png",
+                "alt": "The panel filtered to one project and the last 7 days",
+                "sha256": "109764d5a07c29ad38100042b3e9f46aaa67342396bf18a637ac10e74787bc95",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/06e6c68e372cec8e.png",
+                "alt": "Only the entries that were not called in the period, sorted by token cost",
+                "sha256": "06e6c68e372cec8e8aaaf3af65a74f74eefa4fb8880dbb7cc2bdad47b3bee694",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/121f9c9dadc5c860.png",
+                "alt": "Entries that are not installed any more, named as built-in, from a removed plugin or from a removed project",
+                "sha256": "121f9c9dadc5c860202f0fc5eff709903fd9d31b3ef4afb2f416847a8f200594",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.skill-usage/e8a40b887335bea3.png",
+                "alt": "Four checkmarks explaining what the plugin does with the Full access label: read-only, names not secrets, no network, no changes",
+                "sha256": "e8a40b887335bea39e0f93112d8224f63243f10de3623967a29cae84abebfa7f",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brodesigns/orca-skill-usage",
+          "updatedAt": "2026-11-18T16:06:43+02:00"
+        },
         {
           "version": "1.0.0",
           "commit": "fdc7366cb3cc5165a2d8bb194280e469bdfbbcb2",
@@ -5612,8 +5797,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.1.0"
+        "url": "https://github.com/brodesigns/orca-woodpecker-status.git",
+        "ref": "v1.2.1"
       },
       "description": "Shows the status of all your Woodpecker CI projects in the sidebar, newest build first, with search, filter, error messages and a log excerpt of the failed step. English and German. Read-only: talks only to your own Woodpecker server, no tracking.",
       "categories": [
@@ -5621,6 +5806,82 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "88382c065445d9b8c5c9feec4178b3baa156a525",
+          "contentHash": "823c7e7be9f03b677aa3603e4ee6fea3de11cc14ada266204a7db9297b306bcd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Woodpecker Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Woodpecker Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Woodpecker: Refresh status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CI"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brodesigns.woodpecker-status/88b3d3a45c9aa148.png",
+              "alt": "The Woodpecker Status panel in Orca's sidebar: projects sorted by newest build with status dots, build number, commit and age",
+              "sha256": "88b3d3a45c9aa1487830e42f373dfa75455a185fde7bad1845b8c8e72283c531",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/brodesigns.woodpecker-status/0cd55ed08f787890.png",
+                "alt": "Project list sorted by newest build, with a failed-builds banner, search, status filter and colored status dots",
+                "sha256": "0cd55ed08f787890bdd710d620e045ceabb62891d66c210e0fcba26cbf2ab488",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/16cb99a5b81b8565.png",
+                "alt": "The same panel in German",
+                "sha256": "16cb99a5b81b8565e69e295c57ab30d014541f44e9aeac885faeeffda1d1084d",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/6c8cd2081896ad3d.png",
+                "alt": "A failed project expanded: steps with their state, the log of the failed step and a link to Woodpecker",
+                "sha256": "6c8cd2081896ad3d267aa4096059f62ebed13b426ef03f6315a0c12fdf0bafb2",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/47a96199f5f27f42.png",
+                "alt": "Setup form with language, server URL and token fields",
+                "sha256": "47a96199f5f27f428f9dfa2ffa66c03178585f8a601e718fccff26f3838606a5",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/brodesigns.woodpecker-status/9ed52a82a2280015.png",
+                "alt": "Four checkmarks explaining the Full access label: read-only requests, one server over https, no files or programs, token stays local",
+                "sha256": "9ed52a82a22800155775465018dcc29dea1e96230f07f795c992bbb8781000f2",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brodesigns/orca-woodpecker-status",
+          "updatedAt": "2026-11-18T16:52:55+02:00"
+        },
         {
           "version": "1.1.0",
           "commit": "1f231fd09d1116a863725149469047dd60ea4bf9",
@@ -23850,8 +24111,8 @@
       "ownerId": 72224798,
       "source": {
         "kind": "git",
-        "url": "https://github.com/LeoBessin/orca-mongo-studio.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/leobessin/orca-mongo-studio/1.1.0"
       },
       "description": "A full MongoDB client inside Orca: browse collections and edit documents, query with a query bar or the Query Builder, build aggregation pipelines stage by stage, and script in a Mongo Shell. Not affiliated with or endorsed by MongoDB, Inc.",
       "categories": [
@@ -31330,8 +31591,8 @@
       "ownerId": 12371798,
       "source": {
         "kind": "git",
-        "url": "https://github.com/pblobp/orca-plugins.git",
-        "ref": "v1.0.0",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pblobp/orca-plugins/os-vitals/1.0.0",
         "path": "plugins/os-vitals"
       },
       "description": "A system monitor in the right sidebar and the status bar: live CPU, memory, network, disk, GPU, battery and processes.",
