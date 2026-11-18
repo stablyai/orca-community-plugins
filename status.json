@@ -571,7 +571,7 @@
         "cnzgray.mattpocock-workflow"
       ],
       "update": {
-        "ref": "v0.2.2",
+        "ref": "v0.2.3",
         "reasons": [
           {
             "category": "under-review",
@@ -1622,10 +1622,6 @@
         {
           "category": "binary-files",
           "detail": "bundles binary files (.DS_Store)"
-        },
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
       ]
     },
@@ -2051,6 +2047,13 @@
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
         }
+      ]
+    },
+    "omar227/orca-peon-ping": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "omar227.peon-ping"
       ]
     },
     "omerfarukgzr/orca-git-plugin": {

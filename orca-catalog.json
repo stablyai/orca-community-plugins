@@ -30014,6 +30014,53 @@
       ]
     },
     {
+      "id": "omar227.peon-ping",
+      "ownerId": 22567629,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/omar227/orca-peon-ping.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Character voice lines when your agents finish, fail, or need you. 380+ sound packs from the OpenPeon registry. macOS only in this version.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "e639627eb4029d1b602cfe42689b0061a1a92915",
+          "contentHash": "3bad935c43f87db5dbfaed3549238cadc9eef5213fb59fc6a784b080a5b67f47",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Peon Ping",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Peon Ping"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Peon Ping"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/omar227/orca-peon-ping",
+          "updatedAt": "2026-11-18T11:18:44-05:00"
+        }
+      ]
+    },
+    {
       "id": "omerfarukgzr.git-panel",
       "ownerId": 114485198,
       "source": {
