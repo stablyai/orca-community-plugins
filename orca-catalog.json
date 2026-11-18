@@ -3559,14 +3559,49 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.3"
+        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
+        "ref": "v1.1.4"
       },
       "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.4",
+          "commit": "1deeac1db68c192cbaac41b2152f34d69736f1e5",
+          "contentHash": "79a106766f820c6b072424e26cdd5526c378147f38c86d7f6c3e9ff6e6f526c4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "oMLX",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "oMLX"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "oMLX"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/aywengo.omlx/3bb536a94fe30f0e.png",
+              "alt": "oMLX icon",
+              "sha256": "3bb536a94fe30f0e90e95deef5318c629c88485d00561ea983eb298dc43a4977",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aywengo/orca-mlx-plugin",
+          "updatedAt": "2026-11-18T19:08:20+01:00"
+        },
         {
           "version": "1.1.3",
           "commit": "ddd29cf3e14e3431e8c18a28db6dd2c513106b3a",
@@ -3706,32 +3741,6 @@
           "license": "MIT",
           "repository": "https://github.com/aywengo/orca-mlx-plugin",
           "updatedAt": "2026-11-17T15:14:38+01:00"
-        },
-        {
-          "version": "1.1.0",
-          "commit": "38aa32167ca7402f9ab41b312a4ec8affa23b4b6",
-          "contentHash": "33b0d65adcc4ef9bb8fb568c516566f63ebdbbb9bcf8f678fe6de88e8b41067d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "oMLX",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "oMLX"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "oMLX"
-            }
-          ],
-          "capabilities": [
-            "secrets:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/aywengo/orca-mlx-plugin",
-          "updatedAt": "2026-11-16T23:37:11+01:00"
         }
       ]
     },
@@ -13935,8 +13944,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-human-scratchpad.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-human-scratchpad/0.1.0"
       },
       "description": "A sidebar panel to edit one global markdown scratchpad file. It runs as a trusted worker because it reads and writes a single markdown file chosen by the user, outside any workspace.",
       "categories": [
@@ -32006,8 +32015,8 @@
       "ownerId": 979646,
       "source": {
         "kind": "git",
-        "url": "https://github.com/peterurban/orca-graphite-theme.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/peterurban/orca-graphite-theme/1.0.0"
       },
       "description": "Graphite: a soft, low-glare dark theme for the Orca app and terminal, plus a darker variant.",
       "categories": [
