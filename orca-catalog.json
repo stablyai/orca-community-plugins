@@ -5323,8 +5323,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-session-check.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-session-check/1.0.2"
       },
       "description": "See at a glance which of your Orca worktrees still have uncommitted files, unpushed commits, stashes or a running agent, and which sessions are safe to close. Read-only, no network.",
       "categories": [
@@ -11977,8 +11977,8 @@
       "ownerId": 78803763,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Donghyun-git/petting-friends.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/donghyun-git/petting-friends/0.1.0"
       },
       "description": "Pet cute friends by rubbing them with the mouse. Pick one of four, in English or Korean.",
       "categories": [
@@ -18265,8 +18265,8 @@
       "ownerId": 26026366,
       "source": {
         "kind": "git",
-        "url": "https://github.com/HSnils/orca-github-notifications.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hsnils/orca-github-notifications/0.2.0"
       },
       "description": "Review requests, mentions and other unread GitHub notifications in an Orca sidebar panel.",
       "categories": [

@@ -361,7 +361,7 @@
     },
     "brodesigns/orca-session-check": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/brodesigns/orca-session-check/1.0.2",
       "plugins": [
         "brodesigns.session-check"
       ]
@@ -723,7 +723,7 @@
     },
     "donghyun-git/petting-friends": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/donghyun-git/petting-friends/0.1.0",
       "plugins": [
         "donghyun-git.petting-friends"
       ]
@@ -1184,7 +1184,7 @@
     },
     "hsnils/orca-github-notifications": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/hsnils/orca-github-notifications/0.2.0",
       "plugins": [
         "hsnils.github-notifications"
       ]
