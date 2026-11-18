@@ -67,19 +67,10 @@
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
-      "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "aetna000.atmem-architect"
-      ],
-      "update": {
-        "ref": "v0.2.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
@@ -603,13 +594,10 @@
       ]
     },
     "crilofer/orca-streamdeck": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "crilofer.streamdeck-bridge"
       ]
     },
     "csavur/simple-todo": {
@@ -820,13 +808,10 @@
       ]
     },
     "erom/orca-plugin-agent-network": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "erom.agent-network"
       ]
     },
     "erom/orca-plugin-agent-profiles": {
@@ -1022,13 +1007,13 @@
       ]
     },
     "gdulamat/ork-db": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.6.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "gdulamat.ork-db"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "gek0v/orca-signature-themes": {
@@ -1081,7 +1066,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.12.10",
+      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.10",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1163,13 +1148,10 @@
       ]
     },
     "heyfey/vaporview-orca": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "content"
-        }
+      "plugins": [
+        "heyfey.vaporview"
       ]
     },
     "hilbana/orca-plugin": {
@@ -1312,19 +1294,10 @@
     },
     "jdflament/orca-coordinator": {
       "state": "listed",
-      "ref": "refs/tags/jdflament/orca-coordinator/1.1.0",
+      "ref": "v1.2.2",
       "plugins": [
         "jdflament.coordinator-board"
-      ],
-      "update": {
-        "ref": "v1.2.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "jecyxyf/orca-tps-plugin": {
       "state": "listed",
@@ -1430,19 +1403,13 @@
     },
     "klausbegnis/agent-center": {
       "state": "listed",
-      "ref": "refs/tags/klausbegnis/agent-center/0.1.0",
+      "ref": "v0.3.0",
       "plugins": [
         "klausbegnis.agent-center"
       ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      "notes": [
+        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
+      ]
     },
     "klcd/ade-nvidia-openshell-plugin": {
       "state": "rejected",
@@ -1552,13 +1519,10 @@
       ]
     },
     "leobessin/orca-mongo-studio": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.3",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "leobessin.mongo-studio"
       ]
     },
     "lilykos/orca-openrouter-usage": {
@@ -2007,7 +1971,7 @@
     },
     "noripi10/orca-expo-themes": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/noripi10/orca-expo-themes/1.0.0",
       "plugins": [
         "noripi10.expo-themes"
       ],
@@ -2027,19 +1991,13 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.10",
+      "ref": "v0.1.12",
       "plugins": [
         "omerfarukgzr.git-panel"
       ],
-      "update": {
-        "ref": "v0.1.12",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size, update"
-          }
-        ]
-      }
+      "notes": [
+        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
+      ]
     },
     "orvillelim/orca-code-explainer": {
       "state": "listed",
@@ -2616,19 +2574,10 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "refs/tags/superfly/orca-sprites/0.5.1",
+      "ref": "v0.6.0",
       "plugins": [
         "superfly.sprites"
-      ],
-      "update": {
-        "ref": "v0.6.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "sydneydesign/requests": {
       "state": "rejected",
@@ -2814,19 +2763,10 @@
     },
     "uttam-gelot/orca-todos": {
       "state": "listed",
-      "ref": "refs/tags/uttam-gelot/orca-todos/0.1.2",
+      "ref": "v0.3.0",
       "plugins": [
         "uttam-gelot.todos"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "vale-c/orca-arc-blueberry": {
       "state": "listed",
@@ -2982,7 +2922,7 @@
     },
     "vrwolf1004/orca-tetris": {
       "state": "listed",
-      "ref": "v0.5.3",
+      "ref": "refs/tags/vrwolf1004/orca-tetris/0.5.3",
       "plugins": [
         "vrwolf1004.tetris-for-orca"
       ]
@@ -3043,13 +2983,10 @@
       ]
     },
     "williamwxz/orca-bot": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.4",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "williamwxz.bot-for-orca"
       ]
     },
     "wilsonliu123/orca-token-used": {
