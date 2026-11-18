@@ -2305,7 +2305,7 @@
         "rr235.power-sessions"
       ],
       "update": {
-        "ref": "v0.1.5",
+        "ref": "v0.1.6",
         "reasons": [
           {
             "category": "under-review",
@@ -2769,6 +2769,13 @@
       "ref": "refs/tags/tienne/orcatopia/0.4.1",
       "plugins": [
         "tienne.landmark-island"
+      ]
+    },
+    "tomasmarik-sys/orca-czech": {
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "tomasmarik-sys.czech"
       ]
     },
     "tourbut/claude-pin": {

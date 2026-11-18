@@ -41765,6 +41765,38 @@
       ]
     },
     {
+      "id": "tomasmarik-sys.czech",
+      "ownerId": 244070248,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tomasmarik-sys/orca-czech.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Přeloží rozhraní Orcy do češtiny.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "dbf8c2d615b86de003797b774ff4485ea3dc169d",
+          "contentHash": "3003098d37bc187203236bf9997400a89f2ab6e5f5eb14ff8a0cc6fe436ab52d",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Český jazykový balíček",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "cs"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/tomasmarik-sys/orca-czech",
+          "updatedAt": "2026-11-18T13:42:16+01:00"
+        }
+      ]
+    },
+    {
       "id": "tourbut.claude-pin",
       "ownerId": 42790398,
       "source": {
