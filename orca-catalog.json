@@ -19474,6 +19474,140 @@
       ]
     },
     {
+      "id": "jameslatajan.openspec",
+      "ownerId": 45154585,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jameslatajan/orca-openspec.git",
+        "ref": "v1.1.1"
+      },
+      "description": "OpenSpec in Orca: see a workspace's changes and specs (local or in a shared store), open a Kanban board, and start agents to explore, propose, apply, verify and archive changes.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "9e365fefdff9276aeca9b3817eb08ccc9ea2271a",
+          "contentHash": "0307cc360c874c93e680835253530423785f2121be3b281725eb3c1c37e0b54a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "OpenSpec",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenSpec: New change"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenSpec: Apply change"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenSpec: Verify change"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenSpec: Archive change"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenSpec: Refresh panel"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenSpec: Open board"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "OpenSpec board",
+              "detail": ".openspec"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "openspec"
+          ],
+          "editorFileTypes": [
+            "openspec"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jameslatajan.openspec/ce1976ebdcfdd9aa.png",
+              "alt": "OpenSpec for Orca: the sidebar panel listing changes with their status and task progress",
+              "sha256": "ce1976ebdcfdd9aa9be75d230778c00286c1b1d872f88fb059507a9947fc9c9c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jameslatajan.openspec/06f4f43d3c64d75f.png",
+              "alt": "OpenSpec icon",
+              "sha256": "06f4f43d3c64d75f39a509627f70766894c2968a7d4a107258e57a3aac684a4c",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/jameslatajan.openspec/be4bebfc36595907.png",
+                "alt": "The OpenSpec board tab with changes in Planning, Not started, In progress, Ready to archive and Archived columns, each card showing a summary, progress and date",
+                "sha256": "be4bebfc3659590722524a4111836ea226398b1820ef9d552e3f1e832baf7be4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.openspec/a3e9f6f04f2b39b4.png",
+                "alt": "A change opened on the board, with file tabs for proposal, design, tasks and a spec delta, the rendered spec scenarios, and related changes",
+                "sha256": "a3e9f6f04f2b39b43dd76168ac38a5a8b8e5a60f9add9c373660c839d1662dc9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.openspec/56af5959352ff142.png",
+                "alt": "The OpenSpec sidebar panel with five changes, their status and progress bars",
+                "sha256": "56af5959352ff142b4cd58bbcd53271ff8cdb99ec1d75cc2e85299c8055e91f8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.openspec/c109c325a554377d.png",
+                "alt": "The panel linked to a shared store, filtered to the shop system with a Shared section, and the Store settings card",
+                "sha256": "c109c325a554377d802cdf4dcf1b88fd4d92bf670c950048c56cda2c31d428a9",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/jameslatajan/orca-openspec",
+          "updatedAt": "2026-11-18T13:59:55+08:00"
+        }
+      ]
+    },
+    {
       "id": "jargez.docker-vm",
       "ownerId": 17633366,
       "source": {
@@ -42543,6 +42677,77 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-tokyonight",
           "updatedAt": "2026-10-30T21:17:55+01:00"
+        }
+      ]
+    },
+    {
+      "id": "vdhoangson.agent-world",
+      "ownerId": 4547214,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vdhoangson/orca-agent-world.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Every agent on your Orca host as a little pixel creature: fish in an aquarium, farmers in a field or astronauts on a space station.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "e7b0f2ddb5f6ea745efc1d7ca7fe8ee4b755e7ad",
+          "contentHash": "68eb0602714ed1b4ee7cad4de818dceb6dbdcb55aa961adabde3a6548be06baa",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Agent World for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent World"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vdhoangson.agent-world/281635d1bed7a868.png",
+              "alt": "An aquarium where every Orca agent is a pixel fish, with a ? over the ones waiting for you",
+              "sha256": "281635d1bed7a8687ab27b242dc2e7af44045e514221cdfdebd49c0e47349c6b",
+              "width": 800,
+              "height": 500
+            },
+            "icon": {
+              "path": "assets/vdhoangson.agent-world/6a8ff339a70594b0.png",
+              "alt": "Agent World for Orca icon",
+              "sha256": "6a8ff339a70594b0e414a6813f9a1d275421adfff6d4e42eeb896fd91d0d58f3",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/vdhoangson.agent-world/1de265fd5f284d63.png",
+                "alt": "Aquarium: agents as fish swimming while they work, resting on the sand when done, an orca and turtles passing by",
+                "sha256": "1de265fd5f284d63cb6e1252e668e8de512f4a547b99bf40122e9a0dfafb7bbc",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/vdhoangson.agent-world/4c63b8109ef5d462.png",
+                "alt": "Farm: agents as farmers hoeing their crop patches, a fish pond with a thatched hut along the top",
+                "sha256": "4c63b8109ef5d462abaa8fe8ec562487f9f3e16fcfd978744882896076984263",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/vdhoangson.agent-world/66de9ed1016dbba7.png",
+                "alt": "Space station: agents as astronauts at their consoles, a deck of computers and machines along the top",
+                "sha256": "66de9ed1016dbba7e2fda5d4f95580c1619d62b6d35a29702a8d1c5bab6fde7e",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vdhoangson/orca-agent-world",
+          "updatedAt": "2026-11-18T13:47:36+07:00"
         }
       ]
     },
