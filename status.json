@@ -239,7 +239,7 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "v1.1.4",
+      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.4",
       "plugins": [
         "aywengo.omlx"
       ]
@@ -1113,11 +1113,11 @@
     },
     "guilatrova/token-reminder": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.1.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },

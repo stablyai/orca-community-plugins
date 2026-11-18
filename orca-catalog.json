@@ -3559,8 +3559,8 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
-        "ref": "v1.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.4"
       },
       "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
       "categories": [
