@@ -17675,8 +17675,8 @@
       "ownerId": 160804092,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hexmyn/orca-win-2000-theme.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hexmyn/orca-win-2000-theme/1.0.1"
       },
       "description": "A Windows 2000-inspired light theme with sky-blue tabs, warm gray panels, classic editor inks and a midnight-blue console.",
       "categories": [
@@ -30587,8 +30587,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.12"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.12"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
@@ -39030,8 +39030,8 @@
       "ownerId": 22525303,
       "source": {
         "kind": "git",
-        "url": "https://github.com/superfly/orca-sprites.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/superfly/orca-sprites/0.6.1"
       },
       "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on > Per-Workspace Environment.",
       "categories": [
@@ -43386,13 +43386,72 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/vrwolf1004/orca-obsidian.git",
-        "ref": "v0.5.0"
+        "ref": "v0.5.2"
       },
       "description": "Browse and read your Obsidian vaults from the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.2",
+          "commit": "4737cd09b8283a9f10fd407b979e63e9fd7f6d6b",
+          "contentHash": "ab35e2062b2939552cd1f0d2197457b1a263858223d799fe8690c7b52fe3113a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Obsidian for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Obsidian"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/f2858e9b29ecef3f.webp",
+              "alt": "Obsidian for Orca panel with a vault open and a note shown beside the app title",
+              "sha256": "f2858e9b29ecef3fe944cbb3ce774687e257b9d40adaf070f0ebb735650b9914",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/7c04e29288953d08.png",
+              "alt": "Obsidian for Orca icon",
+              "sha256": "7c04e29288953d086e20571cae8337a38d2ef1eb1ac32a7a09856d014ea8120a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/6c703aaebdfd6936.webp",
+                "alt": "Right-click menu on a folder with New folder and New note",
+                "sha256": "6c703aaebdfd69368155e3890e7cc4225c9b83fd72eb31759c23a2711e3055bf",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/0d709bdc837377f2.webp",
+                "alt": "Help popup listing the shortcuts",
+                "sha256": "0d709bdc837377f26e9645292cd149337ff93126dc0a0cbecf41bc978189feb0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/d98d79b0a7af7334.webp",
+                "alt": "Vaults section expanded with the add and remove buttons",
+                "sha256": "d98d79b0a7af73344c7c0d845d59a0eb154fae8a5ec373f331a22e38d3f8bc98",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-obsidian",
+          "updatedAt": "2026-11-18T17:27:58+09:00"
+        },
         {
           "version": "0.5.0",
           "commit": "38db6381f3ed04c82751ac6cc37e06195303da6a",
@@ -43460,13 +43519,69 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/vrwolf1004/orca-radio.git",
-        "ref": "v0.6.9"
+        "ref": "v0.7.1"
       },
       "description": "Play internet radio from the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.7.1",
+          "commit": "7f7b5dfb87d64779ce7504044ff4dc55b3d99e95",
+          "contentHash": "6fa60a18fc8a53610f85652a2fb436e4105c204b2072f2a24db4b1bc97423bbe",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Radio for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Radio"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.radio-for-orca/1ab14ed3be26990c.webp",
+              "alt": "Radio for Orca 패널: 황동 라디오 모양의 인터넷 라디오 플레이어",
+              "sha256": "1ab14ed3be26990c6d2b93ba063f749c336bb315f35c60f20bc71ec895337b4e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vrwolf1004.radio-for-orca/d8985de5f0f81a9c.png",
+              "alt": "Radio for Orca icon",
+              "sha256": "d8985de5f0f81a9cdaf6224bb65f866df133530fa5f556366eaccf7e59834881",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/0e42e948feac55df.webp",
+                "alt": "재생 중인 라디오 패널",
+                "sha256": "0e42e948feac55df4d3d89eb865af4bb93f2fcc1c8337839d67d054919164b19",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/f927af6f1de6e7ef.webp",
+                "alt": "채널 목록을 펼친 패널",
+                "sha256": "f927af6f1de6e7efc0bc85dec49003b44492d11f0384f31d256154f3c58f681f",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/f6f7d4b6cea54954.webp",
+                "alt": "디자인 A, B, C 비교",
+                "sha256": "f6f7d4b6cea549546413f91c0ef24743da36e6ab5edcbf9a156ff5e2695dbce6",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-radio",
+          "updatedAt": "2026-11-18T17:22:32+09:00"
+        },
         {
           "version": "0.6.9",
           "commit": "1c072becb32bb30387f55d73adbc697f4e277c70",
@@ -43690,55 +43805,6 @@
           "license": "MIT",
           "repository": "https://github.com/vrwolf1004/orca-radio",
           "updatedAt": "2026-11-18T11:29:15+09:00"
-        },
-        {
-          "version": "0.6.4",
-          "commit": "b3cfff1aeff26ca71dfbd38c19f7066cda7cae33",
-          "contentHash": "7fa6d47d14c07275fe2fd3b795186b4dbef6024f1f519cd0c940e469bd1686c2",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Radio for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Radio"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/vrwolf1004.radio-for-orca/6db3ec408d503a1e.png",
-              "alt": "Radio for Orca 패널: 황동 라디오 모양의 인터넷 라디오 플레이어",
-              "sha256": "6db3ec408d503a1e887cf89726b0506ea4a5d8b23a7ba3511ab1c4f1e5c1f56d",
-              "width": 800,
-              "height": 500
-            },
-            "screenshots": [
-              {
-                "path": "assets/vrwolf1004.radio-for-orca/7cd1c135443b38b7.png",
-                "alt": "재생 중인 라디오 패널",
-                "sha256": "7cd1c135443b38b7f08bade8782c9e8db8abc67909c631bd951b0441d9376828",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/vrwolf1004.radio-for-orca/e9dd8978cb555bc1.png",
-                "alt": "채널 목록을 펼친 패널",
-                "sha256": "e9dd8978cb555bc1779365496be7981c6cb364bd92e51e68cb69199e568f2fd4",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/vrwolf1004.radio-for-orca/3b1de942762b5086.png",
-                "alt": "디자인 A, B, C 비교",
-                "sha256": "3b1de942762b50867245fdba85a8597cb153902d6e84808731dc8122858cd0c8",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/vrwolf1004/orca-radio",
-          "updatedAt": "2026-11-18T09:26:13+09:00"
         }
       ]
     },
@@ -43747,14 +43813,84 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vrwolf1004/orca-tetris/0.5.3"
+        "url": "https://github.com/vrwolf1004/orca-tetris.git",
+        "ref": "v0.5.4"
       },
       "description": "Press F1 and a new world opens. Retro Tetris, Ladder, Snake and Minesweeper games in the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.4",
+          "commit": "9e206e4d58dffc1f29c055421d8671b9085408e3",
+          "contentHash": "01d086947d43fe1d897de4e7288192f0c92d13d7926f09ef7ecf0f8d3ec11ff2",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Tetris for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Tetris"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.tetris-for-orca/bb2bf1d2d2c26111.webp",
+              "alt": "Tetris for Orca: a Tetris board next to the title",
+              "sha256": "bb2bf1d2d2c26111813e010c69310bc28ec1b33314820125211d24b1612c3c2d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vrwolf1004.tetris-for-orca/092f037309da27fb.webp",
+              "alt": "Tetris for Orca icon",
+              "sha256": "092f037309da27fb6c25ec95e77a3b2353b5ab8a5f1d6df5581aeee118f4f0d3",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/e6f45b6813744b31.webp",
+                "alt": "Tetris, Ladder, Snake and Minesweeper panels side by side",
+                "sha256": "e6f45b6813744b3187b847f2e4c3b0146513fec8aa3503485ea314f97a4431f0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/cb15ff680ff52c0e.webp",
+                "alt": "Tetris game screen",
+                "sha256": "cb15ff680ff52c0e841964249e6b02e6ea4baa0b91dd5a94ce945e09acbf777f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/fcd3e2851c04f32f.webp",
+                "alt": "Ladder game screen",
+                "sha256": "fcd3e2851c04f32fef8e34b2c2e5f5d960954b6756e9e2dc879858a9f1df5ff1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/cb524eb966af789c.webp",
+                "alt": "Snake game screen",
+                "sha256": "cb524eb966af789ca2adbc06878d914060edda6301e278ec98cddb510a9bc80c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/771594138fb48e5c.webp",
+                "alt": "Minesweeper game screen",
+                "sha256": "771594138fb48e5cc303202a5fe0c2dc98cb7877397b8dc62826a75f2d5c8cc1",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-tetris",
+          "updatedAt": "2026-11-18T17:22:00+09:00"
+        },
         {
           "version": "0.5.3",
           "commit": "5c42555c8fa26e301da0592552b784f9550fd355",

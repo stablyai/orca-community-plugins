@@ -155,7 +155,7 @@
         "angelcrown24.traffic-light"
       ],
       "update": {
-        "ref": "v0.6.0",
+        "ref": "v0.7.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1149,7 +1149,7 @@
     },
     "hexmyn/orca-win-2000-theme": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/hexmyn/orca-win-2000-theme/1.0.1",
       "plugins": [
         "hexmyn.service-pack-sky"
       ]
@@ -2051,7 +2051,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.12",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.12",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -2606,7 +2606,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/superfly/orca-sprites/0.6.1",
       "plugins": [
         "superfly.sprites"
       ]
@@ -2957,21 +2957,21 @@
     },
     "vrwolf1004/orca-obsidian": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "v0.5.2",
       "plugins": [
         "vrwolf1004.obsidian-for-orca"
       ]
     },
     "vrwolf1004/orca-radio": {
       "state": "listed",
-      "ref": "v0.6.9",
+      "ref": "v0.7.1",
       "plugins": [
         "vrwolf1004.radio-for-orca"
       ]
     },
     "vrwolf1004/orca-tetris": {
       "state": "listed",
-      "ref": "refs/tags/vrwolf1004/orca-tetris/0.5.3",
+      "ref": "v0.5.4",
       "plugins": [
         "vrwolf1004.tetris-for-orca"
       ]
