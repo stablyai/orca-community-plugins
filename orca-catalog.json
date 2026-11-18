@@ -9836,8 +9836,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.8.4"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.8.5"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -9845,6 +9845,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.5",
+          "commit": "6a9661f1d9f09a7f831f9ad3abb6f10e3c0ae13f",
+          "contentHash": "2d2d9f069f4f4beb3de3d7d7ea79a7bd608c9bc1cb05d4960b3ad6d9a9978bac",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-18T10:47:54+09:00"
+        },
         {
           "version": "0.8.4",
           "commit": "4f7cd5b70baf3ce852ee592fbb87954fb14e7811",
@@ -10076,64 +10134,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-16T13:15:21+09:00"
-        },
-        {
-          "version": "0.8.0",
-          "commit": "b89cecb66df9104e8fcf8c029a3f4871ebf5defd",
-          "contentHash": "caddf0453781da2d80890ea7ad11e069e966f30061f7c6cd2f0b068613533529",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
-              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
-              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
-                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
-                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
-                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
-                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
-                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
-                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-14T23:02:45+09:00"
         }
       ]
     },
@@ -16569,7 +16569,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.12.7"
+        "ref": "v0.12.9"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -16577,6 +16577,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.12.9",
+          "commit": "ea576ee02d6959c955de2e6e35146f91e46c58ee",
+          "contentHash": "f308d0986e22a843317374f1e24ebb2def2871b05d157f54c2648c53134b976b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
+                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
+                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-18T11:19:24+09:00"
+        },
         {
           "version": "0.12.7",
           "commit": "ce685ae0035df37989235ce190677d231fd0c4df",
@@ -16832,70 +16896,6 @@
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler",
           "updatedAt": "2026-11-17T22:28:41+09:00"
-        },
-        {
-          "version": "0.12.1",
-          "commit": "265d50425bd3c1048eb8d034af4b20891de58464",
-          "contentHash": "b802d4085a5b808e9948a5667dba3ea2b596bcaec78582a5474f48b6c9c85a58",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Scheduler",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Scheduler"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Schedules"
-            }
-          ],
-          "capabilities": [
-            "terminal:read",
-            "agent:read",
-            "workspace:read",
-            "storage:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
-              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
-              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
-              "alt": "Agent Scheduler icon",
-              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
-                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
-                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
-                "alt": "The same Schedules tab with the panel in Korean",
-                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
-          "updatedAt": "2026-11-17T21:10:09+09:00"
         }
       ]
     },
@@ -31740,14 +31740,60 @@
       "ownerId": 51143814,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/renanluiz/usage-companion/0.3.1"
+        "url": "https://github.com/renanluiz/usage-companion.git",
+        "ref": "v0.3.2"
       },
       "description": "Your Claude 5-hour and weekly limits, your pace through the week, skill use and daily tokens.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "0b4057c653af5d102ac9a4a8fbd1a34830caeb70",
+          "contentHash": "e91930d67aefff7d4e62f34207e5eee6bbbd42fa7cbebe3f6cc3fe897f08a296",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Usage Companion",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Usage Companion"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/renanluiz.limits-tracker/753bb6da779d37d0.png",
+              "alt": "Usage Companion panel beside the app, showing Claude 5-hour and weekly limit bars with reset times.",
+              "sha256": "753bb6da779d37d0019325019879f7d6738ae7177628cb8bbc9f4dd0dc8f9c99",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/renanluiz.limits-tracker/c1ed3fba4870ff39.png",
+                "alt": "Usage Companion showing 5-hour and weekly limit progress bars, reset times, skills and daily token share.",
+                "sha256": "c1ed3fba4870ff392632025ee67202664c9267317cccb2354ae979eaad465dae",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/renanluiz.limits-tracker/90a0babb5cc7be2e.png",
+                "alt": "Usage Companion weekly pace chart comparing your usage with the ideal line and projection, with skills and daily tokens.",
+                "sha256": "90a0babb5cc7be2ef6276f460dcbba22a79cd169234260c94959db59aa03b66f",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/renanluiz/usage-companion",
+          "updatedAt": "2026-11-17T23:00:48-03:00"
+        },
         {
           "version": "0.3.1",
           "commit": "ca87072f7089eb97b88070dc49016a14fc7d66d2",

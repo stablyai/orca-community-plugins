@@ -1199,6 +1199,12 @@
     "repoId": 1453378312,
     "firstSeen": "2026-11-16T16:40:36.493Z"
   },
+  "divlook.sidenote@0.8.5": {
+    "commit": "6a9661f1d9f09a7f831f9ad3abb6f10e3c0ae13f",
+    "contentHash": "2d2d9f069f4f4beb3de3d7d7ea79a7bd608c9bc1cb05d4960b3ad6d9a9978bac",
+    "repoId": 1453378312,
+    "firstSeen": "2026-11-18T02:19:51.529Z"
+  },
   "dohaidang.living-ascii-themes@1.4.0": {
     "commit": "74b035f66f7f1f4559016caebf1b9874673d2af5",
     "contentHash": "db7707297bb09e419e82cfce57dcff344ee17df3544f7c00c1784e4fdda7fbbd",
@@ -1828,6 +1834,12 @@
     "contentHash": "53a8e5743f44ecb680ff65017866104677508ddedbe0fa7953d22f7334c490d0",
     "repoId": 1460739421,
     "firstSeen": "2026-11-18T01:42:17.975Z"
+  },
+  "gook-lab.agent-scheduler@0.12.9": {
+    "commit": "ea576ee02d6959c955de2e6e35146f91e46c58ee",
+    "contentHash": "f308d0986e22a843317374f1e24ebb2def2871b05d157f54c2648c53134b976b",
+    "repoId": 1460739421,
+    "firstSeen": "2026-11-18T02:19:51.529Z"
   },
   "gook-lab.agent-scheduler@0.9.11": {
     "commit": "a197a8d0315bbd65b674b6454759994f93e76bb8",
@@ -3310,6 +3322,12 @@
     "contentHash": "fb993a9e8528ca2c6b2fa032574e72e17131cac176fa053be59687e77a6499d3",
     "repoId": 1455430426,
     "firstSeen": "2026-11-17T23:55:20.086Z"
+  },
+  "renanluiz.limits-tracker@0.3.2": {
+    "commit": "0b4057c653af5d102ac9a4a8fbd1a34830caeb70",
+    "contentHash": "e91930d67aefff7d4e62f34207e5eee6bbbd42fa7cbebe3f6cc3fe897f08a296",
+    "repoId": 1455430426,
+    "firstSeen": "2026-11-18T02:19:51.529Z"
   },
   "rgarciade.containers@0.1.1": {
     "commit": "b378065f81db7cc1998147bdc1ef89fa5e92c29f",

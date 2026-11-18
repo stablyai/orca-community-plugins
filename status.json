@@ -697,7 +697,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.8.4",
+      "ref": "v0.8.5",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1081,7 +1081,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.12.7",
+      "ref": "v0.12.9",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1277,6 +1277,16 @@
       "ref": "refs/tags/jamesjfoong/orca-plugin-github-workbench/0.2.0",
       "plugins": [
         "jamesjfoong.github-workbench"
+      ]
+    },
+    "jameslatajan/orca-openspec": {
+      "state": "rejected",
+      "ref": "v1.0.2",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "jargez/orca-recipes": {
@@ -2201,7 +2211,7 @@
     },
     "renanluiz/usage-companion": {
       "state": "listed",
-      "ref": "refs/tags/renanluiz/usage-companion/0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "renanluiz.limits-tracker"
       ]
@@ -2865,7 +2875,7 @@
     },
     "victorfernande/orca-gear-generator": {
       "state": "rejected",
-      "ref": "v1.2.0",
+      "ref": "v1.3.0",
       "reasons": [
         {
           "category": "no-manifest",
@@ -2877,7 +2887,7 @@
         },
         {
           "category": "binary-files",
-          "detail": "bundles binary files (dist/orca_gear_generator-1.2.0-py3-none-any.whl)"
+          "detail": "bundles binary files (dist/orca_gear_generator-1.3.0-py3-none-any.whl)"
         }
       ]
     },
