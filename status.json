@@ -1081,7 +1081,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.5",
+      "ref": "v0.12.7",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -1985,6 +1985,16 @@
         }
       ]
     },
+    "notfiliberto/oh-my-lucy-orca-theme": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
       "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.10",
@@ -2850,6 +2860,24 @@
         {
           "category": "under-review",
           "detail": "code"
+        }
+      ]
+    },
+    "victorfernande/orca-gear-generator": {
+      "state": "rejected",
+      "ref": "v1.2.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
+        },
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (dist/orca_gear_generator-1.2.0-py3-none-any.whl)"
         }
       ]
     },
