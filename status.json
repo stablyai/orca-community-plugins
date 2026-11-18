@@ -361,7 +361,7 @@
     },
     "brodesigns/orca-session-check": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "v1.0.2",
       "plugins": [
         "brodesigns.session-check"
       ]
@@ -722,13 +722,10 @@
       ]
     },
     "donghyun-git/petting-friends": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "donghyun-git.petting-friends"
       ]
     },
     "dr-xjx/orca-session-progress": {
@@ -1187,7 +1184,7 @@
     },
     "hsnils/orca-github-notifications": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "hsnils.github-notifications"
       ]
@@ -2116,7 +2113,7 @@
     },
     "peterurban/orca-graphite-theme": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/peterurban/orca-graphite-theme/0.2.0",
       "plugins": [
         "peterurban.graphite"
       ]
@@ -3114,7 +3111,7 @@
     },
     "xuan666-lab/orca-latest-artifacts": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.5",
       "plugins": [
         "xuan666-lab.artifact-workbench"
       ]

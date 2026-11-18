@@ -5324,7 +5324,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/brodesigns/orca-session-check.git",
-        "ref": "v1.0.0"
+        "ref": "v1.0.2"
       },
       "description": "See at a glance which of your Orca worktrees still have uncommitted files, unpushed commits, stashes or a running agent, and which sessions are safe to close. Read-only, no network.",
       "categories": [
@@ -5333,6 +5333,103 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "736129b54e106653d2be6b435d461f9a7de2b598",
+          "contentHash": "23e9e9ece43f1efe299d810f8a7244a690fe685869599155ae7488a9f3233565",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Session Check",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Session Check"
+            },
+            {
+              "kind": "commands",
+              "name": "Session Check: Rescan worktrees"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brodesigns.session-check/75de8789b3f4ca27.png",
+              "alt": "The Session Check panel in Orca's sidebar: the current session on top, then worktrees grouped by uncommitted files, check first and can close",
+              "sha256": "75de8789b3f4ca27c14f61b50a152d057c772b032019994fbafcf0b58a663385",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/brodesigns.session-check/696fad7be0efb429.png",
+                "alt": "Current session pinned on top, then worktrees grouped by status with colored chips for changed, unpushed and untracked files",
+                "sha256": "696fad7be0efb429675c6a1bcebd76ec09bdb2c6bb37a81d2242f56937e3ba78",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/9c9311f015af0407.png",
+                "alt": "One worktree card opened: chips, lines changed, the changed files in plain words and the unpushed commits",
+                "sha256": "9c9311f015af04073fe39e4e9d8d91928c00a2a0d2b8d4ed20ecb7b8e81b806d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/8a39e69348bcfc5f.png",
+                "alt": "The four verdicts: keep open, check first, can close and not checked, each with example chips",
+                "sha256": "8a39e69348bcfc5f834e61846848383b82b3b76856d3a3bffa0350dac6a58681",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/19ac4b39e7062407.png",
+                "alt": "The same list grouped by project",
+                "sha256": "19ac4b39e70624070d89f24d683db11d4a0b5e38dcba2ac64304d2ff5346589a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/1df0b10d6b5f8fdf.png",
+                "alt": "The panel in Orca's light theme",
+                "sha256": "1df0b10d6b5f8fdf3c5abe2466dadcb6ec2eaf9f44ece16f447b63d0992cdc54",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brodesigns.session-check/053c6843fb57d0e1.png",
+                "alt": "Why Full access: read-only, repositories are untrusted, no network, almost nothing stored",
+                "sha256": "053c6843fb57d0e15fe95d108e757f0a9eca8411b757ed09e6394e5c82c82c85",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brodesigns/orca-session-check",
+          "updatedAt": "2026-11-18T14:11:56+02:00"
+        },
         {
           "version": "1.0.0",
           "commit": "626c8a94c5995a3efbc4d1da886f7234e5f75c50",
@@ -11876,6 +11973,42 @@
       ]
     },
     {
+      "id": "donghyun-git.petting-friends",
+      "ownerId": 78803763,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Donghyun-git/petting-friends.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Pet cute friends by rubbing them with the mouse. Pick one of four, in English or Korean.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "47cba0b35f5e8457081212de1e2e1bdb5b36de6a",
+          "contentHash": "5f9490198262ab07631b06193b9a219c0f53edf07b3d2fbad04ed8dcf2ccb16d",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Petting Friends",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Petting Friends"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Donghyun-git/petting-friends",
+          "updatedAt": "2026-11-18T21:11:57+09:00"
+        }
+      ]
+    },
+    {
       "id": "dr-xjx.session-progress",
       "ownerId": 208565774,
       "source": {
@@ -18133,13 +18266,35 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/HSnils/orca-github-notifications.git",
-        "ref": "v0.1.0"
+        "ref": "v0.2.0"
       },
       "description": "Review requests, mentions and other unread GitHub notifications in an Orca sidebar panel.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "7667c73d821d51b0c857f0f0efc40e21235c6451",
+          "contentHash": "f82405af4e26c0d3c283d49fdab012e8d99171d5c5cce3e76ceabeb887c1662e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "GitHub Notifications",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Notifications"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/HSnils/orca-github-notifications",
+          "updatedAt": "2026-11-18T12:38:11+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "2928bc20a6fa4910e647970735467f6ac95e8615",
@@ -31213,8 +31368,8 @@
       "ownerId": 979646,
       "source": {
         "kind": "git",
-        "url": "https://github.com/peterurban/orca-graphite-theme.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/peterurban/orca-graphite-theme/0.2.0"
       },
       "description": "Graphite: a soft, low-glare dark theme for the Orca app and terminal, plus a darker variant.",
       "categories": [
@@ -45630,8 +45785,8 @@
       "ownerId": 276170146,
       "source": {
         "kind": "git",
-        "url": "https://github.com/xuan666-lab/orca-latest-artifacts.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.5"
       },
       "description": "Recent files from your current agent session. Local macOS preview release.",
       "categories": [

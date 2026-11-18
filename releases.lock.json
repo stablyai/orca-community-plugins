@@ -605,6 +605,12 @@
     "repoId": 1462698702,
     "firstSeen": "2026-11-18T11:39:09.837Z"
   },
+  "brodesigns.session-check@1.0.2": {
+    "commit": "736129b54e106653d2be6b435d461f9a7de2b598",
+    "contentHash": "23e9e9ece43f1efe299d810f8a7244a690fe685869599155ae7488a9f3233565",
+    "repoId": 1462698702,
+    "firstSeen": "2026-11-18T12:20:25.794Z"
+  },
   "brodesigns.skill-usage@1.0.0": {
     "commit": "fdc7366cb3cc5165a2d8bb194280e469bdfbbcb2",
     "contentHash": "fab462aa1b21ba97d4c7a99329419965c4cd59f7e6be105885724f219fd67c05",
@@ -1282,6 +1288,12 @@
     "contentHash": "10c45ff8cc35a5f707a5aa52aafad5e43f96ea77a8d498e925c8bd9e3b9f624b",
     "repoId": 1452188762,
     "firstSeen": "2026-11-12T10:15:06.330Z"
+  },
+  "donghyun-git.petting-friends@0.1.0": {
+    "commit": "47cba0b35f5e8457081212de1e2e1bdb5b36de6a",
+    "contentHash": "5f9490198262ab07631b06193b9a219c0f53edf07b3d2fbad04ed8dcf2ccb16d",
+    "repoId": 1462556268,
+    "firstSeen": "2026-11-18T12:20:25.794Z"
   },
   "dr-xjx.session-progress@0.1.0": {
     "commit": "c40c5912d9ba58e4983ba663810035361e8f359d",
@@ -2038,6 +2050,12 @@
     "contentHash": "298977eae4b049818bfc74be814683a7eb032e4766d0a62984a66103d07df052",
     "repoId": 1462169986,
     "firstSeen": "2026-11-18T11:39:09.837Z"
+  },
+  "hsnils.github-notifications@0.2.0": {
+    "commit": "7667c73d821d51b0c857f0f0efc40e21235c6451",
+    "contentHash": "f82405af4e26c0d3c283d49fdab012e8d99171d5c5cce3e76ceabeb887c1662e",
+    "repoId": 1462169986,
+    "firstSeen": "2026-11-18T12:20:25.794Z"
   },
   "hubo1989.codegraph-init@0.1.0": {
     "commit": "052026402971133f913e79d854461ded29e98d73",
