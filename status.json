@@ -2282,7 +2282,16 @@
       "ref": "refs/tags/rr235/orca-power-sessions/0.1.4",
       "plugins": [
         "rr235.power-sessions"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.5",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
