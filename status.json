@@ -697,7 +697,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.8.5",
+      "ref": "refs/tags/divlook/orca-sidenote/0.8.5",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1081,7 +1081,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.12.9",
+      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.9",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -2211,7 +2211,7 @@
     },
     "renanluiz/usage-companion": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/renanluiz/usage-companion/0.3.2",
       "plugins": [
         "renanluiz.limits-tracker"
       ]
@@ -2940,7 +2940,16 @@
       "ref": "refs/tags/vrwolf1004/orca-radio/0.6.4",
       "plugins": [
         "vrwolf1004.radio-for-orca"
-      ]
+      ],
+      "update": {
+        "ref": "v0.6.5",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "vzxxbacq/orca-colab": {
       "state": "listed",
