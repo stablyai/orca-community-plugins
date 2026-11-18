@@ -2429,6 +2429,12 @@
     "repoId": 1460948798,
     "firstSeen": "2026-11-17T06:23:26.295Z"
   },
+  "leeleelee3264.spyhop-orca@0.1.3": {
+    "commit": "976f050f2064e6fcee8db864922d670046cadbdf",
+    "contentHash": "d9a628d8bae901ec5befe147169ec62a3c2393eaa7ab18aef4edd9716f6874d4",
+    "repoId": 1460948798,
+    "firstSeen": "2026-11-18T04:16:24.240Z"
+  },
   "lilykos.openrouter-usage@0.1.0": {
     "commit": "7a3d8bb0f987227fc0bd8b645ae2ef82cc45bd4f",
     "contentHash": "ce532635568f36b33770e2dacdc688c6331cc4a725eaaf802ffed2995ae96d46",
@@ -4463,11 +4469,23 @@
     "repoId": 1456355136,
     "firstSeen": "2026-11-18T03:39:43.286Z"
   },
+  "vrwolf1004.radio-for-orca@0.6.8": {
+    "commit": "42afb945add09181efe732b1c86e5a22752b22d1",
+    "contentHash": "f37767363a8a75ee4ee46ef49f02f0aed0f249d9db453dbe5c83d2bad1631f3d",
+    "repoId": 1456355136,
+    "firstSeen": "2026-11-18T04:16:24.240Z"
+  },
   "vrwolf1004.tetris-for-orca@0.5.0": {
     "commit": "f5c72a555541cdf1d28a2f893b9462f27f5207f0",
     "contentHash": "c7794695a91868eabd862dc94f08a6356f1785e0fbec8c8aeeda3d3d536c8653",
     "repoId": 1456360369,
     "firstSeen": "2026-11-18T03:39:43.286Z"
+  },
+  "vrwolf1004.tetris-for-orca@0.5.1": {
+    "commit": "d09e2bb351444251a15b07a1de85f38b47fa48b5",
+    "contentHash": "3ef770eb05dc8df26d66dc988ebf3825b465adee0d49593c910b28af5c4c2b09",
+    "repoId": 1456360369,
+    "firstSeen": "2026-11-18T04:16:24.240Z"
   },
   "vzxxbacq.colab@0.3.2": {
     "commit": "d9176a8b8a6fa195b66a19814dde9fce26eb0b6d",
