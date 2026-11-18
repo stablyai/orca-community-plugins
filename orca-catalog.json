@@ -30098,7 +30098,7 @@
       ]
     },
     {
-      "id": "omar227.peon-ping",
+      "id": "omar227.peonping",
       "ownerId": 22567629,
       "source": {
         "kind": "git",
@@ -30113,8 +30113,8 @@
       "releases": [
         {
           "version": "1.0.0",
-          "commit": "e639627eb4029d1b602cfe42689b0061a1a92915",
-          "contentHash": "3bad935c43f87db5dbfaed3549238cadc9eef5213fb59fc6a784b080a5b67f47",
+          "commit": "e6acd5f137342d52b77fc79329034bc66af92ca6",
+          "contentHash": "8c8f94863243714ad2a1ec72783747f7559e052d4f4ef02fb428d21f2558aabd",
           "execution": "trusted-worker",
           "minimumOrca": "1.4.259",
           "name": "Peon Ping",
@@ -30140,7 +30140,7 @@
           ],
           "license": "MIT",
           "repository": "https://github.com/omar227/orca-peon-ping",
-          "updatedAt": "2026-11-18T11:18:44-05:00"
+          "updatedAt": "2026-11-18T16:22:13-05:00"
         }
       ]
     },
@@ -30149,8 +30149,8 @@
       "ownerId": 114485198,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.12"
+        "url": "https://github.com/omerfarukgzr/orca-git-plugin.git",
+        "ref": "v0.1.13"
       },
       "description": "IntelliJ IDEA-style Git: commit, Log graph, diffs and blame.",
       "categories": [
@@ -30159,6 +30159,98 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.13",
+          "commit": "8ce703859a3f02a9e9c43cfda4f47afba8aa6de5",
+          "contentHash": "038c2de8b64064a3bb1704c2abb9d025692609aab1bb6ee2cfbcdfca0eba6bd1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Hay Git",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Commit"
+            },
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "commands",
+              "name": "Hay Git: Show Git Panel"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Hay Git",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Git",
+              "detail": ".gitpanel"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "gitpanel"
+          ],
+          "editorFileTypes": [
+            "gitpanel"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/omerfarukgzr.git-panel/a8417060111192a1.webp",
+              "alt": "The commit graph of the Git panel's Log with coloured branch lanes and ref labels, beside the Commit panel's ticked local changes",
+              "sha256": "a8417060111192a1db9bd7e5998f68e67bbaf1b34bcd19b700680bada18b86b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/omerfarukgzr.git-panel/fd08e0247070dae9.png",
+              "alt": "Hay Git icon",
+              "sha256": "fd08e0247070dae98234408f2cbba856c712c80dac6c2aafb7779f4e78d390aa",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/omerfarukgzr.git-panel/15f9d10e29ffe8f3.webp",
+                "alt": "Right sidebar panels: Commit with changes ticked and a message; Git with the Log and a selected commit's files; Git with its Branches drawer",
+                "sha256": "15f9d10e29ffe8f3a17e1b57c26eb8ac60892ee4baa33f1910cc934305b78faa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/omerfarukgzr.git-panel/e8a944afa4bd58f2.webp",
+                "alt": "A commit's change to a TypeScript file, side by side, in a tab of Orca's center area opened from the Git panel",
+                "sha256": "e8a944afa4bd58f206a2f57bce727ef5efafe8eef2884fb3653fa7e4a6c70a10",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/omerfarukgzr.git-panel/0dfd9c76301a737e.webp",
+                "alt": "Right sidebar Commit panel: the Stash tab with two stashes and one's files; the Worktrees list; a linked worktree shown with Back",
+                "sha256": "0dfd9c76301a737ed0f33777f85c283d8807c9a07873fc422bf889badf4b510e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
+          "updatedAt": "2026-11-19T00:25:13+03:00"
+        },
         {
           "version": "0.1.12",
           "commit": "60567f9834ad346eb68c2325371e9372371b3eaa",
@@ -30507,79 +30599,6 @@
           "license": "MIT",
           "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
           "updatedAt": "2026-11-16T13:50:20+03:00"
-        },
-        {
-          "version": "0.1.7",
-          "commit": "932c9cce93f704449c35322cb93039d9daf0e480",
-          "contentHash": "476bb38184cd24bbe9f8082a9cf49f52502b11830acb5315f680f119e3d1df29",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "HayBrains Git",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Commit"
-            },
-            {
-              "kind": "panels",
-              "name": "Git"
-            },
-            {
-              "kind": "customEditors",
-              "name": "HayBrains Git",
-              "detail": ".gitpanel"
-            },
-            {
-              "kind": "newFiles",
-              "name": "Git",
-              "detail": ".gitpanel"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write"
-          ],
-          "fileTypes": [
-            "gitpanel"
-          ],
-          "editorFileTypes": [
-            "gitpanel"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/omerfarukgzr.git-panel/a8417060111192a1.webp",
-              "alt": "The commit graph of the Git panel's Log with coloured branch lanes and ref labels, beside the Commit panel's ticked local changes",
-              "sha256": "a8417060111192a1db9bd7e5998f68e67bbaf1b34bcd19b700680bada18b86b3",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/omerfarukgzr.git-panel/fd08e0247070dae9.png",
-              "alt": "HayBrains Git icon",
-              "sha256": "fd08e0247070dae98234408f2cbba856c712c80dac6c2aafb7779f4e78d390aa",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/omerfarukgzr.git-panel/15f9d10e29ffe8f3.webp",
-                "alt": "Right sidebar panels: Commit with changes ticked and a message; Git with the Log and a selected commit's files; Git with its Branches drawer",
-                "sha256": "15f9d10e29ffe8f3a17e1b57c26eb8ac60892ee4baa33f1910cc934305b78faa",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/omerfarukgzr.git-panel/e8a944afa4bd58f2.webp",
-                "alt": "A commit's change to a TypeScript file, side by side, in a tab of Orca's center area opened from the Git panel",
-                "sha256": "e8a944afa4bd58f206a2f57bce727ef5efafe8eef2884fb3653fa7e4a6c70a10",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/omerfarukgzr/orca-git-plugin",
-          "updatedAt": "2026-11-16T13:06:57+03:00"
         }
       ]
     },
@@ -45585,8 +45604,8 @@
       "ownerId": 23340720,
       "source": {
         "kind": "git",
-        "url": "https://github.com/williamwxz/orca-bot.git",
-        "ref": "v0.1.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/williamwxz/orca-bot/0.1.7"
       },
       "description": "A team of bots inside Orca. Runs the open-source OpenMausBot on your machine: a roster of bots, each its own Claude, Codex or Grok agent. Unofficial. Not made by or affiliated with Orca, OpenMausBot or the makers of the models it runs.",
       "categories": [

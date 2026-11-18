@@ -2080,21 +2080,12 @@
       "state": "listed",
       "ref": "v1.0.0",
       "plugins": [
-        "omar227.peon-ping"
-      ],
-      "update": {
-        "ref": "v1.0.0",
-        "reasons": [
-          {
-            "category": "identity-refused",
-            "detail": "omar227/orca-peon-ping was deleted and recreated (GitHub repository id 1463041813 is now 1463118601); omar227.peon-ping stays frozen at its listed releases"
-          }
-        ]
-      }
+        "omar227.peonping"
+      ]
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.12",
+      "ref": "v0.1.13",
       "plugins": [
         "omerfarukgzr.git-panel"
       ],
@@ -3151,7 +3142,7 @@
     },
     "williamwxz/orca-bot": {
       "state": "listed",
-      "ref": "v0.1.7",
+      "ref": "refs/tags/williamwxz/orca-bot/0.1.7",
       "plugins": [
         "williamwxz.bot-for-orca"
       ]
