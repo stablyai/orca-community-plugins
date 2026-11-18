@@ -51,19 +51,10 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "v1.2.0",
       "plugins": [
         "addisflava.llm-router"
-      ],
-      "update": {
-        "ref": "v1.1.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
@@ -1234,7 +1225,7 @@
     },
     "ias0nas/seaqull": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/ias0nas/seaqull/0.1.5",
       "plugins": [
         "ias0nas.seaqull"
       ]
@@ -1644,7 +1635,7 @@
     },
     "linkrjr/buildkite-orca-plugin": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/linkrjr/buildkite-orca-plugin/1.0.1",
       "plugins": [
         "linkrjr.buildkite-orca-plugin"
       ]

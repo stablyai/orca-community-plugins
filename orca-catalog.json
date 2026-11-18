@@ -1445,7 +1445,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/addisflava/orca-llm-router.git",
-        "ref": "v1.0.3"
+        "ref": "v1.2.0"
       },
       "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, and routing different providers behind a single model name with seamless fallback.",
       "categories": [
@@ -1454,6 +1454,122 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "41a879d6e2281be5c02a417d36ddf60a10bc6f76",
+          "contentHash": "f614e50837b4a9368c6fcc342d53850f11decf0e82acb2189efbd497937b6842",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LLM Router for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca LLM Router"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: gateway status"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: start sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: stop sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: restart sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: test providers"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "router:18080"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/addisflava.llm-router/799ec8f03d513730.jpg",
+              "alt": "LLM Router for Orca cover with gateway overview and provider panels beside a short feature summary",
+              "sha256": "799ec8f03d513730144c8a83c8feebcd33ac34848521c48e56f2b20e0a02c387",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/addisflava.llm-router/c08a9eba6ad9af52.png",
+              "alt": "LLM Router for Orca icon",
+              "sha256": "c08a9eba6ad9af52a372810c5be0338212e4b6ee31d15744f05cbf35452efd41",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/addisflava.llm-router/db42611d50dc52bb.png",
+                "alt": "Orca LLM Router live overview dashboard showing active gateway, metrics, and agent endpoints",
+                "sha256": "db42611d50dc52bbd67b7e64a50296a54542dc3b5a834ed73dc46849343a157a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/b46aa5bf26d30e54.png",
+                "alt": "Orca LLM Router routing panel showing model aliases, fastest-first ranking, and live failover telemetry",
+                "sha256": "b46aa5bf26d30e540bc0cc29b173fc4e87b0d3520317426d3609e903aebc7534",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/92bfe430175dc036.png",
+                "alt": "Orca LLM Router live request log showing query filtering and automatic failover retries resolving to 200 OK",
+                "sha256": "92bfe430175dc036dd1394bd9a60a116af39af7f729b2bdc90c79b569fe87f7d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/3cd493af420187b3.png",
+                "alt": "Orca LLM Router providers panel showing multi-provider configuration, key pools, and model discovery",
+                "sha256": "3cd493af420187b38c92980099460cc2f4bd64cf3d06f1664b59876aac4b37e5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/2f8c0cc9fcc4e129.png",
+                "alt": "Interactive route target editor filtering 360+ models across providers with drag-and-drop order",
+                "sha256": "2f8c0cc9fcc4e1291f3fb6ae141c2dcfec8d5e51c10e60bb3c04e187d0e4b395",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/60f2ccbc766cc2cd.png",
+                "alt": "Orca LLM Router agents tab with one-click routing toggles for 45+ supported coding agents",
+                "sha256": "60f2ccbc766cc2cdec65f375902f7ad68c20471265d89cfa1d1d4bd0e86dfa17",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/addisflava/orca-llm-router",
+          "updatedAt": "2026-11-19T02:18:57+03:00"
+        },
         {
           "version": "1.0.3",
           "commit": "12af1a975a904395366b46ff8aeb031d10ee9830",
@@ -18740,8 +18856,8 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ias0nas/SeaQull.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ias0nas/seaqull/0.1.5"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
@@ -25037,8 +25153,8 @@
       "ownerId": 71968,
       "source": {
         "kind": "git",
-        "url": "https://github.com/linkrjr/buildkite-orca-plugin.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/linkrjr/buildkite-orca-plugin/1.0.1"
       },
       "description": "Buildkite builds for the active workspace, in a sidebar panel.",
       "categories": [
