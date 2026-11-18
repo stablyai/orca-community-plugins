@@ -16568,8 +16568,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.12.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.5"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -42394,8 +42394,8 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vrwolf1004/orca-radio.git",
-        "ref": "v0.6.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vrwolf1004/orca-radio/0.6.4"
       },
       "description": "Orca 사이드바에서 인터넷 라디오를 재생한다.",
       "categories": [

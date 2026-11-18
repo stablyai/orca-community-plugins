@@ -1081,7 +1081,7 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "v0.12.5",
+      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.5",
       "plugins": [
         "gook-lab.agent-scheduler"
       ]
@@ -2899,7 +2899,7 @@
     },
     "vrwolf1004/orca-radio": {
       "state": "listed",
-      "ref": "v0.6.4",
+      "ref": "refs/tags/vrwolf1004/orca-radio/0.6.4",
       "plugins": [
         "vrwolf1004.radio-for-orca"
       ]
