@@ -359,6 +359,13 @@
         }
       ]
     },
+    "brodesigns/orca-session-check": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "brodesigns.session-check"
+      ]
+    },
     "brodesigns/orca-skill-usage": {
       "state": "listed",
       "ref": "refs/tags/brodesigns/orca-skill-usage/1.0.0",
@@ -1176,6 +1183,13 @@
       "ref": "v0.7.0",
       "plugins": [
         "hilbana.hilbana"
+      ]
+    },
+    "hsnils/orca-github-notifications": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "hsnils.github-notifications"
       ]
     },
     "hubo1989/orca-codegraph-init": {
@@ -2100,6 +2114,13 @@
         "petercr.entire"
       ]
     },
+    "peterurban/orca-graphite-theme": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "peterurban.graphite"
+      ]
+    },
     "pidack/orca-trace-viewer": {
       "state": "listed",
       "ref": "refs/tags/pidack/orca-trace-viewer/0.1.1",
@@ -2381,7 +2402,7 @@
     },
     "schowave/orca-asciidoc-diagrams": {
       "state": "listed",
-      "ref": "v1.3.1",
+      "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.3.1",
       "plugins": [
         "schowave.asciidoc-diagrams"
       ]
@@ -3093,7 +3114,7 @@
     },
     "xuan666-lab/orca-latest-artifacts": {
       "state": "listed",
-      "ref": "refs/tags/xuan666-lab/orca-latest-artifacts/0.1.4",
+      "ref": "v0.1.5",
       "plugins": [
         "xuan666-lab.artifact-workbench"
       ]

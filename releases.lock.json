@@ -599,6 +599,12 @@
     "repoId": 1452471179,
     "firstSeen": "2026-11-10T09:59:04.512Z"
   },
+  "brodesigns.session-check@1.0.0": {
+    "commit": "626c8a94c5995a3efbc4d1da886f7234e5f75c50",
+    "contentHash": "49e51b662b5919b4783ac044e0c4e5fb078851e6f7db8d58c4b77c2b5c2fc175",
+    "repoId": 1462698702,
+    "firstSeen": "2026-11-18T11:39:09.837Z"
+  },
   "brodesigns.skill-usage@1.0.0": {
     "commit": "fdc7366cb3cc5165a2d8bb194280e469bdfbbcb2",
     "contentHash": "fab462aa1b21ba97d4c7a99329419965c4cd59f7e6be105885724f219fd67c05",
@@ -2027,6 +2033,12 @@
     "repoId": 1451666508,
     "firstSeen": "2026-11-10T07:39:33.466Z"
   },
+  "hsnils.github-notifications@0.1.0": {
+    "commit": "2928bc20a6fa4910e647970735467f6ac95e8615",
+    "contentHash": "298977eae4b049818bfc74be814683a7eb032e4766d0a62984a66103d07df052",
+    "repoId": 1462169986,
+    "firstSeen": "2026-11-18T11:39:09.837Z"
+  },
   "hubo1989.codegraph-init@0.1.0": {
     "commit": "052026402971133f913e79d854461ded29e98d73",
     "contentHash": "19144631e8a81440f908efbd0d23154bda975e19c9a8a47faf3ecdfd26a187df",
@@ -3280,6 +3292,12 @@
     "contentHash": "8893c04922faebe41a47281e2b2e5d655fb9b87d68210bb20a9e61756bef7deb",
     "repoId": 1442213979,
     "firstSeen": "2026-11-14T22:11:58.202Z"
+  },
+  "peterurban.graphite@0.2.0": {
+    "commit": "60061aa9c83c226c48890c2725edbacba32a5bd1",
+    "contentHash": "d944306de98147ceaecfc5a1bb52eda8efc8ff28a1ffb4fc06c8ea658f323ea4",
+    "repoId": 1462702976,
+    "firstSeen": "2026-11-18T11:39:09.837Z"
   },
   "pidack.trace-viewer@0.1.1": {
     "commit": "d4f8f5429e871c6e86ad4982d18b19e999092d74",
@@ -4804,6 +4822,12 @@
     "contentHash": "6f04fa20a3dba27fab2a3eae54a49b01d6c7bc4a291d9338eb6168f86258e009",
     "repoId": 1455563571,
     "firstSeen": "2026-11-16T11:17:33.577Z"
+  },
+  "xuan666-lab.artifact-workbench@0.1.5": {
+    "commit": "e434b2b472f5f0387c8dc52b164a382a965c9053",
+    "contentHash": "246466c7cc7db0e7761697f641ca67f9ed2180c82cbde9942eb36dc0f820725b",
+    "repoId": 1455563571,
+    "firstSeen": "2026-11-18T11:39:09.837Z"
   },
   "yeonjin1357.line-blame@0.1.0": {
     "commit": "45165ad5e5f9ea0b2978c7b0a8ea1f72c171a996",
