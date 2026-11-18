@@ -467,6 +467,16 @@
         "cfmleditor.cfml"
       ]
     },
+    "chabinhwang/orca-hwp-viewer": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "chandraliuswanto/orca-subagent-graph": {
       "state": "listed",
       "ref": "refs/tags/chandraliuswanto/orca-subagent-graph/0.4.2",
@@ -862,6 +872,13 @@
           "category": "under-review",
           "detail": "code"
         }
+      ]
+    },
+    "erom/orca-plugin-human-scratchpad": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "erom.human-scratchpad"
       ]
     },
     "eskono/orca-docker-logs": {
@@ -2054,7 +2071,16 @@
       "ref": "v1.0.0",
       "plugins": [
         "omar227.peon-ping"
-      ]
+      ],
+      "update": {
+        "ref": "v1.0.0",
+        "reasons": [
+          {
+            "category": "identity-refused",
+            "detail": "omar227/orca-peon-ping was deleted and recreated (GitHub repository id 1463041813 is now 1463118601); omar227.peon-ping stays frozen at its listed releases"
+          }
+        ]
+      }
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
@@ -2148,7 +2174,7 @@
     },
     "peterurban/orca-graphite-theme": {
       "state": "listed",
-      "ref": "refs/tags/peterurban/orca-graphite-theme/0.2.0",
+      "ref": "v1.0.0",
       "plugins": [
         "peterurban.graphite"
       ]

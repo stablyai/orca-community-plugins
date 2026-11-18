@@ -13931,6 +13931,81 @@
       ]
     },
     {
+      "id": "erom.human-scratchpad",
+      "ownerId": 146684,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eRom/orca-plugin-human-scratchpad.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A sidebar panel to edit one global markdown scratchpad file. It runs as a trusted worker because it reads and writes a single markdown file chosen by the user, outside any workspace.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "8046ab1328328d1465cdc632e15e83fc2f6a96d6",
+          "contentHash": "9e3d2ffbb306bd976e569489a4a83a532bbedc9276093d4027a1733622939188",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Scratchpad",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Scratchpad"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.human-scratchpad/3d36b65148f999fe.png",
+              "alt": "The Scratchpad panel in Orca's right sidebar, a markdown note with tasks and release steps, beside a Claude Code terminal reading the same note.",
+              "sha256": "3d36b65148f999feef5c7c7ba789749137ba2add5c717cd1b351beef8f15df34",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.human-scratchpad/5909d84f2e670055.png",
+              "alt": "Scratchpad icon",
+              "sha256": "5909d84f2e670055747246d96c9898b004e59b1d286cd5f23e61d4b0e8468b7c",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.human-scratchpad/c1d6b42c9d28075b.png",
+                "alt": "The dark Scratchpad panel editing a markdown note: a task list, numbered release steps and highlighted Bash and TypeScript blocks.",
+                "sha256": "c1d6b42c9d28075b7cb96392015d3ce31a12387a39e71d3adf7050bca367bf7d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.human-scratchpad/9c033d57d4d7c331.png",
+                "alt": "The same note in Orca's light theme.",
+                "sha256": "9c033d57d4d7c3310f01463c8e2054e5264c7b9d2e6fbcc5483c372780699f5c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.human-scratchpad/4795b447b7d94cee.png",
+                "alt": "A Changed elsewhere banner with Keep mine and Reload buttons above the note, after the file changed on disk while it was being edited.",
+                "sha256": "4795b447b7d94cee977dd4bd20f339ab27f39c38a1c6912f853979ecbd6b8ad2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-human-scratchpad",
+          "updatedAt": "2026-11-18T18:10:55+01:00"
+        }
+      ]
+    },
+    {
       "id": "eskono.docker-logs",
       "ownerId": 4644133,
       "source": {
@@ -31931,8 +32006,8 @@
       "ownerId": 979646,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/peterurban/orca-graphite-theme/0.2.0"
+        "url": "https://github.com/peterurban/orca-graphite-theme.git",
+        "ref": "v1.0.0"
       },
       "description": "Graphite: a soft, low-glare dark theme for the Orca app and terminal, plus a darker variant.",
       "categories": [
@@ -31940,6 +32015,60 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "d9a39793fb036b16c10e8426bd261973f3a316f8",
+          "contentHash": "0fcef961486ebc08b504d7df88c44ca0f102fec288297ae337574dcb1b6bc7eb",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Graphite",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Graphite"
+            },
+            {
+              "kind": "themes",
+              "name": "Graphite Darker"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Graphite"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Graphite Darker"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterurban.graphite/0b3c97e4bbc52506.png",
+              "alt": "Graphite Theme cover: the 16 Graphite terminal colours beside an Orca window using the Graphite theme",
+              "sha256": "0b3c97e4bbc52506e8d768b7727930edd716bc05f36451a9c966f3b3a611e2d3",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterurban.graphite/9443b81bdcb04591.png",
+                "alt": "Orca using the Graphite theme, with a theme file open in the editor and the project file tree on the right",
+                "sha256": "9443b81bdcb0459194fa8539975ac7d408b70270176cfb16395d10b267d7a4f8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterurban.graphite/1138f14a339fa6e9.png",
+                "alt": "Orca using the Graphite Darker theme, with a darker #15171a background",
+                "sha256": "1138f14a339fa6e95b2da40827fdefe0cdf60e981dbf377e100ebfdfd939a715",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterurban/orca-graphite-theme",
+          "updatedAt": "2026-11-18T18:33:19+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "60061aa9c83c226c48890c2725edbacba32a5bd1",

@@ -1475,6 +1475,12 @@
     "repoId": 1461103177,
     "firstSeen": "2026-11-17T20:14:54.062Z"
   },
+  "erom.human-scratchpad@0.1.0": {
+    "commit": "8046ab1328328d1465cdc632e15e83fc2f6a96d6",
+    "contentHash": "9e3d2ffbb306bd976e569489a4a83a532bbedc9276093d4027a1733622939188",
+    "repoId": 1463064377,
+    "firstSeen": "2026-11-18T17:55:27.417Z"
+  },
   "eskono.docker-logs@0.4.0": {
     "commit": "64fc3b217c5e1bd67f0b5ce7eb34a3cb16ae68c7",
     "contentHash": "7e1df59588d406489c61205836ff28c94796c894fe1b636eb2f8237f4b05aa7d",
@@ -3358,6 +3364,12 @@
     "contentHash": "d944306de98147ceaecfc5a1bb52eda8efc8ff28a1ffb4fc06c8ea658f323ea4",
     "repoId": 1462702976,
     "firstSeen": "2026-11-18T11:39:09.837Z"
+  },
+  "peterurban.graphite@1.0.0": {
+    "commit": "d9a39793fb036b16c10e8426bd261973f3a316f8",
+    "contentHash": "0fcef961486ebc08b504d7df88c44ca0f102fec288297ae337574dcb1b6bc7eb",
+    "repoId": 1462702976,
+    "firstSeen": "2026-11-18T17:55:27.417Z"
   },
   "pidack.trace-viewer@0.1.1": {
     "commit": "d4f8f5429e871c6e86ad4982d18b19e999092d74",
