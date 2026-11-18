@@ -43923,8 +43923,8 @@
       "ownerId": 23340720,
       "source": {
         "kind": "git",
-        "url": "https://github.com/williamwxz/orca-bot.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/williamwxz/orca-bot/0.1.5"
       },
       "description": "A team of bots inside Orca. Runs the open-source OpenMausBot on your machine: a roster of bots, each its own Claude, Codex or Grok agent. Unofficial. Not made by or affiliated with Orca, OpenMausBot or the makers of the models it runs.",
       "categories": [
