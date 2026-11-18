@@ -2085,7 +2085,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "v0.1.13",
+      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.13",
       "plugins": [
         "omerfarukgzr.git-panel"
       ],
@@ -2102,7 +2102,7 @@
     },
     "oscarbotteri/orca-db-studio": {
       "state": "listed",
-      "ref": "refs/tags/oscarbotteri/orca-db-studio/0.3.1",
+      "ref": "v0.4.0",
       "plugins": [
         "oscarbotteri.db-studio"
       ]
