@@ -16568,8 +16568,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.9"
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.12.10"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -16577,6 +16577,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.12.10",
+          "commit": "3508460decdceaa8b252919ed0feec165b9b2b2c",
+          "contentHash": "afb027402c8df5110c975ef5912ea5740befe635ce00d00f53f57eefc3cb5196",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
+                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
+                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-18T13:35:06+09:00"
+        },
         {
           "version": "0.12.9",
           "commit": "ea576ee02d6959c955de2e6e35146f91e46c58ee",
@@ -16832,70 +16896,6 @@
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler",
           "updatedAt": "2026-11-17T22:52:15+09:00"
-        },
-        {
-          "version": "0.12.2",
-          "commit": "6cd840b28afb2de568d25a85074623ca9eb816c2",
-          "contentHash": "226fd2678d1bdf24e8aff27b7361b97b08262593255f8ae1758231cc8104396d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Scheduler",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Scheduler"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Schedules"
-            }
-          ],
-          "capabilities": [
-            "terminal:read",
-            "agent:read",
-            "workspace:read",
-            "storage:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
-              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
-              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
-              "alt": "Agent Scheduler icon",
-              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
-                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
-                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
-                "alt": "The same Schedules tab with the panel in Korean",
-                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
-          "updatedAt": "2026-11-17T22:28:41+09:00"
         }
       ]
     },
@@ -22700,8 +22700,8 @@
       "ownerId": 35620531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/leeleelee3264/spyhop-orca.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/leeleelee3264/spyhop-orca/0.1.3"
       },
       "description": "Every AI session on one list in the Orca sidebar: steps, TODO and whose turn it is. Needs the Spyhop app.",
       "categories": [
@@ -28435,6 +28435,51 @@
           "license": "BSD-3-Clause",
           "repository": "https://github.com/nknwns/orca-wakatime",
           "updatedAt": "2026-11-02T16:20:26+07:00"
+        }
+      ]
+    },
+    {
+      "id": "noripi10.expo-themes",
+      "ownerId": 55979374,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/noripi10/orca-expo-themes.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Expo-inspired light and dark app themes, ported from expo/vscode-expo-theme.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "692eb4d00b3f25891c5ff89916fd864077fe4558",
+          "contentHash": "1b41e37e60290ae4d7dfffa52dc965985b098652a585fe45b6290aee4b373f57",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Expo Theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Expo Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "Expo Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Expo Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Expo Light"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/noripi10/orca-expo-themes",
+          "updatedAt": "2026-11-18T13:32:38+09:00"
         }
       ]
     },
@@ -42499,8 +42544,8 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vrwolf1004/orca-radio.git",
-        "ref": "v0.6.8"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vrwolf1004/orca-radio/0.6.8"
       },
       "description": "Play internet radio from the Orca sidebar.",
       "categories": [
@@ -42749,13 +42794,76 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/vrwolf1004/orca-tetris.git",
-        "ref": "v0.5.1"
+        "ref": "v0.5.3"
       },
-      "description": "Retro Tetris, Ladder, Snake and Minesweeper games in the Orca sidebar.",
+      "description": "Press F1 and a new world opens. Retro Tetris, Ladder, Snake and Minesweeper games in the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.3",
+          "commit": "5c42555c8fa26e301da0592552b784f9550fd355",
+          "contentHash": "8ceda0e869bfe813ccc3b37754bed7f5efc86f47439f3dff1b992882bf0e1ec5",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Tetris for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Tetris"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.tetris-for-orca/bb2bf1d2d2c26111.webp",
+              "alt": "Tetris for Orca: a Tetris board next to the title",
+              "sha256": "bb2bf1d2d2c26111813e010c69310bc28ec1b33314820125211d24b1612c3c2d",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/e6f45b6813744b31.webp",
+                "alt": "Tetris, Ladder, Snake and Minesweeper panels side by side",
+                "sha256": "e6f45b6813744b3187b847f2e4c3b0146513fec8aa3503485ea314f97a4431f0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/cb15ff680ff52c0e.webp",
+                "alt": "Tetris game screen",
+                "sha256": "cb15ff680ff52c0e841964249e6b02e6ea4baa0b91dd5a94ce945e09acbf777f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/fcd3e2851c04f32f.webp",
+                "alt": "Ladder game screen",
+                "sha256": "fcd3e2851c04f32fef8e34b2c2e5f5d960954b6756e9e2dc879858a9f1df5ff1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/cb524eb966af789c.webp",
+                "alt": "Snake game screen",
+                "sha256": "cb524eb966af789ca2adbc06878d914060edda6301e278ec98cddb510a9bc80c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.tetris-for-orca/771594138fb48e5c.webp",
+                "alt": "Minesweeper game screen",
+                "sha256": "771594138fb48e5cc303202a5fe0c2dc98cb7877397b8dc62826a75f2d5c8cc1",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-tetris",
+          "updatedAt": "2026-11-18T13:22:55+09:00"
+        },
         {
           "version": "0.5.1",
           "commit": "d09e2bb351444251a15b07a1de85f38b47fa48b5",
