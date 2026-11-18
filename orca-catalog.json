@@ -18740,12 +18740,89 @@
       "ownerId": 9936844,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ias0nas/seaqull/0.1.4"
+        "url": "https://github.com/ias0nas/SeaQull.git",
+        "ref": "v0.1.5"
       },
       "description": "SQL Server client for Orca: browse databases, run queries in workbook tabs, copy and export results.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "b2d6f6ccef420f6ddc9eda6c31f18c861aea78d0",
+          "contentHash": "87c6a644a882ea9ccd1c7530976b234bc14293c9b978e7fb9d8e046ad05195e6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SeaQull",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "SeaQull",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SeaQull console",
+              "detail": ".sql"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New SeaQull workbook",
+              "detail": ".seaqull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "activity"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "editorFileTypes": [
+            "seaqull",
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ias0nas.seaqull/935292a1cd8010ec.png",
+              "alt": "The SeaQull logo and name beside a query window showing completion of a foreign-key join and a result grid",
+              "sha256": "935292a1cd8010ec2d1716ac7db1256fef39346b252053454cd2b3e3ae216a63",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ias0nas.seaqull/e010ca3342e8fe5c.png",
+              "alt": "SeaQull icon",
+              "sha256": "e010ca3342e8fe5c702dfa932bc3d24b54883041929c9e86b1f90698e8607a9a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ias0nas.seaqull/099a04598635756a.png",
+                "alt": "Completion offering a foreign-key join condition after ON, with a result grid below and the object explorer on the right",
+                "sha256": "099a04598635756ad120b5e235e4058a19a236ed65c7de5a39bc21e04d13a8d2",
+                "width": 2460,
+                "height": 1600
+              },
+              {
+                "path": "assets/ias0nas.seaqull/4785cc3ea9e1d397.png",
+                "alt": "The New connection dialog: name, colour, server and port, database, authentication, user and password, and encryption options",
+                "sha256": "4785cc3ea9e1d39780d73a78cff28fbccf4cc291e167250e939a192ca294bf46",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ias0nas/SeaQull",
+          "updatedAt": "2026-11-18T22:53:09Z"
+        },
         {
           "version": "0.1.4",
           "commit": "dbbb61fa7e3e0b603f7bafd789ce393500d38348",
@@ -19053,76 +19130,6 @@
           "license": "MIT",
           "repository": "https://github.com/ias0nas/SeaQull",
           "updatedAt": "2026-11-10T22:24:07Z"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "23caa20befceb38346f6141c68fa8cbf5ef7c1c9",
-          "contentHash": "c23533d58bec7e99cdc3626bddb66a4c07bfc1b6c90a9b03b52ae40c95de69c0",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SeaQull",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "SeaQull",
-              "detail": ".seaqull"
-            },
-            {
-              "kind": "customEditors",
-              "name": "SeaQull console",
-              "detail": ".sql"
-            },
-            {
-              "kind": "newFiles",
-              "name": "New SeaQull workbook",
-              "detail": ".seaqull"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "activity"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "settings:own"
-          ],
-          "fileTypes": [
-            "seaqull",
-            "sql"
-          ],
-          "editorFileTypes": [
-            "seaqull",
-            "sql"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/ias0nas.seaqull/e010ca3342e8fe5c.png",
-              "alt": "SeaQull icon",
-              "sha256": "e010ca3342e8fe5c702dfa932bc3d24b54883041929c9e86b1f90698e8607a9a",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/ias0nas.seaqull/099a04598635756a.png",
-                "alt": "Completion offering a foreign-key join condition after ON, with a result grid below and the object explorer on the right",
-                "sha256": "099a04598635756ad120b5e235e4058a19a236ed65c7de5a39bc21e04d13a8d2",
-                "width": 2460,
-                "height": 1600
-              },
-              {
-                "path": "assets/ias0nas.seaqull/4785cc3ea9e1d397.png",
-                "alt": "The New connection dialog: name, colour, server and port, database, authentication, user and password, and encryption options",
-                "sha256": "4785cc3ea9e1d39780d73a78cff28fbccf4cc291e167250e939a192ca294bf46",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/ias0nas/SeaQull",
-          "updatedAt": "2026-11-10T20:29:19Z"
         }
       ]
     },
@@ -25022,6 +25029,48 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/lindoo67/drawio-plugin",
           "updatedAt": "2026-11-07T14:12:50+08:00"
+        }
+      ]
+    },
+    {
+      "id": "linkrjr.buildkite-orca-plugin",
+      "ownerId": 71968,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/linkrjr/buildkite-orca-plugin.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Buildkite builds for the active workspace, in a sidebar panel.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "502c198bfa40a08c8c3e94ea11628acf04a40629",
+          "contentHash": "b28a961cb4771e98ce19d25b2e64f83d2820ad4ac887873c357f9001d7a16d4c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Buildkite",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Buildkite"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/linkrjr/buildkite-orca-plugin",
+          "updatedAt": "2026-11-18T13:41:44-03:00"
         }
       ]
     },
@@ -30966,8 +31015,8 @@
       "ownerId": 68121922,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oscarbotteri/orca-db-studio.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oscarbotteri/orca-db-studio/0.5.0"
       },
       "description": "Browse and query PostgreSQL, MySQL/MariaDB and SQLite from Orca. Reads each worktree's .env to offer its database.",
       "categories": [
@@ -45778,8 +45827,8 @@
       "ownerId": 23340720,
       "source": {
         "kind": "git",
-        "url": "https://github.com/williamwxz/orca-bot.git",
-        "ref": "v0.1.8"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/williamwxz/orca-bot/0.1.8"
       },
       "description": "A team of bots inside Orca. Runs the open-source OpenMausBot on your machine: a roster of bots, each its own Claude, Codex or Grok agent. Unofficial. Not made by or affiliated with Orca, OpenMausBot or the makers of the models it runs.",
       "categories": [
