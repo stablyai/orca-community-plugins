@@ -1147,6 +1147,13 @@
         }
       ]
     },
+    "hexmyn/orca-win-2000-theme": {
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "hexmyn.service-pack-sky"
+      ]
+    },
     "heyfey/vaporview-orca": {
       "state": "listed",
       "ref": "refs/tags/heyfey/vaporview-orca/0.1.1",
@@ -1691,7 +1698,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.262",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.262",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -2044,7 +2051,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.10",
+      "ref": "v0.2.12",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -2599,7 +2606,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "refs/tags/superfly/orca-sprites/0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "superfly.sprites"
       ]
@@ -2948,9 +2955,16 @@
         }
       ]
     },
+    "vrwolf1004/orca-obsidian": {
+      "state": "listed",
+      "ref": "v0.5.0",
+      "plugins": [
+        "vrwolf1004.obsidian-for-orca"
+      ]
+    },
     "vrwolf1004/orca-radio": {
       "state": "listed",
-      "ref": "refs/tags/vrwolf1004/orca-radio/0.6.8",
+      "ref": "v0.6.9",
       "plugins": [
         "vrwolf1004.radio-for-orca"
       ]

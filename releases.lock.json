@@ -1991,6 +1991,12 @@
     "repoId": 1442181874,
     "firstSeen": "2026-11-04T13:40:05.964Z"
   },
+  "hexmyn.service-pack-sky@1.0.1": {
+    "commit": "92c98bea40bade7b8f2e0cdd2574ba009a4b4646",
+    "contentHash": "db40ff9b0683ccd5c9ce4685c75db8d96cb0cc6cf44225c58ea826552168300c",
+    "repoId": 1462470919,
+    "firstSeen": "2026-11-18T08:18:52.219Z"
+  },
   "heyfey.vaporview@0.1.1": {
     "commit": "ac57f6af65de5b4648c85af47efd3f3af6f8c4e2",
     "contentHash": "b5236fd437c1219dac9a878c9fa972261f2720d61bdc303fe13c28113ce0be69",
@@ -3215,6 +3221,12 @@
     "repoId": 1446103121,
     "firstSeen": "2026-11-17T20:14:54.062Z"
   },
+  "palulabs.office-tycoon@0.2.12": {
+    "commit": "7715240479d23bad3e62b9144e580e69dd473d47",
+    "contentHash": "989c180aa14ae709280dfc6476874a52d73d66a44645632aec7f7ed04c388977",
+    "repoId": 1446103121,
+    "firstSeen": "2026-11-18T08:18:52.219Z"
+  },
   "palulabs.office-tycoon@0.2.2": {
     "commit": "215a92bf42fd3912fa5250737c718042809a4ad1",
     "contentHash": "23a14facd8abcf16d5fb7ed38bfe3d1cc0fe97945df1f815a96369302cdf1f34",
@@ -4145,6 +4157,12 @@
     "repoId": 1448256207,
     "firstSeen": "2026-11-18T05:11:23.926Z"
   },
+  "superfly.sprites@0.6.1": {
+    "commit": "ef26e044b5c99b1f5f9cf633230853797f895325",
+    "contentHash": "b884ca04bf2fc92e5dff72e6a0d9feb0ca50a469e37afbb0f275d550cd2e966b",
+    "repoId": 1448256207,
+    "firstSeen": "2026-11-18T08:18:52.219Z"
+  },
   "syharipf.antigravity-rotator@1.0.0": {
     "commit": "8f3e60b15cadd7e4d0cd116baf170aeb4964c0bb",
     "contentHash": "aa5fb1bd5bf18eabe8917e2ff6bb82f34e7562921ac1b7a1fcaf11ecec4f3c60",
@@ -4541,6 +4559,12 @@
     "repoId": 1461751587,
     "firstSeen": "2026-11-17T19:13:16.439Z"
   },
+  "vrwolf1004.obsidian-for-orca@0.5.0": {
+    "commit": "38db6381f3ed04c82751ac6cc37e06195303da6a",
+    "contentHash": "e4a170d2e76193a11d8ad0fddc856c10b5133e729d1ad0d1c4abebb0b20a1f0b",
+    "repoId": 1456358598,
+    "firstSeen": "2026-11-18T08:18:52.219Z"
+  },
   "vrwolf1004.radio-for-orca@0.6.1": {
     "commit": "bbd866ada5daab4f4d6e5cdfaaf21b8d997b23d0",
     "contentHash": "26de5c36e34951987770d604a3e981869a9742bee3c856b0bb306aed68df3503",
@@ -4576,6 +4600,12 @@
     "contentHash": "f37767363a8a75ee4ee46ef49f02f0aed0f249d9db453dbe5c83d2bad1631f3d",
     "repoId": 1456355136,
     "firstSeen": "2026-11-18T04:16:24.240Z"
+  },
+  "vrwolf1004.radio-for-orca@0.6.9": {
+    "commit": "1c072becb32bb30387f55d73adbc697f4e277c70",
+    "contentHash": "8ee8aeabcb4b2f5654f5b0e88f61e7da9815207031c179ddb2fb254f6bd83c24",
+    "repoId": 1456355136,
+    "firstSeen": "2026-11-18T08:18:52.219Z"
   },
   "vrwolf1004.tetris-for-orca@0.5.0": {
     "commit": "f5c72a555541cdf1d28a2f893b9462f27f5207f0",
