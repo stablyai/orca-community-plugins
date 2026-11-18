@@ -1263,11 +1263,11 @@
     },
     "jameslatajan/orca-openspec": {
       "state": "rejected",
-      "ref": "v1.0.2",
+      "ref": "v1.1.1",
       "reasons": [
         {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -2316,7 +2316,7 @@
     },
     "santii90/orca-plugin-artifact-viewer": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/santii90/orca-plugin-artifact-viewer/0.1.0",
       "plugins": [
         "santii90.artifact-viewer"
       ]
@@ -2533,6 +2533,16 @@
       "ref": "v0.3.1",
       "plugins": [
         "sofiacnm.inside-the-black-box"
+      ]
+    },
+    "songhoang2000hn/orca-git-graph": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "spgsroot/orca-usage-plugin": {
@@ -2991,7 +3001,7 @@
     },
     "williamwxz/orca-bot": {
       "state": "listed",
-      "ref": "refs/tags/williamwxz/orca-bot/0.1.4",
+      "ref": "v0.1.5",
       "plugins": [
         "williamwxz.bot-for-orca"
       ]
