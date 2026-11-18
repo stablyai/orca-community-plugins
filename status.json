@@ -2102,7 +2102,7 @@
     },
     "oscarbotteri/orca-db-studio": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "oscarbotteri.db-studio"
       ]
@@ -3142,7 +3142,7 @@
     },
     "williamwxz/orca-bot": {
       "state": "listed",
-      "ref": "refs/tags/williamwxz/orca-bot/0.1.7",
+      "ref": "v0.1.8",
       "plugins": [
         "williamwxz.bot-for-orca"
       ]

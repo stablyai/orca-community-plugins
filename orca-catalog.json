@@ -30967,7 +30967,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/oscarbotteri/orca-db-studio.git",
-        "ref": "v0.4.0"
+        "ref": "v0.5.0"
       },
       "description": "Browse and query PostgreSQL, MySQL/MariaDB and SQLite from Orca. Reads each worktree's .env to offer its database.",
       "categories": [
@@ -30975,6 +30975,95 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "364814700226b96c7f5d03773f08dc1ea79a4513",
+          "contentHash": "fa742867a3e9aa60c54c2a586e94575d25e2edfc37b18e345f1b978587887dfa",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "DB Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DB Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "DB Studio: Open SQLite File"
+            },
+            {
+              "kind": "commands",
+              "name": "DB Studio: New Query"
+            },
+            {
+              "kind": "customEditors",
+              "name": "DB Studio",
+              "detail": ".sql"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "sql"
+          ],
+          "editorFileTypes": [
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/oscarbotteri.db-studio/1a4534bc2f986b6e.png",
+              "alt": "DB Studio inside Orca: the customers table open in the SQL editor with its result grid, and the connections panel listing the tables on the right",
+              "sha256": "1a4534bc2f986b6e7a48e202bb5c09c155b4a98b0c983ed1e7cb724e33854558",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/oscarbotteri.db-studio/2242857db9008f8c.png",
+              "alt": "DB Studio icon",
+              "sha256": "2242857db9008f8cee85544c2897d06bbff1596cb4a9ea3e93c6a2bde1c4fb6a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/oscarbotteri.db-studio/ecdd5101bf6be4bd.png",
+                "alt": "The DB Studio SQL editor suggesting column names for a query on the events table of a MariaDB connection",
+                "sha256": "ecdd5101bf6be4bd2757df7d25bff75ca306b7d1fd1fcd623b31bad49961eaec",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/0339db47cb8224c0.png",
+                "alt": "The New connection form in the DB Studio panel, with a connection string field and the PostgreSQL, MySQL / MariaDB and SQLite engine choices",
+                "sha256": "0339db47cb8224c063a49345e790a64e5ccc56b969f030466cac07baae7c1b45",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/81574594befc266b.png",
+                "alt": "A SQL query and its result grid in DB Studio, with the connections panel beside it, in Orca's light theme",
+                "sha256": "81574594befc266b37fb2a22603c27e24400f856f9cadb9597c3953c9938ec1d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/oscarbotteri.db-studio/19ade454bc63a130.png",
+                "alt": "The order_totals view of a PostgreSQL connection, marked as a view in the connections panel, queried in the DB Studio SQL editor",
+                "sha256": "19ade454bc63a130a88b0bfda4cb25cb02c1152f5d0478ae53320f0105a79689",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oscarbotteri/orca-db-studio",
+          "updatedAt": "2026-11-18T19:25:33-03:00"
+        },
         {
           "version": "0.4.0",
           "commit": "bbf1bfc27472c53fdd828dbf0c3ed66625659931",
@@ -45689,8 +45778,8 @@
       "ownerId": 23340720,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/williamwxz/orca-bot/0.1.7"
+        "url": "https://github.com/williamwxz/orca-bot.git",
+        "ref": "v0.1.8"
       },
       "description": "A team of bots inside Orca. Runs the open-source OpenMausBot on your machine: a roster of bots, each its own Claude, Codex or Grok agent. Unofficial. Not made by or affiliated with Orca, OpenMausBot or the makers of the models it runs.",
       "categories": [
@@ -45698,6 +45787,74 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.8",
+          "commit": "5633387370a7605469ccd56ea3ff3de64d7c70c8",
+          "contentHash": "b1508594556dc4a31ed61782a48393a13af6aeed2581d52bdcedb634ff411d5a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Bot Team for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Team for Orca"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Team for Orca: Open chat"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Team for Orca: Stop the OpenMausBot server"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/williamwxz.bot-for-orca/0549575f4010518e.png",
+              "alt": "Bot Team for Orca: a team of AI bots in the sidebar, with a fictional Chief of Staff, researcher, writer and developer.",
+              "sha256": "0549575f4010518e755deaf1676d9cda775e5d0d8c2d5e7e897497d7f188e9c3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/williamwxz.bot-for-orca/9f9bfb236951d86d.png",
+              "alt": "Bot Team for Orca icon",
+              "sha256": "9f9bfb236951d86d1ee59d871bd2b15eb9c7ef382f91e1b272fa8e0988988561",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/williamwxz.bot-for-orca/fc6e10eb5a24b157.png",
+                "alt": "Light-theme bot list with fictional bots Milo, Scout, Quill and Patch, a Chief of Staff badge, previews and an unread dot.",
+                "sha256": "fc6e10eb5a24b15745f8eaf8af01afc4850c9048f012540506863241b626d2f1",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/williamwxz.bot-for-orca/ab24a7a31f4ea348.png",
+                "alt": "Dark-theme chat with fictional researcher Scout, sample messages, a working avatar and the status Working · 12s.",
+                "sha256": "ab24a7a31f4ea34864dcdb436e0f8095b156665368281a2f7ad554bd0e140d92",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/williamwxz.bot-for-orca/69649bac501018c0.png",
+                "alt": "Setup card for choosing whether to share Claude tools and connect Orca agents.",
+                "sha256": "69649bac501018c0098b0bae8716a0f596994072494ffae26ed563ec2a0f716a",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/williamwxz/orca-bot",
+          "updatedAt": "2026-11-18T15:32:22-07:00"
+        },
         {
           "version": "0.1.7",
           "commit": "9ae1a35a40218f1efefc058fd2895f904515f80d",
