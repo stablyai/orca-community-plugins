@@ -31740,14 +31740,60 @@
       "ownerId": 51143814,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/renanluiz/usage-companion/0.2.2"
+        "url": "https://github.com/renanluiz/usage-companion.git",
+        "ref": "v0.3.1"
       },
-      "description": "Shows your Claude 5-hour and 7-day usage limits and when each one resets, refreshed every minute.",
+      "description": "Your Claude 5-hour and weekly limits, your pace through the week, skill use and daily tokens.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "ca87072f7089eb97b88070dc49016a14fc7d66d2",
+          "contentHash": "fb993a9e8528ca2c6b2fa032574e72e17131cac176fa053be59687e77a6499d3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Usage Companion",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Usage Companion"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/renanluiz.limits-tracker/4828e89f93b82fba.png",
+              "alt": "Usage Companion panel beside the app, showing Claude 5-hour and weekly limit bars with reset times.",
+              "sha256": "4828e89f93b82fba8f55f4d0d4b15884f38935a3a362494d87177bc0120dd15d",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/renanluiz.limits-tracker/4605f485d028ed6a.png",
+                "alt": "Usage Companion showing 5-hour and weekly limit progress bars, reset times, skills and daily token share.",
+                "sha256": "4605f485d028ed6a7a55c26ca5fc790266df92caa5854eeec56fa70accd3c206",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/renanluiz.limits-tracker/9f2d9c89ec577786.png",
+                "alt": "Usage Companion weekly pace chart comparing your usage with the ideal line and projection, with skills and daily tokens.",
+                "sha256": "9f2d9c89ec577786f69738c110953d3f7fcd74b7bf8af5a131beb41d59765f10",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/renanluiz/usage-companion",
+          "updatedAt": "2026-11-15T16:32:28-03:00"
+        },
         {
           "version": "0.2.2",
           "commit": "015c215b4f3532c48f5f4d19626225ca88d5b050",

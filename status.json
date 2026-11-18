@@ -2191,19 +2191,10 @@
     },
     "renanluiz/usage-companion": {
       "state": "listed",
-      "ref": "refs/tags/renanluiz/usage-companion/0.2.2",
+      "ref": "v0.3.1",
       "plugins": [
         "renanluiz.limits-tracker"
-      ],
-      "update": {
-        "ref": "v0.3.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "rgarciade/orca-containers": {
       "state": "listed",
