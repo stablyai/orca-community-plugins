@@ -19478,8 +19478,8 @@
       "ownerId": 45154585,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jameslatajan/orca-openspec.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jameslatajan/orca-openspec/1.1.1"
       },
       "description": "OpenSpec in Orca: see a workspace's changes and specs (local or in a shared store), open a Kanban board, and start agents to explore, propose, apply, verify and archive changes.",
       "categories": [
@@ -25028,14 +25028,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.261"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.262"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.261. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.262. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.262",
+          "commit": "680a86b40448ab3b2d26690d1cb5a0f16db215eb",
+          "contentHash": "7541a8061de6ad5827c57b748bf3bf0c9071d9eccedb5665dafb8852a6f77cac",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-18T08:18:05+01:00"
+        },
         {
           "version": "1.4.261",
           "commit": "669c60dccddb67b460685721017561253973f260",
@@ -42685,8 +42718,8 @@
       "ownerId": 4547214,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vdhoangson/orca-agent-world.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vdhoangson/orca-agent-world/0.1.0"
       },
       "description": "Every agent on your Orca host as a little pixel creature: fish in an aquarium, farmers in a field or astronauts on a space station.",
       "categories": [

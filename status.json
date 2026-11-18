@@ -155,7 +155,7 @@
         "angelcrown24.traffic-light"
       ],
       "update": {
-        "ref": "v0.5.1",
+        "ref": "v0.6.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1263,7 +1263,7 @@
     },
     "jameslatajan/orca-openspec": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/jameslatajan/orca-openspec/1.1.1",
       "plugins": [
         "jameslatajan.openspec"
       ]
@@ -1515,6 +1515,16 @@
         "leeleelee3264.spyhop-orca"
       ]
     },
+    "legiaquan/orca-go-reader": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "leobessin/orca-mongo-studio": {
       "state": "listed",
       "ref": "refs/tags/leobessin/orca-mongo-studio/1.0.3",
@@ -1681,12 +1691,9 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.261",
+      "ref": "v1.4.262",
       "plugins": [
         "matteoeusebi.italiano"
-      ],
-      "notes": [
-        "contributes.languagePacks \"it\" (locales/it.json): 35 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -2836,7 +2843,7 @@
     },
     "vdhoangson/orca-agent-world": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/vdhoangson/orca-agent-world/0.1.0",
       "plugins": [
         "vdhoangson.agent-world"
       ],
