@@ -569,7 +569,16 @@
       "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.2.1",
       "plugins": [
         "cnzgray.mattpocock-workflow"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "codeious/orca-boat-sandbox": {
       "state": "rejected",
@@ -1816,7 +1825,7 @@
     },
     "miragon/orca-plugins": {
       "state": "rejected",
-      "ref": "v0.1.29",
+      "ref": "v0.1.30",
       "reasons": [],
       "plugins": [
         {
