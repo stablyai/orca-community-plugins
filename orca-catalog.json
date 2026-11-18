@@ -34700,14 +34700,55 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rr235/orca-task-launcher/0.1.2"
+        "url": "https://github.com/rr235/orca-task-launcher.git",
+        "ref": "v0.2.0"
       },
       "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "97aa5ecda2591305e40ba5a74cc1ef21537eb5a6",
+          "contentHash": "56b40eff7de970c9f74ff9a4ff6722694c84cbf26dd0db04ee9949b30143e30d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Task Launcher",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Launcher"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rr235.task-launcher/2ca4879a5d1ce446.png",
+              "alt": "Task Launcher: the Orca side panel in a dark and a light theme, with a prompt template and open GitHub issues",
+              "sha256": "2ca4879a5d1ce44647cd7b63b0580bdefc457505443da0114884087ac2dc25f9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rr235.task-launcher/a789119ef2ed3cd5.png",
+              "alt": "Task Launcher icon",
+              "sha256": "a789119ef2ed3cd5d21bd707356629a44ff0a13db4ad158d85715ede23132352",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rr235/orca-task-launcher",
+          "updatedAt": "2026-11-18T20:59:47+01:00"
+        },
         {
           "version": "0.1.2",
           "commit": "44ff347862d1f3d03d4c90487305af95818e3cf0",
@@ -45544,8 +45585,8 @@
       "ownerId": 23340720,
       "source": {
         "kind": "git",
-        "url": "https://github.com/williamwxz/orca-bot.git",
-        "ref": "v0.1.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/williamwxz/orca-bot/0.1.6"
       },
       "description": "A team of bots inside Orca. Runs the open-source OpenMausBot on your machine: a roster of bots, each its own Claude, Codex or Grok agent. Unofficial. Not made by or affiliated with Orca, OpenMausBot or the makers of the models it runs.",
       "categories": [

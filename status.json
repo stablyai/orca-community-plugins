@@ -2387,7 +2387,7 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "refs/tags/rr235/orca-task-launcher/0.1.2",
+      "ref": "v0.2.0",
       "plugins": [
         "rr235.task-launcher"
       ]
@@ -2582,7 +2582,7 @@
     },
     "shako-dev/shako-orca": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v0.1.0",
       "reasons": [
         {
           "category": "under-review",
@@ -3151,7 +3151,7 @@
     },
     "williamwxz/orca-bot": {
       "state": "listed",
-      "ref": "v0.1.6",
+      "ref": "refs/tags/williamwxz/orca-bot/0.1.6",
       "plugins": [
         "williamwxz.bot-for-orca"
       ]
