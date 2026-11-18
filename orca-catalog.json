@@ -23850,16 +23850,141 @@
       "ownerId": 72224798,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/leobessin/orca-mongo-studio/1.0.3"
+        "url": "https://github.com/LeoBessin/orca-mongo-studio.git",
+        "ref": "v1.1.0"
       },
-      "description": "Browse, query and edit MongoDB databases without leaving Orca: aggregation pipelines, a mongo shell, import and export, indexes, users and server status. Not affiliated with or endorsed by MongoDB, Inc.",
+      "description": "A full MongoDB client inside Orca: browse collections and edit documents, query with a query bar or the Query Builder, build aggregation pipelines stage by stage, and script in a Mongo Shell. Not affiliated with or endorsed by MongoDB, Inc.",
       "categories": [
         "panels",
         "commands",
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "9229346a20b153fd532eb8b7fba5251ec030147e",
+          "contentHash": "473554aecef49aff909cb35ab7e8b47e294a93ac9b0263e300acb983d8ed2f87",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Mongo Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Mongo Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: New connection"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Import connections"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Export connections"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Disconnect all"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Show shell results"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Show saved tasks"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+T",
+              "detail": "mongoStudio.showTasks"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+R",
+              "detail": "mongoStudio.showShellResults"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Mongo Shell",
+              "detail": ".mongodb.js"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Mongo Studio: New shell script",
+              "detail": ".mongodb.js"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/leobessin.mongo-studio/2fa32d675964ea05.webp",
+              "alt": "Mongo Studio, a full MongoDB client inside Orca: the panel's connection tree in Orca's light theme and a collection table in its dark theme",
+              "sha256": "2fa32d675964ea059e5496c09fa969aa7235ea30ded95a1cb1fc33155d246b81",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/leobessin.mongo-studio/592ac61b8562a0cf.webp",
+              "alt": "Mongo Studio icon",
+              "sha256": "592ac61b8562a0cfb7803d8db619d85067bdccffebb1ea8c247b0ea1602a221e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/leobessin.mongo-studio/ae20f71a0d8c1fd2.webp",
+                "alt": "The connection tree with the orders collection selected and its size and indexes, beside the orders tab with shipped orders as a table",
+                "sha256": "ae20f71a0d8c1fd2ef76f6531cac4f5cc3e1edc445b32f97d2d17c8a22fb7c16",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/37f678ec92a029f4.webp",
+                "alt": "The query bar with filter, projection, sort, collation and limit, beside the Query Builder editing the same filter as nested AND and OR conditions",
+                "sha256": "37f678ec92a029f410414a3d69abdcea657155b64b782541e736cdd887b62947",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/5a5ccea9989b7846.webp",
+                "alt": "The aggregation editor with $match, $group and $sort stages: the $group stage with its output preview, and the pipeline run with its results",
+                "sha256": "5a5ccea9989b7846a3cce6ee4eb39e88f41699fd7632ef8f221c0cb73c579781",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/989f90866c563fa3.webp",
+                "alt": "A document open in the Tree view with every field's BSON type, and a document holding every BSON type, from Decimal128 to Timestamp and MinKey",
+                "sha256": "989f90866c563fa34d547e9bcdfd6e05909e67405eb089a1760f64a59f94e583",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/e821136417b3bfd3.webp",
+                "alt": "The connection form with server, authentication, TLS, SSH and advanced sections, beside the connection string view with Test connection results, step by step",
+                "sha256": "e821136417b3bfd38698d492aa51003ba6919deba3881a53fd75620350a49577",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/7157be97567fac4a.webp",
+                "alt": "The Mongo Shell editor with a script that counts, finds and aggregates orders, beside the panel showing the find results as a table",
+                "sha256": "7157be97567fac4a3f4db34b867a4ebf599a880b383ab29de3f59015003b1061",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/LeoBessin/orca-mongo-studio",
+          "updatedAt": "2026-11-18T15:31:41+01:00"
+        },
         {
           "version": "1.0.3",
           "commit": "2eee7cc9bafb8b7da172319dc34fa800802d49d3",
@@ -31197,6 +31322,98 @@
           "license": "MIT",
           "repository": "https://github.com/palulabs/orca-tycoon",
           "updatedAt": "2026-11-11T20:10:06+01:00"
+        }
+      ]
+    },
+    {
+      "id": "pblobp.os-vitals",
+      "ownerId": 12371798,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pblobp/orca-plugins.git",
+        "ref": "v1.0.0",
+        "path": "plugins/os-vitals"
+      },
+      "description": "A system monitor in the right sidebar and the status bar: live CPU, memory, network, disk, GPU, battery and processes.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "3c95a4aae0df3a44de0040231f185271c1c9e64d",
+          "contentHash": "950c7966b4d751360dd8e6caa159bbe1e74f237b8bf51e47bd94b23c5244f0cf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OS Vitals",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OS Vitals"
+            },
+            {
+              "kind": "commands",
+              "name": "OS Vitals: Open panel"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OS Vitals"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pblobp.os-vitals/7b0dc95b8dca4208.png",
+              "alt": "OS Vitals: the Overview in the dark theme and the Network view in the light theme, beside the name and a one-line description.",
+              "sha256": "7b0dc95b8dca42084d2bfae24384725cc11cfb7451653e286299172ddacab1a8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/pblobp.os-vitals/9b8226974c60679a.png",
+              "alt": "OS Vitals icon",
+              "sha256": "9b8226974c60679af98f7cdde0d7b6242de16285138c9311d75d20d2735b2f87",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/pblobp.os-vitals/b7e7a504e4a5ef21.png",
+                "alt": "The Overview, dark: CPU over time with per-core load, the memory breakdown, and network, disk and GPU cards with charts.",
+                "sha256": "b7e7a504e4a5ef21841f5e4aee0a0c9fc8bc13a4633c6687af531a6b2862eaa1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/pblobp.os-vitals/fca10a6c62b044cd.png",
+                "alt": "The Processes view, dark: a sorted process table and the details pane for one process, with its command line and Quit.",
+                "sha256": "fca10a6c62b044cd18890aea265add9e3868c1d414fc9305aaf5c278871810b1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/pblobp.os-vitals/46ebaf97bd10aa97.png",
+                "alt": "The CPU and Memory views, light: a CPU chart with a tooltip at one moment, and memory in use over time with its parts.",
+                "sha256": "46ebaf97bd10aa97844ca9b7998f960a2081ec1569253ad06b77b43613cb3cc4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/pblobp.os-vitals/c74febf80823fd44.png",
+                "alt": "The Network and Energy views, dark: rates with a tooltip, the battery, and each process's energy impact.",
+                "sha256": "c74febf80823fd44e066e205b00bb2378b22591ceb7f6d5f14310078bf8cbf12",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/pblobp/orca-plugins",
+          "updatedAt": "2026-11-18T11:08:08-03:00"
         }
       ]
     },
