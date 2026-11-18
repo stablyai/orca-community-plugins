@@ -42440,14 +42440,70 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vrwolf1004/orca-radio/0.6.4"
+        "url": "https://github.com/vrwolf1004/orca-radio.git",
+        "ref": "v0.6.5"
       },
-      "description": "Orca 사이드바에서 인터넷 라디오를 재생한다.",
+      "description": "Play internet radio from the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.5",
+          "commit": "d8e4d25afbec4687186a8047f46efd58134ec5cf",
+          "contentHash": "262b210ee70176ebf5e04aad774ebcf1a3b63c66cf1ca57dda018c53306445d7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Radio for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Radio"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.radio-for-orca/5cd640dacaea0788.png",
+              "alt": "Radio for Orca 패널: 황동 라디오 모양의 인터넷 라디오 플레이어",
+              "sha256": "5cd640dacaea0788ab2d78144bffd4f2c051fa802a33725df066e73131cb93df",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vrwolf1004.radio-for-orca/d8985de5f0f81a9c.png",
+              "alt": "Radio for Orca icon",
+              "sha256": "d8985de5f0f81a9cdaf6224bb65f866df133530fa5f556366eaccf7e59834881",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/07ef127302810167.png",
+                "alt": "재생 중인 라디오 패널",
+                "sha256": "07ef1273028101673bb8ff7ae949a17881043556ad171667437440781d7280af",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/35306012af890a01.png",
+                "alt": "채널 목록을 펼친 패널",
+                "sha256": "35306012af890a01233f03e0d11222445380d7f33dbb3897a5730189da9e612f",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/1fee131b88c4a078.png",
+                "alt": "디자인 A, B, C 비교",
+                "sha256": "1fee131b88c4a0782a13b805c516cc8dcd00e6d8c73011c1e1f2c34698281984",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-radio",
+          "updatedAt": "2026-11-18T11:29:15+09:00"
+        },
         {
           "version": "0.6.4",
           "commit": "b3cfff1aeff26ca71dfbd38c19f7066cda7cae33",
