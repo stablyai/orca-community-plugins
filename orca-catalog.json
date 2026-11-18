@@ -18265,14 +18265,52 @@
       "ownerId": 26026366,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/hsnils/orca-github-notifications/0.2.0"
+        "url": "https://github.com/HSnils/orca-github-notifications.git",
+        "ref": "v0.2.1"
       },
       "description": "Review requests, mentions and other unread GitHub notifications in an Orca sidebar panel.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "7ba9b782956ed920a6ef5d55ad04a5b89e9a15c1",
+          "contentHash": "4afcddcf01993046c05e83384ba7d2f10ed5c1483fcd7a9f03254bf5e44d9a7e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "GitHub Notifications",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Notifications"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hsnils.github-notifications/a62494ed6aafe65a.png",
+              "alt": "A notification bell next to the GitHub Notifications panel, listing review requests and mentions with Open, Merged and Closed pull requests.",
+              "sha256": "a62494ed6aafe65a24c6c82f3e8336f15b39d4093b21ae331d78a98717179bcd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/hsnils.github-notifications/d1d72e0967defe9b.png",
+              "alt": "GitHub Notifications icon",
+              "sha256": "d1d72e0967defe9baa59f49c5bb6bc560bbb743397ad0414a8dbe945e7381b7d",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/HSnils/orca-github-notifications",
+          "updatedAt": "2026-11-18T14:38:55+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "7667c73d821d51b0c857f0f0efc40e21235c6451",
@@ -41769,8 +41807,8 @@
       "ownerId": 244070248,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tomasmarik-sys/orca-czech.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tomasmarik-sys/orca-czech/0.1.2"
       },
       "description": "Přeloží rozhraní Orcy do češtiny.",
       "categories": [

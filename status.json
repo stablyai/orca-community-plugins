@@ -364,7 +364,16 @@
       "ref": "refs/tags/brodesigns/orca-session-check/1.0.2",
       "plugins": [
         "brodesigns.session-check"
-      ]
+      ],
+      "update": {
+        "ref": "v1.1.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "brodesigns/orca-skill-usage": {
       "state": "listed",
@@ -1184,7 +1193,7 @@
     },
     "hsnils/orca-github-notifications": {
       "state": "listed",
-      "ref": "refs/tags/hsnils/orca-github-notifications/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "hsnils.github-notifications"
       ]
@@ -2773,7 +2782,7 @@
     },
     "tomasmarik-sys/orca-czech": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/tomasmarik-sys/orca-czech/0.1.2",
       "plugins": [
         "tomasmarik-sys.czech"
       ]
