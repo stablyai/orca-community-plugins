@@ -155,7 +155,7 @@
         "angelcrown24.traffic-light"
       ],
       "update": {
-        "ref": "v0.7.0",
+        "ref": "v0.7.1",
         "reasons": [
           {
             "category": "under-review",
@@ -712,6 +712,16 @@
       "ref": "refs/tags/dohaidang/orca-wallpaper-studio/1.0.2",
       "plugins": [
         "dohaidang.wallpaper-studio"
+      ]
+    },
+    "donghyun-git/petting-friends": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "dr-xjx/orca-session-progress": {
@@ -2957,21 +2967,21 @@
     },
     "vrwolf1004/orca-obsidian": {
       "state": "listed",
-      "ref": "v0.5.2",
+      "ref": "refs/tags/vrwolf1004/orca-obsidian/0.5.2",
       "plugins": [
         "vrwolf1004.obsidian-for-orca"
       ]
     },
     "vrwolf1004/orca-radio": {
       "state": "listed",
-      "ref": "v0.7.1",
+      "ref": "refs/tags/vrwolf1004/orca-radio/0.7.1",
       "plugins": [
         "vrwolf1004.radio-for-orca"
       ]
     },
     "vrwolf1004/orca-tetris": {
       "state": "listed",
-      "ref": "v0.5.4",
+      "ref": "refs/tags/vrwolf1004/orca-tetris/0.5.4",
       "plugins": [
         "vrwolf1004.tetris-for-orca"
       ]
