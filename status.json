@@ -67,7 +67,7 @@
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.2.1",
       "plugins": [
         "aetna000.atmem-architect"
       ]
@@ -595,7 +595,7 @@
     },
     "crilofer/orca-streamdeck": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/crilofer/orca-streamdeck/1.0.1",
       "plugins": [
         "crilofer.streamdeck-bridge"
       ]
@@ -809,7 +809,7 @@
     },
     "erom/orca-plugin-agent-network": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/erom/orca-plugin-agent-network/0.2.0",
       "plugins": [
         "erom.agent-network"
       ]
@@ -1008,7 +1008,7 @@
     },
     "gdulamat/ork-db": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/gdulamat/ork-db/0.6.0",
       "plugins": [
         "gdulamat.ork-db"
       ],
@@ -1149,7 +1149,7 @@
     },
     "heyfey/vaporview-orca": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/heyfey/vaporview-orca/0.1.1",
       "plugins": [
         "heyfey.vaporview"
       ]
@@ -1294,7 +1294,7 @@
     },
     "jdflament/orca-coordinator": {
       "state": "listed",
-      "ref": "v1.2.2",
+      "ref": "refs/tags/jdflament/orca-coordinator/1.2.2",
       "plugins": [
         "jdflament.coordinator-board"
       ]
@@ -1403,7 +1403,7 @@
     },
     "klausbegnis/agent-center": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/klausbegnis/agent-center/0.3.0",
       "plugins": [
         "klausbegnis.agent-center"
       ],
@@ -1520,7 +1520,7 @@
     },
     "leobessin/orca-mongo-studio": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "refs/tags/leobessin/orca-mongo-studio/1.0.3",
       "plugins": [
         "leobessin.mongo-studio"
       ]
@@ -1991,7 +1991,7 @@
     },
     "omerfarukgzr/orca-git-plugin": {
       "state": "listed",
-      "ref": "v0.1.12",
+      "ref": "refs/tags/omerfarukgzr/orca-git-plugin/0.1.12",
       "plugins": [
         "omerfarukgzr.git-panel"
       ],
@@ -2574,7 +2574,7 @@
     },
     "superfly/orca-sprites": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/superfly/orca-sprites/0.6.0",
       "plugins": [
         "superfly.sprites"
       ]
@@ -2763,7 +2763,7 @@
     },
     "uttam-gelot/orca-todos": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/uttam-gelot/orca-todos/0.3.0",
       "plugins": [
         "uttam-gelot.todos"
       ]
@@ -2984,7 +2984,7 @@
     },
     "williamwxz/orca-bot": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/williamwxz/orca-bot/0.1.4",
       "plugins": [
         "williamwxz.bot-for-orca"
       ]
