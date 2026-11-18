@@ -16568,8 +16568,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.3"
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.12.5"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
       "categories": [
@@ -16577,6 +16577,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.12.5",
+          "commit": "7c8ee70a0638bd52d50362db5acfafe8c65a9046",
+          "contentHash": "6e8b67c2663303b1a22aa310a859c245bed9b623b27b19a3199f71557784232b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
+                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
+                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-18T09:24:46+09:00"
+        },
         {
           "version": "0.12.3",
           "commit": "01a2962898aad42d1ce268b4733756ae4db455be",
@@ -16832,70 +16896,6 @@
           "updatedAt": "2026-11-17T17:24:31+09:00",
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler"
-        },
-        {
-          "version": "0.9.13",
-          "commit": "4d680188ba2c3dc5eed1dbb1d9d040c80e5a0be3",
-          "contentHash": "45e3ce1222a14cec761d6ffe01cf1252a4a61d7972af3301d7a54252446a0558",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Scheduler",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Scheduler"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Schedules"
-            }
-          ],
-          "capabilities": [
-            "terminal:read",
-            "agent:read",
-            "workspace:read",
-            "storage:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gook-lab.agent-scheduler/aa7c66cb5f80dc6b.png",
-              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
-              "sha256": "aa7c66cb5f80dc6b0237146ce22574babc721a6e2436d17cc18a87859d96c4b3",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
-              "alt": "Agent Scheduler icon",
-              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/gook-lab.agent-scheduler/a09c8101cf7410dc.png",
-                "alt": "The Schedules tab: a schedule that ran after its time shows 'sent 3 h 12 min late', another is running, a third waits while the agent works",
-                "sha256": "a09c8101cf7410dc9096e8e5a3a0edd5927583998645a57cb646d0e81df06fb0",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/gook-lab.agent-scheduler/1c0131f3e758dd80.png",
-                "alt": "The same Schedules tab with the panel in Korean",
-                "sha256": "1c0131f3e758dd809b539ba45c99a687f352d85deebbe178ad72073fd95f223d",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
-          "updatedAt": "2026-11-17T13:15:43+09:00"
         }
       ]
     },
@@ -31740,8 +31740,8 @@
       "ownerId": 51143814,
       "source": {
         "kind": "git",
-        "url": "https://github.com/renanluiz/usage-companion.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/renanluiz/usage-companion/0.3.1"
       },
       "description": "Your Claude 5-hour and weekly limits, your pace through the week, skill use and daily tokens.",
       "categories": [
@@ -42394,14 +42394,63 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vrwolf1004/orca-radio/0.6.2"
+        "url": "https://github.com/vrwolf1004/orca-radio.git",
+        "ref": "v0.6.4"
       },
       "description": "Orca 사이드바에서 인터넷 라디오를 재생한다.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.4",
+          "commit": "b3cfff1aeff26ca71dfbd38c19f7066cda7cae33",
+          "contentHash": "7fa6d47d14c07275fe2fd3b795186b4dbef6024f1f519cd0c940e469bd1686c2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Radio for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Radio"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.radio-for-orca/6db3ec408d503a1e.png",
+              "alt": "Radio for Orca 패널: 황동 라디오 모양의 인터넷 라디오 플레이어",
+              "sha256": "6db3ec408d503a1e887cf89726b0506ea4a5d8b23a7ba3511ab1c4f1e5c1f56d",
+              "width": 800,
+              "height": 500
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/7cd1c135443b38b7.png",
+                "alt": "재생 중인 라디오 패널",
+                "sha256": "7cd1c135443b38b7f08bade8782c9e8db8abc67909c631bd951b0441d9376828",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/e9dd8978cb555bc1.png",
+                "alt": "채널 목록을 펼친 패널",
+                "sha256": "e9dd8978cb555bc1779365496be7981c6cb364bd92e51e68cb69199e568f2fd4",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/vrwolf1004.radio-for-orca/3b1de942762b5086.png",
+                "alt": "디자인 A, B, C 비교",
+                "sha256": "3b1de942762b50867245fdba85a8597cb153902d6e84808731dc8122858cd0c8",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-radio",
+          "updatedAt": "2026-11-18T09:26:13+09:00"
+        },
         {
           "version": "0.6.2",
           "commit": "1b7257c11cc483a3dcbb191004ef3f01e5f47d24",
