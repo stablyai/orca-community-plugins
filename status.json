@@ -366,7 +366,7 @@
         "brodesigns.session-check"
       ],
       "update": {
-        "ref": "v1.1.0",
+        "ref": "v1.2.0",
         "reasons": [
           {
             "category": "under-review",
@@ -1193,7 +1193,7 @@
     },
     "hsnils/orca-github-notifications": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/hsnils/orca-github-notifications/0.2.1",
       "plugins": [
         "hsnils.github-notifications"
       ]
