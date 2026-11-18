@@ -5323,8 +5323,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-session-check.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-session-check/1.2.0"
       },
       "description": "See at a glance which of your Orca worktrees still have uncommitted files, unpushed commits, stashes or a running agent, and which sessions are safe to close. Status bar count, a notification when an agent leaves open work, and a warning for files named like secrets that are not ignored. Read-only, ",
       "categories": [
@@ -5615,8 +5615,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-skill-usage.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-skill-usage/1.1.0"
       },
       "description": "See which skills, MCP servers, agents and plugins of Claude Code, Codex and Gemini you really use, per project, and what the unused ones cost in context tokens. English, German and Spanish. Local only, no tracking.",
       "categories": [
@@ -5797,8 +5797,8 @@
       "ownerId": 44358188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brodesigns/orca-woodpecker-status.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brodesigns/orca-woodpecker-status/1.2.1"
       },
       "description": "Shows the status of all your Woodpecker CI projects in the sidebar, newest build first, with search, filter, error messages and a log excerpt of the failed step. English and German. Read-only: talks only to your own Woodpecker server, no tracking.",
       "categories": [
