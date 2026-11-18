@@ -45544,8 +45544,8 @@
       "ownerId": 23340720,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/williamwxz/orca-bot/0.1.5"
+        "url": "https://github.com/williamwxz/orca-bot.git",
+        "ref": "v0.1.6"
       },
       "description": "A team of bots inside Orca. Runs the open-source OpenMausBot on your machine: a roster of bots, each its own Claude, Codex or Grok agent. Unofficial. Not made by or affiliated with Orca, OpenMausBot or the makers of the models it runs.",
       "categories": [
@@ -45553,6 +45553,74 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.6",
+          "commit": "914c3025ad729b7ca6f15e02d5825eb108101cdd",
+          "contentHash": "e357bd289d0d271009b822238eb138252517b0fb5616bda3c1a740cb17404d1d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Bot Team for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Team for Orca"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Team for Orca: Open chat"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Team for Orca: Stop the OpenMausBot server"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/williamwxz.bot-for-orca/0549575f4010518e.png",
+              "alt": "Bot Team for Orca: a team of AI bots in the sidebar, with a fictional Chief of Staff, researcher, writer and developer.",
+              "sha256": "0549575f4010518e755deaf1676d9cda775e5d0d8c2d5e7e897497d7f188e9c3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/williamwxz.bot-for-orca/9f9bfb236951d86d.png",
+              "alt": "Bot Team for Orca icon",
+              "sha256": "9f9bfb236951d86d1ee59d871bd2b15eb9c7ef382f91e1b272fa8e0988988561",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/williamwxz.bot-for-orca/fc6e10eb5a24b157.png",
+                "alt": "Light-theme bot list with fictional bots Milo, Scout, Quill and Patch, a Chief of Staff badge, previews and an unread dot.",
+                "sha256": "fc6e10eb5a24b15745f8eaf8af01afc4850c9048f012540506863241b626d2f1",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/williamwxz.bot-for-orca/ab24a7a31f4ea348.png",
+                "alt": "Dark-theme chat with fictional researcher Scout, sample messages, a working avatar and the status Working · 12s.",
+                "sha256": "ab24a7a31f4ea34864dcdb436e0f8095b156665368281a2f7ad554bd0e140d92",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/williamwxz.bot-for-orca/69649bac501018c0.png",
+                "alt": "Setup card for choosing whether to share Claude tools and connect Orca agents.",
+                "sha256": "69649bac501018c0098b0bae8716a0f596994072494ffae26ed563ec2a0f716a",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/williamwxz/orca-bot",
+          "updatedAt": "2026-11-18T12:37:40-07:00"
+        },
         {
           "version": "0.1.5",
           "commit": "89786c5ed4ef9d02a27117e2f8b1015e0ccfee8c",
