@@ -49,6 +49,13 @@
         "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
       ]
     },
+    "adamthewilliam/orca-diff-breakdown": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "adamthewilliam.diff-breakdown"
+      ]
+    },
     "addisflava/orca-llm-router": {
       "state": "listed",
       "ref": "refs/tags/addisflava/orca-llm-router/1.2.0",
@@ -1624,11 +1631,11 @@
         "lindoo67.drawio"
       ],
       "update": {
-        "ref": "v0.1.7",
+        "ref": "v0.1.8",
         "reasons": [
           {
             "category": "version-locked",
-            "detail": "tag v0.1.7 moved: version 0.1.6 was first listed at commit e7601b2a07b2cfd6d2b6ddccb96e2977aa992d3e and stays that release; publish a new version instead"
+            "detail": "tag v0.1.8 moved: version 0.1.6 was first listed at commit e7601b2a07b2cfd6d2b6ddccb96e2977aa992d3e and stays that release; publish a new version instead"
           }
         ]
       }
@@ -2306,7 +2313,7 @@
     },
     "robmarcopolo/orca-moonlight-theme": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/robmarcopolo/orca-moonlight-theme/1.0.1",
       "plugins": [
         "robmarcopolo.moonlight-theme"
       ]

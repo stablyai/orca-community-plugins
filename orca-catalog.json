@@ -1440,6 +1440,76 @@
       ]
     },
     {
+      "id": "adamthewilliam.diff-breakdown",
+      "ownerId": 24702294,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/adamthewilliam/orca-diff-breakdown.git",
+        "ref": "v0.1.0"
+      },
+      "description": "See a branch's changes broken down by kind: runtime, tests, contracts, DB migrations, CI/CD, config, dependencies and docs, with each kind's share of the changed lines.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "130295d824c9588f28802a0e4c9644feb1212f75",
+          "contentHash": "41b6b9435827639573abbfc358d025cc8132451910e1236ed05b535bcd27fb89",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Diff Breakdown",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Diff Breakdown"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/adamthewilliam.diff-breakdown/4eac18b88eb4a645.png",
+              "alt": "The Diff Breakdown panel, collapsed and expanded, beside the list of change kinds it sorts files into",
+              "sha256": "4eac18b88eb4a64520f360468fa02228077804a936c4bb97b0c6433e1615c703",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/adamthewilliam.diff-breakdown/7229a4af5f63fcb9.png",
+              "alt": "Diff Breakdown icon",
+              "sha256": "7229a4af5f63fcb9e9d3ac2eaa1c46d649664d2f363e957f68efef64b4d836c3",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/adamthewilliam.diff-breakdown/253ee2dda314be50.png",
+                "alt": "The panel showing a branch's changes as a share bar and one row per kind, from Runtime to Generated",
+                "sha256": "253ee2dda314be50d216c31e56ba831f5a77156195e306325effede51265052a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/adamthewilliam.diff-breakdown/47ab3be12e8fb663.png",
+                "alt": "The panel with its groups open, listing each changed file with its folder, lines changed and status",
+                "sha256": "47ab3be12e8fb6637e6555316255664d5e567dd8b1dba3b972f4c3a9ad2d6743",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/adamthewilliam/orca-diff-breakdown",
+          "updatedAt": "2026-11-19T01:12:02Z"
+        }
+      ]
+    },
+    {
       "id": "addisflava.llm-router",
       "ownerId": 13881665,
       "source": {
@@ -34100,8 +34170,8 @@
       "ownerId": 106952857,
       "source": {
         "kind": "git",
-        "url": "https://github.com/robMarcoPolo/orca-moonlight-theme.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/robmarcopolo/orca-moonlight-theme/1.0.1"
       },
       "description": "Unofficial port of atomiks’ Moonlight II: a bubblegum-on-moonlit-navy dark theme (plus an italic variant) with matching code and terminal colors.",
       "categories": [
