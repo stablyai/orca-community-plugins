@@ -153,7 +153,7 @@
         "angelcrown24.traffic-light"
       ],
       "update": {
-        "ref": "v0.7.2",
+        "ref": "v0.8.0",
         "reasons": [
           {
             "category": "under-review",
@@ -2442,7 +2442,7 @@
     },
     "santii90/orca-plugin-artifact-viewer": {
       "state": "listed",
-      "ref": "refs/tags/santii90/orca-plugin-artifact-viewer/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "santii90.artifact-viewer"
       ]
