@@ -28539,8 +28539,8 @@
       "ownerId": 199264747,
       "source": {
         "kind": "git",
-        "url": "https://github.com/MolanoJF/orca-json-canvas.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/molanojf/orca-json-canvas/1.1.1"
       },
       "description": "View and edit Obsidian-compatible .canvas boards in Orca: cards, notes, images, groups and connections, with the same look, navigation and file format.",
       "categories": [],
@@ -29880,8 +29880,8 @@
       "ownerId": 301464,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ngoohebi/orca-auto-handoff.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ngoohebi/orca-auto-handoff/0.2.1"
       },
       "description": "Automatic account switching for Orca agents. Pools the managed accounts per provider (Claude, Codex, Antigravity, OpenCode, Devin). Smart mode looks ahead: a Claude session leaves an account shortly before it runs out and is resumed, as the same session, on the next Claude account. Codex, Antigravit",
       "categories": [
@@ -34101,7 +34101,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/robMarcoPolo/orca-moonlight-theme.git",
-        "ref": "v1.0.0"
+        "ref": "v1.0.1"
       },
       "description": "Unofficial port of atomiks’ Moonlight II: a bubblegum-on-moonlit-navy dark theme (plus an italic variant) with matching code and terminal colors.",
       "categories": [
@@ -34109,6 +34109,56 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "833a19c9b4105d236254e1ccdd34608e13a6a5ac",
+          "contentHash": "bf11557f98a965c72b28d93f6392fd4ef7d5b6e983f2034fcc96751e9bfe731d",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Moonlight for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Moonlight II"
+            },
+            {
+              "kind": "themes",
+              "name": "Moonlight II Italic"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Moonlight II"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/robmarcopolo.moonlight-theme/bab609270d22b0cc.webp",
+              "alt": "Orca in Moonlight II: PHP in the editor with the Moonlight II terminal below",
+              "sha256": "bab609270d22b0ccb26c115054902a9c788fd8d70e7a7c30764c8f107caea207",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/robmarcopolo.moonlight-theme/49160287d213883b.webp",
+                "alt": "PHP code in the Orca editor in Moonlight II, with git output in the Moonlight II terminal below",
+                "sha256": "49160287d213883b17af6b9d1c481d5fde9fa69e79e20ba68a2fbd888ccfa456",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/robmarcopolo.moonlight-theme/dfd99081cb97a244.webp",
+                "alt": "An Orca agent chat in Moonlight II explaining a function, with inline code and a table",
+                "sha256": "dfd99081cb97a24445e78a65491169587813a215a2c067df5195da8ffeafd55a",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/robMarcoPolo/orca-moonlight-theme",
+          "updatedAt": "2026-11-19T00:39:15Z"
+        },
         {
           "version": "1.0.0",
           "commit": "8f2bd1cf7a1054f016615fd3ec299b4b9b9043d9",

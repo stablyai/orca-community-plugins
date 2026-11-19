@@ -572,7 +572,7 @@
         "cnzgray.mattpocock-workflow"
       ],
       "update": {
-        "ref": "v0.2.3",
+        "ref": "v0.2.4",
         "reasons": [
           {
             "category": "under-review",
@@ -1913,7 +1913,7 @@
     },
     "molanojf/orca-json-canvas": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/molanojf/orca-json-canvas/1.1.1",
       "plugins": [
         "molanojf.json-canvas"
       ]
@@ -1995,7 +1995,7 @@
     },
     "ngoohebi/orca-auto-handoff": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/ngoohebi/orca-auto-handoff/0.2.1",
       "plugins": [
         "ngoohebi.auto-handoff"
       ]
@@ -2306,7 +2306,7 @@
     },
     "robmarcopolo/orca-moonlight-theme": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "robmarcopolo.moonlight-theme"
       ]
