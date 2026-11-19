@@ -1444,8 +1444,8 @@
       "ownerId": 13881665,
       "source": {
         "kind": "git",
-        "url": "https://github.com/addisflava/orca-llm-router.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/addisflava/orca-llm-router/1.2.0"
       },
       "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, and routing different providers behind a single model name with seamless fallback.",
       "categories": [
@@ -28539,12 +28539,79 @@
       "ownerId": 199264747,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/molanojf/orca-json-canvas/1.0.1"
+        "url": "https://github.com/MolanoJF/orca-json-canvas.git",
+        "ref": "v1.1.1"
       },
       "description": "View and edit Obsidian-compatible .canvas boards in Orca: cards, notes, images, groups and connections, with the same look, navigation and file format.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "ab7f06e2673a9fe76d024f8b6f82b16151a0b955",
+          "contentHash": "9269b5e36cee3ed4d6207c57e8bfa7759c3bf769fc81c7df5a09b394e5680139",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "JSON Canvas",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Canvas",
+              "detail": ".canvas"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "canvas"
+          ],
+          "editorFileTypes": [
+            "canvas"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/molanojf.json-canvas/2789c7a9043b3bbc.png",
+              "alt": "A Riverside pavilion canvas in dark mode: Markdown notes, SVG image cards, colored groups, labelled connections, a table and a callout.",
+              "sha256": "2789c7a9043b3bbc74349c11e73c5f0d397c5cda20981b19e60ba67362f77782",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/molanojf.json-canvas/0b5e2baec843d248.png",
+                "alt": "Editing a Markdown card in place, with a wiki link completion popup listing notes from the vault.",
+                "sha256": "0b5e2baec843d248dfb3189f4934a57dea81a692a01d3ffe166b1fa8e1f61fd8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/c61d33e30c5fea4a.png",
+                "alt": "Dragging a new connection from one card to another, shown as a curved arrow across two groups.",
+                "sha256": "c61d33e30c5fea4ad7f809b3af643188d6f0459b09019f5a325e7f5b7f1a2ad6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/b57912144a4fbc8d.png",
+                "alt": "Two selected cards with the color palette open above them, in light mode.",
+                "sha256": "b57912144a4fbc8d04f650ff956e48317870d85787b032be43e7e6d270075178",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/molanojf.json-canvas/eb5a39ecd0442660.png",
+                "alt": "The note picker open over a canvas, listing vault notes and canvases to add as cards.",
+                "sha256": "eb5a39ecd04426600fbc5aeaadf911e296f7f10e3c9d7de94fb7252a6f8e105b",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/MolanoJF/orca-json-canvas",
+          "updatedAt": "2026-11-18T05:00:14Z"
+        },
         {
           "version": "1.0.1",
           "commit": "20075fe70277eb893f6cb6c5d532dc812ca29113",
@@ -29805,6 +29872,94 @@
           "license": "MIT",
           "repository": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor",
           "updatedAt": "2026-11-07T20:29:28+03:00"
+        }
+      ]
+    },
+    {
+      "id": "ngoohebi.auto-handoff",
+      "ownerId": 301464,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ngoohebi/orca-auto-handoff.git",
+        "ref": "v0.2.1"
+      },
+      "description": "Automatic account switching for Orca agents. Pools the managed accounts per provider (Claude, Codex, Antigravity, OpenCode, Devin). Smart mode looks ahead: a Claude session leaves an account shortly before it runs out and is resumed, as the same session, on the next Claude account. Codex, Antigravit",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "b6ab8776b2c164d6aafc28e14064d28524080d5e",
+          "contentHash": "9979fc762ca72da7f9cb48c049612334c6bd5ba675bab4095f8bb11e02e2552b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.261",
+          "name": "Auto Hand-off",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Auto Hand-off"
+            },
+            {
+              "kind": "commands",
+              "name": "Auto Hand-off: Switch Claude to the next account"
+            },
+            {
+              "kind": "commands",
+              "name": "Auto Hand-off: Switch Codex to the next account"
+            },
+            {
+              "kind": "commands",
+              "name": "Auto Hand-off: Move this workspace's agent to another account"
+            },
+            {
+              "kind": "commands",
+              "name": "Auto Hand-off: Pause or resume automatic hand-off"
+            },
+            {
+              "kind": "commands",
+              "name": "Auto Hand-off: Refresh usage"
+            },
+            {
+              "kind": "commands",
+              "name": "Auto Hand-off: Install the console status line in this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Auto Hand-off: Remove the console status line from this workspace"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Auto Hand-off"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "agent:launch",
+            "terminal:read",
+            "terminal:send",
+            "workspace:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ngoohebi/orca-auto-handoff",
+          "updatedAt": "2026-11-19T08:33:23+08:00"
         }
       ]
     },
@@ -33937,6 +34092,47 @@
           "license": "MIT",
           "repository": "https://github.com/rgarciade/orca-containers",
           "updatedAt": "2026-11-05T14:14:45+01:00"
+        }
+      ]
+    },
+    {
+      "id": "robmarcopolo.moonlight-theme",
+      "ownerId": 106952857,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/robMarcoPolo/orca-moonlight-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Unofficial port of atomiks’ Moonlight II: a bubblegum-on-moonlit-navy dark theme (plus an italic variant) with matching code and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "8f2bd1cf7a1054f016615fd3ec299b4b9b9043d9",
+          "contentHash": "d98fab3b2225be9108a6e9e5ccdf630fdceb70ae8ee90e373e1766c2d4ea25cf",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Moonlight for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Moonlight II"
+            },
+            {
+              "kind": "themes",
+              "name": "Moonlight II Italic"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Moonlight II"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/robMarcoPolo/orca-moonlight-theme",
+          "updatedAt": "2026-11-19T00:16:03Z"
         }
       ]
     },

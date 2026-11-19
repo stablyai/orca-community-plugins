@@ -51,7 +51,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/addisflava/orca-llm-router/1.2.0",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -1913,7 +1913,7 @@
     },
     "molanojf/orca-json-canvas": {
       "state": "listed",
-      "ref": "refs/tags/molanojf/orca-json-canvas/1.0.1",
+      "ref": "v1.1.1",
       "plugins": [
         "molanojf.json-canvas"
       ]
@@ -1991,6 +1991,13 @@
       "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.5",
       "plugins": [
         "narimanisakhanov-creator.xlsx-editor"
+      ]
+    },
+    "ngoohebi/orca-auto-handoff": {
+      "state": "listed",
+      "ref": "v0.2.1",
+      "plugins": [
+        "ngoohebi.auto-handoff"
       ]
     },
     "nhangen/orca-plugins": {
@@ -2295,6 +2302,13 @@
       "ref": "refs/tags/rgarciade/orca-containers/0.1.1",
       "plugins": [
         "rgarciade.containers"
+      ]
+    },
+    "robmarcopolo/orca-moonlight-theme": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "robmarcopolo.moonlight-theme"
       ]
     },
     "rodrigorodrigo/orca-agent-config-sync": {

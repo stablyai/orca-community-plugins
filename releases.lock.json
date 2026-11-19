@@ -3005,6 +3005,12 @@
     "repoId": 1444503272,
     "firstSeen": "2026-11-14T23:12:07.823Z"
   },
+  "molanojf.json-canvas@1.1.1": {
+    "commit": "ab7f06e2673a9fe76d024f8b6f82b16151a0b955",
+    "contentHash": "9269b5e36cee3ed4d6207c57e8bfa7759c3bf769fc81c7df5a09b394e5680139",
+    "repoId": 1444503272,
+    "firstSeen": "2026-11-19T00:35:51.572Z"
+  },
   "momokun7.3d-viewer@1.0.2": {
     "commit": "7a86b01692663d4051a0181904fc1483a7c094d4",
     "contentHash": "4826bc595f779cf18f7a3695e3c9baecb4baab4813880fc8d2d50bef2c10bc1e",
@@ -3112,6 +3118,12 @@
     "contentHash": "06b4fd4336c0780cfbd36d5ed8bd06ed0135627807fdffc96ff9e967afc46def",
     "repoId": 1447300057,
     "firstSeen": "2026-11-07T19:10:58.378Z"
+  },
+  "ngoohebi.auto-handoff@0.2.1": {
+    "commit": "b6ab8776b2c164d6aafc28e14064d28524080d5e",
+    "contentHash": "9979fc762ca72da7f9cb48c049612334c6bd5ba675bab4095f8bb11e02e2552b",
+    "repoId": 1463480973,
+    "firstSeen": "2026-11-19T00:35:51.572Z"
   },
   "nhangen.git-issues@0.1.0": {
     "commit": "0f3cffa5b621503dc7a33dbe3462686d4055977f",
@@ -3568,6 +3580,12 @@
     "contentHash": "e1bfb9ec3d1d098f3633f5f0cb3333c1c92c39bdad2c250a1935ed7799ffe9e1",
     "repoId": 1446899420,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "robmarcopolo.moonlight-theme@1.0.0": {
+    "commit": "8f2bd1cf7a1054f016615fd3ec299b4b9b9043d9",
+    "contentHash": "d98fab3b2225be9108a6e9e5ccdf630fdceb70ae8ee90e373e1766c2d4ea25cf",
+    "repoId": 1463480826,
+    "firstSeen": "2026-11-19T00:35:51.572Z"
   },
   "rodrigorodrigo.agent-config-sync@0.2.1": {
     "commit": "687ef74861bcd9c6ad562440164684bb210e41b0",
