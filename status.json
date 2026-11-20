@@ -1109,7 +1109,7 @@
     },
     "faisalmuhammad/orca-terminal-lens": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "under-review",
@@ -1394,6 +1394,16 @@
       "ref": "refs/tags/ibazylchuk/orca-plugin-openspec-board/0.6.1",
       "plugins": [
         "ibazylchuk.openspec-board"
+      ]
+    },
+    "icaceresc/b-side": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "icaceresc/pixtuoid-orca-windows": {
@@ -2638,7 +2648,7 @@
     },
     "ruchkung/orca-textile": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/ruchkung/orca-textile/0.1.1",
       "plugins": [
         "ruchkung.textile"
       ]
