@@ -10124,8 +10124,8 @@
       "ownerId": 110404901,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DavidSeptimus/armada-theme-orca-plugin.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.0.1"
       },
       "description": "A dark color theme inspired by the dark themes of JetBrains Fleet and Air.",
       "categories": [
@@ -38344,6 +38344,50 @@
           "license": "MIT",
           "repository": "https://github.com/rr235/orca-task-launcher",
           "updatedAt": "2026-11-08T00:55:07+01:00"
+        }
+      ]
+    },
+    {
+      "id": "ruchkung.textile",
+      "ownerId": 4424616,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Ruchkung/orca-textile.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Syntax highlighting and formatted previews for Textile files.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "5e6607beafdb99f6859669276c7c2224ae1d2f71",
+          "contentHash": "5ee1fa616a17d29540d4c402f82b2e56db0b9effb0fc87548f05dae349b80958",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Textile",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Textile",
+              "detail": ".textile"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".textile"
+            }
+          ],
+          "fileTypes": [
+            "textile"
+          ],
+          "editorFileTypes": [
+            "textile"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Ruchkung/orca-textile",
+          "updatedAt": "2026-11-21T02:28:21+07:00"
         }
       ]
     },
