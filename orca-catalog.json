@@ -1444,8 +1444,8 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/adamthewilliam/orca-diff-breakdown.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/adamthewilliam/orca-diff-breakdown/0.3.0"
       },
       "description": "See a branch's changes broken down by kind: runtime, tests, contracts, DB migrations, CI/CD, config, dependencies and docs, with each kind's share of the changed lines. Reads repositories on this computer; remote workspaces aren’t supported yet.",
       "categories": [
@@ -9347,8 +9347,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.0"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -9629,8 +9629,8 @@
       "ownerId": 6973711,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/crilofer/orca-streamdeck/1.0.1"
+        "url": "https://github.com/crilofer/orca-streamdeck.git",
+        "ref": "v1.0.2"
       },
       "description": "Shows your agents on an Elgato Stream Deck: their status on keys, and taps that open a workspace, go to an agent or start one.",
       "categories": [
@@ -9638,6 +9638,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "3dc2fab3dbee50c597568f56a985cf2c660c6340",
+          "contentHash": "36219eade7cc445b9506920d75f2480d1c46ce1523f2b25108953ae64e83021b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.261",
+          "name": "Stream Deck Bridge",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Stream Deck: bridge status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "0"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/crilofer.streamdeck-bridge/5b0216eff55271df.jpg",
+              "alt": "A macro keypad whose keys show one project each with its agent's logo and state: needs you, working, done, waiting",
+              "sha256": "5b0216eff55271df3c6621cb090d242f23b3a4ff4496769d7af87bf46278301f",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/crilofer.streamdeck-bridge/4fc9fed685f88bd4.png",
+              "alt": "Stream Deck Bridge icon",
+              "sha256": "4fc9fed685f88bd424c71e944c845354b8f9faf4becb709314ce20c4df876aaa",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/crilofer.streamdeck-bridge/f9c55486ea18994d.png",
+                "alt": "Eight keys and a touch strip showing agents per project with their logo and state",
+                "sha256": "f9c55486ea18994d7ea3ccabd53a2fd340025d044e4be2be919a86447a010095",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/crilofer/orca-streamdeck",
+          "updatedAt": "2026-11-20T13:17:52+04:00"
+        },
         {
           "version": "1.0.1",
           "commit": "8d15793538e169b13c24a658107ea2ac094a9210",
@@ -10185,8 +10249,8 @@
       "ownerId": 86170544,
       "source": {
         "kind": "git",
-        "url": "https://github.com/decadance-dance/orca-plane.git",
-        "ref": "0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/decadance-dance/orca-plane/0.2.1"
       },
       "description": "Your open Plane work items in Orca's sidebar: see what is assigned to you, read an item, and start a coding agent on it in a new workspace. Plane Cloud or self-hosted (API v2). Not affiliated with Plane.",
       "categories": [
@@ -13082,14 +13146,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.261"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.266"
       },
-      "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.261. Pacchetto della community, non ufficiale.",
+      "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.266. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.266",
+          "commit": "b229024609e700008a6aff46cb7dd4a03409ced8",
+          "contentHash": "10bcc6cccee8abc8179b05564cf9f319902f57cf4dd09de540f6eb99749c0f62",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
+              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
+              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-20T09:54:19+01:00"
+        },
         {
           "version": "1.4.261",
           "commit": "0e3a575d22c842f4345a032ad88f832dbd920499",
@@ -14612,6 +14709,86 @@
           "license": "MIT",
           "repository": "https://github.com/eRom/orca-plugin-agent-progress-sp",
           "updatedAt": "2026-11-17T14:10:20+01:00"
+        }
+      ]
+    },
+    {
+      "id": "erom.agent-skills",
+      "ownerId": 146684,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eRom/orca-plugin-agent-skills.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Manage the skills of the open project for every agent Orca runs: search skills.sh, add from a repo or a local folder, remove, see which agent reads which skill.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "82ee90c807ce890e532e5b17a23088249eb31c6b",
+          "contentHash": "2f556c3f729262f2f41165767522356f914df9e0a7a7943c47331046ed1c0a3a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Skills",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Skills"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-skills/0535c90ed5251e39.png",
+              "alt": "The Skills panel listing the project's skills with the agents that read each one, beside a skills.sh search result.",
+              "sha256": "0535c90ed5251e3982206e5c50f2a8dd0d63cfd8a0b6699b8ff83aaf197b2274",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-skills/d127e5dfe1ab4229.png",
+              "alt": "Agent Skills icon",
+              "sha256": "d127e5dfe1ab4229d4d21f682e92c114d4f1cbc56cb229fd1a17c58929db600f",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-skills/5d1c45cf62d8ba1d.png",
+                "alt": "The Skills panel in Orca's light theme: four skills, each with its source and agent icons, two with a warning.",
+                "sha256": "5d1c45cf62d8ba1d166e602dc9ad6195e2b6eaf43f247aca48ede1b6ed12ed54",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-skills/7d8cef94bbbd688f.png",
+                "alt": "A skill's details in the dark theme: the folders that hold it, which agents read each one, and two diverging versions.",
+                "sha256": "7d8cef94bbbd688ff51026a91f02afb791ba27a451f10e3fd65d8a3382ea0ecc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-skills/914508b15008fc6d.png",
+                "alt": "The same skill details in the light theme.",
+                "sha256": "914508b15008fc6d3747c3e72e801d68617462fc3000aaf5f7134a5b62dd90af",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-skills",
+          "updatedAt": "2026-11-20T08:54:50+01:00"
         }
       ]
     },
@@ -22008,15 +22185,89 @@
       "ownerId": 89952284,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jecyxyf/orca-tps-plugin/1.3.0"
+        "url": "https://github.com/jecyxyf/Orca-TPS-Plugin.git",
+        "ref": "v1.6.4"
       },
-      "description": "Real-time token usage, per-request TPS, TTFT, and prompt-cache hit rate statistics plugin for Orca IDE (Claude Code, Codex, OpenCode, Pi), powered by CC Switch metrics.",
+      "description": "Track live request speed and token usage in Orca. Compare models, spot daily trends, and join a cross-device leaderboard with GitHub sign-in.",
       "categories": [
         "panels",
-        "commands"
+        "commands",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "1.6.4",
+          "commit": "1bac1fcd07b919e58f628ccab71a643cac37d6eb",
+          "contentHash": "82df350ecea47b33043cb87c6dede31f6fe4a9adbe2f33d5ab69925c9209f3ad",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "TPS Plugin",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "TPS Plugin"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh TPS Data"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "🚀 — tokens/s · 🍪 Cache hit —"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jecyxyf.tps-stats/44b2f07913ecdba0.png",
+              "alt": "TPS Plugin overview with Current Data, Personal Stats, and Leaderboard in the Orca sidebar",
+              "sha256": "44b2f07913ecdba02a8ecd85f30893ba78d31bde3989f6c90661342e5fad0ba3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jecyxyf.tps-stats/c0690ab905417627.png",
+              "alt": "TPS Plugin icon",
+              "sha256": "c0690ab9054176277c92eb601125a1a3b3af20d662abaa980c3106295c3d42b9",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jecyxyf.tps-stats/2d6f3b5e6719312f.png",
+                "alt": "Orca sidebar request cards showing generation speed, first-token latency, output, and cache hit rate",
+                "sha256": "2d6f3b5e6719312f3c69112dfcb505b99300f4d08b0230bd2db681264cbaa09d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jecyxyf.tps-stats/2dc1043cf8d87a42.png",
+                "alt": "Personal Stats shows usage by model, average generation speeds, and an annual heatmap",
+                "sha256": "2dc1043cf8d87a426210d34b9000bb504faff4132db0ff697fb53f6e65f55ebe",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jecyxyf.tps-stats/86a742bf6692f9d8.png",
+                "alt": "Leaderboard with GitHub avatars, three ranking periods, medals, and the sync controls",
+                "sha256": "86a742bf6692f9d806ad8beaddd21d80d2f86ca6ba523268c45a0bef1431c0fa",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jecyxyf/Orca-TPS-Plugin",
+          "updatedAt": "2026-11-19T21:06:49+08:00"
+        },
         {
           "version": "1.3.0",
           "commit": "ce71acef1553cb7975b44d6a20d6d9a58aaa329e",
@@ -24972,16 +25223,90 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/kyino-pan/agents-director/0.1.7"
+        "url": "https://github.com/Kyino-Pan/agents-director.git",
+        "ref": "v0.2.1"
       },
-      "description": "A rolling 7-day agent timeline reconstructed from Orca logs, with live status updates and orchestration message arrows.",
+      "description": "A rolling seven-day timeline of publicly observed Orca agent states and session summaries.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "ec44d541c8967cbb22f1cda1a767328aeea9b690",
+          "contentHash": "2ac8f101d3a941d1cf43f54e965834b7a9bb62d27dc91f0e9c991e5b203f80b1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Agents Director",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents Director"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents Director: Refresh activity"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "history:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "orca-activity"
+          ],
+          "editorFileTypes": [
+            "orca-activity"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kyino-pan.agent-activity/a614dbef8c9a1114.png",
+              "alt": "Synthetic illustration of the Agents Director timeline. Relationship arrows are illustrative and unavailable through the public plugin API.",
+              "sha256": "a614dbef8c9a11147748e3f5b8a1d96c6103ad7c2e36a734d3fcdf86c3d3f9b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/kyino-pan.agent-activity/6fe59358c8ed593f.png",
+                "alt": "Legacy synthetic timeline illustration; relationship arrows are unavailable through the public plugin API.",
+                "sha256": "6fe59358c8ed593f90f646b56e030f8e2d6bf5ee907b1d05ae0ece1c1189b237",
+                "width": 1280,
+                "height": 820
+              },
+              {
+                "path": "assets/kyino-pan.agent-activity/e7265d92fad613be.png",
+                "alt": "Legacy synthetic timeline illustration; relationship arrows are unavailable through the public plugin API.",
+                "sha256": "e7265d92fad613be3e0126ad742bcc73b7d70499539c3bb143e259f2886be886",
+                "width": 1280,
+                "height": 820
+              }
+            ]
+          },
+          "updatedAt": "2026-11-20T14:57:26+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/Kyino-Pan/agents-director"
+        },
         {
           "version": "0.1.7",
           "commit": "21a22caeac15dd35e06a54c3f600814e3d246a42",
@@ -25559,8 +25884,8 @@
       "ownerId": 72224798,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/leobessin/orca-mongo-studio/1.1.0"
+        "url": "https://github.com/LeoBessin/orca-mongo-studio.git",
+        "ref": "v1.2.0"
       },
       "description": "A full MongoDB client inside Orca: browse collections and edit documents, query with a query bar or the Query Builder, build aggregation pipelines stage by stage, and script in a Mongo Shell. Not affiliated with or endorsed by MongoDB, Inc.",
       "categories": [
@@ -25569,6 +25894,136 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "26370f52a0b338934c5d36188237c5c526afa203",
+          "contentHash": "a5173a897b80d234b8a8d14f2fe83fd3607d5f9fd180ee0d597d440a76c3ad8b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Mongo Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Mongo Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: New connection"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Import connections"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Export connections"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Disconnect all"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Show shell results"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Show saved tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Settings"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+T",
+              "detail": "mongoStudio.showTasks"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+R",
+              "detail": "mongoStudio.showShellResults"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Mongo Shell",
+              "detail": ".mongodb.js"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Mongo Studio: New shell script",
+              "detail": ".mongodb.js"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/leobessin.mongo-studio/2a6278734e38fb49.webp",
+              "alt": "Mongo Studio, a full MongoDB client inside Orca: the panel's connection tree in Orca's light theme and a collection table in its dark theme",
+              "sha256": "2a6278734e38fb49df93418d55bfebb663aba9402f65b1aa4772d41d1fac0dd4",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/leobessin.mongo-studio/592ac61b8562a0cf.webp",
+              "alt": "Mongo Studio icon",
+              "sha256": "592ac61b8562a0cfb7803d8db619d85067bdccffebb1ea8c247b0ea1602a221e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/leobessin.mongo-studio/9c9c7a98b484e1a6.webp",
+                "alt": "The connection tree with the orders collection selected and its size and indexes, beside the orders tab with shipped orders as a table",
+                "sha256": "9c9c7a98b484e1a613746eb11c97b02c16eb327fcfee7382644baa873ed60094",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/9023cd3130db51bb.webp",
+                "alt": "The query bar with filter, projection, sort, collation and limit, beside the Query Builder editing the same filter as nested AND and OR conditions",
+                "sha256": "9023cd3130db51bb314f9808b63fb5344032744f81b2db238d2b109a2ba163c0",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/3a26310e6c5abcae.webp",
+                "alt": "The aggregation editor with $match, $group and $sort stages: the $group stage with its output preview, and the pipeline run with its results",
+                "sha256": "3a26310e6c5abcae90abd6014adfbf3f9e7e620eabde01faaa2aaf10b0565689",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/caa810116c485ae8.webp",
+                "alt": "A document open in the Tree view with every field's BSON type, and a document holding every BSON type, from Decimal128 to Timestamp and MinKey",
+                "sha256": "caa810116c485ae894ea683bbfc384e390d939e08107b1fe169e4ff5620cc184",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/6314d81037f5a8d6.webp",
+                "alt": "The connection form with server, authentication, TLS, SSH and advanced sections, beside the connection string view with Test connection results, step by step",
+                "sha256": "6314d81037f5a8d65e3b8ad0266d95f9a9b7f8518a587e90ab5698d72aa73b9f",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/f2904f58a81ae5aa.webp",
+                "alt": "The Mongo Shell editor with a script that counts, finds and aggregates orders, beside the panel showing the find results as a table",
+                "sha256": "f2904f58a81ae5aac0b66a6e41f295b02e382ea1976d2576f2e448cd4db609d5",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/LeoBessin/orca-mongo-studio",
+          "updatedAt": "2026-11-19T14:04:41+01:00"
+        },
         {
           "version": "1.1.0",
           "commit": "9229346a20b153fd532eb8b7fba5251ec030147e",
@@ -31005,14 +31460,36 @@
       "ownerId": 69442847,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/namnameeroo/orca-pinboard/0.1.1"
+        "url": "https://github.com/namnameeroo/orca-pinboard.git",
+        "ref": "v0.1.2"
       },
       "description": "The Claude pinboard pane for Orca: the focused workspace's latest Claude session as cards (branch, background tasks, intent tree, PRs and links, docs, prompt history) and a memo per workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "9f5382104cbecaf032c1c3acd7980936e2377467",
+          "contentHash": "8e0f7975314551cad8b2829958748a20f0b6578197de4aa38c29920ddf7ae6a0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Pinboard",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pinboard"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/namnameeroo/orca-pinboard",
+          "updatedAt": "2026-11-20T18:18:05+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "494dcd1d035a45d450d59e25493014af1e07b2c8",
