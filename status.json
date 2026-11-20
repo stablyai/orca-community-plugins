@@ -498,7 +498,7 @@
     },
     "chabinhwang/orca-hwp-viewer": {
       "state": "listed",
-      "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "chabinhwang.hwp-viewer"
       ]
@@ -3126,6 +3126,13 @@
           "category": "validation",
           "detail": "engines.orca: must be at least >=1.4.246 when publisher is left out, because older Orca requires publisher"
         }
+      ]
+    },
+    "tterumiimurett/orca-audio-preview": {
+      "state": "listed",
+      "ref": "v0.3.0",
+      "plugins": [
+        "tterumiimurett.audio-preview"
       ]
     },
     "tuna-etech/gitgraph-orca": {

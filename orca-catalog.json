@@ -8021,12 +8021,38 @@
       "ownerId": 81852704,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.1.0"
+        "url": "https://github.com/chabinhwang/orca-hwp-viewer.git",
+        "ref": "v0.2.0"
       },
-      "description": "Read Hangul (.hwp, .hwpx) documents in Orca with their original page layout. 한글 문서를 원본 쪽 배치 그대로 읽습니다.",
+      "description": "Orca에서 한글 문서를 볼 수 있습니다. Read Hangul (.hwp, .hwpx) documents in Orca with their original page layout.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "4d22c61ddd29c7328ee1df7d7132e82f32907a8b",
+          "contentHash": "57964dab8703e8366afb4e8abd2147f813171f77f6bd11b382f0d1eea148085d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "HWP Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "HWP Preview",
+              "detail": ".hwp, .hwpx"
+            }
+          ],
+          "fileTypes": [
+            "hwp",
+            "hwpx"
+          ],
+          "editorFileTypes": [
+            "hwp",
+            "hwpx"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/chabinhwang/orca-hwp-viewer",
+          "updatedAt": "2026-11-20T20:45:03+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "d30f113662061c2412ac8e4fdac6ba9365ce078f",
@@ -46080,6 +46106,56 @@
           "license": "MIT",
           "repository": "https://github.com/tourbut/orca-helm",
           "updatedAt": "2026-11-05T10:08:52+09:00"
+        }
+      ]
+    },
+    {
+      "id": "tterumiimurett.audio-preview",
+      "ownerId": 77393436,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tterumiimurett/orca-audio-preview.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Play WAV, MP3 and FLAC files and inspect their waveform and spectrogram in Orca.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "860e816dbdd870c5c42df99f288ce86be4dbcc30",
+          "contentHash": "6e4612252f6dbf52a6cbc841a40f73afc2fffdadb435d331c4cffd6f3c7600ae",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Audio Preview",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Audio Preview",
+              "detail": ".wav, .mp3, .flac"
+            }
+          ],
+          "fileTypes": [
+            "wav",
+            "mp3",
+            "flac"
+          ],
+          "editorFileTypes": [
+            "wav",
+            "mp3",
+            "flac"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tterumiimurett.audio-preview/5a1a16189b0f97c8.png",
+              "alt": "Audio Preview showing a waveform and spectrogram of a synthetic audio sample.",
+              "sha256": "5a1a16189b0f97c8677363b1ee33d2547f11aa58a222466f5b4cfc7a0ae2e05d",
+              "width": 1280,
+              "height": 800
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tterumiimurett/orca-audio-preview",
+          "updatedAt": "2026-11-20T19:44:54+08:00"
         }
       ]
     },
