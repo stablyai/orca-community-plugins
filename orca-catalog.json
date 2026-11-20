@@ -38353,13 +38353,51 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Ruchkung/orca-textile.git",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
       "description": "Syntax highlighting and formatted previews for Textile files.",
       "categories": [
         "languages"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "4a133d1dc20ea692d3622d08ac417be9cd1d2cbc",
+          "contentHash": "064c6d064ab5ef6ab1b73a35987eea19143454f0401d3d730a29dd746b90717c",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Textile",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Textile",
+              "detail": ".textile"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".textile"
+            }
+          ],
+          "fileTypes": [
+            "textile"
+          ],
+          "editorFileTypes": [
+            "textile"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ruchkung.textile/e71a59ccdfec98cb.jpg",
+              "alt": "Textile title beside layered source and preview pages with a formatted table.",
+              "sha256": "e71a59ccdfec98cb502ae7e37ace6bb740c17b61e1cb3dadc1ea887cac6e02b0",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ruchkung/orca-textile",
+          "updatedAt": "2026-11-21T03:16:33+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "5e6607beafdb99f6859669276c7c2224ae1d2f71",
