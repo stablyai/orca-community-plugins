@@ -2231,6 +2231,12 @@
     "repoId": 1464976261,
     "firstSeen": "2026-11-20T08:30:48.708Z"
   },
+  "hmdrams-dev.alias@0.1.1": {
+    "commit": "c5917737d30de825267c8d8fc40611cbcd000c44",
+    "contentHash": "925f76e70ee0020614107cfd485e3567824e9695a40f788ba6e0107eb7922e18",
+    "repoId": 1464976261,
+    "firstSeen": "2026-11-20T16:17:11.512Z"
+  },
   "hsnils.github-notifications@0.1.0": {
     "commit": "2928bc20a6fa4910e647970735467f6ac95e8615",
     "contentHash": "298977eae4b049818bfc74be814683a7eb032e4766d0a62984a66103d07df052",
@@ -4355,6 +4361,12 @@
     "repoId": 1452618076,
     "firstSeen": "2026-11-12T09:11:14.306Z"
   },
+  "serhii-f8.docker@0.2.0": {
+    "commit": "644c4be62959ede40bf27dbd566cec39203eb093",
+    "contentHash": "ae7dcd60dbf9d085cb24169878e2789f5f6071bed8c8b6aa718d6d596a037d67",
+    "repoId": 1452618076,
+    "firstSeen": "2026-11-20T16:17:11.512Z"
+  },
   "serhii-f8.git-toolbox@0.1.0": {
     "commit": "83789bdfb918b451e1bb1b4988ebaf205e908e5d",
     "contentHash": "a108a8199fefbf6ee09c313ded122ec2c101322ef2978b39a4032556d1204ce5",
@@ -4378,6 +4390,12 @@
     "contentHash": "ffc727cf49f2b0a869e1f37c4e603cac049565589278923349ed6572c174c034",
     "repoId": 1452623725,
     "firstSeen": "2026-11-13T13:14:21.041Z"
+  },
+  "serhii-f8.git-toolbox@0.4.2": {
+    "commit": "8d12b8ab4a49c845c60d3ab7710392ca6729355e",
+    "contentHash": "0694bb672461bda028810d96f53599fa3b6b4be9ce8b179844cefc987a89eabc",
+    "repoId": 1452623725,
+    "firstSeen": "2026-11-20T16:17:11.512Z"
   },
   "shakedm100.latex-preview@0.4.2": {
     "commit": "61bbd76a70c2ff70227d9e130f23caebdda273f9",

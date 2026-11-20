@@ -853,7 +853,7 @@
     },
     "duegin/orca-ensemble": {
       "state": "rejected",
-      "ref": "v0.5.2",
+      "ref": "v0.5.3",
       "reasons": [
         {
           "category": "under-review",
@@ -1353,7 +1353,7 @@
     },
     "hmdrams-dev/orca-plugin-alias": {
       "state": "listed",
-      "ref": "refs/tags/hmdrams-dev/orca-plugin-alias/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "hmdrams-dev.alias"
       ]
@@ -2783,14 +2783,14 @@
     },
     "serhii-f8/orca-docker": {
       "state": "listed",
-      "ref": "refs/tags/serhii-f8/orca-docker/0.1.2",
+      "ref": "v0.2.0",
       "plugins": [
         "serhii-f8.docker"
       ]
     },
     "serhii-f8/orca-gittoolbox": {
       "state": "listed",
-      "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.1",
+      "ref": "v0.4.2",
       "plugins": [
         "serhii-f8.git-toolbox"
       ]
@@ -3433,7 +3433,7 @@
     },
     "websolutionfalcon/orca-aif": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/websolutionfalcon/orca-aif/0.2.1",
       "plugins": [
         "websolutionfalcon.ai-factory"
       ]
