@@ -20095,8 +20095,8 @@
       "ownerId": 116369056,
       "source": {
         "kind": "git",
-        "url": "https://github.com/HMDRAMS-DEV/orca-plugin-alias.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hmdrams-dev/orca-plugin-alias/0.1.1"
       },
       "description": "Audit your agent skills across Claude Code, Codex and Gemini, clean up the ones you never use, and share a public profile of the ones you do.",
       "categories": [
@@ -24328,6 +24328,74 @@
           "license": "MIT",
           "repository": "https://github.com/jonstuebe/orca-todos",
           "updatedAt": "2026-11-14T10:44:42-07:00"
+        }
+      ]
+    },
+    {
+      "id": "juancruzc97.parquet-viewer",
+      "ownerId": 63983689,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JuanCruzC97/orca-parquet-viewer.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Browse Apache Parquet files in Orca's editor: a virtualized grid over millions of rows, with the file's schema, row groups and key-value metadata. Read-only.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "50b6ee5b79da35eff3f5f1ddfb54a9e3b355ebe9",
+          "contentHash": "5df40ced6dd8810a2b69e2ac2f17d8334f81b0de2667f515fecefa0577b98772",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Parquet Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Parquet",
+              "detail": ".parquet, .parq, .pq, .pqt"
+            }
+          ],
+          "fileTypes": [
+            "parquet",
+            "parq",
+            "pq",
+            "pqt"
+          ],
+          "editorFileTypes": [
+            "parquet",
+            "parq",
+            "pq",
+            "pqt"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/juancruzc97.parquet-viewer/12c44d2c779878cc.png",
+              "alt": "An events parquet file in Orca: timestamps, user ids, countries and revenue values in a dark grid, with row and column counts in the status bar",
+              "sha256": "12c44d2c779878cc39b8dbd70e6b979125a3072e045fc1ea59a4db863262a1db",
+              "width": 1280,
+              "height": 800
+            },
+            "screenshots": [
+              {
+                "path": "assets/juancruzc97.parquet-viewer/5fc0b658bc9250d4.png",
+                "alt": "A 200,000-row file open: the grid shows its first rows while the status bar counts every row",
+                "sha256": "5fc0b658bc9250d4504f075697c2574be7a25b9f541e6f0b6d5ca6c0c6813207",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juancruzc97.parquet-viewer/a369640dfcb3faf5.png",
+                "alt": "A file with the classic impala types: int32, int64, float, double, text and int96 timestamps side by side",
+                "sha256": "a369640dfcb3faf5809a389b4bd960b92f364f6fc0871c7155023ac094520738",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/JuanCruzC97/orca-parquet-viewer",
+          "updatedAt": "2026-11-20T13:38:01-03:00"
         }
       ]
     },
@@ -41860,8 +41928,8 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/serhii-f8/orca-Docker.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/serhii-f8/orca-docker/0.2.0"
       },
       "description": "Manage Docker Compose projects and containers from Orca's sidebar: colour-coded status, Up/Stop/Restart/Down, live logs and a one-click shell.",
       "categories": [
@@ -42004,8 +42072,8 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
-        "ref": "v0.4.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.2"
       },
       "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, side-by-side merge conflict resolution, a project and worktree switcher, a status bar branch indicator and background fetch.",
       "categories": [
