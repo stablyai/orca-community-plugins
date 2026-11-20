@@ -1928,6 +1928,16 @@
         "contributes.languagePacks \"uk\" (locales/uk.json): 90 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
+    "manomilano/orca-mascots": {
+      "state": "rejected",
+      "ref": "v1.0.1",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "name \"Orca Mascots\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+        }
+      ]
+    },
     "marco-calderon/nord-midnight-orca-theme": {
       "state": "listed",
       "ref": "refs/tags/marco-calderon/nord-midnight-orca-theme/1.3.0",
