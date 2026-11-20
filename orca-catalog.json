@@ -19128,8 +19128,8 @@
       "ownerId": 97011015,
       "source": {
         "kind": "git",
-        "url": "https://github.com/h00ns/test-runner-for-orca.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.0"
       },
       "description": "Run your workspace's tests from the sidebar, re-run the related ones when an agent finishes, and send failures back to the agent. Vitest, Jest, Playwright, Cypress, Gradle, Maven and pytest; monorepos included.",
       "categories": [
@@ -49498,8 +49498,8 @@
       "ownerId": 17783011,
       "source": {
         "kind": "git",
-        "url": "https://github.com/websolutionfalcon/orca-aif.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/websolutionfalcon/orca-aif/0.1.3"
       },
       "description": "AI Factory workflow in Orca: quick /aif commands for the workspace agent and live plan, roadmap and setup status in the status bar and the right sidebar.",
       "categories": [
