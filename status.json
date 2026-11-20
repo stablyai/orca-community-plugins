@@ -591,7 +591,7 @@
     },
     "cmdaltctr/orca-plugin-openspec": {
       "state": "listed",
-      "ref": "v0.2.3",
+      "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.3",
       "plugins": [
         "cmdaltctr.openspec"
       ],
@@ -684,13 +684,13 @@
       ]
     },
     "davidseptimus/armada-theme-orca-plugin": {
-      "state": "rejected",
-      "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "davidseptimus.armada-theme"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "davidtaboas/orca-fountain-plugin": {

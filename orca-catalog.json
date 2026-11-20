@@ -9123,8 +9123,8 @@
       "ownerId": 76873351,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cmdaltctr/orca-plugin-openspec.git",
-        "ref": "v0.2.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.3"
       },
       "description": "See your OpenSpec changes on one board inside Orca. Each change shows its stage, planning files and task progress, across the current worktree and its sibling worktrees. Press Apply to send a change to a running agent.",
       "categories": [
@@ -10116,6 +10116,43 @@
           "license": "MIT",
           "repository": "https://github.com/cuni0716/monokai-pro-orca",
           "updatedAt": "2026-11-11T14:38:21+01:00"
+        }
+      ]
+    },
+    {
+      "id": "davidseptimus.armada-theme",
+      "ownerId": 110404901,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/DavidSeptimus/armada-theme-orca-plugin.git",
+        "ref": "v1.0.1"
+      },
+      "description": "A dark color theme inspired by the dark themes of JetBrains Fleet and Air.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "0be84d4ac01eec07bec7d755a58de9d179e86579",
+          "contentHash": "f921f1df93427ae0e3511dc25ea3a791b53d4e69d5d89c2414815de64002cc92",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Armada for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Armada"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Armada"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/DavidSeptimus/armada-theme-orca-plugin",
+          "updatedAt": "2026-11-20T11:10:44-07:00"
         }
       ]
     },
