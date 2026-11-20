@@ -1444,14 +1444,69 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/adamthewilliam/orca-diff-breakdown/0.1.0"
+        "url": "https://github.com/adamthewilliam/orca-diff-breakdown.git",
+        "ref": "v0.3.0"
       },
-      "description": "See a branch's changes broken down by kind: runtime, tests, contracts, DB migrations, CI/CD, config, dependencies and docs, with each kind's share of the changed lines.",
+      "description": "See a branch's changes broken down by kind: runtime, tests, contracts, DB migrations, CI/CD, config, dependencies and docs, with each kind's share of the changed lines. Reads repositories on this computer; remote workspaces aren’t supported yet.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "52a4775b3c86d13cca09fa1ae4d0797897a9c173",
+          "contentHash": "30887507cc41d388c87bfe05997b4a08e22773912a2985e3c7159c219f8bb1c8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Diff Breakdown",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Diff Breakdown"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/adamthewilliam.diff-breakdown/98e0e10b370ffd9b.png",
+              "alt": "The Diff Breakdown panel, collapsed and expanded, beside the list of change kinds it sorts files into",
+              "sha256": "98e0e10b370ffd9bfbb6e2e1ffd9d57c4834a90cbb5b980d819e198e6c3d4eea",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/adamthewilliam.diff-breakdown/7229a4af5f63fcb9.png",
+              "alt": "Diff Breakdown icon",
+              "sha256": "7229a4af5f63fcb9e9d3ac2eaa1c46d649664d2f363e957f68efef64b4d836c3",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/adamthewilliam.diff-breakdown/cdaf35e724211000.png",
+                "alt": "The panel showing a branch's changes as a share bar and one row per kind, from Runtime to Generated",
+                "sha256": "cdaf35e724211000c35ccd269330391750f6b9f2315c4443a88751940c6e7c40",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/adamthewilliam.diff-breakdown/d89a62b091dc12d1.png",
+                "alt": "The panel with its groups open, listing each changed file with its folder, lines changed and status",
+                "sha256": "d89a62b091dc12d123532200a4f54c044b3525737041949d6bcd871eee2e6acc",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/adamthewilliam/orca-diff-breakdown",
+          "updatedAt": "2026-11-19T17:25:32Z"
+        },
         {
           "version": "0.1.0",
           "commit": "130295d824c9588f28802a0e4c9644feb1212f75",
@@ -2828,8 +2883,8 @@
       "ownerId": 60304947,
       "source": {
         "kind": "git",
-        "url": "https://github.com/angtdiaz/kittens-arcade.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/angtdiaz/kittens-arcade/0.3.1"
       },
       "description": "Pixel art games played by kittens, for the wait between agents: Catching Kittens, Kitten Pairs and Kitten Maze. Coins from every game buy coats and hats for your kitten, and furniture and treats for its home.",
       "categories": [
@@ -7908,8 +7963,8 @@
       "ownerId": 81852704,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chabinhwang/orca-hwp-viewer.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.1.0"
       },
       "description": "Read Hangul (.hwp, .hwpx) documents in Orca with their original page layout. 한글 문서를 원본 쪽 배치 그대로 읽습니다.",
       "categories": [],
@@ -9292,8 +9347,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.2.1"
+        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
+        "ref": "v0.3.0"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -9302,6 +9357,43 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "3dc099eba651564c10e7196a57afe63e258565b7",
+          "contentHash": "eba010b124526cb609acb5aac18b8a7887823bab95a32af25db460c08c3f90ef",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "MattWorkflow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "MattWorkflow"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Refresh tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Open current workspace in Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "agent:read"
+          ],
+          "updatedAt": "2026-11-19T16:39:28+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow"
+        },
         {
           "version": "0.2.1",
           "commit": "9dbeb21c73ec0422cc5d0965adeedb30249344fc",
@@ -10085,6 +10177,170 @@
           "license": "MIT",
           "repository": "https://github.com/ddantran/orca-rails-syntax",
           "updatedAt": "2026-11-05T10:58:57+07:00"
+        }
+      ]
+    },
+    {
+      "id": "decadance-dance.plane",
+      "ownerId": 86170544,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/decadance-dance/orca-plane.git",
+        "ref": "0.2.1"
+      },
+      "description": "Your open Plane work items in Orca's sidebar: see what is assigned to you, read an item, and start a coding agent on it in a new workspace. Plane Cloud or self-hosted (API v2). Not affiliated with Plane.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "a925a25b89cab5be36cabab709eb1ba9ca500209",
+          "contentHash": "c06997c633a9a3d8e1e68068991de09abec2952783b453d1c47de08d9b9fd3f9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Plane for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Plane"
+            },
+            {
+              "kind": "commands",
+              "name": "Plane: toggle the right sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Plane: go to an agent that waits for you"
+            },
+            {
+              "kind": "commands",
+              "name": "Plane: open the workspace of the item shown in the panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Plane: refresh my work items"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+J",
+              "detail": "plane.nextWaiting"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+L",
+              "detail": "plane.toggleSidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "count"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch",
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/decadance-dance.plane/3d77f297ba009ce1.png",
+              "alt": "The Plane panel in Orca lists your work items; Start on WEB-12 opens a workspace with Claude Code. Unofficial, not made or endorsed by Plane.",
+              "sha256": "3d77f297ba009ce15ca0f9c547c374f308bdb6cbb0e622a1971d5d8047e409b7",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/decadance-dance.plane/151e4758f4d5f7f7.png",
+              "alt": "Plane for Orca icon",
+              "sha256": "151e4758f4d5f7f7379f4e6aac01c84080cfcb789771655eb7b8be53ba462333",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/decadance-dance.plane/891b66003d38615b.png",
+                "alt": "The Plane panel: WEB-12 in progress with its agent done, WEB-9 in Todo with its agent needing input",
+                "sha256": "891b66003d38615b2d86f5218d4fe2252048d1e477314ac5e98ba39c595f08de",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/decadance-dance.plane/63d64c0552a44261.png",
+                "alt": "The Plane panel: WEB-12 in progress with its agent done, WEB-9 in Todo with its agent needing input",
+                "sha256": "63d64c0552a4426141636cf2cd8ca0a994878d68bdfbf19295ef864277f59b9f",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/decadance-dance.plane/6727fca3d9e582a9.png",
+                "alt": "The detail of WEB-12: priority high, state In Progress, assignee, labels bug and auth, Start work and Plane buttons, then the description",
+                "sha256": "6727fca3d9e582a9821df8df53861e05595b5a77bbafa274629687f2b34c3fec",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/decadance-dance.plane/088440f869c220a7.png",
+                "alt": "The detail of WEB-12: priority high, state In Progress, assignee, labels bug and auth, Start work and Plane buttons, then the description",
+                "sha256": "088440f869c220a75186a940e313fb1ee7b8ab0dd81d704c588eebf3bb0e9cae",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/decadance-dance.plane/bcfc0649cd84be96.png",
+                "alt": "Start WEB-12: pick the Orca project and the agent, see the workspace and branch names and a readiness hint, edit the prompt, then Confirm",
+                "sha256": "bcfc0649cd84be96acb4a0c18efddc5ba887ab433aac1c20992245f0301b138a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/decadance-dance.plane/a58d26c98e5d510c.png",
+                "alt": "Start WEB-12: pick the Orca project and the agent, see the workspace and branch names and a readiness hint, edit the prompt, then Confirm",
+                "sha256": "a58d26c98e5d510c04eb6b3c930ef624e6e7d382627094bd9324b72113915175",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/decadance-dance/orca-plane",
+          "updatedAt": "2026-11-19T22:43:26+01:00"
         }
       ]
     },
@@ -23405,8 +23661,8 @@
       "ownerId": 68127491,
       "source": {
         "kind": "git",
-        "url": "https://github.com/klausbegnis/agent-center.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/klausbegnis/agent-center/0.4.0"
       },
       "description": "A tavern per project where your agents are characters acting out their work. Just watch them, or turn on the idle auto-battler: levels and loot, a settlement and cities that grow, traits, achievements, daily quests, a bestiary and boss dungeons.",
       "categories": [

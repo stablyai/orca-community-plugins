@@ -51,19 +51,10 @@
     },
     "adamthewilliam/orca-diff-breakdown": {
       "state": "listed",
-      "ref": "refs/tags/adamthewilliam/orca-diff-breakdown/0.1.0",
+      "ref": "v0.3.0",
       "plugins": [
         "adamthewilliam.diff-breakdown"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
@@ -183,7 +174,7 @@
     },
     "angtdiaz/kittens-arcade": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/angtdiaz/kittens-arcade/0.3.1",
       "plugins": [
         "angtdiaz.kittens-arcade"
       ]
@@ -500,7 +491,7 @@
     },
     "chabinhwang/orca-hwp-viewer": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.1.0",
       "plugins": [
         "chabinhwang.hwp-viewer"
       ]
@@ -614,19 +605,10 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.2.1",
+      "ref": "v0.3.0",
       "plugins": [
         "cnzgray.mattpocock-workflow"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "codeious/orca-boat-sandbox": {
       "state": "rejected",
@@ -744,13 +726,14 @@
       ]
     },
     "decadance-dance/orca-plane": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "0.2.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "decadance-dance.plane"
+      ],
+      "notes": [
+        "src/links.ts: calls host method \"workspace.list\" from panels, which cannot call it (surfaces: worker)",
+        "src/links.ts: calls host method \"terminal.list\" from panels, which cannot call it (surfaces: worker)"
       ]
     },
     "dennib/finline": {
@@ -1625,7 +1608,7 @@
     },
     "klausbegnis/agent-center": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/klausbegnis/agent-center/0.4.0",
       "plugins": [
         "klausbegnis.agent-center"
       ],

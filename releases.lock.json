@@ -95,6 +95,12 @@
     "repoId": 1463500343,
     "firstSeen": "2026-11-19T01:28:21.993Z"
   },
+  "adamthewilliam.diff-breakdown@0.3.0": {
+    "commit": "52a4775b3c86d13cca09fa1ae4d0797897a9c173",
+    "contentHash": "30887507cc41d388c87bfe05997b4a08e22773912a2985e3c7159c219f8bb1c8",
+    "repoId": 1463500343,
+    "firstSeen": "2026-11-20T08:49:23.972Z"
+  },
   "addisflava.llm-router@1.0.0": {
     "commit": "e6a3f564fec97106af31390db1678b8b445b5918",
     "contentHash": "02e9514fb3e5946489000c7240325b4ac357536e02f6799bc4d46385bf54ed35",
@@ -1067,6 +1073,12 @@
     "repoId": 1457826992,
     "firstSeen": "2026-11-16T15:23:49.451Z"
   },
+  "cnzgray.mattpocock-workflow@0.3.0": {
+    "commit": "3dc099eba651564c10e7196a57afe63e258565b7",
+    "contentHash": "eba010b124526cb609acb5aac18b8a7887823bab95a32af25db460c08c3f90ef",
+    "repoId": 1457826992,
+    "firstSeen": "2026-11-20T08:49:23.972Z"
+  },
   "coffeepy.swampling@0.2.0": {
     "commit": "cde83e6c58d199075e161f20181a7676a62a811e",
     "contentHash": "49ecce892eadce7a0872e5182b886bd93303ec831f0d6de29967eeff36266763",
@@ -1156,6 +1168,12 @@
     "contentHash": "3aa9dec7d21f05588c3b7483ed858ac62eb170cebe4043f6ce38cead29e05eab",
     "repoId": 1443894440,
     "firstSeen": "2026-11-05T04:17:00.316Z"
+  },
+  "decadance-dance.plane@0.2.1": {
+    "commit": "a925a25b89cab5be36cabab709eb1ba9ca500209",
+    "contentHash": "c06997c633a9a3d8e1e68068991de09abec2952783b453d1c47de08d9b9fd3f9",
+    "repoId": 1456682852,
+    "firstSeen": "2026-11-20T08:49:23.972Z"
   },
   "dennib.finline@0.2.0": {
     "commit": "9e6cdce0602ee3df018261bea5bdd2ce2007440e",
