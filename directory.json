@@ -930,7 +930,7 @@
     },
     {
       "id": "heath0xff.stillwater",
-      "stars": 1,
+      "stars": null,
       "stats": null
     },
     {
@@ -1230,6 +1230,11 @@
     },
     {
       "id": "matteoeusebi.pulse",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "mattguetta.superset-dark-theme",
       "stars": 0,
       "stats": null
     },
@@ -1930,6 +1935,11 @@
     },
     {
       "id": "web-tree.runspore",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "websolutionfalcon.ai-factory",
       "stars": 0,
       "stats": null
     },

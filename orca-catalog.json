@@ -15630,14 +15630,96 @@
       "ownerId": 49872514,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.1.1"
+        "url": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin.git",
+        "ref": "v0.2.0"
       },
       "description": "Your Azure Boards work items (Azure DevOps Services) in Orca: what is assigned to you and your team's board. Search, move items between states and columns, and start work on one with a coding agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "c1ba60e648b982d11326d95d8d19d6b24832418f",
+          "contentHash": "fcf734337c04d69d0ff955dcc71545ebd6f540fd1f204ae31221d12101eb6ce1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.264",
+          "name": "Azure Boards",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Azure Boards"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "history:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/fabiopbarbieri.azure-boards/ca8c7d91798176c4.png",
+              "alt": "Azure Boards for Orca: the team board and the Start work form in Orca's sidebar",
+              "sha256": "ca8c7d91798176c4e8a7eca3a0c57ebe99ee4793a96a7ba3b83b5bf78cfb918d",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/e56f8445fe3f5d87.png",
+                "alt": "Assigned to me: work items grouped by state, with type icons, task progress and pull requests",
+                "sha256": "e56f8445fe3f5d87acecb51bf3d399c37dd25d7147c9f81da9eeada318acaccb",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/93d0b966cc7c757a.png",
+                "alt": "Board: the team's current sprint in its own columns, with WIP limits and Doing/Done halves",
+                "sha256": "93d0b966cc7c757ac55f25618e2f3925d4e5e78dfeba9a47b229c1600f4ce8c3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/8725b7bfd1636eb0.png",
+                "alt": "Item actions: open in the browser, Start work and Move to",
+                "sha256": "8725b7bfd1636eb0e67c8f4f38e6990bd80fd8fb3dd4f662a3ee09f65cae734b",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/8591b951fc62cd62.png",
+                "alt": "Start work: sending a ready prompt about the work item to an open coding agent",
+                "sha256": "8591b951fc62cd62586a0b2361a092dd38e4e8b64d6afeca07e680cdad1f4d75",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/2152953e073435eb.png",
+                "alt": "Search: filtering the items by part of the title",
+                "sha256": "2152953e073435ebd4dff74845d548b61e05685e15a57e6255c54a8c6fae5a55",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/14c5eacadeb674b5.png",
+                "alt": "Settings: connection, projects, board, display and refresh sections",
+                "sha256": "14c5eacadeb674b59ddea096043dab844a2f51cc315eae1cb17f3e378ef7cc85",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin",
+          "updatedAt": "2026-11-20T10:47:37-03:00"
+        },
         {
           "version": "0.1.1",
           "commit": "78517b513919656074dda3c755b204aafbc91409",
@@ -19046,8 +19128,8 @@
       "ownerId": 97011015,
       "source": {
         "kind": "git",
-        "url": "https://github.com/h00ns/test-runner-for-orca.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/h00ns/test-runner-for-orca/0.1.0"
       },
       "description": "Run a workspace's Vitest or Jest tests from the sidebar, re-run them when an agent finishes, and send failures back to the agent to fix.",
       "categories": [
@@ -28370,6 +28452,43 @@
           "license": "MIT",
           "repository": "https://github.com/matteoeusebi/orca-pulse",
           "updatedAt": "2026-11-15T03:05:14+01:00"
+        }
+      ]
+    },
+    {
+      "id": "mattguetta.superset-dark-theme",
+      "ownerId": 11231454,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mattguetta/orca-theme-superset-dark.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Thème sombre chaud (app + terminal) importé de Warp : fond #151110, accent orange #e07850.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "5aa444829431392bbc9c540c0ab32df361ebdb42",
+          "contentHash": "df7282eb6e176757a8067f1e31e8d4dcd977ea0d480353efe686620f777baa22",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Superset Dark",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Superset Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Superset Dark"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/mattguetta/orca-theme-superset-dark",
+          "updatedAt": "2026-11-20T14:51:43+01:00"
         }
       ]
     },
@@ -49296,6 +49415,172 @@
           "license": "MIT",
           "repository": "https://github.com/Web-tree/orca-runspore",
           "updatedAt": "2026-11-16T01:23:13+01:00"
+        }
+      ]
+    },
+    {
+      "id": "websolutionfalcon.ai-factory",
+      "ownerId": 17783011,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/websolutionfalcon/orca-aif.git",
+        "ref": "v0.1.2"
+      },
+      "description": "AI Factory workflow in Orca: quick /aif commands for the workspace agent and live plan, roadmap and setup status in the status bar and the right sidebar.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "12c7db6d72374c9758c998786b15cbc3fd20e41d",
+          "contentHash": "1d284a1bb4c7ab3d37ad35d7914cbd4499ae3d250efbb493b184c2baa481048a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "AI Factory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "AI Factory"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Refresh status"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Show or hide the right sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Set up project (/aif)"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Warm up session"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Explore"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Roadmap"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Plan…"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Improve plan"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Implement"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Verify"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Review"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Commit"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Fix…"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Docs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+I",
+              "detail": "aif.run.implement"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+A",
+              "detail": "aif.summary"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "AIF"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/websolutionfalcon.ai-factory/ab34756deb965bbf.png",
+              "alt": "AI Factory for Orca: plugin icon and title beside the sidebar panel with a plan at 4/8 tasks and command buttons.",
+              "sha256": "ab34756deb965bbfc7b1b8cbbf33eed7bdfb31c36cbe5039308512806fba478c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/websolutionfalcon.ai-factory/2da5c013af8cf04e.png",
+              "alt": "AI Factory icon",
+              "sha256": "2da5c013af8cf04e6c270927e89394a7ee51d3ec4d375ce8685979674f2d4ecd",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/websolutionfalcon.ai-factory/66935ab3e51aa289.png",
+                "alt": "Orca window: Claude Code runs /aif-implement, the AI Factory panel shows the plan, the status bar shows AIF 4/8.",
+                "sha256": "66935ab3e51aa2892a79218ed7639804efae63d81d97c7f6f98717d426331d00",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/websolutionfalcon.ai-factory/3cef62e80d88b86c.png",
+                "alt": "The AI Factory panel after sending $aif-plan to a Codex agent; the command appears in the Codex terminal.",
+                "sha256": "3cef62e80d88b86c8c8464c8694cffc5e2cebd465106096d3b8a1f43e4cf58cc",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/websolutionfalcon.ai-factory/7872d46d81c09f31.png",
+                "alt": "Three AI Factory panels side by side: light theme, dark theme and Russian interface.",
+                "sha256": "7872d46d81c09f31545b1fb62a0acc86a80501a614a73c4b00341509c945066f",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/websolutionfalcon/orca-aif",
+          "updatedAt": "2026-11-20T15:11:48+01:00"
         }
       ]
     },

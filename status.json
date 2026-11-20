@@ -1024,7 +1024,7 @@
     },
     "fabiopbarbieri/azure-boards-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "fabiopbarbieri.azure-boards"
       ],
@@ -1263,7 +1263,7 @@
     },
     "h00ns/test-runner-for-orca": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/h00ns/test-runner-for-orca/0.1.0",
       "plugins": [
         "h00ns.test-runner"
       ]
@@ -1950,6 +1950,13 @@
         "matteoeusebi.pulse"
       ]
     },
+    "mattguetta/orca-theme-superset-dark": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "mattguetta.superset-dark-theme"
+      ]
+    },
     "maxfedorov/youtrack-for-orca": {
       "state": "listed",
       "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.1",
@@ -2123,6 +2130,16 @@
       "ref": "refs/tags/moseoh/orca-git-history/0.1.2",
       "plugins": [
         "moseoh.git-history"
+      ]
+    },
+    "mostlyheath/stillwater": {
+      "state": "rejected",
+      "ref": "v1.1.0",
+      "reasons": [
+        {
+          "category": "identity-hold",
+          "detail": "moved from heath0xFF/stillwater (heath0xff.stillwater) to mostlyheath/stillwater (mostlyheath.stillwater); new versions paused until a maintainer confirms the move in identity-moves.json"
+        }
       ]
     },
     "mrakofff/orca-palenight-theme-plugin": {
@@ -3415,13 +3432,10 @@
       ]
     },
     "websolutionfalcon/orca-aif": {
-      "state": "rejected",
-      "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "content"
-        }
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "websolutionfalcon.ai-factory"
       ]
     },
     "weiping/wingline": {
