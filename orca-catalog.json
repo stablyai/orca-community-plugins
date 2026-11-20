@@ -8021,8 +8021,8 @@
       "ownerId": 81852704,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chabinhwang/orca-hwp-viewer.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.2.0"
       },
       "description": "Orca에서 한글 문서를 볼 수 있습니다. Read Hangul (.hwp, .hwpx) documents in Orca with their original page layout.",
       "categories": [],
@@ -26065,8 +26065,8 @@
       "ownerId": 72224798,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/leobessin/orca-mongo-studio/1.2.0"
+        "url": "https://github.com/LeoBessin/orca-mongo-studio.git",
+        "ref": "v1.3.0"
       },
       "description": "A full MongoDB client inside Orca: browse collections and edit documents, query with a query bar or the Query Builder, build aggregation pipelines stage by stage, and script in a Mongo Shell. Not affiliated with or endorsed by MongoDB, Inc.",
       "categories": [
@@ -26075,6 +26075,136 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "1fbc203970bfce3f407a6dba650d427c77903c7d",
+          "contentHash": "68b9f87d2a12d4713380608f9e72c3b50fd15ecd2a4700235d50d0e92efc3222",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Mongo Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Mongo Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: New connection"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Import connections"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Export connections"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Disconnect all"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Show shell results"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Show saved tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Mongo Studio: Settings"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+T",
+              "detail": "mongoStudio.showTasks"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+R",
+              "detail": "mongoStudio.showShellResults"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Mongo Shell",
+              "detail": ".mongodb.js"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Mongo Studio: New shell script",
+              "detail": ".mongodb.js"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/leobessin.mongo-studio/2a6278734e38fb49.webp",
+              "alt": "Mongo Studio, a full MongoDB client inside Orca: the panel's connection tree in Orca's light theme and a collection table in its dark theme",
+              "sha256": "2a6278734e38fb49df93418d55bfebb663aba9402f65b1aa4772d41d1fac0dd4",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/leobessin.mongo-studio/592ac61b8562a0cf.webp",
+              "alt": "Mongo Studio icon",
+              "sha256": "592ac61b8562a0cfb7803d8db619d85067bdccffebb1ea8c247b0ea1602a221e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/leobessin.mongo-studio/9c9c7a98b484e1a6.webp",
+                "alt": "The connection tree with the orders collection selected and its size and indexes, beside the orders tab with shipped orders as a table",
+                "sha256": "9c9c7a98b484e1a613746eb11c97b02c16eb327fcfee7382644baa873ed60094",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/9023cd3130db51bb.webp",
+                "alt": "The query bar with filter, projection, sort, collation and limit, beside the Query Builder editing the same filter as nested AND and OR conditions",
+                "sha256": "9023cd3130db51bb314f9808b63fb5344032744f81b2db238d2b109a2ba163c0",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/3a26310e6c5abcae.webp",
+                "alt": "The aggregation editor with $match, $group and $sort stages: the $group stage with its output preview, and the pipeline run with its results",
+                "sha256": "3a26310e6c5abcae90abd6014adfbf3f9e7e620eabde01faaa2aaf10b0565689",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/caa810116c485ae8.webp",
+                "alt": "A document open in the Tree view with every field's BSON type, and a document holding every BSON type, from Decimal128 to Timestamp and MinKey",
+                "sha256": "caa810116c485ae894ea683bbfc384e390d939e08107b1fe169e4ff5620cc184",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/6314d81037f5a8d6.webp",
+                "alt": "The connection form with server, authentication, TLS, SSH and advanced sections, beside the connection string view with Test connection results, step by step",
+                "sha256": "6314d81037f5a8d65e3b8ad0266d95f9a9b7f8518a587e90ab5698d72aa73b9f",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/leobessin.mongo-studio/f2904f58a81ae5aa.webp",
+                "alt": "The Mongo Shell editor with a script that counts, finds and aggregates orders, beside the panel showing the find results as a table",
+                "sha256": "f2904f58a81ae5aac0b66a6e41f295b02e382ea1976d2576f2e448cd4db609d5",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/LeoBessin/orca-mongo-studio",
+          "updatedAt": "2026-11-20T13:35:52+01:00"
+        },
         {
           "version": "1.2.0",
           "commit": "26370f52a0b338934c5d36188237c5c526afa203",
@@ -46114,8 +46244,8 @@
       "ownerId": 77393436,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tterumiimurett/orca-audio-preview.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tterumiimurett/orca-audio-preview/0.3.0"
       },
       "description": "Play WAV, MP3 and FLAC files and inspect their waveform and spectrogram in Orca.",
       "categories": [],

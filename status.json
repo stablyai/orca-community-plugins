@@ -498,7 +498,7 @@
     },
     "chabinhwang/orca-hwp-viewer": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.2.0",
       "plugins": [
         "chabinhwang.hwp-viewer"
       ]
@@ -1755,7 +1755,7 @@
     },
     "leobessin/orca-mongo-studio": {
       "state": "listed",
-      "ref": "refs/tags/leobessin/orca-mongo-studio/1.2.0",
+      "ref": "v1.3.0",
       "plugins": [
         "leobessin.mongo-studio"
       ]
@@ -2688,6 +2688,16 @@
         "schowave.asciidoc-diagrams"
       ]
     },
+    "sdlsy/self-use-tools": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "senadaruc/orca-grazr": {
       "state": "listed",
       "ref": "refs/tags/senadaruc/orca-grazr/0.8.1",
@@ -3130,7 +3140,7 @@
     },
     "tterumiimurett/orca-audio-preview": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/tterumiimurett/orca-audio-preview/0.3.0",
       "plugins": [
         "tterumiimurett.audio-preview"
       ]
