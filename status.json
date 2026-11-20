@@ -1366,7 +1366,16 @@
       "ref": "refs/tags/hmdrams-dev/orca-plugin-alias/0.1.1",
       "plugins": [
         "hmdrams-dev.alias"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "hsnils/orca-github-notifications": {
       "state": "listed",
@@ -3518,7 +3527,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.7",
+      "ref": "v0.1.8",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
