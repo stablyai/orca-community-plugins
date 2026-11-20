@@ -49498,17 +49498,166 @@
       "ownerId": 17783011,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/websolutionfalcon/orca-aif/0.1.3"
+        "url": "https://github.com/websolutionfalcon/orca-aif.git",
+        "ref": "v0.2.1"
       },
       "description": "AI Factory workflow in Orca: quick /aif commands for the workspace agent and live plan, roadmap and setup status in the status bar and the right sidebar.",
       "categories": [
         "panels",
         "commands",
-        "integrations",
-        "keybindings"
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "1df2e7916a62d2bfb43ddde4a5c69bbbe386698d",
+          "contentHash": "0bbcb4396647b042b0574362643d32a1dbd8b9858d20afa0dd40fe0f1d885dc6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "AI Factory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "AI Factory"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Open panel (status bar)"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Refresh status"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Show or hide the right sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Set up project (/aif)"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Warm up session"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Explore"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Roadmap"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Plan…"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Improve plan"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Implement"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Verify"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Review"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Commit"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Fix…"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Docs"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Architecture"
+            },
+            {
+              "kind": "commands",
+              "name": "AI Factory: Rules"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "AIF"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/websolutionfalcon.ai-factory/66a8dd54f7e347be.png",
+              "alt": "AI Factory for Orca: the plugin title beside its real sidebar panel with a plan at 4/8, the roadmap and context.",
+              "sha256": "66a8dd54f7e347be90cd8e8f2a72ac77ff724482e5ce0cc8f956f6e13d58908d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/websolutionfalcon.ai-factory/2da5c013af8cf04e.png",
+              "alt": "AI Factory icon",
+              "sha256": "2da5c013af8cf04e6c270927e89394a7ee51d3ec4d375ce8685979674f2d4ecd",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/websolutionfalcon.ai-factory/19a0604ef8b9de05.png",
+                "alt": "An Orca window with Claude running /aif-implement, the AI Factory panel and the AIF 4/8 status bar item with its summary.",
+                "sha256": "19a0604ef8b9de0518d9fe44ce6e6a8ef89b47c00cd2829fc3b749b65b00463f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/websolutionfalcon.ai-factory/53eaf463448b6886.png",
+                "alt": "A roadmap Plan button typed /aif-plan for a milestone into the agent without sending it, ready for the user prompt.",
+                "sha256": "53eaf463448b688637540d88e8f1493290b8075f2b3733fd6aa9cab688babb1b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/websolutionfalcon.ai-factory/d9c095fa44d425f0.png",
+                "alt": "Close-ups of the plan, roadmap and context cards of the AI Factory panel.",
+                "sha256": "d9c095fa44d425f0c5ece978e6585bf47bbafbc13c12ca0b017fa28058fc2ccb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/websolutionfalcon/orca-aif",
+          "updatedAt": "2026-11-20T16:31:09+01:00"
+        },
         {
           "version": "0.1.3",
           "commit": "293306521de21de0f677db88d2fba7b43fe76b75",
