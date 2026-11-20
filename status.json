@@ -1109,11 +1109,11 @@
     },
     "faisalmuhammad/orca-terminal-lens": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (assets/.DS_Store)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -1631,7 +1631,7 @@
     },
     "juancruzc97/orca-parquet-viewer": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/juancruzc97/orca-parquet-viewer/1.0.0",
       "plugins": [
         "juancruzc97.parquet-viewer"
       ]

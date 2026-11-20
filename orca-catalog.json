@@ -24336,8 +24336,8 @@
       "ownerId": 63983689,
       "source": {
         "kind": "git",
-        "url": "https://github.com/JuanCruzC97/orca-parquet-viewer.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/juancruzc97/orca-parquet-viewer/1.0.0"
       },
       "description": "Browse Apache Parquet files in Orca's editor: a virtualized grid over millions of rows, with the file's schema, row groups and key-value metadata. Read-only.",
       "categories": [],
