@@ -120,7 +120,7 @@
     },
     "allanpk716/taskboard-orca-plugin": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "licence",
@@ -413,17 +413,10 @@
       ]
     },
     "bwrong/codepulse": {
-      "state": "rejected",
-      "ref": "v1.1.4",
-      "reasons": [
-        {
-          "category": "no-manifest",
-          "detail": "no readable orca-plugin.json at the release"
-        },
-        {
-          "category": "no-manifest",
-          "detail": "no orca-plugin.json or orca-catalog.json"
-        }
+      "state": "listed",
+      "ref": "v1.1.6",
+      "plugins": [
+        "bwrong.codepulse"
       ]
     },
     "caitifbrito/orca-prefixos-prompt": {
@@ -1018,6 +1011,16 @@
       "ref": "refs/tags/etherll/orca-usage-insights/1.2.1",
       "plugins": [
         "etherll.usage-insights"
+      ]
+    },
+    "fabiopbarbieri/azure-boards-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "fabiopbarbieri.azure-boards"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "fabiopbarbieri/omarchy-orca-plugin": {
@@ -2118,7 +2121,7 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "v1.4.0",
+      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.4.0",
       "plugins": [
         "mswdev.fleet-monitor"
       ]
@@ -2875,12 +2878,9 @@
     },
     "sonthh/orca-pitwall": {
       "state": "listed",
-      "ref": "refs/tags/sonthh/orca-pitwall/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "sonthh.pitwall"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "sotoru/orca-fallow": {
@@ -3028,7 +3028,7 @@
     },
     "thanhh2615/datanoa": {
       "state": "listed",
-      "ref": "v1.0.3",
+      "ref": "v1.0.4",
       "plugins": [
         "thanhh2615.datanoa"
       ],
@@ -3423,19 +3423,10 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.5",
+      "ref": "v0.1.7",
       "plugins": [
         "wilsonliu123.token-pulse"
-      ],
-      "update": {
-        "ref": "v0.1.7",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "woodfishhhh/better-project-tree": {
       "state": "listed",
@@ -3507,6 +3498,16 @@
       "ref": "refs/tags/yuribodo/neon-horizon/0.1.1",
       "plugins": [
         "yuribodo.neon-horizon"
+      ]
+    },
+    "yyq19990828/orchestration-panel": {
+      "state": "rejected",
+      "ref": "v2.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
       ]
     },
     "zifengjiang/orca-workspace-namer": {

@@ -6521,6 +6521,64 @@
       ]
     },
     {
+      "id": "bwrong.codepulse",
+      "ownerId": 20485299,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/BWrong/CodePulse.git",
+        "ref": "v1.1.6",
+        "path": "orca"
+      },
+      "description": "在状态栏显示今日编码时长，面板里按项目查看编码时间分布与 AI 统计。",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.1.6",
+          "commit": "e9950cb0e822bf0b00c3cc61e532bf54a6296450",
+          "contentHash": "882700d2b8ca803d354d3ca1453ae55e0ca7eb914530d8267788c45a19cc73d1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "CodePulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CodePulse"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CodePulse"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bwrong.codepulse/4d921f501c8f87c8.png",
+              "alt": "CodePulse 面板：今日与近 7 天编码时长、每日趋势、时段分布与项目排行",
+              "sha256": "4d921f501c8f87c82fd7f39345f8796040e982c8aae9a48c8d9e36f8dec5b656",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bwrong.codepulse/a46f7dccf9b1c134.png",
+              "alt": "CodePulse icon",
+              "sha256": "a46f7dccf9b1c1344fed9e714ef2fc3ca4b2ce43380465948250caa31e57a6c6",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BWrong/CodePulse",
+          "updatedAt": "2026-11-20T18:13:47+08:00"
+        }
+      ]
+    },
+    {
       "id": "caocuong2404.observability",
       "ownerId": 50004497,
       "source": {
@@ -15512,6 +15570,103 @@
           "license": "MIT",
           "repository": "https://github.com/Etherll/orca-usage-insights",
           "updatedAt": "2026-11-13T06:54:40+02:00"
+        }
+      ]
+    },
+    {
+      "id": "fabiopbarbieri.azure-boards",
+      "ownerId": 49872514,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Your Azure Boards work items (Azure DevOps Services) in Orca: what is assigned to you and your team's board. Search, move items between states and columns, and start work on one with a coding agent.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "78517b513919656074dda3c755b204aafbc91409",
+          "contentHash": "5d540cf76768a9f0e7af2e3c6ef206c70df0d6c7ced052938c1d75771f3743cc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.264",
+          "name": "Azure Boards",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Azure Boards"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "history:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/fabiopbarbieri.azure-boards/ca8c7d91798176c4.png",
+              "alt": "Azure Boards for Orca: the team board and the Start work form in Orca's sidebar",
+              "sha256": "ca8c7d91798176c4e8a7eca3a0c57ebe99ee4793a96a7ba3b83b5bf78cfb918d",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/e56f8445fe3f5d87.png",
+                "alt": "Assigned to me: work items grouped by state, with type icons, task progress and pull requests",
+                "sha256": "e56f8445fe3f5d87acecb51bf3d399c37dd25d7147c9f81da9eeada318acaccb",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/93d0b966cc7c757a.png",
+                "alt": "Board: the team's current sprint in its own columns, with WIP limits and Doing/Done halves",
+                "sha256": "93d0b966cc7c757ac55f25618e2f3925d4e5e78dfeba9a47b229c1600f4ce8c3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/8725b7bfd1636eb0.png",
+                "alt": "Item actions: open in the browser, Start work and Move to",
+                "sha256": "8725b7bfd1636eb0e67c8f4f38e6990bd80fd8fb3dd4f662a3ee09f65cae734b",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/8591b951fc62cd62.png",
+                "alt": "Start work: sending a ready prompt about the work item to an open coding agent",
+                "sha256": "8591b951fc62cd62586a0b2361a092dd38e4e8b64d6afeca07e680cdad1f4d75",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/2152953e073435eb.png",
+                "alt": "Search: filtering the items by part of the title",
+                "sha256": "2152953e073435ebd4dff74845d548b61e05685e15a57e6255c54a8c6fae5a55",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/14c5eacadeb674b5.png",
+                "alt": "Settings: connection, projects, board, display and refresh sections",
+                "sha256": "14c5eacadeb674b59ddea096043dab844a2f51cc315eae1cb17f3e378ef7cc85",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin",
+          "updatedAt": "2026-11-20T06:48:14-03:00"
         }
       ]
     },
@@ -30809,8 +30964,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
-        "ref": "v1.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.4.0"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -42316,8 +42471,8 @@
       "ownerId": 30369609,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sonthh/orca-pitwall/0.1.0"
+        "url": "https://github.com/sonthh/orca-pitwall.git",
+        "ref": "v0.1.1"
       },
       "description": "A live pit wall for your coding agents: context, cost, subagents and every tool call, in Orca's right sidebar. Read-only, local, no network.",
       "categories": [
@@ -42327,6 +42482,96 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "9dc7b82da15084e6791ee6076642798a2e5389e6",
+          "contentHash": "8ad4e6ca51fa9a7ea6a858d2b62c2d1eb1f8c99ec7252598d5adb8ed15775861",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pitwall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pitwall"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Toggle the right sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Switch between focused workspace and all workspaces"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Toggle demo mode (synthetic session)"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Clear tool calls and log"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+P",
+              "detail": "pitwall.toggleSidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pitwall"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "settings:own",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sonthh.pitwall/c747760db9f21826.png",
+              "alt": "Pitwall: watch every coding agent from Orca's sidebar, with who is waiting on you, context and cost",
+              "sha256": "c747760db9f21826768ee936e4bcffc9e23dbec4930c81533fffce489843da76",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sonthh.pitwall/7401bfef5e00b490.png",
+              "alt": "Pitwall icon",
+              "sha256": "7401bfef5e00b49094ced7d4236481ad3c7bf428a0723596f84803fe75988fd3",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sonthh.pitwall/f19c45a4b4b23875.png",
+                "alt": "Pitwall in dark and light: an agent asking for permission, a working agent with subagents, context and tool calls",
+                "sha256": "f19c45a4b4b23875d26de2033cef119db54a4dd0809b92624f19c7db555b2ae1",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/sonthh/orca-pitwall",
+          "updatedAt": "2026-11-20T16:51:40+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "4ac49d134aa12a882096b5a3a37a52c2709f0c21",
@@ -44057,7 +44302,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Thanhh2615/datanoa.git",
-        "ref": "v1.0.3"
+        "ref": "v1.0.4"
       },
       "description": "All-in-one database client and SQL studio for Orca. Browse tables, edit data inline, design schemas, and run queries across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, and Turso/LibSQL.",
       "categories": [
@@ -44065,6 +44310,109 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.0.4",
+          "commit": "0e38dc8c32f585e9628686c18cc0ae8f0629d57f",
+          "contentHash": "35f6e415b8c2b5d58aeeceb1e8e92f9dfb48d043aca3641685552bf85943b33e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Datanoa Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Datanoa"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: Open SQLite File"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: New SQL Query"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Datanoa Studio",
+              "detail": ".sql, .datanoa"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Datanoa Studio",
+              "detail": ".datanoa"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "editorFileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thanhh2615.datanoa/924a89cd34319a25.webp",
+              "alt": "Datanoa Studio database client for Orca showing SQL editor, interactive data grid, schema explorer, and 8 supported database engines",
+              "sha256": "924a89cd34319a2576d8e99b67f8468bd84f483729c05775ebb6a75fbb2fbb27",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/thanhh2615.datanoa/0df5525e777de716.png",
+              "alt": "Datanoa Studio icon",
+              "sha256": "0df5525e777de716951c4ef5914ddfcdc205e5bcec15a11abd3b68f1238e09ae",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/thanhh2615.datanoa/653dd3a18162ab47.webp",
+                "alt": "Datanoa Studio split view with PostgreSQL SQL console, interactive data grid, multi-cell selection aggregates, and JSON value inspector",
+                "sha256": "653dd3a18162ab470d65ee6d7ab1cb65dfb519a5bc5df035e651892c8a022703",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/0084be981f7ebbaa.webp",
+                "alt": "Datanoa New Database Connection modal with 8 database engines, quick URI parser, and .env and SQLite auto-discovery",
+                "sha256": "0084be981f7ebbaab97dea8f7aaf8fd77a893dfcf1ff8ec305e80a0c067ed130",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/4b86dac5b50a0c61.webp",
+                "alt": "Datanoa Visual Table Structure Designer showing staged column edits, data type combobox, foreign keys, indexes, and live migration SQL preview",
+                "sha256": "4b86dac5b50a0c610edd93a28434b6ba2353e1a61ad5faf0cd1beb734cc7cc05",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/0c80a5fa4d93ea57.webp",
+                "alt": "Datanoa Studio in light theme with horizontal top table bar, pinned columns, and instant find highlighting",
+                "sha256": "0c80a5fa4d93ea578ce9956d4cf344de3ac050973379898cac94a832bba953e5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/5c690d6c48599906.webp",
+                "alt": "Datanoa Side Panel showing schema explorer tree, interactive data grid with live aggregates, and quick SQL runner",
+                "sha256": "5c690d6c48599906e4ec8f57de2c44953a9d00aa94cae7a9780f24872e3ccc7e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Thanhh2615/datanoa",
+          "updatedAt": "2026-11-20T16:59:31+07:00"
+        },
         {
           "version": "1.0.3",
           "commit": "33d39723c69096b2ceadcf779ac2488b7d560684",
@@ -48733,8 +49081,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.5"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.1.7"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -48743,6 +49091,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.7",
+          "commit": "02a757d1de1883f0a2bf82a0f81844a9660584f0",
+          "contentHash": "18b320bc210df72515d57a4d1a727c35205787e569d7bf10ee835692c930ead2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "updatedAt": "2026-11-20T10:07:46+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used"
+        },
         {
           "version": "0.1.5",
           "commit": "a1b10b22783e6888067739acde4f96a0dadfa89a",
@@ -49062,85 +49491,6 @@
           "updatedAt": "2026-11-17T06:50:05+08:00",
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "6c3938114aadbc0ffa383c19dfe5a99df0b0148d",
-          "contentHash": "983e44f8bbe40b191c5f247491eeac6174b2de61964f208c070b03600e537719",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/650aba6c9d578e05.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "650aba6c9d578e0507f9a5e7e12abb0f8e10a926c4c97a272e6e11c8a69bb25b",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/21cfe0c0e580cf46.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "21cfe0c0e580cf46df5f5afe89baf9a112f52a42c13edf80a1555f5c7a8e2832",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-12T13:05:07+08:00"
         }
       ]
     },
