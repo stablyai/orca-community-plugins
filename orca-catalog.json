@@ -8021,12 +8021,38 @@
       "ownerId": 81852704,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.2.0"
+        "url": "https://github.com/chabinhwang/orca-hwp-viewer.git",
+        "ref": "v0.3.0"
       },
       "description": "Orca에서 한글 문서를 볼 수 있습니다. Read Hangul (.hwp, .hwpx) documents in Orca with their original page layout.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "584055a3f8fcf4e1b42427c94a56895aa1b80363",
+          "contentHash": "818e17c6ed88e8f4b15102fe03e7ff903f40011a00b1fe46d44b42f1647ba841",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "HWP Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "HWP Preview",
+              "detail": ".hwp, .hwpx"
+            }
+          ],
+          "fileTypes": [
+            "hwp",
+            "hwpx"
+          ],
+          "editorFileTypes": [
+            "hwp",
+            "hwpx"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/chabinhwang/orca-hwp-viewer",
+          "updatedAt": "2026-11-20T21:44:31+09:00"
+        },
         {
           "version": "0.2.0",
           "commit": "4d22c61ddd29c7328ee1df7d7132e82f32907a8b",
@@ -26065,8 +26091,8 @@
       "ownerId": 72224798,
       "source": {
         "kind": "git",
-        "url": "https://github.com/LeoBessin/orca-mongo-studio.git",
-        "ref": "v1.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/leobessin/orca-mongo-studio/1.3.0"
       },
       "description": "A full MongoDB client inside Orca: browse collections and edit documents, query with a query bar or the Query Builder, build aggregation pipelines stage by stage, and script in a Mongo Shell. Not affiliated with or endorsed by MongoDB, Inc.",
       "categories": [
