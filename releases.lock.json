@@ -3233,6 +3233,12 @@
     "repoId": 1454660025,
     "firstSeen": "2026-11-14T21:39:53.659Z"
   },
+  "mswdev.fleet-monitor@1.4.0": {
+    "commit": "87b514a3075d2a7e14e293898ee0a0670ba87ad9",
+    "contentHash": "017eca7fdc3601bf7b08884b0e37ca2394e4c218535aa455f66e5ae63ba7806b",
+    "repoId": 1454660025,
+    "firstSeen": "2026-11-20T09:43:15.339Z"
+  },
   "naitsric.claude-procesos@0.1.1": {
     "commit": "901bc88e3afaa6b9d94cde7e7efd715848cbcb01",
     "contentHash": "cdf916472c38c992505ec74e9dd8e9d6f5684baea69e4d794b1064b2493228f8",
@@ -4654,6 +4660,12 @@
     "contentHash": "212f2a7ce6e90b512a9cafe508933ee5b5f5ded0c8f72d8b236b39931fb6704e",
     "repoId": 1440728806,
     "firstSeen": "2026-10-31T10:12:38.962Z"
+  },
+  "thanhh2615.datanoa@1.0.3": {
+    "commit": "33d39723c69096b2ceadcf779ac2488b7d560684",
+    "contentHash": "850b8ff72bde4a99abdfc4911d66bbeb0993b88a414a7101f567ac4f4cec26d7",
+    "repoId": 1463963913,
+    "firstSeen": "2026-11-20T09:43:15.339Z"
   },
   "thanhtrung5763.git-graph@0.1.1": {
     "commit": "b2a4d1aec915c1e1f6cc810470ead3cefcd6a8bf",

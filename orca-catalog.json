@@ -9629,8 +9629,8 @@
       "ownerId": 6973711,
       "source": {
         "kind": "git",
-        "url": "https://github.com/crilofer/orca-streamdeck.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/crilofer/orca-streamdeck/1.0.2"
       },
       "description": "Shows your agents on an Elgato Stream Deck: their status on keys, and taps that open a workspace, go to an agent or start one.",
       "categories": [
@@ -13146,8 +13146,8 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.266"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebbop/orca-italiano/1.4.266"
       },
       "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.266. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -14717,8 +14717,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-skills.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-skills/0.1.1"
       },
       "description": "Manage the skills of the open project for every agent Orca runs: search skills.sh, add from a repo or a local folder, remove, see which agent reads which skill.",
       "categories": [
@@ -22185,8 +22185,8 @@
       "ownerId": 89952284,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jecyxyf/Orca-TPS-Plugin.git",
-        "ref": "v1.6.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jecyxyf/orca-tps-plugin/1.6.4"
       },
       "description": "Track live request speed and token usage in Orca. Compare models, spot daily trends, and join a cross-device leaderboard with GitHub sign-in.",
       "categories": [
@@ -25223,8 +25223,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Kyino-Pan/agents-director.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kyino-pan/agents-director/0.2.1"
       },
       "description": "A rolling seven-day timeline of publicly observed Orca agent states and session summaries.",
       "categories": [
@@ -25884,8 +25884,8 @@
       "ownerId": 72224798,
       "source": {
         "kind": "git",
-        "url": "https://github.com/LeoBessin/orca-mongo-studio.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/leobessin/orca-mongo-studio/1.2.0"
       },
       "description": "A full MongoDB client inside Orca: browse collections and edit documents, query with a query bar or the Query Builder, build aggregation pipelines stage by stage, and script in a Mongo Shell. Not affiliated with or endorsed by MongoDB, Inc.",
       "categories": [
@@ -30809,8 +30809,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.3.1"
+        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
+        "ref": "v1.4.0"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -30818,6 +30818,85 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.4.0",
+          "commit": "87b514a3075d2a7e14e293898ee0a0670ba87ad9",
+          "contentHash": "017eca7fdc3601bf7b08884b0e37ca2394e4c218535aa455f66e5ae63ba7806b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Fleet Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Fleet Monitor: Send a test alert"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fleet"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mswdev.fleet-monitor/fbd42485fe98ef30.png",
+              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
+              "sha256": "fbd42485fe98ef30e2f6245b65c15ad46827bb006f4cf8e5dac6770a6c3a3aaf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
+              "alt": "Fleet Monitor icon",
+              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/mswdev.fleet-monitor/6c20109637a68c3a.png",
+                "alt": "Five sample machines with health, CPU and memory, beside one strained machine's detail: its tabs, charts, per-core load and the process using the most memory.",
+                "sha256": "6c20109637a68c3a74b3c9b8eabf91bb793298d44c53dcbc7e1016bf52bf61d6",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/1f1acb1b61d3fff2.png",
+                "alt": "The same overview and machine detail in the dark theme.",
+                "sha256": "1f1acb1b61d3fff202921014e12d3445649a3cdadb5eb58cc5bfa6c8aed2d494",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/bf6d485e4966c6db.png",
+                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
+                "sha256": "bf6d485e4966c6dbc4d619dc04ccb37047b32b3de890d85565e75b243af074ce",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/5db3049eb335ae35.png",
+                "alt": "This computer's network, GPU, battery and two named disks above its processes, beside a paired Mac's readings, three named disks and 60 busiest processes.",
+                "sha256": "5db3049eb335ae35c18f08c42be2260e541d8d98e605ff0375147f4df4b47be8",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mswdev/orca-fleet-monitor",
+          "updatedAt": "2026-11-20T01:02:24-07:00"
+        },
         {
           "version": "1.3.1",
           "commit": "4e576a8e2da749e28ed8e276877036845e4b0f82",
@@ -31133,78 +31212,6 @@
           "license": "MIT",
           "repository": "https://github.com/mswdev/orca-fleet-monitor",
           "updatedAt": "2026-11-13T10:44:50+14:00"
-        },
-        {
-          "version": "1.1.0",
-          "commit": "5bb91c1ef742ba39860feb8c0ed59719c7498568",
-          "contentHash": "314c1954342ea3bb66257c6e8a0899a52afacbe71f38cd81dc90422cc6bf8c0d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Fleet Monitor",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fleet Monitor"
-            },
-            {
-              "kind": "commands",
-              "name": "Show Fleet Monitor"
-            },
-            {
-              "kind": "commands",
-              "name": "Fleet Monitor: Send a test alert"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Fleet"
-            }
-          ],
-          "capabilities": [
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/mswdev.fleet-monitor/27025ff0250e34a5.png",
-              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
-              "sha256": "27025ff0250e34a515baaf7c382646038b1a1b8733eda022c745efb1df31a2ae",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
-              "alt": "Fleet Monitor icon",
-              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/mswdev.fleet-monitor/81ad8790f175a474.png",
-                "alt": "Five sample machines with health, CPU, memory and sparklines, beside one strained machine's charts, per-core load and busiest workspaces.",
-                "sha256": "81ad8790f175a4741883fc1a8fd2a9b0fd695e440ed08f9a98281434e06f0999",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mswdev.fleet-monitor/dd18acd3ffdd5f5e.png",
-                "alt": "The same overview and machine detail in the dark theme.",
-                "sha256": "dd18acd3ffdd5f5e3a4655d19d028d7fe3084a97d2818bb9e9da0729dd57a6d6",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mswdev.fleet-monitor/713db8e06afc2fb7.png",
-                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
-                "sha256": "713db8e06afc2fb7e26eef728c59e70c0e0f73e4f61557325cb5b7c896ccb838",
-                "width": 2560,
-                "height": 1600
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/mswdev/orca-fleet-monitor",
-          "updatedAt": "2026-11-13T00:39:18+14:00"
         }
       ]
     },
@@ -31460,8 +31467,8 @@
       "ownerId": 69442847,
       "source": {
         "kind": "git",
-        "url": "https://github.com/namnameeroo/orca-pinboard.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/namnameeroo/orca-pinboard/0.1.2"
       },
       "description": "The Claude pinboard pane for Orca: the focused workspace's latest Claude session as cards (branch, background tasks, intent tree, PRs and links, docs, prompt history) and a memo per workspace.",
       "categories": [
@@ -44041,6 +44048,125 @@
           "license": "MIT",
           "repository": "https://github.com/thailoc-dev/orca-rose-pine",
           "updatedAt": "2026-10-31T16:59:22+07:00"
+        }
+      ]
+    },
+    {
+      "id": "thanhh2615.datanoa",
+      "ownerId": 93583813,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Thanhh2615/datanoa.git",
+        "ref": "v1.0.3"
+      },
+      "description": "All-in-one database client and SQL studio for Orca. Browse tables, edit data inline, design schemas, and run queries across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, and Turso/LibSQL.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "33d39723c69096b2ceadcf779ac2488b7d560684",
+          "contentHash": "850b8ff72bde4a99abdfc4911d66bbeb0993b88a414a7101f567ac4f4cec26d7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Datanoa Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Datanoa"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: Open SQLite File"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: New SQL Query"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Datanoa Studio",
+              "detail": ".sql, .datanoa"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Datanoa Studio",
+              "detail": ".datanoa"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "editorFileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thanhh2615.datanoa/924a89cd34319a25.webp",
+              "alt": "Datanoa Studio database client for Orca showing SQL editor, interactive data grid, schema explorer, and 8 supported database engines",
+              "sha256": "924a89cd34319a2576d8e99b67f8468bd84f483729c05775ebb6a75fbb2fbb27",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/thanhh2615.datanoa/0df5525e777de716.png",
+              "alt": "Datanoa Studio icon",
+              "sha256": "0df5525e777de716951c4ef5914ddfcdc205e5bcec15a11abd3b68f1238e09ae",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/thanhh2615.datanoa/653dd3a18162ab47.webp",
+                "alt": "Datanoa Studio split view with PostgreSQL SQL console, interactive data grid, multi-cell selection aggregates, and JSON value inspector",
+                "sha256": "653dd3a18162ab470d65ee6d7ab1cb65dfb519a5bc5df035e651892c8a022703",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/0084be981f7ebbaa.webp",
+                "alt": "Datanoa New Database Connection modal with 8 database engines, quick URI parser, and .env and SQLite auto-discovery",
+                "sha256": "0084be981f7ebbaab97dea8f7aaf8fd77a893dfcf1ff8ec305e80a0c067ed130",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/4b86dac5b50a0c61.webp",
+                "alt": "Datanoa Visual Table Structure Designer showing staged column edits, data type combobox, foreign keys, indexes, and live migration SQL preview",
+                "sha256": "4b86dac5b50a0c610edd93a28434b6ba2353e1a61ad5faf0cd1beb734cc7cc05",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/0c80a5fa4d93ea57.webp",
+                "alt": "Datanoa Studio in light theme with horizontal top table bar, pinned columns, and instant find highlighting",
+                "sha256": "0c80a5fa4d93ea578ce9956d4cf344de3ac050973379898cac94a832bba953e5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/5c690d6c48599906.webp",
+                "alt": "Datanoa Side Panel showing schema explorer tree, interactive data grid with live aggregates, and quick SQL runner",
+                "sha256": "5c690d6c48599906e4ec8f57de2c44953a9d00aa94cae7a9780f24872e3ccc7e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Thanhh2615/datanoa",
+          "updatedAt": "2026-11-20T16:40:10+07:00"
         }
       ]
     },
