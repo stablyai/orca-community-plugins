@@ -498,7 +498,7 @@
     },
     "chabinhwang/orca-hwp-viewer": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.3.0",
       "plugins": [
         "chabinhwang.hwp-viewer"
       ]
@@ -1259,6 +1259,13 @@
       "ref": "refs/tags/gzimbron/vuejs-lang-orca/1.0.0",
       "plugins": [
         "gzimbron.vuejs-lang"
+      ]
+    },
+    "h00ns/test-runner-for-orca": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "h00ns.test-runner"
       ]
     },
     "h4rkl/orca-git-blame": {
