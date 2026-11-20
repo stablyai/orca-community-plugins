@@ -6525,8 +6525,8 @@
       "ownerId": 20485299,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BWrong/CodePulse.git",
-        "ref": "v1.1.6",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bwrong/codepulse/codepulse/1.1.6",
         "path": "orca"
       },
       "description": "在状态栏显示今日编码时长，面板里按项目查看编码时间分布与 AI 统计。",
@@ -15578,8 +15578,8 @@
       "ownerId": 49872514,
       "source": {
         "kind": "git",
-        "url": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.1.1"
       },
       "description": "Your Azure Boards work items (Azure DevOps Services) in Orca: what is assigned to you and your team's board. Search, move items between states and columns, and start work on one with a coding agent.",
       "categories": [
@@ -42471,8 +42471,8 @@
       "ownerId": 30369609,
       "source": {
         "kind": "git",
-        "url": "https://github.com/sonthh/orca-pitwall.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sonthh/orca-pitwall/0.1.1"
       },
       "description": "A live pit wall for your coding agents: context, cost, subagents and every tool call, in Orca's right sidebar. Read-only, local, no network.",
       "categories": [
@@ -44301,8 +44301,8 @@
       "ownerId": 93583813,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Thanhh2615/datanoa.git",
-        "ref": "v1.0.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thanhh2615/datanoa/1.0.4"
       },
       "description": "All-in-one database client and SQL studio for Orca. Browse tables, edit data inline, design schemas, and run queries across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, and Turso/LibSQL.",
       "categories": [
@@ -49081,8 +49081,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.1.7"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.7"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
