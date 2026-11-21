@@ -760,19 +760,10 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "ddochi-nyang.bot-world"
-      ],
-      "update": {
-        "ref": "v0.1.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "decadance-dance/orca-plane": {
       "state": "listed",
@@ -1371,7 +1362,7 @@
     },
     "hasanalituran/orca-auto-dark-mode-windows": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/hasanalituran/orca-auto-dark-mode-windows/0.1.2",
       "plugins": [
         "hasanalituran.toggle-light-dark-theme"
       ]
@@ -2733,6 +2724,16 @@
         "runzivo.runzivo-sandboxes"
       ]
     },
+    "ryujiyasu/orca-oxi-slides": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (editor/favicon.ico, editor/oxidocs_engine.gz.0.wasm, editor/oxidocs_engine.gz.1.wasm)"
+        }
+      ]
+    },
     "ryusenkei-inc/hostslot": {
       "state": "listed",
       "ref": "refs/tags/ryusenkei-inc/hostslot/0.11.1",
@@ -2772,6 +2773,13 @@
       "ref": "refs/tags/santiagocaprile/orca-chat-board/1.1.1",
       "plugins": [
         "santiagocaprile.chat-board"
+      ]
+    },
+    "santigamo/orca-purser": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "santigamo.purser"
       ]
     },
     "santii90/orca-plugin-artifact-viewer": {
@@ -3028,7 +3036,7 @@
     },
     "sonthh/orca-pitwall": {
       "state": "listed",
-      "ref": "refs/tags/sonthh/orca-pitwall/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "sonthh.pitwall"
       ]

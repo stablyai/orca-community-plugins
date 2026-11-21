@@ -10799,8 +10799,8 @@
       "ownerId": 359454302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.1"
+        "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
+        "ref": "v0.1.2"
       },
       "description": "Read-only virtual office visualizer for Orca bots and live sub-workers",
       "categories": [
@@ -10809,6 +10809,99 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "79af8100af821c1c0251133d878282739258d4ec",
+          "contentHash": "d6b4c9fd397085f8b4d1322e75c5b3e90213eef9755e4eaa79e906e9e1211260",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Bot World",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh Bot World"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot World Office",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Bot World Board",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot World"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botworld"
+          ],
+          "editorFileTypes": [
+            "botworld"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+              "alt": "Bot World Wide Office Board displaying 10 Orca bots and live sub-workers in the Startup Office theme",
+              "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
+              "alt": "Bot World icon",
+              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+                "alt": "Bot World wide .botworld office board in the Startup Office theme with 10 live bots, sub-workers, character switcher, and 24-hour event timeline",
+                "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/0949c7778918ab78.jpg",
+                "alt": "Bot World wide .botworld office board in the Corporate Office theme highlighting a Needs You approval badge, open items, and automation status",
+                "sha256": "0949c7778918ab78c6023910e40b79532ead679a24fd6a484880bd4051bd1e6b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/6b6257f1780737c1.jpg",
+                "alt": "Bot World wide .botworld office board with Redact Mode enabled and 24-hour timeline replay paused at an earlier timestamp",
+                "sha256": "6b6257f1780737c16fda6bf54bcd043ded61dd6575514bee10e1bc45d90fb22a",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
+          "updatedAt": "2026-11-21T20:38:18+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "d155e41cf011d983bac263882068d67538cdcb34",
@@ -20762,8 +20855,8 @@
       "ownerId": 8539918,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hasanalituran/orca-auto-dark-mode-windows.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hasanalituran/orca-auto-dark-mode-windows/0.1.2"
       },
       "description": "Status bar button to toggle Orca between light and dark themes.",
       "categories": [
@@ -40690,6 +40783,90 @@
       ]
     },
     {
+      "id": "santigamo.purser",
+      "ownerId": 26361103,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/santigamo/orca-purser.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Paste API keys into a masked field instead of the chat. Claude Code, Codex and other agents use them by name, per project, and never see the values.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "5a1dfb88d5911dad498ec3ed13f68f0974e822aa",
+          "contentHash": "576f8fa3241e9f2cd1473deb8841bb5d30f79895a6024882c3938837a0c93d70",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Purser",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Purser"
+            },
+            {
+              "kind": "commands",
+              "name": "Purser: Show what is stored and what agents are waiting for"
+            },
+            {
+              "kind": "commands",
+              "name": "Purser: Set up agents outside Orca"
+            },
+            {
+              "kind": "commands",
+              "name": "Purser: Remove setup for agents outside Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Purser"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own",
+            "notifications:show",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/santigamo.purser/6547f79f482f62b5.png",
+              "alt": "An agent asks for STRIPE_API_KEY, you paste it into a masked field in Orca, and the output shows [purser:STRIPE_API_KEY] instead.",
+              "sha256": "6547f79f482f62b536ca0547d2e561c9df960893c92dcbd7472a87115302fab8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/santigamo.purser/b6ca4b154b7052bb.png",
+              "alt": "Purser icon",
+              "sha256": "b6ca4b154b7052bb4e66818f955d04f554268f64209ca5029f17e9d93713879c",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/santigamo/orca-purser",
+          "updatedAt": "2026-11-21T12:51:21+01:00"
+        }
+      ]
+    },
+    {
       "id": "santii90.artifact-viewer",
       "ownerId": 4355286,
       "source": {
@@ -45157,8 +45334,8 @@
       "ownerId": 30369609,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sonthh/orca-pitwall/0.1.1"
+        "url": "https://github.com/sonthh/orca-pitwall.git",
+        "ref": "v0.2.0"
       },
       "description": "A live pit wall for your coding agents: context, cost, subagents and every tool call, in Orca's right sidebar. Read-only, local, no network.",
       "categories": [
@@ -45168,6 +45345,96 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "ed7ed014c64339bccfa6c28133a55dc12f504439",
+          "contentHash": "c67eabb3e357b60772913b59b85b9cecc8ceb92c295c5a9a62d9ef8419a3c0a8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pitwall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pitwall"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Toggle the right sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Switch between focused workspace and all workspaces"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Toggle demo mode (synthetic session)"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Clear tool calls and log"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+P",
+              "detail": "pitwall.toggleSidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pitwall"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "settings:own",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sonthh.pitwall/c747760db9f21826.png",
+              "alt": "Pitwall: watch every coding agent from Orca's sidebar, with who is waiting on you, context and cost",
+              "sha256": "c747760db9f21826768ee936e4bcffc9e23dbec4930c81533fffce489843da76",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sonthh.pitwall/7401bfef5e00b490.png",
+              "alt": "Pitwall icon",
+              "sha256": "7401bfef5e00b49094ced7d4236481ad3c7bf428a0723596f84803fe75988fd3",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sonthh.pitwall/f19c45a4b4b23875.png",
+                "alt": "Pitwall in dark and light: an agent asking for permission, a working agent with subagents, context and tool calls",
+                "sha256": "f19c45a4b4b23875d26de2033cef119db54a4dd0809b92624f19c7db555b2ae1",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/sonthh/orca-pitwall",
+          "updatedAt": "2026-11-21T19:17:54+07:00"
+        },
         {
           "version": "0.1.1",
           "commit": "9dc7b82da15084e6791ee6076642798a2e5389e6",
