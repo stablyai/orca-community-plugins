@@ -22663,14 +22663,95 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/icaceresc/b-side/2.0.1"
+        "url": "https://github.com/icaceresc/b-side.git",
+        "ref": "v2.1.1"
       },
       "description": "Control AIMP from Orca — your lossless collection while you work",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "2.1.1",
+          "commit": "bcf5787e04ba728a10e92d03d5034ab6fcc846ac",
+          "contentHash": "2734f81f8902716640de15b74555e1442b51b97b934ce019a6cf25e60fe35bec",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "B-Side",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "B-Side"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/icaceresc.b-side/68e233b2ddf8be93.png",
+              "alt": "B-Side logo, the words \"Your music library, inside Orca\" and two panels: the Albums grid of a demo library and Now Playing with synced lyrics",
+              "sha256": "68e233b2ddf8be93b9367e8d7fd9d10035cc90e6c26824fed65193281c0a969c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/icaceresc.b-side/b145ad6339896bb1.png",
+              "alt": "B-Side icon",
+              "sha256": "b145ad6339896bb1f0101058ee99a2c1a62b1ac1e08308afc3bbd971d888c251",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.b-side/d626cafabf681823.webp",
+                "alt": "The panel in three skins: CD in a cover's colours, Vinyl with serif lyrics and a brass play button, Cassette with pixel type and neon",
+                "sha256": "d626cafabf681823cb8f5654261cdc7060c78ad3c36e06f161a274cd31a32952",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/df7ff0e5d3898159.webp",
+                "alt": "Each skin's logo, paused and playing: a glowing CD, a turntable whose tonearm lowers onto the record, a pixel tape with its light on",
+                "sha256": "df7ff0e5d3898159e682533b4b5ceae4a884a35fe832b79a3c2e0712fb0a553c",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/907a7271ff75c8eb.webp",
+                "alt": "The panel dragged wide: a demo Albums grid on the left, Now Playing on the right with cover, format badges, synced lyrics and controls",
+                "sha256": "907a7271ff75c8eb8bbd3726c4cdcb2ae215508050058c9f80cccedc1e83f6de",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/59191b66e463a78b.webp",
+                "alt": "An album page tinted from its cover, with Hi-Res and FLAC badges, a Play button and the track list, beside its artist's page",
+                "sha256": "59191b66e463a78b1ffc9f57a9881a96dc1efee49b1fa387383f50910f2715cb",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/c9965073074e1792.webp",
+                "alt": "Now Playing at phone width with format badges and synced lyrics, beside the Artists grid with the mini-player above the tabs",
+                "sha256": "c9965073074e1792708f99d10b5cce2dc6e84a2e0963aeac84428d15a498d79d",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/956ca85e3c9eff0e.webp",
+                "alt": "Search for \"rio\" finding the artist Ríos de Ámbar, the album Río Lento and its tracks, with the matched letters underlined, beside that album's page",
+                "sha256": "956ca85e3c9eff0eda27c8968d647878a7ecc5014ba079b6a618e9a5cce6fa60",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/b-side",
+          "updatedAt": "2026-11-21T14:05:34-03:00"
+        },
         {
           "version": "2.0.1",
           "commit": "99d57ab1b936628cf43990b64d645e3f11245652",
@@ -22897,6 +22978,84 @@
           "license": "MIT",
           "repository": "https://github.com/icaceresc/b-side",
           "updatedAt": "2026-11-20T22:23:15-03:00"
+        }
+      ]
+    },
+    {
+      "id": "icaceresc.pixtuoid-office",
+      "ownerId": 103128282,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/icaceresc/pixtuoid-orca-windows.git",
+        "ref": "v3.0.0"
+      },
+      "description": "Opens a floating pixel-art office on Windows where your Orca agents, their workers and subagents appear as coworkers: the official Pixtuoid office, or Dungeons & Agents, where clicking an adventurer opens its session in Orca.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "3.0.0",
+          "commit": "d62550a1c7ebb3f04fd4b62f34394002d02e475d",
+          "contentHash": "4643d9bdc66c285475a1837ee7cf55329c007412c7698306b1af35d4d3b2c17b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Pixtuoid para Orca",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Open office window"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Close office window"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Install or update the office app"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Use the official Pixtuoid office"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Use Dungeons & Agents"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Remove downloaded app and local data"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pixtuoid"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.pixtuoid-office/6c180c1c68bfdcdc.png",
+                "alt": "Pixel-art office: Claude Code agents with a Codex and an Antigravity worker, each labelled with its provider, under their Claude parent.",
+                "sha256": "6c180c1c68bfdcdcd6ae732f372752d1c45cce25da4923c3165943847e124d85",
+                "width": 1920,
+                "height": 1280
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/pixtuoid-orca-windows",
+          "updatedAt": "2026-11-21T14:38:40-03:00"
         }
       ]
     },
@@ -31106,8 +31265,8 @@
       "ownerId": 14289013,
       "source": {
         "kind": "git",
-        "url": "https://github.com/maximechbt/beads-orca-ui.git",
-        "ref": "v2.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/maximechbt/beads-orca-ui/2.1.0"
       },
       "description": "Your beads tasks beside your agents, and full screen in the middle of Orca: see what moves, change any task in place, and hand one to an agent in one press.",
       "categories": [

@@ -1466,28 +1466,16 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "refs/tags/icaceresc/b-side/2.0.1",
+      "ref": "v2.1.1",
       "plugins": [
         "icaceresc.b-side"
-      ],
-      "update": {
-        "ref": "v2.1.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "icaceresc/pixtuoid-orca-windows": {
-      "state": "rejected",
-      "ref": "v2.0.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "name"
-        }
+      "state": "listed",
+      "ref": "v3.0.0",
+      "plugins": [
+        "icaceresc.pixtuoid-office"
       ]
     },
     "iml885203/orca-orbit": {
@@ -2079,7 +2067,7 @@
     },
     "maximechbt/beads-orca-ui": {
       "state": "listed",
-      "ref": "v2.1.0",
+      "ref": "refs/tags/maximechbt/beads-orca-ui/2.1.0",
       "plugins": [
         "maximechbt.beads-orca-ui"
       ]
