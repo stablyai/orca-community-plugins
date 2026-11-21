@@ -29248,8 +29248,8 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Lilykos/orca-openrouter-usage.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lilykos/orca-openrouter-usage/1.1.0"
       },
       "description": "Track OpenRouter credits, runway and spend from Orca: model comparisons, daily and monthly budgets, API key health, CSV exports and a status bar balance. Read-only; your management key stays in Orca's encrypted secret store.",
       "categories": [
@@ -37439,8 +37439,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.14"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.14"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
@@ -39893,8 +39893,8 @@
       "ownerId": 3449891,
       "source": {
         "kind": "git",
-        "url": "https://github.com/robshox/skill-tracker.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/robshox/skill-tracker/0.1.1"
       },
       "description": "Shows which skills agents load in each session, when, and how often.",
       "categories": [
@@ -46414,8 +46414,8 @@
       "ownerId": 359530843,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SimplyCreateCode/companion-chat.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/simplycreatecode/companion-chat/0.2.0"
       },
       "description": "A chat companion for Orca. Talk to the coding CLI you choose (Claude Code, OpenCode, Kimi Code, Codex, Gemini CLI, Copilot CLI or your own) and let it start agents, create workspaces, open terminals and create files, each change only after you allow it.",
       "categories": [

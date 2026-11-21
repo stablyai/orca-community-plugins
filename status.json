@@ -452,9 +452,15 @@
       "plugins": [
         "callumjmac.talkback"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "canhta/orcaffein": {
       "state": "listed",
@@ -1891,7 +1897,7 @@
     },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/lilykos/orca-openrouter-usage/1.1.0",
       "plugins": [
         "lilykos.openrouter-usage"
       ]
@@ -2483,7 +2489,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.14",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.14",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -2685,7 +2691,7 @@
     },
     "robshox/skill-tracker": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/robshox/skill-tracker/0.1.1",
       "plugins": [
         "robshox.skill-tracker"
       ]
@@ -3049,7 +3055,7 @@
     },
     "simplycreatecode/companion-chat": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/simplycreatecode/companion-chat/0.2.0",
       "plugins": [
         "simplycreatecode.companion-chat"
       ]
