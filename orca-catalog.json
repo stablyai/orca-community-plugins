@@ -16444,6 +16444,221 @@
       ]
     },
     {
+      "id": "eveetc.flutter-dart",
+      "ownerId": 45205682,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eveetc/flutter-dart-orca-plugin.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Dart syntax, Flutter run configurations, hot reload, widget inspector, builds, project checks and Android emulator management in Orca.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings",
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "d7872de36801c2b2d2ee46a0f843f3635f657159",
+          "contentHash": "9a433bbf19d9f1878fa4a6ba2eb9223ebc66b0524a8ebafaf725d1690c10e2b1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Flutter & Dart Tools",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Flutter & Dart"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Refresh projects and devices"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run selected configuration"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run in profile mode"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run in release mode"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Attach to running app"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot reload"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot restart"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Stop app"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Next device"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Save screenshot"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Build with last build settings"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Analyze"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Run tests"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Run tests with coverage"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Run failed tests again"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Format project"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Apply fixes (dart fix --apply)"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Get dependencies (pub get)"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Upgrade dependencies (pub upgrade)"
+            },
+            {
+              "kind": "commands",
+              "name": "Dart: Generate code (build_runner)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Generate localizations"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Clean"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Doctor"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Upgrade SDK (flutter upgrade)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+F10",
+              "detail": "flutter.run"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Backslash",
+              "detail": "flutter.reload"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+Backslash",
+              "detail": "flutter.restart"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+F2",
+              "detail": "flutter.stop"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+L",
+              "detail": "dart.format"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+F9",
+              "detail": "flutter.build"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Dart",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatelessWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatefulWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter widget with AnimationController",
+              "detail": ".dart"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Flutter & Dart"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "dart"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/eveetc.flutter-dart/180ccc4ea2c6825f.png",
+              "alt": "Flutter & Dart Tools for Orca: run configurations and hot reload, widget inspector, builds with signing checks, packages, checks and emulators.",
+              "sha256": "180ccc4ea2c6825f7ef66c4a3d7ccb5945d1e2c4da7df4b0020ffecb00f367e1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/eveetc.flutter-dart/7e147b829b97ccbe.png",
+              "alt": "Flutter & Dart Tools icon",
+              "sha256": "7e147b829b97ccbeaab70a55d730adcd1c4cf14876e7cf5db7d416a74e0140ec",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eveetc/flutter-dart-orca-plugin",
+          "updatedAt": "2026-11-21T13:01:52Z"
+        }
+      ]
+    },
+    {
       "id": "fabiopbarbieri.azure-boards",
       "ownerId": 49872514,
       "source": {
@@ -19868,6 +20083,43 @@
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler",
           "updatedAt": "2026-11-18T09:24:46+09:00"
+        }
+      ]
+    },
+    {
+      "id": "gops132.gray",
+      "ownerId": 62019651,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gOps132/gray-orca.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Launch the Gray CLI in the current Orca workspace.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "6dfb9e6e8ac5be130fe126943c318ca82991d1fd",
+          "contentHash": "7192ef362f6a6fd620e5f89e42fa8594eaab9ec4d053a84716ad943fb101334a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Gray for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Gray"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/gOps132/gray-orca",
+          "updatedAt": "2026-11-21T21:03:45+08:00"
         }
       ]
     },
@@ -30708,14 +30960,68 @@
       "ownerId": 14289013,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/maximechbt/beads-orca-ui/0.3.0"
+        "url": "https://github.com/maximechbt/beads-orca-ui.git",
+        "ref": "v0.3.1"
       },
       "description": "A minimal beads panel for Orca: what's in progress, what's ready, and one press to hand a task to an agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "8cee62e140b5d8542c632b862aee529c75d1ff81",
+          "contentHash": "2a340517c0a0d2893c8be77c1c7ba3df1aae09a946b67208ffa870a985f4c4e5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Beads Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/maximechbt.beads-orca-ui/5841129c273ca58f.png",
+              "alt": "Beads Panel icon",
+              "sha256": "5841129c273ca58f3f30f2cb3e38f878d0de516a652f960b843aae606a32ce44",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/maximechbt.beads-orca-ui/870f73cb4ea73583.png",
+                "alt": "Three Beads panels: the All tab by state, the Ready tab, and the Epics tab with progress bars.",
+                "sha256": "870f73cb4ea73583bb8cb63ab9aad79ba985a989d3cd398c5bd81f5d2ceefaa5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/8ebec1fe1e47154b.png",
+                "alt": "A task opened in the Beads panel, then with its criteria and comments unfolded, and the finish form asking for a reason.",
+                "sha256": "8ebec1fe1e47154bbee48f9fdb99e8e2706c46afac9f3840f76fd70a5085fcbf",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/c87681bd2519a470.png",
+                "alt": "The launch form with agent, worktree and prompt; the new task form; the All tab in dark.",
+                "sha256": "c87681bd2519a4705dfc579ace3bd7b86f1345e7bd8254279f5a796f4ab6e7f7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maximechbt/beads-orca-ui",
+          "updatedAt": "2026-11-21T14:13:21+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "ee5c6801f39416e600269693d7245accb3fc9b7e",

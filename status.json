@@ -1052,6 +1052,13 @@
         "etherll.usage-insights"
       ]
     },
+    "eveetc/flutter-dart-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.3.0",
+      "plugins": [
+        "eveetc.flutter-dart"
+      ]
+    },
     "fabiopbarbieri/azure-boards-orca-plugin": {
       "state": "listed",
       "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.2.0",
@@ -1275,6 +1282,13 @@
       "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.11",
       "plugins": [
         "gook-lab.agent-scheduler"
+      ]
+    },
+    "gops132/gray-orca": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "gops132.gray"
       ]
     },
     "gthjnk/orca-clickup-tasks": {
@@ -2049,7 +2063,7 @@
     },
     "maximechbt/beads-orca-ui": {
       "state": "listed",
-      "ref": "refs/tags/maximechbt/beads-orca-ui/0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "maximechbt.beads-orca-ui"
       ]
