@@ -1259,7 +1259,7 @@
     },
     "gthjnk/orca-clickup-tasks": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "gthjnk.clickup-tasks"
       ]
@@ -1952,7 +1952,7 @@
     },
     "manomilano/orca-mascots": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/manomilano/orca-mascots/1.0.2",
       "plugins": [
         "manomilano.mascots"
       ]
@@ -1994,7 +1994,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.268",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.268",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -3049,7 +3049,7 @@
     },
     "structworks/richdown-orca": {
       "state": "listed",
-      "ref": "v0.13.0",
+      "ref": "refs/tags/structworks/richdown-orca/0.13.0",
       "plugins": [
         "structworks.richdown"
       ]
