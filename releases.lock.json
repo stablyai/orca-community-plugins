@@ -101,6 +101,12 @@
     "repoId": 1463500343,
     "firstSeen": "2026-11-20T08:49:23.972Z"
   },
+  "adamthewilliam.pr-tour@0.2.0": {
+    "commit": "17832e459c1b8d9a754b955381593a87437b0e8e",
+    "contentHash": "1571cce91a9be817e9567f8f03b833934b7e3e2bf363c63d7c7b5ce6cf3eace3",
+    "repoId": 1465282199,
+    "firstSeen": "2026-11-21T00:36:21.088Z"
+  },
   "addisflava.llm-router@1.0.0": {
     "commit": "e6a3f564fec97106af31390db1678b8b445b5918",
     "contentHash": "02e9514fb3e5946489000c7240325b4ac357536e02f6799bc4d46385bf54ed35",
@@ -2249,6 +2255,12 @@
     "repoId": 1464976261,
     "firstSeen": "2026-11-20T16:17:11.512Z"
   },
+  "hmdrams-dev.alias@0.1.2": {
+    "commit": "40744a315af86bad99eeab9e375ff81978b930ea",
+    "contentHash": "2a0cffba0ea20fd11fc9f2237cf2427ab824915511b72bfbe3e70ab2b4acbe0b",
+    "repoId": 1464976261,
+    "firstSeen": "2026-11-21T00:36:21.088Z"
+  },
   "hsnils.github-notifications@0.1.0": {
     "commit": "2928bc20a6fa4910e647970735467f6ac95e8615",
     "contentHash": "298977eae4b049818bfc74be814683a7eb032e4766d0a62984a66103d07df052",
@@ -2998,6 +3010,12 @@
     "contentHash": "5bcb0ff8caebe99d8052b48d95ff11477303276914e9256ea98a7605e83795e9",
     "repoId": 1453789863,
     "firstSeen": "2026-11-11T14:15:10.402Z"
+  },
+  "maxfedorov.youtrack-for-orca@0.1.2": {
+    "commit": "8f82d646610c76f86890cb4238dd83e9bb9e267c",
+    "contentHash": "30f765ae7c2be6a040ec6533d127c2b340213c5f53b9c8a06a53b2130ddfaca0",
+    "repoId": 1453789863,
+    "firstSeen": "2026-11-21T00:36:21.088Z"
   },
   "maximechbt.beads-orca-ui@0.3.0": {
     "commit": "ee5c6801f39416e600269693d7245accb3fc9b7e",

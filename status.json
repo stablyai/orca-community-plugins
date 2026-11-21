@@ -56,6 +56,16 @@
         "adamthewilliam.diff-breakdown"
       ]
     },
+    "adamthewilliam/orca-pr-tour": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "adamthewilliam.pr-tour"
+      ],
+      "notes": [
+        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
+      ]
+    },
     "addisflava/orca-llm-router": {
       "state": "listed",
       "ref": "refs/tags/addisflava/orca-llm-router/1.2.0",
@@ -1363,19 +1373,13 @@
     },
     "hmdrams-dev/orca-plugin-alias": {
       "state": "listed",
-      "ref": "refs/tags/hmdrams-dev/orca-plugin-alias/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "hmdrams-dev.alias"
       ],
-      "update": {
-        "ref": "v0.1.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      "notes": [
+        "engines.orca: must be at least >=1.4.259, because worker/main.ts calls host method \"terminal.close\", which needs Orca 1.4.259; or guard the call with orca.host.has('terminal.close')"
+      ]
     },
     "hsnils/orca-github-notifications": {
       "state": "listed",
@@ -1434,11 +1438,11 @@
     },
     "incompletebiped/orca-localdock": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.1.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -2005,7 +2009,7 @@
     },
     "maxfedorov/youtrack-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "maxfedorov.youtrack-for-orca"
       ]
@@ -3527,7 +3531,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.1.8",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.8",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

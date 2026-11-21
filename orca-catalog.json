@@ -1565,6 +1565,111 @@
       ]
     },
     {
+      "id": "adamthewilliam.pr-tour",
+      "ownerId": 24702294,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/adamthewilliam/orca-pr-tour.git",
+        "ref": "v0.2.0"
+      },
+      "description": "A review queue of the PRs waiting for you, in the order to review them, each with an agent-written guide: risk, findings with suggested comments, what changed in reading order, a note on every file, a claims check, and a review you post to GitHub from the guide.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "17832e459c1b8d9a754b955381593a87437b0e8e",
+          "contentHash": "1571cce91a9be817e9567f8f03b833934b7e3e2bf363c63d7c7b5ce6cf3eace3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PR Tour",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Reviews"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Check for review requests"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Open guide for this branch"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Generate guide for this branch"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Review guide",
+              "detail": ".prtour.json, .prguide.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "PR tour"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/adamthewilliam.pr-tour/b3cf8779ff398a89.png",
+              "alt": "A PR Tour guide for a dashboard restyle PR: risk, findings, the changes by area and the 13-stop tour",
+              "sha256": "b3cf8779ff398a89554e66223e650dfc06e96ff07254d12a8881eb880976a4c9",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/adamthewilliam.pr-tour/e89c8d6fcc74800d.png",
+                "alt": "Guide overview with what, why and impact, a medium risk callout, findings with severity and the changes bar",
+                "sha256": "e89c8d6fcc74800dbb6b94c98c58bb456cd4676a7c78046828d22017c0175155",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/b2a15e79d24bcafd.png",
+                "alt": "A tour stop explaining a CSS token swap above the diff of index.css",
+                "sha256": "b2a15e79d24bcafd441c1b2fb7320c22277039196651b62f57b1b47cbd825d2f",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/14c7d1883b8b71bb.png",
+                "alt": "Finish review step with an open finding to add or dismiss and two pending comments",
+                "sha256": "14c7d1883b8b71bbf487e67a348c449577b89167b453befc0703378be47f0122",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/e88358cab24ce217.png",
+                "alt": "PR Tour settings: agent harness, model, auto-generate toggles, teams, team filter, daily limit and extra instructions",
+                "sha256": "e88358cab24ce2177b47fede1b82e591a71da5e91d8946432b58c5868c3200a2",
+                "width": 2368,
+                "height": 1480
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/adamthewilliam/orca-pr-tour",
+          "updatedAt": "2026-11-21T00:35:50Z"
+        }
+      ]
+    },
+    {
       "id": "addisflava.llm-router",
       "ownerId": 13881665,
       "source": {
@@ -20207,14 +20312,66 @@
       "ownerId": 116369056,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/hmdrams-dev/orca-plugin-alias/0.1.1"
+        "url": "https://github.com/HMDRAMS-DEV/orca-plugin-alias.git",
+        "ref": "v0.1.2"
       },
       "description": "Audit your agent skills across Claude Code, Codex and Gemini, clean up the ones you never use, and share a public profile of the ones you do.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "40744a315af86bad99eeab9e375ff81978b930ea",
+          "contentHash": "2a0cffba0ea20fd11fc9f2237cf2427ab824915511b72bfbe3e70ab2b4acbe0b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "alias",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Skill usage"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:launch",
+            "settings:own",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hmdrams-dev.alias/2632371ed566b8fd.png",
+              "alt": "A classic desk computer showing the alias skill usage window, with the line: Know which skills you actually use.",
+              "sha256": "2632371ed566b8fd58c9ce3a71ad07e0c829765e25fe5ab294ef1554558b16b9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/hmdrams-dev.alias/4064852447f6fd89.png",
+              "alt": "alias icon",
+              "sha256": "4064852447f6fd89a45dcf8a08dda865e946b829ee06853e2afce91660e007dc",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/hmdrams-dev.alias/98ea7815d5e7d733.png",
+                "alt": "The clean up plan on a classic desk computer: duplicate, unused and outdated skills, each with an approve checkbox",
+                "sha256": "98ea7815d5e7d7337fa20e2a57ed482938e88c0e1e7e268d14571bdf3a19dbe6",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-20T18:23:30-05:00",
+          "license": "MIT",
+          "repository": "https://github.com/HMDRAMS-DEV/orca-plugin-alias"
+        },
         {
           "version": "0.1.1",
           "commit": "c5917737d30de825267c8d8fc40611cbcd000c44",
@@ -28799,8 +28956,8 @@
       "ownerId": 10705898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.1"
+        "url": "https://github.com/maxfedorov/youtrack-for-orca.git",
+        "ref": "v0.1.2"
       },
       "description": "Browse YouTrack issues in the right sidebar and start coding agents on them.",
       "categories": [
@@ -28809,6 +28966,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "8f82d646610c76f86890cb4238dd83e9bb9e267c",
+          "contentHash": "30f765ae7c2be6a040ec6533d127c2b340213c5f53b9c8a06a53b2130ddfaca0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "YouTrack for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "YouTrack"
+            },
+            {
+              "kind": "commands",
+              "name": "YouTrack: Open panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "YT"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/maxfedorov.youtrack-for-orca/f1457fb17a823935.png",
+              "alt": "YouTrack for Orca: the plugin's issue list and its Start view for an issue, next to the plugin name and a list of its features",
+              "sha256": "f1457fb17a8239355b41739a961a7641c234f6306129b5f3594a7b59e961cd35",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/maxfedorov.youtrack-for-orca/cd56641f29737a6b.png",
+              "alt": "YouTrack for Orca icon",
+              "sha256": "cd56641f29737a6b862efb223950b4410040b08aa7ea92652e1e7ebbc60f23a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/bbf3268142d7fc9a.png",
+                "alt": "The issue list for a YouTrack query, with saved searches, sortable columns and the actions of the selected issue",
+                "sha256": "bbf3268142d7fc9a3f136ee84f3d7ab1e544181df620a92989516ee1331bb65f",
+                "width": 2000,
+                "height": 1630
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/c9f6a642e3e655e3.png",
+                "alt": "The detail of an issue: creator, tags, Apply command, fields, description, linked issues and comments",
+                "sha256": "c9f6a642e3e655e35e3311cb234553eb220a04314b73596150fa3a4a80cde786",
+                "width": 2000,
+                "height": 1331
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/a460616e168114c0.png",
+                "alt": "The Start view: Run in New worktree, project, name, Create from, workspace, agent, the prompt switches, template and the editable prompt",
+                "sha256": "a460616e168114c02bf10632d0a900e016faf20f2e8c31b6c97ea554d8e07eb3",
+                "width": 2000,
+                "height": 1630
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maxfedorov/youtrack-for-orca",
+          "updatedAt": "2026-11-21T01:15:34+01:00"
+        },
         {
           "version": "0.1.1",
           "commit": "09dafd897e4d1cea3a8edfd359829fd9ea9c5e36",
@@ -50549,8 +50787,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.1.8"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.8"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
