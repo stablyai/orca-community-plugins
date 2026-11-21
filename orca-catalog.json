@@ -10799,16 +10799,79 @@
       "ownerId": 359454302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.0"
+        "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
+        "ref": "v0.1.1"
       },
-      "description": "Orca 봇과 하위 워커의 실시간 협업 상태를 가상 사무실 오피스로 시각화하는 읽기 전용 플러그인",
+      "description": "Read-only virtual office visualizer for Orca bots and live sub-workers",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "d155e41cf011d983bac263882068d67538cdcb34",
+          "contentHash": "0c3270edf6b05f26479d8a23acab7121d69980eb7f831a68b89d0eb9ec78bbbb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Bot World",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh Bot World"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot World Office",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Bot World Board",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot World"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botworld"
+          ],
+          "editorFileTypes": [
+            "botworld"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
+              "alt": "Bot World icon",
+              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
+          "updatedAt": "2026-11-21T18:42:30+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "7239c179db6c0ec2759bdc6b9cfa60c6e311cf25",
@@ -11776,8 +11839,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.9.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.9.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -12082,15 +12145,300 @@
       "ownerId": 41058561,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.7"
+        "url": "https://github.com/dohaidang/orca-theme-plugin.git",
+        "ref": "v1.6.8"
       },
-      "description": "Animated ASCII wallpapers with matching sidebar variants, terminal palettes and file icons. Video on Orca 1.4.254+, still image on older versions. To see the wallpaper, set \"Background Opacity\" below 1 and turn off \"Reduce Visual Effects\"",
+      "description": "20 animated ASCII wallpapers (15 dark, 5 light) with matching sidebar variants, terminal palettes and file icons. Video on Orca 1.4.254+, still image on older versions. To see the wallpaper, set \"Background Opacity\" below 1 and turn off \"Reduce Visual Effects\"",
       "categories": [
         "themes",
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.6.8",
+          "commit": "73cb46c206aae13f27f7bacac9415985f978e2ba",
+          "contentHash": "12e434a5d0a7fa1e7968d3a22c386f37975bc3e9111f8a4e57ab120ff2194af6",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "ASCII Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Sunburst (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cloud Drift (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Honu Lagoon (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Koi Pond (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Jellyfish (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Paper Boats (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Fireflies (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Moonlit (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Aurora (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Neon City (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Rainy Window (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Coral Reef (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Snowfall Cabin (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Cherry Blossom (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Việt Nam (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Night Train"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Night Train (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Night Train (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Windmill Meadow"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Windmill Meadow (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Windmill Meadow (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Zen Garden"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Zen Garden (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Zen Garden (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Hot Air Balloons"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Hot Air Balloons (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Hot Air Balloons (light sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Lemon Café"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Lemon Café (dark sidebar)"
+            },
+            {
+              "kind": "themes",
+              "name": "ASCII · Lemon Café (light sidebar)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Paper Boats"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Coral Sunburst"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Cloud Drift"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "ASCII · Fireflies"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dohaidang.living-ascii-themes/1558d2c84ef478a1.png",
+              "alt": "ASCII Themes: an Orca window with a turtle wallpaper beside the title, above a row of the fifteen pixel-art designs",
+              "sha256": "1558d2c84ef478a1979f5a97a3a676a5f20df19e0136da74dcc3bb828c5904dc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dohaidang.living-ascii-themes/313c355026e28f47.png",
+              "alt": "ASCII Themes icon",
+              "sha256": "313c355026e28f4775d0f6755dab89a30176c3f321596e8d2f826622273887a8",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dohaidang/orca-theme-plugin",
+          "updatedAt": "2026-11-21T16:48:56+07:00"
+        },
         {
           "version": "1.6.7",
           "commit": "6c4c78c28ffe462d42b52083ca1c5fa5463942ef",
@@ -13194,279 +13542,6 @@
           "license": "MIT",
           "repository": "https://github.com/dohaidang/orca-theme-plugin",
           "updatedAt": "2026-11-10T20:14:55+07:00"
-        },
-        {
-          "version": "1.6.2",
-          "commit": "6c14b346021334fe325ca9bd0811935a27736817",
-          "contentHash": "7744c6705f4f650c43beb37e17f7fe780bd317cc4185417c47990512c4543053",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "ASCII Themes",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Sunburst (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cloud Drift (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Honu Lagoon (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Koi Pond (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Jellyfish (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Paper Boats (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Fireflies (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Moonlit (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Aurora"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Aurora (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Aurora (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Neon City"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Neon City (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Neon City (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Rainy Window"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Rainy Window (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Rainy Window (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Reef"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Reef (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Coral Reef (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Snowfall Cabin"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Snowfall Cabin (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Snowfall Cabin (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cherry Blossom"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cherry Blossom (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Cherry Blossom (light sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Việt Nam"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Việt Nam (dark sidebar)"
-            },
-            {
-              "kind": "themes",
-              "name": "ASCII · Việt Nam (light sidebar)"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Paper Boats"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Coral Sunburst"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Cloud Drift"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Fireflies"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Honu Lagoon"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Jellyfish"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Koi Pond"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Moonlit"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Aurora"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Neon City"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Rainy Window"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Coral Reef"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Snowfall Cabin"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Cherry Blossom"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "ASCII · Việt Nam"
-            },
-            {
-              "kind": "iconThemes",
-              "name": "ASCII · Icons"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/dohaidang.living-ascii-themes/084c2c230f29756e.png",
-              "alt": "ASCII Themes: an Orca window with a turtle wallpaper beside the title, above a row of the fifteen pixel-art designs",
-              "sha256": "084c2c230f29756e4ff66cddbeb3447d1ba23bb912a3904c5651262af09b6d14",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/dohaidang.living-ascii-themes/313c355026e28f47.png",
-              "alt": "ASCII Themes icon",
-              "sha256": "313c355026e28f4775d0f6755dab89a30176c3f321596e8d2f826622273887a8",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/dohaidang/orca-theme-plugin",
-          "updatedAt": "2026-11-09T16:55:41+07:00"
         }
       ]
     },
@@ -19708,8 +19783,8 @@
       "ownerId": 82693410,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gthjnk/orca-clickup-tasks.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gthjnk/orca-clickup-tasks/0.1.5"
       },
       "description": "ClickUp in Orca's sidebar: see the tasks assigned to you, browse Spaces, Folders and Lists, and edit status, priority, due dates, assignees, checklists, subtasks and comments without leaving Orca.",
       "categories": [
@@ -30520,6 +30595,38 @@
           "license": "MIT",
           "repository": "https://github.com/MichelVelzr/ork-dbclient",
           "updatedAt": "2026-11-06T14:14:03-05:00"
+        }
+      ]
+    },
+    {
+      "id": "miinwan.vietnamese",
+      "ownerId": 186194717,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miinwan/orca-vietnamese.git",
+        "ref": "v1.5.1"
+      },
+      "description": "Gói giao diện tiếng Việt cho Orca.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.5.1",
+          "commit": "cd47182f0af7d3be5d96d15c6829050b9996bb55",
+          "contentHash": "9e5d30ce3002263cbf135c7a14272c7ec8a677a36b0a68f9e815a06c037d2013",
+          "execution": "data",
+          "minimumOrca": "1.4.266",
+          "name": "Tiếng Việt cho Orca",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "vi"
+            }
+          ],
+          "updatedAt": "2026-11-21T16:20:12+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/Miinwan/orca-vietnamese"
         }
       ]
     },
@@ -43665,8 +43772,8 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
-        "ref": "v0.4.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.3"
       },
       "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, side-by-side merge conflict resolution, a project and worktree switcher, a status bar branch indicator and background fetch.",
       "categories": [
@@ -52669,8 +52776,8 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wooseungw/rich-tex-editor.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.1"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables and images as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],
