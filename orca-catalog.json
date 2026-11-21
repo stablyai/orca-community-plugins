@@ -15451,8 +15451,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.7"
+        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
+        "ref": "v2.0.8"
       },
       "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
       "categories": [
@@ -15461,6 +15461,81 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "2.0.8",
+          "commit": "f7300a8930e57708584f2bb1568bd526e1fb0fab",
+          "contentHash": "1f9145985ee603e7b23f55236ec16f78918f07dd229494d1dff38fbd7045f416",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Profiles",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: relaunch last profile"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+L",
+              "detail": "agentProfiles.relaunchLast"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-profiles/c12f7df29748f807.png",
+              "alt": "The Agents panel with profiles grouped by agent, beside the command a Claude profile launches through Ollama.",
+              "sha256": "c12f7df29748f807d8cc93af810b2e26c1663709257341974bc15a9cc5e0369e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-profiles/9a9dc6f3eb8861f3.png",
+              "alt": "Agent Profiles icon",
+              "sha256": "9a9dc6f3eb8861f3931ee8b3577918c2c4144402fed4cd417a345c7ea688c15e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-profiles/07410678b9161c09.png",
+                "alt": "The Agents panel in Orca's light theme: Antigravity and Claude groups, each profile with its model, effort, launch and edit buttons.",
+                "sha256": "07410678b9161c0940085d7aafa60019ed1511f91114dcc68849ebd8d964c024",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/ffb58ec24d00e4ba.png",
+                "alt": "The dark profile form for a Claude profile: name, avatar, model glm-5.3:cloud[1m], effort Max, provider Ollama, extra arguments.",
+                "sha256": "ffb58ec24d00e4baa3cb78b221aaae1613911b57fe6fcec03dfb96fadaff9ab2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/3347c20e0cb19f6c.png",
+                "alt": "The same profile form in the light theme.",
+                "sha256": "3347c20e0cb19f6c52b7b54af7fd5c4ba015bb8191339b3c52c07eba0ce4a27c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-profiles",
+          "updatedAt": "2026-11-21T18:55:22+01:00"
+        },
         {
           "version": "2.0.7",
           "commit": "f625497b69132b0184c49bd973adfaa5e91b3332",
@@ -22664,13 +22739,94 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v2.1.1"
+        "ref": "v2.1.2"
       },
       "description": "Control AIMP from Orca — your lossless collection while you work",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "2.1.2",
+          "commit": "b7682c0633343e4c13b6f6ef3c4bf29c667e5f27",
+          "contentHash": "749d44edb77785ebe7c3d0da7e0778d14a41929b810804964ff6a7675dcc5dbc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "B-Side",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "B-Side"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/icaceresc.b-side/6d933a3a797f0bc3.png",
+              "alt": "B-Side logo, the words \"Your music library, inside Orca\" and two panels: the Albums grid of a demo library and Now Playing with synced lyrics",
+              "sha256": "6d933a3a797f0bc3b5fda9835494f14487b3688ad6240f51c6ce6e1a7483f400",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/icaceresc.b-side/b145ad6339896bb1.png",
+              "alt": "B-Side icon",
+              "sha256": "b145ad6339896bb1f0101058ee99a2c1a62b1ac1e08308afc3bbd971d888c251",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.b-side/49c9f7126213f328.webp",
+                "alt": "The panel in three skins: CD in a cover's colours, Vinyl with serif lyrics and a brass play button, Cassette with pixel type and neon",
+                "sha256": "49c9f7126213f3286b48a9b29fb8c480e8d8998446afc486d4dcd8cd1fb0a145",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/55045241eeeefed3.webp",
+                "alt": "Each skin's logo, paused and playing: a glowing CD, a turntable whose tonearm lowers onto the record, a pixel tape with its light on",
+                "sha256": "55045241eeeefed3587bffeb7cfcd14c095fc492d9d9e3f8aa55c04c1d29aa2e",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/9647b7d90525c854.webp",
+                "alt": "The panel dragged wide: a demo Albums grid on the left, Now Playing on the right with cover, format badges, synced lyrics and controls",
+                "sha256": "9647b7d90525c8543abbc61ce79faae6d368be6b57b971027c6a958a2b5e0f9b",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/ea1a9b3ba61ac898.webp",
+                "alt": "An album page tinted from its cover, with Hi-Res and FLAC badges, a Play button and the track list, beside its artist's page",
+                "sha256": "ea1a9b3ba61ac898d7f5daa3f3512ab20f0784681004ded7d4eb14678d6357ae",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/e602dcfe1d05ce72.webp",
+                "alt": "Now Playing at phone width with format badges and synced lyrics, beside the Artists grid with the mini-player above the tabs",
+                "sha256": "e602dcfe1d05ce7214d95fcd9516410fc9608d844cb6047509219b2bcfbd92eb",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/2507d05ddf1dd304.webp",
+                "alt": "Search for \"rio\" finding the artist Ríos de Ámbar, the album Río Lento and its tracks, with the matched letters underlined, beside that album's page",
+                "sha256": "2507d05ddf1dd30421a027b4575bdfa24e87e3bbb47d8569c30c73e89b7ebffd",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/b-side",
+          "updatedAt": "2026-11-21T15:16:10-03:00"
+        },
         {
           "version": "2.1.1",
           "commit": "bcf5787e04ba728a10e92d03d5034ab6fcc846ac",
@@ -22986,8 +23142,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/pixtuoid-orca-windows.git",
-        "ref": "v3.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/pixtuoid-orca-windows/3.0.0"
       },
       "description": "Opens a floating pixel-art office on Windows where your Orca agents, their workers and subagents appear as coworkers: the official Pixtuoid office, or Dungeons & Agents, where clicking an adventurer opens its session in Orca.",
       "categories": [
@@ -29646,9 +29802,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-21T12:06:17+08:00",
           "license": "Apache-2.0",
-          "repository": "https://github.com/lindoo67/drawio-plugin"
+          "repository": "https://github.com/lindoo67/drawio-plugin",
+          "updatedAt": "2026-11-21T12:06:17+08:00"
         },
         {
           "version": "0.1.6",
@@ -31265,14 +31421,102 @@
       "ownerId": 14289013,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/maximechbt/beads-orca-ui/2.1.0"
+        "url": "https://github.com/maximechbt/beads-orca-ui.git",
+        "ref": "v2.2.0"
       },
       "description": "Your beads tasks beside your agents, and full screen in the middle of Orca: see what moves, change any task in place, and hand one to an agent in one press.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "2.2.0",
+          "commit": "93e60509cde760630a4ae98c130f6230043f7e07",
+          "contentHash": "78ce4b1a9ea0fc512f0fb1e2ded63b7f45242ad3f906e4d37218ea22ce5a0626",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Beads UI",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Beads",
+              "detail": ".beads-board"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/maximechbt.beads-orca-ui/37034ad5c0c7c1a8.webp",
+              "alt": "Beads UI for Orca: its logo and name beside the full-screen board, with the side panel in dark in front of it.",
+              "sha256": "37034ad5c0c7c1a88618959e0bc6c805400f9838e1d9052f0e073e15ded3c649",
+              "width": 2560,
+              "height": 1600
+            },
+            "icon": {
+              "path": "assets/maximechbt.beads-orca-ui/1f2dd898e570e467.png",
+              "alt": "Beads UI icon",
+              "sha256": "1f2dd898e570e4678d51dd5bd4eb9cd5c7d41188ae59f221f205b79e5a7767bd",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/maximechbt.beads-orca-ui/673c7bf2c6d47f5d.webp",
+                "alt": "The full-screen board with To do, In progress, Awaiting review, Blocked and Done columns, and filters above them.",
+                "sha256": "673c7bf2c6d47f5d637ad76bfb4f8a53996b62899ebddc6a0bc3f11ae0f99a41",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/eefe9fd74915ab00.webp",
+                "alt": "The full-screen list in dark grouped by state, and a task page in light with its description, criteria and properties.",
+                "sha256": "eefe9fd74915ab0076b82fa32e9b8414555020e301c5167f89257c63a446e30f",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/72b6df43c79b37d9.webp",
+                "alt": "Two Beads panels: the All tab grouped by state with To do unfolded, and the Epics tab in dark with an epic's tasks and progress bar.",
+                "sha256": "72b6df43c79b37d9731db917a20e917271985f74084b08f81419a05d306557c1",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/6262ef66854f1c32.webp",
+                "alt": "A task in the Beads panel with its priority menu open, next to the same task in dark scrolled to its criteria, links and comments.",
+                "sha256": "6262ef66854f1c32589fd749ff44e9bc9d59cb6197e7402d9a5c085bd46a6ec5",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/44c034978ec3ddb4.webp",
+                "alt": "The Start menu listing Claude Code and Codex, and the task in dark once Claude Code was launched on it.",
+                "sha256": "44c034978ec3ddb4a3f2837aa0b4c26f75b2864d9bb4b08798fde63d9d4dd601",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/8b4fe100cb956ca0.webp",
+                "alt": "The Memory view listing four facts with a search field, and the same view in dark writing a new memory.",
+                "sha256": "8b4fe100cb956ca053899e7aac3fb2e2e793420a5d97cb7a4aa9bdb800b7546d",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maximechbt/beads-orca-ui",
+          "updatedAt": "2026-11-21T19:14:51+01:00"
+        },
         {
           "version": "2.1.0",
           "commit": "2f48a1722ef5efe86aa533d504e26e79159b41e5",
@@ -31633,9 +31877,9 @@
               "name": "vi"
             }
           ],
-          "updatedAt": "2026-11-21T16:20:12+07:00",
           "license": "MIT",
-          "repository": "https://github.com/Miinwan/orca-vietnamese"
+          "repository": "https://github.com/Miinwan/orca-vietnamese",
+          "updatedAt": "2026-11-21T16:20:12+07:00"
         }
       ]
     },

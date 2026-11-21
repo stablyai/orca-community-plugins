@@ -1661,6 +1661,12 @@
     "repoId": 1459055882,
     "firstSeen": "2026-11-15T20:14:04.920Z"
   },
+  "erom.agent-profiles@2.0.8": {
+    "commit": "f7300a8930e57708584f2bb1568bd526e1fb0fab",
+    "contentHash": "1f9145985ee603e7b23f55236ec16f78918f07dd229494d1dff38fbd7045f416",
+    "repoId": 1459055882,
+    "firstSeen": "2026-11-21T18:18:10.322Z"
+  },
   "erom.agent-progress-sp@0.1.0": {
     "commit": "5bd52ee821887bffbb2d37dd1c34581d197b6662",
     "contentHash": "c8fc4d1f2760c28aed4040786403e9e3d613ee27903175efc0fbe99fd0865e2d",
@@ -2525,6 +2531,12 @@
     "repoId": 1465869478,
     "firstSeen": "2026-11-21T17:43:08.726Z"
   },
+  "icaceresc.b-side@2.1.2": {
+    "commit": "b7682c0633343e4c13b6f6ef3c4bf29c667e5f27",
+    "contentHash": "749d44edb77785ebe7c3d0da7e0778d14a41929b810804964ff6a7675dcc5dbc",
+    "repoId": 1465869478,
+    "firstSeen": "2026-11-21T18:18:10.322Z"
+  },
   "icaceresc.pixtuoid-office@3.0.0": {
     "commit": "d62550a1c7ebb3f04fd4b62f34394002d02e475d",
     "contentHash": "4643d9bdc66c285475a1837ee7cf55329c007412c7698306b1af35d4d3b2c17b",
@@ -3238,6 +3250,12 @@
     "contentHash": "b93e5fb39ed971fd7a64ff39a91f866bfa25ceeb49b50a34acc657f613abc450",
     "repoId": 1450307615,
     "firstSeen": "2026-11-21T17:14:01.436Z"
+  },
+  "maximechbt.beads-orca-ui@2.2.0": {
+    "commit": "93e60509cde760630a4ae98c130f6230043f7e07",
+    "contentHash": "78ce4b1a9ea0fc512f0fb1e2ded63b7f45242ad3f906e4d37218ea22ce5a0626",
+    "repoId": 1450307615,
+    "firstSeen": "2026-11-21T18:18:10.322Z"
   },
   "mbirepinte.asciidoc-viewer@0.1.0": {
     "commit": "00681a638bb154b9c818a348b1f57b687055b286",

@@ -851,7 +851,7 @@
         "dohaidang.vietnamese"
       ],
       "notes": [
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 76 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 97 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "dohaidang/orca-wallpaper-studio": {
@@ -894,6 +894,9 @@
       "ref": "refs/tags/ebbop/orca-italiano/1.4.266",
       "plugins": [
         "ebbop.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 24 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -974,12 +977,9 @@
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
-      "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.7",
+      "ref": "v2.0.8",
       "plugins": [
         "erom.agent-profiles"
-      ],
-      "notes": [
-        "engines.orca: must be at least >=1.4.259, because src/worker.ts calls host method \"terminal.focus\", which needs Orca 1.4.259; or guard the call with orca.host.has('terminal.focus')"
       ]
     },
     "erom/orca-plugin-agent-progress-sp": {
@@ -1050,6 +1050,9 @@
       "ref": "refs/tags/eszetael/orca-polski/1.4.263",
       "plugins": [
         "eszetael.polski"
+      ],
+      "notes": [
+        "contributes.languagePacks \"pl\" (locales/pl.json): 21 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "etherll/orca-usage-insights": {
@@ -1466,14 +1469,14 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v2.1.1",
+      "ref": "v2.1.2",
       "plugins": [
         "icaceresc.b-side"
       ]
     },
     "icaceresc/pixtuoid-orca-windows": {
       "state": "listed",
-      "ref": "v3.0.0",
+      "ref": "refs/tags/icaceresc/pixtuoid-orca-windows/3.0.0",
       "plugins": [
         "icaceresc.pixtuoid-office"
       ]
@@ -1992,7 +1995,7 @@
         "mancunianez.ukrainian"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (locales/uk.json): 90 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (locales/uk.json): 111 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "manomilano/orca-mascots": {
@@ -2042,6 +2045,9 @@
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.268",
       "plugins": [
         "matteoeusebi.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 24 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -2067,7 +2073,7 @@
     },
     "maximechbt/beads-orca-ui": {
       "state": "listed",
-      "ref": "refs/tags/maximechbt/beads-orca-ui/2.1.0",
+      "ref": "v2.2.0",
       "plugins": [
         "maximechbt.beads-orca-ui"
       ]
@@ -2094,6 +2100,9 @@
       "ref": "refs/tags/miinwan/orca-vietnamese/1.5.1",
       "plugins": [
         "miinwan.vietnamese"
+      ],
+      "notes": [
+        "contributes.languagePacks \"vi\" (locales/vi.json): 24 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "mike623/kanagawa-orca-theme": {
@@ -2865,6 +2874,16 @@
         }
       ]
     },
+    "seanrobertwright/orchon": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "senadaruc/orca-grazr": {
       "state": "listed",
       "ref": "refs/tags/senadaruc/orca-grazr/0.8.1",
@@ -3292,7 +3311,7 @@
         "tomasmarik-sys.czech"
       ],
       "notes": [
-        "contributes.languagePacks \"cs\" (locales/cs.json): 11 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"cs\" (locales/cs.json): 35 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "toriskr/orca-toris-neon": {
