@@ -6965,6 +6965,46 @@
       ]
     },
     {
+      "id": "callumjmac.talkback",
+      "ownerId": 76535646,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/CallumJMac/orca-talkback-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Hear your coding agents talk back. Forwards workspace focus and agent status to the local orca-talkback daemon, which speaks a short summary of each finished reply.",
+      "categories": [
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "220822a037f421108b5b4a2672a0794ccd1ce069",
+          "contentHash": "d8d973198e51b5a9b2f8ac3cc0ce605aa0292ae4df6727d79aac45f45dfb4e55",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Talkback",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read"
+          ],
+          "license": "Apache-2.0",
+          "repository": "https://github.com/CallumJMac/orca-talkback-plugin",
+          "updatedAt": "2026-11-21T20:40:22Z"
+        }
+      ]
+    },
+    {
       "id": "canhta.orcaffein",
       "ownerId": 56242791,
       "source": {
@@ -10453,8 +10493,8 @@
       "ownerId": 99609885,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
-        "ref": "v0.8.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.1"
       },
       "description": "A read-only control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests.",
       "categories": [
@@ -29208,14 +29248,94 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lilykos/orca-openrouter-usage/1.0.0"
+        "url": "https://github.com/Lilykos/orca-openrouter-usage.git",
+        "ref": "v1.1.0"
       },
-      "description": "Keep an eye on your OpenRouter account from the sidebar: credits left and days of runway, spend and tokens by model and key, a daily ledger, low-balance alerts and a status bar item. Read-only, and your management key stays in the OS keyring.",
+      "description": "Track OpenRouter credits, runway and spend from Orca: model comparisons, daily and monthly budgets, API key health, CSV exports and a status bar balance. Read-only; your management key stays in Orca's encrypted secret store.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "0d51e9d061f4255d7822793705ba05a640fcb924",
+          "contentHash": "6bfea39bda248661039a2ba6e667ea6e69a76853beaaa2d8e90ead6d0894663f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenRouter Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenRouter Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenRouter"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lilykos.openrouter-usage/6e8280a1ad04b44f.png",
+              "alt": "OpenRouter Usage: one input fanning out to several models, with the title and the features Credits and burn rate, Models, API keys and Daily ledger",
+              "sha256": "6e8280a1ad04b44f22d1aa747120ae4e3d3e65636dffcfc582659263b9772277",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lilykos.openrouter-usage/8afcf4398a709ea2.png",
+              "alt": "OpenRouter Usage icon",
+              "sha256": "8afcf4398a709ea2e948ed759cae8a41e035581356b4717103f4fa36c7143acb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lilykos.openrouter-usage/2382c7074b046a10.png",
+                "alt": "The Overview: credits and runway, monthly spend and projection, comparison with the preceding period, budget progress and a daily spend chart",
+                "sha256": "2382c7074b046a10308c8710944b5e567651a45064964aa91ba62047524c4231",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/ea3849614f3f4d22.png",
+                "alt": "A model details drawer showing total, share, requests, token breakdown, cache hit rate and a daily sparkline",
+                "sha256": "ea3849614f3f4d22ecc6f148175c748d6daf589e7df6e6392e51ad769271d893",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/114b6d65dd8224ac.png",
+                "alt": "The Keys tab with per-key spend, expiring and expired key badges, near-limit warnings and UTC reset periods",
+                "sha256": "114b6d65dd8224ac4e183c267182c80a78e43c371e3779ec955d0d6023b621f1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/776ccf53560077c4.png",
+                "alt": "The Ledger tab: a newest-first list of days with a bar and amount, and an activity calendar",
+                "sha256": "776ccf53560077c430c08a5267d71d1b916b42e49b5697ae96346aa5b939b480",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/52bca38b74cdd1d2.png",
+                "alt": "The Settings tab with connection test, key replacement, refresh interval, alert thresholds and toggles",
+                "sha256": "52bca38b74cdd1d221b4f261b1aedde839101be7c73af87fe59859d95e67a503",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-openrouter-usage",
+          "updatedAt": "2026-11-21T21:28:44+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "a12f943f3442b503f9de14e92aac8a8c59a62c22",
@@ -37319,14 +37439,84 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/palulabs/orca-tycoon/0.2.13"
+        "url": "https://github.com/palulabs/orca-tycoon.git",
+        "ref": "v0.2.14"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.14",
+          "commit": "410e6d4ba7328f5779c03a157616f947d53d5da6",
+          "contentHash": "513e85890eb8ac073d68f5ddbe96e1ca08f4f4c76f52d918fc94dcea2e2606c9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Office Tycoon for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Office Tycoon"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/palulabs.office-tycoon/914857d883235d36.png",
+              "alt": "The hangout in the Loft: agents chatting at a round white table, one on the sofa on a pink rug, a coffee counter and foosball",
+              "sha256": "914857d883235d3614ea1283e2b16c80fe9ded8d4b3f94e812b59f638c642065",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
+              "alt": "Office Tycoon for Orca icon",
+              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/palulabs.office-tycoon/7de2f6dbe3ddf65e.png",
+                "alt": "The whole office in the Loft: five teams at islands of desks behind navy curtains under tall windows onto the street, and the hangout along the bottom",
+                "sha256": "7de2f6dbe3ddf65ec66fc620c0157db9213047d20769becef39c937eabe77f59",
+                "width": 2500,
+                "height": 1562
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/588dd4620705e876.png",
+                "alt": "A team at its island of six desks, nameplates on the monitors, and a speech bubble from an agent that just finished",
+                "sha256": "588dd4620705e876594504c04e10606dcbd6c68d298cfe689f38353f20d43f32",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/271fdcc09dbe2f2c.png",
+                "alt": "Two small teams sharing a room: a red screen for blocked, specialists on stools beside their agent, a dimmed sleeping desk",
+                "sha256": "271fdcc09dbe2f2c9e8739c2cae6ef17c785b7aca3ae4248e200c65dddea48bd",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/61b12edfdddb4742.png",
+                "alt": "Bots in their own rooms, each at a desk of its own at the head of the desks it runs, and the coordinator asking how DAT-11 is doing",
+                "sha256": "61b12edfdddb4742cc0f3f25ec2289d6d210f6499e4d4c5e3b4ce615ff0a0a58",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/palulabs.office-tycoon/d253af399594cf91.png",
+                "alt": "The coordinator's own room beside the hangout, curtained off from the lounge, with its desk and the floor map",
+                "sha256": "d253af399594cf91d297cb527e6997e325d95e390c52cdb5fd2e52fd2c056916",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/palulabs/orca-tycoon",
+          "updatedAt": "2026-11-21T21:21:04+01:00"
+        },
         {
           "version": "0.2.13",
           "commit": "0e763c33523d11415847713778db4a419663403f",
@@ -37564,62 +37754,6 @@
           "license": "MIT",
           "repository": "https://github.com/palulabs/orca-tycoon",
           "updatedAt": "2026-11-17T16:50:51+01:00"
-        },
-        {
-          "version": "0.2.8",
-          "commit": "e38107d6a8182b3e3dc135894a8502d714d27ea5",
-          "contentHash": "71373fe9b5864b8c29e4b8eb2c8ce1880aa4cb70559df96915378e3fee16bf6d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Office Tycoon for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Office Tycoon"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/palulabs.office-tycoon/914857d883235d36.png",
-              "alt": "The hangout in the Loft: agents chatting at a round white table, one on the sofa on a pink rug, a coffee counter and foosball",
-              "sha256": "914857d883235d3614ea1283e2b16c80fe9ded8d4b3f94e812b59f638c642065",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/palulabs.office-tycoon/fa599ace2aa126d1.png",
-              "alt": "Office Tycoon for Orca icon",
-              "sha256": "fa599ace2aa126d17691f23f4cc783a12829c83e2f53b8259d3bc76508d419d4",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/palulabs.office-tycoon/54dc7c2deebe72aa.png",
-                "alt": "The whole office in the Loft: five teams at islands of desks behind navy curtains under tall garden windows, and the hangout in the middle",
-                "sha256": "54dc7c2deebe72aa092b6f2ff528e4c6296ea0a1e2ab1e1556d8278545a1769c",
-                "width": 2500,
-                "height": 1562
-              },
-              {
-                "path": "assets/palulabs.office-tycoon/487b253d0b2f9916.png",
-                "alt": "A team at its island of six desks, nameplates on the monitors, and a speech bubble from an agent that just finished",
-                "sha256": "487b253d0b2f99165f2e2739e49df882c7bd4908360ca90de0b09a51a88b482f",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/palulabs.office-tycoon/c124391071136e31.png",
-                "alt": "Two small teams sharing a room: a red screen for blocked, specialists on stools beside their agent, a dimmed sleeping desk",
-                "sha256": "c124391071136e311a53f7452b3a1f4dea1fa8fd7ab8e0c2cfb86fbdcdb4d48c",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/palulabs/orca-tycoon",
-          "updatedAt": "2026-11-13T22:35:38+01:00"
         }
       ]
     },
@@ -39755,6 +39889,45 @@
       ]
     },
     {
+      "id": "robshox.skill-tracker",
+      "ownerId": 3449891,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/robshox/skill-tracker.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Shows which skills agents load in each session, when, and how often.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "4e74bf0f47e4ab34b961029a3bfc936b006fb7d7",
+          "contentHash": "6ef3ade34acea22718928a9a20f66fd205db25c4ffd9d2d138a56cf09cb7f061",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Skill Tracker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Skill Tracker"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/robshox/skill-tracker",
+          "updatedAt": "2026-11-21T20:31:12Z"
+        }
+      ]
+    },
+    {
       "id": "rodrigorodrigo.agent-config-sync",
       "ownerId": 46758811,
       "source": {
@@ -40872,8 +41045,8 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rr235/orca-task-launcher.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rr235/orca-task-launcher/0.2.1"
       },
       "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
       "categories": [
@@ -46237,12 +46410,80 @@
       ]
     },
     {
+      "id": "simplycreatecode.companion-chat",
+      "ownerId": 359530843,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SimplyCreateCode/companion-chat.git",
+        "ref": "v0.2.0"
+      },
+      "description": "A chat companion for Orca. Talk to the coding CLI you choose (Claude Code, OpenCode, Kimi Code, Codex, Gemini CLI, Copilot CLI or your own) and let it start agents, create workspaces, open terminals and create files, each change only after you allow it.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "f516c55e74a73043b0873542d67093980a1ec931",
+          "contentHash": "1126a480fbef808dc32240496a71f0999fb3d585a855056b80e4b6082cedb989",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Companion Chat",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Companion Chat"
+            },
+            {
+              "kind": "commands",
+              "name": "Companion Chat: Open (toggle right sidebar)"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+L",
+              "detail": "companion.open"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Companion"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "settings:own",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/simplycreatecode.companion-chat/74db04c95edaa380.png",
+              "alt": "Companion Chat icon",
+              "sha256": "74db04c95edaa38029299e339fa7cbaa581bd934dd02c1c2d4046516273e697b",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SimplyCreateCode/companion-chat",
+          "updatedAt": "2026-11-21T21:38:39+01:00"
+        }
+      ]
+    },
+    {
       "id": "simplycreatecode.projects-sessions-sidebar",
       "ownerId": 359530843,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SimplyCreateCode/projects-sessions-sidebar.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/simplycreatecode/projects-sessions-sidebar/0.1.2"
       },
       "description": "Your projects with every agent session under them, live or past: status, title and age, newest first. Click to jump to a live session or resume a closed one; + starts a new one in the project.",
       "categories": [

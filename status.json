@@ -446,6 +446,16 @@
         }
       ]
     },
+    "callumjmac/orca-talkback-plugin": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "callumjmac.talkback"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "canhta/orcaffein": {
       "state": "listed",
       "ref": "refs/tags/canhta/orcaffein/0.1.1",
@@ -688,7 +698,7 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "v0.8.1",
+      "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.1",
       "plugins": [
         "cryptosecco.regia"
       ]
@@ -1881,7 +1891,7 @@
     },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
-      "ref": "refs/tags/lilykos/orca-openrouter-usage/1.0.0",
+      "ref": "v1.1.0",
       "plugins": [
         "lilykos.openrouter-usage"
       ]
@@ -2473,7 +2483,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.13",
+      "ref": "v0.2.14",
       "plugins": [
         "palulabs.office-tycoon"
       ]
@@ -2673,6 +2683,13 @@
         "robmarcopolo.moonlight-theme"
       ]
     },
+    "robshox/skill-tracker": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "robshox.skill-tracker"
+      ]
+    },
     "rodrigorodrigo/orca-agent-config-sync": {
       "state": "listed",
       "ref": "refs/tags/rodrigorodrigo/orca-agent-config-sync/0.2.1",
@@ -2742,7 +2759,7 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/rr235/orca-task-launcher/0.2.1",
       "plugins": [
         "rr235.task-launcher"
       ]
@@ -3030,6 +3047,13 @@
         "shumkov.cliproxy-usage"
       ]
     },
+    "simplycreatecode/companion-chat": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "simplycreatecode.companion-chat"
+      ]
+    },
     "simplycreatecode/github-copilot-for-orca-ade": {
       "state": "rejected",
       "ref": "v0.3.1",
@@ -3042,7 +3066,7 @@
     },
     "simplycreatecode/projects-sessions-sidebar": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/simplycreatecode/projects-sessions-sidebar/0.1.2",
       "plugins": [
         "simplycreatecode.projects-sessions-sidebar"
       ]
