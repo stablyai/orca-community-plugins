@@ -760,7 +760,7 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.1",
       "plugins": [
         "ddochi-nyang.bot-world"
       ]
@@ -832,7 +832,7 @@
     },
     "dohaidang/orca-theme-plugin": {
       "state": "listed",
-      "ref": "v1.6.8",
+      "ref": "refs/tags/dohaidang/orca-theme-plugin/1.6.8",
       "plugins": [
         "dohaidang.living-ascii-themes"
       ]
@@ -1360,6 +1360,16 @@
         "harsh97.muse-usage"
       ]
     },
+    "hasanalituran/orca-auto-dark-mode-windows": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "id \"orca-toggle-theme\" starts with \"orca-\", which is reserved for official plugins"
+        }
+      ]
+    },
     "heath0xff/stillwater": {
       "state": "listed",
       "ref": "refs/tags/heath0xff/stillwater/1.1.0",
@@ -1558,7 +1568,7 @@
     },
     "jameslatajan/orca-svn": {
       "state": "listed",
-      "ref": "refs/tags/jameslatajan/orca-svn/0.2.6",
+      "ref": "v0.2.9",
       "plugins": [
         "jameslatajan.svn"
       ]
@@ -2066,7 +2076,7 @@
     },
     "miinwan/orca-vietnamese": {
       "state": "listed",
-      "ref": "v1.5.1",
+      "ref": "refs/tags/miinwan/orca-vietnamese/1.5.1",
       "plugins": [
         "miinwan.vietnamese"
       ]
