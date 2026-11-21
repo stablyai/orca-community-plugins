@@ -78,13 +78,32 @@
       "ref": "refs/tags/aetna000/atmem-ai-architect-orca/0.2.2",
       "plugins": [
         "aetna000.atmem-architect"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
       "ref": "refs/tags/albuquerquesz/orca-github-dark-theme/1.0.4",
       "plugins": [
         "albuquerquesz.github-dark-theme"
+      ]
+    },
+    "albuquerquesz/orca-github-light-theme": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name"
+        }
       ]
     },
     "alexander-64/orca-pipeline": {
@@ -448,7 +467,7 @@
     },
     "callumjmac/orca-talkback-plugin": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/callumjmac/orca-talkback-plugin/0.3.2",
       "plugins": [
         "callumjmac.talkback"
       ]
@@ -1483,11 +1502,11 @@
     },
     "icaceresc/b-side": {
       "state": "rejected",
-      "ref": "v2.3.0",
+      "ref": "v2.3.1",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (native/bin/bside-helper-arm64.exe, native/bin/bside-helper-x64.exe)"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
@@ -1808,11 +1827,11 @@
     },
     "kvdecvlt/orca-russian-language": {
       "state": "rejected",
-      "ref": "v1.2.0",
+      "ref": "v1.3.0",
       "reasons": [
         {
           "category": "validation",
-          "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): translation at auto.components.settings.GeneralUpdateSettingsSection.8311da27ba exceeds 64 characters (4x its English text, at least 64)"
+          "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): translation at main-only.txt adds a line break the English text does not have"
         }
       ]
     },
@@ -2777,11 +2796,11 @@
     },
     "ryujiyasu/orca-oxi-slides": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "binary-files",
-          "detail": "bundles binary files (editor/favicon.ico, editor/oxidocs_engine.gz.0.wasm, editor/oxidocs_engine.gz.1.wasm)"
+          "detail": "bundles binary files (editor/oxidocs_engine.1.wasm)"
         }
       ]
     },
@@ -2900,7 +2919,7 @@
     },
     "seanrobertwright/orchon": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/seanrobertwright/orchon/0.1.0",
       "plugins": [
         "seanrobertwright.orchon"
       ],

@@ -6969,8 +6969,8 @@
       "ownerId": 76535646,
       "source": {
         "kind": "git",
-        "url": "https://github.com/CallumJMac/orca-talkback-plugin.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/callumjmac/orca-talkback-plugin/0.3.2"
       },
       "description": "Hear your coding agents talk back. Forwards workspace focus and agent status to the local orca-talkback daemon, which speaks a short summary of each finished reply.",
       "categories": [
@@ -43432,8 +43432,8 @@
       "ownerId": 2528042,
       "source": {
         "kind": "git",
-        "url": "https://github.com/seanrobertwright/Orchon.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/seanrobertwright/orchon/0.1.0"
       },
       "description": "Archon's runs, workflows and chat inside Orca. Unofficial; not made or endorsed by the Archon or Orca projects.",
       "categories": [
