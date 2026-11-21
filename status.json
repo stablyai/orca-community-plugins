@@ -271,7 +271,7 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.4",
+      "ref": "v1.1.6",
       "plugins": [
         "aywengo.omlx"
       ]
@@ -2075,7 +2075,7 @@
         "maximechbt.beads-orca-ui"
       ],
       "update": {
-        "ref": "v1.0.1",
+        "ref": "v2.0.1",
         "reasons": [
           {
             "category": "under-review",

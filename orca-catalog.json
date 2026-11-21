@@ -4103,14 +4103,86 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.4"
+        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
+        "ref": "v1.1.6"
       },
-      "description": "Connect to a running oMLX server, load and unload models, see what is in memory, and edit base settings.",
+      "description": "Manage a local oMLX server from Orca’s sidebar: save the API key in encrypted secrets, load and unload models, watch memory and live requests, edit base settings, and restart the server without leaving your workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.6",
+          "commit": "06c569b82bdecc25faa4535de8b7fa1ca80d8df5",
+          "contentHash": "620d2b723bcced4baca09273024feeb89556624d4c10ca07ae95ca1fd7d36049",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "oMLX",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "oMLX"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "oMLX"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/aywengo.omlx/f48f2073332d24dd.png",
+              "alt": "oMLX open in Orca’s sidebar beside the editor, showing memory, loaded models, and generation speed on the Pulses tab",
+              "sha256": "f48f2073332d24dda3c85a35b373cc7f0257208e5b0cecf2e98b6e28bdbb0745",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/aywengo.omlx/3bb536a94fe30f0e.png",
+              "alt": "oMLX icon",
+              "sha256": "3bb536a94fe30f0e90e95deef5318c629c88485d00561ea983eb298dc43a4977",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/aywengo.omlx/e02e6b867edc6747.png",
+                "alt": "oMLX Models tab listing MLX models with load state and size",
+                "sha256": "e02e6b867edc67471854df44877acf4a7ab0efcd72b4c5f4cb5ce576cef47e1d",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/aywengo.omlx/3780444fe57e4b87.png",
+                "alt": "oMLX Pulses tab with memory meter, request stats, and tokens per second",
+                "sha256": "3780444fe57e4b879d5a5f5e4e2ab97d723c89d642dd61eec165999348d30189",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/aywengo.omlx/f897a3019f239744.png",
+                "alt": "oMLX Running tab showing a loaded model and an active generation request",
+                "sha256": "f897a3019f239744a85e4b42875cd89bc675eb3a9252180bf5a3b95c35f10065",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/aywengo.omlx/9ba4f2e2291f57ac.png",
+                "alt": "oMLX Settings tab with host, port, and log level under Server",
+                "sha256": "9ba4f2e2291f57acf8d649322062d0fe58ed5f2699619b17ee4d2c5b5790fe52",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aywengo/orca-mlx-plugin",
+          "updatedAt": "2026-11-21T17:02:32+01:00"
+        },
         {
           "version": "1.1.4",
           "commit": "1deeac1db68c192cbaac41b2152f34d69736f1e5",
@@ -4250,41 +4322,6 @@
           "license": "MIT",
           "repository": "https://github.com/aywengo/orca-mlx-plugin",
           "updatedAt": "2026-11-17T15:17:32+01:00"
-        },
-        {
-          "version": "1.0.1",
-          "commit": "7474ec008b6946f8b858bf3f058032c733d02b6f",
-          "contentHash": "c8b49ed45645113039c77fb79d54aba909538cca5c4134268b1161026503e62d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "oMLX",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "oMLX"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "oMLX"
-            }
-          ],
-          "capabilities": [
-            "secrets:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/aywengo.omlx/3bb536a94fe30f0e.png",
-              "alt": "oMLX icon",
-              "sha256": "3bb536a94fe30f0e90e95deef5318c629c88485d00561ea983eb298dc43a4977",
-              "width": 512,
-              "height": 512
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/aywengo/orca-mlx-plugin",
-          "updatedAt": "2026-11-17T15:14:38+01:00"
         }
       ]
     },
