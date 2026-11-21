@@ -5322,6 +5322,67 @@
       ]
     },
     {
+      "id": "bawakul.go-quota",
+      "ownerId": 215651188,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bawakul/orca-go-quota.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Your OpenCode Go plan usage — rolling, weekly and monthly quota with reset times — in a sidebar panel and the status bar. Uses your API key, not the browser-cookie dance.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "790b41b4a9dcff29bf92c00783d3671aed5e4f28",
+          "contentHash": "76157b3a14709ba7ba0de4b93a257ece55d08257a57f70229fa1a49a81717a35",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Go Quota",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Go Quota"
+            },
+            {
+              "kind": "commands",
+              "name": "Go Quota: show or hide the panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Go —"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "agent:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/bawakul.go-quota/2341169381fffec8.png",
+              "alt": "Go Quota icon",
+              "sha256": "2341169381fffec8b218a67356dfdd90dd222a495256faf2badbd1e104e1c0c4",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/bawakul/orca-go-quota",
+          "updatedAt": "2026-11-21T08:43:38+01:00"
+        }
+      ]
+    },
+    {
       "id": "be0hhh.cpp-kit",
       "ownerId": 182023099,
       "source": {
@@ -10738,8 +10799,8 @@
       "ownerId": 359454302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.0"
       },
       "description": "Orca 봇과 하위 워커의 실시간 협업 상태를 가상 사무실 오피스로 시각화하는 읽기 전용 플러그인",
       "categories": [
@@ -13707,6 +13768,136 @@
           "license": "MIT",
           "repository": "https://github.com/duck1eee/void-glow",
           "updatedAt": "2026-11-12T15:50:23+07:00"
+        }
+      ]
+    },
+    {
+      "id": "duegin.ensemble",
+      "ownerId": 81874051,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/DueGin/orca-ensemble.git",
+        "ref": "v0.5.4"
+      },
+      "description": "Run a request with a team of agents: a lead that does intake, a shared task board, plan approval, messages and file claims (team mode), or splits the work across isolated members (delegation mode). Each role runs on its own agent CLI and model. Live data-flow dashboard, visual team editor, presets, ",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.5.4",
+          "commit": "1cfe81e57b780ebc0b3f44859a653e1464d99f91",
+          "contentHash": "1677c17cb6526fe9ad4c2d94b727f10b1c3c45b571894b2ec7508d5c70cf0ee8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Ensemble",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Ensemble"
+            },
+            {
+              "kind": "commands",
+              "name": "Ensemble: Open the latest run report"
+            },
+            {
+              "kind": "commands",
+              "name": "Ensemble: Start a team session"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Team",
+              "detail": ".team.json"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Run report",
+              "detail": ".team-run.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Teams"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/duegin.ensemble/86e2b7f0a1b16271.png",
+              "alt": "Run report of a team run: members and the live data flow to the brief, task board, plan approval, team board and file claims",
+              "sha256": "86e2b7f0a1b1627107102a3b69e78f012390b15d917378e4dd5577b237725308",
+              "width": 1400,
+              "height": 870
+            },
+            "icon": {
+              "path": "assets/duegin.ensemble/7602e47bf724030b.png",
+              "alt": "Ensemble icon",
+              "sha256": "7602e47bf724030bf7ea59f17c25a372fb332255ada0d0f65cbaefca18881977",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/duegin.ensemble/86e2b7f0a1b16271.png",
+                "alt": "Run report of a team run: members, the live data-flow diagram and the latest flows",
+                "sha256": "86e2b7f0a1b1627107102a3b69e78f012390b15d917378e4dd5577b237725308",
+                "width": 1400,
+                "height": 870
+              },
+              {
+                "path": "assets/duegin.ensemble/10ee1b0d85baf25d.png",
+                "alt": "Team editor: collaboration mode cards, agent language, the lead's agent and model, and fixed roles",
+                "sha256": "10ee1b0d85baf25d1821a035a3ef918d8e06a04fdd58c69a896d5334593f3333",
+                "width": 1400,
+                "height": 1200
+              },
+              {
+                "path": "assets/duegin.ensemble/465394be688d78f7.png",
+                "alt": "Run report in Chinese: the lead and two members with the data flow to the parts of team mode",
+                "sha256": "465394be688d78f74545f8b7b031e8a9a5b0ea00e1b85bd4561097ab38e5c2e9",
+                "width": 1400,
+                "height": 1100
+              },
+              {
+                "path": "assets/duegin.ensemble/cdd748aad638afea.png",
+                "alt": "Team editor in Chinese",
+                "sha256": "cdd748aad638afeab511661262575f6dfe626523bf12f0d1dbb4fde3382c2b2f",
+                "width": 1300,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/DueGin/orca-ensemble",
+          "updatedAt": "2026-11-21T16:45:56+08:00"
         }
       ]
     },
@@ -19518,13 +19709,50 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/gthjnk/orca-clickup-tasks.git",
-        "ref": "v0.1.2"
+        "ref": "v0.1.4"
       },
       "description": "ClickUp in Orca's sidebar: see the tasks assigned to you, browse Spaces, Folders and Lists, and edit status, priority, due dates, assignees, checklists, subtasks and comments without leaving Orca.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "6b16dd5a5a11ecb834b0d3ab7b8d4b0530b04c4f",
+          "contentHash": "f06958df25445b59d279cde9ddfd1e47193a06e183eaa94a0e03aa344a93a037",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ClickUp Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ClickUp Tasks"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gthjnk.clickup-tasks/91677fe9eb569685.png",
+              "alt": "ClickUp Tasks in Orca's sidebar: My tasks grouped by status beside a task's detail with its status menu, checklist, subtasks and comments.",
+              "sha256": "91677fe9eb56968533b052e8ca79dc0768ac21ea62ac73e5d4626b48d5a69e9d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gthjnk.clickup-tasks/de593a2fcd36e99b.png",
+              "alt": "ClickUp Tasks icon",
+              "sha256": "de593a2fcd36e99bc189534743be3ce93c899837716d16a311b79f97840aadab",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gthjnk/orca-clickup-tasks",
+          "updatedAt": "2026-11-21T16:13:15+07:00"
+        },
         {
           "version": "0.1.2",
           "commit": "15b41274bc54fc294afb629018397d1b6d28a2e6",

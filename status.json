@@ -336,6 +336,13 @@
         "bautistapessagno.now-playing"
       ]
     },
+    "bawakul/orca-go-quota": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "bawakul.go-quota"
+      ]
+    },
     "be0hhh/orca-binary-tools": {
       "state": "rejected",
       "ref": "v1.1.2",
@@ -753,7 +760,7 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.0",
       "plugins": [
         "ddochi-nyang.bot-world"
       ]
@@ -869,13 +876,10 @@
       ]
     },
     "duegin/orca-ensemble": {
-      "state": "rejected",
-      "ref": "v0.5.3",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "state": "listed",
+      "ref": "v0.5.4",
+      "plugins": [
+        "duegin.ensemble"
       ]
     },
     "ebbop/orca-italiano": {
@@ -983,7 +987,16 @@
       "ref": "refs/tags/erom/orca-plugin-agent-skills/0.1.1",
       "plugins": [
         "erom.agent-skills"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "erom/orca-plugin-human-scratchpad": {
       "state": "listed",
@@ -1266,7 +1279,7 @@
     },
     "gthjnk/orca-clickup-tasks": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "v0.1.4",
       "plugins": [
         "gthjnk.clickup-tasks"
       ]
@@ -2053,7 +2066,7 @@
     },
     "miinwan/orca-vietnamese": {
       "state": "rejected",
-      "ref": "v1.4.0",
+      "ref": "v1.5.0",
       "reasons": [
         {
           "category": "manifest-format"
@@ -3593,11 +3606,11 @@
     },
     "wooseungw/rich-tex-editor": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (editor/vendor/pdfjs/standard_fonts/FoxitDingbats.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixed.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixedBold.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixedBoldItalic.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixedItalic.pfb, …)"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
