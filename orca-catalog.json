@@ -16448,8 +16448,8 @@
       "ownerId": 45205682,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eveetc/flutter-dart-orca-plugin.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eveetc/flutter-dart-orca-plugin/0.3.0"
       },
       "description": "Dart syntax, Flutter run configurations, hot reload, widget inspector, builds, project checks and Android emulator management in Orca.",
       "categories": [
@@ -20091,8 +20091,8 @@
       "ownerId": 62019651,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gOps132/gray-orca.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gops132/gray-orca/0.1.0"
       },
       "description": "Launch the Gray CLI in the current Orca workspace.",
       "categories": [
@@ -30961,13 +30961,67 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/maximechbt/beads-orca-ui.git",
-        "ref": "v0.3.1"
+        "ref": "v0.3.2"
       },
       "description": "A minimal beads panel for Orca: what's in progress, what's ready, and one press to hand a task to an agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "ec2e5563a70952b49286a55071e720c20ba5ef59",
+          "contentHash": "7675fd42b8256200915ae7e2f86808d1fcfa59575f766592bd9b999b12bd6d14",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Beads Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "agent:launch"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/maximechbt.beads-orca-ui/5841129c273ca58f.png",
+              "alt": "Beads Panel icon",
+              "sha256": "5841129c273ca58f3f30f2cb3e38f878d0de516a652f960b843aae606a32ce44",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/maximechbt.beads-orca-ui/870f73cb4ea73583.png",
+                "alt": "Three Beads panels: the All tab by state, the Ready tab, and the Epics tab with progress bars.",
+                "sha256": "870f73cb4ea73583bb8cb63ab9aad79ba985a989d3cd398c5bd81f5d2ceefaa5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/8ebec1fe1e47154b.png",
+                "alt": "A task opened in the Beads panel, then with its criteria and comments unfolded, and the finish form asking for a reason.",
+                "sha256": "8ebec1fe1e47154bbee48f9fdb99e8e2706c46afac9f3840f76fd70a5085fcbf",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/c87681bd2519a470.png",
+                "alt": "The launch form with agent, worktree and prompt; the new task form; the All tab in dark.",
+                "sha256": "c87681bd2519a4705dfc579ace3bd7b86f1345e7bd8254279f5a796f4ab6e7f7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maximechbt/beads-orca-ui",
+          "updatedAt": "2026-11-21T14:15:21+01:00"
+        },
         {
           "version": "0.3.1",
           "commit": "8cee62e140b5d8542c632b862aee529c75d1ff81",

@@ -1054,7 +1054,7 @@
     },
     "eveetc/flutter-dart-orca-plugin": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/eveetc/flutter-dart-orca-plugin/0.3.0",
       "plugins": [
         "eveetc.flutter-dart"
       ]
@@ -1286,7 +1286,7 @@
     },
     "gops132/gray-orca": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/gops132/gray-orca/0.1.0",
       "plugins": [
         "gops132.gray"
       ]
@@ -2063,7 +2063,7 @@
     },
     "maximechbt/beads-orca-ui": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "maximechbt.beads-orca-ui"
       ]
@@ -2780,6 +2780,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "samfaina/orca-kickoff": {
+      "state": "rejected",
+      "ref": "v0.5.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "santiagocaprile/orca-chat-board": {
