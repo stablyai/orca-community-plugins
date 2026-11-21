@@ -1569,8 +1569,8 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/adamthewilliam/orca-pr-tour.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.2"
       },
       "description": "Understand a PR, then tour its diff in the order that explains it. For each PR waiting on you, your agent writes a guide: what, why and the impact, risk and findings, a stop-by-stop tour, and a review you post to GitHub.",
       "categories": [
@@ -10454,7 +10454,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
-        "ref": "v0.8.0"
+        "ref": "v0.8.1"
       },
       "description": "A read-only control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests.",
       "categories": [
@@ -10463,6 +10463,115 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.1",
+          "commit": "015067888d5dd244a3f6fdd154c5da4939e75bb7",
+          "contentHash": "59334e770fe3e32f29aa4486d9629106979a9070ebef0cce6c88d438d30f7219",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Regia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Regia"
+            },
+            {
+              "kind": "commands",
+              "name": "Regia: show the panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Regia"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cryptosecco.regia/e8cdab668a54a0ec.webp",
+              "alt": "The Regia panel: a diagram with you at the top, the bot that holds the queue, five other bots, the agents they started and the pull requests",
+              "sha256": "e8cdab668a54a0ec105d63eaa92b0fa4ea9bf5ccae04e71ee9d91fb60256f5b4",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cryptosecco.regia/20bdd70b5fdbce4c.png",
+              "alt": "Regia icon",
+              "sha256": "20bdd70b5fdbce4ce21561a0be0c4a01a54fd07440894c927f0583c3f7c32b31",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/cryptosecco.regia/e8cdab668a54a0ec.webp",
+                "alt": "The Overview: who hands work to whom, with amber lines where something waits on you",
+                "sha256": "e8cdab668a54a0ec105d63eaa92b0fa4ea9bf5ccae04e71ee9d91fb60256f5b4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/b45cd9135bea1604.webp",
+                "alt": "The Queue: three decisions to take now with their options, and every open item in lanes by project",
+                "sha256": "b45cd9135bea1604bfc88ad9d199828c764bbfd77428469143202b3a682bd3e9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/d8659a0054597698.webp",
+                "alt": "The Office: every agent grouped by project, working, waiting on you or idle",
+                "sha256": "d8659a005459769805380620aefbed8ceff77b387ab550c61a200436f32e5c7b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/7cc6cadac75c4482.webp",
+                "alt": "The Overview in the light theme",
+                "sha256": "7cc6cadac75c4482a20a922fd292a6f7dfefbf763c8fa08305930e35e1ff612c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/23dddf2ea61d0523.webp",
+                "alt": "The Queue in the light theme",
+                "sha256": "23dddf2ea61d0523c96c5ed4303a5646c87ac51fc288d4f9eefbc2b4342212a9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/1124b96e02d134f5.webp",
+                "alt": "The Office in the light theme",
+                "sha256": "1124b96e02d134f5027951c0b635bf3f2553ca89672575bf7118f9d5e055291d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cryptosecco/orca-regia-plugin",
+          "updatedAt": "2026-11-21T20:50:01+01:00"
+        },
         {
           "version": "0.8.0",
           "commit": "85f53754ef64fc9c11611f07dd4f14cc1068f5fa",
@@ -40763,14 +40872,55 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rr235/orca-task-launcher/0.2.0"
+        "url": "https://github.com/rr235/orca-task-launcher.git",
+        "ref": "v0.2.1"
       },
       "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "a34ea7d1e929e7448b2ac3b04853f603f44cac2b",
+          "contentHash": "edfd5dc9197f146a0538863bc9be2b045dbaf64b3acca6e192d2e5319173f116",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Task Launcher",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Launcher"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rr235.task-launcher/2ca4879a5d1ce446.png",
+              "alt": "Task Launcher: the Orca side panel in a dark and a light theme, with a prompt template and open GitHub issues",
+              "sha256": "2ca4879a5d1ce44647cd7b63b0580bdefc457505443da0114884087ac2dc25f9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rr235.task-launcher/a789119ef2ed3cd5.png",
+              "alt": "Task Launcher icon",
+              "sha256": "a789119ef2ed3cd5d21bd707356629a44ff0a13db4ad158d85715ede23132352",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rr235/orca-task-launcher",
+          "updatedAt": "2026-11-21T20:50:45+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "97aa5ecda2591305e40ba5a74cc1ef21537eb5a6",
@@ -46083,6 +46233,59 @@
           "license": "MIT",
           "repository": "https://github.com/shumkov/orca-cliproxy-usage",
           "updatedAt": "2026-11-16T15:25:17+07:00"
+        }
+      ]
+    },
+    {
+      "id": "simplycreatecode.projects-sessions-sidebar",
+      "ownerId": 359530843,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SimplyCreateCode/projects-sessions-sidebar.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Your projects with every agent session under them, live or past: status, title and age, newest first. Click to jump to a live session or resume a closed one; + starts a new one in the project.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "99a1156a9568a36d67ab3f5d020d5f6c20218e8f",
+          "contentHash": "ccc986cb1389d0863f60d069c469ceee6eb2b1b41ce8bfc23fbac2c7e24fdf55",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Projects & Sessions",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Projects & Sessions"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "agent:launch",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/SimplyCreateCode/projects-sessions-sidebar",
+          "updatedAt": "2026-11-21T21:02:39+01:00"
         }
       ]
     },

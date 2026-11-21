@@ -1199,6 +1199,12 @@
     "repoId": 1466873134,
     "firstSeen": "2026-11-21T19:43:00.805Z"
   },
+  "cryptosecco.regia@0.8.1": {
+    "commit": "015067888d5dd244a3f6fdd154c5da4939e75bb7",
+    "contentHash": "59334e770fe3e32f29aa4486d9629106979a9070ebef0cce6c88d438d30f7219",
+    "repoId": 1466873134,
+    "firstSeen": "2026-11-21T20:15:38.162Z"
+  },
   "csavur.simple-todo@0.1.0": {
     "commit": "67c24295b2d458a5ce92ff8b4b24f4f2e63dd850",
     "contentHash": "9fbd348446f6d21b304fde02350c991003f43c238211299e3314d9b48836bec5",
@@ -4277,6 +4283,12 @@
     "repoId": 1449838805,
     "firstSeen": "2026-11-18T20:42:10.829Z"
   },
+  "rr235.task-launcher@0.2.1": {
+    "commit": "a34ea7d1e929e7448b2ac3b04853f603f44cac2b",
+    "contentHash": "edfd5dc9197f146a0538863bc9be2b045dbaf64b3acca6e192d2e5319173f116",
+    "repoId": 1449838805,
+    "firstSeen": "2026-11-21T20:15:38.162Z"
+  },
   "ruchkung.textile@0.1.0": {
     "commit": "5e6607beafdb99f6859669276c7c2224ae1d2f71",
     "contentHash": "5ee1fa616a17d29540d4c402f82b2e56db0b9effb0fc87548f05dae349b80958",
@@ -4852,6 +4864,12 @@
     "contentHash": "c25c357d089987410e3c977a3cd7a7d423e6d865e94d121a0c2a0a2ebb96be37",
     "repoId": 1459738990,
     "firstSeen": "2026-11-16T08:57:34.178Z"
+  },
+  "simplycreatecode.projects-sessions-sidebar@0.1.2": {
+    "commit": "99a1156a9568a36d67ab3f5d020d5f6c20218e8f",
+    "contentHash": "ccc986cb1389d0863f60d069c469ceee6eb2b1b41ce8bfc23fbac2c7e24fdf55",
+    "repoId": 1466911137,
+    "firstSeen": "2026-11-21T20:15:38.162Z"
   },
   "sofiacnm.inside-the-black-box@0.3.1": {
     "commit": "815b2bb6e5746431109bb298f16dd44c4751b9ae",

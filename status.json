@@ -58,7 +58,7 @@
     },
     "adamthewilliam/orca-pr-tour": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.2",
       "plugins": [
         "adamthewilliam.pr-tour"
       ],
@@ -688,7 +688,7 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "v0.8.0",
+      "ref": "v0.8.1",
       "plugins": [
         "cryptosecco.regia"
       ]
@@ -1893,7 +1893,7 @@
         "lilykos.the-lobby"
       ],
       "update": {
-        "ref": "v1.2.0",
+        "ref": "v1.3.0",
         "reasons": [
           {
             "category": "under-review",
@@ -2731,18 +2731,18 @@
         "rr235.power-sessions"
       ],
       "update": {
-        "ref": "v0.1.6",
+        "ref": "v0.2.0",
         "reasons": [
           {
             "category": "under-review",
-            "detail": "code"
+            "detail": "code, update"
           }
         ]
       }
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "refs/tags/rr235/orca-task-launcher/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "rr235.task-launcher"
       ]
@@ -3032,12 +3032,19 @@
     },
     "simplycreatecode/github-copilot-for-orca-ade": {
       "state": "rejected",
-      "ref": "v0.3.0",
+      "ref": "v0.3.1",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "publisher: must be kebab-case (a-z, 0-9, dashes)"
+          "category": "under-review",
+          "detail": "code"
         }
+      ]
+    },
+    "simplycreatecode/projects-sessions-sidebar": {
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "simplycreatecode.projects-sessions-sidebar"
       ]
     },
     "sks-other/orca-dsh-web": {
