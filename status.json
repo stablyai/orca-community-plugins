@@ -760,7 +760,7 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.2",
       "plugins": [
         "ddochi-nyang.bot-world"
       ]
@@ -2726,7 +2726,7 @@
     },
     "ryujiyasu/orca-oxi-slides": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "binary-files",
@@ -2777,7 +2777,7 @@
     },
     "santigamo/orca-purser": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/santigamo/orca-purser/0.1.0",
       "plugins": [
         "santigamo.purser"
       ]
@@ -3036,7 +3036,7 @@
     },
     "sonthh/orca-pitwall": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/sonthh/orca-pitwall/0.2.0",
       "plugins": [
         "sonthh.pitwall"
       ]
