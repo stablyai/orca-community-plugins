@@ -58,7 +58,7 @@
     },
     "adamthewilliam/orca-pr-tour": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.1",
       "plugins": [
         "adamthewilliam.pr-tour"
       ],
@@ -1283,7 +1283,7 @@
     },
     "h00ns/test-runner-for-orca": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.2",
       "plugins": [
         "h00ns.test-runner"
       ]
@@ -1411,11 +1411,11 @@
     },
     "icaceresc/b-side": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v1.2.0",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },

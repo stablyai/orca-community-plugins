@@ -1569,8 +1569,8 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/adamthewilliam/orca-pr-tour.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.1"
       },
       "description": "A review queue of the PRs waiting for you, in the order to review them, each with an agent-written guide: risk, findings with suggested comments, what changed in reading order, a note on every file, a claims check, and a review you post to GitHub from the guide.",
       "categories": [
@@ -19433,8 +19433,8 @@
       "ownerId": 97011015,
       "source": {
         "kind": "git",
-        "url": "https://github.com/h00ns/test-runner-for-orca.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.2"
       },
       "description": "Run your workspace's tests from the sidebar, re-run the related ones when an agent finishes, and send failures back to the agent. Vitest, Jest, Playwright, Cypress, Gradle, Maven and pytest are found on their own, monorepos included; if your setup is not, the README has a prompt that has your agent ",
       "categories": [
