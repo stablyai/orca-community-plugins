@@ -10734,6 +10734,86 @@
       ]
     },
     {
+      "id": "ddochi-nyang.bot-world",
+      "ownerId": 359454302,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Orca 봇과 하위 워커의 실시간 협업 상태를 가상 사무실 오피스로 시각화하는 읽기 전용 플러그인",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7239c179db6c0ec2759bdc6b9cfa60c6e311cf25",
+          "contentHash": "ba6a65250e4b821151f5c1281a52bbdd1b7d145b6b9359f1be6b8726620ea1e9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "봇 월드",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "봇 월드"
+            },
+            {
+              "kind": "commands",
+              "name": "봇 월드 열기"
+            },
+            {
+              "kind": "commands",
+              "name": "봇 월드 새로고침"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "봇 월드 사무실",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "newFiles",
+              "name": "새 봇 월드 보드",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "봇 월드"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botworld"
+          ],
+          "editorFileTypes": [
+            "botworld"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
+              "alt": "봇 월드 icon",
+              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
+          "updatedAt": "2026-11-21T17:37:01+09:00"
+        }
+      ]
+    },
+    {
       "id": "decadance-dance.plane",
       "ownerId": 86170544,
       "source": {
@@ -19438,13 +19518,50 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/gthjnk/orca-clickup-tasks.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "ClickUp in Orca's sidebar: see the tasks assigned to you, browse Spaces, Folders and Lists, and edit status, priority, due dates, assignees, checklists, subtasks and comments without leaving Orca.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "15b41274bc54fc294afb629018397d1b6d28a2e6",
+          "contentHash": "2d3ff6d8a9d1fa7ff79f9aec3741eedff497013c0fc87af7987572170d16c19a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ClickUp Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ClickUp Tasks"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gthjnk.clickup-tasks/758aac66284f17bb.png",
+              "alt": "ClickUp Tasks in Orca's sidebar: My tasks grouped by status beside a task's detail with its status menu, checklist, subtasks and comments.",
+              "sha256": "758aac66284f17bbcb6f6222bf95598d0ae4fbd2900ad59df0e12bde882d341d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gthjnk.clickup-tasks/de593a2fcd36e99b.png",
+              "alt": "ClickUp Tasks icon",
+              "sha256": "de593a2fcd36e99bc189534743be3ce93c899837716d16a311b79f97840aadab",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gthjnk/orca-clickup-tasks",
+          "updatedAt": "2026-11-21T15:35:39+07:00"
+        },
         {
           "version": "0.1.1",
           "commit": "866b760e406a70ecd8cd69dd1917918e172cb80b",
