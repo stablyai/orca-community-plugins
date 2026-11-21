@@ -763,7 +763,16 @@
       "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.1",
       "plugins": [
         "ddochi-nyang.bot-world"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "decadance-dance/orca-plane": {
       "state": "listed",
@@ -1362,13 +1371,9 @@
     },
     "hasanalituran/orca-auto-dark-mode-windows": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "hasanalituran.toggle-light-dark-theme"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
-        "publisher \"hasanturan\" is ignored: Orca uses the GitHub owner \"hasanalituran\"; remove \"publisher\" from orca-plugin.json"
       ]
     },
     "heath0xff/stillwater": {

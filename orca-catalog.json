@@ -20763,13 +20763,38 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/hasanalituran/orca-auto-dark-mode-windows.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Status bar button to toggle Orca between light and dark themes.",
       "categories": [
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "6138505cf7a92a2041b5531ed3361a06207fcaf9",
+          "contentHash": "9e35055947fb7448627d1b1a35e081ce4bd43a02fbeb471f7ad8eb08e459ac9a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "Toggle Light/Dark Theme",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Toggle Light/Dark Theme"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Theme"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "appearance:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/hasanalituran/orca-auto-dark-mode-windows",
+          "updatedAt": "2026-11-21T22:30:55+11:00"
+        },
         {
           "version": "0.1.1",
           "commit": "f38133ea61981bdc9671e974316cde005ba3e4b4",
