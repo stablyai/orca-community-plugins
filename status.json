@@ -832,7 +832,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.10.0",
+      "ref": "refs/tags/divlook/orca-sidenote/0.10.0",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -1469,7 +1469,16 @@
       "ref": "refs/tags/icaceresc/b-side/2.0.1",
       "plugins": [
         "icaceresc.b-side"
-      ]
+      ],
+      "update": {
+        "ref": "v2.1.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "icaceresc/pixtuoid-orca-windows": {
       "state": "rejected",
@@ -2070,19 +2079,10 @@
     },
     "maximechbt/beads-orca-ui": {
       "state": "listed",
-      "ref": "refs/tags/maximechbt/beads-orca-ui/0.3.2",
+      "ref": "v2.1.0",
       "plugins": [
         "maximechbt.beads-orca-ui"
-      ],
-      "update": {
-        "ref": "v2.1.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "mbirepinte/orca-asciidoc-viewer": {
       "state": "rejected",
@@ -2466,7 +2466,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "v0.2.13",
+      "ref": "refs/tags/palulabs/orca-tycoon/0.2.13",
       "plugins": [
         "palulabs.office-tycoon"
       ]

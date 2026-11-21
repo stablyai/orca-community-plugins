@@ -12078,8 +12078,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.10.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.10.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -31106,14 +31106,102 @@
       "ownerId": 14289013,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/maximechbt/beads-orca-ui/0.3.2"
+        "url": "https://github.com/maximechbt/beads-orca-ui.git",
+        "ref": "v2.1.0"
       },
-      "description": "A minimal beads panel for Orca: what's in progress, what's ready, and one press to hand a task to an agent.",
+      "description": "Your beads tasks beside your agents, and full screen in the middle of Orca: see what moves, change any task in place, and hand one to an agent in one press.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "2.1.0",
+          "commit": "2f48a1722ef5efe86aa533d504e26e79159b41e5",
+          "contentHash": "b93e5fb39ed971fd7a64ff39a91f866bfa25ceeb49b50a34acc657f613abc450",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Beads UI",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Beads"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Beads",
+              "detail": ".beads-board"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/maximechbt.beads-orca-ui/37034ad5c0c7c1a8.webp",
+              "alt": "Beads UI for Orca: its logo and name beside the full-screen board, with the side panel in dark in front of it.",
+              "sha256": "37034ad5c0c7c1a88618959e0bc6c805400f9838e1d9052f0e073e15ded3c649",
+              "width": 2560,
+              "height": 1600
+            },
+            "icon": {
+              "path": "assets/maximechbt.beads-orca-ui/1f2dd898e570e467.png",
+              "alt": "Beads UI icon",
+              "sha256": "1f2dd898e570e4678d51dd5bd4eb9cd5c7d41188ae59f221f205b79e5a7767bd",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/maximechbt.beads-orca-ui/673c7bf2c6d47f5d.webp",
+                "alt": "The full-screen board with To do, In progress, Awaiting review, Blocked and Done columns, and filters above them.",
+                "sha256": "673c7bf2c6d47f5d637ad76bfb4f8a53996b62899ebddc6a0bc3f11ae0f99a41",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/eefe9fd74915ab00.webp",
+                "alt": "The full-screen list in dark grouped by state, and a task page in light with its description, criteria and properties.",
+                "sha256": "eefe9fd74915ab0076b82fa32e9b8414555020e301c5167f89257c63a446e30f",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/72b6df43c79b37d9.webp",
+                "alt": "Two Beads panels: the All tab grouped by state with To do unfolded, and the Epics tab in dark with an epic's tasks and progress bar.",
+                "sha256": "72b6df43c79b37d9731db917a20e917271985f74084b08f81419a05d306557c1",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/6262ef66854f1c32.webp",
+                "alt": "A task in the Beads panel with its priority menu open, next to the same task in dark scrolled to its criteria, links and comments.",
+                "sha256": "6262ef66854f1c32589fd749ff44e9bc9d59cb6197e7402d9a5c085bd46a6ec5",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/44c034978ec3ddb4.webp",
+                "alt": "The Start menu listing Claude Code and Codex, and the task in dark once Claude Code was launched on it.",
+                "sha256": "44c034978ec3ddb4a3f2837aa0b4c26f75b2864d9bb4b08798fde63d9d4dd601",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/maximechbt.beads-orca-ui/8b4fe100cb956ca0.webp",
+                "alt": "The Memory view listing four facts with a search field, and the same view in dark writing a new memory.",
+                "sha256": "8b4fe100cb956ca053899e7aac3fb2e2e793420a5d97cb7a4aa9bdb800b7546d",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maximechbt/beads-orca-ui",
+          "updatedAt": "2026-11-21T17:19:14+01:00"
+        },
         {
           "version": "0.3.2",
           "commit": "ec2e5563a70952b49286a55071e720c20ba5ef59",
@@ -36902,8 +36990,8 @@
       "ownerId": 15814449,
       "source": {
         "kind": "git",
-        "url": "https://github.com/palulabs/orca-tycoon.git",
-        "ref": "v0.2.13"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/palulabs/orca-tycoon/0.2.13"
       },
       "description": "Every agent on your Orca host as a little pixel worker in a tycoon-style office.",
       "categories": [
