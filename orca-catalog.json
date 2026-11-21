@@ -6970,13 +6970,91 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/CallumJMac/orca-talkback-plugin.git",
-        "ref": "v0.1.0"
+        "ref": "v0.3.2"
       },
       "description": "Hear your coding agents talk back. Forwards workspace focus and agent status to the local orca-talkback daemon, which speaks a short summary of each finished reply.",
       "categories": [
+        "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "4fa0f784c67d46a65adaef11a41a17ff1e7ebfe4",
+          "contentHash": "90367a9a401a93cc90eaac67dfad53c743947dd0844551caa1abe97e035c45bd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Talkback",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Talkback: Toggle for this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Talkback: Toggle everywhere"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "🔊 Talkback"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/callumjmac.talkback/dbb9cde6ea835669.png",
+              "alt": "Talkback for Orca: hear your coding agents talk back. A short spoken summary of every finished reply, voiced locally on your Mac.",
+              "sha256": "dbb9cde6ea835669b6ceaee46d965540f1d33576f446b69a9abc77d8a3a373c1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/callumjmac.talkback/acf24f939ae66853.png",
+              "alt": "Talkback icon",
+              "sha256": "acf24f939ae6685344a36163f67fbd924a7e97579f26e2dbbbb19749a76c86fd",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/callumjmac.talkback/f26a41530addeb2c.png",
+                "alt": "Diagram of how the Talkback plugin, the Claude Code hook and the local orca-talkback daemon fit together.",
+                "sha256": "f26a41530addeb2c6cc567b6fc71d7d38922f48704a7e72dd5f6895c28bda5ac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/callumjmac.talkback/ecdb3ce74cec1753.png",
+                "alt": "Bar chart: the first spoken word arrives about 0.8 seconds after the agent finishes.",
+                "sha256": "ecdb3ce74cec1753eb765285e9948b9c3c6afbbff9562c54c4a31b671e448afa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/callumjmac.talkback/6870b25220b906e6.png",
+                "alt": "Line chart: echo cancellation makes the agent's own voice a median 26 dB quieter at the microphone.",
+                "sha256": "6870b25220b906e6f1d8c377f8311a35201c7ef9b724b4288bde4123bf37c272",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/CallumJMac/orca-talkback-plugin",
+          "updatedAt": "2026-11-21T22:08:49Z"
+        },
         {
           "version": "0.1.0",
           "commit": "220822a037f421108b5b4a2672a0794ccd1ce069",
