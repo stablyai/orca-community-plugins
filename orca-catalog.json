@@ -15451,8 +15451,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
-        "ref": "v2.0.8"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.8"
       },
       "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
       "categories": [
@@ -22738,8 +22738,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v2.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/b-side/2.1.2"
       },
       "description": "Control AIMP from Orca — your lossless collection while you work",
       "categories": [
@@ -31421,8 +31421,8 @@
       "ownerId": 14289013,
       "source": {
         "kind": "git",
-        "url": "https://github.com/maximechbt/beads-orca-ui.git",
-        "ref": "v2.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/maximechbt/beads-orca-ui/2.2.0"
       },
       "description": "Your beads tasks beside your agents, and full screen in the middle of Orca: see what moves, change any task in place, and hand one to an agent in one press.",
       "categories": [

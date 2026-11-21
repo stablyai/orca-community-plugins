@@ -977,7 +977,7 @@
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
-      "ref": "v2.0.8",
+      "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.8",
       "plugins": [
         "erom.agent-profiles"
       ]
@@ -1469,7 +1469,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v2.1.2",
+      "ref": "refs/tags/icaceresc/b-side/2.1.2",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -2073,7 +2073,7 @@
     },
     "maximechbt/beads-orca-ui": {
       "state": "listed",
-      "ref": "v2.2.0",
+      "ref": "refs/tags/maximechbt/beads-orca-ui/2.2.0",
       "plugins": [
         "maximechbt.beads-orca-ui"
       ]
