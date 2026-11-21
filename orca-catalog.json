@@ -21575,14 +21575,95 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/icaceresc/b-side/1.2.1"
+        "url": "https://github.com/icaceresc/b-side.git",
+        "ref": "v2.0.1"
       },
       "description": "Control AIMP from Orca — your lossless collection while you work",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "2.0.1",
+          "commit": "99d57ab1b936628cf43990b64d645e3f11245652",
+          "contentHash": "8b5b8557a88c2a5b617818a9c77d0c235442f98a5cf4e815868b9dd695d90bf2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "B-Side",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "B-Side"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/icaceresc.b-side/f286573b369f2f69.png",
+              "alt": "B-Side logo, the words \"Your music library, inside Orca\" and two panels: the Albums grid of a demo library and Now Playing with synced lyrics",
+              "sha256": "f286573b369f2f69a68c48f9978b247835a288cdb0b27f0549b57acda6bd70ba",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/icaceresc.b-side/b145ad6339896bb1.png",
+              "alt": "B-Side icon",
+              "sha256": "b145ad6339896bb1f0101058ee99a2c1a62b1ac1e08308afc3bbd971d888c251",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.b-side/acdfc2faa58c3d93.webp",
+                "alt": "The panel dragged wide: a demo Albums grid on the left, Now Playing on the right with cover, format badges, synced lyrics and controls",
+                "sha256": "acdfc2faa58c3d9360d581623d2323937018f16cc05855a45d1226f3f88bcb15",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/8f927312ceba152b.webp",
+                "alt": "An album page tinted from its cover, with Hi-Res and FLAC badges, a Play button and the track list, beside its artist's page",
+                "sha256": "8f927312ceba152b33cb98561f8485c6cac256c108768d875dbdca250f80987f",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/c51021de5e5c6eda.webp",
+                "alt": "Search for \"rio\" finding the artist Ríos de Ámbar, the album Río Lento and its tracks, with the matched letters underlined, beside that album's page",
+                "sha256": "c51021de5e5c6edab5cb5963408f7a644f2eecae7af095767215fe1422f1a778",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/f3bd7d6ea5aba06e.webp",
+                "alt": "Now Playing at phone width with format badges and synced lyrics, beside the Artists grid with the mini-player above the tabs",
+                "sha256": "f3bd7d6ea5aba06eac41c0cf3d3144391160d45d9258203693437d0e55409755",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/b128b56ecbd94695.webp",
+                "alt": "Three panels: synced lyrics with the current line highlighted, plain lyrics, and an artist picture standing in for a missing cover, each tinted from its image",
+                "sha256": "b128b56ecbd946953cdf074c912aeca9f4d3e3ac5655f72b609b83afef31b6a5",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/157a8c2cd022ade9.webp",
+                "alt": "Three panels: AIMP open with nothing playing, AIMP closed with an Open AIMP button, and an offline banner over a paused cloud track",
+                "sha256": "157a8c2cd022ade9b52f6a1318232654f8654fec34ad6aa3d27469d2bcbee32d",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/b-side",
+          "updatedAt": "2026-11-21T01:43:00-03:00"
+        },
         {
           "version": "1.2.1",
           "commit": "f468fea77ddc4aef3b4e74ce2d50da163cd44e0f",
@@ -28146,8 +28227,8 @@
       "ownerId": 268206566,
       "source": {
         "kind": "git",
-        "url": "https://github.com/lindoo67/drawio-plugin.git",
-        "ref": "v0.1.9"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lindoo67/drawio-plugin/0.1.9"
       },
       "description": "Create and edit draw.io flowcharts, architecture diagrams, and multi-page diagrams entirely offline in Orca, with an infinite canvas, collapsible sidebar, popular vector shape libraries, undo and redo, automatic synchronization, and high-resolution PNG and SVG clipboard copying.",
       "categories": [],
@@ -33774,64 +33855,6 @@
           "license": "BSD-3-Clause",
           "repository": "https://github.com/nknwns/orca-wakatime",
           "updatedAt": "2026-11-02T16:20:26+07:00"
-        }
-      ]
-    },
-    {
-      "id": "nomadiction8991.automation-terminal-cleanup",
-      "ownerId": 159034763,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/nomadiction8991/terminal-clearup/0.3.20"
-      },
-      "description": "Automatically close terminals tied to completed local automation runs.",
-      "categories": [
-        "panels"
-      ],
-      "releases": [
-        {
-          "version": "0.3.20",
-          "commit": "1f170dba283481affe7b82a0598c6f9cc9d6056c",
-          "contentHash": "da097d4b2aca523706b1412a66b43a215a29ef4bf0c95f4e2c3cee532f7b8f0d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.266",
-          "name": "Terminal Clearup",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Histórico do Terminal Clearup"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Limpeza de automações"
-            }
-          ],
-          "capabilities": [
-            "settings:own",
-            "storage:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/nomadiction8991.automation-terminal-cleanup/23a03a2e5fd83b5a.webp",
-              "alt": "Terminal Clearup: menos abas, menos RAM. Uma aba concluída é fechada e o contador mostra oito fechamentos no dia.",
-              "sha256": "23a03a2e5fd83b5a1a0064bc5f0a2b4165808d9f2ef5060897ee71cb8420f810",
-              "width": 1586,
-              "height": 992
-            },
-            "screenshots": [
-              {
-                "path": "assets/nomadiction8991.automation-terminal-cleanup/2e29cdad37c5e2c6.webp",
-                "alt": "Painel do Terminal Clearup mostrando histórico de fechamentos, configurações, logs e o total diário de abas e memória.",
-                "sha256": "2e29cdad37c5e2c6d57698bc75c1de8dbd8fcdf7228a57698f7cb72208ec311b",
-                "width": 1586,
-                "height": 992
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Nomadiction8991/terminal-clearup",
-          "updatedAt": "2026-11-21T00:17:38-04:00"
         }
       ]
     },
@@ -46580,6 +46603,42 @@
           "license": "MPL-2.0",
           "repository": "https://github.com/thirstydevil/rhai-syntax",
           "updatedAt": "2026-11-14T16:50:39Z"
+        }
+      ]
+    },
+    {
+      "id": "thriftykapila.git-insights",
+      "ownerId": 47074849,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thriftykapila/git-insights.git",
+        "ref": "v0.1.1"
+      },
+      "description": "See who wrote each line of a file (git blame), with hover details and per-commit info.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "5e73a8a454cf7bb9ad74dadbb38712083a345b1a",
+          "contentHash": "868055f9f84c699be9314f72457a41988e0f00efb758ef92f01a3cc22a7e9501",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Git Insights",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git Insights"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/thriftykapila/git-insights",
+          "updatedAt": "2026-11-21T10:33:07+05:30"
         }
       ]
     },

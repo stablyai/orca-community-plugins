@@ -985,7 +985,7 @@
     },
     {
       "id": "icaceresc.b-side",
-      "stars": null,
+      "stars": 0,
       "stats": null
     },
     {
@@ -1376,11 +1376,6 @@
     {
       "id": "nknwns.wakatime",
       "stars": 1,
-      "stats": null
-    },
-    {
-      "id": "nomadiction8991.automation-terminal-cleanup",
-      "stars": 0,
       "stats": null
     },
     {
@@ -1805,6 +1800,11 @@
     },
     {
       "id": "thirstydevil.rhai-syntax",
+      "stars": 0,
+      "stats": null
+    },
+    {
+      "id": "thriftykapila.git-insights",
       "stars": 0,
       "stats": null
     },

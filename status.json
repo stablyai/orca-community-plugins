@@ -1411,19 +1411,10 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "refs/tags/icaceresc/b-side/1.2.1",
+      "ref": "v2.0.1",
       "plugins": [
         "icaceresc.b-side"
-      ],
-      "update": {
-        "ref": "v2.0.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "icaceresc/pixtuoid-orca-windows": {
       "state": "rejected",
@@ -1838,7 +1829,7 @@
     },
     "lindoo67/drawio-plugin": {
       "state": "listed",
-      "ref": "v0.1.9",
+      "ref": "refs/tags/lindoo67/drawio-plugin/0.1.9",
       "plugins": [
         "lindoo67.drawio"
       ],
@@ -2303,10 +2294,17 @@
       ]
     },
     "nomadiction8991/terminal-clearup": {
-      "state": "listed",
-      "ref": "refs/tags/nomadiction8991/terminal-clearup/0.3.20",
-      "plugins": [
-        "nomadiction8991.automation-terminal-cleanup"
+      "state": "rejected",
+      "ref": "v0.3.21",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
+        },
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (CLAUDE.md (symlink))"
+        }
       ]
     },
     "noobitoo/orca-russian": {
@@ -3165,6 +3163,13 @@
         "thirstydevil.rhai-syntax"
       ]
     },
+    "thriftykapila/git-insights": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "thriftykapila.git-insights"
+      ]
+    },
     "tiagodanin/orca-flutter": {
       "state": "listed",
       "ref": "refs/tags/tiagodanin/orca-flutter/0.3.1",
@@ -3556,6 +3561,16 @@
       "ref": "refs/tags/woodfishhhh/better-project-tree/0.2.0",
       "plugins": [
         "woodfishhhh.better-project-tree"
+      ]
+    },
+    "wooseungw/rich-tex-editor": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (editor/vendor/pdfjs/standard_fonts/FoxitDingbats.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixed.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixedBold.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixedBoldItalic.pfb, editor/vendor/pdfjs/standard_fonts/FoxitFixedItalic.pfb, …)"
+        }
       ]
     },
     "wurenrumian/canvas-view": {
