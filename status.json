@@ -453,7 +453,7 @@
         "callumjmac.talkback"
       ],
       "update": {
-        "ref": "v0.3.1",
+        "ref": "v0.3.2",
         "reasons": [
           {
             "category": "under-review",
@@ -1492,7 +1492,7 @@
     },
     "icaceresc/b-side": {
       "state": "rejected",
-      "ref": "v2.2.2",
+      "ref": "v2.3.0",
       "reasons": [
         {
           "category": "binary-files",
