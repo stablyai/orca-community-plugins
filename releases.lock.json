@@ -1337,6 +1337,12 @@
     "repoId": 1454847441,
     "firstSeen": "2026-11-16T08:36:55.622Z"
   },
+  "divlook.sidenote@0.10.0": {
+    "commit": "16394c9af822c457ca5057b3d79cec7004d95534",
+    "contentHash": "8edee4b092e4a70d14f2dc18dd106db2cbb5f6f4548248f63186f2417544c235",
+    "repoId": 1453378312,
+    "firstSeen": "2026-11-21T16:43:03.160Z"
+  },
   "divlook.sidenote@0.3.2": {
     "commit": "93c5a5ef491b2ea5a060abc6878e8e6e50366ef6",
     "contentHash": "2453efa72863120f98d46421448ec989fdc2387fc3eaac30eca89f85dcf6dfd1",
@@ -3850,6 +3856,12 @@
     "contentHash": "989c180aa14ae709280dfc6476874a52d73d66a44645632aec7f7ed04c388977",
     "repoId": 1446103121,
     "firstSeen": "2026-11-18T08:18:52.219Z"
+  },
+  "palulabs.office-tycoon@0.2.13": {
+    "commit": "0e763c33523d11415847713778db4a419663403f",
+    "contentHash": "1722e3d6a57809c65cb99de30abc4272e9a4cdfb5526139615b4b01068d6cf1d",
+    "repoId": 1446103121,
+    "firstSeen": "2026-11-21T16:43:03.160Z"
   },
   "palulabs.office-tycoon@0.2.2": {
     "commit": "215a92bf42fd3912fa5250737c718042809a4ad1",

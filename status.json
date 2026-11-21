@@ -271,7 +271,7 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "v1.1.6",
+      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.6",
       "plugins": [
         "aywengo.omlx"
       ]
@@ -832,7 +832,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.9.0",
+      "ref": "v0.10.0",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -2075,7 +2075,7 @@
         "maximechbt.beads-orca-ui"
       ],
       "update": {
-        "ref": "v2.0.1",
+        "ref": "v2.1.0",
         "reasons": [
           {
             "category": "under-review",
@@ -2466,7 +2466,7 @@
     },
     "palulabs/orca-tycoon": {
       "state": "listed",
-      "ref": "refs/tags/palulabs/orca-tycoon/0.2.12",
+      "ref": "v0.2.13",
       "plugins": [
         "palulabs.office-tycoon"
       ]
