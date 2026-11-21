@@ -58,7 +58,7 @@
     },
     "adamthewilliam/orca-pr-tour": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.0",
       "plugins": [
         "adamthewilliam.pr-tour"
       ],
@@ -1283,7 +1283,7 @@
     },
     "h00ns/test-runner-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "h00ns.test-runner"
       ]
@@ -1373,7 +1373,7 @@
     },
     "hmdrams-dev/orca-plugin-alias": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/hmdrams-dev/orca-plugin-alias/0.1.2",
       "plugins": [
         "hmdrams-dev.alias"
       ],
@@ -2009,7 +2009,7 @@
     },
     "maxfedorov/youtrack-for-orca": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.2",
       "plugins": [
         "maxfedorov.youtrack-for-orca"
       ]
