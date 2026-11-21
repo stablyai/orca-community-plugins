@@ -10317,8 +10317,8 @@
       "ownerId": 110404901,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DavidSeptimus/armada-theme-orca-plugin.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.0.2"
       },
       "description": "A dark color theme inspired by the dark themes of JetBrains Fleet and Air.",
       "categories": [
@@ -21576,13 +21576,86 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v1.2.0"
+        "ref": "v1.2.1"
       },
       "description": "Control AIMP from Orca — your lossless collection while you work",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "f468fea77ddc4aef3b4e74ce2d50da163cd44e0f",
+          "contentHash": "f3aac7205ac79574d7d3c8bc74bf129d2045ee5f9f682578b38c6f8b3a744bb3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "B-Side",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "B-Side"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/icaceresc.b-side/3a374dc78d774334.png",
+              "alt": "B-Side logo, a vinyl record with an orange label, beside the B-Side panel playing a synthetic demo track with its cover, CD quality badge and playback controls",
+              "sha256": "3a374dc78d7743349738b38d48ad3392e0b06f3a8a09edc2f8864b0dcac6d7ff",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/icaceresc.b-side/b145ad6339896bb1.png",
+              "alt": "B-Side icon",
+              "sha256": "b145ad6339896bb1f0101058ee99a2c1a62b1ac1e08308afc3bbd971d888c251",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.b-side/391ad29abb77f831.webp",
+                "alt": "The B-Side panel playing a demo track: cover art, title, artist, album, format badges, progress bar, playback controls and volume",
+                "sha256": "391ad29abb77f831b30a317d4c2d5fe3ac03faea724a665489b0fa3358bcd4a1",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/325445b760415605.webp",
+                "alt": "Close-up of the panel showing Lossless, FLAC, 96 kHz, 2846 kbps, Stereo and Cloud badges above the progress bar and controls",
+                "sha256": "325445b7604156053bbac7fe1d46847a2f38f06620685ba114b27f6bf3e511e1",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/883c18de240c6204.webp",
+                "alt": "Three panels side by side: AIMP open with nothing playing, AIMP closed with an Open AIMP button, and an offline banner over a paused track",
+                "sha256": "883c18de240c620423f239eef576d701e5a54b0d7feae0920d238a367fe65f10",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/b6f0b4dd1abfa261.webp",
+                "alt": "Three panels: synced lyrics with the current line highlighted, plain lyrics, and an artist picture standing in for a missing cover, each tinted from its image",
+                "sha256": "b6f0b4dd1abfa26116530f85f11ba202729ac84b0e28d803f45c31b079a71ccb",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/icaceresc.b-side/d70ac3695f3370d5.webp",
+                "alt": "Three panels in Spanish, Japanese and German, each tinted with an accent color taken from its demo cover",
+                "sha256": "d70ac3695f3370d57c4b32990179f855761aa4fbf95ebb0646a140d4e8fb8f32",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/b-side",
+          "updatedAt": "2026-11-20T23:41:15-03:00"
+        },
         {
           "version": "1.2.0",
           "commit": "0e96fddc12ecfd6f10e505fbba6df77ff9c91192",
@@ -45571,6 +45644,69 @@
           "license": "MIT",
           "repository": "https://github.com/TAZAQ/jb-like-docker-service",
           "updatedAt": "2026-11-13T19:07:05+05:00"
+        }
+      ]
+    },
+    {
+      "id": "tesser-sh.tesser",
+      "ownerId": 319273144,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tesser-sh/orca-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "The tesser box behind each workspace: whether it is awake, and the localhost link to its dev server. Your code stays in the workspace.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "3af6073fe857e74f0e91db6b854b4539fcfb5ae1",
+          "contentHash": "e1232e34abea80027bdcf54382cd38c971e62ed9c511cf2fa25ca9669b68c222",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Tesser",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Tesser"
+            },
+            {
+              "kind": "commands",
+              "name": "Tesser: Open this workspace's dev server"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "tesser"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tesser-sh.tesser/efb5a8ced5800790.png",
+              "alt": "Tesser icon",
+              "sha256": "efb5a8ced580079090970afbc628dcc45025111c8fb5ebb6457944eaa62d22e4",
+              "width": 180,
+              "height": 180
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tesser-sh/orca-plugin",
+          "updatedAt": "2026-11-20T20:48:47-05:00"
         }
       ]
     },

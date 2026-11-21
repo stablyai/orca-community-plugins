@@ -2387,6 +2387,12 @@
     "repoId": 1465869478,
     "firstSeen": "2026-11-21T02:20:37.058Z"
   },
+  "icaceresc.b-side@1.2.1": {
+    "commit": "f468fea77ddc4aef3b4e74ce2d50da163cd44e0f",
+    "contentHash": "f3aac7205ac79574d7d3c8bc74bf129d2045ee5f9f682578b38c6f8b3a744bb3",
+    "repoId": 1465869478,
+    "firstSeen": "2026-11-21T02:43:02.991Z"
+  },
   "iml885203.orbit-status@0.1.1": {
     "commit": "11f2753266f23cf82f1abc8fef0a68afaed8d021",
     "contentHash": "cd3c41b40cc313dc6d2798d4824ff92a175b5041703830a9553afa3c1aadeb41",
@@ -4762,6 +4768,12 @@
     "contentHash": "a4cdfca6d361868bcff380161b10d0337811460ff91305c6be9f42f01eee90d4",
     "repoId": 1443463783,
     "firstSeen": "2026-11-13T14:15:07.626Z"
+  },
+  "tesser-sh.tesser@0.1.0": {
+    "commit": "3af6073fe857e74f0e91db6b854b4539fcfb5ae1",
+    "contentHash": "e1232e34abea80027bdcf54382cd38c971e62ed9c511cf2fa25ca9669b68c222",
+    "repoId": 1464775734,
+    "firstSeen": "2026-11-21T02:43:02.991Z"
   },
   "thailoc-dev.dev-toolbox@0.1.0": {
     "commit": "a890386f8215ae75445651a7075bcf0dd946c7ad",

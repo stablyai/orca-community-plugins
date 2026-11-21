@@ -695,7 +695,7 @@
     },
     "davidseptimus/armada-theme-orca-plugin": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.0.2",
       "plugins": [
         "davidseptimus.armada-theme"
       ],
@@ -1411,7 +1411,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "v1.2.1",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -3090,13 +3090,10 @@
       ]
     },
     "tesser-sh/orca-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "tesser-sh.tesser"
       ]
     },
     "thailoc-dev/orca-dev-toolbox": {
