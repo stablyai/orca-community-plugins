@@ -448,7 +448,7 @@
     },
     "canhta/orcaffein": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/canhta/orcaffein/0.1.1",
       "plugins": [
         "canhta.orcaffein"
       ]
@@ -2073,7 +2073,16 @@
       "ref": "refs/tags/maximechbt/beads-orca-ui/0.3.2",
       "plugins": [
         "maximechbt.beads-orca-ui"
-      ]
+      ],
+      "update": {
+        "ref": "v1.0.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "mbirepinte/orca-asciidoc-viewer": {
       "state": "rejected",
@@ -3665,7 +3674,7 @@
     },
     "wooseungw/rich-tex-editor": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.2",
       "plugins": [
         "wooseungw.rich-tex-editor"
       ]
