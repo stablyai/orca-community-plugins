@@ -21575,8 +21575,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/b-side/1.2.1"
       },
       "description": "Control AIMP from Orca — your lossless collection while you work",
       "categories": [
@@ -45652,8 +45652,8 @@
       "ownerId": 319273144,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tesser-sh/orca-plugin.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tesser-sh/orca-plugin/0.1.0"
       },
       "description": "The tesser box behind each workspace: whether it is awake, and the localhost link to its dev server. Your code stays in the workspace.",
       "categories": [

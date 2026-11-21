@@ -1411,7 +1411,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v1.2.1",
+      "ref": "refs/tags/icaceresc/b-side/1.2.1",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -3091,7 +3091,7 @@
     },
     "tesser-sh/orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/tesser-sh/orca-plugin/0.1.0",
       "plugins": [
         "tesser-sh.tesser"
       ]
