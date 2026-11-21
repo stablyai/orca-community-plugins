@@ -20758,6 +20758,46 @@
       ]
     },
     {
+      "id": "hasanalituran.toggle-light-dark-theme",
+      "ownerId": 8539918,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hasanalituran/orca-auto-dark-mode-windows.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Status bar button to toggle Orca between light and dark themes.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "f38133ea61981bdc9671e974316cde005ba3e4b4",
+          "contentHash": "79c5016e4ee3e6a2a76a2c06847c90676142a131e55fe050b2c6111f2d2a3af3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "Toggle Light/Dark Theme",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Toggle Light/Dark Theme"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Theme"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "appearance:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/hasanalituran/orca-auto-dark-mode-windows",
+          "updatedAt": "2026-11-21T21:57:08+11:00"
+        }
+      ]
+    },
+    {
       "id": "heath0xff.stillwater",
       "ownerId": 35548666,
       "source": {
@@ -23443,8 +23483,8 @@
       "ownerId": 45154585,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jameslatajan/orca-svn.git",
-        "ref": "v0.2.9"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jameslatajan/orca-svn/0.2.9"
       },
       "description": "Subversion in Orca: see a working copy's changes, then update, commit, revert, add, resolve and diff from a sidebar panel.",
       "categories": [

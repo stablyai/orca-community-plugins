@@ -1361,13 +1361,14 @@
       ]
     },
     "hasanalituran/orca-auto-dark-mode-windows": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "reserved-name",
-          "detail": "id \"orca-toggle-theme\" starts with \"orca-\", which is reserved for official plugins"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "hasanalituran.toggle-light-dark-theme"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
+        "publisher \"hasanturan\" is ignored: Orca uses the GitHub owner \"hasanalituran\"; remove \"publisher\" from orca-plugin.json"
       ]
     },
     "heath0xff/stillwater": {
@@ -1568,7 +1569,7 @@
     },
     "jameslatajan/orca-svn": {
       "state": "listed",
-      "ref": "v0.2.9",
+      "ref": "refs/tags/jameslatajan/orca-svn/0.2.9",
       "plugins": [
         "jameslatajan.svn"
       ]
