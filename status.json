@@ -58,7 +58,7 @@
     },
     "adamthewilliam/orca-pr-tour": {
       "state": "listed",
-      "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "adamthewilliam.pr-tour"
       ],
@@ -687,13 +687,10 @@
       }
     },
     "cryptosecco/orca-regia-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.8.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "cryptosecco.regia"
       ]
     },
     "csavur/simple-todo": {
@@ -1479,7 +1476,7 @@
     },
     "icaceresc/b-side": {
       "state": "rejected",
-      "ref": "v2.2.0",
+      "ref": "v2.2.2",
       "reasons": [
         {
           "category": "binary-files",
@@ -3031,6 +3028,16 @@
       "ref": "refs/tags/shumkov/orca-cliproxy-usage/0.1.1",
       "plugins": [
         "shumkov.cliproxy-usage"
+      ]
+    },
+    "simplycreatecode/github-copilot-for-orca-ade": {
+      "state": "rejected",
+      "ref": "v0.3.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "publisher: must be kebab-case (a-z, 0-9, dashes)"
+        }
       ]
     },
     "sks-other/orca-dsh-web": {

@@ -1569,16 +1569,111 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.1"
+        "url": "https://github.com/adamthewilliam/orca-pr-tour.git",
+        "ref": "v0.2.2"
       },
-      "description": "A review queue of the PRs waiting for you, in the order to review them, each with an agent-written guide: risk, findings with suggested comments, what changed in reading order, a note on every file, a claims check, and a review you post to GitHub from the guide.",
+      "description": "Understand a PR, then tour its diff in the order that explains it. For each PR waiting on you, your agent writes a guide: what, why and the impact, risk and findings, a stop-by-stop tour, and a review you post to GitHub.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "d8d176d6fd6d40961cd957b28e9621124d91bc4e",
+          "contentHash": "787bb0e449c23c0fed0037034f1efc0d8b1cdde0430eb2d35a8766702e13b2ce",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PR Tour",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Reviews"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Check for review requests"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Open guide for this branch"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Generate guide for this branch"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Review guide",
+              "detail": ".prtour.json, .prguide.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "PR tour"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/adamthewilliam.pr-tour/3ec83c31a94a6e44.png",
+              "alt": "A guide's what, why and impact above tour stop 12 of 13: the stop list, the one idea this stop explains, and the diff hunk that shows it",
+              "sha256": "3ec83c31a94a6e44e2b9f5a2cf283ab1916298d6f24f2a90377b8f3cb9a8fbd5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/adamthewilliam.pr-tour/c379c92e1623730b.png",
+              "alt": "PR Tour icon",
+              "sha256": "c379c92e1623730b16a135bd80a4e2192dd1e5ebb03e6174d1388dc3dbdddaab",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/adamthewilliam.pr-tour/ceb39c55973cee20.png",
+                "alt": "Guide overview: what, why and impact, a medium risk callout, findings by severity, the changes by area and the 13-stop tour grid",
+                "sha256": "ceb39c55973cee20a4a2ae9d58a25228774dafd59fca3b429669325dd19cf586",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/ec0323720e58be90.png",
+                "alt": "Stop 12 of 13: the stop list on the left, the explanation above the AutomationSection.tsx diff, and a major finding with its suggested comment under line 109",
+                "sha256": "ec0323720e58be903095c75e369df9aea8e355efb58271157558921e71c2fa7d",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/56089127ba980746.png",
+                "alt": "Finish review: a major finding to add or dismiss, two pending comments, the summary, where the review goes, and Post to GitHub",
+                "sha256": "56089127ba980746a4b8ccac15e04eb7d5e27a9c3beaf3a7cb4552b5aa26e459",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/e88358cab24ce217.png",
+                "alt": "PR Tour settings: agent harness, model, auto-generate toggles, teams, team filter, daily limit and extra instructions",
+                "sha256": "e88358cab24ce2177b47fede1b82e591a71da5e91d8946432b58c5868c3200a2",
+                "width": 2368,
+                "height": 1480
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/adamthewilliam/orca-pr-tour",
+          "updatedAt": "2026-11-21T19:40:30Z"
+        },
         {
           "version": "0.2.1",
           "commit": "1c3bf0cb61244f8660fa564ae939bfff3ccd4fbd",
@@ -10350,6 +10445,132 @@
           "license": "MIT",
           "repository": "https://github.com/crilofer/orca-streamdeck",
           "updatedAt": "2026-11-16T16:38:33+04:00"
+        }
+      ]
+    },
+    {
+      "id": "cryptosecco.regia",
+      "ownerId": 99609885,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
+        "ref": "v0.8.0"
+      },
+      "description": "A read-only control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.8.0",
+          "commit": "85f53754ef64fc9c11611f07dd4f14cc1068f5fa",
+          "contentHash": "c9abb714c7e408784582fcaf51a4a028496b92c7edde35496ee7c765b4f658be",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Regia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Regia"
+            },
+            {
+              "kind": "commands",
+              "name": "Regia: show the panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Regia"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cryptosecco.regia/040225a5297cbef7.png",
+              "alt": "The Regia panel: a diagram with you at the top, the bot that holds the queue, five other bots, the agents they started and the pull requests",
+              "sha256": "040225a5297cbef7edd1276f61f3eaa85194f9e436a7af85190bc6e458cc64a5",
+              "width": 2560,
+              "height": 1600
+            },
+            "icon": {
+              "path": "assets/cryptosecco.regia/20bdd70b5fdbce4c.png",
+              "alt": "Regia icon",
+              "sha256": "20bdd70b5fdbce4ce21561a0be0c4a01a54fd07440894c927f0583c3f7c32b31",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/cryptosecco.regia/040225a5297cbef7.png",
+                "alt": "The Overview: who hands work to whom, with amber lines where something waits on you",
+                "sha256": "040225a5297cbef7edd1276f61f3eaa85194f9e436a7af85190bc6e458cc64a5",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/cryptosecco.regia/595a2cbaf55447a9.png",
+                "alt": "The Queue: three decisions to take now with their options, and every open item in lanes by project",
+                "sha256": "595a2cbaf55447a9265eb660d4ef51fc165cdcf97d5c348429043575b603b4cd",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/cryptosecco.regia/3fc1f94377022e4d.png",
+                "alt": "The Office: every agent grouped by project, working, waiting on you or idle",
+                "sha256": "3fc1f94377022e4d0c59cfeaffc3b2797ba919d70de667f2fa96eb241db1c322",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/cryptosecco.regia/6dacec02905566d3.png",
+                "alt": "The Overview in the light theme",
+                "sha256": "6dacec02905566d376c7a0eff0aa564bab2c81022c32bd11a623e4a7b03b31d0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/cryptosecco.regia/4bfe079b6f238537.png",
+                "alt": "The Queue in the light theme",
+                "sha256": "4bfe079b6f238537048bb2cab30066894cd667fa91525f19e9fd285a6954cf7b",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/cryptosecco.regia/884128dc7ff57c73.png",
+                "alt": "The Office in the light theme",
+                "sha256": "884128dc7ff57c73b909b1e561de1b14378ec3a3b55d395e0027d029326de60b",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cryptosecco/orca-regia-plugin",
+          "updatedAt": "2026-11-21T18:54:06+01:00"
         }
       ]
     },
