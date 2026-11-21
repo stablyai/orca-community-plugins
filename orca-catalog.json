@@ -20687,9 +20687,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-20T18:23:30-05:00",
           "license": "MIT",
-          "repository": "https://github.com/HMDRAMS-DEV/orca-plugin-alias"
+          "repository": "https://github.com/HMDRAMS-DEV/orca-plugin-alias",
+          "updatedAt": "2026-11-20T18:23:30-05:00"
         },
         {
           "version": "0.1.1",
@@ -33703,6 +33703,64 @@
           "license": "BSD-3-Clause",
           "repository": "https://github.com/nknwns/orca-wakatime",
           "updatedAt": "2026-11-02T16:20:26+07:00"
+        }
+      ]
+    },
+    {
+      "id": "nomadiction8991.automation-terminal-cleanup",
+      "ownerId": 159034763,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Nomadiction8991/terminal-clearup.git",
+        "ref": "v0.3.20"
+      },
+      "description": "Automatically close terminals tied to completed local automation runs.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.20",
+          "commit": "1f170dba283481affe7b82a0598c6f9cc9d6056c",
+          "contentHash": "da097d4b2aca523706b1412a66b43a215a29ef4bf0c95f4e2c3cee532f7b8f0d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.266",
+          "name": "Terminal Clearup",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Histórico do Terminal Clearup"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Limpeza de automações"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/nomadiction8991.automation-terminal-cleanup/23a03a2e5fd83b5a.webp",
+              "alt": "Terminal Clearup: menos abas, menos RAM. Uma aba concluída é fechada e o contador mostra oito fechamentos no dia.",
+              "sha256": "23a03a2e5fd83b5a1a0064bc5f0a2b4165808d9f2ef5060897ee71cb8420f810",
+              "width": 1586,
+              "height": 992
+            },
+            "screenshots": [
+              {
+                "path": "assets/nomadiction8991.automation-terminal-cleanup/2e29cdad37c5e2c6.webp",
+                "alt": "Painel do Terminal Clearup mostrando histórico de fechamentos, configurações, logs e o total diário de abas e memória.",
+                "sha256": "2e29cdad37c5e2c6d57698bc75c1de8dbd8fcdf7228a57698f7cb72208ec311b",
+                "width": 1586,
+                "height": 992
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Nomadiction8991/terminal-clearup",
+          "updatedAt": "2026-11-21T00:17:38-04:00"
         }
       ]
     },

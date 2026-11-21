@@ -1834,11 +1834,11 @@
         "lindoo67.drawio"
       ],
       "update": {
-        "ref": "v0.1.8",
+        "ref": "v0.1.9",
         "reasons": [
           {
-            "category": "version-locked",
-            "detail": "tag v0.1.8 moved: version 0.1.6 was first listed at commit e7601b2a07b2cfd6d2b6ddccb96e2977aa992d3e and stays that release; publish a new version instead"
+            "category": "under-review",
+            "detail": "update"
           }
         ]
       }
@@ -2296,6 +2296,13 @@
       "ref": "refs/tags/nknwns/orca-wakatime/0.2.0",
       "plugins": [
         "nknwns.wakatime"
+      ]
+    },
+    "nomadiction8991/terminal-clearup": {
+      "state": "listed",
+      "ref": "v0.3.20",
+      "plugins": [
+        "nomadiction8991.automation-terminal-cleanup"
       ]
     },
     "noobitoo/orca-russian": {
