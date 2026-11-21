@@ -5326,8 +5326,8 @@
       "ownerId": 215651188,
       "source": {
         "kind": "git",
-        "url": "https://github.com/bawakul/orca-go-quota.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bawakul/orca-go-quota/0.1.0"
       },
       "description": "Your OpenCode Go plan usage — rolling, weekly and monthly quota with reset times — in a sidebar panel and the status bar. Uses your API key, not the browser-cookie dance.",
       "categories": [
@@ -11776,8 +11776,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.8.5"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.9.0"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -11785,6 +11785,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.9.0",
+          "commit": "d797c79e55044b318c2911fbde4b2eb2cbc9dff8",
+          "contentHash": "44b67adedad8c8cf7ad89324dbe8bd5a1b8dc9aac2982b14e2c7484dc51a20d3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-21T18:17:42+09:00"
+        },
         {
           "version": "0.8.5",
           "commit": "6a9661f1d9f09a7f831f9ad3abb6f10e3c0ae13f",
@@ -12016,64 +12074,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-16T19:49:48+09:00"
-        },
-        {
-          "version": "0.8.1",
-          "commit": "272f3f64c950e83def22b25fc67d5d1c5c635be7",
-          "contentHash": "0323fe6ab797df613c31a410ec695b437a3aca7bcbf94fb84ed34cf8d700e6ef",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
-              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
-              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
-                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
-                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
-                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
-                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
-                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
-                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-16T13:15:21+09:00"
         }
       ]
     },
@@ -13776,8 +13776,8 @@
       "ownerId": 81874051,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DueGin/orca-ensemble.git",
-        "ref": "v0.5.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/duegin/orca-ensemble/0.5.4"
       },
       "description": "Run a request with a team of agents: a lead that does intake, a shared task board, plan approval, messages and file claims (team mode), or splits the work across isolated members (delegation mode). Each role runs on its own agent CLI and model. Live data-flow dashboard, visual team editor, presets, ",
       "categories": [
@@ -19709,13 +19709,50 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/gthjnk/orca-clickup-tasks.git",
-        "ref": "v0.1.4"
+        "ref": "v0.1.5"
       },
       "description": "ClickUp in Orca's sidebar: see the tasks assigned to you, browse Spaces, Folders and Lists, and edit status, priority, due dates, assignees, checklists, subtasks and comments without leaving Orca.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "57b03d9445ac42808e81abb9f2d2028aaa109b28",
+          "contentHash": "593aea06dafc8fb7ef238ecea7579abda6c93c9c292407d0d0329e7cced0c463",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ClickUp Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ClickUp Tasks"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gthjnk.clickup-tasks/91677fe9eb569685.png",
+              "alt": "ClickUp Tasks in Orca's sidebar: My tasks grouped by status beside a task's detail with its status menu, checklist, subtasks and comments.",
+              "sha256": "91677fe9eb56968533b052e8ca79dc0768ac21ea62ac73e5d4626b48d5a69e9d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gthjnk.clickup-tasks/de593a2fcd36e99b.png",
+              "alt": "ClickUp Tasks icon",
+              "sha256": "de593a2fcd36e99bc189534743be3ce93c899837716d16a311b79f97840aadab",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gthjnk/orca-clickup-tasks",
+          "updatedAt": "2026-11-21T16:22:51+07:00"
+        },
         {
           "version": "0.1.4",
           "commit": "6b16dd5a5a11ecb834b0d3ab7b8d4b0530b04c4f",
@@ -43628,8 +43665,8 @@
       "ownerId": 22273976,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/serhii-f8/orca-gittoolbox/0.4.2"
+        "url": "https://github.com/serhii-f8/orca-GitToolBox.git",
+        "ref": "v0.4.3"
       },
       "description": "A full Git panel for Orca: commit graph with branch labels, branch tree with incoming and outgoing counts, commit details and diffs, staging and commits, side-by-side merge conflict resolution, a project and worktree switcher, a status bar branch indicator and background fetch.",
       "categories": [
@@ -43639,6 +43676,120 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.4.3",
+          "commit": "3434d0d4648563772939edecc67b7b08d47b3902",
+          "contentHash": "506d020cead7f5214515858e3c30dd0a98272b45fd28a0f43d483bc2c06da7e8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Git Toolbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Git"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Update (Pull)"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Push"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Show Log"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Show Changes"
+            },
+            {
+              "kind": "commands",
+              "name": "Git Toolbox: Switch Project or Worktree"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+U",
+              "detail": "gittoolbox.pull"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/serhii-f8.git-toolbox/91fd54eeb9fc4130.png",
+              "alt": "Git Toolbox panel showing a commit graph with coloured lanes, a branch tree and commit details",
+              "sha256": "91fd54eeb9fc413050efc9d4a9f4d05245334b9c5d5c4a3c9448de03f96719ac",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/serhii-f8.git-toolbox/f8e88dfebc36ad2b.png",
+              "alt": "Git Toolbox icon",
+              "sha256": "f8e88dfebc36ad2b2cd24dff61be7f10bfdc472ff9a39e105f185c004d61f6aa",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/serhii-f8.git-toolbox/91fd54eeb9fc4130.png",
+                "alt": "Log view: branch tree, commit graph with branch labels, and the selected commit with its changed files",
+                "sha256": "91fd54eeb9fc413050efc9d4a9f4d05245334b9c5d5c4a3c9448de03f96719ac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/65b833985bca325e.png",
+                "alt": "Changes view: staged, changed and new files, a diff of a staged file and the commit message box",
+                "sha256": "65b833985bca325e37bf5461394c66ae1630bfd5805d6eaae59c3a4a2e7177c9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/cf2fa58343e90951.png",
+                "alt": "Merge view: your version, the editable result and their version side by side, with conflicting chunks highlighted and buttons to take either side",
+                "sha256": "cf2fa58343e90951288db7a681b3fa2dc62905f747d2e8b48f31dc36ed98a3a9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/98ce6c8c510750c7.png",
+                "alt": "Switcher listing worktrees grouped by project, with search",
+                "sha256": "98ce6c8c510750c7228cce81d631bf7e93d765e80bf2bc110bca4313e88494cb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/serhii-f8.git-toolbox/c418dbbd4c949e42.png",
+                "alt": "Log view in a light theme",
+                "sha256": "c418dbbd4c949e429a2afd3b463173f496d6a66f8fb2aef1956f47ce31d71df2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/serhii-f8/orca-GitToolBox",
+          "updatedAt": "2026-11-21T10:22:12+01:00"
+        },
         {
           "version": "0.4.2",
           "commit": "8d12b8ab4a49c845c60d3ab7710392ca6729355e",
@@ -44087,54 +44238,6 @@
           "license": "MIT",
           "repository": "https://github.com/serhii-f8/orca-GitToolBox",
           "updatedAt": "2026-11-10T15:28:02+01:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "83789bdfb918b451e1bb1b4988ebaf205e908e5d",
-          "contentHash": "a108a8199fefbf6ee09c313ded122ec2c101322ef2978b39a4032556d1204ce5",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Git Toolbox",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Git"
-            },
-            {
-              "kind": "commands",
-              "name": "Git Toolbox: Fetch"
-            },
-            {
-              "kind": "commands",
-              "name": "Git Toolbox: Update (Pull)"
-            },
-            {
-              "kind": "commands",
-              "name": "Git Toolbox: Push"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "keybindings",
-              "name": "Mod+Shift+T",
-              "detail": "gittoolbox.pull"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Git"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/serhii-f8/orca-GitToolBox",
-          "updatedAt": "2026-11-10T14:32:12+01:00"
         }
       ]
     },
@@ -52558,6 +52661,94 @@
           "license": "MIT",
           "repository": "https://github.com/woodfishhhh/better-project-tree",
           "updatedAt": "2026-11-09T12:13:37+08:00"
+        }
+      ]
+    },
+    {
+      "id": "wooseungw.rich-tex-editor",
+      "ownerId": 97976494,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/wooseungw/rich-tex-editor.git",
+        "ref": "v0.1.1"
+      },
+      "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables and images as you type, a split mode with a live preview, and drag-and-drop images.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "3ab41fa233e201f5f38c250d5a2ebd4ec1219d30",
+          "contentHash": "84a62282f47e79b4d15ebb4fbc1ae438b769a04a07a0183f9c019f765f92f2cf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich TeX Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Rich TeX",
+              "detail": ".tex, .ltx, .latex"
+            },
+            {
+              "kind": "newFiles",
+              "name": "LaTeX document",
+              "detail": ".tex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "editorFileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wooseungw.rich-tex-editor/3b1ca473d114b0d5.jpg",
+              "alt": "Rich TeX Editor in visual mode: a LaTeX paper with a typeset title, numbered sections, KaTeX equations and resolved references.",
+              "sha256": "3b1ca473d114b0d586b606f645952ac6ce95c28fcbc088a1f9ab809e9a7a5380",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wooseungw.rich-tex-editor/d8ed9e96cccb9c2b.png",
+              "alt": "Rich TeX Editor icon",
+              "sha256": "d8ed9e96cccb9c2b091496d0a680a3bea2e724e8fbf21185028af4e970900fcc",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wooseungw.rich-tex-editor/dd1bb7705e187242.png",
+                "alt": "Visual mode: headings, bold and italic text, inline and display math rendered in place, with references shown as numbers.",
+                "sha256": "dd1bb7705e187242fa648e57a5cf3b033a15a4030d75377baa3b303b736315ed",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/9d1b8f3d4310cf79.png",
+                "alt": "Visual mode with a numbered theorem, an aligned equation, a rendered table and a PDF figure drawn in place.",
+                "sha256": "9d1b8f3d4310cf7916d9662b81d4fa7a033b58152b9faea3bb2b8eadd51de2e3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/c2ffe9c81e607f29.png",
+                "alt": "Split mode in a dark theme: LaTeX source with line numbers beside a live preview with a theorem, an aligned equation and a table.",
+                "sha256": "c2ffe9c81e607f2911577d83b1bee05d4951c8685d40a2b873e7f1df1a66f8de",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wooseungw/rich-tex-editor",
+          "updatedAt": "2026-11-21T17:57:45+09:00"
         }
       ]
     },
