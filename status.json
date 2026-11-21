@@ -686,6 +686,16 @@
         ]
       }
     },
+    "cryptosecco/orca-regia-plugin": {
+      "state": "rejected",
+      "ref": "v0.8.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
+      ]
+    },
     "csavur/simple-todo": {
       "state": "listed",
       "ref": "refs/tags/csavur/simple-todo/0.1.0",
@@ -1468,10 +1478,13 @@
       ]
     },
     "icaceresc/b-side": {
-      "state": "listed",
-      "ref": "refs/tags/icaceresc/b-side/2.1.2",
-      "plugins": [
-        "icaceresc.b-side"
+      "state": "rejected",
+      "ref": "v2.2.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (native/bin/bside-helper-arm64.exe, native/bin/bside-helper-x64.exe)"
+        }
       ]
     },
     "icaceresc/pixtuoid-orca-windows": {
