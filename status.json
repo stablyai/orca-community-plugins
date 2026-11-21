@@ -58,7 +58,7 @@
     },
     "adamthewilliam/orca-pr-tour": {
       "state": "listed",
-      "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "adamthewilliam.pr-tour"
       ],
@@ -1283,7 +1283,7 @@
     },
     "h00ns/test-runner-for-orca": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "h00ns.test-runner"
       ]

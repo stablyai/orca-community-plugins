@@ -107,6 +107,12 @@
     "repoId": 1465282199,
     "firstSeen": "2026-11-21T00:36:21.088Z"
   },
+  "adamthewilliam.pr-tour@0.2.1": {
+    "commit": "1c3bf0cb61244f8660fa564ae939bfff3ccd4fbd",
+    "contentHash": "ec89c1cb9696886d8780c8862f1eeff190c952e5e75cc52917b19bbc9ee82304",
+    "repoId": 1465282199,
+    "firstSeen": "2026-11-21T01:16:26.596Z"
+  },
   "addisflava.llm-router@1.0.0": {
     "commit": "e6a3f564fec97106af31390db1678b8b445b5918",
     "contentHash": "02e9514fb3e5946489000c7240325b4ac357536e02f6799bc4d46385bf54ed35",
@@ -2134,6 +2140,12 @@
     "contentHash": "ffb1ee52f7a7d5ffb7d1fbeca358497d269c889d8e886177904fd9cf1db76b39",
     "repoId": 1465406152,
     "firstSeen": "2026-11-21T00:52:03.618Z"
+  },
+  "h00ns.test-runner@0.2.2": {
+    "commit": "5d9aece44bb20afc4b809e8cd0406b6d3780c28d",
+    "contentHash": "2e0a28f9fb24d28388bfb49351c3cb33ad2ee80a9adc720aed26c77db61257af",
+    "repoId": 1465406152,
+    "firstSeen": "2026-11-21T01:16:26.596Z"
   },
   "hadisd.markdown-colorize@1.1.2": {
     "commit": "98600d90e80221c3e87ccf08195c5a35a2945d55",

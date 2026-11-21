@@ -1569,8 +1569,8 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.0"
+        "url": "https://github.com/adamthewilliam/orca-pr-tour.git",
+        "ref": "v0.2.1"
       },
       "description": "A review queue of the PRs waiting for you, in the order to review them, each with an agent-written guide: risk, findings with suggested comments, what changed in reading order, a note on every file, a claims check, and a review you post to GitHub from the guide.",
       "categories": [
@@ -1579,6 +1579,94 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "1c3bf0cb61244f8660fa564ae939bfff3ccd4fbd",
+          "contentHash": "ec89c1cb9696886d8780c8862f1eeff190c952e5e75cc52917b19bbc9ee82304",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PR Tour",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Reviews"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Check for review requests"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Open guide for this branch"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Generate guide for this branch"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Review guide",
+              "detail": ".prtour.json, .prguide.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "PR tour"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/adamthewilliam.pr-tour/b3cf8779ff398a89.png",
+              "alt": "A PR Tour guide for a dashboard restyle PR: risk, findings, the changes by area and the 13-stop tour",
+              "sha256": "b3cf8779ff398a89554e66223e650dfc06e96ff07254d12a8881eb880976a4c9",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/adamthewilliam.pr-tour/ceb39c55973cee20.png",
+                "alt": "Guide overview: what, why and impact, a medium risk callout, findings by severity, the changes by area and the 13-stop tour grid",
+                "sha256": "ceb39c55973cee20a4a2ae9d58a25228774dafd59fca3b429669325dd19cf586",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/ec0323720e58be90.png",
+                "alt": "Stop 12 of 13: the stop list on the left, the explanation above the AutomationSection.tsx diff, and a major finding with its suggested comment under line 109",
+                "sha256": "ec0323720e58be903095c75e369df9aea8e355efb58271157558921e71c2fa7d",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/56089127ba980746.png",
+                "alt": "Finish review: a major finding to add or dismiss, two pending comments, the summary, where the review goes, and Post to GitHub",
+                "sha256": "56089127ba980746a4b8ccac15e04eb7d5e27a9c3beaf3a7cb4552b5aa26e459",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/e88358cab24ce217.png",
+                "alt": "PR Tour settings: agent harness, model, auto-generate toggles, teams, team filter, daily limit and extra instructions",
+                "sha256": "e88358cab24ce2177b47fede1b82e591a71da5e91d8946432b58c5868c3200a2",
+                "width": 2368,
+                "height": 1480
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/adamthewilliam/orca-pr-tour",
+          "updatedAt": "2026-11-21T01:12:01Z"
+        },
         {
           "version": "0.2.0",
           "commit": "17832e459c1b8d9a754b955381593a87437b0e8e",
@@ -19346,15 +19434,97 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/h00ns/test-runner-for-orca.git",
-        "ref": "v0.2.1"
+        "ref": "v0.2.2"
       },
-      "description": "Run your workspace's tests from the sidebar, re-run the related ones when an agent finishes, and send failures back to the agent. Vitest, Jest, Playwright, Cypress, Gradle, Maven and pytest; monorepos included.",
+      "description": "Run your workspace's tests from the sidebar, re-run the related ones when an agent finishes, and send failures back to the agent. Vitest, Jest, Playwright, Cypress, Gradle, Maven and pytest are found on their own, monorepos included; if your setup is not, the README has a prompt that has your agent ",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "5d9aece44bb20afc4b809e8cd0406b6d3780c28d",
+          "contentHash": "2e0a28f9fb24d28388bfb49351c3cb33ad2ee80a9adc720aed26c77db61257af",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Test Runner",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Test Runner"
+            },
+            {
+              "kind": "commands",
+              "name": "Test Runner: Run tests in this workspace"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Tests"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/h00ns.test-runner/c9efd99a53b2ad97.png",
+              "alt": "The Test Runner panel showing a monorepo run with two failing tests, one of them new, after an agent finished",
+              "sha256": "c9efd99a53b2ad972ec04cfb3d9eeb38ca9905d75806c006330a791cb0855164",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/h00ns.test-runner/72e223fcab15ccc5.png",
+              "alt": "Test Runner icon",
+              "sha256": "72e223fcab15ccc5dd633123b98c29c6f864593ef4636d34e46aa581652261ab",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/h00ns.test-runner/fd2ea073fae72890.png",
+                "alt": "A failing test in the panel and the one-line prompt Test Runner types into the agent",
+                "sha256": "fd2ea073fae7289014a63f0a7384afa8a3705216eca5c8152168b9003e0e5163",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/h00ns.test-runner/e9ede61f0f6aa469.png",
+                "alt": "The README prompt that has an agent write .orca-test-runner.json, next to the file it writes",
+                "sha256": "e9ede61f0f6aa46917264491c93c2df005ee33c4aeb13e3d8e0677bc47086455",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/h00ns.test-runner/ee47d8591893c0dc.png",
+                "alt": "The panel while a monorepo runs, failing tests in the dark theme, and every project passing in the light theme",
+                "sha256": "ee47d8591893c0dcdf64b6fd33b6206797e2a871cc535814d907685b41eb71a8",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/h00ns/test-runner-for-orca",
+          "updatedAt": "2026-11-21T09:55:46+09:00"
+        },
         {
           "version": "0.2.1",
           "commit": "60786b05e8a8dd8f8483b8f8daefbad81db2a2a2",
