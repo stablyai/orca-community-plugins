@@ -1414,7 +1414,16 @@
       "ref": "refs/tags/icaceresc/b-side/1.2.1",
       "plugins": [
         "icaceresc.b-side"
-      ]
+      ],
+      "update": {
+        "ref": "v2.0.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "icaceresc/pixtuoid-orca-windows": {
       "state": "rejected",
@@ -1829,19 +1838,14 @@
     },
     "lindoo67/drawio-plugin": {
       "state": "listed",
-      "ref": "refs/tags/lindoo67/drawio-plugin/0.1.6",
+      "ref": "v0.1.9",
       "plugins": [
         "lindoo67.drawio"
       ],
-      "update": {
-        "ref": "v0.1.9",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner",
+        "editor/vendor/app.min.js: host calls not checked: larger than 8388608 bytes"
+      ]
     },
     "linkrjr/buildkite-orca-plugin": {
       "state": "listed",
@@ -2300,7 +2304,7 @@
     },
     "nomadiction8991/terminal-clearup": {
       "state": "listed",
-      "ref": "v0.3.20",
+      "ref": "refs/tags/nomadiction8991/terminal-clearup/0.3.20",
       "plugins": [
         "nomadiction8991.automation-terminal-cleanup"
       ]

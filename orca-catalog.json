@@ -28146,12 +28146,83 @@
       "ownerId": 268206566,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lindoo67/drawio-plugin/0.1.6"
+        "url": "https://github.com/lindoo67/drawio-plugin.git",
+        "ref": "v0.1.9"
       },
-      "description": "在 Orca 中完全离线创建和编辑 draw.io 流程图、架构图及多页图表，支持无界画布、可折叠侧栏、常用矢量图形库、撤销重做、自动同步，以及高清 PNG 和 SVG 剪贴板复制。",
+      "description": "Create and edit draw.io flowcharts, architecture diagrams, and multi-page diagrams entirely offline in Orca, with an infinite canvas, collapsible sidebar, popular vector shape libraries, undo and redo, automatic synchronization, and high-resolution PNG and SVG clipboard copying.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.9",
+          "commit": "d6e9f535eaa54ee442938b069f4279f67cc5f4aa",
+          "contentHash": "b8459a00aac61b37698b7b4a9a8c01e13d9d4d43a18fda6cd997c30277b2ca06",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Draw.io",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Draw.io",
+              "detail": ".drawio, .drawio.xml"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Draw.io Diagram",
+              "detail": ".drawio"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "fileTypes": [
+            "drawio"
+          ],
+          "editorFileTypes": [
+            "drawio"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lindoo67.drawio/06f5cfeb0207be88.webp",
+              "alt": "Orange and cyan flowchart cards on a dark blue background with the title Draw.io by LinDoo",
+              "sha256": "06f5cfeb0207be8868b7078195c5ae9a9dae6708b85ea55078522218cbd7a843",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lindoo67.drawio/94a492ab617e6def.png",
+              "alt": "Draw.io icon",
+              "sha256": "94a492ab617e6def75ff6805a3292a561933ce5bde5b9094634046b062ea9f9f",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lindoo67.drawio/581d3a3ecf4cb4ce.png",
+                "alt": "Draw.io editor in the light theme, showing an offline diagram workflow and popular shape libraries",
+                "sha256": "581d3a3ecf4cb4ce59fe10caf61462fdb30de90565367cc20bda56eca1c5ba2e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lindoo67.drawio/e818284b200dd338.png",
+                "alt": "Draw.io editor in the dark theme, showing the same flowchart and page settings",
+                "sha256": "e818284b200dd33808e86d3b6be24ae8e4377c723e4f26d93d811c59625eae38",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lindoo67.drawio/4fd771496f56b910.png",
+                "alt": "Draw.io editor with a selected flowchart node and node styling options shown on the right",
+                "sha256": "4fd771496f56b9101e29068493a1befde1418850f04dc2ecf446caf9b54ebb58",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-21T12:06:17+08:00",
+          "license": "Apache-2.0",
+          "repository": "https://github.com/lindoo67/drawio-plugin"
+        },
         {
           "version": "0.1.6",
           "commit": "e7601b2a07b2cfd6d2b6ddccb96e2977aa992d3e",
@@ -33711,8 +33782,8 @@
       "ownerId": 159034763,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Nomadiction8991/terminal-clearup.git",
-        "ref": "v0.3.20"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/nomadiction8991/terminal-clearup/0.3.20"
       },
       "description": "Automatically close terminals tied to completed local automation runs.",
       "categories": [
