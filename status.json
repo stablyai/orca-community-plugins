@@ -695,7 +695,7 @@
     },
     "davidseptimus/armada-theme-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.0.1",
+      "ref": "v1.0.2",
       "plugins": [
         "davidseptimus.armada-theme"
       ],
@@ -1410,13 +1410,10 @@
       ]
     },
     "icaceresc/b-side": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "icaceresc.b-side"
       ]
     },
     "icaceresc/pixtuoid-orca-windows": {
@@ -3089,6 +3086,16 @@
         {
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "tesser-sh/orca-plugin": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
