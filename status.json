@@ -446,6 +446,13 @@
         }
       ]
     },
+    "canhta/orcaffein": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "canhta.orcaffein"
+      ]
+    },
     "caocuong2404/orca-observability": {
       "state": "listed",
       "ref": "v0.1.0",

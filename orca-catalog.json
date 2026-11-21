@@ -6833,6 +6833,56 @@
       ]
     },
     {
+      "id": "canhta.orcaffein",
+      "ownerId": 56242791,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/canhta/orcaffein.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Keeps a Mac awake with the lid closed while Orca agents are working, then gives sleep back once they stop or the Mac goes on battery. macOS only.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "62a1d46a77cd8194401e5903b450fdd19bada8e2",
+          "contentHash": "4566906be9c778c0881cc88af0bc16eb62daaeca94de5f7902d6b63636501952",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Orcaffein",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Orcaffein: Pause or resume"
+            },
+            {
+              "kind": "commands",
+              "name": "Orcaffein: Check setup"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Orcaffein"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/canhta/orcaffein",
+          "updatedAt": "2026-11-21T21:38:16+07:00"
+        }
+      ]
+    },
+    {
       "id": "caocuong2404.observability",
       "ownerId": 50004497,
       "source": {
