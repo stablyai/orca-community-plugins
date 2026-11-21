@@ -1411,7 +1411,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v2.0.1",
+      "ref": "refs/tags/icaceresc/b-side/2.0.1",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -3165,7 +3165,7 @@
     },
     "thriftykapila/git-insights": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/thriftykapila/git-insights/0.1.1",
       "plugins": [
         "thriftykapila.git-insights"
       ]

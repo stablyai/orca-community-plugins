@@ -21575,8 +21575,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v2.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/b-side/2.0.1"
       },
       "description": "Control AIMP from Orca — your lossless collection while you work",
       "categories": [
@@ -46611,8 +46611,8 @@
       "ownerId": 47074849,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thriftykapila/git-insights.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thriftykapila/git-insights/0.1.1"
       },
       "description": "See who wrote each line of a file (git blame), with hover details and per-commit info.",
       "categories": [
