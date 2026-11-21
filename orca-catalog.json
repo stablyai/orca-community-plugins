@@ -43428,6 +43428,116 @@
       ]
     },
     {
+      "id": "seanrobertwright.orchon",
+      "ownerId": 2528042,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/seanrobertwright/Orchon.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Archon's runs, workflows and chat inside Orca. Unofficial; not made or endorsed by the Archon or Orca projects.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "edbfe82acec90ed611d2b51fde1bdad9bc6608ce",
+          "contentHash": "16b0b5c9d10c2c626bcffd3007d2240a695ce735c289d79a589cdc6b231c256d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Orchon",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orchon"
+            },
+            {
+              "kind": "commands",
+              "name": "Orchon: Show runs"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Orchon run graph",
+              "detail": ".orchonrun"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Orchon workflow builder",
+              "detail": ".orchonflow"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Orchon"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "orchonrun",
+            "orchonflow"
+          ],
+          "editorFileTypes": [
+            "orchonrun",
+            "orchonflow"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/seanrobertwright.orchon/3cf9a21b1fbd81ba.png",
+              "alt": "The word Orchon beside an abstract run graph: steps done, running and waiting on a person, joined by curves, above a card with two buttons.",
+              "sha256": "3cf9a21b1fbd81ba823ad860316873a8ecd9e4066c61931ab3cff486e470aeab",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/seanrobertwright.orchon/e7e4fa6bbffbbf0c.png",
+              "alt": "Orchon icon",
+              "sha256": "e7e4fa6bbffbbf0c5b7190b50b0d7fa9dc198986507694cd01539cc5cd7a2120",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/seanrobertwright.orchon/59ba184bfd5e25ca.png",
+                "alt": "Three Orchon panels: the runs list with 13 runs that need you, a paused run's steps, and the launcher with its project, workflow and message.",
+                "sha256": "59ba184bfd5e25ca0ba828db205a5b74985026c19bcce992c9f0328b4fbea2fd",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/seanrobertwright.orchon/e0e11d596c0f6d58.png",
+                "alt": "Three Orchon panels: workflows with Open in builder and Delete buttons, a chat thread with a workflow result, and three metrics cards.",
+                "sha256": "e0e11d596c0f6d581fff52a712dba8e7bf298cc2802bcdace0c3633c3e51d968",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/seanrobertwright.orchon/967c46da05120dac.png",
+                "alt": "Three Orchon panels: Settings with its Connection and System lists, a table of every metric, and the screen saying Archon is not running.",
+                "sha256": "967c46da05120dac9b7e7dfd7a32ed115762dd73e7905f82381adb310d0770d2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/seanrobertwright/Orchon",
+          "updatedAt": "2026-11-21T16:28:56-05:00"
+        }
+      ]
+    },
+    {
       "id": "senadaruc.grazr",
       "ownerId": 14252382,
       "source": {
