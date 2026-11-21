@@ -1460,6 +1460,16 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "ishubhoshaha/orca-apple-reminders": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name"
+        }
+      ]
+    },
     "ivanha-dev/mcp-openproject": {
       "state": "listed",
       "ref": "refs/tags/ivanha-dev/mcp-openproject/0.1.4",
@@ -3030,6 +3040,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "structworks/richdown": {
+      "state": "rejected",
+      "ref": "v0.13.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
         }
       ]
     },
