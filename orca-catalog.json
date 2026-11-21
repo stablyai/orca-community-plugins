@@ -6838,14 +6838,73 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/canhta/orcaffein.git",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
-      "description": "Keeps a Mac awake with the lid closed while Orca agents are working, then gives sleep back once they stop or the Mac goes on battery. macOS only.",
+      "description": "Keeps your MacBook awake with the lid closed while Orca agents work. macOS only.",
       "categories": [
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "43c85ecfc5b1a0b2f68488b5d689145a1039e608",
+          "contentHash": "866ae598bee66efec25f8bbc06a5ef6b2517258557f567aa12a31c3b748426a1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Orcaffein",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Orcaffein: Pause or resume"
+            },
+            {
+              "kind": "commands",
+              "name": "Orcaffein: Check setup"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Orcaffein"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/canhta.orcaffein/20c471646dc38a98.png",
+              "alt": "Orcaffein: an Orca window with three agents working and the status bar showing Awake 3, while the lid is closed and the Mac is on charger",
+              "sha256": "20c471646dc38a9852923318516eac90b37bd826a55221d0000431bccb94ca04",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/canhta.orcaffein/02e8929675c45fb2.png",
+              "alt": "Orcaffein icon",
+              "sha256": "02e8929675c45fb20ef583521184e5e35eaca3828561c02066f586fa77e07650",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/canhta.orcaffein/4e7aee9133ba712c.png",
+                "alt": "The five status bar states: Awake 3, Idle 12/60m, Sleep, Paused and Setup, each with what it means",
+                "sha256": "4e7aee9133ba712c919f17de99c35e9b41cfab587f8eff709a2d34abd996e1e4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/canhta/orcaffein",
+          "updatedAt": "2026-11-21T22:03:02+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "62a1d46a77cd8194401e5903b450fdd19bada8e2",
@@ -53616,12 +53675,87 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.1"
+        "url": "https://github.com/wooseungw/rich-tex-editor.git",
+        "ref": "v0.1.2"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables and images as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "d85bcc502300e714ce8632f899d678089d4cd960",
+          "contentHash": "e0a3f9b19f2d6178a15dfe3cc211ce2446871b26298d9c5e76dd48025b3c2359",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich TeX Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Rich TeX",
+              "detail": ".tex, .ltx, .latex"
+            },
+            {
+              "kind": "newFiles",
+              "name": "LaTeX document",
+              "detail": ".tex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "editorFileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wooseungw.rich-tex-editor/3b1ca473d114b0d5.jpg",
+              "alt": "Rich TeX Editor in visual mode: a LaTeX paper with a typeset title, numbered sections, KaTeX equations and resolved references.",
+              "sha256": "3b1ca473d114b0d586b606f645952ac6ce95c28fcbc088a1f9ab809e9a7a5380",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wooseungw.rich-tex-editor/d8ed9e96cccb9c2b.png",
+              "alt": "Rich TeX Editor icon",
+              "sha256": "d8ed9e96cccb9c2b091496d0a680a3bea2e724e8fbf21185028af4e970900fcc",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wooseungw.rich-tex-editor/dd1bb7705e187242.png",
+                "alt": "Visual mode: headings, bold and italic text, inline and display math rendered in place, with references shown as numbers.",
+                "sha256": "dd1bb7705e187242fa648e57a5cf3b033a15a4030d75377baa3b303b736315ed",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/9d1b8f3d4310cf79.png",
+                "alt": "Visual mode with a numbered theorem, an aligned equation, a rendered table and a figure drawn in place.",
+                "sha256": "9d1b8f3d4310cf7916d9662b81d4fa7a033b58152b9faea3bb2b8eadd51de2e3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/c2ffe9c81e607f29.png",
+                "alt": "Split mode in a dark theme: LaTeX source with line numbers beside a live preview with a theorem, an aligned equation and a table.",
+                "sha256": "c2ffe9c81e607f2911577d83b1bee05d4951c8685d40a2b873e7f1df1a66f8de",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wooseungw/rich-tex-editor",
+          "updatedAt": "2026-11-21T23:54:51+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "3ab41fa233e201f5f38c250d5a2ebd4ec1219d30",
