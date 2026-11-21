@@ -1462,7 +1462,7 @@
     },
     "ishubhoshaha/orca-apple-reminders": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.2",
       "reasons": [
         {
           "category": "under-review",
@@ -1945,11 +1945,11 @@
     },
     "manomilano/orca-mascots": {
       "state": "rejected",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "reasons": [
         {
-          "category": "reserved-name",
-          "detail": "name \"Orca Mascots\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
@@ -3043,13 +3043,13 @@
         }
       ]
     },
-    "structworks/richdown": {
+    "structworks/richdown-orca": {
       "state": "rejected",
       "ref": "v0.13.0",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "size"
         }
       ]
     },
