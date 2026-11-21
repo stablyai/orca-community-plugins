@@ -1257,6 +1257,13 @@
         "gook-lab.agent-scheduler"
       ]
     },
+    "gthjnk/orca-clickup-tasks": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "gthjnk.clickup-tasks"
+      ]
+    },
     "guilatrova/token-reminder": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -1944,13 +1951,10 @@
       ]
     },
     "manomilano/orca-mascots": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "manomilano.mascots"
       ]
     },
     "marco-calderon/nord-midnight-orca-theme": {
@@ -1990,7 +1994,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.266",
+      "ref": "v1.4.268",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -3044,13 +3048,10 @@
       ]
     },
     "structworks/richdown-orca": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.13.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "structworks.richdown"
       ]
     },
     "sumonta056/orca-better-markdown-preview": {

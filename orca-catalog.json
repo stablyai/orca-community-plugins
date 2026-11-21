@@ -19433,6 +19433,42 @@
       ]
     },
     {
+      "id": "gthjnk.clickup-tasks",
+      "ownerId": 82693410,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gthjnk/orca-clickup-tasks.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Your ClickUp tasks in Orca's sidebar: browse, read and edit tasks, checklists, subtasks and comments without leaving Orca.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "ae8b5aba780bcd62d02e2d7798124cbb82ebb331",
+          "contentHash": "6c7c317bbd23efaf47569c2185938480e59ce032b54ea4e1e63ce07e508d1778",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ClickUp Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ClickUp Tasks"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/gthjnk/orca-clickup-tasks",
+          "updatedAt": "2026-11-21T14:31:58+07:00"
+        }
+      ]
+    },
+    {
       "id": "gzimbron.svelte-syntax",
       "ownerId": 7065779,
       "source": {
@@ -29024,6 +29060,77 @@
       ]
     },
     {
+      "id": "manomilano.mascots",
+      "ownerId": 75548110,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/manomilano/orca-mascots.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Twenty glossy marine mascots for your Orca bots. Pick one, choose a background and shape, and save it as a bot picture.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "efe2892b503c0a3a0cde54d9211a30f0246d4f0c",
+          "contentHash": "6a33c1ddcab460f0e664436771a7220f586671c12cb3bde7b9da501a5c521b7b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.265",
+          "name": "Bot Mascots",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Mascots"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/manomilano.mascots/4c773ae142f89920.webp",
+              "alt": "Twenty glossy marine animal mascots shown as round avatars on pastel backgrounds.",
+              "sha256": "4c773ae142f899206b6ff5be6ddfb5d8319c68af6ccb3559c4ae9769b51779fa",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/manomilano.mascots/c7b0338f3b496159.png",
+              "alt": "Bot Mascots icon",
+              "sha256": "c7b0338f3b4961594206192a42a8ca9c34254ae4c63ef6ef03e48a68b036594a",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/manomilano.mascots/7cc1df0574c366f8.webp",
+                "alt": "The Bot Mascots sidebar panel in three states: a square beluga on sky blue, a round humpback on deep blue and a square octopus on a warm gradient.",
+                "sha256": "7cc1df0574c366f848001d88d3ac85a3074ed08617048ed1f5a935a24cd86d92",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/manomilano.mascots/d094fe7f79d32c3c.webp",
+                "alt": "The panel beside avatars it saved: a square beluga, a round humpback and four smaller ones.",
+                "sha256": "d094fe7f79d32c3cf6811cc2b2701959ff84bb2229b10130ab16c460a64b7088",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/manomilano.mascots/270394991c191905.webp",
+                "alt": "Fifteen of the mascots as square bot pictures on solid and gradient backgrounds.",
+                "sha256": "270394991c1919055593441fa32e52f9add9b1c3e4c292373b4eae9d98ae20d8",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT AND CC-BY-4.0",
+          "repository": "https://github.com/manomilano/orca-mascots",
+          "updatedAt": "2026-11-21T09:14:51+02:00"
+        }
+      ]
+    },
+    {
       "id": "marco-calderon.nord-midnight-theme",
       "ownerId": 47753684,
       "source": {
@@ -29329,14 +29436,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.266"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.268"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.266. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.268. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.268",
+          "commit": "d784a6ed739d8c6c143c4e8707af03ebb0d7b137",
+          "contentHash": "e816f821090c4fa02eb4ad54046f77c7ab6ed65b585d5a9142bdb0471811c165",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-21T08:18:19+01:00"
+        },
         {
           "version": "1.4.266",
           "commit": "216abcc98c461af2c0324c7886e4edb43817d84a",
@@ -29468,39 +29608,6 @@
           "license": "MIT",
           "repository": "https://github.com/matteoeusebi/orca-italiano",
           "updatedAt": "2026-11-15T08:21:07+01:00"
-        },
-        {
-          "version": "1.4.258",
-          "commit": "aa574a367ca3cf483a5abd6e3e7bfbbc801cdf11",
-          "contentHash": "f28804d4493c5f86432b2aeee48ede52731b5a30e5e380c18ac8170100c75d1e",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-13T08:18:02+01:00"
         }
       ]
     },
@@ -44692,6 +44799,58 @@
           "license": "MIT",
           "repository": "https://github.com/spgsroot/orca-usage-plugin",
           "updatedAt": "2026-11-10T14:40:24+03:00"
+        }
+      ]
+    },
+    {
+      "id": "structworks.richdown",
+      "ownerId": 262143292,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/StructWorks/richdown-orca.git",
+        "ref": "v0.13.0"
+      },
+      "description": "Edit Markdown with a rich inline preview, editable tables, colored Mermaid diagrams, Gherkin boards, and Markdown lint and formatting.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.13.0",
+          "commit": "75c151856c375264e77c3f9389a290c208a00e58",
+          "contentHash": "3f6b5c6db5b124ed178f3f30421313d103792316ce275f28bffa509f83a7c194",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Richdown",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Richdown",
+              "detail": ".md, .markdown"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "md",
+            "markdown"
+          ],
+          "editorFileTypes": [
+            "md",
+            "markdown"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/structworks.richdown/508247e76ca95451.png",
+              "alt": "Richdown icon",
+              "sha256": "508247e76ca95451ccd4675083de1841ada07f2588f40b8d07b413409eb7344b",
+              "width": 128,
+              "height": 128
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/StructWorks/richdown-orca",
+          "updatedAt": "2026-11-21T16:01:41+09:00"
         }
       ]
     },
