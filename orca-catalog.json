@@ -7974,8 +7974,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.3.2"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
