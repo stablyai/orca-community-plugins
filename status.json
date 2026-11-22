@@ -924,6 +924,13 @@
         "dohaidang.wallpaper-studio"
       ]
     },
+    "dom8509/pi-workflow-status": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "dom8509.pi-workflow-status"
+      ]
+    },
     "donghyun-git/petting-friends": {
       "state": "listed",
       "ref": "refs/tags/donghyun-git/petting-friends/0.1.0",
@@ -3278,7 +3285,7 @@
     },
     "sonthh/orca-pitwall": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/sonthh/orca-pitwall/0.3.0",
       "plugins": [
         "sonthh.pitwall"
       ]

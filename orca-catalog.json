@@ -15186,6 +15186,77 @@
       ]
     },
     {
+      "id": "dom8509.pi-workflow-status",
+      "ownerId": 933312,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dom8509/pi-workflow-status.git",
+        "ref": "v0.1.0"
+      },
+      "description": "See which Pi workflow and stage every agent in Orca is in: an Activity list of all agents with workflow chips, and the selected agent's pipeline with done, current and pending stages.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "8d22cc236e70a53b841c2e0bc0b1778cbe8c2869",
+          "contentHash": "7a71f614b67fc3fc1fb8fea5cdaf0103571a70b9bcdfaf048c2d14d89ed2cf98",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PI Workflow Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PI Workflow Status"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "settings:own",
+            "history:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dom8509.pi-workflow-status/71e4c50fd4160e16.png",
+              "alt": "PI Workflow Status: an Activity list of agents with workflow chips above the pipeline of the selected agent, in a light and a dark theme",
+              "sha256": "71e4c50fd4160e1630ba4220702fd7c003ad5b4dd3030a45bab5de2954265d57",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dom8509.pi-workflow-status/2e91ef37e3758a86.png",
+              "alt": "PI Workflow Status icon",
+              "sha256": "2e91ef37e3758a869072a326d9365748892e4210829769e281367ca3c649e7f1",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/dom8509.pi-workflow-status/709d6b02762788b0.png",
+                "alt": "Two panels in the light theme: one shows a Coding workflow in its implement stage, the other a Package workflow in verify with a nested ResultCheck",
+                "sha256": "709d6b02762788b04abbfe5238b5feda87052d3b3fee0c6c695d2ba1ab9e4d80",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dom8509.pi-workflow-status/a65c280497de4bf6.png",
+                "alt": "The same two panels in the dark theme",
+                "sha256": "a65c280497de4bf6dffac451cf83526688c139fb5405a4e7f8161e8aced8a312",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dom8509/pi-workflow-status",
+          "updatedAt": "2026-11-22T19:13:29+01:00"
+        }
+      ]
+    },
+    {
       "id": "donghyun-git.petting-friends",
       "ownerId": 78803763,
       "source": {
@@ -48319,8 +48390,8 @@
       "ownerId": 30369609,
       "source": {
         "kind": "git",
-        "url": "https://github.com/sonthh/orca-pitwall.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sonthh/orca-pitwall/0.3.0"
       },
       "description": "A live pit wall for your coding agents: context, cost, subagents and every tool call, in Orca's right sidebar. Read-only, local, no network.",
       "categories": [
