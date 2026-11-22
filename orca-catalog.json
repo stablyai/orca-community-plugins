@@ -11509,7 +11509,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
-        "ref": "v0.5.0"
+        "ref": "v0.6.0"
       },
       "description": "Read-only virtual office visualizer for Orca bots and live sub-workers",
       "categories": [
@@ -11518,6 +11518,120 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "76c216eb3686e5d0490f9041611f961d1da9145b",
+          "contentHash": "dc9d449b3a805c3e3aaf11ddf7f328fd98a1ac71d40499c9f137d9eeaabf9ced",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Bot World",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh Bot World"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot World Office",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Bot World Board",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot World"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botworld"
+          ],
+          "editorFileTypes": [
+            "botworld"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+              "alt": "Bot World Wide Office Board displaying 10 Orca bots and live sub-workers in the Startup Office theme",
+              "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
+              "alt": "Bot World icon",
+              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+                "alt": "Bot World wide .botworld office board in the Startup Office theme with 10 live bots, sub-workers, character switcher, and 24-hour event timeline",
+                "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/0949c7778918ab78.jpg",
+                "alt": "Bot World wide .botworld office board in the Corporate Office theme highlighting a Needs You approval badge, open items, and automation status",
+                "sha256": "0949c7778918ab78c6023910e40b79532ead679a24fd6a484880bd4051bd1e6b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/6b6257f1780737c1.jpg",
+                "alt": "Bot World wide .botworld office board with Redact Mode enabled and 24-hour timeline replay paused at an earlier timestamp",
+                "sha256": "6b6257f1780737c16fda6bf54bcd043ded61dd6575514bee10e1bc45d90fb22a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/b9c9635cfb5976a9.jpg",
+                "alt": "Bot World wide .botworld office board in Night mode with warm desk lamp glows, steaming coffee, idle Zzz bubbles, and a sub-worker entering through the door",
+                "sha256": "b9c9635cfb5976a94f99b24f0a6bd762bb5a37836b6045f6bdb7fa57f74a8274",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/f77de702fbbba014.jpg",
+                "alt": "Bot World Cozy Cafe theme at sunset with 8 live bots spread across wooden desks and round cafe tables",
+                "sha256": "f77de702fbbba0149644a54180e535185ec5d40d2a753fb86bb42ef6374281bc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/4c1e6e8ca34207d2.jpg",
+                "alt": "Bot World Cyber Ops midnight neon control room theme with live bots, glowing monitors, and sub-workers",
+                "sha256": "4c1e6e8ca34207d2deeb19c49d38b1b9eb9adc28bc701dadceed39f3d16cbbd0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
+          "updatedAt": "2026-11-22T12:32:27+09:00"
+        },
         {
           "version": "0.5.0",
           "commit": "bd08e86f60eb8a13db60fc783015aac0f1571f5f",
@@ -11952,69 +12066,6 @@
           "license": "MIT",
           "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
           "updatedAt": "2026-11-21T20:38:18+09:00"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "d155e41cf011d983bac263882068d67538cdcb34",
-          "contentHash": "0c3270edf6b05f26479d8a23acab7121d69980eb7f831a68b89d0eb9ec78bbbb",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Bot World",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot World"
-            },
-            {
-              "kind": "commands",
-              "name": "Open Bot World"
-            },
-            {
-              "kind": "commands",
-              "name": "Refresh Bot World"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Bot World Office",
-              "detail": ".botworld"
-            },
-            {
-              "kind": "newFiles",
-              "name": "New Bot World Board",
-              "detail": ".botworld"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot World"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "agent:read"
-          ],
-          "fileTypes": [
-            "botworld"
-          ],
-          "editorFileTypes": [
-            "botworld"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
-              "alt": "Bot World icon",
-              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
-          "updatedAt": "2026-11-21T18:42:30+09:00"
         }
       ]
     },
@@ -19160,8 +19211,8 @@
       "ownerId": 6694722,
       "source": {
         "kind": "git",
-        "url": "https://github.com/fang2hou/orca-gruvbox-material-mix-theme.git",
-        "ref": "v2.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/fang2hou/orca-gruvbox-material-mix-theme/2.3.0"
       },
       "description": "Gruvbox Material dark and light themes with the Mix foreground palette and Medium background contrast, with uniform panel backgrounds and matching syntax and terminal colors.",
       "categories": [
