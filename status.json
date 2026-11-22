@@ -546,6 +546,16 @@
         "cfmleditor.cfml"
       ]
     },
+    "ch0rch/seodraft-orca": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "chabinhwang/orca-hwp-viewer": {
       "state": "listed",
       "ref": "refs/tags/chabinhwang/orca-hwp-viewer/0.3.0",
@@ -803,7 +813,16 @@
       "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.1.2",
       "plugins": [
         "ddochi-nyang.bot-world"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "decadance-dance/orca-plane": {
       "state": "listed",
@@ -1827,11 +1846,11 @@
     },
     "kvdecvlt/orca-russian-language": {
       "state": "rejected",
-      "ref": "v1.3.0",
+      "ref": "v1.3.1",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): translation at main-only.txt adds a line break the English text does not have"
+          "category": "reserved-name",
+          "detail": "name \"Orca Русский\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
         }
       ]
     },
@@ -3174,6 +3193,13 @@
       "ref": "refs/tags/spgsroot/orca-usage-plugin/1.2.1",
       "plugins": [
         "spgsroot.omp-usage"
+      ]
+    },
+    "spscream/orca-fairway": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "spscream.fairway"
       ]
     },
     "stnslvsvnv/orca-computer-use-neon-glow": {

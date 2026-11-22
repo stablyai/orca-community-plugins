@@ -47285,6 +47285,50 @@
       ]
     },
     {
+      "id": "spscream.fairway",
+      "ownerId": 116317,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/spscream/orca-fairway.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "3b94cebe2da25631d7459f3be6fbebd0f237b731",
+          "contentHash": "62eadf89791d363aad826b548bbcaa02477581cc7a9c45c209a964b62911ea10",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: состояние маршрутизатора"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-21T21:38:21-03:00"
+        }
+      ]
+    },
+    {
       "id": "structworks.richdown",
       "ownerId": 262143292,
       "source": {
