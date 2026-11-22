@@ -49627,15 +49627,118 @@
       "ownerId": 93583813,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thanhh2615/datanoa/1.0.4"
+        "url": "https://github.com/Thanhh2615/datanoa.git",
+        "ref": "v1.1.1"
       },
-      "description": "All-in-one database client and SQL studio for Orca. Browse tables, edit data inline, design schemas, and run queries across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, and Turso/LibSQL.",
+      "description": "Database client and SQL studio for Orca. Browse schemas, edit and import data, design tables, and run SQL or Redis queries over SSH and TLS across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, LibSQL/Turso, Cloudflare D1, SQL Server (MSSQL), Oracle, and MongoDB.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "e90b9bc3cb5b604f31f8ec042803ef2ab5839070",
+          "contentHash": "c7609ae736a7eb640be78e3e39c41e54fe5e7efa932b72c24159ca650e6406fb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Datanoa Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Datanoa"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: Open SQLite File"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: New SQL Query"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Datanoa Studio",
+              "detail": ".sql, .datanoa"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Datanoa Studio",
+              "detail": ".datanoa"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "editorFileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thanhh2615.datanoa/25964f97c0da72ae.webp",
+              "alt": "Datanoa Studio database client and SQL studio for Orca with multi-tab SQL editor, data grid, and schema explorer",
+              "sha256": "25964f97c0da72ae250164a2f079b156cb6f2ddacb53c9849d5361d134f2d083",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/thanhh2615.datanoa/240d38db2598e081.png",
+              "alt": "Datanoa Studio icon",
+              "sha256": "240d38db2598e08170e18d12859f8123af66814b4880729a66cddce0367d524c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/thanhh2615.datanoa/f405daf8618e3d81.webp",
+                "alt": "Datanoa Studio split view with multi-tab SQL console, transactions, data grid, and JSON inspector",
+                "sha256": "f405daf8618e3d81c45bf4a050e792deddb91346990d0f534cbb378d5ac1514e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/97fd1806a8f27f90.webp",
+                "alt": "Datanoa Connection Manager with database engines, SSH tunnels, TLS/mTLS, folders, and auto-detect",
+                "sha256": "97fd1806a8f27f90e7011794a3b88df6c22690f12dc1d28dde79ad79cd0ad815",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/2b776aa1944459d0.webp",
+                "alt": "Datanoa visual table designer showing staged column edits, data types, foreign keys, indexes, and SQL migration preview",
+                "sha256": "2b776aa1944459d03c0d3ee362e346133ce32c3a344758ee23c334ba34118287",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/a71d12ac8c446710.webp",
+                "alt": "Datanoa Studio in light theme with compact table bar, grouped schema objects, pinned columns, and find highlighting",
+                "sha256": "a71d12ac8c446710864b4e4ca5521f54b6773955cbc6339483939b524f19bbef",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/4fc02e82118643d3.webp",
+                "alt": "Datanoa Side Panel with schema explorer tree, data grid with live aggregates, and quick SQL runner",
+                "sha256": "4fc02e82118643d3de4122798cd6ec54c1c1db4cb8c54b119d97da53b2e32aa8",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Thanhh2615/datanoa",
+          "updatedAt": "2026-11-22T13:13:03+07:00"
+        },
         {
           "version": "1.0.4",
           "commit": "0e38dc8c32f585e9628686c18cc0ae8f0629d57f",

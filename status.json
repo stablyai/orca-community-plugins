@@ -3380,19 +3380,10 @@
     },
     "thanhh2615/datanoa": {
       "state": "listed",
-      "ref": "refs/tags/thanhh2615/datanoa/1.0.4",
+      "ref": "v1.1.1",
       "plugins": [
         "thanhh2615.datanoa"
-      ],
-      "update": {
-        "ref": "v1.1.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
