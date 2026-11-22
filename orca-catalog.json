@@ -48754,8 +48754,8 @@
       "ownerId": 116317,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/spscream/orca-fairway/0.8.4"
+        "url": "https://github.com/spscream/orca-fairway.git",
+        "ref": "v0.8.7"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -48763,6 +48763,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.8.7",
+          "commit": "bc93f094d79658817a13981779424de61369843d",
+          "contentHash": "974034053513204e5a1e63255f8c711f4c7115ddc3e8c1126e937ee011cbf418",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-22T13:42:16-03:00"
+        },
         {
           "version": "0.8.4",
           "commit": "628d20d94382d565ce8a6c6a637777654ff256e9",
@@ -48910,43 +48947,6 @@
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway",
           "updatedAt": "2026-11-22T10:08:05-03:00"
-        },
-        {
-          "version": "0.6.1",
-          "commit": "fa16ad3d68d97036075cf97991074875247223d2",
-          "contentHash": "0231a9e90dc1961ddfe9936a0065630b539960d5d14f147a7de08983350f31c1",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "updatedAt": "2026-11-22T01:20:01-03:00",
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway"
         }
       ]
     },
