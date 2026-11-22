@@ -6911,8 +6911,8 @@
       "ownerId": 20485299,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BWrong/CodePulse.git",
-        "ref": "v1.1.7",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bwrong/codepulse/codepulse/1.1.7",
         "path": "orca"
       },
       "description": "在状态栏显示今日编码时长，面板里按项目查看编码时间分布与 AI 统计。",
@@ -8676,8 +8676,8 @@
       "ownerId": 81523172,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ch0rch/seodraft-orca.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ch0rch/seodraft-orca/0.1.1"
       },
       "description": "Run your seodraft content pipeline from Orca: pipeline, content map, evidence, profile, agent routines and a feed of what your agents do in seodraft.",
       "categories": [
@@ -47405,7 +47405,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.3.1"
+        "ref": "v0.4.2"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -47413,6 +47413,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.2",
+          "commit": "9b8a68e8af97ee53a0fa4fb6d49d3e30fadf4514",
+          "contentHash": "faa1063e293f5f87241e9c556c0f608420c228feded7f2ec6bd445346dcfeecb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/e3694645fc0e0b76.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "e3694645fc0e0b76d7674291687d8260d7c6191d50e087d35530f6be90549894",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-21T22:29:04-03:00"
+        },
         {
           "version": "0.3.1",
           "commit": "f4d953d01649f2a2d4a0ff09ca8bb291df8062d6",
