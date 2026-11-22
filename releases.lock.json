@@ -29,6 +29,12 @@
     "repoId": 1449267228,
     "firstSeen": "2026-11-16T21:13:46.802Z"
   },
+  "1am.agent-deck@0.3.2": {
+    "commit": "69cf8dfb507c73de59aa587ff6c69eba2e0dff4c",
+    "contentHash": "97f4d3004a6ae3dc654a507149c493103087c0e373b3d33497f406b61666400d",
+    "repoId": 1449267228,
+    "firstSeen": "2026-11-22T15:14:32.108Z"
+  },
   "2589195970.jumplens@0.3.2": {
     "commit": "4a04bb97038f9a2c433b4a2ca32fcc7950ee7782",
     "contentHash": "11fdf28da7d379b9bc32b5ba8935ca1430cebefe631c30165ec45d74549e4041",
@@ -5152,6 +5158,12 @@
     "contentHash": "c68b82a3a51a7509bf3a39da218dd42fb3a52102d0fcf128dc7017500d96b6ff",
     "repoId": 1467078314,
     "firstSeen": "2026-11-22T14:42:14.497Z"
+  },
+  "spscream.fairway@0.8.4": {
+    "commit": "628d20d94382d565ce8a6c6a637777654ff256e9",
+    "contentHash": "3a9a459dd89a047f57a482ac09a02bcda0fad790bbcbaad42a2338fe6bb439b1",
+    "repoId": 1467078314,
+    "firstSeen": "2026-11-22T15:14:32.108Z"
   },
   "structworks.richdown@0.13.0": {
     "commit": "75c151856c375264e77c3f9389a290c208a00e58",

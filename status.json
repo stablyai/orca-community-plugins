@@ -3,7 +3,7 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "refs/tags/1am/orca-agent-deck/0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "1am.agent-deck"
       ]
@@ -895,7 +895,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "v0.10.1",
+      "ref": "refs/tags/divlook/orca-sidenote/0.10.1",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -3289,7 +3289,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "v0.8.3",
+      "ref": "v0.8.4",
       "plugins": [
         "spscream.fairway"
       ]
@@ -3531,6 +3531,16 @@
         {
           "category": "validation",
           "detail": "engines.orca: must be at least >=1.4.246 when publisher is left out, because older Orca requires publisher"
+        }
+      ]
+    },
+    "truongthanhquan/orca-cloudflare-relay-plugin": {
+      "state": "rejected",
+      "ref": "v2.4.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -3949,11 +3959,11 @@
     },
     "yyq19990828/orchestration-panel": {
       "state": "rejected",
-      "ref": "v2.0.2",
+      "ref": "v2.0.3",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "code"
         }
       ]
     },

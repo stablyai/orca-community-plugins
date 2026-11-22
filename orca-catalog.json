@@ -9,8 +9,8 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/1am/orca-agent-deck/0.3.1"
+        "url": "https://github.com/1am/orca-agent-deck.git",
+        "ref": "v0.3.2"
       },
       "description": "See at a glance which Orca agent needs you. Each pane gets a Stream Deck key that shows its state and focuses the pane when pressed.",
       "categories": [
@@ -20,6 +20,88 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "69cf8dfb507c73de59aa587ff6c69eba2e0dff4c",
+          "contentHash": "97f4d3004a6ae3dc654a507149c493103087c0e373b3d33497f406b61666400d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Deck for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Deck"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Open panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Record events"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Deck: Uninstall"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+K",
+              "detail": "deck.map"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Agent Deck"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/1am.agent-deck/b07fbe48c19bafb5.png",
+              "alt": "A Stream Deck showing Orca agent panes as colored keys: working, done, idle and empty",
+              "sha256": "b07fbe48c19bafb54ee1a71075d662e54158f015e5c17501610c96a3f630e0cd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/1am.agent-deck/e9db045d1cf33093.png",
+              "alt": "Agent Deck for Orca icon",
+              "sha256": "e9db045d1cf330937b3774c86cc6af156744f7580dfe05305e8f261f77c4e416",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/1am.agent-deck/1e88ece0ccdbc3af.png",
+                "alt": "A 5x3 Stream Deck grid of Orca pane keys with status icons",
+                "sha256": "1e88ece0ccdbc3afe5f9fb72db863ec73165c5b178fdcd86ebf28e801c4ed6e5",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/1am.agent-deck/fee60629c40d439f.jpg",
+                "alt": "A Stream Deck in front of a laptop, its keys lit with agent status colors and one key counting 1 agent that needs you",
+                "sha256": "fee60629c40d439f2fb315ac3201c50a5b3ae3f19f4c8de4eabb9ad1dffb7494",
+                "width": 1920,
+                "height": 1656
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/1am/orca-agent-deck",
+          "updatedAt": "2026-11-22T15:53:39+01:00"
+        },
         {
           "version": "0.3.1",
           "commit": "514c60a75f9eb04310940d0a0e12bb903ceb95ef",
@@ -310,73 +392,6 @@
           "license": "MIT",
           "repository": "https://github.com/1am/orca-agent-deck",
           "updatedAt": "2026-11-11T07:02:27+01:00"
-        },
-        {
-          "version": "0.1.2",
-          "commit": "208668047b563821484dc57309e6bbd89d88339c",
-          "contentHash": "732c10824b585c9c5826f7e4d63a401c6d4b01c3228881094a958258c1a9031c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.245",
-          "name": "Orca Agent Deck",
-          "contributes": [
-            {
-              "kind": "commands",
-              "name": "Orca Agent Deck: Map pane to key"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca Agent Deck: Unmap pane"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca Agent Deck: Show status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            }
-          ],
-          "capabilities": [
-            "agent:read",
-            "workspace:read",
-            "storage:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/1am.agent-deck/b07fbe48c19bafb5.png",
-              "alt": "A Stream Deck showing Orca agent panes as colored keys: working, done, idle and empty",
-              "sha256": "b07fbe48c19bafb54ee1a71075d662e54158f015e5c17501610c96a3f630e0cd",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/1am.agent-deck/e9db045d1cf33093.png",
-              "alt": "Orca Agent Deck icon",
-              "sha256": "e9db045d1cf330937b3774c86cc6af156744f7580dfe05305e8f261f77c4e416",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/1am.agent-deck/1e88ece0ccdbc3af.png",
-                "alt": "A 5x3 Stream Deck grid of Orca pane keys with status icons",
-                "sha256": "1e88ece0ccdbc3afe5f9fb72db863ec73165c5b178fdcd86ebf28e801c4ed6e5",
-                "width": 1920,
-                "height": 1200
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/1am/orca-agent-deck",
-          "updatedAt": "2026-11-08T18:33:12+01:00"
         }
       ]
     },
@@ -13301,8 +13316,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.10.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.10.1"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -48545,7 +48560,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.8.3"
+        "ref": "v0.8.4"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -48553,6 +48568,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.8.4",
+          "commit": "628d20d94382d565ce8a6c6a637777654ff256e9",
+          "contentHash": "3a9a459dd89a047f57a482ac09a02bcda0fad790bbcbaad42a2338fe6bb439b1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-22T11:43:46-03:00"
+        },
         {
           "version": "0.8.3",
           "commit": "1a89107575d761290fc64f398532208af430932b",
@@ -48700,43 +48752,6 @@
           "updatedAt": "2026-11-22T01:20:01-03:00",
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway"
-        },
-        {
-          "version": "0.5.3",
-          "commit": "e2250d45657ffdf85fb27910d78c7618a66bc335",
-          "contentHash": "856f66a6c60f1335f74ddf04994b35a8f8ef733f83916a4de292f9ada61d7434",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway",
-          "updatedAt": "2026-11-22T00:11:42-03:00"
         }
       ]
     },
