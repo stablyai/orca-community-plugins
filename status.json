@@ -265,7 +265,7 @@
     },
     "aoyamashou/workflowy-in-orca": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/aoyamashou/workflowy-in-orca/0.1.2",
       "plugins": [
         "aoyamashou.workflowy-sidebar"
       ]
@@ -1360,26 +1360,16 @@
         "glaicer.sidebar-player"
       ]
     },
-    "gokul-kulkarni/narada": {
-      "state": "rejected",
-      "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "no-manifest",
-          "detail": "no orca-plugin.json at the root; orca-catalog.json lists no plugin folder of gokul-kulkarni/narada that holds an orca-plugin.json (set each entry's source.url to this repository and source.path to its folder)"
-        }
-      ]
-    },
     "gokul-kulkarni/narada-orca": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/gokul-kulkarni/narada-orca/0.1.2",
       "plugins": [
         "gokul-kulkarni.narada"
       ]
     },
     "gokul-kulkarni/objectlens": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/gokul-kulkarni/objectlens/0.1.2",
       "plugins": [
         "gokul-kulkarni.objectlens"
       ]
@@ -2763,7 +2753,7 @@
     },
     "realcat1st/orca-plugin-rojo-studio": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/realcat1st/orca-plugin-rojo-studio/0.1.0",
       "plugins": [
         "realcat1st.rojo-studio"
       ]

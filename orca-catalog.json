@@ -4067,8 +4067,8 @@
       "ownerId": 88479502,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aoyamashou/workflowy-in-orca.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aoyamashou/workflowy-in-orca/0.1.2"
       },
       "description": "Browse and edit your Workflowy outline in the Orca sidebar.",
       "categories": [
@@ -20986,8 +20986,8 @@
       "ownerId": 6063899,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gokul-kulkarni/narada-orca.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gokul-kulkarni/narada-orca/0.1.2"
       },
       "description": "Send your saved Narada and Postman collection requests from Orca's sidebar: pick a request and an environment, adjust it, and read the response.",
       "categories": [
@@ -21052,8 +21052,8 @@
       "ownerId": 6063899,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gokul-kulkarni/objectlens.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gokul-kulkarni/objectlens/0.1.2"
       },
       "description": "Explore JSON, YAML and Python repr() files as a searchable tree or graph, beside Source.",
       "categories": [],
@@ -40656,8 +40656,8 @@
       "ownerId": 260922535,
       "source": {
         "kind": "git",
-        "url": "https://github.com/RealCat1st/orca-plugin-rojo-studio.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/realcat1st/orca-plugin-rojo-studio/0.1.0"
       },
       "description": "Rojo for Roblox in Orca: install Rojo, start and stop rojo serve with live logs and a connected-Studio indicator, build .rbxl/.rbxm files, generate sourcemaps for luau-lsp, create projects and see the instance tree your project file maps. Unofficial; not affiliated with Rojo or Roblox.",
       "categories": [
