@@ -29553,9 +29553,9 @@
               "name": "ru-RU"
             }
           ],
-          "updatedAt": "2026-11-22T07:01:08+03:00",
           "license": "MIT",
-          "repository": "https://github.com/kvdecvlt/orca-russian-language"
+          "repository": "https://github.com/kvdecvlt/orca-russian-language",
+          "updatedAt": "2026-11-22T07:01:08+03:00"
         }
       ]
     },
@@ -48596,9 +48596,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-23T00:00:44+07:00",
           "license": "MIT",
-          "repository": "https://github.com/sonthh/orca-pitwall"
+          "repository": "https://github.com/sonthh/orca-pitwall",
+          "updatedAt": "2026-11-23T00:00:44+07:00"
         },
         {
           "version": "0.2.0",
@@ -50363,14 +50363,39 @@
       "ownerId": 176725071,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tauri-epo/pstack-orca/0.1.1"
+        "url": "https://github.com/Tauri-EPO/pstack-orca.git",
+        "ref": "v0.2.0"
       },
-      "description": "Community port of pstack, Lauren Tan's skill pack for rigorous agent work. Installs the skills for Claude Code, Codex, Antigravity, Cursor and Grok, and routes delegated work to Orca workers.",
+      "description": "Community port of pstack, Lauren Tan's skill pack for rigorous agent work, with five skills by Matt Pocock. Installs the skills for Claude Code, Codex, Antigravity, Cursor and Grok, and routes delegated work to Orca workers.",
       "categories": [
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "6c0744f16035db92d3687582170cbce7e7fdbace",
+          "contentHash": "a282bd9656db646c7f435ef81139b041699ec589e4b3d0af3f5d66a5d38fd094",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "pstack skills (community port)",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "pstack: Install or update skills for my agents"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack: Show where skills are installed"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack: Remove skills from my agents"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Tauri-EPO/pstack-orca",
+          "updatedAt": "2026-11-22T17:07:59-03:00"
+        },
         {
           "version": "0.1.1",
           "commit": "091c3894b633caa6141f29ffa451cd012db1da6f",

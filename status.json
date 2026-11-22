@@ -130,9 +130,15 @@
       "plugins": [
         "alexander-64.agent-pipeline"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.1.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "alexesprit/orca-clock": {
       "state": "listed",
@@ -1930,6 +1936,9 @@
       "ref": "refs/tags/kvdecvlt/orca-russian-language/1.3.2",
       "plugins": [
         "kvdecvlt.russian-language"
+      ],
+      "notes": [
+        "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): 23 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ky1ezer0/orca-git-graph": {
@@ -3253,8 +3262,7 @@
       "ref": "v1.4.246",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"ru\" (locales/ru.json): translation at auto.components.settings.GeneralUpdateSettingsSection.8311da27ba exceeds 64 characters (4x its English text, at least 64)"
+          "category": "manifest-format"
         },
         {
           "category": "licence",
@@ -3414,7 +3422,7 @@
     },
     "tauri-epo/pstack-orca": {
       "state": "listed",
-      "ref": "refs/tags/tauri-epo/pstack-orca/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "tauri-epo.pstack-orca"
       ]
