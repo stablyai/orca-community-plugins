@@ -7373,6 +7373,59 @@
       ]
     },
     {
+      "id": "bzenky.yotei-theme",
+      "ownerId": 40207162,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/bzenky/yotei-orca.git",
+        "ref": "v1.3.0"
+      },
+      "description": "Dark theme inspired by a purple/red sky at dawn. Yotei, Yotei Midnight and Yotei Dawn, with matching syntax and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "305e1e9dc8333788765713faaa73742addbd6ea8",
+          "contentHash": "579cd6caabb2f00031222bec537c290120d91844604e0374584747e4d2faf41c",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Yotei",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Yotei"
+            },
+            {
+              "kind": "themes",
+              "name": "Yotei Midnight"
+            },
+            {
+              "kind": "themes",
+              "name": "Yotei Dawn"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Yotei"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Yotei Midnight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Yotei Dawn"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/bzenky/yotei-orca",
+          "updatedAt": "2026-11-22T16:00:50-03:00"
+        }
+      ]
+    },
+    {
       "id": "callumjmac.talkback",
       "ownerId": 76535646,
       "source": {
@@ -15190,8 +15243,8 @@
       "ownerId": 933312,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dom8509/pi-workflow-status.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dom8509/pi-workflow-status/0.2.0"
       },
       "description": "See which Pi workflow and stage every agent in Orca is in: an Activity list of all agents with workflow chips, and the selected agent's pipeline with done, current and pending stages.",
       "categories": [
@@ -50310,8 +50363,8 @@
       "ownerId": 176725071,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Tauri-EPO/pstack-orca.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tauri-epo/pstack-orca/0.1.1"
       },
       "description": "Community port of pstack, Lauren Tan's skill pack for rigorous agent work. Installs the skills for Claude Code, Codex, Antigravity, Cursor and Grok, and routes delegated work to Orca workers.",
       "categories": [
