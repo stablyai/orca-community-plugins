@@ -49627,8 +49627,8 @@
       "ownerId": 93583813,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Thanhh2615/datanoa.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thanhh2615/datanoa/1.1.1"
       },
       "description": "Database client and SQL studio for Orca. Browse schemas, edit and import data, design tables, and run SQL or Redis queries over SSH and TLS across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, LibSQL/Turso, Cloudflare D1, SQL Server (MSSQL), Oracle, and MongoDB.",
       "categories": [
