@@ -7974,8 +7974,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.3.2"
+        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
+        "ref": "v0.3.3"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -7985,6 +7985,112 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.3",
+          "commit": "de04939b5cffb6bdf5b08acd2cd6766b54af303c",
+          "contentHash": "9ab686fca78e1a4a0edf2b03ad0656d3f7c1b52893a51610bac3c25764fcdc36",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Task Bridge (Linear, Jira & Notion)",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Sync Tickets (Linear, Jira & Notion)"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Move Active Workspace Ticket to In Review"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+Y",
+              "detail": "taskBridge.sync"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "No linked ticket"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/carlosmanueldiaz.task-bridge/3e703120b25c60c7.png",
+              "alt": "Task Bridge — Linear, Jira, and Notion to Orca worktrees with CLAUDE.md guidelines, Plan-First Lock, Fleet monitoring, and comment feedback.",
+              "sha256": "3e703120b25c60c7e4267eec9f91376b089c34481a83c9b81846b2e3d05bd88b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/carlosmanueldiaz.task-bridge/06ec5f4d32af93e4.png",
+              "alt": "Task Bridge (Linear, Jira & Notion) icon",
+              "sha256": "06ec5f4d32af93e449cf18eb053a6440e424b163fbee980a42674f7b5d169396",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/cdca6c085e37561a.png",
+                "alt": "In-Flight Fleet monitoring, CLAUDE.md guidelines, custom branch profiles, Plan-First Execution Gate, and comment feedback loop in dark mode.",
+                "sha256": "cdca6c085e37561a93a89cc6e3e2c6c3f2cdadbd11f5f17569dd4605a213a6f4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/a61ff877500c5fef.png",
+                "alt": "English DEMO queue and workbench view in dark mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "a61ff877500c5feff045bd787d93799a1e4bb766cb0dacfe0b9a733cdd646fac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/2ce54c8c5c502006.png",
+                "alt": "Task Bridge Add & Connect provider setup, multi-repo prefix routing, Verify AC, Done/In Review transitions, and Fleet Clear Finished / Remove cleanup.",
+                "sha256": "2ce54c8c5c50200642559e9c09c2100917a346e2e6de601e0a14e77d8bcc57f8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/ff262d219a23b11b.png",
+                "alt": "English DEMO queue and workbench view in light mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "ff262d219a23b11b98a612bf35e07a45a820882aaf53bd8d4609322b34e4de63",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/CarlosManuelDiaz/task-bridge",
+          "updatedAt": "2026-11-22T23:59:05+01:00"
+        },
         {
           "version": "0.3.2",
           "commit": "c89b80cebded0c605a3904a10629a8cad827a4bb",
@@ -8408,112 +8514,6 @@
           "license": "MIT",
           "repository": "https://github.com/CarlosManuelDiaz/task-bridge",
           "updatedAt": "2026-11-15T15:25:51+01:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "01a72adc53178c11ce7dd7968269c7d3efeda0f1",
-          "contentHash": "75b2cf28522535603eec93a8e3cb8524a445f794f238dcc0dc6cebc707cf35fa",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Task Bridge (Linear, Jira & Notion)",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Task Bridge"
-            },
-            {
-              "kind": "commands",
-              "name": "Task Bridge: Sync Tickets (Linear, Jira & Notion)"
-            },
-            {
-              "kind": "commands",
-              "name": "Task Bridge: Move Active Workspace Ticket to In Review"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.prompt.before"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.tool.before"
-            },
-            {
-              "kind": "keybindings",
-              "name": "Mod+Shift+Y",
-              "detail": "taskBridge.sync"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "No linked ticket"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "agent:launch",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/carlosmanueldiaz.task-bridge/3e703120b25c60c7.png",
-              "alt": "Task Bridge — Linear, Jira, and Notion to Orca worktrees with CLAUDE.md guidelines, Plan-First Lock, Fleet monitoring, and comment feedback.",
-              "sha256": "3e703120b25c60c7e4267eec9f91376b089c34481a83c9b81846b2e3d05bd88b",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/carlosmanueldiaz.task-bridge/06ec5f4d32af93e4.png",
-              "alt": "Task Bridge (Linear, Jira & Notion) icon",
-              "sha256": "06ec5f4d32af93e449cf18eb053a6440e424b163fbee980a42674f7b5d169396",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/carlosmanueldiaz.task-bridge/cdca6c085e37561a.png",
-                "alt": "In-Flight Fleet monitoring, CLAUDE.md guidelines, custom branch profiles, Plan-First Execution Gate, and comment feedback loop in dark mode.",
-                "sha256": "cdca6c085e37561a93a89cc6e3e2c6c3f2cdadbd11f5f17569dd4605a213a6f4",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/carlosmanueldiaz.task-bridge/a61ff877500c5fef.png",
-                "alt": "English DEMO queue and workbench view in dark mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
-                "sha256": "a61ff877500c5feff045bd787d93799a1e4bb766cb0dacfe0b9a733cdd646fac",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/carlosmanueldiaz.task-bridge/2ce54c8c5c502006.png",
-                "alt": "Task Bridge Add & Connect provider setup, multi-repo prefix routing, Verify AC, Done/In Review transitions, and Fleet Clear Finished / Remove cleanup.",
-                "sha256": "2ce54c8c5c50200642559e9c09c2100917a346e2e6de601e0a14e77d8bcc57f8",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/carlosmanueldiaz.task-bridge/ff262d219a23b11b.png",
-                "alt": "English DEMO queue and workbench view in light mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
-                "sha256": "ff262d219a23b11b98a612bf35e07a45a820882aaf53bd8d4609322b34e4de63",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/CarlosManuelDiaz/task-bridge",
-          "updatedAt": "2026-11-15T00:15:29+01:00"
         }
       ]
     },
