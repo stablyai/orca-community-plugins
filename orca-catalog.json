@@ -13301,8 +13301,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.10.0"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.10.1"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -13310,6 +13310,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.10.1",
+          "commit": "216e4193dc5b5da6c683907fcff1621794bf8689",
+          "contentHash": "e508e557e296abe48cc169dfb89634462271606bf9dee1d9fa05a3db8911f2fb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.267",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-22T23:15:44+09:00"
+        },
         {
           "version": "0.10.0",
           "commit": "16394c9af822c457ca5057b3d79cec7004d95534",
@@ -13541,64 +13599,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-17T01:20:11+09:00"
-        },
-        {
-          "version": "0.8.3",
-          "commit": "732b6ee850ecd90715ba2f946e89b7c2d92841f8",
-          "contentHash": "6fef1436c97d997fc070ffea5bc49039d3a3aa17dfc6c43ad972118332fcc2f4",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
-              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
-              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
-                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
-                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
-                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
-                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
-                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
-                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-16T22:08:23+09:00"
         }
       ]
     },
@@ -48545,7 +48545,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.8.0"
+        "ref": "v0.8.3"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -48553,6 +48553,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.8.3",
+          "commit": "1a89107575d761290fc64f398532208af430932b",
+          "contentHash": "c68b82a3a51a7509bf3a39da218dd42fb3a52102d0fcf128dc7017500d96b6ff",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "updatedAt": "2026-11-22T11:05:47-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway"
+        },
         {
           "version": "0.8.0",
           "commit": "078774cc5a7826ff8e590f365165670a74efe7e6",
@@ -48700,43 +48737,6 @@
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway",
           "updatedAt": "2026-11-22T00:11:42-03:00"
-        },
-        {
-          "version": "0.5.1",
-          "commit": "f32d49b5bf9dc543a64fd31e4fb82ab7becf3b28",
-          "contentHash": "cc208d74e2a11be9a9c11ef3a98251cf1bd4e69295135e5c35e516cf505eae29",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway",
-          "updatedAt": "2026-11-21T23:30:13-03:00"
         }
       ]
     },
