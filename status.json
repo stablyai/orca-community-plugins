@@ -89,7 +89,7 @@
         "aetna000.atmem-architect"
       ],
       "update": {
-        "ref": "v0.2.3",
+        "ref": "v0.2.4",
         "reasons": [
           {
             "category": "under-review",
@@ -1030,7 +1030,7 @@
     },
     "erom/orca-plugin-agent-network": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/erom/orca-plugin-agent-network/0.3.0",
       "plugins": [
         "erom.agent-network"
       ]
@@ -2397,6 +2397,16 @@
         "namnameeroo.claude-pinboard"
       ]
     },
+    "naqswell/orca-threadbrief": {
+      "state": "rejected",
+      "ref": "v0.2.3",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "narimanisakhanov-creator/orca-xlsx-editor": {
       "state": "listed",
       "ref": "refs/tags/narimanisakhanov-creator/orca-xlsx-editor/1.1.5",
@@ -3592,7 +3602,7 @@
     },
     "vann-dev/orca-indonesian-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.1.0",
       "plugins": [
         "vann-dev.indonesian"
       ]
