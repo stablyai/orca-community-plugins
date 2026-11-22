@@ -1607,6 +1607,12 @@
     "repoId": 1467774524,
     "firstSeen": "2026-11-22T18:18:02.808Z"
   },
+  "dom8509.pi-workflow-status@0.2.0": {
+    "commit": "b6db8894338b77c1615314594d9d6f7ca2866f88",
+    "contentHash": "41b919719880de60672b77dca3d746a2ec76854189066c8d29f75e895ca6f058",
+    "repoId": 1467774524,
+    "firstSeen": "2026-11-22T18:42:33.872Z"
+  },
   "donghyun-git.petting-friends@0.1.0": {
     "commit": "47cba0b35f5e8457081212de1e2e1bdb5b36de6a",
     "contentHash": "5f9490198262ab07631b06193b9a219c0f53edf07b3d2fbad04ed8dcf2ccb16d",
@@ -5326,6 +5332,12 @@
     "contentHash": "8a8fb8b7ce97e7624cda7c05411df80bcfdeb7c15010a6729480bed0e002ed56",
     "repoId": 1457071871,
     "firstSeen": "2026-11-17T20:54:18.281Z"
+  },
+  "tauri-epo.pstack-orca@0.1.1": {
+    "commit": "091c3894b633caa6141f29ffa451cd012db1da6f",
+    "contentHash": "683e71d7e49433c928289df756988deddd287c03157b351519a59e3aa94f87b6",
+    "repoId": 1467818076,
+    "firstSeen": "2026-11-22T18:42:33.872Z"
   },
   "tazaq.jb-containers@0.7.6": {
     "commit": "381bd2b5253c26a59131c13a87691acc16c74f62",

@@ -15191,13 +15191,69 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dom8509/pi-workflow-status.git",
-        "ref": "v0.1.0"
+        "ref": "v0.2.0"
       },
       "description": "See which Pi workflow and stage every agent in Orca is in: an Activity list of all agents with workflow chips, and the selected agent's pipeline with done, current and pending stages.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "b6db8894338b77c1615314594d9d6f7ca2866f88",
+          "contentHash": "41b919719880de60672b77dca3d746a2ec76854189066c8d29f75e895ca6f058",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PI Workflow Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PI Workflow Status"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "settings:own",
+            "history:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dom8509.pi-workflow-status/71e4c50fd4160e16.png",
+              "alt": "PI Workflow Status: an Activity list of agents with workflow chips above the pipeline of the selected agent, in a light and a dark theme",
+              "sha256": "71e4c50fd4160e1630ba4220702fd7c003ad5b4dd3030a45bab5de2954265d57",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dom8509.pi-workflow-status/2e91ef37e3758a86.png",
+              "alt": "PI Workflow Status icon",
+              "sha256": "2e91ef37e3758a869072a326d9365748892e4210829769e281367ca3c649e7f1",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/dom8509.pi-workflow-status/709d6b02762788b0.png",
+                "alt": "Two panels in the light theme: one shows a Coding workflow in its implement stage, the other a Package workflow in verify with a nested ResultCheck",
+                "sha256": "709d6b02762788b04abbfe5238b5feda87052d3b3fee0c6c695d2ba1ab9e4d80",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dom8509.pi-workflow-status/a65c280497de4bf6.png",
+                "alt": "The same two panels in the dark theme",
+                "sha256": "a65c280497de4bf6dffac451cf83526688c139fb5405a4e7f8161e8aced8a312",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dom8509/pi-workflow-status",
+          "updatedAt": "2026-11-22T19:27:46+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "8d22cc236e70a53b841c2e0bc0b1778cbe8c2869",
@@ -50246,6 +50302,46 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/Tagliatti/orca-openapi",
           "updatedAt": "2026-11-13T17:47:19-03:00"
+        }
+      ]
+    },
+    {
+      "id": "tauri-epo.pstack-orca",
+      "ownerId": 176725071,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Tauri-EPO/pstack-orca.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Community port of pstack, Lauren Tan's skill pack for rigorous agent work. Installs the skills for Claude Code, Codex, Antigravity, Cursor and Grok, and routes delegated work to Orca workers.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "091c3894b633caa6141f29ffa451cd012db1da6f",
+          "contentHash": "683e71d7e49433c928289df756988deddd287c03157b351519a59e3aa94f87b6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "pstack skills (community port)",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "pstack: Install or update skills for my agents"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack: Show where skills are installed"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack: Remove skills from my agents"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Tauri-EPO/pstack-orca",
+          "updatedAt": "2026-11-22T15:37:21-03:00"
         }
       ]
     },
