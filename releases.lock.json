@@ -791,6 +791,12 @@
     "repoId": 1467889412,
     "firstSeen": "2026-11-22T19:13:47.671Z"
   },
+  "bzenky.yotei-theme@1.3.1": {
+    "commit": "884146b477690d33fb9c3a88932fed231bd9bc10",
+    "contentHash": "1bbbfeda2078e6a6b502f82ad6afcceb46944207e9eda123b018926198dd1ada",
+    "repoId": 1467889412,
+    "firstSeen": "2026-11-22T21:14:05.662Z"
+  },
   "callumjmac.talkback@0.1.0": {
     "commit": "220822a037f421108b5b4a2672a0794ccd1ce069",
     "contentHash": "d8d973198e51b5a9b2f8ac3cc0ce605aa0292ae4df6727d79aac45f45dfb4e55",
@@ -5350,6 +5356,12 @@
     "contentHash": "a282bd9656db646c7f435ef81139b041699ec589e4b3d0af3f5d66a5d38fd094",
     "repoId": 1467818076,
     "firstSeen": "2026-11-22T20:16:22.718Z"
+  },
+  "tauri-epo.pstack-orca@0.2.1": {
+    "commit": "5b489cb99226b5933cd604a46427360cf9d8c169",
+    "contentHash": "4e686911b43644e066953504c11f34c9fabf07bc1310d5986edaf6a89a999749",
+    "repoId": 1467818076,
+    "firstSeen": "2026-11-22T21:14:05.662Z"
   },
   "tazaq.jb-containers@0.7.6": {
     "commit": "381bd2b5253c26a59131c13a87691acc16c74f62",

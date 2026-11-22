@@ -131,7 +131,7 @@
         "alexander-64.agent-pipeline"
       ],
       "update": {
-        "ref": "v0.1.2",
+        "ref": "v0.1.3",
         "reasons": [
           {
             "category": "under-review",
@@ -495,7 +495,7 @@
     },
     "bzenky/yotei-orca": {
       "state": "listed",
-      "ref": "refs/tags/bzenky/yotei-orca/1.3.0",
+      "ref": "v1.3.1",
       "plugins": [
         "bzenky.yotei-theme"
       ]
@@ -1766,6 +1766,23 @@
       "ref": "refs/tags/jecyxyf/orca-tps-plugin/1.6.4",
       "plugins": [
         "jecyxyf.tps-stats"
+      ]
+    },
+    "jejacks0n/orca-persona-studio": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [],
+      "plugins": [
+        {
+          "path": "plugin",
+          "id": "persona-studio",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "code"
+            }
+          ]
+        }
       ]
     },
     "jeong-jae-hun/orca-ping-public": {
@@ -3422,7 +3439,7 @@
     },
     "tauri-epo/pstack-orca": {
       "state": "listed",
-      "ref": "refs/tags/tauri-epo/pstack-orca/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "tauri-epo.pstack-orca"
       ]

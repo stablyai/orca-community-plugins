@@ -7377,8 +7377,8 @@
       "ownerId": 40207162,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bzenky/yotei-orca/1.3.0"
+        "url": "https://github.com/bzenky/yotei-orca.git",
+        "ref": "v1.3.1"
       },
       "description": "Dark theme inspired by a purple/red sky at dawn. Yotei, Yotei Midnight and Yotei Dawn, with matching syntax and terminal colors.",
       "categories": [
@@ -7386,6 +7386,59 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.3.1",
+          "commit": "884146b477690d33fb9c3a88932fed231bd9bc10",
+          "contentHash": "1bbbfeda2078e6a6b502f82ad6afcceb46944207e9eda123b018926198dd1ada",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Yotei",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Yotei"
+            },
+            {
+              "kind": "themes",
+              "name": "Yotei Midnight"
+            },
+            {
+              "kind": "themes",
+              "name": "Yotei Dawn"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Yotei"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Yotei Midnight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Yotei Dawn"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bzenky.yotei-theme/9d50f6607d859863.png",
+              "alt": "Yotei, Yotei Midnight and Yotei Dawn in an editor with a terminal",
+              "sha256": "9d50f6607d859863ea0f0ec9891e295c3bdd234a997171aecbb3bb7cb5562cef",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bzenky.yotei-theme/ce327b8cf6040796.png",
+              "alt": "Yotei icon",
+              "sha256": "ce327b8cf60407966eb024c56345538204f1ac566de46ce265b8a715f9ed1420",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/bzenky/yotei-orca",
+          "updatedAt": "2026-11-22T17:50:10-03:00"
+        },
         {
           "version": "1.3.0",
           "commit": "305e1e9dc8333788765713faaa73742addbd6ea8",
@@ -50363,14 +50416,39 @@
       "ownerId": 176725071,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tauri-epo/pstack-orca/0.2.0"
+        "url": "https://github.com/Tauri-EPO/pstack-orca.git",
+        "ref": "v0.2.1"
       },
       "description": "Community port of pstack, Lauren Tan's skill pack for rigorous agent work, with five skills by Matt Pocock. Installs the skills for Claude Code, Codex, Antigravity, Cursor and Grok, and routes delegated work to Orca workers.",
       "categories": [
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "5b489cb99226b5933cd604a46427360cf9d8c169",
+          "contentHash": "4e686911b43644e066953504c11f34c9fabf07bc1310d5986edaf6a89a999749",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "pstack skills (community port)",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "pstack: Install or update skills for my agents"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack: Show where skills are installed"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack: Remove skills from my agents"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Tauri-EPO/pstack-orca",
+          "updatedAt": "2026-11-22T17:52:04-03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "6c0744f16035db92d3687582170cbce7e7fdbace",
