@@ -2940,8 +2940,8 @@
       "ownerId": 85191316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/alvarovegaromero/orca-jinja-palettes.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alvarovegaromero/orca-jinja-palettes/1.0.1"
       },
       "description": "Six classic color palettes (One Dark, Dracula, Monokai, Nord, GitHub Light, Solarized Light) tuned so Jinja delimiters, tags, variables and filters each stand out. Use one as the whole app theme or only as the editor theme. Pairs with Jinja Syntax.",
       "categories": [
@@ -20942,6 +20942,119 @@
           "license": "MIT",
           "repository": "https://github.com/Glaicer/orca-sidebar-player",
           "updatedAt": "2026-11-15T12:30:23+07:00"
+        }
+      ]
+    },
+    {
+      "id": "gokul-kulkarni.narada",
+      "ownerId": 6063899,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gokul-kulkarni/narada-orca.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Send your saved Narada and Postman collection requests from Orca's sidebar: pick a request and an environment, adjust it, and read the response.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "a2d68999f6072ac4b1c9831c4103eb32545ddbe5",
+          "contentHash": "97fe453f08978dad7b9bce806955977930a1fea44b3f72656783ef95e3f03f49",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Narada",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Narada"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/gokul-kulkarni/narada-orca",
+          "updatedAt": "2026-11-22T19:08:43+05:30"
+        }
+      ]
+    },
+    {
+      "id": "gokul-kulkarni.objectlens",
+      "ownerId": 6063899,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gokul-kulkarni/objectlens.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Explore JSON, YAML and Python repr() files as a searchable tree or graph, beside Source.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "1b88e2a0d7bd2a42da795b3a08a86b256351b895",
+          "contentHash": "9def832af4ad3759da851064d5a38333648b00618d09aebf6f3a5efda04cc8f2",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "ObjectLens",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "ObjectLens",
+              "detail": ".json, .yaml, .yml, .repr, .pyrepr, .objectlens.json"
+            }
+          ],
+          "fileTypes": [
+            "json",
+            "yaml",
+            "yml",
+            "repr",
+            "pyrepr"
+          ],
+          "editorFileTypes": [
+            "json",
+            "yaml",
+            "yml",
+            "repr",
+            "pyrepr"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gokul-kulkarni.objectlens/1dfc9b2c9a6cf037.png",
+              "alt": "ObjectLens showing a four-document YAML file as a tree, with keys, typed values and a cycle marker",
+              "sha256": "1dfc9b2c9a6cf0379bf84afeb5bbb940a1152fa01dcdce4d09067ef563e192c8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gokul-kulkarni.objectlens/cd21c553d839d7f7.png",
+              "alt": "ObjectLens icon",
+              "sha256": "cd21c553d839d7f7f2afc9d15f4dae05302e373765f6d20224dd329c2fa7cbde",
+              "width": 192,
+              "height": 192
+            },
+            "screenshots": [
+              {
+                "path": "assets/gokul-kulkarni.objectlens/d6fd248d9d127526.png",
+                "alt": "A Python object snapshot as a tree, with a shared reference, a cycle, big integers and special floats",
+                "sha256": "d6fd248d9d1275260facdf5f9456acaf4d1572a3fab1ab79133d873b8a16027a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gokul-kulkarni.objectlens/20a9db5f1957e27e.png",
+                "alt": "A YAML stream of a CI workflow, a compose file and a Kubernetes manifest as one tree",
+                "sha256": "20a9db5f1957e27e6bda79833d5ce8c426293d6cf01b3f74b1a9fc35732ee47c",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gokul-kulkarni/objectlens",
+          "updatedAt": "2026-11-22T19:06:03+05:30"
         }
       ]
     },
@@ -48432,7 +48545,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.7.0"
+        "ref": "v0.8.0"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -48440,6 +48553,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.8.0",
+          "commit": "078774cc5a7826ff8e590f365165670a74efe7e6",
+          "contentHash": "40c7cb561013b1fe0a268e19f3fe86b7d97a0c7b5fbb646193866814a853d50e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-22T10:37:49-03:00"
+        },
         {
           "version": "0.7.0",
           "commit": "6b1fd44daeb82cf7451147f14220fa983092f906",
@@ -48587,43 +48737,6 @@
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway",
           "updatedAt": "2026-11-21T23:30:13-03:00"
-        },
-        {
-          "version": "0.5.0",
-          "commit": "fec534d627193543c50d5f130a795aad7b6dd266",
-          "contentHash": "53b343c058183a670ad261050fad979ae66d5e0611bc815a9b424f5ab46b9f03",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway",
-          "updatedAt": "2026-11-21T23:21:25-03:00"
         }
       ]
     },
