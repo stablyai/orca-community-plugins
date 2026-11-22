@@ -816,7 +816,7 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "ddochi-nyang.bot-world"
       ]
@@ -1215,7 +1215,7 @@
     },
     "fang2hou/orca-gruvbox-material-mix-theme": {
       "state": "listed",
-      "ref": "refs/tags/fang2hou/orca-gruvbox-material-mix-theme/2.2.0",
+      "ref": "v2.3.0",
       "plugins": [
         "fang2hou.gruvbox-material-mix-theme"
       ],
@@ -1438,7 +1438,16 @@
       "ref": "refs/tags/hasanalituran/orca-auto-dark-mode-windows/0.1.2",
       "plugins": [
         "hasanalituran.toggle-light-dark-theme"
-      ]
+      ],
+      "update": {
+        "ref": "v0.1.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "heath0xff/stillwater": {
       "state": "listed",
@@ -1518,7 +1527,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v2.3.2",
+      "ref": "refs/tags/icaceresc/b-side/2.3.2",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -3191,7 +3200,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "v0.5.1",
+      "ref": "v0.5.3",
       "plugins": [
         "spscream.fairway"
       ]
