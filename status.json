@@ -1362,14 +1362,14 @@
     },
     "gokul-kulkarni/narada-orca": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/gokul-kulkarni/narada-orca/0.1.1",
       "plugins": [
         "gokul-kulkarni.narada"
       ]
     },
     "gokul-kulkarni/objectlens": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/gokul-kulkarni/objectlens/0.1.1",
       "plugins": [
         "gokul-kulkarni.objectlens"
       ]
@@ -3239,6 +3239,16 @@
         "sofiacnm.inside-the-black-box"
       ]
     },
+    "sokpisethnhoeun/orca-plugin-agent-flow": {
+      "state": "rejected",
+      "ref": "v0.1.3",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
+      ]
+    },
     "songhoang2000hn/orca-git-graph": {
       "state": "rejected",
       "ref": null,
@@ -3282,7 +3292,16 @@
       "ref": "v0.8.0",
       "plugins": [
         "spscream.fairway"
-      ]
+      ],
+      "update": {
+        "ref": "v0.8.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "stnslvsvnv/orca-computer-use-neon-glow": {
       "state": "rejected",
