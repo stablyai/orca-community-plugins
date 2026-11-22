@@ -173,6 +173,16 @@
         "alterdianne.inspo-board"
       ]
     },
+    "alvarovegaromero/orca-jinja-syntax": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "no catalog release entry: committed plugin is not installable (a catalog would list it differently: the listed contributions do not match the catalog release)"
+        }
+      ]
+    },
     "amethystliang/orca-plugin": {
       "state": "listed",
       "ref": "refs/tags/amethystliang/orca-plugin/1.0.0",
@@ -302,7 +312,16 @@
       "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.6",
       "plugins": [
         "aywengo.omlx"
-      ]
+      ],
+      "update": {
+        "ref": "v1.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "bahachammakhi/kube-panel": {
       "state": "listed",
