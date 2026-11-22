@@ -126,19 +126,13 @@
     },
     "alexander-64/orca-pipeline": {
       "state": "listed",
-      "ref": "refs/tags/alexander-64/orca-pipeline/0.1.0",
+      "ref": "v0.1.3",
       "plugins": [
         "alexander-64.agent-pipeline"
       ],
-      "update": {
-        "ref": "v0.1.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      "notes": [
+        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
+      ]
     },
     "alexesprit/orca-clock": {
       "state": "listed",
@@ -495,7 +489,7 @@
     },
     "bzenky/yotei-orca": {
       "state": "listed",
-      "ref": "v1.3.1",
+      "ref": "refs/tags/bzenky/yotei-orca/1.3.1",
       "plugins": [
         "bzenky.yotei-theme"
       ]
@@ -549,12 +543,9 @@
     },
     "carlosmanueldiaz/task-bridge": {
       "state": "listed",
-      "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "carlosmanueldiaz.task-bridge"
-      ],
-      "notes": [
-        "engines.orca: must be at least >=1.4.256, because src/worker.ts calls host method \"workspace.rename\", which needs Orca 1.4.256; or guard the call with orca.host.has('workspace.rename')"
       ]
     },
     "cattfan/orca-enhance-prompt": {
@@ -3439,7 +3430,7 @@
     },
     "tauri-epo/pstack-orca": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "v0.2.3",
       "plugins": [
         "tauri-epo.pstack-orca"
       ]

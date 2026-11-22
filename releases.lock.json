@@ -227,6 +227,12 @@
     "repoId": 1455004184,
     "firstSeen": "2026-11-12T08:19:19.885Z"
   },
+  "alexander-64.agent-pipeline@0.1.3": {
+    "commit": "03291ff6a2e8aed96a8dd570010baf5c2d3a7490",
+    "contentHash": "b97f3b51488ac0e85d0fcabeba42b98adda4709f4e3460e66357ad3312e47ccc",
+    "repoId": 1455004184,
+    "firstSeen": "2026-11-22T21:42:18.920Z"
+  },
   "alexesprit.clock@0.1.1": {
     "commit": "9860ea565a3189f7d5b8dba685daea460db2322b",
     "contentHash": "895c612562180bbe1b10c58f8120ccad9d7aedeba39243a16aca08a2719f46bd",
@@ -850,6 +856,12 @@
     "contentHash": "30271de6989c84de184e3fbb3cf075d61757c84934fe622556e91f3f5788e6cf",
     "repoId": 1458270078,
     "firstSeen": "2026-11-16T12:58:37.347Z"
+  },
+  "carlosmanueldiaz.task-bridge@0.3.0": {
+    "commit": "1560cfd388169bc9d27a12eb36fc73d323f25883",
+    "contentHash": "88c04c2c65360c7f453869121173474738121bed5c1f0a3ba6c1239f07d0cf9a",
+    "repoId": 1458270078,
+    "firstSeen": "2026-11-22T21:42:18.920Z"
   },
   "cattfan.enhance-prompt@1.2.0": {
     "commit": "c2327f02bcd5a259552b0396496c3214ff509afe",
@@ -5362,6 +5374,12 @@
     "contentHash": "4e686911b43644e066953504c11f34c9fabf07bc1310d5986edaf6a89a999749",
     "repoId": 1467818076,
     "firstSeen": "2026-11-22T21:14:05.662Z"
+  },
+  "tauri-epo.pstack-orca@0.2.3": {
+    "commit": "d7631749e9467ed00de5d7209003424114e8b027",
+    "contentHash": "60c9a0b486bde01526d344ba150e4c5e3073da9c58a3863dccefb4fe67afbfd3",
+    "repoId": 1467818076,
+    "firstSeen": "2026-11-22T21:42:18.920Z"
   },
   "tazaq.jb-containers@0.7.6": {
     "commit": "381bd2b5253c26a59131c13a87691acc16c74f62",
