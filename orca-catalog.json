@@ -14983,8 +14983,8 @@
       "ownerId": 81874051,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DueGin/orca-ensemble.git",
-        "ref": "v0.5.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/duegin/orca-ensemble/0.5.5"
       },
       "description": "Run a request with a team of agents: a lead that does intake, a shared task board, plan approval, messages and file claims (team mode), or splits the work across isolated members (delegation mode). Each role runs on its own agent CLI and model. Live data-flow dashboard, visual team editor, presets, ",
       "categories": [
@@ -31733,8 +31733,8 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/matteoeusebi/orca-italiano.git",
-        "ref": "v1.4.269"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.269"
       },
       "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.269. Pacchetto della community, non ufficiale.",
       "categories": [
