@@ -7974,8 +7974,8 @@
       "ownerId": 46677574,
       "source": {
         "kind": "git",
-        "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
-        "ref": "v0.3.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/carlosmanueldiaz/task-bridge/0.3.3"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -51644,6 +51644,53 @@
           "license": "MIT",
           "repository": "https://github.com/thanhtrung5763/orca-git-graph",
           "updatedAt": "2026-11-14T15:32:29+07:00"
+        }
+      ]
+    },
+    {
+      "id": "thinkjson.worktree-dashboard",
+      "ownerId": 200365,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thinkjson/orca-dashboard.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A dashboard for worktrees and their agent chats.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "858137b0b4d603b1f061fa752f2ee3d5f64ff17e",
+          "contentHash": "d03757e7b6d93eb7e80744368b3169a101e1770892a17af0189d8c3623086790",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Worktree Dashboard",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Dashboard"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/thinkjson.worktree-dashboard/b415df2f167421da.png",
+              "alt": "Worktree Dashboard icon",
+              "sha256": "b415df2f167421daa24216ca3dca2c287f56d30a53f5c53cb8a971102f045e98",
+              "width": 128,
+              "height": 128
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thinkjson/orca-dashboard",
+          "updatedAt": "2026-11-22T18:18:06-05:00"
         }
       ]
     },
