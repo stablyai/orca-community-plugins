@@ -20986,8 +20986,8 @@
       "ownerId": 6063899,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gokul-kulkarni/narada-orca.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gokul-kulkarni/narada-orca/0.2.0"
       },
       "description": "Send your saved Narada and Postman collection requests from Orca's sidebar: pick a request and an environment, edit its params, headers and body, read the response, or save a new request from cURL.",
       "categories": [
@@ -48319,8 +48319,8 @@
       "ownerId": 30369609,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sonthh/orca-pitwall/0.2.0"
+        "url": "https://github.com/sonthh/orca-pitwall.git",
+        "ref": "v0.3.0"
       },
       "description": "A live pit wall for your coding agents: context, cost, subagents and every tool call, in Orca's right sidebar. Read-only, local, no network.",
       "categories": [
@@ -48330,6 +48330,96 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "7149f643e0e4d92ce5af1e80b06ed332f30cdf69",
+          "contentHash": "21d12c906cac01c25caba7bc6732d6cb844442879c972307f1c626acc3ba1b1e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pitwall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pitwall"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Toggle the right sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Switch between focused workspace and all workspaces"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Toggle demo mode (synthetic session)"
+            },
+            {
+              "kind": "commands",
+              "name": "Pitwall: Clear tool calls and log"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+P",
+              "detail": "pitwall.toggleSidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pitwall"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "settings:own",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sonthh.pitwall/c747760db9f21826.png",
+              "alt": "Pitwall: watch every coding agent from Orca's sidebar, with who is waiting on you, context and cost",
+              "sha256": "c747760db9f21826768ee936e4bcffc9e23dbec4930c81533fffce489843da76",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sonthh.pitwall/7401bfef5e00b490.png",
+              "alt": "Pitwall icon",
+              "sha256": "7401bfef5e00b49094ced7d4236481ad3c7bf428a0723596f84803fe75988fd3",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sonthh.pitwall/f19c45a4b4b23875.png",
+                "alt": "Pitwall in dark and light: an agent asking for permission, a working agent with subagents, context and tool calls",
+                "sha256": "f19c45a4b4b23875d26de2033cef119db54a4dd0809b92624f19c7db555b2ae1",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "updatedAt": "2026-11-23T00:00:44+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/sonthh/orca-pitwall"
+        },
         {
           "version": "0.2.0",
           "commit": "ed7ed014c64339bccfa6c28133a55dc12f504439",
@@ -48814,8 +48904,8 @@
       "ownerId": 116317,
       "source": {
         "kind": "git",
-        "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.8.8"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/spscream/orca-fairway/0.8.8"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [

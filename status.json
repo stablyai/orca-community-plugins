@@ -1362,7 +1362,7 @@
     },
     "gokul-kulkarni/narada-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/gokul-kulkarni/narada-orca/0.2.0",
       "plugins": [
         "gokul-kulkarni.narada"
       ]
@@ -3258,7 +3258,7 @@
     },
     "sokpisethnhoeun/agent-flow": {
       "state": "rejected",
-      "ref": "v0.1.6",
+      "ref": "v0.1.61",
       "reasons": [
         {
           "category": "under-review",
@@ -3278,19 +3278,10 @@
     },
     "sonthh/orca-pitwall": {
       "state": "listed",
-      "ref": "refs/tags/sonthh/orca-pitwall/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "sonthh.pitwall"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "sotoru/orca-fallow": {
       "state": "listed",
@@ -3315,7 +3306,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "v0.8.8",
+      "ref": "refs/tags/spscream/orca-fairway/0.8.8",
       "plugins": [
         "spscream.fairway"
       ]
@@ -3396,6 +3387,16 @@
       "ref": "refs/tags/tagliatti/orca-openapi/0.2.0",
       "plugins": [
         "tagliatti.openapi-preview"
+      ]
+    },
+    "tauri-epo/pstack-orca": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name, size"
+        }
       ]
     },
     "tazaq/jb-like-docker-service": {
@@ -3562,7 +3563,7 @@
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
       "state": "rejected",
-      "ref": "v2.6.3",
+      "ref": "v2.6.4",
       "reasons": [
         {
           "category": "under-review",
