@@ -131,7 +131,7 @@
         "alexander-64.agent-pipeline"
       ],
       "update": {
-        "ref": "v0.1.1",
+        "ref": "v0.1.2",
         "reasons": [
           {
             "category": "under-review",
@@ -3422,7 +3422,7 @@
     },
     "tauri-epo/pstack-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/tauri-epo/pstack-orca/0.2.0",
       "plugins": [
         "tauri-epo.pstack-orca"
       ]
