@@ -1944,6 +1944,26 @@
         "leobessin.mongo-studio"
       ]
     },
+    "lifegood-acc/model-viewer-3d": {
+      "state": "rejected",
+      "ref": "v0.27.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, content, size"
+        }
+      ]
+    },
+    "lifegood-acc/step-viewer-3d": {
+      "state": "rejected",
+      "ref": "v0.25.1",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (editor/vendor/occt/occt-import-js.wasm.gz)"
+        }
+      ]
+    },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
       "ref": "refs/tags/lilykos/orca-openrouter-usage/1.1.0",
@@ -3365,7 +3385,7 @@
         "thanhh2615.datanoa"
       ],
       "update": {
-        "ref": "v1.1.0",
+        "ref": "v1.1.1",
         "reasons": [
           {
             "category": "under-review",
