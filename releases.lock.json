@@ -1745,6 +1745,12 @@
     "repoId": 1459947554,
     "firstSeen": "2026-11-18T05:11:23.926Z"
   },
+  "erom.agent-network@0.3.0": {
+    "commit": "54f075ffbf39a22c7e44cb94cb9833ab6eb751bf",
+    "contentHash": "28223314dad73d67cc41a5b27ac067220ce3de87a357e43cee057ba9a3a231cf",
+    "repoId": 1459947554,
+    "firstSeen": "2026-11-22T11:42:26.139Z"
+  },
   "erom.agent-profiles@2.0.6": {
     "commit": "ee2fec9e24f77fba99194598c7fe862b8523c10a",
     "contentHash": "c3641ac6ef1387b57cef1d23dcfb468d49baa6d30499afe7a30cb1e09267a47d",
@@ -5590,6 +5596,12 @@
     "contentHash": "979d0121bd7ac47be526ad8ad30aadc4e646ee424d63e987c9f2da3e1330fc22",
     "repoId": 1440251542,
     "firstSeen": "2026-11-05T11:14:07.919Z"
+  },
+  "vann-dev.indonesian@0.1.0": {
+    "commit": "fab39620638cdc11639473ebe0e0e2730cb22a79",
+    "contentHash": "71f98b2e04d711f45c3916a6504afb61a73114c3c9d54910cf62802cb5b83306",
+    "repoId": 1467371231,
+    "firstSeen": "2026-11-22T11:42:26.139Z"
   },
   "vdhoangson.agent-world@0.1.0": {
     "commit": "e7b0f2ddb5f6ea745efc1d7ca7fe8ee4b755e7ad",

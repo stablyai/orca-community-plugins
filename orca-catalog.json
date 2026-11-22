@@ -16645,15 +16645,84 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/erom/orca-plugin-agent-network/0.2.0"
+        "url": "https://github.com/eRom/orca-plugin-agent-network.git",
+        "ref": "v0.3.0"
       },
-      "description": "Let coding agents in an Orca workspace message each other: installs the teammate instructions for each harness and shows the workspace's agents and their latest messages.",
+      "description": "Let coding agents in an Orca workspace message each other: installs the teammate instructions for each harness and shows the agents of every workspace and their latest messages.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "54f075ffbf39a22c7e44cb94cb9833ab6eb751bf",
+          "contentHash": "28223314dad73d67cc41a5b27ac067220ce3de87a357e43cee057ba9a3a231cf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.261",
+          "name": "Agent Network",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Network"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent network: install teammate instructions"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent network: remove teammate instructions"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-network/f29703c294ed86c1.png",
+              "alt": "The Network panel listing five agents of different harnesses and their messages, beside a Claude Code prompt asking Codex for a review.",
+              "sha256": "f29703c294ed86c13d8ee4bb0d6f746ad348c18c1cac18a609d041d0f94b6dc7",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-network/a1bc6cdffe10254c.png",
+              "alt": "Agent Network icon",
+              "sha256": "a1bc6cdffe10254c184fcfe24eb839d2097737d98a593f6351b56abbf47c69de",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-network/d3dac2f85b5089b7.png",
+                "alt": "The dark Network panel: five agents, two Working and three Done, above the feed of messages they exchanged.",
+                "sha256": "d3dac2f85b5089b7d0a8deb1e8169ad834319667d10aca78451c0011732e349a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-network/47c2c9f50dd6178e.png",
+                "alt": "The same Network panel in Orca's light theme.",
+                "sha256": "47c2c9f50dd6178e55e19fe8a7ddc0d8ffafeba833c41ce0e836525f26096462",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-network/f5faf8a6793f2c1b.png",
+                "alt": "The Instructions group, unfolded, showing the teammate skill installed for Claude Code, Codex and DSH, Grok and Antigravity.",
+                "sha256": "f5faf8a6793f2c1bacec872d540fa0e2d1e355f3668aa219486ca4c6e84fa930",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-network",
+          "updatedAt": "2026-11-22T12:25:20+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "606a4841203f8dbfd2e2a2491a7020dea5524c48",
@@ -53329,6 +53398,54 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-tokyonight",
           "updatedAt": "2026-10-30T21:17:55+01:00"
+        }
+      ]
+    },
+    {
+      "id": "vann-dev.indonesian",
+      "ownerId": 82990248,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Vann-Dev/orca-indonesian-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Antarmuka Orca dalam bahasa Indonesia, diselaraskan dengan Orca 1.4.269. Paket komunitas, tidak resmi.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "fab39620638cdc11639473ebe0e0e2730cb22a79",
+          "contentHash": "71f98b2e04d711f45c3916a6504afb61a73114c3c9d54910cf62802cb5b83306",
+          "execution": "data",
+          "minimumOrca": "1.4.269",
+          "name": "Bahasa Indonesia",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "id"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vann-dev.indonesian/d4e54ae1f6401c8a.png",
+              "alt": "Jendela bergaya Orca dengan pengaturan tampilan dalam bahasa Indonesia dan pilihan Bahasa Indonesia.",
+              "sha256": "d4e54ae1f6401c8a61669be4a02f26f61dfbddf2cc569104574304ddcd5c96d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vann-dev.indonesian/4cb75d61253160b3.png",
+              "alt": "Bahasa Indonesia icon",
+              "sha256": "4cb75d61253160b3e8da0ea1df44fd9b9021b9dd140a1c0a2e797d9008fb805b",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
+          "updatedAt": "2026-11-22T18:20:02+07:00"
         }
       ]
     },

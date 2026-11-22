@@ -1030,7 +1030,7 @@
     },
     "erom/orca-plugin-agent-network": {
       "state": "listed",
-      "ref": "refs/tags/erom/orca-plugin-agent-network/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "erom.agent-network"
       ]
@@ -3588,6 +3588,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "vann-dev/orca-indonesian-plugin": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "vann-dev.indonesian"
       ]
     },
     "vdhoangson/orca-agent-world": {
