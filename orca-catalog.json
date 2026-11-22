@@ -11508,8 +11508,8 @@
       "ownerId": 359454302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.6.0"
       },
       "description": "Read-only virtual office visualizer for Orca bots and live sub-workers",
       "categories": [
@@ -51201,6 +51201,90 @@
           "license": "MIT",
           "repository": "https://github.com/tomasmarik-sys/orca-czech",
           "updatedAt": "2026-11-18T13:42:16+01:00"
+        }
+      ]
+    },
+    {
+      "id": "tonykey.dashboard-os",
+      "ownerId": 725424,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/TonyKey/orca-dashboard-os.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A personal command centre in Orca: what you worked on last, where each project stands, what is outstanding, and an idea inbox. Split between day work and home/side projects, and writable by your bots and agents.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "82f5674a59cfd9a6fcd6f6ee0d0f2300947866ad",
+          "contentHash": "241ff9f6e2aced37173d24c5a7da58dfe6fc349d65e6e7824f4f9b77edb44594",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Dashboard OS",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Dashboard"
+            },
+            {
+              "kind": "commands",
+              "name": "Dashboard OS: Open full dashboard"
+            },
+            {
+              "kind": "commands",
+              "name": "Dashboard OS: Install dash CLI (for bots and agents)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+D",
+              "detail": "dashboard.open"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Dashboard",
+              "detail": ".orcadash"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Dashboard"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "history:read"
+          ],
+          "fileTypes": [
+            "orcadash"
+          ],
+          "editorFileTypes": [
+            "orcadash"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/TonyKey/orca-dashboard-os",
+          "updatedAt": "2026-11-21T17:04:15Z"
         }
       ]
     },

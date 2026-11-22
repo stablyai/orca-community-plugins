@@ -816,7 +816,7 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.6.0",
       "plugins": [
         "ddochi-nyang.bot-world"
       ]
@@ -1066,6 +1066,16 @@
       "ref": "refs/tags/eskono/orca-docker-logs/0.8.2",
       "plugins": [
         "eskono.docker-logs"
+      ]
+    },
+    "esseener/orca-team-flow": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "estalions/claude-code-session-status": {
@@ -1440,7 +1450,7 @@
         "hasanalituran.toggle-light-dark-theme"
       ],
       "update": {
-        "ref": "v0.1.5",
+        "ref": "v0.1.6",
         "reasons": [
           {
             "category": "under-review",
@@ -1849,11 +1859,11 @@
     },
     "kvdecvlt/orca-russian-language": {
       "state": "rejected",
-      "ref": "v1.3.1",
+      "ref": "v1.3.2",
       "reasons": [
         {
-          "category": "reserved-name",
-          "detail": "name \"Orca Русский\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          "category": "under-review",
+          "detail": "size"
         }
       ]
     },
@@ -3205,7 +3215,7 @@
         "spscream.fairway"
       ],
       "update": {
-        "ref": "v0.5.4",
+        "ref": "v0.6.0",
         "reasons": [
           {
             "category": "under-review",
@@ -3417,6 +3427,13 @@
       ],
       "notes": [
         "contributes.languagePacks \"cs\" (locales/cs.json): 35 protected strings are ignored; Orca always shows its own text for security dialogs"
+      ]
+    },
+    "tonykey/orca-dashboard-os": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "tonykey.dashboard-os"
       ]
     },
     "toriskr/orca-toris-neon": {
