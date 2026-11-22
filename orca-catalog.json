@@ -20986,14 +20986,74 @@
       "ownerId": 6063899,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gokul-kulkarni/narada-orca/0.1.2"
+        "url": "https://github.com/gokul-kulkarni/narada-orca.git",
+        "ref": "v0.2.0"
       },
-      "description": "Send your saved Narada and Postman collection requests from Orca's sidebar: pick a request and an environment, adjust it, and read the response.",
+      "description": "Send your saved Narada and Postman collection requests from Orca's sidebar: pick a request and an environment, edit its params, headers and body, read the response, or save a new request from cURL.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "e9fe009e58e7433b8a1b8044410b5635405806fc",
+          "contentHash": "9b305c785e6bbdc7f65583d5f6243acf646d1a8bd121348b050607b7a5062d65",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Narada",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Narada"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gokul-kulkarni.narada/63087f4ff6255dc3.png",
+              "alt": "Narada in Orca's sidebar: a Shop API collection, the List orders request with its query parameters, and a 200 OK JSON response",
+              "sha256": "63087f4ff6255dc3fd757257249a0c2a4f283ca76c06690f7b560f708b5aad5c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gokul-kulkarni.narada/d8c0f7ea02ec5293.png",
+              "alt": "Narada icon",
+              "sha256": "d8c0f7ea02ec529373992c9248e40682bc8b63526f338187a91de3e67b09ab30",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gokul-kulkarni.narada/5a9af2a94358ff28.png",
+                "alt": "The Narada panel with List orders chosen in the Local environment, status=open and limit=3 as params, and a 200 OK response listing three orders",
+                "sha256": "5a9af2a94358ff283a7aec6ad151aae69ffdf1ac57189583a160192beffd090a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gokul-kulkarni.narada/19516818f79198d1.png",
+                "alt": "The Narada panel with the Production environment, a prompt for one secret variable, and the Shop API collection open at Create order",
+                "sha256": "19516818f79198d11cef607f23914d96bf233f2363d60878877a3fe4817eb78e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gokul-kulkarni.narada/9f9ebcf2551e3ac4.png",
+                "alt": "The new request from cURL form with a POST refund command, the name Refund order, the Shop API collection and the Orders folder",
+                "sha256": "9f9ebcf2551e3ac4b9e50bfb21333221ecfa470b79611645b470d074c31939a7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gokul-kulkarni/narada-orca",
+          "updatedAt": "2026-11-22T22:07:52+05:30"
+        },
         {
           "version": "0.1.2",
           "commit": "0dd0e6cb0e02a161ea6977359b3a8c3c85cd3dbb",
@@ -48755,7 +48815,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.8.7"
+        "ref": "v0.8.8"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -48763,6 +48823,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.8.8",
+          "commit": "bccf0134aa63559f0dc32fea53e5fd0de368de8c",
+          "contentHash": "dac36991d115a7245641db763ebaaeefaab1015bbc7490d4093d7673bc8e777d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-22T14:04:08-03:00"
+        },
         {
           "version": "0.8.7",
           "commit": "bc93f094d79658817a13981779424de61369843d",
@@ -48910,43 +49007,6 @@
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway",
           "updatedAt": "2026-11-22T10:37:49-03:00"
-        },
-        {
-          "version": "0.7.0",
-          "commit": "6b1fd44daeb82cf7451147f14220fa983092f906",
-          "contentHash": "c489eb36fa5966079d04faa57dab79a32708eb339b4a5d28436a0c424139a99f",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway",
-          "updatedAt": "2026-11-22T10:08:05-03:00"
         }
       ]
     },

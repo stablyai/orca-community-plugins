@@ -1362,19 +1362,10 @@
     },
     "gokul-kulkarni/narada-orca": {
       "state": "listed",
-      "ref": "refs/tags/gokul-kulkarni/narada-orca/0.1.2",
+      "ref": "v0.2.0",
       "plugins": [
         "gokul-kulkarni.narada"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "gokul-kulkarni/objectlens": {
       "state": "listed",
@@ -3267,7 +3258,7 @@
     },
     "sokpisethnhoeun/agent-flow": {
       "state": "rejected",
-      "ref": "v0.1.5",
+      "ref": "v0.1.6",
       "reasons": [
         {
           "category": "under-review",
@@ -3290,7 +3281,16 @@
       "ref": "refs/tags/sonthh/orca-pitwall/0.2.0",
       "plugins": [
         "sonthh.pitwall"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "sotoru/orca-fallow": {
       "state": "listed",
@@ -3315,7 +3315,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "v0.8.7",
+      "ref": "v0.8.8",
       "plugins": [
         "spscream.fairway"
       ]
@@ -3562,7 +3562,7 @@
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
       "state": "rejected",
-      "ref": "v2.6.0",
+      "ref": "v2.6.3",
       "reasons": [
         {
           "category": "under-review",
