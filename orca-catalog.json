@@ -2680,8 +2680,8 @@
       "ownerId": 20501510,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Alexander-64/orca-pipeline.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alexander-64/orca-pipeline/0.1.3"
       },
       "description": "Plan coding tasks in YAML or on a visual map, run them across agents, and send changes to a second agent for review. If an agent hits its quota, a fallback can pick up the work.",
       "categories": [
@@ -7975,7 +7975,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/CarlosManuelDiaz/task-bridge.git",
-        "ref": "v0.3.0"
+        "ref": "v0.3.2"
       },
       "description": "Unified issue-to-worktree dispatcher for Linear, Jira, and Notion. Hydrates subtasks and Acceptance Criteria, auto-routes multi-repo workspaces via ticketPrefixes, reads CLAUDE.md/AGENTS.md guidelines, enforces Plan-First approval via tool hooks, monitors your In-Flight Fleet with Verify AC, In Revi",
       "categories": [
@@ -7985,6 +7985,112 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "c89b80cebded0c605a3904a10629a8cad827a4bb",
+          "contentHash": "df51369e8829ba8a64a362960ce3614150454ef586459214fc6d3a493061c58b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Task Bridge (Linear, Jira & Notion)",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Sync Tickets (Linear, Jira & Notion)"
+            },
+            {
+              "kind": "commands",
+              "name": "Task Bridge: Move Active Workspace Ticket to In Review"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+Y",
+              "detail": "taskBridge.sync"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "No linked ticket"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/carlosmanueldiaz.task-bridge/3e703120b25c60c7.png",
+              "alt": "Task Bridge — Linear, Jira, and Notion to Orca worktrees with CLAUDE.md guidelines, Plan-First Lock, Fleet monitoring, and comment feedback.",
+              "sha256": "3e703120b25c60c7e4267eec9f91376b089c34481a83c9b81846b2e3d05bd88b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/carlosmanueldiaz.task-bridge/06ec5f4d32af93e4.png",
+              "alt": "Task Bridge (Linear, Jira & Notion) icon",
+              "sha256": "06ec5f4d32af93e449cf18eb053a6440e424b163fbee980a42674f7b5d169396",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/cdca6c085e37561a.png",
+                "alt": "In-Flight Fleet monitoring, CLAUDE.md guidelines, custom branch profiles, Plan-First Execution Gate, and comment feedback loop in dark mode.",
+                "sha256": "cdca6c085e37561a93a89cc6e3e2c6c3f2cdadbd11f5f17569dd4605a213a6f4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/a61ff877500c5fef.png",
+                "alt": "English DEMO queue and workbench view in dark mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "a61ff877500c5feff045bd787d93799a1e4bb766cb0dacfe0b9a733cdd646fac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/2ce54c8c5c502006.png",
+                "alt": "Task Bridge Add & Connect provider setup, multi-repo prefix routing, Verify AC, Done/In Review transitions, and Fleet Clear Finished / Remove cleanup.",
+                "sha256": "2ce54c8c5c50200642559e9c09c2100917a346e2e6de601e0a14e77d8bcc57f8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/carlosmanueldiaz.task-bridge/ff262d219a23b11b.png",
+                "alt": "English DEMO queue and workbench view in light mode showing scope filters, parent/child issues, and sanitized agent prompt preview.",
+                "sha256": "ff262d219a23b11b98a612bf35e07a45a820882aaf53bd8d4609322b34e4de63",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/CarlosManuelDiaz/task-bridge",
+          "updatedAt": "2026-11-22T23:15:00+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "1560cfd388169bc9d27a12eb36fc73d323f25883",
@@ -37201,94 +37307,6 @@
       ]
     },
     {
-      "id": "ngoohebi.auto-handoff",
-      "ownerId": 301464,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ngoohebi/orca-auto-handoff/0.2.1"
-      },
-      "description": "Automatic account switching for Orca agents. Pools the managed accounts per provider (Claude, Codex, Antigravity, OpenCode, Devin). Smart mode looks ahead: a Claude session leaves an account shortly before it runs out and is resumed, as the same session, on the next Claude account. Codex, Antigravit",
-      "categories": [
-        "panels",
-        "commands",
-        "integrations"
-      ],
-      "releases": [
-        {
-          "version": "0.2.1",
-          "commit": "b6ab8776b2c164d6aafc28e14064d28524080d5e",
-          "contentHash": "9979fc762ca72da7f9cb48c049612334c6bd5ba675bab4095f8bb11e02e2552b",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.261",
-          "name": "Auto Hand-off",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Auto Hand-off"
-            },
-            {
-              "kind": "commands",
-              "name": "Auto Hand-off: Switch Claude to the next account"
-            },
-            {
-              "kind": "commands",
-              "name": "Auto Hand-off: Switch Codex to the next account"
-            },
-            {
-              "kind": "commands",
-              "name": "Auto Hand-off: Move this workspace's agent to another account"
-            },
-            {
-              "kind": "commands",
-              "name": "Auto Hand-off: Pause or resume automatic hand-off"
-            },
-            {
-              "kind": "commands",
-              "name": "Auto Hand-off: Refresh usage"
-            },
-            {
-              "kind": "commands",
-              "name": "Auto Hand-off: Install the console status line in this workspace"
-            },
-            {
-              "kind": "commands",
-              "name": "Auto Hand-off: Remove the console status line from this workspace"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.launch.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Auto Hand-off"
-            }
-          ],
-          "capabilities": [
-            "agent:read",
-            "agent:launch",
-            "terminal:read",
-            "terminal:send",
-            "workspace:read",
-            "notifications:show",
-            "storage:own",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/ngoohebi/orca-auto-handoff",
-          "updatedAt": "2026-11-19T08:33:23+08:00"
-        }
-      ]
-    },
-    {
       "id": "nhangen.git-issues",
       "ownerId": 451202,
       "source": {
@@ -50564,8 +50582,8 @@
       "ownerId": 176725071,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Tauri-EPO/pstack-orca.git",
-        "ref": "v0.2.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tauri-epo/pstack-orca/0.2.3"
       },
       "description": "Community port of pstack, Lauren Tan's skill pack for rigorous agent work, with five skills by Matt Pocock. Installs the skills for Claude Code, Codex, Antigravity, Cursor and Grok, and routes delegated work to Orca workers.",
       "categories": [
