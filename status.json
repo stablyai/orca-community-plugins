@@ -3,7 +3,7 @@
   "repos": {
     "1am/orca-agent-deck": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/1am/orca-agent-deck/0.3.2",
       "plugins": [
         "1am.agent-deck"
       ]
@@ -265,7 +265,7 @@
     },
     "aoyamashou/workflowy-in-orca": {
       "state": "listed",
-      "ref": "refs/tags/aoyamashou/workflowy-in-orca/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "aoyamashou.workflowy-sidebar"
       ]
@@ -1360,16 +1360,26 @@
         "glaicer.sidebar-player"
       ]
     },
+    "gokul-kulkarni/narada": {
+      "state": "rejected",
+      "ref": "v0.1.1",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json at the root; orca-catalog.json lists no plugin folder of gokul-kulkarni/narada that holds an orca-plugin.json (set each entry's source.url to this repository and source.path to its folder)"
+        }
+      ]
+    },
     "gokul-kulkarni/narada-orca": {
       "state": "listed",
-      "ref": "refs/tags/gokul-kulkarni/narada-orca/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "gokul-kulkarni.narada"
       ]
     },
     "gokul-kulkarni/objectlens": {
       "state": "listed",
-      "ref": "refs/tags/gokul-kulkarni/objectlens/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "gokul-kulkarni.objectlens"
       ]
@@ -2751,6 +2761,13 @@
         "quocnt85.workspace-radar"
       ]
     },
+    "realcat1st/orca-plugin-rojo-studio": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "realcat1st.rojo-studio"
+      ]
+    },
     "reisen7/orca-tps": {
       "state": "listed",
       "ref": "refs/tags/reisen7/orca-tps/0.4.0",
@@ -3289,7 +3306,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "v0.8.4",
+      "ref": "refs/tags/spscream/orca-fairway/0.8.4",
       "plugins": [
         "spscream.fairway"
       ]
@@ -3536,7 +3553,7 @@
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
       "state": "rejected",
-      "ref": "v2.4.1",
+      "ref": "v2.5.0",
       "reasons": [
         {
           "category": "under-review",

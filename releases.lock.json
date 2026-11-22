@@ -413,6 +413,12 @@
     "repoId": 1464882736,
     "firstSeen": "2026-11-20T08:30:48.708Z"
   },
+  "aoyamashou.workflowy-sidebar@0.1.2": {
+    "commit": "a7ba35abb99e0fb8ded0a5c53dcaec3df2aa56e3",
+    "contentHash": "710feb52f593cbb24f7c980e61497d26473a657f5563f0c3becf03cd3245a1e0",
+    "repoId": 1464882736,
+    "firstSeen": "2026-11-22T15:42:28.664Z"
+  },
   "arnaudrinquin.pomodoro@1.0.0": {
     "commit": "98171e08b698cbf0a957c48e33a4c61960a44e95",
     "contentHash": "280d9ff355b6f7b5aca01ed1e99a52c8af00c06619ae1c0ee9b4b3f74a39f1d8",
@@ -2165,11 +2171,23 @@
     "repoId": 1467596953,
     "firstSeen": "2026-11-22T13:43:14.217Z"
   },
+  "gokul-kulkarni.narada@0.1.2": {
+    "commit": "0dd0e6cb0e02a161ea6977359b3a8c3c85cd3dbb",
+    "contentHash": "3703f5ee9ffbe135977b84577d3e7e2b12ce85b974d3a3c49cbbb5918e108ad1",
+    "repoId": 1467596953,
+    "firstSeen": "2026-11-22T15:42:28.664Z"
+  },
   "gokul-kulkarni.objectlens@0.1.1": {
     "commit": "1b88e2a0d7bd2a42da795b3a08a86b256351b895",
     "contentHash": "9def832af4ad3759da851064d5a38333648b00618d09aebf6f3a5efda04cc8f2",
     "repoId": 1326383340,
     "firstSeen": "2026-11-22T13:43:14.217Z"
+  },
+  "gokul-kulkarni.objectlens@0.1.2": {
+    "commit": "0c1351b50ba0917d22b9c0eed00b6c50ede8fcb4",
+    "contentHash": "8e98887a706f94436116de57a4f171b3866fa7dd9ab0bd7615981ebfc21fbcef",
+    "repoId": 1326383340,
+    "firstSeen": "2026-11-22T15:42:28.664Z"
   },
   "gongxliang.claude-paper@0.1.1": {
     "commit": "bff83e4a6ae72804a000894fc25c2eca075efe11",
@@ -4240,6 +4258,12 @@
     "contentHash": "0d58df94fd379812f9eca829f15e246ce48a1c7a4e95ea6768620784f98de600",
     "repoId": 1461027191,
     "firstSeen": "2026-11-17T08:43:09.961Z"
+  },
+  "realcat1st.rojo-studio@0.1.0": {
+    "commit": "1603fdbdd8379825e0775cf71e46febe167d0ca9",
+    "contentHash": "a2ee5e0e35beda0b290803ff09ed8cc5325527f1f658caf949ae6c57b9e8e5b1",
+    "repoId": 1467702888,
+    "firstSeen": "2026-11-22T15:42:28.664Z"
   },
   "reisen7.opencode-tps@0.4.0": {
     "commit": "34d5fd3399e1dd82f6c42ff2f628b83d0afbcabb",

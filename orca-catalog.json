@@ -9,8 +9,8 @@
       "ownerId": 959323,
       "source": {
         "kind": "git",
-        "url": "https://github.com/1am/orca-agent-deck.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/1am/orca-agent-deck/0.3.2"
       },
       "description": "See at a glance which Orca agent needs you. Each pane gets a Stream Deck key that shows its state and focuses the pane when pressed.",
       "categories": [
@@ -4067,14 +4067,35 @@
       "ownerId": 88479502,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aoyamashou/workflowy-in-orca/0.1.1"
+        "url": "https://github.com/aoyamashou/workflowy-in-orca.git",
+        "ref": "v0.1.2"
       },
       "description": "Browse and edit your Workflowy outline in the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "a7ba35abb99e0fb8ded0a5c53dcaec3df2aa56e3",
+          "contentHash": "710feb52f593cbb24f7c980e61497d26473a657f5563f0c3becf03cd3245a1e0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Workflowy",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Workflowy"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aoyamashou/workflowy-in-orca",
+          "updatedAt": "2026-11-23T00:32:06+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "7d4fe2d1978dfeb21f0f76096eab7e889094829c",
@@ -20965,14 +20986,44 @@
       "ownerId": 6063899,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gokul-kulkarni/narada-orca/0.1.1"
+        "url": "https://github.com/gokul-kulkarni/narada-orca.git",
+        "ref": "v0.1.2"
       },
       "description": "Send your saved Narada and Postman collection requests from Orca's sidebar: pick a request and an environment, adjust it, and read the response.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "0dd0e6cb0e02a161ea6977359b3a8c3c85cd3dbb",
+          "contentHash": "3703f5ee9ffbe135977b84577d3e7e2b12ce85b974d3a3c49cbbb5918e108ad1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Narada",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Narada"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/gokul-kulkarni.narada/d8c0f7ea02ec5293.png",
+              "alt": "Narada icon",
+              "sha256": "d8c0f7ea02ec529373992c9248e40682bc8b63526f338187a91de3e67b09ab30",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gokul-kulkarni/narada-orca",
+          "updatedAt": "2026-11-22T21:03:44+05:30"
+        },
         {
           "version": "0.1.1",
           "commit": "a2d68999f6072ac4b1c9831c4103eb32545ddbe5",
@@ -21001,12 +21052,76 @@
       "ownerId": 6063899,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gokul-kulkarni/objectlens/0.1.1"
+        "url": "https://github.com/gokul-kulkarni/objectlens.git",
+        "ref": "v0.1.2"
       },
       "description": "Explore JSON, YAML and Python repr() files as a searchable tree or graph, beside Source.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "0c1351b50ba0917d22b9c0eed00b6c50ede8fcb4",
+          "contentHash": "8e98887a706f94436116de57a4f171b3866fa7dd9ab0bd7615981ebfc21fbcef",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "ObjectLens",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "ObjectLens",
+              "detail": ".json, .yaml, .yml, .repr, .pyrepr, .objectlens.json"
+            }
+          ],
+          "fileTypes": [
+            "json",
+            "yaml",
+            "yml",
+            "repr",
+            "pyrepr"
+          ],
+          "editorFileTypes": [
+            "json",
+            "yaml",
+            "yml",
+            "repr",
+            "pyrepr"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gokul-kulkarni.objectlens/1dfc9b2c9a6cf037.png",
+              "alt": "ObjectLens showing a four-document YAML file as a tree, with keys, typed values and a cycle marker",
+              "sha256": "1dfc9b2c9a6cf0379bf84afeb5bbb940a1152fa01dcdce4d09067ef563e192c8",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gokul-kulkarni.objectlens/cd21c553d839d7f7.png",
+              "alt": "ObjectLens icon",
+              "sha256": "cd21c553d839d7f7f2afc9d15f4dae05302e373765f6d20224dd329c2fa7cbde",
+              "width": 192,
+              "height": 192
+            },
+            "screenshots": [
+              {
+                "path": "assets/gokul-kulkarni.objectlens/d6fd248d9d127526.png",
+                "alt": "A Python object snapshot as a tree, with a shared reference, a cycle, big integers and special floats",
+                "sha256": "d6fd248d9d1275260facdf5f9456acaf4d1572a3fab1ab79133d873b8a16027a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gokul-kulkarni.objectlens/20a9db5f1957e27e.png",
+                "alt": "A YAML stream of a CI workflow, a compose file and a Kubernetes manifest as one tree",
+                "sha256": "20a9db5f1957e27e6bda79833d5ce8c426293d6cf01b3f74b1a9fc35732ee47c",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gokul-kulkarni/objectlens",
+          "updatedAt": "2026-11-22T21:06:46+05:30"
+        },
         {
           "version": "0.1.1",
           "commit": "1b88e2a0d7bd2a42da795b3a08a86b256351b895",
@@ -40537,6 +40652,86 @@
       ]
     },
     {
+      "id": "realcat1st.rojo-studio",
+      "ownerId": 260922535,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/RealCat1st/orca-plugin-rojo-studio.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Rojo for Roblox in Orca: install Rojo, start and stop rojo serve with live logs and a connected-Studio indicator, build .rbxl/.rbxm files, generate sourcemaps for luau-lsp, create projects and see the instance tree your project file maps. Unofficial; not affiliated with Rojo or Roblox.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "1603fdbdd8379825e0775cf71e46febe167d0ca9",
+          "contentHash": "a2ee5e0e35beda0b290803ff09ed8cc5325527f1f658caf949ae6c57b9e8e5b1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Rojo Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Rojo Studio"
+            },
+            {
+              "kind": "commands",
+              "name": "Rojo: Show or hide the panel (right sidebar)"
+            },
+            {
+              "kind": "commands",
+              "name": "Rojo: Start or stop the server for this workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "Rojo: Stop all servers and watchers"
+            },
+            {
+              "kind": "commands",
+              "name": "Rojo: Build the selected project"
+            },
+            {
+              "kind": "commands",
+              "name": "Rojo: Generate sourcemap.json"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Rojo"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/realcat1st.rojo-studio/8fb1cbc8a2136ca9.png",
+              "alt": "Rojo Studio icon",
+              "sha256": "8fb1cbc8a2136ca95e6ac728dfa6d3467c0828372638f5989e368f854e5fb0ef",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/RealCat1st/orca-plugin-rojo-studio",
+          "updatedAt": "2026-11-22T16:34:00+01:00"
+        }
+      ]
+    },
+    {
       "id": "reisen7.opencode-tps",
       "ownerId": 89134690,
       "source": {
@@ -48559,8 +48754,8 @@
       "ownerId": 116317,
       "source": {
         "kind": "git",
-        "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.8.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/spscream/orca-fairway/0.8.4"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
