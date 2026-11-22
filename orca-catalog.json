@@ -11509,7 +11509,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
-        "ref": "v0.3.0"
+        "ref": "v0.4.0"
       },
       "description": "Read-only virtual office visualizer for Orca bots and live sub-workers",
       "categories": [
@@ -11518,6 +11518,120 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "09cda801f9ddc10cbc3ece084b079989f532d462",
+          "contentHash": "fa57c6575ce77c5dddbd461d42c151ebdc329ded00830a44b1ab0d51a0680ee1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Bot World",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh Bot World"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot World Office",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Bot World Board",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot World"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botworld"
+          ],
+          "editorFileTypes": [
+            "botworld"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+              "alt": "Bot World Wide Office Board displaying 10 Orca bots and live sub-workers in the Startup Office theme",
+              "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
+              "alt": "Bot World icon",
+              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+                "alt": "Bot World wide .botworld office board in the Startup Office theme with 10 live bots, sub-workers, character switcher, and 24-hour event timeline",
+                "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/0949c7778918ab78.jpg",
+                "alt": "Bot World wide .botworld office board in the Corporate Office theme highlighting a Needs You approval badge, open items, and automation status",
+                "sha256": "0949c7778918ab78c6023910e40b79532ead679a24fd6a484880bd4051bd1e6b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/6b6257f1780737c1.jpg",
+                "alt": "Bot World wide .botworld office board with Redact Mode enabled and 24-hour timeline replay paused at an earlier timestamp",
+                "sha256": "6b6257f1780737c16fda6bf54bcd043ded61dd6575514bee10e1bc45d90fb22a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/b9c9635cfb5976a9.jpg",
+                "alt": "Bot World wide .botworld office board in Night mode with warm desk lamp glows, steaming coffee, idle Zzz bubbles, and a sub-worker entering through the door",
+                "sha256": "b9c9635cfb5976a94f99b24f0a6bd762bb5a37836b6045f6bdb7fa57f74a8274",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/f77de702fbbba014.jpg",
+                "alt": "Bot World Cozy Cafe theme at sunset with 8 live bots spread across wooden desks and round cafe tables",
+                "sha256": "f77de702fbbba0149644a54180e535185ec5d40d2a753fb86bb42ef6374281bc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/4c1e6e8ca34207d2.jpg",
+                "alt": "Bot World Cyber Ops midnight neon control room theme with live bots, glowing monitors, and sub-workers",
+                "sha256": "4c1e6e8ca34207d2deeb19c49d38b1b9eb9adc28bc701dadceed39f3d16cbbd0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
+          "updatedAt": "2026-11-22T11:38:49+09:00"
+        },
         {
           "version": "0.3.0",
           "commit": "5fcc0ac121189eeabdeec0290dd6af72622b3f49",
@@ -23407,6 +23521,88 @@
           "license": "MIT",
           "repository": "https://github.com/IBazylchuk/orca-plugin-openspec-board",
           "updatedAt": "2026-11-09T20:39:58+01:00"
+        }
+      ]
+    },
+    {
+      "id": "icaceresc.b-side",
+      "ownerId": 103128282,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/icaceresc/b-side.git",
+        "ref": "v2.3.2"
+      },
+      "description": "Your music library in Orca's sidebar: browse, search and play the music on your PC, with synced lyrics and three skins. Windows only; plays through AIMP (free).",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "2.3.2",
+          "commit": "ca686099c044fff1e9bfc66e9cab8cfde1995598",
+          "contentHash": "d602289de4f287766009a2239351dfb8e1de865fac881917c4a458d7135b322e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "B-Side",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "B-Side"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/icaceresc.b-side/702c7546c1a83d83.webp",
+              "alt": "B-Side's three skins fanned out, Cassette, Vinyl and CD, each playing a demo track with synced lyrics, beside the words \"Your music library, in Orca's sidebar\"",
+              "sha256": "702c7546c1a83d83747ba0c6a3072af1f18f0f7563373373e7f3e4221266fd74",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/icaceresc.b-side/542dd2d2b5615341.png",
+              "alt": "B-Side icon",
+              "sha256": "542dd2d2b5615341ef57b5f52660fd64274fbbba8138741512f39c8e0ca4fc7b",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.b-side/1c3c4e49aee5c5c6.webp",
+                "alt": "The panel dragged wide: a grid of demo albums beside Playing with synced lyrics",
+                "sha256": "1c3c4e49aee5c5c635e4b0c60b3c4541ffacee168e64d22fdc1377cd298b3968",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/29f2dfd099f2d5e1.webp",
+                "alt": "Search for \"rio\" finding the artist Ríos de Ámbar y Sal, the album Río Lento de Sal and its tracks, beside that album's page",
+                "sha256": "29f2dfd099f2d5e1e2e42410a717a281ef695fa658b9b3326d34b9033cdf21da",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/33b8cde92753cd84.webp",
+                "alt": "The same panel in three skins: CD in the colours of its cover, Vinyl with serif lyrics and old gold, Cassette in pixel type and cyan",
+                "sha256": "33b8cde92753cd84e97b2597dd04011cb3d671ecaf6c2c0fbfaf9805ac2e0d4b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/73129bc39a951956.webp",
+                "alt": "The CD skin with three demo covers, each tinting the whole panel in its own colours, with the format of each track",
+                "sha256": "73129bc39a951956c775dec1859eefa0083a25ae1542e48abc98e2b82010da72",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/b-side",
+          "updatedAt": "2026-11-21T23:38:11-03:00"
         }
       ]
     },
@@ -47519,7 +47715,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.5.0"
+        "ref": "v0.5.1"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -47527,6 +47723,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.5.1",
+          "commit": "f32d49b5bf9dc543a64fd31e4fb82ab7becf3b28",
+          "contentHash": "cc208d74e2a11be9a9c11ef3a98251cf1bd4e69295135e5c35e516cf505eae29",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-21T23:30:13-03:00"
+        },
         {
           "version": "0.5.0",
           "commit": "fec534d627193543c50d5f130a795aad7b6dd266",

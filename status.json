@@ -816,7 +816,7 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "ddochi-nyang.bot-world"
       ]
@@ -1517,13 +1517,10 @@
       ]
     },
     "icaceresc/b-side": {
-      "state": "rejected",
-      "ref": "v2.3.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "state": "listed",
+      "ref": "v2.3.2",
+      "plugins": [
+        "icaceresc.b-side"
       ]
     },
     "icaceresc/pixtuoid-orca-windows": {
@@ -3194,7 +3191,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "v0.5.1",
       "plugins": [
         "spscream.fairway"
       ]
