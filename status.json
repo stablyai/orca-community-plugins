@@ -1068,9 +1068,9 @@
         "eskono.docker-logs"
       ]
     },
-    "esseener/orca-team-flow": {
+    "esseener/orzic": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "reasons": [
         {
           "category": "licence",
@@ -1450,7 +1450,7 @@
         "hasanalituran.toggle-light-dark-theme"
       ],
       "update": {
-        "ref": "v0.1.6",
+        "ref": "v0.1.7",
         "reasons": [
           {
             "category": "under-review",
@@ -1858,13 +1858,10 @@
       ]
     },
     "kvdecvlt/orca-russian-language": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.3.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "kvdecvlt.russian-language"
       ]
     },
     "ky1ezer0/orca-git-graph": {
@@ -3215,7 +3212,7 @@
         "spscream.fairway"
       ],
       "update": {
-        "ref": "v0.6.0",
+        "ref": "v0.6.1",
         "reasons": [
           {
             "category": "under-review",
@@ -3366,9 +3363,15 @@
       "plugins": [
         "thanhh2615.datanoa"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v1.1.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
@@ -3431,7 +3434,7 @@
     },
     "tonykey/orca-dashboard-os": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/tonykey/orca-dashboard-os/0.1.0",
       "plugins": [
         "tonykey.dashboard-os"
       ]
@@ -3596,7 +3599,7 @@
     },
     "victorfernande/orca-gear-generator": {
       "state": "rejected",
-      "ref": "v1.4.0",
+      "ref": "v1.4.1",
       "reasons": [
         {
           "category": "no-manifest",
@@ -3608,7 +3611,7 @@
         },
         {
           "category": "binary-files",
-          "detail": "bundles binary files (dist/orca_gear_generator-1.4.0-py3-none-any.whl)"
+          "detail": "bundles binary files (dist/orca_gear_generator-1.4.1-py3-none-any.whl)"
         }
       ]
     },
