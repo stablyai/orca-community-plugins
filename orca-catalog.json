@@ -2940,8 +2940,8 @@
       "ownerId": 85191316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/alvarovegaromero/orca-jinja-palettes.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alvarovegaromero/orca-jinja-palettes/1.0.0"
       },
       "description": "Six classic color palettes (One Dark, Dracula, Monokai, Nord, GitHub Light, Solarized Light) tuned so Jinja delimiters, tags, variables and filters each stand out. Use one as the whole app theme or only as the editor theme. Pairs with Jinja Syntax.",
       "categories": [
@@ -3045,8 +3045,8 @@
       "ownerId": 85191316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/alvarovegaromero/orca-jinja-syntax.git",
-        "ref": "v1.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alvarovegaromero/orca-jinja-syntax/1.1.1"
       },
       "description": "Jinja and Jinja2 template highlighting (.j2, .jinja, .jinja2) with VS Code's Better Jinja grammar: HTML templates with HTML, CSS and JavaScript colored, Jinja colored even inside attributes and <script>, and Ansible-style YAML and config templates.",
       "categories": [
@@ -4400,8 +4400,8 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.2.0"
       },
       "description": "Manage one or more oMLX servers from Orca’s sidebar: named connections with per-server API keys in encrypted secrets, load and unload models, watch memory and live requests, edit base settings, and restart without leaving your workspace.",
       "categories": [
@@ -15466,8 +15466,8 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.269"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebbop/orca-italiano/1.4.269"
       },
       "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.269. Pacchetto della community, non ufficiale.",
       "categories": [
