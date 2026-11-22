@@ -6911,8 +6911,8 @@
       "ownerId": 20485299,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bwrong/codepulse/codepulse/1.1.6",
+        "url": "https://github.com/BWrong/CodePulse.git",
+        "ref": "v1.1.7",
         "path": "orca"
       },
       "description": "在状态栏显示今日编码时长，面板里按项目查看编码时间分布与 AI 统计。",
@@ -6920,6 +6920,48 @@
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.7",
+          "commit": "b0a921188048f7cac591c0dfff2efecb1f8d4608",
+          "contentHash": "ad11de45fee92bd3ae95e3e9611048581a31b2e3636abc95fdc6f99b2640965f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "CodePulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CodePulse"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CodePulse"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bwrong.codepulse/4d921f501c8f87c8.png",
+              "alt": "CodePulse 面板：今日与近 7 天编码时长、每日趋势、时段分布与项目排行",
+              "sha256": "4d921f501c8f87c82fd7f39345f8796040e982c8aae9a48c8d9e36f8dec5b656",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bwrong.codepulse/a46f7dccf9b1c134.png",
+              "alt": "CodePulse icon",
+              "sha256": "a46f7dccf9b1c1344fed9e714ef2fc3ca4b2ce43380465948250caa31e57a6c6",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BWrong/CodePulse",
+          "updatedAt": "2026-11-22T09:11:38+08:00"
+        },
         {
           "version": "1.1.6",
           "commit": "e9950cb0e822bf0b00c3cc61e532bf54a6296450",
@@ -8626,6 +8668,79 @@
           "license": "MIT",
           "repository": "https://github.com/cfmleditor/orca-cfml",
           "updatedAt": "2026-11-12T11:21:06+10:00"
+        }
+      ]
+    },
+    {
+      "id": "ch0rch.seodraft",
+      "ownerId": 81523172,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ch0rch/seodraft-orca.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Run your seodraft content pipeline from Orca: pipeline, content map, evidence, profile, agent routines and a feed of what your agents do in seodraft.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "620c36f3fb9c25623e75afad5afea040442c0a0c",
+          "contentHash": "1e84f90b24d76be7f0f970cc6ecc81106a539b8e367ef9c50b1de76a380ff570",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "seodraft",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "seodraft"
+            },
+            {
+              "kind": "commands",
+              "name": "seodraft: Refresh pipeline"
+            },
+            {
+              "kind": "commands",
+              "name": "seodraft: Sign out"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "seodraft"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show",
+            "workspace:read",
+            "agent:read",
+            "agent:launch",
+            "automation:read",
+            "automation:write"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/ch0rch.seodraft/6a24ec9ab0b79773.png",
+              "alt": "seodraft icon",
+              "sha256": "6a24ec9ab0b79773f43603ea5df3a03b0aad016d76a33b401a35d073aae3c38e",
+              "width": 192,
+              "height": 192
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ch0rch/seodraft-orca",
+          "updatedAt": "2026-11-21T21:30:08-03:00"
         }
       ]
     },
@@ -47290,7 +47405,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.2.0"
+        "ref": "v0.3.1"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -47298,6 +47413,34 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "f4d953d01649f2a2d4a0ff09ca8bb291df8062d6",
+          "contentHash": "791deb04022f94313bb44122fc875042f87750b93cb678acf1677ebbb213754a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-21T22:01:36-03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "3b94cebe2da25631d7459f3be6fbebd0f237b731",

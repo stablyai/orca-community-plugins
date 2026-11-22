@@ -743,6 +743,12 @@
     "repoId": 1313422592,
     "firstSeen": "2026-11-20T10:16:42.499Z"
   },
+  "bwrong.codepulse@1.1.7": {
+    "commit": "b0a921188048f7cac591c0dfff2efecb1f8d4608",
+    "contentHash": "ad11de45fee92bd3ae95e3e9611048581a31b2e3636abc95fdc6f99b2640965f",
+    "repoId": 1313422592,
+    "firstSeen": "2026-11-22T01:16:26.588Z"
+  },
   "callumjmac.talkback@0.1.0": {
     "commit": "220822a037f421108b5b4a2672a0794ccd1ce069",
     "contentHash": "d8d973198e51b5a9b2f8ac3cc0ce605aa0292ae4df6727d79aac45f45dfb4e55",
@@ -970,6 +976,12 @@
     "contentHash": "fdb43271565f92019f7a33a9a2f0976ea148f87b9778b683f86b5a67adac7f95",
     "repoId": 1454682463,
     "firstSeen": "2026-11-12T01:42:39.301Z"
+  },
+  "ch0rch.seodraft@0.1.1": {
+    "commit": "620c36f3fb9c25623e75afad5afea040442c0a0c",
+    "contentHash": "1e84f90b24d76be7f0f970cc6ecc81106a539b8e367ef9c50b1de76a380ff570",
+    "repoId": 1467053483,
+    "firstSeen": "2026-11-22T01:16:26.588Z"
   },
   "chabinhwang.hwp-viewer@0.1.0": {
     "commit": "d30f113662061c2412ac8e4fdac6ba9365ce078f",
@@ -4972,6 +4984,12 @@
     "contentHash": "62eadf89791d363aad826b548bbcaa02477581cc7a9c45c209a964b62911ea10",
     "repoId": 1467078314,
     "firstSeen": "2026-11-22T00:39:20.366Z"
+  },
+  "spscream.fairway@0.3.1": {
+    "commit": "f4d953d01649f2a2d4a0ff09ca8bb291df8062d6",
+    "contentHash": "791deb04022f94313bb44122fc875042f87750b93cb678acf1677ebbb213754a",
+    "repoId": 1467078314,
+    "firstSeen": "2026-11-22T01:16:26.588Z"
   },
   "structworks.richdown@0.13.0": {
     "commit": "75c151856c375264e77c3f9389a290c208a00e58",
