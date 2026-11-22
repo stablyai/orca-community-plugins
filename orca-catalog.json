@@ -2936,6 +2936,208 @@
       ]
     },
     {
+      "id": "alvarovegaromero.jinja-palettes",
+      "ownerId": 85191316,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alvarovegaromero/orca-jinja-palettes.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Six classic color palettes (One Dark, Dracula, Monokai, Nord, GitHub Light, Solarized Light) tuned so Jinja delimiters, tags, variables and filters each stand out. Use one as the whole app theme or only as the editor theme. Pairs with Jinja Syntax.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "284a477022f2bb2c593ff990bc018fca66cd927b",
+          "contentHash": "a3b61d00fbc9124ccb64f0b8b346080f00648a467b1ee0099a0b731423a30f80",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Jinja Palettes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "One Dark (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Dracula (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Monokai (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Nord (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "GitHub Light (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Solarized Light (Jinja)"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alvarovegaromero.jinja-palettes/2fe96eb6622531ba.png",
+              "alt": "The same Jinja template in six palettes: One Dark, Dracula, Monokai, Nord, GitHub Light and Solarized Light",
+              "sha256": "2fe96eb6622531ba38b518e43245c5d3340eb9b49e480f528b7c46605cfe4089",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/1a91b0e9dd210771.png",
+                "alt": "products.html.j2 open in Orca in the One Dark (Jinja) palette",
+                "sha256": "1a91b0e9dd210771fc1f784448126f2c33298ac0e326832f28918ad348b42fad",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/71b56a381b62e04b.png",
+                "alt": "products.html.j2 open in Orca in the Dracula (Jinja) palette",
+                "sha256": "71b56a381b62e04b7bb8794a8aead629ec3870c680a9f000ef97d241c4cccd60",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/06b1b1780370cc7f.png",
+                "alt": "products.html.j2 open in Orca in the Monokai (Jinja) palette",
+                "sha256": "06b1b1780370cc7f1cfae8fbb7555c4491d6296bda3fee02ddecf21518d5161c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/45491331f1c44bab.png",
+                "alt": "products.html.j2 open in Orca in the Nord (Jinja) palette",
+                "sha256": "45491331f1c44bab2d2e2fe997047c07f805e2e99d14dbba1342f0d3c86a9b96",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/4be754337d825fe6.png",
+                "alt": "products.html.j2 open in Orca in the GitHub Light (Jinja) palette",
+                "sha256": "4be754337d825fe66b5570dd7867debfe300a5893c91fea4456ebc9664edbaae",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/352116db458d1623.png",
+                "alt": "products.html.j2 open in Orca in the Solarized Light (Jinja) palette",
+                "sha256": "352116db458d162319394bd89320098a6c06145a91dff8c197166942953cabc7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alvarovegaromero/orca-jinja-palettes",
+          "updatedAt": "2026-11-22T11:27:41+01:00"
+        }
+      ]
+    },
+    {
+      "id": "alvarovegaromero.jinja-syntax",
+      "ownerId": 85191316,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/alvarovegaromero/orca-jinja-syntax.git",
+        "ref": "v1.1.1"
+      },
+      "description": "Jinja and Jinja2 template highlighting (.j2, .jinja, .jinja2) with VS Code's Better Jinja grammar: HTML templates with HTML, CSS and JavaScript colored, Jinja colored even inside attributes and <script>, and Ansible-style YAML and config templates.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "323c62ec940020dc469e53177c62de334c6ab7d5",
+          "contentHash": "e44d3761a988f66fc17457ca3de7f1573144ac686e1e642bbf80b8094ee6735d",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Jinja Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Jinja HTML",
+              "detail": ".j2, .jinja, .jinja2"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Jinja",
+              "detail": ".yaml.j2, .yml.j2, .json.j2, .toml.j2, .ini.j2, .cfg.j2, .conf.j2, .env.j2, .sh.j2, .py.j2, .sql.j2, .txt.j2, .md.j2, .service.j2"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Jinja (.jinja)",
+              "detail": ".yaml.jinja, .yml.jinja, .json.jinja, .toml.jinja, .ini.jinja, .conf.jinja, .sql.jinja, .txt.jinja"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Jinja (.jinja2)",
+              "detail": ".yaml.jinja2, .yml.jinja2, .json.jinja2, .toml.jinja2, .ini.jinja2, .conf.jinja2, .sql.jinja2, .txt.jinja2"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML (for Jinja)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CSS (for Jinja)"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JavaScript (for Jinja)"
+            }
+          ],
+          "fileTypes": [
+            "j2",
+            "jinja",
+            "jinja2"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alvarovegaromero.jinja-syntax/c822717d35359f17.png",
+              "alt": "A Jinja HTML template open in Orca, with Jinja tags, HTML, CSS and JavaScript each colored",
+              "sha256": "c822717d35359f17ea91b1dac0ff071cee79ba94350fe32f6921a57a6438e232",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/alvarovegaromero.jinja-syntax/1a91b0e9dd210771.png",
+                "alt": "products.html.j2 open in Orca with Jinja tags, HTML, CSS and JavaScript colored in the One Dark palette",
+                "sha256": "1a91b0e9dd210771fc1f784448126f2c33298ac0e326832f28918ad348b42fad",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-syntax/4be754337d825fe6.png",
+                "alt": "products.html.j2 open in Orca in the GitHub Light palette",
+                "sha256": "4be754337d825fe66b5570dd7867debfe300a5893c91fea4456ebc9664edbaae",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-syntax/35fb68774c374f8a.png",
+                "alt": "nginx.conf.j2 open in Orca with its Jinja loops, variables and filters colored in the Dracula palette",
+                "sha256": "35fb68774c374f8a5d8a669c5330e7e0d04dd10ecba444927e33faabb58653cc",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alvarovegaromero/orca-jinja-syntax",
+          "updatedAt": "2026-11-22T11:29:57+01:00"
+        }
+      ]
+    },
+    {
       "id": "amethystliang.emoji-picker",
       "ownerId": 6427696,
       "source": {
@@ -4198,14 +4400,87 @@
       "ownerId": 800531,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.6"
+        "url": "https://github.com/aywengo/orca-mlx-plugin.git",
+        "ref": "v1.2.0"
       },
-      "description": "Manage a local oMLX server from Orca’s sidebar: save the API key in encrypted secrets, load and unload models, watch memory and live requests, edit base settings, and restart the server without leaving your workspace.",
+      "description": "Manage one or more oMLX servers from Orca’s sidebar: named connections with per-server API keys in encrypted secrets, load and unload models, watch memory and live requests, edit base settings, and restart without leaving your workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "3a66e5a04620b547972ace50a706e262b12b603a",
+          "contentHash": "720ba9234d6e2f3516307e95cda1b5a758cd9c2f9aa71d7b77f708ea2f454215",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "oMLX",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "oMLX"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "oMLX"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/aywengo.omlx/f48f2073332d24dd.png",
+              "alt": "oMLX open in Orca’s sidebar beside the editor, showing memory, loaded models, and generation speed on the Pulses tab",
+              "sha256": "f48f2073332d24dda3c85a35b373cc7f0257208e5b0cecf2e98b6e28bdbb0745",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/aywengo.omlx/3bb536a94fe30f0e.png",
+              "alt": "oMLX icon",
+              "sha256": "3bb536a94fe30f0e90e95deef5318c629c88485d00561ea983eb298dc43a4977",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/aywengo.omlx/3e8ac472c2d90a96.png",
+                "alt": "oMLX Models tab listing MLX models with load state and size",
+                "sha256": "3e8ac472c2d90a96193316931f41d745ee2df8ffcfaaae799bc4caa987c4625d",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/aywengo.omlx/fc0ad30e55f6fc13.png",
+                "alt": "oMLX Pulses tab with memory meter, request stats, and tokens per second",
+                "sha256": "fc0ad30e55f6fc13ee956d6562730bbd63cebfebf5b691869e79ed0411f55c7a",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/aywengo.omlx/3672da4b592c03d6.png",
+                "alt": "oMLX Running tab showing a loaded model and an active generation request",
+                "sha256": "3672da4b592c03d624a05dbad580257e9d839f029b036f165a061e3307a64371",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/aywengo.omlx/29be543a038dff51.png",
+                "alt": "oMLX Settings tab with host, port, and log level under Server",
+                "sha256": "29be543a038dff51fcf6c8aad8de7323d8e266d2e208af040ca412b647c3e559",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/aywengo/orca-mlx-plugin",
+          "updatedAt": "2026-11-22T10:50:16+01:00"
+        },
         {
           "version": "1.1.6",
           "commit": "06c569b82bdecc25faa4535de8b7fa1ca80d8df5",
@@ -4382,41 +4657,6 @@
           "license": "MIT",
           "repository": "https://github.com/aywengo/orca-mlx-plugin",
           "updatedAt": "2026-11-17T16:56:07+01:00"
-        },
-        {
-          "version": "1.1.1",
-          "commit": "b44a246fff6ea73aecabbcc691c52ec7d579a34e",
-          "contentHash": "905eba442c5d78bab304904bc46b5c4944dcec88e09ac0909df61e6becb033e5",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "oMLX",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "oMLX"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "oMLX"
-            }
-          ],
-          "capabilities": [
-            "secrets:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/aywengo.omlx/3bb536a94fe30f0e.png",
-              "alt": "oMLX icon",
-              "sha256": "3bb536a94fe30f0e90e95deef5318c629c88485d00561ea983eb298dc43a4977",
-              "width": 512,
-              "height": 512
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/aywengo/orca-mlx-plugin",
-          "updatedAt": "2026-11-17T15:17:32+01:00"
         }
       ]
     },
@@ -15226,14 +15466,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.266"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.269"
       },
-      "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.266. Pacchetto della community, non ufficiale.",
+      "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.269. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.269",
+          "commit": "e6739ebb96f72cadc60b6df3c4fbdb86f57dc98b",
+          "contentHash": "d28a0d3f4c12f977422bdf621224697a9c27bcf91a4411db21c92096bb1b7a66",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
+              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
+              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-22T11:38:33+01:00"
+        },
         {
           "version": "1.4.266",
           "commit": "b229024609e700008a6aff46cb7dd4a03409ced8",

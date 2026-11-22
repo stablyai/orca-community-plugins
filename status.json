@@ -173,14 +173,18 @@
         "alterdianne.inspo-board"
       ]
     },
-    "alvarovegaromero/orca-jinja-syntax": {
-      "state": "rejected",
+    "alvarovegaromero/orca-jinja-palettes": {
+      "state": "listed",
       "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "no catalog release entry: committed plugin is not installable (a catalog would list it differently: the listed contributions do not match the catalog release)"
-        }
+      "plugins": [
+        "alvarovegaromero.jinja-palettes"
+      ]
+    },
+    "alvarovegaromero/orca-jinja-syntax": {
+      "state": "listed",
+      "ref": "v1.1.1",
+      "plugins": [
+        "alvarovegaromero.jinja-syntax"
       ]
     },
     "amethystliang/orca-plugin": {
@@ -309,19 +313,10 @@
     },
     "aywengo/orca-mlx-plugin": {
       "state": "listed",
-      "ref": "refs/tags/aywengo/orca-mlx-plugin/1.1.6",
+      "ref": "v1.2.0",
       "plugins": [
         "aywengo.omlx"
-      ],
-      "update": {
-        "ref": "v1.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "bahachammakhi/kube-panel": {
       "state": "listed",
@@ -959,12 +954,9 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/ebbop/orca-italiano/1.4.266",
+      "ref": "v1.4.269",
       "plugins": [
         "ebbop.italiano"
-      ],
-      "notes": [
-        "contributes.languagePacks \"it\" (locales/it.json): 24 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {

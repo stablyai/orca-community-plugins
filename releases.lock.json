@@ -257,6 +257,18 @@
     "repoId": 1452834147,
     "firstSeen": "2026-11-10T16:39:58.800Z"
   },
+  "alvarovegaromero.jinja-palettes@1.0.0": {
+    "commit": "284a477022f2bb2c593ff990bc018fca66cd927b",
+    "contentHash": "a3b61d00fbc9124ccb64f0b8b346080f00648a467b1ee0099a0b731423a30f80",
+    "repoId": 1467442106,
+    "firstSeen": "2026-11-22T10:42:47.692Z"
+  },
+  "alvarovegaromero.jinja-syntax@1.1.1": {
+    "commit": "323c62ec940020dc469e53177c62de334c6ab7d5",
+    "contentHash": "e44d3761a988f66fc17457ca3de7f1573144ac686e1e642bbf80b8094ee6735d",
+    "repoId": 1467418895,
+    "firstSeen": "2026-11-22T10:42:47.692Z"
+  },
   "amethystliang.emoji-picker@1.0.0": {
     "commit": "29a68b76aec9030ac9b2a7512b19b2c1917ccb69",
     "contentHash": "bc53b34f1b9ea1c3c391bc806a6b8fbe53ea2ca295f385c18cdfeb998a200db3",
@@ -526,6 +538,12 @@
     "contentHash": "620d2b723bcced4baca09273024feeb89556624d4c10ca07ae95ca1fd7d36049",
     "repoId": 1460622659,
     "firstSeen": "2026-11-21T16:16:04.018Z"
+  },
+  "aywengo.omlx@1.2.0": {
+    "commit": "3a66e5a04620b547972ace50a706e262b12b603a",
+    "contentHash": "720ba9234d6e2f3516307e95cda1b5a758cd9c2f9aa71d7b77f708ea2f454215",
+    "repoId": 1460622659,
+    "firstSeen": "2026-11-22T10:42:47.692Z"
   },
   "bahachammakhi.kube-panel@0.1.0": {
     "commit": "c379f36d6670edd7b58a832aad0fbede0e5069d9",
@@ -1606,6 +1624,12 @@
     "contentHash": "10bcc6cccee8abc8179b05564cf9f319902f57cf4dd09de540f6eb99749c0f62",
     "repoId": 1448741097,
     "firstSeen": "2026-11-20T09:18:00.306Z"
+  },
+  "ebbop.italiano@1.4.269": {
+    "commit": "e6739ebb96f72cadc60b6df3c4fbdb86f57dc98b",
+    "contentHash": "d28a0d3f4c12f977422bdf621224697a9c27bcf91a4411db21c92096bb1b7a66",
+    "repoId": 1448741097,
+    "firstSeen": "2026-11-22T10:42:47.692Z"
   },
   "ebrgr.backlog-md@0.1.0": {
     "commit": "4054862a86a7eb50e36020d17b4394d30cdc120e",
