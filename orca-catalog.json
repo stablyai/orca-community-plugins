@@ -2940,14 +2940,104 @@
       "ownerId": 85191316,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/alvarovegaromero/orca-jinja-palettes/1.0.0"
+        "url": "https://github.com/alvarovegaromero/orca-jinja-palettes.git",
+        "ref": "v1.0.1"
       },
       "description": "Six classic color palettes (One Dark, Dracula, Monokai, Nord, GitHub Light, Solarized Light) tuned so Jinja delimiters, tags, variables and filters each stand out. Use one as the whole app theme or only as the editor theme. Pairs with Jinja Syntax.",
       "categories": [
         "themes"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "eaac6c186160aae6702f9f657cdf041cab379efd",
+          "contentHash": "32b6d289c1533d66cf18962fb7445e220b61acebdf3b5971c6284519ec8ae06b",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Jinja Palettes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "One Dark (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Dracula (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Monokai (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Nord (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "GitHub Light (Jinja)"
+            },
+            {
+              "kind": "themes",
+              "name": "Solarized Light (Jinja)"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alvarovegaromero.jinja-palettes/98450b1a50f796b0.png",
+              "alt": "The same Jinja template in six palettes: One Dark, Dracula, Monokai, Nord, GitHub Light and Solarized Light",
+              "sha256": "98450b1a50f796b060b025aa4c5e7b05f29acc4c21811c1d5c4125cf39becd19",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/1a91b0e9dd210771.png",
+                "alt": "products.html.j2 open in Orca in the One Dark (Jinja) palette",
+                "sha256": "1a91b0e9dd210771fc1f784448126f2c33298ac0e326832f28918ad348b42fad",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/71b56a381b62e04b.png",
+                "alt": "products.html.j2 open in Orca in the Dracula (Jinja) palette",
+                "sha256": "71b56a381b62e04b7bb8794a8aead629ec3870c680a9f000ef97d241c4cccd60",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/06b1b1780370cc7f.png",
+                "alt": "products.html.j2 open in Orca in the Monokai (Jinja) palette",
+                "sha256": "06b1b1780370cc7f1cfae8fbb7555c4491d6296bda3fee02ddecf21518d5161c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/e68208c43a099be1.png",
+                "alt": "products.html.j2 open in Orca in the Nord (Jinja) palette",
+                "sha256": "e68208c43a099be179d4b38ee77fea77fc2998d8a2eda6e8430a6557f644496e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/4be754337d825fe6.png",
+                "alt": "products.html.j2 open in Orca in the GitHub Light (Jinja) palette",
+                "sha256": "4be754337d825fe66b5570dd7867debfe300a5893c91fea4456ebc9664edbaae",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/alvarovegaromero.jinja-palettes/352116db458d1623.png",
+                "alt": "products.html.j2 open in Orca in the Solarized Light (Jinja) palette",
+                "sha256": "352116db458d162319394bd89320098a6c06145a91dff8c197166942953cabc7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alvarovegaromero/orca-jinja-palettes",
+          "updatedAt": "2026-11-22T13:55:59+01:00"
+        },
         {
           "version": "1.0.0",
           "commit": "284a477022f2bb2c593ff990bc018fca66cd927b",
@@ -48341,8 +48431,8 @@
       "ownerId": 116317,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/spscream/orca-fairway/0.6.1"
+        "url": "https://github.com/spscream/orca-fairway.git",
+        "ref": "v0.7.0"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -48350,6 +48440,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.7.0",
+          "commit": "6b1fd44daeb82cf7451147f14220fa983092f906",
+          "contentHash": "c489eb36fa5966079d04faa57dab79a32708eb339b4a5d28436a0c424139a99f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-22T10:08:05-03:00"
+        },
         {
           "version": "0.6.1",
           "commit": "fa16ad3d68d97036075cf97991074875247223d2",
@@ -48497,43 +48624,6 @@
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway",
           "updatedAt": "2026-11-21T23:21:25-03:00"
-        },
-        {
-          "version": "0.4.2",
-          "commit": "9b8a68e8af97ee53a0fa4fb6d49d3e30fadf4514",
-          "contentHash": "faa1063e293f5f87241e9c556c0f608420c228feded7f2ec6bd445346dcfeecb",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/e3694645fc0e0b76.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "e3694645fc0e0b76d7674291687d8260d7c6191d50e087d35530f6be90549894",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway",
-          "updatedAt": "2026-11-21T22:29:04-03:00"
         }
       ]
     },

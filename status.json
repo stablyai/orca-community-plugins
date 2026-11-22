@@ -175,7 +175,7 @@
     },
     "alvarovegaromero/orca-jinja-palettes": {
       "state": "listed",
-      "ref": "refs/tags/alvarovegaromero/orca-jinja-palettes/1.0.0",
+      "ref": "v1.0.1",
       "plugins": [
         "alvarovegaromero.jinja-palettes"
       ]
@@ -1360,6 +1360,34 @@
         "glaicer.sidebar-player"
       ]
     },
+    "gokul-kulkarni/narada": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
+        },
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (apps/desktop/src-tauri/icons/icon.icns, apps/desktop/src-tauri/icons/icon.ico)"
+        }
+      ]
+    },
+    "gokul-kulkarni/objectlens": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (packages/adapter-python/src/parser.test.ts, packages/adapter-snapshot/src/adapter.test.ts, packages/core/src/format/preview.test.ts)"
+        }
+      ]
+    },
     "gongxliang/claude-paper": {
       "state": "listed",
       "ref": "refs/tags/gongxliang/claude-paper/0.6.4",
@@ -2414,6 +2442,16 @@
         "narimanisakhanov-creator.xlsx-editor"
       ]
     },
+    "naroh091/orca-coder-plugin": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "ngoohebi/orca-auto-handoff": {
       "state": "listed",
       "ref": "refs/tags/ngoohebi/orca-auto-handoff/0.2.1",
@@ -3255,7 +3293,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "refs/tags/spscream/orca-fairway/0.6.1",
+      "ref": "v0.7.0",
       "plugins": [
         "spscream.fairway"
       ]

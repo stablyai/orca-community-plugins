@@ -263,6 +263,12 @@
     "repoId": 1467442106,
     "firstSeen": "2026-11-22T10:42:47.692Z"
   },
+  "alvarovegaromero.jinja-palettes@1.0.1": {
+    "commit": "eaac6c186160aae6702f9f657cdf041cab379efd",
+    "contentHash": "32b6d289c1533d66cf18962fb7445e220b61acebdf3b5971c6284519ec8ae06b",
+    "repoId": 1467442106,
+    "firstSeen": "2026-11-22T13:14:05.026Z"
+  },
   "alvarovegaromero.jinja-syntax@1.1.1": {
     "commit": "323c62ec940020dc469e53177c62de334c6ab7d5",
     "contentHash": "e44d3761a988f66fc17457ca3de7f1573144ac686e1e642bbf80b8094ee6735d",
@@ -5110,6 +5116,12 @@
     "contentHash": "0231a9e90dc1961ddfe9936a0065630b539960d5d14f147a7de08983350f31c1",
     "repoId": 1467078314,
     "firstSeen": "2026-11-22T05:15:53.244Z"
+  },
+  "spscream.fairway@0.7.0": {
+    "commit": "6b1fd44daeb82cf7451147f14220fa983092f906",
+    "contentHash": "c489eb36fa5966079d04faa57dab79a32708eb339b4a5d28436a0c424139a99f",
+    "repoId": 1467078314,
+    "firstSeen": "2026-11-22T13:14:05.026Z"
   },
   "structworks.richdown@0.13.0": {
     "commit": "75c151856c375264e77c3f9389a290c208a00e58",
