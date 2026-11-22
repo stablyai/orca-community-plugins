@@ -14983,8 +14983,8 @@
       "ownerId": 81874051,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/duegin/orca-ensemble/0.5.4"
+        "url": "https://github.com/DueGin/orca-ensemble.git",
+        "ref": "v0.5.5"
       },
       "description": "Run a request with a team of agents: a lead that does intake, a shared task board, plan approval, messages and file claims (team mode), or splits the work across isolated members (delegation mode). Each role runs on its own agent CLI and model. Live data-flow dashboard, visual team editor, presets, ",
       "categories": [
@@ -14993,6 +14993,119 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.5.5",
+          "commit": "aac1f1ba8fce3c6d23de1176d5d4c86cadbb44a2",
+          "contentHash": "7da706a1cd7481c81916c0072a3ce6b7bb3eef53250f6888f152d4b3b9de3558",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Ensemble",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Ensemble"
+            },
+            {
+              "kind": "commands",
+              "name": "Ensemble: Open the latest run report"
+            },
+            {
+              "kind": "commands",
+              "name": "Ensemble: Start a team session"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Team",
+              "detail": ".team.json"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Run report",
+              "detail": ".team-run.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Teams"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/duegin.ensemble/86e2b7f0a1b16271.png",
+              "alt": "Run report of a team run: members and the live data flow to the brief, task board, plan approval, team board and file claims",
+              "sha256": "86e2b7f0a1b1627107102a3b69e78f012390b15d917378e4dd5577b237725308",
+              "width": 1400,
+              "height": 870
+            },
+            "icon": {
+              "path": "assets/duegin.ensemble/7602e47bf724030b.png",
+              "alt": "Ensemble icon",
+              "sha256": "7602e47bf724030bf7ea59f17c25a372fb332255ada0d0f65cbaefca18881977",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/duegin.ensemble/86e2b7f0a1b16271.png",
+                "alt": "Run report of a team run: members, the live data-flow diagram and the latest flows",
+                "sha256": "86e2b7f0a1b1627107102a3b69e78f012390b15d917378e4dd5577b237725308",
+                "width": 1400,
+                "height": 870
+              },
+              {
+                "path": "assets/duegin.ensemble/10ee1b0d85baf25d.png",
+                "alt": "Team editor: collaboration mode cards, agent language, the lead's agent and model, and fixed roles",
+                "sha256": "10ee1b0d85baf25d1821a035a3ef918d8e06a04fdd58c69a896d5334593f3333",
+                "width": 1400,
+                "height": 1200
+              },
+              {
+                "path": "assets/duegin.ensemble/465394be688d78f7.png",
+                "alt": "Run report in Chinese: the lead and two members with the data flow to the parts of team mode",
+                "sha256": "465394be688d78f74545f8b7b031e8a9a5b0ea00e1b85bd4561097ab38e5c2e9",
+                "width": 1400,
+                "height": 1100
+              },
+              {
+                "path": "assets/duegin.ensemble/cdd748aad638afea.png",
+                "alt": "Team editor in Chinese",
+                "sha256": "cdd748aad638afeab511661262575f6dfe626523bf12f0d1dbb4fde3382c2b2f",
+                "width": 1300,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/DueGin/orca-ensemble",
+          "updatedAt": "2026-11-22T15:29:17+08:00"
+        },
         {
           "version": "0.5.4",
           "commit": "1cfe81e57b780ebc0b3f44859a653e1464d99f91",
@@ -31620,14 +31733,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.268"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.269"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.268. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.269. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.269",
+          "commit": "42e7e3afb6159407a3c31f5b7a8ad2b98e7633b9",
+          "contentHash": "e1faf92566029757769bd4df60b0920f36e4f6445b878939759927e6cf22e4d8",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-22T08:17:47+01:00"
+        },
         {
           "version": "1.4.268",
           "commit": "d784a6ed739d8c6c143c4e8707af03ebb0d7b137",
@@ -31759,39 +31905,6 @@
           "license": "MIT",
           "repository": "https://github.com/matteoeusebi/orca-italiano",
           "updatedAt": "2026-11-17T08:19:18+01:00"
-        },
-        {
-          "version": "1.4.259",
-          "commit": "a16dbb1104c0d2756b5596adcc1e7909427f79e4",
-          "contentHash": "d1b0f9f4f0a7136d82bbcb09e9b510396ba573dd59b6c75d53c2e851af85e551",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-15T08:21:07+01:00"
         }
       ]
     },
