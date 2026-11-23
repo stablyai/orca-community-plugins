@@ -1761,7 +1761,7 @@
     },
     "jameslatajan/orca-svn": {
       "state": "listed",
-      "ref": "refs/tags/jameslatajan/orca-svn/0.2.10",
+      "ref": "v0.2.11",
       "plugins": [
         "jameslatajan.svn"
       ]
@@ -2254,7 +2254,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.271",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.271",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -2863,6 +2863,13 @@
       "ref": "refs/tags/reisen7/orca-tps/0.4.0",
       "plugins": [
         "reisen7.opencode-tps"
+      ]
+    },
+    "rekanara/fvm-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "rekanara.fvm-manager"
       ]
     },
     "rem021/workspace-naming-guard": {

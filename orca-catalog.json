@@ -26633,8 +26633,8 @@
       "ownerId": 45154585,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jameslatajan/orca-svn/0.2.10"
+        "url": "https://github.com/jameslatajan/orca-svn.git",
+        "ref": "v0.2.11"
       },
       "description": "Subversion in Orca: see a working copy's changes, then update, commit, revert, add, resolve and diff from a sidebar panel.",
       "categories": [
@@ -26643,6 +26643,108 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.11",
+          "commit": "e843a79746007238adc96f3903e614864ec50704",
+          "contentHash": "42e5cc49bef7dbed4b9cd4e65fe5bd6e001b6b20736bb0ccd3850ee14351d689",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "SVN",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "SVN"
+            },
+            {
+              "kind": "panels",
+              "name": "SVN History"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Update"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Commit…"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: New task branch…"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Show log"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SVN Diff",
+              "detail": ".svndiff"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "svndiff"
+          ],
+          "editorFileTypes": [
+            "svndiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
+              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
+              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
+              "alt": "SVN icon",
+              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
+                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
+                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
+                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
+                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
+                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
+                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/jameslatajan/orca-svn",
+          "updatedAt": "2026-11-23T15:36:08+08:00"
+        },
         {
           "version": "0.2.10",
           "commit": "a098a4d1b858b35ce4a56fe728925edc4c4e9da9",
@@ -33428,8 +33530,8 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/matteoeusebi/orca-italiano.git",
-        "ref": "v1.4.271"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.271"
       },
       "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.271. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -41786,6 +41888,61 @@
           "license": "MIT",
           "repository": "https://github.com/reisen7/orca-tps",
           "updatedAt": "2026-11-03T16:36:12+08:00"
+        }
+      ]
+    },
+    {
+      "id": "rekanara.fvm-manager",
+      "ownerId": 291965963,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rekanara/fvm-orca-plugin.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Control FVM (Flutter Version Manager) from Orca's sidebar: see the Flutter SDK pinned by the focused workspace, switch it with fvm use, install, remove and set the global SDK.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "7c64835e292c36ca7596aed175eb63c639c20996",
+          "contentHash": "d915f596f286193ac4b24b87ecd81f20988c52b88d08293a2748c63445811508",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "FVM Manager",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "FVM"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/rekanara.fvm-manager/4a798696b1298b72.png",
+              "alt": "FVM Manager icon",
+              "sha256": "4a798696b1298b727c05810ad92a4c2fec028d6fcc7243ea34835fb0b2dae7e3",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rekanara.fvm-manager/cf2d5df5b16fabb1.png",
+                "alt": "FVM panel showing the pinned Flutter 3.47.5, installed SDKs with Use, Global and Remove, and stable Flutter releases with Install and Use",
+                "sha256": "cf2d5df5b16fabb1d981637c11cc909acf1c04dca4d4b00d10a3559fcd40ea02",
+                "width": 2194,
+                "height": 1194
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rekanara/fvm-orca-plugin",
+          "updatedAt": "2026-11-23T14:35:26+07:00"
         }
       ]
     },
