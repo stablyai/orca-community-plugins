@@ -11899,8 +11899,8 @@
       "ownerId": 110404901,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.1.0"
+        "url": "https://github.com/DavidSeptimus/armada-theme-orca-plugin.git",
+        "ref": "v1.1.1"
       },
       "description": "A dark color theme inspired by the dark themes of JetBrains Fleet and Air.",
       "categories": [
@@ -11908,6 +11908,80 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "5e639a507e385bcabc3b6eeade98bf76be9246a9",
+          "contentHash": "281f964431722bb3a808694059a5f9c9162620ffa3a49b1049c99511fd1e45a4",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Armada for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Armada"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Armada"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/davidseptimus.armada-theme/1f38c4c9270f4751.png",
+              "alt": "Armada in Orca: a TypeScript file above a terminal showing git status and the 16 terminal colors",
+              "sha256": "1f38c4c9270f4751458ee73e4c0d9ce1b523b607e3c889a59f7138a1a1afd642",
+              "width": 3200,
+              "height": 2000
+            },
+            "screenshots": [
+              {
+                "path": "assets/davidseptimus.armada-theme/94a76638192afaca.png",
+                "alt": "A chat with an agent in Orca with the Armada theme",
+                "sha256": "94a76638192afacacc1d688c2dac19f43455089fe09f016ad72171d0121aa726",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/532c4583cd72211d.png",
+                "alt": "A Python file in Orca with the Armada theme",
+                "sha256": "532c4583cd72211d03202d491055a985eeb655a6b8361c0bb7c2f7aece0972a7",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/5041412d4d062ba7.png",
+                "alt": "A CSS file in Orca with the Armada theme",
+                "sha256": "5041412d4d062ba7a8dd01e49829b64c3b102cfd3184e4497ea707bc97173040",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/76213cb7653f378d.png",
+                "alt": "A Markdown file in Orca with the Armada theme",
+                "sha256": "76213cb7653f378d3ea92a5d006d6a48ef8d22d419a5165fdf20af071b9f3f4e",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/37c5d17e9aacb8f2.png",
+                "alt": "A diff of a TypeScript file in Orca with the Armada theme",
+                "sha256": "37c5d17e9aacb8f23dad46a602834728dcd6fa6257f3b80cafcec89b0050e735",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/c925c17abdf131ac.png",
+                "alt": "Orca's terminal with the Armada terminal colors",
+                "sha256": "c925c17abdf131acdc1e915bdeaf008a29bee79da2ed5488f8469c8a9ad1b7f3",
+                "width": 3200,
+                "height": 2000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/DavidSeptimus/armada-theme-orca-plugin",
+          "updatedAt": "2026-11-23T02:12:09-07:00"
+        },
         {
           "version": "1.1.0",
           "commit": "7614af6d316f21ede8ba26e897754a192d1a5bc4",
@@ -21152,8 +21226,8 @@
       "ownerId": 252822752,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Flux-AI-Agent/fluxcut-plugin.git",
-        "ref": "v1.46.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/flux-ai-agent/fluxcut-plugin/1.46.2"
       },
       "description": "Sets up Fluxcut's MCP server and maker skill for Claude Code or Codex in a dedicated Orca terminal. Your agent drives the video steps; you approve them and publish.",
       "categories": [
@@ -26752,6 +26826,125 @@
       ]
     },
     {
+      "id": "jameslatajan.svn",
+      "ownerId": 45154585,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jameslatajan/orca-svn.git",
+        "ref": "v0.2.14"
+      },
+      "description": "Subversion in Orca: see a working copy's changes, then update, commit, revert, add, resolve and diff from a sidebar panel.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.14",
+          "commit": "c63e7fb5587e79e061bdee177d5455f3a2af2b45",
+          "contentHash": "61cd5f5f0725a08cba3fe75bdef3598664e6c50c50f64d0ce01f4e1351788850",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "SVN",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "SVN"
+            },
+            {
+              "kind": "panels",
+              "name": "SVN History"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Update"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Commit…"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: New task branch…"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Show log"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SVN Diff",
+              "detail": ".svndiff"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "svndiff"
+          ],
+          "editorFileTypes": [
+            "svndiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
+              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
+              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
+              "alt": "SVN icon",
+              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
+                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
+                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
+                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
+                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
+                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
+                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/jameslatajan/orca-svn",
+          "updatedAt": "2026-11-23T16:50:40+08:00"
+        }
+      ]
+    },
+    {
       "id": "jargez.docker-vm",
       "ownerId": 17633366,
       "source": {
@@ -30672,6 +30865,67 @@
           "license": "MIT",
           "repository": "https://github.com/Kyino-Pan/agents-director",
           "updatedAt": "2026-11-06T18:59:40+08:00"
+        }
+      ]
+    },
+    {
+      "id": "lamtuanvu.cv-hub",
+      "ownerId": 3332603,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lamtuanvu/cv-hub-orca-plugin.git",
+        "ref": "v0.6.1"
+      },
+      "description": "Browse CV Hub repositories and pull requests in Orca: read diffs, checks and review history, submit reviews, and search code. Signs in with CV Hub in your browser.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "7be469462c7600dd911f6689ec73786c95c1f678",
+          "contentHash": "f8cd840393221787310813daf06a009866c60c81d5caf75e8f87113e1e158c35",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "CV Hub",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CV Hub"
+            },
+            {
+              "kind": "commands",
+              "name": "CV Hub: Sign in"
+            },
+            {
+              "kind": "commands",
+              "name": "CV Hub: Sign out"
+            },
+            {
+              "kind": "commands",
+              "name": "CV Hub: Refresh open pull requests"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CV Hub"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "notifications:show"
+          ],
+          "updatedAt": "2026-11-23T08:26:39Z",
+          "license": "MIT",
+          "repository": "https://github.com/lamtuanvu/cv-hub-orca-plugin"
         }
       ]
     },
@@ -40647,8 +40901,8 @@
       "ownerId": 29147306,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/pierreb40/claude-memory/0.4.1"
+        "url": "https://github.com/PierreB40/claude-memory.git",
+        "ref": "v0.4.2"
       },
       "description": "What Claude Code remembers about the project in front of you, and what no longer holds: memories citing deleted code, broken links, entries Claude cannot see. Read any memory in place; hand the fixes to a new Claude.",
       "categories": [
@@ -40657,6 +40911,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.2",
+          "commit": "dc00b2a146d6c1bb9aa1cd78b81e6a6237fae5f8",
+          "contentHash": "42d5acb533633b9db48eac210e57810234b5eeee218c24e1b9417fe169186361",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Memory",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Memory"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Show or Hide the Sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Memory: Have Claude Verify the Memory"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": " "
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pierreb40.claude-memory/c8b313b6c9a70bb0.png",
+              "alt": "The panel listing memories to verify: a deleted file in the index, a broken link, a cited file not found, one to update at merge.",
+              "sha256": "c8b313b6c9a70bb01344c48a0ff5ad8b28be75da32886508cf1f2514873ca1bb",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/pierreb40.claude-memory/9861cfd2cd2d6c0b.png",
+              "alt": "Claude Memory icon",
+              "sha256": "9861cfd2cd2d6c0babdd01ba9b6a941aebca4bfd3cd5b4800fa3d6333876c0c1",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/pierreb40.claude-memory/62af216fbeb586be.png",
+                "alt": "The panel’s three tabs side by side: memories to verify, what Claude learned this week, and every memory grouped by type.",
+                "sha256": "62af216fbeb586be3bbae308bdc20cb1bef190b7304280ca1b4482e42480a8ab",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/PierreB40/claude-memory",
+          "updatedAt": "2026-11-23T10:12:37+01:00"
+        },
         {
           "version": "0.4.1",
           "commit": "e2dc2edac41e2a6ba6855659e68d00b0dffcd57b",

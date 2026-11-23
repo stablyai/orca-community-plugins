@@ -802,7 +802,7 @@
     },
     "davidseptimus/armada-theme-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.1.0",
+      "ref": "v1.1.1",
       "plugins": [
         "davidseptimus.armada-theme"
       ],
@@ -1294,9 +1294,15 @@
       "plugins": [
         "fang2hou.gruvbox-material-mix-theme"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v2.3.0",
+        "reasons": [
+          {
+            "category": "identity-refused",
+            "detail": "fang2hou/orca-gruvbox-material-mix-theme was deleted and recreated (GitHub repository id 1464984592 is now 1468530686); fang2hou.gruvbox-material-mix-theme stays frozen at its listed releases"
+          }
+        ]
+      }
     },
     "felipemayerdev/omarchy-theme-sync": {
       "state": "listed",
@@ -1328,7 +1334,7 @@
     },
     "flux-ai-agent/fluxcut-plugin": {
       "state": "listed",
-      "ref": "v1.46.2",
+      "ref": "refs/tags/flux-ai-agent/fluxcut-plugin/1.46.2",
       "plugins": [
         "flux-ai-agent.fluxcut"
       ]
@@ -1767,17 +1773,10 @@
       ]
     },
     "jameslatajan/orca-svn": {
-      "state": "rejected",
-      "ref": "v0.2.13",
-      "reasons": [
-        {
-          "category": "no-manifest",
-          "detail": "no readable orca-plugin.json at the release"
-        },
-        {
-          "category": "validation",
-          "detail": "invalid JSON: Unexpected end of JSON input"
-        }
+      "state": "listed",
+      "ref": "v0.2.14",
+      "plugins": [
+        "jameslatajan.svn"
       ]
     },
     "jargez/orca-recipes": {
@@ -2020,13 +2019,10 @@
       ]
     },
     "lamtuanvu/cv-hub-orca-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.6.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "lamtuanvu.cv-hub"
       ]
     },
     "lazyjerry/orca-forrrk": {
@@ -2779,7 +2775,7 @@
     },
     "pierreb40/claude-memory": {
       "state": "listed",
-      "ref": "refs/tags/pierreb40/claude-memory/0.4.1",
+      "ref": "v0.4.2",
       "plugins": [
         "pierreb40.claude-memory"
       ]
