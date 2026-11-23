@@ -2549,6 +2549,38 @@
       ]
     },
     {
+      "id": "ainlee.zh-hant-full-patch",
+      "ownerId": 18187208,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ainlee/Orca_zh-Hant.git",
+        "ref": "v1.4.271"
+      },
+      "description": "以完整 zh-Hant catalog 提供 Orca 繁體中文（台灣）介面翻譯，作為 plugin 語系安裝（不修改內建語系檔）。",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.4.271",
+          "commit": "f12dcc4bf01e7e2b0095cc3f594a2f9d5778115a",
+          "contentHash": "6c2736c7a8ba0e9b79c8b1093808c29ab2f352c823c4ee887f552c494119a876",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "繁體中文（台灣）完整修補",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "zh-Hant"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ainlee/Orca_zh-Hant",
+          "updatedAt": "2026-11-23T09:28:52+08:00"
+        }
+      ]
+    },
+    {
       "id": "albuquerquesz.github-dark-theme",
       "ownerId": 165061558,
       "source": {
@@ -13697,8 +13729,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/divlook/orca-sidenote.git",
-        "ref": "v0.10.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/divlook/orca-sidenote/0.10.2"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
