@@ -2045,6 +2045,12 @@
     "repoId": 1465232057,
     "firstSeen": "2026-11-20T14:16:57.417Z"
   },
+  "fabiopbarbieri.azure-boards@0.3.2": {
+    "commit": "43ca40a887129de6223f728884f332af5ef89e28",
+    "contentHash": "ae052d19b983f2444cec234440e8abf024e38df7eaab9be8e46d863899ed5681",
+    "repoId": 1465232057,
+    "firstSeen": "2026-11-23T17:16:03.273Z"
+  },
   "fabiopbarbieri.omarchy@1.0.2": {
     "commit": "b99149e5b06538019f1bb7cc581e9eafa0eeb4bf",
     "contentHash": "d0b9e1264d2c6e57d6e5c1cd997cc7ac40512c9d4d5a6849522e33c19ce77761",
@@ -5117,6 +5123,12 @@
     "repoId": 1440225977,
     "firstSeen": "2026-11-23T15:45:08.858Z"
   },
+  "senadaruc.grazr@0.11.3": {
+    "commit": "f4d60eefda74977bb88004c0c3fcb68831034104",
+    "contentHash": "29182c36bb4b73cb0d88b86408e5459e99355490d39c2c8774f87ab1ecf20089",
+    "repoId": 1440225977,
+    "firstSeen": "2026-11-23T17:16:03.273Z"
+  },
   "senadaruc.grazr@0.6.1": {
     "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
     "contentHash": "0ca274d8edb533a497a3f1ed36cdfa59acefb0bae8b7e2234ae000af96bbe062",
@@ -5453,6 +5465,12 @@
     "repoId": 1459738990,
     "firstSeen": "2026-11-16T08:57:34.178Z"
   },
+  "shun-shobon.cloudflare-access@0.1.0": {
+    "commit": "e4286af351c385962d467c9d3b1452839ec81ee7",
+    "contentHash": "0e158bc4bb63c95728023a47d305e4976eb1baddc9eb5c50157bb1e169ad3c8b",
+    "repoId": 1469044230,
+    "firstSeen": "2026-11-23T17:16:03.273Z"
+  },
   "simplycreatecode.companion-chat@0.2.0": {
     "commit": "f516c55e74a73043b0873542d67093980a1ec931",
     "contentHash": "1126a480fbef808dc32240496a71f0999fb3d585a855056b80e4b6082cedb989",
@@ -5518,6 +5536,12 @@
     "contentHash": "6f9140203f0e3684f25c8ca9fc4e45cc3444c8f5391f6503b359bdecd4c183c2",
     "repoId": 1464527038,
     "firstSeen": "2026-11-20T08:30:48.708Z"
+  },
+  "sotoru.versionlens@0.2.0": {
+    "commit": "040395688f387e263015416f88f45d7d848d565d",
+    "contentHash": "fdf4dca8f7d936dcf8a82b3bc1fa78cdf12f6b414164c0e031d2f7c33e9a7171",
+    "repoId": 1464527038,
+    "firstSeen": "2026-11-23T17:16:03.273Z"
   },
   "spgsroot.omp-usage@1.0.0": {
     "commit": "6522b53b740f02bdc22d0744f53a23d6ec155230",
@@ -6022,6 +6046,12 @@
     "contentHash": "6f65f94c36d9dc2ce739b439fa644c30c60e2a216047bd8ca2cec10c61347512",
     "repoId": 1463752746,
     "firstSeen": "2026-11-20T08:30:48.708Z"
+  },
+  "tornadodai.bot-office@0.2.0": {
+    "commit": "59c1f33b8c6a1c4689ab4c966caed1d673fea4fb",
+    "contentHash": "a544e60028642a8c5eb1a32b814eda364f87831b54d132f308011f636aaea547",
+    "repoId": 1469049764,
+    "firstSeen": "2026-11-23T17:16:03.273Z"
   },
   "tourbut.claude-pin@0.3.1": {
     "commit": "519a4742c614341f0c6c04b5fb9b49079b4f25b7",

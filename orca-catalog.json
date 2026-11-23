@@ -19714,14 +19714,96 @@
       "ownerId": 49872514,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.2.0"
+        "url": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin.git",
+        "ref": "v0.3.2"
       },
-      "description": "Your Azure Boards work items (Azure DevOps Services) in Orca: what is assigned to you and your team's board. Search, move items between states and columns, and start work on one with a coding agent.",
+      "description": "Your Azure Boards work items (Azure DevOps Services) in Orca: what is assigned to you and your teams' boards. Search, move items between states and columns, and start work on one with a coding agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "43ca40a887129de6223f728884f332af5ef89e28",
+          "contentHash": "ae052d19b983f2444cec234440e8abf024e38df7eaab9be8e46d863899ed5681",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.264",
+          "name": "Azure Boards",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Azure Boards"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "history:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/fabiopbarbieri.azure-boards/8ac80f8f5ecd82df.png",
+              "alt": "Azure Boards for Orca: a team board and the Start work form in Orca's sidebar",
+              "sha256": "8ac80f8f5ecd82df8be83ffd8ac3b5fae8f944efb1c93ea0bfdfed12a1e26b4e",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/1c22e547edc0b2e5.png",
+                "alt": "Assigned to me: work items grouped by state, with type icons, task progress and pull requests",
+                "sha256": "1c22e547edc0b2e51ecd80bdc9755a03cc4e34c2cbde1e11a4954a3385ded1bf",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/5754eb985a10b377.png",
+                "alt": "Boards: a button per team board, and the current sprint in the board's own columns, with WIP limits and Doing/Done halves",
+                "sha256": "5754eb985a10b37703ca8579c72efb625ab9ee6096b2fff54c3d273dcd30bd37",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/c772f6001971af89.png",
+                "alt": "Item actions: open in the browser, Start work and Move to",
+                "sha256": "c772f6001971af89c7bd24f7f33064a85bedd049a4aa0bea3425fa2a4e0a3b3c",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/5a2c8ddc82850122.png",
+                "alt": "Start work: sending a ready prompt about the work item to an open coding agent",
+                "sha256": "5a2c8ddc8285012262ecaefa78eb1a3ee873d7258b77fd7d4e7c76830c2421de",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/77af3d19c33dc346.png",
+                "alt": "Search: filtering the items by part of the title",
+                "sha256": "77af3d19c33dc346bcdf2a52ce3536115a2cc1a728f888c7a1660b48073b859d",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/fabiopbarbieri.azure-boards/4bb74ebce637e6fb.png",
+                "alt": "Settings: the Boards section lists the added team boards with a remove button, and adds another by project and team",
+                "sha256": "4bb74ebce637e6fb8ca48c6698a2cee73eba9c46a1da47f8a9c0f4fddabbb819",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin",
+          "updatedAt": "2026-11-23T14:10:18-03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "c1ba60e648b982d11326d95d8d19d6b24832418f",
@@ -29942,8 +30024,8 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Juanpe/orca-pit-wall.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/juanpe/orca-pit-wall/0.2.0"
       },
       "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you.",
       "categories": [
@@ -47731,8 +47813,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/senadaruc/orca-grazr/0.11.2"
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.11.3"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -47741,6 +47823,111 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.3",
+          "commit": "f4d60eefda74977bb88004c0c3fcb68831034104",
+          "contentHash": "29182c36bb4b73cb0d88b86408e5459e99355490d39c2c8774f87ab1ecf20089",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap to the next account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh usage (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Turn rotation on/off (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Add an account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Sign in another organization of the active login (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a model limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a full limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Reload panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Show the focused workspace's host"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-11-23T18:10:00+01:00"
+        },
         {
           "version": "0.11.2",
           "commit": "c290e9ef9b869a6cbdef65e2310bf4e9d3a50e58",
@@ -48156,95 +48343,6 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-11-23T11:55:20+01:00"
-        },
-        {
-          "version": "0.8.1",
-          "commit": "a54bb1a6a6ff92517af7d3b777114a2156a7a8d2",
-          "contentHash": "125690f860ed6ad0a2b55f234acb9761e5f9ed11dbcb660a2166c87744bac02b",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.245",
-          "name": "Grazr",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Claude Accounts"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Target → next host"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Status (all hosts)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Swap to the next account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh parked accounts (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Turn rotation on/off (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Add an account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Install engine on target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Uninstall from target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Drain notices now"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type enrol command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type status command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh panel"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Show the focused workspace's host"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            }
-          ],
-          "capabilities": [
-            "notifications:show",
-            "settings:own",
-            "storage:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/senadaruc/orca-grazr",
-          "updatedAt": "2026-11-03T21:05:53+01:00"
         }
       ]
     },
@@ -52266,6 +52364,59 @@
       ]
     },
     {
+      "id": "shun-shobon.cloudflare-access",
+      "ownerId": 37236438,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shun-shobon/orca-cloudflare-access.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Relays Orca Remote Server connections through Cloudflare Access, signing in with Managed OAuth.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "e4286af351c385962d467c9d3b1452839ec81ee7",
+          "contentHash": "0e158bc4bb63c95728023a47d305e4976eb1baddc9eb5c50157bb1e169ad3c8b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Cloudflare Access",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign in"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign out"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign in or show status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Cloudflare Access"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shun-shobon/orca-cloudflare-access",
+          "updatedAt": "2026-11-24T01:52:16+09:00"
+        }
+      ]
+    },
+    {
       "id": "simplycreatecode.companion-chat",
       "ownerId": 359530843,
       "source": {
@@ -52833,8 +52984,8 @@
       "ownerId": 28980223,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sotoru/orca-designmd.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sotoru/orca-designmd/0.1.0"
       },
       "description": "Lint the workspace's DESIGN.md with Google's design.md linter, preview its colors, type, spacing and components, see what changed since the last commit, and export the tokens to Tailwind or DTCG.",
       "categories": [
@@ -52892,8 +53043,8 @@
       "ownerId": 28980223,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sotoru/orca-fallow.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sotoru/orca-fallow/0.2.0"
       },
       "description": "Unused files, exports and dependencies, duplication, circular imports and complexity hotspots for JavaScript and TypeScript, from Fallow.",
       "categories": [
@@ -52981,14 +53132,53 @@
       "ownerId": 28980223,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sotoru/versionlens/0.1.0"
+        "url": "https://github.com/Sotoru/versionlens.git",
+        "ref": "v0.2.0"
       },
       "description": "See newer npm versions for every package.json dependency, update them in place, read changelogs, and catch peer conflicts and known vulnerabilities.",
       "categories": [
-        "panels"
+        "panels",
+        "commands",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "040395688f387e263015416f88f45d7d848d565d",
+          "contentHash": "fdf4dca8f7d936dcf8a82b3bc1fa78cdf12f6b414164c0e031d2f7c33e9a7171",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Version Lens",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Version Lens"
+            },
+            {
+              "kind": "commands",
+              "name": "Version Lens: Check Dependencies"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Version Lens"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "terminal:read",
+            "terminal:send",
+            "settings:own"
+          ],
+          "updatedAt": "2026-11-23T17:28:31+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/Sotoru/versionlens"
+        },
         {
           "version": "0.1.0",
           "commit": "2a474fb5d731d5386f474d7a32fca201552960dc",
@@ -57650,6 +57840,92 @@
           "license": "MIT",
           "repository": "https://github.com/torisKR/orca-toris-neon",
           "updatedAt": "2026-11-19T19:25:12+09:00"
+        }
+      ]
+    },
+    {
+      "id": "tornadodai.bot-office",
+      "ownerId": 59360883,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/TornadoDai/orca-bot-office.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Live architectural office & grouped workbench in Orca's right sidebar: track every Bot, their Workers, and native Needs-You decision items at a glance.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "59c1f33b8c6a1c4689ab4c966caed1d673fea4fb",
+          "contentHash": "a544e60028642a8c5eb1a32b814eda364f87831b54d132f308011f636aaea547",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/8b4b70e6f1ac180c.png",
+                "alt": "Bot Office cutaway headquarters and decision inspector card showing Bot teams, Worker robots, native Needs-You items, and grouped workbench",
+                "sha256": "8b4b70e6f1ac180c1f6d428679b8e2523696ffaa322ad0341aa7e5fe6e1a9bb8",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T01:09:56+08:00"
         }
       ]
     },
