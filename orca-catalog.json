@@ -4257,8 +4257,8 @@
       "ownerId": 186315048,
       "source": {
         "kind": "git",
-        "url": "https://github.com/arookieofc/jetbrains-icons.git",
-        "ref": "v2.40.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/arookieofc/jetbrains-icons/2.40.0"
       },
       "description": "Unofficial port of JetBrains file and folder icons for light and dark themes.",
       "categories": [
@@ -34405,8 +34405,8 @@
       "ownerId": 9566116,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.1.0"
       },
       "description": "Android ADB device management and live logcat inside Orca.",
       "categories": [
@@ -41831,7 +41831,8 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/QOBYN/s-git-extension.git",
-        "ref": "v0.0.7"
+        "ref": "v0.0.8",
+        "path": "orca/plugin"
       },
       "description": "Git client panel: multi-branch commit graph, hunk staging, side-by-side diff, merge/rebase and file log. Follows the focused workspace.",
       "categories": [
@@ -41839,6 +41840,69 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.0.8",
+          "commit": "13439b750f562314d9e411d1cb0d8c04a93f24f0",
+          "contentHash": "87294d114dbce0525cb6a8e2a9b9b004fa6fc0190396bdbd144708095abe78e3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "S-Git",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "S-Git"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "S-Git",
+              "detail": ".sgit"
+            },
+            {
+              "kind": "newFiles",
+              "name": "S-Git",
+              "detail": ".sgit"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "S-Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "sgit"
+          ],
+          "editorFileTypes": [
+            "sgit"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/qobyn.s-git/a86322681f2bc8e1.png",
+              "alt": "S-Git icon",
+              "sha256": "a86322681f2bc8e18f52e7ed5a5e563d48f2f2593eccfa9ffaa4868a7825dca5",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "updatedAt": "2026-11-23T17:30:11+07:00",
+          "license": "PolyForm-Shield-1.0.0",
+          "repository": "https://github.com/QOBYN/s-git-extension"
+        },
         {
           "version": "0.0.7",
           "commit": "e7e00ae69c9b93a7b17d5fcaefdf71d7dfc1866b",
@@ -44167,14 +44231,55 @@
       "ownerId": 24721832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rr235/orca-task-launcher/0.2.1"
+        "url": "https://github.com/rr235/orca-task-launcher.git",
+        "ref": "v0.2.2"
       },
       "description": "Run the GitHub issues from your projects using custom prompts. Start any open issue in its own branch and worktree with your default agent, right from a side panel that shows your board fields, filters and running agents.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "083c02b9fd71ad7db7fa8687aba4fed9026b7d35",
+          "contentHash": "cb01acdac6e6c9dd7c7e056b1fc5958aee711e82831ad80e40525de773f8c588",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Task Launcher",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Task Launcher"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rr235.task-launcher/2ca4879a5d1ce446.png",
+              "alt": "Task Launcher: the Orca side panel in a dark and a light theme, with a prompt template and open GitHub issues",
+              "sha256": "2ca4879a5d1ce44647cd7b63b0580bdefc457505443da0114884087ac2dc25f9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rr235.task-launcher/a789119ef2ed3cd5.png",
+              "alt": "Task Launcher icon",
+              "sha256": "a789119ef2ed3cd5d21bd707356629a44ff0a13db4ad158d85715ede23132352",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rr235/orca-task-launcher",
+          "updatedAt": "2026-11-23T12:05:19+01:00"
+        },
         {
           "version": "0.2.1",
           "commit": "a34ea7d1e929e7448b2ac3b04853f603f44cac2b",
@@ -44338,47 +44443,6 @@
           "license": "MIT",
           "repository": "https://github.com/rr235/orca-task-launcher",
           "updatedAt": "2026-11-08T10:33:07+01:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "e0e89ede4e2843e9077eadc5c9fa241fd441e0f3",
-          "contentHash": "af3aea867bd01d077096b0d52524d7074cf7384ee3aa44631757105700fc6204",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Task Launcher",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Task Launcher"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.launch.before"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/rr235.task-launcher/2ca4879a5d1ce446.png",
-              "alt": "Task Launcher: the Orca side panel in a dark and a light theme, with a prompt template and open GitHub issues",
-              "sha256": "2ca4879a5d1ce44647cd7b63b0580bdefc457505443da0114884087ac2dc25f9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/rr235.task-launcher/a789119ef2ed3cd5.png",
-              "alt": "Task Launcher icon",
-              "sha256": "a789119ef2ed3cd5d21bd707356629a44ff0a13db4ad158d85715ede23132352",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/rr235/orca-task-launcher",
-          "updatedAt": "2026-11-08T00:55:07+01:00"
         }
       ]
     },

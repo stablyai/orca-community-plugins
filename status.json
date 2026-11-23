@@ -82,7 +82,7 @@
         "addisflava.llm-router"
       ],
       "update": {
-        "ref": "v1.3.0",
+        "ref": "v1.3.1",
         "reasons": [
           {
             "category": "under-review",
@@ -298,7 +298,7 @@
     },
     "arookieofc/jetbrains-icons": {
       "state": "listed",
-      "ref": "v2.40.0",
+      "ref": "refs/tags/arookieofc/jetbrains-icons/2.40.0",
       "plugins": [
         "arookieofc.jetbrains-icons"
       ]
@@ -2308,7 +2308,7 @@
     },
     "mcxinyu/adb-helper-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.1.0",
       "plugins": [
         "mcxinyu.adb-helper"
       ]
@@ -2869,21 +2869,9 @@
     },
     "qobyn/s-git-extension": {
       "state": "listed",
-      "ref": "v0.0.7",
+      "ref": "v0.0.8",
       "plugins": [
         "qobyn.s-git"
-      ],
-      "rejected": [
-        {
-          "path": "orca/plugin",
-          "id": "s-git",
-          "reasons": [
-            {
-              "category": "under-review",
-              "detail": "code, size"
-            }
-          ]
-        }
       ]
     },
     "quocnt85/orca-better-tasks": {
@@ -3056,7 +3044,7 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "refs/tags/rr235/orca-task-launcher/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "rr235.task-launcher"
       ]
@@ -3214,9 +3202,15 @@
       "plugins": [
         "senadaruc.grazr"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.9.11",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "sergei-popov/orca-api-spec-viewer": {
       "state": "listed",
@@ -3801,6 +3795,16 @@
       "ref": "refs/tags/uttam-gelot/orca-todos/0.3.0",
       "plugins": [
         "uttam-gelot.todos"
+      ]
+    },
+    "vaclavgreif/orca-live-agents": {
+      "state": "rejected",
+      "ref": "v0.1.2",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "vale-c/orca-arc-blueberry": {
