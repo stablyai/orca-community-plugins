@@ -53526,8 +53526,8 @@
       "ownerId": 16596559,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tksuns12/account-token-tracker.git",
-        "ref": "v0.3.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tksuns12/account-token-tracker/0.3.5"
       },
       "description": "Tracks per-account quota % and per-model usage, estimating monthly dollar value ($/mo) week-over-week and month-over-month to detect quota enshittification.",
       "categories": [
@@ -55598,14 +55598,47 @@
       "ownerId": 82990248,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.1.0"
+        "url": "https://github.com/Vann-Dev/orca-indonesian-plugin.git",
+        "ref": "v0.2.0"
       },
-      "description": "Antarmuka Orca dalam bahasa Indonesia, diselaraskan dengan Orca 1.4.269. Paket komunitas, tidak resmi.",
+      "description": "Antarmuka Orca dalam bahasa Indonesia.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "36687cd0b0e9350417d293537b7ba113507c1e83",
+          "contentHash": "de73c521d4234294fcd7ee59b6d532eb658583dfd7ee9565f664e272fc9f5a90",
+          "execution": "data",
+          "minimumOrca": "1.4.269",
+          "name": "Bahasa Indonesia",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "id"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vann-dev.indonesian/d4e54ae1f6401c8a.png",
+              "alt": "Jendela bergaya Orca dengan pengaturan tampilan dalam bahasa Indonesia dan pilihan Bahasa Indonesia.",
+              "sha256": "d4e54ae1f6401c8a61669be4a02f26f61dfbddf2cc569104574304ddcd5c96d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vann-dev.indonesian/4cb75d61253160b3.png",
+              "alt": "Bahasa Indonesia icon",
+              "sha256": "4cb75d61253160b3e8da0ea1df44fd9b9021b9dd140a1c0a2e797d9008fb805b",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
+          "updatedAt": "2026-11-23T12:32:21+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "fab39620638cdc11639473ebe0e0e2730cb22a79",
@@ -56280,8 +56313,8 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vrwolf1004/orca-obsidian.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.0"
       },
       "description": "Browse and read your Obsidian vaults from the Orca sidebar.",
       "categories": [

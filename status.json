@@ -865,7 +865,7 @@
         "ddochi-nyang.bot-world"
       ],
       "update": {
-        "ref": "v0.7.0",
+        "ref": "v0.8.0",
         "reasons": [
           {
             "category": "under-review",
@@ -2909,6 +2909,16 @@
         "ricardo-benicio.docker-containers"
       ]
     },
+    "rizanw/steno-spec": {
+      "state": "rejected",
+      "ref": "v0.1.5",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json at the root; orca-catalog.json lists no plugin folder of rizanw/steno-spec that holds an orca-plugin.json (set each entry's source.url to this repository and source.path to its folder)"
+        }
+      ]
+    },
     "robmarcopolo/orca-moonlight-theme": {
       "state": "listed",
       "ref": "refs/tags/robmarcopolo/orca-moonlight-theme/1.0.1",
@@ -3627,7 +3637,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "v0.3.5",
+      "ref": "refs/tags/tksuns12/account-token-tracker/0.3.5",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]
@@ -3789,7 +3799,7 @@
     },
     "vann-dev/orca-indonesian-plugin": {
       "state": "listed",
-      "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "vann-dev.indonesian"
       ]
@@ -3914,7 +3924,7 @@
     },
     "vrwolf1004/orca-obsidian": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.0",
       "plugins": [
         "vrwolf1004.obsidian-for-orca"
       ]
