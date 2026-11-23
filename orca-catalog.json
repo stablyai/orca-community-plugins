@@ -16870,13 +16870,46 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.271"
+        "ref": "v1.4.272"
       },
-      "description": "L’interfaccia di Orca in italiano: 22.000 testi tradotti su 22.000 (100%), allineata a Orca 1.4.271. Pacchetto della community, non ufficiale.",
+      "description": "jAI Studio · 22.661 testi su 22.661 (100%), allineato a Orca 1.4.272. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.272",
+          "commit": "e128a8940b085788cb3392776df0f1306dc386ad",
+          "contentHash": "c1c2227796bbc462a096e6bd028f5f50c6c1477b1f7014c48e341f3506b67cac",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
+              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
+              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-23T18:52:51+01:00"
+        },
         {
           "version": "1.4.271",
           "commit": "9b6c0516211d091e03ee8b5e43704d9ade0548e4",
@@ -17008,23 +17041,6 @@
           "license": "MIT",
           "repository": "https://github.com/Ebbop/orca-italiano",
           "updatedAt": "2026-11-18T00:08:04+01:00"
-        },
-        {
-          "version": "1.4.255",
-          "commit": "76e40ef5b8749ac982fab4b74bb2f65e5f104ecf",
-          "contentHash": "d8399cdfc10f16a8da74b6dc4230b04693194568fc229f73d46041cd38ecc5de",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/Ebbop/orca-italiano",
-          "updatedAt": "2026-11-09T18:12:44+01:00"
         }
       ]
     },
@@ -53368,8 +53384,8 @@
       "ownerId": 116317,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/spscream/orca-fairway/0.8.8"
+        "url": "https://github.com/spscream/orca-fairway.git",
+        "ref": "v0.9.0"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -53377,6 +53393,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.9.0",
+          "commit": "953c13544698ea94bfbce0868eff4868ed510072",
+          "contentHash": "81c44e64f29c67d2d6cd3756b427bfcbf82dbdecd8c19345049862703a9af3a0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-23T14:52:53-03:00"
+        },
         {
           "version": "0.8.8",
           "commit": "bccf0134aa63559f0dc32fea53e5fd0de368de8c",
@@ -53524,43 +53577,6 @@
           "updatedAt": "2026-11-22T11:05:47-03:00",
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway"
-        },
-        {
-          "version": "0.8.0",
-          "commit": "078774cc5a7826ff8e590f365165670a74efe7e6",
-          "contentHash": "40c7cb561013b1fe0a268e19f3fe86b7d97a0c7b5fbb646193866814a853d50e",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway",
-          "updatedAt": "2026-11-22T10:37:49-03:00"
         }
       ]
     },
@@ -57882,15 +57898,84 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.2.1"
+        "ref": "v0.3.0"
       },
-      "description": "Live architectural office & grouped workbench in Orca's right sidebar: track every Bot, their Workers, and native Needs-You decision items with one-click jump.",
+      "description": "Ultra-lightweight 2.5D isometric AI HQ & grouped workbench in Orca's right sidebar: watch Bot teams, Worker robots, live mail dispatches, and native Needs-You decisions with near-zero GPU/CPU overhead.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "5ce04208f3b42c3da8ac079a6c3cd1daf9020fb4",
+          "contentHash": "1c5ab8a3863a3dd16453eabe8b76ff40043b0394d1ee311f8ac3eeb73e464192",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/76536462fb8bef5b.png",
+                "alt": "Bot Office 2.5D isometric headquarters showing team pods, Lead Bots, Worker robots, gliding mail envelopes, and a Needs-You decision preview card",
+                "sha256": "76536462fb8bef5b42318cac48f8e3eaf577ccd254e4c28bddb4ab7d646ac24d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T01:48:29+08:00"
+        },
         {
           "version": "0.2.1",
           "commit": "8783a7299a7bd9cdfb15c750dd808d9f91139c36",
@@ -59806,14 +59891,47 @@
       "ownerId": 82990248,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.2.0"
+        "url": "https://github.com/Vann-Dev/orca-indonesian-plugin.git",
+        "ref": "v0.3.0"
       },
       "description": "Antarmuka Orca dalam bahasa Indonesia.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "b508aa6f4f072dbcf7ebe64a1e16ec8f368c9d3d",
+          "contentHash": "93ff8949f5c5b0200d6fcdbef641e254e3227dadc51cc62c4e1fa3881628f4b6",
+          "execution": "data",
+          "minimumOrca": "1.4.269",
+          "name": "Bahasa Indonesia",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "id"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vann-dev.indonesian/d4e54ae1f6401c8a.png",
+              "alt": "Jendela bergaya Orca dengan pengaturan tampilan dalam bahasa Indonesia dan pilihan Bahasa Indonesia.",
+              "sha256": "d4e54ae1f6401c8a61669be4a02f26f61dfbddf2cc569104574304ddcd5c96d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vann-dev.indonesian/4cb75d61253160b3.png",
+              "alt": "Bahasa Indonesia icon",
+              "sha256": "4cb75d61253160b3e8da0ea1df44fd9b9021b9dd140a1c0a2e797d9008fb805b",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
+          "updatedAt": "2026-11-24T01:10:30+07:00"
+        },
         {
           "version": "0.2.0",
           "commit": "36687cd0b0e9350417d293537b7ba113507c1e83",

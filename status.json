@@ -1002,12 +1002,9 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.271",
+      "ref": "v1.4.272",
       "plugins": [
         "ebbop.italiano"
-      ],
-      "notes": [
-        "contributes.languagePacks \"it\" (locales/it.json): 26 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -2111,6 +2108,16 @@
         "leobessin.mongo-studio"
       ]
     },
+    "lifegood-acc/3d-modeler": {
+      "state": "rejected",
+      "ref": "v0.13.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, content"
+        }
+      ]
+    },
     "lifegood-acc/model-viewer-3d": {
       "state": "rejected",
       "ref": "v0.37.0",
@@ -2258,6 +2265,16 @@
       ],
       "notes": [
         "contributes.languagePacks \"uk\" (locales/uk.json): 111 protected strings are ignored; Orca always shows its own text for security dialogs"
+      ]
+    },
+    "manish-107/orca-dock-containers": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "manomilano/orca-mascots": {
@@ -3572,7 +3589,7 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "refs/tags/spscream/orca-fairway/0.8.8",
+      "ref": "v0.9.0",
       "plugins": [
         "spscream.fairway"
       ]
@@ -3816,7 +3833,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "v0.3.0",
       "plugins": [
         "tornadodai.bot-office"
       ]
@@ -3964,12 +3981,9 @@
     },
     "vann-dev/orca-indonesian-plugin": {
       "state": "listed",
-      "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "vann-dev.indonesian"
-      ],
-      "notes": [
-        "contributes.languagePacks \"id\" (locales/id.json): 27 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "vdhoangson/orca-agent-world": {
