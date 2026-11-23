@@ -11712,6 +11712,119 @@
       ]
     },
     {
+      "id": "computerhof.merge-review",
+      "ownerId": 276100142,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Computerhof/orca-merge-review.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "3a57fb0133645a319c3bd08a0e8f4e4e265b2861",
+          "contentHash": "dff99faffb77767052026995c57a4eaedcc62a2bb1ec01111922b5fd162162c4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Merge & Review",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Merge & Review"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Übersicht öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Nächsten Konflikt öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Mit Base vergleichen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Merge abschließen"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+M",
+              "detail": "mergeReview.open"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+J",
+              "detail": "mergeReview.nextConflict"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Merge & Review",
+              "detail": ".mergereview"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Merge"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "automation:read",
+            "automation:write",
+            "history:read"
+          ],
+          "fileTypes": [
+            "mergereview"
+          ],
+          "editorFileTypes": [
+            "mergereview"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Computerhof/orca-merge-review",
+          "updatedAt": "2026-11-23T16:18:25+01:00"
+        }
+      ]
+    },
+    {
       "id": "crilofer.streamdeck-bridge",
       "ownerId": 6973711,
       "source": {
@@ -47482,7 +47595,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/senadaruc/orca-grazr.git",
-        "ref": "v0.11.1"
+        "ref": "v0.11.2"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -47491,6 +47604,111 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.2",
+          "commit": "c290e9ef9b869a6cbdef65e2310bf4e9d3a50e58",
+          "contentHash": "f5e3c97f66d453094ec8687321ec5803164693c7caa8ef7017af4e31147627ea",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap to the next account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh usage (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Turn rotation on/off (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Add an account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Sign in another organization of the active login (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a model limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a full limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Reload panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Show the focused workspace's host"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-11-23T16:30:05+01:00"
+        },
         {
           "version": "0.11.1",
           "commit": "f828219570e4dd9a0ecb401c569eebbac8562862",
@@ -47890,83 +48108,6 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-11-03T21:05:53+01:00"
-        },
-        {
-          "version": "0.6.3",
-          "commit": "c3e76fd9ff37fc41a532bca9907732a78096aeee",
-          "contentHash": "1ed9a24b2810abf329ecd6022ee86364517a3a37c5a4bcc2f6137ed5a6deacc8",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.245",
-          "name": "Grazr",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Claude Accounts"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Target → next host"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Status (all hosts)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Swap now (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh parked accounts (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Toggle rotation (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Install engine on target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Uninstall from target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Drain notices now"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type enrol command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type status command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh panel"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            }
-          ],
-          "capabilities": [
-            "notifications:show",
-            "settings:own",
-            "storage:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/senadaruc/orca-grazr",
-          "updatedAt": "2026-10-31T09:15:58+01:00"
         }
       ]
     },
@@ -54765,8 +54906,8 @@
       "ownerId": 5731176,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tiagodanin/orca-flutter/0.3.1"
+        "url": "https://github.com/TiagoDanin/Orca-Flutter.git",
+        "ref": "v1.0.0"
       },
       "description": "Flutter and Dart support for Orca",
       "categories": [
@@ -54776,6 +54917,313 @@
         "languages"
       ],
       "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "1ad12c730ea8a1990ac0bb5fa07544d3fed02ed8",
+          "contentHash": "c6d079c02076377b69e0c6163cd3a4724a22d747a0ae51f6c06c8a48feaf7d0e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Flutter",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Flutter"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run (Profile)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run (Release)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Attach"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Stop"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot Reload"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Hot Restart"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Next Device"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Widget Inspector"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Debug Painting"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Performance Overlay"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Override Platform"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Brightness"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Save Screenshot"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Open DevTools"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Dump Widget Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Dump Render Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Open Sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Start Widget Preview"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Get Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Upgrade Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Upgrade Packages (--major-versions)"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: List Outdated Packages"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Add Dependency"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run build_runner"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Generate Localizations"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Clean Project"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Analyze"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Format"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Apply Fixes"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Tests"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Tests with Coverage"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Create Project"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Flutter Doctor"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Run Flutter Upgrade"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Repaint Rainbow"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Slow Animations"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Debug-Mode Banner"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Toggle Baseline Painting"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Cancel Widget Inspection"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Rerun Last Run"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Copy VM Service URI"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Copy DTD URI"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Get Packages for All Projects"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Clean All Projects"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Add Dev Dependency"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Generate Documentation"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Open in Xcode"
+            },
+            {
+              "kind": "commands",
+              "name": "Flutter: Open in Android Studio"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+X",
+              "detail": "flutter.run"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+L",
+              "detail": "flutter.hotReload"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+K",
+              "detail": "flutter.hotRestart"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+S",
+              "detail": "flutter.doctor"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+U",
+              "detail": "flutter.test"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+P",
+              "detail": "flutter.createProject"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "Dart",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Dart file",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatelessWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter StatefulWidget",
+              "detail": ".dart"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Flutter widget with AnimationController",
+              "detail": ".dart"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "No device"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Flutter: Idle"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "dart"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tiagodanin.flutter/8f506153eeb92362.webp",
+              "alt": "Flutter for Orca: the Orca window with code, the Flutter panel buttons Run, Hot Reload, Devices and Analyze, and a phone preview",
+              "sha256": "8f506153eeb923625e6a26b0215a801f9a2c8f0117bd3482c3e845938e62bf5c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tiagodanin.flutter/b4f60c6890c042db.png",
+              "alt": "Flutter icon",
+              "sha256": "b4f60c6890c042db760069c63c2c1ae95e1342132f4bda647ad833a9add75233",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "updatedAt": "2026-11-23T11:56:53-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/TiagoDanin/Orca-Flutter"
+        },
         {
           "version": "0.3.1",
           "commit": "102b97b4cc64d32781deb16b030b302bf3b0ec9e",

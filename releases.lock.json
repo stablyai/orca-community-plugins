@@ -1319,6 +1319,12 @@
     "repoId": 1450018509,
     "firstSeen": "2026-11-12T20:14:53.374Z"
   },
+  "computerhof.merge-review@0.1.0": {
+    "commit": "3a57fb0133645a319c3bd08a0e8f4e4e265b2861",
+    "contentHash": "dff99faffb77767052026995c57a4eaedcc62a2bb1ec01111922b5fd162162c4",
+    "repoId": 1468933815,
+    "firstSeen": "2026-11-23T15:45:08.858Z"
+  },
   "crilofer.streamdeck-bridge@1.0.1": {
     "commit": "8d15793538e169b13c24a658107ea2ac094a9210",
     "contentHash": "6b2b91e1ab95624929ca279d887b3a3104dd8597cad7b6ec315b6e3c69298e40",
@@ -5093,6 +5099,12 @@
     "repoId": 1440225977,
     "firstSeen": "2026-11-23T15:17:48.672Z"
   },
+  "senadaruc.grazr@0.11.2": {
+    "commit": "c290e9ef9b869a6cbdef65e2310bf4e9d3a50e58",
+    "contentHash": "f5e3c97f66d453094ec8687321ec5803164693c7caa8ef7017af4e31147627ea",
+    "repoId": 1440225977,
+    "firstSeen": "2026-11-23T15:45:08.858Z"
+  },
   "senadaruc.grazr@0.6.1": {
     "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
     "contentHash": "0ca274d8edb533a497a3f1ed36cdfa59acefb0bae8b7e2234ae000af96bbe062",
@@ -5842,6 +5854,12 @@
     "contentHash": "00887dea739e58621a20d98a9a175edb3e9eae0634d7694c4da1017372ba7573",
     "repoId": 1460290231,
     "firstSeen": "2026-11-16T20:17:00.286Z"
+  },
+  "tiagodanin.flutter@1.0.0": {
+    "commit": "1ad12c730ea8a1990ac0bb5fa07544d3fed02ed8",
+    "contentHash": "c6d079c02076377b69e0c6163cd3a4724a22d747a0ae51f6c06c8a48feaf7d0e",
+    "repoId": 1460290231,
+    "firstSeen": "2026-11-23T15:45:08.858Z"
   },
   "tienne.git-logs@0.1.1": {
     "commit": "7376e52be94e0bd512906ffbc4f1f926111590c7",

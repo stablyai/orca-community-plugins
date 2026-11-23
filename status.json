@@ -751,6 +751,13 @@
         "src/repo.ts: calls host method \"workspace.list\" from panels, which cannot call it (surfaces: worker)"
       ]
     },
+    "computerhof/orca-merge-review": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "computerhof.merge-review"
+      ]
+    },
     "craig-franklin/orca-commit-review": {
       "state": "rejected",
       "ref": "v0.2.0",
@@ -2522,6 +2529,16 @@
         }
       ]
     },
+    "mqnoy/orca-antigravity-flow": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "screenshot assets/screenshot.png: screenshot must be at least 1280×800"
+        }
+      ]
+    },
     "mrakofff/orca-palenight-theme-plugin": {
       "state": "listed",
       "ref": "refs/tags/mrakofff/orca-palenight-theme-plugin/1.0.0",
@@ -2594,6 +2611,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "net-runners-com/everything-viewer": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (editor/vendor/pdfjs/cmaps/78-EUC-H.bcmap, editor/vendor/pdfjs/cmaps/78-EUC-V.bcmap, editor/vendor/pdfjs/cmaps/78-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-V.bcmap, …)"
         }
       ]
     },
@@ -3242,7 +3269,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.11.1",
+      "ref": "v0.11.2",
       "plugins": [
         "senadaruc.grazr"
       ],
@@ -3716,19 +3743,10 @@
     },
     "tiagodanin/orca-flutter": {
       "state": "listed",
-      "ref": "refs/tags/tiagodanin/orca-flutter/0.3.1",
+      "ref": "v1.0.0",
       "plugins": [
         "tiagodanin.flutter"
-      ],
-      "update": {
-        "ref": "v1.0.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "tienne/jira-tasks": {
       "state": "listed",
