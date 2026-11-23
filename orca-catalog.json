@@ -41308,8 +41308,8 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/plozmun/orca-redmine.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/plozmun/orca-redmine/0.2.1"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
@@ -41728,6 +41728,85 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/prized-dev/orca-prized-plugin",
           "updatedAt": "2026-11-05T15:47:07Z"
+        }
+      ]
+    },
+    {
+      "id": "qobyn.s-git",
+      "ownerId": 270818317,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/QOBYN/s-git-extension.git",
+        "ref": "v0.0.7"
+      },
+      "description": "Git client panel: multi-branch commit graph, hunk staging, side-by-side diff, merge/rebase and file log. Follows the focused workspace.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.0.7",
+          "commit": "e7e00ae69c9b93a7b17d5fcaefdf71d7dfc1866b",
+          "contentHash": "9cdfc22a113608c27d922568375be59766e231531bcb1ced3afc48760b3ea82a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "S-Git",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "S-Git"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "S-Git",
+              "detail": ".sgit"
+            },
+            {
+              "kind": "newFiles",
+              "name": "S-Git",
+              "detail": ".sgit"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "S-Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "sgit"
+          ],
+          "editorFileTypes": [
+            "sgit"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/qobyn.s-git/a86322681f2bc8e1.png",
+              "alt": "S-Git icon",
+              "sha256": "a86322681f2bc8e18f52e7ed5a5e563d48f2f2593eccfa9ffaa4868a7825dca5",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "PolyForm-Shield-1.0.0",
+          "repository": "https://github.com/QOBYN/s-git-extension",
+          "updatedAt": "2026-11-23T16:35:09+07:00"
         }
       ]
     },
@@ -54037,8 +54116,8 @@
       "ownerId": 16596559,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tksuns12/account-token-tracker.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tksuns12/account-token-tracker/0.4.0"
       },
       "description": "Track per-account quota % vs real API dollar value ($/mo), visualize model cost mix, and detect silent quota nerfs week-over-week.",
       "categories": [
@@ -58681,8 +58760,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.1"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [

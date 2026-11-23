@@ -2299,6 +2299,16 @@
         }
       ]
     },
+    "mcxinyu/adb-helper-orca-plugin": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "michelvelzr/ork-dbclient": {
       "state": "listed",
       "ref": "refs/tags/michelvelzr/ork-dbclient/0.2.0",
@@ -2792,7 +2802,7 @@
     },
     "plozmun/orca-redmine": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/plozmun/orca-redmine/0.2.1",
       "plugins": [
         "plozmun.redmine-tasks"
       ]
@@ -2854,13 +2864,13 @@
       ]
     },
     "qobyn/s-git-extension": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.0.7",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code, size"
-        }
+      "plugins": [
+        "qobyn.s-git"
+      ],
+      "notes": [
+        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
       ]
     },
     "quocnt85/orca-better-tasks": {
@@ -3668,7 +3678,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/tksuns12/account-token-tracker/0.4.0",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]
@@ -4057,7 +4067,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.1",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
