@@ -82,7 +82,7 @@
         "addisflava.llm-router"
       ],
       "update": {
-        "ref": "v1.3.6",
+        "ref": "v1.3.12",
         "reasons": [
           {
             "category": "under-review",
@@ -2691,7 +2691,7 @@
     },
     "nomadiction8991/terminal-clearup": {
       "state": "listed",
-      "ref": "v0.3.22",
+      "ref": "refs/tags/nomadiction8991/terminal-clearup/0.3.22",
       "plugins": [
         "nomadiction8991.automation-terminal-cleanup"
       ]
@@ -3589,7 +3589,7 @@
     },
     "steinlabz/octopus": {
       "state": "listed",
-      "ref": "v1.3.0",
+      "ref": "refs/tags/steinlabz/octopus/1.3.0",
       "plugins": [
         "steinlabz.octopus"
       ]

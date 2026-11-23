@@ -39572,8 +39572,8 @@
       "ownerId": 159034763,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Nomadiction8991/terminal-clearup.git",
-        "ref": "v0.3.22"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/nomadiction8991/terminal-clearup/0.3.22"
       },
       "description": "Automatically close terminals tied to completed local automation runs.",
       "categories": [
@@ -53721,8 +53721,8 @@
       "ownerId": 278769479,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SteinLabz/octopus.git",
-        "ref": "v1.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/steinlabz/octopus/1.3.0"
       },
       "description": "Sidebar dashboard for round-based multi-agent runs: members, a live data-flow map, task board, plan approvals, team board and file claims. Ships with a demo run and a documented data contract so you can plug in your own team runtime.",
       "categories": [
