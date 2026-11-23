@@ -3215,6 +3215,12 @@
     "repoId": 1468725454,
     "firstSeen": "2026-11-23T13:18:57.617Z"
   },
+  "juanpe.pit-wall@0.2.0": {
+    "commit": "c4b631d23e74c51bbdee87b6f9c018b7520068b0",
+    "contentHash": "dfe95b149e6e65129010b0e95b102c2eea1bddbd29b0ad4da06324036b9dfc56",
+    "repoId": 1468725454,
+    "firstSeen": "2026-11-23T16:43:37.480Z"
+  },
   "kawamura0807.asana-tasks@0.2.1": {
     "commit": "5997007624e5e7b52a28eb1bd96d2a85d3e148be",
     "contentHash": "e0efd965ca019788a48ff7a322f7b901611670e57e631aee058f902a2e244740",
@@ -5489,11 +5495,23 @@
     "repoId": 1464991129,
     "firstSeen": "2026-11-22T17:42:52.276Z"
   },
+  "sotoru.designmd@0.1.0": {
+    "commit": "fe2533b38e0dfeaea6fc2e3d6a9255bf7a3b10a4",
+    "contentHash": "4a7d7316b9bceeeabc0f2d5ed248a6db1fa2f1fd279846fe60e30cbfb224decf",
+    "repoId": 1469016897,
+    "firstSeen": "2026-11-23T16:43:37.480Z"
+  },
   "sotoru.fallow@0.1.0": {
     "commit": "99eca7b5c340bc96cfb45fa7a9952e50e15764f6",
     "contentHash": "e0ad572333d5c9b49a34f3ffd168d074a6971eda6e3398b28b01a858b9d3d83e",
     "repoId": 1464594619,
     "firstSeen": "2026-11-20T08:30:48.708Z"
+  },
+  "sotoru.fallow@0.2.0": {
+    "commit": "0427af711c106a5f6c553fbf36119c60cee87ba4",
+    "contentHash": "ed989b811b0ebc407d6e5f9337e6a3cf5c0044d4ba7271a5064734a2ffa53ee7",
+    "repoId": 1464594619,
+    "firstSeen": "2026-11-23T16:43:37.480Z"
   },
   "sotoru.versionlens@0.1.0": {
     "commit": "2a474fb5d731d5386f474d7a32fca201552960dc",

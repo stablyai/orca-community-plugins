@@ -29942,14 +29942,76 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/juanpe/orca-pit-wall/0.1.2"
+        "url": "https://github.com/Juanpe/orca-pit-wall.git",
+        "ref": "v0.2.0"
       },
-      "description": "Read-only panel: who is waiting on you, who is working, and the state of every worktree.",
+      "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "c4b631d23e74c51bbdee87b6f9c018b7520068b0",
+          "contentHash": "dfe95b149e6e65129010b0e95b102c2eea1bddbd29b0ad4da06324036b9dfc56",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pit Wall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pit Wall"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/juanpe.pit-wall/91faa055571bfa7b.png",
+              "alt": "Pit Wall next to its tagline: who is waiting on you, who is working, every worktree.",
+              "sha256": "91faa055571bfa7bdaa0a7c79edbdc0e805ae8f5aa4359174225ca240cebe16c",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/juanpe.pit-wall/5e532837b065943b.png",
+                "alt": "The Overview tab: counters, an org chart of projects and their sessions colored by state, and What to do now.",
+                "sha256": "5e532837b065943b9b619ac9a96c4215652fe662373519046de8207e07f6f0c3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/b269574c2cd5d512.png",
+                "alt": "The Sessions tab: sessions waiting on you with their last message, then sessions still working with their current tool.",
+                "sha256": "b269574c2cd5d51226de191f7550524e9cb300c46ab6b18b1ea1e36fc0153f4b",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/5b3cba3a0ae26897.png",
+                "alt": "The Worktrees tab: worktrees grouped by project, each with its PR state, checks and agents waiting or working.",
+                "sha256": "5b3cba3a0ae26897da15d68c69184115d1929904871717faf3d8dcb0e70452c3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/95649150e7e56efa.png",
+                "alt": "The PRs tab: pull requests sorted by checks failing, checks running, ready for review and drafts, each with its checks and the agents in its worktree.",
+                "sha256": "95649150e7e56efad5052c4dd3e728b72f1255245d7b83a41e927bcc3bd3af2c",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Juanpe/orca-pit-wall",
+          "updatedAt": "2026-11-23T17:21:41+01:00"
+        },
         {
           "version": "0.1.2",
           "commit": "ed0378533431574ddd6ae81b4c67b21287459193",
@@ -37939,8 +38001,8 @@
       "ownerId": 1677058,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mqnoy/orca-antigravity-flow.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mqnoy/orca-antigravity-flow/1.0.1"
       },
       "description": "Agile workflows, multi-agent pipelines, isolated account switching, customizable personas, feature usage monitoring, and Orca Workspace Board integration for Antigravity (agy).",
       "categories": [
@@ -50611,8 +50673,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.9.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.9.5"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
@@ -50741,8 +50803,8 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shelmecha/doki-orca-dark-1.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shelmecha/doki-orca-dark-1/0.1.2"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
@@ -51319,8 +51381,8 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shelmecha/doki-orca-dark-2.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shelmecha/doki-orca-dark-2/0.1.2"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
@@ -51697,8 +51759,8 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shelmecha/doki-orca-light.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shelmecha/doki-orca-light/0.1.2"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
@@ -52767,19 +52829,117 @@
       ]
     },
     {
+      "id": "sotoru.designmd",
+      "ownerId": 28980223,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Sotoru/orca-designmd.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Lint the workspace's DESIGN.md with Google's design.md linter, preview its colors, type, spacing and components, see what changed since the last commit, and export the tokens to Tailwind or DTCG.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "fe2533b38e0dfeaea6fc2e3d6a9255bf7a3b10a4",
+          "contentHash": "4a7d7316b9bceeeabc0f2d5ed248a6db1fa2f1fd279846fe60e30cbfb224decf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "DESIGN.md",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DESIGN.md"
+            },
+            {
+              "kind": "commands",
+              "name": "DESIGN.md: Lint"
+            },
+            {
+              "kind": "commands",
+              "name": "DESIGN.md: Export Tokens"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "DESIGN.md"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "agent:launch",
+            "terminal:read",
+            "terminal:send",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Sotoru/orca-designmd",
+          "updatedAt": "2026-11-23T17:28:31+01:00"
+        }
+      ]
+    },
+    {
       "id": "sotoru.fallow",
       "ownerId": 28980223,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sotoru/orca-fallow/0.1.0"
+        "url": "https://github.com/Sotoru/orca-fallow.git",
+        "ref": "v0.2.0"
       },
       "description": "Unused files, exports and dependencies, duplication, circular imports and complexity hotspots for JavaScript and TypeScript, from Fallow.",
       "categories": [
         "panels",
-        "commands"
+        "commands",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "0427af711c106a5f6c553fbf36119c60cee87ba4",
+          "contentHash": "ed989b811b0ebc407d6e5f9337e6a3cf5c0044d4ba7271a5064734a2ffa53ee7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Fallow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fallow"
+            },
+            {
+              "kind": "commands",
+              "name": "Fallow: Run Analysis"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fallow"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "agent:launch",
+            "terminal:read",
+            "terminal:send",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Sotoru/orca-fallow",
+          "updatedAt": "2026-11-23T17:28:30+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "99eca7b5c340bc96cfb45fa7a9952e50e15764f6",
