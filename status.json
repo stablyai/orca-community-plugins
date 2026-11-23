@@ -1099,7 +1099,7 @@
     },
     "erom/orca-plugin-agent-progress-sp": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/erom/orca-plugin-agent-progress-sp/0.2.1",
       "plugins": [
         "erom.agent-progress-sp"
       ]
@@ -2690,17 +2690,10 @@
       ]
     },
     "nomadiction8991/terminal-clearup": {
-      "state": "rejected",
-      "ref": "v0.3.21",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "no catalog release entry: HEAD has no installable plugin here (plugin Git trees cannot contain symlinks, submodules or unknown entries)"
-        },
-        {
-          "category": "binary-files",
-          "detail": "bundles binary files (CLAUDE.md (symlink))"
-        }
+      "state": "listed",
+      "ref": "v0.3.22",
+      "plugins": [
+        "nomadiction8991.automation-terminal-cleanup"
       ]
     },
     "noobitoo/orca-russian": {
@@ -3589,19 +3582,16 @@
     },
     "spscream/orca-fairway": {
       "state": "listed",
-      "ref": "v0.9.1",
+      "ref": "refs/tags/spscream/orca-fairway/0.9.1",
       "plugins": [
         "spscream.fairway"
       ]
     },
-    "steinlabz/orca-team-mode-panel": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+    "steinlabz/octopus": {
+      "state": "listed",
+      "ref": "v1.3.0",
+      "plugins": [
+        "steinlabz.octopus"
       ]
     },
     "stnslvsvnv/orca-computer-use-neon-glow": {

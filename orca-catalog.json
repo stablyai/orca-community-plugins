@@ -18572,8 +18572,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-progress-sp.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-progress-sp/0.2.1"
       },
       "description": "Requires Superpowers. Shows where each Superpowers plan stands, read from its spec, plan and ledger: the current project's tasks and agents, main checkout and worktrees together, the other work in progress, and the stage in the status bar.",
       "categories": [
@@ -39568,6 +39568,64 @@
       ]
     },
     {
+      "id": "nomadiction8991.automation-terminal-cleanup",
+      "ownerId": 159034763,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Nomadiction8991/terminal-clearup.git",
+        "ref": "v0.3.22"
+      },
+      "description": "Automatically close terminals tied to completed local automation runs.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.22",
+          "commit": "464af6030d83f395dacc3de7e60585e8c6456e2e",
+          "contentHash": "19082fbf8ec62c7afc799eeb632580b5be1a6d5f9df3062df2094ba2053b632c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.266",
+          "name": "Terminal Clearup",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Histórico do Terminal Clearup"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Limpeza de automações"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/nomadiction8991.automation-terminal-cleanup/23a03a2e5fd83b5a.webp",
+              "alt": "Terminal Clearup: menos abas, menos RAM. Uma aba concluída é fechada e o contador mostra oito fechamentos no dia.",
+              "sha256": "23a03a2e5fd83b5a1a0064bc5f0a2b4165808d9f2ef5060897ee71cb8420f810",
+              "width": 1586,
+              "height": 992
+            },
+            "screenshots": [
+              {
+                "path": "assets/nomadiction8991.automation-terminal-cleanup/2e29cdad37c5e2c6.webp",
+                "alt": "Painel do Terminal Clearup mostrando histórico de fechamentos, configurações, logs e o total diário de abas e memória.",
+                "sha256": "2e29cdad37c5e2c6d57698bc75c1de8dbd8fcdf7228a57698f7cb72208ec311b",
+                "width": 1586,
+                "height": 992
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Nomadiction8991/terminal-clearup",
+          "updatedAt": "2026-11-23T15:12:44-04:00"
+        }
+      ]
+    },
+    {
       "id": "noripi10.expo-themes",
       "ownerId": 55979374,
       "source": {
@@ -53462,8 +53520,8 @@
       "ownerId": 116317,
       "source": {
         "kind": "git",
-        "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.9.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/spscream/orca-fairway/0.9.1"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -53655,6 +53713,76 @@
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway",
           "updatedAt": "2026-11-22T11:43:46-03:00"
+        }
+      ]
+    },
+    {
+      "id": "steinlabz.octopus",
+      "ownerId": 278769479,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SteinLabz/octopus.git",
+        "ref": "v1.3.0"
+      },
+      "description": "Sidebar dashboard for round-based multi-agent runs: members, a live data-flow map, task board, plan approvals, team board and file claims. Ships with a demo run and a documented data contract so you can plug in your own team runtime.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.3.0",
+          "commit": "40873a73823c3ab7a48bbd8de0da2a6799acb167",
+          "contentHash": "07bfe58c7a8d4f29ffe8802855b5c4e7d601d91037a8fdbe6469f0f52a6eac43",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Octopus",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Octopus"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/steinlabz.octopus/c03652320ee54fac.png",
+              "alt": "Octopus run dashboard in Orca: member cards, a data-flow map connecting actors to shared parts, and a feed of the latest flows.",
+              "sha256": "c03652320ee54fac2332e06e6e667a0a9719e993c616890b2b43793aa40f2859",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/steinlabz.octopus/6b055b8e4b7e1f3f.png",
+              "alt": "Octopus icon",
+              "sha256": "6b055b8e4b7e1f3f9578cf90b016925c47fb5d3d7d163dae3884732495cdfaa4",
+              "width": 128,
+              "height": 128
+            },
+            "screenshots": [
+              {
+                "path": "assets/steinlabz.octopus/c03652320ee54fac.png",
+                "alt": "The Octopus panel showing members, data flow, task board, plan approvals and latest flows for a sample run.",
+                "sha256": "c03652320ee54fac2332e06e6e667a0a9719e993c616890b2b43793aa40f2859",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SteinLabz/octopus",
+          "updatedAt": "2026-11-23T14:14:08-05:00"
         }
       ]
     },
