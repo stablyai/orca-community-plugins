@@ -11899,8 +11899,8 @@
       "ownerId": 110404901,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.0.2"
+        "url": "https://github.com/DavidSeptimus/armada-theme-orca-plugin.git",
+        "ref": "v1.1.0"
       },
       "description": "A dark color theme inspired by the dark themes of JetBrains Fleet and Air.",
       "categories": [
@@ -11908,6 +11908,80 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "7614af6d316f21ede8ba26e897754a192d1a5bc4",
+          "contentHash": "804c64421bfb2767fd62ba00729174457717322a036f8f9883cefad77551900f",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Armada for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Armada"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Armada"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/davidseptimus.armada-theme/9d49f3f1f660e660.png",
+              "alt": "Armada in Orca: a TypeScript file above a terminal showing git status and the 16 terminal colors",
+              "sha256": "9d49f3f1f660e660e0b63f276f8140606fd3b4bc5e141ab14171f63ec88be34e",
+              "width": 3200,
+              "height": 2000
+            },
+            "screenshots": [
+              {
+                "path": "assets/davidseptimus.armada-theme/b6422a8070ecb38b.png",
+                "alt": "A chat with an agent in Orca with the Armada theme",
+                "sha256": "b6422a8070ecb38bae07f0cae113019cd8fe298a012167d3a50ae16356570ced",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/1c48323a2b0b1b98.png",
+                "alt": "A Python file in Orca with the Armada theme",
+                "sha256": "1c48323a2b0b1b98743e80d9a4c10fca9b1d14077b4d7ef12fd6cf9eefbaac5d",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/c4f8c8ceccd8b171.png",
+                "alt": "A CSS file in Orca with the Armada theme",
+                "sha256": "c4f8c8ceccd8b171c9d0d6e8509a6ab9ee1a8344be2364399a6f30fc1d3dd0d1",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/7e31a9f2e2b0d2d0.png",
+                "alt": "A Markdown file in Orca with the Armada theme",
+                "sha256": "7e31a9f2e2b0d2d0edaac638f94ad83d54bc2858c1643d0747225b384487de30",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/902bbd9f4cbf349c.png",
+                "alt": "A diff of a TypeScript file in Orca with the Armada theme",
+                "sha256": "902bbd9f4cbf349c0f0e9e5779a399c5b39092aa357d48c10501d2de9d396147",
+                "width": 3200,
+                "height": 2000
+              },
+              {
+                "path": "assets/davidseptimus.armada-theme/c016d22e34916bfb.png",
+                "alt": "Orca's terminal with the Armada terminal colors",
+                "sha256": "c016d22e34916bfbae323ff3b6f896503b2a3847be0c936d442f9a9ea96ce183",
+                "width": 3200,
+                "height": 2000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/DavidSeptimus/armada-theme-orca-plugin",
+          "updatedAt": "2026-11-23T01:11:35-07:00"
+        },
         {
           "version": "1.0.2",
           "commit": "0621b509e26c9b7c367ab255bf835ba035addb71",
@@ -26634,7 +26708,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/jameslatajan/orca-svn.git",
-        "ref": "v0.2.11"
+        "ref": "v0.2.12"
       },
       "description": "Subversion in Orca: see a working copy's changes, then update, commit, revert, add, resolve and diff from a sidebar panel.",
       "categories": [
@@ -26643,6 +26717,108 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.12",
+          "commit": "4804823385c799c3b6e3ccd114850d61663f10d3",
+          "contentHash": "5cbfc558f3cd857bb0fc8a2a53df6905e4ab0b8e4bcf7bafeb8a67de3f485cfa",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "SVN",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "SVN"
+            },
+            {
+              "kind": "panels",
+              "name": "SVN History"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Update"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Commit…"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: New task branch…"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Show log"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SVN Diff",
+              "detail": ".svndiff"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "svndiff"
+          ],
+          "editorFileTypes": [
+            "svndiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
+              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
+              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
+              "alt": "SVN icon",
+              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
+                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
+                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
+                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
+                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
+                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
+                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/jameslatajan/orca-svn",
+          "updatedAt": "2026-11-23T16:02:53+08:00"
+        },
         {
           "version": "0.2.11",
           "commit": "e843a79746007238adc96f3903e614864ec50704",
@@ -38336,6 +38512,63 @@
       ]
     },
     {
+      "id": "oddieradhie.jenkins",
+      "ownerId": 8626156,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/oddieradhie/orca-jenkins.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Jenkins CI/CD monitoring sidebar panel, status bar counter, build queue, console log viewer, and build triggers for Orca.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "d8f1a041edbcd21f54a2a16b7d04c85e4228ccd6",
+          "contentHash": "6013213ee5e60a0dd747ed459b364c713a3df996c5656d9c7e2c85ca73b31439",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Jenkins",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Jenkins"
+            },
+            {
+              "kind": "commands",
+              "name": "Jenkins: Refresh Builds"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Jenkins"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/oddieradhie.jenkins/58d1d382a831b79a.png",
+              "alt": "Jenkins icon",
+              "sha256": "58d1d382a831b79a5b2eb1a1079157345a79aad881261303307559507f59e411",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oddieradhie/orca-jenkins",
+          "updatedAt": "2026-11-23T13:27:19+07:00"
+        }
+      ]
+    },
+    {
       "id": "oddieradhie.kerjan",
       "ownerId": 8626156,
       "source": {
@@ -41896,8 +42129,8 @@
       "ownerId": 291965963,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rekanara/fvm-orca-plugin.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rekanara/fvm-orca-plugin/0.1.1"
       },
       "description": "Control FVM (Flutter Version Manager) from Orca's sidebar: see the Flutter SDK pinned by the focused workspace, switch it with fvm use, install, remove and set the global SDK.",
       "categories": [
@@ -41943,6 +42176,61 @@
           "license": "MIT",
           "repository": "https://github.com/rekanara/fvm-orca-plugin",
           "updatedAt": "2026-11-23T14:35:26+07:00"
+        }
+      ]
+    },
+    {
+      "id": "rekanara.nvm-manager",
+      "ownerId": 291965963,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rekanara/nvm-orca-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Control nvm (Node Version Manager) on macOS, Linux and Windows (nvm-windows) from Orca's sidebar: see the Node.js version pinned by the focused workspace's .nvmrc, pin another one, install, uninstall and set the default version.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "6992ff3a750d47fd28c37d0441f11cb326a51b45",
+          "contentHash": "6f0bef7fd950b2e17e0b24b4743d3242c817e93ae8af31354a5ceb6e4b71e337",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "NVM Manager",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "NVM"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/rekanara.nvm-manager/dc876bf5517bca92.png",
+              "alt": "NVM Manager icon",
+              "sha256": "dc876bf5517bca92f4733507fba195791ce67d8954697a13e48f710a784c8ba8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rekanara.nvm-manager/44361d761dc70fbf.png",
+                "alt": "NVM panel showing the focused workspace, installed Node.js versions with Pin, Default and Uninstall, and Node.js release lines",
+                "sha256": "44361d761dc70fbffacc509491a5215d7c598984cd18604d17853302b0ae37f7",
+                "width": 2192,
+                "height": 1726
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rekanara/nvm-orca-plugin",
+          "updatedAt": "2026-11-23T14:47:27+07:00"
         }
       ]
     },
@@ -56671,14 +56959,73 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.1"
+        "url": "https://github.com/vrwolf1004/orca-obsidian.git",
+        "ref": "v0.6.2"
       },
       "description": "Browse and read your Obsidian vaults from the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "3f58059307a1d511d0d3781d79b29d2c31a0e12a",
+          "contentHash": "aba764cc16b57f119abf52d2597ac172905b26c76e5e0dd733c3897ca6853e51",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Obsidian for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Obsidian"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/95e8642e91865525.webp",
+              "alt": "Obsidian for Orca with the note graph behind the vertical tabs and a note below",
+              "sha256": "95e8642e918655254e62502263715957c81822a5c0ac51cb45b95198d2fa293d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/7c04e29288953d08.png",
+              "alt": "Obsidian for Orca icon",
+              "sha256": "7c04e29288953d086e20571cae8337a38d2ef1eb1ac32a7a09856d014ea8120a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/9896fd1e1d448315.webp",
+                "alt": "Notes tab with a folder tree and the Markdown view below",
+                "sha256": "9896fd1e1d448315ca5122ad2278cab6c0cce17ac0cca0d1b2ba0e532a880593",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/c3c1ccf024d5728d.webp",
+                "alt": "Help popup listing the shortcuts",
+                "sha256": "c3c1ccf024d5728dcc00c67c9d13b4213be7d3086f322f3134d3d33b907eb836",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/45a2f007e14c58e7.webp",
+                "alt": "Vaults tab open over the note graph",
+                "sha256": "45a2f007e14c58e7716c18a047b0850cfe6da532b6107b4675056d385b6b7463",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-obsidian",
+          "updatedAt": "2026-11-23T17:15:08+09:00"
+        },
         {
           "version": "0.6.1",
           "commit": "873b2872cc58e97bd33f73df1ca0838c906294e7",
@@ -58352,8 +58699,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.9"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.2.0"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -58362,6 +58709,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "96ed7261bcde92b7d2735bfc47eb09a8878b4f02",
+          "contentHash": "b04bafc26021331ef91082f5f2ea3c1f62773fb3c907c34262f4685bf566158d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-23T16:07:59+08:00"
+        },
         {
           "version": "0.1.9",
           "commit": "3e2fd4524f922ed4eb5ccf2d598c79077a786417",
@@ -58684,86 +59112,6 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-17T17:52:48+08:00"
-        },
-        {
-          "version": "0.1.4",
-          "commit": "118689271a1efb4f172cbbf4386ba0ffb86e94da",
-          "contentHash": "6653107e05776ab3e15a3ff3699fa77add7a7130b88de1793d2da39de5fbf74e",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-17T11:36:30+08:00"
         }
       ]
     },

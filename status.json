@@ -802,7 +802,7 @@
     },
     "davidseptimus/armada-theme-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.0.2",
+      "ref": "v1.1.0",
       "plugins": [
         "davidseptimus.armada-theme"
       ],
@@ -1761,7 +1761,7 @@
     },
     "jameslatajan/orca-svn": {
       "state": "listed",
-      "ref": "v0.2.11",
+      "ref": "v0.2.12",
       "plugins": [
         "jameslatajan.svn"
       ]
@@ -2007,19 +2007,11 @@
     },
     "lamtuanvu/cv-hub-orca-plugin": {
       "state": "rejected",
-      "ref": "v0.5.0",
+      "ref": "v0.6.0",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "contributes.commands[0]: unknown key \"panel\"; contributes.commands[1]: unknown key \"panel\"; contributes.commands[2]: unknown key \"panel\"; contributes.commands[3]: unknown key \"panel\"; contributes.commands[4]: unknown key \"panel\"; contributes.commands[5]: unknown key \"panel\"; contributes.commands[6]: unknown key \"panel\"; contributes.commands[7]: unknown key \"panel\"; (14 more)"
-        },
-        {
-          "category": "publisher",
-          "detail": "publisher \"controlvector\" is not the GitHub owner \"lamtuanvu\": remove \"publisher\" and set engines.orca to \">=1.4.246\", or set \"publisher\": \"lamtuanvu\" (Orca 1.4.246 and later use the owner; older Orca would refuse the install)"
-        },
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -2639,6 +2631,13 @@
         }
       ]
     },
+    "oddieradhie/orca-jenkins": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "oddieradhie.jenkins"
+      ]
+    },
     "oddieradhie/orca-kerjan": {
       "state": "listed",
       "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.3",
@@ -2867,9 +2866,16 @@
     },
     "rekanara/fvm-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/rekanara/fvm-orca-plugin/0.1.1",
       "plugins": [
         "rekanara.fvm-manager"
+      ]
+    },
+    "rekanara/nvm-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "rekanara.nvm-manager"
       ]
     },
     "rem021/workspace-naming-guard": {
@@ -3929,7 +3935,7 @@
     },
     "vrwolf1004/orca-obsidian": {
       "state": "listed",
-      "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.1",
+      "ref": "v0.6.2",
       "plugins": [
         "vrwolf1004.obsidian-for-orca"
       ]
@@ -4031,7 +4037,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.9",
+      "ref": "v0.2.0",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
