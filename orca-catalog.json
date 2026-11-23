@@ -17092,6 +17092,85 @@
       ]
     },
     {
+      "id": "enostech-inc.worklog",
+      "ownerId": 164618298,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ENOSTECH-inc/orca-worklog.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Visualize human and AI agent activity timelines, active time, live tool traces, and daily/weekly Markdown reports inside Orca.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "9e41df8d3a5c597133b953f8d1e25d0abd7ef0ad",
+          "contentHash": "333a9d41bdbb19592bece215bafc84c4f3546047148ae69b24a34485ee8706f6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Worklog",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Worklog"
+            },
+            {
+              "kind": "commands",
+              "name": "Worklog: Refresh activity"
+            },
+            {
+              "kind": "commands",
+              "name": "Worklog: Generate daily Markdown report"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "0m"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ENOSTECH-inc/orca-worklog",
+          "updatedAt": "2026-11-23T11:36:21+09:00"
+        }
+      ]
+    },
+    {
       "id": "erlhon9.pod",
       "ownerId": 108442817,
       "source": {
@@ -37797,8 +37876,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.0"
+        "url": "https://github.com/oddieradhie/orca-kerjan.git",
+        "ref": "v1.1.2"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
@@ -37806,6 +37885,49 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "7571dc2a9c637913fda5f7fd02de13aa664d18f5",
+          "contentHash": "455ddba6b251448bbcd19f7a4f1da854877b4f9131f5d7df07f3e8c42ed04b9b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Kerjan",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kerjan"
+            },
+            {
+              "kind": "commands",
+              "name": "Kerjan: Refresh Tickets"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Kerjan"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/oddieradhie.kerjan/5649e31e76eb8804.png",
+              "alt": "Kerjan icon",
+              "sha256": "5649e31e76eb88040c1107cc643791f66ae1e8ac730de5ab4984dd1fa8ea0aca",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "updatedAt": "2026-11-23T09:23:00+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/oddieradhie/orca-kerjan"
+        },
         {
           "version": "1.1.0",
           "commit": "057269649270e9d0e5d89d1ada6bd24511a5b505",
@@ -51191,8 +51313,8 @@
       "ownerId": 93583813,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thanhh2615/datanoa/1.1.1"
+        "url": "https://github.com/Thanhh2615/datanoa.git",
+        "ref": "v1.1.2"
       },
       "description": "Database client and SQL studio for Orca. Browse schemas, edit and import data, design tables, and run SQL or Redis queries over SSH and TLS across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, LibSQL/Turso, Cloudflare D1, SQL Server (MSSQL), Oracle, and MongoDB.",
       "categories": [
@@ -51200,6 +51322,109 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "16316e0517a9ba14f9bbce2c3dc89ea0951f262d",
+          "contentHash": "13477f50174a43430e5b4d9800eb7f9013ce1e4efd410f19b4113394aea329f7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Datanoa Studio",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Datanoa"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: Open SQLite File"
+            },
+            {
+              "kind": "commands",
+              "name": "Datanoa: New SQL Query"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Datanoa Studio",
+              "detail": ".sql, .datanoa"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Datanoa Studio",
+              "detail": ".datanoa"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "editorFileTypes": [
+            "sql",
+            "datanoa"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thanhh2615.datanoa/1019a8969c0e421b.webp",
+              "alt": "Datanoa Studio database client and SQL studio for Orca with multi-tab SQL editor, data grid, and schema explorer",
+              "sha256": "1019a8969c0e421b6dc1c3ccb6780840871988d35adac54477b4ff1b539d8a1b",
+              "width": 960,
+              "height": 600
+            },
+            "icon": {
+              "path": "assets/thanhh2615.datanoa/240d38db2598e081.png",
+              "alt": "Datanoa Studio icon",
+              "sha256": "240d38db2598e08170e18d12859f8123af66814b4880729a66cddce0367d524c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/thanhh2615.datanoa/e315cba3dd3494a9.webp",
+                "alt": "Datanoa Studio split view with multi-tab SQL console, transactions, data grid, and JSON inspector",
+                "sha256": "e315cba3dd3494a964800f0b29a6a145e4582b6b07c8ea82d34a0a1f78126e5d",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/ccbd5771f9cee9bf.webp",
+                "alt": "Datanoa Connection Manager with database engines, SSH tunnels, TLS/mTLS, folders, and auto-detect",
+                "sha256": "ccbd5771f9cee9bfa9229c3981bab9418e9e69cc374eecabd851c018ba899fb7",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/2b776aa1944459d0.webp",
+                "alt": "Datanoa visual table designer showing staged column edits, data types, foreign keys, indexes, and SQL migration preview",
+                "sha256": "2b776aa1944459d03c0d3ee362e346133ce32c3a344758ee23c334ba34118287",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/a71d12ac8c446710.webp",
+                "alt": "Datanoa Studio in light theme with compact table bar, grouped schema objects, pinned columns, and find highlighting",
+                "sha256": "a71d12ac8c446710864b4e4ca5521f54b6773955cbc6339483939b524f19bbef",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanhh2615.datanoa/c892bc61ab98beba.webp",
+                "alt": "Datanoa Side Panel with schema explorer tree, data grid with live aggregates, and quick SQL runner",
+                "sha256": "c892bc61ab98bebaf2c606b7391aa1132ac1b4da590d5f7dab1706f021e5df7f",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Thanhh2615/datanoa",
+          "updatedAt": "2026-11-23T09:16:33+07:00"
+        },
         {
           "version": "1.1.1",
           "commit": "e90b9bc3cb5b604f31f8ec042803ef2ab5839070",

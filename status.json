@@ -1035,6 +1035,13 @@
         "emamalet.git-log"
       ]
     },
+    "enostech-inc/orca-worklog": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "enostech-inc.worklog"
+      ]
+    },
     "erlhon9/orca-pod": {
       "state": "listed",
       "ref": "refs/tags/erlhon9/orca-pod/0.4.7",
@@ -1111,7 +1118,7 @@
     },
     "esseener/agent-voice": {
       "state": "rejected",
-      "ref": "v0.1.7",
+      "ref": "v0.1.8",
       "reasons": [
         {
           "category": "under-review",
@@ -2604,19 +2611,10 @@
     },
     "oddieradhie/orca-kerjan": {
       "state": "listed",
-      "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.0",
+      "ref": "v1.1.2",
       "plugins": [
         "oddieradhie.kerjan"
-      ],
-      "update": {
-        "ref": "v1.1.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "omar227/orca-peon-ping": {
       "state": "listed",
@@ -3527,19 +3525,10 @@
     },
     "thanhh2615/datanoa": {
       "state": "listed",
-      "ref": "refs/tags/thanhh2615/datanoa/1.1.1",
+      "ref": "v1.1.2",
       "plugins": [
         "thanhh2615.datanoa"
-      ],
-      "update": {
-        "ref": "v1.1.2",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
