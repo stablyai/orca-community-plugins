@@ -11716,8 +11716,8 @@
       "ownerId": 276100142,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Computerhof/orca-merge-review.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/computerhof/orca-merge-review/0.1.0"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -37935,6 +37935,81 @@
       ]
     },
     {
+      "id": "mqnoy.antigravity-flow",
+      "ownerId": 1677058,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mqnoy/orca-antigravity-flow.git",
+        "ref": "v1.0.1"
+      },
+      "description": "Agile workflows, multi-agent pipelines, isolated account switching, customizable personas, feature usage monitoring, and Orca Workspace Board integration for Antigravity (agy).",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "d0659dc6f0f12e1a0eda57c123fd4b0b154c7fe0",
+          "contentHash": "c04f1c165a1d8afd141d17ff90bb4819632bb5b8bad56aaa29edf30ab9e6af23",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Antigravity Flow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Antigravity Flow"
+            },
+            {
+              "kind": "commands",
+              "name": "Antigravity: Open Antigravity Flow"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mqnoy.antigravity-flow/51c4e158391dd3f5.png",
+              "alt": "Antigravity Flow plugin banner: agile board with account switching and quota table",
+              "sha256": "51c4e158391dd3f57f43a5d35c925855135f6aa9a9ee63714d9a6443001be01d",
+              "width": 960,
+              "height": 540
+            },
+            "icon": {
+              "path": "assets/mqnoy.antigravity-flow/47e5b08818013cc0.png",
+              "alt": "Antigravity Flow icon",
+              "sha256": "47e5b08818013cc0654c15d630b896073a1444a20dde195d385372d5c84d123c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/mqnoy.antigravity-flow/3bf563e2b08aeb56.png",
+                "alt": "Antigravity Flow panel showing accounts, quotas and the agile board",
+                "sha256": "3bf563e2b08aeb56fc58cacf58e29166e218d972cf0b827751eb341de2cacfef",
+                "width": 1280,
+                "height": 823
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mqnoy/orca-antigravity-flow",
+          "updatedAt": "2026-11-23T23:14:54+07:00"
+        }
+      ]
+    },
+    {
       "id": "mrakofff.palenight-theme",
       "ownerId": 21972136,
       "source": {
@@ -47594,8 +47669,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/senadaruc/orca-grazr.git",
-        "ref": "v0.11.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/senadaruc/orca-grazr/0.11.2"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -50536,14 +50611,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.9.4"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.9.5"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.9.5",
+          "commit": "d886dfed190dc5ea9e6c5cd8ce2f2e2090124ead",
+          "contentHash": "4545de8e096284bd0c07459a57996f58e594851ab866f4f72d83cce797de361d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort SDD",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort SDD"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-23T16:07:16Z"
+        },
         {
           "version": "0.9.4",
           "commit": "ffe32aa922f6d825dd0231a0beaeb5564f5a9127",
@@ -50635,29 +50733,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-17T07:38:45Z"
-        },
-        {
-          "version": "0.8.0",
-          "commit": "9dff3b27459e2e6334e282efb1cec41aa424883d",
-          "contentHash": "ecb2302fa28d9938a684908fa82f6ec61a4848703152f994f51034874e64d857",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort Epics",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort Epics"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-16T18:56:53Z"
         }
       ]
     },
@@ -50666,14 +50741,308 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shelmecha/doki-orca-dark-1/0.1.1"
+        "url": "https://github.com/shelmecha/doki-orca-dark-1.git",
+        "ref": "v0.1.2"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "60df4ca5334eb9e06dcc68dcb5c2636decbf331d",
+          "contentHash": "825ff9a8a2612c196bf2ad8f5449adf2fb173195f77db19cd4da45fe3867f809",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Doki Dark Terminal Themes 1",
+          "contributes": [
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Aqua"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Astolfo"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Asuna Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Azuki"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Chocola"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Christmas Chocola"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Cinnamon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Coconut"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Darkness Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Echidna"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Emilia Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Essex"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Gasai Yuno"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Genos"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Gray"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hanekawa Tsubasa"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hatsune Miku"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hayase Nagatoro"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hinata Shoyo"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hiro"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hiro x Zero Two"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ishtar Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Jabami Yumeko"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Jahy"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Kanna"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Katsuragi Misato"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Kirino"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Konata"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mai Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Maika"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Makise Kurisu"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Maple Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Megumin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Miia"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mioda Ibuki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Misaka Mikoto"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Monika Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nadeshiko"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Miku"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Nino"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Yotsuba"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Natsuki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ram"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Raphtalia"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rei"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rem"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rias Crimson"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rias Onyx"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rimuru Tempest"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rory Mercury"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ryuko Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sagiri"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Satsuki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sayori Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Shima Rin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sonoda Umi"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Takanashi Rikka"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Tohsaka Rin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Vanilla"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yukihira Soma"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yukinoshita Yukino"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yuri Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Dark Obsidian"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Dark Rose"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shelmecha.doki-terminal-dark-1/b2f8de03450d08f5.png",
+              "alt": "Doki Dark Terminal Themes 1: three terminal windows in different color palettes next to the plugin name",
+              "sha256": "b2f8de03450d08f53e85241ad19480cc7830254c5078f0b771e364a1abcec8d0",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/shelmecha.doki-terminal-dark-1/9f6c3f18c8694a32.png",
+                "alt": "Gallery of eight Doki Dark Terminal Themes 1 palettes, each with a terminal preview and its 16 colors",
+                "sha256": "9f6c3f18c8694a328fc6559d4c579a9a8dc565d7dd00cc3482fda37cea160709",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/shelmecha.doki-terminal-dark-1/dc4d164e68d7f5f1.png",
+                "alt": "One Doki Dark Terminal Themes 1 palette on a large terminal next to its ANSI color swatches",
+                "sha256": "dc4d164e68d7f5f1dfc1fd3fd87e40d5694bf263482b9737ad896f5519909204",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shelmecha/doki-orca-dark-1",
+          "updatedAt": "2026-11-23T23:55:23+08:00"
+        },
         {
           "version": "0.1.1",
           "commit": "33be7665993a7b5ba232906284bc558def511fc8",
@@ -50950,14 +51319,208 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shelmecha/doki-orca-dark-2/0.1.1"
+        "url": "https://github.com/shelmecha/doki-orca-dark-2.git",
+        "ref": "v0.1.2"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "4b93a7dbfe3052ce4ed069a2023bf212ad6443cf",
+          "contentHash": "937c6a44ade13e70a2cb032ec727860aaad52e0cf3200f1d31c7399a51f809c4",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Doki Dark Terminal Themes 2",
+          "contributes": [
+            {
+              "kind": "terminalThemes",
+              "name": "termcn AMOLED"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Aura"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Ayu"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Carbonfox"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin Frappe"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin Macchiato"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Cobalt2"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Cursor"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Default"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Dracula"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Everforest"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Flexoki"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn GitHub"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Gruvbox"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn High Contrast"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Kanagawa"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Lucent Orng"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Material"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Matrix"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Mercury"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Monokai"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Night Owl"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Nord"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn OC-2"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn One Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn One Dark Pro"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn OpenCode"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Orng"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Osaka Jade"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Palenight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Rose Pine"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Shades of Purple"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Solarized"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Synthwave '84"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Tokyo Night"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Vercel"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Vesper"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Zenburn"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shelmecha.doki-terminal-dark-2/b568da1622222b78.png",
+              "alt": "Doki Dark Terminal Themes 2: three terminal windows in different color palettes next to the plugin name",
+              "sha256": "b568da1622222b78b144ccdf7ea6f7175f2f5b717de1c86eb551ef7cffda088d",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/shelmecha.doki-terminal-dark-2/97555e58d4f23dc3.png",
+                "alt": "Gallery of eight Doki Dark Terminal Themes 2 palettes, each with a terminal preview and its 16 colors",
+                "sha256": "97555e58d4f23dc3c80c7a9971574df1e7ac7d10e92b8a9a134812dc710c241f",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/shelmecha.doki-terminal-dark-2/79250c4a60e7d137.png",
+                "alt": "One Doki Dark Terminal Themes 2 palette on a large terminal next to its ANSI color swatches",
+                "sha256": "79250c4a60e7d1375235fdf0d0ecc62e3879872b5f1c872444dd0e58f94e8b6c",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shelmecha/doki-orca-dark-2",
+          "updatedAt": "2026-11-23T23:55:38+08:00"
+        },
         {
           "version": "0.1.1",
           "commit": "543d06809df7f33d165335c4ec4797e7993c2179",
@@ -51134,14 +51697,188 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shelmecha/doki-orca-light/0.1.1"
+        "url": "https://github.com/shelmecha/doki-orca-light.git",
+        "ref": "v0.1.2"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "bac5025a2854984ddc3b65ed66a27a4bf37e42ac",
+          "contentHash": "0048b57fafe7fad44907ac08e5c56007cb7c0325a8d0ee73e2f1df11d829447b",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Doki Light Terminal Themes",
+          "contributes": [
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Asuna Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Beatrice"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki C.C."
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Darkness Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Emilia Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ishtar Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mai Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Maple Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mioda Ibuki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Monika Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Ichika"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Itsuki"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Natsuki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ryuko Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Satsuki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sayori Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Senko"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Shigure"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Tohru"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Tomori Nao"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yuri Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yuzuriha Inori"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Light Lily"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Light Sakura"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Ayu Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin Latte"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Cute Pink Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Everforest Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Flexoki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn GitHub Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Gruvbox Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn High Contrast Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Rosé Pine Dawn"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Solarized Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shelmecha.doki-terminal-light/a6e17e7577ebe846.png",
+              "alt": "Doki Light Terminal Themes: three terminal windows in different color palettes next to the plugin name",
+              "sha256": "a6e17e7577ebe8463dc5f2b4c4f5d7dae47540758d89b0418c5b722b5c40c2dd",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/shelmecha.doki-terminal-light/176f2229c2de63fc.png",
+                "alt": "Gallery of eight Doki Light Terminal Themes palettes, each with a terminal preview and its 16 colors",
+                "sha256": "176f2229c2de63fca9873a87562ac91cdb8ec73394add743645e12a91a29c33b",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/shelmecha.doki-terminal-light/f0b5e12c5249d094.png",
+                "alt": "One Doki Light Terminal Themes palette on a large terminal next to its ANSI color swatches",
+                "sha256": "f0b5e12c5249d094a4df039956ecbd64cb0aac46036bd0164f990343c9782ae2",
+                "width": 1920,
+                "height": 1200
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shelmecha/doki-orca-light",
+          "updatedAt": "2026-11-23T23:55:52+08:00"
+        },
         {
           "version": "0.1.1",
           "commit": "7949962d8e2a102a3057660c7335189947a2271a",
@@ -54906,8 +55643,8 @@
       "ownerId": 5731176,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TiagoDanin/Orca-Flutter.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tiagodanin/orca-flutter/1.0.0"
       },
       "description": "Flutter and Dart support for Orca",
       "categories": [

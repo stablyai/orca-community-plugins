@@ -3953,6 +3953,12 @@
     "repoId": 1445571671,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "mqnoy.antigravity-flow@1.0.1": {
+    "commit": "d0659dc6f0f12e1a0eda57c123fd4b0b154c7fe0",
+    "contentHash": "c04f1c165a1d8afd141d17ff90bb4819632bb5b8bad56aaa29edf30ab9e6af23",
+    "repoId": 1468996003,
+    "firstSeen": "2026-11-23T16:18:06.461Z"
+  },
   "mrakofff.palenight-theme@1.0.0": {
     "commit": "ce4d9848da5dcd1ce7c6d1594a1d147964c60378",
     "contentHash": "37152349fa4f08a1023b43d0788d76cd5569ce06bedf87fe868b17629b6be68d",
@@ -5381,11 +5387,23 @@
     "repoId": 1451239680,
     "firstSeen": "2026-11-23T06:34:23.126Z"
   },
+  "shaurgon.conport-orca@0.9.5": {
+    "commit": "d886dfed190dc5ea9e6c5cd8ce2f2e2090124ead",
+    "contentHash": "4545de8e096284bd0c07459a57996f58e594851ab866f4f72d83cce797de361d",
+    "repoId": 1451239680,
+    "firstSeen": "2026-11-23T16:18:06.461Z"
+  },
   "shelmecha.doki-terminal-dark-1@0.1.1": {
     "commit": "33be7665993a7b5ba232906284bc558def511fc8",
     "contentHash": "37dea09a60f47d70cf032a367e0b7742600c8fcc6f38aeb3f9f4c105b45db745",
     "repoId": 1468794850,
     "firstSeen": "2026-11-23T14:43:27.583Z"
+  },
+  "shelmecha.doki-terminal-dark-1@0.1.2": {
+    "commit": "60df4ca5334eb9e06dcc68dcb5c2636decbf331d",
+    "contentHash": "825ff9a8a2612c196bf2ad8f5449adf2fb173195f77db19cd4da45fe3867f809",
+    "repoId": 1468794850,
+    "firstSeen": "2026-11-23T16:18:06.461Z"
   },
   "shelmecha.doki-terminal-dark-2@0.1.1": {
     "commit": "543d06809df7f33d165335c4ec4797e7993c2179",
@@ -5393,11 +5411,23 @@
     "repoId": 1468795027,
     "firstSeen": "2026-11-23T14:43:27.583Z"
   },
+  "shelmecha.doki-terminal-dark-2@0.1.2": {
+    "commit": "4b93a7dbfe3052ce4ed069a2023bf212ad6443cf",
+    "contentHash": "937c6a44ade13e70a2cb032ec727860aaad52e0cf3200f1d31c7399a51f809c4",
+    "repoId": 1468795027,
+    "firstSeen": "2026-11-23T16:18:06.461Z"
+  },
   "shelmecha.doki-terminal-light@0.1.1": {
     "commit": "7949962d8e2a102a3057660c7335189947a2271a",
     "contentHash": "e1fcabe3cdfca56ea038d1ed616bd5156307e3c1b2c1ecbdc5b58cfde4e9ae38",
     "repoId": 1468795228,
     "firstSeen": "2026-11-23T14:43:27.583Z"
+  },
+  "shelmecha.doki-terminal-light@0.1.2": {
+    "commit": "bac5025a2854984ddc3b65ed66a27a4bf37e42ac",
+    "contentHash": "0048b57fafe7fad44907ac08e5c56007cb7c0325a8d0ee73e2f1df11d829447b",
+    "repoId": 1468795228,
+    "firstSeen": "2026-11-23T16:18:06.461Z"
   },
   "shu-vro.read-aloud@0.1.0": {
     "commit": "7e0b47b37dd029940197d116f090a67b07642579",

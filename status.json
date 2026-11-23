@@ -753,7 +753,7 @@
     },
     "computerhof/orca-merge-review": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/computerhof/orca-merge-review/0.1.0",
       "plugins": [
         "computerhof.merge-review"
       ]
@@ -2530,13 +2530,13 @@
       ]
     },
     "mqnoy/orca-antigravity-flow": {
-      "state": "rejected",
-      "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "screenshot assets/screenshot.png: screenshot must be at least 1280×800"
-        }
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "mqnoy.antigravity-flow"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "mrakofff/orca-palenight-theme-plugin": {
@@ -3269,7 +3269,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.11.2",
+      "ref": "refs/tags/senadaruc/orca-grazr/0.11.2",
       "plugins": [
         "senadaruc.grazr"
       ],
@@ -3384,28 +3384,28 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.9.4",
+      "ref": "v0.9.5",
       "plugins": [
         "shaurgon.conport-orca"
       ]
     },
     "shelmecha/doki-orca-dark-1": {
       "state": "listed",
-      "ref": "refs/tags/shelmecha/doki-orca-dark-1/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "shelmecha.doki-terminal-dark-1"
       ]
     },
     "shelmecha/doki-orca-dark-2": {
       "state": "listed",
-      "ref": "refs/tags/shelmecha/doki-orca-dark-2/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "shelmecha.doki-terminal-dark-2"
       ]
     },
     "shelmecha/doki-orca-light": {
       "state": "listed",
-      "ref": "refs/tags/shelmecha/doki-orca-light/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "shelmecha.doki-terminal-light"
       ]
@@ -3743,7 +3743,7 @@
     },
     "tiagodanin/orca-flutter": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/tiagodanin/orca-flutter/1.0.0",
       "plugins": [
         "tiagodanin.flutter"
       ]
