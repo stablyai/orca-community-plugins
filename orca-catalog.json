@@ -12321,7 +12321,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
-        "ref": "v0.8.0"
+        "ref": "v0.9.0"
       },
       "description": "Virtual office & Pocket Pet visualizer for Orca bots and live sub-workers (read-only by default, opt-in Quick Send)",
       "categories": [
@@ -12330,6 +12330,122 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.9.0",
+          "commit": "c27cacc96e606f8fa1491925003343f920256924",
+          "contentHash": "82b4d2ec1558d89e531ac8c9bfdbe2d8f0f113db614b19fccc2e774613a04e70",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Bot World",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh Bot World"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot World Office",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Bot World Board",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot World"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "agent:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "botworld"
+          ],
+          "editorFileTypes": [
+            "botworld"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+              "alt": "Bot World Wide Office Board displaying 10 Orca bots and live sub-workers in the Startup Office theme",
+              "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
+              "alt": "Bot World icon",
+              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+                "alt": "Bot World wide .botworld office board in the Startup Office theme with 10 live bots, sub-workers, character switcher, and 24-hour event timeline",
+                "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/0949c7778918ab78.jpg",
+                "alt": "Bot World wide .botworld office board in the Corporate Office theme highlighting a Needs You approval badge, open items, and automation status",
+                "sha256": "0949c7778918ab78c6023910e40b79532ead679a24fd6a484880bd4051bd1e6b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/6b6257f1780737c1.jpg",
+                "alt": "Bot World wide .botworld office board with Redact Mode enabled and 24-hour timeline replay paused at an earlier timestamp",
+                "sha256": "6b6257f1780737c16fda6bf54bcd043ded61dd6575514bee10e1bc45d90fb22a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/b9c9635cfb5976a9.jpg",
+                "alt": "Bot World wide .botworld office board in Night mode with warm desk lamp glows, steaming coffee, idle Zzz bubbles, and a sub-worker entering through the door",
+                "sha256": "b9c9635cfb5976a94f99b24f0a6bd762bb5a37836b6045f6bdb7fa57f74a8274",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/f77de702fbbba014.jpg",
+                "alt": "Bot World Cozy Cafe theme at sunset with 8 live bots spread across wooden desks and round cafe tables",
+                "sha256": "f77de702fbbba0149644a54180e535185ec5d40d2a753fb86bb42ef6374281bc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/4c1e6e8ca34207d2.jpg",
+                "alt": "Bot World Cyber Ops midnight neon control room theme with live bots, glowing monitors, and sub-workers",
+                "sha256": "4c1e6e8ca34207d2deeb19c49d38b1b9eb9adc28bc701dadceed39f3d16cbbd0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
+          "updatedAt": "2026-11-23T15:52:04+09:00"
+        },
         {
           "version": "0.8.0",
           "commit": "3f5fb741a8634d60e7c97200828f231a264ac465",
@@ -12787,120 +12903,6 @@
           "license": "MIT",
           "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
           "updatedAt": "2026-11-22T11:38:49+09:00"
-        },
-        {
-          "version": "0.3.0",
-          "commit": "5fcc0ac121189eeabdeec0290dd6af72622b3f49",
-          "contentHash": "441a6dbfa4f04f2cd5214e3c73e93c3e1c60015fec4489bb2345789342e997d6",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Bot World",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot World"
-            },
-            {
-              "kind": "commands",
-              "name": "Open Bot World"
-            },
-            {
-              "kind": "commands",
-              "name": "Refresh Bot World"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Bot World Office",
-              "detail": ".botworld"
-            },
-            {
-              "kind": "newFiles",
-              "name": "New Bot World Board",
-              "detail": ".botworld"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot World"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "agent:read"
-          ],
-          "fileTypes": [
-            "botworld"
-          ],
-          "editorFileTypes": [
-            "botworld"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
-              "alt": "Bot World Wide Office Board displaying 10 Orca bots and live sub-workers in the Startup Office theme",
-              "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
-              "alt": "Bot World icon",
-              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
-                "alt": "Bot World wide .botworld office board in the Startup Office theme with 10 live bots, sub-workers, character switcher, and 24-hour event timeline",
-                "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/0949c7778918ab78.jpg",
-                "alt": "Bot World wide .botworld office board in the Corporate Office theme highlighting a Needs You approval badge, open items, and automation status",
-                "sha256": "0949c7778918ab78c6023910e40b79532ead679a24fd6a484880bd4051bd1e6b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/6b6257f1780737c1.jpg",
-                "alt": "Bot World wide .botworld office board with Redact Mode enabled and 24-hour timeline replay paused at an earlier timestamp",
-                "sha256": "6b6257f1780737c16fda6bf54bcd043ded61dd6575514bee10e1bc45d90fb22a",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/b9c9635cfb5976a9.jpg",
-                "alt": "Bot World wide .botworld office board in Night mode with warm desk lamp glows, steaming coffee, idle Zzz bubbles, and a sub-worker entering through the door",
-                "sha256": "b9c9635cfb5976a94f99b24f0a6bd762bb5a37836b6045f6bdb7fa57f74a8274",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/f77de702fbbba014.jpg",
-                "alt": "Bot World Cozy Cafe theme at sunset with 8 live bots spread across wooden desks and round cafe tables",
-                "sha256": "f77de702fbbba0149644a54180e535185ec5d40d2a753fb86bb42ef6374281bc",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/4c1e6e8ca34207d2.jpg",
-                "alt": "Bot World Cyber Ops midnight neon control room theme with live bots, glowing monitors, and sub-workers",
-                "sha256": "4c1e6e8ca34207d2deeb19c49d38b1b9eb9adc28bc701dadceed39f3d16cbbd0",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
-          "updatedAt": "2026-11-22T10:17:11+09:00"
         }
       ]
     },
@@ -26631,8 +26633,8 @@
       "ownerId": 45154585,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jameslatajan/orca-svn/0.2.9"
+        "url": "https://github.com/jameslatajan/orca-svn.git",
+        "ref": "v0.2.10"
       },
       "description": "Subversion in Orca: see a working copy's changes, then update, commit, revert, add, resolve and diff from a sidebar panel.",
       "categories": [
@@ -26641,6 +26643,104 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.10",
+          "commit": "a098a4d1b858b35ce4a56fe728925edc4c4e9da9",
+          "contentHash": "05d1b052718db6bd20570c845b5762449876878673d092ba33ae4774fadbef8d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "SVN",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "SVN"
+            },
+            {
+              "kind": "panels",
+              "name": "SVN History"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Update"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Commit…"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "SVN: Show log"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SVN Diff",
+              "detail": ".svndiff"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "svndiff"
+          ],
+          "editorFileTypes": [
+            "svndiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
+              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
+              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
+              "alt": "SVN icon",
+              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
+                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
+                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
+                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
+                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
+                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
+                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "Apache-2.0",
+          "repository": "https://github.com/jameslatajan/orca-svn",
+          "updatedAt": "2026-11-23T14:50:32+08:00"
+        },
         {
           "version": "0.2.9",
           "commit": "d6ad4489ea490b4f570778da2c5e14ca99a112cc",
@@ -48682,8 +48782,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.9.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.9.4"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
@@ -54058,8 +54158,8 @@
       "ownerId": 9301763,
       "source": {
         "kind": "git",
-        "url": "https://github.com/truongthanhquan/orca-cloudflare-relay-plugin.git",
-        "ref": "v2.8.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/truongthanhquan/orca-cloudflare-relay-plugin/2.8.3"
       },
       "description": "Connect Orca Mobile to this desktop from anywhere through your free Cloudflare account. After installing, click \"Set up relay\" (cloud icon) in the status bar (or run \"Set up / open panel\") and follow 3 steps. Phones pair with a normal QR code; no app changes needed. Not affiliated with Cloudflare.",
       "categories": [
@@ -56414,8 +56514,8 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vrwolf1004/orca-obsidian.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.1"
       },
       "description": "Browse and read your Obsidian vaults from the Orca sidebar.",
       "categories": [
