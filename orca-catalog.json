@@ -38210,8 +38210,8 @@
       "ownerId": 1677058,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mqnoy/orca-antigravity-flow/1.0.1"
+        "url": "https://github.com/mqnoy/orca-antigravity-flow.git",
+        "ref": "v1.0.2"
       },
       "description": "Agile workflows, multi-agent pipelines, isolated account switching, customizable personas, feature usage monitoring, and Orca Workspace Board integration for Antigravity (agy).",
       "categories": [
@@ -38220,6 +38220,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "28da8e614934353a90991f299e54ac83ba9d3ecf",
+          "contentHash": "2a06496026625e3b27335edc7d5b965c3d7db1a78952ed189a6baf911fc63984",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Antigravity Flow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Antigravity Flow"
+            },
+            {
+              "kind": "commands",
+              "name": "Antigravity: Open Antigravity Flow"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mqnoy.antigravity-flow/51c4e158391dd3f5.png",
+              "alt": "Antigravity Flow plugin banner: agile board with account switching and quota table",
+              "sha256": "51c4e158391dd3f57f43a5d35c925855135f6aa9a9ee63714d9a6443001be01d",
+              "width": 960,
+              "height": 540
+            },
+            "icon": {
+              "path": "assets/mqnoy.antigravity-flow/47e5b08818013cc0.png",
+              "alt": "Antigravity Flow icon",
+              "sha256": "47e5b08818013cc0654c15d630b896073a1444a20dde195d385372d5c84d123c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/mqnoy.antigravity-flow/3bf563e2b08aeb56.png",
+                "alt": "Antigravity Flow panel showing accounts, quotas and the agile board",
+                "sha256": "3bf563e2b08aeb56fc58cacf58e29166e218d972cf0b827751eb341de2cacfef",
+                "width": 1280,
+                "height": 823
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mqnoy/orca-antigravity-flow",
+          "updatedAt": "2026-11-24T05:45:12+07:00"
+        },
         {
           "version": "1.0.1",
           "commit": "d0659dc6f0f12e1a0eda57c123fd4b0b154c7fe0",
