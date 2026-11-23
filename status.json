@@ -860,19 +860,10 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.6.0",
+      "ref": "v0.8.0",
       "plugins": [
         "ddochi-nyang.bot-world"
-      ],
-      "update": {
-        "ref": "v0.8.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "decadance-dance/orca-plane": {
       "state": "listed",
@@ -2911,11 +2902,18 @@
     },
     "rizanw/steno-spec": {
       "state": "rejected",
-      "ref": "v0.1.5",
-      "reasons": [
+      "ref": "v0.1.6",
+      "reasons": [],
+      "plugins": [
         {
-          "category": "no-manifest",
-          "detail": "no orca-plugin.json at the root; orca-catalog.json lists no plugin folder of rizanw/steno-spec that holds an orca-plugin.json (set each entry's source.url to this repository and source.path to its folder)"
+          "path": "packages/orca",
+          "id": "steno",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "code, size"
+            }
+          ]
         }
       ]
     },
@@ -3271,7 +3269,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.9.3",
+      "ref": "v0.9.4",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -3692,7 +3690,7 @@
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
       "state": "listed",
-      "ref": "refs/tags/truongthanhquan/orca-cloudflare-relay-plugin/2.8.2",
+      "ref": "v2.8.3",
       "plugins": [
         "truongthanhquan.cloudflare-relay"
       ]
@@ -3799,7 +3797,7 @@
     },
     "vann-dev/orca-indonesian-plugin": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.2.0",
       "plugins": [
         "vann-dev.indonesian"
       ]
@@ -3924,7 +3922,7 @@
     },
     "vrwolf1004/orca-obsidian": {
       "state": "listed",
-      "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "vrwolf1004.obsidian-for-orca"
       ]
