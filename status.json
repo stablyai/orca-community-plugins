@@ -77,19 +77,10 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "refs/tags/addisflava/orca-llm-router/1.2.0",
+      "ref": "v1.3.2",
       "plugins": [
         "addisflava.llm-router"
-      ],
-      "update": {
-        "ref": "v1.3.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
@@ -1677,7 +1668,16 @@
       "ref": "refs/tags/icaceresc/b-side/2.3.3",
       "plugins": [
         "icaceresc.b-side"
-      ]
+      ],
+      "update": {
+        "ref": "v2.4.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "icaceresc/pixtuoid-orca-windows": {
       "state": "listed",
@@ -3208,7 +3208,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.9.11",
+      "ref": "refs/tags/senadaruc/orca-grazr/0.9.11",
       "plugins": [
         "senadaruc.grazr"
       ],
@@ -3803,7 +3803,7 @@
     },
     "vaclavgreif/orca-live-agents": {
       "state": "rejected",
-      "ref": "v0.1.6",
+      "ref": "v0.1.7",
       "reasons": [
         {
           "category": "licence",
