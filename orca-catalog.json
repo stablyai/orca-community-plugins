@@ -12320,8 +12320,8 @@
       "ownerId": 359454302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
-        "ref": "v0.9.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.9.0"
       },
       "description": "Virtual office & Pocket Pet visualizer for Orca bots and live sub-workers (read-only by default, opt-in Quick Send)",
       "categories": [
@@ -26633,8 +26633,8 @@
       "ownerId": 45154585,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jameslatajan/orca-svn.git",
-        "ref": "v0.2.10"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jameslatajan/orca-svn/0.2.10"
       },
       "description": "Subversion in Orca: see a working copy's changes, then update, commit, revert, add, resolve and diff from a sidebar panel.",
       "categories": [
@@ -33428,14 +33428,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.269"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.271"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.269. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.271. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.271",
+          "commit": "993e32452944335293a371c3d9d7a4f313188c42",
+          "contentHash": "b600d0c8e59dce35219a8d908b73f9c1edede3d40f7d24735d0c143ed66812b7",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-23T08:17:45+01:00"
+        },
         {
           "version": "1.4.269",
           "commit": "42e7e3afb6159407a3c31f5b7a8ad2b98e7633b9",
@@ -33567,39 +33600,6 @@
           "license": "MIT",
           "repository": "https://github.com/matteoeusebi/orca-italiano",
           "updatedAt": "2026-11-18T08:18:05+01:00"
-        },
-        {
-          "version": "1.4.261",
-          "commit": "669c60dccddb67b460685721017561253973f260",
-          "contentHash": "472b376a9a0b3d4b1db33e31c05f08cf418b00bb550ba0d587385187dcbbb515",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-17T08:19:18+01:00"
         }
       ]
     },
