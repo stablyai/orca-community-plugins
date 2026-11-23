@@ -2553,8 +2553,8 @@
       "ownerId": 18187208,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ainlee/Orca_zh-Hant.git",
-        "ref": "v1.4.271"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ainlee/orca_zh-hant/1.4.271"
       },
       "description": "以完整 zh-Hant catalog 提供 Orca 繁體中文（台灣）介面翻譯，作為 plugin 語系安裝（不修改內建語系檔）。",
       "categories": [
