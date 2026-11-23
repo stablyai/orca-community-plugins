@@ -47998,8 +47998,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/senadaruc/orca-grazr/0.11.3"
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.11.4"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -48008,6 +48008,111 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.4",
+          "commit": "dac3a311aabb3cd905436f68a4a3a87e1aad33f1",
+          "contentHash": "fbc2369b5b63a532322cd893e4b641dfb76c4345ceefcfc0eae1573d93d1e0a4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap to the next account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh usage (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Turn rotation on/off (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Add an account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Sign in another organization of the active login (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a model limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a full limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Reload panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Show the focused workspace's host"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-11-23T21:44:41+01:00"
+        },
         {
           "version": "0.11.3",
           "commit": "f4d60eefda74977bb88004c0c3fcb68831034104",
@@ -48427,107 +48532,6 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-11-23T15:16:01+01:00"
-        },
-        {
-          "version": "0.9.11",
-          "commit": "4d42c260880bf5b4c2fcadc95981264d04cf891d",
-          "contentHash": "f275b24df3af58957416225c89ef3f8e4f8505191bb5b396cbf2336afa81c7ff",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.245",
-          "name": "Grazr",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Claude Accounts"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Target → next host"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Status (all hosts)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Swap to the next account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh usage (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Turn rotation on/off (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Add an account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Install engine on target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Uninstall from target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Drain notices now"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type enrol command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type status command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Use a model limit reset (type /limit-reset fable into terminal)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Use a full limit reset (type /limit-reset full into terminal)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Reload panel"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Show the focused workspace's host"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            }
-          ],
-          "capabilities": [
-            "notifications:show",
-            "settings:own",
-            "storage:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/senadaruc/orca-grazr",
-          "updatedAt": "2026-11-23T11:55:20+01:00"
         }
       ]
     },
