@@ -1955,6 +1955,12 @@
     "repoId": 1461103177,
     "firstSeen": "2026-11-17T20:14:54.062Z"
   },
+  "erom.agent-progress-sp@0.2.1": {
+    "commit": "c63ea60e5aa8f4d99c7014d488915e407b279ed1",
+    "contentHash": "e739ae163710a3c0a342080a6b8dccfc1144152116a32775302ad99cc84e25b2",
+    "repoId": 1461103177,
+    "firstSeen": "2026-11-23T18:43:18.699Z"
+  },
   "erom.agent-skills@0.1.1": {
     "commit": "82ee90c807ce890e532e5b17a23088249eb31c6b",
     "contentHash": "2f556c3f729262f2f41165767522356f914df9e0a7a7943c47331046ed1c0a3a",
@@ -5656,6 +5662,12 @@
     "contentHash": "81c44e64f29c67d2d6cd3756b427bfcbf82dbdecd8c19345049862703a9af3a0",
     "repoId": 1467078314,
     "firstSeen": "2026-11-23T18:19:28.424Z"
+  },
+  "spscream.fairway@0.9.1": {
+    "commit": "670119be50b0499aac35b980a16872040811e5b5",
+    "contentHash": "84f9bbf2a8f9d54efa6549bae9c1ce606b89b6aad4d63ef4a489fe5660a93297",
+    "repoId": 1467078314,
+    "firstSeen": "2026-11-23T18:43:18.699Z"
   },
   "structworks.richdown@0.13.0": {
     "commit": "75c151856c375264e77c3f9389a290c208a00e58",

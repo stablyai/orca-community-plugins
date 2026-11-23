@@ -16869,8 +16869,8 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.272"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebbop/orca-italiano/1.4.272"
       },
       "description": "jAI Studio · 22.661 testi su 22.661 (100%), allineato a Orca 1.4.272. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -18572,8 +18572,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/erom/orca-plugin-agent-progress-sp/0.2.0"
+        "url": "https://github.com/eRom/orca-plugin-agent-progress-sp.git",
+        "ref": "v0.2.1"
       },
       "description": "Requires Superpowers. Shows where each Superpowers plan stands, read from its spec, plan and ledger: the current project's tasks and agents, main checkout and worktrees together, the other work in progress, and the stage in the status bar.",
       "categories": [
@@ -18582,6 +18582,84 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "c63ea60e5aa8f4d99c7014d488915e407b279ed1",
+          "contentHash": "e739ae163710a3c0a342080a6b8dccfc1144152116a32775302ad99cc84e25b2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Progress for Superpowers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Progress"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Progress: Toggle the sidebar"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "progress"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-progress-sp/fe734317e689dcc9.png",
+              "alt": "The Agent Progress panel in Orca: a stage strip, a progress bar and the task list of a plan, beside a table of the other workspaces with live work.",
+              "sha256": "fe734317e689dcc9a3d4ea55881aa357792bf38a351963aa4375123a897476d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-progress-sp/42c9de4363d67834.png",
+              "alt": "Agent Progress for Superpowers icon",
+              "sha256": "42c9de4363d678341734031be612c813925c72ad1f2461ccb05b45209dd8f7b1",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-progress-sp/486514e023a202f1.png",
+                "alt": "The dark Agent Progress panel: two plans, one at the Tasks stage with a task in a fix round, one at the Review stage with every task done.",
+                "sha256": "486514e023a202f1c687448b6fc37a653548df4fab1c7c2ead8f4ffc74efe8c1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-progress-sp/78cd7ca83a4f17c6.png",
+                "alt": "The same two plans in Orca's light theme.",
+                "sha256": "78cd7ca83a4f17c649d634056bb2b04dda29251f5ab9dc9d979649366e81f139",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-progress-sp/48894ff32ef5a01c.png",
+                "alt": "A panel with an agent that needs you, in amber, next to a table of other workspaces where one agent is waiting for you and another is working.",
+                "sha256": "48894ff32ef5a01ccece763c1309d0b97cb4aa45f557d357ef3f5ecf6f6168b0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-progress-sp",
+          "updatedAt": "2026-11-23T19:34:08+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "f5c119c6a7c85addcb71a5c01da4dfb973f24f07",
@@ -53385,7 +53463,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/spscream/orca-fairway.git",
-        "ref": "v0.9.0"
+        "ref": "v0.9.1"
       },
       "description": "Choose an allowlisted Codex, Pi or Cursor profile with JEV, then explicitly launch it through Orca. Shadow mode by default.",
       "categories": [
@@ -53393,6 +53471,43 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.9.1",
+          "commit": "670119be50b0499aac35b980a16872040811e5b5",
+          "contentHash": "84f9bbf2a8f9d54efa6549bae9c1ce606b89b6aad4d63ef4a489fe5660a93297",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Fairway for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fairway"
+            },
+            {
+              "kind": "commands",
+              "name": "Fairway: router status"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
+              "alt": "Fairway for Orca icon",
+              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/spscream/orca-fairway",
+          "updatedAt": "2026-11-23T15:42:56-03:00"
+        },
         {
           "version": "0.9.0",
           "commit": "953c13544698ea94bfbce0868eff4868ed510072",
@@ -53540,43 +53655,6 @@
           "license": "MIT",
           "repository": "https://github.com/spscream/orca-fairway",
           "updatedAt": "2026-11-22T11:43:46-03:00"
-        },
-        {
-          "version": "0.8.3",
-          "commit": "1a89107575d761290fc64f398532208af430932b",
-          "contentHash": "c68b82a3a51a7509bf3a39da218dd42fb3a52102d0fcf128dc7017500d96b6ff",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Fairway for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fairway"
-            },
-            {
-              "kind": "commands",
-              "name": "Fairway: router status"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "agent:launch",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/spscream.fairway/b5a2916b427fe8f4.png",
-              "alt": "Fairway for Orca icon",
-              "sha256": "b5a2916b427fe8f4c53854e4a047c1ebdc37500a81569c3a7190252583581005",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "updatedAt": "2026-11-22T11:05:47-03:00",
-          "license": "MIT",
-          "repository": "https://github.com/spscream/orca-fairway"
         }
       ]
     },
@@ -57897,8 +57975,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tornadodai/orca-bot-office/0.3.0"
       },
       "description": "Ultra-lightweight 2.5D isometric AI HQ & grouped workbench in Orca's right sidebar: watch Bot teams, Worker robots, live mail dispatches, and native Needs-You decisions with near-zero GPU/CPU overhead.",
       "categories": [
@@ -59891,8 +59969,8 @@
       "ownerId": 82990248,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Vann-Dev/orca-indonesian-plugin.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.3.0"
       },
       "description": "Antarmuka Orca dalam bahasa Indonesia.",
       "categories": [
