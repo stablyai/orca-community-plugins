@@ -441,6 +441,13 @@
         "bigsy.milko"
       ]
     },
+    "boxcompute/orca-plugin": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "boxcompute.vm"
+      ]
+    },
     "brezzashen/brezzaorca": {
       "state": "listed",
       "ref": "refs/tags/brezzashen/brezzaorca/0.1.4",
@@ -949,7 +956,7 @@
     },
     "dom8509/pi-workflow-status": {
       "state": "listed",
-      "ref": "refs/tags/dom8509/pi-workflow-status/0.2.0",
+      "ref": "v0.2.2",
       "plugins": [
         "dom8509.pi-workflow-status"
       ]
@@ -1628,7 +1635,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "refs/tags/icaceresc/b-side/2.3.2",
+      "ref": "v2.3.3",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -2436,6 +2443,20 @@
         {
           "category": "identity-hold",
           "detail": "moved from heath0xFF/stillwater (heath0xff.stillwater) to mostlyheath/stillwater (mostlyheath.stillwater); new versions paused until a maintainer confirms the move in identity-moves.json"
+        }
+      ]
+    },
+    "moyf/moynokai": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.themes \"monokai\" (themes/monokai.json): tokens.--chat-foreground-strong: Invalid key in record"
+        },
+        {
+          "category": "validation",
+          "detail": "contributes.themes \"monokai-vscode\" (themes/monokai-vscode.json): tokens.--chat-foreground-strong: Invalid key in record"
         }
       ]
     },
@@ -3484,7 +3505,7 @@
     },
     "tesser-sh/orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/tesser-sh/orca-plugin/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "tesser-sh.tesser"
       ]
@@ -3588,7 +3609,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/tksuns12/account-token-tracker/0.3.2",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]
@@ -3643,7 +3664,7 @@
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
       "state": "listed",
-      "ref": "v2.8.0",
+      "ref": "v2.8.2",
       "plugins": [
         "truongthanhquan.cloudflare-relay"
       ]

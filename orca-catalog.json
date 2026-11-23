@@ -6332,6 +6332,60 @@
       ]
     },
     {
+      "id": "boxcompute.vm",
+      "ownerId": 321363891,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/boxcompute/orca-plugin.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Run each Orca workspace on its own BoxCompute cloud VM, with Claude Code and Codex installed. Pick BoxCompute VM under Run on.",
+      "categories": [
+        "commands",
+        "vm-recipes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "0678a861dbb8a418557c7260cb8618bbf65d0546",
+          "contentHash": "d3e9f6f72d8ff8a4aed779638b248c8acc68a87a9340aa1863d651764102ea86",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "BoxCompute VMs",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "BoxCompute: Keep VM links open now"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/boxcompute-vm.json"
+            },
+            {
+              "kind": "vmRecipes",
+              "name": "recipes/boxcompute-vm-xl.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "BoxCompute"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/boxcompute.vm/8dd1e4e447543eab.png",
+              "alt": "BoxCompute VMs icon",
+              "sha256": "8dd1e4e447543eaba1db0e61d2d2cb27440c195a6b295206a8424a96243dfd6a",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/boxcompute/orca-plugin",
+          "updatedAt": "2026-11-23T11:44:10+08:00"
+        }
+      ]
+    },
+    {
       "id": "brezzashen.account-keys",
       "ownerId": 239109312,
       "source": {
@@ -15582,14 +15636,70 @@
       "ownerId": 933312,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dom8509/pi-workflow-status/0.2.0"
+        "url": "https://github.com/dom8509/pi-workflow-status.git",
+        "ref": "v0.2.2"
       },
-      "description": "See which Pi workflow and stage every agent in Orca is in: an Activity list of all agents with workflow chips, and the selected agent's pipeline with done, current and pending stages.",
+      "description": "Monitor Pi workflows powered by pi-agent-suite in Orca: an Activity list of agents with workflow chips, and the selected agent's pipeline with done, current and pending stages.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "d6e9361851370f29f45465cde3f39d353366338f",
+          "contentHash": "544edef7ad6f636e83e71efd87018b91c950e06e597a2a21d7cb0e22ffb5ddb0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PI Workflow Status",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PI Workflow Status"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "settings:own",
+            "history:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dom8509.pi-workflow-status/71e4c50fd4160e16.png",
+              "alt": "PI Workflow Status: an Activity list of agents with workflow chips above the pipeline of the selected agent, in a light and a dark theme",
+              "sha256": "71e4c50fd4160e1630ba4220702fd7c003ad5b4dd3030a45bab5de2954265d57",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dom8509.pi-workflow-status/2e91ef37e3758a86.png",
+              "alt": "PI Workflow Status icon",
+              "sha256": "2e91ef37e3758a869072a326d9365748892e4210829769e281367ca3c649e7f1",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/dom8509.pi-workflow-status/709d6b02762788b0.png",
+                "alt": "Two panels in the light theme: one shows a Coding workflow in its implement stage, the other a Package workflow in verify with a nested ResultCheck",
+                "sha256": "709d6b02762788b04abbfe5238b5feda87052d3b3fee0c6c695d2ba1ab9e4d80",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dom8509.pi-workflow-status/a65c280497de4bf6.png",
+                "alt": "The same two panels in the dark theme",
+                "sha256": "a65c280497de4bf6dffac451cf83526688c139fb5405a4e7f8161e8aced8a312",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dom8509/pi-workflow-status",
+          "updatedAt": "2026-11-23T05:12:50+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "b6db8894338b77c1615314594d9d6f7ca2866f88",
@@ -25115,14 +25225,81 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/icaceresc/b-side/2.3.2"
+        "url": "https://github.com/icaceresc/b-side.git",
+        "ref": "v2.3.3"
       },
       "description": "Your music library in Orca's sidebar: browse, search and play the music on your PC, with synced lyrics and three skins. Windows only; plays through AIMP (free).",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "2.3.3",
+          "commit": "b16099e19ed36a05ddc7107e858e01c391b62dcc",
+          "contentHash": "b80aa730f26fcc066508bc9ac0b0b173034000b1b863f5d61cb7711ef41f8c7b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "B-Side",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "B-Side"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/icaceresc.b-side/702c7546c1a83d83.webp",
+              "alt": "B-Side's three skins fanned out, Cassette, Vinyl and CD, each playing a demo track with synced lyrics, beside the words \"Your music library, in Orca's sidebar\"",
+              "sha256": "702c7546c1a83d83747ba0c6a3072af1f18f0f7563373373e7f3e4221266fd74",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/icaceresc.b-side/542dd2d2b5615341.png",
+              "alt": "B-Side icon",
+              "sha256": "542dd2d2b5615341ef57b5f52660fd64274fbbba8138741512f39c8e0ca4fc7b",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.b-side/1c3c4e49aee5c5c6.webp",
+                "alt": "The panel dragged wide: a grid of demo albums beside Playing with synced lyrics",
+                "sha256": "1c3c4e49aee5c5c635e4b0c60b3c4541ffacee168e64d22fdc1377cd298b3968",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/29f2dfd099f2d5e1.webp",
+                "alt": "Search for \"rio\" finding the artist Ríos de Ámbar y Sal, the album Río Lento de Sal and its tracks, beside that album's page",
+                "sha256": "29f2dfd099f2d5e1e2e42410a717a281ef695fa658b9b3326d34b9033cdf21da",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/33b8cde92753cd84.webp",
+                "alt": "The same panel in three skins: CD in the colours of its cover, Vinyl with serif lyrics and old gold, Cassette in pixel type and cyan",
+                "sha256": "33b8cde92753cd84e97b2597dd04011cb3d671ecaf6c2c0fbfaf9805ac2e0d4b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/73129bc39a951956.webp",
+                "alt": "The CD skin with three demo covers, each tinting the whole panel in its own colours, with the format of each track",
+                "sha256": "73129bc39a951956c775dec1859eefa0083a25ae1542e48abc98e2b82010da72",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/b-side",
+          "updatedAt": "2026-11-23T00:57:22-03:00"
+        },
         {
           "version": "2.3.2",
           "commit": "ca686099c044fff1e9bfc66e9cab8cfde1995598",
@@ -50932,8 +51109,8 @@
       "ownerId": 319273144,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tesser-sh/orca-plugin/0.1.0"
+        "url": "https://github.com/tesser-sh/orca-plugin.git",
+        "ref": "v0.1.1"
       },
       "description": "The tesser box behind each workspace: whether it is awake, and the localhost link to its dev server. Your code stays in the workspace.",
       "categories": [
@@ -50942,6 +51119,52 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "680249605e50a78a827b4e2d09302f4b7ca7b6e9",
+          "contentHash": "bc21edc652593b94d09b30cb6e8c9e5e286cb36339b206667ebfd1362b6c09a5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Tesser",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Tesser"
+            },
+            {
+              "kind": "commands",
+              "name": "Tesser: Open this workspace's dev server"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "tesser"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tesser-sh.tesser/efb5a8ced5800790.png",
+              "alt": "Tesser icon",
+              "sha256": "efb5a8ced580079090970afbc628dcc45025111c8fb5ebb6457944eaa62d22e4",
+              "width": 180,
+              "height": 180
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/tesser-sh/orca-plugin",
+          "updatedAt": "2026-11-22T22:46:12-05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "3af6073fe857e74f0e91db6b854b4539fcfb5ae1",
@@ -53198,8 +53421,8 @@
       "ownerId": 16596559,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tksuns12/account-token-tracker.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tksuns12/account-token-tracker/0.3.2"
       },
       "description": "Tracks per-account quota % and per-model usage, estimating monthly dollar value ($/mo) week-over-week and month-over-month to detect quota enshittification.",
       "categories": [
@@ -53638,7 +53861,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/truongthanhquan/orca-cloudflare-relay-plugin.git",
-        "ref": "v2.8.0"
+        "ref": "v2.8.2"
       },
       "description": "Connect Orca Mobile to this desktop from anywhere through your free Cloudflare account. After installing, click \"Set up relay\" (cloud icon) in the status bar (or run \"Set up / open panel\") and follow 3 steps. Phones pair with a normal QR code; no app changes needed. Not affiliated with Cloudflare.",
       "categories": [
@@ -53646,6 +53869,84 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "2.8.2",
+          "commit": "36147e8c71feba92385a0148cd67e62c16180e6e",
+          "contentHash": "f240c044e3fdac56a25c46a594a839c56ab192c5f6282a16211ca83c853c74b5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Cloudflare Relay",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cloudflare Relay"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Set up / open panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Start"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Stop"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Toggle"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Show status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Relay off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/truongthanhquan.cloudflare-relay/74a2705350797ed2.png",
+              "alt": "Cloudflare Relay plugin: Orca Mobile connects to the Orca desktop through your own relay on Cloudflare; the panel shows a connected relay and a pairing QR code",
+              "sha256": "74a2705350797ed2a51211e151ae96fcf862ed750cec5c6c9513f14448108427",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/truongthanhquan.cloudflare-relay/404673a1250084aa.png",
+                "alt": "The setup panel with three steps: choose a connection, connect Cloudflare with a one-click token, pair your phone",
+                "sha256": "404673a1250084aab482c79774f1f25b170fe255b44bb105838705fe6ad40ef0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/truongthanhquan.cloudflare-relay/f9c7f73e8c7f6477.png",
+                "alt": "The pairing card showing a single-use QR code that expires in 5 minutes",
+                "sha256": "f9c7f73e8c7f6477f2b06bc44d8247cf990f06f429a3f86f3f33a03e9b20a49f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/truongthanhquan.cloudflare-relay/9214e594ae592ffe.png",
+                "alt": "Manual setup for a tunnel on your own domain, without giving the plugin a Cloudflare token",
+                "sha256": "9214e594ae592ffee76d5577ee32189db6483d4ca6366bc50a86505703693626",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/truongthanhquan/orca-cloudflare-relay-plugin",
+          "updatedAt": "2026-11-23T11:13:24+07:00"
+        },
         {
           "version": "2.8.0",
           "commit": "f5e1100728ed339d13d902edbb2f547a14cbefb4",

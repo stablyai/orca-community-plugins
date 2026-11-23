@@ -719,6 +719,12 @@
     "repoId": 1449717078,
     "firstSeen": "2026-11-16T08:16:25.574Z"
   },
+  "boxcompute.vm@1.0.0": {
+    "commit": "0678a861dbb8a418557c7260cb8618bbf65d0546",
+    "contentHash": "d3e9f6f72d8ff8a4aed779638b248c8acc68a87a9340aa1863d651764102ea86",
+    "repoId": 1468246994,
+    "firstSeen": "2026-11-23T04:20:46.997Z"
+  },
   "brezzashen.account-keys@0.1.4": {
     "commit": "d699b0b5b755c9093859981d83144888a2578383",
     "contentHash": "9f9280cda644d141d6e012eb49c89340e2f5af0bc2fd4c790ba360d9cb92f998",
@@ -1660,6 +1666,12 @@
     "contentHash": "41b919719880de60672b77dca3d746a2ec76854189066c8d29f75e895ca6f058",
     "repoId": 1467774524,
     "firstSeen": "2026-11-22T18:42:33.872Z"
+  },
+  "dom8509.pi-workflow-status@0.2.2": {
+    "commit": "d6e9361851370f29f45465cde3f39d353366338f",
+    "contentHash": "544edef7ad6f636e83e71efd87018b91c950e06e597a2a21d7cb0e22ffb5ddb0",
+    "repoId": 1467774524,
+    "firstSeen": "2026-11-23T04:20:46.997Z"
   },
   "donghyun-git.petting-friends@0.1.0": {
     "commit": "47cba0b35f5e8457081212de1e2e1bdb5b36de6a",
@@ -2770,6 +2782,12 @@
     "contentHash": "d602289de4f287766009a2239351dfb8e1de865fac881917c4a458d7135b322e",
     "repoId": 1465869478,
     "firstSeen": "2026-11-22T02:42:44.977Z"
+  },
+  "icaceresc.b-side@2.3.3": {
+    "commit": "b16099e19ed36a05ddc7107e858e01c391b62dcc",
+    "contentHash": "b80aa730f26fcc066508bc9ac0b0b173034000b1b863f5d61cb7711ef41f8c7b",
+    "repoId": 1465869478,
+    "firstSeen": "2026-11-23T04:20:46.997Z"
   },
   "icaceresc.pixtuoid-office@3.0.0": {
     "commit": "d62550a1c7ebb3f04fd4b62f34394002d02e475d",
@@ -5429,6 +5447,12 @@
     "repoId": 1464775734,
     "firstSeen": "2026-11-21T02:43:02.991Z"
   },
+  "tesser-sh.tesser@0.1.1": {
+    "commit": "680249605e50a78a827b4e2d09302f4b7ca7b6e9",
+    "contentHash": "bc21edc652593b94d09b30cb6e8c9e5e286cb36339b206667ebfd1362b6c09a5",
+    "repoId": 1464775734,
+    "firstSeen": "2026-11-23T04:20:46.997Z"
+  },
   "thailoc-dev.dev-toolbox@0.1.0": {
     "commit": "a890386f8215ae75445651a7075bcf0dd946c7ad",
     "contentHash": "d75bc9bf6aa33b340381da97a1eb860aaeb5c58b08a3ab7bd9546ce16c023c65",
@@ -5692,6 +5716,12 @@
     "contentHash": "ec87be9f722b9badaff470c49672ff193b579b66b1f93634f24c521d130beeb3",
     "repoId": 1467387124,
     "firstSeen": "2026-11-23T03:43:15.394Z"
+  },
+  "truongthanhquan.cloudflare-relay@2.8.2": {
+    "commit": "36147e8c71feba92385a0148cd67e62c16180e6e",
+    "contentHash": "f240c044e3fdac56a25c46a594a839c56ab192c5f6282a16211ca83c853c74b5",
+    "repoId": 1467387124,
+    "firstSeen": "2026-11-23T04:20:46.997Z"
   },
   "tterumiimurett.audio-preview@0.3.0": {
     "commit": "860e816dbdd870c5c42df99f288ce86be4dbcc30",
