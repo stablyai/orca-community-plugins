@@ -296,6 +296,13 @@
         "arnaudrinquin.pomodoro"
       ]
     },
+    "arookieofc/jetbrains-icons": {
+      "state": "listed",
+      "ref": "v2.40.0",
+      "plugins": [
+        "arookieofc.jetbrains-icons"
+      ]
+    },
     "arshvinw5/vesper-orca-theme": {
       "state": "listed",
       "ref": "refs/tags/arshvinw5/vesper-orca-theme/1.0.0",
@@ -1560,7 +1567,7 @@
         "hasanalituran.toggle-light-dark-theme"
       ],
       "update": {
-        "ref": "v0.1.7",
+        "ref": "v0.2.0",
         "reasons": [
           {
             "category": "under-review",
@@ -2300,13 +2307,10 @@
       ]
     },
     "mcxinyu/adb-helper-orca-plugin": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
+      "plugins": [
+        "mcxinyu.adb-helper"
       ]
     },
     "michelvelzr/ork-dbclient": {
@@ -2869,8 +2873,17 @@
       "plugins": [
         "qobyn.s-git"
       ],
-      "notes": [
-        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
+      "rejected": [
+        {
+          "path": "orca/plugin",
+          "id": "s-git",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "code, size"
+            }
+          ]
+        }
       ]
     },
     "quocnt85/orca-better-tasks": {

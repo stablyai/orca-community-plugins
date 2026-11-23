@@ -4253,6 +4253,42 @@
       ]
     },
     {
+      "id": "arookieofc.jetbrains-icons",
+      "ownerId": 186315048,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/arookieofc/jetbrains-icons.git",
+        "ref": "v2.40.0"
+      },
+      "description": "Unofficial port of JetBrains file and folder icons for light and dark themes.",
+      "categories": [
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "2.40.0",
+          "commit": "5adf8451dae02f3a7f04f2c6e6e4ebb9a0123499",
+          "contentHash": "8a503859c29042aec0a310e8b1692379597419375c9a76b590c28e4fc6ff91eb",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "JetBrains Icons",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "JetBrains Icons (Dark)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "JetBrains Icons (Light)"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/arookieofc/jetbrains-icons",
+          "updatedAt": "2026-11-23T18:21:25+08:00"
+        }
+      ]
+    },
+    {
       "id": "arshvinw5.vesper-pp-theme",
       "ownerId": 96484421,
       "source": {
@@ -34361,6 +34397,64 @@
           "license": "MIT",
           "repository": "https://github.com/maximechbt/beads-orca-ui",
           "updatedAt": "2026-11-08T20:03:04+01:00"
+        }
+      ]
+    },
+    {
+      "id": "mcxinyu.adb-helper",
+      "ownerId": 9566116,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Android ADB device management and live logcat inside Orca.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "6ec1408270c24c459c2816df12bf91ad0ed63335",
+          "contentHash": "1b974843e623fe5ec171d1f192514acd3c09834792fb13ffc0c97f50da7fd5af",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ADB Helper",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ADB Helper"
+            },
+            {
+              "kind": "commands",
+              "name": "ADB Helper: 停止 logcat"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "agent:launch",
+            "agent:read",
+            "history:read",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/mcxinyu.adb-helper/29a112d2d4c9e4ca.png",
+              "alt": "ADB Helper icon",
+              "sha256": "29a112d2d4c9e4ca59e9a4622324ff97ea907af60574e06380dcd874932d4e58",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mcxinyu/adb-helper-orca-plugin",
+          "updatedAt": "2026-11-23T17:42:50+08:00"
         }
       ]
     },
