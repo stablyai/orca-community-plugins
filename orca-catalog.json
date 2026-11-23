@@ -1872,16 +1872,132 @@
       "ownerId": 13881665,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/addisflava/orca-llm-router/1.3.2"
+        "url": "https://github.com/addisflava/orca-llm-router.git",
+        "ref": "v1.3.4"
       },
-      "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, and routing different providers behind a single model name with seamless fallback.",
+      "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, routing different providers behind a single model name with seamless fallback, and",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.3.4",
+          "commit": "a10b19223ff5e9614965a0c4ecd33100987775a5",
+          "contentHash": "5909ef0819a31b2d1474d461560df3a9dda35dae70185fd10bcf3d02da7019db",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LLM Router for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca LLM Router"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: gateway status"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: start sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: stop sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: restart sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: test providers"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "router:18080"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/addisflava.llm-router/799ec8f03d513730.jpg",
+              "alt": "LLM Router for Orca cover with gateway overview and provider panels beside a short feature summary",
+              "sha256": "799ec8f03d513730144c8a83c8feebcd33ac34848521c48e56f2b20e0a02c387",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/addisflava.llm-router/c08a9eba6ad9af52.png",
+              "alt": "LLM Router for Orca icon",
+              "sha256": "c08a9eba6ad9af52a372810c5be0338212e4b6ee31d15744f05cbf35452efd41",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/addisflava.llm-router/db42611d50dc52bb.png",
+                "alt": "Orca LLM Router live overview dashboard showing active gateway, metrics, and agent endpoints",
+                "sha256": "db42611d50dc52bbd67b7e64a50296a54542dc3b5a834ed73dc46849343a157a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/b46aa5bf26d30e54.png",
+                "alt": "Orca LLM Router routing panel showing model aliases, fastest-first ranking, and live failover telemetry",
+                "sha256": "b46aa5bf26d30e540bc0cc29b173fc4e87b0d3520317426d3609e903aebc7534",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/92bfe430175dc036.png",
+                "alt": "Orca LLM Router live request log showing query filtering and automatic failover retries resolving to 200 OK",
+                "sha256": "92bfe430175dc036dd1394bd9a60a116af39af7f729b2bdc90c79b569fe87f7d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/3cd493af420187b3.png",
+                "alt": "Orca LLM Router providers panel showing multi-provider configuration, key pools, and model discovery",
+                "sha256": "3cd493af420187b38c92980099460cc2f4bd64cf3d06f1664b59876aac4b37e5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/2f8c0cc9fcc4e129.png",
+                "alt": "Interactive route target editor filtering 360+ models across providers with drag-and-drop order",
+                "sha256": "2f8c0cc9fcc4e1291f3fb6ae141c2dcfec8d5e51c10e60bb3c04e187d0e4b395",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/60f2ccbc766cc2cd.png",
+                "alt": "Orca LLM Router agents tab with one-click routing toggles for 45+ supported coding agents",
+                "sha256": "60f2ccbc766cc2cdec65f375902f7ad68c20471265d89cfa1d1d4bd0e86dfa17",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/addisflava/orca-llm-router",
+          "updatedAt": "2026-11-23T17:02:37+03:00"
+        },
         {
           "version": "1.3.2",
           "commit": "652cbd93b9dec82694a45bb660b6492525557db7",
@@ -2289,62 +2405,6 @@
           "license": "MIT",
           "repository": "https://github.com/addisflava/orca-llm-router",
           "updatedAt": "2026-11-17T00:01:34+03:00"
-        },
-        {
-          "version": "1.0.0",
-          "commit": "e6a3f564fec97106af31390db1678b8b445b5918",
-          "contentHash": "02e9514fb3e5946489000c7240325b4ac357536e02f6799bc4d46385bf54ed35",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Orca LLM Router",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Orca LLM Router"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: gateway status"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: start sidecar"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: stop sidecar"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: restart sidecar"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: test providers"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.launch.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "router:18080"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "agent:read",
-            "notifications:show"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/addisflava/orca-llm-router",
-          "updatedAt": "2026-11-09T17:35:21+03:00"
         }
       ]
     },
@@ -10815,8 +10875,8 @@
       "ownerId": 76873351,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cmdaltctr/orca-plugin-openspec.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.3.2"
       },
       "description": "See your OpenSpec changes on one board inside Orca. Each change shows its stage, planning files and task progress, across the current worktree and its sibling worktrees. Press Apply to send a change to a running agent.",
       "categories": [
@@ -21573,6 +21633,51 @@
       ]
     },
     {
+      "id": "flybywind2.gencode-usage",
+      "ownerId": 221364076,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/flybywind2/gencode-usage.git",
+        "ref": "v0.1.4"
+      },
+      "description": "Shows GenCode (Genspark) token/cost usage and credit pool tier (GREEN/YELLOW/RED/EXHAUSTED) in the Orca status bar and sidebar panel, locally or over SSH.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "34b409678868f61b41f2eb770eac4ef9f99e9625",
+          "contentHash": "bbfa8a99393272fefe65f1c51e7eef764ed2167ba4ae1d4cea98280925fc8188",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "GenCode Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GenCode Usage"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh GenCode Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "GenCode …"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/flybywind2/gencode-usage",
+          "updatedAt": "2026-11-23T22:58:47+09:00"
+        }
+      ]
+    },
+    {
       "id": "gabrielvidal1.ask-form",
       "ownerId": 31007874,
       "source": {
@@ -25809,14 +25914,82 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/icaceresc/b-side/2.4.1"
+        "url": "https://github.com/icaceresc/b-side.git",
+        "ref": "v2.4.2"
       },
       "description": "Your music library in Orca's sidebar: browse, search and play the music on your PC or in your OneDrive, with synced lyrics and three skins. Windows only; plays through AIMP (free).",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "2.4.2",
+          "commit": "0778a861cb3723f67319ad8e5081d3fb3be58a16",
+          "contentHash": "2f2fa27ecbecb8c0be37540ed4aec5ea77453a9617fc0b9b7014fd5ca330057e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "B-Side",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "B-Side"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/icaceresc.b-side/702c7546c1a83d83.webp",
+              "alt": "B-Side's three skins fanned out, Cassette, Vinyl and CD, each playing a demo track with synced lyrics, beside the words \"Your music library, in Orca's sidebar\"",
+              "sha256": "702c7546c1a83d83747ba0c6a3072af1f18f0f7563373373e7f3e4221266fd74",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/icaceresc.b-side/542dd2d2b5615341.png",
+              "alt": "B-Side icon",
+              "sha256": "542dd2d2b5615341ef57b5f52660fd64274fbbba8138741512f39c8e0ca4fc7b",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.b-side/1c3c4e49aee5c5c6.webp",
+                "alt": "The panel dragged wide: a grid of demo albums beside Playing with synced lyrics",
+                "sha256": "1c3c4e49aee5c5c635e4b0c60b3c4541ffacee168e64d22fdc1377cd298b3968",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/29f2dfd099f2d5e1.webp",
+                "alt": "Search for \"rio\" finding the artist Ríos de Ámbar y Sal, the album Río Lento de Sal and its tracks, beside that album's page",
+                "sha256": "29f2dfd099f2d5e1e2e42410a717a281ef695fa658b9b3326d34b9033cdf21da",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/33b8cde92753cd84.webp",
+                "alt": "The same panel in three skins: CD in the colours of its cover, Vinyl with serif lyrics and old gold, Cassette in pixel type and cyan",
+                "sha256": "33b8cde92753cd84e97b2597dd04011cb3d671ecaf6c2c0fbfaf9805ac2e0d4b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/icaceresc.b-side/73129bc39a951956.webp",
+                "alt": "The CD skin with three demo covers, each tinting the whole panel in its own colours, with the format of each track",
+                "sha256": "73129bc39a951956c775dec1859eefa0083a25ae1542e48abc98e2b82010da72",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/b-side",
+          "updatedAt": "2026-11-23T10:48:12-03:00"
+        },
         {
           "version": "2.4.1",
           "commit": "eb4bc14b85e53a764263bfc45821ce06dc5c7754",
@@ -47308,8 +47481,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/senadaruc/orca-grazr/0.9.11"
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.11.0"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -47318,6 +47491,111 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.0",
+          "commit": "bfbda265a1ded83195e44f81bdb3c272aa550287",
+          "contentHash": "1a0e5ea71fa1ca7c7fe5a82bfdd3fe814d8558e1f422b5c8a9eb8734e6d7fa7c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap to the next account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh usage (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Turn rotation on/off (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Add an account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Sign in another organization of the active login (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a model limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a full limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Reload panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Show the focused workspace's host"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-11-23T15:16:01+01:00"
+        },
         {
           "version": "0.9.11",
           "commit": "4d42c260880bf5b4c2fcadc95981264d04cf891d",
@@ -47661,83 +47939,6 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-10-31T05:28:15+01:00"
-        },
-        {
-          "version": "0.6.1",
-          "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
-          "contentHash": "0ca274d8edb533a497a3f1ed36cdfa59acefb0bae8b7e2234ae000af96bbe062",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.245",
-          "name": "Grazr",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Claude Accounts"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Target → next host"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Status (all hosts)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Swap now (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh parked accounts (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Toggle rotation (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Install engine on target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Uninstall from target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Drain notices now"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type enrol command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type status command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh panel"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            }
-          ],
-          "capabilities": [
-            "notifications:show",
-            "settings:own",
-            "storage:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/senadaruc/orca-grazr",
-          "updatedAt": "2026-10-30T21:07:52+01:00"
         }
       ]
     },

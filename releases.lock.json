@@ -155,6 +155,12 @@
     "repoId": 1451481681,
     "firstSeen": "2026-11-23T12:24:05.956Z"
   },
+  "addisflava.llm-router@1.3.4": {
+    "commit": "a10b19223ff5e9614965a0c4ecd33100987775a5",
+    "contentHash": "5909ef0819a31b2d1474d461560df3a9dda35dae70185fd10bcf3d02da7019db",
+    "repoId": 1451481681,
+    "firstSeen": "2026-11-23T14:19:09.633Z"
+  },
   "aetna000.atmem-architect@0.1.1": {
     "commit": "39bdab4c0da27dbaf4d8de390bc26f05f9bac850",
     "contentHash": "f8fa83bfdde6a0b9a588821c2d1bacb8d98557822a48d782771accdd6d08989e",
@@ -2237,6 +2243,12 @@
     "repoId": 1442396415,
     "firstSeen": "2026-11-23T08:43:29.405Z"
   },
+  "flybywind2.gencode-usage@0.1.4": {
+    "commit": "34b409678868f61b41f2eb770eac4ef9f99e9625",
+    "contentHash": "bbfa8a99393272fefe65f1c51e7eef764ed2167ba4ae1d4cea98280925fc8188",
+    "repoId": 1468822374,
+    "firstSeen": "2026-11-23T14:19:09.633Z"
+  },
   "gabrielvidal1.ask-form@1.0.0": {
     "commit": "f5ac63a17118b901b844eb74c392c7e1fbad1a0e",
     "contentHash": "87ba7d090b8078087c57e9584862333420b5912b88cd8dad9aad54eaf31e4b21",
@@ -2860,6 +2872,12 @@
     "contentHash": "0124b40feb58ac3f86622126314a67d9499aeda28d29ae79626a46b8209661fb",
     "repoId": 1465869478,
     "firstSeen": "2026-11-23T13:18:57.617Z"
+  },
+  "icaceresc.b-side@2.4.2": {
+    "commit": "0778a861cb3723f67319ad8e5081d3fb3be58a16",
+    "contentHash": "2f2fa27ecbecb8c0be37540ed4aec5ea77453a9617fc0b9b7014fd5ca330057e",
+    "repoId": 1465869478,
+    "firstSeen": "2026-11-23T14:19:09.633Z"
   },
   "icaceresc.pixtuoid-office@3.0.0": {
     "commit": "d62550a1c7ebb3f04fd4b62f34394002d02e475d",
@@ -5062,6 +5080,12 @@
     "contentHash": "16b0b5c9d10c2c626bcffd3007d2240a695ce735c289d79a589cdc6b231c256d",
     "repoId": 1462045194,
     "firstSeen": "2026-11-21T23:14:12.253Z"
+  },
+  "senadaruc.grazr@0.11.0": {
+    "commit": "bfbda265a1ded83195e44f81bdb3c272aa550287",
+    "contentHash": "1a0e5ea71fa1ca7c7fe5a82bfdd3fe814d8558e1f422b5c8a9eb8734e6d7fa7c",
+    "repoId": 1440225977,
+    "firstSeen": "2026-11-23T14:19:09.633Z"
   },
   "senadaruc.grazr@0.6.1": {
     "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
