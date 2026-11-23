@@ -10816,13 +10816,88 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/cmdaltctr/orca-plugin-openspec.git",
-        "ref": "v0.3.0"
+        "ref": "v0.3.2"
       },
       "description": "See your OpenSpec changes on one board inside Orca. Each change shows its stage, planning files and task progress, across the current worktree and its sibling worktrees. Press Apply to send a change to a running agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "36cd6fe6efe160a1316eb814881ada19f379e0f8",
+          "contentHash": "9b8578a21d3831e0986e92621fbd80c17750a6461db10184d9fced5c330e0aba",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "OpenSpec",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenSpec"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cmdaltctr.openspec/600b0ec1426f954a.png",
+              "alt": "The OpenSpec board with changes grouped by stage and a progress bar on each",
+              "sha256": "600b0ec1426f954a5171e4c0f4d269b8d44965b5734c0637a69223f88998e3d2",
+              "width": 1328,
+              "height": 830
+            },
+            "screenshots": [
+              {
+                "path": "assets/cmdaltctr.openspec/600b0ec1426f954a.png",
+                "alt": "Changes grouped into Planning, Ready, In progress and Complete, with run order and progress",
+                "sha256": "600b0ec1426f954a5171e4c0f4d269b8d44965b5734c0637a69223f88998e3d2",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/4ccff9312f0defdc.png",
+                "alt": "The All worktrees tab listing changes from sibling worktrees with their branch",
+                "sha256": "4ccff9312f0defdce37431c50b0d3a00a677fc079853293aea9b6b03de316507",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/6f1e5513d4ba7ffb.png",
+                "alt": "The Todo tab listing unfinished tasks, each with an Apply button",
+                "sha256": "6f1e5513d4ba7ffb17b923a54f3cf91204de3845107a24bf8555031163c4dbb5",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/12d906511a79a0a8.png",
+                "alt": "The Send to agent menu with its help note open",
+                "sha256": "12d906511a79a0a87263372212735073ae1cae471804a7eac6c9f9040f499cda",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/f4d4bedd86e90bba.png",
+                "alt": "A change opened to read its proposal",
+                "sha256": "f4d4bedd86e90bbadb8bf28d44f55416e6e341b495a54168bceda4e039e6e45d",
+                "width": 1328,
+                "height": 830
+              },
+              {
+                "path": "assets/cmdaltctr.openspec/ca787654a6ae89dc.png",
+                "alt": "The All worktrees tab in the light theme",
+                "sha256": "ca787654a6ae89dc78894162950cba2aca67c030a070d023a6521344c77269af",
+                "width": 1328,
+                "height": 830
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cmdaltctr/orca-plugin-openspec",
+          "updatedAt": "2026-11-23T13:42:25Z"
+        },
         {
           "version": "0.3.0",
           "commit": "f2417599aa9ddc89fc2320486cd9df60665807e1",
@@ -24366,8 +24441,8 @@
       "ownerId": 11695523,
       "source": {
         "kind": "git",
-        "url": "https://github.com/HenryMa96/orca-telegram-bridge.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/henryma96/orca-telegram-bridge/0.1.1"
       },
       "description": "Two-way Telegram bot bridge that routes messages to your Orca bots and sends replies back.",
       "categories": [
@@ -25734,8 +25809,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v2.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/b-side/2.4.1"
       },
       "description": "Your music library in Orca's sidebar: browse, search and play the music on your PC or in your OneDrive, with synced lyrics and three skins. Windows only; plays through AIMP (free).",
       "categories": [
@@ -29581,8 +29656,8 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Juanpe/orca-pit-wall.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/juanpe/orca-pit-wall/0.1.2"
       },
       "description": "Read-only panel: who is waiting on you, who is working, and the state of every worktree.",
       "categories": [
@@ -42931,8 +43006,8 @@
       "ownerId": 291965963,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rekanara/worklog-timesheets-orca-plugin.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rekanara/worklog-timesheets-orca-plugin/0.1.0"
       },
       "description": "Timesheet and work log written by your coding agents: what was done each day, per project and area, collected automatically from agent notes and Git commits. Monthly report export as Markdown or CSV for clients or your manager.",
       "categories": [

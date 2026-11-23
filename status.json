@@ -699,12 +699,9 @@
     },
     "cmdaltctr/orca-plugin-openspec": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "v0.3.2",
       "plugins": [
         "cmdaltctr.openspec"
-      ],
-      "notes": [
-        "engines.orca: must be at least >=1.4.247, because src/handlers.ts calls host method \"workspace.list\", which needs Orca 1.4.247; or guard the call with orca.host.has('workspace.list')"
       ]
     },
     "cmdaltctr/orca-plugin-prs-actions-releases-status": {
@@ -1599,7 +1596,7 @@
     },
     "henryma96/orca-telegram-bridge": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/henryma96/orca-telegram-bridge/0.1.1",
       "plugins": [
         "henryma96.telegram-bridge"
       ],
@@ -1638,6 +1635,16 @@
         "engines.orca: must be at least >=1.4.259, because worker/main.ts calls host method \"terminal.close\", which needs Orca 1.4.259; or guard the call with orca.host.has('terminal.close')"
       ]
     },
+    "houskii/orca-magpie-monitor": {
+      "state": "rejected",
+      "ref": "v0.4.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (bin/magpie-popup)"
+        }
+      ]
+    },
     "hsnils/orca-github-notifications": {
       "state": "listed",
       "ref": "refs/tags/hsnils/orca-github-notifications/0.2.1",
@@ -1668,7 +1675,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v2.4.1",
+      "ref": "refs/tags/icaceresc/b-side/2.4.1",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -1939,7 +1946,7 @@
     },
     "juanpe/orca-pit-wall": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/juanpe/orca-pit-wall/0.1.2",
       "plugins": [
         "juanpe.pit-wall"
       ]
@@ -2925,7 +2932,7 @@
     },
     "rekanara/worklog-timesheets-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/rekanara/worklog-timesheets-orca-plugin/0.1.0",
       "plugins": [
         "rekanara.worklog"
       ]
@@ -3337,6 +3344,36 @@
       "ref": "refs/tags/shaurgon/conport-orca/0.9.4",
       "plugins": [
         "shaurgon.conport-orca"
+      ]
+    },
+    "shelmecha/doki-orca-dark-1": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "author: must be an object"
+        }
+      ]
+    },
+    "shelmecha/doki-orca-dark-2": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "author: must be an object"
+        }
+      ]
+    },
+    "shelmecha/doki-orca-light": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "author: must be an object"
+        }
       ]
     },
     "shu-vro/orca-read-aloud": {
