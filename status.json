@@ -1603,6 +1603,16 @@
         }
       ]
     },
+    "henryma96/orca-telegram-bridge": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "publisher: must be kebab-case (a-z, 0-9, dashes)"
+        }
+      ]
+    },
     "hexmyn/orca-win-2000-theme": {
       "state": "listed",
       "ref": "refs/tags/hexmyn/orca-win-2000-theme/1.0.1",
@@ -2072,7 +2082,7 @@
     },
     "lifegood-acc/model-viewer-3d": {
       "state": "rejected",
-      "ref": "v0.27.1",
+      "ref": "v0.37.0",
       "reasons": [
         {
           "category": "under-review",
@@ -2082,7 +2092,7 @@
     },
     "lifegood-acc/step-viewer-3d": {
       "state": "rejected",
-      "ref": "v0.25.2",
+      "ref": "v0.35.0",
       "reasons": [
         {
           "category": "under-review",
@@ -2869,7 +2879,7 @@
     },
     "qobyn/s-git-extension": {
       "state": "listed",
-      "ref": "v0.0.8",
+      "ref": "refs/tags/qobyn/s-git-extension/s-git/0.0.8",
       "plugins": [
         "qobyn.s-git"
       ]
@@ -3044,7 +3054,7 @@
     },
     "rr235/orca-task-launcher": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/rr235/orca-task-launcher/0.2.2",
       "plugins": [
         "rr235.task-launcher"
       ]
@@ -3198,19 +3208,13 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "refs/tags/senadaruc/orca-grazr/0.8.1",
+      "ref": "v0.9.11",
       "plugins": [
         "senadaruc.grazr"
       ],
-      "update": {
-        "ref": "v0.9.11",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "sergei-popov/orca-api-spec-viewer": {
       "state": "listed",
@@ -3799,7 +3803,7 @@
     },
     "vaclavgreif/orca-live-agents": {
       "state": "rejected",
-      "ref": "v0.1.2",
+      "ref": "v0.1.6",
       "reasons": [
         {
           "category": "licence",
