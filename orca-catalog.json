@@ -51652,8 +51652,8 @@
       "ownerId": 200365,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thinkjson/orca-dashboard.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thinkjson/orca-dashboard/0.1.0"
       },
       "description": "A dashboard for worktrees and their agent chats.",
       "categories": [
@@ -52896,6 +52896,58 @@
       ]
     },
     {
+      "id": "tksuns12.account-token-tracker",
+      "ownerId": 16596559,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tksuns12/account-token-tracker.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Tracks per-account quota percentage vs actual token consumption, with weekly/monthly tokens-per-1% trends to detect quota enshittification.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "f08e897dc41fd6bb7475e2d072bd18c28466f13a",
+          "contentHash": "0456d80ca39dfb9855abe554d23aee85018fa9f4f70c051c7e8149b68495d8a8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Account Token Tracker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Account Token Tracker"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Token Tracker: Refresh Snapshot"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Tracker"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "history:read",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/tksuns12/account-token-tracker",
+          "updatedAt": "2026-11-23T08:47:57+09:00"
+        }
+      ]
+    },
+    {
       "id": "tomasmarik-sys.czech",
       "ownerId": 244070248,
       "source": {
@@ -53209,6 +53261,100 @@
           "license": "MIT",
           "repository": "https://github.com/tourbut/orca-helm",
           "updatedAt": "2026-11-05T10:08:52+09:00"
+        }
+      ]
+    },
+    {
+      "id": "truongthanhquan.cloudflare-relay",
+      "ownerId": 9301763,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/truongthanhquan/orca-cloudflare-relay-plugin.git",
+        "ref": "v2.7.2"
+      },
+      "description": "Connect Orca Mobile to this desktop from anywhere through your free Cloudflare account. After installing, click \"Set up relay\" (cloud icon) in the status bar (or run \"Set up / open panel\") and follow 3 steps. Phones pair with a normal QR code; no app changes needed. Not affiliated with Cloudflare.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "2.7.2",
+          "commit": "500c988ca47f3ef36030390c8ab107576a666cf2",
+          "contentHash": "02ba0b5170d01053574f18665e7a417c7b3ea49fa4ce9437366519d58ca17f35",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Cloudflare Relay",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cloudflare Relay"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Set up / open panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Start"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Stop"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Toggle"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Relay: Show status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Relay off"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/truongthanhquan.cloudflare-relay/74a2705350797ed2.png",
+              "alt": "Cloudflare Relay plugin: Orca Mobile connects to the Orca desktop through your own relay on Cloudflare; the panel shows a connected relay and a pairing QR code",
+              "sha256": "74a2705350797ed2a51211e151ae96fcf862ed750cec5c6c9513f14448108427",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/truongthanhquan.cloudflare-relay/404673a1250084aa.png",
+                "alt": "The setup panel with three steps: choose a connection, connect Cloudflare with a one-click token, pair your phone",
+                "sha256": "404673a1250084aab482c79774f1f25b170fe255b44bb105838705fe6ad40ef0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/truongthanhquan.cloudflare-relay/f9c7f73e8c7f6477.png",
+                "alt": "The pairing card showing a single-use QR code that expires in 5 minutes",
+                "sha256": "f9c7f73e8c7f6477f2b06bc44d8247cf990f06f429a3f86f3f33a03e9b20a49f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/truongthanhquan.cloudflare-relay/9214e594ae592ffe.png",
+                "alt": "Manual setup for a tunnel on your own domain, without giving the plugin a Cloudflare token",
+                "sha256": "9214e594ae592ffee76d5577ee32189db6483d4ca6366bc50a86505703693626",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/truongthanhquan/orca-cloudflare-relay-plugin",
+          "updatedAt": "2026-11-23T07:17:14+07:00"
         }
       ]
     },

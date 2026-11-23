@@ -1385,7 +1385,16 @@
       "ref": "refs/tags/gokul-kulkarni/narada-orca/0.2.0",
       "plugins": [
         "gokul-kulkarni.narada"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "gokul-kulkarni/objectlens": {
       "state": "listed",
@@ -3503,7 +3512,7 @@
     },
     "thinkjson/orca-dashboard": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/thinkjson/orca-dashboard/0.1.0",
       "plugins": [
         "thinkjson.worktree-dashboard"
       ]
@@ -3548,6 +3557,13 @@
       "ref": "refs/tags/tienne/orcatopia/0.4.1",
       "plugins": [
         "tienne.landmark-island"
+      ]
+    },
+    "tksuns12/account-token-tracker": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "tksuns12.account-token-tracker"
       ]
     },
     "tomasmarik-sys/orca-czech": {
@@ -3599,13 +3615,10 @@
       ]
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
-      "state": "rejected",
-      "ref": "v2.6.4",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "state": "listed",
+      "ref": "v2.7.2",
+      "plugins": [
+        "truongthanhquan.cloudflare-relay"
       ]
     },
     "tterumiimurett/orca-audio-preview": {
