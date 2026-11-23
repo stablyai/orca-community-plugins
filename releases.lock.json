@@ -1787,6 +1787,12 @@
     "repoId": 1448741097,
     "firstSeen": "2026-11-22T10:42:47.692Z"
   },
+  "ebbop.italiano@1.4.271": {
+    "commit": "9b6c0516211d091e03ee8b5e43704d9ade0548e4",
+    "contentHash": "a71d3b5d2cdb50b39ba3377b8d86574ec04beed36be1090c07555f6dbb6875c9",
+    "repoId": 1448741097,
+    "firstSeen": "2026-11-23T17:42:47.731Z"
+  },
   "ebrgr.backlog-md@0.1.0": {
     "commit": "4054862a86a7eb50e36020d17b4394d30cdc120e",
     "contentHash": "f4671de67f80f4c986af4b844b76a605aca80c2b3bc848f0a26e6b01914c08e8",
@@ -6052,6 +6058,12 @@
     "contentHash": "a544e60028642a8c5eb1a32b814eda364f87831b54d132f308011f636aaea547",
     "repoId": 1469049764,
     "firstSeen": "2026-11-23T17:16:03.273Z"
+  },
+  "tornadodai.bot-office@0.2.1": {
+    "commit": "8783a7299a7bd9cdfb15c750dd808d9f91139c36",
+    "contentHash": "e81dbe2932bab44829c51ca689816267cd52d95010f0e339a54aed5635321ae2",
+    "repoId": 1469049764,
+    "firstSeen": "2026-11-23T17:42:47.731Z"
   },
   "tourbut.claude-pin@0.3.1": {
     "commit": "519a4742c614341f0c6c04b5fb9b49079b4f25b7",

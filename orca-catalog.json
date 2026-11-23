@@ -16869,14 +16869,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.269"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.271"
       },
-      "description": "Interfaccia di Orca in italiano, allineata a Orca 1.4.269. Pacchetto della community, non ufficiale.",
+      "description": "L’interfaccia di Orca in italiano: 22.000 testi tradotti su 22.000 (100%), allineata a Orca 1.4.271. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.271",
+          "commit": "9b6c0516211d091e03ee8b5e43704d9ade0548e4",
+          "contentHash": "a71d3b5d2cdb50b39ba3377b8d86574ec04beed36be1090c07555f6dbb6875c9",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
+              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
+              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-23T18:36:29+01:00"
+        },
         {
           "version": "1.4.269",
           "commit": "e6739ebb96f72cadc60b6df3c4fbdb86f57dc98b",
@@ -19714,8 +19747,8 @@
       "ownerId": 49872514,
       "source": {
         "kind": "git",
-        "url": "https://github.com/fabiopbarbieri/azure-boards-orca-plugin.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.3.2"
       },
       "description": "Your Azure Boards work items (Azure DevOps Services) in Orca: what is assigned to you and your teams' boards. Search, move items between states and columns, and start work on one with a coding agent.",
       "categories": [
@@ -47813,8 +47846,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/senadaruc/orca-grazr.git",
-        "ref": "v0.11.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/senadaruc/orca-grazr/0.11.3"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -52368,8 +52401,8 @@
       "ownerId": 37236438,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shun-shobon/orca-cloudflare-access.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shun-shobon/orca-cloudflare-access/0.1.0"
       },
       "description": "Relays Orca Remote Server connections through Cloudflare Access, signing in with Managed OAuth.",
       "categories": [
@@ -53132,8 +53165,8 @@
       "ownerId": 28980223,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sotoru/versionlens.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sotoru/versionlens/0.2.0"
       },
       "description": "See newer npm versions for every package.json dependency, update them in place, read changelogs, and catch peer conflicts and known vulnerabilities.",
       "categories": [
@@ -57849,15 +57882,84 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.2.0"
+        "ref": "v0.2.1"
       },
-      "description": "Live architectural office & grouped workbench in Orca's right sidebar: track every Bot, their Workers, and native Needs-You decision items at a glance.",
+      "description": "Live architectural office & grouped workbench in Orca's right sidebar: track every Bot, their Workers, and native Needs-You decision items with one-click jump.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "8783a7299a7bd9cdfb15c750dd808d9f91139c36",
+          "contentHash": "e81dbe2932bab44829c51ca689816267cd52d95010f0e339a54aed5635321ae2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/a41c65e5b3b57896.png",
+                "alt": "Bot Office cutaway headquarters and decision preview card showing Bot teams, Worker robots, native Needs-You items, and grouped workbench",
+                "sha256": "a41c65e5b3b57896f4ebe5d31bbe9c21da81f1ec793428f5583e48828f87a217",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T01:18:29+08:00"
+        },
         {
           "version": "0.2.0",
           "commit": "59c1f33b8c6a1c4689ab4c966caed1d673fea4fb",

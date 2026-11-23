@@ -1002,7 +1002,7 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/ebbop/orca-italiano/1.4.269",
+      "ref": "v1.4.271",
       "plugins": [
         "ebbop.italiano"
       ],
@@ -1209,7 +1209,7 @@
     },
     "fabiopbarbieri/azure-boards-orca-plugin": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.3.2",
       "plugins": [
         "fabiopbarbieri.azure-boards"
       ],
@@ -3269,7 +3269,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.11.3",
+      "ref": "refs/tags/senadaruc/orca-grazr/0.11.3",
       "plugins": [
         "senadaruc.grazr"
       ],
@@ -3426,7 +3426,7 @@
     },
     "shun-shobon/orca-cloudflare-access": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/shun-shobon/orca-cloudflare-access/0.1.0",
       "plugins": [
         "shun-shobon.cloudflare-access"
       ]
@@ -3558,7 +3558,7 @@
     },
     "sotoru/versionlens": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/sotoru/versionlens/0.2.0",
       "plugins": [
         "sotoru.versionlens"
       ]
@@ -3816,7 +3816,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "tornadodai.bot-office"
       ]
