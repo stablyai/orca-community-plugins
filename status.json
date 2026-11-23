@@ -699,7 +699,7 @@
     },
     "cmdaltctr/orca-plugin-openspec": {
       "state": "listed",
-      "ref": "refs/tags/cmdaltctr/orca-plugin-openspec/0.2.3",
+      "ref": "v0.3.0",
       "plugins": [
         "cmdaltctr.openspec"
       ],
@@ -1598,13 +1598,13 @@
       ]
     },
     "henryma96/orca-telegram-bridge": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "publisher: must be kebab-case (a-z, 0-9, dashes)"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "henryma96.telegram-bridge"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "hexmyn/orca-win-2000-theme": {
@@ -1668,7 +1668,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v2.4.0",
+      "ref": "v2.4.1",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -1939,7 +1939,7 @@
     },
     "juanpe/orca-pit-wall": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "juanpe.pit-wall"
       ]
@@ -2923,6 +2923,13 @@
         "rekanara.nvm-manager"
       ]
     },
+    "rekanara/worklog-timesheets-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "rekanara.worklog"
+      ]
+    },
     "rem021/workspace-naming-guard": {
       "state": "listed",
       "ref": "refs/tags/rem021/workspace-naming-guard/1.1.2",
@@ -3807,7 +3814,7 @@
     },
     "vaclavgreif/orca-live-agents": {
       "state": "rejected",
-      "ref": "v0.1.7",
+      "ref": "v0.1.8",
       "reasons": [
         {
           "category": "licence",

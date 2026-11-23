@@ -1229,6 +1229,12 @@
     "repoId": 1444201316,
     "firstSeen": "2026-11-20T18:42:25.698Z"
   },
+  "cmdaltctr.openspec@0.3.0": {
+    "commit": "f2417599aa9ddc89fc2320486cd9df60665807e1",
+    "contentHash": "0a8dedd7eb2ca31ba92834069c121222625ee3d69cd8f2e6f4395a86b1869f2c",
+    "repoId": 1444201316,
+    "firstSeen": "2026-11-23T13:18:57.617Z"
+  },
   "cmdaltctr.release-status@0.1.2": {
     "commit": "acd8eef9a612cde66a25a49f833898886b4342bb",
     "contentHash": "86e89f073abf58892fe6eb619d4868fc5f5178749f6086d433815febf7d7fd2e",
@@ -2639,6 +2645,12 @@
     "repoId": 1442181874,
     "firstSeen": "2026-11-04T13:40:05.964Z"
   },
+  "henryma96.telegram-bridge@0.1.1": {
+    "commit": "d093e248d2b00947546cc8ff6af7b10b334bd470",
+    "contentHash": "2c1e8f025aa115a600b9f07a7f8e356dc6fbf688c6cda4a8761fce163ad1b050",
+    "repoId": 1468652099,
+    "firstSeen": "2026-11-23T13:18:57.617Z"
+  },
   "hexmyn.service-pack-sky@1.0.1": {
     "commit": "92c98bea40bade7b8f2e0cdd2574ba009a4b4646",
     "contentHash": "db40ff9b0683ccd5c9ce4685c75db8d96cb0cc6cf44225c58ea826552168300c",
@@ -2836,6 +2848,12 @@
     "contentHash": "c4c648837c3e7146c09cb4e70dc23ca0391638ae94b5a71f2ca8e15127a99adb",
     "repoId": 1465869478,
     "firstSeen": "2026-11-23T12:45:46.245Z"
+  },
+  "icaceresc.b-side@2.4.1": {
+    "commit": "eb4bc14b85e53a764263bfc45821ce06dc5c7754",
+    "contentHash": "0124b40feb58ac3f86622126314a67d9499aeda28d29ae79626a46b8209661fb",
+    "repoId": 1465869478,
+    "firstSeen": "2026-11-23T13:18:57.617Z"
   },
   "icaceresc.pixtuoid-office@3.0.0": {
     "commit": "d62550a1c7ebb3f04fd4b62f34394002d02e475d",
@@ -3160,6 +3178,12 @@
     "contentHash": "2865fbd8f4dd06dc6c5161ae1790053d5bf99351f12b8bf4d3269c22fc6c31eb",
     "repoId": 1468725454,
     "firstSeen": "2026-11-23T12:45:46.245Z"
+  },
+  "juanpe.pit-wall@0.1.2": {
+    "commit": "ed0378533431574ddd6ae81b4c67b21287459193",
+    "contentHash": "48d7533090f759c2bdc014f81e1eeb0f1d684e5665b419b0cde405e775275928",
+    "repoId": 1468725454,
+    "firstSeen": "2026-11-23T13:18:57.617Z"
   },
   "kawamura0807.asana-tasks@0.2.1": {
     "commit": "5997007624e5e7b52a28eb1bd96d2a85d3e148be",
@@ -4516,6 +4540,12 @@
     "contentHash": "6f0bef7fd950b2e17e0b24b4743d3242c817e93ae8af31354a5ceb6e4b71e337",
     "repoId": 1468441928,
     "firstSeen": "2026-11-23T08:23:33.374Z"
+  },
+  "rekanara.worklog@0.1.0": {
+    "commit": "dc6837c2062485343ebf3abaf3e7fe20c98331b0",
+    "contentHash": "76f7381561291c101da68228845742d8bff00bd1dbe37ffb5543eeab2c4e6960",
+    "repoId": 1468733035,
+    "firstSeen": "2026-11-23T13:18:57.617Z"
   },
   "rem021.workspace-naming-guard@1.1.0": {
     "commit": "2398aece247cbfe550b8c4d972e9ba24d3542435",
