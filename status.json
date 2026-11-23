@@ -82,7 +82,7 @@
         "addisflava.llm-router"
       ],
       "update": {
-        "ref": "v1.3.5",
+        "ref": "v1.3.6",
         "reasons": [
           {
             "category": "under-review",
@@ -2389,7 +2389,7 @@
     },
     "miragon/orca-plugins": {
       "state": "rejected",
-      "ref": "v0.1.31",
+      "ref": "v0.1.32",
       "reasons": [],
       "plugins": [
         {
@@ -3242,7 +3242,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "refs/tags/senadaruc/orca-grazr/0.11.0",
+      "ref": "v0.11.1",
       "plugins": [
         "senadaruc.grazr"
       ],
@@ -3364,21 +3364,21 @@
     },
     "shelmecha/doki-orca-dark-1": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/shelmecha/doki-orca-dark-1/0.1.1",
       "plugins": [
         "shelmecha.doki-terminal-dark-1"
       ]
     },
     "shelmecha/doki-orca-dark-2": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/shelmecha/doki-orca-dark-2/0.1.1",
       "plugins": [
         "shelmecha.doki-terminal-dark-2"
       ]
     },
     "shelmecha/doki-orca-light": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/shelmecha/doki-orca-light/0.1.1",
       "plugins": [
         "shelmecha.doki-terminal-light"
       ]
@@ -3719,7 +3719,16 @@
       "ref": "refs/tags/tiagodanin/orca-flutter/0.3.1",
       "plugins": [
         "tiagodanin.flutter"
-      ]
+      ],
+      "update": {
+        "ref": "v1.0.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "tienne/jira-tasks": {
       "state": "listed",

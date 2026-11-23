@@ -47481,8 +47481,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/senadaruc/orca-grazr/0.11.0"
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.11.1"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -47491,6 +47491,111 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.1",
+          "commit": "f828219570e4dd9a0ecb401c569eebbac8562862",
+          "contentHash": "d87a97181485080344e0a8a89bae29cf284277d412f0364e20bdf380a17c27dc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap to the next account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh usage (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Turn rotation on/off (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Add an account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Sign in another organization of the active login (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a model limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a full limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Reload panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Show the focused workspace's host"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-11-23T16:13:00+01:00"
+        },
         {
           "version": "0.11.0",
           "commit": "bfbda265a1ded83195e44f81bdb3c272aa550287",
@@ -47862,83 +47967,6 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-10-31T09:15:58+01:00"
-        },
-        {
-          "version": "0.6.2",
-          "commit": "4ed2366b75da58e18925f8f22f9ea77981b12507",
-          "contentHash": "19cb1c3cb987763fe3de1bcd56022ad700a903b802e7323ebe9b3cbacda6456c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.245",
-          "name": "Grazr",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Claude Accounts"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Target → next host"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Status (all hosts)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Swap now (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh parked accounts (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Toggle rotation (target)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Install engine on target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Uninstall from target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Drain notices now"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type enrol command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type status command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh panel"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            }
-          ],
-          "capabilities": [
-            "notifications:show",
-            "settings:own",
-            "storage:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/senadaruc/orca-grazr",
-          "updatedAt": "2026-10-31T05:28:15+01:00"
         }
       ]
     },
@@ -50497,8 +50525,8 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shelmecha/doki-orca-dark-1.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shelmecha/doki-orca-dark-1/0.1.1"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
@@ -50781,8 +50809,8 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shelmecha/doki-orca-dark-2.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shelmecha/doki-orca-dark-2/0.1.1"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
@@ -50965,8 +50993,8 @@
       "ownerId": 153463624,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shelmecha/doki-orca-light.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shelmecha/doki-orca-light/0.1.1"
       },
       "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
       "categories": [
