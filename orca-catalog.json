@@ -21637,8 +21637,8 @@
       "ownerId": 221364076,
       "source": {
         "kind": "git",
-        "url": "https://github.com/flybywind2/gencode-usage.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/flybywind2/gencode-usage/0.1.4"
       },
       "description": "Shows GenCode (Genspark) token/cost usage and credit pool tier (GREEN/YELLOW/RED/EXHAUSTED) in the Orca status bar and sidebar panel, locally or over SSH.",
       "categories": [
@@ -25914,8 +25914,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v2.4.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/b-side/2.4.2"
       },
       "description": "Your music library in Orca's sidebar: browse, search and play the music on your PC or in your OneDrive, with synced lyrics and three skins. Windows only; plays through AIMP (free).",
       "categories": [
@@ -47481,8 +47481,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/senadaruc/orca-grazr.git",
-        "ref": "v0.11.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/senadaruc/orca-grazr/0.11.0"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -50489,6 +50489,638 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-16T18:56:53Z"
+        }
+      ]
+    },
+    {
+      "id": "shelmecha.doki-terminal-dark-1",
+      "ownerId": 153463624,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shelmecha/doki-orca-dark-1.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
+      "categories": [
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "33be7665993a7b5ba232906284bc558def511fc8",
+          "contentHash": "37dea09a60f47d70cf032a367e0b7742600c8fcc6f38aeb3f9f4c105b45db745",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Doki Dark Terminal Themes 1",
+          "contributes": [
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Aqua"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Astolfo"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Asuna Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Azuki"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Chocola"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Christmas Chocola"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Cinnamon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Coconut"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Darkness Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Echidna"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Emilia Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Essex"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Gasai Yuno"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Genos"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Gray"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hanekawa Tsubasa"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hatsune Miku"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hayase Nagatoro"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hinata Shoyo"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hiro"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Hiro x Zero Two"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ishtar Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Jabami Yumeko"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Jahy"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Kanna"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Katsuragi Misato"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Kirino"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Konata"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mai Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Maika"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Makise Kurisu"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Maple Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Megumin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Miia"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mioda Ibuki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Misaka Mikoto"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Monika Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nadeshiko"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Miku"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Nino"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Yotsuba"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Natsuki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ram"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Raphtalia"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rei"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rem"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rias Crimson"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rias Onyx"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rimuru Tempest"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Rory Mercury"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ryuko Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sagiri"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Satsuki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sayori Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Shima Rin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sonoda Umi"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Takanashi Rikka"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Tohsaka Rin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Vanilla"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yukihira Soma"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yukinoshita Yukino"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yuri Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Dark Obsidian"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Dark Rose"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shelmecha/doki-orca-dark-1",
+          "updatedAt": "2026-11-23T22:28:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "shelmecha.doki-terminal-dark-2",
+      "ownerId": 153463624,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shelmecha/doki-orca-dark-2.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
+      "categories": [
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "543d06809df7f33d165335c4ec4797e7993c2179",
+          "contentHash": "264a3217ebc3e082deaa4cfd68fbe47065f863ebe5c229c9b58f75a605c32466",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Doki Dark Terminal Themes 2",
+          "contributes": [
+            {
+              "kind": "terminalThemes",
+              "name": "termcn AMOLED"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Aura"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Ayu"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Carbonfox"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin Frappe"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin Macchiato"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Cobalt2"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Cursor"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Default"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Dracula"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Everforest"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Flexoki"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn GitHub"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Gruvbox"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn High Contrast"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Kanagawa"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Lucent Orng"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Material"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Matrix"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Mercury"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Monokai"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Night Owl"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Nord"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn OC-2"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn One Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn One Dark Pro"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn OpenCode"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Orng"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Osaka Jade"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Palenight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Rose Pine"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Shades of Purple"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Solarized"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Synthwave '84"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Tokyo Night"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Vercel"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Vesper"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Zenburn"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shelmecha/doki-orca-dark-2",
+          "updatedAt": "2026-11-23T22:28:07+08:00"
+        }
+      ]
+    },
+    {
+      "id": "shelmecha.doki-terminal-light",
+      "ownerId": 153463624,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shelmecha/doki-orca-light.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Terminal color themes inspired by Doki Theme, termcn and other palette projects. Full credits in the README.",
+      "categories": [
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "7949962d8e2a102a3057660c7335189947a2271a",
+          "contentHash": "e1fcabe3cdfca56ea038d1ed616bd5156307e3c1b2c1ecbdc5b58cfde4e9ae38",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Doki Light Terminal Themes",
+          "contributes": [
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Asuna Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Beatrice"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki C.C."
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Darkness Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Emilia Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ishtar Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mai Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Maple Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Mioda Ibuki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Monika Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Ichika"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Nakano Itsuki"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Natsuki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Ryuko Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Satsuki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Sayori Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Senko"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Shigure"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Tohru"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Tomori Nao"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yuri Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Yuzuriha Inori"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Light Lily"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Doki Zero Two Light Sakura"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Ayu Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Catppuccin Latte"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Cute Pink Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Everforest Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Flexoki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn GitHub Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Gruvbox Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn High Contrast Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Rosé Pine Dawn"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "termcn Solarized Light"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shelmecha/doki-orca-light",
+          "updatedAt": "2026-11-23T22:28:13+08:00"
         }
       ]
     },

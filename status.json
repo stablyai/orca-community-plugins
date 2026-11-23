@@ -80,7 +80,16 @@
       "ref": "v1.3.4",
       "plugins": [
         "addisflava.llm-router"
-      ]
+      ],
+      "update": {
+        "ref": "v1.3.5",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
@@ -1339,7 +1348,7 @@
     },
     "flybywind2/gencode-usage": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/flybywind2/gencode-usage/0.1.4",
       "plugins": [
         "flybywind2.gencode-usage"
       ]
@@ -1682,7 +1691,7 @@
     },
     "icaceresc/b-side": {
       "state": "listed",
-      "ref": "v2.4.2",
+      "ref": "refs/tags/icaceresc/b-side/2.4.2",
       "plugins": [
         "icaceresc.b-side"
       ]
@@ -3233,7 +3242,7 @@
     },
     "senadaruc/orca-grazr": {
       "state": "listed",
-      "ref": "v0.11.0",
+      "ref": "refs/tags/senadaruc/orca-grazr/0.11.0",
       "plugins": [
         "senadaruc.grazr"
       ],
@@ -3354,33 +3363,24 @@
       ]
     },
     "shelmecha/doki-orca-dark-1": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "author: must be an object"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "shelmecha.doki-terminal-dark-1"
       ]
     },
     "shelmecha/doki-orca-dark-2": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "author: must be an object"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "shelmecha.doki-terminal-dark-2"
       ]
     },
     "shelmecha/doki-orca-light": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "author: must be an object"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "shelmecha.doki-terminal-light"
       ]
     },
     "shu-vro/orca-read-aloud": {
