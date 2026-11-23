@@ -17096,8 +17096,8 @@
       "ownerId": 164618298,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ENOSTECH-inc/orca-worklog.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/enostech-inc/orca-worklog/0.1.0"
       },
       "description": "Visualize human and AI agent activity timelines, active time, live tool traces, and daily/weekly Markdown reports inside Orca.",
       "categories": [
@@ -37876,8 +37876,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oddieradhie/orca-kerjan.git",
-        "ref": "v1.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.2"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
@@ -51313,8 +51313,8 @@
       "ownerId": 93583813,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Thanhh2615/datanoa.git",
-        "ref": "v1.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thanhh2615/datanoa/1.1.2"
       },
       "description": "Database client and SQL studio for Orca. Browse schemas, edit and import data, design tables, and run SQL or Redis queries over SSH and TLS across SQLite, PostgreSQL, MySQL, MariaDB, CockroachDB, ClickHouse, Redis, LibSQL/Turso, Cloudflare D1, SQL Server (MSSQL), Oracle, and MongoDB.",
       "categories": [
@@ -51909,14 +51909,55 @@
       "ownerId": 200365,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thinkjson/orca-dashboard/0.1.0"
+        "url": "https://github.com/thinkjson/orca-dashboard.git",
+        "ref": "v0.1.1"
       },
       "description": "A dashboard for worktrees and their agent chats.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "5be7c904a7b4eeb74dc1dd024aa58619f801c8fb",
+          "contentHash": "7b18e6e24f808b8aa32fcba70ee1742c9d4d5e17db4e71f4b90313fb5d813074",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Worktree Dashboard",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Dashboard"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/thinkjson.worktree-dashboard/b415df2f167421da.png",
+              "alt": "Worktree Dashboard icon",
+              "sha256": "b415df2f167421daa24216ca3dca2c287f56d30a53f5c53cb8a971102f045e98",
+              "width": 128,
+              "height": 128
+            },
+            "screenshots": [
+              {
+                "path": "assets/thinkjson.worktree-dashboard/2e169d8cd2a43eca.png",
+                "alt": "Worktree Dashboard showing eight repositories with agent chat titles and status dots in a two-column grid.",
+                "sha256": "2e169d8cd2a43ecaa16114dec336a7148a29890d5c21d6e5edb2f3288dcdef93",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thinkjson/orca-dashboard",
+          "updatedAt": "2026-11-22T22:02:23-05:00"
+        },
         {
           "version": "0.1.0",
           "commit": "858137b0b4d603b1f061fa752f2ee3d5f64ff17e",
@@ -53157,16 +53198,51 @@
       "ownerId": 16596559,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tksuns12/account-token-tracker/0.2.0"
+        "url": "https://github.com/tksuns12/account-token-tracker.git",
+        "ref": "v0.3.1"
       },
-      "description": "Tracks per-account quota percentage vs actual token consumption, with weekly/monthly tokens-per-1% trends to detect quota enshittification.",
+      "description": "Tracks per-account quota % vs per-model token breakdown and API dollar value ($/1%), with weekly/monthly trends to detect quota enshittification.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "784a980b2c194665bf2a47190998674970060ddf",
+          "contentHash": "0ab844666366ec68bd189c7e7e9b614b0daecb1f14f8555c060634992576774d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Account Token Tracker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Account Token Tracker"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Token Tracker: Refresh Snapshot"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Tracker"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "history:read",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/tksuns12/account-token-tracker",
+          "updatedAt": "2026-11-23T11:52:33+09:00"
+        },
         {
           "version": "0.2.0",
           "commit": "f08e897dc41fd6bb7475e2d072bd18c28466f13a",
@@ -57178,8 +57254,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.8"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.1.9"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -57188,6 +57264,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.9",
+          "commit": "3e2fd4524f922ed4eb5ccf2d598c79077a786417",
+          "contentHash": "3230e203f88de74276ca8b9c5b5439d3e611eaf097dc393bb606523385277f6f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-23T11:08:06+08:00"
+        },
         {
           "version": "0.1.8",
           "commit": "0163d0f38db4c0853c5cdf92ed06b7158d9d3a26",
@@ -57509,86 +57666,6 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-17T11:36:30+08:00"
-        },
-        {
-          "version": "0.1.3",
-          "commit": "4579897787c3db004e9c9e85941114d10523f913",
-          "contentHash": "13d856794fed233cf014fd5242ee30ec1a85644a26282abdbb0aae9be0a2bf1b",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-17T10:58:56+08:00"
         }
       ]
     },
