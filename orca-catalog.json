@@ -6336,8 +6336,8 @@
       "ownerId": 321363891,
       "source": {
         "kind": "git",
-        "url": "https://github.com/boxcompute/orca-plugin.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/boxcompute/orca-plugin/1.0.0"
       },
       "description": "Run each Orca workspace on its own BoxCompute cloud VM, with Claude Code and Codex installed. Pick BoxCompute VM under Run on.",
       "categories": [
@@ -15636,8 +15636,8 @@
       "ownerId": 933312,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dom8509/pi-workflow-status.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dom8509/pi-workflow-status/0.2.2"
       },
       "description": "Monitor Pi workflows powered by pi-agent-suite in Orca: an Activity list of agents with workflow chips, and the selected agent's pipeline with done, current and pending stages.",
       "categories": [
@@ -25225,8 +25225,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/b-side.git",
-        "ref": "v2.3.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/b-side/2.3.3"
       },
       "description": "Your music library in Orca's sidebar: browse, search and play the music on your PC, with synced lyrics and three skins. Windows only; plays through AIMP (free).",
       "categories": [
@@ -25374,8 +25374,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/icaceresc/pixtuoid-orca-windows/3.0.0"
+        "url": "https://github.com/icaceresc/pixtuoid-orca-windows.git",
+        "ref": "v3.0.1"
       },
       "description": "Opens a floating pixel-art office on Windows where your Orca agents, their workers and subagents appear as coworkers: the official Pixtuoid office, or Dungeons & Agents, where clicking an adventurer opens its session in Orca.",
       "categories": [
@@ -25383,6 +25383,68 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "3.0.1",
+          "commit": "ade28bcf0e8c5d2de102acf068a764f3df7ddd9a",
+          "contentHash": "2beeb35c868438f8ada71822bad5e8b6a09438d8313cce67b9937712b45b7aa4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Pixtuoid para Orca",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Open office window"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Close office window"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Install or update the office app"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Use the official Pixtuoid office"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Use Dungeons & Agents"
+            },
+            {
+              "kind": "commands",
+              "name": "Pixtuoid: Remove downloaded app and local data"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Pixtuoid"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/icaceresc.pixtuoid-office/6c180c1c68bfdcdc.png",
+                "alt": "Pixel-art office: Claude Code agents with a Codex and an Antigravity worker, each labelled with its provider, under their Claude parent.",
+                "sha256": "6c180c1c68bfdcdcd6ae732f372752d1c45cce25da4923c3165943847e124d85",
+                "width": 1920,
+                "height": 1280
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/icaceresc/pixtuoid-orca-windows",
+          "updatedAt": "2026-11-23T01:32:20-03:00"
+        },
         {
           "version": "3.0.0",
           "commit": "d62550a1c7ebb3f04fd4b62f34394002d02e475d",
@@ -38053,8 +38115,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.2"
+        "url": "https://github.com/oddieradhie/orca-kerjan.git",
+        "ref": "v1.1.3"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
@@ -38062,6 +38124,49 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.3",
+          "commit": "9f91b263f92d0fbc9cc8efb2b4e9315b4131da8e",
+          "contentHash": "c3deba2c8e8fca1f4d09411087bfde04ce9c7d3796fb3f4e35297065f8ea4681",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Kerjan",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kerjan"
+            },
+            {
+              "kind": "commands",
+              "name": "Kerjan: Refresh Tickets"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Kerjan"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/oddieradhie.kerjan/5649e31e76eb8804.png",
+              "alt": "Kerjan icon",
+              "sha256": "5649e31e76eb88040c1107cc643791f66ae1e8ac730de5ab4984dd1fa8ea0aca",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oddieradhie/orca-kerjan",
+          "updatedAt": "2026-11-23T11:31:11+07:00"
+        },
         {
           "version": "1.1.2",
           "commit": "7571dc2a9c637913fda5f7fd02de13aa664d18f5",
@@ -51109,8 +51214,8 @@
       "ownerId": 319273144,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tesser-sh/orca-plugin.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tesser-sh/orca-plugin/0.1.1"
       },
       "description": "The tesser box behind each workspace: whether it is awake, and the localhost link to its dev server. Your code stays in the workspace.",
       "categories": [
@@ -53421,8 +53526,8 @@
       "ownerId": 16596559,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tksuns12/account-token-tracker/0.3.2"
+        "url": "https://github.com/tksuns12/account-token-tracker.git",
+        "ref": "v0.3.4"
       },
       "description": "Tracks per-account quota % and per-model usage, estimating monthly dollar value ($/mo) week-over-week and month-over-month to detect quota enshittification.",
       "categories": [
@@ -53431,6 +53536,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.4",
+          "commit": "0f5c02e9ff6feacb29faa35c0e931595678a1ce0",
+          "contentHash": "b84dee9f35046817eb9e8244d8d4c3e41c98d44f558f2d7c393b0a3787faada5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Account Token Tracker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Account Token Tracker"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Token Tracker: Refresh Snapshot"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Tracker"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "history:read",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/tksuns12/account-token-tracker",
+          "updatedAt": "2026-11-23T13:26:03+09:00"
+        },
         {
           "version": "0.3.2",
           "commit": "89ffd7b276d5b993b236a9c58443e793762cd974",
@@ -53860,8 +54000,8 @@
       "ownerId": 9301763,
       "source": {
         "kind": "git",
-        "url": "https://github.com/truongthanhquan/orca-cloudflare-relay-plugin.git",
-        "ref": "v2.8.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/truongthanhquan/orca-cloudflare-relay-plugin/2.8.2"
       },
       "description": "Connect Orca Mobile to this desktop from anywhere through your free Cloudflare account. After installing, click \"Set up relay\" (cloud icon) in the status bar (or run \"Set up / open panel\") and follow 3 steps. Phones pair with a normal QR code; no app changes needed. Not affiliated with Cloudflare.",
       "categories": [
