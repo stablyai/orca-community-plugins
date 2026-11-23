@@ -3267,7 +3267,7 @@
     },
     "singray/doubleshift": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "under-review",
@@ -3539,7 +3539,7 @@
     },
     "thinkjson/orca-dashboard": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/thinkjson/orca-dashboard/0.1.1",
       "plugins": [
         "thinkjson.worktree-dashboard"
       ]
@@ -3588,7 +3588,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]
@@ -3643,7 +3643,7 @@
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
       "state": "listed",
-      "ref": "refs/tags/truongthanhquan/orca-cloudflare-relay-plugin/2.7.2",
+      "ref": "v2.8.0",
       "plugins": [
         "truongthanhquan.cloudflare-relay"
       ]
@@ -3977,7 +3977,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.1.9",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.1.9",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
