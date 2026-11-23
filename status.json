@@ -802,7 +802,7 @@
     },
     "davidseptimus/armada-theme-orca-plugin": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.1.0",
       "plugins": [
         "davidseptimus.armada-theme"
       ],
@@ -1326,6 +1326,13 @@
         "fladioarmandika.project-prs"
       ]
     },
+    "flux-ai-agent/fluxcut-plugin": {
+      "state": "listed",
+      "ref": "v1.46.2",
+      "plugins": [
+        "flux-ai-agent.fluxcut"
+      ]
+    },
     "fullfran/orca-plugins": {
       "state": "rejected",
       "ref": null,
@@ -1760,10 +1767,17 @@
       ]
     },
     "jameslatajan/orca-svn": {
-      "state": "listed",
-      "ref": "v0.2.12",
-      "plugins": [
-        "jameslatajan.svn"
+      "state": "rejected",
+      "ref": "v0.2.13",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "validation",
+          "detail": "invalid JSON: Unexpected end of JSON input"
+        }
       ]
     },
     "jargez/orca-recipes": {
@@ -2007,7 +2021,7 @@
     },
     "lamtuanvu/cv-hub-orca-plugin": {
       "state": "rejected",
-      "ref": "v0.6.0",
+      "ref": "v0.6.1",
       "reasons": [
         {
           "category": "under-review",
@@ -2633,7 +2647,7 @@
     },
     "oddieradhie/orca-jenkins": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/oddieradhie/orca-jenkins/1.0.0",
       "plugins": [
         "oddieradhie.jenkins"
       ]
@@ -2873,7 +2887,7 @@
     },
     "rekanara/nvm-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/rekanara/nvm-orca-plugin/0.1.0",
       "plugins": [
         "rekanara.nvm-manager"
       ]
@@ -3935,7 +3949,7 @@
     },
     "vrwolf1004/orca-obsidian": {
       "state": "listed",
-      "ref": "v0.6.2",
+      "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.2",
       "plugins": [
         "vrwolf1004.obsidian-for-orca"
       ]
@@ -4037,7 +4051,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.0",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

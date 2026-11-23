@@ -11899,8 +11899,8 @@
       "ownerId": 110404901,
       "source": {
         "kind": "git",
-        "url": "https://github.com/DavidSeptimus/armada-theme-orca-plugin.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.1.0"
       },
       "description": "A dark color theme inspired by the dark themes of JetBrains Fleet and Air.",
       "categories": [
@@ -21148,6 +21148,55 @@
       ]
     },
     {
+      "id": "flux-ai-agent.fluxcut",
+      "ownerId": 252822752,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Flux-AI-Agent/fluxcut-plugin.git",
+        "ref": "v1.46.2"
+      },
+      "description": "Sets up Fluxcut's MCP server and maker skill for Claude Code or Codex in a dedicated Orca terminal. Your agent drives the video steps; you approve them and publish.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.46.2",
+          "commit": "a3f7a2a011b1d81e85c3f80591dd50a08012b43e",
+          "contentHash": "da7d88a0e0a921458409edd13891b24090656868c50515ddc00ac1bd82cb5f43",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Fluxcut",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Fluxcut: Set up Claude Code"
+            },
+            {
+              "kind": "commands",
+              "name": "Fluxcut: Set up Codex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/flux-ai-agent.fluxcut/5890df33b9683a71.png",
+              "alt": "Fluxcut icon",
+              "sha256": "5890df33b9683a7177c4f3f9e761444a3d8798683583683034d0162f8e00861d",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Flux-AI-Agent/fluxcut-plugin",
+          "updatedAt": "2026-11-23T08:24:59Z"
+        }
+      ]
+    },
+    {
       "id": "gabrielvidal1.ask-form",
       "ownerId": 31007874,
       "source": {
@@ -26699,521 +26748,6 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/jameslatajan/orca-openspec",
           "updatedAt": "2026-11-18T13:59:55+08:00"
-        }
-      ]
-    },
-    {
-      "id": "jameslatajan.svn",
-      "ownerId": 45154585,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/jameslatajan/orca-svn.git",
-        "ref": "v0.2.12"
-      },
-      "description": "Subversion in Orca: see a working copy's changes, then update, commit, revert, add, resolve and diff from a sidebar panel.",
-      "categories": [
-        "panels",
-        "commands",
-        "integrations"
-      ],
-      "releases": [
-        {
-          "version": "0.2.12",
-          "commit": "4804823385c799c3b6e3ccd114850d61663f10d3",
-          "contentHash": "5cbfc558f3cd857bb0fc8a2a53df6905e4ab0b8e4bcf7bafeb8a67de3f485cfa",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "SVN",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "SVN"
-            },
-            {
-              "kind": "panels",
-              "name": "SVN History"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Update"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Commit…"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: New task branch…"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Refresh"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Show log"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "SVN Diff",
-              "detail": ".svndiff"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write",
-            "terminal:send",
-            "notifications:show"
-          ],
-          "fileTypes": [
-            "svndiff"
-          ],
-          "editorFileTypes": [
-            "svndiff"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
-              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
-              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
-              "alt": "SVN icon",
-              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
-                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
-                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
-                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
-                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
-                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
-                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "Apache-2.0",
-          "repository": "https://github.com/jameslatajan/orca-svn",
-          "updatedAt": "2026-11-23T16:02:53+08:00"
-        },
-        {
-          "version": "0.2.11",
-          "commit": "e843a79746007238adc96f3903e614864ec50704",
-          "contentHash": "42e5cc49bef7dbed4b9cd4e65fe5bd6e001b6b20736bb0ccd3850ee14351d689",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "SVN",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "SVN"
-            },
-            {
-              "kind": "panels",
-              "name": "SVN History"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Update"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Commit…"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: New task branch…"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Refresh"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Show log"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "SVN Diff",
-              "detail": ".svndiff"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write",
-            "terminal:send",
-            "notifications:show"
-          ],
-          "fileTypes": [
-            "svndiff"
-          ],
-          "editorFileTypes": [
-            "svndiff"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
-              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
-              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
-              "alt": "SVN icon",
-              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
-                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
-                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
-                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
-                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
-                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
-                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "Apache-2.0",
-          "repository": "https://github.com/jameslatajan/orca-svn",
-          "updatedAt": "2026-11-23T15:36:08+08:00"
-        },
-        {
-          "version": "0.2.10",
-          "commit": "a098a4d1b858b35ce4a56fe728925edc4c4e9da9",
-          "contentHash": "05d1b052718db6bd20570c845b5762449876878673d092ba33ae4774fadbef8d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "SVN",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "SVN"
-            },
-            {
-              "kind": "panels",
-              "name": "SVN History"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Update"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Commit…"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Refresh"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Show log"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "SVN Diff",
-              "detail": ".svndiff"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write",
-            "terminal:send",
-            "notifications:show"
-          ],
-          "fileTypes": [
-            "svndiff"
-          ],
-          "editorFileTypes": [
-            "svndiff"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
-              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
-              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
-              "alt": "SVN icon",
-              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
-                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
-                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
-                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
-                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
-                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
-                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "Apache-2.0",
-          "repository": "https://github.com/jameslatajan/orca-svn",
-          "updatedAt": "2026-11-23T14:50:32+08:00"
-        },
-        {
-          "version": "0.2.9",
-          "commit": "d6ad4489ea490b4f570778da2c5e14ca99a112cc",
-          "contentHash": "f6b5e2c3382ec9cd313d5b0817501e3f64d1caea66a3e2cd98544f42a3d91a2a",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "SVN",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "SVN"
-            },
-            {
-              "kind": "panels",
-              "name": "SVN History"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Update"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Commit…"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Refresh"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Show log"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "SVN Diff",
-              "detail": ".svndiff"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write",
-            "terminal:send",
-            "notifications:show"
-          ],
-          "fileTypes": [
-            "svndiff"
-          ],
-          "editorFileTypes": [
-            "svndiff"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
-              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
-              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
-              "alt": "SVN icon",
-              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
-                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
-                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
-                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
-                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
-                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
-                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "Apache-2.0",
-          "repository": "https://github.com/jameslatajan/orca-svn",
-          "updatedAt": "2026-11-21T18:16:52+08:00"
-        },
-        {
-          "version": "0.2.6",
-          "commit": "d3134b5bf01fa5f2ddc56af93dbbbd5e42bbd913",
-          "contentHash": "69d3cc9bc733ffd76131b7cd5029a9d722f4d24abc13431d6d8819e6e07cd2a7",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "SVN",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "SVN"
-            },
-            {
-              "kind": "panels",
-              "name": "SVN History"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Update"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Commit…"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Refresh"
-            },
-            {
-              "kind": "commands",
-              "name": "SVN: Show log"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "SVN Diff",
-              "detail": ".svndiff"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write",
-            "terminal:send",
-            "notifications:show"
-          ],
-          "fileTypes": [
-            "svndiff"
-          ],
-          "editorFileTypes": [
-            "svndiff"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jameslatajan.svn/c4889a5a2c0d4d04.png",
-              "alt": "SVN for Orca: the SVN changes panel, the SVN History revision tree and the SVN Diff viewer side by side.",
-              "sha256": "c4889a5a2c0d4d04999ad6b1308dc52db5daa1d1bd52502a22cefd08ac2b59db",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jameslatajan.svn/b297c48a49dd7b02.png",
-              "alt": "SVN icon",
-              "sha256": "b297c48a49dd7b023172f6101e1b4e0ae545bcd2ad8a2f12fb40bdcd8fa30ace",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jameslatajan.svn/94adf8068df2f801.png",
-                "alt": "SVN panel showing a conflicted file, modified, added and deleted files with checkboxes, a commit message and a warning that the server has newer revisions.",
-                "sha256": "94adf8068df2f80194843b287ba688576eac46712c2cbe94610f65e3c2d444d5",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/cd4ed2e00e1cee87.png",
-                "alt": "SVN History panel drawing trunk and three branches as coloured lanes with branch points, a merge, tags, and details for revision r4184.",
-                "sha256": "cd4ed2e00e1cee87d3702112dac539c7780a65f72afb95680f9147cda164b18d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jameslatajan.svn/4b26a81039a4e054.png",
-                "alt": "SVN Diff editor tab showing three changed files as cards with old and new line numbers and green and red changed lines.",
-                "sha256": "4b26a81039a4e054fc3e2d3343f1e2f6a0b195df26ff90b1f32ae46c8478315f",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "Apache-2.0",
-          "repository": "https://github.com/jameslatajan/orca-svn",
-          "updatedAt": "2026-11-19T16:35:49+08:00"
         }
       ]
     },
@@ -38516,8 +38050,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oddieradhie/orca-jenkins.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oddieradhie/orca-jenkins/1.0.0"
       },
       "description": "Jenkins CI/CD monitoring sidebar panel, status bar counter, build queue, console log viewer, and build triggers for Orca.",
       "categories": [
@@ -42184,8 +41718,8 @@
       "ownerId": 291965963,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rekanara/nvm-orca-plugin.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rekanara/nvm-orca-plugin/0.1.0"
       },
       "description": "Control nvm (Node Version Manager) on macOS, Linux and Windows (nvm-windows) from Orca's sidebar: see the Node.js version pinned by the focused workspace's .nvmrc, pin another one, install, uninstall and set the default version.",
       "categories": [
@@ -56959,8 +56493,8 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/vrwolf1004/orca-obsidian.git",
-        "ref": "v0.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.2"
       },
       "description": "Browse and read your Obsidian vaults from the Orca sidebar.",
       "categories": [
@@ -58699,8 +58233,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.0"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
