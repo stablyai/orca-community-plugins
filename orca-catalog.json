@@ -25374,8 +25374,8 @@
       "ownerId": 103128282,
       "source": {
         "kind": "git",
-        "url": "https://github.com/icaceresc/pixtuoid-orca-windows.git",
-        "ref": "v3.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/icaceresc/pixtuoid-orca-windows/3.0.1"
       },
       "description": "Opens a floating pixel-art office on Windows where your Orca agents, their workers and subagents appear as coworkers: the official Pixtuoid office, or Dungeons & Agents, where clicking an adventurer opens its session in Orca.",
       "categories": [
@@ -38115,8 +38115,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oddieradhie/orca-kerjan.git",
-        "ref": "v1.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.3"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
@@ -53527,7 +53527,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/tksuns12/account-token-tracker.git",
-        "ref": "v0.3.4"
+        "ref": "v0.3.5"
       },
       "description": "Tracks per-account quota % and per-model usage, estimating monthly dollar value ($/mo) week-over-week and month-over-month to detect quota enshittification.",
       "categories": [
@@ -53536,6 +53536,41 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.5",
+          "commit": "ef52f240cc6a15995d6fad6647c6bf2a255f844c",
+          "contentHash": "4a24ede658e5fa66fa9bec55fe20da1f4490c1aa5c0a7f31412a5e3377c6f46b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Account Token Tracker",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Account Token Tracker"
+            },
+            {
+              "kind": "commands",
+              "name": "Account Token Tracker: Refresh Snapshot"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Tracker"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "history:read",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/tksuns12/account-token-tracker",
+          "updatedAt": "2026-11-23T13:28:03+09:00"
+        },
         {
           "version": "0.3.4",
           "commit": "0f5c02e9ff6feacb29faa35c0e931595678a1ce0",
@@ -56245,14 +56280,73 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vrwolf1004/orca-obsidian/0.5.2"
+        "url": "https://github.com/vrwolf1004/orca-obsidian.git",
+        "ref": "v0.6.0"
       },
       "description": "Browse and read your Obsidian vaults from the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "5dee1588c5708eb98f9941088fbedd480e1a4f25",
+          "contentHash": "c2b6c27d06d23f2011d8539b483596f6d9f63a640ccf9097c70bcffd398c5e1e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Obsidian for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Obsidian"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/95e8642e91865525.webp",
+              "alt": "Obsidian for Orca with the note graph behind the vertical tabs and a note below",
+              "sha256": "95e8642e918655254e62502263715957c81822a5c0ac51cb45b95198d2fa293d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/7c04e29288953d08.png",
+              "alt": "Obsidian for Orca icon",
+              "sha256": "7c04e29288953d086e20571cae8337a38d2ef1eb1ac32a7a09856d014ea8120a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/9896fd1e1d448315.webp",
+                "alt": "Notes tab with a folder tree and the Markdown view below",
+                "sha256": "9896fd1e1d448315ca5122ad2278cab6c0cce17ac0cca0d1b2ba0e532a880593",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/c3c1ccf024d5728d.webp",
+                "alt": "Help popup listing the shortcuts",
+                "sha256": "c3c1ccf024d5728dcc00c67c9d13b4213be7d3086f322f3134d3d33b907eb836",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/45a2f007e14c58e7.webp",
+                "alt": "Vaults tab open over the note graph",
+                "sha256": "45a2f007e14c58e7716c18a047b0850cfe6da532b6107b4675056d385b6b7463",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-obsidian",
+          "updatedAt": "2026-11-23T13:23:45+09:00"
+        },
         {
           "version": "0.5.2",
           "commit": "4737cd09b8283a9f10fd407b979e63e9fd7f6d6b",
