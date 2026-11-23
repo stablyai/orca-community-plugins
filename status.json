@@ -802,7 +802,7 @@
     },
     "davidseptimus/armada-theme-orca-plugin": {
       "state": "listed",
-      "ref": "v1.1.1",
+      "ref": "refs/tags/davidseptimus/armada-theme-orca-plugin/1.1.1",
       "plugins": [
         "davidseptimus.armada-theme"
       ],
@@ -1774,7 +1774,7 @@
     },
     "jameslatajan/orca-svn": {
       "state": "listed",
-      "ref": "v0.2.14",
+      "ref": "refs/tags/jameslatajan/orca-svn/0.2.14",
       "plugins": [
         "jameslatajan.svn"
       ]
@@ -2020,7 +2020,7 @@
     },
     "lamtuanvu/cv-hub-orca-plugin": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/lamtuanvu/cv-hub-orca-plugin/0.6.1",
       "plugins": [
         "lamtuanvu.cv-hub"
       ]
@@ -2775,7 +2775,7 @@
     },
     "pierreb40/claude-memory": {
       "state": "listed",
-      "ref": "v0.4.2",
+      "ref": "refs/tags/pierreb40/claude-memory/0.4.2",
       "plugins": [
         "pierreb40.claude-memory"
       ]
@@ -2792,7 +2792,7 @@
     },
     "plozmun/orca-redmine": {
       "state": "listed",
-      "ref": "refs/tags/plozmun/orca-redmine/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "plozmun.redmine-tasks"
       ]
@@ -2850,6 +2850,16 @@
               "category": "manifest-format"
             }
           ]
+        }
+      ]
+    },
+    "qobyn/s-git-extension": {
+      "state": "rejected",
+      "ref": "v0.0.7",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
         }
       ]
     },
@@ -3658,7 +3668,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "refs/tags/tksuns12/account-token-tracker/0.3.5",
+      "ref": "v0.4.0",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]
@@ -4047,7 +4057,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
