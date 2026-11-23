@@ -13697,8 +13697,8 @@
       "ownerId": 11136980,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/divlook/orca-sidenote/0.10.1"
+        "url": "https://github.com/divlook/orca-sidenote.git",
+        "ref": "v0.10.2"
       },
       "description": "A sidebar panel that automatically saves Markdown notes for each project and worktree",
       "categories": [
@@ -13706,6 +13706,64 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.10.2",
+          "commit": "667f40b5d2ecca8b664b7938837a01b4c39678ee",
+          "contentHash": "76989b7c15c084d9785f2968b36d4ea51509ed78d4dcadb7e3050bc72c3e8311",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.267",
+          "name": "SideNote for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Note"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
+              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
+              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
+                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
+                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
+                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
+                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
+                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
+                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/divlook/orca-sidenote",
+          "updatedAt": "2026-11-23T10:08:03+09:00"
+        },
         {
           "version": "0.10.1",
           "commit": "216e4193dc5b5da6c683907fcff1621794bf8689",
@@ -13937,64 +13995,6 @@
           "license": "MIT",
           "repository": "https://github.com/divlook/orca-sidenote",
           "updatedAt": "2026-11-18T10:47:54+09:00"
-        },
-        {
-          "version": "0.8.4",
-          "commit": "4f7cd5b70baf3ce852ee592fbb87954fb14e7811",
-          "contentHash": "acb342df64f017d77b8ea83df2a2613eb568fa00c640912f5c5c30db98b8f62c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "SideNote for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Note"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "workspace:write"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/divlook.sidenote/eba0af0848fab1ec.png",
-              "alt": "SideNote with labeled reading-mode notes, a minimized card, and the label filter",
-              "sha256": "eba0af0848fab1ec4f0817d42b08139464c0f428cdd10c4d59dcfb4ede253990",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/divlook.sidenote/ee249d7f3c8b433f.png",
-                "alt": "A labeled review checklist and next-session note in reading mode, with an implementation note minimized between them",
-                "sha256": "ee249d7f3c8b433f9403e8dcd654244cdc420b03195b930ab07e1dc32c5b26aa",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c49ecb2c472ff10a.png",
-                "alt": "Markdown editing with line numbers below a reading-mode checklist and above a minimized next-session note",
-                "sha256": "c49ecb2c472ff10a1a9bc58c2b56f91c8cfeb3b70d9a05089298eec032d61e8d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/divlook.sidenote/c80273315f0591bf.png",
-                "alt": "The in review label filter displaying two of three notes, with the review checklist minimized",
-                "sha256": "c80273315f0591bfef58bfe21055fe5d4b8bacfd6b53f3c01d54d22f14105c20",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/divlook/orca-sidenote",
-          "updatedAt": "2026-11-17T01:20:11+09:00"
         }
       ]
     },
@@ -52900,8 +52900,8 @@
       "ownerId": 16596559,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tksuns12/account-token-tracker.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tksuns12/account-token-tracker/0.2.0"
       },
       "description": "Tracks per-account quota percentage vs actual token consumption, with weekly/monthly tokens-per-1% trends to detect quota enshittification.",
       "categories": [
@@ -53269,8 +53269,8 @@
       "ownerId": 9301763,
       "source": {
         "kind": "git",
-        "url": "https://github.com/truongthanhquan/orca-cloudflare-relay-plugin.git",
-        "ref": "v2.7.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/truongthanhquan/orca-cloudflare-relay-plugin/2.7.2"
       },
       "description": "Connect Orca Mobile to this desktop from anywhere through your free Cloudflare account. After installing, click \"Set up relay\" (cloud icon) in the status bar (or run \"Set up / open panel\") and follow 3 steps. Phones pair with a normal QR code; no app changes needed. Not affiliated with Cloudflare.",
       "categories": [

@@ -908,7 +908,7 @@
     },
     "divlook/orca-sidenote": {
       "state": "listed",
-      "ref": "refs/tags/divlook/orca-sidenote/0.10.1",
+      "ref": "v0.10.2",
       "plugins": [
         "divlook.sidenote"
       ]
@@ -3561,7 +3561,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/tksuns12/account-token-tracker/0.2.0",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]
@@ -3616,7 +3616,7 @@
     },
     "truongthanhquan/orca-cloudflare-relay-plugin": {
       "state": "listed",
-      "ref": "v2.7.2",
+      "ref": "refs/tags/truongthanhquan/orca-cloudflare-relay-plugin/2.7.2",
       "plugins": [
         "truongthanhquan.cloudflare-relay"
       ]
