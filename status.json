@@ -1978,6 +1978,16 @@
         "kawamura0807.asana-tasks"
       ]
     },
+    "kevmansilla/orca-command-deck": {
+      "state": "rejected",
+      "ref": "v0.3.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "kianxm/orca-luau": {
       "state": "listed",
       "ref": "refs/tags/kianxm/orca-luau/1.0.2",
