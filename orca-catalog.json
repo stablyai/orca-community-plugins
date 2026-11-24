@@ -22281,8 +22281,8 @@
       "ownerId": 906119,
       "source": {
         "kind": "git",
-        "url": "https://github.com/FrancisVega/claude-cache-panel.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/francisvega/claude-cache-panel/0.3.1"
       },
       "description": "Live Claude Code sessions and how long each one's prompt cache has left, in a panel and in the status bar. Needs the cache-countdown mod for Claude Code, from the same repository.",
       "categories": [
@@ -32102,8 +32102,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Kyino-Pan/agents-director.git",
-        "ref": "v0.2.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kyino-pan/agents-director/0.2.3"
       },
       "description": "A rolling seven-day timeline of publicly observed Orca agent states and session summaries.",
       "categories": [
@@ -39109,8 +39109,8 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mz-jy/orca-dbt.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mz-jy/orca-dbt/0.5.0"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, check a pull request's impact (changed models and everything downstream), and preview data through the project's ow",
       "categories": [
@@ -48930,12 +48930,72 @@
       "ownerId": 3199330,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/schowave/orca-asciidoc-diagrams/1.3.1"
+        "url": "https://github.com/schowave/orca-asciidoc-diagrams.git",
+        "ref": "v1.3.2"
       },
       "description": "Live preview for AsciiDoc files with inline PlantUML, Mermaid and Graphviz diagrams, highlighted code and math. Renders fully offline: no server, no Java.",
       "categories": [],
       "releases": [
+        {
+          "version": "1.3.2",
+          "commit": "ed9c8e22c3c5a14890e88828e56294f35a4cf018",
+          "contentHash": "bacf58b98e24b3799870ca26b730f0c5b07450ab0799b6cc07cc3bb1c27e9a33",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Preview",
+              "detail": ".adoc, .asciidoc, .asc"
+            }
+          ],
+          "fileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "editorFileTypes": [
+            "adoc",
+            "asciidoc",
+            "asc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/schowave.asciidoc-diagrams/e6d912e0e6521f26.jpg",
+              "alt": "The plugin name and formats next to a rendered C4 context diagram",
+              "sha256": "e6d912e0e6521f26e026c1c89efe345c0aff0798bb8e90149cfb22d04c3d3c7e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/schowave.asciidoc-diagrams/a7250fb91f413a05.png",
+              "alt": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz icon",
+              "sha256": "a7250fb91f413a05516471026ad9bf40192d19bef32d0fd51331bb1860e7ce11",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/schowave.asciidoc-diagrams/fd5bee4f7704ad2f.png",
+                "alt": "Architecture document with a PlantUML sequence diagram and a Mermaid state diagram in a light theme",
+                "sha256": "fd5bee4f7704ad2fe4f8167d07c7f8ceb33a46c81eea948bc80b5691c3ec2792",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/schowave.asciidoc-diagrams/ccb442aac523bb5f.png",
+                "alt": "Dark theme: a Graphviz event diagram, highlighted TypeScript and a KaTeX formula",
+                "sha256": "ccb442aac523bb5f2ffa7cae59f29878900b0ecc7675b26870c7b3def8379ec6",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/schowave/orca-asciidoc-diagrams",
+          "updatedAt": "2026-11-24T12:16:13Z"
+        },
         {
           "version": "1.3.1",
           "commit": "7bea3069dcb80730515b85923b97ad78311e5fd0",
@@ -49175,66 +49235,6 @@
           "license": "MIT",
           "repository": "https://github.com/schowave/orca-asciidoc-diagrams",
           "updatedAt": "2026-11-12T22:12:17Z"
-        },
-        {
-          "version": "1.2.0",
-          "commit": "2bf19740cd72ec2067ed3245727b8b50d55ee1a3",
-          "contentHash": "31fd581352bdb4a28b3f4ac813494d1a6a5cf93208c41de1fa87ac17963a8538",
-          "execution": "sandboxed-ui",
-          "minimumOrca": "1.4.246",
-          "name": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "Preview",
-              "detail": ".adoc, .asciidoc, .asc"
-            }
-          ],
-          "fileTypes": [
-            "adoc",
-            "asciidoc",
-            "asc"
-          ],
-          "editorFileTypes": [
-            "adoc",
-            "asciidoc",
-            "asc"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/schowave.asciidoc-diagrams/9a828b4b65631452.png",
-              "alt": "AsciiDoc document with a C4 context diagram rendered next to its table of contents",
-              "sha256": "9a828b4b65631452db1d42d5c6f6b463e12a4e001c826158884e30319706ca6b",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/schowave.asciidoc-diagrams/a7250fb91f413a05.png",
-              "alt": "AsciiDoc Preview – PlantUML, Mermaid & Graphviz icon",
-              "sha256": "a7250fb91f413a05516471026ad9bf40192d19bef32d0fd51331bb1860e7ce11",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/schowave.asciidoc-diagrams/4c22cf2df2326632.png",
-                "alt": "Architecture document with PlantUML C4, sequence and Mermaid diagrams in a light theme",
-                "sha256": "4c22cf2df232663299aaa722368112d37de2b2192716bc55c88ce559f8e8f8be",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/schowave.asciidoc-diagrams/0753e500d72b7ebd.png",
-                "alt": "Dark theme: a Graphviz event diagram, highlighted TypeScript and a KaTeX formula",
-                "sha256": "0753e500d72b7ebddcada6f214a9dd66ddf9a1972cea98994058e9c5fa2e9dc6",
-                "width": 2560,
-                "height": 1600
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/schowave/orca-asciidoc-diagrams",
-          "updatedAt": "2026-11-10T08:26:53Z"
         }
       ]
     },
