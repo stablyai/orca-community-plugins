@@ -770,7 +770,7 @@
     },
     "computerhof/orca-merge-review": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/computerhof/orca-merge-review/0.1.1",
       "plugins": [
         "computerhof.merge-review"
       ]
@@ -1136,7 +1136,7 @@
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
-      "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.8",
+      "ref": "v2.0.9",
       "plugins": [
         "erom.agent-profiles"
       ]
@@ -2653,7 +2653,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/mz-jy/orca-dbt/0.6.0",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -3100,6 +3100,13 @@
       "ref": "refs/tags/rekanara/nvm-orca-plugin/0.1.0",
       "plugins": [
         "rekanara.nvm-manager"
+      ]
+    },
+    "rekanara/waqt-prayer-times-orca-plugin": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "rekanara.waqt"
       ]
     },
     "rekanara/worklog-timesheets-orca-plugin": {
@@ -4103,13 +4110,10 @@
       ]
     },
     "vann-dev/orca-indonesian-plugin": {
-      "state": "rejected",
-      "ref": "v0.3.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"id\" (locales/id.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
-        }
+      "state": "listed",
+      "ref": "v0.4.0",
+      "plugins": [
+        "vann-dev.indonesian"
       ]
     },
     "vdhoangson/orca-agent-world": {

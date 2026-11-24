@@ -11679,8 +11679,8 @@
       "ownerId": 276100142,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Computerhof/orca-merge-review.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/computerhof/orca-merge-review/0.1.1"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -18589,8 +18589,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.8"
+        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
+        "ref": "v2.0.9"
       },
       "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
       "categories": [
@@ -18599,6 +18599,121 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "2.0.9",
+          "commit": "0df49c0a733c7f05ccc513fc73cbbf02db86e7f8",
+          "contentHash": "b4d08393980d77869a5807a20aa0ceac76f56e220bfc17e7d37d9a6eaea5f458",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Profiles",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: relaunch last profile"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: launch favorite 1"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: launch favorite 2"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: launch favorite 3"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: launch favorite 4"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents: launch favorite 5"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+L",
+              "detail": "agentProfiles.relaunchLast"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "favorite-1"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "favorite-2"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "favorite-3"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "favorite-4"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "favorite-5"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-profiles/c12f7df29748f807.png",
+              "alt": "The Agents panel with profiles grouped by agent, beside the command a Claude profile launches through Ollama.",
+              "sha256": "c12f7df29748f807d8cc93af810b2e26c1663709257341974bc15a9cc5e0369e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-profiles/9a9dc6f3eb8861f3.png",
+              "alt": "Agent Profiles icon",
+              "sha256": "9a9dc6f3eb8861f3931ee8b3577918c2c4144402fed4cd417a345c7ea688c15e",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-profiles/07410678b9161c09.png",
+                "alt": "The Agents panel in Orca's light theme: Antigravity and Claude groups, each profile with its model, effort, launch and edit buttons.",
+                "sha256": "07410678b9161c0940085d7aafa60019ed1511f91114dcc68849ebd8d964c024",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/ffb58ec24d00e4ba.png",
+                "alt": "The dark profile form for a Claude profile: name, avatar, model glm-5.3:cloud[1m], effort Max, provider Ollama, extra arguments.",
+                "sha256": "ffb58ec24d00e4baa3cb78b221aaae1613911b57fe6fcec03dfb96fadaff9ab2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-profiles/3347c20e0cb19f6c.png",
+                "alt": "The same profile form in the light theme.",
+                "sha256": "3347c20e0cb19f6c52b7b54af7fd5c4ba015bb8191339b3c52c07eba0ce4a27c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-agent-profiles",
+          "updatedAt": "2026-11-24T14:31:57+01:00"
+        },
         {
           "version": "2.0.8",
           "commit": "f7300a8930e57708584f2bb1568bd526e1fb0fab",
@@ -39204,8 +39319,8 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mz-jy/orca-dbt.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mz-jy/orca-dbt/0.6.0"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
@@ -45161,6 +45276,77 @@
           "license": "MIT",
           "repository": "https://github.com/rekanara/nvm-orca-plugin",
           "updatedAt": "2026-11-23T14:47:27+07:00"
+        }
+      ]
+    },
+    {
+      "id": "rekanara.waqt",
+      "ownerId": 291965963,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rekanara/waqt-prayer-times-orca-plugin.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Islamic prayer times in Orca's status bar: the next prayer, a countdown and desktop reminders. Calculated offline (Kemenag, JAKIM, MUIS, MWL, ISNA, Umm al-Qura and more), no internet needed. Bahasa Indonesia and English.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "a8cf0a0d73026c71a1bbfea2a734ddccc3c6de8d",
+          "contentHash": "d337dfe34a76c099aad6b8b08325d3d89bba4a3acb367a98c7bf1560bb2f13d4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Waqt: Prayer Times",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Prayer Times"
+            },
+            {
+              "kind": "commands",
+              "name": "Waqt: Show today's prayer times"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Waqt"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rekanara.waqt/e7064cc969041326.png",
+              "alt": "Waqt panel in Orca's sidebar: next prayer Isha 19:09 on a yellow card, today's timetable, Hijri date and Qibla, plus the status bar item.",
+              "sha256": "e7064cc96904132692fa0a602578059e00714d2a496bb664114445730fe08887",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/rekanara.waqt/8ff49a8091d65577.png",
+              "alt": "Waqt: Prayer Times icon",
+              "sha256": "8ff49a8091d655775cd0fe216405e6d9b821e995370cf6d4483874287dc31c9d",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rekanara.waqt/e7064cc969041326.png",
+                "alt": "Waqt panel in Orca's sidebar: next prayer Isha 19:09 on a yellow card, today's timetable, Hijri date and Qibla, plus the status bar item.",
+                "sha256": "e7064cc96904132692fa0a602578059e00714d2a496bb664114445730fe08887",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rekanara/waqt-prayer-times-orca-plugin",
+          "updatedAt": "2026-11-23T18:59:24+07:00"
         }
       ]
     },
@@ -61861,6 +62047,54 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-tokyonight",
           "updatedAt": "2026-10-30T21:17:55+01:00"
+        }
+      ]
+    },
+    {
+      "id": "vann-dev.indonesian",
+      "ownerId": 82990248,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Vann-Dev/orca-indonesian-plugin.git",
+        "ref": "v0.4.0"
+      },
+      "description": "Antarmuka Orca dalam bahasa Indonesia.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "ebb3066af57049172211c844c733c58cb91c234a",
+          "contentHash": "d14351830e40e23843be49cbed5b64dd421cc67478d255d14a2b67c83edc6c45",
+          "execution": "data",
+          "minimumOrca": "1.4.269",
+          "name": "Bahasa Indonesia",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "id"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vann-dev.indonesian/d4e54ae1f6401c8a.png",
+              "alt": "Jendela bergaya Orca dengan pengaturan tampilan dalam bahasa Indonesia dan pilihan Bahasa Indonesia.",
+              "sha256": "d4e54ae1f6401c8a61669be4a02f26f61dfbddf2cc569104574304ddcd5c96d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vann-dev.indonesian/4cb75d61253160b3.png",
+              "alt": "Bahasa Indonesia icon",
+              "sha256": "4cb75d61253160b3e8da0ea1df44fd9b9021b9dd140a1c0a2e797d9008fb805b",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
+          "updatedAt": "2026-11-24T20:19:18+07:00"
         }
       ]
     },

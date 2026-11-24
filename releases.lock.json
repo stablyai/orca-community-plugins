@@ -2027,6 +2027,12 @@
     "repoId": 1459055882,
     "firstSeen": "2026-11-21T18:18:10.322Z"
   },
+  "erom.agent-profiles@2.0.9": {
+    "commit": "0df49c0a733c7f05ccc513fc73cbbf02db86e7f8",
+    "contentHash": "b4d08393980d77869a5807a20aa0ceac76f56e220bfc17e7d37d9a6eaea5f458",
+    "repoId": 1459055882,
+    "firstSeen": "2026-11-24T13:43:17.940Z"
+  },
   "erom.agent-progress-sp@0.1.0": {
     "commit": "5bd52ee821887bffbb2d37dd1c34581d197b6662",
     "contentHash": "c8fc4d1f2760c28aed4040786403e9e3d613ee27903175efc0fbe99fd0865e2d",
@@ -4835,6 +4841,12 @@
     "repoId": 1468441928,
     "firstSeen": "2026-11-23T08:23:33.374Z"
   },
+  "rekanara.waqt@0.1.1": {
+    "commit": "a8cf0a0d73026c71a1bbfea2a734ddccc3c6de8d",
+    "contentHash": "d337dfe34a76c099aad6b8b08325d3d89bba4a3acb367a98c7bf1560bb2f13d4",
+    "repoId": 1468478226,
+    "firstSeen": "2026-11-24T13:43:17.940Z"
+  },
   "rekanara.worklog@0.1.0": {
     "commit": "dc6837c2062485343ebf3abaf3e7fe20c98331b0",
     "contentHash": "76f7381561291c101da68228845742d8bff00bd1dbe37ffb5543eeab2c4e6960",
@@ -6628,6 +6640,12 @@
     "contentHash": "93ff8949f5c5b0200d6fcdbef641e254e3227dadc51cc62c4e1fa3881628f4b6",
     "repoId": 1467371231,
     "firstSeen": "2026-11-23T18:19:28.424Z"
+  },
+  "vann-dev.indonesian@0.4.0": {
+    "commit": "ebb3066af57049172211c844c733c58cb91c234a",
+    "contentHash": "d14351830e40e23843be49cbed5b64dd421cc67478d255d14a2b67c83edc6c45",
+    "repoId": 1467371231,
+    "firstSeen": "2026-11-24T13:43:17.940Z"
   },
   "vdhoangson.agent-world@0.1.0": {
     "commit": "e7b0f2ddb5f6ea745efc1d7ca7fe8ee4b755e7ad",
