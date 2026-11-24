@@ -39277,12 +39277,194 @@
       "ownerId": 240148764,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/net-runners-com/everything-viewer/0.1.2"
+        "url": "https://github.com/net-runners-com/everything-viewer.git",
+        "ref": "v0.1.3"
       },
       "description": "Opens files nothing else in Orca shows: legacy Office, OpenDocument, Pages/Numbers and PowerPoint as pages (LibreOffice), Blender scenes in 3D, JPEG 2000, older video/audio (ffmpeg), and JSON/YAML/TOML/XML as a tree. Extensions are configured in formats.json.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "73bfa0b6a89ca961c85342392697e65fdf2c87d3",
+          "contentHash": "2143aad88bfaa5c49cbc32bfcd69f41ccb3a727457c967c16016de521e516eb6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Everything Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".json, .jsonc, .geojson"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".yaml, .yml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".toml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".xml, .plist"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Viewer",
+              "detail": ".doc, .dot, .ppt, .pps, .pot, .odt, .ott, .odp, .otp, .odg, .otg, .vsd, .vsdx, .pub, .wpd, .wps, .pages, .numbers, .pptx, .pptm, .ppsx, .ppsm, .potx, .potm"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Viewer",
+              "detail": ".blend, .abc, .jp2, .wmv, .flv, .mpg, .mpeg, .3gp, .mts, .m2ts, .vob, .aiff, .aif, .caf, .wma, .amr"
+            }
+          ],
+          "fileTypes": [
+            "json",
+            "jsonc",
+            "geojson",
+            "yaml",
+            "yml",
+            "toml",
+            "xml",
+            "plist",
+            "doc",
+            "dot",
+            "ppt",
+            "pps",
+            "pot",
+            "odt",
+            "ott",
+            "odp",
+            "otp",
+            "odg",
+            "otg",
+            "vsd",
+            "vsdx",
+            "pub",
+            "wpd",
+            "wps",
+            "pages",
+            "numbers",
+            "pptx",
+            "pptm",
+            "ppsx",
+            "ppsm",
+            "potx",
+            "potm",
+            "blend",
+            "abc",
+            "jp2",
+            "wmv",
+            "flv",
+            "mpg",
+            "mpeg",
+            "3gp",
+            "mts",
+            "m2ts",
+            "vob",
+            "aiff",
+            "aif",
+            "caf",
+            "wma",
+            "amr"
+          ],
+          "editorFileTypes": [
+            "json",
+            "jsonc",
+            "geojson",
+            "yaml",
+            "yml",
+            "toml",
+            "xml",
+            "plist",
+            "doc",
+            "dot",
+            "ppt",
+            "pps",
+            "pot",
+            "odt",
+            "ott",
+            "odp",
+            "otp",
+            "odg",
+            "otg",
+            "vsd",
+            "vsdx",
+            "pub",
+            "wpd",
+            "wps",
+            "pages",
+            "numbers",
+            "pptx",
+            "pptm",
+            "ppsx",
+            "ppsm",
+            "potx",
+            "potm",
+            "blend",
+            "abc",
+            "jp2",
+            "wmv",
+            "flv",
+            "mpg",
+            "mpeg",
+            "3gp",
+            "mts",
+            "m2ts",
+            "vob",
+            "aiff",
+            "aif",
+            "caf",
+            "wma",
+            "amr"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/net-runners-com.everything-viewer/feae2042eeca783e.png",
+              "alt": "A PowerPoint deck shown as pages in Everything Viewer, with the current page and zoom in the toolbar",
+              "sha256": "feae2042eeca783e1074a968c47741004fd24b4071702e484a6d598f6ded2d46",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/net-runners-com.everything-viewer/feae2042eeca783e.png",
+                "alt": "A .pptx deck converted by LibreOffice and shown page by page",
+                "sha256": "feae2042eeca783e1074a968c47741004fd24b4071702e484a6d598f6ded2d46",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/net-runners-com.everything-viewer/a15c0edb6d82b2eb.png",
+                "alt": "A legacy Word .doc report with a table, shown as a page",
+                "sha256": "a15c0edb6d82b2eb9f9510b26ec6d454d7839ffe2b9f09cb2e945e66e29cb4a0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/net-runners-com.everything-viewer/fe49a2f95562a8cf.png",
+                "alt": "A Blender .blend scene with a monkey head, sphere, cube and torus on a floor grid",
+                "sha256": "fe49a2f95562a8cf2deedb0c3085e9632ffc27b01cdfb994307866214e49b988",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/net-runners-com.everything-viewer/41a4b19e6325d19e.png",
+                "alt": "A docker compose YAML file as an expanded, filterable tree",
+                "sha256": "41a4b19e6325d19ebed7c2e7319eeab038e6fa18ec320a30a81184f302a50013",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/net-runners-com/everything-viewer",
+          "updatedAt": "2026-11-24T15:54:24+09:00"
+        },
         {
           "version": "0.1.2",
           "commit": "f6755861738d88f6c26fc03229506cc635e4a3b2",
@@ -39552,6 +39734,46 @@
           "license": "MIT",
           "repository": "https://github.com/net-runners-com/tube",
           "updatedAt": "2026-11-24T14:32:37+09:00"
+        }
+      ]
+    },
+    {
+      "id": "ngxuancam.backlog-tasks",
+      "ownerId": 89535832,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ngxuancam/orca-backlog.git",
+        "ref": "v0.2.1"
+      },
+      "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "2786639d264c5edec7f54fec1d7c0d07684e4a64",
+          "contentHash": "284d59176dc1a7c84a913446ad50e13a7c101a8fb6a74fe28b2fa09bdc9da2b0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-24T14:17:50+07:00"
         }
       ]
     },
@@ -42271,8 +42493,8 @@
       "ownerId": 6317094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/penguinwokrs/orca-items-board.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/penguinwokrs/orca-items-board/0.2.0"
       },
       "description": "A wide board of every Orca bot's Items by status, narrowed by request (chat), with each Needs you question, its history and the bot's suggested replies one click away. English and Japanese.",
       "categories": [
@@ -42475,8 +42697,8 @@
       "ownerId": 15852891,
       "source": {
         "kind": "git",
-        "url": "https://github.com/PePoDev/orca-openrouter-key-usage.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pepodev/orca-openrouter-key-usage/1.0.0"
       },
       "description": "See spend, budget limits, local history and individual request costs with a standard OpenRouter key.",
       "categories": [
@@ -58793,15 +59015,85 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.7.0"
+        "ref": "v0.8.0"
       },
-      "description": "Ultra-lightweight illustrated 2.5D modern office tower, Decision Report Queue & team workload SVG analytics dashboard in Orca's right sidebar.",
+      "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.0",
+          "commit": "4f6e00ea14d75298d7651b08b74c891d15d2233c",
+          "contentHash": "cc007cbdf9182f50028ab6c2bcaf0a59db25be85cfbdeae8b21722072b823467",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/b40637a48e63bd39.png",
+                "alt": "Bot Office illustrated 2.5D modern office floors alongside a team workload analytics dashboard with stacked bars, 7-day trend, engine donut and token usage",
+                "sha256": "b40637a48e63bd3949d83cd6f42056a45906e8f13714b9b1084b8347ae219e0a",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T15:06:21+08:00"
+        },
         {
           "version": "0.7.0",
           "commit": "d95a0bc4f341b318d751a1f0a51dde24c2a3322f",
@@ -59078,75 +59370,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T11:56:44+08:00"
-        },
-        {
-          "version": "0.3.0",
-          "commit": "5ce04208f3b42c3da8ac079a6c3cd1daf9020fb4",
-          "contentHash": "1c5ab8a3863a3dd16453eabe8b76ff40043b0394d1ee311f8ac3eeb73e464192",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/76536462fb8bef5b.png",
-                "alt": "Bot Office 2.5D isometric headquarters showing team pods, Lead Bots, Worker robots, gliding mail envelopes, and a Needs-You decision preview card",
-                "sha256": "76536462fb8bef5b42318cac48f8e3eaf577ccd254e4c28bddb4ab7d646ac24d",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T01:48:29+08:00"
         }
       ]
     },
@@ -63467,8 +63690,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.2"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -63973,12 +64196,87 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.2"
+        "url": "https://github.com/wooseungw/rich-tex-editor.git",
+        "ref": "v0.1.3"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables and images as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "b37f4a05c04844bec4e0bf98efa4ebc8588d554e",
+          "contentHash": "d620491bf36bf6b856916117bb7477e56916c10220a225c6dc774abf0d25a81d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich TeX Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Rich TeX",
+              "detail": ".tex, .ltx, .latex"
+            },
+            {
+              "kind": "newFiles",
+              "name": "LaTeX document",
+              "detail": ".tex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "editorFileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wooseungw.rich-tex-editor/3b1ca473d114b0d5.jpg",
+              "alt": "Rich TeX Editor in visual mode: a LaTeX paper with a typeset title, numbered sections, KaTeX equations and resolved references.",
+              "sha256": "3b1ca473d114b0d586b606f645952ac6ce95c28fcbc088a1f9ab809e9a7a5380",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wooseungw.rich-tex-editor/d8ed9e96cccb9c2b.png",
+              "alt": "Rich TeX Editor icon",
+              "sha256": "d8ed9e96cccb9c2b091496d0a680a3bea2e724e8fbf21185028af4e970900fcc",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wooseungw.rich-tex-editor/dd1bb7705e187242.png",
+                "alt": "Visual mode: headings, bold and italic text, inline and display math rendered in place, with references shown as numbers.",
+                "sha256": "dd1bb7705e187242fa648e57a5cf3b033a15a4030d75377baa3b303b736315ed",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/9d1b8f3d4310cf79.png",
+                "alt": "Visual mode with a numbered theorem, an aligned equation, a rendered table and a figure drawn in place.",
+                "sha256": "9d1b8f3d4310cf7916d9662b81d4fa7a033b58152b9faea3bb2b8eadd51de2e3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/c2ffe9c81e607f29.png",
+                "alt": "Split mode in a dark theme: LaTeX source with line numbers beside a live preview with a theorem, an aligned equation and a table.",
+                "sha256": "c2ffe9c81e607f2911577d83b1bee05d4951c8685d40a2b873e7f1df1a66f8de",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wooseungw/rich-tex-editor",
+          "updatedAt": "2026-11-24T16:01:32+09:00"
+        },
         {
           "version": "0.1.2",
           "commit": "d85bcc502300e714ce8632f899d678089d4cd960",
