@@ -5345,8 +5345,8 @@
       "ownerId": 174156446,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BautistaPessagno/orca-capture.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bautistapessagno/orca-capture/0.2.0"
       },
       "description": "Capture code or a conversation directly over your Orca window. Preview whole-window screenshots with detected chat and editor panes blurred on macOS.",
       "categories": [
@@ -11554,8 +11554,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.2"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -39399,8 +39399,8 @@
       "ownerId": 1677058,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mqnoy/orca-antigravity-flow.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mqnoy/orca-antigravity-flow/1.1.0"
       },
       "description": "Agile workflows, multi-agent pipelines, isolated account switching, customizable personas, feature usage monitoring, and Orca Workspace Board integration for Antigravity (agy).",
       "categories": [
@@ -53173,8 +53173,8 @@
       "ownerId": 46280444,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shakechi/orca-prs.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shakechi/orca-prs/0.1.0"
       },
       "description": "Shows your pull requests and the reviews requested from you, grouped by what to do next. Reads GitHub through the gh command.",
       "categories": [
@@ -58723,6 +58723,43 @@
           "license": "MPL-2.0",
           "repository": "https://github.com/thirstydevil/rhai-syntax",
           "updatedAt": "2026-11-14T16:50:39Z"
+        }
+      ]
+    },
+    {
+      "id": "thisisryanswift.scratchpad",
+      "ownerId": 2552959,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thisisryanswift/orca-scratchpad.git",
+        "ref": "v0.1.1"
+      },
+      "description": "A small to-do list for each workspace, in the right sidebar. It lives in a plain Markdown file in a synced folder, so your agents can read and edit it too.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "cbe41cd5de31dab6a3d821c5f86a87eed90ad31f",
+          "contentHash": "2d05b5a683d78529e3b05d3db99023bf4cba807a3f071929f2df3a890871efe3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Workspace Scratchpad",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Scratchpad"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/thisisryanswift/orca-scratchpad",
+          "updatedAt": "2026-11-24T11:00:00-05:00"
         }
       ]
     },
@@ -66702,8 +66739,8 @@
       "ownerId": 10289602,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Yeleup/agent-queue-kit-probe.git",
-        "ref": "v0.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yeleup/agent-queue-kit-probe/0.0.1"
       },
       "description": "Temporary probe: checks catalog install and auto-update for a future plugin. It only shows its version in the status bar.",
       "categories": [],

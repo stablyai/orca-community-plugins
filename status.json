@@ -425,7 +425,7 @@
     },
     "bautistapessagno/orca-capture": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/bautistapessagno/orca-capture/0.2.0",
       "plugins": [
         "bautistapessagno.capture-studio"
       ]
@@ -763,7 +763,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.2",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -2665,7 +2665,7 @@
     },
     "mqnoy/orca-antigravity-flow": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/mqnoy/orca-antigravity-flow/1.1.0",
       "plugins": [
         "mqnoy.antigravity-flow"
       ],
@@ -3539,7 +3539,7 @@
     },
     "shakechi/orca-prs": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/shakechi/orca-prs/0.1.0",
       "plugins": [
         "shakechi.prs"
       ]
@@ -3942,13 +3942,10 @@
       ]
     },
     "thisisryanswift/orca-scratchpad": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "thisisryanswift.scratchpad"
       ]
     },
     "thriftykapila/git-insights": {
@@ -4468,7 +4465,7 @@
     },
     "yeleup/agent-queue-kit-probe": {
       "state": "listed",
-      "ref": "v0.0.1",
+      "ref": "refs/tags/yeleup/agent-queue-kit-probe/0.0.1",
       "plugins": [
         "yeleup.agent-queue-kit-probe"
       ]
