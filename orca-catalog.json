@@ -22951,8 +22951,8 @@
       "ownerId": 65250731,
       "source": {
         "kind": "git",
-        "url": "https://github.com/FelipeMayerDev/orca-walkthrough.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.3"
       },
       "description": "Read a change in the order it makes sense: steps grouped and ordered by purpose, each explained beside its code, with what no step covers.",
       "categories": [
