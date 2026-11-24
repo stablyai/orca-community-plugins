@@ -108,13 +108,13 @@
       }
     },
     "aiawake/orca-vietnamese": {
-      "state": "listed",
-      "ref": "refs/tags/aiawake/orca-vietnamese/1.0.0",
-      "plugins": [
-        "aiawake.vietnamese"
-      ],
-      "notes": [
-        "contributes.languagePacks \"vi\" (locales/vi.json): 2074 protected strings are ignored; Orca always shows its own text for security dialogs"
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"vi\" (locales/vi.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
+        }
       ]
     },
     "ainlee/orca_zh-hant": {
@@ -124,7 +124,7 @@
         "ainlee.zh-hant-full-patch"
       ],
       "notes": [
-        "contributes.languagePacks \"zh-Hant\" (locales/zh-Hant.json): 2181 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"zh-Hant\" (locales/zh-Hant.json): 2176 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "albuquerquesz/orca-github-dark-theme": {
@@ -332,11 +332,11 @@
     },
     "asterysk/orca-flightdeck": {
       "state": "rejected",
-      "ref": "v0.5.1",
+      "ref": "v0.6.0",
       "reasons": [
         {
-          "category": "reserved-name",
-          "detail": "name \"Orca Flightdeck\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -935,7 +935,7 @@
         "dennib.finline"
       ],
       "update": {
-        "ref": "v0.4.0",
+        "ref": "v0.4.1",
         "reasons": [
           {
             "category": "under-review",
@@ -1042,10 +1042,13 @@
       ]
     },
     "ebbop/orca-italiano": {
-      "state": "listed",
-      "ref": "refs/tags/ebbop/orca-italiano/1.4.272",
-      "plugins": [
-        "ebbop.italiano"
+      "state": "rejected",
+      "ref": "v1.4.272",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"it\" (locales/it.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
+        }
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -1413,6 +1416,13 @@
       "ref": "refs/tags/flybywind2/gencode-usage/0.1.4",
       "plugins": [
         "flybywind2.gencode-usage"
+      ]
+    },
+    "francisvega/claude-cache-panel": {
+      "state": "listed",
+      "ref": "v0.3.0",
+      "plugins": [
+        "francisvega.claude-cache-panel"
       ]
     },
     "fullfran/orca-plugins": {
@@ -2108,13 +2118,13 @@
       ]
     },
     "kvdecvlt/orca-russian-language": {
-      "state": "listed",
-      "ref": "refs/tags/kvdecvlt/orca-russian-language/1.3.2",
-      "plugins": [
-        "kvdecvlt.russian-language"
-      ],
-      "notes": [
-        "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): 43 protected strings are ignored; Orca always shows its own text for security dialogs"
+      "state": "rejected",
+      "ref": "v1.3.2",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"ru-RU\" (locales/ru-RU.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
+        }
       ]
     },
     "ky1ezer0/orca-git-graph": {
@@ -2388,10 +2398,13 @@
       ]
     },
     "matteoeusebi/orca-italiano": {
-      "state": "listed",
-      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.272",
-      "plugins": [
-        "matteoeusebi.italiano"
+      "state": "rejected",
+      "ref": "v1.4.272",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"it\" (locales/it.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
+        }
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -2434,7 +2447,7 @@
     },
     "mcxinyu/adb-helper-orca-plugin": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.3.0",
       "plugins": [
         "mcxinyu.adb-helper"
       ]
@@ -2447,10 +2460,13 @@
       ]
     },
     "miinwan/orca-vietnamese": {
-      "state": "listed",
-      "ref": "refs/tags/miinwan/orca-vietnamese/1.6.1",
-      "plugins": [
-        "miinwan.vietnamese"
+      "state": "rejected",
+      "ref": "v1.6.1",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"vi\" (locales/vi.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
+        }
       ]
     },
     "mike623/kanagawa-orca-theme": {
@@ -2633,6 +2649,13 @@
       "ref": "refs/tags/mswdev/orca-fleet-monitor/1.4.0",
       "plugins": [
         "mswdev.fleet-monitor"
+      ]
+    },
+    "mz-jy/orca-dbt": {
+      "state": "listed",
+      "ref": "v0.3.2",
+      "plugins": [
+        "mz-jy.dbt"
       ]
     },
     "nachodeluca/orca-discord-presence": {
@@ -3911,13 +3934,13 @@
       ]
     },
     "tomasmarik-sys/orca-czech": {
-      "state": "listed",
-      "ref": "refs/tags/tomasmarik-sys/orca-czech/0.1.2",
-      "plugins": [
-        "tomasmarik-sys.czech"
-      ],
-      "notes": [
-        "contributes.languagePacks \"cs\" (locales/cs.json): 49 protected strings are ignored; Orca always shows its own text for security dialogs"
+      "state": "rejected",
+      "ref": "v0.1.2",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"cs\" (locales/cs.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
+        }
       ]
     },
     "tonykey/orca-dashboard-os": {
@@ -3936,7 +3959,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.14.1",
+      "ref": "refs/tags/tornadodai/orca-bot-office/0.14.1",
       "plugins": [
         "tornadodai.bot-office"
       ]
@@ -4083,10 +4106,13 @@
       ]
     },
     "vann-dev/orca-indonesian-plugin": {
-      "state": "listed",
-      "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.3.0",
-      "plugins": [
-        "vann-dev.indonesian"
+      "state": "rejected",
+      "ref": "v0.3.0",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "contributes.languagePacks \"id\" (locales/id.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
+        }
       ]
     },
     "vdhoangson/orca-agent-world": {

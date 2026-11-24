@@ -2317,38 +2317,6 @@
       ]
     },
     {
-      "id": "aiawake.vietnamese",
-      "ownerId": 218812377,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aiawake/orca-vietnamese/1.0.0"
-      },
-      "description": "Vietnamese (Tiếng Việt) interface language pack for Orca. Giao diện Orca bằng tiếng Việt.",
-      "categories": [
-        "language-packs"
-      ],
-      "releases": [
-        {
-          "version": "1.0.0",
-          "commit": "eb6acceaf35a1b6f0d2d8d4eac1360c25b54d3e3",
-          "contentHash": "fcb22cea3b89d4bca5b60ea857acb34c67eed48ce9125c9aa531c0a53783649a",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Tiếng Việt",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "vi"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/AIAwake/orca-vietnamese",
-          "updatedAt": "2026-11-24T15:54:44+07:00"
-        }
-      ]
-    },
-    {
       "id": "ainlee.zh-hant-full-patch",
       "ownerId": 18187208,
       "source": {
@@ -2374,9 +2342,9 @@
               "name": "zh-Hant"
             }
           ],
-          "updatedAt": "2026-11-24T12:51:40+08:00",
           "license": "MIT",
-          "repository": "https://github.com/ainlee/Orca_zh-Hant"
+          "repository": "https://github.com/ainlee/Orca_zh-Hant",
+          "updatedAt": "2026-11-24T12:51:40+08:00"
         },
         {
           "version": "1.4.271",
@@ -17241,186 +17209,6 @@
       ]
     },
     {
-      "id": "ebbop.italiano",
-      "ownerId": 205441686,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.272"
-      },
-      "description": "jAI Studio · 22.661 testi su 22.661 (100%), allineato a Orca 1.4.272. Pacchetto della community, non ufficiale.",
-      "categories": [
-        "language-packs"
-      ],
-      "releases": [
-        {
-          "version": "1.4.272",
-          "commit": "e128a8940b085788cb3392776df0f1306dc386ad",
-          "contentHash": "c1c2227796bbc462a096e6bd028f5f50c6c1477b1f7014c48e341f3506b67cac",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
-              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
-              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
-              "alt": "Italiano icon",
-              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Ebbop/orca-italiano",
-          "updatedAt": "2026-11-23T18:52:51+01:00"
-        },
-        {
-          "version": "1.4.271",
-          "commit": "9b6c0516211d091e03ee8b5e43704d9ade0548e4",
-          "contentHash": "a71d3b5d2cdb50b39ba3377b8d86574ec04beed36be1090c07555f6dbb6875c9",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
-              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
-              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
-              "alt": "Italiano icon",
-              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Ebbop/orca-italiano",
-          "updatedAt": "2026-11-23T18:36:29+01:00"
-        },
-        {
-          "version": "1.4.269",
-          "commit": "e6739ebb96f72cadc60b6df3c4fbdb86f57dc98b",
-          "contentHash": "d28a0d3f4c12f977422bdf621224697a9c27bcf91a4411db21c92096bb1b7a66",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
-              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
-              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
-              "alt": "Italiano icon",
-              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Ebbop/orca-italiano",
-          "updatedAt": "2026-11-22T11:38:33+01:00"
-        },
-        {
-          "version": "1.4.266",
-          "commit": "b229024609e700008a6aff46cb7dd4a03409ced8",
-          "contentHash": "10bcc6cccee8abc8179b05564cf9f319902f57cf4dd09de540f6eb99749c0f62",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
-              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
-              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
-              "alt": "Italiano icon",
-              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Ebbop/orca-italiano",
-          "updatedAt": "2026-11-20T09:54:19+01:00"
-        },
-        {
-          "version": "1.4.261",
-          "commit": "0e3a575d22c842f4345a032ad88f832dbd920499",
-          "contentHash": "f0143815e28e032ade2e8b710616bc92d275599c0c71e1bc4ba3fc3c9f2b768a",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
-              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
-              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
-              "alt": "Italiano icon",
-              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Ebbop/orca-italiano",
-          "updatedAt": "2026-11-18T00:08:04+01:00"
-        }
-      ]
-    },
-    {
       "id": "ebrgr.backlog-md",
       "ownerId": 28059587,
       "source": {
@@ -22485,6 +22273,60 @@
           "license": "MIT",
           "repository": "https://github.com/flybywind2/gencode-usage",
           "updatedAt": "2026-11-23T22:58:47+09:00"
+        }
+      ]
+    },
+    {
+      "id": "francisvega.claude-cache-panel",
+      "ownerId": 906119,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/FrancisVega/claude-cache-panel.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Live Claude Code sessions and how long each one's prompt cache has left, in a panel and in the status bar. Needs the cache-countdown mod for Claude Code, from the same repository.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "bb7cc3bb2e4b203f93ea877db8b25adc995af8ff",
+          "contentHash": "3da5126e46fdd7b04cd88e282a64292b3bca202393f0b9484232ab4f32c068aa",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Caches",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Caches"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Caches: Go to the session expiring soonest"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "next-expiry"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/francisvega.claude-cache-panel/727d314930b86642.png",
+              "alt": "Claude Caches icon",
+              "sha256": "727d314930b8664217d3f4f3a5d6df14dccf8f1a56b6465730f3df7ef1010294",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/FrancisVega/claude-cache-panel",
+          "updatedAt": "2026-11-24T10:29:48+01:00"
         }
       ]
     },
@@ -31982,38 +31824,6 @@
       ]
     },
     {
-      "id": "kvdecvlt.russian-language",
-      "ownerId": 92969018,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/kvdecvlt/orca-russian-language/1.3.2"
-      },
-      "description": "Полная русская локализация интерфейса Orca.",
-      "categories": [
-        "language-packs"
-      ],
-      "releases": [
-        {
-          "version": "1.3.2",
-          "commit": "4d23cdbf877fe43c157e3b381edd7e7e394d1d66",
-          "contentHash": "8d70b7b386c3b887a6d13266a1bcab68984e6b1bd150ae374bc70a4871a9e894",
-          "execution": "data",
-          "minimumOrca": "1.4.268",
-          "name": "Русский язык",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "ru-RU"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/kvdecvlt/orca-russian-language",
-          "updatedAt": "2026-11-22T07:01:08+03:00"
-        }
-      ]
-    },
-    {
       "id": "ky1ezer0.git-graph",
       "ownerId": 61507247,
       "source": {
@@ -35241,186 +35051,6 @@
       ]
     },
     {
-      "id": "matteoeusebi.italiano",
-      "ownerId": 263868399,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.272"
-      },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.272. Pacchetto della community, non ufficiale.",
-      "categories": [
-        "language-packs"
-      ],
-      "releases": [
-        {
-          "version": "1.4.272",
-          "commit": "1931469bfbc51bb176716bf4168560f8ebd96256",
-          "contentHash": "5e6f668a5ad7a4fc5637519e249086fcc0fc1c99c36291742c294cf2bedbfcaa",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-24T08:20:44+01:00"
-        },
-        {
-          "version": "1.4.271",
-          "commit": "993e32452944335293a371c3d9d7a4f313188c42",
-          "contentHash": "b600d0c8e59dce35219a8d908b73f9c1edede3d40f7d24735d0c143ed66812b7",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-23T08:17:45+01:00"
-        },
-        {
-          "version": "1.4.269",
-          "commit": "42e7e3afb6159407a3c31f5b7a8ad2b98e7633b9",
-          "contentHash": "e1faf92566029757769bd4df60b0920f36e4f6445b878939759927e6cf22e4d8",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-22T08:17:47+01:00"
-        },
-        {
-          "version": "1.4.268",
-          "commit": "d784a6ed739d8c6c143c4e8707af03ebb0d7b137",
-          "contentHash": "e816f821090c4fa02eb4ad54046f77c7ab6ed65b585d5a9142bdb0471811c165",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-21T08:18:19+01:00"
-        },
-        {
-          "version": "1.4.266",
-          "commit": "216abcc98c461af2c0324c7886e4edb43817d84a",
-          "contentHash": "47746e0da0ad9e362d41844edfd8d973017a52b3222fcd447d3e576d5536a97b",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-20T08:23:35+01:00"
-        }
-      ]
-    },
-    {
       "id": "matteoeusebi.pulse",
       "ownerId": 263868399,
       "source": {
@@ -36120,8 +35750,8 @@
       "ownerId": 9566116,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.3.0"
       },
       "description": "Android ADB device management and live logcat inside Orca.",
       "categories": [
@@ -36336,55 +35966,6 @@
           "license": "MIT",
           "repository": "https://github.com/MichelVelzr/ork-dbclient",
           "updatedAt": "2026-11-06T14:14:03-05:00"
-        }
-      ]
-    },
-    {
-      "id": "miinwan.vietnamese",
-      "ownerId": 186194717,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/miinwan/orca-vietnamese/1.6.1"
-      },
-      "description": "Gói giao diện tiếng Việt cho Orca.",
-      "categories": [
-        "language-packs"
-      ],
-      "releases": [
-        {
-          "version": "1.6.1",
-          "commit": "1eeafa52b0402761d62e4bacedb15e8aa9267923",
-          "contentHash": "77ae0efcea4cd553a9ce3efea0b78e921d76b7820a4c21a530e8f2844f2ef3d4",
-          "execution": "data",
-          "minimumOrca": "1.4.272",
-          "name": "Tiếng Việt cho Orca",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "vi"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/Miinwan/orca-vietnamese",
-          "updatedAt": "2026-11-24T11:03:41+07:00"
-        },
-        {
-          "version": "1.5.1",
-          "commit": "cd47182f0af7d3be5d96d15c6829050b9996bb55",
-          "contentHash": "9e5d30ce3002263cbf135c7a14272c7ec8a677a36b0a68f9e815a06c037d2013",
-          "execution": "data",
-          "minimumOrca": "1.4.266",
-          "name": "Tiếng Việt cho Orca",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "vi"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/Miinwan/orca-vietnamese",
-          "updatedAt": "2026-11-21T16:20:12+07:00"
         }
       ]
     },
@@ -39455,6 +39036,43 @@
           "license": "MIT",
           "repository": "https://github.com/mswdev/orca-fleet-monitor",
           "updatedAt": "2026-11-13T10:44:50+14:00"
+        }
+      ]
+    },
+    {
+      "id": "mz-jy.dbt",
+      "ownerId": 12036014,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mz-jy/orca-dbt.git",
+        "ref": "v0.3.2"
+      },
+      "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, and preview data through the project's own dbt (v1 dbt-core or v2 Fusion; Snowflake, ClickHouse, Postgres and any o",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "c8c65c4668c5e02bef547d396f4c436d97a5b9fd",
+          "contentHash": "40dfcaac656eb366a4fc7c32677f5df29e1bea86a6f3ac6d4bb5b139bb19f512",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "dbt for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "dbt"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/mz-jy/orca-dbt",
+          "updatedAt": "2026-11-24T11:35:49+01:00"
         }
       ]
     },
@@ -55006,9 +54624,9 @@
             "terminal:send",
             "settings:own"
           ],
-          "updatedAt": "2026-11-23T17:28:31+01:00",
           "license": "MIT",
-          "repository": "https://github.com/Sotoru/versionlens"
+          "repository": "https://github.com/Sotoru/versionlens",
+          "updatedAt": "2026-11-23T17:28:31+01:00"
         },
         {
           "version": "0.1.0",
@@ -58208,9 +57826,9 @@
               "height": 512
             }
           },
-          "updatedAt": "2026-11-23T11:56:53-03:00",
           "license": "MIT",
-          "repository": "https://github.com/TiagoDanin/Orca-Flutter"
+          "repository": "https://github.com/TiagoDanin/Orca-Flutter",
+          "updatedAt": "2026-11-23T11:56:53-03:00"
         },
         {
           "version": "0.3.1",
@@ -59596,38 +59214,6 @@
       ]
     },
     {
-      "id": "tomasmarik-sys.czech",
-      "ownerId": 244070248,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tomasmarik-sys/orca-czech/0.1.2"
-      },
-      "description": "Přeloží rozhraní Orcy do češtiny.",
-      "categories": [
-        "language-packs"
-      ],
-      "releases": [
-        {
-          "version": "0.1.2",
-          "commit": "dbf8c2d615b86de003797b774ff4485ea3dc169d",
-          "contentHash": "3003098d37bc187203236bf9997400a89f2ab6e5f5eb14ff8a0cc6fe436ab52d",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Český jazykový balíček",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "cs"
-            }
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/tomasmarik-sys/orca-czech",
-          "updatedAt": "2026-11-18T13:42:16+01:00"
-        }
-      ]
-    },
-    {
       "id": "tonykey.dashboard-os",
       "ownerId": 725424,
       "source": {
@@ -59788,8 +59374,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.14.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tornadodai/orca-bot-office/0.14.1"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -61966,120 +61552,6 @@
           "license": "MIT",
           "repository": "https://github.com/vale-c/orca-tokyonight",
           "updatedAt": "2026-10-30T21:17:55+01:00"
-        }
-      ]
-    },
-    {
-      "id": "vann-dev.indonesian",
-      "ownerId": 82990248,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.3.0"
-      },
-      "description": "Antarmuka Orca dalam bahasa Indonesia.",
-      "categories": [
-        "language-packs"
-      ],
-      "releases": [
-        {
-          "version": "0.3.0",
-          "commit": "b508aa6f4f072dbcf7ebe64a1e16ec8f368c9d3d",
-          "contentHash": "93ff8949f5c5b0200d6fcdbef641e254e3227dadc51cc62c4e1fa3881628f4b6",
-          "execution": "data",
-          "minimumOrca": "1.4.269",
-          "name": "Bahasa Indonesia",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "id"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/vann-dev.indonesian/d4e54ae1f6401c8a.png",
-              "alt": "Jendela bergaya Orca dengan pengaturan tampilan dalam bahasa Indonesia dan pilihan Bahasa Indonesia.",
-              "sha256": "d4e54ae1f6401c8a61669be4a02f26f61dfbddf2cc569104574304ddcd5c96d5",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/vann-dev.indonesian/4cb75d61253160b3.png",
-              "alt": "Bahasa Indonesia icon",
-              "sha256": "4cb75d61253160b3e8da0ea1df44fd9b9021b9dd140a1c0a2e797d9008fb805b",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
-          "updatedAt": "2026-11-24T01:10:30+07:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "36687cd0b0e9350417d293537b7ba113507c1e83",
-          "contentHash": "de73c521d4234294fcd7ee59b6d532eb658583dfd7ee9565f664e272fc9f5a90",
-          "execution": "data",
-          "minimumOrca": "1.4.269",
-          "name": "Bahasa Indonesia",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "id"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/vann-dev.indonesian/d4e54ae1f6401c8a.png",
-              "alt": "Jendela bergaya Orca dengan pengaturan tampilan dalam bahasa Indonesia dan pilihan Bahasa Indonesia.",
-              "sha256": "d4e54ae1f6401c8a61669be4a02f26f61dfbddf2cc569104574304ddcd5c96d5",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/vann-dev.indonesian/4cb75d61253160b3.png",
-              "alt": "Bahasa Indonesia icon",
-              "sha256": "4cb75d61253160b3e8da0ea1df44fd9b9021b9dd140a1c0a2e797d9008fb805b",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
-          "updatedAt": "2026-11-23T12:32:21+07:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "fab39620638cdc11639473ebe0e0e2730cb22a79",
-          "contentHash": "71f98b2e04d711f45c3916a6504afb61a73114c3c9d54910cf62802cb5b83306",
-          "execution": "data",
-          "minimumOrca": "1.4.269",
-          "name": "Bahasa Indonesia",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "id"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/vann-dev.indonesian/d4e54ae1f6401c8a.png",
-              "alt": "Jendela bergaya Orca dengan pengaturan tampilan dalam bahasa Indonesia dan pilihan Bahasa Indonesia.",
-              "sha256": "d4e54ae1f6401c8a61669be4a02f26f61dfbddf2cc569104574304ddcd5c96d5",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/vann-dev.indonesian/4cb75d61253160b3.png",
-              "alt": "Bahasa Indonesia icon",
-              "sha256": "4cb75d61253160b3e8da0ea1df44fd9b9021b9dd140a1c0a2e797d9008fb805b",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
-          "updatedAt": "2026-11-22T18:20:02+07:00"
         }
       ]
     },
