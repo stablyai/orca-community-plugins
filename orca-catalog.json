@@ -19043,8 +19043,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-cma.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-cma/0.1.1"
       },
       "description": "Browse your Claude Managed Agents and drive their sessions from Orca.",
       "categories": [

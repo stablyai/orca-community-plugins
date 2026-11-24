@@ -1200,7 +1200,7 @@
     },
     "erom/orca-plugin-cma": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/erom/orca-plugin-cma/0.1.1",
       "plugins": [
         "erom.agent-claude-managed"
       ]
