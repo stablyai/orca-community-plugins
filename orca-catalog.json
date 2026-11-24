@@ -22951,8 +22951,8 @@
       "ownerId": 65250731,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.3"
+        "url": "https://github.com/FelipeMayerDev/orca-walkthrough.git",
+        "ref": "v0.2.0"
       },
       "description": "Read a change in the order it makes sense: steps grouped and ordered by purpose, each explained beside its code, with what no step covers.",
       "categories": [
@@ -22960,6 +22960,53 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "c626679e365c6b266d57ad56031b00a2dcc6b045",
+          "contentHash": "39a58492890f6c8ec1ad37da7319065b859e958f34eb24eed9f9bb67eec22461",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Walkthrough",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Walkthrough"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Walkthrough",
+              "detail": ".walkthrough.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "turn"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/felipemayerdev.walkthrough/8f9bd8c1a35dfc6c.webp",
+              "alt": "Walkthrough wordmark beside the plugin's panel: a diff explained step by step, with each step's files and code.",
+              "sha256": "8f9bd8c1a35dfc6c0dc61568e78f3f0eaef498ea363548287a33c5952bfd2f3e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "updatedAt": "2026-11-24T20:01:40-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/FelipeMayerDev/orca-walkthrough"
+        },
         {
           "version": "0.1.3",
           "commit": "ae5d2c07259dae4d4aa0e7c8787cff3166411db3",
@@ -69444,6 +69491,50 @@
           "license": "MIT",
           "repository": "https://github.com/yeonjin1357/orca-line-blame",
           "updatedAt": "2026-11-12T13:59:47+09:00"
+        }
+      ]
+    },
+    {
+      "id": "yohaneowo.pstack-orca-sync",
+      "ownerId": 74855079,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yohaneowo/pstack-orca-sync.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Independently maintained community build of pstack by Lauren Tan, with validated upstream updates. Installs skills for Claude Code, Codex, Antigravity, Cursor, and Grok.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c80a8f8d095c10b2f46782f37a70687b1567aed9",
+          "contentHash": "fde5d5f766783b46459ba8e2fc7f44c99a3aa5b908317f1f2dbb1f4d29673fe7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "pstack for Orca (Upstream Sync)",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "pstack Sync: Install or update skills for my agents"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack Sync: Show where skills are installed"
+            },
+            {
+              "kind": "commands",
+              "name": "pstack Sync: Remove skills from my agents"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "pstack Sync"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/yohaneowo/pstack-orca-sync",
+          "updatedAt": "2026-11-25T07:28:55+08:00"
         }
       ]
     },
