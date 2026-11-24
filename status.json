@@ -1431,7 +1431,16 @@
       "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.3",
       "plugins": [
         "felipemayerdev.walkthrough"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "felix-lj-ct/orca-agent-inbox": {
       "state": "listed",
@@ -4235,7 +4244,7 @@
     },
     "victorfernande/orca-gear-generator": {
       "state": "rejected",
-      "ref": "v1.4.2",
+      "ref": "v1.4.3",
       "reasons": [
         {
           "category": "no-manifest",
@@ -4247,7 +4256,7 @@
         },
         {
           "category": "binary-files",
-          "detail": "bundles binary files (dist/orca_gear_generator-1.4.2-py3-none-any.whl)"
+          "detail": "bundles binary files (dist/orca_gear_generator-1.4.3-py3-none-any.whl)"
         }
       ]
     },
