@@ -41,7 +41,7 @@
     },
     "abdelrahmanaboegela/orca-tilawa": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/abdelrahmanaboegela/orca-tilawa/0.2.1",
       "plugins": [
         "abdelrahmanaboegela.tilawa"
       ]
@@ -157,9 +157,15 @@
       "plugins": [
         "alexander-64.agent-pipeline"
       ],
-      "notes": [
-        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
-      ]
+      "update": {
+        "ref": "v0.2.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "alexesprit/orca-clock": {
       "state": "listed",
@@ -419,7 +425,7 @@
     },
     "bautistapessagno/orca-capture": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "bautistapessagno.capture-studio"
       ]
@@ -757,7 +763,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -784,7 +790,7 @@
     },
     "computerhof/orca-merge-review": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/computerhof/orca-merge-review/0.3.0",
       "plugins": [
         "computerhof.merge-review"
       ]
@@ -1384,7 +1390,7 @@
     },
     "fang2hou/orca-gruvbox-material-theme": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/fang2hou/orca-gruvbox-material-theme/1.0.0",
       "plugins": [
         "fang2hou.gruvbox-material-theme"
       ],
@@ -2659,19 +2665,13 @@
     },
     "mqnoy/orca-antigravity-flow": {
       "state": "listed",
-      "ref": "refs/tags/mqnoy/orca-antigravity-flow/1.0.2",
+      "ref": "v1.1.0",
       "plugins": [
         "mqnoy.antigravity-flow"
       ],
-      "update": {
-        "ref": "v1.1.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "mrakofff/orca-palenight-theme-plugin": {
       "state": "listed",
@@ -3538,13 +3538,10 @@
       ]
     },
     "shakechi/orca-prs": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "shakechi.prs"
       ]
     },
     "shakedm100/orca-latex-preview": {
@@ -4467,6 +4464,13 @@
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
+      ]
+    },
+    "yeleup/agent-queue-kit-probe": {
+      "state": "listed",
+      "ref": "v0.0.1",
+      "plugins": [
+        "yeleup.agent-queue-kit-probe"
       ]
     },
     "yeonjin1357/orca-line-blame": {

@@ -894,8 +894,8 @@
       "ownerId": 122409768,
       "source": {
         "kind": "git",
-        "url": "https://github.com/AbdelrahmanAboegela/orca-tilawa.git",
-        "ref": "v0.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/abdelrahmanaboegela/orca-tilawa/0.2.1"
       },
       "description": "Quran recitation for Orca: hundreds of reciters or your own files, playing while your agents work.",
       "categories": [
@@ -5346,13 +5346,45 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/BautistaPessagno/orca-capture.git",
-        "ref": "v0.1.0"
+        "ref": "v0.2.0"
       },
-      "description": "Export code and agent conversations as styled PNGs. Blur or redact sensitive areas in window screenshots.",
+      "description": "Capture code or a conversation directly over your Orca window. Preview whole-window screenshots with detected chat and editor panes blurred on macOS.",
       "categories": [
-        "commands"
+        "commands",
+        "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "ec2e5f119123577ca7601c64b774c818e4c874e9",
+          "contentHash": "7afecfbd38e3d5c8b62a05b125a72cc47f3788a0fbe4bb9579cbe972316afd5d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Capture Studio",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Capture Studio: Screenshot Excerpt"
+            },
+            {
+              "kind": "commands",
+              "name": "Capture Studio: Screenshot Orca Window"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+C",
+              "detail": "capture-excerpt"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+B",
+              "detail": "capture-window"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-capture",
+          "updatedAt": "2026-11-24T12:34:27-03:00"
+        },
         {
           "version": "0.1.0",
           "commit": "d3d3bfd56caea0c37d2d9739a7951e034c92c06f",
@@ -11522,8 +11554,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.1"
+        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
+        "ref": "v0.3.2"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -11532,6 +11564,43 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "cb2e2cdc989042847236338afb8c762c1e260651",
+          "contentHash": "19ea1cb1285872c24e51a8c9d18a01e32c618638f521cdae3604b3956c4136af",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "MattWorkflow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "MattWorkflow"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Refresh tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Open current workspace in Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
+          "updatedAt": "2026-11-24T23:33:27+08:00"
+        },
         {
           "version": "0.3.1",
           "commit": "ee0d441bb0a721f6e0585fdb848e13c462cad696",
@@ -11677,42 +11746,6 @@
           "license": "MIT",
           "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
           "updatedAt": "2026-11-16T22:17:35+08:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "7728d10cd1c9d5ebdf746c11ac4a8a979324752f",
-          "contentHash": "b0c31578c9e65a59d3fecadd23aed8278073eb6b211a1e2022e474cdeec1e6c9",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "MattWorkflow",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "MattWorkflow"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Refresh tickets"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Open current workspace in Orca"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "storage:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
-          "updatedAt": "2026-11-16T16:43:32+08:00"
         }
       ]
     },
@@ -11841,8 +11874,8 @@
       "ownerId": 276100142,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Computerhof/orca-merge-review.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/computerhof/orca-merge-review/0.3.0"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -22269,8 +22302,8 @@
       "ownerId": 6694722,
       "source": {
         "kind": "git",
-        "url": "https://github.com/fang2hou/orca-gruvbox-material-theme.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/fang2hou/orca-gruvbox-material-theme/1.0.0"
       },
       "description": "All nine Gruvbox Material variants (hard, medium and soft backgrounds with the Material, Mix and Original foreground palettes) in dark and light, with contrast-checked UI, syntax and terminal colors.",
       "categories": [
@@ -39366,8 +39399,8 @@
       "ownerId": 1677058,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mqnoy/orca-antigravity-flow/1.0.2"
+        "url": "https://github.com/mqnoy/orca-antigravity-flow.git",
+        "ref": "v1.1.0"
       },
       "description": "Agile workflows, multi-agent pipelines, isolated account switching, customizable personas, feature usage monitoring, and Orca Workspace Board integration for Antigravity (agy).",
       "categories": [
@@ -39376,6 +39409,70 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "b88a571ee17fbaa331b03f273f35db8b128afe46",
+          "contentHash": "5727f817c90e6d23312859141ce80c29ae1851e2fa9fd6ea3696263a936c3081",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Antigravity Flow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Antigravity Flow"
+            },
+            {
+              "kind": "commands",
+              "name": "Antigravity: Open Antigravity Flow"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "terminal:send",
+            "terminal:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mqnoy.antigravity-flow/51c4e158391dd3f5.png",
+              "alt": "Antigravity Flow plugin banner: agile board with account switching and quota table",
+              "sha256": "51c4e158391dd3f57f43a5d35c925855135f6aa9a9ee63714d9a6443001be01d",
+              "width": 960,
+              "height": 540
+            },
+            "icon": {
+              "path": "assets/mqnoy.antigravity-flow/47e5b08818013cc0.png",
+              "alt": "Antigravity Flow icon",
+              "sha256": "47e5b08818013cc0654c15d630b896073a1444a20dde195d385372d5c84d123c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/mqnoy.antigravity-flow/3bf563e2b08aeb56.png",
+                "alt": "Antigravity Flow panel showing accounts, quotas and the agile board",
+                "sha256": "3bf563e2b08aeb56fc58cacf58e29166e218d972cf0b827751eb341de2cacfef",
+                "width": 1280,
+                "height": 823
+              }
+            ]
+          },
+          "updatedAt": "2026-11-24T21:54:44+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/mqnoy/orca-antigravity-flow"
+        },
         {
           "version": "1.0.2",
           "commit": "28da8e614934353a90991f299e54ac83ba9d3ecf",
@@ -53072,6 +53169,41 @@
       ]
     },
     {
+      "id": "shakechi.prs",
+      "ownerId": 46280444,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shakechi/orca-prs.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Shows your pull requests and the reviews requested from you, grouped by what to do next. Reads GitHub through the gh command.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "f1479a3992f577dd881050b33514ee45de2e024a",
+          "contentHash": "07b359dce7041b55744949f25c2b5f07a2f90c6eb1d58e8fa3908ceef4558fa7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PRs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PRs"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "updatedAt": "2026-11-24T23:33:16+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/shakechi/orca-prs"
+        }
+      ]
+    },
+    {
       "id": "shakedm100.latex-preview",
       "ownerId": 32491464,
       "source": {
@@ -66562,6 +66694,39 @@
           "license": "MIT",
           "repository": "https://github.com/xuan666-lab/orca-latest-artifacts",
           "updatedAt": "2026-11-16T18:14:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "yeleup.agent-queue-kit-probe",
+      "ownerId": 10289602,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Yeleup/agent-queue-kit-probe.git",
+        "ref": "v0.0.1"
+      },
+      "description": "Temporary probe: checks catalog install and auto-update for a future plugin. It only shows its version in the status bar.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.0.1",
+          "commit": "c0e52482587db9fe103068a3672eb178f7c3f97f",
+          "contentHash": "25e6c07488f2aea4d630a125731681bb3af9e9d3369ff63706de8148e7c41292",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "agent-queue-kit probe",
+          "contributes": [
+            {
+              "kind": "statusBarItems",
+              "name": "probe"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Yeleup/agent-queue-kit-probe",
+          "updatedAt": "2026-11-24T20:30:39+05:00"
         }
       ]
     },
