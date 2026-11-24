@@ -2679,14 +2679,57 @@
       "ownerId": 1119267,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/alexesprit/orca-straude/0.1.0"
+        "url": "https://github.com/alexesprit/orca-straude.git",
+        "ref": "v0.2.0"
       },
       "description": "Straude daily spend, token usage, profile and rankings in Orca.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "eb7fdddb57ecaeb234b4581b94fcc19b1cef2585",
+          "contentHash": "b6da7e17ec0f659a0033a73846f5349fdf26dbba71a6ae87a33ccfd587ac0533",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Straude for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Straude"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Straude: set username"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/alexesprit.straude/54f0786dfd75a355.png",
+              "alt": "Straude for Orca showing daily spend in the status bar and a colored model-spend breakdown in the sidebar of a dark editor window.",
+              "sha256": "54f0786dfd75a355b646c2f64fc0fa5be30c9b97c68c988408a1b6d31c07b2cc",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/alexesprit.straude/b272fc82c5ee8c0e.png",
+                "alt": "Orca with a terminal open and the Straude sidebar showing daily spend, token usage, model costs, profile statistics and rankings.",
+                "sha256": "b272fc82c5ee8c0e665582f20d995f68e0931d262418fba1be42a62623efe283",
+                "width": 2189,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/alexesprit/orca-straude",
+          "updatedAt": "2026-11-24T15:04:59+04:00"
+        },
         {
           "version": "0.1.0",
           "commit": "1cc8023cb8038f48d687029dcb9016a95597341e",
@@ -58731,8 +58774,8 @@
       "ownerId": 2552959,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thisisryanswift/orca-scratchpad.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thisisryanswift/orca-scratchpad/0.1.1"
       },
       "description": "A small to-do list for each workspace, in the right sidebar. It lives in a plain Markdown file in a synced folder, so your agents can read and edit it too.",
       "categories": [

@@ -176,7 +176,7 @@
     },
     "alexesprit/orca-straude": {
       "state": "listed",
-      "ref": "refs/tags/alexesprit/orca-straude/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "alexesprit.straude"
       ]
@@ -3943,7 +3943,7 @@
     },
     "thisisryanswift/orca-scratchpad": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/thisisryanswift/orca-scratchpad/0.1.1",
       "plugins": [
         "thisisryanswift.scratchpad"
       ]
