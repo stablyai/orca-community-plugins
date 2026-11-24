@@ -6584,8 +6584,8 @@
       "ownerId": 200099600,
       "source": {
         "kind": "git",
-        "url": "https://github.com/brian-rey-development/orca-dbml.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/brian-rey-development/orca-dbml/1.1.0"
       },
       "description": "DBML schemas as live ER diagrams: highlighting, diagnostics and completion, a split code and diagram view, and PNG or SVG export.",
       "categories": [
@@ -19035,6 +19035,101 @@
           "license": "MIT",
           "repository": "https://github.com/ernlel/orca-d-syntax",
           "updatedAt": "2026-11-17T18:15:25Z"
+        }
+      ]
+    },
+    {
+      "id": "erom.agent-claude-managed",
+      "ownerId": 146684,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eRom/orca-plugin-cma.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Browse your Claude Managed Agents and drive their sessions from Orca.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "fa5e15f48e80f75482d1d0887214eda333a67bf6",
+          "contentHash": "e000e462771b1c1b4e7ed2646017190370915f6c11db6b2a2cbc7948a894ae33",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Claude Managed",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Managed Agents"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Managed Agents"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/erom.agent-claude-managed/d280e58c23759edd.png",
+              "alt": "The Managed Agents panel listing four sessions, beside a session waiting for approval to open a release pull request.",
+              "sha256": "d280e58c23759edd93141354d6dcc6d3e4a02ea73a92befcd391fed030f3286d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/erom.agent-claude-managed/1d0a91cc2e71f8d1.png",
+              "alt": "Agent Claude Managed icon",
+              "sha256": "1d0a91cc2e71f8d19104efd2e04e71e024efe2d9fa67736504f1613b93bb3928",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/erom.agent-claude-managed/48de11728aa37376.png",
+                "alt": "A session followed live in the dark panel: the agent's messages, a finished tool call and a pull request waiting for Allow or Deny.",
+                "sha256": "48de11728aa3737649960f870c375849e2ce8ace7ce78f99c90f8782400d6443",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-claude-managed/c1aceedb668ddca0.png",
+                "alt": "The Sessions tab in Orca's light theme: four sessions with their agent, cost and state.",
+                "sha256": "c1aceedb668ddca09da23d87242aa111893705759425347beb55ab3f067a4a64",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-claude-managed/52989bececc5c365.png",
+                "alt": "The form of an agent: name, model, effort, description, then system prompt, tools, skills and multiagent sections.",
+                "sha256": "52989bececc5c3653cdf0893751662a08444b15f79cab826c071f882cbd879a2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-claude-managed/18eb40badba3dc4c.png",
+                "alt": "An environment edited elsewhere since it was opened: a warning offers Reload or Save anyway above the form.",
+                "sha256": "18eb40badba3dc4c5c703d61fe40adc71ea39212431b1aa46ad7d54c7c5c8ad1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/erom.agent-claude-managed/52364481e1e99264.png",
+                "alt": "The Resources tab: three skills with upload and delete buttons, and three files with their size.",
+                "sha256": "52364481e1e992644a34ff3dc05d130ad345b51d2b3a0d413083c27cb46d8655",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eRom/orca-plugin-cma",
+          "updatedAt": "2026-11-24T19:40:49+01:00"
         }
       ]
     },

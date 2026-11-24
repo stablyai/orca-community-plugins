@@ -515,7 +515,7 @@
     },
     "brian-rey-development/orca-dbml": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/brian-rey-development/orca-dbml/1.1.0",
       "plugins": [
         "brian-rey-development.dbml"
       ]
@@ -1197,6 +1197,13 @@
           }
         ]
       }
+    },
+    "erom/orca-plugin-cma": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "erom.agent-claude-managed"
+      ]
     },
     "erom/orca-plugin-human-scratchpad": {
       "state": "listed",
