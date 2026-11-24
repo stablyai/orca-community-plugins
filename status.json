@@ -313,11 +313,11 @@
     },
     "asterysk/orca-flightdeck": {
       "state": "rejected",
-      "ref": null,
+      "ref": "v0.5.1",
       "reasons": [
         {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
+          "category": "reserved-name",
+          "detail": "name \"Orca Flightdeck\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
         }
       ]
     },
@@ -758,7 +758,7 @@
     },
     "cplog/trending-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/cplog/trending-for-orca/1.4.1",
+      "ref": "v1.5.0",
       "plugins": [
         "cplog.github-trending"
       ]
@@ -1332,7 +1332,7 @@
     },
     "feifeifeimoon/orca-neo-brutalism": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/feifeifeimoon/orca-neo-brutalism/1.0.0",
       "plugins": [
         "feifeifeimoon.neo-brutalism"
       ]
@@ -2692,7 +2692,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/ngxuancam/orca-backlog/0.3.2",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
@@ -3410,6 +3410,13 @@
         "serhii-f8.git-toolbox"
       ]
     },
+    "serjd1t/reverse-ssh-for-orca": {
+      "state": "listed",
+      "ref": "v1.2.0",
+      "plugins": [
+        "serjd1t.reverse-ssh"
+      ]
+    },
     "shadowhelper93/soundcheck": {
       "state": "rejected",
       "ref": "v2.0.0",
@@ -3893,7 +3900,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.10.1",
+      "ref": "v0.11.2",
       "plugins": [
         "tornadodai.bot-office"
       ]
@@ -4200,7 +4207,16 @@
       "ref": "v0.4.1",
       "plugins": [
         "vzxxbacq.colab"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.2",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "wahaha1024/inkstone-orca": {
       "state": "listed",
@@ -4268,7 +4284,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.2.3",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.3",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

@@ -11792,8 +11792,8 @@
       "ownerId": 38715806,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cplog/trending-for-orca/1.4.1"
+        "url": "https://github.com/cplog/trending-for-orca.git",
+        "ref": "v1.5.0"
       },
       "description": "Discover trending GitHub repositories without leaving Orca. Filter by language and time, save projects, or try one in a new workspace with an agent.",
       "categories": [
@@ -11801,6 +11801,66 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.5.0",
+          "commit": "1b1c5b33eefff2ce749698d812703e33f507acf1",
+          "contentHash": "8317c7a1fbf1b1af7329b0bfdef341af3183e7b01d8227ffba40df0c636dd312",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "GitHub Trending",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Trending"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Show or hide side panel"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Refresh"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Trending"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:launch",
+            "workspace:create",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cplog.github-trending/ce21187323817789.png",
+              "alt": "The GitHub Trending panel in Orca's dark theme, listing repositories with their language and stars gained this month.",
+              "sha256": "ce21187323817789bb6116a73f5ae5ef9c32e6855af0f72344417d9558df76b1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cplog.github-trending/9be90f50391d3905.png",
+              "alt": "GitHub Trending icon",
+              "sha256": "9be90f50391d39051113d07b51e6dfe9b1e53c10ad6d988ddeefdae6f896eafd",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cplog.github-trending/133f02b420c449a2.png",
+                "alt": "The GitHub Trending panel with period tabs, a language select, a filter box and a list of repositories.",
+                "sha256": "133f02b420c449a275f073fd33718592a37c7620b0f06e894f6b2dc190fbdb05",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cplog/trending-for-orca",
+          "updatedAt": "2026-11-24T16:37:12+08:00"
+        },
         {
           "version": "1.4.1",
           "commit": "4ce004c448687ebe6294239831a05aac5a65ebb2",
@@ -21552,8 +21612,8 @@
       "ownerId": 26476500,
       "source": {
         "kind": "git",
-        "url": "https://github.com/feifeifeimoon/orca-neo-brutalism.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/feifeifeimoon/orca-neo-brutalism/1.0.0"
       },
       "description": "High-contrast Neo Brutalism and pop-art color themes for Orca: crisp ink borders, warm paper and dark ink canvases, a signal-yellow frame variant, and five vibrant signal accents (Yellow, Mint, Sky, Coral, Lavender) with matching syntax and terminal palettes.",
       "categories": [
@@ -40043,8 +40103,8 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ngxuancam/orca-backlog.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.2"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
@@ -51908,6 +51968,50 @@
       ]
     },
     {
+      "id": "serjd1t.reverse-ssh",
+      "ownerId": 109649700,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/SerjD1t/reverse-ssh-for-orca.git",
+        "ref": "v1.2.0"
+      },
+      "description": "Manage a reverse SSH tunnel from Orca on Windows to your own SSH server.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "d75a27d73bfa10f1ccc2b68f983db360ae0133f0",
+          "contentHash": "327c7eeab052af8162b27056b5ae4dfae3eba2cf2b8ff1e58b64430668170afb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.272",
+          "name": "Reverse SSH for Orca",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Reverse SSH — Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "Reverse SSH — Restart tunnel"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "SSH: starting"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/SerjD1t/reverse-ssh-for-orca",
+          "updatedAt": "2026-11-24T08:36:32Z"
+        }
+      ]
+    },
+    {
       "id": "shakedm100.latex-preview",
       "ownerId": 32491464,
       "source": {
@@ -59366,7 +59470,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.10.1"
+        "ref": "v0.11.2"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -59375,6 +59479,76 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.2",
+          "commit": "407c8b048cf0f1444ffcdf89e0b7d63aad7136be",
+          "contentHash": "007ed2e43dcccee04560aa38d8a619100adee2af0dec98d680893a6647d29769",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/95b3eb1bdc7edb28.png",
+                "alt": "Bot Office illustrated 2.5D modern office floors alongside a team workload analytics dashboard with stacked bars, 7-day trend, engine donut and token usage",
+                "sha256": "95b3eb1bdc7edb28b985c3f4974a5a6d95fbb1947e07c36d52179eeae1a7c706",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T16:39:21+08:00"
+        },
         {
           "version": "0.10.1",
           "commit": "e7efbcf06d537733002ef57d5ed00b0d06eb2642",
@@ -59653,75 +59827,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T13:06:11+08:00"
-        },
-        {
-          "version": "0.5.0",
-          "commit": "bdb57eabc194e9247775518ca6d243d6443b4fa9",
-          "contentHash": "2d66b21370015b92453b1cc1298c43f587cecf555f65817a124d6ddd4aef038d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/a6d777109a1084a3.png",
-                "alt": "Bot Office 2.5D stacked office tower with top Decision Report Queue, modern studio floors, crisp Bot and Worker sprites, engine badges, and preview card",
-                "sha256": "a6d777109a1084a38a5a135e60aef61f199d619ad95e48ba58ae99ff25d2b3f6",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T12:32:33+08:00"
         }
       ]
     },
@@ -64096,8 +64201,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.2.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.3"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [

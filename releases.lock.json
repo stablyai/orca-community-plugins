@@ -1379,6 +1379,12 @@
     "repoId": 1469572439,
     "firstSeen": "2026-11-24T07:43:15.737Z"
   },
+  "cplog.github-trending@1.5.0": {
+    "commit": "1b1c5b33eefff2ce749698d812703e33f507acf1",
+    "contentHash": "8317c7a1fbf1b1af7329b0bfdef341af3183e7b01d8227ffba40df0c636dd312",
+    "repoId": 1469572439,
+    "firstSeen": "2026-11-24T08:42:52.411Z"
+  },
   "crilofer.streamdeck-bridge@1.0.1": {
     "commit": "8d15793538e169b13c24a658107ea2ac094a9210",
     "contentHash": "6b2b91e1ab95624929ca279d887b3a3104dd8597cad7b6ec315b6e3c69298e40",
@@ -5459,6 +5465,12 @@
     "repoId": 1452623725,
     "firstSeen": "2026-11-21T09:42:18.865Z"
   },
+  "serjd1t.reverse-ssh@1.2.0": {
+    "commit": "d75a27d73bfa10f1ccc2b68f983db360ae0133f0",
+    "contentHash": "327c7eeab052af8162b27056b5ae4dfae3eba2cf2b8ff1e58b64430668170afb",
+    "repoId": 1469873517,
+    "firstSeen": "2026-11-24T08:42:52.411Z"
+  },
   "shakedm100.latex-preview@0.4.2": {
     "commit": "61bbd76a70c2ff70227d9e130f23caebdda273f9",
     "contentHash": "1fb702aa3bb05e7d782ad7b7ddec4386317d2766d76207fbcc1d1cdf105e2c43",
@@ -6250,6 +6262,12 @@
     "contentHash": "5af0fc338e528bb61384778d5de4d6b087b19d549566dc930e2bbd08d3a5a874",
     "repoId": 1469049764,
     "firstSeen": "2026-11-24T08:21:32.059Z"
+  },
+  "tornadodai.bot-office@0.11.2": {
+    "commit": "407c8b048cf0f1444ffcdf89e0b7d63aad7136be",
+    "contentHash": "007ed2e43dcccee04560aa38d8a619100adee2af0dec98d680893a6647d29769",
+    "repoId": 1469049764,
+    "firstSeen": "2026-11-24T08:42:52.411Z"
   },
   "tornadodai.bot-office@0.2.0": {
     "commit": "59c1f33b8c6a1c4689ab4c966caed1d673fea4fb",
