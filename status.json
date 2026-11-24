@@ -751,7 +751,16 @@
       "ref": "refs/tags/cplog/trending-for-orca/1.2.1",
       "plugins": [
         "cplog.github-trending"
-      ]
+      ],
+      "update": {
+        "ref": "v1.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "craig-franklin/orca-commit-review": {
       "state": "rejected",
@@ -1062,11 +1071,11 @@
         "erlhon9.pod"
       ],
       "update": {
-        "ref": "v0.4.9",
+        "ref": "v0.5.0",
         "reasons": [
           {
             "category": "under-review",
-            "detail": "code"
+            "detail": "code, update"
           }
         ]
       }
@@ -1132,6 +1141,16 @@
     "esseener/agent-voice": {
       "state": "rejected",
       "ref": "v0.1.8",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
+    "esseener/orcai": {
+      "state": "rejected",
+      "ref": "v0.2.2",
       "reasons": [
         {
           "category": "under-review",
@@ -2635,7 +2654,7 @@
     },
     "net-runners-com/everything-viewer": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/net-runners-com/everything-viewer/0.1.2",
       "plugins": [
         "net-runners-com.everything-viewer"
       ],
@@ -2649,9 +2668,15 @@
       "plugins": [
         "net-runners-com.tube"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v1.1.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size, update"
+          }
+        ]
+      }
     },
     "ngoohebi/orca-auto-handoff": {
       "state": "rejected",
@@ -2840,19 +2865,17 @@
     },
     "penguinwokrs/orca-items-board": {
       "state": "listed",
-      "ref": "refs/tags/penguinwokrs/orca-items-board/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "penguinwokrs.items-board"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
+    },
+    "pepodev/orca-openrouter-key-usage": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "pepodev.openrouter-key-usage"
+      ]
     },
     "pereiraemerson-afk/orca-aws-explorer": {
       "state": "listed",
@@ -3861,19 +3884,10 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "refs/tags/tornadodai/orca-bot-office/0.6.0",
+      "ref": "v0.7.0",
       "plugins": [
         "tornadodai.bot-office"
-      ],
-      "update": {
-        "ref": "v0.7.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "tourbut/claude-pin": {
       "state": "listed",
@@ -4245,7 +4259,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

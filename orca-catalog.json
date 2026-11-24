@@ -39277,8 +39277,8 @@
       "ownerId": 240148764,
       "source": {
         "kind": "git",
-        "url": "https://github.com/net-runners-com/everything-viewer.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/net-runners-com/everything-viewer/0.1.2"
       },
       "description": "Opens files nothing else in Orca shows: legacy Office, OpenDocument, Pages/Numbers and PowerPoint as pages (LibreOffice), Blender scenes in 3D, JPEG 2000, older video/audio (ffmpeg), and JSON/YAML/TOML/XML as a tree. Extensions are configured in formats.json.",
       "categories": [],
@@ -42271,15 +42271,115 @@
       "ownerId": 6317094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/penguinwokrs/orca-items-board/0.1.0"
+        "url": "https://github.com/penguinwokrs/orca-items-board.git",
+        "ref": "v0.2.0"
       },
-      "description": "A wide board of every Orca bot's Items by status, with each Needs you question, its history and the bot's suggested replies one click away. English and Japanese.",
+      "description": "A wide board of every Orca bot's Items by status, narrowed by request (chat), with each Needs you question, its history and the bot's suggested replies one click away. English and Japanese.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "2c135304cd6d7e748f1186229d81f1cdee700744",
+          "contentHash": "dedf76dab1f42280daa346036274b14f13b11154f44b58a72b4b99e583512f88",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Items Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Items"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Open Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Show Needs You"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Answer Next Needs You"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Items Board",
+              "detail": ".itemsboard"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Bot Items Board",
+              "detail": ".itemsboard"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you –"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:write",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "itemsboard"
+          ],
+          "editorFileTypes": [
+            "itemsboard"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/penguinwokrs.items-board/c229c9d4b57a4092.png",
+              "alt": "The Bot Items Board: a request list and five status columns of bot Items, two of them waiting on the owner",
+              "sha256": "c229c9d4b57a4092af50832571df8e7b3ada370c2810915a4e1acd3ee46ada1e",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/penguinwokrs.items-board/281ba8118ab7eb64.png",
+              "alt": "Bot Items Board icon",
+              "sha256": "281ba8118ab7eb64ed2f3121f1864f56bc7679173c0b995b8508b10b31ddffc5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/penguinwokrs.items-board/c229c9d4b57a4092.png",
+                "alt": "The request list on the left and five status columns of Items from four demo bots",
+                "sha256": "c229c9d4b57a4092af50832571df8e7b3ada370c2810915a4e1acd3ee46ada1e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/0f85405a24f79630.png",
+                "alt": "The board narrowed to the Release v2.3 request, a group room with two bots, chosen in the list",
+                "sha256": "0f85405a24f79630d4bef58038f886c689b315141d7f172e7902db4d082b50d7",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/4de813c540ad2898.png",
+                "alt": "A Needs you Item in a floating box: summary, history, info column, two questions with suggested replies, and an Answer in Orca button",
+                "sha256": "4de813c540ad289817bc6288f52b7b0ab42b9c6f092b1daa73128df4cf4bd4c5",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/95e5efb185ea61ae.png",
+                "alt": "The same floating box scrolled to the end of the Item's history, with the bot's question and status changes",
+                "sha256": "95e5efb185ea61aec6200411113134a9e03db2dc6ca737f0909c0d3911f6a13a",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/penguinwokrs/orca-items-board",
+          "updatedAt": "2026-11-24T14:45:43+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "ee3d9955dff90c5aba4681cab631155fcc3a765f",
@@ -42367,6 +42467,51 @@
           "license": "MIT",
           "repository": "https://github.com/penguinwokrs/orca-items-board",
           "updatedAt": "2026-11-24T12:50:50+09:00"
+        }
+      ]
+    },
+    {
+      "id": "pepodev.openrouter-key-usage",
+      "ownerId": 15852891,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/PePoDev/orca-openrouter-key-usage.git",
+        "ref": "v1.0.0"
+      },
+      "description": "See spend, budget limits, local history and individual request costs with a standard OpenRouter key.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "1a4a8d7466ba9ac80e0cc147e76718fa28dd1f1c",
+          "contentHash": "f7f60ae4c00ce1e2f7f2b8f38db6d9c27a0e84083be3682908b5a8dba397125f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.271",
+          "name": "OpenRouter Key Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenRouter Key Usage"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh OpenRouter Key Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenRouter"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/PePoDev/orca-openrouter-key-usage",
+          "updatedAt": "2026-11-24T13:43:30+07:00"
         }
       ]
     },
@@ -58647,16 +58792,86 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tornadodai/orca-bot-office/0.6.0"
+        "url": "https://github.com/TornadoDai/orca-bot-office.git",
+        "ref": "v0.7.0"
       },
-      "description": "Ultra-lightweight illustrated 2.5D modern office tower & Decision Report Queue in Orca: queueing Bots, human-styled teammates, engine badges & low CPU.",
+      "description": "Ultra-lightweight illustrated 2.5D modern office tower, Decision Report Queue & team workload SVG analytics dashboard in Orca's right sidebar.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.7.0",
+          "commit": "d95a0bc4f341b318d751a1f0a51dde24c2a3322f",
+          "contentHash": "8d4798d246d2d3370da515af1c6fa2690a5dfbb8ce1e080b4d4e925db890dedc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/8d88ce60f84d2d4e.png",
+                "alt": "Bot Office illustrated 2.5D modern office floors alongside a team workload analytics dashboard with stacked bars, 7-day trend, engine donut and token usage",
+                "sha256": "8d88ce60f84d2d4e365c53afe466e0fae96b8fcebd235afb702ff1c5235bf1a7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T14:10:49+08:00"
+        },
         {
           "version": "0.6.0",
           "commit": "551ae6aea575f925a5a8b214deca11e6efcf79df",
@@ -58932,75 +59147,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T01:48:29+08:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "8783a7299a7bd9cdfb15c750dd808d9f91139c36",
-          "contentHash": "e81dbe2932bab44829c51ca689816267cd52d95010f0e339a54aed5635321ae2",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/a41c65e5b3b57896.png",
-                "alt": "Bot Office cutaway headquarters and decision preview card showing Bot teams, Worker robots, native Needs-You items, and grouped workbench",
-                "sha256": "a41c65e5b3b57896f4ebe5d31bbe9c21da81f1ec793428f5583e48828f87a217",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T01:18:29+08:00"
         }
       ]
     },
@@ -63321,8 +63467,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.1"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.2.2"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -63331,6 +63477,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "824baad15a9d8bbce94c0feef19aff83c50d8028",
+          "contentHash": "b50ed6bad41ca6944f2dc62ee4b5d0804b63ed55acbd6cfde3e43488093e1700",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-24T14:42:11+08:00"
+        },
         {
           "version": "0.2.1",
           "commit": "2623bb096db66dc266da3b83f0b6606ea3c6d98a",
@@ -63654,87 +63881,6 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-21T07:28:17+08:00"
-        },
-        {
-          "version": "0.1.7",
-          "commit": "02a757d1de1883f0a2bf82a0f81844a9660584f0",
-          "contentHash": "18b320bc210df72515d57a4d1a727c35205787e569d7bf10ee835692c930ead2",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-20T10:07:46+08:00"
         }
       ]
     },
