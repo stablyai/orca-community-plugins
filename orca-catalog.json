@@ -9961,6 +9961,105 @@
       ]
     },
     {
+      "id": "choihjin.hwp-viewer",
+      "ownerId": 103234587,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/choihjin/orca-hwp.git",
+        "ref": "v0.1.4"
+      },
+      "description": "Read-only viewer for Hangul word processor documents (.hwp and .hwpx) inside Orca, drawn page by page with the rhwp engine. An independent project, not affiliated with Hancom.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "cd22dafe35395af3efe0877ec19305ca19fcb8c0",
+          "contentHash": "5226643f92fc1dd908f6abb7de6156844f7d65189bfd19cf73a285f9b189e210",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "HWP Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "HWP Viewer",
+              "detail": ".hwpx, .hwp"
+            }
+          ],
+          "fileTypes": [
+            "hwpx",
+            "hwp"
+          ],
+          "editorFileTypes": [
+            "hwpx",
+            "hwp"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.hwp-viewer/ab2538533f4e6b85.png",
+              "alt": "The HWP Viewer icon and name beside two viewer pages: a table-heavy public notice and the cover of a 383-page handbook",
+              "sha256": "ab2538533f4e6b850e0784f3b0160958624a2ace586defa651c22eafbc8cf6cf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.hwp-viewer/1f53dad17af089aa.png",
+              "alt": "HWP Viewer icon",
+              "sha256": "1f53dad17af089aae85b99a4b6a1c9553435389c26053fae4742eb2f6ac2bf2f",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.hwp-viewer/b574f7d2d27080df.png",
+                "alt": "A public HWP notice with a long table, drawn page by page in the viewer",
+                "sha256": "b574f7d2d27080dfeda66f164f9f5601cf0e09c4aabc6a7a826590d4cd53015f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/cdc47ac39dcf1b0d.png",
+                "alt": "A public HWP notice with a long table, drawn page by page in the viewer",
+                "sha256": "cdc47ac39dcf1b0d920237af4d6b00790b5321f5fd344656b2b1d8f4fb8a6b91",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/cdb8c5b0f993c538.png",
+                "alt": "The cover page of a 383-page HWPX handbook in the viewer",
+                "sha256": "cdb8c5b0f993c5385dd76e8ce584bffed73f5e59927f5281b0552e40c70128ba",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/0fc50b15b8910c3b.png",
+                "alt": "The cover page of a 383-page HWPX handbook in the viewer",
+                "sha256": "0fc50b15b8910c3b44eee3e54008c6dbd4735c42e175049c82102df7d2d9409c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/43c676fe6c7c47a4.png",
+                "alt": "The agent-view command and the zoomed PNG it renders from a page region",
+                "sha256": "43c676fe6c7c47a4799cd18c753071544833e6d27bd99d3ccc4f495feacdf665",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/2303fcb868e57e6a.png",
+                "alt": "The agent-view command and the zoomed PNG it renders from a page region",
+                "sha256": "2303fcb868e57e6a237f2f60727c0c151722ac360d09d5b9531425b0456e58e7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-hwp",
+          "updatedAt": "2026-11-24T12:18:17+09:00"
+        }
+      ]
+    },
+    {
       "id": "chrisluo5311.claude-trajectory",
       "ownerId": 77089596,
       "source": {
@@ -11288,8 +11387,8 @@
       "ownerId": 38715806,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cplog/trending-for-orca.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cplog/trending-for-orca/1.2.0"
       },
       "description": "Discover trending GitHub repositories without leaving Orca. Filter by language and time, match your workspace, and save projects for later.",
       "categories": [
