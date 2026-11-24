@@ -39,6 +39,13 @@
         "aamonnaig4.putt-request"
       ]
     },
+    "abdelrahmanaboegela/orca-tilawa": {
+      "state": "listed",
+      "ref": "v0.2.1",
+      "plugins": [
+        "abdelrahmanaboegela.tilawa"
+      ]
+    },
     "actus7/orca-autocomplete": {
       "state": "listed",
       "ref": "refs/tags/actus7/orca-autocomplete/0.4.0",
@@ -410,6 +417,13 @@
         "bautistapessagno.calendar"
       ]
     },
+    "bautistapessagno/orca-capture": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "bautistapessagno.capture-studio"
+      ]
+    },
     "bautistapessagno/orca-linear": {
       "state": "listed",
       "ref": "refs/tags/bautistapessagno/orca-linear/0.1.0",
@@ -743,7 +757,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.1",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -770,7 +784,7 @@
     },
     "computerhof/orca-merge-review": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "computerhof.merge-review"
       ]
@@ -1103,7 +1117,7 @@
     },
     "eppen/luban-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/eppen/luban-orca-plugin/0.1.0",
       "plugins": [
         "eppen.luban-chat"
       ],
@@ -1366,15 +1380,17 @@
       "plugins": [
         "fang2hou.gruvbox-material-mix-theme"
       ],
-      "update": {
-        "ref": "v2.3.0",
-        "reasons": [
-          {
-            "category": "identity-refused",
-            "detail": "fang2hou/orca-gruvbox-material-mix-theme was deleted and recreated (GitHub repository id 1464984592 is now 1468530686); fang2hou.gruvbox-material-mix-theme stays frozen at its listed releases"
-          }
-        ]
-      }
+      "sourceUnavailable": true
+    },
+    "fang2hou/orca-gruvbox-material-theme": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "fang2hou.gruvbox-material-theme"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
     },
     "feifeifeimoon/orca-neo-brutalism": {
       "state": "listed",
@@ -1752,6 +1768,16 @@
       "ref": "refs/tags/hubo1989/orca-codegraph-init/0.1.0",
       "plugins": [
         "hubo1989.codegraph-init"
+      ]
+    },
+    "hygorfragas/sftp-bridge": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "ias0nas/seaqull": {
@@ -2637,9 +2663,15 @@
       "plugins": [
         "mqnoy.antigravity-flow"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v1.1.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "mrakofff/orca-palenight-theme-plugin": {
       "state": "listed",
@@ -3505,6 +3537,16 @@
         }
       ]
     },
+    "shakechi/orca-prs": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "shakedm100/orca-latex-preview": {
       "state": "listed",
       "ref": "refs/tags/shakedm100/orca-latex-preview/0.4.3",
@@ -3900,6 +3942,16 @@
       "ref": "refs/tags/thirstydevil/rhai-syntax/1.0.1",
       "plugins": [
         "thirstydevil.rhai-syntax"
+      ]
+    },
+    "thisisryanswift/orca-scratchpad": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "thriftykapila/git-insights": {

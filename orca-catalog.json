@@ -890,6 +890,65 @@
       ]
     },
     {
+      "id": "abdelrahmanaboegela.tilawa",
+      "ownerId": 122409768,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/AbdelrahmanAboegela/orca-tilawa.git",
+        "ref": "v0.2.1"
+      },
+      "description": "Quran recitation for Orca: hundreds of reciters or your own files, playing while your agents work.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "c2064c83ee2beb05d236ce002f05a771a57d3a5e",
+          "contentHash": "233507eb7f00483fc008740601995c3097769451482fb705ed56a6e51cc1892f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Tilawa",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Tilawa"
+            },
+            {
+              "kind": "commands",
+              "name": "Tilawa: Play or pause"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Tilawa"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "storage:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/abdelrahmanaboegela.tilawa/583072990b0ef9a7.png",
+              "alt": "Tilawa icon",
+              "sha256": "583072990b0ef9a701c7c3e80c5c68fca04246bbf13070ab4ce0536cb8479353",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/AbdelrahmanAboegela/orca-tilawa",
+          "updatedAt": "2026-11-24T16:53:47+02:00"
+        }
+      ]
+    },
+    {
       "id": "actus7.autocomplete",
       "ownerId": 24607590,
       "source": {
@@ -5278,6 +5337,72 @@
           "license": "MIT",
           "repository": "https://github.com/BautistaPessagno/orca-calendar",
           "updatedAt": "2026-11-11T14:09:03-03:00"
+        }
+      ]
+    },
+    {
+      "id": "bautistapessagno.capture-studio",
+      "ownerId": 174156446,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/BautistaPessagno/orca-capture.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Export code and agent conversations as styled PNGs. Blur or redact sensitive areas in window screenshots.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "d3d3bfd56caea0c37d2d9739a7951e034c92c06f",
+          "contentHash": "b7513d25744064e306fe78ac4505e51ff8e9f4e5f68973a911e8e1d6640a3d88",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Capture Studio",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Capture Studio: Capture Window to Clipboard (macOS)"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Capture Studio",
+              "detail": ".capture-studio"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Capture Studio",
+              "detail": ".capture-studio"
+            }
+          ],
+          "fileTypes": [
+            "capture-studio"
+          ],
+          "editorFileTypes": [
+            "capture-studio"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bautistapessagno.capture-studio/7c45a560ddad9c0e.webp",
+              "alt": "Capture Studio showing a styled TypeScript snippet with syntax highlighting and line numbers",
+              "sha256": "7c45a560ddad9c0e9f2df703ab9fd45e4befcea050e709b57aa90aa46ad272e4",
+              "width": 1440,
+              "height": 900
+            },
+            "screenshots": [
+              {
+                "path": "assets/bautistapessagno.capture-studio/8e34f692ba804204.webp",
+                "alt": "Capture Studio preview showing a user prompt and agent reply in separate message cards",
+                "sha256": "8e34f692ba8042047851004fad8eb6b111834af87447dec2ad88abc73207e8ab",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BautistaPessagno/orca-capture",
+          "updatedAt": "2026-11-24T12:15:41-03:00"
         }
       ]
     },
@@ -11397,8 +11522,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.1"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -11717,7 +11842,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Computerhof/orca-merge-review.git",
-        "ref": "v0.2.0"
+        "ref": "v0.3.0"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -11727,6 +11852,105 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "3d77ca4d41ca24298683b20c76c5b0ccdf06e087",
+          "contentHash": "519e9d802ec755750a7833d4110f0b6a54b4394a6bcd5b10407197aeab994fdb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Merge & Review",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Merge & Review"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Übersicht öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Nächsten Konflikt öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Mit Base vergleichen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Merge abschließen"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+M",
+              "detail": "mergeReview.open"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+J",
+              "detail": "mergeReview.nextConflict"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Merge & Review",
+              "detail": ".mergereview"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Merge"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "automation:read",
+            "automation:write",
+            "history:read"
+          ],
+          "fileTypes": [
+            "mergereview"
+          ],
+          "editorFileTypes": [
+            "mergereview"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Computerhof/orca-merge-review",
+          "updatedAt": "2026-11-24T15:59:59+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "777b7ccffaaee193a3975e033f9bfd350a51340e",
@@ -18425,8 +18649,8 @@
       "ownerId": 2772936,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eppen/luban-orca-plugin.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/eppen/luban-orca-plugin/0.1.0"
       },
       "description": "Run the Luban coding agent in a sidebar panel over ACP — no terminal, no borrowed agent slot.",
       "categories": [
@@ -21996,7 +22220,8 @@
           },
           "license": "MIT",
           "repository": "https://github.com/fang2hou/orca-gruvbox-material-mix-theme",
-          "updatedAt": "2026-11-22T12:00:12+09:00"
+          "updatedAt": "2026-11-22T12:00:12+09:00",
+          "sourceUnavailable": true
         },
         {
           "version": "2.2.0",
@@ -22034,7 +22259,190 @@
           },
           "license": "MIT",
           "repository": "https://github.com/fang2hou/orca-gruvbox-material-mix-theme",
-          "updatedAt": "2026-11-20T13:53:13+09:00"
+          "updatedAt": "2026-11-20T13:53:13+09:00",
+          "sourceUnavailable": true
+        }
+      ]
+    },
+    {
+      "id": "fang2hou.gruvbox-material-theme",
+      "ownerId": 6694722,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/fang2hou/orca-gruvbox-material-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "All nine Gruvbox Material variants (hard, medium and soft backgrounds with the Material, Mix and Original foreground palettes) in dark and light, with contrast-checked UI, syntax and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "27b6f08439696033b2771373c5af968a842f6a41",
+          "contentHash": "db0a049ab01138eb455b552b8fe74f2b66d0ed5e6759f96a77f906d63e22f324",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Gruvbox Material",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Hard, Material)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Hard, Mix)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Hard, Original)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Medium, Material)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Medium, Mix)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Medium, Original)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Soft, Material)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Soft, Mix)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Dark (Soft, Original)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Hard, Material)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Hard, Mix)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Hard, Original)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Medium, Material)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Medium, Mix)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Medium, Original)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Soft, Material)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Soft, Mix)"
+            },
+            {
+              "kind": "themes",
+              "name": "Gruvbox Material Light (Soft, Original)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Hard, Material)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Hard, Mix)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Hard, Original)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Medium, Material)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Medium, Mix)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Medium, Original)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Soft, Material)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Soft, Mix)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Dark (Soft, Original)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Hard, Material)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Hard, Mix)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Hard, Original)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Medium, Material)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Medium, Mix)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Medium, Original)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Soft, Material)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Soft, Mix)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Gruvbox Material Light (Soft, Original)"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/fang2hou.gruvbox-material-theme/10a5f1cd5022aaf2.png",
+              "alt": "Gruvbox Material Dark and Light (Medium, Mix) previews of the explorer, editor and terminal, rendered from the theme colors",
+              "sha256": "10a5f1cd5022aaf2720f9880d49799784b421ed98f834187f6c001ae80e9e968",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/fang2hou/orca-gruvbox-material-theme",
+          "updatedAt": "2026-11-24T23:45:39+09:00"
         }
       ]
     },
