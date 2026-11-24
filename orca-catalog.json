@@ -11679,8 +11679,8 @@
       "ownerId": 276100142,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/computerhof/orca-merge-review/0.1.0"
+        "url": "https://github.com/Computerhof/orca-merge-review.git",
+        "ref": "v0.1.1"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -11690,6 +11690,101 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "712483bc7684974e9b144d6249d5c5bf6ab78f38",
+          "contentHash": "fcf5afdc7188a0308570ac4ad21dd95d410fff3ffa9be431532dd071b007f6b8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Merge & Review",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Merge & Review"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Übersicht öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Nächsten Konflikt öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Mit Base vergleichen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Merge abschließen"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+M",
+              "detail": "mergeReview.open"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+J",
+              "detail": "mergeReview.nextConflict"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Merge & Review",
+              "detail": ".mergereview"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Merge"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "automation:read",
+            "automation:write",
+            "history:read"
+          ],
+          "fileTypes": [
+            "mergereview"
+          ],
+          "editorFileTypes": [
+            "mergereview"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Computerhof/orca-merge-review",
+          "updatedAt": "2026-11-24T14:13:42+01:00"
+        },
         {
           "version": "0.1.0",
           "commit": "3a57fb0133645a319c3bd08a0e8f4e4e265b2861",
@@ -39109,14 +39204,89 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mz-jy/orca-dbt/0.5.0"
+        "url": "https://github.com/mz-jy/orca-dbt.git",
+        "ref": "v0.6.0"
       },
-      "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, check a pull request's impact (changed models and everything downstream), and preview data through the project's ow",
+      "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "e6e35933cfb81a75b7c09c4a41c7fdd2a30382f5",
+          "contentHash": "0236f14f186b5edc15d76426fdf3b8508073c22dfb65ed7421a78c42d91df466",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "dbt for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "dbt"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mz-jy.dbt/bc19cf3228a1c5d6.webp",
+              "alt": "The Quality pane with failing tests by model, the lineage graph with failing nodes flagged, and the rows a failing test found.",
+              "sha256": "bc19cf3228a1c5d6af679488b9015f262de80cdfdb1475d7edc691ca22bddf93",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/mz-jy.dbt/f130db0c6d4211e6.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "f130db0c6d4211e638ff0a90238e9a6334efaea5a7cb0e7ee5df97b54208fdb4",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/e09950ab37a24f56.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "e09950ab37a24f5648f0f39dd76d117ea1c138238908f3b7ddd3b930698a2335",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/3a34c9ccd86e8e83.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "3a34c9ccd86e8e83a5b057693310bdf20241d592b1eba2f25826be872be60822",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/f6566bbbb51c5196.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "f6566bbbb51c51969f1759ea663bc60e54ee2f0305d2c3ea3ed0d898a76839f9",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/6d73b03e4279a2a4.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "6d73b03e4279a2a4db01b579b5899ebfae232aea9febf9cf49d5a3590befdd30",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/89fffccaba764e08.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "89fffccaba764e088f4e5604a73c108b41c407012833ecad9c00754941de31f0",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mz-jy/orca-dbt",
+          "updatedAt": "2026-11-24T13:58:50+01:00"
+        },
         {
           "version": "0.5.0",
           "commit": "56938c59f0dac94d5ca9717bff0fc3bc1f0655bd",

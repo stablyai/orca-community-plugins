@@ -770,7 +770,7 @@
     },
     "computerhof/orca-merge-review": {
       "state": "listed",
-      "ref": "refs/tags/computerhof/orca-merge-review/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "computerhof.merge-review"
       ]
@@ -2653,7 +2653,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "refs/tags/mz-jy/orca-dbt/0.5.0",
+      "ref": "v0.6.0",
       "plugins": [
         "mz-jy.dbt"
       ]
