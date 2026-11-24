@@ -77,11 +77,11 @@
     },
     "addisflava/orca-llm-router": {
       "state": "rejected",
-      "ref": "v1.3.13",
+      "ref": "v1.3.18",
       "reasons": [
         {
-          "category": "validation",
-          "detail": "version: must be semver"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -1528,7 +1528,7 @@
         "hadisd.markdown-colorize"
       ],
       "update": {
-        "ref": "v1.3.0",
+        "ref": "v1.3.1",
         "reasons": [
           {
             "category": "under-review",
@@ -2062,7 +2062,7 @@
     },
     "kyino-pan/agents-director": {
       "state": "listed",
-      "ref": "refs/tags/kyino-pan/agents-director/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "kyino-pan.agent-activity"
       ]
@@ -3806,7 +3806,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/tksuns12/account-token-tracker/0.4.1",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]

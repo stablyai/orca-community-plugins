@@ -31215,8 +31215,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/kyino-pan/agents-director/0.2.1"
+        "url": "https://github.com/Kyino-Pan/agents-director.git",
+        "ref": "v0.2.2"
       },
       "description": "A rolling seven-day timeline of publicly observed Orca agent states and session summaries.",
       "categories": [
@@ -31225,6 +31225,88 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "fe89583006cc6f2e25b613e5edb2b94e865b6e93",
+          "contentHash": "59d8bc1f7abdd84621019c24074764f202163146da99aa1188346b1db94f4495",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Agents Director",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents Director"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents Director: Refresh activity"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "history:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "orca-activity"
+          ],
+          "editorFileTypes": [
+            "orca-activity"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kyino-pan.agent-activity/a614dbef8c9a1114.png",
+              "alt": "Synthetic illustration of the Agents Director timeline. Illustrative coordination arrows.",
+              "sha256": "a614dbef8c9a11147748e3f5b8a1d96c6103ad7c2e36a734d3fcdf86c3d3f9b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/kyino-pan.agent-activity/6fe59358c8ed593f.png",
+                "alt": "Legacy synthetic timeline illustration; illustrative coordination arrows.",
+                "sha256": "6fe59358c8ed593f90f646b56e030f8e2d6bf5ee907b1d05ae0ece1c1189b237",
+                "width": 1280,
+                "height": 820
+              },
+              {
+                "path": "assets/kyino-pan.agent-activity/e7265d92fad613be.png",
+                "alt": "Legacy synthetic timeline illustration; illustrative coordination arrows.",
+                "sha256": "e7265d92fad613be3e0126ad742bcc73b7d70499539c3bb143e259f2886be886",
+                "width": 1280,
+                "height": 820
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Kyino-Pan/agents-director",
+          "updatedAt": "2026-11-24T10:23:34+08:00"
+        },
         {
           "version": "0.2.1",
           "commit": "ec44d541c8967cbb22f1cda1a767328aeea9b690",
@@ -57205,8 +57287,8 @@
       "ownerId": 16596559,
       "source": {
         "kind": "git",
-        "url": "https://github.com/tksuns12/account-token-tracker.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tksuns12/account-token-tracker/0.4.1"
       },
       "description": "Track per-account quota % vs real API dollar value ($/mo), visualize model cost mix, and detect silent quota nerfs week-over-week.",
       "categories": [
