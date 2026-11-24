@@ -651,7 +651,7 @@
     },
     "choihjin/orca-hwp": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/choihjin/orca-hwp/0.1.4",
       "plugins": [
         "choihjin.hwp-viewer"
       ]
@@ -751,7 +751,7 @@
     },
     "cplog/trending-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/cplog/trending-for-orca/1.2.0",
+      "ref": "v1.2.1",
       "plugins": [
         "cplog.github-trending"
       ]
@@ -2834,6 +2834,16 @@
         "pcauhi.hairline-theme"
       ]
     },
+    "penguinwokrs/orca-items-board": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "pereiraemerson-afk/orca-aws-explorer": {
       "state": "listed",
       "ref": "refs/tags/pereiraemerson-afk/orca-aws-explorer/1.0.1",
@@ -3841,7 +3851,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "refs/tags/tornadodai/orca-bot-office/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "tornadodai.bot-office"
       ]

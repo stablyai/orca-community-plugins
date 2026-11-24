@@ -9965,8 +9965,8 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/choihjin/orca-hwp.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/choihjin/orca-hwp/0.1.4"
       },
       "description": "Read-only viewer for Hangul word processor documents (.hwp and .hwpx) inside Orca, drawn page by page with the rhwp engine. An independent project, not affiliated with Hancom.",
       "categories": [],
@@ -11387,15 +11387,47 @@
       "ownerId": 38715806,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cplog/trending-for-orca/1.2.0"
+        "url": "https://github.com/cplog/trending-for-orca.git",
+        "ref": "v1.2.1"
       },
-      "description": "Discover trending GitHub repositories without leaving Orca. Filter by language and time, match your workspace, and save projects for later.",
+      "description": "Find your next favorite GitHub project without leaving Orca. Explore trending repositories by language and time, match your workspace, and save finds for later.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "c2ce0398b0f0558c7be184d4ac9b913b1c16e109",
+          "contentHash": "f71a06058cdcf64e96deb75869e152aa7f7d98a0cafe85fcb23133d7801e243b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "GitHub Trending",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Trending"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Show or hide side panel"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Refresh"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Trending"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cplog/trending-for-orca",
+          "updatedAt": "2026-11-24T11:44:52+08:00"
+        },
         {
           "version": "1.2.0",
           "commit": "acb413ab058adfe3de20128e13abb21914e4f538",
@@ -57892,16 +57924,85 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tornadodai/orca-bot-office/0.3.0"
+        "url": "https://github.com/TornadoDai/orca-bot-office.git",
+        "ref": "v0.4.0"
       },
-      "description": "Ultra-lightweight 2.5D isometric AI HQ & grouped workbench in Orca's right sidebar: watch Bot teams, Worker robots, live mail dispatches, and native Needs-You decisions with near-zero GPU/CPU overhead.",
+      "description": "Ultra-lightweight 2.5D stacked AI HQ & Boss Office queue in Orca: watch Bots queue upstairs to report decisions, prominent engine badges, sleek message trails.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "7c1e15eb7d8f5f00294bd2bf9ae44ca4d1dce3e3",
+          "contentHash": "65e84362ad942af60ad1cd2f6f77db5d24a786a78f2b7fce44658b001feb581e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/32b642a4c6908c05.png",
+                "alt": "Bot Office 2.5D stacked headquarters with top Boss Office report queue, team floors, agent engine badges, message trails, and decision preview card",
+                "sha256": "32b642a4c6908c0527a75b29218ecbc3a3e41443d32b8a693d1f56c58622b060",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T11:56:44+08:00"
+        },
         {
           "version": "0.3.0",
           "commit": "5ce04208f3b42c3da8ac079a6c3cd1daf9020fb4",

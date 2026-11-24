@@ -1337,6 +1337,12 @@
     "repoId": 1469572439,
     "firstSeen": "2026-11-24T03:19:41.335Z"
   },
+  "cplog.github-trending@1.2.1": {
+    "commit": "c2ce0398b0f0558c7be184d4ac9b913b1c16e109",
+    "contentHash": "f71a06058cdcf64e96deb75869e152aa7f7d98a0cafe85fcb23133d7801e243b",
+    "repoId": 1469572439,
+    "firstSeen": "2026-11-24T04:18:51.224Z"
+  },
   "crilofer.streamdeck-bridge@1.0.1": {
     "commit": "8d15793538e169b13c24a658107ea2ac094a9210",
     "contentHash": "6b2b91e1ab95624929ca279d887b3a3104dd8597cad7b6ec315b6e3c69298e40",
@@ -6142,6 +6148,12 @@
     "contentHash": "1c5ab8a3863a3dd16453eabe8b76ff40043b0394d1ee311f8ac3eeb73e464192",
     "repoId": 1469049764,
     "firstSeen": "2026-11-23T18:19:28.424Z"
+  },
+  "tornadodai.bot-office@0.4.0": {
+    "commit": "7c1e15eb7d8f5f00294bd2bf9ae44ca4d1dce3e3",
+    "contentHash": "65e84362ad942af60ad1cd2f6f77db5d24a786a78f2b7fce44658b001feb581e",
+    "repoId": 1469049764,
+    "firstSeen": "2026-11-24T04:18:51.224Z"
   },
   "tourbut.claude-pin@0.3.1": {
     "commit": "519a4742c614341f0c6c04b5fb9b49079b4f25b7",
