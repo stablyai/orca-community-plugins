@@ -155,6 +155,12 @@
     "repoId": 1451481681,
     "firstSeen": "2026-11-23T12:24:05.956Z"
   },
+  "addisflava.llm-router@1.3.26": {
+    "commit": "ee0861cf8edd3c12ba2206855784151be499d479",
+    "contentHash": "fa27386067379e82bccca30b5ee022b38746e179b3f4a2b9ef6da6b025694978",
+    "repoId": 1451481681,
+    "firstSeen": "2026-11-24T05:18:19.438Z"
+  },
   "addisflava.llm-router@1.3.4": {
     "commit": "a10b19223ff5e9614965a0c4ecd33100987775a5",
     "contentHash": "5909ef0819a31b2d1474d461560df3a9dda35dae70185fd10bcf3d02da7019db",
@@ -1163,11 +1169,23 @@
     "repoId": 1454683758,
     "firstSeen": "2026-11-12T10:15:06.330Z"
   },
+  "choihjin.containers@0.5.2": {
+    "commit": "4c3f37ae27c4cc211fccffe0aa2bf44ae0029f1e",
+    "contentHash": "7d5c98634b6ca1c45e8b4d910f324b687afa497f5973b9998d74f4f722778807",
+    "repoId": 1454683758,
+    "firstSeen": "2026-11-24T05:18:19.438Z"
+  },
   "choihjin.hwp-viewer@0.1.4": {
     "commit": "cd22dafe35395af3efe0877ec19305ca19fcb8c0",
     "contentHash": "5226643f92fc1dd908f6abb7de6156844f7d65189bfd19cf73a285f9b189e210",
     "repoId": 1465014253,
     "firstSeen": "2026-11-24T03:42:43.498Z"
+  },
+  "choihjin.hwp-viewer@0.1.5": {
+    "commit": "473ce72a92582ec2f7366489260c6e6a8c714ad6",
+    "contentHash": "fdda19b054ad9c8a2e8106f2463dd2cbf9e2f4c70c505497a3bc58c57c936498",
+    "repoId": 1465014253,
+    "firstSeen": "2026-11-24T05:18:19.438Z"
   },
   "chrisluo5311.claude-trajectory@1.0.0": {
     "commit": "c59eb0b69833e07ec0293db81afd5da5019b3507",
@@ -6172,6 +6190,12 @@
     "contentHash": "2d66b21370015b92453b1cc1298c43f587cecf555f65817a124d6ddd4aef038d",
     "repoId": 1469049764,
     "firstSeen": "2026-11-24T04:42:27.643Z"
+  },
+  "tornadodai.bot-office@0.6.0": {
+    "commit": "551ae6aea575f925a5a8b214deca11e6efcf79df",
+    "contentHash": "58f096fe5dbdc04d3c52455d373429f5f986eefba026964f0e6157a7525ca08d",
+    "repoId": 1469049764,
+    "firstSeen": "2026-11-24T05:18:19.438Z"
   },
   "tourbut.claude-pin@0.3.1": {
     "commit": "519a4742c614341f0c6c04b5fb9b49079b4f25b7",

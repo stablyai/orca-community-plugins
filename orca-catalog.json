@@ -1868,6 +1868,139 @@
       ]
     },
     {
+      "id": "addisflava.llm-router",
+      "ownerId": 13881665,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/addisflava/orca-llm-router.git",
+        "ref": "v1.3.26"
+      },
+      "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, routing different providers behind a single model name with seamless fallback, and",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.3.26",
+          "commit": "ee0861cf8edd3c12ba2206855784151be499d479",
+          "contentHash": "fa27386067379e82bccca30b5ee022b38746e179b3f4a2b9ef6da6b025694978",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LLM Router for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca LLM Router"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: gateway status"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: start sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: stop sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: restart sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: test providers"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "router:18080"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/addisflava.llm-router/799ec8f03d513730.jpg",
+              "alt": "LLM Router for Orca cover with gateway overview and provider panels beside a short feature summary",
+              "sha256": "799ec8f03d513730144c8a83c8feebcd33ac34848521c48e56f2b20e0a02c387",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/addisflava.llm-router/c08a9eba6ad9af52.png",
+              "alt": "LLM Router for Orca icon",
+              "sha256": "c08a9eba6ad9af52a372810c5be0338212e4b6ee31d15744f05cbf35452efd41",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/addisflava.llm-router/db42611d50dc52bb.png",
+                "alt": "Orca LLM Router live overview dashboard showing active gateway, metrics, and agent endpoints",
+                "sha256": "db42611d50dc52bbd67b7e64a50296a54542dc3b5a834ed73dc46849343a157a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/b46aa5bf26d30e54.png",
+                "alt": "Orca LLM Router routing panel showing model aliases, fastest-first ranking, and live failover telemetry",
+                "sha256": "b46aa5bf26d30e540bc0cc29b173fc4e87b0d3520317426d3609e903aebc7534",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/92bfe430175dc036.png",
+                "alt": "Orca LLM Router live request log showing query filtering and automatic failover retries resolving to 200 OK",
+                "sha256": "92bfe430175dc036dd1394bd9a60a116af39af7f729b2bdc90c79b569fe87f7d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/3cd493af420187b3.png",
+                "alt": "Orca LLM Router providers panel showing multi-provider configuration, key pools, and model discovery",
+                "sha256": "3cd493af420187b38c92980099460cc2f4bd64cf3d06f1664b59876aac4b37e5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/2f8c0cc9fcc4e129.png",
+                "alt": "Interactive route target editor filtering 360+ models across providers with drag-and-drop order",
+                "sha256": "2f8c0cc9fcc4e1291f3fb6ae141c2dcfec8d5e51c10e60bb3c04e187d0e4b395",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/60f2ccbc766cc2cd.png",
+                "alt": "Orca LLM Router agents tab with one-click routing toggles for 45+ supported coding agents",
+                "sha256": "60f2ccbc766cc2cdec65f375902f7ad68c20471265d89cfa1d1d4bd0e86dfa17",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/addisflava/orca-llm-router",
+          "updatedAt": "2026-11-24T07:55:27+03:00"
+        }
+      ]
+    },
+    {
       "id": "aetna000.atmem-architect",
       "ownerId": 300051964,
       "source": {
@@ -9701,14 +9834,97 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/choihjin/orca-containers/0.5.1"
+        "url": "https://github.com/choihjin/orca-containers.git",
+        "ref": "v0.5.2"
       },
       "description": "Lists and manages containers, images, volumes and networks on this computer (macOS or Linux) and on Linux or macOS SSH hosts from a sidebar panel: logs in the panel, a shell and image pulls in an Orca terminal.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.2",
+          "commit": "4c3f37ae27c4cc211fccffe0aa2bf44ae0029f1e",
+          "contentHash": "7d5c98634b6ca1c45e8b4d910f324b687afa497f5973b9998d74f4f722778807",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.255",
+          "name": "Container Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Container Panel"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.containers/35f7dc551bb92ce3.png",
+              "alt": "The Container Panel icon and name beside two container panels, one light and one dark",
+              "sha256": "35f7dc551bb92ce3bf580cf897537115291b490903fb0f87c145ff25f83313c4",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.containers/dcbdbfee6a26dd45.png",
+              "alt": "Container Panel icon",
+              "sha256": "dcbdbfee6a26dd450b051a8176f692c91ded03e7dd5303b1e1a0e0bffaafe2f5",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.containers/c6ae026c14f88225.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "c6ae026c14f88225b5b9939f0cb335a1f715526079c650f73a15bc66a433ef03",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/8eeca45c0fc2c527.png",
+                "alt": "Containers panel on an SSH host named GPU1, with a Compose project grouped by service",
+                "sha256": "8eeca45c0fc2c527dd6e85007650844d30d77c9c17e946c6380aba997b3c73ac",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/6c4821214a28ae6c.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "6c4821214a28ae6caba55d57f937a7914376cae21ce98bbc0923ccd561d29329",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/a28382b98906cfc6.png",
+                "alt": "Containers panel on this Mac with the containers, images, volumes and networks sections open",
+                "sha256": "a28382b98906cfc69c69dbe722884d9d3a41add9e5f35f53b0dd401db3c6e168",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/973c35f3ec0777f9.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "973c35f3ec0777f997e8e61aa5fc76a7be95eb8d323300d31a86a7a5e26fae85",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.containers/d0492041b8e82c79.png",
+                "alt": "Two panels: an SSH host whose ssh connection failed, and a host whose Docker daemon is stopped",
+                "sha256": "d0492041b8e82c7929e233831a48cf8ed760302acf249622ac715fa06d8d2fcb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-containers",
+          "updatedAt": "2026-11-24T14:06:25+09:00"
+        },
         {
           "version": "0.5.1",
           "commit": "c68fa1eb296a78552030303a45f93cb961740959",
@@ -9965,12 +10181,98 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/choihjin/orca-hwp/0.1.4"
+        "url": "https://github.com/choihjin/orca-hwp.git",
+        "ref": "v0.1.5"
       },
       "description": "Read-only viewer for Hangul word processor documents (.hwp and .hwpx) inside Orca, drawn page by page with the rhwp engine. An independent project, not affiliated with Hancom.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "473ce72a92582ec2f7366489260c6e6a8c714ad6",
+          "contentHash": "fdda19b054ad9c8a2e8106f2463dd2cbf9e2f4c70c505497a3bc58c57c936498",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "HWP Reader",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "HWP Reader",
+              "detail": ".hwpx, .hwp"
+            }
+          ],
+          "fileTypes": [
+            "hwpx",
+            "hwp"
+          ],
+          "editorFileTypes": [
+            "hwpx",
+            "hwp"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.hwp-viewer/9e5999c651d81218.png",
+              "alt": "The HWP Reader icon and name beside two viewer pages: a table-heavy public notice and the cover of a 383-page handbook",
+              "sha256": "9e5999c651d81218caf4c66460dc7a19b0b4554cc425b4cf391a3e638e661a5b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.hwp-viewer/1f53dad17af089aa.png",
+              "alt": "HWP Reader icon",
+              "sha256": "1f53dad17af089aae85b99a4b6a1c9553435389c26053fae4742eb2f6ac2bf2f",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.hwp-viewer/b56f73773d957756.png",
+                "alt": "A public HWP notice with a long table, drawn page by page in the viewer",
+                "sha256": "b56f73773d957756024d13ae863097e22c7e7c676f4ff282834d8ea708ed3a1a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/e56c7e6969324040.png",
+                "alt": "A public HWP notice with a long table, drawn page by page in the viewer",
+                "sha256": "e56c7e6969324040be7a4bf8279b10e926236b2129d72bcd04bfc05ff93dc5c9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/cd1610e541ee7e1e.png",
+                "alt": "The cover page of a 383-page HWPX handbook in the viewer",
+                "sha256": "cd1610e541ee7e1e5d7f4453a08542b032a318cb9ac08459b58e9e0845fdde6a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/6cfe04fdc008a38a.png",
+                "alt": "The cover page of a 383-page HWPX handbook in the viewer",
+                "sha256": "6cfe04fdc008a38a442935cbae65e8a5ab82aeca3fc2bdfe96f354869c2f972f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/248e1d27fee7926d.png",
+                "alt": "The agent-view command and the zoomed PNG it renders from a page region",
+                "sha256": "248e1d27fee7926dba26aa83332c2dbcea9881b6edcc67b8be99327a887ea8d0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/dc5d29cbb2bcd8be.png",
+                "alt": "The agent-view command and the zoomed PNG it renders from a page region",
+                "sha256": "dc5d29cbb2bcd8beea7ae5fdef50e6dd965dc98981d5be46f3bd1da06a18acde",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-hwp",
+          "updatedAt": "2026-11-24T13:58:05+09:00"
+        },
         {
           "version": "0.1.4",
           "commit": "cd22dafe35395af3efe0877ec19305ca19fcb8c0",
@@ -35409,8 +35711,8 @@
       "ownerId": 186194717,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Miinwan/orca-vietnamese.git",
-        "ref": "v1.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/miinwan/orca-vietnamese/1.6.1"
       },
       "description": "Gói giao diện tiếng Việt cho Orca.",
       "categories": [
@@ -41669,8 +41971,8 @@
       "ownerId": 6317094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/penguinwokrs/orca-items-board.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/penguinwokrs/orca-items-board/0.1.0"
       },
       "description": "A wide board of every Orca bot's Items by status, with each Needs you question, its history and the bot's suggested replies one click away. English and Japanese.",
       "categories": [
@@ -58046,15 +58348,84 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.5.0"
+        "ref": "v0.6.0"
       },
-      "description": "Ultra-lightweight 2.5D stacked office building & Decision Report Queue in Orca: Bots queue upstairs to report, crisp sprites, engine badges, message trails.",
+      "description": "Ultra-lightweight illustrated 2.5D modern office tower & Decision Report Queue in Orca: queueing Bots, human-styled teammates, engine badges & low CPU.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "551ae6aea575f925a5a8b214deca11e6efcf79df",
+          "contentHash": "58f096fe5dbdc04d3c52455d373429f5f986eefba026964f0e6157a7525ca08d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/6990a81e13e7a63a.png",
+                "alt": "Bot Office illustrated 2.5D modern office building with top Decision Report Queue, warm studio floors, human-styled teammates, engine badges & preview card",
+                "sha256": "6990a81e13e7a63aa37dedf14898e90cb154f26d78774137a90c1fa42b98d503",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T13:06:11+08:00"
+        },
         {
           "version": "0.5.0",
           "commit": "bdb57eabc194e9247775518ca6d243d6443b4fa9",
@@ -58330,75 +58701,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T01:18:29+08:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "59c1f33b8c6a1c4689ab4c966caed1d673fea4fb",
-          "contentHash": "a544e60028642a8c5eb1a32b814eda364f87831b54d132f308011f636aaea547",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/8b4b70e6f1ac180c.png",
-                "alt": "Bot Office cutaway headquarters and decision inspector card showing Bot teams, Worker robots, native Needs-You items, and grouped workbench",
-                "sha256": "8b4b70e6f1ac180c1f6d428679b8e2523696ffaa322ad0341aa7e5fe6e1a9bb8",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T01:09:56+08:00"
         }
       ]
     },
