@@ -39978,8 +39978,8 @@
       "ownerId": 7292153,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mrksoftware/orca-pod.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mrksoftware/orca-pod/0.1.0"
       },
       "description": "Agent queue: dictate or type a task, Pod hands it to an agent (new worktree, folder or bot) and shows at a glance what is queued, running, waiting for you or done. English, Italian, Spanish.",
       "categories": [

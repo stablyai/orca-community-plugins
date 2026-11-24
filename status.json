@@ -2699,7 +2699,7 @@
     },
     "mrksoftware/orca-pod": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/mrksoftware/orca-pod/0.1.0",
       "plugins": [
         "mrksoftware.pod"
       ]
