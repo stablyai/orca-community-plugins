@@ -2679,8 +2679,8 @@
       "ownerId": 1119267,
       "source": {
         "kind": "git",
-        "url": "https://github.com/alexesprit/orca-straude.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/alexesprit/orca-straude/0.2.0"
       },
       "description": "Straude daily spend, token usage, profile and rankings in Orca.",
       "categories": [
@@ -55115,14 +55115,52 @@
       "ownerId": 37236438,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shun-shobon/orca-cloudflare-access/0.1.0"
+        "url": "https://github.com/shun-shobon/orca-cloudflare-access.git",
+        "ref": "v0.1.1"
       },
       "description": "Relays Orca Remote Server connections through Cloudflare Access, signing in with Managed OAuth.",
       "categories": [
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "c1b5fe4f8273be82a804f023cbda3a4beb98772e",
+          "contentHash": "bd94007122360b1a479482f2b6e04a3edd775bb3e1ded796ea819ab465fc6171",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Cloudflare Access",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign in"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign out"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign in or show status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Cloudflare Access"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shun-shobon/orca-cloudflare-access",
+          "updatedAt": "2026-11-25T01:45:10+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "e4286af351c385962d467c9d3b1452839ec81ee7",
