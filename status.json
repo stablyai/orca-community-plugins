@@ -751,7 +751,7 @@
     },
     "cplog/trending-for-orca": {
       "state": "listed",
-      "ref": "v1.2.1",
+      "ref": "refs/tags/cplog/trending-for-orca/1.2.1",
       "plugins": [
         "cplog.github-trending"
       ]
@@ -2391,12 +2391,9 @@
     },
     "miinwan/orca-vietnamese": {
       "state": "listed",
-      "ref": "refs/tags/miinwan/orca-vietnamese/1.5.1",
+      "ref": "v1.6.1",
       "plugins": [
         "miinwan.vietnamese"
-      ],
-      "notes": [
-        "contributes.languagePacks \"vi\" (locales/vi.json): 50 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "mike623/kanagawa-orca-theme": {
@@ -2835,13 +2832,10 @@
       ]
     },
     "penguinwokrs/orca-items-board": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "penguinwokrs.items-board"
       ]
     },
     "pereiraemerson-afk/orca-aws-explorer": {
@@ -3851,7 +3845,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "tornadodai.bot-office"
       ]

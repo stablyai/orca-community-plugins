@@ -11387,8 +11387,8 @@
       "ownerId": 38715806,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cplog/trending-for-orca.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cplog/trending-for-orca/1.2.1"
       },
       "description": "Find your next favorite GitHub project without leaving Orca. Explore trending repositories by language and time, match your workspace, and save finds for later.",
       "categories": [
@@ -35409,14 +35409,31 @@
       "ownerId": 186194717,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/miinwan/orca-vietnamese/1.5.1"
+        "url": "https://github.com/Miinwan/orca-vietnamese.git",
+        "ref": "v1.6.1"
       },
       "description": "Gói giao diện tiếng Việt cho Orca.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.6.1",
+          "commit": "1eeafa52b0402761d62e4bacedb15e8aa9267923",
+          "contentHash": "77ae0efcea4cd553a9ce3efea0b78e921d76b7820a4c21a530e8f2844f2ef3d4",
+          "execution": "data",
+          "minimumOrca": "1.4.272",
+          "name": "Tiếng Việt cho Orca",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "vi"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Miinwan/orca-vietnamese",
+          "updatedAt": "2026-11-24T11:03:41+07:00"
+        },
         {
           "version": "1.5.1",
           "commit": "cd47182f0af7d3be5d96d15c6829050b9996bb55",
@@ -41644,6 +41661,110 @@
           "license": "MIT",
           "repository": "https://github.com/pcauhi/orca-hairline-theme",
           "updatedAt": "2026-11-11T13:57:09+11:00"
+        }
+      ]
+    },
+    {
+      "id": "penguinwokrs.items-board",
+      "ownerId": 6317094,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/penguinwokrs/orca-items-board.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A wide board of every Orca bot's Items by status, with each Needs you question, its history and the bot's suggested replies one click away. English and Japanese.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "ee3d9955dff90c5aba4681cab631155fcc3a765f",
+          "contentHash": "a21ad2ecf3be387c5159d39be2e40c9826caa88550759d5bc3db93fefc78b864",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Items Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Items"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Open Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Answer Next Needs You"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Items Board",
+              "detail": ".itemsboard"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Bot Items Board",
+              "detail": ".itemsboard"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you –"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "itemsboard"
+          ],
+          "editorFileTypes": [
+            "itemsboard"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/penguinwokrs.items-board/a35d5dfeb12a3200.png",
+              "alt": "The Bot Items Board: five status columns of bot Items, two of them waiting on the owner",
+              "sha256": "a35d5dfeb12a32000086b0a12a8970ac39897575a551c3ad34b4adbf9cccd784",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/penguinwokrs.items-board/281ba8118ab7eb64.png",
+              "alt": "Bot Items Board icon",
+              "sha256": "281ba8118ab7eb64ed2f3121f1864f56bc7679173c0b995b8508b10b31ddffc5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/penguinwokrs.items-board/a35d5dfeb12a3200.png",
+                "alt": "Five columns (Needs you, In progress, Waiting, Done, Canceled) of Items from four demo bots",
+                "sha256": "a35d5dfeb12a32000086b0a12a8970ac39897575a551c3ad34b4adbf9cccd784",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/b46d4d3d2922e5f9.png",
+                "alt": "A Needs you Item in a floating box: summary, history, info column, two questions with suggested replies, and an Answer in Orca button",
+                "sha256": "b46d4d3d2922e5f9e26c448ea14bc5da7bfd89406088b982c538d24702f93bb5",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/a6290057c72a6058.png",
+                "alt": "The same floating box scrolled to the end of the Item's history, with the bot's question and status changes",
+                "sha256": "a6290057c72a60580738a144b3e9030fac8b86b30b1b10081381b021c64694b2",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/penguinwokrs/orca-items-board",
+          "updatedAt": "2026-11-24T12:50:50+09:00"
         }
       ]
     },
@@ -57925,15 +58046,84 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.4.0"
+        "ref": "v0.5.0"
       },
-      "description": "Ultra-lightweight 2.5D stacked AI HQ & Boss Office queue in Orca: watch Bots queue upstairs to report decisions, prominent engine badges, sleek message trails.",
+      "description": "Ultra-lightweight 2.5D stacked office building & Decision Report Queue in Orca: Bots queue upstairs to report, crisp sprites, engine badges, message trails.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "bdb57eabc194e9247775518ca6d243d6443b4fa9",
+          "contentHash": "2d66b21370015b92453b1cc1298c43f587cecf555f65817a124d6ddd4aef038d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/a6d777109a1084a3.png",
+                "alt": "Bot Office 2.5D stacked office tower with top Decision Report Queue, modern studio floors, crisp Bot and Worker sprites, engine badges, and preview card",
+                "sha256": "a6d777109a1084a38a5a135e60aef61f199d619ad95e48ba58ae99ff25d2b3f6",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T12:32:33+08:00"
+        },
         {
           "version": "0.4.0",
           "commit": "7c1e15eb7d8f5f00294bd2bf9ae44ca4d1dce3e3",
