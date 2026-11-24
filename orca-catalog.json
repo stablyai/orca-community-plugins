@@ -11792,8 +11792,8 @@
       "ownerId": 38715806,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cplog/trending-for-orca.git",
-        "ref": "v1.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cplog/trending-for-orca/1.5.0"
       },
       "description": "Discover trending GitHub repositories without leaving Orca. Filter by language and time, save projects, or try one in a new workspace with an agent.",
       "categories": [
@@ -13106,8 +13106,8 @@
       "ownerId": 359454302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.9.0"
+        "url": "https://github.com/ddochi-nyang/bot-world-plugin.git",
+        "ref": "v1.0.0"
       },
       "description": "Virtual office & Pocket Pet visualizer for Orca bots and live sub-workers (read-only by default, opt-in Quick Send)",
       "categories": [
@@ -13116,6 +13116,122 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "52cbfc041d4a7edf917245954ecbb1d618598ccb",
+          "contentHash": "9940cfd23769f99b0f37c115c59ac1e3d2fba2bc331fbafc3528b40e46d42555",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.265",
+          "name": "Bot World",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Bot World"
+            },
+            {
+              "kind": "commands",
+              "name": "Refresh Bot World"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot World Office",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Bot World Board",
+              "detail": ".botworld"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot World"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "agent:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "botworld"
+          ],
+          "editorFileTypes": [
+            "botworld"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+              "alt": "Bot World Wide Office Board displaying 10 Orca bots and live sub-workers in the Startup Office theme",
+              "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
+              "alt": "Bot World icon",
+              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
+                "alt": "Bot World wide .botworld office board in the Startup Office theme with 10 live bots, sub-workers, character switcher, and 24-hour event timeline",
+                "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/0949c7778918ab78.jpg",
+                "alt": "Bot World wide .botworld office board in the Corporate Office theme highlighting a Needs You approval badge, open items, and automation status",
+                "sha256": "0949c7778918ab78c6023910e40b79532ead679a24fd6a484880bd4051bd1e6b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/6b6257f1780737c1.jpg",
+                "alt": "Bot World wide .botworld office board with Redact Mode enabled and 24-hour timeline replay paused at an earlier timestamp",
+                "sha256": "6b6257f1780737c16fda6bf54bcd043ded61dd6575514bee10e1bc45d90fb22a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/b9c9635cfb5976a9.jpg",
+                "alt": "Bot World wide .botworld office board in Night mode with warm desk lamp glows, steaming coffee, idle Zzz bubbles, and a sub-worker entering through the door",
+                "sha256": "b9c9635cfb5976a94f99b24f0a6bd762bb5a37836b6045f6bdb7fa57f74a8274",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/f77de702fbbba014.jpg",
+                "alt": "Bot World Cozy Cafe theme at sunset with 8 live bots spread across wooden desks and round cafe tables",
+                "sha256": "f77de702fbbba0149644a54180e535185ec5d40d2a753fb86bb42ef6374281bc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ddochi-nyang.bot-world/4c1e6e8ca34207d2.jpg",
+                "alt": "Bot World Cyber Ops midnight neon control room theme with live bots, glowing monitors, and sub-workers",
+                "sha256": "4c1e6e8ca34207d2deeb19c49d38b1b9eb9adc28bc701dadceed39f3d16cbbd0",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
+          "updatedAt": "2026-11-24T18:07:59+09:00"
+        },
         {
           "version": "0.9.0",
           "commit": "c27cacc96e606f8fa1491925003343f920256924",
@@ -13575,120 +13691,6 @@
           "license": "MIT",
           "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
           "updatedAt": "2026-11-22T11:59:49+09:00"
-        },
-        {
-          "version": "0.4.0",
-          "commit": "09cda801f9ddc10cbc3ece084b079989f532d462",
-          "contentHash": "fa57c6575ce77c5dddbd461d42c151ebdc329ded00830a44b1ab0d51a0680ee1",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.265",
-          "name": "Bot World",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot World"
-            },
-            {
-              "kind": "commands",
-              "name": "Open Bot World"
-            },
-            {
-              "kind": "commands",
-              "name": "Refresh Bot World"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Bot World Office",
-              "detail": ".botworld"
-            },
-            {
-              "kind": "newFiles",
-              "name": "New Bot World Board",
-              "detail": ".botworld"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot World"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "agent:read"
-          ],
-          "fileTypes": [
-            "botworld"
-          ],
-          "editorFileTypes": [
-            "botworld"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
-              "alt": "Bot World Wide Office Board displaying 10 Orca bots and live sub-workers in the Startup Office theme",
-              "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ddochi-nyang.bot-world/36ca9abc94a1e1cc.png",
-              "alt": "Bot World icon",
-              "sha256": "36ca9abc94a1e1cca339515a9ce00ae93c71729340861d30e83e99fd398608a8",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/ddochi-nyang.bot-world/6da15859136e1910.jpg",
-                "alt": "Bot World wide .botworld office board in the Startup Office theme with 10 live bots, sub-workers, character switcher, and 24-hour event timeline",
-                "sha256": "6da15859136e1910852e12137880144de206206bceaec940d68776641eecd566",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/0949c7778918ab78.jpg",
-                "alt": "Bot World wide .botworld office board in the Corporate Office theme highlighting a Needs You approval badge, open items, and automation status",
-                "sha256": "0949c7778918ab78c6023910e40b79532ead679a24fd6a484880bd4051bd1e6b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/6b6257f1780737c1.jpg",
-                "alt": "Bot World wide .botworld office board with Redact Mode enabled and 24-hour timeline replay paused at an earlier timestamp",
-                "sha256": "6b6257f1780737c16fda6bf54bcd043ded61dd6575514bee10e1bc45d90fb22a",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/b9c9635cfb5976a9.jpg",
-                "alt": "Bot World wide .botworld office board in Night mode with warm desk lamp glows, steaming coffee, idle Zzz bubbles, and a sub-worker entering through the door",
-                "sha256": "b9c9635cfb5976a94f99b24f0a6bd762bb5a37836b6045f6bdb7fa57f74a8274",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/f77de702fbbba014.jpg",
-                "alt": "Bot World Cozy Cafe theme at sunset with 8 live bots spread across wooden desks and round cafe tables",
-                "sha256": "f77de702fbbba0149644a54180e535185ec5d40d2a753fb86bb42ef6374281bc",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ddochi-nyang.bot-world/4c1e6e8ca34207d2.jpg",
-                "alt": "Bot World Cyber Ops midnight neon control room theme with live bots, glowing monitors, and sub-workers",
-                "sha256": "4c1e6e8ca34207d2deeb19c49d38b1b9eb9adc28bc701dadceed39f3d16cbbd0",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/ddochi-nyang/bot-world-plugin",
-          "updatedAt": "2026-11-22T11:38:49+09:00"
         }
       ]
     },
@@ -40103,14 +40105,78 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.2"
+        "url": "https://github.com/ngxuancam/orca-backlog.git",
+        "ref": "v0.3.3"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.3",
+          "commit": "c6a038aa447d19439c51633ddfbf7bbd2a56c3f4",
+          "contentHash": "32099c4c0a31a78460bb890d74919abeb84b97c2a7467a8adce55bc18397572d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
+              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
+              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
+              "alt": "Backlog Tasks icon",
+              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
+                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
+                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
+                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
+                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
+                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
+                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-24T16:08:22+07:00"
+        },
         {
           "version": "0.3.2",
           "commit": "e3fe6e7c96f1fbcac84061c8b1b131ab3e33ce02",
@@ -51972,8 +52038,8 @@
       "ownerId": 109649700,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SerjD1t/reverse-ssh-for-orca.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/serjd1t/reverse-ssh-for-orca/1.2.0"
       },
       "description": "Manage a reverse SSH tunnel from Orca on Windows to your own SSH server.",
       "categories": [
@@ -59470,7 +59536,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.11.2"
+        "ref": "v0.12.2"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -59479,6 +59545,90 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.12.2",
+          "commit": "c0c62a269ca40809f3af448b2ba8d50511c0cc4b",
+          "contentHash": "5816133e76afaffa619e5866216491bc55188280d4f71e04ee373933a947b19c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/99a5eacc3db24c42.png",
+                "alt": "Bot Office illustrated 2.5D modern office tower with real-time circular wall clock, furnished executive briefing suite and categorized SVG analytics dashboard",
+                "sha256": "99a5eacc3db24c422d11cc63a1eedbea84a1cf0c27563e114838294e491040d4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/a526a474e7f0eecf.png",
+                "alt": "Categorized Dashboard with 12-panel switch drawer, 28-day usage heatmap, 24-hour peak usage chart, branch chat activity, automations and Orca memory diagnostics",
+                "sha256": "a526a474e7f0eecf58a86b673b5698352e590ea174a901b8d700fd2b1e2da946",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/f4fed28cde747e94.png",
+                "alt": "Native light theme showing interactive in-card decision reply modal and light analytics dashboard",
+                "sha256": "f4fed28cde747e94bfa390c7edd46cb5f3a4a4cab3c2f311be25a7cdcb130968",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T17:01:55+08:00"
+        },
         {
           "version": "0.11.2",
           "commit": "407c8b048cf0f1444ffcdf89e0b7d63aad7136be",
@@ -59758,75 +59908,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T14:10:49+08:00"
-        },
-        {
-          "version": "0.6.0",
-          "commit": "551ae6aea575f925a5a8b214deca11e6efcf79df",
-          "contentHash": "58f096fe5dbdc04d3c52455d373429f5f986eefba026964f0e6157a7525ca08d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/6990a81e13e7a63a.png",
-                "alt": "Bot Office illustrated 2.5D modern office building with top Decision Report Queue, warm studio floors, human-styled teammates, engine badges & preview card",
-                "sha256": "6990a81e13e7a63aa37dedf14898e90cb154f26d78774137a90c1fa42b98d503",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T13:06:11+08:00"
         }
       ]
     },

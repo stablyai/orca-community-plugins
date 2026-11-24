@@ -758,7 +758,7 @@
     },
     "cplog/trending-for-orca": {
       "state": "listed",
-      "ref": "v1.5.0",
+      "ref": "refs/tags/cplog/trending-for-orca/1.5.0",
       "plugins": [
         "cplog.github-trending"
       ]
@@ -876,9 +876,19 @@
     },
     "ddochi-nyang/bot-world-plugin": {
       "state": "listed",
-      "ref": "refs/tags/ddochi-nyang/bot-world-plugin/0.9.0",
+      "ref": "v1.0.0",
       "plugins": [
         "ddochi-nyang.bot-world"
+      ]
+    },
+    "ddoobyddooby/orca-window-theme": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "reserved-name",
+          "detail": "id \"orca-window-theme\" starts with \"orca-\", which is reserved for official plugins"
+        }
       ]
     },
     "decadance-dance/orca-plane": {
@@ -2692,7 +2702,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "refs/tags/ngxuancam/orca-backlog/0.3.2",
+      "ref": "v0.3.3",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
@@ -3412,7 +3422,7 @@
     },
     "serjd1t/reverse-ssh-for-orca": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/serjd1t/reverse-ssh-for-orca/1.2.0",
       "plugins": [
         "serjd1t.reverse-ssh"
       ]
@@ -3900,7 +3910,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.11.2",
+      "ref": "v0.12.2",
       "plugins": [
         "tornadodai.bot-office"
       ]
