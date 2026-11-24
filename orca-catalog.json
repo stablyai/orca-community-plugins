@@ -2321,8 +2321,8 @@
       "ownerId": 218812377,
       "source": {
         "kind": "git",
-        "url": "https://github.com/AIAwake/orca-vietnamese.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aiawake/orca-vietnamese/1.0.0"
       },
       "description": "Vietnamese (Tiếng Việt) interface language pack for Orca. Giao diện Orca bằng tiếng Việt.",
       "categories": [
@@ -12168,8 +12168,8 @@
       "ownerId": 129610227,
       "source": {
         "kind": "git",
-        "url": "https://github.com/crsthn-slv/orca-spaces.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/crsthn-slv/orca-spaces/0.1.0"
       },
       "description": "Zen-style spaces for Orca: group projects and switch the sidebar between them.",
       "categories": [
@@ -36120,8 +36120,8 @@
       "ownerId": 9566116,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.2.0"
+        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
+        "ref": "v0.3.0"
       },
       "description": "Android ADB device management and live logcat inside Orca.",
       "categories": [
@@ -36129,6 +36129,48 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "08538ad9e254599fa0ec158f98d5a777e286ddb4",
+          "contentHash": "29fe4c2f903a56cd5257d325e18dbc131d7959e1364c6614192617fd5080769f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ADB Helper",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ADB Helper"
+            },
+            {
+              "kind": "commands",
+              "name": "ADB Helper: 停止 logcat"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "agent:launch",
+            "agent:read",
+            "history:read",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/mcxinyu.adb-helper/29a112d2d4c9e4ca.png",
+              "alt": "ADB Helper icon",
+              "sha256": "29a112d2d4c9e4ca59e9a4622324ff97ea907af60574e06380dcd874932d4e58",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mcxinyu/adb-helper-orca-plugin",
+          "updatedAt": "2026-11-24T18:14:01+08:00"
+        },
         {
           "version": "0.2.0",
           "commit": "1e8b6e6e386aa40610746299c8475133bde9dbf7",
@@ -59747,7 +59789,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.14.0"
+        "ref": "v0.14.1"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -59756,6 +59798,97 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.14.1",
+          "commit": "77fa23b3267143cac3dd72fc5ae113c3ce9fce48",
+          "contentHash": "b3f0faa6ee93dde71c0454370969f7cb8739bc4d65cc3cdb412e96437c563c91",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tornadodai.bot-office/cbef778132e5a82f.webp",
+              "alt": "Bot Office 2.5D illustrated office tower with real-time wall clock, executive briefing suite and categorized SVG analytics dashboard",
+              "sha256": "cbef778132e5a82f93d79eb43dd42ff8e8569da2b09cc9b538a6ef6ad6a45060",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/99a5eacc3db24c42.png",
+                "alt": "Bot Office illustrated 2.5D modern office tower with real-time circular wall clock, furnished executive briefing suite and categorized SVG analytics dashboard",
+                "sha256": "99a5eacc3db24c422d11cc63a1eedbea84a1cf0c27563e114838294e491040d4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/a526a474e7f0eecf.png",
+                "alt": "Categorized Dashboard with 12-panel switch drawer, 28-day usage heatmap, 24-hour peak usage chart, branch chat activity, automations and Orca memory diagnostics",
+                "sha256": "a526a474e7f0eecf58a86b673b5698352e590ea174a901b8d700fd2b1e2da946",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/f4fed28cde747e94.png",
+                "alt": "Native light theme showing interactive in-card decision reply modal and light analytics dashboard",
+                "sha256": "f4fed28cde747e94bfa390c7edd46cb5f3a4a4cab3c2f311be25a7cdcb130968",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T17:54:47+08:00"
+        },
         {
           "version": "0.14.0",
           "commit": "279f9af7ccad38ecc802b761582d1448f585c4e9",
@@ -60063,76 +60196,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T16:15:55+08:00"
-        },
-        {
-          "version": "0.8.0",
-          "commit": "4f6e00ea14d75298d7651b08b74c891d15d2233c",
-          "contentHash": "cc007cbdf9182f50028ab6c2bcaf0a59db25be85cfbdeae8b21722072b823467",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/b40637a48e63bd39.png",
-                "alt": "Bot Office illustrated 2.5D modern office floors alongside a team workload analytics dashboard with stacked bars, 7-day trend, engine donut and token usage",
-                "sha256": "b40637a48e63bd3949d83cd6f42056a45906e8f13714b9b1084b8347ae219e0a",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T15:06:21+08:00"
         }
       ]
     },

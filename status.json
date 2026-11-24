@@ -109,7 +109,7 @@
     },
     "aiawake/orca-vietnamese": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/aiawake/orca-vietnamese/1.0.0",
       "plugins": [
         "aiawake.vietnamese"
       ],
@@ -809,7 +809,7 @@
     },
     "crsthn-slv/orca-spaces": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/crsthn-slv/orca-spaces/0.1.0",
       "plugins": [
         "crsthn-slv.spaces"
       ]
@@ -2434,7 +2434,7 @@
     },
     "mcxinyu/adb-helper-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "mcxinyu.adb-helper"
       ]
@@ -3936,7 +3936,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.14.0",
+      "ref": "v0.14.1",
       "plugins": [
         "tornadodai.bot-office"
       ]
