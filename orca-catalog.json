@@ -17304,6 +17304,54 @@
       ]
     },
     {
+      "id": "ebbop.italiano",
+      "ownerId": 205441686,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.273"
+      },
+      "description": "jAI Studio · 22.688 testi su 22.690 (99.9%), allineato a Orca 1.4.273. Pacchetto della community, non ufficiale.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.4.273",
+          "commit": "363422b8ec6e5008719f8e903f50e69f1421ed2a",
+          "contentHash": "a4e8f82c9852e3610299c795ff4395d0393d9b9690db767ccd31ec1a6a481b83",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
+              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
+              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-24T13:02:30+01:00"
+        }
+      ]
+    },
+    {
       "id": "ebrgr.backlog-md",
       "ownerId": 28059587,
       "source": {
@@ -18589,8 +18637,8 @@
       "ownerId": 146684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/eRom/orca-plugin-agent-profiles.git",
-        "ref": "v2.0.9"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.9"
       },
       "description": "Launch Orca's agents with saved profiles: model, effort, extra arguments and, for Claude, a provider such as Ollama or OpenRouter.",
       "categories": [
@@ -45284,8 +45332,8 @@
       "ownerId": 291965963,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rekanara/waqt-prayer-times-orca-plugin.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rekanara/waqt-prayer-times-orca-plugin/0.1.1"
       },
       "description": "Islamic prayer times in Orca's status bar: the next prayer, a countdown and desktop reminders. Calculated offline (Kemenag, JAKIM, MUIS, MWL, ISNA, Umm al-Qura and more), no internet needed. Bahasa Indonesia and English.",
       "categories": [
@@ -62055,8 +62103,8 @@
       "ownerId": 82990248,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Vann-Dev/orca-indonesian-plugin.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.4.0"
       },
       "description": "Antarmuka Orca dalam bahasa Indonesia.",
       "categories": [

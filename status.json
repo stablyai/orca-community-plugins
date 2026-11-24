@@ -773,7 +773,16 @@
       "ref": "refs/tags/computerhof/orca-merge-review/0.1.1",
       "plugins": [
         "computerhof.merge-review"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "cplog/trending-for-orca": {
       "state": "listed",
@@ -1042,13 +1051,10 @@
       ]
     },
     "ebbop/orca-italiano": {
-      "state": "rejected",
-      "ref": "v1.4.272",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"it\" (locales/it.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
-        }
+      "state": "listed",
+      "ref": "v1.4.273",
+      "plugins": [
+        "ebbop.italiano"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -1136,7 +1142,7 @@
     },
     "erom/orca-plugin-agent-profiles": {
       "state": "listed",
-      "ref": "v2.0.9",
+      "ref": "refs/tags/erom/orca-plugin-agent-profiles/2.0.9",
       "plugins": [
         "erom.agent-profiles"
       ]
@@ -3104,7 +3110,7 @@
     },
     "rekanara/waqt-prayer-times-orca-plugin": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/rekanara/waqt-prayer-times-orca-plugin/0.1.1",
       "plugins": [
         "rekanara.waqt"
       ]
@@ -4111,7 +4117,7 @@
     },
     "vann-dev/orca-indonesian-plugin": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.4.0",
       "plugins": [
         "vann-dev.indonesian"
       ]
