@@ -1778,7 +1778,7 @@
     },
     "hygorfragas/sftp-bridge": {
       "state": "rejected",
-      "ref": "v0.3.0",
+      "ref": "v0.3.1",
       "reasons": [
         {
           "category": "under-review",
@@ -3612,7 +3612,7 @@
     },
     "shun-shobon/orca-cloudflare-access": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "shun-shobon.cloudflare-access"
       ]
@@ -4167,6 +4167,13 @@
       "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.4.0",
       "plugins": [
         "vann-dev.indonesian"
+      ]
+    },
+    "vann-dev/orca-palenight-theme": {
+      "state": "listed",
+      "ref": "0.1.0",
+      "plugins": [
+        "vann-dev.palenight-theme"
       ]
     },
     "vdhoangson/orca-agent-world": {

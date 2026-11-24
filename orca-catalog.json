@@ -55116,13 +55116,51 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/shun-shobon/orca-cloudflare-access.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Relays Orca Remote Server connections through Cloudflare Access, signing in with Managed OAuth.",
       "categories": [
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "df4d95d532b94e727e4268ad30f6730711bab88f",
+          "contentHash": "c7b610ff06cb06b17a676c4ed7d5054c056778f69f3bbdad15118fa2b13cfa98",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Cloudflare Access",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign in"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign out"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Show status"
+            },
+            {
+              "kind": "commands",
+              "name": "Cloudflare Access: Sign in or show status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Cloudflare Access"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shun-shobon/orca-cloudflare-access",
+          "updatedAt": "2026-11-25T02:19:40+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "c1b5fe4f8273be82a804f023cbda3a4beb98772e",
@@ -62973,6 +63011,83 @@
           "license": "MIT",
           "repository": "https://github.com/Vann-Dev/orca-indonesian-plugin",
           "updatedAt": "2026-11-24T20:19:18+07:00"
+        }
+      ]
+    },
+    {
+      "id": "vann-dev.palenight-theme",
+      "ownerId": 82990248,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Vann-Dev/orca-palenight-theme.git",
+        "ref": "0.1.0"
+      },
+      "description": "Material Palenight for Orca: Palenight, Palenight Italic, Palenight Operator and Palenight (Mild Contrast) with matching code and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "29d9e1f5ed5adce8601e4a457dca92e19f45a0a5",
+          "contentHash": "fd2fd5010b83515ac827e14ee3cdf8cc7e70758815f105c161e7ff87b73896ff",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Palenight Theme for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Palenight"
+            },
+            {
+              "kind": "themes",
+              "name": "Palenight Italic"
+            },
+            {
+              "kind": "themes",
+              "name": "Palenight Operator"
+            },
+            {
+              "kind": "themes",
+              "name": "Palenight (Mild Contrast)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Palenight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Palenight Italic"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Palenight Operator"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Palenight (Mild Contrast)"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vann-dev.palenight-theme/9c150bc9c1301560.png",
+              "alt": "Palenight palette preview with workspace sidebar, code editor, terminal and agent chat",
+              "sha256": "9c150bc9c1301560fa1ab075a78fe2a81007c2e0e45ac704cbb21635af972c88",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vann-dev.palenight-theme/2ff0bc402d6d6bad.png",
+              "alt": "Palenight Theme for Orca icon",
+              "sha256": "2ff0bc402d6d6badfa4c120fb8d274169d36197758388087636d30874c7adafd",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Vann-Dev/orca-palenight-theme",
+          "updatedAt": "2026-11-25T00:37:23+07:00"
         }
       ]
     },
