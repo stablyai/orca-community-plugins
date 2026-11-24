@@ -10198,12 +10198,98 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/choihjin/orca-hwp/0.1.5"
+        "url": "https://github.com/choihjin/orca-hwp.git",
+        "ref": "v0.2.0"
       },
       "description": "Read-only viewer for Hangul word processor documents (.hwp and .hwpx) inside Orca, drawn page by page with the rhwp engine. An independent project, not affiliated with Hancom.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "0205aa511178e3cd4223c187897ba8d0197de1c7",
+          "contentHash": "d5d0431b93076ec6cf37abccedbe15db8b8c2477721084aec1f3fad208e54067",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "HWP Reader",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "HWP Reader",
+              "detail": ".hwpx, .hwp"
+            }
+          ],
+          "fileTypes": [
+            "hwpx",
+            "hwp"
+          ],
+          "editorFileTypes": [
+            "hwpx",
+            "hwp"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/choihjin.hwp-viewer/9e5999c651d81218.png",
+              "alt": "The HWP Reader icon and name beside two viewer pages: a table-heavy public notice and the cover of a 383-page handbook",
+              "sha256": "9e5999c651d81218caf4c66460dc7a19b0b4554cc425b4cf391a3e638e661a5b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/choihjin.hwp-viewer/1f53dad17af089aa.png",
+              "alt": "HWP Reader icon",
+              "sha256": "1f53dad17af089aae85b99a4b6a1c9553435389c26053fae4742eb2f6ac2bf2f",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/choihjin.hwp-viewer/b56f73773d957756.png",
+                "alt": "A public HWP notice with a long table, drawn page by page in the viewer",
+                "sha256": "b56f73773d957756024d13ae863097e22c7e7c676f4ff282834d8ea708ed3a1a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/e56c7e6969324040.png",
+                "alt": "A public HWP notice with a long table, drawn page by page in the viewer",
+                "sha256": "e56c7e6969324040be7a4bf8279b10e926236b2129d72bcd04bfc05ff93dc5c9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/cd1610e541ee7e1e.png",
+                "alt": "The cover page of a 383-page HWPX handbook in the viewer",
+                "sha256": "cd1610e541ee7e1e5d7f4453a08542b032a318cb9ac08459b58e9e0845fdde6a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/6cfe04fdc008a38a.png",
+                "alt": "The cover page of a 383-page HWPX handbook in the viewer",
+                "sha256": "6cfe04fdc008a38a442935cbae65e8a5ab82aeca3fc2bdfe96f354869c2f972f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/248e1d27fee7926d.png",
+                "alt": "The agent-view command and the zoomed PNG it renders from a page region",
+                "sha256": "248e1d27fee7926dba26aa83332c2dbcea9881b6edcc67b8be99327a887ea8d0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/choihjin.hwp-viewer/dc5d29cbb2bcd8be.png",
+                "alt": "The agent-view command and the zoomed PNG it renders from a page region",
+                "sha256": "dc5d29cbb2bcd8beea7ae5fdef50e6dd965dc98981d5be46f3bd1da06a18acde",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/choihjin/orca-hwp",
+          "updatedAt": "2026-11-24T16:22:58+09:00"
+        },
         {
           "version": "0.1.5",
           "commit": "473ce72a92582ec2f7366489260c6e6a8c714ad6",
@@ -11706,15 +11792,75 @@
       "ownerId": 38715806,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cplog/trending-for-orca/1.2.1"
+        "url": "https://github.com/cplog/trending-for-orca.git",
+        "ref": "v1.4.1"
       },
-      "description": "Find your next favorite GitHub project without leaving Orca. Explore trending repositories by language and time, match your workspace, and save finds for later.",
+      "description": "Discover trending GitHub repositories without leaving Orca. Filter by language and time, save projects, or try one in a new workspace with an agent.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.4.1",
+          "commit": "4ce004c448687ebe6294239831a05aac5a65ebb2",
+          "contentHash": "64645242841230e446a97008d05b3f5aed5cc731cb61f493dda28a9cfd6534bf",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "GitHub Trending",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Trending"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Show or hide side panel"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Refresh"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Trending"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:launch",
+            "workspace:create",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cplog.github-trending/ce21187323817789.png",
+              "alt": "The GitHub Trending panel in Orca's dark theme, listing repositories with their language and stars gained this month.",
+              "sha256": "ce21187323817789bb6116a73f5ae5ef9c32e6855af0f72344417d9558df76b1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cplog.github-trending/9be90f50391d3905.png",
+              "alt": "GitHub Trending icon",
+              "sha256": "9be90f50391d39051113d07b51e6dfe9b1e53c10ad6d988ddeefdae6f896eafd",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/cplog.github-trending/133f02b420c449a2.png",
+                "alt": "The GitHub Trending panel with period tabs, a language select, a filter box and a list of repositories.",
+                "sha256": "133f02b420c449a275f073fd33718592a37c7620b0f06e894f6b2dc190fbdb05",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cplog/trending-for-orca",
+          "updatedAt": "2026-11-24T14:53:01+08:00"
+        },
         {
           "version": "1.2.1",
           "commit": "c2ce0398b0f0558c7be184d4ac9b913b1c16e109",
@@ -34713,14 +34859,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.271"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.272"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.271. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.272. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.272",
+          "commit": "1931469bfbc51bb176716bf4168560f8ebd96256",
+          "contentHash": "5e6f668a5ad7a4fc5637519e249086fcc0fc1c99c36291742c294cf2bedbfcaa",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-24T08:20:44+01:00"
+        },
         {
           "version": "1.4.271",
           "commit": "993e32452944335293a371c3d9d7a4f313188c42",
@@ -34852,39 +35031,6 @@
           "license": "MIT",
           "repository": "https://github.com/matteoeusebi/orca-italiano",
           "updatedAt": "2026-11-20T08:23:35+01:00"
-        },
-        {
-          "version": "1.4.262",
-          "commit": "680a86b40448ab3b2d26690d1cb5a0f16db215eb",
-          "contentHash": "7541a8061de6ad5827c57b748bf3bf0c9071d9eccedb5665dafb8852a6f77cac",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
-              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
-              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
-              "alt": "Italiano icon",
-              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/matteoeusebi/orca-italiano",
-          "updatedAt": "2026-11-18T08:18:05+01:00"
         }
       ]
     },
@@ -35588,8 +35734,8 @@
       "ownerId": 9566116,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.1.0"
+        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
+        "ref": "v0.2.0"
       },
       "description": "Android ADB device management and live logcat inside Orca.",
       "categories": [
@@ -35597,6 +35743,48 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "1e8b6e6e386aa40610746299c8475133bde9dbf7",
+          "contentHash": "7ec34b1f356a82abc87c2218acdfd962b67ce083c1cb4e69f1db61d8c4cb6d89",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ADB Helper",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ADB Helper"
+            },
+            {
+              "kind": "commands",
+              "name": "ADB Helper: 停止 logcat"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "agent:launch",
+            "agent:read",
+            "history:read",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/mcxinyu.adb-helper/29a112d2d4c9e4ca.png",
+              "alt": "ADB Helper icon",
+              "sha256": "29a112d2d4c9e4ca59e9a4622324ff97ea907af60574e06380dcd874932d4e58",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mcxinyu/adb-helper-orca-plugin",
+          "updatedAt": "2026-11-24T15:22:08+08:00"
+        },
         {
           "version": "0.1.0",
           "commit": "6ec1408270c24c459c2816df12bf91ad0ed63335",
@@ -39277,8 +39465,8 @@
       "ownerId": 240148764,
       "source": {
         "kind": "git",
-        "url": "https://github.com/net-runners-com/everything-viewer.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/net-runners-com/everything-viewer/0.1.3"
       },
       "description": "Opens files nothing else in Orca shows: legacy Office, OpenDocument, Pages/Numbers and PowerPoint as pages (LibreOffice), Blender scenes in 3D, JPEG 2000, older video/audio (ffmpeg), and JSON/YAML/TOML/XML as a tree. Extensions are configured in formats.json.",
       "categories": [],
@@ -39743,13 +39931,38 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ngxuancam/orca-backlog.git",
-        "ref": "v0.2.1"
+        "ref": "v0.3.0"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "67ebb089be6dbff6632e9b5a27989ec3140a9ab7",
+          "contentHash": "15d513361847661f8639b42889945328b22c956b56476cae2828edc983b2d284",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-24T14:32:38+07:00"
+        },
         {
           "version": "0.2.1",
           "commit": "2786639d264c5edec7f54fec1d7c0d07684e4a64",
@@ -59014,8 +59227,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.8.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tornadodai/orca-bot-office/0.8.0"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -64196,8 +64409,8 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wooseungw/rich-tex-editor.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.3"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables and images as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],
