@@ -22281,8 +22281,8 @@
       "ownerId": 906119,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/francisvega/claude-cache-panel/0.3.0"
+        "url": "https://github.com/FrancisVega/claude-cache-panel.git",
+        "ref": "v0.3.1"
       },
       "description": "Live Claude Code sessions and how long each one's prompt cache has left, in a panel and in the status bar. Needs the cache-countdown mod for Claude Code, from the same repository.",
       "categories": [
@@ -22290,6 +22290,53 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "7b89cffdf96edf52ebca406f29ca39f7176e6093",
+          "contentHash": "625311bb4baa057a0b55632c86c8ce75bd3f2f78dcddb6e6c494fe9b4d0e6deb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Caches",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Caches"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Caches: Go to the session expiring soonest"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "next-expiry"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/francisvega.claude-cache-panel/727d314930b86642.png",
+              "alt": "Claude Caches icon",
+              "sha256": "727d314930b8664217d3f4f3a5d6df14dccf8f1a56b6465730f3df7ef1010294",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/francisvega.claude-cache-panel/8dafb3252f243946.png",
+                "alt": "The Claude Caches panel: three live sessions with 2, 11 and 51 min of cache left in red, amber and green; two expired or no-data ones folded below.",
+                "sha256": "8dafb3252f24394688afb5f64304abc16c44b893efd1190c83fe4abe8bac2052",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/FrancisVega/claude-cache-panel",
+          "updatedAt": "2026-11-24T12:25:16+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "bb7cc3bb2e4b203f93ea877db8b25adc995af8ff",
@@ -32055,8 +32102,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/kyino-pan/agents-director/0.2.2"
+        "url": "https://github.com/Kyino-Pan/agents-director.git",
+        "ref": "v0.2.3"
       },
       "description": "A rolling seven-day timeline of publicly observed Orca agent states and session summaries.",
       "categories": [
@@ -32065,6 +32112,88 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "a3b715e807fcc90791aee99effecdc0d7e5cbc40",
+          "contentHash": "dd01331850af3098cc9873271bf8784782d1ca335c71e0af0f0f82e8e065bd4e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Agents Director",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agents Director"
+            },
+            {
+              "kind": "commands",
+              "name": "Agents Director: Refresh activity"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Agents Director",
+              "detail": ".orca-activity"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "history:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "orca-activity"
+          ],
+          "editorFileTypes": [
+            "orca-activity"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kyino-pan.agent-activity/a614dbef8c9a1114.png",
+              "alt": "Synthetic illustration of the Agents Director timeline. Illustrative coordination arrows.",
+              "sha256": "a614dbef8c9a11147748e3f5b8a1d96c6103ad7c2e36a734d3fcdf86c3d3f9b3",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/kyino-pan.agent-activity/6fe59358c8ed593f.png",
+                "alt": "Legacy synthetic timeline illustration; illustrative coordination arrows.",
+                "sha256": "6fe59358c8ed593f90f646b56e030f8e2d6bf5ee907b1d05ae0ece1c1189b237",
+                "width": 1280,
+                "height": 820
+              },
+              {
+                "path": "assets/kyino-pan.agent-activity/e7265d92fad613be.png",
+                "alt": "Legacy synthetic timeline illustration; illustrative coordination arrows.",
+                "sha256": "e7265d92fad613be3e0126ad742bcc73b7d70499539c3bb143e259f2886be886",
+                "width": 1280,
+                "height": 820
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Kyino-Pan/agents-director",
+          "updatedAt": "2026-11-24T19:19:04+08:00"
+        },
         {
           "version": "0.2.2",
           "commit": "fe89583006cc6f2e25b613e5edb2b94e865b6e93",
@@ -32362,70 +32491,6 @@
           "license": "MIT",
           "repository": "https://github.com/Kyino-Pan/agents-director",
           "updatedAt": "2026-11-09T15:41:22+08:00"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "f2eb7ea1822ea82e8c3ae5557bfb715a21e61926",
-          "contentHash": "b0ef3077caf1df00f3e7f82433ff6f207ba07f62ad348c9cf6b45b2facf7a668",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Agents Director",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agents Director"
-            },
-            {
-              "kind": "commands",
-              "name": "Agents Director: Refresh logs"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Agents Director",
-              "detail": ".orca-activity"
-            },
-            {
-              "kind": "newFiles",
-              "name": "Agents Director",
-              "detail": ".orca-activity"
-            }
-          ],
-          "capabilities": [
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "fileTypes": [
-            "orca-activity"
-          ],
-          "editorFileTypes": [
-            "orca-activity"
-          ],
-          "images": {
-            "screenshots": [
-              {
-                "path": "assets/kyino-pan.agent-activity/6fe59358c8ed593f.png",
-                "alt": "Light timeline with synthetic agent states, spawn branches and message arrows",
-                "sha256": "6fe59358c8ed593f90f646b56e030f8e2d6bf5ee907b1d05ae0ece1c1189b237",
-                "width": 1280,
-                "height": 820
-              },
-              {
-                "path": "assets/kyino-pan.agent-activity/e7265d92fad613be.png",
-                "alt": "Dark timeline with synthetic agent states, spawn branches and message arrows",
-                "sha256": "e7265d92fad613be3e0126ad742bcc73b7d70499539c3bb143e259f2886be886",
-                "width": 1280,
-                "height": 820
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Kyino-Pan/agents-director",
-          "updatedAt": "2026-11-06T18:59:40+08:00"
         }
       ]
     },
@@ -39044,14 +39109,36 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mz-jy/orca-dbt/0.3.2"
+        "url": "https://github.com/mz-jy/orca-dbt.git",
+        "ref": "v0.5.0"
       },
-      "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, and preview data through the project's own dbt (v1 dbt-core or v2 Fusion; Snowflake, ClickHouse, Postgres and any o",
+      "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, check a pull request's impact (changed models and everything downstream), and preview data through the project's ow",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "56938c59f0dac94d5ca9717bff0fc3bc1f0655bd",
+          "contentHash": "31905d41b62ac9cd5e5be0a607f718b982b38ec68e39963e92691c5710e1ecb5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "dbt for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "dbt"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/mz-jy/orca-dbt",
+          "updatedAt": "2026-11-24T12:32:55+01:00"
+        },
         {
           "version": "0.3.2",
           "commit": "c8c65c4668c5e02bef547d396f4c436d97a5b9fd",
@@ -47471,8 +47558,8 @@
       "ownerId": 13818206,
       "source": {
         "kind": "git",
-        "url": "https://github.com/samfaina/orca-kickoff.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/samfaina/orca-kickoff/0.6.0"
       },
       "description": "Lists open tasks from Jira or GitHub and starts each one in its own linked worktree, with an agent and per-project prompt templates.",
       "categories": [

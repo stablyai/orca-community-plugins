@@ -1420,7 +1420,7 @@
     },
     "francisvega/claude-cache-panel": {
       "state": "listed",
-      "ref": "refs/tags/francisvega/claude-cache-panel/0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "francisvega.claude-cache-panel"
       ]
@@ -2136,7 +2136,7 @@
     },
     "kyino-pan/agents-director": {
       "state": "listed",
-      "ref": "refs/tags/kyino-pan/agents-director/0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "kyino-pan.agent-activity"
       ]
@@ -2653,7 +2653,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "refs/tags/mz-jy/orca-dbt/0.3.2",
+      "ref": "v0.5.0",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -3309,7 +3309,7 @@
     },
     "samfaina/orca-kickoff": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/samfaina/orca-kickoff/0.6.0",
       "plugins": [
         "samfaina.kickoff"
       ]
