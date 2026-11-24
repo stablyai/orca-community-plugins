@@ -657,11 +657,11 @@
     },
     "choihjin/orca-hwp": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (scripts/testdata/synthetic-tac-sibling-reset-shapes.hwp, scripts/testdata/synthetic-tac-sibling-reset.hwp)"
+          "category": "under-review",
+          "detail": "code, size"
         }
       ]
     },
