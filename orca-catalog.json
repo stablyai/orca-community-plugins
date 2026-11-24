@@ -6580,6 +6580,94 @@
       ]
     },
     {
+      "id": "brian-rey-development.dbml",
+      "ownerId": 200099600,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/brian-rey-development/orca-dbml.git",
+        "ref": "v1.1.0"
+      },
+      "description": "DBML schemas as live ER diagrams: highlighting, diagnostics and completion, a split code and diagram view, and PNG or SVG export.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "5eacd54a093cd28eb7785786aece8b792eb97d08",
+          "contentHash": "88ca7f95b380f18b0f6e9a8e3eed7ade764f8c6d7a4e97755754c557cd47021b",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.247",
+          "name": "DBML",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "DBML",
+              "detail": ".dbml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Diagram",
+              "detail": ".dbml"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New DBML schema",
+              "detail": ".dbml"
+            }
+          ],
+          "fileTypes": [
+            "dbml"
+          ],
+          "editorFileTypes": [
+            "dbml"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/brian-rey-development.dbml/e8293fffe60c2afe.png",
+              "alt": "An online store schema drawn as an ER diagram: customers, products, orders and order items, with a sales table group and a sticky note",
+              "sha256": "e8293fffe60c2afe514d558faf46e0ec779f46b019c894372ff94524dae1d54d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/brian-rey-development.dbml/f3281d4017e0f15f.png",
+              "alt": "DBML icon",
+              "sha256": "f3281d4017e0f15f74f1e0dac5059a33e5be3fdc8ec5a7d8a221367e3e696067",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/brian-rey-development.dbml/92ddc612fc7b3df9.png",
+                "alt": "DBML code with syntax highlighting beside its live ER diagram",
+                "sha256": "92ddc612fc7b3df92c318ab885f9032fa1fe8f560bc8cdf946dcd4e8254b4e19",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brian-rey-development.dbml/e960c8c5de329856.png",
+                "alt": "The same split view of code and diagram in a dark Orca theme",
+                "sha256": "e960c8c5de3298568dc6746371bf7c38c819c74710aec1a4132988c1d5273333",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/brian-rey-development.dbml/e473a306219bc0d0.png",
+                "alt": "Hovering the price_cents column shows its type, not null constraint and note, while the tables it is not connected to fade",
+                "sha256": "e473a306219bc0d0bca848afd30c53a9d883be1ab62464f01ac12c72919d370d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/brian-rey-development/orca-dbml",
+          "updatedAt": "2026-11-24T15:05:46-03:00"
+        }
+      ]
+    },
+    {
       "id": "brodesigns.session-check",
       "ownerId": 44358188,
       "source": {
@@ -55115,8 +55203,8 @@
       "ownerId": 37236438,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shun-shobon/orca-cloudflare-access.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shun-shobon/orca-cloudflare-access/0.1.2"
       },
       "description": "Relays Orca Remote Server connections through Cloudflare Access, signing in with Managed OAuth.",
       "categories": [
@@ -63019,8 +63107,8 @@
       "ownerId": 82990248,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Vann-Dev/orca-palenight-theme.git",
-        "ref": "0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/vann-dev/orca-palenight-theme/0.1.0"
       },
       "description": "Material Palenight for Orca: Palenight, Palenight Italic, Palenight Operator and Palenight (Mild Contrast) with matching code and terminal colors.",
       "categories": [
