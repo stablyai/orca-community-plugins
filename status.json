@@ -2697,6 +2697,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "mrksoftware/orca-pod": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "mrksoftware.pod"
+      ]
+    },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
       "ref": "refs/tags/mswdev/orca-fleet-monitor/1.4.0",

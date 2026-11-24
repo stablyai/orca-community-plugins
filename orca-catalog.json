@@ -39974,6 +39974,107 @@
       ]
     },
     {
+      "id": "mrksoftware.pod",
+      "ownerId": 7292153,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mrksoftware/orca-pod.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Agent queue: dictate or type a task, Pod hands it to an agent (new worktree, folder or bot) and shows at a glance what is queued, running, waiting for you or done. English, Italian, Spanish.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "9cafa6471277913eee48ecf847be45876a3c1b46",
+          "contentHash": "cf9ded6dec744fb01615fcdb4df45595ac98c6a80468385007fb20c4868266f8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pod",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pod"
+            },
+            {
+              "kind": "commands",
+              "name": "Pod: go to the first agent waiting for you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "pod"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:read",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mrksoftware.pod/e5f5f806327a4aaa.png",
+              "alt": "Pod's board: queued, running, waiting-for-you and done columns with animated agent cards",
+              "sha256": "e5f5f806327a4aaa24182b56d93ebb870d8dc146be42e7df2e9ca23cfa6f5dfd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mrksoftware.pod/3a1384168c59215b.png",
+              "alt": "Pod icon",
+              "sha256": "3a1384168c59215b8fcaff5c94a320ea4e27b80393c0c8c4fcb858c13b994ca4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/mrksoftware.pod/c4caf95891ee8566.png",
+                "alt": "The agent board in the dark theme",
+                "sha256": "c4caf95891ee85668a95969273b5b1dbd77a35568baa2cbb9e6b097767e3e8f3",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/mrksoftware.pod/761c16b2a6d461c0.png",
+                "alt": "The agent board in the light theme",
+                "sha256": "761c16b2a6d461c0d60ab7f593bd2032dd6f243b22d938eb472aaebe827c1dc2",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/mrksoftware.pod/cf35ff25b7769e5a.png",
+                "alt": "A task's detail with the agent's question, timeline and terminal",
+                "sha256": "cf35ff25b7769e5a81b21bbf1ae75307a26e1b7da693b09c55dc99e59d35a09e",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mrksoftware/orca-pod",
+          "updatedAt": "2026-11-24T22:05:54+01:00"
+        }
+      ]
+    },
+    {
       "id": "mswdev.fleet-monitor",
       "ownerId": 11341771,
       "source": {
