@@ -77,7 +77,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.3.26",
+      "ref": "refs/tags/addisflava/orca-llm-router/1.3.26",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -100,19 +100,13 @@
     },
     "ainlee/orca_zh-hant": {
       "state": "listed",
-      "ref": "refs/tags/ainlee/orca_zh-hant/1.4.271",
+      "ref": "v1.4.272",
       "plugins": [
         "ainlee.zh-hant-full-patch"
       ],
-      "update": {
-        "ref": "v1.4.272",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      "notes": [
+        "contributes.languagePacks \"zh-Hant\" (locales/zh-Hant.json): 2181 protected strings are ignored; Orca always shows its own text for security dialogs"
+      ]
     },
     "albuquerquesz/orca-github-dark-theme": {
       "state": "listed",
@@ -647,14 +641,14 @@
     },
     "choihjin/orca-containers": {
       "state": "listed",
-      "ref": "v0.5.2",
+      "ref": "refs/tags/choihjin/orca-containers/0.5.2",
       "plugins": [
         "choihjin.containers"
       ]
     },
     "choihjin/orca-hwp": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/choihjin/orca-hwp/0.1.5",
       "plugins": [
         "choihjin.hwp-viewer"
       ]
@@ -2280,7 +2274,7 @@
     },
     "manish-107/orca-dock-containers": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "licence",
@@ -2641,12 +2635,22 @@
     },
     "net-runners-com/everything-viewer": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.2",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (editor/vendor/pdfjs/cmaps/78-EUC-H.bcmap, editor/vendor/pdfjs/cmaps/78-EUC-V.bcmap, editor/vendor/pdfjs/cmaps/78-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-H.bcmap, editor/vendor/pdfjs/cmaps/78-RKSJ-V.bcmap, …)"
+          "category": "under-review",
+          "detail": "size"
         }
+      ]
+    },
+    "net-runners-com/tube": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "net-runners-com.tube"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "ngoohebi/orca-auto-handoff": {
@@ -3848,7 +3852,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/tornadodai/orca-bot-office/0.6.0",
       "plugins": [
         "tornadodai.bot-office"
       ]
@@ -4152,7 +4156,7 @@
     },
     "vzxxbacq/orca-colab": {
       "state": "listed",
-      "ref": "v0.3.3",
+      "ref": "v0.4.0",
       "plugins": [
         "vzxxbacq.colab"
       ]

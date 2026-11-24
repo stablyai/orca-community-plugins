@@ -1872,8 +1872,8 @@
       "ownerId": 13881665,
       "source": {
         "kind": "git",
-        "url": "https://github.com/addisflava/orca-llm-router.git",
-        "ref": "v1.3.26"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/addisflava/orca-llm-router/1.3.26"
       },
       "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, routing different providers behind a single model name with seamless fallback, and",
       "categories": [
@@ -2321,14 +2321,31 @@
       "ownerId": 18187208,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ainlee/orca_zh-hant/1.4.271"
+        "url": "https://github.com/ainlee/Orca_zh-Hant.git",
+        "ref": "v1.4.272"
       },
       "description": "以完整 zh-Hant catalog 提供 Orca 繁體中文（台灣）介面翻譯，作為 plugin 語系安裝（不修改內建語系檔）。",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.272",
+          "commit": "054ccfb0d554823baaf97d31a1e09486ad4c23fc",
+          "contentHash": "34b8a8b52eabf57e00aa668f43c627ac799fd7304d5a70b511e16e5b86a72d28",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "繁體中文（台灣）完整修補",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "zh-Hant"
+            }
+          ],
+          "updatedAt": "2026-11-24T12:51:40+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/ainlee/Orca_zh-Hant"
+        },
         {
           "version": "1.4.271",
           "commit": "f12dcc4bf01e7e2b0095cc3f594a2f9d5778115a",
@@ -9834,8 +9851,8 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/choihjin/orca-containers.git",
-        "ref": "v0.5.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/choihjin/orca-containers/0.5.2"
       },
       "description": "Lists and manages containers, images, volumes and networks on this computer (macOS or Linux) and on Linux or macOS SSH hosts from a sidebar panel: logs in the panel, a shell and image pulls in an Orca terminal.",
       "categories": [
@@ -10181,8 +10198,8 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/choihjin/orca-hwp.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/choihjin/orca-hwp/0.1.5"
       },
       "description": "Read-only viewer for Hangul word processor documents (.hwp and .hwpx) inside Orca, drawn page by page with the rhwp engine. An independent project, not affiliated with Hancom.",
       "categories": [],
@@ -39256,6 +39273,94 @@
       ]
     },
     {
+      "id": "net-runners-com.tube",
+      "ownerId": 240148764,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/net-runners-com/tube.git",
+        "ref": "v1.0.0"
+      },
+      "description": "YouTube in Orca's sidebar: browse, search and watch videos, Shorts and live streams, with a Lofi music-player mode, captions, playlists and your account. Needs yt-dlp.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "6a1fec4fa783c23a6677fc5237dc3e7afbcb507d",
+          "contentHash": "33e4d53fd47238861b0a1ddec1e31fc2780e9648e4dbda71f788e7286f369964",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Tube",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Tube"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/net-runners-com.tube/d88dbda9e02e0afc.jpg",
+              "alt": "Tube panels in Orca: Home, a lofi live stream in Lofi mode with its visualizer, and Shorts",
+              "sha256": "d88dbda9e02e0afcfb5e1ff529171663f26ed6ee675080381a2c50d5005b7179",
+              "width": 2560,
+              "height": 1600
+            },
+            "icon": {
+              "path": "assets/net-runners-com.tube/b362f2f60d62df49.png",
+              "alt": "Tube icon",
+              "sha256": "b362f2f60d62df4914b61651d1fbd24e7546e718d843b20007343d4e790b9775",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/net-runners-com.tube/318726602f948b8b.jpg",
+                "alt": "Tube Home with subscriptions and recommendations, next to the watch page",
+                "sha256": "318726602f948b8b70901d4c10791a97e94c4ea0b6555167fcd6336f9b35eece",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/net-runners-com.tube/d9c1351c59541660.jpg",
+                "alt": "Lofi mode: the video in a floating card, a colour visualizer and an Up Next list",
+                "sha256": "d9c1351c59541660b5dbc8243626fe43099dc611c461023060ba902084ad6e7c",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/net-runners-com.tube/2535c92055f5aff1.jpg",
+                "alt": "Explore searching Shorts with Videos, Channels and Shorts tabs",
+                "sha256": "2535c92055f5aff1b880eeec6f798433dae96554289eed7e6b452d65da8d92ff",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/net-runners-com.tube/6612b16a96ff1ff3.jpg",
+                "alt": "The watch page with actions, comments and more videos",
+                "sha256": "6612b16a96ff1ff3518959611a2eff0871c96dc6ab7c495dad1fa3cfd98507d8",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/net-runners-com.tube/5eb70c05c88a7985.jpg",
+                "alt": "Theme settings with styles, accent colours and layout",
+                "sha256": "5eb70c05c88a7985e3bc4e299f8303adb5719d7d51488306b77365e8df12a3e9",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/net-runners-com/tube",
+          "updatedAt": "2026-11-24T14:32:37+09:00"
+        }
+      ]
+    },
+    {
       "id": "nhangen.git-issues",
       "ownerId": 451202,
       "source": {
@@ -58347,8 +58452,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tornadodai/orca-bot-office/0.6.0"
       },
       "description": "Ultra-lightweight illustrated 2.5D modern office tower & Decision Report Queue in Orca: queueing Bots, human-styled teammates, engine badges & low CPU.",
       "categories": [
@@ -62079,7 +62184,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/vzxxbacq/orca-colab.git",
-        "ref": "v0.3.3"
+        "ref": "v0.4.0"
       },
       "description": "Give Claude Code, Codex and your other Orca agents a Google Colab GPU: launch T4, L4 or A100 runtimes, sync code, run training jobs and pull results back.",
       "categories": [
@@ -62087,6 +62192,60 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "4cbc8993f6572a8ab6479fe10a4c992e798d0680",
+          "contentHash": "c3319e2356c5ea5912f88035f1bc166e2883d01b292caea791b70bb69de2ba9e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Colab GPU (Community) for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Colab GPU"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Start GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Stop GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Show sessions"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Colab"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vzxxbacq.colab/cfb5cd966b39428e.png",
+              "alt": "The Colab GPU panel in Orca: agent runs, guardrails and live output of a job on a Tesla T4",
+              "sha256": "cfb5cd966b39428e9ba910bc4d71dc1c69e3c53e2f99eb7760fc2857d5cac448",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vzxxbacq.colab/e942b52743daff60.png",
+              "alt": "Colab GPU (Community) for Orca icon",
+              "sha256": "e942b52743daff6019983b07c9d0485bd72f245ad866b07b5ae2bcd3ece3b233",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vzxxbacq/orca-colab",
+          "updatedAt": "2026-11-24T05:20:09Z"
+        },
         {
           "version": "0.3.3",
           "commit": "ce26dc88769f97895ed2eb13e9714a041bfe4c2e",
