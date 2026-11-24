@@ -658,7 +658,7 @@
     },
     "choihjin/orca-hwp": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/choihjin/orca-hwp/0.2.0",
       "plugins": [
         "choihjin.hwp-viewer"
       ]
@@ -758,7 +758,7 @@
     },
     "cplog/trending-for-orca": {
       "state": "listed",
-      "ref": "v1.4.1",
+      "ref": "refs/tags/cplog/trending-for-orca/1.4.1",
       "plugins": [
         "cplog.github-trending"
       ]
@@ -1329,6 +1329,13 @@
           }
         ]
       }
+    },
+    "feifeifeimoon/orca-neo-brutalism": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "feifeifeimoon.neo-brutalism"
+      ]
     },
     "felipemayerdev/omarchy-theme-sync": {
       "state": "listed",
@@ -2346,7 +2353,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.272",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.272",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -2391,7 +2398,7 @@
     },
     "mcxinyu/adb-helper-orca-plugin": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.2.0",
       "plugins": [
         "mcxinyu.adb-helper"
       ]
@@ -2685,7 +2692,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "v0.3.2",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
@@ -3886,7 +3893,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "refs/tags/tornadodai/orca-bot-office/0.8.0",
+      "ref": "v0.10.1",
       "plugins": [
         "tornadodai.bot-office"
       ]
@@ -4190,7 +4197,7 @@
     },
     "vzxxbacq/orca-colab": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "v0.4.1",
       "plugins": [
         "vzxxbacq.colab"
       ]
@@ -4261,7 +4268,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

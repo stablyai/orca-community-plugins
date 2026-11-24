@@ -10198,8 +10198,8 @@
       "ownerId": 103234587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/choihjin/orca-hwp.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/choihjin/orca-hwp/0.2.0"
       },
       "description": "Read-only viewer for Hangul word processor documents (.hwp and .hwpx) inside Orca, drawn page by page with the rhwp engine. An independent project, not affiliated with Hancom.",
       "categories": [],
@@ -11792,8 +11792,8 @@
       "ownerId": 38715806,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cplog/trending-for-orca.git",
-        "ref": "v1.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cplog/trending-for-orca/1.4.1"
       },
       "description": "Discover trending GitHub repositories without leaving Orca. Filter by language and time, save projects, or try one in a new workspace with an agent.",
       "categories": [
@@ -21544,6 +21544,119 @@
           "license": "MIT",
           "repository": "https://github.com/fang2hou/orca-gruvbox-material-mix-theme",
           "updatedAt": "2026-11-20T13:53:13+09:00"
+        }
+      ]
+    },
+    {
+      "id": "feifeifeimoon.neo-brutalism",
+      "ownerId": 26476500,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/feifeifeimoon/orca-neo-brutalism.git",
+        "ref": "v1.0.0"
+      },
+      "description": "High-contrast Neo Brutalism and pop-art color themes for Orca: crisp ink borders, warm paper and dark ink canvases, a signal-yellow frame variant, and five vibrant signal accents (Yellow, Mint, Sky, Coral, Lavender) with matching syntax and terminal palettes.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "c504db1878ac0b35921b4283793ccd34cb01a44c",
+          "contentHash": "8339cd797912cbb0cb55688e58354a2f756d23161caf1dce7e0d20b9b5e1f661",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Neo Brutalism",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Brutal Yellow"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Yellow Frame"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Dark Yellow"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Mint"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Dark Mint"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Sky"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Dark Sky"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Coral"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Dark Coral"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Lavender"
+            },
+            {
+              "kind": "themes",
+              "name": "Brutal Dark Lavender"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Brutal Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Brutal Dark Yellow"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Brutal Dark Mint"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Brutal Dark Sky"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Brutal Dark Coral"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Brutal Dark Lavender"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/feifeifeimoon.neo-brutalism/39fa9904345c7683.png",
+              "alt": "Neo Brutalism theme showcase featuring Paper, Signal Frame, and Dark variants with Yellow, Mint, Sky, Coral, and Lavender signal colors",
+              "sha256": "39fa9904345c768370cc04668e8fa302748e63d7f6d868e29101eba8cbbc2f09",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/feifeifeimoon.neo-brutalism/4703571350525633.png",
+              "alt": "Neo Brutalism icon",
+              "sha256": "470357135052563373cde4a6dd9d6417a96dcf2b229476a0b1b623d030d09383",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/feifeifeimoon/orca-neo-brutalism",
+          "updatedAt": "2026-11-24T15:58:58+08:00"
         }
       ]
     },
@@ -34859,8 +34972,8 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/matteoeusebi/orca-italiano.git",
-        "ref": "v1.4.272"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.272"
       },
       "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.272. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -35734,8 +35847,8 @@
       "ownerId": 9566116,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.2.0"
       },
       "description": "Android ADB device management and live logcat inside Orca.",
       "categories": [
@@ -39931,13 +40044,38 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ngxuancam/orca-backlog.git",
-        "ref": "v0.3.0"
+        "ref": "v0.3.2"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "e3fe6e7c96f1fbcac84061c8b1b131ab3e33ce02",
+          "contentHash": "b274a4114bd65389a84cfe3244afe031680879a7b4185467d5b7feab9f58b235",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-24T15:06:36+07:00"
+        },
         {
           "version": "0.3.0",
           "commit": "67ebb089be6dbff6632e9b5a27989ec3140a9ab7",
@@ -59227,8 +59365,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tornadodai/orca-bot-office/0.8.0"
+        "url": "https://github.com/TornadoDai/orca-bot-office.git",
+        "ref": "v0.10.1"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -59237,6 +59375,76 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.10.1",
+          "commit": "e7efbcf06d537733002ef57d5ed00b0d06eb2642",
+          "contentHash": "5af0fc338e528bb61384778d5de4d6b087b19d549566dc930e2bbd08d3a5a874",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/5307984f5358819e.png",
+                "alt": "Bot Office illustrated 2.5D modern office floors alongside a team workload analytics dashboard with stacked bars, 7-day trend, engine donut and token usage",
+                "sha256": "5307984f5358819e213be57ce430165c6747df84172058a25e7a02569b4ebb31",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-24T16:15:55+08:00"
+        },
         {
           "version": "0.8.0",
           "commit": "4f6e00ea14d75298d7651b08b74c891d15d2233c",
@@ -59514,75 +59722,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T12:32:33+08:00"
-        },
-        {
-          "version": "0.4.0",
-          "commit": "7c1e15eb7d8f5f00294bd2bf9ae44ca4d1dce3e3",
-          "contentHash": "65e84362ad942af60ad1cd2f6f77db5d24a786a78f2b7fce44658b001feb581e",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/32b642a4c6908c05.png",
-                "alt": "Bot Office 2.5D stacked headquarters with top Boss Office report queue, team floors, agent engine badges, message trails, and decision preview card",
-                "sha256": "32b642a4c6908c0527a75b29218ecbc3a3e41443d32b8a693d1f56c58622b060",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T11:56:44+08:00"
         }
       ]
     },
@@ -62961,7 +63100,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/vzxxbacq/orca-colab.git",
-        "ref": "v0.4.0"
+        "ref": "v0.4.1"
       },
       "description": "Give Claude Code, Codex and your other Orca agents a Google Colab GPU: launch T4, L4 or A100 runtimes, sync code, run training jobs and pull results back.",
       "categories": [
@@ -62969,6 +63108,60 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "0d9319256562dfe3777d7b4e866d55b8309ea134",
+          "contentHash": "c93ec9ddb217f3806878d13c6db87d0e19d913d434198ef4360344d7c4aeb3d3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Colab GPU (Community) for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Colab GPU"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Start GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Stop GPU session"
+            },
+            {
+              "kind": "commands",
+              "name": "Colab: Show sessions"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Colab"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vzxxbacq.colab/cfb5cd966b39428e.png",
+              "alt": "The Colab GPU panel in Orca: agent runs, guardrails and live output of a job on a Tesla T4",
+              "sha256": "cfb5cd966b39428e9ba910bc4d71dc1c69e3c53e2f99eb7760fc2857d5cac448",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vzxxbacq.colab/e942b52743daff60.png",
+              "alt": "Colab GPU (Community) for Orca icon",
+              "sha256": "e942b52743daff6019983b07c9d0485bd72f245ad866b07b5ae2bcd3ece3b233",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vzxxbacq/orca-colab",
+          "updatedAt": "2026-11-24T07:54:21Z"
+        },
         {
           "version": "0.4.0",
           "commit": "4cbc8993f6572a8ab6479fe10a4c992e798d0680",
@@ -63903,8 +64096,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.2"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.2.3"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -63913,6 +64106,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "e8665ec52c4d406e717461919d76d7a74c081458",
+          "contentHash": "7e3d8a30c18fc6b9bc41e7182c28a6eb1fabe6333a1517f52984ed3cdf9e013d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-24T15:50:15+08:00"
+        },
         {
           "version": "0.2.2",
           "commit": "824baad15a9d8bbce94c0feef19aff83c50d8028",
@@ -64236,87 +64510,6 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-23T11:08:06+08:00"
-        },
-        {
-          "version": "0.1.8",
-          "commit": "0163d0f38db4c0853c5cdf92ed06b7158d9d3a26",
-          "contentHash": "91592e3a03301712a48d2421ac7770cfdcdfcbe3f075a54efe843989486acefe",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-21T07:28:17+08:00"
         }
       ]
     },
