@@ -22951,8 +22951,8 @@
       "ownerId": 65250731,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.2"
+        "url": "https://github.com/FelipeMayerDev/orca-walkthrough.git",
+        "ref": "v0.1.3"
       },
       "description": "Read a change in the order it makes sense: steps grouped and ordered by purpose, each explained beside its code, with what no step covers.",
       "categories": [
@@ -22960,6 +22960,45 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "ae5d2c07259dae4d4aa0e7c8787cff3166411db3",
+          "contentHash": "578f318cf37c81ba52a8fc74ad6b2eb94fe96a34cc2eb3c6b1f06690f7a1cde8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Walkthrough",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Walkthrough"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "turn"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/felipemayerdev.walkthrough/8f9bd8c1a35dfc6c.webp",
+              "alt": "Walkthrough wordmark beside the plugin's panel: a diff explained step by step, with each step's files and code.",
+              "sha256": "8f9bd8c1a35dfc6c0dc61568e78f3f0eaef498ea363548287a33c5952bfd2f3e",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/FelipeMayerDev/orca-walkthrough",
+          "updatedAt": "2026-11-24T16:47:33-03:00"
+        },
         {
           "version": "0.1.2",
           "commit": "dbf79fc7aacec365912ed85d9143be992a3f3852",

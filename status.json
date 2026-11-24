@@ -1428,7 +1428,7 @@
     },
     "felipemayerdev/orca-walkthrough": {
       "state": "listed",
-      "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "felipemayerdev.walkthrough"
       ]
@@ -3932,7 +3932,16 @@
       "ref": "refs/tags/thanhh2615/datanoa/1.1.2",
       "plugins": [
         "thanhh2615.datanoa"
-      ]
+      ],
+      "update": {
+        "ref": "v1.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, size, update"
+          }
+        ]
+      }
     },
     "thanhtrung5763/orca-git-graph": {
       "state": "listed",
