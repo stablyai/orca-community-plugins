@@ -22281,8 +22281,8 @@
       "ownerId": 906119,
       "source": {
         "kind": "git",
-        "url": "https://github.com/FrancisVega/claude-cache-panel.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/francisvega/claude-cache-panel/0.3.0"
       },
       "description": "Live Claude Code sessions and how long each one's prompt cache has left, in a panel and in the status bar. Needs the cache-countdown mod for Claude Code, from the same repository.",
       "categories": [
@@ -39044,8 +39044,8 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mz-jy/orca-dbt.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mz-jy/orca-dbt/0.3.2"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, and preview data through the project's own dbt (v1 dbt-core or v2 Fusion; Snowflake, ClickHouse, Postgres and any o",
       "categories": [
@@ -47463,6 +47463,58 @@
           "license": "Apache-2.0",
           "repository": "https://github.com/said-zenhr/orca-material-ocean-theme",
           "updatedAt": "2026-11-08T22:12:20+03:00"
+        }
+      ]
+    },
+    {
+      "id": "samfaina.kickoff",
+      "ownerId": 13818206,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/samfaina/orca-kickoff.git",
+        "ref": "v0.6.0"
+      },
+      "description": "Lists open tasks from Jira or GitHub and starts each one in its own linked worktree, with an agent and per-project prompt templates.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "f88f2bd50b4d1262cd1c3f5a9887774ac129ea0f",
+          "contentHash": "cabb4c66a62e1c8435d46997d8d195100d91cf1be46436c8080c73d184db5f80",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.271",
+          "name": "Kickoff",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kickoff"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/samfaina.kickoff/10bdee90c2400abd.png",
+              "alt": "Kickoff with the line \"Your prompt templates, one click from any GitHub or Jira task.\" and an arrow to the open template menu in its panel.",
+              "sha256": "10bdee90c2400abd71f2b474d561d31c2fa9025b5bc0f151cf57b3bd2c58f5a1",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/samfaina.kickoff/1defb25049a8ff6d.png",
+              "alt": "Kickoff icon",
+              "sha256": "1defb25049a8ff6d60e44b39f4de317ab6a557b0d4ce487121fc2c7504cb0fc0",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/samfaina/orca-kickoff",
+          "updatedAt": "2026-11-24T11:33:05+01:00"
         }
       ]
     },
