@@ -2321,8 +2321,8 @@
       "ownerId": 18187208,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ainlee/Orca_zh-Hant.git",
-        "ref": "v1.4.272"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ainlee/orca_zh-hant/1.4.272"
       },
       "description": "以完整 zh-Hant catalog 提供 Orca 繁體中文（台灣）介面翻譯，作為 plugin 語系安裝（不修改內建語系檔）。",
       "categories": [
@@ -39273,12 +39273,207 @@
       ]
     },
     {
+      "id": "net-runners-com.everything-viewer",
+      "ownerId": 240148764,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/net-runners-com/everything-viewer.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Opens files nothing else in Orca shows: legacy Office, OpenDocument, Pages/Numbers and PowerPoint as pages (LibreOffice), Blender scenes in 3D, JPEG 2000, older video/audio (ffmpeg), and JSON/YAML/TOML/XML as a tree. Extensions are configured in formats.json.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "f6755861738d88f6c26fc03229506cc635e4a3b2",
+          "contentHash": "2f1cd7b78f22c87d4ff5bbfd720582b7ba5f690856c250fa76bbc2e11dfdca41",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Everything Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".json, .jsonc, .geojson"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".yaml, .yml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".toml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Tree",
+              "detail": ".xml, .plist"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Viewer",
+              "detail": ".doc, .dot, .ppt, .pps, .pot, .odt, .ott, .odp, .otp, .odg, .otg, .vsd, .vsdx, .pub, .wpd, .wps, .pages, .numbers, .pptx, .pptm, .ppsx, .ppsm, .potx, .potm"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Viewer",
+              "detail": ".blend, .abc, .jp2, .wmv, .flv, .mpg, .mpeg, .3gp, .mts, .m2ts, .vob, .aiff, .aif, .caf, .wma, .amr"
+            }
+          ],
+          "fileTypes": [
+            "json",
+            "jsonc",
+            "geojson",
+            "yaml",
+            "yml",
+            "toml",
+            "xml",
+            "plist",
+            "doc",
+            "dot",
+            "ppt",
+            "pps",
+            "pot",
+            "odt",
+            "ott",
+            "odp",
+            "otp",
+            "odg",
+            "otg",
+            "vsd",
+            "vsdx",
+            "pub",
+            "wpd",
+            "wps",
+            "pages",
+            "numbers",
+            "pptx",
+            "pptm",
+            "ppsx",
+            "ppsm",
+            "potx",
+            "potm",
+            "blend",
+            "abc",
+            "jp2",
+            "wmv",
+            "flv",
+            "mpg",
+            "mpeg",
+            "3gp",
+            "mts",
+            "m2ts",
+            "vob",
+            "aiff",
+            "aif",
+            "caf",
+            "wma",
+            "amr"
+          ],
+          "editorFileTypes": [
+            "json",
+            "jsonc",
+            "geojson",
+            "yaml",
+            "yml",
+            "toml",
+            "xml",
+            "plist",
+            "doc",
+            "dot",
+            "ppt",
+            "pps",
+            "pot",
+            "odt",
+            "ott",
+            "odp",
+            "otp",
+            "odg",
+            "otg",
+            "vsd",
+            "vsdx",
+            "pub",
+            "wpd",
+            "wps",
+            "pages",
+            "numbers",
+            "pptx",
+            "pptm",
+            "ppsx",
+            "ppsm",
+            "potx",
+            "potm",
+            "blend",
+            "abc",
+            "jp2",
+            "wmv",
+            "flv",
+            "mpg",
+            "mpeg",
+            "3gp",
+            "mts",
+            "m2ts",
+            "vob",
+            "aiff",
+            "aif",
+            "caf",
+            "wma",
+            "amr"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/net-runners-com.everything-viewer/feae2042eeca783e.png",
+              "alt": "A PowerPoint deck shown as pages in Everything Viewer, with the current page and zoom in the toolbar",
+              "sha256": "feae2042eeca783e1074a968c47741004fd24b4071702e484a6d598f6ded2d46",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/net-runners-com.everything-viewer/feae2042eeca783e.png",
+                "alt": "A .pptx deck converted by LibreOffice and shown page by page",
+                "sha256": "feae2042eeca783e1074a968c47741004fd24b4071702e484a6d598f6ded2d46",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/net-runners-com.everything-viewer/a15c0edb6d82b2eb.png",
+                "alt": "A legacy Word .doc report with a table, shown as a page",
+                "sha256": "a15c0edb6d82b2eb9f9510b26ec6d454d7839ffe2b9f09cb2e945e66e29cb4a0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/net-runners-com.everything-viewer/fe49a2f95562a8cf.png",
+                "alt": "A Blender .blend scene with a monkey head, sphere, cube and torus on a floor grid",
+                "sha256": "fe49a2f95562a8cf2deedb0c3085e9632ffc27b01cdfb994307866214e49b988",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/net-runners-com.everything-viewer/41a4b19e6325d19e.png",
+                "alt": "A docker compose YAML file as an expanded, filterable tree",
+                "sha256": "41a4b19e6325d19ebed7c2e7319eeab038e6fa18ec320a30a81184f302a50013",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/net-runners-com/everything-viewer",
+          "updatedAt": "2026-11-24T14:39:32+09:00"
+        }
+      ]
+    },
+    {
       "id": "net-runners-com.tube",
       "ownerId": 240148764,
       "source": {
         "kind": "git",
-        "url": "https://github.com/net-runners-com/tube.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/net-runners-com/tube/1.0.0"
       },
       "description": "YouTube in Orca's sidebar: browse, search and watch videos, Shorts and live streams, with a Lofi music-player mode, captions, playlists and your account. Needs yt-dlp.",
       "categories": [

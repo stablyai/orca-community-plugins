@@ -100,7 +100,7 @@
     },
     "ainlee/orca_zh-hant": {
       "state": "listed",
-      "ref": "v1.4.272",
+      "ref": "refs/tags/ainlee/orca_zh-hant/1.4.272",
       "plugins": [
         "ainlee.zh-hant-full-patch"
       ],
@@ -2634,18 +2634,18 @@
       ]
     },
     "net-runners-com/everything-viewer": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "net-runners-com.everything-viewer"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "net-runners-com/tube": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/net-runners-com/tube/1.0.0",
       "plugins": [
         "net-runners-com.tube"
       ],
@@ -2843,7 +2843,16 @@
       "ref": "refs/tags/penguinwokrs/orca-items-board/0.1.0",
       "plugins": [
         "penguinwokrs.items-board"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "pereiraemerson-afk/orca-aws-explorer": {
       "state": "listed",
@@ -3855,7 +3864,16 @@
       "ref": "refs/tags/tornadodai/orca-bot-office/0.6.0",
       "plugins": [
         "tornadodai.bot-office"
-      ]
+      ],
+      "update": {
+        "ref": "v0.7.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "tourbut/claude-pin": {
       "state": "listed",
