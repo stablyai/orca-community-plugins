@@ -76,20 +76,14 @@
       ]
     },
     "addisflava/orca-llm-router": {
-      "state": "listed",
-      "ref": "v1.3.4",
-      "plugins": [
-        "addisflava.llm-router"
-      ],
-      "update": {
-        "ref": "v1.3.12",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      "state": "rejected",
+      "ref": "v1.3.13",
+      "reasons": [
+        {
+          "category": "validation",
+          "detail": "version: must be semver"
+        }
+      ]
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
@@ -657,11 +651,11 @@
     },
     "choihjin/orca-hwp": {
       "state": "rejected",
-      "ref": "v0.1.2",
+      "ref": "v0.1.3",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "content, size"
         }
       ]
     },
@@ -3812,7 +3806,7 @@
     },
     "tksuns12/account-token-tracker": {
       "state": "listed",
-      "ref": "refs/tags/tksuns12/account-token-tracker/0.4.0",
+      "ref": "v0.4.1",
       "plugins": [
         "tksuns12.account-token-tracker"
       ]
