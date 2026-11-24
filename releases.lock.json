@@ -215,6 +215,12 @@
     "repoId": 1455936895,
     "firstSeen": "2026-11-20T08:30:48.708Z"
   },
+  "aiawake.vietnamese@1.0.0": {
+    "commit": "eb6acceaf35a1b6f0d2d8d4eac1360c25b54d3e3",
+    "contentHash": "fcb22cea3b89d4bca5b60ea857acb34c67eed48ce9125c9aa531c0a53783649a",
+    "repoId": 1469923966,
+    "firstSeen": "2026-11-24T09:43:30.392Z"
+  },
   "ainlee.zh-hant-full-patch@1.4.271": {
     "commit": "f12dcc4bf01e7e2b0095cc3f594a2f9d5778115a",
     "contentHash": "6c2736c7a8ba0e9b79c8b1093808c29ab2f352c823c4ee887f552c494119a876",
@@ -1396,6 +1402,12 @@
     "contentHash": "36219eade7cc445b9506920d75f2480d1c46ce1523f2b25108953ae64e83021b",
     "repoId": 1459981524,
     "firstSeen": "2026-11-20T09:18:00.306Z"
+  },
+  "crsthn-slv.spaces@0.1.0": {
+    "commit": "67767463ee1c8c3bc4b53bac80961edfc5178860",
+    "contentHash": "0390ad51d9aa37b2e23a9ea70c63bb7a041e0ff0714990dbc5e723ff4a5ac5d3",
+    "repoId": 1469924567,
+    "firstSeen": "2026-11-24T09:43:30.392Z"
   },
   "cryptosecco.regia@0.8.0": {
     "commit": "85f53754ef64fc9c11611f07dd4f14cc1068f5fa",
@@ -6286,6 +6298,12 @@
     "contentHash": "5816133e76afaffa619e5866216491bc55188280d4f71e04ee373933a947b19c",
     "repoId": 1469049764,
     "firstSeen": "2026-11-24T09:19:07.937Z"
+  },
+  "tornadodai.bot-office@0.14.0": {
+    "commit": "279f9af7ccad38ecc802b761582d1448f585c4e9",
+    "contentHash": "68475006d5ed55c411623dcfa5568f04643a753a99b6a6a40e43f98bbe97b173",
+    "repoId": 1469049764,
+    "firstSeen": "2026-11-24T09:43:30.392Z"
   },
   "tornadodai.bot-office@0.2.0": {
     "commit": "59c1f33b8c6a1c4689ab4c966caed1d673fea4fb",
