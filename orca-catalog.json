@@ -11284,6 +11284,54 @@
       ]
     },
     {
+      "id": "cplog.github-trending",
+      "ownerId": 38715806,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cplog/trending-for-orca.git",
+        "ref": "v1.2.0"
+      },
+      "description": "Discover trending GitHub repositories without leaving Orca. Filter by language and time, match your workspace, and save projects for later.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "acb413ab058adfe3de20128e13abb21914e4f538",
+          "contentHash": "54eedeb580b3845a6cd59f91edafba39e5c8eea52b3275f439f4ad8d2a1c436c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "GitHub Trending",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Trending"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Show or hide side panel"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Trending: Refresh"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Trending"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cplog/trending-for-orca",
+          "updatedAt": "2026-11-24T11:09:52+08:00"
+        }
+      ]
+    },
+    {
       "id": "crilofer.streamdeck-bridge",
       "ownerId": 6973711,
       "source": {
@@ -31215,8 +31263,8 @@
       "ownerId": 63436915,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Kyino-Pan/agents-director.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kyino-pan/agents-director/0.2.2"
       },
       "description": "A rolling seven-day timeline of publicly observed Orca agent states and session summaries.",
       "categories": [
