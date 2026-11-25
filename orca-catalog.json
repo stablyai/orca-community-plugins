@@ -25268,8 +25268,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gongxliang/claude-paper/0.6.4"
+        "url": "https://github.com/GongXLiang/Claude-paper.git",
+        "ref": "v0.6.5"
       },
       "description": "Claude-inspired light and dark colors for Orca Chat and agent terminals, with 455 distinct file icons, calm honey-kraft folders and optional IBM Plex Mono.",
       "categories": [
@@ -25278,6 +25278,103 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "0.6.5",
+          "commit": "560311f3d3eac6c6b86fa948b6a8a9ee8bfc6b92",
+          "contentHash": "dbaef9a4d8f7a642ea67f719d2149d1a96af04f5d4ef670273ebe552a37c1b2a",
+          "execution": "data",
+          "minimumOrca": "1.4.255",
+          "name": "Claude Paper theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "themes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖纸"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Claude Paper · 暖夜"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Claude Paper · 纸折图标"
+            },
+            {
+              "kind": "fonts",
+              "name": "IBM Plex Mono"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gongxliang.claude-paper/d620bb9298e8178e.png",
+              "alt": "Claude Paper: a complete Orca workspace with Claude Code and Codex side by side, original file icons and warm charcoal colors.",
+              "sha256": "d620bb9298e8178e27df75c5abb8c60ba101ab4b79ed539e0b1702ca9fe8239c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
+              "alt": "Claude Paper theme icon",
+              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gongxliang.claude-paper/d27919ab4dda21fa.png",
+                "alt": "Complete native Orca: public Chat response, composer, code and file tree in Warm Paper.",
+                "sha256": "d27919ab4dda21fa7e3c5a8f39a1541d2822300d758a7e3151d4514c8081c8a2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/4ae2b4640b799a2c.png",
+                "alt": "Complete native Orca: real Claude Code and Codex sessions reviewing the same public task side by side.",
+                "sha256": "4ae2b4640b799a2c1f0ff8bafa631f67b2ca84b5b6c4d2a071ccf5d4d0157649",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/a4db88f72b0cf7d6.png",
+                "alt": "Light/dark Paper Fold comparison: 36 file types and honey-kraft folders, closed and open. Rendered SVG specimens, not an Orca screenshot.",
+                "sha256": "a4db88f72b0cf7d66689127833a75b26a42016077c0b283d6edfa8a01d4c2b8f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/ec18b33d30548b75.png",
+                "alt": "Complete native Orca: a public input-validation change and its tests in the native diff view.",
+                "sha256": "ec18b33d30548b75b98f611e0518d9dcbf7d7549634988184cd15d84a8fc9fc3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/e7cc19b13df715da.png",
+                "alt": "Complete native Orca: JavaScript tests in the editor and current file icons.",
+                "sha256": "e7cc19b13df715da296cfb746c031d7f8bb48b2dd70c823cb965c16536efa5ef",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/gongxliang.claude-paper/6eb364a1cc4c6812.png",
+                "alt": "Warm Night in Orca: a Markdown preview beside the file tree, with honey-kraft folders shown open and closed.",
+                "sha256": "6eb364a1cc4c6812e559cfc62358993692920df9b87d40c80e24a2f4b19c1df3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/GongXLiang/Claude-paper",
+          "updatedAt": "2026-11-26T03:26:36+09:00"
+        },
         {
           "version": "0.6.4",
           "commit": "3631734474a48f46f3c7e284988ce7deaed37765",
@@ -25665,103 +25762,6 @@
           "license": "MIT",
           "repository": "https://github.com/GongXLiang/Claude-paper",
           "updatedAt": "2026-11-11T19:21:21+09:00"
-        },
-        {
-          "version": "0.6.0",
-          "commit": "c0d47195fc69fd7f173b1980f94c29059b1ae03a",
-          "contentHash": "2014a17198aefeb72e57d132fd5392b4ad07cc7217fa6a14764561fdbf7961a8",
-          "execution": "data",
-          "minimumOrca": "1.4.255",
-          "name": "Claude Paper",
-          "contributes": [
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "themes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖纸"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Claude Paper · 暖夜"
-            },
-            {
-              "kind": "iconThemes",
-              "name": "Claude Paper · 纸折图标"
-            },
-            {
-              "kind": "fonts",
-              "name": "IBM Plex Mono"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gongxliang.claude-paper/869e0fa9730a6b6d.png",
-              "alt": "Claude Paper: a complete Orca workspace with Claude Code and Codex side by side, original file icons and warm charcoal colors.",
-              "sha256": "869e0fa9730a6b6d670883d8c92c3f09a9698e3c6a9751563571a6eecf4093e5",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/gongxliang.claude-paper/a98b1b58c20a3c32.png",
-              "alt": "Claude Paper icon",
-              "sha256": "a98b1b58c20a3c3233cd577b513d50384f718bf9160f8c306629a773bf11bb8c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/gongxliang.claude-paper/ca4643b48de15eea.png",
-                "alt": "Complete native Orca: public Chat response, composer, code and file tree in Warm Paper.",
-                "sha256": "ca4643b48de15eea34be75bc3b112515bcfe61e6d0470e4e9eb4e8abc16399ea",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/1a9bc2af7eabaf1e.png",
-                "alt": "Complete native Orca: real Claude Code and Codex sessions reviewing the same public task side by side.",
-                "sha256": "1a9bc2af7eabaf1e5d515ac942bc4e192db617cffe7176f415a1ee3dcdea41b2",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/207b704e1442cd68.png",
-                "alt": "The same complete Orca workspace and two genuine CLI panes in Warm Paper.",
-                "sha256": "207b704e1442cd68163ae07a8a68307ef27c0fc01f2c4a24e5b4a0f814699f82",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/ec18b33d30548b75.png",
-                "alt": "Complete native Orca: a public input-validation change and its tests in the native diff view.",
-                "sha256": "ec18b33d30548b75b98f611e0518d9dcbf7d7549634988184cd15d84a8fc9fc3",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/686679ab7622756d.png",
-                "alt": "Complete native Orca: JavaScript tests in the editor and current file icons.",
-                "sha256": "686679ab7622756daad311d9934fd6c04e22196073750a04f383ec1befacecf6",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/gongxliang.claude-paper/cc1e616a15ef5f2a.png",
-                "alt": "Complete native Orca: Markdown preview and a file tree with uniform slate folders and distinct file types.",
-                "sha256": "cc1e616a15ef5f2abfe410b70b4506b4dabd85e36eb9f7006d2b652df84d529a",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/GongXLiang/Claude-paper",
-          "updatedAt": "2026-11-10T18:39:44+09:00"
         }
       ]
     },
@@ -43541,6 +43541,68 @@
           "license": "BSD-3-Clause",
           "repository": "https://github.com/nknwns/orca-wakatime",
           "updatedAt": "2026-11-02T16:20:26+07:00"
+        }
+      ]
+    },
+    {
+      "id": "nodesource.nodesource-theme",
+      "ownerId": 6759417,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/nodesource/nodesource-orca-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "NodeSource brand themes for Orca: dark and light app themes with matching terminal palettes, plus Source Sans 3 and SauceCodePro Nerd Font Mono.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "c5b179563777ddd2085dcd7065f80cbd80e99fdf",
+          "contentHash": "c1c444acbf661333e8049985c1accae587f879354834398f168f2533228ead51",
+          "execution": "data",
+          "minimumOrca": "1.4.253",
+          "name": "NodeSource theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "NodeSource Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "NodeSource Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "NodeSource Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "NodeSource Light"
+            },
+            {
+              "kind": "fonts",
+              "name": "Source Sans 3"
+            },
+            {
+              "kind": "fonts",
+              "name": "SauceCodePro Nerd Font Mono"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/nodesource.nodesource-theme/115561565887d312.png",
+              "alt": "NodeSource theme icon",
+              "sha256": "115561565887d312ce5bfc1dffab669a7c07eaebe7e7a7c890eb5c0b81a694b8",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/nodesource/nodesource-orca-theme",
+          "updatedAt": "2026-11-25T13:17:49-05:00"
         }
       ]
     },

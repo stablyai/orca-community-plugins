@@ -2735,6 +2735,12 @@
     "repoId": 1450372557,
     "firstSeen": "2026-11-13T12:20:44.061Z"
   },
+  "gongxliang.claude-paper@0.6.5": {
+    "commit": "560311f3d3eac6c6b86fa948b6a8a9ee8bfc6b92",
+    "contentHash": "dbaef9a4d8f7a642ea67f719d2149d1a96af04f5d4ef670273ebe552a37c1b2a",
+    "repoId": 1450372557,
+    "firstSeen": "2026-11-25T18:45:39.695Z"
+  },
   "gook-lab.agent-scheduler@0.11.2": {
     "commit": "263eceac9ccdd8131b156ceea469801b3a75a185",
     "contentHash": "2dc5cdb1c46a77baea0c5715c380123cb88883e2131948eb54b5b637b5b4477e",
@@ -4690,6 +4696,12 @@
     "contentHash": "2f4d396c41b577d6186483a1869f941361a86b29fc9d463e962b21c99a25bb96",
     "repoId": 1423645641,
     "firstSeen": "2026-11-07T08:13:00.007Z"
+  },
+  "nodesource.nodesource-theme@1.0.0": {
+    "commit": "c5b179563777ddd2085dcd7065f80cbd80e99fdf",
+    "contentHash": "c1c444acbf661333e8049985c1accae587f879354834398f168f2533228ead51",
+    "repoId": 1472178280,
+    "firstSeen": "2026-11-25T18:45:39.695Z"
   },
   "nomadiction8991.automation-terminal-cleanup@0.3.20": {
     "commit": "1f170dba283481affe7b82a0598c6f9cc9d6056c",

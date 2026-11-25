@@ -1638,7 +1638,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "refs/tags/gongxliang/claude-paper/0.6.4",
+      "ref": "v0.6.5",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -3006,13 +3006,10 @@
       ]
     },
     "nodesource/nodesource-orca-theme": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "nodesource.nodesource-theme"
       ]
     },
     "nomadiction8991/terminal-clearup": {
