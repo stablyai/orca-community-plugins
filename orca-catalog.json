@@ -11685,8 +11685,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.4.0"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -32096,6 +32096,145 @@
       ]
     },
     {
+      "id": "kennedytedesco.wake",
+      "ownerId": 999232,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/KennedyTedesco/wake.git",
+        "ref": "v0.2.2"
+      },
+      "description": "A Git panel that works like GitHub Desktop: commit exactly the lines you want, send review notes to your agent, read each commit like a pull request, and switch, pull and push without leaving Orca.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "8e873f45fd79a0a4dd5651fa59485437794ef6da",
+          "contentHash": "0f8d789e14524cda2c08302e72053eaf436e6c2fb7b6758f3114054d3435099c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Wake",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Wake"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Open in a tab"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Show in the sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Pull"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Push"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+G",
+              "detail": "openTab"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+G",
+              "detail": "showPanel"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Wake",
+              "detail": "Wake"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "agent:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kennedytedesco.wake/bc9a815f2b0f452c.webp",
+              "alt": "Orca with Wake open in a tab next to two terminals: changed files as a tree, two lines left out of the commit, moved code, and the branch in the status bar",
+              "sha256": "bc9a815f2b0f452ca29c7d77a49f18094ec1f50b1e0289fdc5a3e7f220c15c75",
+              "width": 2560,
+              "height": 1600
+            },
+            "icon": {
+              "path": "assets/kennedytedesco.wake/bc2ffc8d54fd0eda.png",
+              "alt": "Wake icon",
+              "sha256": "bc2ffc8d54fd0eda5b90fcc8aeae64c160be6bae186816738f7df74318288da7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/kennedytedesco.wake/0dabb5e63ca9e4a9.webp",
+                "alt": "Review notes in Wake: a note on two lines of the diff, selected code with the Add a note button under it, and the list of notes with the agents to send them to",
+                "sha256": "0dabb5e63ca9e4a99808925690b1c1fd3fbf8ca31d47c62f135b77910c8bc25e",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/74199b8efc772923.webp",
+                "alt": "A Zustand commit with three files: the commit list, the file tree, and every diff on one page",
+                "sha256": "74199b8efc772923073affa5463fe109d355c7c4e8d7df01591ebc844b7a5091",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/0ed3bad936fa59bf.webp",
+                "alt": "A side-by-side diff with changed words marked and a function that moved, with the list folded to a rail of icons",
+                "sha256": "0ed3bad936fa59bfb3545164197d2f73bb3671c9724233cc372583c414ebfb47",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/fc5dbf9a9deac354.webp",
+                "alt": "The branch menu under the current branch: a filter, the default branch, and the recent branches with the time of their last commit",
+                "sha256": "fc5dbf9a9deac354093b48d02ec4c58940b1c1ae4f5dad0e8e4c42d279432b39",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/da51b2f1d2ebc007.webp",
+                "alt": "Wake in a light Orca theme",
+                "sha256": "da51b2f1d2ebc007d94c1c32f9f28695b5f76b53f7d4a9a3d772ff7ea7b57467",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/KennedyTedesco/wake",
+          "updatedAt": "2026-11-25T00:11:56-03:00"
+        }
+      ]
+    },
+    {
       "id": "kianxm.luau-syntax",
       "ownerId": 73912215,
       "source": {
@@ -41649,8 +41788,8 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ngxuancam/orca-backlog.git",
-        "ref": "v0.3.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.5"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
@@ -42475,8 +42614,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oddieradhie/orca-kerjan.git",
-        "ref": "v1.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.4"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
@@ -45623,13 +45762,35 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/pinion05/orca-todoist.git",
-        "ref": "v0.1.0"
+        "ref": "v0.3.1"
       },
-      "description": "Read-only Todoist boards: a compact panel for today, and a full page with list, calendar, board and filters.",
+      "description": "Todoist in Orca's sidebar: add, edit, complete and filter tasks in list, calendar and board views.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "88c84f9e104dfcb48c0176de3aef9b79ee1fd474",
+          "contentHash": "b0ba668bb048545953cfd37ec4fa83ad2a08407703ccf15b9ef37b55ec87e2e1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Todoist",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Todoist"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/pinion05/orca-todoist",
+          "updatedAt": "2026-11-25T12:33:38+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "0aefe433da784d6e1ae66e27b53498da6c377413",
@@ -61589,8 +61750,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.15.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tornadodai/orca-bot-office/0.15.0"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [

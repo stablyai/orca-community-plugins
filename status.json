@@ -770,7 +770,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.4.0",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -2110,13 +2110,10 @@
       ]
     },
     "kennedytedesco/wake": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "kennedytedesco.wake"
       ]
     },
     "kevmansilla/orca-command-deck": {
@@ -2831,7 +2828,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "v0.3.5",
+      "ref": "refs/tags/ngxuancam/orca-backlog/0.3.5",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
@@ -2923,7 +2920,7 @@
     },
     "oddieradhie/orca-kerjan": {
       "state": "listed",
-      "ref": "v1.1.4",
+      "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.4",
       "plugins": [
         "oddieradhie.kerjan"
       ]
@@ -3076,7 +3073,7 @@
     },
     "pinion05/orca-todoist": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.3.1",
       "plugins": [
         "pinion05.todoist-viewer"
       ]
@@ -4080,7 +4077,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.15.0",
+      "ref": "refs/tags/tornadodai/orca-bot-office/0.15.0",
       "plugins": [
         "tornadodai.bot-office"
       ]
