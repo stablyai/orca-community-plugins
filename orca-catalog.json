@@ -12072,7 +12072,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Computerhof/orca-merge-review.git",
-        "ref": "v0.3.1"
+        "ref": "v0.4.0"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -12082,6 +12082,105 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "3e90369b38396cab42416abc0439517a8427fc17",
+          "contentHash": "7a0d946b95990b9f06205f75a11fe0f4d60922b25732fc695e23df8cb5324a60",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Merge & Review",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Merge & Review"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Übersicht öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Nächsten Konflikt öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Mit Base vergleichen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Merge abschließen"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+M",
+              "detail": "mergeReview.open"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+J",
+              "detail": "mergeReview.nextConflict"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Merge & Review",
+              "detail": ".mergereview"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Merge"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "automation:read",
+            "automation:write",
+            "history:read"
+          ],
+          "fileTypes": [
+            "mergereview"
+          ],
+          "editorFileTypes": [
+            "mergereview"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Computerhof/orca-merge-review",
+          "updatedAt": "2026-11-25T14:31:10+01:00"
+        },
         {
           "version": "0.3.1",
           "commit": "cadfbf6d67af30d61891756b23e955722560c7a4",
@@ -12473,101 +12572,6 @@
           "license": "MIT",
           "repository": "https://github.com/Computerhof/orca-merge-review",
           "updatedAt": "2026-11-24T14:13:42+01:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "3a57fb0133645a319c3bd08a0e8f4e4e265b2861",
-          "contentHash": "dff99faffb77767052026995c57a4eaedcc62a2bb1ec01111922b5fd162162c4",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Merge & Review",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Merge & Review"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Übersicht öffnen"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Nächsten Konflikt öffnen"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Mit Base vergleichen"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Merge abschließen"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.tool.before"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.tool.after"
-            },
-            {
-              "kind": "hooks",
-              "name": "editor.save.before"
-            },
-            {
-              "kind": "keybindings",
-              "name": "Mod+Alt+M",
-              "detail": "mergeReview.open"
-            },
-            {
-              "kind": "keybindings",
-              "name": "Mod+Alt+J",
-              "detail": "mergeReview.nextConflict"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Merge & Review",
-              "detail": ".mergereview"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Merge"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "notifications:show",
-            "storage:own",
-            "settings:own",
-            "automation:read",
-            "automation:write",
-            "history:read"
-          ],
-          "fileTypes": [
-            "mergereview"
-          ],
-          "editorFileTypes": [
-            "mergereview"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/Computerhof/orca-merge-review",
-          "updatedAt": "2026-11-23T16:18:25+01:00"
         }
       ]
     },
@@ -13099,8 +13103,8 @@
       "ownerId": 99609885,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
-        "ref": "v0.8.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.2"
       },
       "description": "A read-only control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests.",
       "categories": [
@@ -23902,6 +23906,116 @@
       ]
     },
     {
+      "id": "flpcovre.blade-syntax",
+      "ownerId": 140737398,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/flpcovre/orca-blade-syntax.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Laravel Blade highlighting (.blade.php) with PHP, HTML, CSS, JavaScript and SQL support.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "26d500fedc25276b8b90d0f247351c08829dd7a5",
+          "contentHash": "d03fda1c7191c5d253873ebd1d48f201104b29377eb10cb3495debe130847ff3",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Laravel Blade Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Blade",
+              "detail": ".blade.php"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "PHP code grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "HTML (derivative) grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JavaScript grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "CSS grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "SQL grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "JSON grammar dependency"
+            },
+            {
+              "kind": "syntaxes",
+              "name": "XML grammar dependency"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/flpcovre/orca-blade-syntax",
+          "updatedAt": "2026-11-25T10:17:17-03:00"
+        }
+      ]
+    },
+    {
+      "id": "flpcovre.horizon-theme",
+      "ownerId": 140737398,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/flpcovre/horizon-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "A beautifully warm dual theme (Dark & Bright) for Orca, faithfully ported from Horizon Theme for VS Code.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "39ab3b332d60ae6e071809a3247ece450c8fa275",
+          "contentHash": "ff3880166f1e2e9f440fa5e9a90b0784f82ea3fba4a700648ec3148ca87b1e11",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Horizon Theme",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Horizon"
+            },
+            {
+              "kind": "themes",
+              "name": "Horizon Bright"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Horizon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Horizon Bright"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/flpcovre/horizon-theme",
+          "updatedAt": "2026-11-24T23:48:21-03:00"
+        }
+      ]
+    },
+    {
       "id": "flux-ai-agent.fluxcut",
       "ownerId": 252822752,
       "source": {
@@ -32377,8 +32491,8 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Juanpe/orca-pit-wall.git",
-        "ref": "v0.4.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/juanpe/orca-pit-wall/0.4.2"
       },
       "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you. Each agent state has its own icon, and only what needs you moves.",
       "categories": [
@@ -55559,8 +55673,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.10.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.10.0"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
@@ -60835,13 +60949,69 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/thanut-suw-work/orca-dnb-plugin.git",
-        "ref": "v1.0.2"
+        "ref": "v1.0.3"
       },
       "description": "DnB!: Drop and Boom! falling-block puzzle game, playable offline in Orca's sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "57933eb501340791ae648d907750ba3f3b2e116d",
+          "contentHash": "b8ecd9d44002f75aeac265af3de9952c3cabf9327b8cd6ff010c440f52a70e75",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "DnB! Drop and Boom",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DnB!"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thanut-suw-work.dnb-drop-and-boom/52ed15aff26bfb01.jpg",
+              "alt": "DnB logo over colorful falling blocks exploding into a stack",
+              "sha256": "52ed15aff26bfb012058910f41f2199266f1c92c9f7b207f6be3ad88d26f3ef7",
+              "width": 1008,
+              "height": 630
+            },
+            "icon": {
+              "path": "assets/thanut-suw-work.dnb-drop-and-boom/b1bf3000f6c039cd.png",
+              "alt": "DnB! Drop and Boom icon",
+              "sha256": "b1bf3000f6c039cdf59346fd2966f84d5323a9de90200b1afb9e4f5ad0e1d516",
+              "width": 192,
+              "height": 192
+            },
+            "screenshots": [
+              {
+                "path": "assets/thanut-suw-work.dnb-drop-and-boom/670cb6ee15abf94e.png",
+                "alt": "DnB! main menu with Play and Sound buttons and the keyboard controls",
+                "sha256": "670cb6ee15abf94eb947e97928623550a5061b9966a7b3a1e3b8ea38a07a31f3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanut-suw-work.dnb-drop-and-boom/8a5fe31a301598d9.png",
+                "alt": "A game in progress at level 2 with 15 lines cleared, a falling T piece and its landing ghost, a held piece and the next five pieces",
+                "sha256": "8a5fe31a301598d95b97f253dbb191962b91f736a0296e774c53fab648804236",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/thanut-suw-work.dnb-drop-and-boom/91c8ff2291552654.png",
+                "alt": "Pause menu over a game in progress with Resume, Restart, Main menu, Mute and Shake options",
+                "sha256": "91c8ff22915526548520457a813cd244b9cb182f105d22215bf47e6bd4f296df",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thanut-suw-work/orca-dnb-plugin",
+          "updatedAt": "2026-11-25T20:25:46+07:00"
+        },
         {
           "version": "1.0.2",
           "commit": "4f74812cd4e308749e88be33dbf9783b232fff30",

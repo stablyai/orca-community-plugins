@@ -1451,6 +1451,12 @@
     "repoId": 1468933815,
     "firstSeen": "2026-11-25T13:18:00.813Z"
   },
+  "computerhof.merge-review@0.4.0": {
+    "commit": "3e90369b38396cab42416abc0439517a8427fc17",
+    "contentHash": "7a0d946b95990b9f06205f75a11fe0f4d60922b25732fc695e23df8cb5324a60",
+    "repoId": 1468933815,
+    "firstSeen": "2026-11-25T13:42:41.954Z"
+  },
   "cplog.github-trending@1.2.0": {
     "commit": "acb413ab058adfe3de20128e13abb21914e4f538",
     "contentHash": "54eedeb580b3845a6cd59f91edafba39e5c8eea52b3275f439f4ad8d2a1c436c",
@@ -2506,6 +2512,18 @@
     "contentHash": "2421c542ffe0c966e3ead9c2d6a8abd98218a44247b3b8dad52b4b7e9ffaba85",
     "repoId": 1460268720,
     "firstSeen": "2026-11-16T21:13:46.802Z"
+  },
+  "flpcovre.blade-syntax@0.1.0": {
+    "commit": "26d500fedc25276b8b90d0f247351c08829dd7a5",
+    "contentHash": "d03fda1c7191c5d253873ebd1d48f201104b29377eb10cb3495debe130847ff3",
+    "repoId": 1471805641,
+    "firstSeen": "2026-11-25T13:42:41.954Z"
+  },
+  "flpcovre.horizon-theme@1.0.0": {
+    "commit": "39ab3b332d60ae6e071809a3247ece450c8fa275",
+    "contentHash": "ff3880166f1e2e9f440fa5e9a90b0784f82ea3fba4a700648ec3148ca87b1e11",
+    "repoId": 1471131910,
+    "firstSeen": "2026-11-25T13:42:41.954Z"
   },
   "flux-ai-agent.fluxcut@1.46.2": {
     "commit": "a3f7a2a011b1d81e85c3f80591dd50a08012b43e",
@@ -6556,6 +6574,12 @@
     "contentHash": "80e9fa94072d4598524c7787376a15163dd9909b43cd6375abc0829984ef6984",
     "repoId": 1471790793,
     "firstSeen": "2026-11-25T13:18:00.813Z"
+  },
+  "thanut-suw-work.dnb-drop-and-boom@1.0.3": {
+    "commit": "57933eb501340791ae648d907750ba3f3b2e116d",
+    "contentHash": "b8ecd9d44002f75aeac265af3de9952c3cabf9327b8cd6ff010c440f52a70e75",
+    "repoId": 1471790793,
+    "firstSeen": "2026-11-25T13:42:41.954Z"
   },
   "thinkjson.worktree-dashboard@0.1.0": {
     "commit": "858137b0b4d603b1f061fa752f2ee3d5f64ff17e",

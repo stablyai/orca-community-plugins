@@ -804,7 +804,7 @@
     },
     "computerhof/orca-merge-review": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "v0.4.0",
       "plugins": [
         "computerhof.merge-review"
       ]
@@ -850,7 +850,7 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "v0.8.2",
+      "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.2",
       "plugins": [
         "cryptosecco.regia"
       ]
@@ -1472,6 +1472,20 @@
       "ref": "refs/tags/fladioarmandika/orca-gh-plugin/0.2.0",
       "plugins": [
         "fladioarmandika.project-prs"
+      ]
+    },
+    "flpcovre/horizon-theme": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "flpcovre.horizon-theme"
+      ]
+    },
+    "flpcovre/orca-blade-syntax": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "flpcovre.blade-syntax"
       ]
     },
     "flux-ai-agent/fluxcut-plugin": {
@@ -2162,7 +2176,7 @@
     },
     "juanpe/orca-pit-wall": {
       "state": "listed",
-      "ref": "v0.4.2",
+      "ref": "refs/tags/juanpe/orca-pit-wall/0.4.2",
       "plugins": [
         "juanpe.pit-wall"
       ]
@@ -2584,6 +2598,16 @@
         "mcxinyu.adb-helper"
       ]
     },
+    "mercs600/orca-cezar-monitor": {
+      "state": "rejected",
+      "ref": "v0.6.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "michelvelzr/ork-dbclient": {
       "state": "listed",
       "ref": "refs/tags/michelvelzr/ork-dbclient/0.2.0",
@@ -2714,7 +2738,7 @@
     },
     "mortik/orca-dev-server": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "manifest-format"
@@ -3684,7 +3708,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.10.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.10.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -4069,7 +4093,7 @@
     },
     "thanut-suw-work/orca-dnb-plugin": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "v1.0.3",
       "plugins": [
         "thanut-suw-work.dnb-drop-and-boom"
       ]
