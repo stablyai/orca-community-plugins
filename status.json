@@ -770,7 +770,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.6.0",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -2828,7 +2828,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "v0.3.7",
+      "ref": "v0.3.9",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
