@@ -3186,6 +3186,13 @@
         "pinion05.zai-usage"
       ]
     },
+    "pinion05/orca-server-stats": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "pinion05.server-stats"
+      ]
+    },
     "pinion05/orca-todoist": {
       "state": "listed",
       "ref": "refs/tags/pinion05/orca-todoist/0.4.0",

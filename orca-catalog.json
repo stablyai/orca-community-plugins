@@ -46933,6 +46933,39 @@
       ]
     },
     {
+      "id": "pinion05.server-stats",
+      "ownerId": 117980824,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pinion05/orca-server-stats.git",
+        "ref": "v0.2.0"
+      },
+      "description": "CPU, RAM, temperature and GPU use in the status bar: of this computer, or of the machine hosting a workspace on a paired Orca server.",
+      "categories": [],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "5a9c508cbe688bbb4433aa776d9edf541eae0734",
+          "contentHash": "5badeb314f08056c08496c6ab31a0b1d6065113d1571ef6f8674d704ac088590",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Server Stats",
+          "contributes": [
+            {
+              "kind": "statusBarItems",
+              "name": "…"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/pinion05/orca-server-stats",
+          "updatedAt": "2026-11-26T01:24:45+09:00"
+        }
+      ]
+    },
+    {
       "id": "pinion05.todoist-viewer",
       "ownerId": 117980824,
       "source": {
