@@ -934,6 +934,16 @@
         "ddochi-nyang.bot-world"
       ]
     },
+    "ddoobyddooby/orca-retro-theme": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "identity-hold",
+          "detail": "moved from Ddoobyddooby/orca-window-theme (ddoobyddooby.retro-98-theme) to Ddoobyddooby/orca-retro-theme (ddoobyddooby.retro-98-theme); new versions paused until a maintainer confirms the move in identity-moves.json"
+        }
+      ]
+    },
     "ddoobyddooby/orca-window-theme": {
       "state": "listed",
       "ref": "refs/tags/ddoobyddooby/orca-window-theme/0.1.2",
