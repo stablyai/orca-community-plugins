@@ -1588,19 +1588,10 @@
     },
     "gook-lab/orca-agent-scheduler": {
       "state": "listed",
-      "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.11",
+      "ref": "v0.13.1",
       "plugins": [
         "gook-lab.agent-scheduler"
-      ],
-      "update": {
-        "ref": "v0.13.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code"
-          }
-        ]
-      }
+      ]
     },
     "gops132/gray-orca": {
       "state": "listed",
@@ -1628,7 +1619,7 @@
     },
     "gusainhimanshu/orca-control-room-plugin": {
       "state": "listed",
-      "ref": "v0.10.2",
+      "ref": "refs/tags/gusainhimanshu/orca-control-room-plugin/0.10.2",
       "plugins": [
         "gusainhimanshu.control-room"
       ]
@@ -1993,10 +1984,13 @@
       ]
     },
     "jecyxyf/orca-tps-plugin": {
-      "state": "listed",
-      "ref": "refs/tags/jecyxyf/orca-tps-plugin/1.6.4",
-      "plugins": [
-        "jecyxyf.tps-stats"
+      "state": "rejected",
+      "ref": "v1.6.5",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (native/bin/win32-x64/cc-switch-usage.exe.gz)"
+        }
       ]
     },
     "jejacks0n/orca-persona-studio": {
@@ -2045,7 +2039,7 @@
     },
     "jiaonang/orca-chinese": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/jiaonang/orca-chinese/1.0.0",
       "plugins": [
         "jiaonang.zh-cn"
       ]
@@ -2492,7 +2486,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.274",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.274",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -3113,7 +3107,16 @@
       "ref": "refs/tags/plozmun/orca-redmine/0.2.1",
       "plugins": [
         "plozmun.redmine-tasks"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "pluggi-maid/orca-server-monitor": {
       "state": "rejected",
@@ -4553,7 +4556,7 @@
     },
     "yeleup/agent-queue-kit-probe": {
       "state": "listed",
-      "ref": "refs/tags/yeleup/agent-queue-kit-probe/0.0.1",
+      "ref": "v0.0.2",
       "plugins": [
         "yeleup.agent-queue-kit-probe"
       ]

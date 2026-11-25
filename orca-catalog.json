@@ -25139,15 +25139,79 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.11"
+        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
+        "ref": "v0.13.1"
       },
-      "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, sends through the Orca CLI, and records when the agent finishes, with a one-line result if you ask for one. E",
+      "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, can ask a command first whether to send, fills in the last run's result, sends through the Orca CLI, and reco",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.13.1",
+          "commit": "42edbfa59e81ac2d62610e5fc9024e1f9c1bcfd8",
+          "contentHash": "cb6532871a713574856ee5480af62960b0f586c894327b61a11bcb29c8e68ca5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Scheduler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Scheduler"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Schedules"
+            }
+          ],
+          "capabilities": [
+            "terminal:read",
+            "agent:read",
+            "workspace:read",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gook-lab.agent-scheduler/ff8409bfb9b9a63c.png",
+              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
+              "sha256": "ff8409bfb9b9a63ca9722be8faa5c073b7574102040e7ee5897853ccee2ad969",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
+              "alt": "Agent Scheduler icon",
+              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/gook-lab.agent-scheduler/743f2b0753e87f11.png",
+                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
+                "sha256": "743f2b0753e87f1102c7ca4fd16fd683e5bc871ff67e8891915be90c7c24f5d7",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/gook-lab.agent-scheduler/c05cfd8b4c6ee170.png",
+                "alt": "The same Schedules tab with the panel in Korean",
+                "sha256": "c05cfd8b4c6ee170af0aab1b58e662ca5ef8909bc00b274e6ea14c7e1c0192f8",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "updatedAt": "2026-11-25T15:56:30+09:00",
+          "license": "MIT",
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler"
+        },
         {
           "version": "0.12.11",
           "commit": "ed811fc9d2001e549c2027fe09027b324229f84f",
@@ -25403,70 +25467,6 @@
           "license": "MIT",
           "repository": "https://github.com/gook-lab/orca-agent-scheduler",
           "updatedAt": "2026-11-18T10:36:03+09:00"
-        },
-        {
-          "version": "0.12.5",
-          "commit": "7c8ee70a0638bd52d50362db5acfafe8c65a9046",
-          "contentHash": "6e8b67c2663303b1a22aa310a859c245bed9b623b27b19a3199f71557784232b",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Agent Scheduler",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Agent Scheduler"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Schedules"
-            }
-          ],
-          "capabilities": [
-            "terminal:read",
-            "agent:read",
-            "workspace:read",
-            "storage:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/gook-lab.agent-scheduler/bc31a525b4c2782e.png",
-              "alt": "Agent Scheduler: the Schedules tab with three schedules under their terminals — one done, one running, one waiting — beside the first page of the introduction",
-              "sha256": "bc31a525b4c2782eeae2acc7eda306637d183131567e39a9d0ab4d93c1ec75ea",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/gook-lab.agent-scheduler/70a49c92c2d54f00.png",
-              "alt": "Agent Scheduler icon",
-              "sha256": "70a49c92c2d54f00cd386e32395bbe9dd47fb253779760fae8752ae801635420",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/gook-lab.agent-scheduler/b8a94f39c1959f2a.png",
-                "alt": "The Schedules tab with three schedules under their terminals: one done, one running, a third waiting to send while the agent works",
-                "sha256": "b8a94f39c1959f2aa284de1ccb08fc93abb7ad8396dbc3bc7c0f1f157f8ed675",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/gook-lab.agent-scheduler/8cc902c6d32ae7e4.png",
-                "alt": "The same Schedules tab with the panel in Korean",
-                "sha256": "8cc902c6d32ae7e4fd242ba4ec66ab8112dca983255175cefee5c8734ad383ab",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
-          "updatedAt": "2026-11-18T09:24:46+09:00"
         }
       ]
     },
@@ -25696,8 +25696,8 @@
       "ownerId": 3341820,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gusainhimanshu/orca-control-room-plugin.git",
-        "ref": "v0.10.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gusainhimanshu/orca-control-room-plugin/0.10.2"
       },
       "description": "Control room: who hands work to whom, what waits on you (decision gates answered after a confirm), every agent by product, each product's pull requests and CI, pings of the sites you list, and a full-page Dashboard of keys.",
       "categories": [
@@ -30225,156 +30225,6 @@
       ]
     },
     {
-      "id": "jecyxyf.tps-stats",
-      "ownerId": 89952284,
-      "source": {
-        "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jecyxyf/orca-tps-plugin/1.6.4"
-      },
-      "description": "Track live request speed and token usage in Orca. Compare models, spot daily trends, and join a cross-device leaderboard with GitHub sign-in.",
-      "categories": [
-        "panels",
-        "commands",
-        "integrations"
-      ],
-      "releases": [
-        {
-          "version": "1.6.4",
-          "commit": "1bac1fcd07b919e58f628ccab71a643cac37d6eb",
-          "contentHash": "82df350ecea47b33043cb87c6dede31f6fe4a9adbe2f33d5ab69925c9209f3ad",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "TPS Plugin",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "TPS Plugin"
-            },
-            {
-              "kind": "commands",
-              "name": "Refresh TPS Data"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "🚀 — tokens/s · 🍪 Cache hit —"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "workspace:read",
-            "secrets:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jecyxyf.tps-stats/44b2f07913ecdba0.png",
-              "alt": "TPS Plugin overview with Current Data, Personal Stats, and Leaderboard in the Orca sidebar",
-              "sha256": "44b2f07913ecdba02a8ecd85f30893ba78d31bde3989f6c90661342e5fad0ba3",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jecyxyf.tps-stats/c0690ab905417627.png",
-              "alt": "TPS Plugin icon",
-              "sha256": "c0690ab9054176277c92eb601125a1a3b3af20d662abaa980c3106295c3d42b9",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jecyxyf.tps-stats/2d6f3b5e6719312f.png",
-                "alt": "Orca sidebar request cards showing generation speed, first-token latency, output, and cache hit rate",
-                "sha256": "2d6f3b5e6719312f3c69112dfcb505b99300f4d08b0230bd2db681264cbaa09d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jecyxyf.tps-stats/2dc1043cf8d87a42.png",
-                "alt": "Personal Stats shows usage by model, average generation speeds, and an annual heatmap",
-                "sha256": "2dc1043cf8d87a426210d34b9000bb504faff4132db0ff697fb53f6e65f55ebe",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jecyxyf.tps-stats/86a742bf6692f9d8.png",
-                "alt": "Leaderboard with GitHub avatars, three ranking periods, medals, and the sync controls",
-                "sha256": "86a742bf6692f9d806ad8beaddd21d80d2f86ca6ba523268c45a0bef1431c0fa",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/jecyxyf/Orca-TPS-Plugin",
-          "updatedAt": "2026-11-19T21:06:49+08:00"
-        },
-        {
-          "version": "1.3.0",
-          "commit": "ce71acef1553cb7975b44d6a20d6d9a58aaa329e",
-          "contentHash": "227e0a305430eb8b955f5f3a2744b75ce628b2e9e8701c9d703e7a52a2df419a",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "Orca 软件 Tokens 统计插件",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "对话 TPS"
-            },
-            {
-              "kind": "commands",
-              "name": "刷新对话 TPS"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "🚀 — tokens/s · 🍪 命中 —"
-            }
-          ],
-          "capabilities": [
-            "storage:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jecyxyf.tps-stats/c420ba880a647994.png",
-              "alt": "Orca Tokens & Per-Request TPS Stats cover showing live status bar speed and per-request sidebar cards with TTFT and cache hit rates",
-              "sha256": "c420ba880a647994da5a8bec03615488ac0425f7d92db924e2578cf6444fe1a5",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jecyxyf.tps-stats/8e1501049b18c550.png",
-              "alt": "Orca 软件 Tokens 统计插件 icon",
-              "sha256": "8e1501049b18c550b66ffcc02843db683d5752d3816cd719893a737f34e27a15",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jecyxyf.tps-stats/e0e82107f568da64.png",
-                "alt": "Orca dark workspace with the TPS & Token Statistics sidebar panel showing per-request speed, TTFT, subagent badges, and status bar",
-                "sha256": "e0e82107f568da640c6f3f50477187a475dd2476bb5696fa30a1d0d597cd5137",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jecyxyf.tps-stats/e81aa19b108cbba5.png",
-                "alt": "Orca light workspace with the TPS & Token Statistics sidebar panel showing per-request speed, TTFT, subagent badges, and status bar",
-                "sha256": "e81aa19b108cbba57aa66a8db5fa895963726533a43b47c09253084ece2b34b8",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/jecyxyf/Orca-TPS-Plugin",
-          "updatedAt": "2026-11-08T02:01:29+08:00"
-        }
-      ]
-    },
-    {
       "id": "jeong-jae-hun.ping-inbox",
       "ownerId": 122011723,
       "source": {
@@ -30756,8 +30606,8 @@
       "ownerId": 9261122,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jiaonang/orca-chinese.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jiaonang/orca-chinese/1.0.0"
       },
       "description": "完整的简体中文界面语言包：补全 Orca 内置中文缺失的条目，并统一 agent、tab 等术语的译法。",
       "categories": [
@@ -36711,8 +36561,8 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/matteoeusebi/orca-italiano.git",
-        "ref": "v1.4.274"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.274"
       },
       "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.274. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -68267,12 +68117,32 @@
       "ownerId": 10289602,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/yeleup/agent-queue-kit-probe/0.0.1"
+        "url": "https://github.com/Yeleup/agent-queue-kit-probe.git",
+        "ref": "v0.0.2"
       },
       "description": "Temporary probe: checks catalog install and auto-update for a future plugin. It only shows its version in the status bar.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.0.2",
+          "commit": "bd9ad10af3e17bb507a60e83c2173590c6a42cb9",
+          "contentHash": "5f45d7d6150a25fea48aa72ad08268557e6ad0ec8a0952c8d2bfabae4096594b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "agent-queue-kit probe",
+          "contributes": [
+            {
+              "kind": "statusBarItems",
+              "name": "probe"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Yeleup/agent-queue-kit-probe",
+          "updatedAt": "2026-11-25T12:26:55+05:00"
+        },
         {
           "version": "0.0.1",
           "commit": "c0e52482587db9fe103068a3672eb178f7c3f97f",

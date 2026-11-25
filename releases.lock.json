@@ -2723,6 +2723,12 @@
     "repoId": 1460739421,
     "firstSeen": "2026-11-18T02:19:51.529Z"
   },
+  "gook-lab.agent-scheduler@0.13.1": {
+    "commit": "42edbfa59e81ac2d62610e5fc9024e1f9c1bcfd8",
+    "contentHash": "cb6532871a713574856ee5480af62960b0f586c894327b61a11bcb29c8e68ca5",
+    "repoId": 1460739421,
+    "firstSeen": "2026-11-25T07:43:18.023Z"
+  },
   "gook-lab.agent-scheduler@0.9.11": {
     "commit": "a197a8d0315bbd65b674b6454759994f93e76bb8",
     "contentHash": "fbdbde5831fcce7fa72091975580cf3a251471d942d86ad8a4df8d1ec9937f21",
@@ -7372,6 +7378,12 @@
     "contentHash": "25e6c07488f2aea4d630a125731681bb3af9e9d3369ff63706de8148e7c41292",
     "repoId": 1470360939,
     "firstSeen": "2026-11-24T15:43:03.590Z"
+  },
+  "yeleup.agent-queue-kit-probe@0.0.2": {
+    "commit": "bd9ad10af3e17bb507a60e83c2173590c6a42cb9",
+    "contentHash": "5f45d7d6150a25fea48aa72ad08268557e6ad0ec8a0952c8d2bfabae4096594b",
+    "repoId": 1470360939,
+    "firstSeen": "2026-11-25T07:43:18.023Z"
   },
   "yeonjin1357.line-blame@0.1.0": {
     "commit": "45165ad5e5f9ea0b2978c7b0a8ea1f72c171a996",
