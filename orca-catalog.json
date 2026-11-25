@@ -32100,8 +32100,8 @@
       "ownerId": 999232,
       "source": {
         "kind": "git",
-        "url": "https://github.com/KennedyTedesco/wake.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kennedytedesco/wake/0.2.2"
       },
       "description": "A Git panel that works like GitHub Desktop: commit exactly the lines you want, send review notes to your agent, read each commit like a pull request, and switch, pull and push without leaving Orca.",
       "categories": [
@@ -41140,14 +41140,36 @@
       "ownerId": 69442847,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/namnameeroo/orca-pinboard/0.1.2"
+        "url": "https://github.com/namnameeroo/orca-pinboard.git",
+        "ref": "v0.1.3"
       },
       "description": "The Claude pinboard pane for Orca: the focused workspace's latest Claude session as cards (branch, background tasks, intent tree, PRs and links, docs, prompt history) and a memo per workspace.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "c072b23c15dabf66f14f65b80134a1d99954ce2a",
+          "contentHash": "c4ed566a813ba31b0bfb1ff24ced44f0663006242586d06fff3589767f0dca4e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Pinboard",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pinboard"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/namnameeroo/orca-pinboard",
+          "updatedAt": "2026-11-25T12:52:27+09:00"
+        },
         {
           "version": "0.1.2",
           "commit": "9f5382104cbecaf032c1c3acd7980936e2377467",
@@ -41788,14 +41810,78 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.5"
+        "url": "https://github.com/ngxuancam/orca-backlog.git",
+        "ref": "v0.3.6"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.6",
+          "commit": "9e65f1c53c5c8ef422c2f93cf4f8ffc1b689a072",
+          "contentHash": "7775b4abbbe4eb1330ac08affb2a29ac40cbc98a05e2d2aa604572c2b1d0dda4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
+              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
+              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
+              "alt": "Backlog Tasks icon",
+              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
+                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
+                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
+                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
+                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
+                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
+                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-25T11:03:35+07:00"
+        },
         {
           "version": "0.3.5",
           "commit": "1956da70f4f063b34adb62160d0c0009f4e37236",
@@ -42012,31 +42098,6 @@
           "license": "MIT",
           "repository": "https://github.com/ngxuancam/orca-backlog",
           "updatedAt": "2026-11-24T15:06:36+07:00"
-        },
-        {
-          "version": "0.3.0",
-          "commit": "67ebb089be6dbff6632e9b5a27989ec3140a9ab7",
-          "contentHash": "15d513361847661f8639b42889945328b22c956b56476cae2828edc983b2d284",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Backlog Tasks",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Backlog Tasks"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "workspace:write",
-            "workspace:create",
-            "agent:launch"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/ngxuancam/orca-backlog",
-          "updatedAt": "2026-11-24T14:32:38+07:00"
         }
       ]
     },
@@ -42614,8 +42675,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.4"
+        "url": "https://github.com/oddieradhie/orca-kerjan.git",
+        "ref": "v1.1.6"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
@@ -42623,6 +42684,49 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.6",
+          "commit": "ce81c89d7d92c94242b9624cf79a48afdf2b2e69",
+          "contentHash": "3c08da0e7c2e7e479c0d840aabeef6d7e7425ef8bfab46521b7bbd85b9163721",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Kerjan",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kerjan"
+            },
+            {
+              "kind": "commands",
+              "name": "Kerjan: Refresh Tickets"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Kerjan"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/oddieradhie.kerjan/5649e31e76eb8804.png",
+              "alt": "Kerjan icon",
+              "sha256": "5649e31e76eb88040c1107cc643791f66ae1e8ac730de5ab4984dd1fa8ea0aca",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oddieradhie/orca-kerjan",
+          "updatedAt": "2026-11-25T11:07:55+07:00"
+        },
         {
           "version": "1.1.4",
           "commit": "0484e569e1eb7d4d77838161c13d700f53fd1870",
@@ -45761,8 +45865,8 @@
       "ownerId": 117980824,
       "source": {
         "kind": "git",
-        "url": "https://github.com/pinion05/orca-todoist.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pinion05/orca-todoist/0.3.1"
       },
       "description": "Todoist in Orca's sidebar: add, edit, complete and filter tasks in list, calendar and board views.",
       "categories": [
