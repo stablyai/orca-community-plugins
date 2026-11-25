@@ -1593,7 +1593,7 @@
         "gook-lab.agent-scheduler"
       ],
       "update": {
-        "ref": "v0.13.0",
+        "ref": "v0.13.1",
         "reasons": [
           {
             "category": "under-review",
@@ -1624,6 +1624,13 @@
           "category": "under-review",
           "detail": "code"
         }
+      ]
+    },
+    "gusainhimanshu/orca-control-room-plugin": {
+      "state": "listed",
+      "ref": "v0.10.2",
+      "plugins": [
+        "gusainhimanshu.control-room"
       ]
     },
     "gzimbron/svelte-syntax-orca": {
@@ -2034,6 +2041,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "jiaonang/orca-chinese": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "jiaonang.zh-cn"
       ]
     },
     "jig-harness/orca-plugin": {
@@ -2477,13 +2491,10 @@
       ]
     },
     "matteoeusebi/orca-italiano": {
-      "state": "rejected",
-      "ref": "v1.4.272",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"it\" (locales/it.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
-        }
+      "state": "listed",
+      "ref": "v1.4.274",
+      "plugins": [
+        "matteoeusebi.italiano"
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -2526,7 +2537,7 @@
     },
     "mcxinyu/adb-helper-orca-plugin": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.4.0",
       "plugins": [
         "mcxinyu.adb-helper"
       ]
@@ -2732,7 +2743,7 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "v1.5.1",
+      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.5.1",
       "plugins": [
         "mswdev.fleet-monitor"
       ]

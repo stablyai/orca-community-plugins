@@ -25692,6 +25692,79 @@
       ]
     },
     {
+      "id": "gusainhimanshu.control-room",
+      "ownerId": 3341820,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gusainhimanshu/orca-control-room-plugin.git",
+        "ref": "v0.10.2"
+      },
+      "description": "Control room: who hands work to whom, what waits on you (decision gates answered after a confirm), every agent by product, each product's pull requests and CI, pings of the sites you list, and a full-page Dashboard of keys.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.10.2",
+          "commit": "0909694237d48889562e5d160ec6422b0646eee2",
+          "contentHash": "b01aa331ac54399195b0953115709a45e3f4155de274e6a3043d3b3f977b5a43",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Control Room",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Control Room"
+            },
+            {
+              "kind": "commands",
+              "name": "Control Room: Open dashboard"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Control Room",
+              "detail": ".crdeck"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Control Room"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "crdeck"
+          ],
+          "editorFileTypes": [
+            "crdeck"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/gusainhimanshu/orca-control-room-plugin",
+          "updatedAt": "2026-11-25T12:21:40+05:30"
+        }
+      ]
+    },
+    {
       "id": "gzimbron.svelte-syntax",
       "ownerId": 7065779,
       "source": {
@@ -30675,6 +30748,38 @@
           "license": "MIT",
           "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
           "updatedAt": "2026-11-09T14:20:18+08:00"
+        }
+      ]
+    },
+    {
+      "id": "jiaonang.zh-cn",
+      "ownerId": 9261122,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jiaonang/orca-chinese.git",
+        "ref": "v1.0.0"
+      },
+      "description": "完整的简体中文界面语言包：补全 Orca 内置中文缺失的条目，并统一 agent、tab 等术语的译法。",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "24057f66e9d692cf605752d767d9ccef75c005f6",
+          "contentHash": "3d0bbbd4f21b63cffeb0253fce4501ffa56f9d7e8d1bd22a3fff826d8be86b0a",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "简体中文",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "zh"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/jiaonang/orca-chinese",
+          "updatedAt": "2026-11-25T15:04:17+08:00"
         }
       ]
     },
@@ -36602,6 +36707,54 @@
       ]
     },
     {
+      "id": "matteoeusebi.italiano",
+      "ownerId": 263868399,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.274"
+      },
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.274. Pacchetto della community, non ufficiale.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.4.274",
+          "commit": "a3e8a9201cb565a50cc3bb4bbba5c06b61749fdc",
+          "contentHash": "c3394a1894bb7ce1e902373d4f872e30114ceaead0e9631c5160903fc3423ddf",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-25T08:17:10+01:00"
+        }
+      ]
+    },
+    {
       "id": "matteoeusebi.pulse",
       "ownerId": 263868399,
       "source": {
@@ -37301,8 +37454,8 @@
       "ownerId": 9566116,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.4.0"
       },
       "description": "Android ADB device management and live logcat inside Orca.",
       "categories": [
@@ -40391,8 +40544,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
-        "ref": "v1.5.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.5.1"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
