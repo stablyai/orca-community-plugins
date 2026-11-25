@@ -1795,7 +1795,7 @@
     },
     "houskii/orca-magpie-monitor": {
       "state": "rejected",
-      "ref": "v0.4.3",
+      "ref": "v0.4.4",
       "reasons": [
         {
           "category": "binary-files",
@@ -3758,6 +3758,13 @@
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
         }
+      ]
+    },
+    "sleet1k/orca-quota-panel": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "sleet1k.quota-panel"
       ]
     },
     "sofiacnm/inside-the-blackbox": {

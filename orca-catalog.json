@@ -56685,6 +56685,73 @@
       ]
     },
     {
+      "id": "sleet1k.quota-panel",
+      "ownerId": 171479338,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/sleet1k/orca-quota-panel.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Monitor your free OpenRouter daily limit (requests per day, daily reset shown in your local time) with Turbo / Balance / Eco modes, editable thresholds and per-mode hints. Interface in English, Russian and Chinese.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "c7ed2dcca4257b7ca5156a6192c596339b27066f",
+          "contentHash": "f121f6a7acd734095f81ead839a1405ef60358aef93576e81879a97f35f36f7f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Quota Panel",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Quota Panel"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/sleet1k.quota-panel/63f977314754041e.png",
+              "alt": "Quota Panel icon",
+              "sha256": "63f977314754041e3eaad63ed1ed8f169cc90c6dc5beed8407241d555da5458b",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sleet1k.quota-panel/a4a82f5e70b84c43.png",
+                "alt": "OpenRouter Quota panel in English showing remaining requests, mode thresholds and per-mode settings",
+                "sha256": "a4a82f5e70b84c4316f60ac3d47b1033b28308b2da07993e35999a0ac88029c3",
+                "width": 1324,
+                "height": 937
+              },
+              {
+                "path": "assets/sleet1k.quota-panel/7f8c4d3fc56a825c.png",
+                "alt": "OpenRouter Quota panel in Russian showing remaining requests, mode thresholds and per-mode settings",
+                "sha256": "7f8c4d3fc56a825c0f34c44303b1b6edd42a815921681b37a884c4fa631eb6da",
+                "width": 1324,
+                "height": 937
+              },
+              {
+                "path": "assets/sleet1k.quota-panel/6437bdf5c0908f0d.png",
+                "alt": "OpenRouter Quota panel in Chinese showing remaining requests, mode thresholds and per-mode settings",
+                "sha256": "6437bdf5c0908f0d0a4e1ca34afc17f91429f23f7e2a0d255e87bee8b8df14b3",
+                "width": 1324,
+                "height": 937
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/sleet1k/orca-quota-panel",
+          "updatedAt": "2026-11-25T14:05:38+05:00"
+        }
+      ]
+    },
+    {
       "id": "sofiacnm.inside-the-black-box",
       "ownerId": 180988982,
       "source": {
