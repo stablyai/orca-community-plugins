@@ -4403,6 +4403,12 @@
     "repoId": 1470828399,
     "firstSeen": "2026-11-24T21:16:15.592Z"
   },
+  "mrksoftware.pod@0.2.0": {
+    "commit": "426f22d0ef9f2db14c26ef0fa6427a1ea6692313",
+    "contentHash": "0b6f0dc525a356020c143ae9545492bb61606e228b5cecab6ad92aee2780ceff",
+    "repoId": 1470828399,
+    "firstSeen": "2026-11-25T15:29:06.513Z"
+  },
   "mswdev.fleet-monitor@1.0.0": {
     "commit": "8ea260994bff483213ecbae62a4b5febfc0ae48d",
     "contentHash": "5e7f88ae223c6a7a21984e403ed49ae9259566f038752ce2fdb17c5e010f7943",
@@ -5806,6 +5812,12 @@
     "contentHash": "c690ceb6c30cfe4aa8c94fcea9f974c918d5f82eb98377d8a2a5c1200f2e0c74",
     "repoId": 1458826849,
     "firstSeen": "2026-11-16T21:13:46.802Z"
+  },
+  "sergei-popov.api-spec-viewer@0.1.2": {
+    "commit": "f2b3f348b6e48676123dd1eca6dc8d032d5042d7",
+    "contentHash": "87789d313ff780163c2b40d543649fe7188d0740f9f07ed123581545a94e7a14",
+    "repoId": 1458826849,
+    "firstSeen": "2026-11-25T15:29:06.513Z"
   },
   "sergei-popov.archive-viewer@0.1.0": {
     "commit": "2934a3146315772abf89cdb72e88260ff62e55b2",

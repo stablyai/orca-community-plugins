@@ -2338,6 +2338,16 @@
         }
       ]
     },
+    "leo-ni88/orca-island": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (tools/__pycache__/demo.cpython-312.pyc, tools/__pycache__/demo.cpython-38.pyc)"
+        }
+      ]
+    },
     "leobessin/orca-mongo-studio": {
       "state": "listed",
       "ref": "refs/tags/leobessin/orca-mongo-studio/1.3.0",
@@ -2821,19 +2831,10 @@
     },
     "mrksoftware/orca-pod": {
       "state": "listed",
-      "ref": "refs/tags/mrksoftware/orca-pod/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "mrksoftware.pod"
-      ],
-      "update": {
-        "ref": "v0.2.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
@@ -3204,7 +3205,7 @@
     },
     "plozmun/orca-redmine": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/plozmun/orca-redmine/0.3.1",
       "plugins": [
         "plozmun.redmine-tasks"
       ]
@@ -3617,7 +3618,7 @@
     },
     "sergei-popov/orca-api-spec-viewer": {
       "state": "listed",
-      "ref": "refs/tags/sergei-popov/orca-api-spec-viewer/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "sergei-popov.api-spec-viewer"
       ]

@@ -41095,8 +41095,8 @@
       "ownerId": 7292153,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mrksoftware/orca-pod/0.1.0"
+        "url": "https://github.com/mrksoftware/orca-pod.git",
+        "ref": "v0.2.0"
       },
       "description": "Agent queue: dictate or type a task, Pod hands it to an agent (new worktree, folder or bot) and shows at a glance what is queued, running, waiting for you or done. English, Italian, Spanish.",
       "categories": [
@@ -41105,6 +41105,91 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "426f22d0ef9f2db14c26ef0fa6427a1ea6692313",
+          "contentHash": "0b6f0dc525a356020c143ae9545492bb61606e228b5cecab6ad92aee2780ceff",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pod",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pod"
+            },
+            {
+              "kind": "commands",
+              "name": "Pod: go to the first agent waiting for you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "pod"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:read",
+            "terminal:send",
+            "notifications:show",
+            "automation:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mrksoftware.pod/e5f5f806327a4aaa.png",
+              "alt": "Pod's board: queued, running, waiting-for-you and done columns with animated agent cards",
+              "sha256": "e5f5f806327a4aaa24182b56d93ebb870d8dc146be42e7df2e9ca23cfa6f5dfd",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mrksoftware.pod/3a1384168c59215b.png",
+              "alt": "Pod icon",
+              "sha256": "3a1384168c59215b8fcaff5c94a320ea4e27b80393c0c8c4fcb858c13b994ca4",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/mrksoftware.pod/c4caf95891ee8566.png",
+                "alt": "The agent board in the dark theme",
+                "sha256": "c4caf95891ee85668a95969273b5b1dbd77a35568baa2cbb9e6b097767e3e8f3",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/mrksoftware.pod/761c16b2a6d461c0.png",
+                "alt": "The agent board in the light theme",
+                "sha256": "761c16b2a6d461c0d60ab7f593bd2032dd6f243b22d938eb472aaebe827c1dc2",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/mrksoftware.pod/cf35ff25b7769e5a.png",
+                "alt": "A task's detail with the agent's question, timeline and terminal",
+                "sha256": "cf35ff25b7769e5a81b21bbf1ae75307a26e1b7da693b09c55dc99e59d35a09e",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "updatedAt": "2026-11-25T15:42:31+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/mrksoftware/orca-pod"
+        },
         {
           "version": "0.1.0",
           "commit": "9cafa6471277913eee48ecf847be45876a3c1b46",
@@ -47113,8 +47198,8 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/plozmun/orca-redmine.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/plozmun/orca-redmine/0.3.1"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
@@ -53216,12 +53301,110 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/sergei-popov/orca-api-spec-viewer/0.1.1"
+        "url": "https://github.com/Sergei-Popov/orca-api-spec-viewer.git",
+        "ref": "v0.1.2"
       },
       "description": "Browse OpenAPI 3.x, Swagger 2.0, AsyncAPI 2/3, Arazzo and Overlay files in Orca's tabs: operations, schemas, code samples, search and problems. Opens openapi.yaml and *.openapi.json by itself. Independent; not affiliated with the OpenAPI Initiative, SmartBear or the AsyncAPI Initiative.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "f2b3f348b6e48676123dd1eca6dc8d032d5042d7",
+          "contentHash": "87789d313ff780163c2b40d543649fe7188d0740f9f07ed123581545a94e7a14",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "API Spec Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "API Spec Viewer",
+              "detail": ".openapi.yaml, .swagger.yaml, .oas.yaml, .oas3.yaml, .asyncapi.yaml, .arazzo.yaml, .overlay.yaml, .yaml, openapi.yaml, swagger.yaml, asyncapi.yaml, arazzo.yaml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "API Spec Viewer",
+              "detail": ".openapi.yml, .swagger.yml, .oas.yml, .oas3.yml, .asyncapi.yml, .arazzo.yml, .overlay.yml, .yml, openapi.yml, swagger.yml, asyncapi.yml, arazzo.yml"
+            },
+            {
+              "kind": "customEditors",
+              "name": "API Spec Viewer",
+              "detail": ".openapi.json, .swagger.json, .oas.json, .oas3.json, .asyncapi.json, .arazzo.json, .overlay.json, .json, openapi.json, swagger.json, asyncapi.json, arazzo.json"
+            },
+            {
+              "kind": "customEditors",
+              "name": "API Spec Viewer",
+              "detail": ".jsonc"
+            }
+          ],
+          "fileTypes": [
+            "yaml",
+            "yml",
+            "json",
+            "jsonc"
+          ],
+          "editorFileTypes": [
+            "yaml",
+            "yml",
+            "json",
+            "jsonc"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/sergei-popov.api-spec-viewer/f04eaa4964c18eb0.png",
+              "alt": "The Bookshelf API's 10 operations by tag with coloured method badges, beside Add a book, POST /books, and its request body.",
+              "sha256": "f04eaa4964c18eb09965902c99cc2ee6514e11c5af5f7eccd1f0e3615cd75c92",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/sergei-popov.api-spec-viewer/9d5f8066cd02a6cb.png",
+              "alt": "API Spec Viewer icon",
+              "sha256": "9d5f8066cd02a6cbba86e93e32d1efa003dcf09cd601d976a2d36293cf81aeee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/2899f9fa86d58ac6.png",
+                "alt": "A draft spec's 4 errors and 1 warning, each with its line and column, and the source at line 207: a duplicate operationId.",
+                "sha256": "2899f9fa86d58ac669c9e894d96e42ecfa6482b64e9a6c710d19fb5ac7de39eb",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/2a3dc30b797140a5.png",
+                "alt": "Add a book's code samples: a curl POST to /v2/books built from the examples, with JavaScript, Python and HTTPie tabs to copy.",
+                "sha256": "2a3dc30b797140a53740990a44d18b40a4412244ee37b81ff86d3621c9d61c3e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/3d7ed3df6d684d89.png",
+                "alt": "The Book schema as a tree, its nested shelf open: each field's type, format, required and read-only flags, and examples.",
+                "sha256": "3d7ed3df6d684d89f121fc7e1fe0c0ee470ca352778621622fea7750c1b8ba61",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/a64cf44c61a3b3cf.png",
+                "alt": "Greenhouse Sensors, AsyncAPI 3.0.0: Open or close the vents sends a Vent command; its Alert reply comes on greenhouse/alerts.",
+                "sha256": "a64cf44c61a3b3cfba2813738f27e9b493ddb64b2fff85bb4a3717e46de141ee",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/sergei-popov.api-spec-viewer/7b2ab2f03b0cf481.png",
+                "alt": "Borrow a book in 3 steps: findBook, borrow and confirm, each naming the operation it calls. Shown in Orca's light theme.",
+                "sha256": "7b2ab2f03b0cf481b91a5a7d77c5217e3bc2792d5413796367f92f922fda89b2",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT AND ISC",
+          "repository": "https://github.com/Sergei-Popov/orca-api-spec-viewer",
+          "updatedAt": "2026-11-25T20:24:07+05:00"
+        },
         {
           "version": "0.1.1",
           "commit": "a96fcf7d8ca3892730e64756025ad3dd86092e83",
