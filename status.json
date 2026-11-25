@@ -1673,7 +1673,7 @@
     },
     "guilatrova/bot-kanban-board": {
       "state": "listed",
-      "ref": "refs/tags/guilatrova/bot-kanban-board/0.1.1",
+      "ref": "v0.2.0",
       "plugins": [
         "guilatrova.bot-kanban-board"
       ],
@@ -2226,7 +2226,7 @@
     },
     "kennedytedesco/wake": {
       "state": "listed",
-      "ref": "refs/tags/kennedytedesco/wake/0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "kennedytedesco.wake"
       ]
@@ -2250,7 +2250,7 @@
     },
     "klausbegnis/agent-center": {
       "state": "listed",
-      "ref": "v0.4.1",
+      "ref": "refs/tags/klausbegnis/agent-center/0.4.1",
       "plugins": [
         "klausbegnis.agent-center"
       ],

@@ -26403,8 +26403,8 @@
       "ownerId": 14880710,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/guilatrova/bot-kanban-board/0.1.1"
+        "url": "https://github.com/guilatrova/bot-kanban-board.git",
+        "ref": "v0.2.0"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -26412,6 +26412,63 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "ce393bcd245d88b1baaacdf7bdb130ded5a8dc37",
+          "contentHash": "57858375cbf14d8b710cfba11f947dba02820727c42337a7d74d66c50a6eaef0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Bot Kanban Board",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Open Bot Kanban Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Needs you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Kanban Board",
+              "detail": ".botkanban"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you …"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botkanban"
+          ],
+          "editorFileTypes": [
+            "botkanban"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/guilatrova.bot-kanban-board/f22236b542ef575f.png",
+              "alt": "All your bots, one board. Bot Kanban Board showing Needs you, In progress and pull requests ready to merge.",
+              "sha256": "f22236b542ef575fd1c018268acfed0a8562c474cc6d2c4feb0a02e91bc53279",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/guilatrova/bot-kanban-board",
+          "updatedAt": "2026-11-25T19:16:55-03:00"
+        },
         {
           "version": "0.1.1",
           "commit": "db8eafddba98433aa636ca9312564f28f9bf7d2f",
@@ -33069,8 +33126,8 @@
       "ownerId": 999232,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/kennedytedesco/wake/0.2.2"
+        "url": "https://github.com/KennedyTedesco/wake.git",
+        "ref": "v0.2.3"
       },
       "description": "A Git panel that works like GitHub Desktop: commit exactly the lines you want, send review notes to your agent, read each commit like a pull request, and switch, pull and push without leaving Orca.",
       "categories": [
@@ -33080,6 +33137,127 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "2debbf1a127528370cbf73b0ae6c2030bd34fb11",
+          "contentHash": "2f1cff76a8a2fe6f28be218fabf7ef8d951194b3dbd07f7276dee5cbf79965a4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Wake",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Wake"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Open in a tab"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Show in the sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Pull"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Push"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+G",
+              "detail": "openTab"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+G",
+              "detail": "showPanel"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Wake",
+              "detail": "Wake"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "agent:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kennedytedesco.wake/bc9a815f2b0f452c.webp",
+              "alt": "Orca with Wake open in a tab next to two terminals: changed files as a tree, two lines left out of the commit, moved code, and the branch in the status bar",
+              "sha256": "bc9a815f2b0f452ca29c7d77a49f18094ec1f50b1e0289fdc5a3e7f220c15c75",
+              "width": 2560,
+              "height": 1600
+            },
+            "icon": {
+              "path": "assets/kennedytedesco.wake/bc2ffc8d54fd0eda.png",
+              "alt": "Wake icon",
+              "sha256": "bc2ffc8d54fd0eda5b90fcc8aeae64c160be6bae186816738f7df74318288da7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/kennedytedesco.wake/0dabb5e63ca9e4a9.webp",
+                "alt": "Review notes in Wake: a note on two lines of the diff, selected code with the Add a note button under it, and the list of notes with the agents to send them to",
+                "sha256": "0dabb5e63ca9e4a99808925690b1c1fd3fbf8ca31d47c62f135b77910c8bc25e",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/74199b8efc772923.webp",
+                "alt": "A Zustand commit with three files: the commit list, the file tree, and every diff on one page",
+                "sha256": "74199b8efc772923073affa5463fe109d355c7c4e8d7df01591ebc844b7a5091",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/0ed3bad936fa59bf.webp",
+                "alt": "A side-by-side diff with changed words marked and a function that moved, with the list folded to a rail of icons",
+                "sha256": "0ed3bad936fa59bfb3545164197d2f73bb3671c9724233cc372583c414ebfb47",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/fc5dbf9a9deac354.webp",
+                "alt": "The branch menu under the current branch: a filter, the default branch, and the recent branches with the time of their last commit",
+                "sha256": "fc5dbf9a9deac354093b48d02ec4c58940b1c1ae4f5dad0e8e4c42d279432b39",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/da51b2f1d2ebc007.webp",
+                "alt": "Wake in a light Orca theme",
+                "sha256": "da51b2f1d2ebc007d94c1c32f9f28695b5f76b53f7d4a9a3d772ff7ea7b57467",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/KennedyTedesco/wake",
+          "updatedAt": "2026-11-25T19:35:34-03:00"
+        },
         {
           "version": "0.2.2",
           "commit": "8e873f45fd79a0a4dd5651fa59485437794ef6da",
@@ -33245,8 +33423,8 @@
       "ownerId": 68127491,
       "source": {
         "kind": "git",
-        "url": "https://github.com/klausbegnis/agent-center.git",
-        "ref": "v0.4.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/klausbegnis/agent-center/0.4.1"
       },
       "description": "A tavern per project where your agents are characters acting out their work. Just watch them, or turn on the idle auto-battler: levels and loot, a settlement and cities that grow, traits, achievements, daily quests, a bestiary and boss dungeons.",
       "categories": [
