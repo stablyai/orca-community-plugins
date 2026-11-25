@@ -1090,7 +1090,16 @@
       "ref": "refs/tags/duegin/orca-ensemble/0.5.5",
       "plugins": [
         "duegin.ensemble"
-      ]
+      ],
+      "update": {
+        "ref": "v0.5.6",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "ebbop/orca-italiano": {
       "state": "listed",
@@ -1548,7 +1557,7 @@
     },
     "gaspardmoindrot/orca-worktree-load": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/gaspardmoindrot/orca-worktree-load/0.6.0",
       "plugins": [
         "gaspardmoindrot.worktree-load"
       ]
@@ -2994,6 +3003,16 @@
       "ref": "refs/tags/nknwns/orca-wakatime/0.2.0",
       "plugins": [
         "nknwns.wakatime"
+      ]
+    },
+    "nodesource/nodesource-orca-theme": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
       ]
     },
     "nomadiction8991/terminal-clearup": {

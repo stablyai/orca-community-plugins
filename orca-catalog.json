@@ -24355,8 +24355,8 @@
       "ownerId": 44836297,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gaspardmoindrot/orca-worktree-load.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gaspardmoindrot/orca-worktree-load/0.6.0"
       },
       "description": "What each worktree costs your Mac: memory and CPU of its agents, MCP servers, dev servers and Docker containers, in Orca's right sidebar, with a Stop button per worktree. Local, no network. macOS.",
       "categories": [
