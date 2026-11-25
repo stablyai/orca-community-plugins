@@ -1524,7 +1524,7 @@
     },
     "gaspardmoindrot/orca-worktree-load": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/gaspardmoindrot/orca-worktree-load/0.5.0",
       "plugins": [
         "gaspardmoindrot.worktree-load"
       ]
@@ -1700,6 +1700,13 @@
       "ref": "refs/tags/hadisd/quiet-pastel/1.1.3",
       "plugins": [
         "hadisd.quiet-pastel"
+      ]
+    },
+    "hanyscz/orca-deepseek-credit": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "hanyscz.deepseek-credit"
       ]
     },
     "harsh97/agent-awake-display-off": {
@@ -2158,7 +2165,16 @@
       "ref": "refs/tags/juanpe/orca-pit-wall/0.3.2",
       "plugins": [
         "juanpe.pit-wall"
-      ]
+      ],
+      "update": {
+        "ref": "v0.4.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "kawamura0807/orca-asana-tasks": {
       "state": "listed",
@@ -3065,19 +3081,10 @@
     },
     "penguinwokrs/orca-items-board": {
       "state": "listed",
-      "ref": "refs/tags/penguinwokrs/orca-items-board/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "penguinwokrs.items-board"
-      ],
-      "update": {
-        "ref": "v0.3.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "pepodev/orca-openrouter-key-usage": {
       "state": "listed",
@@ -4474,7 +4481,7 @@
         "vzxxbacq.colab"
       ],
       "update": {
-        "ref": "v0.4.4",
+        "ref": "v0.4.5",
         "reasons": [
           {
             "category": "under-review",

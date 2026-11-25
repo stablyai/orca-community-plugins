@@ -24029,8 +24029,8 @@
       "ownerId": 44836297,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gaspardmoindrot/orca-worktree-load.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gaspardmoindrot/orca-worktree-load/0.5.0"
       },
       "description": "What each worktree costs your Mac: memory and CPU of its agents, MCP servers, dev servers and Docker containers, in Orca's right sidebar, with a Stop button per worktree. Local, no network. macOS.",
       "categories": [
@@ -26657,6 +26657,61 @@
           "license": "MIT",
           "repository": "https://github.com/Hadisd/quiet-pastel",
           "updatedAt": "2026-11-09T10:04:12+09:00"
+        }
+      ]
+    },
+    {
+      "id": "hanyscz.deepseek-credit",
+      "ownerId": 20701109,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hanyscz/orca-deepseek-credit.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Shows your remaining DeepSeek credit in Orca's status bar. Czech and English. Only sends a balance request to api.deepseek.com.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "adffaa738c73ca5357d2bf4c03fcf29ff0b5c243",
+          "contentHash": "10dc4f965f3b3fdb0d0786dd59c62ebdf6aaccf888092bd0bdeb2a2752dc1d1b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.268",
+          "name": "DeepSeek Credit",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "DeepSeek Credit: Refresh credit"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "DeepSeek"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hanyscz.deepseek-credit/e7a3e4bd62206ce4.png",
+              "alt": "DeepSeek Credit for Orca: remaining DeepSeek credit in the status bar, by Hanys",
+              "sha256": "e7a3e4bd62206ce480a9aafb2b8027da68d127bd524886935f259a0df0600ba7",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/hanyscz.deepseek-credit/feb83e233e5cf710.png",
+              "alt": "DeepSeek Credit icon",
+              "sha256": "feb83e233e5cf710c84505f41971065dd69364d6c56c99c94b2cd695857bc38c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/hanyscz/orca-deepseek-credit",
+          "updatedAt": "2026-11-25T12:52:06+01:00"
         }
       ]
     },
@@ -45395,8 +45450,8 @@
       "ownerId": 6317094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/penguinwokrs/orca-items-board/0.2.0"
+        "url": "https://github.com/penguinwokrs/orca-items-board.git",
+        "ref": "v0.3.0"
       },
       "description": "A wide board of every Orca bot's Items by status, narrowed by request (chat), with each Needs you question, its history and the bot's suggested replies one click away. English and Japanese.",
       "categories": [
@@ -45404,6 +45459,106 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "00e163725763d0d08e4e1382815f1e72407dceeb",
+          "contentHash": "85de26f1d3b2b49eb09a78bd99ba8600b359511109c1045defa1005a4b800fae",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Items Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Items"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Open Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Show Needs You"
+            },
+            {
+              "kind": "commands",
+              "name": "Items: Answer Next Needs You"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Items Board",
+              "detail": ".itemsboard"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Bot Items Board",
+              "detail": ".itemsboard"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you –"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:write",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "itemsboard"
+          ],
+          "editorFileTypes": [
+            "itemsboard"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/penguinwokrs.items-board/24267782f4a03002.png",
+              "alt": "The Bot Items Board: a request list and six status columns of bot Items, Planned first, two of them waiting on the owner",
+              "sha256": "24267782f4a030026d8d24fb37794e7f17b04bacb1058e8b60f2f0028cd55edf",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/penguinwokrs.items-board/281ba8118ab7eb64.png",
+              "alt": "Bot Items Board icon",
+              "sha256": "281ba8118ab7eb64ed2f3121f1864f56bc7679173c0b995b8508b10b31ddffc5",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/penguinwokrs.items-board/24267782f4a03002.png",
+                "alt": "The request list on the left and six status columns of Items from four demo bots, Planned first",
+                "sha256": "24267782f4a030026d8d24fb37794e7f17b04bacb1058e8b60f2f0028cd55edf",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/18bff0e435df6c31.png",
+                "alt": "The board narrowed to the Release v2.3 request, a group room with two bots, chosen in the list",
+                "sha256": "18bff0e435df6c31c095ef6cf7788db67163f84cb77f8fce2f99fef58852ca39",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/4de813c540ad2898.png",
+                "alt": "A Needs you Item in a floating box: summary, history, info column, two questions with suggested replies, and an Answer in Orca button",
+                "sha256": "4de813c540ad289817bc6288f52b7b0ab42b9c6f092b1daa73128df4cf4bd4c5",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/penguinwokrs.items-board/95e5efb185ea61ae.png",
+                "alt": "The same floating box scrolled to the end of the Item's history, with the bot's question and status changes",
+                "sha256": "95e5efb185ea61aec6200411113134a9e03db2dc6ca737f0909c0d3911f6a13a",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/penguinwokrs/orca-items-board",
+          "updatedAt": "2026-11-25T20:22:08+09:00"
+        },
         {
           "version": "0.2.0",
           "commit": "2c135304cd6d7e748f1186229d81f1cdee700744",
