@@ -26403,8 +26403,8 @@
       "ownerId": 14880710,
       "source": {
         "kind": "git",
-        "url": "https://github.com/guilatrova/bot-kanban-board.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/guilatrova/bot-kanban-board/0.1.1"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -33245,8 +33245,8 @@
       "ownerId": 68127491,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/klausbegnis/agent-center/0.4.0"
+        "url": "https://github.com/klausbegnis/agent-center.git",
+        "ref": "v0.4.1"
       },
       "description": "A tavern per project where your agents are characters acting out their work. Just watch them, or turn on the idle auto-battler: levels and loot, a settlement and cities that grow, traits, achievements, daily quests, a bestiary and boss dungeons.",
       "categories": [
@@ -33255,6 +33255,138 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "6f3422adab3c05e3941a520d7b7cbb5ae7f220cf",
+          "contentHash": "525e997106c79d89d7b7099d5a20875bfa277136072c44b97ed00ca37cfab7da",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Agent Center: Tavern & Auto-Battler",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Center"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Center: Show or Hide the Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Center: External View Address"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agent Center",
+              "detail": ".agentcenter"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Agent Center",
+              "detail": ".agentcenter"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Agents"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "fileTypes": [
+            "agentcenter"
+          ],
+          "editorFileTypes": [
+            "agentcenter"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/klausbegnis.agent-center/8c0dfb46ce0f6b4e.png",
+              "alt": "Six project rooms in game mode: parties fight their monsters, and one room is inside a boss dungeon",
+              "sha256": "8c0dfb46ce0f6b4e071f6bc196e620a1d43258aac5521ea47b03cd163383ebdf",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/klausbegnis.agent-center/737c419820822d08.png",
+              "alt": "Agent Center: Tavern & Auto-Battler icon",
+              "sha256": "737c419820822d080c4791e02418fbee834449fbacefb6e3a2d872c4f325de9b",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/klausbegnis.agent-center/2ba3721972721d39.png",
+                "alt": "Six project rooms in Gallery view on three themes",
+                "sha256": "2ba3721972721d392f02b471b8d2e4ffb458facd4bc955e073dc2f4ed6fe9dc0",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/73ada43df2c43213.png",
+                "alt": "Game mode: the camp as a settlement in pixel art, at the Village stage",
+                "sha256": "73ada43df2c432132a3273f9099b8fef55b031b16fdb391b1f589dbaa5ac152e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/077c07e0cebe2c6b.png",
+                "alt": "Game mode's named bosses, each with its own fixed look",
+                "sha256": "077c07e0cebe2c6b47f5b8516e72591e47368203240f69c1574c1f7083eacd16",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/62b59256345f5933.png",
+                "alt": "The Pixel Dark theme: a developer office with agents at their desks",
+                "sha256": "62b59256345f593372329939fb2eed2a2d3b791122b068b1ba7d54eb8fb463b9",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/934c84c3cdcc84e2.png",
+                "alt": "The Guild Hall theme: agents by the fireplace, one with a familiar",
+                "sha256": "934c84c3cdcc84e248284388cbc637f5d07a7e6f5b932f954937c97e71ad6d42",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/klausbegnis.agent-center/e467ac0220565759.png",
+                "alt": "The Gothic Dungeon theme: an agent with three familiars",
+                "sha256": "e467ac0220565759069afe5ebf269d0166804572f3053c3216a3aaff9d17fef5",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/klausbegnis/agent-center",
+          "updatedAt": "2026-11-25T21:55:42Z"
+        },
         {
           "version": "0.4.0",
           "commit": "6dc1a99a5f5768403b4bb7b2df0f151636fe2946",
@@ -69009,8 +69141,8 @@
       "ownerId": 86989629,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wizhelp/orca-proxmox.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wizhelp/orca-proxmox/0.1.0"
       },
       "description": "A Proxmox estate in Orca through Proxmox Datacenter Manager: hosts and guests with live charts, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
       "categories": [
