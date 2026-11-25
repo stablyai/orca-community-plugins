@@ -497,6 +497,12 @@
     "repoId": 1447876169,
     "firstSeen": "2026-11-06T06:24:23.168Z"
   },
+  "atherrehan.vapi@0.1.0": {
+    "commit": "3c54d77f451c6d02e0aeecf995497b6169c2cd99",
+    "contentHash": "afca1972094616c3814096b1bb92bc970eabffb592b233b89b2f7f436dfbe95d",
+    "repoId": 1469824571,
+    "firstSeen": "2026-11-25T10:17:47.584Z"
+  },
   "augustovicente.pipeline@0.1.0": {
     "commit": "9383c5af62b059e42a3d76730fdbc67a571a8b17",
     "contentHash": "c5317a7fa0ab1584032972ee372f5a1e51c1875931f2622534ea83f62eed36a0",
@@ -3197,6 +3203,12 @@
     "repoId": 1446347493,
     "firstSeen": "2026-11-07T08:13:00.007Z"
   },
+  "ivanmunozruiz.claude-autoswitch@0.3.0": {
+    "commit": "d95ceb4760dae5004b26496260100ea37ccb5a89",
+    "contentHash": "36b00934be13d6d547e5667baf48e8af11bfaf104a9f6c98fbeb5ea4dd7c05e2",
+    "repoId": 1471545967,
+    "firstSeen": "2026-11-25T10:17:47.584Z"
+  },
   "ivo922.everforest-theme@1.0.0": {
     "commit": "e0377a7bc7695d2896260b3825e40e4f62b227ba",
     "contentHash": "9c7267e0ebfd15c3f1e999fdb9f82bbd7c76adffdfdcce7bfca438c4443e39b9",
@@ -3490,6 +3502,12 @@
     "contentHash": "dfe95b149e6e65129010b0e95b102c2eea1bddbd29b0ad4da06324036b9dfc56",
     "repoId": 1468725454,
     "firstSeen": "2026-11-23T16:43:37.480Z"
+  },
+  "juanpe.pit-wall@0.3.0": {
+    "commit": "6842ad97b18e45efadefac3062397ba24602b121",
+    "contentHash": "22c80150b14892d668f1a055526b140e5a4c52ee0edfe81000b2e91771b56738",
+    "repoId": 1468725454,
+    "firstSeen": "2026-11-25T10:17:47.584Z"
   },
   "kawamura0807.asana-tasks@0.2.1": {
     "commit": "5997007624e5e7b52a28eb1bd96d2a85d3e148be",

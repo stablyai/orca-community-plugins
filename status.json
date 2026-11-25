@@ -353,6 +353,13 @@
         }
       ]
     },
+    "atherrehan/orca-vapi": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "atherrehan.vapi"
+      ]
+    },
     "augustovicente/orca-pipeline": {
       "state": "listed",
       "ref": "refs/tags/augustovicente/orca-pipeline/0.12.2",
@@ -1906,6 +1913,13 @@
         "ivanha-dev.openproject"
       ]
     },
+    "ivanmunozruiz/orca-claude-autoswitch": {
+      "state": "listed",
+      "ref": "v0.3.0",
+      "plugins": [
+        "ivanmunozruiz.claude-autoswitch"
+      ]
+    },
     "ivo922/everforest-theme": {
       "state": "listed",
       "ref": "refs/tags/ivo922/everforest-theme/1.0.0",
@@ -2124,7 +2138,7 @@
     },
     "juanpe/orca-pit-wall": {
       "state": "listed",
-      "ref": "refs/tags/juanpe/orca-pit-wall/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "juanpe.pit-wall"
       ]
@@ -3762,7 +3776,7 @@
     },
     "sleet1k/orca-quota-panel": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/sleet1k/orca-quota-panel/1.0.0",
       "plugins": [
         "sleet1k.quota-panel"
       ]

@@ -4281,6 +4281,70 @@
       ]
     },
     {
+      "id": "atherrehan.vapi",
+      "ownerId": 45193628,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/atherrehan/orca-vapi.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Unofficial, read-only Vapi console for Orca: browse assistants, calls, transcripts, tool calls and costs next to your code. Not affiliated with Vapi.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "3c54d77f451c6d02e0aeecf995497b6169c2cd99",
+          "contentHash": "afca1972094616c3814096b1bb92bc970eabffb592b233b89b2f7f436dfbe95d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Vapi Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Vapi"
+            },
+            {
+              "kind": "commands",
+              "name": "Vapi: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "Vapi: Disconnect"
+            },
+            {
+              "kind": "commands",
+              "name": "Vapi: Show network activity"
+            }
+          ],
+          "capabilities": [
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/atherrehan.vapi/6835c957dd625acd.png",
+              "alt": "Vapi Orca: a read-only Vapi console inside Orca with calls, a tool-call debugger and cost insights",
+              "sha256": "6835c957dd625acdbb3760c7c77039d95871b6609147930c5bc5980c02ed9dbc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/atherrehan.vapi/804864ea58e761e7.png",
+              "alt": "Vapi Orca icon",
+              "sha256": "804864ea58e761e7446e5203f3208711174a8bda3cf54a33b71c1c92bc3600a6",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/atherrehan/orca-vapi",
+          "updatedAt": "2026-11-25T09:44:35Z"
+        }
+      ]
+    },
+    {
       "id": "augustovicente.pipeline",
       "ownerId": 41742354,
       "source": {
@@ -28876,6 +28940,46 @@
       ]
     },
     {
+      "id": "ivanmunozruiz.claude-autoswitch",
+      "ownerId": 11923105,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ivanmunozruiz/orca-claude-autoswitch.git",
+        "ref": "v0.3.0"
+      },
+      "description": "Switches Orca to another Claude account you added in Orca when the active one nears its 5-hour or weekly limit. It never reads or stores tokens: Orca signs in and switches.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "d95ceb4760dae5004b26496260100ea37ccb5a89",
+          "contentHash": "36b00934be13d6d547e5667baf48e8af11bfaf104a9f6c98fbeb5ea4dd7c05e2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Auto-switch",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Claude Auto-switch: Check now"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude …"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ivanmunozruiz/orca-claude-autoswitch",
+          "updatedAt": "2026-11-25T11:05:12+01:00"
+        }
+      ]
+    },
+    {
       "id": "ivo922.everforest-theme",
       "ownerId": 59027079,
       "source": {
@@ -31898,14 +32002,76 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/juanpe/orca-pit-wall/0.2.0"
+        "url": "https://github.com/Juanpe/orca-pit-wall.git",
+        "ref": "v0.3.0"
       },
       "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "6842ad97b18e45efadefac3062397ba24602b121",
+          "contentHash": "22c80150b14892d668f1a055526b140e5a4c52ee0edfe81000b2e91771b56738",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pit Wall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pit Wall"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/juanpe.pit-wall/1ee73a5a26497943.png",
+              "alt": "Pit Wall next to its tagline: who is waiting on you, who is working, every worktree.",
+              "sha256": "1ee73a5a2649794329f5b75d850f7513f1191eefbda8ebc62c4c889af4b021d4",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/juanpe.pit-wall/1632d57cc0c0e9c0.png",
+                "alt": "The Overview tab: counters, an org chart of projects with an icon per session state, and What to do now.",
+                "sha256": "1632d57cc0c0e9c094dc10e1a7bf76c04d4d4c2683d3e88a0b9b19a75fcb6775",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/f5b4d27e47158766.png",
+                "alt": "The Sessions tab: sessions waiting on you with their last message, then sessions still working with their current tool.",
+                "sha256": "f5b4d27e471587661bb9ecc27246be090705a0879a07768f4334f886b54c69f0",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/8ac2e759c5993db1.png",
+                "alt": "The Worktrees tab: worktrees grouped by project, each with its PR state, checks and agents waiting or working.",
+                "sha256": "8ac2e759c5993db102ef1638fab4da8cdbdf25be2a40e456562d95ebb04674b8",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/68d0270d0ce49f4f.png",
+                "alt": "The PRs tab: pull requests sorted by checks failing, checks running, ready for review and drafts, each with its checks and the agents in its worktree.",
+                "sha256": "68d0270d0ce49f4f1f9330012af6fe41120331dcb2bbfef03d71293d64a4c1e9",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Juanpe/orca-pit-wall",
+          "updatedAt": "2026-11-25T11:17:28+01:00"
+        },
         {
           "version": "0.2.0",
           "commit": "c4b631d23e74c51bbdee87b6f9c018b7520068b0",
@@ -56689,8 +56855,8 @@
       "ownerId": 171479338,
       "source": {
         "kind": "git",
-        "url": "https://github.com/sleet1k/orca-quota-panel.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sleet1k/orca-quota-panel/1.0.0"
       },
       "description": "Monitor your free OpenRouter daily limit (requests per day, daily reset shown in your local time) with Turbo / Balance / Eco modes, editable thresholds and per-mode hints. Interface in English, Russian and Chinese.",
       "categories": [
