@@ -1673,7 +1673,7 @@
     },
     "guilatrova/bot-kanban-board": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/guilatrova/bot-kanban-board/0.2.0",
       "plugins": [
         "guilatrova.bot-kanban-board"
       ],
@@ -2226,7 +2226,7 @@
     },
     "kennedytedesco/wake": {
       "state": "listed",
-      "ref": "v0.2.3",
+      "ref": "refs/tags/kennedytedesco/wake/0.2.3",
       "plugins": [
         "kennedytedesco.wake"
       ]
@@ -2871,7 +2871,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "refs/tags/mz-jy/orca-dbt/0.6.1",
+      "ref": "v0.6.2",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -4684,7 +4684,7 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "refs/tags/wizhelp/orca-proxmox/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
       ]

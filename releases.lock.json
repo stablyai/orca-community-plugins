@@ -4529,6 +4529,12 @@
     "repoId": 1469988757,
     "firstSeen": "2026-11-25T19:43:15.568Z"
   },
+  "mz-jy.dbt@0.6.2": {
+    "commit": "14360d156f5a428f026d09b75e3059ff48d31e39",
+    "contentHash": "14dbb2b414a7f13635f95c589ef203d9b852cb0a818c7182253886b9fcda3f82",
+    "repoId": 1469988757,
+    "firstSeen": "2026-11-25T23:14:51.765Z"
+  },
   "naitsric.claude-procesos@0.1.1": {
     "commit": "901bc88e3afaa6b9d94cde7e7efd715848cbcb01",
     "contentHash": "cdf916472c38c992505ec74e9dd8e9d6f5684baea69e4d794b1064b2493228f8",
@@ -7498,6 +7504,12 @@
     "contentHash": "5ed01c6ae9f195a575c6ca3b56fc42324d3fa0f8d679643092a6c0258e2aa7ca",
     "repoId": 1472358248,
     "firstSeen": "2026-11-25T21:42:53.465Z"
+  },
+  "wizhelp.proxmox-visualizer@0.2.0": {
+    "commit": "3026b9c84e0eb9e722a1e71063d678e4d3593695",
+    "contentHash": "06cdf31a4bbe59b74aed7da0a74e476641784ce10e151b011cece2561e4d566a",
+    "repoId": 1472358248,
+    "firstSeen": "2026-11-25T23:14:51.765Z"
   },
   "woodfishhhh.better-project-tree@0.1.0": {
     "commit": "c49207bb17f0c9fc3f4b8aa825dcc9947f3ccaf2",
