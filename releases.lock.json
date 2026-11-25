@@ -1457,6 +1457,12 @@
     "repoId": 1468933815,
     "firstSeen": "2026-11-25T13:42:41.954Z"
   },
+  "computerhof.merge-review@0.5.0": {
+    "commit": "d6f85e875e77061cbb0220b98b4d8e65820da946",
+    "contentHash": "968c02400c358c5a415fa26f17990d37e6223e4eafef0bed22cdbe166a7a138f",
+    "repoId": 1468933815,
+    "firstSeen": "2026-11-25T14:54:35.766Z"
+  },
   "cplog.github-trending@1.2.0": {
     "commit": "acb413ab058adfe3de20128e13abb21914e4f538",
     "contentHash": "54eedeb580b3845a6cd59f91edafba39e5c8eea52b3275f439f4ad8d2a1c436c",
@@ -5110,6 +5116,12 @@
     "contentHash": "35a4a30ba837f132c1f76c56e69da222bcf63a90c130116193aff352ab7ccc39",
     "repoId": 1444025053,
     "firstSeen": "2026-11-25T08:21:53.246Z"
+  },
+  "plozmun.redmine-tasks@0.3.1": {
+    "commit": "253a27f1945c262d3c6dce4fb967e1234eb85e9e",
+    "contentHash": "c430055dd888f1f956712c3fb860e9f6510f4717fa0f4ec4ef4975fdbc596410",
+    "repoId": 1444025053,
+    "firstSeen": "2026-11-25T14:54:35.766Z"
   },
   "pr1p.mermaid-editor@0.3.1": {
     "commit": "d9acc95731c13f04dbe38766d202cfff36db0750",

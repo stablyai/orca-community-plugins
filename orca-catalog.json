@@ -12071,8 +12071,8 @@
       "ownerId": 276100142,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Computerhof/orca-merge-review.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/computerhof/orca-merge-review/0.5.0"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -12082,6 +12082,105 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "d6f85e875e77061cbb0220b98b4d8e65820da946",
+          "contentHash": "968c02400c358c5a415fa26f17990d37e6223e4eafef0bed22cdbe166a7a138f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Merge & Review",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Merge & Review"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Übersicht öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Nächsten Konflikt öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Mit Base vergleichen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Merge abschließen"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+M",
+              "detail": "mergeReview.open"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+J",
+              "detail": "mergeReview.nextConflict"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Merge & Review",
+              "detail": ".mergereview"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Merge"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "automation:read",
+            "automation:write",
+            "history:read"
+          ],
+          "fileTypes": [
+            "mergereview"
+          ],
+          "editorFileTypes": [
+            "mergereview"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Computerhof/orca-merge-review",
+          "updatedAt": "2026-11-25T15:13:19+01:00"
+        },
         {
           "version": "0.4.0",
           "commit": "3e90369b38396cab42416abc0439517a8427fc17",
@@ -12477,101 +12576,6 @@
           "updatedAt": "2026-11-24T14:54:39+01:00",
           "license": "MIT",
           "repository": "https://github.com/Computerhof/orca-merge-review"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "712483bc7684974e9b144d6249d5c5bf6ab78f38",
-          "contentHash": "fcf5afdc7188a0308570ac4ad21dd95d410fff3ffa9be431532dd071b007f6b8",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Merge & Review",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Merge & Review"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Übersicht öffnen"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Nächsten Konflikt öffnen"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Mit Base vergleichen"
-            },
-            {
-              "kind": "commands",
-              "name": "Merge & Review: Merge abschließen"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.tool.before"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.tool.after"
-            },
-            {
-              "kind": "hooks",
-              "name": "editor.save.before"
-            },
-            {
-              "kind": "keybindings",
-              "name": "Mod+Alt+M",
-              "detail": "mergeReview.open"
-            },
-            {
-              "kind": "keybindings",
-              "name": "Mod+Alt+J",
-              "detail": "mergeReview.nextConflict"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Merge & Review",
-              "detail": ".mergereview"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Merge"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "agent:launch",
-            "terminal:send",
-            "notifications:show",
-            "storage:own",
-            "settings:own",
-            "automation:read",
-            "automation:write",
-            "history:read"
-          ],
-          "fileTypes": [
-            "mergereview"
-          ],
-          "editorFileTypes": [
-            "mergereview"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/Computerhof/orca-merge-review",
-          "updatedAt": "2026-11-24T14:13:42+01:00"
         }
       ]
     },
@@ -23910,8 +23914,8 @@
       "ownerId": 140737398,
       "source": {
         "kind": "git",
-        "url": "https://github.com/flpcovre/orca-blade-syntax.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/flpcovre/orca-blade-syntax/0.1.0"
       },
       "description": "Laravel Blade highlighting (.blade.php) with PHP, HTML, CSS, JavaScript and SQL support.",
       "categories": [
@@ -23975,8 +23979,8 @@
       "ownerId": 140737398,
       "source": {
         "kind": "git",
-        "url": "https://github.com/flpcovre/horizon-theme.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/flpcovre/horizon-theme/1.0.0"
       },
       "description": "A beautifully warm dual theme (Dark & Bright) for Orca, faithfully ported from Horizon Theme for VS Code.",
       "categories": [
@@ -47109,8 +47113,8 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/plozmun/orca-redmine/0.3.0"
+        "url": "https://github.com/plozmun/orca-redmine.git",
+        "ref": "v0.3.1"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
@@ -47119,6 +47123,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "253a27f1945c262d3c6dce4fb967e1234eb85e9e",
+          "contentHash": "c430055dd888f1f956712c3fb860e9f6510f4717fa0f4ec4ef4975fdbc596410",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Redmine",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Redmine"
+            },
+            {
+              "kind": "commands",
+              "name": "Redmine: my open tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Redmine: open panel"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "open-tasks"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "agent:launch",
+            "workspace:create",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/plozmun.redmine-tasks/8bd45c8b326b36c0.png",
+              "alt": "The Redmine logo on a white tile beside the title “Redmine for Orca” and the tagline “Your Redmine tasks, tied to workspaces and agents.”",
+              "sha256": "8bd45c8b326b36c098c6f38ba2f3857e0ccf22df8a2103827cd1ff9564750960",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/plozmun.redmine-tasks/58788fb1ad327929.png",
+              "alt": "Redmine icon",
+              "sha256": "58788fb1ad3279293eea337e4a32eac742bf7c49c78dc695a8d95f22d1ec1b78",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/plozmun/orca-redmine",
+          "updatedAt": "2026-11-25T15:40:16+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "464122e3320a7cbe29f49410d0358baf9b58a6a9",
@@ -47400,49 +47485,6 @@
           "license": "MIT",
           "repository": "https://github.com/plozmun/orca-redmine",
           "updatedAt": "2026-11-10T08:47:21+01:00"
-        },
-        {
-          "version": "0.1.7",
-          "commit": "de6815dbe7d07366595e87ca5b8f496ab2c1d0c4",
-          "contentHash": "89c58dc9ef58ad41249c2974d26fd74e25c5bf5de1e210e76e80aa6ab2821676",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Redmine",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Redmine"
-            },
-            {
-              "kind": "commands",
-              "name": "Redmine: my open tasks"
-            }
-          ],
-          "capabilities": [
-            "settings:own",
-            "secrets:own",
-            "workspace:read",
-            "terminal:send"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/plozmun.redmine-tasks/8bd45c8b326b36c0.png",
-              "alt": "The Redmine logo on a white tile beside the title “Redmine for Orca” and the tagline “Your Redmine tasks, tied to workspaces and agents.”",
-              "sha256": "8bd45c8b326b36c098c6f38ba2f3857e0ccf22df8a2103827cd1ff9564750960",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/plozmun.redmine-tasks/58788fb1ad327929.png",
-              "alt": "Redmine icon",
-              "sha256": "58788fb1ad3279293eea337e4a32eac742bf7c49c78dc695a8d95f22d1ec1b78",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/plozmun/orca-redmine",
-          "updatedAt": "2026-11-04T08:50:51+01:00"
         }
       ]
     },
@@ -60948,11 +60990,12 @@
       "ownerId": 177523505,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thanut-suw-work/orca-dnb-plugin.git",
-        "ref": "v1.0.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thanut-suw-work/orca-dnb-plugin/1.0.3"
       },
       "description": "DnB!: Drop and Boom! falling-block puzzle game, playable offline in Orca's sidebar.",
       "categories": [
+        "games",
         "panels"
       ],
       "releases": [
