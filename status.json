@@ -1548,7 +1548,7 @@
     },
     "gaspardmoindrot/orca-worktree-load": {
       "state": "listed",
-      "ref": "refs/tags/gaspardmoindrot/orca-worktree-load/0.5.0",
+      "ref": "v0.6.0",
       "plugins": [
         "gaspardmoindrot.worktree-load"
       ]
