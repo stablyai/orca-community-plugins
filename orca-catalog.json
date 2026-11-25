@@ -41648,14 +41648,78 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.3"
+        "url": "https://github.com/ngxuancam/orca-backlog.git",
+        "ref": "v0.3.4"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.4",
+          "commit": "740309b63b9e114c8cdb0575207c4298804938a9",
+          "contentHash": "cca11efdb4e94ee685a92a6d5e598c9059ea4e80cd6cfbd45b7fb5e5d2da92f4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
+              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
+              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
+              "alt": "Backlog Tasks icon",
+              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
+                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
+                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
+                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
+                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
+                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
+                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-25T09:28:09+07:00"
+        },
         {
           "version": "0.3.3",
           "commit": "c6a038aa447d19439c51633ddfbf7bbd2a56c3f4",
@@ -45467,6 +45531,46 @@
           "license": "MIT",
           "repository": "https://github.com/PierreB40/claude-memory",
           "updatedAt": "2026-11-12T10:48:38+01:00"
+        }
+      ]
+    },
+    {
+      "id": "pinion05.zai-usage",
+      "ownerId": 117980824,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pinion05/coffinfish.git",
+        "ref": "v0.1.2"
+      },
+      "description": "GLM Coding Plan usage and time until each limit resets, in the sidebar and the status bar.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "bd5bdcbdd4155f970927598cb3f0e06fe367781c",
+          "contentHash": "cd2d48a463541d4e467cf0eff47f07cfeec43592def3db12f3f7807c0464028d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "ZAI Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ZAI Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "ZAI"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/pinion05/coffinfish",
+          "updatedAt": "2026-11-25T11:31:15+09:00"
         }
       ]
     },

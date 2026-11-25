@@ -2109,6 +2109,16 @@
         "kawamura0807.asana-tasks"
       ]
     },
+    "kennedytedesco/wake": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
+      ]
+    },
     "kevmansilla/orca-command-deck": {
       "state": "rejected",
       "ref": "v0.4.0",
@@ -2821,7 +2831,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "refs/tags/ngxuancam/orca-backlog/0.3.3",
+      "ref": "v0.3.4",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
@@ -3055,6 +3065,13 @@
       "ref": "refs/tags/pierreb40/claude-memory/0.4.2",
       "plugins": [
         "pierreb40.claude-memory"
+      ]
+    },
+    "pinion05/coffinfish": {
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "pinion05.zai-usage"
       ]
     },
     "piter75/orca-gruvbox-material-theme": {
