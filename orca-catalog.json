@@ -37301,8 +37301,8 @@
       "ownerId": 9566116,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.3.0"
+        "url": "https://github.com/mcxinyu/adb-helper-orca-plugin.git",
+        "ref": "v0.4.0"
       },
       "description": "Android ADB device management and live logcat inside Orca.",
       "categories": [
@@ -37310,6 +37310,48 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "278d17e57eff2bc1a25fbd148878ab3f76686dd6",
+          "contentHash": "bee03d6ae131e445846231dab0c3bc4608ad6676b4c5b1d2ba1dcc2a0cfea498",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "ADB Helper",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ADB Helper"
+            },
+            {
+              "kind": "commands",
+              "name": "ADB Helper: 停止 logcat"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "terminal:read",
+            "agent:launch",
+            "agent:read",
+            "history:read",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/mcxinyu.adb-helper/29a112d2d4c9e4ca.png",
+              "alt": "ADB Helper icon",
+              "sha256": "29a112d2d4c9e4ca59e9a4622324ff97ea907af60574e06380dcd874932d4e58",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mcxinyu/adb-helper-orca-plugin",
+          "updatedAt": "2026-11-25T14:44:26+08:00"
+        },
         {
           "version": "0.3.0",
           "commit": "08538ad9e254599fa0ec158f98d5a777e286ddb4",
@@ -40349,8 +40391,8 @@
       "ownerId": 11341771,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mswdev/orca-fleet-monitor/1.4.0"
+        "url": "https://github.com/mswdev/orca-fleet-monitor.git",
+        "ref": "v1.5.1"
       },
       "description": "System monitor for Orca: live CPU usage, per-core load and memory usage (RAM, swap, memory pressure) for this computer and all your paired remote servers. Like an activity monitor or task manager for all your machines: performance monitoring, stats and system resources in one sidebar panel.",
       "categories": [
@@ -40358,6 +40400,85 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.5.1",
+          "commit": "062383bf2ac14412ed9245b576da9183d0a94fef",
+          "contentHash": "a7f8dc8bc96715214642f63715a6c7720cfebeb7438938e67430f0c645aece98",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Fleet Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Fleet Monitor"
+            },
+            {
+              "kind": "commands",
+              "name": "Fleet Monitor: Send a test alert"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Fleet"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mswdev.fleet-monitor/fbd42485fe98ef30.png",
+              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
+              "sha256": "fbd42485fe98ef30e2f6245b65c15ad46827bb006f4cf8e5dac6770a6c3a3aaf",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
+              "alt": "Fleet Monitor icon",
+              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/mswdev.fleet-monitor/6c20109637a68c3a.png",
+                "alt": "Five sample machines with health, CPU and memory, beside one strained machine's detail: its tabs, charts, per-core load and the process using the most memory.",
+                "sha256": "6c20109637a68c3a74b3c9b8eabf91bb793298d44c53dcbc7e1016bf52bf61d6",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/1f1acb1b61d3fff2.png",
+                "alt": "The same overview and machine detail in the dark theme.",
+                "sha256": "1f1acb1b61d3fff202921014e12d3445649a3cdadb5eb58cc5bfa6c8aed2d494",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/bf6d485e4966c6db.png",
+                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
+                "sha256": "bf6d485e4966c6dbc4d619dc04ccb37047b32b3de890d85565e75b243af074ce",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mswdev.fleet-monitor/5db3049eb335ae35.png",
+                "alt": "This computer's network, GPU, battery and two named disks above its processes, beside a paired Mac's readings, three named disks and 60 busiest processes.",
+                "sha256": "5db3049eb335ae35c18f08c42be2260e541d8d98e605ff0375147f4df4b47be8",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mswdev/orca-fleet-monitor",
+          "updatedAt": "2026-11-24T23:43:07-07:00"
+        },
         {
           "version": "1.4.0",
           "commit": "87b514a3075d2a7e14e293898ee0a0670ba87ad9",
@@ -40673,85 +40794,6 @@
           "license": "MIT",
           "repository": "https://github.com/mswdev/orca-fleet-monitor",
           "updatedAt": "2026-11-12T17:12:59-07:00"
-        },
-        {
-          "version": "1.2.0",
-          "commit": "af37bb24b11708d8a088e1d0ba864c674975fe29",
-          "contentHash": "e0a620e3981df59730e62afd9be1823186b1dd3838fc7ae2478c95238d8172a0",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Fleet Monitor",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Fleet Monitor"
-            },
-            {
-              "kind": "commands",
-              "name": "Show Fleet Monitor"
-            },
-            {
-              "kind": "commands",
-              "name": "Fleet Monitor: Send a test alert"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Fleet"
-            }
-          ],
-          "capabilities": [
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/mswdev.fleet-monitor/44467abc88394983.png",
-              "alt": "Fleet Monitor in the dark theme: five sample machines with health, CPU and memory, beside one machine's charts and per-core load.",
-              "sha256": "44467abc88394983b807d72b3319eefbc74e751c5c241ed3c76943494cb4c551",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/mswdev.fleet-monitor/a75feec4cdbc744e.png",
-              "alt": "Fleet Monitor icon",
-              "sha256": "a75feec4cdbc744ee7e4959b1910f64991e0085c048c3f644a4f0751d935f777",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/mswdev.fleet-monitor/6284f1f5fd2beb42.png",
-                "alt": "Five sample machines with health, CPU and memory, beside one strained machine's detail: its tabs, charts, per-core load and the process using the most memory.",
-                "sha256": "6284f1f5fd2beb425582c72e06aebd5cdfc08babf45d21cfee0ef20ab2b05e16",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mswdev.fleet-monitor/497b808748ca4923.png",
-                "alt": "The same overview and machine detail in the dark theme.",
-                "sha256": "497b808748ca49230a4f742ded254ac2437ce63bc86750cdcca97d7d6ff61e93",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mswdev.fleet-monitor/3fe5a39658bf2301.png",
-                "alt": "A basic machine with its CPU estimate labelled and the command that installs Fleet Monitor there, beside an offline machine's last readings.",
-                "sha256": "3fe5a39658bf23012d444f2df61807a7dd9b43bbb4b5a2e17be09db04dc76e74",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mswdev.fleet-monitor/b5ed503d106220f3.png",
-                "alt": "This computer's network, disk, GPU and battery readings above its processes sorted by CPU, beside a paired Mac's readings and its 60 busiest processes.",
-                "sha256": "b5ed503d106220f336e3c42c3b13ab3c094518a6122656c2dbd070c396c18344",
-                "width": 2560,
-                "height": 1600
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/mswdev/orca-fleet-monitor",
-          "updatedAt": "2026-11-13T10:44:50+14:00"
         }
       ]
     },

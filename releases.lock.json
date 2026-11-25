@@ -3983,6 +3983,12 @@
     "repoId": 1468254688,
     "firstSeen": "2026-11-24T10:16:41.465Z"
   },
+  "mcxinyu.adb-helper@0.4.0": {
+    "commit": "278d17e57eff2bc1a25fbd148878ab3f76686dd6",
+    "contentHash": "bee03d6ae131e445846231dab0c3bc4608ad6676b4c5b1d2ba1dcc2a0cfea498",
+    "repoId": 1468254688,
+    "firstSeen": "2026-11-25T06:47:57.839Z"
+  },
   "michelvelzr.ork-dbclient@0.1.0": {
     "commit": "0e7ce33aea23bc4bbfd742960a7e369361ea3a12",
     "contentHash": "9a775f19962635530797f91443ee509c69909e819e6c7fc5da9e282a29a767ea",
@@ -4318,6 +4324,12 @@
     "contentHash": "017eca7fdc3601bf7b08884b0e37ca2394e4c218535aa455f66e5ae63ba7806b",
     "repoId": 1454660025,
     "firstSeen": "2026-11-20T09:43:15.339Z"
+  },
+  "mswdev.fleet-monitor@1.5.1": {
+    "commit": "062383bf2ac14412ed9245b576da9183d0a94fef",
+    "contentHash": "a7f8dc8bc96715214642f63715a6c7720cfebeb7438938e67430f0c645aece98",
+    "repoId": 1454660025,
+    "firstSeen": "2026-11-25T06:47:57.839Z"
   },
   "mz-jy.dbt@0.3.2": {
     "commit": "c8c65c4668c5e02bef547d396f4c436d97a5b9fd",

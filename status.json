@@ -1591,7 +1591,16 @@
       "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.12.11",
       "plugins": [
         "gook-lab.agent-scheduler"
-      ]
+      ],
+      "update": {
+        "ref": "v0.13.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "gops132/gray-orca": {
       "state": "listed",
@@ -2517,7 +2526,7 @@
     },
     "mcxinyu/adb-helper-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/mcxinyu/adb-helper-orca-plugin/0.3.0",
+      "ref": "v0.4.0",
       "plugins": [
         "mcxinyu.adb-helper"
       ]
@@ -2723,7 +2732,7 @@
     },
     "mswdev/orca-fleet-monitor": {
       "state": "listed",
-      "ref": "refs/tags/mswdev/orca-fleet-monitor/1.4.0",
+      "ref": "v1.5.1",
       "plugins": [
         "mswdev.fleet-monitor"
       ]
