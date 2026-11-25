@@ -1672,13 +1672,13 @@
       ]
     },
     "guilatrova/bot-kanban-board": {
-      "state": "rejected",
-      "ref": "v0.1.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "guilatrova.bot-kanban-board"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "guilatrova/token-reminder": {
@@ -4680,6 +4680,13 @@
       "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.3",
       "plugins": [
         "wilsonliu123.token-pulse"
+      ]
+    },
+    "wizhelp/orca-proxmox": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "wizhelp.proxmox-visualizer"
       ]
     },
     "woodfishhhh/better-project-tree": {

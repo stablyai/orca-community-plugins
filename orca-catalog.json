@@ -26399,6 +26399,79 @@
       ]
     },
     {
+      "id": "guilatrova.bot-kanban-board",
+      "ownerId": 14880710,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/guilatrova/bot-kanban-board.git",
+        "ref": "v0.1.1"
+      },
+      "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "db8eafddba98433aa636ca9312564f28f9bf7d2f",
+          "contentHash": "66517cc2890db5524903ce747c3ae04096f1ba94e8742d07192d0020bd25e3f3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Bot Kanban Board",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Open Bot Kanban Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Needs you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Kanban Board",
+              "detail": ".botkanban"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you …"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botkanban"
+          ],
+          "editorFileTypes": [
+            "botkanban"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/guilatrova.bot-kanban-board/f22236b542ef575f.png",
+              "alt": "All your bots, one board. Bot Kanban Board showing Needs you, In progress and pull requests ready to merge.",
+              "sha256": "f22236b542ef575fd1c018268acfed0a8562c474cc6d2c4feb0a02e91bc53279",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/guilatrova/bot-kanban-board",
+          "updatedAt": "2026-11-25T18:39:47-03:00"
+        }
+      ]
+    },
+    {
       "id": "gusainhimanshu.control-room",
       "ownerId": 3341820,
       "source": {
@@ -68928,6 +69001,92 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-23T11:08:06+08:00"
+        }
+      ]
+    },
+    {
+      "id": "wizhelp.proxmox-visualizer",
+      "ownerId": 86989629,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/wizhelp/orca-proxmox.git",
+        "ref": "v0.1.0"
+      },
+      "description": "A Proxmox estate in Orca through Proxmox Datacenter Manager: hosts and guests with live charts, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "e661097caf596d55b3c6518f1a7acf0b0954c59a",
+          "contentHash": "5ed01c6ae9f195a575c6ca3b56fc42324d3fa0f8d679643092a6c0258e2aa7ca",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Proxmox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Proxmox"
+            },
+            {
+              "kind": "commands",
+              "name": "Proxmox: Show the estate panel"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Proxmox"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wizhelp.proxmox-visualizer/d79c32ad6438ad5d.png",
+              "alt": "Proxmox for Orca: the panel with host cards in the light theme and the estate tree in the dark theme, from an example estate",
+              "sha256": "d79c32ad6438ad5da20b4a7f234275f42a0e9b8cded7997041b273f73b6c0ed6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wizhelp.proxmox-visualizer/a0ea607b4dd3d769.png",
+              "alt": "Proxmox icon",
+              "sha256": "a0ea607b4dd3d7696338dbcd0bbfe1856d5db9f6ca03b54d6711d453a3b263e7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/a1950cebcc9d8e09.png",
+                "alt": "Host cards with CPU, memory and network charts; the estate tree in the dark theme; the guests table with one guest opened",
+                "sha256": "a1950cebcc9d8e092cc8ed189fc12687f84a45ad6e0641b2edb2cbe223b1ce8b",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/93af8d257069a2b4.png",
+                "alt": "Tasks of every remote with two failed backups; where a new VM fits, best node first; Orca hosts placed on their Proxmox nodes",
+                "sha256": "93af8d257069a2b49c6d867a4389f2fc5485663e80c195672d64849fb2e1676d",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/c3e4533282c72499.png",
+                "alt": "The Copy for AI preview without addresses; backups by age; the settings form with a read-only token and a pinned fingerprint",
+                "sha256": "c3e4533282c72499877cb732354435f85d7008cd685b5565cf5da78bd97f799c",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wizhelp/orca-proxmox",
+          "updatedAt": "2026-11-25T22:22:54+01:00"
         }
       ]
     },
