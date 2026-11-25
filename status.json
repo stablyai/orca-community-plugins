@@ -1094,7 +1094,7 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.274",
+      "ref": "refs/tags/ebbop/orca-italiano/1.4.274",
       "plugins": [
         "ebbop.italiano"
       ]
@@ -1520,6 +1520,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "gaspardmoindrot/orca-worktree-load": {
+      "state": "listed",
+      "ref": "v0.5.0",
+      "plugins": [
+        "gaspardmoindrot.worktree-load"
       ]
     },
     "gdulamat/ork-db": {
@@ -2129,6 +2136,16 @@
         }
       ]
     },
+    "juancristobalmm/smart-host-session-tree": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "juancruzc97/orca-parquet-viewer": {
       "state": "listed",
       "ref": "refs/tags/juancruzc97/orca-parquet-viewer/1.0.0",
@@ -2138,7 +2155,7 @@
     },
     "juanpe/orca-pit-wall": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/juanpe/orca-pit-wall/0.3.2",
       "plugins": [
         "juanpe.pit-wall"
       ]
@@ -3051,7 +3068,16 @@
       "ref": "refs/tags/penguinwokrs/orca-items-board/0.2.0",
       "plugins": [
         "penguinwokrs.items-board"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size"
+          }
+        ]
+      }
     },
     "pepodev/orca-openrouter-key-usage": {
       "state": "listed",
@@ -3369,7 +3395,7 @@
         "rr235.power-sessions"
       ],
       "update": {
-        "ref": "v0.2.0",
+        "ref": "v0.2.2",
         "reasons": [
           {
             "category": "under-review",
@@ -4222,7 +4248,7 @@
     },
     "vaclavgreif/orca-live-agents": {
       "state": "rejected",
-      "ref": "v0.1.8",
+      "ref": "v0.1.9",
       "reasons": [
         {
           "category": "licence",
@@ -4637,6 +4663,13 @@
       "ref": "refs/tags/zifengjiang/orca-workspace-namer/0.2.0",
       "plugins": [
         "zifengjiang.workspace-namer"
+      ]
+    },
+    "zwbx/orca-nextcode": {
+      "state": "listed",
+      "ref": "refs/tags/zwbx/orca-nextcode/0.1.1",
+      "plugins": [
+        "zwbx.nextcode"
       ]
     }
   }

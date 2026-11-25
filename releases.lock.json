@@ -2531,6 +2531,12 @@
     "repoId": 1442699329,
     "firstSeen": "2026-11-02T09:19:51.152Z"
   },
+  "gaspardmoindrot.worktree-load@0.5.0": {
+    "commit": "85a2c3b1bcb57f0aac2b99dacd727158c1b61c0c",
+    "contentHash": "28c9677fa92e1b0346f33c59a1bf3e2bff165e04b4e93c610e02fee6970f6fe1",
+    "repoId": 1471639998,
+    "firstSeen": "2026-11-25T11:42:36.368Z"
+  },
   "gdulamat.ork-db@0.6.0": {
     "commit": "ed3573e5faeada9883f416bb651a82ccbbd0647c",
     "contentHash": "8e291e904a4a620f3e07b55aac1dc8ba3e7e17885fc1f15cf2d489b933e33ac9",
@@ -7510,5 +7516,11 @@
     "contentHash": "e0846ffa2c12f03eea4a5f059decd29f4e5ef5ebda6c494dee35718539cc94e7",
     "repoId": 1457809652,
     "firstSeen": "2026-11-17T10:14:58.602Z"
+  },
+  "zwbx.nextcode@0.1.1": {
+    "commit": "01b5a7b6a7d748d062a73e1adf0a500b3c23305e",
+    "contentHash": "8868aee63404f60041350002c9447b4299879b233b2ea895a3be9fcb83ef19e5",
+    "repoId": 1471634005,
+    "firstSeen": "2026-11-25T11:42:36.368Z"
   }
 }

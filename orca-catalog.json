@@ -18047,8 +18047,8 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.274"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebbop/orca-italiano/1.4.274"
       },
       "description": "jAI Studio · 22.690 testi su 22.690 (100%), allineato a Orca 1.4.274. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -24021,6 +24021,85 @@
           "license": "MIT",
           "repository": "https://github.com/gaoshang212/orca-csharp",
           "updatedAt": "2026-11-02T16:35:44+08:00"
+        }
+      ]
+    },
+    {
+      "id": "gaspardmoindrot.worktree-load",
+      "ownerId": 44836297,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gaspardmoindrot/orca-worktree-load.git",
+        "ref": "v0.5.0"
+      },
+      "description": "What each worktree costs your Mac: memory and CPU of its agents, MCP servers, dev servers and Docker containers, in Orca's right sidebar, with a Stop button per worktree. Local, no network. macOS.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "85a2c3b1bcb57f0aac2b99dacd727158c1b61c0c",
+          "contentHash": "28c9677fa92e1b0346f33c59a1bf3e2bff165e04b4e93c610e02fee6970f6fe1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Worktree Load",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Worktree Load"
+            },
+            {
+              "kind": "commands",
+              "name": "Worktree Load: show the panel"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Worktrees…"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/gaspardmoindrot.worktree-load/0bfc4d5003e06a6c.png",
+              "alt": "The panel: the Mac's memory by worktrees, Docker and Orca, two Docker stacks left running, and sample worktrees with their memory.",
+              "sha256": "0bfc4d5003e06a6c684ae8af0b709cc646e44547c95f3fc25fe1fcb666ebd03d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/gaspardmoindrot.worktree-load/b7c7b818f7baafef.png",
+              "alt": "Worktree Load icon",
+              "sha256": "b7c7b818f7baafef691c6d6e84774c5eb7589917e53ee97337906281d0f9a6ec",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/gaspardmoindrot.worktree-load/a3eda31beeeaad05.png",
+                "alt": "Two dark panels with sample data: worktrees heaviest first, and one opened to show its MCP servers, Claude sessions and Docker.",
+                "sha256": "a3eda31beeeaad05b978f396871be289440e0673e4aa3b7fa0086e74d31e26e6",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/gaspardmoindrot.worktree-load/7a4c19a5ab59184b.png",
+                "alt": "The same two panels in the light theme.",
+                "sha256": "7a4c19a5ab59184be1f0608cf06de879ee891643fd60f26fe5f4cc1ce49bf1c7",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/gaspardmoindrot/orca-worktree-load",
+          "updatedAt": "2026-11-25T12:03:50+01:00"
         }
       ]
     },
@@ -32035,8 +32114,8 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Juanpe/orca-pit-wall.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/juanpe/orca-pit-wall/0.3.2"
       },
       "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you. Each agent state has its own icon, and only what needs you moves.",
       "categories": [
@@ -70965,6 +71044,44 @@
           "license": "MIT",
           "repository": "https://github.com/zifengjiang/orca-workspace-namer",
           "updatedAt": "2026-11-14T21:53:35+08:00"
+        }
+      ]
+    },
+    {
+      "id": "zwbx.nextcode",
+      "ownerId": 38418735,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/zwbx/orca-nextcode/0.1.1"
+      },
+      "description": "Read NextCode items using your private instance configuration and associate them with Orca workspaces.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "01b5a7b6a7d748d062a73e1adf0a500b3c23305e",
+          "contentHash": "8868aee63404f60041350002c9447b4299879b233b2ea895a3be9fcb83ef19e5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "NextCode",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "NextCode"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/zwbx/orca-nextcode",
+          "updatedAt": "2026-11-25T18:56:34+08:00"
         }
       ]
     }
