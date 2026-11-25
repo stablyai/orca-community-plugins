@@ -744,6 +744,11 @@
       "stats": null
     },
     {
+      "id": "dimti.taskfile-runner",
+      "stars": 0,
+      "stats": null
+    },
+    {
       "id": "dinhkarate.incognito-projects",
       "stars": 0,
       "stats": null
@@ -790,7 +795,7 @@
     },
     {
       "id": "duegin.ensemble",
-      "stars": 80,
+      "stars": 81,
       "stats": null
     },
     {
@@ -1751,7 +1756,7 @@
     },
     {
       "id": "plozmun.redmine-tasks",
-      "stars": null,
+      "stars": 2,
       "stats": null
     },
     {
@@ -2441,8 +2446,9 @@
     },
     {
       "id": "yeleup.agent-queue-kit-probe",
-      "stars": 0,
-      "stats": null
+      "stars": null,
+      "stats": null,
+      "sourceUnavailable": true
     },
     {
       "id": "yeonjin1357.line-blame",

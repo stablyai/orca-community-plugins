@@ -15433,6 +15433,73 @@
       ]
     },
     {
+      "id": "dimti.taskfile-runner",
+      "ownerId": 582144,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dimti/orca-plugin-taskfile.git",
+        "ref": "v0.1.3"
+      },
+      "description": "Панель со списком задач из Taskfile.yml фокусного воркспейса: клик по задаче запускает task в терминале-вкладке воркспейса, статусы, остановка и перезапуск — в панели и в виде Taskfile Runner.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "06a81c6e1211939d5f084701c2b434f43898bd02",
+          "contentHash": "ad8c2f90767af86ea220a580988dfa02195227e960c1209c1e0b66b6bd4f6e46",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Taskfile Runner",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Taskfile"
+            },
+            {
+              "kind": "commands",
+              "name": "Taskfile: показать оснастку"
+            },
+            {
+              "kind": "commands",
+              "name": "Taskfile: задачи в редакторе"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+P",
+              "detail": "taskfile.openPanel"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Taskfile Runner",
+              "detail": "Taskfile.yml, Taskfile.yaml"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send",
+            "terminal:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dimti.taskfile-runner/9d2a0464557c30c1.png",
+              "alt": "Панель Taskfile Runner со списком задач и вид редактора Taskfile.yml с кнопкой запуска",
+              "sha256": "9d2a0464557c30c1fa066f41c99853d43624a1989b00495ab0b14c201dbca949",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dimti/orca-plugin-taskfile",
+          "updatedAt": "2026-11-25T11:12:52+03:00"
+        }
+      ]
+    },
+    {
       "id": "dinhkarate.incognito-projects",
       "ownerId": 57869841,
       "source": {
@@ -25139,8 +25206,8 @@
       "ownerId": 319692094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gook-lab/orca-agent-scheduler.git",
-        "ref": "v0.13.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gook-lab/orca-agent-scheduler/0.13.1"
       },
       "description": "Sends a prompt to a Claude Code, Codex or Gemini CLI terminal in Orca at set times — every day, on weekdays, on picked days or dates, or every N minutes. It waits until the terminal is idle, can ask a command first whether to send, fills in the last run's result, sends through the Orca CLI, and reco",
       "categories": [
@@ -41856,14 +41923,78 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.9"
+        "url": "https://github.com/ngxuancam/orca-backlog.git",
+        "ref": "v0.3.10"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.10",
+          "commit": "63b70b70a1a55a03bfb201452e287a282d576c46",
+          "contentHash": "f03d5492d39835b7a7580025859d4b0991fe5794fd7459a1e9101effcb102e70",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
+              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
+              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
+              "alt": "Backlog Tasks icon",
+              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
+                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
+                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
+                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
+                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
+                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
+                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-25T14:53:55+07:00"
+        },
         {
           "version": "0.3.9",
           "commit": "6d5be62e416ff3da467b04eeb3733de433760c23",
@@ -42119,70 +42250,6 @@
           "license": "MIT",
           "repository": "https://github.com/ngxuancam/orca-backlog",
           "updatedAt": "2026-11-25T09:49:13+07:00"
-        },
-        {
-          "version": "0.3.4",
-          "commit": "740309b63b9e114c8cdb0575207c4298804938a9",
-          "contentHash": "cca11efdb4e94ee685a92a6d5e598c9059ea4e80cd6cfbd45b7fb5e5d2da92f4",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Backlog Tasks",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Backlog Tasks"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "workspace:write",
-            "workspace:create",
-            "agent:launch"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
-              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
-              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
-              "alt": "Backlog Tasks icon",
-              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
-                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
-                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
-                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
-                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
-                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
-                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/ngxuancam/orca-backlog",
-          "updatedAt": "2026-11-25T09:28:09+07:00"
         }
       ]
     },
@@ -46189,8 +46256,8 @@
       "ownerId": 879675,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/plozmun/orca-redmine/0.2.1"
+        "url": "https://github.com/plozmun/orca-redmine.git",
+        "ref": "v0.3.0"
       },
       "description": "Your Redmine tasks in Orca's sidebar, linked to workspaces and agents.",
       "categories": [
@@ -46199,6 +46266,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "464122e3320a7cbe29f49410d0358baf9b58a6a9",
+          "contentHash": "35a4a30ba837f132c1f76c56e69da222bcf63a90c130116193aff352ab7ccc39",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Redmine",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Redmine"
+            },
+            {
+              "kind": "commands",
+              "name": "Redmine: my open tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Redmine: open panel"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "open-tasks"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "agent:launch",
+            "workspace:create",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/plozmun.redmine-tasks/8bd45c8b326b36c0.png",
+              "alt": "The Redmine logo on a white tile beside the title “Redmine for Orca” and the tagline “Your Redmine tasks, tied to workspaces and agents.”",
+              "sha256": "8bd45c8b326b36c098c6f38ba2f3857e0ccf22df8a2103827cd1ff9564750960",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/plozmun.redmine-tasks/58788fb1ad327929.png",
+              "alt": "Redmine icon",
+              "sha256": "58788fb1ad3279293eea337e4a32eac742bf7c49c78dc695a8d95f22d1ec1b78",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "updatedAt": "2026-11-25T08:30:13+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/plozmun/orca-redmine"
+        },
         {
           "version": "0.2.1",
           "commit": "cd0d5b1af34344ad6616eed1ccb8f4a0d682ea40",
@@ -68117,8 +68265,8 @@
       "ownerId": 10289602,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Yeleup/agent-queue-kit-probe.git",
-        "ref": "v0.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yeleup/agent-queue-kit-probe/0.0.2"
       },
       "description": "Temporary probe: checks catalog install and auto-update for a future plugin. It only shows its version in the status bar.",
       "categories": [],
@@ -68141,7 +68289,8 @@
           ],
           "license": "MIT",
           "repository": "https://github.com/Yeleup/agent-queue-kit-probe",
-          "updatedAt": "2026-11-25T12:26:55+05:00"
+          "updatedAt": "2026-11-25T12:26:55+05:00",
+          "sourceUnavailable": true
         },
         {
           "version": "0.0.1",
@@ -68161,7 +68310,8 @@
           ],
           "license": "MIT",
           "repository": "https://github.com/Yeleup/agent-queue-kit-probe",
-          "updatedAt": "2026-11-24T20:30:39+05:00"
+          "updatedAt": "2026-11-24T20:30:39+05:00",
+          "sourceUnavailable": true
         }
       ]
     },
