@@ -1704,7 +1704,7 @@
     },
     "hanyscz/orca-deepseek-credit": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/hanyscz/orca-deepseek-credit/0.1.0",
       "plugins": [
         "hanyscz.deepseek-credit"
       ]
@@ -2162,19 +2162,10 @@
     },
     "juanpe/orca-pit-wall": {
       "state": "listed",
-      "ref": "refs/tags/juanpe/orca-pit-wall/0.3.2",
+      "ref": "v0.4.1",
       "plugins": [
         "juanpe.pit-wall"
-      ],
-      "update": {
-        "ref": "v0.4.1",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "kawamura0807/orca-asana-tasks": {
       "state": "listed",
@@ -3081,7 +3072,7 @@
     },
     "penguinwokrs/orca-items-board": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/penguinwokrs/orca-items-board/0.3.0",
       "plugins": [
         "penguinwokrs.items-board"
       ]

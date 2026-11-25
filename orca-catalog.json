@@ -26665,8 +26665,8 @@
       "ownerId": 20701109,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hanyscz/orca-deepseek-credit.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hanyscz/orca-deepseek-credit/0.1.0"
       },
       "description": "Shows your remaining DeepSeek credit in Orca's status bar. Czech and English. Only sends a balance request to api.deepseek.com.",
       "categories": [
@@ -32169,14 +32169,76 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/juanpe/orca-pit-wall/0.3.2"
+        "url": "https://github.com/Juanpe/orca-pit-wall.git",
+        "ref": "v0.4.1"
       },
       "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you. Each agent state has its own icon, and only what needs you moves.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.1",
+          "commit": "7411f33651e8362ca5924e3343e801e8eefee3ad",
+          "contentHash": "c7505827fa8ab320ad6537f914d5c3873b7012bc53c1043d66876ef89a7a7a88",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pit Wall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pit Wall"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/juanpe.pit-wall/c04c2cc46cbca5ee.png",
+              "alt": "Pit Wall next to its tagline: who is waiting on you, who is working, every worktree.",
+              "sha256": "c04c2cc46cbca5eed270020e438c170f7e97eed27f11fc81cdcaa53193220563",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/juanpe.pit-wall/5e13b623081530aa.png",
+                "alt": "The Overview tab: counters, an org chart of projects with an icon per session state, and What to do now.",
+                "sha256": "5e13b623081530aa5e664fcf319bb1c3ecd675a4a4813866a4a5abbc45e9f2f3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/dce7214b88f04816.png",
+                "alt": "The Sessions tab: sessions waiting on you with their last message, then sessions still working with their current tool.",
+                "sha256": "dce7214b88f04816d0917dfa939f3257f9f310e5ecb5e08c7074770fd9f5c06a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/a8bbce5402381511.png",
+                "alt": "The Worktrees tab: worktrees grouped by project, each with its PR state, checks and agents waiting or working.",
+                "sha256": "a8bbce54023815110645a6b2a69d9f95e66114b7817db70e3944e1b27ed88309",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/1aa0b36e70a0bde3.png",
+                "alt": "The PRs tab: pull requests sorted by checks failing, checks running, ready for review and drafts, each with its checks and the agents in its worktree.",
+                "sha256": "1aa0b36e70a0bde3424b408482d5c87b8266a1e3cd764846e36307795497d7d6",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Juanpe/orca-pit-wall",
+          "updatedAt": "2026-11-25T13:03:16+01:00"
+        },
         {
           "version": "0.3.2",
           "commit": "d5ef9628022042c910504b4a96941de3ba983800",
@@ -32417,61 +32479,6 @@
           "license": "MIT",
           "repository": "https://github.com/Juanpe/orca-pit-wall",
           "updatedAt": "2026-11-23T13:59:12+01:00"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "5e197ac0470cea0c7c2bb0c8e78b4b3a689b5a97",
-          "contentHash": "2865fbd8f4dd06dc6c5161ae1790053d5bf99351f12b8bf4d3269c22fc6c31eb",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Pit Wall",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pit Wall"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "workspace:write",
-            "storage:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/juanpe.pit-wall/ae8e1a9fc4dd0b79.png",
-              "alt": "Pit Wall next to its tagline: who is waiting on you, who is working, every worktree.",
-              "sha256": "ae8e1a9fc4dd0b791e60aa33182f04bb910ab0c018852f36581bec51bfab6f7c",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/juanpe.pit-wall/1e688f644264c41e.png",
-                "alt": "The Overview tab: counters, an org chart of projects and their sessions colored by state, and What to do now.",
-                "sha256": "1e688f644264c41e297061aae7486b5d2ff73b898937b152ea72abcf4fa20d41",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/juanpe.pit-wall/3b04d542f7145e53.png",
-                "alt": "The Sessions tab: sessions waiting on you with their last message, then sessions still working with their current tool.",
-                "sha256": "3b04d542f7145e53c3db03c45e695c9bc5cfbf4c980a8a8d8752548d544a1227",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/juanpe.pit-wall/09f82e3cec670278.png",
-                "alt": "The Worktrees tab: each worktree with its project, PR state, checks and agents waiting or working.",
-                "sha256": "09f82e3cec670278ee4677c447ec97f657303b248c3fa4828e389a3979554718",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Juanpe/orca-pit-wall",
-          "updatedAt": "2026-11-23T13:40:19+01:00"
         }
       ]
     },
@@ -45450,8 +45457,8 @@
       "ownerId": 6317094,
       "source": {
         "kind": "git",
-        "url": "https://github.com/penguinwokrs/orca-items-board.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/penguinwokrs/orca-items-board/0.3.0"
       },
       "description": "A wide board of every Orca bot's Items by status, narrowed by request (chat), with each Needs you question, its history and the bot's suggested replies one click away. English and Japanese.",
       "categories": [
