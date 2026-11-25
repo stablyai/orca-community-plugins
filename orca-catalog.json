@@ -25268,8 +25268,8 @@
       "ownerId": 174983892,
       "source": {
         "kind": "git",
-        "url": "https://github.com/GongXLiang/Claude-paper.git",
-        "ref": "v0.6.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gongxliang/claude-paper/0.6.5"
       },
       "description": "Claude-inspired light and dark colors for Orca Chat and agent terminals, with 455 distinct file icons, calm honey-kraft folders and optional IBM Plex Mono.",
       "categories": [
@@ -37124,14 +37124,69 @@
       "ownerId": 47753684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/marco-calderon/nord-midnight-orca-theme/1.3.0"
+        "url": "https://github.com/marco-calderon/nord-midnight-orca-theme.git",
+        "ref": "v1.4.2"
       },
       "description": "Nord on a deeper, uniform #1C1E21 background that is easier on the eyes, plus a matching light theme.",
       "categories": [
-        "themes"
+        "themes",
+        "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.4.2",
+          "commit": "449781f33f2e389b0bbd271ceadae3e2fdbb9fde",
+          "contentHash": "ec9f7a88a014224a0be43af0678a53d3e65f7cd20ae3c77a15c61267bee582b4",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Nord Midnight",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Nord Midnight"
+            },
+            {
+              "kind": "themes",
+              "name": "Nord Midnight Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Nord Midnight"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Nord Midnight Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/marco-calderon.nord-midnight-theme/490f42dde29ab612.png",
+              "alt": "Nord Midnight dark and light themes side by side in Orca, with sample projects, code and a terminal",
+              "sha256": "490f42dde29ab6125b235ecb74def75087684f0c64cd0976a99b53992410b680",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/marco-calderon.nord-midnight-theme/101c181f66fe0db0.png",
+                "alt": "Nord Midnight in Orca: the project sidebar, a TypeScript file, a terminal with git output and the file tree",
+                "sha256": "101c181f66fe0db078ad4ff3f5bdaa4723c066eff7ef3ef6a9f19d267f34efbd",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/marco-calderon.nord-midnight-theme/8aa86c00eeb67873.png",
+                "alt": "Nord Midnight Light in Orca: the project sidebar, a TypeScript file, a terminal with git output and the file tree",
+                "sha256": "8aa86c00eeb67873c50458201f858724e656a2b330455c8cc6833106c5c5f737",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/marco-calderon/nord-midnight-orca-theme",
+          "updatedAt": "2026-11-23T17:58:41-08:00"
+        },
         {
           "version": "1.3.0",
           "commit": "883afdcafe829d499574b00d87b131335af90458",
@@ -43549,8 +43604,8 @@
       "ownerId": 6759417,
       "source": {
         "kind": "git",
-        "url": "https://github.com/nodesource/nodesource-orca-theme.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/nodesource/nodesource-orca-theme/1.0.0"
       },
       "description": "NodeSource brand themes for Orca: dark and light app themes with matching terminal palettes, plus Source Sans 3 and SauceCodePro Nerd Font Mono.",
       "categories": [

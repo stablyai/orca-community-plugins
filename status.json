@@ -1638,7 +1638,7 @@
     },
     "gongxliang/claude-paper": {
       "state": "listed",
-      "ref": "v0.6.5",
+      "ref": "refs/tags/gongxliang/claude-paper/0.6.5",
       "plugins": [
         "gongxliang.claude-paper"
       ]
@@ -2542,7 +2542,7 @@
     },
     "marco-calderon/nord-midnight-orca-theme": {
       "state": "listed",
-      "ref": "refs/tags/marco-calderon/nord-midnight-orca-theme/1.3.0",
+      "ref": "v1.4.2",
       "plugins": [
         "marco-calderon.nord-midnight-theme"
       ]
@@ -3007,7 +3007,7 @@
     },
     "nodesource/nodesource-orca-theme": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/nodesource/nodesource-orca-theme/1.0.0",
       "plugins": [
         "nodesource.nodesource-theme"
       ]
