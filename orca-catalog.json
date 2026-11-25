@@ -11685,8 +11685,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.3.2"
+        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
+        "ref": "v0.4.0"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -11695,6 +11695,43 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "15409d081890c0c7a871341170c54487deb055eb",
+          "contentHash": "233c1dcaa769b42e9e726600eb4f6451687ca786e1ac3ca93814a69ede92a674",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "MattWorkflow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "MattWorkflow"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Refresh tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Open current workspace in Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
+          "updatedAt": "2026-11-25T10:42:45+08:00"
+        },
         {
           "version": "0.3.2",
           "commit": "cb2e2cdc989042847236338afb8c762c1e260651",
@@ -11841,42 +11878,6 @@
           "license": "MIT",
           "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
           "updatedAt": "2026-11-16T22:54:19+08:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "9935f8988ae0d360f7a3a4c84b2bb12cec6139a4",
-          "contentHash": "f17b2a5483087050f61cb46ec8a4a1eec4a7a84a5a64897a326a6b90ce2f1c4c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "MattWorkflow",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "MattWorkflow"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Refresh tickets"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Open current workspace in Orca"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "storage:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
-          "updatedAt": "2026-11-16T22:17:35+08:00"
         }
       ]
     },
@@ -41649,13 +41650,77 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ngxuancam/orca-backlog.git",
-        "ref": "v0.3.4"
+        "ref": "v0.3.5"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.5",
+          "commit": "1956da70f4f063b34adb62160d0c0009f4e37236",
+          "contentHash": "8468e8c2c85bc411a21ee14e2188109ad49abc807e56d9e5fdf289f4e34bcc73",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
+              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
+              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
+              "alt": "Backlog Tasks icon",
+              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
+                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
+                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
+                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
+                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
+                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
+                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-25T09:49:13+07:00"
+        },
         {
           "version": "0.3.4",
           "commit": "740309b63b9e114c8cdb0575207c4298804938a9",
@@ -41833,31 +41898,6 @@
           "license": "MIT",
           "repository": "https://github.com/ngxuancam/orca-backlog",
           "updatedAt": "2026-11-24T14:32:38+07:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "2786639d264c5edec7f54fec1d7c0d07684e4a64",
-          "contentHash": "284d59176dc1a7c84a913446ad50e13a7c101a8fb6a74fe28b2fa09bdc9da2b0",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Backlog Tasks",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Backlog Tasks"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "workspace:write",
-            "workspace:create",
-            "agent:launch"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/ngxuancam/orca-backlog",
-          "updatedAt": "2026-11-24T14:17:50+07:00"
         }
       ]
     },
@@ -42435,8 +42475,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.3"
+        "url": "https://github.com/oddieradhie/orca-kerjan.git",
+        "ref": "v1.1.4"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
@@ -42444,6 +42484,49 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.1.4",
+          "commit": "0484e569e1eb7d4d77838161c13d700f53fd1870",
+          "contentHash": "dfb94120a3ab9b6282014d3f26b480757b3ebde52167ed3d37e723dd9bcdc1ec",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Kerjan",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kerjan"
+            },
+            {
+              "kind": "commands",
+              "name": "Kerjan: Refresh Tickets"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Kerjan"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/oddieradhie.kerjan/5649e31e76eb8804.png",
+              "alt": "Kerjan icon",
+              "sha256": "5649e31e76eb88040c1107cc643791f66ae1e8ac730de5ab4984dd1fa8ea0aca",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oddieradhie/orca-kerjan",
+          "updatedAt": "2026-11-25T09:58:21+07:00"
+        },
         {
           "version": "1.1.3",
           "commit": "9f91b263f92d0fbc9cc8efb2b4e9315b4131da8e",
@@ -45535,12 +45618,97 @@
       ]
     },
     {
+      "id": "pinion05.todoist-viewer",
+      "ownerId": 117980824,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/pinion05/orca-todoist.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Read-only Todoist boards: a compact panel for today, and a full page with list, calendar, board and filters.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "0aefe433da784d6e1ae66e27b53498da6c377413",
+          "contentHash": "391c5e63c705e388c086e2144ffe5a67c0c2f9bfeacce17ec5428f694d8cf691",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Todoist Viewer",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Todoist"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Todoist",
+              "detail": ".todoist"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Todoist view",
+              "detail": ".todoist"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own"
+          ],
+          "fileTypes": [
+            "todoist"
+          ],
+          "editorFileTypes": [
+            "todoist"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/pinion05.todoist-viewer/c8672c1d8508e45f.png",
+              "alt": "The Todoist Viewer page in Orca: a Korean list of tasks grouped by date, with projects, labels and a task detail panel",
+              "sha256": "c8672c1d8508e45fd6a92491d13295400ac7e79c76cc917481aa4235b9016dbc",
+              "width": 1440,
+              "height": 900
+            },
+            "screenshots": [
+              {
+                "path": "assets/pinion05.todoist-viewer/1b18305b6258555f.png",
+                "alt": "The calendar view: a six-week month grid with task chips on their due days and a day list",
+                "sha256": "1b18305b6258555f891e0901dd9244c5b98b8fcb373ebb3d357f419022ebf410",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/pinion05.todoist-viewer/478b722a1a7ed8c3.png",
+                "alt": "The board view: one column per project with task cards",
+                "sha256": "478b722a1a7ed8c337ff652fa06038997774454ed87d756dea66548aad54850e",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/pinion05.todoist-viewer/319bdec1ef852423.png",
+                "alt": "The same list in Orca’s dark theme",
+                "sha256": "319bdec1ef852423178e2a93b1f9d99c0f0415b96682c8b8627edad40e203098",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/pinion05/orca-todoist",
+          "updatedAt": "2026-11-25T12:03:00+09:00"
+        }
+      ]
+    },
+    {
       "id": "pinion05.zai-usage",
       "ownerId": 117980824,
       "source": {
         "kind": "git",
-        "url": "https://github.com/pinion05/coffinfish.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/pinion05/coffinfish/0.1.2"
       },
       "description": "GLM Coding Plan usage and time until each limit resets, in the sidebar and the status bar.",
       "categories": [
@@ -61421,8 +61589,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tornadodai/orca-bot-office/0.14.1"
+        "url": "https://github.com/TornadoDai/orca-bot-office.git",
+        "ref": "v0.15.0"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -61431,6 +61599,97 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.15.0",
+          "commit": "f8eab9c90e1846dfdcb228aa3762e40bc60eceb5",
+          "contentHash": "0d8eaa226f9f046d1eacf0175483963814d54d905e1d02ea1530f7b086d20bb7",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tornadodai.bot-office/cbef778132e5a82f.webp",
+              "alt": "Bot Office 2.5D illustrated office tower with real-time wall clock, executive briefing suite and categorized SVG analytics dashboard",
+              "sha256": "cbef778132e5a82f93d79eb43dd42ff8e8569da2b09cc9b538a6ef6ad6a45060",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/99a5eacc3db24c42.png",
+                "alt": "Bot Office illustrated 2.5D modern office tower with real-time circular wall clock, furnished executive briefing suite and categorized SVG analytics dashboard",
+                "sha256": "99a5eacc3db24c422d11cc63a1eedbea84a1cf0c27563e114838294e491040d4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/a526a474e7f0eecf.png",
+                "alt": "Categorized Dashboard with 12-panel switch drawer, 28-day usage heatmap, 24-hour peak usage chart, branch chat activity, automations and Orca memory diagnostics",
+                "sha256": "a526a474e7f0eecf58a86b673b5698352e590ea174a901b8d700fd2b1e2da946",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/f4fed28cde747e94.png",
+                "alt": "Native light theme showing interactive in-card decision reply modal and light analytics dashboard",
+                "sha256": "f4fed28cde747e94bfa390c7edd46cb5f3a4a4cab3c2f311be25a7cdcb130968",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-25T11:02:02+08:00"
+        },
         {
           "version": "0.14.1",
           "commit": "77fa23b3267143cac3dd72fc5ae113c3ce9fce48",
@@ -61759,76 +62018,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T16:39:21+08:00"
-        },
-        {
-          "version": "0.10.1",
-          "commit": "e7efbcf06d537733002ef57d5ed00b0d06eb2642",
-          "contentHash": "5af0fc338e528bb61384778d5de4d6b087b19d549566dc930e2bbd08d3a5a874",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/5307984f5358819e.png",
-                "alt": "Bot Office illustrated 2.5D modern office floors alongside a team workload analytics dashboard with stacked bars, 7-day trend, engine donut and token usage",
-                "sha256": "5307984f5358819e213be57ce430165c6747df84172058a25e7a02569b4ebb31",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T16:15:55+08:00"
         }
       ]
     },
