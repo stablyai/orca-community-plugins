@@ -26403,8 +26403,8 @@
       "ownerId": 14880710,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/guilatrova/bot-kanban-board/0.2.0"
+        "url": "https://github.com/guilatrova/bot-kanban-board.git",
+        "ref": "v0.3.1"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -26412,6 +26412,63 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "109267e66b512eeb661c2963017ed4529b18ee1e",
+          "contentHash": "f85d2e24e9a73e4fdacb83cc2b799dfc700c3317241518f22a7a360899d7ef67",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Bot Kanban Board",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Open Bot Kanban Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Needs you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Kanban Board",
+              "detail": ".botkanban"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you …"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botkanban"
+          ],
+          "editorFileTypes": [
+            "botkanban"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/guilatrova.bot-kanban-board/f22236b542ef575f.png",
+              "alt": "All your bots, one board. Bot Kanban Board showing Needs you, In progress and pull requests ready to merge.",
+              "sha256": "f22236b542ef575fd1c018268acfed0a8562c474cc6d2c4feb0a02e91bc53279",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/guilatrova/bot-kanban-board",
+          "updatedAt": "2026-11-25T20:14:07-03:00"
+        },
         {
           "version": "0.2.0",
           "commit": "ce393bcd245d88b1baaacdf7bdb130ded5a8dc37",
@@ -42268,8 +42325,8 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mz-jy/orca-dbt.git",
-        "ref": "v0.6.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mz-jy/orca-dbt/0.6.2"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
@@ -69394,8 +69451,8 @@
       "ownerId": 86989629,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wizhelp/orca-proxmox.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wizhelp/orca-proxmox/0.2.0"
       },
       "description": "A Proxmox estate in Orca through Proxmox Datacenter Manager: hosts and guests with live charts, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
       "categories": [

@@ -1673,7 +1673,7 @@
     },
     "guilatrova/bot-kanban-board": {
       "state": "listed",
-      "ref": "refs/tags/guilatrova/bot-kanban-board/0.2.0",
+      "ref": "v0.3.1",
       "plugins": [
         "guilatrova.bot-kanban-board"
       ],
@@ -2210,6 +2210,16 @@
         "juancruzc97.parquet-viewer"
       ]
     },
+    "juanpe/orca-mobile-launchpad": {
+      "state": "rejected",
+      "ref": "v0.8.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "juanpe/orca-pit-wall": {
       "state": "listed",
       "ref": "refs/tags/juanpe/orca-pit-wall/0.4.2",
@@ -2408,6 +2418,16 @@
         {
           "category": "under-review",
           "detail": "code, size"
+        }
+      ]
+    },
+    "lilykos/orca-design": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
         }
       ]
     },
@@ -2871,7 +2891,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "v0.6.2",
+      "ref": "refs/tags/mz-jy/orca-dbt/0.6.2",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -4684,7 +4704,7 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/wizhelp/orca-proxmox/0.2.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
       ]
