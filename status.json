@@ -46,6 +46,13 @@
         "abdelrahmanaboegela.tilawa"
       ]
     },
+    "ablause/orca-github-pull-requests": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "ablause.github-pull-requests"
+      ]
+    },
     "actus7/orca-autocomplete": {
       "state": "listed",
       "ref": "refs/tags/actus7/orca-autocomplete/0.4.0",
@@ -2542,7 +2549,7 @@
     },
     "marco-calderon/nord-midnight-orca-theme": {
       "state": "listed",
-      "ref": "v1.4.2",
+      "ref": "refs/tags/marco-calderon/nord-midnight-orca-theme/1.4.2",
       "plugins": [
         "marco-calderon.nord-midnight-theme"
       ]
@@ -2854,7 +2861,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "refs/tags/mz-jy/orca-dbt/0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "mz-jy.dbt"
       ]

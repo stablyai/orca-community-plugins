@@ -949,6 +949,82 @@
       ]
     },
     {
+      "id": "ablause.github-pull-requests",
+      "ownerId": 46499306,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ablause/orca-github-pull-requests.git",
+        "ref": "v0.1.0"
+      },
+      "description": "The pull request of the focused workspace in Orca's sidebar: what blocks the merge, the conversation with its images, checks, files and commits. The pull requests your agents and bots name or ask about are marked in the list, and Fix with agent hands a failing check or a review to them.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "7937ed74269dcb09f053a31c91118ca9eda5cb0a",
+          "contentHash": "7e6c1313cbefed1a9b133c44cb106dd83caab2b7c5de9dfbc591573333b1a257",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Pull Requests for GitHub",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ablause.github-pull-requests/5fe621dd8bb117ff.png",
+              "alt": "Merge blockers struck through down to Ready to merge, beside the panel showing a pull request ready to merge with its Merge button",
+              "sha256": "5fe621dd8bb117ff8b5406405c9a71d868378292adf7a896854c1f48b3389a9f",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ablause.github-pull-requests/a547639f772d549a.png",
+              "alt": "Pull Requests for GitHub icon",
+              "sha256": "a547639f772d549aac00868332d4d90005c1ce24f34ed84cf8c316a4c14dd4b3",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ablause.github-pull-requests/697677f3aac9f2b4.png",
+                "alt": "The panel's status line unfolded: one check passed, no conflicts with main, the merge method, Convert to draft and Close",
+                "sha256": "697677f3aac9f2b4871c9eed55df092ad912d91d088f5ac11af897148134f1d4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ablause/orca-github-pull-requests",
+          "updatedAt": "2026-11-25T20:33:22+01:00"
+        }
+      ]
+    },
+    {
       "id": "actus7.autocomplete",
       "ownerId": 24607590,
       "source": {
@@ -37124,8 +37200,8 @@
       "ownerId": 47753684,
       "source": {
         "kind": "git",
-        "url": "https://github.com/marco-calderon/nord-midnight-orca-theme.git",
-        "ref": "v1.4.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/marco-calderon/nord-midnight-orca-theme/1.4.2"
       },
       "description": "Nord on a deeper, uniform #1C1E21 background that is easier on the eyes, plus a matching light theme.",
       "categories": [
@@ -41809,14 +41885,89 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mz-jy/orca-dbt/0.6.0"
+        "url": "https://github.com/mz-jy/orca-dbt.git",
+        "ref": "v0.6.1"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "dedf6a9a8dfb05b0e295bc3e75b3cb98b8eb6c1c",
+          "contentHash": "82b2e125c80cfdaf548bc4dba14db537d0dad670957a4376acbc09cb8cbb5d84",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "dbt for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "dbt"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mz-jy.dbt/bc19cf3228a1c5d6.webp",
+              "alt": "The Quality pane with failing tests by model, the lineage graph with failing nodes flagged, and the rows a failing test found.",
+              "sha256": "bc19cf3228a1c5d6af679488b9015f262de80cdfdb1475d7edc691ca22bddf93",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/mz-jy.dbt/f130db0c6d4211e6.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "f130db0c6d4211e638ff0a90238e9a6334efaea5a7cb0e7ee5df97b54208fdb4",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/e09950ab37a24f56.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "e09950ab37a24f5648f0f39dd76d117ea1c138238908f3b7ddd3b930698a2335",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/3a34c9ccd86e8e83.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "3a34c9ccd86e8e83a5b057693310bdf20241d592b1eba2f25826be872be60822",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/f6566bbbb51c5196.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "f6566bbbb51c51969f1759ea663bc60e54ee2f0305d2c3ea3ed0d898a76839f9",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/6d73b03e4279a2a4.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "6d73b03e4279a2a4db01b579b5899ebfae232aea9febf9cf49d5a3590befdd30",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/89fffccaba764e08.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "89fffccaba764e088f4e5604a73c108b41c407012833ecad9c00754941de31f0",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mz-jy/orca-dbt",
+          "updatedAt": "2026-11-25T20:37:57+01:00"
+        },
         {
           "version": "0.6.0",
           "commit": "e6e35933cfb81a75b7c09c4a41c7fdd2a30382f5",
