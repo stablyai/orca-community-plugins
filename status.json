@@ -48,7 +48,7 @@
     },
     "ablause/orca-github-pull-requests": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/ablause/orca-github-pull-requests/0.1.0",
       "plugins": [
         "ablause.github-pull-requests"
       ]
@@ -1880,7 +1880,7 @@
     },
     "hygorfragas/sftp-bridge": {
       "state": "rejected",
-      "ref": "v0.3.1",
+      "ref": "v0.3.2",
       "reasons": [
         {
           "category": "under-review",
@@ -2861,7 +2861,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/mz-jy/orca-dbt/0.6.1",
       "plugins": [
         "mz-jy.dbt"
       ]
