@@ -22951,8 +22951,8 @@
       "ownerId": 65250731,
       "source": {
         "kind": "git",
-        "url": "https://github.com/FelipeMayerDev/orca-walkthrough.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.2.0"
       },
       "description": "Read a change in the order it makes sense: steps grouped and ordered by purpose, each explained beside its code, with what no step covers.",
       "categories": [
@@ -64180,14 +64180,80 @@
       "ownerId": 181196302,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.2"
+        "url": "https://github.com/vrwolf1004/orca-obsidian.git",
+        "ref": "v0.6.3"
       },
       "description": "Browse and read your Obsidian vaults from the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.6.3",
+          "commit": "7fcb9c4a824b4f1f273a749d4b3bf6b079983f79",
+          "contentHash": "52eeaaa2eabdb9fbe8ac69352c69ee2d2163b26e7744802d3a41352f6578de67",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Obsidian for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Obsidian"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/95e8642e91865525.webp",
+              "alt": "Obsidian for Orca with the note graph behind the vertical tabs and a note below",
+              "sha256": "95e8642e918655254e62502263715957c81822a5c0ac51cb45b95198d2fa293d",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/vrwolf1004.obsidian-for-orca/7c04e29288953d08.png",
+              "alt": "Obsidian for Orca icon",
+              "sha256": "7c04e29288953d086e20571cae8337a38d2ef1eb1ac32a7a09856d014ea8120a",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/9896fd1e1d448315.webp",
+                "alt": "Notes tab with a folder tree and the Markdown view below",
+                "sha256": "9896fd1e1d448315ca5122ad2278cab6c0cce17ac0cca0d1b2ba0e532a880593",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/c3c1ccf024d5728d.webp",
+                "alt": "Help popup listing the shortcuts",
+                "sha256": "c3c1ccf024d5728dcc00c67c9d13b4213be7d3086f322f3134d3d33b907eb836",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/45a2f007e14c58e7.webp",
+                "alt": "Vaults tab open over the note graph",
+                "sha256": "45a2f007e14c58e7716c18a047b0850cfe6da532b6107b4675056d385b6b7463",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/vrwolf1004.obsidian-for-orca/3f086068998a5a48.png",
+                "alt": "What's new card listing the changes in each version over the plugin's note graph",
+                "sha256": "3f086068998a5a489ec4f3c3ab115d469835996740ef873582665c22bc327a7e",
+                "width": 1280,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/vrwolf1004/orca-obsidian",
+          "updatedAt": "2026-11-24T17:14:23+09:00"
+        },
         {
           "version": "0.6.2",
           "commit": "3f58059307a1d511d0d3781d79b29d2c31a0e12a",
@@ -64423,65 +64489,6 @@
           "license": "MIT",
           "repository": "https://github.com/vrwolf1004/orca-obsidian",
           "updatedAt": "2026-11-18T17:27:58+09:00"
-        },
-        {
-          "version": "0.5.0",
-          "commit": "38db6381f3ed04c82751ac6cc37e06195303da6a",
-          "contentHash": "e4a170d2e76193a11d8ad0fddc856c10b5133e729d1ad0d1c4abebb0b20a1f0b",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.246",
-          "name": "Obsidian for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Obsidian"
-            }
-          ],
-          "capabilities": [
-            "storage:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/vrwolf1004.obsidian-for-orca/f2858e9b29ecef3f.webp",
-              "alt": "Obsidian for Orca panel with a vault open and a note shown beside the app title",
-              "sha256": "f2858e9b29ecef3fe944cbb3ce774687e257b9d40adaf070f0ebb735650b9914",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/vrwolf1004.obsidian-for-orca/7c04e29288953d08.png",
-              "alt": "Obsidian for Orca icon",
-              "sha256": "7c04e29288953d086e20571cae8337a38d2ef1eb1ac32a7a09856d014ea8120a",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/vrwolf1004.obsidian-for-orca/6c703aaebdfd6936.webp",
-                "alt": "Right-click menu on a folder with New folder and New note",
-                "sha256": "6c703aaebdfd69368155e3890e7cc4225c9b83fd72eb31759c23a2711e3055bf",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/vrwolf1004.obsidian-for-orca/0d709bdc837377f2.webp",
-                "alt": "Help popup listing the shortcuts",
-                "sha256": "0d709bdc837377f26e9645292cd149337ff93126dc0a0cbecf41bc978189feb0",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/vrwolf1004.obsidian-for-orca/d98d79b0a7af7334.webp",
-                "alt": "Vaults section expanded with the add and remove buttons",
-                "sha256": "d98d79b0a7af73344c7c0d845d59a0eb154fae8a5ec373f331a22e38d3f8bc98",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/vrwolf1004/orca-obsidian",
-          "updatedAt": "2026-11-18T16:55:58+09:00"
         }
       ]
     },
@@ -69499,8 +69506,8 @@
       "ownerId": 74855079,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yohaneowo/pstack-orca-sync.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yohaneowo/pstack-orca-sync/0.1.0"
       },
       "description": "Independently maintained community build of pstack by Lauren Tan, with validated upstream updates. Installs skills for Claude Code, Codex, Antigravity, Cursor, and Grok.",
       "categories": [

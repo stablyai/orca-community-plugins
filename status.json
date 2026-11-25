@@ -1428,7 +1428,7 @@
     },
     "felipemayerdev/orca-walkthrough": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/felipemayerdev/orca-walkthrough/0.2.0",
       "plugins": [
         "felipemayerdev.walkthrough"
       ],
@@ -3944,7 +3944,7 @@
         "thanhh2615.datanoa"
       ],
       "update": {
-        "ref": "v1.2.0",
+        "ref": "v1.2.1",
         "reasons": [
           {
             "category": "under-review",
@@ -4329,7 +4329,7 @@
     },
     "vrwolf1004/orca-obsidian": {
       "state": "listed",
-      "ref": "refs/tags/vrwolf1004/orca-obsidian/0.6.2",
+      "ref": "v0.6.3",
       "plugins": [
         "vrwolf1004.obsidian-for-orca"
       ]
@@ -4519,7 +4519,7 @@
     },
     "yohaneowo/pstack-orca-sync": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/yohaneowo/pstack-orca-sync/0.1.0",
       "plugins": [
         "yohaneowo.pstack-orca-sync"
       ]
