@@ -2828,7 +2828,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "v0.3.9",
+      "ref": "refs/tags/ngxuancam/orca-backlog/0.3.9",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
