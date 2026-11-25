@@ -14493,6 +14493,88 @@
       ]
     },
     {
+      "id": "ddoobyddooby.retro-98-theme",
+      "ownerId": 229688200,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Ddoobyddooby/orca-window-theme.git",
+        "ref": "v0.1.2"
+      },
+      "description": "A retro 90s desktop look for Orca: silver panels, navy highlights, a black DOS-style terminal and pixel-art file icons. Includes an app theme, a terminal theme and an icon theme.",
+      "categories": [
+        "themes",
+        "terminal-themes",
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "ebeb0fdf5357df43f9043a3fa5dd97dc1ddfd9e9",
+          "contentHash": "4c97dda1488d76f6f823e5865063653cf057da050afa4e6f1353cd66545de643",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Retro 98",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Retro 98"
+            },
+            {
+              "kind": "themes",
+              "name": "Retro 98 (Dark slot)"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Retro 98 DOS Prompt"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Retro 98 DOS Prompt (Light slot)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Retro 98 Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ddoobyddooby.retro-98-theme/dc7cc80a17e7078f.png",
+              "alt": "Retro 98 theme in Orca: light gray panels, yellow folder icons and a black DOS-style terminal",
+              "sha256": "dc7cc80a17e7078fd3844b421d324738632101650d963317aab0c6e0c0747d27",
+              "width": 1280,
+              "height": 667
+            },
+            "icon": {
+              "path": "assets/ddoobyddooby.retro-98-theme/74f9ca1cf8b3bf76.png",
+              "alt": "Retro 98 icon",
+              "sha256": "74f9ca1cf8b3bf76415e1f857a478fafea3659f75d93dbe45a1476108936de2f",
+              "width": 128,
+              "height": 128
+            },
+            "screenshots": [
+              {
+                "path": "assets/ddoobyddooby.retro-98-theme/6d518e086da93535.png",
+                "alt": "Whole Orca window with the Retro 98 app theme, icon theme and terminal theme",
+                "sha256": "6d518e086da93535cd5069133dbab802f4a6d951bb7650d7a0c5e14e742f77ac",
+                "width": 1905,
+                "height": 993
+              },
+              {
+                "path": "assets/ddoobyddooby.retro-98-theme/856ba797597d0bb2.png",
+                "alt": "File explorer showing Retro 98 pixel folder and file icons",
+                "sha256": "856ba797597d0bb210b1a549956eab6009b30f1675a75295bc3eb68498785809",
+                "width": 1684,
+                "height": 1500
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ddoobyddooby/orca-window-theme",
+          "updatedAt": "2026-11-25T10:16:53+09:00"
+        }
+      ]
+    },
+    {
       "id": "decadance-dance.plane",
       "ownerId": 86170544,
       "source": {
