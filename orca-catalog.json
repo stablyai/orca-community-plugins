@@ -11685,8 +11685,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.4.0"
+        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
+        "ref": "v0.6.0"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -11695,6 +11695,43 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "57af3826651babc40e97b3d4e3a33d9398077dcc",
+          "contentHash": "7f5d55f924047e9f5f6dc1c5c6399b718174f824ad20df35f453e007a675a9bc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "MattWorkflow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "MattWorkflow"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Refresh tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Open current workspace in Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
+          "updatedAt": "2026-11-25T12:27:34+08:00"
+        },
         {
           "version": "0.4.0",
           "commit": "15409d081890c0c7a871341170c54487deb055eb",
@@ -11842,42 +11879,6 @@
           "license": "MIT",
           "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
           "updatedAt": "2026-11-19T16:39:28+08:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "9dbeb21c73ec0422cc5d0965adeedb30249344fc",
-          "contentHash": "9fa3ba389dc0ba0c34d018a28727de2530c75d3484cffcda6d1c98ac4d569b70",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "MattWorkflow",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "MattWorkflow"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Refresh tickets"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Open current workspace in Orca"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "storage:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
-          "updatedAt": "2026-11-16T22:54:19+08:00"
         }
       ]
     },
@@ -41140,8 +41141,8 @@
       "ownerId": 69442847,
       "source": {
         "kind": "git",
-        "url": "https://github.com/namnameeroo/orca-pinboard.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/namnameeroo/orca-pinboard/0.1.3"
       },
       "description": "The Claude pinboard pane for Orca: the focused workspace's latest Claude session as cards (branch, background tasks, intent tree, PRs and links, docs, prompt history) and a memo per workspace.",
       "categories": [
@@ -41811,13 +41812,77 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ngxuancam/orca-backlog.git",
-        "ref": "v0.3.6"
+        "ref": "v0.3.7"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.7",
+          "commit": "c88e04a40a7cf91b389e7e77560376e2c5c5b793",
+          "contentHash": "3824fe590fd73085fff371270fd2bcb447d1d18ba4086f8572fefd33e50be213",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
+              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
+              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
+              "alt": "Backlog Tasks icon",
+              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
+                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
+                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
+                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
+                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
+                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
+                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-25T11:22:51+07:00"
+        },
         {
           "version": "0.3.6",
           "commit": "9e65f1c53c5c8ef422c2f93cf4f8ffc1b689a072",
@@ -42073,31 +42138,6 @@
           "license": "MIT",
           "repository": "https://github.com/ngxuancam/orca-backlog",
           "updatedAt": "2026-11-24T16:08:22+07:00"
-        },
-        {
-          "version": "0.3.2",
-          "commit": "e3fe6e7c96f1fbcac84061c8b1b131ab3e33ce02",
-          "contentHash": "b274a4114bd65389a84cfe3244afe031680879a7b4185467d5b7feab9f58b235",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Backlog Tasks",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Backlog Tasks"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "workspace:write",
-            "workspace:create",
-            "agent:launch"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/ngxuancam/orca-backlog",
-          "updatedAt": "2026-11-24T15:06:36+07:00"
         }
       ]
     },
@@ -42675,8 +42715,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oddieradhie/orca-kerjan.git",
-        "ref": "v1.1.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oddieradhie/orca-kerjan/1.1.6"
       },
       "description": "Kerjan issue tracker sidebar panel, status bar counter, ticket updates, and worktree creation for Orca.",
       "categories": [
