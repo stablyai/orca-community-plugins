@@ -2881,6 +2881,16 @@
         "namnameeroo.claude-pinboard"
       ]
     },
+    "nanangprasetya/ascii-glyphscape": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
+      ]
+    },
     "naqswell/orca-threadbrief": {
       "state": "rejected",
       "ref": "v0.2.3",
@@ -3188,7 +3198,7 @@
     },
     "pinion05/orca-server-stats": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/pinion05/orca-server-stats/0.2.0",
       "plugins": [
         "pinion05.server-stats"
       ]
@@ -3362,6 +3372,16 @@
       "ref": "refs/tags/ricardo-benicio/orca-docker-containers/0.8.0",
       "plugins": [
         "ricardo-benicio.docker-containers"
+      ]
+    },
+    "rickyoliva/keep-awake": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "rizanw/steno-spec": {
@@ -4111,7 +4131,7 @@
         "thanhh2615.datanoa"
       ],
       "update": {
-        "ref": "v1.2.1",
+        "ref": "v1.2.2",
         "reasons": [
           {
             "category": "under-review",
