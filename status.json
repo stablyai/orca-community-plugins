@@ -355,7 +355,7 @@
     },
     "atherrehan/orca-vapi": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/atherrehan/orca-vapi/0.1.0",
       "plugins": [
         "atherrehan.vapi"
       ]
@@ -1094,7 +1094,7 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/ebbop/orca-italiano/1.4.273",
+      "ref": "v1.4.274",
       "plugins": [
         "ebbop.italiano"
       ]
@@ -1915,7 +1915,7 @@
     },
     "ivanmunozruiz/orca-claude-autoswitch": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/ivanmunozruiz/orca-claude-autoswitch/0.3.0",
       "plugins": [
         "ivanmunozruiz.claude-autoswitch"
       ]
@@ -2138,7 +2138,7 @@
     },
     "juanpe/orca-pit-wall": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "v0.3.2",
       "plugins": [
         "juanpe.pit-wall"
       ]
@@ -3844,6 +3844,16 @@
       "ref": "refs/tags/sotoru/versionlens/0.2.0",
       "plugins": [
         "sotoru.versionlens"
+      ]
+    },
+    "spatariurares/agent-config-manager": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, content"
+        }
       ]
     },
     "spgsroot/orca-usage-plugin": {

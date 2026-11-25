@@ -4285,8 +4285,8 @@
       "ownerId": 45193628,
       "source": {
         "kind": "git",
-        "url": "https://github.com/atherrehan/orca-vapi.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/atherrehan/orca-vapi/0.1.0"
       },
       "description": "Unofficial, read-only Vapi console for Orca: browse assistants, calls, transcripts, tool calls and costs next to your code. Not affiliated with Vapi.",
       "categories": [
@@ -18047,14 +18047,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.273"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.274"
       },
-      "description": "jAI Studio · 22.688 testi su 22.690 (99.9%), allineato a Orca 1.4.273. Pacchetto della community, non ufficiale.",
+      "description": "jAI Studio · 22.690 testi su 22.690 (100%), allineato a Orca 1.4.274. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.274",
+          "commit": "f45fc223af229bc6b89b12484ee6c9b14e124fb4",
+          "contentHash": "35b294991fb3c81f53e1fa45a559547712122c572632cdce7ec773006bb7c3b1",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
+              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
+              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-25T11:37:51+01:00"
+        },
         {
           "version": "1.4.273",
           "commit": "363422b8ec6e5008719f8e903f50e69f1421ed2a",
@@ -28944,8 +28977,8 @@
       "ownerId": 11923105,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ivanmunozruiz/orca-claude-autoswitch.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ivanmunozruiz/orca-claude-autoswitch/0.3.0"
       },
       "description": "Switches Orca to another Claude account you added in Orca when the active one nears its 5-hour or weekly limit. It never reads or stores tokens: Orca signs in and switches.",
       "categories": [
@@ -32003,13 +32036,75 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Juanpe/orca-pit-wall.git",
-        "ref": "v0.3.0"
+        "ref": "v0.3.2"
       },
-      "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you.",
+      "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you. Each agent state has its own icon, and only what needs you moves.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "d5ef9628022042c910504b4a96941de3ba983800",
+          "contentHash": "b57598485aa10a1fe9da2212121c7dbd83f233a0ccf53b2fa53b17c33009c9fb",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pit Wall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pit Wall"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/juanpe.pit-wall/315f15f1fc1f6f68.png",
+              "alt": "Pit Wall next to its tagline: who is waiting on you, who is working, every worktree.",
+              "sha256": "315f15f1fc1f6f6844e2f502774a5171ae1209467dc387d8b27fab0b2d9e7940",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/juanpe.pit-wall/61b72b8d110e211c.png",
+                "alt": "The Overview tab: counters, an org chart of projects with an icon per session state, and What to do now.",
+                "sha256": "61b72b8d110e211c2d1eb95bb1c67775d595f2d10adabd01d00c96c2ee540a42",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/ab4095089ada2d0b.png",
+                "alt": "The Sessions tab: sessions waiting on you with their last message, then sessions still working with their current tool.",
+                "sha256": "ab4095089ada2d0ba9e0ab62287634292bd8c15e8a1e5f407cc2b4a3d47e2e73",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/eafff32f726bea83.png",
+                "alt": "The Worktrees tab: worktrees grouped by project, each with its PR state, checks and agents waiting or working.",
+                "sha256": "eafff32f726bea83641eee212bb580f3acfdc527ecf00b0f9f2e1fcbe7f2f981",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/da6629440bb300ab.png",
+                "alt": "The PRs tab: pull requests sorted by checks failing, checks running, ready for review and drafts, each with its checks and the agents in its worktree.",
+                "sha256": "da6629440bb300ab75dc4f7478861ac695c8d29bcfeee26ddcd7a12e70891ca4",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Juanpe/orca-pit-wall",
+          "updatedAt": "2026-11-25T11:32:04+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "6842ad97b18e45efadefac3062397ba24602b121",
