@@ -12071,8 +12071,8 @@
       "ownerId": 276100142,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/computerhof/orca-merge-review/0.3.0"
+        "url": "https://github.com/Computerhof/orca-merge-review.git",
+        "ref": "v0.3.1"
       },
       "description": "Review branches and agent workspaces before you merge, predict conflicts, merge, resolve conflicts block by block in a wide tab, and hand reviews or conflicts to agents.",
       "categories": [
@@ -12082,6 +12082,105 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "cadfbf6d67af30d61891756b23e955722560c7a4",
+          "contentHash": "8f6bbc7c67bd744e6e249e86fe8ff684e7ea67954db87e744a5a86b239f91ed8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Merge & Review",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Merge & Review"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Übersicht öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Nächsten Konflikt öffnen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Mit Base vergleichen"
+            },
+            {
+              "kind": "commands",
+              "name": "Merge & Review: Merge abschließen"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.prompt.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+M",
+              "detail": "mergeReview.open"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+J",
+              "detail": "mergeReview.nextConflict"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Merge & Review",
+              "detail": ".mergereview"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Merge"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "automation:read",
+            "automation:write",
+            "history:read"
+          ],
+          "fileTypes": [
+            "mergereview"
+          ],
+          "editorFileTypes": [
+            "mergereview"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Computerhof/orca-merge-review",
+          "updatedAt": "2026-11-25T14:03:42+01:00"
+        },
         {
           "version": "0.3.0",
           "commit": "3d77ca4d41ca24298683b20c76c5b0ccdf06e087",
@@ -13000,8 +13099,8 @@
       "ownerId": 99609885,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.1"
+        "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
+        "ref": "v0.8.2"
       },
       "description": "A read-only control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests.",
       "categories": [
@@ -13010,6 +13109,115 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.2",
+          "commit": "c60a69a88fbc53acd79b1cf798e0c3b5087d4cf0",
+          "contentHash": "16ca4cb30982d770d35d087cb44c336b54fbcf450f4d7f7e0d8eacd5d412f503",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Regia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Regia"
+            },
+            {
+              "kind": "commands",
+              "name": "Regia: show the panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Regia"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cryptosecco.regia/364f638510226381.webp",
+              "alt": "The Regia panel: a diagram with you at the top, the bot that holds the queue, five other bots, the agents they started and the pull requests",
+              "sha256": "364f638510226381bf90969957360a387b770920ddff37a41abb989c27019a52",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cryptosecco.regia/20bdd70b5fdbce4c.png",
+              "alt": "Regia icon",
+              "sha256": "20bdd70b5fdbce4ce21561a0be0c4a01a54fd07440894c927f0583c3f7c32b31",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/cryptosecco.regia/364f638510226381.webp",
+                "alt": "The Overview: who hands work to whom, with amber lines where something waits on you",
+                "sha256": "364f638510226381bf90969957360a387b770920ddff37a41abb989c27019a52",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/2790bdb4d3fd93cc.webp",
+                "alt": "The Queue: three decisions to take now with their options, and every open item in lanes by project",
+                "sha256": "2790bdb4d3fd93ccc4400ab5c4f511b9578644d1cda276fae0569b8c776dd992",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/193e38272b7e1df0.webp",
+                "alt": "The Office: a map with one room per project and one avatar per bot and agent, at a desk when working, with a question mark when waiting on you",
+                "sha256": "193e38272b7e1df0053d148ec0a805ff396e9b62250f3f1c10d3a33da11809cf",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/054e24de9a9fdc1f.webp",
+                "alt": "The Overview in the light theme",
+                "sha256": "054e24de9a9fdc1fe7f9a7c541a912f6e288a951b34d63d6e89ac4d4f8fee0dc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/e5b2607f63afd7fd.webp",
+                "alt": "The Queue in the light theme",
+                "sha256": "e5b2607f63afd7fd4ddc8cbc07c28d285f1ba6373230d33e2f1c3999a7be7f39",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/369e76cab8180cd5.webp",
+                "alt": "The Office in the light theme",
+                "sha256": "369e76cab8180cd513a1a3b6a0bd44c099133b0d4c6a35d5f1e2f8d84a1b8323",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cryptosecco/orca-regia-plugin",
+          "updatedAt": "2026-11-24T15:27:16+01:00"
+        },
         {
           "version": "0.8.1",
           "commit": "015067888d5dd244a3f6fdd154c5da4939e75bb7",
@@ -32170,13 +32378,75 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/Juanpe/orca-pit-wall.git",
-        "ref": "v0.4.1"
+        "ref": "v0.4.2"
       },
       "description": "Read-only panel: who is waiting on you, who is working, the state of every worktree and the PRs that need you. Each agent state has its own icon, and only what needs you moves.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.4.2",
+          "commit": "705227c3c8577ea2373010ff808bbe30d523d073",
+          "contentHash": "7235c83f64e9963e615fd7c145be6a64d7e489f0f688322a861b9ed370294d1a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pit Wall",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pit Wall"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/juanpe.pit-wall/c04c2cc46cbca5ee.png",
+              "alt": "Pit Wall next to its tagline: who is waiting on you, who is working, every worktree.",
+              "sha256": "c04c2cc46cbca5eed270020e438c170f7e97eed27f11fc81cdcaa53193220563",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/juanpe.pit-wall/5e13b623081530aa.png",
+                "alt": "The Overview tab: counters, an org chart of projects with an icon per session state, and What to do now.",
+                "sha256": "5e13b623081530aa5e664fcf319bb1c3ecd675a4a4813866a4a5abbc45e9f2f3",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/dce7214b88f04816.png",
+                "alt": "The Sessions tab: sessions waiting on you with their last message, then sessions still working with their current tool.",
+                "sha256": "dce7214b88f04816d0917dfa939f3257f9f310e5ecb5e08c7074770fd9f5c06a",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/a8bbce5402381511.png",
+                "alt": "The Worktrees tab: worktrees grouped by project, each with its PR state, checks and agents waiting or working.",
+                "sha256": "a8bbce54023815110645a6b2a69d9f95e66114b7817db70e3944e1b27ed88309",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/juanpe.pit-wall/1aa0b36e70a0bde3.png",
+                "alt": "The PRs tab: pull requests sorted by checks failing, checks running, ready for review and drafts, each with its checks and the agents in its worktree.",
+                "sha256": "1aa0b36e70a0bde3424b408482d5c87b8266a1e3cd764846e36307795497d7d6",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Juanpe/orca-pit-wall",
+          "updatedAt": "2026-11-25T14:08:58+01:00"
+        },
         {
           "version": "0.4.1",
           "commit": "7411f33651e8362ca5924e3343e801e8eefee3ad",
@@ -32424,61 +32694,6 @@
           "license": "MIT",
           "repository": "https://github.com/Juanpe/orca-pit-wall",
           "updatedAt": "2026-11-23T17:21:41+01:00"
-        },
-        {
-          "version": "0.1.2",
-          "commit": "ed0378533431574ddd6ae81b4c67b21287459193",
-          "contentHash": "48d7533090f759c2bdc014f81e1eeb0f1d684e5665b419b0cde405e775275928",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Pit Wall",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Pit Wall"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "workspace:write",
-            "storage:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/juanpe.pit-wall/ae8e1a9fc4dd0b79.png",
-              "alt": "Pit Wall next to its tagline: who is waiting on you, who is working, every worktree.",
-              "sha256": "ae8e1a9fc4dd0b791e60aa33182f04bb910ab0c018852f36581bec51bfab6f7c",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/juanpe.pit-wall/1e688f644264c41e.png",
-                "alt": "The Overview tab: counters, an org chart of projects and their sessions colored by state, and What to do now.",
-                "sha256": "1e688f644264c41e297061aae7486b5d2ff73b898937b152ea72abcf4fa20d41",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/juanpe.pit-wall/3b04d542f7145e53.png",
-                "alt": "The Sessions tab: sessions waiting on you with their last message, then sessions still working with their current tool.",
-                "sha256": "3b04d542f7145e53c3db03c45e695c9bc5cfbf4c980a8a8d8752548d544a1227",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/juanpe.pit-wall/a764775609630927.png",
-                "alt": "The Worktrees tab: worktrees grouped by project, each with its PR state, checks and agents waiting or working.",
-                "sha256": "a764775609630927029044a46f3700f9228a85087a5d03dd628aed8df05fbd03",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Juanpe/orca-pit-wall",
-          "updatedAt": "2026-11-23T13:59:12+01:00"
         }
       ]
     },
@@ -55344,14 +55559,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.9.5"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.10.0"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.10.0",
+          "commit": "520a62594209ec3bd2d3c6ff92671432846cb4b2",
+          "contentHash": "5b0a7bb7d6efc66fc0241fb907512184e2b06915e6430e3f528a4070160db911",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort SDD",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort SDD"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-25T13:17:24Z"
+        },
         {
           "version": "0.9.5",
           "commit": "d886dfed190dc5ea9e6c5cd8ce2f2e2090124ead",
@@ -55443,29 +55681,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-17T09:23:54Z"
-        },
-        {
-          "version": "0.9.0",
-          "commit": "ab0216e8332059cad31cd6b78d38bd046ce9ce8c",
-          "contentHash": "d02eaebf0c4e005898dd8047af0b9293a60f6156f7b4181d91adb9846f56478e",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort SDD",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort SDD"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-17T07:38:45Z"
         }
       ]
     },
@@ -60611,6 +60826,47 @@
           "license": "MIT",
           "repository": "https://github.com/thanhtrung5763/orca-git-graph",
           "updatedAt": "2026-11-14T15:32:29+07:00"
+        }
+      ]
+    },
+    {
+      "id": "thanut-suw-work.dnb-drop-and-boom",
+      "ownerId": 177523505,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thanut-suw-work/orca-dnb-plugin.git",
+        "ref": "v1.0.2"
+      },
+      "description": "DnB!: Drop and Boom! falling-block puzzle game, playable offline in Orca's sidebar.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "4f74812cd4e308749e88be33dbf9783b232fff30",
+          "contentHash": "80e9fa94072d4598524c7787376a15163dd9909b43cd6375abc0829984ef6984",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "DnB! Drop and Boom",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DnB!"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/thanut-suw-work.dnb-drop-and-boom/b1bf3000f6c039cd.png",
+              "alt": "DnB! Drop and Boom icon",
+              "sha256": "b1bf3000f6c039cdf59346fd2966f84d5323a9de90200b1afb9e4f5ad0e1d516",
+              "width": 192,
+              "height": 192
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thanut-suw-work/orca-dnb-plugin",
+          "updatedAt": "2026-11-25T20:18:14+07:00"
         }
       ]
     },
