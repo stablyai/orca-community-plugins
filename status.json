@@ -2831,7 +2831,7 @@
     },
     "mrksoftware/orca-pod": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/mrksoftware/orca-pod/0.2.0",
       "plugins": [
         "mrksoftware.pod"
       ]
@@ -3618,7 +3618,7 @@
     },
     "sergei-popov/orca-api-spec-viewer": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/sergei-popov/orca-api-spec-viewer/0.1.2",
       "plugins": [
         "sergei-popov.api-spec-viewer"
       ]

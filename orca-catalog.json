@@ -41095,8 +41095,8 @@
       "ownerId": 7292153,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mrksoftware/orca-pod.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mrksoftware/orca-pod/0.2.0"
       },
       "description": "Agent queue: dictate or type a task, Pod hands it to an agent (new worktree, folder or bot) and shows at a glance what is queued, running, waiting for you or done. English, Italian, Spanish.",
       "categories": [
@@ -53301,8 +53301,8 @@
       "ownerId": 131901981,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Sergei-Popov/orca-api-spec-viewer.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sergei-popov/orca-api-spec-viewer/0.1.2"
       },
       "description": "Browse OpenAPI 3.x, Swagger 2.0, AsyncAPI 2/3, Arazzo and Overlay files in Orca's tabs: operations, schemas, code samples, search and problems. Opens openapi.yaml and *.openapi.json by itself. Independent; not affiliated with the OpenAPI Initiative, SmartBear or the AsyncAPI Initiative.",
       "categories": [],
