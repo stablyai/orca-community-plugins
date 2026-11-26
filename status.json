@@ -91,7 +91,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.3.32",
+      "ref": "refs/tags/addisflava/orca-llm-router/1.3.32",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -879,7 +879,7 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "v0.8.3",
+      "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.3",
       "plugins": [
         "cryptosecco.regia"
       ]
@@ -907,7 +907,7 @@
     },
     "danielcech/orcajiraplugin": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/danielcech/orcajiraplugin/1.2.0",
       "plugins": [
         "danielcech.jira-branch-link"
       ]
@@ -961,6 +961,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "dbraum/tapd-for-orca": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "dbraum.tapd-sidebar"
+      ],
+      "notes": [
+        "worker.mjs: calls host method \"agent.launchDefault\", which Orca's Host API 1.10 does not have; it is unreleased or misspelled; the orca.host.has('agent.launchDefault') guard skips it"
       ]
     },
     "ddantran/orca-rails-syntax": {
@@ -1037,7 +1047,7 @@
     },
     "dimti/orca-plugin-taskfile": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/dimti/orca-plugin-taskfile/0.1.4",
       "plugins": [
         "dimti.taskfile-runner"
       ],
@@ -2188,6 +2198,16 @@
         "gallery-panel-demo: publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "jiang-xiaoxing/orca-quiet-usage": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "jiangwanyutao/orca-claude-theme": {
       "state": "listed",
       "ref": "refs/tags/jiangwanyutao/orca-claude-theme/1.5.1",
@@ -2474,7 +2494,7 @@
     },
     "li363920783/orca-tapd-todo": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/li363920783/orca-tapd-todo/0.3.1",
       "plugins": [
         "li363920783.tapd-todo"
       ]
@@ -2681,7 +2701,7 @@
     },
     "marcelofrau/orca-markdown-themes": {
       "state": "listed",
-      "ref": "v0.6.0",
+      "ref": "refs/tags/marcelofrau/orca-markdown-themes/0.6.0",
       "plugins": [
         "marcelofrau.markdown-themes"
       ],
@@ -3003,7 +3023,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "v0.6.3",
+      "ref": "refs/tags/mz-jy/orca-dbt/0.6.3",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -3936,7 +3956,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.11.0",
+      "ref": "refs/tags/shaurgon/conport-orca/0.11.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -4931,7 +4951,7 @@
     },
     "zhanxiaogao/orca-ai-usage": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.2",
       "plugins": [
         "zhanxiaogao.ai-usage"
       ]
