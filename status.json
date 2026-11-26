@@ -784,7 +784,7 @@
     },
     "cnzgray/orca-mattpocock-workflow": {
       "state": "listed",
-      "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "cnzgray.mattpocock-workflow"
       ]
@@ -1110,7 +1110,7 @@
     },
     "dungnt95/orca-flexoki-theme": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "v1.1.1",
       "plugins": [
         "dungnt95.flexoki-theme"
       ]
@@ -2406,12 +2406,19 @@
     },
     "leo-ni88/orca-island": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (tools/__pycache__/demo.cpython-312.pyc, tools/__pycache__/demo.cpython-38.pyc)"
+          "category": "reserved-name",
+          "detail": "name \"Orca Island\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
         }
+      ]
+    },
+    "leo-ni88/orca-multica": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "leo-ni88.multica"
       ]
     },
     "leobessin/orca-mongo-studio": {
@@ -3029,7 +3036,7 @@
     },
     "ngxuancam/orca-backlog": {
       "state": "listed",
-      "ref": "refs/tags/ngxuancam/orca-backlog/0.3.10",
+      "ref": "v0.3.11",
       "plugins": [
         "ngxuancam.backlog-tasks"
       ]
@@ -4196,22 +4203,16 @@
     },
     "thailoc-dev/orca-pptx-viewer": {
       "state": "listed",
-      "ref": "refs/tags/thailoc-dev/orca-pptx-viewer/0.1.0",
+      "ref": "v0.2.0",
       "plugins": [
         "thailoc-dev.pptx-viewer"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "thailoc-dev/orca-rose-pine": {
       "state": "listed",
-      "ref": "refs/tags/thailoc-dev/orca-rose-pine/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "thailoc-dev.rose-pine"
-      ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "thanhh2615/datanoa": {
@@ -4758,7 +4759,7 @@
     },
     "wooseungw/rich-tex-editor": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.4",
       "plugins": [
         "wooseungw.rich-tex-editor"
       ]

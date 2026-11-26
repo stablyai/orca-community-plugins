@@ -11825,8 +11825,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.6.0"
+        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
+        "ref": "v0.6.1"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -11835,6 +11835,43 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "c03bd2095b7e84666ba94aced33b383f171e2c42",
+          "contentHash": "a2d83d89a8b50d8015e57e65602a29e7e2c750048861e8131c4d54a838c60ff9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "MattWorkflow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "MattWorkflow"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Refresh tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Open current workspace in Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
+          "updatedAt": "2026-11-26T10:56:20+08:00"
+        },
         {
           "version": "0.6.0",
           "commit": "57af3826651babc40e97b3d4e3a33d9398077dcc",
@@ -11982,43 +12019,6 @@
           "license": "MIT",
           "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
           "updatedAt": "2026-11-24T22:31:03+08:00"
-        },
-        {
-          "version": "0.3.0",
-          "commit": "3dc099eba651564c10e7196a57afe63e258565b7",
-          "contentHash": "eba010b124526cb609acb5aac18b8a7887823bab95a32af25db460c08c3f90ef",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "MattWorkflow",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "MattWorkflow"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Refresh tickets"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Open current workspace in Orca"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "storage:own",
-            "settings:own",
-            "notifications:show",
-            "agent:read"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
-          "updatedAt": "2026-11-19T16:39:28+08:00"
         }
       ]
     },
@@ -18340,7 +18340,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dungnt95/orca-flexoki-theme.git",
-        "ref": "v1.1.0"
+        "ref": "v1.1.1"
       },
       "description": "Flexoki, the inky color scheme for prose and code by Steph Ango (stephango.com/flexoki), as Light and Dark app themes with matching syntax and terminal colors.",
       "categories": [
@@ -18348,6 +18348,60 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "d3e9ecbdc9f9a7a5c539df3f4433ff5c822751a6",
+          "contentHash": "c726c1bdca886c71bd8fd8978b8994d212a7fc13e21cb9329dd8d11bc62e996d",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Flexoki for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Dark"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dungnt95.flexoki-theme/4e71546574b1539f.png",
+              "alt": "Flexoki Light and Flexoki Dark Orca windows side by side, each with a file tree, syntax-highlighted TypeScript, terminal output and the Flexoki palette",
+              "sha256": "4e71546574b1539fbd43cb9a9bd5a721e85e47f701e4ecacee58c3ef26c1c159",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/dungnt95.flexoki-theme/cce5698bc897531b.png",
+                "alt": "Orca in Flexoki Light: warm paper background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "cce5698bc897531b7ff5ed5c142130e389e7e732f1d7744395a62c5e1401d647",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.flexoki-theme/29e4611d92c7553a.png",
+                "alt": "Orca in Flexoki Dark: inky black background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "29e4611d92c7553a1dc8951c0c5b8e7c52c80612528fe330f7f8dce93d54a8ba",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dungnt95/orca-flexoki-theme",
+          "updatedAt": "2026-11-26T09:59:34+07:00"
+        },
         {
           "version": "1.1.0",
           "commit": "485dbf9fee159743731846af6b87a4819fb9d2f1",
@@ -35986,6 +36040,53 @@
       ]
     },
     {
+      "id": "leo-ni88.multica",
+      "ownerId": 65437462,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Leo-Ni88/orca-multica.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Browse, filter and triage Multica issues from Orca: status tabs, multi-select filters, grouping, comments and batch status changes.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "210e2737ac5a59c7cfd0349bf314dd42c816b719",
+          "contentHash": "addbc15069a9ec47a1960d5d652da9316c629a25b3ac9db7a612eb0f7dcb86a3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Multica",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Multica"
+            },
+            {
+              "kind": "commands",
+              "name": "Multica: Refresh issues now"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Multica"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Leo-Ni88/orca-multica",
+          "updatedAt": "2026-11-26T11:08:44+08:00"
+        }
+      ]
+    },
+    {
       "id": "leobessin.mongo-studio",
       "ownerId": 72224798,
       "source": {
@@ -43850,14 +43951,78 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.10"
+        "url": "https://github.com/ngxuancam/orca-backlog.git",
+        "ref": "v0.3.11"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.11",
+          "commit": "2599cc447173a87ca6fbdd66010f5851165f2ee5",
+          "contentHash": "d449ec5cceea104d3e42034e9236c401eda38b9b7dc03464870a2c1fe27790c4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Backlog Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Backlog Tasks"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
+              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
+              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
+              "alt": "Backlog Tasks icon",
+              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
+                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
+                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
+                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
+                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
+                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
+                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ngxuancam/orca-backlog",
+          "updatedAt": "2026-11-26T09:50:09+07:00"
+        },
         {
           "version": "0.3.10",
           "commit": "63b70b70a1a55a03bfb201452e287a282d576c46",
@@ -44113,70 +44278,6 @@
           "license": "MIT",
           "repository": "https://github.com/ngxuancam/orca-backlog",
           "updatedAt": "2026-11-25T11:03:35+07:00"
-        },
-        {
-          "version": "0.3.5",
-          "commit": "1956da70f4f063b34adb62160d0c0009f4e37236",
-          "contentHash": "8468e8c2c85bc411a21ee14e2188109ad49abc807e56d9e5fdf289f4e34bcc73",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Backlog Tasks",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Backlog Tasks"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "workspace:read",
-            "workspace:write",
-            "workspace:create",
-            "agent:launch"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ngxuancam.backlog-tasks/7cf2108725adeed3.png",
-              "alt": "Backlog for Orca: the sidebar panel with My Issues in dark and an issue detail in light",
-              "sha256": "7cf2108725adeed305332edd23c25a7ffbc09043708fa811a599c5d755b672f2",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ngxuancam.backlog-tasks/0098459e20e005e1.png",
-              "alt": "Backlog Tasks icon",
-              "sha256": "0098459e20e005e1c9c15089f22fdd8469ed44a710c83936148db902f8d68348",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/ngxuancam.backlog-tasks/7738e961bc9f7d13.png",
-                "alt": "The dashboard in dark and light: projects and My Issues with due-date tabs",
-                "sha256": "7738e961bc9f7d13a37cb331b42aa00774ed26d0730481f87339510657ec904f",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ngxuancam.backlog-tasks/8e9fac2e87648e83.png",
-                "alt": "An issue with linked issues, a pull request and the agent hand-off, in dark and light",
-                "sha256": "8e9fac2e87648e83ff2d03915cae6935142913065c570b7ad2fd3a7fdc228e2b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/ngxuancam.backlog-tasks/7ed7723252e96783.png",
-                "alt": "Settings with two accounts and the account each Orca project uses, in dark and light",
-                "sha256": "7ed7723252e967834dcef3e241c57eb74f49e056803ae73fd292ec9bc040e5a3",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/ngxuancam/orca-backlog",
-          "updatedAt": "2026-11-25T09:49:13+07:00"
         }
       ]
     },
@@ -61770,12 +61871,55 @@
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thailoc-dev/orca-pptx-viewer/0.1.0"
+        "url": "https://github.com/thailoc-dev/orca-pptx-viewer.git",
+        "ref": "v0.2.0"
       },
-      "description": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with shapes, pictures, tables, charts, slide navigation and zoom.",
+      "description": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with slide thumbnails, find, speaker notes, zoom and slide navigation.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "75726d7068a24522d6eec39ffe9b67f1d21f3a3f",
+          "contentHash": "a0b374502c7688914f74faca50e91b59a86d7b4a38bd696f3a78b4b234aea916",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.246",
+          "name": "Presentation Viewer",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Presentation Preview",
+              "detail": ".pptx, .ppsx, .potx, .pptm, .ppsm, .potm"
+            }
+          ],
+          "fileTypes": [
+            "pptx",
+            "ppsx",
+            "potx",
+            "pptm",
+            "ppsm",
+            "potm"
+          ],
+          "editorFileTypes": [
+            "pptx",
+            "ppsx",
+            "potx",
+            "pptm",
+            "ppsm",
+            "potm"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.pptx-viewer/b1e3e3c7aba5371f.png",
+              "alt": "Presentation Viewer in an Orca editor tab, showing a quarterly-review slide with stat cards and a bar chart",
+              "sha256": "b1e3e3c7aba5371f2a459f34fd2b07c49869e9cf03b57d7f026a0478b920ca8a",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-pptx-viewer",
+          "updatedAt": "2026-11-26T10:09:26+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "ea7c5291e10fbe715edfe188995b012638c386dc",
@@ -61826,8 +61970,8 @@
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/thailoc-dev/orca-rose-pine/0.1.0"
+        "url": "https://github.com/thailoc-dev/orca-rose-pine.git",
+        "ref": "v0.1.1"
       },
       "description": "All natural pine, faux fur and a bit of soho vibes: Rosé Pine, Moon and Dawn as app and terminal themes, with matching syntax colors.",
       "categories": [
@@ -61835,6 +61979,52 @@
         "terminal-themes"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "9295e181446137ca6fb7c930efa44ce0b789f2ea",
+          "contentHash": "b765206ecb71580c66e4f2fe6a424736172469500831e1ad6dd11511da96dab8",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Rosé Pine for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Rosé Pine"
+            },
+            {
+              "kind": "themes",
+              "name": "Rosé Pine Moon"
+            },
+            {
+              "kind": "themes",
+              "name": "Rosé Pine Dawn"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Rosé Pine"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Rosé Pine Moon"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Rosé Pine Dawn"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/thailoc-dev.rose-pine/b4f4ad8c61d9dff8.png",
+              "alt": "Orca in Rosé Pine, Rosé Pine Moon and Rosé Pine Dawn, each showing workspaces, syntax-highlighted TypeScript and a terminal",
+              "sha256": "b4f4ad8c61d9dff807056a9f60d74820021303e61bf3b2aba2d27d125c78f4ef",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/thailoc-dev/orca-rose-pine",
+          "updatedAt": "2026-11-26T10:09:26+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "31ed15a0901402f78ba969db36937f0af56e1862",
@@ -70128,8 +70318,8 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wooseungw/rich-tex-editor.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.4"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables and images as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],

@@ -1391,6 +1391,12 @@
     "repoId": 1457826992,
     "firstSeen": "2026-11-25T04:43:09.832Z"
   },
+  "cnzgray.mattpocock-workflow@0.6.1": {
+    "commit": "c03bd2095b7e84666ba94aced33b383f171e2c42",
+    "contentHash": "a2d83d89a8b50d8015e57e65602a29e7e2c750048861e8131c4d54a838c60ff9",
+    "repoId": 1457826992,
+    "firstSeen": "2026-11-26T03:19:31.944Z"
+  },
   "coffeepy.swampling@0.2.0": {
     "commit": "cde83e6c58d199075e161f20181a7676a62a811e",
     "contentHash": "49ecce892eadce7a0872e5182b886bd93303ec831f0d6de29967eeff36266763",
@@ -1972,6 +1978,12 @@
     "contentHash": "3ffd4a2b5d58366c0a4b51fa6163f292efb065c7e5d67e681d89b3c0cbd2d4b9",
     "repoId": 1472566798,
     "firstSeen": "2026-11-26T02:42:32.520Z"
+  },
+  "dungnt95.flexoki-theme@1.1.1": {
+    "commit": "d3e9ecbdc9f9a7a5c539df3f4433ff5c822751a6",
+    "contentHash": "c726c1bdca886c71bd8fd8978b8994d212a7fc13e21cb9329dd8d11bc62e996d",
+    "repoId": 1472566798,
+    "firstSeen": "2026-11-26T03:19:31.944Z"
   },
   "ebbop.italiano@1.4.255": {
     "commit": "76e40ef5b8749ac982fab4b74bb2f65e5f104ecf",
@@ -3851,6 +3863,12 @@
     "repoId": 1460948798,
     "firstSeen": "2026-11-18T04:16:24.240Z"
   },
+  "leo-ni88.multica@0.2.0": {
+    "commit": "210e2737ac5a59c7cfd0349bf314dd42c816b719",
+    "contentHash": "addbc15069a9ec47a1960d5d652da9316c629a25b3ac9db7a612eb0f7dcb86a3",
+    "repoId": 1472605956,
+    "firstSeen": "2026-11-26T03:19:31.944Z"
+  },
   "leobessin.mongo-studio@1.0.3": {
     "commit": "2eee7cc9bafb8b7da172319dc34fa800802d49d3",
     "contentHash": "bcf280cb2dc8ad3f62ad2c4678297cfbe64af569fd4716a76ab545cdf4b3984d",
@@ -4678,6 +4696,12 @@
     "contentHash": "f03d5492d39835b7a7580025859d4b0991fe5794fd7459a1e9101effcb102e70",
     "repoId": 1469782306,
     "firstSeen": "2026-11-25T08:21:53.246Z"
+  },
+  "ngxuancam.backlog-tasks@0.3.11": {
+    "commit": "2599cc447173a87ca6fbdd66010f5851165f2ee5",
+    "contentHash": "d449ec5cceea104d3e42034e9236c401eda38b9b7dc03464870a2c1fe27790c4",
+    "repoId": 1469782306,
+    "firstSeen": "2026-11-26T03:19:31.944Z"
   },
   "ngxuancam.backlog-tasks@0.3.2": {
     "commit": "e3fe6e7c96f1fbcac84061c8b1b131ab3e33ce02",
@@ -6653,11 +6677,23 @@
     "repoId": 1440511554,
     "firstSeen": "2026-10-31T05:12:42.373Z"
   },
+  "thailoc-dev.pptx-viewer@0.2.0": {
+    "commit": "75726d7068a24522d6eec39ffe9b67f1d21f3a3f",
+    "contentHash": "a0b374502c7688914f74faca50e91b59a86d7b4a38bd696f3a78b4b234aea916",
+    "repoId": 1440511554,
+    "firstSeen": "2026-11-26T03:19:31.944Z"
+  },
   "thailoc-dev.rose-pine@0.1.0": {
     "commit": "31ed15a0901402f78ba969db36937f0af56e1862",
     "contentHash": "212f2a7ce6e90b512a9cafe508933ee5b5f5ded0c8f72d8b236b39931fb6704e",
     "repoId": 1440728806,
     "firstSeen": "2026-10-31T10:12:38.962Z"
+  },
+  "thailoc-dev.rose-pine@0.1.1": {
+    "commit": "9295e181446137ca6fb7c930efa44ce0b789f2ea",
+    "contentHash": "b765206ecb71580c66e4f2fe6a424736172469500831e1ad6dd11511da96dab8",
+    "repoId": 1440728806,
+    "firstSeen": "2026-11-26T03:19:31.944Z"
   },
   "thanhh2615.datanoa@1.0.3": {
     "commit": "33d39723c69096b2ceadcf779ac2488b7d560684",
