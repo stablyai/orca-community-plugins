@@ -965,7 +965,7 @@
     },
     "dbraum/tapd-for-orca": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/dbraum/tapd-for-orca/0.2.0",
       "plugins": [
         "dbraum.tapd-sidebar"
       ],
