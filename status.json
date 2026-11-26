@@ -2566,19 +2566,10 @@
     },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
-      "ref": "refs/tags/lilykos/orca-openrouter-usage/1.2.0",
+      "ref": "v1.4.0",
       "plugins": [
         "lilykos.openrouter-usage"
-      ],
-      "update": {
-        "ref": "v1.4.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size, update"
-          }
-        ]
-      }
+      ]
     },
     "lilykos/orca-the-lobby": {
       "state": "listed",
@@ -3067,7 +3058,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "v0.7.0",
+      "ref": "refs/tags/mz-jy/orca-dbt/0.7.0",
       "plugins": [
         "mz-jy.dbt"
       ]

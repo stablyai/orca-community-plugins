@@ -38264,14 +38264,106 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lilykos/orca-openrouter-usage/1.2.0"
+        "url": "https://github.com/Lilykos/orca-openrouter-usage.git",
+        "ref": "v1.4.0"
       },
-      "description": "Track OpenRouter credits, runway and spend from Orca: model comparisons, daily and monthly budgets, API key health, CSV exports and a status bar balance. Read-only; your management key stays in Orca's encrypted secret store.",
+      "description": "Track OpenRouter credits and runway in your Orca sidebar: spend and tokens by day, model and token mix, a 26-week activity heatmap, spend and limits per API key, budgets with closable warnings, CSV exports and today's spend in the status bar. Add an optional DeepSeek key to see its balance, today's ",
       "categories": [
-        "panels"
+        "panels",
+        "commands"
       ],
       "releases": [
+        {
+          "version": "1.4.0",
+          "commit": "92ed7fc5650c3031bb83779e3f63faa32487c07a",
+          "contentHash": "117f0546cbb8220b23b8ab85cfb0ee05ff25bda2fbbb8cf460d6ad5408b95ad9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenRouter Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenRouter Usage"
+            },
+            {
+              "kind": "commands",
+              "name": "OpenRouter Usage: Show or hide the right sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenRouter"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lilykos.openrouter-usage/6eb052bf3955fbd9.png",
+              "alt": "OpenRouter Usage: one input fanning out to several models, with chips for Credits & runway, Models & tokens, API keys & limits and DeepSeek balance",
+              "sha256": "6eb052bf3955fbd9a6c451565b2507263fd86363ad5a1bc7a3f3ba40c2fb4d98",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lilykos.openrouter-usage/8afcf4398a709ea2.png",
+              "alt": "OpenRouter Usage icon",
+              "sha256": "8afcf4398a709ea2e948ed759cae8a41e035581356b4717103f4fa36c7143acb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lilykos.openrouter-usage/1033cfa6eef0bab2.png",
+                "alt": "Usage with a vivid gold banner: $33.86 credits left and 42 days of runway, three closable warnings, today and November with a budget meter, and a 30-day chart",
+                "sha256": "1033cfa6eef0bab2c284ba6302326f3f46b69006ff7e048d2bcd3ad1dcf1e52f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/53da184c6dde5611.png",
+                "alt": "A selected day, Mon, Nov 23: the chart dims the other bars while Models and Token mix show that day's $0.96, its six models and 2M tokens",
+                "sha256": "53da184c6dde5611666cb2bf8826c29cf167304de23ed519d2be858b6e44dc2f",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/51e3fc7578555353.png",
+                "alt": "Token mix as four numbers (cached and uncached prompt, completion, reasoning) with 61% cache hit, above a 26-week activity heatmap totalling $52.94",
+                "sha256": "51e3fc7578555353364eb90721412b52c10be889a4bc81f3656e23e119ea69a3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/06882358518a1bcb.png",
+                "alt": "Keys in light mode with its own 7-day, 30-day and all-time switch, $41.61 across six active keys, limit meters, and Near limit and Expires badges",
+                "sha256": "06882358518a1bcbd99b7a8a26846a6982143fb4f82403e91a37c03956ab62a9",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/c8a6ff7c0bc2aac1.png",
+                "alt": "Usage in light mode with the DeepSeek card open: $12.50 balance, $0.90 spent today and 10 days left, above the spend chart",
+                "sha256": "c8a6ff7c0bc2aac1826f2bc2e64d8442f29ce6e6d634b69b59e3093070d8c4df",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/b46e8f002642d7f2.png",
+                "alt": "Settings in light mode with a vivid teal banner: OpenRouter connected, DeepSeek optional, colour and Vivid beside a live preview, and alerts and budgets",
+                "sha256": "b46e8f002642d7f28806d19e51245c0c8f1e75cb921c3d0c099a82e4f72ba962",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-openrouter-usage",
+          "updatedAt": "2026-11-26T17:50:28+01:00"
+        },
         {
           "version": "1.2.0",
           "commit": "d8937c8c2caed12974626303cc88df5ae55e78ad",
@@ -44789,8 +44881,8 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mz-jy/orca-dbt.git",
-        "ref": "v0.7.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mz-jy/orca-dbt/0.7.0"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
