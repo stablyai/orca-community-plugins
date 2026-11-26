@@ -111,7 +111,16 @@
       "ref": "refs/tags/addisflava/orca-llm-router/1.3.32",
       "plugins": [
         "addisflava.llm-router"
-      ]
+      ],
+      "update": {
+        "ref": "v1.3.33",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "aeldi/orca-agent-advisor": {
       "state": "rejected",
@@ -1158,6 +1167,16 @@
         "dr-xjx.session-progress"
       ]
     },
+    "drecchia/orca-telegram-bridge": {
+      "state": "listed",
+      "ref": "v0.15.5",
+      "plugins": [
+        "drecchia.telegram-bridge"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "duck1eee/void-glow": {
       "state": "listed",
       "ref": "refs/tags/duck1eee/void-glow/1.0.0",
@@ -1438,7 +1457,7 @@
     },
     "everlightlabs/orca-plugin-multica": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/everlightlabs/orca-plugin-multica/0.1.1",
       "plugins": [
         "everlightlabs.multica"
       ]
@@ -1944,6 +1963,16 @@
         {
           "category": "no-release-tag",
           "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
+    "henriquefps/orca-agent-board-plugin": {
+      "state": "rejected",
+      "ref": "v0.1.5",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -3078,7 +3107,7 @@
     },
     "mrksoftware/orca-pod": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "refs/tags/mrksoftware/orca-pod/0.3.2",
       "plugins": [
         "mrksoftware.pod"
       ]
@@ -4951,7 +4980,7 @@
     },
     "wst-ki/orca-server-status": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/wst-ki/orca-server-status/0.1.0",
       "plugins": [
         "wst-ki.server-status"
       ],

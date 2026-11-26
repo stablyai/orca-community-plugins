@@ -18895,6 +18895,70 @@
       ]
     },
     {
+      "id": "drecchia.telegram-bridge",
+      "ownerId": 5439830,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/drecchia/orca-telegram-bridge.git",
+        "ref": "v0.15.5"
+      },
+      "description": "Two-way Telegram bot bridge that routes messages to your Orca bots and sends replies back.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.15.5",
+          "commit": "4995d8f4b054c1b652fcc92208ebfaade3bef789",
+          "contentHash": "efc124c0659c6aba66596b4ccaf688b767f84df560ab67169322e851d9ab3689",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Telegram Bridge",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Telegram"
+            },
+            {
+              "kind": "commands",
+              "name": "Telegram Bridge: Open Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Telegram Bridge: Toggle Polling"
+            },
+            {
+              "kind": "commands",
+              "name": "Telegram Bridge: Test Connection"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "TG: Init"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/drecchia.telegram-bridge/ceb29d1d98b80198.png",
+              "alt": "Telegram Bridge icon",
+              "sha256": "ceb29d1d98b801985807a2d55a76758b89803abe9033e7deb16360dd6c799b97",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/drecchia/orca-telegram-bridge",
+          "updatedAt": "2026-11-26T12:31:16-03:00"
+        }
+      ]
+    },
+    {
       "id": "duck1eee.void-glow",
       "ownerId": 90901839,
       "source": {
@@ -22825,8 +22889,8 @@
       "ownerId": 209480577,
       "source": {
         "kind": "git",
-        "url": "https://github.com/everlightlabs/orca-plugin-multica.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/everlightlabs/orca-plugin-multica/0.1.1"
       },
       "description": "Browse, filter, and update Multica work items, and launch Orca worktrees and agents directly from tickets.",
       "categories": [
@@ -44164,8 +44228,8 @@
       "ownerId": 7292153,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mrksoftware/orca-pod.git",
-        "ref": "v0.3.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mrksoftware/orca-pod/0.3.2"
       },
       "description": "Agent queue: dictate or type a task, Pod hands it to an agent (new worktree, folder or bot) and shows at a glance what is queued, running, waiting for you or done. English, Italian, Spanish.",
       "categories": [
@@ -73419,8 +73483,8 @@
       "ownerId": 99245787,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wst-ki/orca-server-status.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wst-ki/orca-server-status/0.1.0"
       },
       "description": "Multi-machine monitor for Orca: live CPU, RAM, multi-GPU, connection latency, pin/reorder overview cards, active-session status bar follow, bilingual UI, and hot-reloading custom shell widget cards authored by you or your agents.",
       "categories": [
