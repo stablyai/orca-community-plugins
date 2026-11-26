@@ -36342,6 +36342,85 @@
       ]
     },
     {
+      "id": "lilykos.design-canvas",
+      "ownerId": 2445433,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Lilykos/orca-design.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Where people and agents design together: HTML artboards on a canvas, with comments, edits and tweaks the agent revises.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "80f7f24fb08141c8cc5612ec27eb7a8ea304fc99",
+          "contentHash": "b9d4f53ef6cca28581f6f91d0feff8b7271d188f570ef9894e1adb25de276b83",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Design canvas",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Design"
+            },
+            {
+              "kind": "commands",
+              "name": "Design: Open canvas"
+            },
+            {
+              "kind": "commands",
+              "name": "Design: New design…"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+D",
+              "detail": "design.openCanvas"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Design canvas",
+              "detail": ".design.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Design"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "storage:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/lilykos.design-canvas/dd492ec6c46a8378.png",
+              "alt": "Design canvas icon",
+              "sha256": "dd492ec6c46a8378dd068d7e62de1b1dfd50c8d0dafb98ef73136654dd5a43bf",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-design",
+          "updatedAt": "2026-11-26T02:40:57+01:00"
+        }
+      ]
+    },
+    {
       "id": "lilykos.openrouter-usage",
       "ownerId": 2445433,
       "source": {

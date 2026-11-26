@@ -2435,13 +2435,10 @@
       ]
     },
     "lilykos/orca-design": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "lilykos.design-canvas"
       ]
     },
     "lilykos/orca-openrouter-usage": {
