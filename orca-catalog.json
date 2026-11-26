@@ -28908,6 +28908,63 @@
       ]
     },
     {
+      "id": "husrevkorpe.turkce",
+      "ownerId": 142094173,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/HusrevKorpe/orca-turkce.git",
+        "ref": "v1.1.3"
+      },
+      "description": "Turkish translation of the Orca interface. Short labels also show the original English in parentheses, so menus stay easy to match with English docs.",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.1.3",
+          "commit": "84be64e4398fd73bbe5cd0bad045014f1a6f96dc",
+          "contentHash": "bdfd26f8ee7e07f233b75e2f8bccd8951c38fd76042ece8b96b3f8a8f4b4fd30",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Türkçe (English)",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "tr"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/husrevkorpe.turkce/ea79edc992853a0f.png",
+              "alt": "Türkçe Orca menüsü: kısa etiketlerin yanında İngilizceleri parantez içinde",
+              "sha256": "ea79edc992853a0f31033e979b122c9158b3789a9d7b4935752d2b9c090bc12b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/husrevkorpe.turkce/b76b0016559009a7.png",
+              "alt": "Türkçe (English) icon",
+              "sha256": "b76b0016559009a779a461f67ce98541896b9716fc44b79a621e0ae3680efc6c",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/husrevkorpe.turkce/e2c1bf1fa573f723.png",
+                "alt": "Türkçe Orca ayarları: Görünüm sayfası, etiketlerin yanında İngilizceleri",
+                "sha256": "e2c1bf1fa573f7232c5d38d302fcb50aae6fb19ea9f5223bd7a1ee8c42bf8bfa",
+                "width": 2560,
+                "height": 1318
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/HusrevKorpe/orca-turkce",
+          "updatedAt": "2026-11-26T11:11:03+03:00"
+        }
+      ]
+    },
+    {
       "id": "ias0nas.seaqull",
       "ownerId": 9936844,
       "source": {
@@ -36473,8 +36530,8 @@
       "ownerId": 65437462,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Leo-Ni88/orca-island.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/leo-ni88/orca-island/1.0.2"
       },
       "description": "A notch-style island for Orca on macOS: see which agents need you, finished or failed at a glance, and jump straight to them.",
       "categories": [
@@ -38642,6 +38699,45 @@
           "license": "MIT AND CC-BY-4.0",
           "repository": "https://github.com/manomilano/orca-mascots",
           "updatedAt": "2026-11-21T09:14:51+02:00"
+        }
+      ]
+    },
+    {
+      "id": "marcelofrau.confluence",
+      "ownerId": 1341820,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/marcelofrau/orca-confluence.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Search Confluence from Orca's sidebar, open pages as read-only Markdown tabs, and copy [Exact title](url) links. Data Center, Server and Cloud.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "2b2afd2c8d51c5f0fc576fe3772eacd2b320b342",
+          "contentHash": "d4cbce2393223a9e5284926d5491bfe69f57642ae23476859d561a5845f4aa2c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Confluence",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Confluence"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "updatedAt": "2026-11-26T08:45:32+01:00",
+          "license": "GPL-3.0-only",
+          "repository": "https://github.com/marcelofrau/orca-confluence"
         }
       ]
     },
@@ -51049,10 +51145,10 @@
       "ownerId": 111752404,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rmrfmybrain/orca-session-tree/1.0.1"
+        "url": "https://github.com/rmrfmybrain/orca-session-tree.git",
+        "ref": "v1.1.0"
       },
-      "description": "Every open agent session in one tree by project, native chats included: what is working, what waits for you and what finished unread on top. Start a chat with or without a worktree from + beside a project; right-click to mark read, close or remove.",
+      "description": "Chats with or without a worktree, and every open agent session in one tree by project, native chats included: what is working, what waits for you, what finished unread. No Worktree Mode blocks new worktrees in every project or only chosen ones. Right-click to mark read, close or remove.",
       "categories": [
         "panels",
         "commands",
@@ -51060,6 +51156,98 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "db3821b0164087487dd6097474968913fd11ae41",
+          "contentHash": "9ea7bdb777a20c1ffb36c72b455d643c9f0bb180d366588a741c285e5a1c7ef3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Session Tree + No Worktree Mode",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Session Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "New chat here, no worktree"
+            },
+            {
+              "kind": "commands",
+              "name": "Ban or allow new worktrees in this project"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+N",
+              "detail": "chat.new"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rmrfmybrain.session-tree/3915bf525c202e79.png",
+              "alt": "Session Tree's icon and name beside the panel, listing agent sessions by project",
+              "sha256": "3915bf525c202e79e8d96917ca1e9f1187933569f4d865c0f991d5ae647784cc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rmrfmybrain.session-tree/3a7321bb6fd33075.png",
+              "alt": "Session Tree + No Worktree Mode icon",
+              "sha256": "3a7321bb6fd33075d11ad9fcbe95208f523ac348b81146d9ff5e4653298b1e2c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rmrfmybrain.session-tree/ca700d76836a13d6.png",
+                "alt": "Three Session Tree panels in the dark theme: the project tree, the Recent list and the new chat menu",
+                "sha256": "ca700d76836a13d61300bcac080ae2c5eff6ce72c0f250d41c02bafc3357f53a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rmrfmybrain.session-tree/f07f33f26070d5c3.png",
+                "alt": "The same three panels in the light theme",
+                "sha256": "f07f33f26070d5c3f02f996847186c890418bb107129ea84f09c7f888a32230e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rmrfmybrain.session-tree/dbada080ca79f250.png",
+                "alt": "The right-click menu on a session, the confirmation before deleting a worktree, and the Recent list in Japanese",
+                "sha256": "dbada080ca79f2505f40599fe237cae067f70113e96da95752064438d46b2f4e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-26T07:48:04Z",
+          "license": "MIT",
+          "repository": "https://github.com/rmrfmybrain/orca-session-tree"
+        },
         {
           "version": "1.0.1",
           "commit": "59e2bfcacae0237fadbf6ca6740c4e9d5dafc235",
@@ -71040,8 +71228,8 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wooseungw/rich-tex-editor.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.0"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables, images and TikZ pictures (drawn by your own TeX) as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],
