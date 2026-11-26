@@ -111,7 +111,16 @@
       "ref": "v1.3.36",
       "plugins": [
         "addisflava.llm-router"
-      ]
+      ],
+      "update": {
+        "ref": "v1.3.37",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "aeldi/orca-agent-advisor": {
       "state": "rejected",
@@ -4950,7 +4959,7 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/wizhelp/orca-proxmox/0.3.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
       ]
