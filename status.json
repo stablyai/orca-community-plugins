@@ -2086,11 +2086,11 @@
     },
     "jecyxyf/orca-tps-plugin": {
       "state": "rejected",
-      "ref": "v1.6.6",
+      "ref": "v1.6.5",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code"
+          "detail": "code, size"
         }
       ]
     },
