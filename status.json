@@ -289,6 +289,16 @@
         "and3r817.codegraph"
       ]
     },
+    "and3r817/orca-skills-update": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "angelcrown24/orca-traffic-light": {
       "state": "listed",
       "ref": "refs/tags/angelcrown24/orca-traffic-light/0.3.4",
@@ -4092,6 +4102,26 @@
       "ref": "refs/tags/shaurgon/conport-orca/0.11.3",
       "plugins": [
         "shaurgon.conport-orca"
+      ]
+    },
+    "sheaguev/orca-cursor-dark-theme": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "name"
+        }
+      ]
+    },
+    "sheaguev/orca-review-desk": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
       ]
     },
     "shelmecha/doki-orca-dark-1": {
