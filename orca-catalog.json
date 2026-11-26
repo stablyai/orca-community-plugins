@@ -3044,8 +3044,8 @@
       "ownerId": 40687041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aliuda/orca-bot-items-board.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aliuda/orca-bot-items-board/0.1.0"
       },
       "description": "Live right-sidebar workbench for Orca bots' Items: track open & needs-you items, inspect details, and act via secure per-bot webhook automation.",
       "categories": [
@@ -13587,8 +13587,8 @@
       "ownerId": 99609885,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
-        "ref": "v0.8.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.4"
       },
       "description": "A read-only control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests.",
       "categories": [
@@ -38048,14 +38048,94 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lilykos/orca-openrouter-usage/1.1.0"
+        "url": "https://github.com/Lilykos/orca-openrouter-usage.git",
+        "ref": "v1.2.0"
       },
       "description": "Track OpenRouter credits, runway and spend from Orca: model comparisons, daily and monthly budgets, API key health, CSV exports and a status bar balance. Read-only; your management key stays in Orca's encrypted secret store.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "d8937c8c2caed12974626303cc88df5ae55e78ad",
+          "contentHash": "9b0bce0a4fb2dd9d03814a7c68009f78dbca9ee898a36a40f59da51f9c8e4bdc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "OpenRouter Usage",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "OpenRouter Usage"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "OpenRouter"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/lilykos.openrouter-usage/6e8280a1ad04b44f.png",
+              "alt": "OpenRouter Usage: one input fanning out to several models, with the title and the features Credits and burn rate, Models, API keys and Daily ledger",
+              "sha256": "6e8280a1ad04b44f22d1aa747120ae4e3d3e65636dffcfc582659263b9772277",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/lilykos.openrouter-usage/8afcf4398a709ea2.png",
+              "alt": "OpenRouter Usage icon",
+              "sha256": "8afcf4398a709ea2e948ed759cae8a41e035581356b4717103f4fa36c7143acb",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/lilykos.openrouter-usage/2382c7074b046a10.png",
+                "alt": "The Overview: credits and runway, monthly spend and projection, comparison with the preceding period, budget progress and a daily spend chart",
+                "sha256": "2382c7074b046a10308c8710944b5e567651a45064964aa91ba62047524c4231",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/ea3849614f3f4d22.png",
+                "alt": "A model details drawer showing total, share, requests, token breakdown, cache hit rate and a daily sparkline",
+                "sha256": "ea3849614f3f4d22ecc6f148175c748d6daf589e7df6e6392e51ad769271d893",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/114b6d65dd8224ac.png",
+                "alt": "The Keys tab with per-key spend, expiring and expired key badges, near-limit warnings and UTC reset periods",
+                "sha256": "114b6d65dd8224ac4e183c267182c80a78e43c371e3779ec955d0d6023b621f1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/776ccf53560077c4.png",
+                "alt": "The Ledger tab: a newest-first list of days with a bar and amount, and an activity calendar; hovering a day shows its spend per model",
+                "sha256": "776ccf53560077c430c08a5267d71d1b916b42e49b5697ae96346aa5b939b480",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/lilykos.openrouter-usage/52bca38b74cdd1d2.png",
+                "alt": "The Settings tab with connection test, key replacement, refresh interval, alert thresholds and toggles",
+                "sha256": "52bca38b74cdd1d221b4f261b1aedde839101be7c73af87fe59859d95e67a503",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Lilykos/orca-openrouter-usage",
+          "updatedAt": "2026-11-26T14:39:06+01:00"
+        },
         {
           "version": "1.1.0",
           "commit": "0d51e9d061f4255d7822793705ba05a640fcb924",
@@ -43675,8 +43755,8 @@
       "ownerId": 7292153,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mrksoftware/orca-pod.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mrksoftware/orca-pod/0.3.0"
       },
       "description": "Agent queue: dictate or type a task, Pod hands it to an agent (new worktree, folder or bot) and shows at a glance what is queued, running, waiting for you or done. English, Italian, Spanish.",
       "categories": [
@@ -56034,8 +56114,8 @@
       "ownerId": 14252382,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/senadaruc/orca-grazr/0.11.4"
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "v0.11.6"
       },
       "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
       "categories": [
@@ -56044,6 +56124,111 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.11.6",
+          "commit": "3d47f51fe605c91ccd786c7af95d94131f8d1564",
+          "contentHash": "e1cfcdb29ce6c218a6340db6dc7912a02637944cf6f37ed8ba4eea56ad120e28",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.245",
+          "name": "Grazr",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Accounts"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Target → next host"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Status (all hosts)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Swap to the next account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Refresh usage (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Turn rotation on/off (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Add an account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Sign in another organization of the active login (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Install engine on target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Uninstall from target"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Drain notices now"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type enrol command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Type status command into terminal"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a model limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Use a full limit reset on claude.ai (active account of this workspace's server)"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Reload panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Grazr: Show the focused workspace's host"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/senadaruc/orca-grazr",
+          "updatedAt": "2026-11-26T14:34:50+01:00"
+        },
         {
           "version": "0.11.4",
           "commit": "dac3a311aabb3cd905436f68a4a3a87e1aad33f1",
@@ -56463,111 +56648,6 @@
           "license": "MIT",
           "repository": "https://github.com/senadaruc/orca-grazr",
           "updatedAt": "2026-11-23T16:13:00+01:00"
-        },
-        {
-          "version": "0.11.0",
-          "commit": "bfbda265a1ded83195e44f81bdb3c272aa550287",
-          "contentHash": "1a0e5ea71fa1ca7c7fe5a82bfdd3fe814d8558e1f422b5c8a9eb8734e6d7fa7c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.245",
-          "name": "Grazr",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Claude Accounts"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Target → next host"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Status (all hosts)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Swap to the next account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Refresh usage (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Turn rotation on/off (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Re-authenticate a blocked account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Add an account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Sign in another organization of the active login (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Open claude.ai as the active account (this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Install engine on target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Uninstall from target"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Drain notices now"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type enrol command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Type status command into terminal"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Use a model limit reset on claude.ai (active account of this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Use a full limit reset on claude.ai (active account of this workspace's server)"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Reload panel"
-            },
-            {
-              "kind": "commands",
-              "name": "Grazr: Show the focused workspace's host"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            }
-          ],
-          "capabilities": [
-            "notifications:show",
-            "settings:own",
-            "storage:own",
-            "workspace:read",
-            "agent:read",
-            "terminal:send"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/senadaruc/orca-grazr",
-          "updatedAt": "2026-11-23T15:16:01+01:00"
         }
       ]
     },
@@ -72259,8 +72339,8 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wooseungw/rich-tex-editor.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.2"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables, images and TikZ pictures (drawn by your own TeX) as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],

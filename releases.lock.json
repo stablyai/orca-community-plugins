@@ -4055,6 +4055,12 @@
     "repoId": 1453417604,
     "firstSeen": "2026-11-21T20:42:41.411Z"
   },
+  "lilykos.openrouter-usage@1.2.0": {
+    "commit": "d8937c8c2caed12974626303cc88df5ae55e78ad",
+    "contentHash": "9b0bce0a4fb2dd9d03814a7c68009f78dbca9ee898a36a40f59da51f9c8e4bdc",
+    "repoId": 1453417604,
+    "firstSeen": "2026-11-26T13:42:49.621Z"
+  },
   "lilykos.the-lobby@1.0.0": {
     "commit": "2c9d5a4f42ae06849af245ebce3f12b00fe97492",
     "contentHash": "6a1a5ae735e429b11a9d35e64e34181715138d8807f820a2aa6a37f7df1b04a4",
@@ -6100,6 +6106,12 @@
     "contentHash": "fbc2369b5b63a532322cd893e4b641dfb76c4345ceefcfc0eae1573d93d1e0a4",
     "repoId": 1440225977,
     "firstSeen": "2026-11-23T21:15:11.805Z"
+  },
+  "senadaruc.grazr@0.11.6": {
+    "commit": "3d47f51fe605c91ccd786c7af95d94131f8d1564",
+    "contentHash": "e1cfcdb29ce6c218a6340db6dc7912a02637944cf6f37ed8ba4eea56ad120e28",
+    "repoId": 1440225977,
+    "firstSeen": "2026-11-26T13:42:49.621Z"
   },
   "senadaruc.grazr@0.6.1": {
     "commit": "5d067befaad61caeadb6f52a04e3ccf2451b681f",
