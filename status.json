@@ -1120,18 +1120,18 @@
     },
     "dungnt95/orca-flexoki-theme": {
       "state": "listed",
-      "ref": "v1.2.1",
+      "ref": "v1.2.3",
       "plugins": [
         "dungnt95.flexoki-theme"
       ]
     },
     "dwenking/commit-file-tree": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.2",
       "reasons": [
         {
-          "category": "binary-files",
-          "detail": "bundles binary files (.DS_Store, media/codicon.ttf)"
+          "category": "under-review",
+          "detail": "code"
         }
       ]
     },
@@ -3139,7 +3139,7 @@
     },
     "oddieradhie/orca-jenkins": {
       "state": "listed",
-      "ref": "refs/tags/oddieradhie/orca-jenkins/1.0.0",
+      "ref": "v1.0.2",
       "plugins": [
         "oddieradhie.jenkins"
       ]

@@ -18340,7 +18340,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dungnt95/orca-flexoki-theme.git",
-        "ref": "v1.2.1"
+        "ref": "v1.2.3"
       },
       "description": "Flexoki, the inky color scheme for prose and code by Steph Ango (stephango.com/flexoki): Light and Dark app themes, matching syntax and terminal colors, and Flexoki Symbols file icons.",
       "categories": [
@@ -18349,6 +18349,71 @@
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.2.3",
+          "commit": "3748160420bbb42ee43ff670ebc8cb56fdb19992",
+          "contentHash": "d8336c8574ed4e7b7fec367fbb3293360dfe752c479c936325a6b4f9eae23edf",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Flexoki for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Flexoki Symbols"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dungnt95.flexoki-theme/d6626512a180d082.png",
+              "alt": "Flexoki Light and Dark Orca windows: file tree with Flexoki Symbols icons, highlighted TypeScript, terminal and palette",
+              "sha256": "d6626512a180d08258707c2a3de7a730bd3215386ea0181a8d6f99aea47ea78b",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/dungnt95.flexoki-theme/be30a7462db52334.png",
+                "alt": "Orca in Flexoki Light: warm paper background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "be30a7462db523344a6fdfa4f730663b438bc7caea4bc6497881061855b25bbc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.flexoki-theme/0b6d28354ca6fc7c.png",
+                "alt": "Orca in Flexoki Dark: inky black background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "0b6d28354ca6fc7c5c989557f780344b88e374dec3f86e1a71cb0116b8db712c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.flexoki-theme/24ac9ca097a534f4.png",
+                "alt": "Flexoki Symbols file icons",
+                "sha256": "24ac9ca097a534f4b23f331ce780a7d42674be3e4347f47daaed7135866b6dca",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dungnt95/orca-flexoki-theme",
+          "updatedAt": "2026-11-26T11:01:32+07:00"
+        },
         {
           "version": "1.2.1",
           "commit": "1a05d313ef2e436868c35f9d2c5fdc0e895ab713",
@@ -44927,8 +44992,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/oddieradhie/orca-jenkins/1.0.0"
+        "url": "https://github.com/oddieradhie/orca-jenkins.git",
+        "ref": "v1.0.2"
       },
       "description": "Jenkins CI/CD monitoring sidebar panel, status bar counter, build queue, console log viewer, and build triggers for Orca.",
       "categories": [
@@ -44936,6 +45001,47 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "6ef59ee07647f424d11ff41a41f3154a2e5cd746",
+          "contentHash": "28e51c93f6d2234726d49048fc081c94cc0ef61b84541e6b7a67e4e1bf14c1aa",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Jenkins",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Jenkins"
+            },
+            {
+              "kind": "commands",
+              "name": "Jenkins: Refresh Builds"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Jenkins"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/oddieradhie.jenkins/58d1d382a831b79a.png",
+              "alt": "Jenkins icon",
+              "sha256": "58d1d382a831b79a5b2eb1a1079157345a79aad881261303307559507f59e411",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/oddieradhie/orca-jenkins",
+          "updatedAt": "2026-11-26T10:58:35+07:00"
+        },
         {
           "version": "1.0.0",
           "commit": "d8f1a041edbcd21f54a2a16b7d04c85e4228ccd6",
