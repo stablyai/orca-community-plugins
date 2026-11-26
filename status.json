@@ -196,6 +196,13 @@
         }
       ]
     },
+    "aliuda/orca-bot-items-board": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "aliuda.bot-items-board"
+      ]
+    },
     "aliuda/orca-lark-bot": {
       "state": "listed",
       "ref": "refs/tags/aliuda/orca-lark-bot/0.1.0",
@@ -879,7 +886,7 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.3",
+      "ref": "v0.8.4",
       "plugins": [
         "cryptosecco.regia"
       ]
@@ -3020,7 +3027,7 @@
     },
     "mrksoftware/orca-pod": {
       "state": "listed",
-      "ref": "refs/tags/mrksoftware/orca-pod/0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "mrksoftware.pod"
       ]
@@ -3173,7 +3180,7 @@
     },
     "ninjars/orca-pr-radar": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/ninjars/orca-pr-radar/0.2.1",
       "plugins": [
         "ninjars.pr-radar"
       ]
@@ -4835,7 +4842,7 @@
     },
     "weixijia/orca-remote-activity-monitor": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/weixijia/orca-remote-activity-monitor/0.2.0",
       "plugins": [
         "weixijia.remote-activity-monitor"
       ]
@@ -4879,7 +4886,7 @@
     },
     "wooseungw/rich-tex-editor": {
       "state": "listed",
-      "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.1",
+      "ref": "v0.2.2",
       "plugins": [
         "wooseungw.rich-tex-editor"
       ]
