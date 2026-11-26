@@ -4159,8 +4159,8 @@
       "ownerId": 5156432,
       "source": {
         "kind": "git",
-        "url": "https://github.com/antsht/phosphor-green-orca.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/antsht/phosphor-green-orca/1.0.0"
       },
       "description": "An Orca app and terminal theme inspired by 1980s green-phosphor CRT displays.",
       "categories": [
@@ -27843,8 +27843,8 @@
       "ownerId": 125417294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Hadisd/quiet-pastel.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hadisd/quiet-pastel/1.2.0"
       },
       "description": "Two dark, pale blue-violet themes with pastel accents and matching terminal themes: Quiet Pastel Moonlit (brighter) and Quiet Pastel Hush (dimmer).",
       "categories": [
@@ -37308,13 +37308,39 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/li363920783/orca-tapd-todo.git",
-        "ref": "v0.2.0"
+        "ref": "v0.3.0"
       },
-      "description": "在 Orca 右栏查看指派给我的 TAPD 缺陷（bug），点开直达 TAPD 详情。View TAPD bugs assigned to you in Orca, with one-click open in TAPD.",
+      "description": "在 Orca 右栏查看指派给你的 TAPD 缺陷与需求，筛选、看详情，并一键派给 Orca agent。View TAPD bugs and stories assigned to you in Orca: filter, read details, and dispatch one to an agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "677864bfcc89a557966c4bb7fa7a794dccc44c6a",
+          "contentHash": "593ec83df8b954ad4f71680ab23e011ca4350157dac4752ca195bb5e5113e4b5",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "TAPD 待办",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "TAPD 待办"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "TAPD"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/li363920783/orca-tapd-todo",
+          "updatedAt": "2026-11-26T17:36:58+08:00"
+        },
         {
           "version": "0.2.0",
           "commit": "42739c18f044ebe08ddc6583fe32d7b6e50c84ea",
@@ -65832,16 +65858,114 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tornadodai/orca-bot-office/0.15.2"
+        "url": "https://github.com/TornadoDai/orca-bot-office.git",
+        "ref": "v0.17.0"
       },
-      "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
+      "description": "2.5D illustrated office tower + built-in Bot Talent Market (24 official templates, 1-click sanitized bundle sharing, upvotes & native hire), interactive decision replies, and SVG team analytics dashboard.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.17.0",
+          "commit": "4887f7073582b11ba85d3a938714ab48b7851316",
+          "contentHash": "006736c334125d897ac97880e1aebe62b8c3512f829dd6d07fbd8a31da0b131e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tornadodai.bot-office/83eb5613cd869e7d.webp",
+              "alt": "Bot Office 2.5D illustrated office tower with official Orca mascots, idle slacking animations, and built-in Bot Talent Market store",
+              "sha256": "83eb5613cd869e7dedfe3d2205f572b2ed152c9cfe24f5392d95d9f02e567a5e",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/bdccf3b93bf869eb.png",
+                "alt": "Bot Office illustrated 2.5D office tower alongside the flagship built-in Bot Talent Market with 24 official templates and community bots",
+                "sha256": "bdccf3b93bf869eb0ee8521a120bdb89817b6761c9391e865a82f7e365143072",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/a2a0f4ee5e140d08.png",
+                "alt": "1-Click Share My Bot modal with selectable schedules, skills, tools and auto-redacted memory alongside Light-theme Bot Resume Detail modal",
+                "sha256": "a2a0f4ee5e140d087c7376b05bfd65d5efb846ef18c206f10b871d2e51312c8b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/a526a474e7f0eecf.png",
+                "alt": "Categorized Dashboard with 12-panel switch drawer, 28-day usage heatmap, 24-hour peak usage chart, branch chat activity, automations and Orca memory diagnostics",
+                "sha256": "a526a474e7f0eecf58a86b673b5698352e590ea174a901b8d700fd2b1e2da946",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/f4fed28cde747e94.png",
+                "alt": "Native light theme showing interactive in-card decision reply modal and light analytics dashboard",
+                "sha256": "f4fed28cde747e94bfa390c7edd46cb5f3a4a4cab3c2f311be25a7cdcb130968",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-26T16:58:51+08:00"
+        },
         {
           "version": "0.15.2",
           "commit": "828ff675bb5edda957a6d96079899005d741079d",
@@ -66198,90 +66322,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T17:38:19+08:00"
-        },
-        {
-          "version": "0.12.2",
-          "commit": "c0c62a269ca40809f3af448b2ba8d50511c0cc4b",
-          "contentHash": "5816133e76afaffa619e5866216491bc55188280d4f71e04ee373933a947b19c",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/99a5eacc3db24c42.png",
-                "alt": "Bot Office illustrated 2.5D modern office tower with real-time circular wall clock, furnished executive briefing suite and categorized SVG analytics dashboard",
-                "sha256": "99a5eacc3db24c422d11cc63a1eedbea84a1cf0c27563e114838294e491040d4",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/tornadodai.bot-office/a526a474e7f0eecf.png",
-                "alt": "Categorized Dashboard with 12-panel switch drawer, 28-day usage heatmap, 24-hour peak usage chart, branch chat activity, automations and Orca memory diagnostics",
-                "sha256": "a526a474e7f0eecf58a86b673b5698352e590ea174a901b8d700fd2b1e2da946",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/tornadodai.bot-office/f4fed28cde747e94.png",
-                "alt": "Native light theme showing interactive in-card decision reply modal and light analytics dashboard",
-                "sha256": "f4fed28cde747e94bfa390c7edd46cb5f3a4a4cab3c2f311be25a7cdcb130968",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T17:01:55+08:00"
         }
       ]
     },
@@ -71340,12 +71380,87 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.0"
+        "url": "https://github.com/wooseungw/rich-tex-editor.git",
+        "ref": "v0.2.1"
       },
       "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables, images and TikZ pictures (drawn by your own TeX) as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "c6829ffdbecf67770def421a95a1e25d425884c0",
+          "contentHash": "5b415a6a2b83e4ecceb71c0affd0d5cfdcfb63cafcb54aced8bc86e46448e3ca",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich TeX Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Rich TeX",
+              "detail": ".tex, .ltx, .latex"
+            },
+            {
+              "kind": "newFiles",
+              "name": "LaTeX document",
+              "detail": ".tex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "editorFileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wooseungw.rich-tex-editor/3b1ca473d114b0d5.jpg",
+              "alt": "Rich TeX Editor in visual mode: a LaTeX paper with a typeset title, numbered sections, KaTeX equations and resolved references.",
+              "sha256": "3b1ca473d114b0d586b606f645952ac6ce95c28fcbc088a1f9ab809e9a7a5380",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wooseungw.rich-tex-editor/d8ed9e96cccb9c2b.png",
+              "alt": "Rich TeX Editor icon",
+              "sha256": "d8ed9e96cccb9c2b091496d0a680a3bea2e724e8fbf21185028af4e970900fcc",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wooseungw.rich-tex-editor/dd1bb7705e187242.png",
+                "alt": "Visual mode: headings, bold and italic text, inline and display math rendered in place, with references shown as numbers.",
+                "sha256": "dd1bb7705e187242fa648e57a5cf3b033a15a4030d75377baa3b303b736315ed",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/9d1b8f3d4310cf79.png",
+                "alt": "Visual mode with a numbered theorem, an aligned equation, a rendered table and a figure drawn in place.",
+                "sha256": "9d1b8f3d4310cf7916d9662b81d4fa7a033b58152b9faea3bb2b8eadd51de2e3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/c2ffe9c81e607f29.png",
+                "alt": "Split mode in a dark theme: LaTeX source with line numbers beside a live preview with a theorem, an aligned equation and a table.",
+                "sha256": "c2ffe9c81e607f2911577d83b1bee05d4951c8685d40a2b873e7f1df1a66f8de",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wooseungw/rich-tex-editor",
+          "updatedAt": "2026-11-26T18:36:54+09:00"
+        },
         {
           "version": "0.2.0",
           "commit": "d23421ffb16bac2af80f211f43389644be1f1ee7",
@@ -71645,81 +71760,6 @@
           "license": "MIT",
           "repository": "https://github.com/wooseungw/rich-tex-editor",
           "updatedAt": "2026-11-21T23:54:51+09:00"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "3ab41fa233e201f5f38c250d5a2ebd4ec1219d30",
-          "contentHash": "84a62282f47e79b4d15ebb4fbc1ae438b769a04a07a0183f9c019f765f92f2cf",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Rich TeX Editor",
-          "contributes": [
-            {
-              "kind": "customEditors",
-              "name": "Rich TeX",
-              "detail": ".tex, .ltx, .latex"
-            },
-            {
-              "kind": "newFiles",
-              "name": "LaTeX document",
-              "detail": ".tex"
-            }
-          ],
-          "capabilities": [
-            "workspace:read"
-          ],
-          "fileTypes": [
-            "tex",
-            "ltx",
-            "latex"
-          ],
-          "editorFileTypes": [
-            "tex",
-            "ltx",
-            "latex"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wooseungw.rich-tex-editor/3b1ca473d114b0d5.jpg",
-              "alt": "Rich TeX Editor in visual mode: a LaTeX paper with a typeset title, numbered sections, KaTeX equations and resolved references.",
-              "sha256": "3b1ca473d114b0d586b606f645952ac6ce95c28fcbc088a1f9ab809e9a7a5380",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/wooseungw.rich-tex-editor/d8ed9e96cccb9c2b.png",
-              "alt": "Rich TeX Editor icon",
-              "sha256": "d8ed9e96cccb9c2b091496d0a680a3bea2e724e8fbf21185028af4e970900fcc",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wooseungw.rich-tex-editor/dd1bb7705e187242.png",
-                "alt": "Visual mode: headings, bold and italic text, inline and display math rendered in place, with references shown as numbers.",
-                "sha256": "dd1bb7705e187242fa648e57a5cf3b033a15a4030d75377baa3b303b736315ed",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/wooseungw.rich-tex-editor/9d1b8f3d4310cf79.png",
-                "alt": "Visual mode with a numbered theorem, an aligned equation, a rendered table and a PDF figure drawn in place.",
-                "sha256": "9d1b8f3d4310cf7916d9662b81d4fa7a033b58152b9faea3bb2b8eadd51de2e3",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/wooseungw.rich-tex-editor/c2ffe9c81e607f29.png",
-                "alt": "Split mode in a dark theme: LaTeX source with line numbers beside a live preview with a theorem, an aligned equation and a table.",
-                "sha256": "c2ffe9c81e607f2911577d83b1bee05d4951c8685d40a2b873e7f1df1a66f8de",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wooseungw/rich-tex-editor",
-          "updatedAt": "2026-11-21T17:57:45+09:00"
         }
       ]
     },
@@ -74606,6 +74646,57 @@
           "license": "MIT",
           "repository": "https://github.com/yuribodo/neon-horizon",
           "updatedAt": "2026-11-11T20:39:45-03:00"
+        }
+      ]
+    },
+    {
+      "id": "zhanxiaogao.ai-usage",
+      "ownerId": 59564582,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Zhanxiaogao/orca-ai-usage.git",
+        "ref": "v0.1.0"
+      },
+      "description": "统计本机 Claude Code、Codex、Antigravity 与 Gemini CLI 的 Token 用量、估算费用与生成速度。",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "039709ba07e39542cfa3df502635faa79576be3c",
+          "contentHash": "609c050c261a3ddf47bbf42a80ab29c5baffefb8b889a8694ff142e37f4a172c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "AI 用量",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "AI 用量"
+            },
+            {
+              "kind": "commands",
+              "name": "打开 AI 用量统计面板"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "0 · $0.00"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "ctx 0k"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Zhanxiaogao/orca-ai-usage",
+          "updatedAt": "2026-11-26T17:37:23+08:00"
         }
       ]
     },

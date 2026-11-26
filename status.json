@@ -321,7 +321,7 @@
     },
     "antsht/phosphor-green-orca": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/antsht/phosphor-green-orca/1.0.0",
       "plugins": [
         "antsht.phosphor-green"
       ]
@@ -891,7 +891,16 @@
       "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.2",
       "plugins": [
         "cryptosecco.regia"
-      ]
+      ],
+      "update": {
+        "ref": "v0.8.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "csavur/simple-todo": {
       "state": "listed",
@@ -1815,7 +1824,7 @@
     },
     "hadisd/quiet-pastel": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/hadisd/quiet-pastel/1.2.0",
       "plugins": [
         "hadisd.quiet-pastel"
       ]
@@ -2476,7 +2485,7 @@
     },
     "li363920783/orca-tapd-todo": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.3.0",
       "plugins": [
         "li363920783.tapd-todo"
       ]
@@ -2662,6 +2671,16 @@
       "ref": "refs/tags/manomilano/orca-mascots/1.0.2",
       "plugins": [
         "manomilano.mascots"
+      ]
+    },
+    "marcelofrau/orca-atlassian": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "identity-hold",
+          "detail": "moved from marcelofrau/orca-confluence (marcelofrau.confluence) to marcelofrau/orca-atlassian (marcelofrau.atlassian); new versions paused until a maintainer confirms the move in identity-moves.json"
+        }
       ]
     },
     "marcelofrau/orca-confluence": {
@@ -4411,19 +4430,10 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "refs/tags/tornadodai/orca-bot-office/0.15.2",
+      "ref": "v0.17.0",
       "plugins": [
         "tornadodai.bot-office"
-      ],
-      "update": {
-        "ref": "v0.17.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "code, update"
-          }
-        ]
-      }
+      ]
     },
     "tourbut/claude-pin": {
       "state": "listed",
@@ -4835,7 +4845,7 @@
     },
     "wooseungw/rich-tex-editor": {
       "state": "listed",
-      "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "wooseungw.rich-tex-editor"
       ]
@@ -4928,6 +4938,13 @@
           "category": "under-review",
           "detail": "code"
         }
+      ]
+    },
+    "zhanxiaogao/orca-ai-usage": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "zhanxiaogao.ai-usage"
       ]
     },
     "zifengjiang/orca-workspace-namer": {
