@@ -11825,8 +11825,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.6.1"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -18340,14 +18340,80 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dungnt95/orca-flexoki-theme.git",
-        "ref": "v1.1.1"
+        "ref": "v1.2.1"
       },
-      "description": "Flexoki, the inky color scheme for prose and code by Steph Ango (stephango.com/flexoki), as Light and Dark app themes with matching syntax and terminal colors.",
+      "description": "Flexoki, the inky color scheme for prose and code by Steph Ango (stephango.com/flexoki): Light and Dark app themes, matching syntax and terminal colors, and Flexoki Symbols file icons.",
       "categories": [
         "themes",
-        "terminal-themes"
+        "terminal-themes",
+        "icons"
       ],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "1a05d313ef2e436868c35f9d2c5fdc0e895ab713",
+          "contentHash": "07e7845ffb28cca096c346030e67c170bcd532878b188dafa590f168ba203d6a",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Flexoki for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Flexoki Symbols"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dungnt95.flexoki-theme/b494f4ac4468cd38.png",
+              "alt": "Flexoki Light and Dark Orca windows: file tree with Flexoki Symbols icons, highlighted TypeScript, terminal and palette",
+              "sha256": "b494f4ac4468cd38f1529de48f7172f39a0fe7c404902a28e802680774e47c02",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/dungnt95.flexoki-theme/bdbb87607f030958.png",
+                "alt": "Orca in Flexoki Light: warm paper background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "bdbb87607f0309582f3cf68cd7826c9a685d5a701fc8abf6785e3ecd7fa9869c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.flexoki-theme/1dffa6ef27947118.png",
+                "alt": "Orca in Flexoki Dark: inky black background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "1dffa6ef27947118b7f13a92186d726379f4f5e4bb589b39862ee2f6fc99e463",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.flexoki-theme/a71d269595c818f3.png",
+                "alt": "Flexoki Symbols file icons",
+                "sha256": "a71d269595c818f308efc74c2aadbc2900a4b7b4c6b5b7865f11d183643a161e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dungnt95/orca-flexoki-theme",
+          "updatedAt": "2026-11-26T10:36:20+07:00"
+        },
         {
           "version": "1.1.1",
           "commit": "d3e9ecbdc9f9a7a5c539df3f4433ff5c822751a6",
@@ -36044,8 +36110,8 @@
       "ownerId": 65437462,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Leo-Ni88/orca-multica.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/leo-ni88/orca-multica/0.2.0"
       },
       "description": "Browse, filter and triage Multica issues from Orca: status tabs, multi-select filters, grouping, comments and batch status changes.",
       "categories": [
@@ -36082,7 +36148,8 @@
           ],
           "license": "MIT",
           "repository": "https://github.com/Leo-Ni88/orca-multica",
-          "updatedAt": "2026-11-26T11:08:44+08:00"
+          "updatedAt": "2026-11-26T11:08:44+08:00",
+          "sourceUnavailable": true
         }
       ]
     },
@@ -43951,8 +44018,8 @@
       "ownerId": 89535832,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ngxuancam/orca-backlog.git",
-        "ref": "v0.3.11"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ngxuancam/orca-backlog/0.3.11"
       },
       "description": "Nulab Backlog in Orca: your issues, filters, details with linked issues and pull requests, attachments, and one-click hand-off to an agent with a skill.",
       "categories": [
@@ -61871,8 +61938,8 @@
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thailoc-dev/orca-pptx-viewer.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thailoc-dev/orca-pptx-viewer/0.2.0"
       },
       "description": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with slide thumbnails, find, speaker notes, zoom and slide navigation.",
       "categories": [],
@@ -61970,8 +62037,8 @@
       "ownerId": 113083148,
       "source": {
         "kind": "git",
-        "url": "https://github.com/thailoc-dev/orca-rose-pine.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/thailoc-dev/orca-rose-pine/0.1.1"
       },
       "description": "All natural pine, faux fur and a bit of soho vibes: Rosé Pine, Moon and Dawn as app and terminal themes, with matching syntax colors.",
       "categories": [
