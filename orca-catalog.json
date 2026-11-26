@@ -36469,6 +36469,161 @@
       ]
     },
     {
+      "id": "leo-ni88.agent-island",
+      "ownerId": 65437462,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Leo-Ni88/orca-island.git",
+        "ref": "v1.0.2"
+      },
+      "description": "A notch-style island for Orca on macOS: see which agents need you, finished or failed at a glance, and jump straight to them.",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "899142839e93180848d7a5f8dac88f7b269e4169",
+          "contentHash": "c4ec885006334bf77bbbf609ac2de206bdf806ed1c7a2bab2d0a702c7915c19e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Island for Orca",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Island: Dump recorded events"
+            },
+            {
+              "kind": "commands",
+              "name": "Island: Clear recorded events"
+            },
+            {
+              "kind": "commands",
+              "name": "Island: Probe agents.list / workspace.list"
+            },
+            {
+              "kind": "commands",
+              "name": "Island: Helper status and round-trip test"
+            },
+            {
+              "kind": "commands",
+              "name": "Island: Restart helper"
+            },
+            {
+              "kind": "commands",
+              "name": "Island: Push a test item to the island"
+            },
+            {
+              "kind": "commands",
+              "name": "Island: Status bar pressed"
+            },
+            {
+              "kind": "commands",
+              "name": "Island: Turn the island off for 1 hour"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Island"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "island-power"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "terminal:read",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/leo-ni88.agent-island/8117db855a9b202d.png",
+              "alt": "Island for Orca over a desktop: a prompt that needs you, the list, and the prompt opened in the island",
+              "sha256": "8117db855a9b202d95ec6208771b6c03f70aa68206f0d31cb119051ca9a139fc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/leo-ni88.agent-island/c24adb74f7af671b.png",
+              "alt": "Island for Orca icon",
+              "sha256": "c24adb74f7af671bc4ba1889e867f13dc9691d78188810b373b276c5ae018829",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/leo-ni88.agent-island/25c4440b0b41f8f4.png",
+                "alt": "A prompt that needs you peeks from the top of the screen",
+                "sha256": "25c4440b0b41f8f423fb3fd1c79a1f0eff6245cbedec7e1cfb82e572fe5adb26",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/leo-ni88.agent-island/16036d2bf4cc559a.png",
+                "alt": "The list, grouped by project",
+                "sha256": "16036d2bf4cc559abd16250071e3d52ca1557c8b7a4075c41ec18d2e9f7a6278",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/leo-ni88.agent-island/03a53e837c0f4fee.png",
+                "alt": "The list, grouped by bot",
+                "sha256": "03a53e837c0f4feea0d362180bac13d9346144df0f8a71437d46f8dfcea1e7d7",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/leo-ni88.agent-island/1fd5a4ecca6c4f22.png",
+                "alt": "A terminal prompt with its options and a reply field",
+                "sha256": "1fd5a4ecca6c4f22033ad5de307639ddfb9cc0f15091ad5c701ab578a3d63a0c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/leo-ni88.agent-island/a95fc508a3b8b8ca.png",
+                "alt": "A bot item with two questions",
+                "sha256": "a95fc508a3b8b8cae8ad8795613383f615b639ccf62d4a8296c67bb51f382440",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/leo-ni88.agent-island/92ed0adcc2c83ebf.png",
+                "alt": "Settings: answering is off by default",
+                "sha256": "92ed0adcc2c83ebf0c8b030e2919d11eeeb6dfadc09e964eeac013bf142e7124",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Leo-Ni88/orca-island",
+          "updatedAt": "2026-11-26T16:12:47+08:00"
+        }
+      ]
+    },
+    {
       "id": "leo-ni88.multica",
       "ownerId": 65437462,
       "source": {
@@ -70885,12 +71040,87 @@
       "ownerId": 97976494,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wooseungw/rich-tex-editor/0.1.4"
+        "url": "https://github.com/wooseungw/rich-tex-editor.git",
+        "ref": "v0.2.0"
       },
-      "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables and images as you type, a split mode with a live preview, and drag-and-drop images.",
+      "description": "A rich LaTeX editor for .tex files: a visual mode that renders math, headings, tables, images and TikZ pictures (drawn by your own TeX) as you type, a split mode with a live preview, and drag-and-drop images.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "d23421ffb16bac2af80f211f43389644be1f1ee7",
+          "contentHash": "23410f407db823bfdd0c8e58c90795d5307eb3da3870d206d9be2b21e459a7dc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Rich TeX Editor",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Rich TeX",
+              "detail": ".tex, .ltx, .latex"
+            },
+            {
+              "kind": "newFiles",
+              "name": "LaTeX document",
+              "detail": ".tex"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "editorFileTypes": [
+            "tex",
+            "ltx",
+            "latex"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wooseungw.rich-tex-editor/3b1ca473d114b0d5.jpg",
+              "alt": "Rich TeX Editor in visual mode: a LaTeX paper with a typeset title, numbered sections, KaTeX equations and resolved references.",
+              "sha256": "3b1ca473d114b0d586b606f645952ac6ce95c28fcbc088a1f9ab809e9a7a5380",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wooseungw.rich-tex-editor/d8ed9e96cccb9c2b.png",
+              "alt": "Rich TeX Editor icon",
+              "sha256": "d8ed9e96cccb9c2b091496d0a680a3bea2e724e8fbf21185028af4e970900fcc",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wooseungw.rich-tex-editor/dd1bb7705e187242.png",
+                "alt": "Visual mode: headings, bold and italic text, inline and display math rendered in place, with references shown as numbers.",
+                "sha256": "dd1bb7705e187242fa648e57a5cf3b033a15a4030d75377baa3b303b736315ed",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/9d1b8f3d4310cf79.png",
+                "alt": "Visual mode with a numbered theorem, an aligned equation, a rendered table and a figure drawn in place.",
+                "sha256": "9d1b8f3d4310cf7916d9662b81d4fa7a033b58152b9faea3bb2b8eadd51de2e3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/wooseungw.rich-tex-editor/c2ffe9c81e607f29.png",
+                "alt": "Split mode in a dark theme: LaTeX source with line numbers beside a live preview with a theorem, an aligned equation and a table.",
+                "sha256": "c2ffe9c81e607f2911577d83b1bee05d4951c8685d40a2b873e7f1df1a66f8de",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wooseungw/rich-tex-editor",
+          "updatedAt": "2026-11-26T16:54:40+09:00"
+        },
         {
           "version": "0.1.4",
           "commit": "c32fd46117749ec72f9dfbe68a1fa83d24541af1",
