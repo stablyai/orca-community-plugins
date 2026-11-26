@@ -138,7 +138,7 @@
         "ainlee.zh-hant-full-patch"
       ],
       "notes": [
-        "contributes.languagePacks \"zh-Hant\" (locales/zh-Hant.json): 2176 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"zh-Hant\" (locales/zh-Hant.json): 2175 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "albuquerquesz/orca-github-dark-theme": {
@@ -1054,7 +1054,7 @@
         "dohaidang.vietnamese"
       ],
       "notes": [
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 97 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 103 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "dohaidang/orca-wallpaper-studio": {
@@ -1113,6 +1113,9 @@
       "ref": "refs/tags/ebbop/orca-italiano/1.4.274",
       "plugins": [
         "ebbop.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 19 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -1322,7 +1325,7 @@
         "eszetael.polski"
       ],
       "notes": [
-        "contributes.languagePacks \"pl\" (locales/pl.json): 27 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"pl\" (locales/pl.json): 34 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "etherll/orca-usage-insights": {
@@ -1673,7 +1676,7 @@
     },
     "guilatrova/bot-kanban-board": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/guilatrova/bot-kanban-board/0.3.1",
       "plugins": [
         "guilatrova.bot-kanban-board"
       ],
@@ -2130,6 +2133,9 @@
       "ref": "refs/tags/jiaonang/orca-chinese/1.0.0",
       "plugins": [
         "jiaonang.zh-cn"
+      ],
+      "notes": [
+        "contributes.languagePacks \"zh\" (locales/zh.json): 49 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "jig-harness/orca-plugin": {
@@ -2211,13 +2217,10 @@
       ]
     },
     "juanpe/orca-mobile-launchpad": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.8.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "juanpe.mobile-launchpad"
       ]
     },
     "juanpe/orca-pit-wall": {
@@ -2557,7 +2560,7 @@
         "mancunianez.ukrainian"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (locales/uk.json): 111 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (locales/uk.json): 117 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "manish-107/orca-dock-containers": {
@@ -2617,6 +2620,9 @@
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.274",
       "plugins": [
         "matteoeusebi.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 19 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -3452,6 +3458,13 @@
             }
           ]
         }
+      ]
+    },
+    "rmrfmybrain/orca-session-tree": {
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "rmrfmybrain.session-tree"
       ]
     },
     "robmarcopolo/orca-moonlight-theme": {
@@ -4457,6 +4470,9 @@
       "ref": "refs/tags/vann-dev/orca-indonesian-plugin/0.4.0",
       "plugins": [
         "vann-dev.indonesian"
+      ],
+      "notes": [
+        "contributes.languagePacks \"id\" (locales/id.json): 19 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "vann-dev/orca-palenight-theme": {

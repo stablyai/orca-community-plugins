@@ -23543,9 +23543,9 @@
               "height": 1000
             }
           },
-          "updatedAt": "2026-11-24T20:01:40-03:00",
           "license": "MIT",
-          "repository": "https://github.com/FelipeMayerDev/orca-walkthrough"
+          "repository": "https://github.com/FelipeMayerDev/orca-walkthrough",
+          "updatedAt": "2026-11-24T20:01:40-03:00"
         },
         {
           "version": "0.1.3",
@@ -25915,9 +25915,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-25T15:56:30+09:00",
           "license": "MIT",
-          "repository": "https://github.com/gook-lab/orca-agent-scheduler"
+          "repository": "https://github.com/gook-lab/orca-agent-scheduler",
+          "updatedAt": "2026-11-25T15:56:30+09:00"
         },
         {
           "version": "0.12.11",
@@ -26403,8 +26403,8 @@
       "ownerId": 14880710,
       "source": {
         "kind": "git",
-        "url": "https://github.com/guilatrova/bot-kanban-board.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/guilatrova/bot-kanban-board/0.3.1"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -32812,6 +32812,108 @@
           "license": "MIT",
           "repository": "https://github.com/JuanCruzC97/orca-parquet-viewer",
           "updatedAt": "2026-11-20T13:38:01-03:00"
+        }
+      ]
+    },
+    {
+      "id": "juanpe.mobile-launchpad",
+      "ownerId": 1409041,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Juanpe/orca-mobile-launchpad.git",
+        "ref": "v0.8.1"
+      },
+      "description": "Build & Run the active worktree's iOS or Android app on a simulator, emulator or phone (cable or Wi-Fi), from Orca's status bar.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.8.1",
+          "commit": "b03b53e1492cdf4b0a4ed450f45028549d8d0156",
+          "contentHash": "970015d11ddf387b296e4bcad2545bd667caa45405269556065276f4537dd97d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Mobile Launchpad",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Mobile Launchpad"
+            },
+            {
+              "kind": "commands",
+              "name": "Mobile Launchpad: Build & Run"
+            },
+            {
+              "kind": "commands",
+              "name": "Mobile Launchpad: Stop"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+R",
+              "detail": "launchpad.run"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Launchpad"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "notifications:show",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/juanpe.mobile-launchpad/3fd0e4c719f71601.png",
+              "alt": "Mobile Launchpad's panel building one worktree's app while two other worktrees run, next to the tagline: Build & Run. Any worktree. Any phone.",
+              "sha256": "3fd0e4c719f716011c8958cead32fb2ae51be86fc85c64274b2a0ed80151c901",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/juanpe.mobile-launchpad/b70f1dd49275f8e8.png",
+                "alt": "The panel building the active worktree's iOS app on an iPhone over cable, step 2 of 4, while two other worktrees run on their own devices.",
+                "sha256": "b70f1dd49275f8e8b86b9b32208632a1c71129d5caf17e66dd89b57772d4ed88",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/juanpe.mobile-launchpad/b50def39a70191fb.png",
+                "alt": "The app running on a cabled iPhone, with the destination list of simulators and physical devices.",
+                "sha256": "b50def39a70191fb8e47c77836ce7a8f7454a4733b1413fc673d0e98f90196a5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/juanpe.mobile-launchpad/2a1d731499fc4b55.png",
+                "alt": "The Android side: a Gradle project ready to run on a Pixel emulator.",
+                "sha256": "2a1d731499fc4b553a7aa0e470f814860239191cb9e812bce23f290dca86f045",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/juanpe.mobile-launchpad/d756fdc3581c8c11.png",
+                "alt": "A failed build with two Swift compiler errors in the panel and a button to open the full log in Console.",
+                "sha256": "d756fdc3581c8c11136056784c4c3d52667d36e8aac53e2ce7cd57c03b8c3dfe",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Juanpe/orca-mobile-launchpad",
+          "updatedAt": "2026-11-26T00:20:03+01:00"
         }
       ]
     },
@@ -41819,9 +41921,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-25T15:42:31+01:00",
           "license": "MIT",
-          "repository": "https://github.com/mrksoftware/orca-pod"
+          "repository": "https://github.com/mrksoftware/orca-pod",
+          "updatedAt": "2026-11-25T15:42:31+01:00"
         },
         {
           "version": "0.1.0",
@@ -49915,6 +50017,115 @@
           "license": "MIT",
           "repository": "https://github.com/ricardo-benicio/orca-docker-containers",
           "updatedAt": "2026-11-19T21:30:34-03:00"
+        }
+      ]
+    },
+    {
+      "id": "rmrfmybrain.session-tree",
+      "ownerId": 111752404,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rmrfmybrain/orca-session-tree.git",
+        "ref": "v1.0.1"
+      },
+      "description": "Every open agent session in one tree by project, native chats included: what is working, what waits for you and what finished unread on top. Start a chat with or without a worktree from + beside a project; right-click to mark read, close or remove.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "59e2bfcacae0237fadbf6ca6740c4e9d5dafc235",
+          "contentHash": "ef29f42c44ce64f73ca427c4ad769947f3abe06f3fb6b8380c658ce80606b806",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Session Tree",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Session Tree"
+            },
+            {
+              "kind": "commands",
+              "name": "New chat here, no worktree"
+            },
+            {
+              "kind": "commands",
+              "name": "Ban or allow new worktrees in this project"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "hooks",
+              "name": "workspace.create.before"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+N",
+              "detail": "chat.new"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rmrfmybrain.session-tree/3915bf525c202e79.png",
+              "alt": "Session Tree's icon and name beside the panel, listing agent sessions by project",
+              "sha256": "3915bf525c202e79e8d96917ca1e9f1187933569f4d865c0f991d5ae647784cc",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rmrfmybrain.session-tree/3a7321bb6fd33075.png",
+              "alt": "Session Tree icon",
+              "sha256": "3a7321bb6fd33075d11ad9fcbe95208f523ac348b81146d9ff5e4653298b1e2c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rmrfmybrain.session-tree/ca700d76836a13d6.png",
+                "alt": "Three Session Tree panels in the dark theme: the project tree, the Recent list and the new chat menu",
+                "sha256": "ca700d76836a13d61300bcac080ae2c5eff6ce72c0f250d41c02bafc3357f53a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rmrfmybrain.session-tree/f07f33f26070d5c3.png",
+                "alt": "The same three panels in the light theme",
+                "sha256": "f07f33f26070d5c3f02f996847186c890418bb107129ea84f09c7f888a32230e",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rmrfmybrain.session-tree/dbada080ca79f250.png",
+                "alt": "The right-click menu on a session, the confirmation before deleting a worktree, and the Recent list in Japanese",
+                "sha256": "dbada080ca79f2505f40599fe237cae067f70113e96da95752064438d46b2f4e",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rmrfmybrain/orca-session-tree",
+          "updatedAt": "2026-11-26T00:03:32Z"
         }
       ]
     },
