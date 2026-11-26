@@ -2417,6 +2417,12 @@
     "repoId": 1466548820,
     "firstSeen": "2026-11-21T13:14:14.264Z"
   },
+  "everlightlabs.multica@0.1.1": {
+    "commit": "5a46175d46d86a0969f6552db3de8e9a308e2dd8",
+    "contentHash": "cb5a1db807bc83873b5c9d913309bb8eda8b25a67c7af698ebb233a9457f934c",
+    "repoId": 1473516069,
+    "firstSeen": "2026-11-26T18:19:21.715Z"
+  },
   "fabiopbarbieri.azure-boards@0.1.1": {
     "commit": "78517b513919656074dda3c755b204aafbc91409",
     "contentHash": "5d540cf76768a9f0e7af2e3c6ef206c70df0d6c7ced052938c1d75771f3743cc",
@@ -4714,6 +4720,12 @@
     "contentHash": "ffae0411c68d4eb5f370533b73d5a80ec1f7c74372efd5fff8858b4915a1ad99",
     "repoId": 1470828399,
     "firstSeen": "2026-11-26T14:18:05.965Z"
+  },
+  "mrksoftware.pod@0.3.2": {
+    "commit": "be1ddfa8163f4aaa81b1c0821b5f484603b236b5",
+    "contentHash": "29f622829ac1e7e4a83631863d24aa46e0d45381a482b18af41ac603825ba0e3",
+    "repoId": 1470828399,
+    "firstSeen": "2026-11-26T18:19:21.715Z"
   },
   "mswdev.fleet-monitor@1.0.0": {
     "commit": "8ea260994bff483213ecbae62a4b5febfc0ae48d",
@@ -7936,6 +7948,12 @@
     "contentHash": "7793ab71317f9d04e62304f69c261e06f787bef9298c4650f8db814f70901efd",
     "repoId": 1466197482,
     "firstSeen": "2026-11-26T13:17:32.817Z"
+  },
+  "wst-ki.server-status@0.1.0": {
+    "commit": "0beaa108f2d7233f4879454fcff0a2d0dde57b52",
+    "contentHash": "822357083b54a6b4c9f7b5e6a7f5d8694b3675e36896154846e85f26165cb0ef",
+    "repoId": 1473516434,
+    "firstSeen": "2026-11-26T18:19:21.715Z"
   },
   "wurenrumian.canvas-view@0.1.1": {
     "commit": "be056466a46af63de18ed27af6c95a19aa972e84",

@@ -63,6 +63,23 @@
         "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
       ]
     },
+    "adam93sadler-ux/whalesong-for-orca": {
+      "state": "rejected",
+      "ref": "v1.0.0",
+      "reasons": [],
+      "plugins": [
+        {
+          "path": "plugin",
+          "id": "whalesong",
+          "reasons": [
+            {
+              "category": "under-review",
+              "detail": "code"
+            }
+          ]
+        }
+      ]
+    },
     "adamthewilliam/orca-diff-breakdown": {
       "state": "listed",
       "ref": "refs/tags/adamthewilliam/orca-diff-breakdown/0.3.0",
@@ -94,6 +111,16 @@
       "ref": "refs/tags/addisflava/orca-llm-router/1.3.32",
       "plugins": [
         "addisflava.llm-router"
+      ]
+    },
+    "aeldi/orca-agent-advisor": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "aetna000/atmem-ai-architect-orca": {
@@ -1409,6 +1436,13 @@
         "eveetc.flutter-dart"
       ]
     },
+    "everlightlabs/orca-plugin-multica": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "everlightlabs.multica"
+      ]
+    },
     "fabiopbarbieri/azure-boards-orca-plugin": {
       "state": "listed",
       "ref": "refs/tags/fabiopbarbieri/azure-boards-orca-plugin/0.3.2",
@@ -2566,7 +2600,7 @@
     },
     "lilykos/orca-openrouter-usage": {
       "state": "listed",
-      "ref": "v1.4.0",
+      "ref": "refs/tags/lilykos/orca-openrouter-usage/1.4.0",
       "plugins": [
         "lilykos.openrouter-usage"
       ]
@@ -3044,7 +3078,7 @@
     },
     "mrksoftware/orca-pod": {
       "state": "listed",
-      "ref": "refs/tags/mrksoftware/orca-pod/0.3.1",
+      "ref": "v0.3.2",
       "plugins": [
         "mrksoftware.pod"
       ]
@@ -4913,6 +4947,16 @@
       "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.2",
       "plugins": [
         "wooseungw.rich-tex-editor"
+      ]
+    },
+    "wst-ki/orca-server-status": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "wst-ki.server-status"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
     "wurenrumian/canvas-view": {
