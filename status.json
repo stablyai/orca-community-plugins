@@ -1701,6 +1701,16 @@
         "gusainhimanshu.control-room"
       ]
     },
+    "gustavoml12/setup-nds": {
+      "state": "rejected",
+      "ref": "v1.0.4",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
       "ref": "refs/tags/gzimbron/svelte-syntax-orca/1.0.0",
@@ -2218,7 +2228,7 @@
     },
     "juanpe/orca-mobile-launchpad": {
       "state": "listed",
-      "ref": "v0.8.1",
+      "ref": "refs/tags/juanpe/orca-mobile-launchpad/0.8.1",
       "plugins": [
         "juanpe.mobile-launchpad"
       ]
@@ -3462,7 +3472,7 @@
     },
     "rmrfmybrain/orca-session-tree": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/rmrfmybrain/orca-session-tree/1.0.1",
       "plugins": [
         "rmrfmybrain.session-tree"
       ]

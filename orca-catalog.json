@@ -32820,8 +32820,8 @@
       "ownerId": 1409041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Juanpe/orca-mobile-launchpad.git",
-        "ref": "v0.8.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/juanpe/orca-mobile-launchpad/0.8.1"
       },
       "description": "Build & Run the active worktree's iOS or Android app on a simulator, emulator or phone (cable or Wi-Fi), from Orca's status bar.",
       "categories": [
@@ -50025,8 +50025,8 @@
       "ownerId": 111752404,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rmrfmybrain/orca-session-tree.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rmrfmybrain/orca-session-tree/1.0.1"
       },
       "description": "Every open agent session in one tree by project, native chats included: what is working, what waits for you and what finished unread on top. Start a chat with or without a worktree from + beside a project; right-click to mark read, close or remove.",
       "categories": [
