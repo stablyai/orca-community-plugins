@@ -1719,8 +1719,8 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.2.2"
+        "url": "https://github.com/adamthewilliam/orca-pr-tour.git",
+        "ref": "v0.3.0"
       },
       "description": "Understand a PR, then tour its diff in the order that explains it. For each PR waiting on you, your agent writes a guide: what, why and the impact, risk and findings, a stop-by-stop tour, and a review you post to GitHub.",
       "categories": [
@@ -1729,6 +1729,101 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "e2652139e9a5ba78f7255b921d49941ffb44cce4",
+          "contentHash": "2c10087279c414ebe8e9476ea0101df5505213444c0af1d3536d6a953e60f44f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PR Tour",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Reviews"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Check for review requests"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Open guide for this branch"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Tour: Generate guide for this branch"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Review guide",
+              "detail": ".prtour.json, .prguide.json"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "PR tour"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/adamthewilliam.pr-tour/3ec83c31a94a6e44.png",
+              "alt": "A guide's what, why and impact above tour stop 12 of 13: the stop list, the one idea this stop explains, and the diff hunk that shows it",
+              "sha256": "3ec83c31a94a6e44e2b9f5a2cf283ab1916298d6f24f2a90377b8f3cb9a8fbd5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/adamthewilliam.pr-tour/c379c92e1623730b.png",
+              "alt": "PR Tour icon",
+              "sha256": "c379c92e1623730b16a135bd80a4e2192dd1e5ebb03e6174d1388dc3dbdddaab",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/adamthewilliam.pr-tour/ceb39c55973cee20.png",
+                "alt": "Guide overview: what, why and impact, a medium risk callout, findings by severity, the changes by area and the 13-stop tour grid",
+                "sha256": "ceb39c55973cee20a4a2ae9d58a25228774dafd59fca3b429669325dd19cf586",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/ec0323720e58be90.png",
+                "alt": "Stop 12 of 13: the stop list on the left, the explanation above the AutomationSection.tsx diff, and a major finding with its suggested comment under line 109",
+                "sha256": "ec0323720e58be903095c75e369df9aea8e355efb58271157558921e71c2fa7d",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/56089127ba980746.png",
+                "alt": "Finish review: a major finding to add or dismiss, two pending comments, the summary, where the review goes, and Post to GitHub",
+                "sha256": "56089127ba980746a4b8ccac15e04eb7d5e27a9c3beaf3a7cb4552b5aa26e459",
+                "width": 1920,
+                "height": 1200
+              },
+              {
+                "path": "assets/adamthewilliam.pr-tour/e88358cab24ce217.png",
+                "alt": "PR Tour settings: agent harness, model, auto-generate toggles, teams, team filter, daily limit and extra instructions",
+                "sha256": "e88358cab24ce2177b47fede1b82e591a71da5e91d8946432b58c5868c3200a2",
+                "width": 2368,
+                "height": 1480
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/adamthewilliam/orca-pr-tour",
+          "updatedAt": "2026-11-26T14:23:39Z"
+        },
         {
           "version": "0.2.2",
           "commit": "d8d176d6fd6d40961cd957b28e9621124d91bc4e",
@@ -43755,8 +43850,8 @@
       "ownerId": 7292153,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mrksoftware/orca-pod.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mrksoftware/orca-pod/0.3.1"
       },
       "description": "Agent queue: dictate or type a task, Pod hands it to an agent (new worktree, folder or bot) and shows at a glance what is queued, running, waiting for you or done. English, Italian, Spanish.",
       "categories": [
@@ -71758,8 +71853,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.3"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.2.4"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -71768,6 +71863,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.4",
+          "commit": "6aeeaf0c9bfbfe838cb0c4d70e0bfcc0a0a4c70d",
+          "contentHash": "6b6a517698da649451c25e7de8002ebdeedc51ed272ada3c09fdf4add2157775",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-26T22:21:27+08:00"
+        },
         {
           "version": "0.2.3",
           "commit": "e8665ec52c4d406e717461919d76d7a74c081458",
@@ -72091,87 +72267,6 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-23T16:07:59+08:00"
-        },
-        {
-          "version": "0.1.9",
-          "commit": "3e2fd4524f922ed4eb5ccf2d598c79077a786417",
-          "contentHash": "3230e203f88de74276ca8b9c5b5439d3e611eaf097dc393bb606523385277f6f",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-23T11:08:06+08:00"
         }
       ]
     },
