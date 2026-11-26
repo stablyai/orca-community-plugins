@@ -2170,11 +2170,11 @@
     },
     "jecyxyf/orca-tps-plugin": {
       "state": "rejected",
-      "ref": "v1.6.5",
+      "ref": "v1.6.7",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "code"
         }
       ]
     },
@@ -2343,7 +2343,7 @@
     },
     "kennedytedesco/wake": {
       "state": "listed",
-      "ref": "v0.2.4",
+      "ref": "refs/tags/kennedytedesco/wake/0.2.4",
       "plugins": [
         "kennedytedesco.wake"
       ]
@@ -2569,7 +2569,16 @@
       "ref": "refs/tags/lilykos/orca-openrouter-usage/1.2.0",
       "plugins": [
         "lilykos.openrouter-usage"
-      ]
+      ],
+      "update": {
+        "ref": "v1.4.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size, update"
+          }
+        ]
+      }
     },
     "lilykos/orca-the-lobby": {
       "state": "listed",
@@ -2959,7 +2968,7 @@
     },
     "moilolon/orca-obsidian-notes": {
       "state": "listed",
-      "ref": "v0.2.5",
+      "ref": "refs/tags/moilolon/orca-obsidian-notes/0.2.5",
       "plugins": [
         "moilolon.notes"
       ]
@@ -3058,7 +3067,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "refs/tags/mz-jy/orca-dbt/0.6.3",
+      "ref": "v0.7.0",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -4447,11 +4456,11 @@
     },
     "tincho-aguilera/orca-salesforce-orgs": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+          "category": "reserved-name",
+          "detail": "name \"Orca Salesforce Orgs\" starts with the word \"Orca\", which is reserved for official plugins: rename it, e.g. \"<Name> for Orca\" (a pun such as \"Orcatopia\" is fine)"
         }
       ]
     },

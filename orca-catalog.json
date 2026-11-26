@@ -34667,8 +34667,8 @@
       "ownerId": 999232,
       "source": {
         "kind": "git",
-        "url": "https://github.com/KennedyTedesco/wake.git",
-        "ref": "v0.2.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/kennedytedesco/wake/0.2.4"
       },
       "description": "A Git panel that works like GitHub Desktop: commit exactly the lines you want, send review notes to your agent, read each commit like a pull request, and switch, pull and push without leaving Orca.",
       "categories": [
@@ -43207,8 +43207,8 @@
       "ownerId": 17927894,
       "source": {
         "kind": "git",
-        "url": "https://github.com/moilolon/orca-obsidian-notes.git",
-        "ref": "v0.2.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/moilolon/orca-obsidian-notes/0.2.5"
       },
       "description": "Read the notes of an Obsidian vault in Orca's sidebar: folder tree, search, callouts and [[links]], with the open note filling the panel.",
       "categories": [
@@ -44789,14 +44789,89 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mz-jy/orca-dbt/0.6.3"
+        "url": "https://github.com/mz-jy/orca-dbt.git",
+        "ref": "v0.7.0"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.7.0",
+          "commit": "b3d0bdf269ddcaa6d48e8f0b362c65d6c7211f94",
+          "contentHash": "53cce74b7d9a9ca4a154bb56aaaf6e793006e489bdee5ab8347a2f7cf9dfbe0b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "dbt for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "dbt"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mz-jy.dbt/bc19cf3228a1c5d6.webp",
+              "alt": "The Quality pane with failing tests by model, the lineage graph with failing nodes flagged, and the rows a failing test found.",
+              "sha256": "bc19cf3228a1c5d6af679488b9015f262de80cdfdb1475d7edc691ca22bddf93",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/mz-jy.dbt/f130db0c6d4211e6.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "f130db0c6d4211e638ff0a90238e9a6334efaea5a7cb0e7ee5df97b54208fdb4",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/e09950ab37a24f56.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "e09950ab37a24f5648f0f39dd76d117ea1c138238908f3b7ddd3b930698a2335",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/3a34c9ccd86e8e83.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "3a34c9ccd86e8e83a5b057693310bdf20241d592b1eba2f25826be872be60822",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/f6566bbbb51c5196.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "f6566bbbb51c51969f1759ea663bc60e54ee2f0305d2c3ea3ed0d898a76839f9",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/6d73b03e4279a2a4.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "6d73b03e4279a2a4db01b579b5899ebfae232aea9febf9cf49d5a3590befdd30",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/89fffccaba764e08.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "89fffccaba764e088f4e5604a73c108b41c407012833ecad9c00754941de31f0",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mz-jy/orca-dbt",
+          "updatedAt": "2026-11-26T17:48:05+01:00"
+        },
         {
           "version": "0.6.3",
           "commit": "12b1c99922f7cf7919bad45135fa8b3b2f6ed3a4",
@@ -45096,28 +45171,6 @@
           "license": "MIT",
           "repository": "https://github.com/mz-jy/orca-dbt",
           "updatedAt": "2026-11-24T13:58:50+01:00"
-        },
-        {
-          "version": "0.5.0",
-          "commit": "56938c59f0dac94d5ca9717bff0fc3bc1f0655bd",
-          "contentHash": "31905d41b62ac9cd5e5be0a607f718b982b38ec68e39963e92691c5710e1ecb5",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "dbt for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "dbt"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "settings:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/mz-jy/orca-dbt",
-          "updatedAt": "2026-11-24T12:32:55+01:00"
         }
       ]
     },
