@@ -108,19 +108,10 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.3.36",
+      "ref": "v1.3.38",
       "plugins": [
         "addisflava.llm-router"
-      ],
-      "update": {
-        "ref": "v1.3.37",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "aeldi/orca-agent-advisor": {
       "state": "rejected",
@@ -430,6 +421,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "ayshinko/orca-strata-tps": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "aywengo/orca-mlx-plugin": {
