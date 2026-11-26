@@ -96,7 +96,7 @@
         "addisflava.llm-router"
       ],
       "update": {
-        "ref": "v1.3.29",
+        "ref": "v1.3.30",
         "reasons": [
           {
             "category": "under-review",
@@ -165,7 +165,7 @@
         "alexander-64.agent-pipeline"
       ],
       "update": {
-        "ref": "v0.2.1",
+        "ref": "v0.3.0",
         "reasons": [
           {
             "category": "under-review",
@@ -317,6 +317,13 @@
       "ref": "refs/tags/anthony-fp/orca-agent-inbox/0.4.7",
       "plugins": [
         "anthony-fp.agent-inbox"
+      ]
+    },
+    "antsht/phosphor-green-orca": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "antsht.phosphor-green"
       ]
     },
     "aoyamashou/workflowy-in-orca": {
@@ -1642,7 +1649,7 @@
     },
     "geq1fan/orca-chat-reclaim": {
       "state": "rejected",
-      "ref": "v0.1.6",
+      "ref": "v0.1.7",
       "reasons": [
         {
           "category": "under-review",
@@ -1808,7 +1815,7 @@
     },
     "hadisd/quiet-pastel": {
       "state": "listed",
-      "ref": "refs/tags/hadisd/quiet-pastel/1.1.3",
+      "ref": "v1.2.0",
       "plugins": [
         "hadisd.quiet-pastel"
       ]
@@ -1951,7 +1958,7 @@
     },
     "husrevkorpe/orca-turkce": {
       "state": "listed",
-      "ref": "v1.1.3",
+      "ref": "refs/tags/husrevkorpe/orca-turkce/1.1.3",
       "plugins": [
         "husrevkorpe.turkce"
       ]
@@ -2467,6 +2474,13 @@
         "leobessin.mongo-studio"
       ]
     },
+    "li363920783/orca-tapd-todo": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "li363920783.tapd-todo"
+      ]
+    },
     "lifegood-acc/3d-modeler": {
       "state": "rejected",
       "ref": "v0.13.0",
@@ -2652,7 +2666,7 @@
     },
     "marcelofrau/orca-confluence": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/marcelofrau/orca-confluence/0.1.0",
       "plugins": [
         "marcelofrau.confluence"
       ]
@@ -3019,11 +3033,11 @@
     },
     "nanangprasetya/ascii-glyphscape": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.1.0",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "code"
         }
       ]
     },
@@ -3546,7 +3560,7 @@
     },
     "rmrfmybrain/orca-session-tree": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/rmrfmybrain/orca-session-tree/1.1.0",
       "plugins": [
         "rmrfmybrain.session-tree"
       ]
@@ -4402,7 +4416,7 @@
         "tornadodai.bot-office"
       ],
       "update": {
-        "ref": "v0.16.6",
+        "ref": "v0.17.0",
         "reasons": [
           {
             "category": "under-review",
