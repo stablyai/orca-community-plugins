@@ -54223,8 +54223,8 @@
       "ownerId": 332816837,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rusharlabs/party-wave.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rusharlabs/party-wave/0.1.0"
       },
       "description": "Shows the House Party Protocol lane board of the focused workspace: its lanes with their heartbeat and the latest state of each item. Read-only.",
       "categories": [
@@ -59468,8 +59468,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.11.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.11.3"
       },
       "description": "Controls a ConPort project from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals, and epics outside SDD. Brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in Claude Code, Codex or Cursor.",
       "categories": [

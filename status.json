@@ -2957,6 +2957,16 @@
         }
       ]
     },
+    "moilolon/orca-obsidian-notes": {
+      "state": "rejected",
+      "ref": "v0.2.3",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "molanojf/orca-json-canvas": {
       "state": "listed",
       "ref": "refs/tags/molanojf/orca-json-canvas/1.1.1",
@@ -3732,7 +3742,7 @@
     },
     "rusharlabs/party-wave": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/rusharlabs/party-wave/0.1.0",
       "plugins": [
         "rusharlabs.party-wave"
       ]
@@ -3998,7 +4008,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.11.3",
+      "ref": "refs/tags/shaurgon/conport-orca/0.11.3",
       "plugins": [
         "shaurgon.conport-orca"
       ]
