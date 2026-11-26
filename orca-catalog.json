@@ -19247,8 +19247,8 @@
       "ownerId": 5439830,
       "source": {
         "kind": "git",
-        "url": "https://github.com/drecchia/orca-telegram-bridge.git",
-        "ref": "v0.17.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/drecchia/orca-telegram-bridge/0.17.1"
       },
       "description": "Chat with your Orca bots from Telegram, on any device: one Telegram bot per Orca bot, access lists and roles, groups, voice messages, files both ways and an audit trail. No server or webhook.",
       "categories": [

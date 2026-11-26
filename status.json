@@ -1180,7 +1180,7 @@
     },
     "drecchia/orca-telegram-bridge": {
       "state": "listed",
-      "ref": "v0.17.1",
+      "ref": "refs/tags/drecchia/orca-telegram-bridge/0.17.1",
       "plugins": [
         "drecchia.telegram-bridge"
       ],
