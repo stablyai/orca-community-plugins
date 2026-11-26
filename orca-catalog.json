@@ -19338,8 +19338,8 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.278"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebbop/orca-italiano/1.4.278"
       },
       "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.102 testi su 23.102 (100%), allineato a Orca 1.4.278. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -58858,14 +58858,37 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.11.0"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.11.1"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.11.1",
+          "commit": "e40fdc1484734c1c6131dcc636c8486b7fb8e1a2",
+          "contentHash": "d055f8d5fbf743929ef1b3b011fd4a7a3013d6001eadaaf4ec9d4336af6d8eb4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort SDD",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort SDD"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-26T12:05:51Z"
+        },
         {
           "version": "0.11.0",
           "commit": "2813421af1f6a3478bc55e3527a05a3f2df43b05",
@@ -58957,29 +58980,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-23T05:50:47Z"
-        },
-        {
-          "version": "0.9.3",
-          "commit": "4f95c78de471f1160ea22e3764ec41d539223394",
-          "contentHash": "b91c8576f5bd319f675f1800a2f688f9be0efff6c003824e5310ee42532b4b8a",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort SDD",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort SDD"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-20T05:24:08Z"
         }
       ]
     },
