@@ -2343,7 +2343,7 @@
     },
     "kennedytedesco/wake": {
       "state": "listed",
-      "ref": "refs/tags/kennedytedesco/wake/0.2.3",
+      "ref": "v0.2.4",
       "plugins": [
         "kennedytedesco.wake"
       ]
@@ -2958,13 +2958,10 @@
       ]
     },
     "moilolon/orca-obsidian-notes": {
-      "state": "rejected",
-      "ref": "v0.2.4",
-      "reasons": [
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
+      "state": "listed",
+      "ref": "v0.2.5",
+      "plugins": [
+        "moilolon.notes"
       ]
     },
     "molanojf/orca-json-canvas": {

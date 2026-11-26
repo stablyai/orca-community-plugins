@@ -34667,8 +34667,8 @@
       "ownerId": 999232,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/kennedytedesco/wake/0.2.3"
+        "url": "https://github.com/KennedyTedesco/wake.git",
+        "ref": "v0.2.4"
       },
       "description": "A Git panel that works like GitHub Desktop: commit exactly the lines you want, send review notes to your agent, read each commit like a pull request, and switch, pull and push without leaving Orca.",
       "categories": [
@@ -34678,6 +34678,127 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.2.4",
+          "commit": "79bb3a21e9ba0c1ccf0e2b34531ed6cba77bf36a",
+          "contentHash": "93dc9d414fc7367701797c9e2dcc6d1bb9a8154b62859c22c717e5c5f0f89dc0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Wake",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Wake"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Open in a tab"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Show in the sidebar"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Fetch"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Pull"
+            },
+            {
+              "kind": "commands",
+              "name": "Wake: Push"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+G",
+              "detail": "openTab"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+G",
+              "detail": "showPanel"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Wake",
+              "detail": "Wake"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Git"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "terminal:send",
+            "agent:read",
+            "agent:launch",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/kennedytedesco.wake/bc9a815f2b0f452c.webp",
+              "alt": "Orca with Wake open in a tab next to two terminals: changed files as a tree, two lines left out of the commit, moved code, and the branch in the status bar",
+              "sha256": "bc9a815f2b0f452ca29c7d77a49f18094ec1f50b1e0289fdc5a3e7f220c15c75",
+              "width": 2560,
+              "height": 1600
+            },
+            "icon": {
+              "path": "assets/kennedytedesco.wake/bc2ffc8d54fd0eda.png",
+              "alt": "Wake icon",
+              "sha256": "bc2ffc8d54fd0eda5b90fcc8aeae64c160be6bae186816738f7df74318288da7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/kennedytedesco.wake/0dabb5e63ca9e4a9.webp",
+                "alt": "Review notes in Wake: a note on two lines of the diff, selected code with the Add a note button under it, and the list of notes with the agents to send them to",
+                "sha256": "0dabb5e63ca9e4a99808925690b1c1fd3fbf8ca31d47c62f135b77910c8bc25e",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/74199b8efc772923.webp",
+                "alt": "A Zustand commit with three files: the commit list, the file tree, and every diff on one page",
+                "sha256": "74199b8efc772923073affa5463fe109d355c7c4e8d7df01591ebc844b7a5091",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/0ed3bad936fa59bf.webp",
+                "alt": "A side-by-side diff with changed words marked and a function that moved, with the list folded to a rail of icons",
+                "sha256": "0ed3bad936fa59bfb3545164197d2f73bb3671c9724233cc372583c414ebfb47",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/fc5dbf9a9deac354.webp",
+                "alt": "The branch menu under the current branch: a filter, the default branch, and the recent branches with the time of their last commit",
+                "sha256": "fc5dbf9a9deac354093b48d02ec4c58940b1c1ae4f5dad0e8e4c42d279432b39",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/kennedytedesco.wake/da51b2f1d2ebc007.webp",
+                "alt": "Wake in a light Orca theme",
+                "sha256": "da51b2f1d2ebc007d94c1c32f9f28695b5f76b53f7d4a9a3d772ff7ea7b57467",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/KennedyTedesco/wake",
+          "updatedAt": "2026-11-26T13:22:45-03:00"
+        },
         {
           "version": "0.2.3",
           "commit": "2debbf1a127528370cbf73b0ae6c2030bd34fb11",
@@ -43078,6 +43199,57 @@
           "license": "MIT",
           "repository": "https://github.com/Miragon/orca-modelers",
           "updatedAt": "2026-11-07T09:53:59Z"
+        }
+      ]
+    },
+    {
+      "id": "moilolon.notes",
+      "ownerId": 17927894,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/moilolon/orca-obsidian-notes.git",
+        "ref": "v0.2.5"
+      },
+      "description": "Read the notes of an Obsidian vault in Orca's sidebar: folder tree, search, callouts and [[links]], with the open note filling the panel.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.5",
+          "commit": "9e517e12e31491eda2397ad0d810e2f6b816ae17",
+          "contentHash": "e42cf368f40fc982732d9bb2729b9530947d26a4a5e3d05587ee299d81640fc2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Obsidian Notes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Obsidian"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/moilolon.notes/11fb2c4a096df931.png",
+              "alt": "The plugin name beside a sidebar panel showing a note with its tags, colored section bands, an image and the notes that link to it",
+              "sha256": "11fb2c4a096df9311a0f1a089ac25269f3d0bfda89bfd4360d436c771ddf878c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/moilolon.notes/8aae2eeb9c970605.png",
+              "alt": "Obsidian Notes icon",
+              "sha256": "8aae2eeb9c9706057f644c62d0255168ed2c04d96a16461c594114e10bb0bced",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/moilolon/orca-obsidian-notes",
+          "updatedAt": "2026-11-26T17:26:56+01:00"
         }
       ]
     },
