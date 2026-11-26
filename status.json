@@ -1108,6 +1108,13 @@
         ]
       }
     },
+    "dungnt95/orca-flexoki-theme": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "dungnt95.flexoki-theme"
+      ]
+    },
     "ebbop/orca-italiano": {
       "state": "listed",
       "ref": "refs/tags/ebbop/orca-italiano/1.4.274",
@@ -2351,7 +2358,7 @@
     },
     "lamtuanvu/cv-hub-orca-plugin": {
       "state": "listed",
-      "ref": "refs/tags/lamtuanvu/cv-hub-orca-plugin/0.6.1",
+      "ref": "v0.6.2",
       "plugins": [
         "lamtuanvu.cv-hub"
       ]
@@ -2436,7 +2443,7 @@
     },
     "lilykos/orca-design": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/lilykos/orca-design/0.1.0",
       "plugins": [
         "lilykos.design-canvas"
       ]

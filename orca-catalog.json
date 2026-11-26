@@ -18335,6 +18335,51 @@
       ]
     },
     {
+      "id": "dungnt95.flexoki-theme",
+      "ownerId": 33015211,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dungnt95/orca-flexoki-theme.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Flexoki, the inky color scheme for prose and code by Steph Ango (stephango.com/flexoki), as Light and Dark app themes with matching syntax and terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "85fa472b405916d07eea8133bb5f8440feb09b46",
+          "contentHash": "78d905294647cafde1d32f20ca42d8abe851e3a49ce67ae08cfe6a2f25993458",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Flexoki for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Dark"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/dungnt95/orca-flexoki-theme",
+          "updatedAt": "2026-11-26T09:20:33+07:00"
+        }
+      ]
+    },
+    {
       "id": "ebbop.italiano",
       "ownerId": 205441686,
       "source": {
@@ -35422,8 +35467,8 @@
       "ownerId": 3332603,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/lamtuanvu/cv-hub-orca-plugin/0.6.1"
+        "url": "https://github.com/lamtuanvu/cv-hub-orca-plugin.git",
+        "ref": "v0.6.2"
       },
       "description": "Browse CV Hub repositories and pull requests in Orca: read diffs, checks and review history, submit reviews, and search code. Signs in with CV Hub in your browser.",
       "categories": [
@@ -35432,6 +35477,50 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "2c6c48e3be3933c44feb181e3f10e206cbdadbd7",
+          "contentHash": "1c9f8761f46d5fbc258d1d68339206046183a37b18de964d3881bd22a664c2e3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "CV Hub",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CV Hub"
+            },
+            {
+              "kind": "commands",
+              "name": "CV Hub: Sign in"
+            },
+            {
+              "kind": "commands",
+              "name": "CV Hub: Sign out"
+            },
+            {
+              "kind": "commands",
+              "name": "CV Hub: Refresh open pull requests"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "CV Hub"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/lamtuanvu/cv-hub-orca-plugin",
+          "updatedAt": "2026-11-26T01:57:32Z"
+        },
         {
           "version": "0.6.1",
           "commit": "7be469462c7600dd911f6689ec73786c95c1f678",
@@ -36346,8 +36435,8 @@
       "ownerId": 2445433,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Lilykos/orca-design.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/lilykos/orca-design/0.1.0"
       },
       "description": "Where people and agents design together: HTML artboards on a canvas, with comments, edits and tweaks the agent revises.",
       "categories": [
