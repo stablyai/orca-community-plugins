@@ -393,7 +393,7 @@
     },
     "baboleevan/orca-explorer": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "licence",
@@ -1120,19 +1120,16 @@
     },
     "dungnt95/orca-flexoki-theme": {
       "state": "listed",
-      "ref": "v1.2.3",
+      "ref": "v1.4.1",
       "plugins": [
         "dungnt95.flexoki-theme"
       ]
     },
     "dwenking/commit-file-tree": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.2",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "dwenking.commit-file-tree"
       ]
     },
     "ebbop/orca-italiano": {
@@ -1627,6 +1624,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "geq1fan/orca-chat-reclaim": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "geromendez135/orca-pr-review": {
@@ -3139,7 +3146,7 @@
     },
     "oddieradhie/orca-jenkins": {
       "state": "listed",
-      "ref": "v1.0.2",
+      "ref": "refs/tags/oddieradhie/orca-jenkins/1.0.2",
       "plugins": [
         "oddieradhie.jenkins"
       ]

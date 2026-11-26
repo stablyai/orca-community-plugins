@@ -18340,15 +18340,80 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dungnt95/orca-flexoki-theme.git",
-        "ref": "v1.2.3"
+        "ref": "v1.4.1"
       },
-      "description": "Flexoki, the inky color scheme for prose and code by Steph Ango (stephango.com/flexoki): Light and Dark app themes, matching syntax and terminal colors, and Flexoki Symbols file icons.",
+      "description": "Unofficial port of Flexoki, the inky color scheme for prose and code by Steph Ango (stephango.com/flexoki): Light and Dark app themes, matching syntax and terminal colors, and Flexoki Icons file icons (based on Symbols and Pierre Trees icons).",
       "categories": [
         "themes",
         "terminal-themes",
         "icons"
       ],
       "releases": [
+        {
+          "version": "1.4.1",
+          "commit": "2388b0ba4fa715584f0023729102ee0b10d99832",
+          "contentHash": "e36f3daded7d2776b3771b344f0689f61d0541acecf44169bf8fbc083f8a3b65",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Flexoki for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Flexoki Dark"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Flexoki Icons"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dungnt95.flexoki-theme/584a6f932c710395.png",
+              "alt": "Flexoki Light and Dark Orca windows: file tree with Flexoki Icons, highlighted TypeScript, terminal and palette",
+              "sha256": "584a6f932c710395d542e5bdf4090cb47ed857a5761a36a70444cce2d93311c8",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/dungnt95.flexoki-theme/c1f5ffd1aeefb49d.png",
+                "alt": "Orca in Flexoki Light: warm paper background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "c1f5ffd1aeefb49db086bcac31c0b44aad15d3091e310b86a9a166413fb39b50",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.flexoki-theme/5b81fc152b376830.png",
+                "alt": "Orca in Flexoki Dark: inky black background, file tree with git colors, highlighted TypeScript and a terminal",
+                "sha256": "5b81fc152b376830baf57a692d97799c3dc935e047ec89186c912ae9dca835c1",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.flexoki-theme/300308dfb5202985.png",
+                "alt": "Flexoki Icons file icons in light and dark, based on Symbols and Pierre Trees icons",
+                "sha256": "300308dfb52029856f20b9c791e384d06a8343277a5e0cdd3464ac4b3770a9eb",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT AND Apache-2.0",
+          "repository": "https://github.com/dungnt95/orca-flexoki-theme",
+          "updatedAt": "2026-11-26T11:38:28+07:00"
+        },
         {
           "version": "1.2.3",
           "commit": "3748160420bbb42ee43ff670ebc8cb56fdb19992",
@@ -18586,35 +18651,68 @@
           "license": "MIT",
           "repository": "https://github.com/dungnt95/orca-flexoki-theme",
           "updatedAt": "2026-11-26T09:38:17+07:00"
-        },
+        }
+      ]
+    },
+    {
+      "id": "dwenking.commit-file-tree",
+      "ownerId": 53037214,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dwenking/commit-file-tree.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Review AI-generated commits like a PR: unpushed work as file trees (by commit, combined, or by dependencies), line comments, reviewed checkmarks, risk flags, and one-click export of feedback for your agent.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
         {
-          "version": "1.0.0",
-          "commit": "85fa472b405916d07eea8133bb5f8440feb09b46",
-          "contentHash": "78d905294647cafde1d32f20ca42d8abe851e3a49ce67ae08cfe6a2f25993458",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Flexoki for Orca",
+          "version": "0.1.2",
+          "commit": "0b6c27486da863e797a338b53f802c42f70a0d00",
+          "contentHash": "08b6ffd23501f03b8255c2320b30622454ea35af708283d75342bac6d13bba76",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Commit Review Tree",
           "contributes": [
             {
-              "kind": "themes",
-              "name": "Flexoki Light"
+              "kind": "panels",
+              "name": "Commit Review Tree"
             },
             {
-              "kind": "themes",
-              "name": "Flexoki Dark"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Flexoki Light"
-            },
-            {
-              "kind": "terminalThemes",
-              "name": "Flexoki Dark"
+              "kind": "customEditors",
+              "name": "Review",
+              "detail": ".crdiff"
             }
           ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "fileTypes": [
+            "crdiff"
+          ],
+          "editorFileTypes": [
+            "crdiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dwenking.commit-file-tree/88ffde7330859996.png",
+              "alt": "The Commit Review Tree panel in Orca: three unpushed commits opened into file trees, with status letters, risk flags, comment counts and reviewed checkmarks.",
+              "sha256": "88ffde7330859996a6bc73dd4c5f6662985ce3ec5a66a3528e0b465f0981aa4a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dwenking.commit-file-tree/20899634e7755dfc.png",
+              "alt": "Commit Review Tree icon",
+              "sha256": "20899634e7755dfcd0d3da0a8d2373e07505ff98eda5183dd5e77699a066904f",
+              "width": 256,
+              "height": 256
+            }
+          },
           "license": "MIT",
-          "repository": "https://github.com/dungnt95/orca-flexoki-theme",
-          "updatedAt": "2026-11-26T09:20:33+07:00"
+          "repository": "https://github.com/dwenking/commit-file-tree",
+          "updatedAt": "2026-11-26T12:06:46+08:00"
         }
       ]
     },
@@ -44992,8 +45090,8 @@
       "ownerId": 8626156,
       "source": {
         "kind": "git",
-        "url": "https://github.com/oddieradhie/orca-jenkins.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/oddieradhie/orca-jenkins/1.0.2"
       },
       "description": "Jenkins CI/CD monitoring sidebar panel, status bar counter, build queue, console log viewer, and build triggers for Orca.",
       "categories": [
