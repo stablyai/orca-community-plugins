@@ -108,19 +108,10 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "refs/tags/addisflava/orca-llm-router/1.3.32",
+      "ref": "v1.3.34",
       "plugins": [
         "addisflava.llm-router"
-      ],
-      "update": {
-        "ref": "v1.3.33",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "aeldi/orca-agent-advisor": {
       "state": "rejected",
@@ -1169,7 +1160,7 @@
     },
     "drecchia/orca-telegram-bridge": {
       "state": "listed",
-      "ref": "v0.15.5",
+      "ref": "v0.17.0",
       "plugins": [
         "drecchia.telegram-bridge"
       ],
@@ -1457,7 +1448,7 @@
     },
     "everlightlabs/orca-plugin-multica": {
       "state": "listed",
-      "ref": "refs/tags/everlightlabs/orca-plugin-multica/0.1.1",
+      "ref": "v0.1.2",
       "plugins": [
         "everlightlabs.multica"
       ]
