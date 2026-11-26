@@ -1161,6 +1161,16 @@
         "donghyun-git.petting-friends"
       ]
     },
+    "dos2locos/openspec-pulse": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
+      ]
+    },
     "dr-xjx/orca-session-progress": {
       "state": "listed",
       "ref": "refs/tags/dr-xjx/orca-session-progress/0.1.0",
@@ -1170,7 +1180,7 @@
     },
     "drecchia/orca-telegram-bridge": {
       "state": "listed",
-      "ref": "refs/tags/drecchia/orca-telegram-bridge/0.17.0",
+      "ref": "v0.17.1",
       "plugins": [
         "drecchia.telegram-bridge"
       ],
@@ -2164,6 +2174,16 @@
       "ref": "refs/tags/j7-dev/orca-gherkin-syntax/0.1.0",
       "plugins": [
         "j7-dev.gherkin-syntax"
+      ]
+    },
+    "jacob-huang/orca-voice-alerts": {
+      "state": "rejected",
+      "ref": "v0.5.4",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code"
+        }
       ]
     },
     "jake-101/ahakey-x1": {
@@ -4960,7 +4980,7 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/wizhelp/orca-proxmox/0.4.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
       ]
