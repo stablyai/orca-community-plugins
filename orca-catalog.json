@@ -9971,6 +9971,43 @@
       ]
     },
     {
+      "id": "chantawat741.pixel-base",
+      "ownerId": 75719217,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chantawat741/isometric-pixel-art.git",
+        "ref": "v0.1.0"
+      },
+      "description": "An isometric pixel-art virtual office for your AI agents.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "efc058c77259dc5c1afee38cc8b5efaaa4d908ba",
+          "contentHash": "e50404b3160c175b3b98a3cc1b7fad15ba9d2a2ab74e4b224b26ad92ee50294f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pixel Base",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pixel Base"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/chantawat741/isometric-pixel-art",
+          "updatedAt": "2026-11-26T12:11:12+07:00"
+        }
+      ]
+    },
+    {
       "id": "chilango74.agent-preflight",
       "ownerId": 29829921,
       "source": {

@@ -698,6 +698,13 @@
         "chandraliuswanto.subagent-graph"
       ]
     },
+    "chantawat741/isometric-pixel-art": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "chantawat741.pixel-base"
+      ]
+    },
     "chilango74/orca-agent-preflight": {
       "state": "listed",
       "ref": "refs/tags/chilango74/orca-agent-preflight/0.1.0",
@@ -4240,7 +4247,7 @@
         "thanhh2615.datanoa"
       ],
       "update": {
-        "ref": "v1.2.2",
+        "ref": "v1.2.3",
         "reasons": [
           {
             "category": "under-review",
