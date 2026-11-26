@@ -91,19 +91,10 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "refs/tags/addisflava/orca-llm-router/1.3.26",
+      "ref": "v1.3.32",
       "plugins": [
         "addisflava.llm-router"
-      ],
-      "update": {
-        "ref": "v1.3.30",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "aetna000/atmem-ai-architect-orca": {
       "state": "listed",
@@ -271,7 +262,7 @@
         "angelcrown24.traffic-light"
       ],
       "update": {
-        "ref": "v0.14.0",
+        "ref": "v0.15.0",
         "reasons": [
           {
             "category": "under-review",
@@ -888,19 +879,10 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.2",
+      "ref": "v0.8.3",
       "plugins": [
         "cryptosecco.regia"
-      ],
-      "update": {
-        "ref": "v0.8.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "csavur/simple-todo": {
       "state": "listed",
@@ -921,6 +903,13 @@
       "ref": "refs/tags/cuni0716/monokai-pro-orca/2.0.0",
       "plugins": [
         "cuni0716.monokai-pro-ce-theme"
+      ]
+    },
+    "danielcech/orcajiraplugin": {
+      "state": "listed",
+      "ref": "v1.2.0",
+      "plugins": [
+        "danielcech.jira-branch-link"
       ]
     },
     "davidseptimus/armada-theme-orca-plugin": {
@@ -1048,7 +1037,7 @@
     },
     "dimti/orca-plugin-taskfile": {
       "state": "listed",
-      "ref": "refs/tags/dimti/orca-plugin-taskfile/0.1.3",
+      "ref": "v0.1.4",
       "plugins": [
         "dimti.taskfile-runner"
       ],
@@ -1658,7 +1647,7 @@
     },
     "geq1fan/orca-chat-reclaim": {
       "state": "rejected",
-      "ref": "v0.1.7",
+      "ref": "v0.1.8",
       "reasons": [
         {
           "category": "under-review",
@@ -2485,7 +2474,7 @@
     },
     "li363920783/orca-tapd-todo": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "li363920783.tapd-todo"
       ]
@@ -2675,7 +2664,7 @@
     },
     "marcelofrau/orca-atlassian": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.3.0",
       "reasons": [
         {
           "category": "identity-hold",
@@ -2692,7 +2681,7 @@
     },
     "marcelofrau/orca-markdown-themes": {
       "state": "listed",
-      "ref": "refs/tags/marcelofrau/orca-markdown-themes/0.5.0",
+      "ref": "v0.6.0",
       "plugins": [
         "marcelofrau.markdown-themes"
       ],
@@ -3014,7 +3003,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "refs/tags/mz-jy/orca-dbt/0.6.2",
+      "ref": "v0.6.3",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -3947,7 +3936,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.10.0",
+      "ref": "v0.11.0",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -4430,7 +4419,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.17.0",
+      "ref": "refs/tags/tornadodai/orca-bot-office/0.17.0",
       "plugins": [
         "tornadodai.bot-office"
       ]
@@ -4845,7 +4834,7 @@
     },
     "wooseungw/rich-tex-editor": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.1",
       "plugins": [
         "wooseungw.rich-tex-editor"
       ]
@@ -4942,7 +4931,7 @@
     },
     "zhanxiaogao/orca-ai-usage": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "v0.1.2",
       "plugins": [
         "zhanxiaogao.ai-usage"
       ]

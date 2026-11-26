@@ -173,6 +173,12 @@
     "repoId": 1451481681,
     "firstSeen": "2026-11-24T05:18:19.438Z"
   },
+  "addisflava.llm-router@1.3.32": {
+    "commit": "dd36723a1183b9bc2604aab17a66a8fc06460833",
+    "contentHash": "389f709ded8ab429d65eae3e8482af25c9b1fa38471a018eb70b9a66e1432106",
+    "repoId": 1451481681,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
+  },
   "addisflava.llm-router@1.3.4": {
     "commit": "a10b19223ff5e9614965a0c4ecd33100987775a5",
     "contentHash": "5909ef0819a31b2d1474d461560df3a9dda35dae70185fd10bcf3d02da7019db",
@@ -1565,6 +1571,12 @@
     "repoId": 1466873134,
     "firstSeen": "2026-11-25T13:18:00.813Z"
   },
+  "cryptosecco.regia@0.8.3": {
+    "commit": "c58ba07f0100e4e090bdf4ef4f750e7a47cf0bdd",
+    "contentHash": "d1fd8300ca59b008ea262b72ea251503f8979e9c0a3608cfc4288989bfe69227",
+    "repoId": 1466873134,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
+  },
   "csavur.simple-todo@0.1.0": {
     "commit": "67c24295b2d458a5ce92ff8b4b24f4f2e63dd850",
     "contentHash": "9fbd348446f6d21b304fde02350c991003f43c238211299e3314d9b48836bec5",
@@ -1588,6 +1600,12 @@
     "contentHash": "eb576ba8fcea1a88f718d6d03c20c14e4b18b03c458087c5491395fe8d71befb",
     "repoId": 1453841336,
     "firstSeen": "2026-11-11T11:13:12.346Z"
+  },
+  "danielcech.jira-branch-link@1.2.0": {
+    "commit": "019e421b92e55e097b8c6a6858f396fd08e31fc0",
+    "contentHash": "47692561719d361223df1fca8af2da8bb8e3c4e7a4c4e7a2c97e91e9b3a5e56b",
+    "repoId": 1472968634,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
   },
   "davidseptimus.armada-theme@1.0.1": {
     "commit": "0be84d4ac01eec07bec7d755a58de9d179e86579",
@@ -1774,6 +1792,12 @@
     "contentHash": "ad8c2f90767af86ea220a580988dfa02195227e960c1209c1e0b66b6bd4f6e46",
     "repoId": 1455375033,
     "firstSeen": "2026-11-25T08:21:53.246Z"
+  },
+  "dimti.taskfile-runner@0.1.4": {
+    "commit": "32b94ff0945dabee6253d187474f0a6e0519c1f6",
+    "contentHash": "d32d70b84c2aabbb90dcf9340da6d8a499a63833adcab88627d0edc7138d7e57",
+    "repoId": 1455375033,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
   },
   "dinhkarate.incognito-projects@0.2.0": {
     "commit": "4ef565d9ab0f8e6a877875a075d0da991594463b",
@@ -3977,6 +4001,12 @@
     "repoId": 1472925023,
     "firstSeen": "2026-11-26T09:43:28.105Z"
   },
+  "li363920783.tapd-todo@0.3.1": {
+    "commit": "8648c71fab569a8f119ce95f4064f502ce1080bc",
+    "contentHash": "e77201b30edc39e443482dceb77569204af590598a74e9cccc9c93ad32a36232",
+    "repoId": 1472925023,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
+  },
   "lilykos.design-canvas@0.1.0": {
     "commit": "80f7f24fb08141c8cc5612ec27eb7a8ea304fc99",
     "contentHash": "b9d4f53ef6cca28581f6f91d0feff8b7271d188f570ef9894e1adb25de276b83",
@@ -4108,6 +4138,12 @@
     "contentHash": "9ddecfae705eeb13c7f24554ef5ebda50498f582c601a45f8890a701922bfc3d",
     "repoId": 1472777845,
     "firstSeen": "2026-11-26T07:42:21.721Z"
+  },
+  "marcelofrau.markdown-themes@0.6.0": {
+    "commit": "7175e9fca6b8af195a9f07528cc320e9b61cf37c",
+    "contentHash": "1a5b2beeea445f3e90f038f3886b700454a8fd25de0e876ac37cac29b38cf3f1",
+    "repoId": 1472777845,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
   },
   "marco-calderon.nord-midnight-theme@1.3.0": {
     "commit": "883afdcafe829d499574b00d87b131335af90458",
@@ -4690,6 +4726,12 @@
     "contentHash": "14dbb2b414a7f13635f95c589ef203d9b852cb0a818c7182253886b9fcda3f82",
     "repoId": 1469988757,
     "firstSeen": "2026-11-25T23:14:51.765Z"
+  },
+  "mz-jy.dbt@0.6.3": {
+    "commit": "12b1c99922f7cf7919bad45135fa8b3b2f6ed3a4",
+    "contentHash": "7d57556245fd767adb2ef1014c251e168d71cb9edda386855dbd794fb9800b02",
+    "repoId": 1469988757,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
   },
   "naitsric.claude-procesos@0.1.1": {
     "commit": "901bc88e3afaa6b9d94cde7e7efd715848cbcb01",
@@ -6226,6 +6268,12 @@
     "contentHash": "5b0a7bb7d6efc66fc0241fb907512184e2b06915e6430e3f528a4070160db911",
     "repoId": 1451239680,
     "firstSeen": "2026-11-25T13:18:00.813Z"
+  },
+  "shaurgon.conport-orca@0.11.0": {
+    "commit": "2813421af1f6a3478bc55e3527a05a3f2df43b05",
+    "contentHash": "00249e823c7ff30ffac32bfb6688c4c59dc0a8d6924177e99c04f525bf771eed",
+    "repoId": 1451239680,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
   },
   "shaurgon.conport-orca@0.2.0": {
     "commit": "4d2cd9f9d21974de62cc36639bb5b9153880721c",
@@ -7912,6 +7960,12 @@
     "contentHash": "609c050c261a3ddf47bbf42a80ab29c5baffefb8b889a8694ff142e37f4a172c",
     "repoId": 1472951471,
     "firstSeen": "2026-11-26T09:43:28.105Z"
+  },
+  "zhanxiaogao.ai-usage@0.1.2": {
+    "commit": "d3ce1879eca6f173a2b7fbb7db60c86aa0cf6247",
+    "contentHash": "e8a6c3f21f9581c9520cfe2a2250f089a3156fa58035a02c480225a4a80811e7",
+    "repoId": 1472951471,
+    "firstSeen": "2026-11-26T10:17:39.403Z"
   },
   "zifengjiang.workspace-namer@0.1.2": {
     "commit": "17236b68aaadab479027b656403aa23b3813a535",
