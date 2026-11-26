@@ -311,6 +311,12 @@
     "repoId": 1447058810,
     "firstSeen": "2026-11-09T09:39:40.593Z"
   },
+  "aliuda.lark-bot-bridge@0.1.0": {
+    "commit": "c29bc64958fc92cc7ef99b60efca2c20d2d4bf6a",
+    "contentHash": "e1ce16ac1d0aceec96c4cc85313f37c9638a9125e2c37192426ff12304a20e6d",
+    "repoId": 1472658791,
+    "firstSeen": "2026-11-26T06:26:15.295Z"
+  },
   "alterdianne.inspo-board@1.0.0": {
     "commit": "dffa7676c10842aa9c528b9cb8e503f79e14b382",
     "contentHash": "d1f659cb7e3ae589148cb7a3c760de7ce4f46496c67e7a9de271971be55d9f62",
@@ -6994,6 +7000,12 @@
     "contentHash": "0d8eaa226f9f046d1eacf0175483963814d54d905e1d02ea1530f7b086d20bb7",
     "repoId": 1469049764,
     "firstSeen": "2026-11-25T03:19:46.249Z"
+  },
+  "tornadodai.bot-office@0.15.2": {
+    "commit": "828ff675bb5edda957a6d96079899005d741079d",
+    "contentHash": "4e654b498020a9c1ecee8f286484d9b6b1f62d5d3bfb281c146df17927b21e7b",
+    "repoId": 1469049764,
+    "firstSeen": "2026-11-26T06:26:15.295Z"
   },
   "tornadodai.bot-office@0.2.0": {
     "commit": "59c1f33b8c6a1c4689ab4c966caed1d673fea4fb",

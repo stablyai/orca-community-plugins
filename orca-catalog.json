@@ -2924,6 +2924,61 @@
       ]
     },
     {
+      "id": "aliuda.lark-bot-bridge",
+      "ownerId": 40687041,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aliuda/orca-lark-bot.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Bridge a Feishu/Lark self-built bot over persistent WebSocket to your local Orca Bot.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "c29bc64958fc92cc7ef99b60efca2c20d2d4bf6a",
+          "contentHash": "e1ce16ac1d0aceec96c4cc85313f37c9638a9125e2c37192426ff12304a20e6d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Lark Bot Bridge",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Lark Bot"
+            },
+            {
+              "kind": "commands",
+              "name": "Lark Bot: Reconnect"
+            },
+            {
+              "kind": "commands",
+              "name": "Lark Bot: Generate Owner Pairing Code"
+            },
+            {
+              "kind": "commands",
+              "name": "Lark Bot: Show Bridge Status"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Lark: Offline"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aliuda/orca-lark-bot",
+          "updatedAt": "2026-11-26T14:15:14+08:00"
+        }
+      ]
+    },
+    {
       "id": "alterdianne.inspo-board",
       "ownerId": 106173789,
       "source": {
@@ -9975,8 +10030,8 @@
       "ownerId": 75719217,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chantawat741/isometric-pixel-art.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chantawat741/isometric-pixel-art/0.1.0"
       },
       "description": "An isometric pixel-art virtual office for your AI agents.",
       "categories": [
@@ -65139,8 +65194,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/tornadodai/orca-bot-office/0.15.0"
+        "url": "https://github.com/TornadoDai/orca-bot-office.git",
+        "ref": "v0.15.2"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
@@ -65149,6 +65204,97 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.15.2",
+          "commit": "828ff675bb5edda957a6d96079899005d741079d",
+          "contentHash": "4e654b498020a9c1ecee8f286484d9b6b1f62d5d3bfb281c146df17927b21e7b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Bot Office",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Office"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Open Office View"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Office: Refresh Status"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bot Office"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/tornadodai.bot-office/cbef778132e5a82f.webp",
+              "alt": "Bot Office 2.5D illustrated office tower with real-time wall clock, executive briefing suite and categorized SVG analytics dashboard",
+              "sha256": "cbef778132e5a82f93d79eb43dd42ff8e8569da2b09cc9b538a6ef6ad6a45060",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
+              "alt": "Bot Office icon",
+              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/tornadodai.bot-office/99a5eacc3db24c42.png",
+                "alt": "Bot Office illustrated 2.5D modern office tower with real-time circular wall clock, furnished executive briefing suite and categorized SVG analytics dashboard",
+                "sha256": "99a5eacc3db24c422d11cc63a1eedbea84a1cf0c27563e114838294e491040d4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/a526a474e7f0eecf.png",
+                "alt": "Categorized Dashboard with 12-panel switch drawer, 28-day usage heatmap, 24-hour peak usage chart, branch chat activity, automations and Orca memory diagnostics",
+                "sha256": "a526a474e7f0eecf58a86b673b5698352e590ea174a901b8d700fd2b1e2da946",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/tornadodai.bot-office/f4fed28cde747e94.png",
+                "alt": "Native light theme showing interactive in-card decision reply modal and light analytics dashboard",
+                "sha256": "f4fed28cde747e94bfa390c7edd46cb5f3a4a4cab3c2f311be25a7cdcb130968",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/TornadoDai/orca-bot-office",
+          "updatedAt": "2026-11-26T14:00:57+08:00"
+        },
         {
           "version": "0.15.0",
           "commit": "f8eab9c90e1846dfdcb228aa3762e40bc60eceb5",
@@ -65498,76 +65644,6 @@
           "license": "MIT",
           "repository": "https://github.com/TornadoDai/orca-bot-office",
           "updatedAt": "2026-11-24T17:01:55+08:00"
-        },
-        {
-          "version": "0.11.2",
-          "commit": "407c8b048cf0f1444ffcdf89e0b7d63aad7136be",
-          "contentHash": "007ed2e43dcccee04560aa38d8a619100adee2af0dec98d680893a6647d29769",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Bot Office",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Bot Office"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Open Office View"
-            },
-            {
-              "kind": "commands",
-              "name": "Bot Office: Refresh Status"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Bot Office"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "settings:own"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/tornadodai.bot-office/134622fb2415c66a.png",
-              "alt": "Bot Office icon",
-              "sha256": "134622fb2415c66a4f58be7a6de9931649602757850fd2420560a9aadb21d28c",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/tornadodai.bot-office/95b3eb1bdc7edb28.png",
-                "alt": "Bot Office illustrated 2.5D modern office floors alongside a team workload analytics dashboard with stacked bars, 7-day trend, engine donut and token usage",
-                "sha256": "95b3eb1bdc7edb28b985c3f4974a5a6d95fbb1947e07c36d52179eeae1a7c706",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/TornadoDai/orca-bot-office",
-          "updatedAt": "2026-11-24T16:39:21+08:00"
         }
       ]
     },
