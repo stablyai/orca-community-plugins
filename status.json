@@ -207,7 +207,7 @@
     },
     "aliuda/orca-lark-bot": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/aliuda/orca-lark-bot/0.1.0",
       "plugins": [
         "aliuda.lark-bot-bridge"
       ]
@@ -707,7 +707,7 @@
     },
     "chantawat741/isometric-pixel-art": {
       "state": "listed",
-      "ref": "refs/tags/chantawat741/isometric-pixel-art/0.1.0",
+      "ref": "v0.1.2",
       "plugins": [
         "chantawat741.pixel-base"
       ]
@@ -4376,7 +4376,7 @@
     },
     "tornadodai/orca-bot-office": {
       "state": "listed",
-      "ref": "v0.15.2",
+      "ref": "refs/tags/tornadodai/orca-bot-office/0.15.2",
       "plugins": [
         "tornadodai.bot-office"
       ]

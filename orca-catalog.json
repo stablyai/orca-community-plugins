@@ -2928,8 +2928,8 @@
       "ownerId": 40687041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aliuda/orca-lark-bot.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aliuda/orca-lark-bot/0.1.0"
       },
       "description": "Bridge a Feishu/Lark self-built bot over persistent WebSocket to your local Orca Bot.",
       "categories": [
@@ -10030,14 +10030,68 @@
       "ownerId": 75719217,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/chantawat741/isometric-pixel-art/0.1.0"
+        "url": "https://github.com/chantawat741/isometric-pixel-art.git",
+        "ref": "v0.1.2"
       },
-      "description": "An isometric pixel-art virtual office for your AI agents.",
+      "description": "An isometric pixel-art virtual office for your AI agents. Every agent running in Orca becomes a little office worker: it sits at a desk while it works, raises a ? when it waits for you, shouts ! when it is blocked and wanders to the lounge when it is idle. Click a character to see its profile, focus",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "b30ac1da3b7342cf35429608a33ee3da45cd1b7d",
+          "contentHash": "2f4564aafc3ee074f73035b26eefb7681704189d843e91477381481a2039ab8c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Pixel Base",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pixel Base"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/chantawat741.pixel-base/8eb967df0f12c606.png",
+              "alt": "An isometric pixel-art office with five rooms and small characters working at desks",
+              "sha256": "8eb967df0f12c606a72b45dd089dab63d7e801c229c81eb194382f1c11e76da1",
+              "width": 1300,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/chantawat741.pixel-base/86ea9883c7f46816.png",
+              "alt": "Pixel Base icon",
+              "sha256": "86ea9883c7f468166e9aefa61ab172f42b8cd6a2e5e750d6eebdf2771c7b5ff2",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/chantawat741.pixel-base/8eb967df0f12c606.png",
+                "alt": "The Pixel Base office with simulated agents at their desks",
+                "sha256": "8eb967df0f12c606a72b45dd089dab63d7e801c229c81eb194382f1c11e76da1",
+                "width": 1300,
+                "height": 800
+              },
+              {
+                "path": "assets/chantawat741.pixel-base/c61cdc10bc64758b.png",
+                "alt": "A selected character with its profile card open",
+                "sha256": "c61cdc10bc64758b2ae68a588fec6dcfad2fc20f976d72cc75797d9fb1a0e3e4",
+                "width": 1300,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/chantawat741/isometric-pixel-art",
+          "updatedAt": "2026-11-26T13:38:53+07:00"
+        },
         {
           "version": "0.1.0",
           "commit": "efc058c77259dc5c1afee38cc8b5efaaa4d908ba",
@@ -65194,8 +65248,8 @@
       "ownerId": 59360883,
       "source": {
         "kind": "git",
-        "url": "https://github.com/TornadoDai/orca-bot-office.git",
-        "ref": "v0.15.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/tornadodai/orca-bot-office/0.15.2"
       },
       "description": "Ultra-lightweight illustrated 2.5D office tower, interactive in-card decision replies & SVG team workload analytics dashboard in Orca's right sidebar.",
       "categories": [
