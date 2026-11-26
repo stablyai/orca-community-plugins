@@ -81,7 +81,7 @@
     },
     "adamthewilliam/orca-pr-tour": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.3.0",
       "plugins": [
         "adamthewilliam.pr-tour"
       ],
@@ -1314,7 +1314,7 @@
     },
     "erywim/orca-subagent-canvas": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "under-review",
@@ -3730,6 +3730,13 @@
         "runzivo.runzivo-sandboxes"
       ]
     },
+    "rusharlabs/party-wave": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "rusharlabs.party-wave"
+      ]
+    },
     "ryujiyasu/orca-oxi-slides": {
       "state": "rejected",
       "ref": "v0.1.3",
@@ -3991,7 +3998,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "refs/tags/shaurgon/conport-orca/0.11.1",
+      "ref": "v0.11.3",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -4875,7 +4882,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.2.4",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.4",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

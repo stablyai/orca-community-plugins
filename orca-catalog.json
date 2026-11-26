@@ -1719,8 +1719,8 @@
       "ownerId": 24702294,
       "source": {
         "kind": "git",
-        "url": "https://github.com/adamthewilliam/orca-pr-tour.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/adamthewilliam/orca-pr-tour/0.3.0"
       },
       "description": "Understand a PR, then tour its diff in the order that explains it. For each PR waiting on you, your agent writes a guide: what, why and the impact, risk and findings, a stop-by-stop tour, and a review you post to GitHub.",
       "categories": [
@@ -54219,6 +54219,41 @@
       ]
     },
     {
+      "id": "rusharlabs.party-wave",
+      "ownerId": 332816837,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rusharlabs/party-wave.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Shows the House Party Protocol lane board of the focused workspace: its lanes with their heartbeat and the latest state of each item. Read-only.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "463fd5d90905af0e394f8c983890bdb318026062",
+          "contentHash": "4235b0f835834cc521418c677a88d4a6bbaa9593a7574f19c16762425729ef0b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Party Wave",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Party Wave"
+            }
+          ],
+          "capabilities": [
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/rusharlabs/party-wave",
+          "updatedAt": "2026-11-24T01:00:02-03:00"
+        }
+      ]
+    },
+    {
       "id": "ryusenkei-inc.hostslot",
       "ownerId": 289414937,
       "source": {
@@ -59433,14 +59468,62 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shaurgon/conport-orca/0.11.1"
+        "url": "https://github.com/shaurgon/conport-orca.git",
+        "ref": "v0.11.3"
       },
-      "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
+      "description": "Controls a ConPort project from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals, and epics outside SDD. Brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in Claude Code, Codex or Cursor.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.11.3",
+          "commit": "51bf90c7182eddafc0e9d5d8b14f1a10ae75f849",
+          "contentHash": "d056de87d1150813bd6f280f4c926c34f7d5d6b80358b1425760f17a968e0f6a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.251",
+          "name": "ConPort SDD",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ConPort SDD"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:send",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/shaurgon.conport-orca/5ab7b1d92d814897.png",
+              "alt": "ConPort SDD: an idea becomes a spec, the spec is planned and built as an epic, and its branch is left to merge",
+              "sha256": "5ab7b1d92d81489739373542a773750f7e9a4db16d762bdb8b13e750a3bd27ec",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/shaurgon.conport-orca/f08d621fb2c10500.png",
+              "alt": "ConPort SDD icon",
+              "sha256": "f08d621fb2c105003e412ad38e55be5e60d1dcd0ed691b12c8eca6d23170dbf2",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/shaurgon.conport-orca/e582fa5602df4703.png",
+                "alt": "Three ConPort SDD panels: sections by SDD stage, an epic with its harness, roles and live session, and the Plan & build sheet of a spec",
+                "sha256": "e582fa5602df470326ffbcda4b4329bd0bf235a5a8cc1e124f36736fe3904025",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/shaurgon/conport-orca",
+          "updatedAt": "2026-11-26T14:54:03Z"
+        },
         {
           "version": "0.11.1",
           "commit": "e40fdc1484734c1c6131dcc636c8486b7fb8e1a2",
@@ -59532,29 +59615,6 @@
           "license": "MIT",
           "repository": "https://github.com/shaurgon/conport-orca",
           "updatedAt": "2026-11-23T16:07:16Z"
-        },
-        {
-          "version": "0.9.4",
-          "commit": "ffe32aa922f6d825dd0231a0beaeb5564f5a9127",
-          "contentHash": "2710d2d600669b5722efb203107103192ad0904b43f7d98669607eef550dce50",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.251",
-          "name": "ConPort SDD",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "ConPort SDD"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "terminal:send",
-            "storage:own"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/shaurgon/conport-orca",
-          "updatedAt": "2026-11-23T05:50:47Z"
         }
       ]
     },
@@ -71853,8 +71913,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.2.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.4"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
