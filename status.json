@@ -3172,13 +3172,10 @@
       ]
     },
     "ninjars/orca-pr-radar": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "code"
-        }
+      "plugins": [
+        "ninjars.pr-radar"
       ]
     },
     "nithinpaul1360/orca-plugins": {
@@ -3977,7 +3974,7 @@
     },
     "shaurgon/conport-orca": {
       "state": "listed",
-      "ref": "v0.11.1",
+      "ref": "refs/tags/shaurgon/conport-orca/0.11.1",
       "plugins": [
         "shaurgon.conport-orca"
       ]
@@ -4834,6 +4831,13 @@
           "category": "no-manifest",
           "detail": "no orca-plugin.json or orca-catalog.json"
         }
+      ]
+    },
+    "weixijia/orca-remote-activity-monitor": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "weixijia.remote-activity-monitor"
       ]
     },
     "wilkywayre/orcarchy": {

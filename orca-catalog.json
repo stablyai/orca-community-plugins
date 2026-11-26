@@ -45945,6 +45945,76 @@
       ]
     },
     {
+      "id": "ninjars.pr-radar",
+      "ownerId": 5053926,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Ninjars/orca-pr-radar.git",
+        "ref": "v0.2.1"
+      },
+      "description": "Your open pull requests and the reviews asked of you, across every repository, in a section per repository. Flags what needs you: failing checks, conflicts, comments waiting for your reply, re-requested reviews and replies to your review. Reads GitHub through the gh command.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "7d674b7559f5ff94b2b0ac684072318f5316d6cc",
+          "contentHash": "510ff586c84694352f35737d59a08ca14ba84c3e84131e66594bdbb3b20d2371",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "PR Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PR Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "PR Radar: Toggle the right sidebar"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "PRs"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ninjars.pr-radar/9a37695ac56d06df.png",
+              "alt": "PR Radar: open pull requests grouped by repository, coloured red to fix, yellow to reply or review, green to merge.",
+              "sha256": "9a37695ac56d06df40c66701822917b4db52616ddcf57b343b583af7896e9f3f",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/ninjars.pr-radar/3b7cf1956641354d.png",
+                "alt": "The PR Radar panel in the dark theme: one repository expanded with pull requests in every state, another collapsed.",
+                "sha256": "3b7cf1956641354d9021aefbbf905b65c6cec16e5dd6399125ba30d7c221ec3c",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/ninjars.pr-radar/24f5e5e6219ed780.png",
+                "alt": "The PR Radar panel in the light theme: one repository expanded with pull requests in every state, another collapsed.",
+                "sha256": "24f5e5e6219ed780e002f994d95beaed000d0090f0586f909be6484d0ff7ee61",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ninjars/orca-pr-radar",
+          "updatedAt": "2026-11-26T11:58:20Z"
+        }
+      ]
+    },
+    {
       "id": "nithinpaul1360.claude-subagent-viewer",
       "ownerId": 45524206,
       "source": {
@@ -58858,8 +58928,8 @@
       "ownerId": 3669124,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shaurgon/conport-orca.git",
-        "ref": "v0.11.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shaurgon/conport-orca/0.11.1"
       },
       "description": "Controls ConPort projects from Orca by SDD stage: epics in work with their spec and plan, specs waiting for a plan, ideas and team proposals not worked through, and epics outside SDD; brainstorms an idea, plans and builds a spec, and starts the lead session of an epic in a terminal of the chosen har",
       "categories": [
@@ -71130,6 +71200,49 @@
           "license": "MIT",
           "repository": "https://github.com/websolutionfalcon/orca-aif",
           "updatedAt": "2026-11-20T15:11:48+01:00"
+        }
+      ]
+    },
+    {
+      "id": "weixijia.remote-activity-monitor",
+      "ownerId": 17016006,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/weixijia/orca-remote-activity-monitor.git",
+        "ref": "v0.2.0"
+      },
+      "description": "Live CPU cores, memory, network, disk, per-card GPUs and processes of a remote Linux machine over SSH, in Orca's sidebar. A fork of Activity Monitor for paired servers and SSH boxes.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "c1281c0d415a19026f080003180e520032db726b",
+          "contentHash": "e569272cadddec0d90a45c61488accb77ac4feac6fcf3785ef80f738dce52c95",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Remote Activity Monitor",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Remote Activity Monitor"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Critical"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "agent:read",
+            "terminal:send",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/weixijia/orca-remote-activity-monitor",
+          "updatedAt": "2026-11-26T12:42:14Z"
         }
       ]
     },
