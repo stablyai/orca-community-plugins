@@ -1163,12 +1163,9 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/ebbop/orca-italiano/1.4.274",
+      "ref": "v1.4.278",
       "plugins": [
         "ebbop.italiano"
-      ],
-      "notes": [
-        "contributes.languagePacks \"it\" (locales/it.json): 19 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -2434,6 +2431,20 @@
       "ref": "refs/tags/lamtuanvu/cv-hub-orca-plugin/0.6.2",
       "plugins": [
         "lamtuanvu.cv-hub"
+      ]
+    },
+    "lazy9sascha/p-999k": {
+      "state": "rejected",
+      "ref": "0.2.1",
+      "reasons": [
+        {
+          "category": "no-manifest",
+          "detail": "no readable orca-plugin.json at the release"
+        },
+        {
+          "category": "no-manifest",
+          "detail": "no orca-plugin.json or orca-catalog.json"
+        }
       ]
     },
     "lazyjerry/orca-forrrk": {

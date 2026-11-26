@@ -19338,14 +19338,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.274"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.278"
       },
-      "description": "jAI Studio · 22.690 testi su 22.690 (100%), allineato a Orca 1.4.274. Pacchetto della community, non ufficiale.",
+      "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.102 testi su 23.102 (100%), allineato a Orca 1.4.278. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.278",
+          "commit": "c5b4a59d7f47c9d2cfee4f1c0913a69b74831bf7",
+          "contentHash": "0ac2fb2d66de9989db9898969f8c6d3f0a0d670d042278496a4014579cc02dcf",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/7e60028779bdbb16.png",
+              "alt": "Illustrazione di una finestra in stile Orca in italiano: spazi di lavoro, un messaggio dell’agente e una conferma di eliminazione.",
+              "sha256": "7e60028779bdbb168329177e9273f33c1c68441205dfd638e8fa5bb0fe7a323c",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-26T12:38:52+01:00"
+        },
         {
           "version": "1.4.274",
           "commit": "f45fc223af229bc6b89b12484ee6c9b14e124fb4",
