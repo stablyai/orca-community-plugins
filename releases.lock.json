@@ -197,6 +197,12 @@
     "repoId": 1451481681,
     "firstSeen": "2026-11-26T19:43:09.804Z"
   },
+  "addisflava.llm-router@1.3.36": {
+    "commit": "2f9ce71a3d531a6ed6ad99ff6193f544056637cd",
+    "contentHash": "bef82adea376d3f7484203ad8de7ef9121862c9024136837c4ef35c26888c304",
+    "repoId": 1451481681,
+    "firstSeen": "2026-11-26T20:16:17.097Z"
+  },
   "addisflava.llm-router@1.3.4": {
     "commit": "a10b19223ff5e9614965a0c4ecd33100987775a5",
     "contentHash": "5909ef0819a31b2d1474d461560df3a9dda35dae70185fd10bcf3d02da7019db",
@@ -7918,6 +7924,12 @@
     "contentHash": "06cdf31a4bbe59b74aed7da0a74e476641784ce10e151b011cece2561e4d566a",
     "repoId": 1472358248,
     "firstSeen": "2026-11-25T23:14:51.765Z"
+  },
+  "wizhelp.proxmox-visualizer@0.3.0": {
+    "commit": "79c9f311e07fadf3645728fe68dbe2fc53172c3a",
+    "contentHash": "110025800da284d006dac36074a32fcbb369747062f940a1aac4d60aa6c4d2fc",
+    "repoId": 1472358248,
+    "firstSeen": "2026-11-26T20:16:17.097Z"
   },
   "woodfishhhh.better-project-tree@0.1.0": {
     "commit": "c49207bb17f0c9fc3f4b8aa825dcc9947f3ccaf2",
