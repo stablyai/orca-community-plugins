@@ -2297,6 +2297,12 @@
     "repoId": 1448741097,
     "firstSeen": "2026-11-26T11:43:17.767Z"
   },
+  "ebbop.italiano@1.4.279": {
+    "commit": "e4bc4c0f969fc9f9b5781cc9a710053d0268fc24",
+    "contentHash": "b2a03f9a69f89b4e50c802855c8ecfc52edcc1717b0d9b1c02f58773b41a13a0",
+    "repoId": 1448741097,
+    "firstSeen": "2026-11-27T11:16:09.316Z"
+  },
   "ebrgr.backlog-md@0.1.0": {
     "commit": "4054862a86a7eb50e36020d17b4394d30cdc120e",
     "contentHash": "f4671de67f80f4c986af4b844b76a605aca80c2b3bc848f0a26e6b01914c08e8",
@@ -4547,6 +4553,12 @@
     "repoId": 1453789863,
     "firstSeen": "2026-11-21T00:36:21.088Z"
   },
+  "maximeberetvas.dbt-syntax@0.1.0": {
+    "commit": "0362066292e63eb6df8b3bbe99f48480b1d36bb4",
+    "contentHash": "3a46d72cc092b0cc27459551150e9147381d20712a6fd544c5de20baf2ef764d",
+    "repoId": 1474335257,
+    "firstSeen": "2026-11-27T11:16:09.316Z"
+  },
   "maximechbt.beads-orca-ui@0.3.0": {
     "commit": "ee5c6801f39416e600269693d7245accb3fc9b7e",
     "contentHash": "a9e03dd50861579b4695d5aa7e13c3ffdbf4c7ca52d1930e4eaa6994003298d3",
@@ -5644,6 +5656,12 @@
     "contentHash": "b6da0277c54b2bd3a2a0c26d23a8cc92511181e6983ed37360db54fbd68b942a",
     "repoId": 1474078540,
     "firstSeen": "2026-11-27T10:16:51.712Z"
+  },
+  "peterhiroshi-hub.cyber-hq-radar@0.4.0": {
+    "commit": "854425d22c4e0a4e74ceaae94c266b5f3fecf488",
+    "contentHash": "99283cafe3f931541295a948f76df86d6c63b90870d80c7aa2c2fe52f1bb5192",
+    "repoId": 1474078540,
+    "firstSeen": "2026-11-27T11:16:09.316Z"
   },
   "peterurban.graphite@0.2.0": {
     "commit": "60061aa9c83c226c48890c2725edbacba32a5bd1",

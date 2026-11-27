@@ -2777,8 +2777,8 @@
       "ownerId": 204443674,
       "source": {
         "kind": "git",
-        "url": "https://github.com/adiityaastr/mint-chibi-coding.git",
-        "ref": "v1.0.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/adiityaastr/mint-chibi-coding/1.0.2"
       },
       "description": "Pesan Mint Chibi untuk perubahan status agen di Orca.",
       "categories": [
@@ -20726,14 +20726,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.278"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.279"
       },
-      "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.102 testi su 23.102 (100%), allineato a Orca 1.4.278. Pacchetto della community, non ufficiale.",
+      "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.134 testi su 23.134 (100%), allineato a Orca 1.4.279. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.279",
+          "commit": "e4bc4c0f969fc9f9b5781cc9a710053d0268fc24",
+          "contentHash": "b2a03f9a69f89b4e50c802855c8ecfc52edcc1717b0d9b1c02f58773b41a13a0",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/7e60028779bdbb16.png",
+              "alt": "Illustrazione di una finestra in stile Orca in italiano: spazi di lavoro, un messaggio dell’agente e una conferma di eliminazione.",
+              "sha256": "7e60028779bdbb168329177e9273f33c1c68441205dfd638e8fa5bb0fe7a323c",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-27T11:44:34+01:00"
+        },
         {
           "version": "1.4.278",
           "commit": "c5b4a59d7f47c9d2cfee4f1c0913a69b74831bf7",
@@ -42229,6 +42262,42 @@
       ]
     },
     {
+      "id": "maximeberetvas.dbt-syntax",
+      "ownerId": 295840340,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/MaximeBeretvas/orca-dbt-syntax.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Syntax highlighting for dbt SQL models (Analytics SQL + Jinja2).",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "0362066292e63eb6df8b3bbe99f48480b1d36bb4",
+          "contentHash": "3a46d72cc092b0cc27459551150e9147381d20712a6fd544c5de20baf2ef764d",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "dbt SQL",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "dbt SQL",
+              "detail": ".sql"
+            }
+          ],
+          "fileTypes": [
+            "sql"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/MaximeBeretvas/orca-dbt-syntax",
+          "updatedAt": "2026-11-27T12:14:38+01:00"
+        }
+      ]
+    },
+    {
       "id": "maximechbt.beads-orca-ui",
       "ownerId": 14289013,
       "source": {
@@ -51825,8 +51894,8 @@
       "ownerId": 361849047,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/peterhiroshi-hub/cyber-hq-radar/0.3.5"
+        "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
+        "ref": "v0.4.0"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51835,6 +51904,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "854425d22c4e0a4e74ceaae94c266b5f3fecf488",
+          "contentHash": "99283cafe3f931541295a948f76df86d6c63b90870d80c7aa2c2fe52f1bb5192",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T18:41:30+08:00"
+        },
         {
           "version": "0.3.5",
           "commit": "eaa7e1c39ffd60dca0427c1276c36f468c569f72",
@@ -52138,82 +52283,6 @@
           "license": "MIT",
           "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
           "updatedAt": "2026-11-27T16:42:50+08:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "1ed56439779bf9f824e59f55a251fa1bcc60c26f",
-          "contentHash": "b28a275aa9128558e062e86b7268b18bbd203d50260b5ca0591b418a88eb9064",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.274",
-          "name": "Cyber HQ Radar",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Cyber HQ Radar"
-            },
-            {
-              "kind": "commands",
-              "name": "Cyber HQ: Refresh Fleet Radar"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "HQ · Booting"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
-              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
-              "alt": "Cyber HQ Radar icon",
-              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
-                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
-                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
-                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
-                "width": 1440,
-                "height": 900
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
-          "updatedAt": "2026-11-27T16:18:41+08:00"
         }
       ]
     },
@@ -54714,8 +54783,8 @@
       "ownerId": 10086855,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rgarciade/orca-containers.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rgarciade/orca-containers/0.2.0"
       },
       "description": "Manage your Docker engine (Colima, Docker Desktop, OrbStack, Podman, Rancher Desktop or any Docker context) and the Compose stacks, containers, ports and logs of the active worktree from Orca's right sidebar.",
       "categories": [
