@@ -7313,8 +7313,8 @@
       "ownerId": 110985817,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Bourras6ue/orca-pi-token-usage.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bourras6ue/orca-pi-token-usage/0.3.0"
       },
       "description": "跟随当前 Orca 工作区（支持本机与已配对远端服务器）展示 Pi 会话总用量、活跃模型汇总、每轮与逐请求明细及折叠原文。",
       "categories": [
@@ -14305,16 +14305,125 @@
       "ownerId": 99609885,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.4"
+        "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
+        "ref": "v0.8.5"
       },
-      "description": "A read-only control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests.",
+      "description": "A control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests. Read-only, unless you pick a bot in the Queue's Send choices to menu: then a click on an option of a question sends your choice to tha",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.8.5",
+          "commit": "0afc1e0a5e984a6cc9627547ada556688f0eb8c3",
+          "contentHash": "eec5e6556c3f5eb67163cc69648d6d8a4c7f16cec873f26c1cf880b74a411d89",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Regia",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Regia"
+            },
+            {
+              "kind": "commands",
+              "name": "Regia: show the panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Regia"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own",
+            "workspace:write",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/cryptosecco.regia/364f638510226381.webp",
+              "alt": "The Regia panel: a diagram with you at the top, the bot that holds the queue, five other bots, the agents they started and the pull requests",
+              "sha256": "364f638510226381bf90969957360a387b770920ddff37a41abb989c27019a52",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/cryptosecco.regia/20bdd70b5fdbce4c.png",
+              "alt": "Regia icon",
+              "sha256": "20bdd70b5fdbce4ce21561a0be0c4a01a54fd07440894c927f0583c3f7c32b31",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/cryptosecco.regia/364f638510226381.webp",
+                "alt": "The Overview: who hands work to whom, with amber lines where something waits on you",
+                "sha256": "364f638510226381bf90969957360a387b770920ddff37a41abb989c27019a52",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/86884b5caf93d147.webp",
+                "alt": "The Queue: three decisions to take now with their options, and every open item in lanes by project",
+                "sha256": "86884b5caf93d1470c4074ce735aa96bf74625fcb9f53d90cd33c7bc3161eb20",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/193e38272b7e1df0.webp",
+                "alt": "The Office: a map with one room per project and one avatar per bot and agent, at a desk when working, with a question mark when waiting on you",
+                "sha256": "193e38272b7e1df0053d148ec0a805ff396e9b62250f3f1c10d3a33da11809cf",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/054e24de9a9fdc1f.webp",
+                "alt": "The Overview in the light theme",
+                "sha256": "054e24de9a9fdc1fe7f9a7c541a912f6e288a951b34d63d6e89ac4d4f8fee0dc",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/848976a93d9d0af9.webp",
+                "alt": "The Queue in the light theme",
+                "sha256": "848976a93d9d0af996f13082d7efca1e4a58979f84a6507b9b052203d60f720b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/cryptosecco.regia/369e76cab8180cd5.webp",
+                "alt": "The Office in the light theme",
+                "sha256": "369e76cab8180cd513a1a3b6a0bd44c099133b0d4c6a35d5f1e2f8d84a1b8323",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/cryptosecco/orca-regia-plugin",
+          "updatedAt": "2026-11-27T09:25:58+01:00"
+        },
         {
           "version": "0.8.4",
           "commit": "073467d18946ab87ce4f83347af1263a83129b58",
@@ -14750,115 +14859,6 @@
           "license": "MIT",
           "repository": "https://github.com/cryptosecco/orca-regia-plugin",
           "updatedAt": "2026-11-21T20:50:01+01:00"
-        },
-        {
-          "version": "0.8.0",
-          "commit": "85f53754ef64fc9c11611f07dd4f14cc1068f5fa",
-          "contentHash": "c9abb714c7e408784582fcaf51a4a028496b92c7edde35496ee7c765b4f658be",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Regia",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Regia"
-            },
-            {
-              "kind": "commands",
-              "name": "Regia: show the panel"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Regia"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "storage:own",
-            "settings:own",
-            "workspace:write",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/cryptosecco.regia/040225a5297cbef7.png",
-              "alt": "The Regia panel: a diagram with you at the top, the bot that holds the queue, five other bots, the agents they started and the pull requests",
-              "sha256": "040225a5297cbef7edd1276f61f3eaa85194f9e436a7af85190bc6e458cc64a5",
-              "width": 2560,
-              "height": 1600
-            },
-            "icon": {
-              "path": "assets/cryptosecco.regia/20bdd70b5fdbce4c.png",
-              "alt": "Regia icon",
-              "sha256": "20bdd70b5fdbce4ce21561a0be0c4a01a54fd07440894c927f0583c3f7c32b31",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/cryptosecco.regia/040225a5297cbef7.png",
-                "alt": "The Overview: who hands work to whom, with amber lines where something waits on you",
-                "sha256": "040225a5297cbef7edd1276f61f3eaa85194f9e436a7af85190bc6e458cc64a5",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/cryptosecco.regia/595a2cbaf55447a9.png",
-                "alt": "The Queue: three decisions to take now with their options, and every open item in lanes by project",
-                "sha256": "595a2cbaf55447a9265eb660d4ef51fc165cdcf97d5c348429043575b603b4cd",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/cryptosecco.regia/3fc1f94377022e4d.png",
-                "alt": "The Office: every agent grouped by project, working, waiting on you or idle",
-                "sha256": "3fc1f94377022e4d0c59cfeaffc3b2797ba919d70de667f2fa96eb241db1c322",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/cryptosecco.regia/6dacec02905566d3.png",
-                "alt": "The Overview in the light theme",
-                "sha256": "6dacec02905566d376c7a0eff0aa564bab2c81022c32bd11a623e4a7b03b31d0",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/cryptosecco.regia/4bfe079b6f238537.png",
-                "alt": "The Queue in the light theme",
-                "sha256": "4bfe079b6f238537048bb2cab30066894cd667fa91525f19e9fd285a6954cf7b",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/cryptosecco.regia/884128dc7ff57c73.png",
-                "alt": "The Office in the light theme",
-                "sha256": "884128dc7ff57c73b909b1e561de1b14378ec3a3b55d395e0027d029326de60b",
-                "width": 2560,
-                "height": 1600
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/cryptosecco/orca-regia-plugin",
-          "updatedAt": "2026-11-21T18:54:06+01:00"
         }
       ]
     },
@@ -51743,7 +51743,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.2.0"
+        "ref": "v0.2.2"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51752,6 +51752,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "ef2c30b65ab12e393095610faadbfe5b8ff2bfb4",
+          "contentHash": "ee61b7d9c96bcb89cd46551588e43b3159e05f2c4b3986124c0d625948d57560",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T16:42:50+08:00"
+        },
         {
           "version": "0.2.0",
           "commit": "1ed56439779bf9f824e59f55a251fa1bcc60c26f",
@@ -78706,15 +78782,61 @@
       "ownerId": 59564582,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.4"
+        "url": "https://github.com/Zhanxiaogao/orca-ai-usage.git",
+        "ref": "v0.1.5"
       },
       "description": "统计本机 Claude Code、Codex、Antigravity 与 Gemini CLI 的 Token 用量、估算费用与生成速度。",
       "categories": [
         "panels",
-        "commands"
+        "commands",
+        "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "6399132a205962bf3eaea1bc9aece6aa7654d56d",
+          "contentHash": "1c9307bb31a05d7ff211b3357f7077837ee7ca12a1fab05d098521f2add0a135",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "AI 用量",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "AI 用量"
+            },
+            {
+              "kind": "commands",
+              "name": "打开 AI 用量统计面板"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "0 · $0.00"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "ctx 0k"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read"
+          ],
+          "updatedAt": "2026-11-27T15:51:16+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/Zhanxiaogao/orca-ai-usage"
+        },
         {
           "version": "0.1.4",
           "commit": "1b719756d5c0e5e9d746be415f321074748c9ba4",

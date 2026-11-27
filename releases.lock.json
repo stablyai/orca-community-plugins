@@ -1703,6 +1703,12 @@
     "repoId": 1466873134,
     "firstSeen": "2026-11-26T13:17:32.817Z"
   },
+  "cryptosecco.regia@0.8.5": {
+    "commit": "0afc1e0a5e984a6cc9627547ada556688f0eb8c3",
+    "contentHash": "eec5e6556c3f5eb67163cc69648d6d8a4c7f16cec873f26c1cf880b74a411d89",
+    "repoId": 1466873134,
+    "firstSeen": "2026-11-27T08:42:53.210Z"
+  },
   "csavur.simple-todo@0.1.0": {
     "commit": "67c24295b2d458a5ce92ff8b4b24f4f2e63dd850",
     "contentHash": "9fbd348446f6d21b304fde02350c991003f43c238211299e3314d9b48836bec5",
@@ -5603,6 +5609,12 @@
     "repoId": 1474078540,
     "firstSeen": "2026-11-27T08:21:24.566Z"
   },
+  "peterhiroshi-hub.cyber-hq-radar@0.2.2": {
+    "commit": "ef2c30b65ab12e393095610faadbfe5b8ff2bfb4",
+    "contentHash": "ee61b7d9c96bcb89cd46551588e43b3159e05f2c4b3986124c0d625948d57560",
+    "repoId": 1474078540,
+    "firstSeen": "2026-11-27T08:42:53.210Z"
+  },
   "peterurban.graphite@0.2.0": {
     "commit": "60061aa9c83c226c48890c2725edbacba32a5bd1",
     "contentHash": "d944306de98147ceaecfc5a1bb52eda8efc8ff28a1ffb4fc06c8ea658f323ea4",
@@ -8410,6 +8422,12 @@
     "contentHash": "f94015815a2a9cb058479b843fbaf916d0076a81e40cc14c718a90bfe1e5e922",
     "repoId": 1472951471,
     "firstSeen": "2026-11-27T07:18:30.847Z"
+  },
+  "zhanxiaogao.ai-usage@0.1.5": {
+    "commit": "6399132a205962bf3eaea1bc9aece6aa7654d56d",
+    "contentHash": "1c9307bb31a05d7ff211b3357f7077837ee7ca12a1fab05d098521f2add0a135",
+    "repoId": 1472951471,
+    "firstSeen": "2026-11-27T08:42:53.210Z"
   },
   "zifengjiang.workspace-namer@0.1.2": {
     "commit": "17236b68aaadab479027b656403aa23b3813a535",

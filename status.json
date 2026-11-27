@@ -586,7 +586,7 @@
     },
     "bourras6ue/orca-pi-token-usage": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/bourras6ue/orca-pi-token-usage/0.3.0",
       "plugins": [
         "bourras6ue.pi-token-usage"
       ]
@@ -970,7 +970,7 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.4",
+      "ref": "v0.8.5",
       "plugins": [
         "cryptosecco.regia"
       ]
@@ -2126,7 +2126,7 @@
         "hu-qi.grape-tasks"
       ],
       "update": {
-        "ref": "v0.2.1",
+        "ref": "v0.3.0",
         "reasons": [
           {
             "category": "under-review",
@@ -3584,7 +3584,7 @@
     },
     "peterhiroshi-hub/cyber-hq-radar": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.2.2",
       "plugins": [
         "peterhiroshi-hub.cyber-hq-radar"
       ]
@@ -3994,6 +3994,16 @@
       "ref": "refs/tags/saltshakerlabs/orca-one-dark-vivid/0.1.0",
       "plugins": [
         "saltshakerlabs.one-dark-vivid-theme"
+      ]
+    },
+    "sambbdevpro/bb-skills-manager": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "samfaina/orca-kickoff": {
@@ -5127,7 +5137,16 @@
       "ref": "refs/tags/wizhelp/orca-proxmox/0.4.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
-      ]
+      ],
+      "update": {
+        "ref": "v0.5.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "woodfishhhh/better-project-tree": {
       "state": "listed",
@@ -5141,6 +5160,16 @@
       "ref": "refs/tags/wooseungw/rich-tex-editor/0.2.2",
       "plugins": [
         "wooseungw.rich-tex-editor"
+      ]
+    },
+    "wop-platform/orca-codeup": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "wst-ki/orca-server-status": {
@@ -5255,19 +5284,10 @@
     },
     "zhanxiaogao/orca-ai-usage": {
       "state": "listed",
-      "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.4",
+      "ref": "v0.1.5",
       "plugins": [
         "zhanxiaogao.ai-usage"
-      ],
-      "update": {
-        "ref": "v0.1.5",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "zifengjiang/orca-workspace-namer": {
       "state": "listed",
