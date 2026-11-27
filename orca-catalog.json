@@ -29491,8 +29491,8 @@
       "ownerId": 14880710,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/guilatrova/bot-kanban-board/0.3.1"
+        "url": "https://github.com/guilatrova/bot-kanban-board.git",
+        "ref": "v0.15.1"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -29500,6 +29500,75 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.15.1",
+          "commit": "940844bafa8efbed4335afafbcafdb54ca7cb8be",
+          "contentHash": "75e8dc77260fd6f5e9e820e6bcc2db5d105432689b5a28cd478d3af0e752ca4d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Bot Kanban Board",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Open Bot Kanban Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Needs you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Kanban Board",
+              "detail": ".botkanban"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you …"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botkanban"
+          ],
+          "editorFileTypes": [
+            "botkanban"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/guilatrova.bot-kanban-board/f22236b542ef575f.png",
+              "alt": "All your bots, one board. Bot Kanban Board showing Needs you, In progress and pull requests ready to merge.",
+              "sha256": "f22236b542ef575fd1c018268acfed0a8562c474cc6d2c4feb0a02e91bc53279",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "updatedAt": "2026-11-27T15:45:01-03:00",
+          "license": "MIT",
+          "repository": "https://github.com/guilatrova/bot-kanban-board"
+        },
         {
           "version": "0.3.1",
           "commit": "109267e66b512eeb661c2963017ed4529b18ee1e",
@@ -31699,14 +31768,78 @@
       "ownerId": 147599377,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/iamfaist/orca-source-control/0.3.5"
+        "url": "https://github.com/iamfaist/orca-source-control.git",
+        "ref": "v0.3.6"
       },
       "description": "Manage every Git repository in your workspace from one sidebar. Stage files, commit, switch branches, and pull or push. Follow merges in a resizable graph, filter by branch or tag, and open any changed file at its commit.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.6",
+          "commit": "d2e59cab6dfd5c40b9bc9d533b8145d4869196dc",
+          "contentHash": "c16603680294e8be240ecbef65d68d127234084c28bab7cec136b88fb7cc7660",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Source Control",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Source Control"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Git Changes",
+              "detail": ".orcagitdiff"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "orcagitdiff"
+          ],
+          "editorFileTypes": [
+            "orcagitdiff"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/iamfaist.source-control/97e2a82a3da05e66.png",
+              "alt": "Source Control for Orca with staged files, three repositories and a branching commit graph",
+              "sha256": "97e2a82a3da05e6619a5ed20fcd059a86fac878a7f7c4cbc2a1a372bc9dd79d4",
+              "width": 1200,
+              "height": 750
+            },
+            "screenshots": [
+              {
+                "path": "assets/iamfaist.source-control/16c7626db80a48a7.png",
+                "alt": "Three colored lanes trace two merges, with branch labels and a commit expanded to show its modified and added files.",
+                "sha256": "16c7626db80a48a78e1e7df5b9be5eacccdc73e5ae38c15bcad2a6eda8125684",
+                "width": 1344,
+                "height": 992
+              },
+              {
+                "path": "assets/iamfaist.source-control/660eede612a440a4.png",
+                "alt": "A repository with staged and working changes beside its menu of Git operations.",
+                "sha256": "660eede612a440a49f40744b3cc01bdd13f83374731c000f014119488c406c79",
+                "width": 1280,
+                "height": 1100
+              },
+              {
+                "path": "assets/iamfaist.source-control/c7db32372cb13dcf.png",
+                "alt": "A picker for local branches, a remote branch and a tag above the history graph.",
+                "sha256": "c7db32372cb13dcf47054801d0018e08a35f9ebf49c963c5444526cf770fea20",
+                "width": 1280,
+                "height": 960
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/iamfaist/orca-source-control",
+          "updatedAt": "2026-11-27T20:16:10+01:00"
+        },
         {
           "version": "0.3.5",
           "commit": "52cce64f482af1acd21dd6fefa3a072026ea7bc8",
@@ -47810,7 +47943,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/naitsric/orca-claude-procesos.git",
-        "ref": "v0.6.2"
+        "ref": "v0.6.3"
       },
       "description": "Monitor for Claude Code sessions, the processes they start and the ones left orphaned, and the Git worktrees left open, with a verdict on which to close. In English and Spanish.",
       "categories": [
@@ -47818,6 +47951,57 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.6.3",
+          "commit": "251e42b51b502fe25f42213634106f808d09a5ab",
+          "contentHash": "2b7732dc2d385e53981c1ef03be07ccb6e7a9d19f74d5ba6dac5d0618ef9409b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Processes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Processes"
+            },
+            {
+              "kind": "panels",
+              "name": "Claude Activity"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: check now"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close certain orphans"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close inactive worktrees"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
+              "alt": "Claude Processes icon",
+              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/naitsric/orca-claude-procesos",
+          "updatedAt": "2026-11-27T14:19:12-05:00"
+        },
         {
           "version": "0.6.2",
           "commit": "15f18d33b9961509bba0f40d1183ddba49ea71ae",
@@ -48017,53 +48201,6 @@
           "license": "MIT",
           "repository": "https://github.com/naitsric/orca-claude-procesos",
           "updatedAt": "2026-11-17T14:57:42-05:00"
-        },
-        {
-          "version": "0.4.0",
-          "commit": "06864e68aca5f62b379e89fc7a38bdc990429ac2",
-          "contentHash": "0775fc3121f3c8035f6e53c467b1b2186244b14a9e7294dd32536f2b14126ec3",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Procesos de Claude",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Procesos de Claude"
-            },
-            {
-              "kind": "panels",
-              "name": "Actividad de Claude"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: revisar ahora"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: cerrar los huérfanos seguros"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Claude"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
-              "alt": "Procesos de Claude icon",
-              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/naitsric/orca-claude-procesos",
-          "updatedAt": "2026-11-17T12:45:54-05:00"
         }
       ]
     },
