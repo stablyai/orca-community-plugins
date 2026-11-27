@@ -7309,6 +7309,43 @@
       ]
     },
     {
+      "id": "bourras6ue.pi-token-usage",
+      "ownerId": 110985817,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Bourras6ue/orca-pi-token-usage.git",
+        "ref": "v0.3.0"
+      },
+      "description": "跟随当前 Orca 工作区（支持本机与已配对远端服务器）展示 Pi 会话总用量、活跃模型汇总、每轮与逐请求明细及折叠原文。",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "c92de332f91a8e06d9b27ad19afd5c8afd62c7a4",
+          "contentHash": "21ead6144471ed9af1e7960f9b008b6b46b7ab66e998e35df1bea116ee834875",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.261",
+          "name": "Pi Token 用量",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pi Token 用量"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "agent:read",
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Bourras6ue/orca-pi-token-usage",
+          "updatedAt": "2026-11-27T15:45:14+08:00"
+        }
+      ]
+    },
+    {
       "id": "boxcompute.vm",
       "ownerId": 321363891,
       "source": {
@@ -20337,8 +20374,8 @@
       "ownerId": 33015211,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dungnt95/mermaid-studio-orca.git",
-        "ref": "v0.2.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dungnt95/mermaid-studio-orca/0.2.5"
       },
       "description": "WYSIWYG visual editor for Mermaid diagrams: edit flowcharts, sequence, state and mindmap diagrams directly on the canvas, with code and canvas kept in sync. Shapes, colours, manual layout, themes, Markdown fences and SVG/PNG export. Unofficial; not affiliated with the Mermaid project.",
       "categories": [],
@@ -51706,7 +51743,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.1.5"
+        "ref": "v0.2.0"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51715,6 +51752,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "1ed56439779bf9f824e59f55a251fa1bcc60c26f",
+          "contentHash": "b28a275aa9128558e062e86b7268b18bbd203d50260b5ca0591b418a88eb9064",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T16:18:41+08:00"
+        },
         {
           "version": "0.1.5",
           "commit": "ac156e7543b08667e45ee2b37add026cf008f559",

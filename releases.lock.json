@@ -905,6 +905,12 @@
     "repoId": 1449717078,
     "firstSeen": "2026-11-16T08:16:25.574Z"
   },
+  "bourras6ue.pi-token-usage@0.3.0": {
+    "commit": "c92de332f91a8e06d9b27ad19afd5c8afd62c7a4",
+    "contentHash": "21ead6144471ed9af1e7960f9b008b6b46b7ab66e998e35df1bea116ee834875",
+    "repoId": 1474131045,
+    "firstSeen": "2026-11-27T08:21:24.566Z"
+  },
   "boxcompute.vm@1.0.0": {
     "commit": "0678a861dbb8a418557c7260cb8618bbf65d0546",
     "contentHash": "d3e9f6f72d8ff8a4aed779638b248c8acc68a87a9340aa1863d651764102ea86",
@@ -5590,6 +5596,12 @@
     "contentHash": "ea3262bf4ca378213b6fe4e1b787cec66bfca67ad3f48f588108b4406dd1d00e",
     "repoId": 1474078540,
     "firstSeen": "2026-11-27T07:42:51.937Z"
+  },
+  "peterhiroshi-hub.cyber-hq-radar@0.2.0": {
+    "commit": "1ed56439779bf9f824e59f55a251fa1bcc60c26f",
+    "contentHash": "b28a275aa9128558e062e86b7268b18bbd203d50260b5ca0591b418a88eb9064",
+    "repoId": 1474078540,
+    "firstSeen": "2026-11-27T08:21:24.566Z"
   },
   "peterurban.graphite@0.2.0": {
     "commit": "60061aa9c83c226c48890c2725edbacba32a5bd1",
