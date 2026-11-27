@@ -1145,6 +1145,13 @@
         ]
       }
     },
+    "desk36hq/quotamax": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "desk36hq.quotamax"
+      ]
+    },
     "diegohonorio/orca-painel": {
       "state": "listed",
       "ref": "refs/tags/diegohonorio/orca-painel/0.6.0",
@@ -2289,6 +2296,13 @@
       "ref": "refs/tags/ivanmunozruiz/orca-claude-autoswitch/0.3.0",
       "plugins": [
         "ivanmunozruiz.claude-autoswitch"
+      ]
+    },
+    "ivanscm/bmad-tickets-viewer": {
+      "state": "listed",
+      "ref": "v0.3.1",
+      "plugins": [
+        "ivanscm.bmad-tickets-viewer"
       ]
     },
     "ivo922/everforest-theme": {
@@ -4333,7 +4347,7 @@
     },
     "sheaguev/orca-review-desk": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/sheaguev/orca-review-desk/0.1.1",
       "plugins": [
         "sheaguev.review-desk"
       ],
@@ -4419,14 +4433,14 @@
     },
     "sks-other/orca-dsh-web": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "v0.5.1",
       "plugins": [
         "sks-other.dsh-web"
       ]
     },
     "sks-other/orca-endpoint-editor": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "v1.1.2",
       "plugins": [
         "sks-other.endpoint-editor"
       ]

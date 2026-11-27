@@ -1919,6 +1919,12 @@
     "repoId": 1446064030,
     "firstSeen": "2026-11-13T09:17:33.308Z"
   },
+  "desk36hq.quotamax@0.1.0": {
+    "commit": "e31ce8952092bc8ea356cda1973366c87032000c",
+    "contentHash": "a0bd4328e5437dff9da26bf4ae15a860b2b3bbdafb24b55bc858848e79a6c47a",
+    "repoId": 1473499544,
+    "firstSeen": "2026-11-27T20:43:13.953Z"
+  },
   "diegohonorio.painel-trabalho@0.3.0": {
     "commit": "37904fe3f0c41719f09185ed2f77728b62816903",
     "contentHash": "2b9733e9f8426f9a10403b29a250779fbf04987c709e628217385235c24f240d",
@@ -3700,6 +3706,12 @@
     "contentHash": "36b00934be13d6d547e5667baf48e8af11bfaf104a9f6c98fbeb5ea4dd7c05e2",
     "repoId": 1471545967,
     "firstSeen": "2026-11-25T10:17:47.584Z"
+  },
+  "ivanscm.bmad-tickets-viewer@0.3.1": {
+    "commit": "cef9e24ca5100a7aa0a92af0fcf728b5094becad",
+    "contentHash": "2a1dfca5e0eafa40a317538f4f69752e85d046720d3710361c36bfacee068b5e",
+    "repoId": 1474879172,
+    "firstSeen": "2026-11-27T20:43:13.953Z"
   },
   "ivo922.everforest-theme@1.0.0": {
     "commit": "e0377a7bc7695d2896260b3825e40e4f62b227ba",
@@ -7007,11 +7019,23 @@
     "repoId": 1451161422,
     "firstSeen": "2026-11-27T20:16:37.102Z"
   },
+  "sks-other.dsh-web@0.5.1": {
+    "commit": "49b070ec787bb364245fbda1971ea434fef1ddd9",
+    "contentHash": "60e4e9394c4e65f11eac536b96872712fd37d60127906c10f0ff851daa86b2c6",
+    "repoId": 1451161422,
+    "firstSeen": "2026-11-27T20:43:13.953Z"
+  },
   "sks-other.endpoint-editor@1.1.0": {
     "commit": "b875520b15adedfb913d1643fa398106d2f5e1dd",
     "contentHash": "9063776b16140a8f72c2db4a9c4b1de416c53f07ee28337aa86d4fbd84890399",
     "repoId": 1451161036,
     "firstSeen": "2026-11-27T20:16:37.102Z"
+  },
+  "sks-other.endpoint-editor@1.1.2": {
+    "commit": "fa1577b49b421f323c35117aaf0e86793a7335d0",
+    "contentHash": "6b757739ee34ab410786926ef1550a623ad993eb8ca89b204d8bd0957a3fc5d8",
+    "repoId": 1451161036,
+    "firstSeen": "2026-11-27T20:43:13.953Z"
   },
   "sleet1k.quota-panel@1.0.0": {
     "commit": "c7ed2dcca4257b7ca5156a6192c596339b27066f",

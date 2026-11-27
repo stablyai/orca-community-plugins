@@ -17129,6 +17129,54 @@
       ]
     },
     {
+      "id": "desk36hq.quotamax",
+      "ownerId": 329089886,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/desk36hq/quotamax.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Live quota pacing, model + thinking recommendations with Apply, and API-equivalent cost estimates across your AI coding subscriptions.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "e31ce8952092bc8ea356cda1973366c87032000c",
+          "contentHash": "a0bd4328e5437dff9da26bf4ae15a860b2b3bbdafb24b55bc858848e79a6c47a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "QuotaMax",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "QuotaMax"
+            },
+            {
+              "kind": "commands",
+              "name": "QuotaMax: Refresh quota"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "QuotaMax"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "agent:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/desk36hq/quotamax",
+          "updatedAt": "2026-11-27T19:18:32Z"
+        }
+      ]
+    },
+    {
       "id": "diegohonorio.painel-trabalho",
       "ownerId": 42255462,
       "source": {
@@ -33404,6 +33452,68 @@
           "license": "MIT",
           "repository": "https://github.com/ivanmunozruiz/orca-claude-autoswitch",
           "updatedAt": "2026-11-25T11:05:12+01:00"
+        }
+      ]
+    },
+    {
+      "id": "ivanscm.bmad-tickets-viewer",
+      "ownerId": 278208,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ivanscm/bmad-tickets-viewer.git",
+        "ref": "v0.3.1"
+      },
+      "description": "Read-only viewer for BMAD tickets (initiatives, epics, stories) in the workspace's _bmad-output: a sidebar tree, a kanban board in an editor tab, live updates, dependency blocking and BMAD skill launch.",
+      "categories": [
+        "panels",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "cef9e24ca5100a7aa0a92af0fcf728b5094becad",
+          "contentHash": "2a1dfca5e0eafa40a317538f4f69752e85d046720d3710361c36bfacee068b5e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "BMAD Tickets Viewer",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "BMAD Tickets"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "BMAD Board",
+              "detail": "tickets.toml"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "bmad-status"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/ivanscm.bmad-tickets-viewer/a94806857f1ca2ca.png",
+              "alt": "BMAD Tickets Viewer icon",
+              "sha256": "a94806857f1ca2ca06499a272e6f5c6d21a577c95e6fd33615a7a4acfab8baf6",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ivanscm/bmad-tickets-viewer",
+          "updatedAt": "2026-11-28T01:24:12+05:00"
         }
       ]
     },
@@ -63474,8 +63584,8 @@
       "ownerId": 128555572,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SheaGuev/orca-review-desk.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sheaguev/orca-review-desk/0.1.1"
       },
       "description": "PR reviews inside Orca: an AI walkthrough that groups the PR by idea, real diffs in your editor colours, inline comments, GitHub viewed sync, and a worktree on the PR branch.",
       "categories": [
@@ -65267,7 +65377,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/SkS-Other/orca-dsh-web.git",
-        "ref": "v0.5.0"
+        "ref": "v0.5.1"
       },
       "description": "Runs DeepSeek Harness Web in tmux and follows the profiles in $DSH_HOME/profiles.",
       "categories": [
@@ -65276,6 +65386,57 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.5.1",
+          "commit": "49b070ec787bb364245fbda1971ea434fef1ddd9",
+          "contentHash": "60e4e9394c4e65f11eac536b96872712fd37d60127906c10f0ff851daa86b2c6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "DSH Web",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "DSH"
+            },
+            {
+              "kind": "commands",
+              "name": "DSH: profiles"
+            },
+            {
+              "kind": "commands",
+              "name": "DSH: open (web)"
+            },
+            {
+              "kind": "commands",
+              "name": "DSH: open (unity)"
+            },
+            {
+              "kind": "commands",
+              "name": "DSH: stop project"
+            },
+            {
+              "kind": "commands",
+              "name": "DSH: stop all"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "DSH"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/SkS-Other/orca-dsh-web",
+          "updatedAt": "2026-11-27T23:23:06+03:00"
+        },
         {
           "version": "0.5.0",
           "commit": "421d4ffdc681def6f6b60af5caec41328bedad83",
@@ -65335,13 +65496,44 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/SkS-Other/orca-endpoint-editor.git",
-        "ref": "v1.1.0"
+        "ref": "v1.1.2"
       },
       "description": "Edit the host and port of saved Orca remote environments from a sidebar panel, with presets and reachability checks.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.2",
+          "commit": "fa1577b49b421f323c35117aaf0e86793a7335d0",
+          "contentHash": "6b757739ee34ab410786926ef1550a623ad993eb8ca89b204d8bd0957a3fc5d8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Server Endpoints",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Server Endpoints"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/sks-other.endpoint-editor/ccf4bbaad2999d65.png",
+                "alt": "The Server Endpoints panel: host and port fields for Dev/Linux, two presets, and a reachability badge",
+                "sha256": "ccf4bbaad2999d65784d39032e2a769a1d0a9f88b7941c6bca07aac407b11c64",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SkS-Other/orca-endpoint-editor",
+          "updatedAt": "2026-11-27T23:37:42+03:00"
+        },
         {
           "version": "1.1.0",
           "commit": "b875520b15adedfb913d1643fa398106d2f5e1dd",
