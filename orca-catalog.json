@@ -7192,8 +7192,8 @@
       "ownerId": 355688341,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BF16-AI/bf16-orca-plugin.git",
-        "ref": "v1.0.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bf16-ai/bf16-orca-plugin/1.0.1"
       },
       "description": "Live uncensored 1M-context model catalog, OS-keyring API key check, one-click Claude Code / Codex / Hermes / OpenCode workspace setup, and built-in bf16 MCP server for Orca.",
       "categories": [
@@ -21062,8 +21062,8 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.280"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebbop/orca-italiano/1.4.280"
       },
       "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.498 testi su 23.498 (100%), allineato a Orca 1.4.280. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -32966,6 +32966,46 @@
           "license": "MIT",
           "repository": "https://github.com/InsForge/orca-instabox-plugin",
           "updatedAt": "2026-11-01T21:36:27-08:00"
+        }
+      ]
+    },
+    {
+      "id": "iosrxwy.chatstamp",
+      "ownerId": 184130225,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/iosrxwy/ChatStamp.git",
+        "ref": "v1.8.0"
+      },
+      "description": "Orca 里各个代理的会话结束时，把标题收成 MMDD｜类型｜主题。",
+      "categories": [
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.8.0",
+          "commit": "862604d2fc3774ad7dab65b95872f8e728777b30",
+          "contentHash": "22515a20082358b51a78c06dc73cb7ed43657ff4f817f04b3ab24af0d53c7e41",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.279",
+          "name": "ChatStamp",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "ChatStamp: 整理当前工作区"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/iosrxwy/ChatStamp",
+          "updatedAt": "2026-11-28T00:40:25+08:00"
         }
       ]
     },
@@ -76549,6 +76589,79 @@
       ]
     },
     {
+      "id": "wqliang.wecom-bridge",
+      "ownerId": 6831968,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/wqliang/orca-wecom-bridge.git",
+        "ref": "v1.0.0"
+      },
+      "description": "企业微信智能机器人（API 长连接）× Orca worktree 双向桥：运行结果推送到企微，企微消息注入 agent 终端",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "490ca55f395c294a60f06dfbd8df65ac55ddb66c",
+          "contentHash": "337e1c78c72ee17881c5bbc733de95cf34dea3810756190f870edbdeda1632ad",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "WeCom Bridge",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "WeCom Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "WeCom Bridge: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "WeCom Bridge: Connect"
+            },
+            {
+              "kind": "commands",
+              "name": "WeCom Bridge: Disconnect"
+            },
+            {
+              "kind": "commands",
+              "name": "WeCom Bridge: Dispatch Text To Terminal"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "terminal:read",
+            "terminal:send",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "license": "Apache-2.0",
+          "repository": "https://github.com/wqliang/orca-wecom-bridge",
+          "updatedAt": "2026-11-27T23:57:11+08:00"
+        }
+      ]
+    },
+    {
       "id": "wst-ki.server-status",
       "ownerId": 99245787,
       "source": {
@@ -76950,8 +77063,8 @@
       "ownerId": 91772192,
       "source": {
         "kind": "git",
-        "url": "https://github.com/xiaocLoveMoney/idea-new-ui-themes.git",
-        "ref": "v1.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/xiaoclovemoney/idea-new-ui-themes/1.1.5"
       },
       "description": "IntelliJ IDEA New UI and Islands colors for Orca: app themes, code highlighting, terminal palettes, New UI and Symbols file icons, and JetBrains Mono.",
       "categories": [

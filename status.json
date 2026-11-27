@@ -576,7 +576,7 @@
     },
     "bf16-ai/bf16-orca-plugin": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/bf16-ai/bf16-orca-plugin/1.0.1",
       "plugins": [
         "bf16-ai.bf16"
       ]
@@ -1304,7 +1304,7 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.280",
+      "ref": "refs/tags/ebbop/orca-italiano/1.4.280",
       "plugins": [
         "ebbop.italiano"
       ]
@@ -2134,11 +2134,11 @@
     },
     "hseunghwan/orca-coordinator-board": {
       "state": "rejected",
-      "ref": "v0.10.0",
+      "ref": "v0.10.1",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code, size"
+          "detail": "code"
         }
       ]
     },
@@ -2250,6 +2250,13 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "iosrxwy/chatstamp": {
+      "state": "listed",
+      "ref": "v1.8.0",
+      "plugins": [
+        "iosrxwy.chatstamp"
       ]
     },
     "ishubhoshaha/orca-apple-reminders": {
@@ -5224,6 +5231,16 @@
         }
       ]
     },
+    "wqliang/orca-wecom-bridge": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "wqliang.wecom-bridge"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "wst-ki/orca-server-status": {
       "state": "listed",
       "ref": "refs/tags/wst-ki/orca-server-status/0.1.0",
@@ -5253,7 +5270,7 @@
     },
     "xiaoclovemoney/idea-new-ui-themes": {
       "state": "listed",
-      "ref": "v1.1.5",
+      "ref": "refs/tags/xiaoclovemoney/idea-new-ui-themes/1.1.5",
       "plugins": [
         "xiaoclovemoney.idea-new-ui-themes"
       ]
