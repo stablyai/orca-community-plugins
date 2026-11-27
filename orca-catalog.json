@@ -7192,8 +7192,8 @@
       "ownerId": 355688341,
       "source": {
         "kind": "git",
-        "url": "https://github.com/BF16-AI/bf16-orca-plugin.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/bf16-ai/bf16-orca-plugin/1.0.0"
       },
       "description": "Live uncensored 1M-context model catalog, OS-keyring API key check, one-click Claude Code / Codex / Hermes / OpenCode workspace setup, and built-in bf16 MCP server for Orca.",
       "categories": [
@@ -26981,8 +26981,8 @@
       "ownerId": 5882701,
       "source": {
         "kind": "git",
-        "url": "https://github.com/fmcardoso/orca-pomodoro.git",
-        "ref": "v0.3.0",
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/fmcardoso/orca-pomodoro/pomodoro/0.3.0",
         "path": "plugin"
       },
       "description": "A pet tomato that counts your pomodoros: a status bar timer, an animated panel, a break after each focus, and a notification when each one ends.",
@@ -42447,8 +42447,8 @@
       "ownerId": 10705898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.1.2"
+        "url": "https://github.com/maxfedorov/youtrack-for-orca.git",
+        "ref": "v0.3.0"
       },
       "description": "Browse YouTrack issues in the right sidebar and start coding agents on them.",
       "categories": [
@@ -42457,6 +42457,106 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "e710930e9051f517436124c9f39b8a0892094d6c",
+          "contentHash": "dc6aad850a3a20b467705acd0bb1c6cd0117542bbe7485dacace6a0458864be2",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "YouTrack for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "YouTrack"
+            },
+            {
+              "kind": "commands",
+              "name": "YouTrack: Open panel"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "YT"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show",
+            "terminal:send"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/maxfedorov.youtrack-for-orca/f1457fb17a823935.png",
+              "alt": "YouTrack for Orca: the plugin's issue list and its Start view for an issue, next to the plugin name and a list of its features",
+              "sha256": "f1457fb17a8239355b41739a961a7641c234f6306129b5f3594a7b59e961cd35",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/maxfedorov.youtrack-for-orca/cd56641f29737a6b.png",
+              "alt": "YouTrack for Orca icon",
+              "sha256": "cd56641f29737a6b862efb223950b4410040b08aa7ea92652e1e7ebbc60f23a8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/c6f6a5b4167942de.png",
+                "alt": "The issue list: the Issues and Articles tabs, quick views, New issue, the query, saved searches, sortable columns and the actions of the selected issue",
+                "sha256": "c6f6a5b4167942dee0db7e1b1af58699a790da97739f0a60612047b5d57dda71",
+                "width": 1936,
+                "height": 1698
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/2ef03cb3035c6327.png",
+                "alt": "The Articles tab: the project, the article search with the favorites star, and the tree of articles with their sub-articles and ids",
+                "sha256": "2ef03cb3035c6327d70483bd9e542b71b4a16c9f7d7278eeaf961852a64b1c45",
+                "width": 1458,
+                "height": 880
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/da3a5e3bb4536cf3.png",
+                "alt": "The detail of an issue: creator, its blockers, Apply command, the fields grid with drop-downs, description, linked issues and comments",
+                "sha256": "da3a5e3bb4536cf3e7d28755d88cedbc3d42708b7acafa971fae846e02212b0a",
+                "width": 2176,
+                "height": 1752
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/25e87b737261f8f9.png",
+                "alt": "The Start view: where to run, project, name, workspace, agent, the prompt switches, template, what the agent does when done and the editable prompt",
+                "sha256": "25e87b737261f8f976fc1215a4c6357f3880823083a3c0f76a00b21b9bb32e51",
+                "width": 1986,
+                "height": 1888
+              },
+              {
+                "path": "assets/maxfedorov.youtrack-for-orca/c7d5cfff6d30e7a1.png",
+                "alt": "The New issue form: project, summary, description, the required fields of the project with their defaults, and More fields",
+                "sha256": "c7d5cfff6d30e7a1e02c7b4dded1da0da7e4ab1396ab7493de7ea37e0e5ab494",
+                "width": 1460,
+                "height": 1492
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/maxfedorov/youtrack-for-orca",
+          "updatedAt": "2026-11-27T16:12:24+01:00"
+        },
         {
           "version": "0.1.2",
           "commit": "8f82d646610c76f86890cb4238dd83e9bb9e267c",
@@ -47491,15 +47591,66 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/naitsric/orca-claude-procesos/0.5.0"
+        "url": "https://github.com/naitsric/orca-claude-procesos.git",
+        "ref": "v0.6.0"
       },
-      "description": "Monitor for Claude Code sessions, the processes they start and the ones left orphaned, with a verdict on which to close. In English and Spanish.",
+      "description": "Monitor for Claude Code sessions, the processes they start and the ones left orphaned, and the Git worktrees left open, with a verdict on which to close. In English and Spanish.",
       "categories": [
         "panels",
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "5401e5d0985abc23b3002474cef1f4264843e36e",
+          "contentHash": "9b05a17d696e8e40532f579f256e1c7d53f7210c4745c4523219dc02138cdac1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Processes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Processes"
+            },
+            {
+              "kind": "panels",
+              "name": "Claude Activity"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: check now"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close certain orphans"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close inactive worktrees"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
+              "alt": "Claude Processes icon",
+              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/naitsric/orca-claude-procesos",
+          "updatedAt": "2026-11-27T10:28:47-05:00"
+        },
         {
           "version": "0.5.0",
           "commit": "a6273410c6461161723d9fcf7304b3dad45f0ff1",
@@ -47687,49 +47838,6 @@
           "license": "MIT",
           "repository": "https://github.com/naitsric/orca-claude-procesos",
           "updatedAt": "2026-11-17T09:05:05-05:00"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "901bc88e3afaa6b9d94cde7e7efd715848cbcb01",
-          "contentHash": "cdf916472c38c992505ec74e9dd8e9d6f5684baea69e4d794b1064b2493228f8",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Procesos de Claude",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Procesos de Claude"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: revisar ahora"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: cerrar los huérfanos seguros"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Claude"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
-              "alt": "Procesos de Claude icon",
-              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/naitsric/orca-claude-procesos",
-          "updatedAt": "2026-11-13T12:03:37-05:00"
         }
       ]
     },

@@ -4583,6 +4583,12 @@
     "repoId": 1453789863,
     "firstSeen": "2026-11-21T00:36:21.088Z"
   },
+  "maxfedorov.youtrack-for-orca@0.3.0": {
+    "commit": "e710930e9051f517436124c9f39b8a0892094d6c",
+    "contentHash": "dc6aad850a3a20b467705acd0bb1c6cd0117542bbe7485dacace6a0458864be2",
+    "repoId": 1453789863,
+    "firstSeen": "2026-11-27T15:43:13.993Z"
+  },
   "maximeberetvas.dbt-syntax@0.1.0": {
     "commit": "0362066292e63eb6df8b3bbe99f48480b1d36bb4",
     "contentHash": "3a46d72cc092b0cc27459551150e9147381d20712a6fd544c5de20baf2ef764d",
@@ -5104,6 +5110,12 @@
     "contentHash": "d56964bf5fbac3f387e6377440a7bd83dda1baba0f29f0ae8594ca4921d352a8",
     "repoId": 1456855616,
     "firstSeen": "2026-11-17T20:14:54.062Z"
+  },
+  "naitsric.claude-procesos@0.6.0": {
+    "commit": "5401e5d0985abc23b3002474cef1f4264843e36e",
+    "contentHash": "9b05a17d696e8e40532f579f256e1c7d53f7210c4745c4523219dc02138cdac1",
+    "repoId": 1456855616,
+    "firstSeen": "2026-11-27T15:43:13.993Z"
   },
   "namnameeroo.claude-pinboard@0.1.1": {
     "commit": "494dcd1d035a45d450d59e25493014af1e07b2c8",
