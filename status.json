@@ -777,13 +777,13 @@
         "chantawat741.pixel-base"
       ]
     },
-    "chantawatthanyaphattharin/isometric-pixel-art": {
+    "chantawatthanyaphattharin/pixel-base": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "identity-hold",
-          "detail": "moved from chantawat741/isometric-pixel-art (chantawat741.pixel-base) to chantawatthanyaphattharin/isometric-pixel-art (chantawatthanyaphattharin.pixel-base); new versions paused until a maintainer confirms the move in identity-moves.json"
+          "detail": "moved from chantawat741/isometric-pixel-art (chantawat741.pixel-base) to chantawatthanyaphattharin/pixel-base (chantawatthanyaphattharin.pixel-base); new versions paused until a maintainer confirms the move in identity-moves.json"
         }
       ]
     },
@@ -1253,19 +1253,10 @@
     },
     "dungnt95/mermaid-studio-orca": {
       "state": "listed",
-      "ref": "refs/tags/dungnt95/mermaid-studio-orca/0.2.4",
+      "ref": "v0.2.5",
       "plugins": [
         "dungnt95.mermaid-studio"
-      ],
-      "update": {
-        "ref": "v0.2.5",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size"
-          }
-        ]
-      }
+      ]
     },
     "dungnt95/orca-flexoki-theme": {
       "state": "listed",
@@ -2121,6 +2112,13 @@
         "hsnils.github-notifications"
       ]
     },
+    "hu-qi/orca-grape-tasks": {
+      "state": "listed",
+      "ref": "v0.1.2",
+      "plugins": [
+        "hu-qi.grape-tasks"
+      ]
+    },
     "hubo1989/orca-codegraph-init": {
       "state": "listed",
       "ref": "refs/tags/hubo1989/orca-codegraph-init/0.1.0",
@@ -2930,7 +2928,7 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.279",
+      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.279",
       "plugins": [
         "matteoeusebi.italiano"
       ]
@@ -3570,7 +3568,7 @@
     },
     "peterhiroshi-hub/cyber-hq-radar": {
       "state": "listed",
-      "ref": "v0.1.3",
+      "ref": "v0.1.5",
       "plugins": [
         "peterhiroshi-hub.cyber-hq-radar"
       ]
@@ -5241,7 +5239,7 @@
     },
     "zhanxiaogao/orca-ai-usage": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.4",
       "plugins": [
         "zhanxiaogao.ai-usage"
       ]

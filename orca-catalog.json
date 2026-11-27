@@ -20337,12 +20337,103 @@
       "ownerId": 33015211,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/dungnt95/mermaid-studio-orca/0.2.4"
+        "url": "https://github.com/dungnt95/mermaid-studio-orca.git",
+        "ref": "v0.2.5"
       },
       "description": "WYSIWYG visual editor for Mermaid diagrams: edit flowcharts, sequence, state and mindmap diagrams directly on the canvas, with code and canvas kept in sync. Shapes, colours, manual layout, themes, Markdown fences and SVG/PNG export. Unofficial; not affiliated with the Mermaid project.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.5",
+          "commit": "01faabfa204e98ff59e64042e4cf0141c27048a7",
+          "contentHash": "82000241ad1e043f097f4d2a4a0c829e78c9aa66116e3442a6b84c75e3a674ba",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Mermaid Studio",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Mermaid Studio",
+              "detail": ".mmd, .mermaid"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Mermaid Studio",
+              "detail": ".md"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Mermaid",
+              "detail": ".mmd"
+            }
+          ],
+          "fileTypes": [
+            "mmd",
+            "mermaid",
+            "md"
+          ],
+          "editorFileTypes": [
+            "mmd",
+            "mermaid",
+            "md"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dungnt95.mermaid-studio/6b37d117659d78d8.png",
+              "alt": "Mermaid Studio for Orca: \"Draw your Mermaid. Don’t just write it.\" with the code and canvas editor, plus sequence and state diagram previews.",
+              "sha256": "6b37d117659d78d81e78a481dcefef0f3b1234e01d9814a5db0ead1c9aa619d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dungnt95.mermaid-studio/532b2aa7510bb344.png",
+              "alt": "Mermaid Studio icon",
+              "sha256": "532b2aa7510bb34447aaba0f1d7d6ad3f565ca44cfa05edfaf3456ea2777bcb8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/dungnt95.mermaid-studio/5de7b15dd8c97605.png",
+                "alt": "Mermaid Studio with a node selected on the canvas, showing the floating toolbar, the shape palette and the Mermaid code beside it.",
+                "sha256": "5de7b15dd8c976057bb6ba995a4bac68695c3fb7a3359c31c06783f2a179e983",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/25043b5b0db54f93.png",
+                "alt": "The fill colour menu and the Shapes panel open on a flowchart node.",
+                "sha256": "25043b5b0db54f9301fb9d1a1e224032b4612a0d149c5025e7960c04760276d8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/784b8c20f1447bf7.png",
+                "alt": "A flowchart in Manual layout with a dragged node, the Auto / Manual switch and the Layered layout engine menu.",
+                "sha256": "784b8c20f1447bf7162437129054ffd47df6e295f58b1b603df8d2ae577ce2de",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/733b61a89b661304.png",
+                "alt": "A sequence diagram, a state diagram in dark mode and a styled mindmap, all in edit mode on the canvas.",
+                "sha256": "733b61a89b661304536c4064cc7a46cc0027c627ec8e8025bf6f7193f3483696",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/5c1e8268c144acd9.png",
+                "alt": "Mermaid Studio in a dark theme with the Theme panel open: built-in themes, Classic or Hand-drawn style and diagram fonts.",
+                "sha256": "5c1e8268c144acd917643ff2a88c86c9022e74ebeec3d07b94f23f350f94d8e5",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-27T13:54:48+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/dungnt95/mermaid-studio-orca"
+        },
         {
           "version": "0.2.4",
           "commit": "a4739fc8b77138edc3f562fbc05ddf8c77403b8b",
@@ -30746,6 +30837,66 @@
           "license": "MIT",
           "repository": "https://github.com/HSnils/orca-github-notifications",
           "updatedAt": "2026-11-18T11:50:11+01:00"
+        }
+      ]
+    },
+    {
+      "id": "hu-qi.grape-tasks",
+      "ownerId": 17986122,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hu-qi/orca-grape-tasks.git",
+        "ref": "v0.1.2"
+      },
+      "description": "Your Grape issues in an Orca sidebar panel: read the requirement, then dispatch it into the focused workspace as an agent prompt.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "9057c04ad503503f7305fe25bab49b9a83842529",
+          "contentHash": "c31a15db4f1d0569ec50ceab00026aa267c9b7fac1952831a7816161322b608b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.256",
+          "name": "Grape Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Grape Tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Grape Tasks: Refresh my issues"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Grape -"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/hu-qi/orca-grape-tasks",
+          "updatedAt": "2026-11-27T15:38:26+08:00"
         }
       ]
     },
@@ -41506,8 +41657,8 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/matteoeusebi/orca-italiano.git",
-        "ref": "v1.4.279"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.279"
       },
       "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.279. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -51555,7 +51706,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.1.3"
+        "ref": "v0.1.5"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51564,6 +51715,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.1.5",
+          "commit": "ac156e7543b08667e45ee2b37add026cf008f559",
+          "contentHash": "ea3262bf4ca378213b6fe4e1b787cec66bfca67ad3f48f588108b4406dd1d00e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T15:40:12+08:00"
+        },
         {
           "version": "0.1.3",
           "commit": "a87fc88e9dff23db9401ae618321adfb8cfd13f4",
@@ -78366,8 +78593,8 @@
       "ownerId": 59564582,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Zhanxiaogao/orca-ai-usage.git",
-        "ref": "v0.1.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.4"
       },
       "description": "统计本机 Claude Code、Codex、Antigravity 与 Gemini CLI 的 Token 用量、估算费用与生成速度。",
       "categories": [
