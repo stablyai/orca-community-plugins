@@ -115,7 +115,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.3.43",
+      "ref": "v1.3.44",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -782,6 +782,13 @@
         "chimeyrock999.gh-focus"
       ]
     },
+    "chingqaq/shortcut-studio": {
+      "state": "listed",
+      "ref": "v1.1.0",
+      "plugins": [
+        "chingqaq.shortcut-studio"
+      ]
+    },
     "choihjin/orca-agent-haptics": {
       "state": "listed",
       "ref": "refs/tags/choihjin/orca-agent-haptics/0.1.0",
@@ -1230,7 +1237,16 @@
       "ref": "v0.1.1",
       "plugins": [
         "dungnt95.mermaid-studio"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "size, update"
+          }
+        ]
+      }
     },
     "dungnt95/orca-flexoki-theme": {
       "state": "listed",
@@ -3543,7 +3559,7 @@
     },
     "pinion05/orca-server-stats": {
       "state": "listed",
-      "ref": "refs/tags/pinion05/orca-server-stats/0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "pinion05.server-stats"
       ]
@@ -5145,7 +5161,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.10",
+      "ref": "v0.2.11",
       "plugins": [
         "yoshhiide.session-board"
       ],

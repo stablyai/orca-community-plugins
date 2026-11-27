@@ -251,6 +251,12 @@
     "repoId": 1451481681,
     "firstSeen": "2026-11-27T03:42:27.601Z"
   },
+  "addisflava.llm-router@1.3.44": {
+    "commit": "55dc2b97799ae2cc5c6df66ceee22c5d7006a76a",
+    "contentHash": "f99155fef00eb3c15edb76aebdf80bedfc3f382ad013f3a835ced2407de50c5d",
+    "repoId": 1451481681,
+    "firstSeen": "2026-11-27T04:19:16.330Z"
+  },
   "aetna000.atmem-architect@0.1.1": {
     "commit": "39bdab4c0da27dbaf4d8de390bc26f05f9bac850",
     "contentHash": "f8fa83bfdde6a0b9a588821c2d1bacb8d98557822a48d782771accdd6d08989e",
@@ -1312,6 +1318,12 @@
     "contentHash": "0a24e7701d6c5d9c30f761574c9ab63d58b0d393dbd329df6e7b660a1c8328ce",
     "repoId": 1455209959,
     "firstSeen": "2026-11-13T17:13:02.088Z"
+  },
+  "chingqaq.shortcut-studio@1.1.0": {
+    "commit": "f57c446c20d9a432555134c244e9ad2dd348c2f3",
+    "contentHash": "c7a73499c3a5774aabde7383620cea671cf6a0a35ac07f36b58adaf9f0e55a34",
+    "repoId": 1473945461,
+    "firstSeen": "2026-11-27T04:19:16.330Z"
   },
   "choihjin.agent-haptics@0.1.0": {
     "commit": "3c4c89dbb5c44c168eb6fb6527c136356d3fa0b3",
@@ -5549,6 +5561,12 @@
     "repoId": 1472045499,
     "firstSeen": "2026-11-25T16:43:39.577Z"
   },
+  "pinion05.server-stats@0.2.1": {
+    "commit": "0aca6d556b705743443241762ad9163461b62985",
+    "contentHash": "ce69ca0abb30fd4c4bf3eacaa3aeba0b4c390c1e515b802eafdc9ef32f852bed",
+    "repoId": 1472045499,
+    "firstSeen": "2026-11-27T04:19:16.330Z"
+  },
   "pinion05.todoist-viewer@0.1.0": {
     "commit": "0aefe433da784d6e1ae66e27b53498da6c377413",
     "contentHash": "391c5e63c705e388c086e2144ffe5a67c0c2f9bfeacce17ec5428f694d8cf691",
@@ -8230,6 +8248,12 @@
     "contentHash": "85cf337a6da2ff9e117634ca7c6c0162a2fb3750ca2e8ddb5f33601ae6b3b69b",
     "repoId": 1473811939,
     "firstSeen": "2026-11-27T03:19:56.990Z"
+  },
+  "yoshhiide.session-board@0.2.11": {
+    "commit": "bc75f908716e08708a4015f708353f2107d20fa0",
+    "contentHash": "7d39dd825afda07cf3f0602cf281f2a6e51d736b8dd5805a6d0667a64b28e92e",
+    "repoId": 1473811939,
+    "firstSeen": "2026-11-27T04:19:16.330Z"
   },
   "yoshhiide.session-board@0.2.6": {
     "commit": "dc1e11254c2af9b5dca677cafc49134c162894ee",
