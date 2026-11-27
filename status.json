@@ -120,7 +120,7 @@
         "addisflava.llm-router"
       ],
       "update": {
-        "ref": "v1.3.47",
+        "ref": "v1.3.48",
         "reasons": [
           {
             "category": "under-review",
@@ -1243,19 +1243,10 @@
     },
     "dungnt95/mermaid-studio-orca": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "v0.2.4",
       "plugins": [
         "dungnt95.mermaid-studio"
-      ],
-      "update": {
-        "ref": "v0.2.4",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "size, update"
-          }
-        ]
-      }
+      ]
     },
     "dungnt95/orca-flexoki-theme": {
       "state": "listed",
@@ -2096,11 +2087,11 @@
     },
     "hseunghwan/orca-coordinator-board": {
       "state": "rejected",
-      "ref": "v0.7.1",
+      "ref": "v0.9.0",
       "reasons": [
         {
           "category": "under-review",
-          "detail": "code"
+          "detail": "code, size"
         }
       ]
     },
@@ -2425,7 +2416,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "v1.2.1",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -3432,7 +3423,7 @@
     },
     "olegoliyar-cmd/orca-ukrainian": {
       "state": "listed",
-      "ref": "v1.4.278",
+      "ref": "refs/tags/olegoliyar-cmd/orca-ukrainian/1.4.278",
       "plugins": [
         "olegoliyar-cmd.oliyar-uk"
       ],
@@ -5190,7 +5181,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.11",
+      "ref": "v0.2.12",
       "plugins": [
         "yoshhiide.session-board"
       ],

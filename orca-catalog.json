@@ -20338,11 +20338,102 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/dungnt95/mermaid-studio-orca.git",
-        "ref": "v0.1.1"
+        "ref": "v0.2.4"
       },
-      "description": "WYSIWYG visual editor for Mermaid diagrams: edit flowcharts directly on the canvas — add, connect, restyle and drag nodes — with code and canvas kept in sync. Mermaid 12, Markdown fences, themes and SVG/PNG export. Unofficial; not affiliated with the Mermaid project.",
+      "description": "WYSIWYG visual editor for Mermaid diagrams: edit flowcharts, sequence, state and mindmap diagrams directly on the canvas, with code and canvas kept in sync. Shapes, colours, manual layout, themes, Markdown fences and SVG/PNG export. Unofficial; not affiliated with the Mermaid project.",
       "categories": [],
       "releases": [
+        {
+          "version": "0.2.4",
+          "commit": "a4739fc8b77138edc3f562fbc05ddf8c77403b8b",
+          "contentHash": "e5e8009552208fa83316599ec06f3b9e46822f1a06f56745e7ad2a03ee885696",
+          "execution": "sandboxed-ui",
+          "minimumOrca": "1.4.248",
+          "name": "Mermaid Studio",
+          "contributes": [
+            {
+              "kind": "customEditors",
+              "name": "Mermaid Studio",
+              "detail": ".mmd, .mermaid"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Mermaid Studio",
+              "detail": ".md"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New Mermaid",
+              "detail": ".mmd"
+            }
+          ],
+          "fileTypes": [
+            "mmd",
+            "mermaid",
+            "md"
+          ],
+          "editorFileTypes": [
+            "mmd",
+            "mermaid",
+            "md"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/dungnt95.mermaid-studio/6b37d117659d78d8.png",
+              "alt": "Mermaid Studio for Orca: \"Draw your Mermaid. Don’t just write it.\" with the code and canvas editor, plus sequence and state diagram previews.",
+              "sha256": "6b37d117659d78d81e78a481dcefef0f3b1234e01d9814a5db0ead1c9aa619d5",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/dungnt95.mermaid-studio/532b2aa7510bb344.png",
+              "alt": "Mermaid Studio icon",
+              "sha256": "532b2aa7510bb34447aaba0f1d7d6ad3f565ca44cfa05edfaf3456ea2777bcb8",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/dungnt95.mermaid-studio/5de7b15dd8c97605.png",
+                "alt": "Mermaid Studio with a node selected on the canvas, showing the floating toolbar, the shape palette and the Mermaid code beside it.",
+                "sha256": "5de7b15dd8c976057bb6ba995a4bac68695c3fb7a3359c31c06783f2a179e983",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/25043b5b0db54f93.png",
+                "alt": "The fill colour menu and the Shapes panel open on a flowchart node.",
+                "sha256": "25043b5b0db54f9301fb9d1a1e224032b4612a0d149c5025e7960c04760276d8",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/784b8c20f1447bf7.png",
+                "alt": "A flowchart in Manual layout with a dragged node, the Auto / Manual switch and the Layered layout engine menu.",
+                "sha256": "784b8c20f1447bf7162437129054ffd47df6e295f58b1b603df8d2ae577ce2de",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/733b61a89b661304.png",
+                "alt": "A sequence diagram, a state diagram in dark mode and a styled mindmap, all in edit mode on the canvas.",
+                "sha256": "733b61a89b661304536c4064cc7a46cc0027c627ec8e8025bf6f7193f3483696",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/dungnt95.mermaid-studio/5c1e8268c144acd9.png",
+                "alt": "Mermaid Studio in a dark theme with the Theme panel open: built-in themes, Classic or Hand-drawn style and diagram fonts.",
+                "sha256": "5c1e8268c144acd917643ff2a88c86c9022e74ebeec3d07b94f23f350f94d8e5",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/dungnt95/mermaid-studio-orca",
+          "updatedAt": "2026-11-27T12:36:39+07:00"
+        },
         {
           "version": "0.1.1",
           "commit": "0e724a3243f4aacd5aad48f2e293318e5bfad13f",
@@ -34268,7 +34359,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/jondmarien/orca-discord-presence.git",
-        "ref": "v1.2.0"
+        "ref": "v1.2.1"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -34277,6 +34368,145 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.2.1",
+          "commit": "971cc6b2ccf66fa403131032840b26fa939db84c",
+          "contentHash": "68f7ffdd2e9ceb89db02ffa4ce29a60a574c41f0132f11c06552a80518c9aa0f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.278",
+          "name": "Rich Presence for Discord",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Rich Presence"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Enable/Disable"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show or Hide Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Reload RPC"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Cycle Detail Level"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Branch"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent State"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Terminal Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Machine Name"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Elapsed Timer"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Debug Logging"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Open Button"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Clear"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Configure"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Discord"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jondmarien.discord-presence/e2b815ffd538f18f.webp",
+              "alt": "Rich Presence for Discord: title, four agent state icons, Discord profile card showing Working in Orca",
+              "sha256": "e2b815ffd538f18f7f58150cedcf3af570393b1f7ac8cd67ae66196e539a96f3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jondmarien.discord-presence/97715988bb458fac.png",
+              "alt": "Rich Presence for Discord icon",
+              "sha256": "97715988bb458fac7de742d5ed999f4638639ca22eb9a3006b792b9d678bb093",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jondmarien.discord-presence/47f6349c40c45689.webp",
+                "alt": "Rich Presence panel Full view: Discord profile preview, last 30 minutes of agent states, agent list with chat names, and Show on Discord switches",
+                "sha256": "47f6349c40c45689b272e19ab03104995178b8b04fae992aebfb4419899d1cd0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jondmarien.discord-presence/8b25f52a96af6933.webp",
+                "alt": "Rich Presence panel Minimal view: state-coloured hero showing Working with 2 agents and a timer, plus the 30-minute strip",
+                "sha256": "8b25f52a96af693320c093d33bb7bc6b768d6e782dd7d7d2c6c67f34ea34cfe7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/jondmarien/orca-discord-presence",
+          "updatedAt": "2026-11-27T01:21:57-05:00"
+        },
         {
           "version": "1.2.0",
           "commit": "b3fec55b913c5a6eee5430f613981e5f6ad5a67d",
@@ -34826,143 +35056,6 @@
           "license": "MIT",
           "repository": "https://github.com/jondmarien/orca-discord-presence",
           "updatedAt": "2026-11-10T01:14:00-05:00"
-        },
-        {
-          "version": "1.0.2",
-          "commit": "f0ac386a8f013ef89927dd42b9ad4ab6c8c05324",
-          "contentHash": "3f62ffb71c9596a461198201f4a8358da712bd502bec25e31456c989eb948afd",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Rich Presence for Discord",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Rich Presence"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Enable/Disable"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Show or Hide Panel"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Show Status"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Reload RPC"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Cycle Detail Level"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Branch"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Agent State"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Terminal Count"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Machine Name"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Elapsed Timer"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Bridge"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Debug Logging"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Open Button"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Agent Count"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Clear"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Configure"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Discord"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jondmarien.discord-presence/e2b815ffd538f18f.webp",
-              "alt": "Rich Presence for Discord: title, four agent state icons, Discord profile card showing Working in Orca",
-              "sha256": "e2b815ffd538f18f7f58150cedcf3af570393b1f7ac8cd67ae66196e539a96f3",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jondmarien.discord-presence/97715988bb458fac.png",
-              "alt": "Rich Presence for Discord icon",
-              "sha256": "97715988bb458fac7de742d5ed999f4638639ca22eb9a3006b792b9d678bb093",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jondmarien.discord-presence/47f6349c40c45689.webp",
-                "alt": "Rich Presence panel Full view: Discord profile preview, last 30 minutes of agent states, agent list with chat names, and Show on Discord switches",
-                "sha256": "47f6349c40c45689b272e19ab03104995178b8b04fae992aebfb4419899d1cd0",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jondmarien.discord-presence/8b25f52a96af6933.webp",
-                "alt": "Rich Presence panel Minimal view: state-coloured hero showing Working with 2 agents and a timer, plus the 30-minute strip",
-                "sha256": "8b25f52a96af693320c093d33bb7bc6b768d6e782dd7d7d2c6c67f34ea34cfe7",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/jondmarien/orca-discord-presence",
-          "updatedAt": "2026-11-06T22:19:35-05:00"
         }
       ]
     },
@@ -48727,8 +48820,8 @@
       "ownerId": 273304767,
       "source": {
         "kind": "git",
-        "url": "https://github.com/olegoliyar-cmd/orca-ukrainian.git",
-        "ref": "v1.4.278"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/olegoliyar-cmd/orca-ukrainian/1.4.278"
       },
       "description": "Інтерфейс Orca українською: повний переклад рядків Orca 1.4.278 (21 785 ключів, покриття за формулою Orca 100 %). Автор: Олег Оліяр (github.com/olegoliyar-cmd).",
       "categories": [
@@ -77650,8 +77743,8 @@
       "ownerId": 8830451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.11"
+        "url": "https://github.com/yoshhiide/orca-plugin-session-board.git",
+        "ref": "v0.2.12"
       },
       "description": "Track Bot work and regular Orca sessions together in the sidebar.",
       "categories": [
@@ -77660,6 +77753,67 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.12",
+          "commit": "0ae1c22dcbef24782c0153057a1b34d9921450ad",
+          "contentHash": "9f1c5a6ab74926f62a9f84640e2cd650d8a7cade7e4da53bde810cd80183bb79",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.277",
+          "name": "Session Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Session Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Session Board"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yoshhiide.session-board/75b0db785d36f612.png",
+              "alt": "Session Board in dark mode, with Bot work, chats, and terminals grouped into Needs input, In progress, and Done.",
+              "sha256": "75b0db785d36f6121299e27485d4f2b7bae8f8aefc1285e76fb960900be8ce4c",
+              "width": 1590,
+              "height": 810
+            },
+            "screenshots": [
+              {
+                "path": "assets/yoshhiide.session-board/e575de549ff5d24e.png",
+                "alt": "List view of Bot work and regular sessions, grouped by status with Needs input first.",
+                "sha256": "e575de549ff5d24e9984b8f2a21f32de3c1d75da4e850423ba6360deab4ec000",
+                "width": 1283,
+                "height": 1350
+              },
+              {
+                "path": "assets/yoshhiide.session-board/a5d70c4df269572b.png",
+                "alt": "Board view in light mode, with three status columns and a Reply button on Bot Items.",
+                "sha256": "a5d70c4df269572bc12e78e0f05b8148406a94ab61f36e55dbb95b654ed2ae0f",
+                "width": 1829,
+                "height": 817
+              },
+              {
+                "path": "assets/yoshhiide.session-board/d169bab7d7e92f64.png",
+                "alt": "Bot Item details with a pending question, answer options, an Answer in Orca button, and the Activity conversation.",
+                "sha256": "d169bab7d7e92f64adde4e1f25e8b7b16088b7eda1fea12d7a220255d76b4ab5",
+                "width": 1280,
+                "height": 1370
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yoshhiide/orca-plugin-session-board",
+          "updatedAt": "2026-11-27T15:07:27+09:00"
+        },
         {
           "version": "0.2.11",
           "commit": "bc75f908716e08708a4015f708353f2107d20fa0",
@@ -77903,67 +78057,6 @@
           "license": "MIT",
           "repository": "https://github.com/yoshhiide/orca-plugin-session-board",
           "updatedAt": "2026-11-27T11:05:34+09:00"
-        },
-        {
-          "version": "0.2.7",
-          "commit": "71696cbf5cda814a49993ec1582ccfe3bb932568",
-          "contentHash": "c426fba36ab51722ca21c58b21b8a4b52844f53c7c2234142c3adb7b74660137",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.277",
-          "name": "セッションボード",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "セッションボード"
-            },
-            {
-              "kind": "commands",
-              "name": "セッションボードを開く"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            }
-          ],
-          "capabilities": [
-            "agent:read",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/yoshhiide.session-board/e3051e57aaee7938.png",
-              "alt": "ダークテーマのセッションボード。入力待ち、作業中、完了の3列にBotの仕事、チャット、端末を表示。",
-              "sha256": "e3051e57aaee7938c52565b750e8bc1c77ae0801c17adc26c69f94652bfc5ddc",
-              "width": 1520,
-              "height": 950
-            },
-            "screenshots": [
-              {
-                "path": "assets/yoshhiide.session-board/6d03758b3e19787b.png",
-                "alt": "Botの仕事と通常セッションを、入力待ち、作業中、完了の順にまとめたリスト。",
-                "sha256": "6d03758b3e19787b936e86becf7c1ba72d12418f69a471b26a47d543bf657691",
-                "width": 1600,
-                "height": 1260
-              },
-              {
-                "path": "assets/yoshhiide.session-board/cd1eed3cc23b4736.png",
-                "alt": "ライトテーマのボード表示。入力待ち、作業中、完了を横並びにし、Botの仕事に返信ボタンを表示。",
-                "sha256": "cd1eed3cc23b4736aab98460150c43997975234ce005c49d4cc8b49e678b9b3b",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/yoshhiide.session-board/e4644832c94bab58.png",
-                "alt": "入力待ちの詳細画面。Botからの質問と選択肢、標準画面で回答するボタン、Activityの会話を表示。",
-                "sha256": "e4644832c94bab58ec6f82ad34e43344aef902ea38c1ddeae168ce208b2d1cc4",
-                "width": 1460,
-                "height": 1330
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/yoshhiide/orca-plugin-session-board",
-          "updatedAt": "2026-11-27T10:41:19+09:00"
         }
       ]
     },
