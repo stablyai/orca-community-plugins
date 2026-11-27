@@ -29072,8 +29072,8 @@
       "ownerId": 97011015,
       "source": {
         "kind": "git",
-        "url": "https://github.com/h00ns/test-runner-for-orca.git",
-        "ref": "v0.2.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.3"
       },
       "description": "Run your workspace's tests from the sidebar, re-run the related ones when an agent finishes, and send failures back to the agent. Vitest, Jest, Playwright, Cypress, Gradle, Maven and pytest are found on their own, monorepos included; if your setup is not, the README has a prompt that has your agent ",
       "categories": [
@@ -41506,14 +41506,47 @@
       "ownerId": 263868399,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.277"
+        "url": "https://github.com/matteoeusebi/orca-italiano.git",
+        "ref": "v1.4.279"
       },
-      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.277. Pacchetto della community, non ufficiale.",
+      "description": "L'interfaccia di Orca in italiano: traduzione completa con glossario unico, allineata a Orca 1.4.279. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.279",
+          "commit": "d66b15cf11cc70fe749f8cee349b8cfedf53c0cd",
+          "contentHash": "96fe5e2170a30e4d6bdb6f82bf4a5067d69fde7618e92e28eb243b58c0aabc59",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/matteoeusebi.italiano/153778d913e89b9a.png",
+              "alt": "Le impostazioni di Orca in italiano: pagina Aspetto con il menu Lingua aperto e Italiano selezionato.",
+              "sha256": "153778d913e89b9aa33989664f431f6385067f6cb395faa0050d4c134b7b38a9",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/matteoeusebi.italiano/b087101dbc2c15d6.png",
+              "alt": "Italiano icon",
+              "sha256": "b087101dbc2c15d630a3bf67a706da4a1acda6f2be3963c665aeb7768e693422",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/matteoeusebi/orca-italiano",
+          "updatedAt": "2026-11-27T08:18:15+01:00"
+        },
         {
           "version": "1.4.277",
           "commit": "f440cdd206ad8964b6c4aa9a55c2d32ee416cf20",
@@ -51513,6 +51546,99 @@
           "license": "MIT",
           "repository": "https://github.com/petercr/orca-entire-extension",
           "updatedAt": "2026-11-14T16:58:51-05:00"
+        }
+      ]
+    },
+    {
+      "id": "peterhiroshi-hub.cyber-hq-radar",
+      "ownerId": 361849047,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
+        "ref": "v0.1.3"
+      },
+      "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.3",
+          "commit": "a87fc88e9dff23db9401ae618321adfb8cfd13f4",
+          "contentHash": "6d0b136cc28df5643df6bdce185c36f51efdc902cc85a7259cc86e558eba6217",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T15:08:11+08:00"
         }
       ]
     },
@@ -78240,8 +78366,8 @@
       "ownerId": 59564582,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.3"
+        "url": "https://github.com/Zhanxiaogao/orca-ai-usage.git",
+        "ref": "v0.1.4"
       },
       "description": "统计本机 Claude Code、Codex、Antigravity 与 Gemini CLI 的 Token 用量、估算费用与生成速度。",
       "categories": [
@@ -78249,6 +78375,41 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "1b719756d5c0e5e9d746be415f321074748c9ba4",
+          "contentHash": "f94015815a2a9cb058479b843fbaf916d0076a81e40cc14c718a90bfe1e5e922",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "AI 用量",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "AI 用量"
+            },
+            {
+              "kind": "commands",
+              "name": "打开 AI 用量统计面板"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "0 · $0.00"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "ctx 0k"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Zhanxiaogao/orca-ai-usage",
+          "updatedAt": "2026-11-27T15:02:37+08:00"
+        },
         {
           "version": "0.1.3",
           "commit": "8f2a12b65048875910c732ecce13bf845423329e",
