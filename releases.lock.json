@@ -6911,6 +6911,12 @@
     "repoId": 1451239680,
     "firstSeen": "2026-11-23T16:18:06.461Z"
   },
+  "sheaguev.review-desk@0.1.1": {
+    "commit": "d5b8c32e371f57d768d24021a58b5d57d2e0f8e6",
+    "contentHash": "86f052a434fc152b7a10e9b55eda49ed61e808e7e60585a9920c0432547a5833",
+    "repoId": 1473779365,
+    "firstSeen": "2026-11-27T20:16:37.102Z"
+  },
   "shelmecha.doki-terminal-dark-1@0.1.1": {
     "commit": "33be7665993a7b5ba232906284bc558def511fc8",
     "contentHash": "37dea09a60f47d70cf032a367e0b7742600c8fcc6f38aeb3f9f4c105b45db745",
@@ -6994,6 +7000,18 @@
     "contentHash": "ccc986cb1389d0863f60d069c469ceee6eb2b1b41ce8bfc23fbac2c7e24fdf55",
     "repoId": 1466911137,
     "firstSeen": "2026-11-21T20:15:38.162Z"
+  },
+  "sks-other.dsh-web@0.5.0": {
+    "commit": "421d4ffdc681def6f6b60af5caec41328bedad83",
+    "contentHash": "20dc1a7bb0e1cd1e943ac56529e1248f9ae9df485c71f27a902265993730619a",
+    "repoId": 1451161422,
+    "firstSeen": "2026-11-27T20:16:37.102Z"
+  },
+  "sks-other.endpoint-editor@1.1.0": {
+    "commit": "b875520b15adedfb913d1643fa398106d2f5e1dd",
+    "contentHash": "9063776b16140a8f72c2db4a9c4b1de416c53f07ee28337aa86d4fbd84890399",
+    "repoId": 1451161036,
+    "firstSeen": "2026-11-27T20:16:37.102Z"
   },
   "sleet1k.quota-panel@1.0.0": {
     "commit": "c7ed2dcca4257b7ca5156a6192c596339b27066f",

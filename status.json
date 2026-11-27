@@ -1911,7 +1911,7 @@
     },
     "guilatrova/bot-kanban-board": {
       "state": "listed",
-      "ref": "v0.15.1",
+      "ref": "refs/tags/guilatrova/bot-kanban-board/0.15.1",
       "plugins": [
         "guilatrova.bot-kanban-board"
       ],
@@ -2193,7 +2193,7 @@
     },
     "iamfaist/orca-source-control": {
       "state": "listed",
-      "ref": "v0.3.6",
+      "ref": "refs/tags/iamfaist/orca-source-control/0.3.6",
       "plugins": [
         "iamfaist.source-control"
       ]
@@ -3316,7 +3316,7 @@
     },
     "naitsric/orca-claude-procesos": {
       "state": "listed",
-      "ref": "v0.6.3",
+      "ref": "refs/tags/naitsric/orca-claude-procesos/0.6.3",
       "plugins": [
         "naitsric.claude-procesos"
       ]
@@ -4332,13 +4332,13 @@
       ]
     },
     "sheaguev/orca-review-desk": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.1.1",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "sheaguev.review-desk"
+      ],
+      "notes": [
+        "host calls were checked in the first 64 files (32 MiB, 512 lookups) the entries load; the rest were not checked"
       ]
     },
     "shelmecha/doki-orca-dark-1": {
@@ -4418,23 +4418,17 @@
       ]
     },
     "sks-other/orca-dsh-web": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.5.0",
+      "plugins": [
+        "sks-other.dsh-web"
       ]
     },
     "sks-other/orca-endpoint-editor": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v1.1.0",
+      "plugins": [
+        "sks-other.endpoint-editor"
       ]
     },
     "sks-other/orca-russian": {
