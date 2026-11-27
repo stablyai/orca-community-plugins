@@ -46,6 +46,13 @@
         "abdelrahmanaboegela.tilawa"
       ]
     },
+    "ablause/orca-bot-inbox": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "ablause.bot-inbox"
+      ]
+    },
     "ablause/orca-github-pull-requests": {
       "state": "listed",
       "ref": "refs/tags/ablause/orca-github-pull-requests/0.1.0",
@@ -111,7 +118,16 @@
       "ref": "refs/tags/addisflava/orca-llm-router/1.3.38",
       "plugins": [
         "addisflava.llm-router"
-      ]
+      ],
+      "update": {
+        "ref": "v1.3.39",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "aeldi/orca-agent-advisor": {
       "state": "rejected",
@@ -290,13 +306,10 @@
       ]
     },
     "and3r817/orca-skills-update": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "and3r817.skills-update"
       ]
     },
     "angelcrown24/orca-traffic-light": {
@@ -3880,6 +3893,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "saltshakerlabs/orca-one-dark-vivid": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
       ]
     },
     "samfaina/orca-kickoff": {

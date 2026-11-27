@@ -949,6 +949,84 @@
       ]
     },
     {
+      "id": "ablause.bot-inbox",
+      "ownerId": 46499306,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ablause/orca-bot-inbox.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Every item your Orca bots wait on you for, in one sidebar panel, what needs you first. Answer a bot's question from the panel, snooze an item until tomorrow or next week, see its pull requests, and count what needs you in the status bar.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "a6f1b385b9e7a2e6c46514131f5dba1c76a534f4",
+          "contentHash": "ceeb98edf13dbef58eba6209589eede5fc903dd1cacca51727910ea61375eaba",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Inbox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Inbox"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Inbox: open"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Bots …"
+            }
+          ],
+          "capabilities": [
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "notifications:show",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ablause.bot-inbox/61374af883649f5e.png",
+              "alt": "Four bot chats struck through down to One inbox, beside the panel showing a release question with its proposed replies",
+              "sha256": "61374af883649f5ea130fc2acf8bd62287296f6ef2aa68ae0856a49388ed675a",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/ablause.bot-inbox/0873793d2dd7b1b8.png",
+              "alt": "Bot Inbox icon",
+              "sha256": "0873793d2dd7b1b8b0dabc935fdb561a5aadb0dc8c6bbce5591dbddce68996e6",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/ablause.bot-inbox/9422721fa0be512c.png",
+                "alt": "An unfolded item: the bot's question, three proposed replies with the recommended one marked, a field for your own answer, Send answer, Open chat and Snooze",
+                "sha256": "9422721fa0be512c14c94ecd943c76552e55619d0bd8a9a2e92b5bfea75ab9b4",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ablause/orca-bot-inbox",
+          "updatedAt": "2026-11-27T00:45:18+01:00"
+        }
+      ]
+    },
+    {
       "id": "ablause.github-pull-requests",
       "ownerId": 46499306,
       "source": {
@@ -4071,6 +4149,42 @@
           "license": "MIT",
           "repository": "https://github.com/and3r817/orca-codegraph",
           "updatedAt": "2026-11-17T17:30:03+01:00"
+        }
+      ]
+    },
+    {
+      "id": "and3r817.skills-update",
+      "ownerId": 29005602,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/and3r817/orca-skills-update.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Unofficial. Shows when global npx skills or twg have updates and updates them on a click.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "05948fe45365dde0d042f82860ed8336653d0e46",
+          "contentHash": "7d1821005b10a4ce87434487260e9f6da79f6f15b4073f9a109af7caff6a07a8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Skills Update",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Update skills and twg"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Skills"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/and3r817/orca-skills-update",
+          "updatedAt": "2026-11-27T00:48:43+01:00"
         }
       ]
     },
