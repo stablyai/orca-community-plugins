@@ -2828,6 +2828,16 @@
         }
       ]
     },
+    "luxiangze/plasmid-viewer": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "code, size"
+        }
+      ]
+    },
     "m1105/vibeguard": {
       "state": "rejected",
       "ref": "v0.2.4",
