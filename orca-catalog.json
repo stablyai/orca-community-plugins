@@ -30882,8 +30882,8 @@
       "ownerId": 17986122,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hu-qi/orca-grape-tasks.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hu-qi/orca-grape-tasks/0.4.0"
       },
       "description": "Your Grape issues in an Orca sidebar panel: read the requirement, then dispatch it into the focused workspace as an agent prompt.",
       "categories": [
@@ -51787,7 +51787,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.3.4"
+        "ref": "v0.3.5"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51796,6 +51796,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.5",
+          "commit": "eaa7e1c39ffd60dca0427c1276c36f468c569f72",
+          "contentHash": "b6da0277c54b2bd3a2a0c26d23a8cc92511181e6983ed37360db54fbd68b942a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T18:03:35+08:00"
+        },
         {
           "version": "0.3.4",
           "commit": "79c3ebc98be4b7dc5d283981872c88a941e4bc7d",
@@ -52099,82 +52175,6 @@
           "license": "MIT",
           "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
           "updatedAt": "2026-11-27T16:18:41+08:00"
-        },
-        {
-          "version": "0.1.5",
-          "commit": "ac156e7543b08667e45ee2b37add026cf008f559",
-          "contentHash": "ea3262bf4ca378213b6fe4e1b787cec66bfca67ad3f48f588108b4406dd1d00e",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.274",
-          "name": "Cyber HQ Radar",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Cyber HQ Radar"
-            },
-            {
-              "kind": "commands",
-              "name": "Cyber HQ: Refresh Fleet Radar"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "HQ · Booting"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
-              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
-              "alt": "Cyber HQ Radar icon",
-              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
-                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
-                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
-                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
-                "width": 1440,
-                "height": 900
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
-          "updatedAt": "2026-11-27T15:40:12+08:00"
         }
       ]
     },
@@ -78561,8 +78561,8 @@
       "ownerId": 8830451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yoshhiide/orca-plugin-session-board.git",
-        "ref": "v0.2.13"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.13"
       },
       "description": "Track Bot work and regular Orca sessions together in the sidebar.",
       "categories": [

@@ -131,7 +131,7 @@
     },
     "adiityaastr/mint-chibi-coding": {
       "state": "rejected",
-      "ref": "v1.0.1",
+      "ref": "v1.0.2",
       "reasons": [
         {
           "category": "under-review",
@@ -2131,7 +2131,7 @@
     },
     "hu-qi/orca-grape-tasks": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/hu-qi/orca-grape-tasks/0.4.0",
       "plugins": [
         "hu-qi.grape-tasks"
       ]
@@ -3585,7 +3585,7 @@
     },
     "peterhiroshi-hub/cyber-hq-radar": {
       "state": "listed",
-      "ref": "v0.3.4",
+      "ref": "v0.3.5",
       "plugins": [
         "peterhiroshi-hub.cyber-hq-radar"
       ]
@@ -3787,7 +3787,16 @@
       "ref": "refs/tags/rgarciade/orca-containers/0.1.1",
       "plugins": [
         "rgarciade.containers"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "ricardo-benicio/orca-docker-containers": {
       "state": "listed",
@@ -4605,7 +4614,7 @@
         "thanhh2615.datanoa"
       ],
       "update": {
-        "ref": "v1.2.3",
+        "ref": "v1.3.0",
         "reasons": [
           {
             "category": "under-review",
@@ -5242,7 +5251,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "v0.2.13",
+      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.13",
       "plugins": [
         "yoshhiide.session-board"
       ],
