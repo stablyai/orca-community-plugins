@@ -2777,8 +2777,8 @@
       "ownerId": 204443674,
       "source": {
         "kind": "git",
-        "url": "https://github.com/adiityaastr/mint-chibi-coding.git",
-        "ref": "v1.0.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/adiityaastr/mint-chibi-coding/1.0.3"
       },
       "description": "Pesan Mint Chibi untuk perubahan status agen di Orca.",
       "categories": [
@@ -19631,8 +19631,8 @@
       "ownerId": 5439830,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/drecchia/orca-telegram-bridge/0.17.1"
+        "url": "https://github.com/drecchia/orca-telegram-bridge.git",
+        "ref": "v0.17.2"
       },
       "description": "Chat with your Orca bots from Telegram, on any device: one Telegram bot per Orca bot, access lists and roles, groups, voice messages, files both ways and an audit trail. No server or webhook.",
       "categories": [
@@ -19640,6 +19640,84 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.17.2",
+          "commit": "25010c01250b5a68080223b64d0a848250fbeafd",
+          "contentHash": "7e573cdcf837fff0dc7012f15d7ca59486d20eb0729327785aec8d14fae59da3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Telegram Bridge",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Telegram"
+            },
+            {
+              "kind": "commands",
+              "name": "Telegram Bridge: Open Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Telegram Bridge: Toggle Polling"
+            },
+            {
+              "kind": "commands",
+              "name": "Telegram Bridge: Test Connection"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "TG: Init"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/drecchia.telegram-bridge/eca2b03b4d121425.png",
+              "alt": "Telegram Bridge: a paper plane and an orca linked by a glowing message path",
+              "sha256": "eca2b03b4d1214255fe36a2ff933c710efe18f4138181ff6f0c203cdc91a6538",
+              "width": 1586,
+              "height": 992
+            },
+            "icon": {
+              "path": "assets/drecchia.telegram-bridge/ceb29d1d98b80198.png",
+              "alt": "Telegram Bridge icon",
+              "sha256": "ceb29d1d98b801985807a2d55a76758b89803abe9033e7deb16360dd6c799b97",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/drecchia.telegram-bridge/2cb13f2a0071ae29.png",
+                "alt": "Setup tab of the Telegram panel with one bridge card: bot name, active toggle, people, groups and voice",
+                "sha256": "2cb13f2a0071ae290cd0ab90ba74c168361993b0c2280f0e046383a8ae557bfa",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/drecchia.telegram-bridge/7e9bf847cbd31452.png",
+                "alt": "Bridge editor: bot token, who can talk, people and groups, group mode, voice messages and advanced settings",
+                "sha256": "7e9bf847cbd31452059f7542bbb3f94fb4051b550ae69d9240263f9ad82369cb",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/drecchia.telegram-bridge/09639fd10271e562.png",
+                "alt": "Roles editor: checkboxes for what a role may do and an extra prompt for the Orca bot",
+                "sha256": "09639fd10271e562eecc8f771d8ed093c27524319269f4d4e83d0ed05e6e8186",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/drecchia/orca-telegram-bridge",
+          "updatedAt": "2026-11-27T08:45:47-03:00"
+        },
         {
           "version": "0.17.1",
           "commit": "7d125a35ba98dbbdd9ba8f1ae7e7107abbc94b73",
@@ -51964,8 +52042,8 @@
       "ownerId": 361849047,
       "source": {
         "kind": "git",
-        "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/peterhiroshi-hub/cyber-hq-radar/0.5.0"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -75097,8 +75175,8 @@
       "ownerId": 86989629,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wizhelp/orca-proxmox.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wizhelp/orca-proxmox/0.6.0"
       },
       "description": "A Proxmox estate in Orca, through Proxmox Datacenter Manager or PVE and PBS directly (optionally over SSH): hosts and guests with live charts and disk use, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
       "categories": [
