@@ -1918,7 +1918,7 @@
     },
     "guilatrova/bot-kanban-board": {
       "state": "listed",
-      "ref": "v0.15.2",
+      "ref": "v0.15.3",
       "plugins": [
         "guilatrova.bot-kanban-board"
       ],
@@ -2530,7 +2530,7 @@
     },
     "jozoko/orca-plugin-agy": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/jozoko/orca-plugin-agy/0.1.0",
       "plugins": [
         "jozoko.agy-swarm"
       ]
@@ -3207,7 +3207,7 @@
     },
     "moilolon/orca-obsidian-notes": {
       "state": "listed",
-      "ref": "v0.3.0",
+      "ref": "refs/tags/moilolon/orca-obsidian-notes/0.3.0",
       "plugins": [
         "moilolon.notes"
       ]
@@ -3894,7 +3894,7 @@
     },
     "rickyking/orca-tasks": {
       "state": "listed",
-      "ref": "v0.6.6",
+      "ref": "refs/tags/rickyking/orca-tasks/0.6.6",
       "plugins": [
         "rickyking.agent-tasks"
       ]

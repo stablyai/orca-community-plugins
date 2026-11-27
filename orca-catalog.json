@@ -29540,7 +29540,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/guilatrova/bot-kanban-board.git",
-        "ref": "v0.15.2"
+        "ref": "v0.15.3"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -29548,6 +29548,75 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.15.3",
+          "commit": "02481d69e6072f0f4ff9bcefa54df7d5f2676418",
+          "contentHash": "417c6e33442e0775cb78be4f516d76ffad9f4fbf07da99603afe122d005b0f5d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Bot Kanban Board",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Open Bot Kanban Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Needs you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Kanban Board",
+              "detail": ".botkanban"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you …"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botkanban"
+          ],
+          "editorFileTypes": [
+            "botkanban"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/guilatrova.bot-kanban-board/f22236b542ef575f.png",
+              "alt": "All your bots, one board. Bot Kanban Board showing Needs you, In progress and pull requests ready to merge.",
+              "sha256": "f22236b542ef575fd1c018268acfed0a8562c474cc6d2c4feb0a02e91bc53279",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/guilatrova/bot-kanban-board",
+          "updatedAt": "2026-11-27T20:23:16-03:00"
+        },
         {
           "version": "0.15.2",
           "commit": "d28d397973dada4132d6e759a59290c03a68c4a3",
@@ -29799,63 +29868,6 @@
           "license": "MIT",
           "repository": "https://github.com/guilatrova/bot-kanban-board",
           "updatedAt": "2026-11-25T19:16:55-03:00"
-        },
-        {
-          "version": "0.1.1",
-          "commit": "db8eafddba98433aa636ca9312564f28f9bf7d2f",
-          "contentHash": "66517cc2890db5524903ce747c3ae04096f1ba94e8742d07192d0020bd25e3f3",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.274",
-          "name": "Bot Kanban Board",
-          "contributes": [
-            {
-              "kind": "commands",
-              "name": "Open Bot Kanban Board"
-            },
-            {
-              "kind": "commands",
-              "name": "Show Needs you"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "customEditors",
-              "name": "Bot Kanban Board",
-              "detail": ".botkanban"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Needs you …"
-            }
-          ],
-          "capabilities": [
-            "notifications:show",
-            "storage:own",
-            "settings:own",
-            "workspace:read",
-            "workspace:write",
-            "agent:read"
-          ],
-          "fileTypes": [
-            "botkanban"
-          ],
-          "editorFileTypes": [
-            "botkanban"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/guilatrova.bot-kanban-board/f22236b542ef575f.png",
-              "alt": "All your bots, one board. Bot Kanban Board showing Needs you, In progress and pull requests ready to merge.",
-              "sha256": "f22236b542ef575fd1c018268acfed0a8562c474cc6d2c4feb0a02e91bc53279",
-              "width": 1600,
-              "height": 1000
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/guilatrova/bot-kanban-board",
-          "updatedAt": "2026-11-25T18:39:47-03:00"
         }
       ]
     },
@@ -36553,8 +36565,8 @@
       "ownerId": 8778425,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Jozoko/orca-plugin-agy.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jozoko/orca-plugin-agy/0.1.0"
       },
       "description": "Google Antigravity (/swarm) live dashboard, share/branch git worktree bridge, presets, Codex review launcher, and MCP server for Orca.",
       "categories": [
@@ -46069,8 +46081,8 @@
       "ownerId": 17927894,
       "source": {
         "kind": "git",
-        "url": "https://github.com/moilolon/orca-obsidian-notes.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/moilolon/orca-obsidian-notes/0.3.0"
       },
       "description": "Read the notes of an Obsidian vault in Orca's sidebar: folder tree, search, callouts and [[links]], with the open note filling the panel.",
       "categories": [
@@ -56234,8 +56246,8 @@
       "ownerId": 2820809,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rickyking/orca-tasks.git",
-        "ref": "v0.6.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rickyking/orca-tasks/0.6.6"
       },
       "description": "Scheduled bots collect tasks from your other apps into one board in Orca. From it, hand any task to a bot or start it in its project with a coding agent.",
       "categories": [
