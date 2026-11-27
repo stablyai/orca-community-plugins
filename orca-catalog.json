@@ -56254,6 +56254,75 @@
       ]
     },
     {
+      "id": "rickyoliva.keep-awake",
+      "ownerId": 82555064,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rickyoliva/keep-awake.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Shows whether macOS system sleep is disabled, and toggles it from the sidebar or the status bar.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "aa0bef4b335650f1743c5327042e8572e51f70d3",
+          "contentHash": "f553a02e5819ea6560dee024e109b95e0e98b530cd56f192b5fcbb829ce7bbe8",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Keep Awake",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Keep Awake"
+            },
+            {
+              "kind": "commands",
+              "name": "Keep Awake: Toggle system sleep"
+            },
+            {
+              "kind": "commands",
+              "name": "Keep Awake: Block system sleep"
+            },
+            {
+              "kind": "commands",
+              "name": "Keep Awake: Allow system sleep"
+            },
+            {
+              "kind": "commands",
+              "name": "Keep Awake: Refresh status"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+K",
+              "detail": "keepawake.toggle"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Sleep ?"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "notifications:show",
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/rickyoliva/keep-awake",
+          "updatedAt": "2026-11-28T08:42:30+11:00"
+        }
+      ]
+    },
+    {
       "id": "rmrfmybrain.session-tree",
       "ownerId": 111752404,
       "source": {
@@ -65496,13 +65565,44 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/SkS-Other/orca-endpoint-editor.git",
-        "ref": "v1.1.4"
+        "ref": "v1.2.0"
       },
       "description": "Edit the host and port of saved Orca remote environments from a sidebar panel, with presets and reachability checks.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "4dc720762340b38b8cc4537e29c786ba5b5ad251",
+          "contentHash": "3ab3b3d4b4fa17b0af59b4e95f6f9d5212b893cd840d1b3933671d8c0bae93fa",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Server Endpoints",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Server Endpoints"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/sks-other.endpoint-editor/d65567e2957b178f.png",
+                "alt": "The Server Endpoints panel: host and port fields for Dev/Linux, two presets, and a reachability badge",
+                "sha256": "d65567e2957b178f156f55c4a80bcf9c50e698facf9651016101fa4410c0754f",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SkS-Other/orca-endpoint-editor",
+          "updatedAt": "2026-11-28T00:25:46+03:00"
+        },
         {
           "version": "1.1.4",
           "commit": "81f34be179441bfc50a2ce6f46f4a567d1aeaafc",
