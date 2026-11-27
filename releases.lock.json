@@ -227,6 +227,12 @@
     "repoId": 1451481681,
     "firstSeen": "2026-11-23T14:19:09.633Z"
   },
+  "addisflava.llm-router@1.3.40": {
+    "commit": "555efa2b64fd49f77de5a0dbe414b7d33e1f67c3",
+    "contentHash": "edbf9797ff10a63cecd989208a468dd6e4b5f0abf72ee3894e8edd69abedd3d6",
+    "repoId": 1451481681,
+    "firstSeen": "2026-11-27T01:44:27.141Z"
+  },
   "aetna000.atmem-architect@0.1.1": {
     "commit": "39bdab4c0da27dbaf4d8de390bc26f05f9bac850",
     "contentHash": "f8fa83bfdde6a0b9a588821c2d1bacb8d98557822a48d782771accdd6d08989e",
@@ -5939,6 +5945,18 @@
     "repoId": 1450548755,
     "firstSeen": "2026-11-08T23:40:03.713Z"
   },
+  "saltshakerlabs.go-syntax@0.1.0": {
+    "commit": "4d29206c6b4fde8b4e574b405cc64effb1da2b98",
+    "contentHash": "fbba89ea808755378e7440c361012e22398dddbb414cc25dcf024255553c9ee2",
+    "repoId": 1473761535,
+    "firstSeen": "2026-11-27T01:44:27.141Z"
+  },
+  "saltshakerlabs.one-dark-vivid-theme@0.1.0": {
+    "commit": "36a810c55831ce0f9c207218da3ec48e508ca4b8",
+    "contentHash": "3c3a792fdaab292b0a439403e2b38692d61e015af773a02761bce919a7ec629f",
+    "repoId": 1473802555,
+    "firstSeen": "2026-11-27T01:44:27.141Z"
+  },
   "samfaina.kickoff@0.6.0": {
     "commit": "f88f2bd50b4d1262cd1c3f5a9887774ac129ea0f",
     "contentHash": "cabb4c66a62e1c8435d46997d8d195100d91cf1be46436c8080c73d184db5f80",
@@ -8165,6 +8183,12 @@
     "repoId": 1473811939,
     "firstSeen": "2026-11-27T00:54:03.791Z"
   },
+  "yoshhiide.session-board@0.2.7": {
+    "commit": "71696cbf5cda814a49993ec1582ccfe3bb932568",
+    "contentHash": "c426fba36ab51722ca21c58b21b8a4b52844f53c7c2234142c3adb7b74660137",
+    "repoId": 1473811939,
+    "firstSeen": "2026-11-27T01:44:27.141Z"
+  },
   "yubinfengjjd.roundtable@0.4.1": {
     "commit": "9b430a444e1cc8ab5beefaf6917f8cdd003f84f8",
     "contentHash": "dbfd4670800db187da48d204ed7020349924fd56c10e01bae26c4f9941f34c8b",
@@ -8188,6 +8212,12 @@
     "contentHash": "e8a6c3f21f9581c9520cfe2a2250f089a3156fa58035a02c480225a4a80811e7",
     "repoId": 1472951471,
     "firstSeen": "2026-11-26T10:17:39.403Z"
+  },
+  "zhanxiaogao.ai-usage@0.1.3": {
+    "commit": "8f2a12b65048875910c732ecce13bf845423329e",
+    "contentHash": "63a84824d9deca9042abe1b13a7677e39f8c28fff2751a8d5516e985cf6a9121",
+    "repoId": 1472951471,
+    "firstSeen": "2026-11-27T01:44:27.141Z"
   },
   "zifengjiang.workspace-namer@0.1.2": {
     "commit": "17236b68aaadab479027b656403aa23b3813a535",

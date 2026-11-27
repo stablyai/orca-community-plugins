@@ -115,7 +115,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.3.39",
+      "ref": "refs/tags/addisflava/orca-llm-router/1.3.40",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -2623,7 +2623,16 @@
       "ref": "refs/tags/li363920783/orca-tapd-todo/0.3.1",
       "plugins": [
         "li363920783.tapd-todo"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.3",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "lifegood-acc/3d-modeler": {
       "state": "rejected",
@@ -3886,14 +3895,18 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "saltshakerlabs/orca-go-syntax": {
+      "state": "listed",
+      "ref": "refs/tags/saltshakerlabs/orca-go-syntax/0.1.0",
+      "plugins": [
+        "saltshakerlabs.go-syntax"
+      ]
+    },
     "saltshakerlabs/orca-one-dark-vivid": {
-      "state": "rejected",
-      "ref": null,
-      "reasons": [
-        {
-          "category": "no-release-tag",
-          "detail": "no release tag: push a tag such as v1.0.0"
-        }
+      "state": "listed",
+      "ref": "refs/tags/saltshakerlabs/orca-one-dark-vivid/0.1.0",
+      "plugins": [
+        "saltshakerlabs.one-dark-vivid-theme"
       ]
     },
     "samfaina/orca-kickoff": {
@@ -5121,7 +5134,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "v0.2.6",
+      "ref": "v0.2.7",
       "plugins": [
         "yoshhiide.session-board"
       ],
@@ -5155,7 +5168,7 @@
     },
     "zhanxiaogao/orca-ai-usage": {
       "state": "listed",
-      "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.2",
+      "ref": "v0.1.3",
       "plugins": [
         "zhanxiaogao.ai-usage"
       ]
