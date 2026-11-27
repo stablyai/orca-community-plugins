@@ -1147,7 +1147,7 @@
     },
     "desk36hq/quotamax": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/desk36hq/quotamax/0.1.0",
       "plugins": [
         "desk36hq.quotamax"
       ]
@@ -2300,7 +2300,7 @@
     },
     "ivanscm/bmad-tickets-viewer": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/ivanscm/bmad-tickets-viewer/0.3.1",
       "plugins": [
         "ivanscm.bmad-tickets-viewer"
       ]
@@ -4433,14 +4433,14 @@
     },
     "sks-other/orca-dsh-web": {
       "state": "listed",
-      "ref": "v0.5.1",
+      "ref": "refs/tags/sks-other/orca-dsh-web/0.5.1",
       "plugins": [
         "sks-other.dsh-web"
       ]
     },
     "sks-other/orca-endpoint-editor": {
       "state": "listed",
-      "ref": "v1.1.2",
+      "ref": "v1.1.4",
       "plugins": [
         "sks-other.endpoint-editor"
       ]

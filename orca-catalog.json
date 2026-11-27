@@ -17133,8 +17133,8 @@
       "ownerId": 329089886,
       "source": {
         "kind": "git",
-        "url": "https://github.com/desk36hq/quotamax.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/desk36hq/quotamax/0.1.0"
       },
       "description": "Live quota pacing, model + thinking recommendations with Apply, and API-equivalent cost estimates across your AI coding subscriptions.",
       "categories": [
@@ -33460,8 +33460,8 @@
       "ownerId": 278208,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ivanscm/bmad-tickets-viewer.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ivanscm/bmad-tickets-viewer/0.3.1"
       },
       "description": "Read-only viewer for BMAD tickets (initiatives, epics, stories) in the workspace's _bmad-output: a sidebar tree, a kanban board in an editor tab, live updates, dependency blocking and BMAD skill launch.",
       "categories": [
@@ -65376,8 +65376,8 @@
       "ownerId": 153529997,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SkS-Other/orca-dsh-web.git",
-        "ref": "v0.5.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sks-other/orca-dsh-web/0.5.1"
       },
       "description": "Runs DeepSeek Harness Web in tmux and follows the profiles in $DSH_HOME/profiles.",
       "categories": [
@@ -65496,13 +65496,44 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/SkS-Other/orca-endpoint-editor.git",
-        "ref": "v1.1.2"
+        "ref": "v1.1.4"
       },
       "description": "Edit the host and port of saved Orca remote environments from a sidebar panel, with presets and reachability checks.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "1.1.4",
+          "commit": "81f34be179441bfc50a2ce6f46f4a567d1aeaafc",
+          "contentHash": "2dddf7e98ba0b97e9214279a97b1ea303a239eab2f61b95471334e2e7bc85fc6",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Server Endpoints",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Server Endpoints"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "screenshots": [
+              {
+                "path": "assets/sks-other.endpoint-editor/1545156e0316daf4.png",
+                "alt": "The Server Endpoints panel: host and port fields for Dev/Linux, two presets, and a reachability badge",
+                "sha256": "1545156e0316daf462360fb84a5337310c315552ff177a74185825bde43be9b4",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/SkS-Other/orca-endpoint-editor",
+          "updatedAt": "2026-11-28T00:07:42+03:00"
+        },
         {
           "version": "1.1.2",
           "commit": "fa1577b49b421f323c35117aaf0e86793a7335d0",
