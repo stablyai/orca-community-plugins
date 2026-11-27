@@ -574,6 +574,13 @@
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
       ]
     },
+    "bf16-ai/bf16-orca-plugin": {
+      "state": "listed",
+      "ref": "v1.0.0",
+      "plugins": [
+        "bf16-ai.bf16"
+      ]
+    },
     "bhojanibilal24/orca-activity-calendar": {
       "state": "listed",
       "ref": "refs/tags/bhojanibilal24/orca-activity-calendar/0.1.4",
@@ -1730,6 +1737,13 @@
           "category": "under-review",
           "detail": "code"
         }
+      ]
+    },
+    "fmcardoso/orca-pomodoro": {
+      "state": "listed",
+      "ref": "v0.3.0",
+      "plugins": [
+        "fmcardoso.pomodoro"
       ]
     },
     "francisvega/claude-cache-panel": {
@@ -2997,7 +3011,7 @@
         "maxfedorov.youtrack-for-orca"
       ],
       "update": {
-        "ref": "v0.2.0",
+        "ref": "v0.3.0",
         "reasons": [
           {
             "category": "under-review",
@@ -3382,7 +3396,7 @@
         "ngxuancam.backlog-tasks"
       ],
       "update": {
-        "ref": "v0.3.13",
+        "ref": "v0.3.14",
         "reasons": [
           {
             "category": "under-review",
@@ -3465,7 +3479,7 @@
     },
     "noppu-labs/orca-phpantom": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "binary-files",
@@ -5294,7 +5308,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "v0.2.14",
+      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.14",
       "plugins": [
         "yoshhiide.session-board"
       ],

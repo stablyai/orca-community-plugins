@@ -7188,6 +7188,108 @@
       ]
     },
     {
+      "id": "bf16-ai.bf16",
+      "ownerId": 355688341,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/BF16-AI/bf16-orca-plugin.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Live uncensored 1M-context model catalog, OS-keyring API key check, one-click Claude Code / Codex / Hermes / OpenCode workspace setup, and built-in bf16 MCP server for Orca.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "a83d935f7f14bcc6825764fc8ed0dee7e7b7cf35",
+          "contentHash": "ee1ee29f34ac8401e9d4fd470cd5114e539d1d497a99cbabe1ba1b55c16610ee",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.276",
+          "name": "bf16.ai",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "bf16.ai"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Refresh Live Model Catalog"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Test API Connection"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Launch Claude Code in Workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Launch Codex CLI in Workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Install Official Hermes Agent Plugin"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "bf16.ai"
+            },
+            {
+              "kind": "mcpServers",
+              "name": "bf16",
+              "detail": "npx -y bf16-mcp-server"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bf16-ai.bf16/e48563740b6734ca.png",
+              "alt": "bf16.ai plugin for Orca showing live 1M-context uncensored models, ZDR status, and one-click agent setup",
+              "sha256": "e48563740b6734cafea587cad7a7cf4e6d589db7c4c4bc288a27154f731224a4",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bf16-ai.bf16/bbf18347f45ec19f.png",
+              "alt": "bf16.ai icon",
+              "sha256": "bbf18347f45ec19f66bad2249ca64420b2dfbbf9e2c47a613b3a27d50363d08b",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/bf16-ai.bf16/915ab7a548372ccd.png",
+                "alt": "bf16.ai sidebar panel inside Orca listing live 1M-context uncensored DeepSeek, GLM, and Kimi models with pricing",
+                "sha256": "915ab7a548372ccd989689e9e28efd39036a5b05adbd67892d27984a1bad127d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bf16-ai.bf16/f0395b2b7eeeb9df.png",
+                "alt": "bf16.ai Setup tab inside Orca with ready-to-launch configs for Claude Code, Codex, Hermes Agent, and built-in MCP server",
+                "sha256": "f0395b2b7eeeb9dfc525d04af3437d9014391a2388ffb852f27bf4ebff03de3c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BF16-AI/bf16-orca-plugin",
+          "updatedAt": "2026-11-27T23:11:10+08:00"
+        }
+      ]
+    },
+    {
       "id": "bhojanibilal24.activity-calendar",
       "ownerId": 274619991,
       "source": {
@@ -26871,6 +26973,129 @@
           "license": "MIT",
           "repository": "https://github.com/flybywind2/gencode-usage",
           "updatedAt": "2026-11-23T22:58:47+09:00"
+        }
+      ]
+    },
+    {
+      "id": "fmcardoso.pomodoro",
+      "ownerId": 5882701,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/fmcardoso/orca-pomodoro.git",
+        "ref": "v0.3.0",
+        "path": "plugin"
+      },
+      "description": "A pet tomato that counts your pomodoros: a status bar timer, an animated panel, a break after each focus, and a notification when each one ends.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "a52931d0392ea8b751fc59ddc73cde11e486f123",
+          "contentHash": "87593aeb3a6440224e5139e36428dec4333feb86664f5fc990880ce09d19ba1e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Pomodoro",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Pomodoro"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Start/Pause"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Reset timer"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Reset day count"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Start break"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Open Pomodoro"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Focus 25 min"
+            },
+            {
+              "kind": "commands",
+              "name": "Pomodoro: Focus 50 min"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+P",
+              "detail": "pomodoro.open"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "🍅 25:00 · 0"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/fmcardoso.pomodoro/7d62c12cce3c01bc.png",
+              "alt": "A pixel-art tomato named Pomodoro next to the panel, which shows a finished pomodoro and proposes a 15 minute break.",
+              "sha256": "7d62c12cce3c01bc7f7664b5056ea17a67568c4fa3b5ff4f08c8a26cfa63ba87",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/fmcardoso.pomodoro/fd0dc32fd955a3c9.png",
+              "alt": "Pomodoro icon",
+              "sha256": "fd0dc32fd955a3c991e2f9e210c1eb41a6c35de0b2df6d70305055fc63485cd6",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/fmcardoso.pomodoro/028fd2984174d965.png",
+                "alt": "The Pomodoro panel counting down 18:42 in focus, with the tomato inside a red progress ring and the status bar item showing 18:42 and 3 pomodoros.",
+                "sha256": "028fd2984174d9656cc241c9e16f0fe46bbc2023cc5194f420201fadeff78e37",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/fmcardoso.pomodoro/c706a095cced182e.png",
+                "alt": "The panel after a pomodoro ends: Done, a Take break button, and a Break row with 5 and 15 minutes, 15 selected on the 4th pomodoro, and Skip.",
+                "sha256": "c706a095cced182e75bdab247842f307a560d670c1920328471eb1eeeb1d991c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/fmcardoso.pomodoro/51bee6ac85fbe29b.png",
+                "alt": "The panel in a dark theme during a break: a green ring, a sleeping tomato and 11:40 left.",
+                "sha256": "51bee6ac85fbe29ba7755fce4c413040c113c63b2e67b360a694052e39198204",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/fmcardoso.pomodoro/c3af68824ab25822.png",
+                "alt": "The panel in a dark theme, paused with 16:00 left and today at 6 pomodoros, with minus and plus buttons to correct the count.",
+                "sha256": "c3af68824ab25822be7663a4827d8d2b1f47a59246829610b927af9a415c7c3a",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/fmcardoso/orca-pomodoro",
+          "updatedAt": "2026-11-27T16:12:20+01:00"
         }
       ]
     },
@@ -78954,8 +79179,8 @@
       "ownerId": 8830451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yoshhiide/orca-plugin-session-board.git",
-        "ref": "v0.2.14"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.14"
       },
       "description": "Track Bot work and regular Orca sessions together in the sidebar.",
       "categories": [

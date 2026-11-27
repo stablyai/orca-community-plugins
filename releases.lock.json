@@ -893,6 +893,12 @@
     "repoId": 1444720222,
     "firstSeen": "2026-11-04T12:20:02.665Z"
   },
+  "bf16-ai.bf16@1.0.0": {
+    "commit": "a83d935f7f14bcc6825764fc8ed0dee7e7b7cf35",
+    "contentHash": "ee1ee29f34ac8401e9d4fd470cd5114e539d1d497a99cbabe1ba1b55c16610ee",
+    "repoId": 1474584959,
+    "firstSeen": "2026-11-27T15:16:32.055Z"
+  },
   "bhojanibilal24.activity-calendar@0.1.4": {
     "commit": "a87286c0f76cb7b5d3d079c1fbe7d2833343dacc",
     "contentHash": "b933e3c0e4b3dcbc7a85603bc6849e1dc518cfb78b2eab72c290dda11a3adf25",
@@ -2866,6 +2872,12 @@
     "contentHash": "bbfa8a99393272fefe65f1c51e7eef764ed2167ba4ae1d4cea98280925fc8188",
     "repoId": 1468822374,
     "firstSeen": "2026-11-23T14:19:09.633Z"
+  },
+  "fmcardoso.pomodoro@0.3.0": {
+    "commit": "a52931d0392ea8b751fc59ddc73cde11e486f123",
+    "contentHash": "87593aeb3a6440224e5139e36428dec4333feb86664f5fc990880ce09d19ba1e",
+    "repoId": 1474563564,
+    "firstSeen": "2026-11-27T15:16:32.055Z"
   },
   "francisvega.claude-cache-panel@0.3.0": {
     "commit": "bb7cc3bb2e4b203f93ea877db8b25adc995af8ff",
