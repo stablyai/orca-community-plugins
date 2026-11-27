@@ -970,7 +970,7 @@
     },
     "cryptosecco/orca-regia-plugin": {
       "state": "listed",
-      "ref": "v0.8.5",
+      "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.5",
       "plugins": [
         "cryptosecco.regia"
       ]
@@ -2126,7 +2126,7 @@
         "hu-qi.grape-tasks"
       ],
       "update": {
-        "ref": "v0.3.0",
+        "ref": "v0.4.0",
         "reasons": [
           {
             "category": "under-review",
@@ -3584,7 +3584,7 @@
     },
     "peterhiroshi-hub/cyber-hq-radar": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "v0.3.2",
       "plugins": [
         "peterhiroshi-hub.cyber-hq-radar"
       ]
@@ -5134,19 +5134,10 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "refs/tags/wizhelp/orca-proxmox/0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
-      ],
-      "update": {
-        "ref": "v0.5.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "woodfishhhh/better-project-tree": {
       "state": "listed",
@@ -5284,7 +5275,7 @@
     },
     "zhanxiaogao/orca-ai-usage": {
       "state": "listed",
-      "ref": "v0.1.5",
+      "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.5",
       "plugins": [
         "zhanxiaogao.ai-usage"
       ]

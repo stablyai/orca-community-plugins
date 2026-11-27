@@ -5615,6 +5615,12 @@
     "repoId": 1474078540,
     "firstSeen": "2026-11-27T08:42:53.210Z"
   },
+  "peterhiroshi-hub.cyber-hq-radar@0.3.2": {
+    "commit": "d2d760885b8db0ba63d0cfe494b8ed8b97eb04dc",
+    "contentHash": "2b35cff43e59a4b4afce6aac8e62c40ff042999a5fcccbc80dd59b64bdb12759",
+    "repoId": 1474078540,
+    "firstSeen": "2026-11-27T09:18:26.040Z"
+  },
   "peterurban.graphite@0.2.0": {
     "commit": "60061aa9c83c226c48890c2725edbacba32a5bd1",
     "contentHash": "d944306de98147ceaecfc5a1bb52eda8efc8ff28a1ffb4fc06c8ea658f323ea4",
@@ -8152,6 +8158,12 @@
     "contentHash": "a09dd07d0c4f288268c880ea1bad9956e32bbb3b12a735d0d17b9ed304f00d19",
     "repoId": 1472358248,
     "firstSeen": "2026-11-26T21:43:12.259Z"
+  },
+  "wizhelp.proxmox-visualizer@0.5.0": {
+    "commit": "61dbf1e7720e1ede4f86bce070692f6c008ddc77",
+    "contentHash": "d812f5dd22c7b75463ad0d667d0570194e92fdcbc206653a2660da123e15470c",
+    "repoId": 1472358248,
+    "firstSeen": "2026-11-27T09:18:26.040Z"
   },
   "woodfishhhh.better-project-tree@0.1.0": {
     "commit": "c49207bb17f0c9fc3f4b8aa825dcc9947f3ccaf2",

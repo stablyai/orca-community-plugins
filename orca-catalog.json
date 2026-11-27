@@ -14305,8 +14305,8 @@
       "ownerId": 99609885,
       "source": {
         "kind": "git",
-        "url": "https://github.com/cryptosecco/orca-regia-plugin.git",
-        "ref": "v0.8.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/cryptosecco/orca-regia-plugin/0.8.5"
       },
       "description": "A control room for your Orca bots: what is waiting on you, the queue by priority, who is working on what, and how work flows between bots, workers and pull requests. Read-only, unless you pick a bot in the Queue's Send choices to menu: then a click on an option of a question sends your choice to tha",
       "categories": [
@@ -51743,7 +51743,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.2.2"
+        "ref": "v0.3.2"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51752,6 +51752,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.2",
+          "commit": "d2d760885b8db0ba63d0cfe494b8ed8b97eb04dc",
+          "contentHash": "2b35cff43e59a4b4afce6aac8e62c40ff042999a5fcccbc80dd59b64bdb12759",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T17:16:33+08:00"
+        },
         {
           "version": "0.2.2",
           "commit": "ef2c30b65ab12e393095610faadbfe5b8ff2bfb4",
@@ -74734,8 +74810,8 @@
       "ownerId": 86989629,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wizhelp/orca-proxmox/0.4.0"
+        "url": "https://github.com/wizhelp/orca-proxmox.git",
+        "ref": "v0.5.0"
       },
       "description": "A Proxmox estate in Orca, through Proxmox Datacenter Manager or PVE and PBS directly (optionally over SSH): hosts and guests with live charts and disk use, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
       "categories": [
@@ -74743,6 +74819,80 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "61dbf1e7720e1ede4f86bce070692f6c008ddc77",
+          "contentHash": "d812f5dd22c7b75463ad0d667d0570194e92fdcbc206653a2660da123e15470c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Proxmox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Proxmox"
+            },
+            {
+              "kind": "commands",
+              "name": "Proxmox: Show the estate panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Proxmox: Import the connection file"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Proxmox"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wizhelp.proxmox-visualizer/01058809c92018d6.png",
+              "alt": "Proxmox for Orca: the panel with host cards in the light theme and the estate tree in the dark theme, from an example estate",
+              "sha256": "01058809c92018d628c513aeb42e62429e09c76b0643f4ae1b867870439a928c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wizhelp.proxmox-visualizer/a0ea607b4dd3d769.png",
+              "alt": "Proxmox icon",
+              "sha256": "a0ea607b4dd3d7696338dbcd0bbfe1856d5db9f6ca03b54d6711d453a3b263e7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/a85024a11939b91e.png",
+                "alt": "Host cards with CPU, memory and network charts; the estate tree in the dark theme; the guests table with disk use and one guest opened",
+                "sha256": "a85024a11939b91e3398c06b114fd0eda421b9244edd76bb719f3681e1186290",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/c57d9341959abeb7.png",
+                "alt": "Tasks of every remote with two failed backups; where a new VM fits, best node first; Orca hosts placed on their Proxmox nodes",
+                "sha256": "c57d9341959abeb78dd44d743b006a975ea3de0c1951d8e52d975bd1d0d42247",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/cf60e0849e8aa835.png",
+                "alt": "The Copy for AI preview without addresses; backups by age; the settings with a PDM, a PVE and a PBS connection, each read-only and pinned",
+                "sha256": "cf60e0849e8aa835bcfc4cdee4c2278d25fd33e3f40cb30c219ea309ec488105",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "updatedAt": "2026-11-27T00:58:58+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/wizhelp/orca-proxmox"
+        },
         {
           "version": "0.4.0",
           "commit": "ae4597cfe92e9e7c2ec3e2811bb3257f0a78e26e",
@@ -78782,8 +78932,8 @@
       "ownerId": 59564582,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Zhanxiaogao/orca-ai-usage.git",
-        "ref": "v0.1.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.5"
       },
       "description": "统计本机 Claude Code、Codex、Antigravity 与 Gemini CLI 的 Token 用量、估算费用与生成速度。",
       "categories": [
