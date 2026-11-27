@@ -115,7 +115,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "v1.3.44",
+      "ref": "v1.3.45",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -766,7 +766,16 @@
       "ref": "refs/tags/chantawat741/isometric-pixel-art/0.1.3",
       "plugins": [
         "chantawat741.pixel-base"
-      ]
+      ],
+      "update": {
+        "ref": "v0.2.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "chilango74/orca-agent-preflight": {
       "state": "listed",
@@ -784,7 +793,7 @@
     },
     "chingqaq/shortcut-studio": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/chingqaq/shortcut-studio/1.1.0",
       "plugins": [
         "chingqaq.shortcut-studio"
       ]
@@ -1239,7 +1248,7 @@
         "dungnt95.mermaid-studio"
       ],
       "update": {
-        "ref": "v0.2.0",
+        "ref": "v0.2.2",
         "reasons": [
           {
             "category": "under-review",
@@ -3559,7 +3568,7 @@
     },
     "pinion05/orca-server-stats": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/pinion05/orca-server-stats/0.2.1",
       "plugins": [
         "pinion05.server-stats"
       ]
@@ -5161,7 +5170,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "v0.2.11",
+      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.11",
       "plugins": [
         "yoshhiide.session-board"
       ],
