@@ -899,6 +899,12 @@
     "repoId": 1474584959,
     "firstSeen": "2026-11-27T15:16:32.055Z"
   },
+  "bf16-ai.bf16@1.0.1": {
+    "commit": "2f010acaefc2590629168088e3b40d2eda22e0d6",
+    "contentHash": "c3061597e17dcb9b9cb095b905243465be0beb1513275a6303617768a4791ce1",
+    "repoId": 1474584959,
+    "firstSeen": "2026-11-27T16:18:19.985Z"
+  },
   "bhojanibilal24.activity-calendar@0.1.4": {
     "commit": "a87286c0f76cb7b5d3d079c1fbe7d2833343dacc",
     "contentHash": "b933e3c0e4b3dcbc7a85603bc6849e1dc518cfb78b2eab72c290dda11a3adf25",
@@ -2320,6 +2326,12 @@
     "contentHash": "b2a03f9a69f89b4e50c802855c8ecfc52edcc1717b0d9b1c02f58773b41a13a0",
     "repoId": 1448741097,
     "firstSeen": "2026-11-27T11:16:09.316Z"
+  },
+  "ebbop.italiano@1.4.280": {
+    "commit": "d0d66c141461ee92526a9eb67ff1eef3dfa679d1",
+    "contentHash": "6964901216310d80dc7aaad4c74c74a1ef6be4bae93f8f659934b7f0eef98a33",
+    "repoId": 1448741097,
+    "firstSeen": "2026-11-27T16:18:19.985Z"
   },
   "ebrgr.backlog-md@0.1.0": {
     "commit": "4054862a86a7eb50e36020d17b4394d30cdc120e",
@@ -8374,6 +8386,12 @@
     "contentHash": "4bcb73a5c06d9184ae80d334498e98856555eed39ffa5eb8ac0915c6c902e357",
     "repoId": 1453629377,
     "firstSeen": "2026-11-12T03:16:34.956Z"
+  },
+  "xiaoclovemoney.idea-new-ui-themes@1.1.5": {
+    "commit": "cdf816393fc588f262ef4829c922571f477c92c3",
+    "contentHash": "a357f852c0eba8121fa0f22b120702129eea5bfeb31a4c0ead28aa82bd0e8b63",
+    "repoId": 1464012806,
+    "firstSeen": "2026-11-27T16:18:19.985Z"
   },
   "xuan666-lab.artifact-workbench@0.1.0": {
     "commit": "b65369fa62075627ae0f65b69b2e71a977a9383c",

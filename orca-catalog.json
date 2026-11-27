@@ -7192,8 +7192,8 @@
       "ownerId": 355688341,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/bf16-ai/bf16-orca-plugin/1.0.0"
+        "url": "https://github.com/BF16-AI/bf16-orca-plugin.git",
+        "ref": "v1.0.1"
       },
       "description": "Live uncensored 1M-context model catalog, OS-keyring API key check, one-click Claude Code / Codex / Hermes / OpenCode workspace setup, and built-in bf16 MCP server for Orca.",
       "categories": [
@@ -7201,6 +7201,92 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "2f010acaefc2590629168088e3b40d2eda22e0d6",
+          "contentHash": "c3061597e17dcb9b9cb095b905243465be0beb1513275a6303617768a4791ce1",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.276",
+          "name": "bf16.ai",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "bf16.ai"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Refresh Live Model Catalog"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Test API Connection"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Launch Claude Code in Workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Launch Codex CLI in Workspace"
+            },
+            {
+              "kind": "commands",
+              "name": "bf16.ai: Install Official Hermes Agent Plugin"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "bf16.ai"
+            },
+            {
+              "kind": "mcpServers",
+              "name": "bf16",
+              "detail": "npx -y bf16-mcp-server"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "terminal:send",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/bf16-ai.bf16/e48563740b6734ca.png",
+              "alt": "bf16.ai plugin for Orca showing live 1M-context uncensored models, ZDR status, and one-click agent setup",
+              "sha256": "e48563740b6734cafea587cad7a7cf4e6d589db7c4c4bc288a27154f731224a4",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/bf16-ai.bf16/bbf18347f45ec19f.png",
+              "alt": "bf16.ai icon",
+              "sha256": "bbf18347f45ec19f66bad2249ca64420b2dfbbf9e2c47a613b3a27d50363d08b",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/bf16-ai.bf16/915ab7a548372ccd.png",
+                "alt": "bf16.ai sidebar panel inside Orca listing live 1M-context uncensored DeepSeek, GLM, and Kimi models with pricing",
+                "sha256": "915ab7a548372ccd989689e9e28efd39036a5b05adbd67892d27984a1bad127d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/bf16-ai.bf16/f0395b2b7eeeb9df.png",
+                "alt": "bf16.ai Setup tab inside Orca with ready-to-launch configs for Claude Code, Codex, Hermes Agent, and built-in MCP server",
+                "sha256": "f0395b2b7eeeb9dfc525d04af3437d9014391a2388ffb852f27bf4ebff03de3c",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/BF16-AI/bf16-orca-plugin",
+          "updatedAt": "2026-11-27T23:53:14+08:00"
+        },
         {
           "version": "1.0.0",
           "commit": "a83d935f7f14bcc6825764fc8ed0dee7e7b7cf35",
@@ -20976,14 +21062,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.279"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.280"
       },
-      "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.134 testi su 23.134 (100%), allineato a Orca 1.4.279. Pacchetto della community, non ufficiale.",
+      "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.498 testi su 23.498 (100%), allineato a Orca 1.4.280. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.280",
+          "commit": "d0d66c141461ee92526a9eb67ff1eef3dfa679d1",
+          "contentHash": "6964901216310d80dc7aaad4c74c74a1ef6be4bae93f8f659934b7f0eef98a33",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/7e60028779bdbb16.png",
+              "alt": "Illustrazione di una finestra in stile Orca in italiano: spazi di lavoro, un messaggio dell’agente e una conferma di eliminazione.",
+              "sha256": "7e60028779bdbb168329177e9273f33c1c68441205dfd638e8fa5bb0fe7a323c",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-27T17:09:26+01:00"
+        },
         {
           "version": "1.4.279",
           "commit": "e4bc4c0f969fc9f9b5781cc9a710053d0268fc24",
@@ -42447,8 +42566,8 @@
       "ownerId": 10705898,
       "source": {
         "kind": "git",
-        "url": "https://github.com/maxfedorov/youtrack-for-orca.git",
-        "ref": "v0.3.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/maxfedorov/youtrack-for-orca/0.3.0"
       },
       "description": "Browse YouTrack issues in the right sidebar and start coding agents on them.",
       "categories": [
@@ -47591,8 +47710,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/naitsric/orca-claude-procesos.git",
-        "ref": "v0.6.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/naitsric/orca-claude-procesos/0.6.0"
       },
       "description": "Monitor for Claude Code sessions, the processes they start and the ones left orphaned, and the Git worktrees left open, with a verdict on which to close. In English and Spanish.",
       "categories": [
@@ -76823,6 +76942,93 @@
           "license": "MIT",
           "repository": "https://github.com/xclas721/xclas721-theme",
           "updatedAt": "2026-11-11T15:27:18+08:00"
+        }
+      ]
+    },
+    {
+      "id": "xiaoclovemoney.idea-new-ui-themes",
+      "ownerId": 91772192,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/xiaocLoveMoney/idea-new-ui-themes.git",
+        "ref": "v1.1.5"
+      },
+      "description": "IntelliJ IDEA New UI and Islands colors for Orca: app themes, code highlighting, terminal palettes, New UI and Symbols file icons, and JetBrains Mono.",
+      "categories": [
+        "themes",
+        "terminal-themes",
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "1.1.5",
+          "commit": "cdf816393fc588f262ef4829c922571f477c92c3",
+          "contentHash": "a357f852c0eba8121fa0f22b120702129eea5bfeb31a4c0ead28aa82bd0e8b63",
+          "execution": "data",
+          "minimumOrca": "1.4.253",
+          "name": "IntelliJ New UI Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "IntelliJ New UI Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "IntelliJ New UI Light"
+            },
+            {
+              "kind": "themes",
+              "name": "IntelliJ Islands Dark"
+            },
+            {
+              "kind": "themes",
+              "name": "IntelliJ Islands Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "IntelliJ New UI Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "IntelliJ New UI Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "IntelliJ Islands Dark"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "IntelliJ Islands Light"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "IntelliJ New UI Icons (Dark)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "IntelliJ New UI Icons (Light)"
+            },
+            {
+              "kind": "iconThemes",
+              "name": "Symbols"
+            },
+            {
+              "kind": "fonts",
+              "name": "JetBrains Mono"
+            }
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/xiaoclovemoney.idea-new-ui-themes/c6e2db7afbff82cb.png",
+              "alt": "IntelliJ New UI Themes icon",
+              "sha256": "c6e2db7afbff82cb5376bf19f32d92937b33409e499fea903e6b6823adb834e5",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT AND Apache-2.0 AND OFL-1.1",
+          "repository": "https://github.com/xiaocLoveMoney/idea-new-ui-themes",
+          "updatedAt": "2026-11-28T00:11:41+08:00"
         }
       ]
     },
