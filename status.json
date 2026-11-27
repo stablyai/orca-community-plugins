@@ -3894,7 +3894,7 @@
     },
     "rickyoliva/keep-awake": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/rickyoliva/keep-awake/1.0.0",
       "plugins": [
         "rickyoliva.keep-awake"
       ]
@@ -4437,7 +4437,7 @@
     },
     "sks-other/orca-endpoint-editor": {
       "state": "listed",
-      "ref": "v1.2.0",
+      "ref": "refs/tags/sks-other/orca-endpoint-editor/1.2.0",
       "plugins": [
         "sks-other.endpoint-editor"
       ]

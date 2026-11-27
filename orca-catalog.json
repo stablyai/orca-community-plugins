@@ -56258,8 +56258,8 @@
       "ownerId": 82555064,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rickyoliva/keep-awake.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rickyoliva/keep-awake/1.0.0"
       },
       "description": "Shows whether macOS system sleep is disabled, and toggles it from the sidebar or the status bar.",
       "categories": [
@@ -65564,8 +65564,8 @@
       "ownerId": 153529997,
       "source": {
         "kind": "git",
-        "url": "https://github.com/SkS-Other/orca-endpoint-editor.git",
-        "ref": "v1.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/sks-other/orca-endpoint-editor/1.2.0"
       },
       "description": "Edit the host and port of saved Orca remote environments from a sidebar panel, with presets and reachability checks.",
       "categories": [
