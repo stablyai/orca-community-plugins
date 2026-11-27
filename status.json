@@ -598,7 +598,7 @@
         "bourras6ue.pi-token-usage"
       ],
       "update": {
-        "ref": "v0.3.1",
+        "ref": "v0.3.2",
         "reasons": [
           {
             "category": "under-review",
@@ -2166,6 +2166,16 @@
         }
       ]
     },
+    "iamfaist/orca-source-control": {
+      "state": "listed",
+      "ref": "v0.3.5",
+      "plugins": [
+        "iamfaist.source-control"
+      ],
+      "notes": [
+        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
     "ias0nas/seaqull": {
       "state": "listed",
       "ref": "refs/tags/ias0nas/seaqull/0.1.5",
@@ -3441,6 +3451,16 @@
         {
           "category": "licence",
           "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
+    "noppu-labs/orca-phpantom": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (src/binary/fixtures/one.tar.gz, src/binary/fixtures/one.zip)"
         }
       ]
     },
@@ -5158,7 +5178,7 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "v0.6.1",
+      "ref": "refs/tags/wizhelp/orca-proxmox/0.6.1",
       "plugins": [
         "wizhelp.proxmox-visualizer"
       ]

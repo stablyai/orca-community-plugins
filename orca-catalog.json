@@ -31292,6 +31292,74 @@
       ]
     },
     {
+      "id": "iamfaist.source-control",
+      "ownerId": 147599377,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/iamfaist/orca-source-control.git",
+        "ref": "v0.3.5"
+      },
+      "description": "Manage every Git repository in your workspace from one sidebar. Stage files, commit, switch branches, and pull or push. Follow merges in a resizable graph, filter by branch or tag, and open any changed file at its commit.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.3.5",
+          "commit": "52cce64f482af1acd21dd6fefa3a072026ea7bc8",
+          "contentHash": "30e2dc0dff68e082d960bd3842db21fc76ac5ba63af04416b6c10be31977d487",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Source Control",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Source Control"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/iamfaist.source-control/97e2a82a3da05e66.png",
+              "alt": "Source Control for Orca with staged files, three repositories and a branching commit graph",
+              "sha256": "97e2a82a3da05e6619a5ed20fcd059a86fac878a7f7c4cbc2a1a372bc9dd79d4",
+              "width": 1200,
+              "height": 750
+            },
+            "screenshots": [
+              {
+                "path": "assets/iamfaist.source-control/16c7626db80a48a7.png",
+                "alt": "Three colored lanes trace two merges, with branch labels and a commit expanded to show its modified and added files.",
+                "sha256": "16c7626db80a48a78e1e7df5b9be5eacccdc73e5ae38c15bcad2a6eda8125684",
+                "width": 1344,
+                "height": 992
+              },
+              {
+                "path": "assets/iamfaist.source-control/660eede612a440a4.png",
+                "alt": "A repository with staged and working changes beside its menu of Git operations.",
+                "sha256": "660eede612a440a49f40744b3cc01bdd13f83374731c000f014119488c406c79",
+                "width": 1280,
+                "height": 1100
+              },
+              {
+                "path": "assets/iamfaist.source-control/c7db32372cb13dcf.png",
+                "alt": "A picker for local branches, a remote branch and a tag above the history graph.",
+                "sha256": "c7db32372cb13dcf47054801d0018e08a35f9ebf49c963c5444526cf770fea20",
+                "width": 1280,
+                "height": 960
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/iamfaist/orca-source-control",
+          "updatedAt": "2026-11-27T15:15:27+01:00"
+        }
+      ]
+    },
+    {
       "id": "ias0nas.seaqull",
       "ownerId": 9936844,
       "source": {
@@ -75175,8 +75243,8 @@
       "ownerId": 86989629,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wizhelp/orca-proxmox.git",
-        "ref": "v0.6.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wizhelp/orca-proxmox/0.6.1"
       },
       "description": "A Proxmox estate in Orca, through Proxmox Datacenter Manager or PVE and PBS directly (optionally over SSH): hosts and guests with live charts and disk use, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
       "categories": [
