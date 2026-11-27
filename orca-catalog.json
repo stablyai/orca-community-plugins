@@ -29539,8 +29539,8 @@
       "ownerId": 14880710,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/guilatrova/bot-kanban-board/0.15.1"
+        "url": "https://github.com/guilatrova/bot-kanban-board.git",
+        "ref": "v0.15.2"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -29548,6 +29548,75 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.15.2",
+          "commit": "d28d397973dada4132d6e759a59290c03a68c4a3",
+          "contentHash": "e651a94a6bd7c3b8c6f295dc0f5e4cf55cc53fddd7b9753f3ef127e6c32170ac",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Bot Kanban Board",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Open Bot Kanban Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Show Needs you"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Bot Kanban Board",
+              "detail": ".botkanban"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Needs you …"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "storage:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:read"
+          ],
+          "fileTypes": [
+            "botkanban"
+          ],
+          "editorFileTypes": [
+            "botkanban"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/guilatrova.bot-kanban-board/f22236b542ef575f.png",
+              "alt": "All your bots, one board. Bot Kanban Board showing Needs you, In progress and pull requests ready to merge.",
+              "sha256": "f22236b542ef575fd1c018268acfed0a8562c474cc6d2c4feb0a02e91bc53279",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/guilatrova/bot-kanban-board",
+          "updatedAt": "2026-11-27T20:11:17-03:00"
+        },
         {
           "version": "0.15.1",
           "commit": "940844bafa8efbed4335afafbcafdb54ca7cb8be",
@@ -36476,6 +36545,124 @@
           "license": "MIT",
           "repository": "https://github.com/jonstuebe/orca-todos",
           "updatedAt": "2026-11-14T10:44:42-07:00"
+        }
+      ]
+    },
+    {
+      "id": "jozoko.agy-swarm",
+      "ownerId": 8778425,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Jozoko/orca-plugin-agy.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Google Antigravity (/swarm) live dashboard, share/branch git worktree bridge, presets, Codex review launcher, and MCP server for Orca.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations",
+        "language-packs",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "80b4515066e2f9982474c1f1fdfc5c6db7919ca5",
+          "contentHash": "843d261294857957a178a925663f364e01ba2ad327e9ad7d4f9e9ce70408f405",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.276",
+          "name": "AGY Swarm Bridge",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "AGY Swarm"
+            },
+            {
+              "kind": "commands",
+              "name": "AGY Swarm: Refresh & Update Status"
+            },
+            {
+              "kind": "commands",
+              "name": "AGY Swarm: Launch Mixed Swarm (Neon XHigh + Carbon High + Reviewers)"
+            },
+            {
+              "kind": "commands",
+              "name": "AGY Swarm: Launch Architecture & Security Review Swarm"
+            },
+            {
+              "kind": "commands",
+              "name": "AGY Swarm: Launch Parallel Bug Investigation Swarm"
+            },
+            {
+              "kind": "commands",
+              "name": "AGY Swarm: Run External Orca Codex Review (GPT-6.2-Astra XHigh)"
+            },
+            {
+              "kind": "commands",
+              "name": "AGY Swarm: Audit Worker Share/Branch Worktrees"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.tool.after"
+            },
+            {
+              "kind": "languagePacks",
+              "name": "en"
+            },
+            {
+              "kind": "languagePacks",
+              "name": "ru"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Alt+Shift+R",
+              "detail": "agy-swarm.codexReview"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Swarm: idle"
+            },
+            {
+              "kind": "mcpServers",
+              "name": "agy_swarm_bridge",
+              "detail": "node -e (async()=>{const[fs,os,p,u]=await Promise.all([import('node:fs'),import('node:os'),import('node:path'),import('node:url')]);const h=os.homedir(),c=[],e…"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/jozoko.agy-swarm/7badf2ab895c7d3b.png",
+              "alt": "AGY Swarm Bridge icon",
+              "sha256": "7badf2ab895c7d3bbf5cbcc73a5e9d40e9e0a52ed7c02e4133959dfaf9cc97a0",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Jozoko/orca-plugin-agy",
+          "updatedAt": "2026-11-28T01:54:59+03:00"
         }
       ]
     },
@@ -45882,14 +46069,50 @@
       "ownerId": 17927894,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/moilolon/orca-obsidian-notes/0.2.5"
+        "url": "https://github.com/moilolon/orca-obsidian-notes.git",
+        "ref": "v0.3.0"
       },
       "description": "Read the notes of an Obsidian vault in Orca's sidebar: folder tree, search, callouts and [[links]], with the open note filling the panel.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.0",
+          "commit": "627bb330460607cc59acfbc17d822ac36339ce1a",
+          "contentHash": "0fab9c633f296168d28a5ebdf48cb9ba688c3270fc7076b769238178b2aa22b9",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Obsidian Notes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Obsidian"
+            }
+          ],
+          "capabilities": [
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/moilolon.notes/11fb2c4a096df931.png",
+              "alt": "The plugin name beside a sidebar panel showing a note with its tags, colored section bands, an image and the notes that link to it",
+              "sha256": "11fb2c4a096df9311a0f1a089ac25269f3d0bfda89bfd4360d436c771ddf878c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/moilolon.notes/8aae2eeb9c970605.png",
+              "alt": "Obsidian Notes icon",
+              "sha256": "8aae2eeb9c9706057f644c62d0255168ed2c04d96a16461c594114e10bb0bced",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "updatedAt": "2026-11-27T23:25:42+01:00",
+          "license": "MIT",
+          "repository": "https://github.com/moilolon/orca-obsidian-notes"
+        },
         {
           "version": "0.2.5",
           "commit": "9e517e12e31491eda2397ad0d810e2f6b816ae17",
@@ -56012,7 +56235,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/rickyking/orca-tasks.git",
-        "ref": "v0.6.4"
+        "ref": "v0.6.6"
       },
       "description": "Scheduled bots collect tasks from your other apps into one board in Orca. From it, hand any task to a bot or start it in its project with a coding agent.",
       "categories": [
@@ -56021,6 +56244,121 @@
         "keybindings"
       ],
       "releases": [
+        {
+          "version": "0.6.6",
+          "commit": "80c64ea8a514c84c29384fd75b0d6358eeacb16d",
+          "contentHash": "2351f631516678f8d1dd3037577d04950f49d64f9e81402876367509f6386519",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Tasks: Show Today"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Tasks: Open Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Tasks: Show or Hide Sidebar"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+U",
+              "detail": "agent-tasks.toggleSidebar"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+X",
+              "detail": "agent-tasks.openBoard"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agent Tasks",
+              "detail": ".agenttasks"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Open Agent Tasks board",
+              "detail": ".agenttasks"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "today"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "terminal:send",
+            "terminal:read",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "fileTypes": [
+            "agenttasks"
+          ],
+          "editorFileTypes": [
+            "agenttasks"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rickyking.agent-tasks/55ebbb52d455a356.png",
+              "alt": "Flyer: tasks from chat, email, a tracker, reminders and notes flow via a scheduled bot into one board, then out to a bot or a coding agent. Made-up tasks.",
+              "sha256": "55ebbb52d455a3564f9ffa9c2d701b781060bd8462948eefab6b18f5068b4d1b",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rickyking.agent-tasks/72d47c8a6e0664f3.png",
+              "alt": "Agent Tasks icon",
+              "sha256": "72d47c8a6e0664f3e04147ea98f9289e33e6b2e27368cd806e93cd09be7a6aea",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rickyking.agent-tasks/15ace125a28025f2.png",
+                "alt": "The board: a column per status; each card shows its due day, priority, project, checklist and the bot or agent on it.",
+                "sha256": "15ace125a28025f260d226ab2a8e3322d97d3c65f22746f0336fe264190aa76e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/rickyking.agent-tasks/b460046a9853d8f4.png",
+                "alt": "The list in a dark theme with a task open in the details pane: status, due, priority, project, tags, checklist and notes.",
+                "sha256": "b460046a9853d8f49062d76e3b0d76e44a66e996e47a93bdcb60dd0ac385751e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/rickyking.agent-tasks/83f32fba0c29e251.png",
+                "alt": "The send form in a task's details: send to the project's bot as a handoff, in its Home Chat, then move the task to In Progress.",
+                "sha256": "83f32fba0c29e251cffbd303493371c36fda3a53cf8d330abfc447eaca785c8e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/rickyking.agent-tasks/e8105a350273479b.png",
+                "alt": "The board in a dark theme.",
+                "sha256": "e8105a350273479b6f6754ca845a9f8bc3fa68c33e89eaaa7607fa906ade085d",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rickyking/orca-tasks",
+          "updatedAt": "2026-11-27T15:55:35-07:00"
+        },
         {
           "version": "0.6.4",
           "commit": "581ed5b2c34d75a16d098ea1d2b6abccffd8452a",
