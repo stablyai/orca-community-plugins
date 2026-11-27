@@ -1226,7 +1226,7 @@
     },
     "dos2locos/openspec-pulse": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "reasons": [
         {
           "category": "under-review",
@@ -2168,7 +2168,7 @@
     },
     "iamfaist/orca-source-control": {
       "state": "listed",
-      "ref": "v0.3.5",
+      "ref": "refs/tags/iamfaist/orca-source-control/0.3.5",
       "plugins": [
         "iamfaist.source-control"
       ],
@@ -3380,7 +3380,16 @@
       "ref": "refs/tags/ngxuancam/orca-backlog/0.3.11",
       "plugins": [
         "ngxuancam.backlog-tasks"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.13",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code, update"
+          }
+        ]
+      }
     },
     "nhangen/orca-plugins": {
       "state": "listed",
@@ -5285,7 +5294,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.13",
+      "ref": "v0.2.14",
       "plugins": [
         "yoshhiide.session-board"
       ],
