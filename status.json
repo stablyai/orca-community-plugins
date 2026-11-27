@@ -2392,7 +2392,7 @@
     },
     "jecyxyf/orca-tps-plugin": {
       "state": "rejected",
-      "ref": "v1.6.7",
+      "ref": "v1.6.8",
       "reasons": [
         {
           "category": "under-review",
@@ -3875,19 +3875,10 @@
     },
     "rickyking/orca-tasks": {
       "state": "listed",
-      "ref": "refs/tags/rickyking/orca-tasks/0.6.2",
+      "ref": "v0.6.3",
       "plugins": [
         "rickyking.agent-tasks"
-      ],
-      "update": {
-        "ref": "v0.6.3",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "rickyoliva/keep-awake": {
       "state": "rejected",
