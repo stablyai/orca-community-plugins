@@ -32974,8 +32974,8 @@
       "ownerId": 184130225,
       "source": {
         "kind": "git",
-        "url": "https://github.com/iosrxwy/ChatStamp.git",
-        "ref": "v1.8.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/iosrxwy/chatstamp/1.8.0"
       },
       "description": "Orca 里各个代理的会话结束时，把标题收成 MMDD｜类型｜主题。",
       "categories": [
@@ -47750,8 +47750,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/naitsric/orca-claude-procesos/0.6.0"
+        "url": "https://github.com/naitsric/orca-claude-procesos.git",
+        "ref": "v0.6.1"
       },
       "description": "Monitor for Claude Code sessions, the processes they start and the ones left orphaned, and the Git worktrees left open, with a verdict on which to close. In English and Spanish.",
       "categories": [
@@ -47759,6 +47759,57 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.6.1",
+          "commit": "ca8f0e24e8d37da176bc15726888aee50d2175e4",
+          "contentHash": "133c060d7c46a144be81bf03edf8a8c1fddb40bacb2ee572d4269e71dbee675e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Processes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Processes"
+            },
+            {
+              "kind": "panels",
+              "name": "Claude Activity"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: check now"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close certain orphans"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close inactive worktrees"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
+              "alt": "Claude Processes icon",
+              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/naitsric/orca-claude-procesos",
+          "updatedAt": "2026-11-27T12:01:38-05:00"
+        },
         {
           "version": "0.6.0",
           "commit": "5401e5d0985abc23b3002474cef1f4264843e36e",
@@ -47950,53 +48001,6 @@
           "license": "MIT",
           "repository": "https://github.com/naitsric/orca-claude-procesos",
           "updatedAt": "2026-11-17T09:28:18-05:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "116f0e7bfef18120580d5ed304db0871575a3129",
-          "contentHash": "de64ebca8272375bf19251d0b4ce602c5988d89fe1a9551f019e48a34ae2abf6",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Procesos de Claude",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Procesos de Claude"
-            },
-            {
-              "kind": "panels",
-              "name": "Actividad de Claude"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: revisar ahora"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: cerrar los huérfanos seguros"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Claude"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
-              "alt": "Procesos de Claude icon",
-              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/naitsric/orca-claude-procesos",
-          "updatedAt": "2026-11-17T09:05:05-05:00"
         }
       ]
     },
@@ -55689,6 +55693,138 @@
           "license": "MIT",
           "repository": "https://github.com/ricardo-benicio/orca-docker-containers",
           "updatedAt": "2026-11-19T21:30:34-03:00"
+        }
+      ]
+    },
+    {
+      "id": "rickyking.agent-tasks",
+      "ownerId": 2820809,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rickyking/orca-tasks.git",
+        "ref": "v0.6.2"
+      },
+      "description": "A task list you and your agents share: a sidebar panel and a board with statuses of your own, due dates, reminders and checklists; a CLI agents use to list, add and complete the same tasks; and a button that hands a task to an Orca bot or starts it in a new workspace with a coding agent.",
+      "categories": [
+        "panels",
+        "commands",
+        "keybindings"
+      ],
+      "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "d9cd023486d76e41971379e851d71373446a1b7c",
+          "contentHash": "497ae6dc688537b5d10628152c1fd363df69ea30f8b7ddb250d0fb93b98b7639",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Agent Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Agent Tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Tasks: Show Today"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Tasks: Open Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Agent Tasks: Show or Hide Sidebar"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+U",
+              "detail": "agent-tasks.toggleSidebar"
+            },
+            {
+              "kind": "keybindings",
+              "name": "Mod+Shift+X",
+              "detail": "agent-tasks.openBoard"
+            },
+            {
+              "kind": "customEditors",
+              "name": "Agent Tasks",
+              "detail": ".agenttasks"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Open Agent Tasks board",
+              "detail": ".agenttasks"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "today"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:read",
+            "workspace:write",
+            "notifications:show",
+            "terminal:send",
+            "terminal:read",
+            "workspace:create",
+            "agent:launch"
+          ],
+          "fileTypes": [
+            "agenttasks"
+          ],
+          "editorFileTypes": [
+            "agenttasks"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rickyking.agent-tasks/edd3d0912bdd6715.png",
+              "alt": "The Agent Tasks board: a column per status with made-up tasks, their due days, priorities, projects, and a bot at work on one.",
+              "sha256": "edd3d0912bdd67152a8059e67395d9f63af80f99b5b1c6c53b61aaf4792f4032",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rickyking.agent-tasks/72d47c8a6e0664f3.png",
+              "alt": "Agent Tasks icon",
+              "sha256": "72d47c8a6e0664f3e04147ea98f9289e33e6b2e27368cd806e93cd09be7a6aea",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rickyking.agent-tasks/15ace125a28025f2.png",
+                "alt": "The board: a column per status; each card shows its due day, priority, project, checklist and the bot or agent on it.",
+                "sha256": "15ace125a28025f260d226ab2a8e3322d97d3c65f22746f0336fe264190aa76e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/rickyking.agent-tasks/b460046a9853d8f4.png",
+                "alt": "The list in a dark theme with a task open in the details pane: status, due, priority, project, tags, checklist and notes.",
+                "sha256": "b460046a9853d8f49062d76e3b0d76e44a66e996e47a93bdcb60dd0ac385751e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/rickyking.agent-tasks/83f32fba0c29e251.png",
+                "alt": "The send form in a task's details: send to the project's bot as a handoff, in its Home Chat, then move the task to In Progress.",
+                "sha256": "83f32fba0c29e251cffbd303493371c36fda3a53cf8d330abfc447eaca785c8e",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/rickyking.agent-tasks/e8105a350273479b.png",
+                "alt": "The board in a dark theme.",
+                "sha256": "e8105a350273479b6f6754ca845a9f8bc3fa68c33e89eaaa7607fa906ade085d",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rickyking/orca-tasks",
+          "updatedAt": "2026-11-27T09:47:59-07:00"
         }
       ]
     },
@@ -76593,8 +76729,8 @@
       "ownerId": 6831968,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wqliang/orca-wecom-bridge.git",
-        "ref": "v1.0.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wqliang/orca-wecom-bridge/1.0.0"
       },
       "description": "企业微信智能机器人（API 长连接）× Orca worktree 双向桥：运行结果推送到企微，企微消息注入 agent 终端",
       "categories": [

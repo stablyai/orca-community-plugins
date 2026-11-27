@@ -2254,7 +2254,7 @@
     },
     "iosrxwy/chatstamp": {
       "state": "listed",
-      "ref": "v1.8.0",
+      "ref": "refs/tags/iosrxwy/chatstamp/1.8.0",
       "plugins": [
         "iosrxwy.chatstamp"
       ]
@@ -2825,7 +2825,7 @@
     },
     "lkostrowski/orca-plugin-reins": {
       "state": "rejected",
-      "ref": "v1.1.0",
+      "ref": "v1.2.0",
       "reasons": [
         {
           "category": "licence",
@@ -3308,7 +3308,7 @@
     },
     "naitsric/orca-claude-procesos": {
       "state": "listed",
-      "ref": "refs/tags/naitsric/orca-claude-procesos/0.6.0",
+      "ref": "v0.6.1",
       "plugins": [
         "naitsric.claude-procesos"
       ]
@@ -3861,6 +3861,13 @@
       "ref": "refs/tags/ricardo-benicio/orca-docker-containers/0.8.0",
       "plugins": [
         "ricardo-benicio.docker-containers"
+      ]
+    },
+    "rickyking/orca-tasks": {
+      "state": "listed",
+      "ref": "v0.6.2",
+      "plugins": [
+        "rickyking.agent-tasks"
       ]
     },
     "rickyoliva/keep-awake": {
@@ -5233,7 +5240,7 @@
     },
     "wqliang/orca-wecom-bridge": {
       "state": "listed",
-      "ref": "v1.0.0",
+      "ref": "refs/tags/wqliang/orca-wecom-bridge/1.0.0",
       "plugins": [
         "wqliang.wecom-bridge"
       ],
