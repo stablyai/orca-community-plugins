@@ -2773,6 +2773,45 @@
       ]
     },
     {
+      "id": "adiityaastr.mint-chibi-responses",
+      "ownerId": 204443674,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/adiityaastr/mint-chibi-coding.git",
+        "ref": "v1.0.2"
+      },
+      "description": "Pesan Mint Chibi untuk perubahan status agen di Orca.",
+      "categories": [
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "commit": "0c7ad8017e19164443842c0459be0b9a298b0842",
+          "contentHash": "644e43350d7f7f7b7558b7e19cb1ad1b27b1d01bf42c89cf8e88215b0d3580bc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Mint Chibi Responses",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Mint Chibi siap"
+            }
+          ],
+          "capabilities": [
+            "agent:read"
+          ],
+          "updatedAt": "2026-11-27T16:51:08+07:00",
+          "license": "MIT",
+          "repository": "https://github.com/adiityaastr/mint-chibi-coding"
+        }
+      ]
+    },
+    {
       "id": "aetna000.atmem-architect",
       "ownerId": 300051964,
       "source": {
@@ -51786,8 +51825,8 @@
       "ownerId": 361849047,
       "source": {
         "kind": "git",
-        "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.3.5"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/peterhiroshi-hub/cyber-hq-radar/0.3.5"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -54675,8 +54714,8 @@
       "ownerId": 10086855,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/rgarciade/orca-containers/0.1.1"
+        "url": "https://github.com/rgarciade/orca-containers.git",
+        "ref": "v0.2.0"
       },
       "description": "Manage your Docker engine (Colima, Docker Desktop, OrbStack, Podman, Rancher Desktop or any Docker context) and the Compose stacks, containers, ports and logs of the active worktree from Orca's right sidebar.",
       "categories": [
@@ -54684,6 +54723,71 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "0f057801d94d4ea126584521bab6074d9876fcc3",
+          "contentHash": "3fa15cfe795d63c0057a70655ca4425e25fdd5502f754587a597c426778bd2bc",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "Containers",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Containers"
+            },
+            {
+              "kind": "commands",
+              "name": "Containers: refresh"
+            }
+          ],
+          "capabilities": [
+            "notifications:show",
+            "workspace:read",
+            "storage:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rgarciade.containers/e20ff2825d7dcea6.png",
+              "alt": "Containers panel in Orca's sidebar: engine card and All view, with ports, health markers, and logs and shell buttons per container",
+              "sha256": "e20ff2825d7dcea6a321045cc7693c06d048d51afc276eb42e7a94def70b7ef5",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/rgarciade.containers/d536c8f87d8c0430.png",
+                "alt": "The All view grouped by project and worktree, with logs and shell buttons per row and live logs open below one container",
+                "sha256": "d536c8f87d8c0430498f7106d4b9dc4db9b75ac6ad50acd18a920d21658de1f6",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rgarciade.containers/7f0e886b94b97147.png",
+                "alt": "Individual containers with published ports, dashed internal-only ports, and exit 1 and restarting markers",
+                "sha256": "7f0e886b94b971476449122548ffb5635f72bbe5282c3bd83312bd3ada02e0d4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rgarciade.containers/26e29f66dbe6a457.png",
+                "alt": "A worktree's detail view with Restart and Down for its Compose stack; ports, CPU, memory, logs, stop and shell per container, and one log open",
+                "sha256": "26e29f66dbe6a4578f3a1e26706068b11ea703f66b0db796ca2f01301403028b",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/rgarciade.containers/40ae98d7c707fc9f.png",
+                "alt": "Live logs open inside two container cards, and docker logs in an Orca terminal",
+                "sha256": "40ae98d7c707fc9f5d060344591a1eee2ded2ead312067d43b72bd5745030528",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rgarciade/orca-containers",
+          "updatedAt": "2026-11-27T11:04:13+01:00"
+        },
         {
           "version": "0.1.1",
           "commit": "b378065f81db7cc1998147bdc1ef89fa5e92c29f",
