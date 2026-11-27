@@ -131,7 +131,7 @@
     },
     "adiityaastr/mint-chibi-coding": {
       "state": "listed",
-      "ref": "refs/tags/adiityaastr/mint-chibi-coding/1.0.2",
+      "ref": "v1.0.3",
       "plugins": [
         "adiityaastr.mint-chibi-responses"
       ]
@@ -1288,7 +1288,7 @@
     },
     "ebbop/orca-italiano": {
       "state": "listed",
-      "ref": "v1.4.279",
+      "ref": "refs/tags/ebbop/orca-italiano/1.4.279",
       "plugins": [
         "ebbop.italiano"
       ]
@@ -2979,7 +2979,7 @@
     },
     "maximeberetvas/orca-dbt-syntax": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/maximeberetvas/orca-dbt-syntax/0.1.0",
       "plugins": [
         "maximeberetvas.dbt-syntax"
       ]
@@ -3589,7 +3589,7 @@
     },
     "peterhiroshi-hub/cyber-hq-radar": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "v0.5.0",
       "plugins": [
         "peterhiroshi-hub.cyber-hq-radar"
       ]
@@ -5139,7 +5139,7 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "refs/tags/wizhelp/orca-proxmox/0.5.0",
+      "ref": "v0.6.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
       ]

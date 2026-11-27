@@ -2777,14 +2777,84 @@
       "ownerId": 204443674,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/adiityaastr/mint-chibi-coding/1.0.2"
+        "url": "https://github.com/adiityaastr/mint-chibi-coding.git",
+        "ref": "v1.0.3"
       },
       "description": "Pesan Mint Chibi untuk perubahan status agen di Orca.",
       "categories": [
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.0.3",
+          "commit": "7e1bda5822c45b3fce310803b62de8722c0e2826",
+          "contentHash": "ce48f3f0b1488409a783cc4a62ab9e222566afcfd53436080c6b9cf72d594389",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Mint Chibi Responses",
+          "contributes": [
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Mint Chibi siap"
+            }
+          ],
+          "capabilities": [
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/adiityaastr.mint-chibi-responses/63037ab4526fd5bb.png",
+              "alt": "Mint Chibi duduk dengan laptop dan gelembung \"Kode siap dicek!\", di samping contoh label status bar: menunggu masukan, gagal, dan siap dicek",
+              "sha256": "63037ab4526fd5bbb5c08da2063a72d55c5226a7e39d80a2f6ff1465e2bb2eeb",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/adiityaastr.mint-chibi-responses/c8f5f922e876c6d9.png",
+              "alt": "Mint Chibi Responses icon",
+              "sha256": "c8f5f922e876c6d9c312425fcab8647f8692b885deff42ebf965225eea1adf20",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/adiityaastr.mint-chibi-responses/fd8042eec6445c4e.png",
+                "alt": "Status bar Orca menampilkan \"Fitur login sedang bekerja\" berwarna biru saat agen mengedit file, dan Mint Chibi mengetik di laptop",
+                "sha256": "fd8042eec6445c4ed22498fdcb941a15ba1ea335cabd4a97efb59924b26153ec",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/adiityaastr.mint-chibi-responses/70b6f8a0b0608158.png",
+                "alt": "Status bar menampilkan \"Fitur login menunggu masukan (+1)\" berwarna kuning, tooltip merinci tiga agen, dan Mint Chibi bertanya \"Bisa bantu aku?\"",
+                "sha256": "70b6f8a0b0608158e05b7589a446a58112a4dcad91056f03f01842aee7807d4a",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/adiityaastr.mint-chibi-responses/e4d4d90b64d239ae.png",
+                "alt": "Status bar menampilkan \"Fitur login gagal. Cek hasilnya\" berwarna merah setelah satu tes gagal, dan Mint Chibi berkata \"Ups, ada error!\"",
+                "sha256": "e4d4d90b64d239ae7254f7024ad169ee4d9a7a803d7688c964627fc306bea77e",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/adiityaastr.mint-chibi-responses/1498066a960fe081.png",
+                "alt": "Status bar menampilkan \"Fitur login selesai. Siap dicek\" berwarna hijau setelah 14 tes lulus, dan Mint Chibi berkata \"Kode siap dicek!\"",
+                "sha256": "1498066a960fe0815794350a546e19d299e77ccc8374ebf69bc29e5fd1ecc648",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/adiityaastr/mint-chibi-coding",
+          "updatedAt": "2026-11-27T18:42:00+07:00"
+        },
         {
           "version": "1.0.2",
           "commit": "0c7ad8017e19164443842c0459be0b9a298b0842",
@@ -20506,9 +20576,9 @@
               }
             ]
           },
-          "updatedAt": "2026-11-27T13:54:48+07:00",
           "license": "MIT",
-          "repository": "https://github.com/dungnt95/mermaid-studio-orca"
+          "repository": "https://github.com/dungnt95/mermaid-studio-orca",
+          "updatedAt": "2026-11-27T13:54:48+07:00"
         },
         {
           "version": "0.2.4",
@@ -20726,8 +20796,8 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Ebbop/orca-italiano.git",
-        "ref": "v1.4.279"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ebbop/orca-italiano/1.4.279"
       },
       "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.134 testi su 23.134 (100%), allineato a Orca 1.4.279. Pacchetto della community, non ufficiale.",
       "categories": [
@@ -31004,9 +31074,9 @@
             "agent:launch",
             "notifications:show"
           ],
-          "updatedAt": "2026-11-27T17:00:48+08:00",
           "license": "MIT",
-          "repository": "https://github.com/hu-qi/orca-grape-tasks"
+          "repository": "https://github.com/hu-qi/orca-grape-tasks",
+          "updatedAt": "2026-11-27T17:00:48+08:00"
         },
         {
           "version": "0.1.2",
@@ -42266,8 +42336,8 @@
       "ownerId": 295840340,
       "source": {
         "kind": "git",
-        "url": "https://github.com/MaximeBeretvas/orca-dbt-syntax.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/maximeberetvas/orca-dbt-syntax/0.1.0"
       },
       "description": "Syntax highlighting for dbt SQL models (Analytics SQL + Jinja2).",
       "categories": [
@@ -49296,9 +49366,9 @@
               "name": "uk"
             }
           ],
-          "updatedAt": "2026-11-27T13:00:05+08:00",
           "license": "MIT",
-          "repository": "https://github.com/olegoliyar-cmd/orca-ukrainian"
+          "repository": "https://github.com/olegoliyar-cmd/orca-ukrainian",
+          "updatedAt": "2026-11-27T13:00:05+08:00"
         }
       ]
     },
@@ -51895,7 +51965,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.4.0"
+        "ref": "v0.5.0"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51904,6 +51974,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.5.0",
+          "commit": "827a51ac87cd11a4ab2553a7a6997465c82a71e3",
+          "contentHash": "b81407f29b9ca4d40acafc5f830f44d4e4d01eb3c60d7c99666caee9d8a5540c",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T19:22:33+08:00"
+        },
         {
           "version": "0.4.0",
           "commit": "854425d22c4e0a4e74ceaae94c266b5f3fecf488",
@@ -52207,82 +52353,6 @@
           "license": "MIT",
           "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
           "updatedAt": "2026-11-27T17:16:33+08:00"
-        },
-        {
-          "version": "0.2.2",
-          "commit": "ef2c30b65ab12e393095610faadbfe5b8ff2bfb4",
-          "contentHash": "ee61b7d9c96bcb89cd46551588e43b3159e05f2c4b3986124c0d625948d57560",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.274",
-          "name": "Cyber HQ Radar",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Cyber HQ Radar"
-            },
-            {
-              "kind": "commands",
-              "name": "Cyber HQ: Refresh Fleet Radar"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "HQ · Booting"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
-              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
-              "alt": "Cyber HQ Radar icon",
-              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
-                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
-                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
-                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
-                "width": 1440,
-                "height": 900
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
-          "updatedAt": "2026-11-27T16:42:50+08:00"
         }
       ]
     },
@@ -75027,8 +75097,8 @@
       "ownerId": 86989629,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wizhelp/orca-proxmox/0.5.0"
+        "url": "https://github.com/wizhelp/orca-proxmox.git",
+        "ref": "v0.6.0"
       },
       "description": "A Proxmox estate in Orca, through Proxmox Datacenter Manager or PVE and PBS directly (optionally over SSH): hosts and guests with live charts and disk use, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
       "categories": [
@@ -75036,6 +75106,80 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.6.0",
+          "commit": "537f3d53b8d3a3adebb966415dbfd3636bb6be61",
+          "contentHash": "8acda3d1bbdcdd0b16ef737ce3f710873f7a8dad9b553faac2fe8d83515a7026",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Proxmox",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Proxmox"
+            },
+            {
+              "kind": "commands",
+              "name": "Proxmox: Show the estate panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Proxmox: Import the connection file"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Proxmox"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wizhelp.proxmox-visualizer/01058809c92018d6.png",
+              "alt": "Proxmox for Orca: the panel with host cards in the light theme and the estate tree in the dark theme, from an example estate",
+              "sha256": "01058809c92018d628c513aeb42e62429e09c76b0643f4ae1b867870439a928c",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/wizhelp.proxmox-visualizer/a0ea607b4dd3d769.png",
+              "alt": "Proxmox icon",
+              "sha256": "a0ea607b4dd3d7696338dbcd0bbfe1856d5db9f6ca03b54d6711d453a3b263e7",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/a85024a11939b91e.png",
+                "alt": "Host cards with CPU, memory and network charts; the estate tree in the dark theme; the guests table with disk use and one guest opened",
+                "sha256": "a85024a11939b91e3398c06b114fd0eda421b9244edd76bb719f3681e1186290",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/c57d9341959abeb7.png",
+                "alt": "Tasks of every remote with two failed backups; where a new VM fits, best node first; Orca hosts placed on their Proxmox nodes",
+                "sha256": "c57d9341959abeb78dd44d743b006a975ea3de0c1951d8e52d975bd1d0d42247",
+                "width": 1280,
+                "height": 800
+              },
+              {
+                "path": "assets/wizhelp.proxmox-visualizer/cf60e0849e8aa835.png",
+                "alt": "The Copy for AI preview without addresses; backups by age; the settings with a PDM, a PVE and a PBS connection, each read-only and pinned",
+                "sha256": "cf60e0849e8aa835bcfc4cdee4c2278d25fd33e3f40cb30c219ea309ec488105",
+                "width": 1280,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wizhelp/orca-proxmox",
+          "updatedAt": "2026-11-27T12:30:47+01:00"
+        },
         {
           "version": "0.5.0",
           "commit": "61dbf1e7720e1ede4f86bce070692f6c008ddc77",
@@ -75331,76 +75475,6 @@
           "license": "MIT",
           "repository": "https://github.com/wizhelp/orca-proxmox",
           "updatedAt": "2026-11-26T00:05:51+01:00"
-        },
-        {
-          "version": "0.1.0",
-          "commit": "e661097caf596d55b3c6518f1a7acf0b0954c59a",
-          "contentHash": "5ed01c6ae9f195a575c6ca3b56fc42324d3fa0f8d679643092a6c0258e2aa7ca",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Proxmox",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Proxmox"
-            },
-            {
-              "kind": "commands",
-              "name": "Proxmox: Show the estate panel"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Proxmox"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "secrets:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wizhelp.proxmox-visualizer/d79c32ad6438ad5d.png",
-              "alt": "Proxmox for Orca: the panel with host cards in the light theme and the estate tree in the dark theme, from an example estate",
-              "sha256": "d79c32ad6438ad5da20b4a7f234275f42a0e9b8cded7997041b273f73b6c0ed6",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/wizhelp.proxmox-visualizer/a0ea607b4dd3d769.png",
-              "alt": "Proxmox icon",
-              "sha256": "a0ea607b4dd3d7696338dbcd0bbfe1856d5db9f6ca03b54d6711d453a3b263e7",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wizhelp.proxmox-visualizer/a1950cebcc9d8e09.png",
-                "alt": "Host cards with CPU, memory and network charts; the estate tree in the dark theme; the guests table with one guest opened",
-                "sha256": "a1950cebcc9d8e092cc8ed189fc12687f84a45ad6e0641b2edb2cbe223b1ce8b",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/wizhelp.proxmox-visualizer/93af8d257069a2b4.png",
-                "alt": "Tasks of every remote with two failed backups; where a new VM fits, best node first; Orca hosts placed on their Proxmox nodes",
-                "sha256": "93af8d257069a2b49c6d867a4389f2fc5485663e80c195672d64849fb2e1676d",
-                "width": 1280,
-                "height": 800
-              },
-              {
-                "path": "assets/wizhelp.proxmox-visualizer/c3e4533282c72499.png",
-                "alt": "The Copy for AI preview without addresses; backups by age; the settings form with a read-only token and a pinned fingerprint",
-                "sha256": "c3e4533282c72499877cb732354435f85d7008cd685b5565cf5da78bd97f799c",
-                "width": 1280,
-                "height": 800
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wizhelp/orca-proxmox",
-          "updatedAt": "2026-11-25T22:22:54+01:00"
         }
       ]
     },
@@ -79200,9 +79274,9 @@
             "agent:read",
             "history:read"
           ],
-          "updatedAt": "2026-11-27T15:51:16+08:00",
           "license": "MIT",
-          "repository": "https://github.com/Zhanxiaogao/orca-ai-usage"
+          "repository": "https://github.com/Zhanxiaogao/orca-ai-usage",
+          "updatedAt": "2026-11-27T15:51:16+08:00"
         },
         {
           "version": "0.1.4",
