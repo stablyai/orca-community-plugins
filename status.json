@@ -3203,7 +3203,16 @@
       "ref": "refs/tags/moilolon/orca-obsidian-notes/0.2.5",
       "plugins": [
         "moilolon.notes"
-      ]
+      ],
+      "update": {
+        "ref": "v0.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "molanojf/orca-json-canvas": {
       "state": "listed",
@@ -3887,7 +3896,7 @@
     },
     "rickyking/orca-tasks": {
       "state": "listed",
-      "ref": "refs/tags/rickyking/orca-tasks/0.6.3",
+      "ref": "v0.6.4",
       "plugins": [
         "rickyking.agent-tasks"
       ]
