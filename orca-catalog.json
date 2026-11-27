@@ -30883,7 +30883,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/hu-qi/orca-grape-tasks.git",
-        "ref": "v0.1.2"
+        "ref": "v0.4.0"
       },
       "description": "Your Grape issues in an Orca sidebar panel: read the requirement, then dispatch it into the focused workspace as an agent prompt.",
       "categories": [
@@ -30892,6 +30892,50 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "caa8822ee071fdd06ea78d63914443d9dbf619d7",
+          "contentHash": "5a224613a41437d65e2b1a9ca4909240b18fa9b798e54850d64c2cd623c69b7b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Grape Tasks",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Grape Tasks"
+            },
+            {
+              "kind": "commands",
+              "name": "Grape Tasks: Refresh my issues"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Grape -"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:read",
+            "agent:launch",
+            "notifications:show"
+          ],
+          "updatedAt": "2026-11-27T17:00:48+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/hu-qi/orca-grape-tasks"
+        },
         {
           "version": "0.1.2",
           "commit": "9057c04ad503503f7305fe25bab49b9a83842529",
@@ -51743,7 +51787,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/peterhiroshi-hub/cyber-hq-radar.git",
-        "ref": "v0.3.2"
+        "ref": "v0.3.4"
       },
       "description": "All-in-one cyberpunk fleet command dashboard for Orca: live Bots, multi-host workers, real-time CPU/RAM/Disk/GPU gauges, engine mix icons, fullscreen wallboard, and 1080p video export.",
       "categories": [
@@ -51752,6 +51796,82 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.4",
+          "commit": "79c3ebc98be4b7dc5d283981872c88a941e4bc7d",
+          "contentHash": "d6c4a0ff7d603db730c722aa7809d352b4d4ee935b832011d4f2fed65c1ce746",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "Cyber HQ Radar",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Cyber HQ Radar"
+            },
+            {
+              "kind": "commands",
+              "name": "Cyber HQ: Refresh Fleet Radar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "HQ · Booting"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
+              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
+              "alt": "Cyber HQ Radar icon",
+              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
+              "width": 512,
+              "height": 512
+            },
+            "screenshots": [
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
+                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
+                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
+                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
+                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
+          "updatedAt": "2026-11-27T17:31:52+08:00"
+        },
         {
           "version": "0.3.2",
           "commit": "d2d760885b8db0ba63d0cfe494b8ed8b97eb04dc",
@@ -52055,82 +52175,6 @@
           "license": "MIT",
           "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
           "updatedAt": "2026-11-27T15:40:12+08:00"
-        },
-        {
-          "version": "0.1.3",
-          "commit": "a87fc88e9dff23db9401ae618321adfb8cfd13f4",
-          "contentHash": "6d0b136cc28df5643df6bdce185c36f51efdc902cc85a7259cc86e558eba6217",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.274",
-          "name": "Cyber HQ Radar",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Cyber HQ Radar"
-            },
-            {
-              "kind": "commands",
-              "name": "Cyber HQ: Refresh Fleet Radar"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "HQ · Booting"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-              "alt": "Cyber HQ Radar dashboard showing live Orca Bots, 5 AI engine icons, animated mesh conduits, and host CPU/RAM/Disk/GPU gauges",
-              "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/peterhiroshi-hub.cyber-hq-radar/db40659ec2b4af70.png",
-              "alt": "Cyber HQ Radar icon",
-              "sha256": "db40659ec2b4af703284fc94c0dedbcef6ee673646b2263c1664faddb9c69f45",
-              "width": 512,
-              "height": 512
-            },
-            "screenshots": [
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/b3434d98c4744705.png",
-                "alt": "All-in-one 3-layer live fleet topology with Bot brains, Engine Mix chart, and real-time host gauges",
-                "sha256": "b3434d98c47447058dff99dbfc4f89cb1ab3c3965d48cf08edd1de3fc1fbcade",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/peterhiroshi-hub.cyber-hq-radar/e611cbe64cb565c9.png",
-                "alt": "Interactive spotlight mode pinning a GPU node to isolate its dispatching Bots and active worker conduits",
-                "sha256": "e611cbe64cb565c91ff1e29fb7e7f16f2885cc8a03b05cf7c3a2fdd6df457586",
-                "width": 1440,
-                "height": 900
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/peterhiroshi-hub/cyber-hq-radar",
-          "updatedAt": "2026-11-27T15:08:11+08:00"
         }
       ]
     },
@@ -74810,8 +74854,8 @@
       "ownerId": 86989629,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wizhelp/orca-proxmox.git",
-        "ref": "v0.5.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wizhelp/orca-proxmox/0.5.0"
       },
       "description": "A Proxmox estate in Orca, through Proxmox Datacenter Manager or PVE and PBS directly (optionally over SSH): hosts and guests with live charts and disk use, tasks, backups and where Orca runs; alerts and a status-bar summary; read-only.",
       "categories": [
@@ -78517,8 +78561,8 @@
       "ownerId": 8830451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.12"
+        "url": "https://github.com/yoshhiide/orca-plugin-session-board.git",
+        "ref": "v0.2.13"
       },
       "description": "Track Bot work and regular Orca sessions together in the sidebar.",
       "categories": [
@@ -78527,6 +78571,67 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.13",
+          "commit": "a5eb57627ac95c56ef7ffadfa31dd8c317f65d65",
+          "contentHash": "30ab31dc4043f08aa4e9d5b36552a8de09505982cbaf9a15855957e86ec8b791",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.277",
+          "name": "Session Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Session Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Session Board"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yoshhiide.session-board/75b0db785d36f612.png",
+              "alt": "Session Board in dark mode, with Bot work, chats, and terminals grouped into Needs input, In progress, and Done.",
+              "sha256": "75b0db785d36f6121299e27485d4f2b7bae8f8aefc1285e76fb960900be8ce4c",
+              "width": 1590,
+              "height": 810
+            },
+            "screenshots": [
+              {
+                "path": "assets/yoshhiide.session-board/e575de549ff5d24e.png",
+                "alt": "List view of Bot work and regular sessions, grouped by status with Needs input first.",
+                "sha256": "e575de549ff5d24e9984b8f2a21f32de3c1d75da4e850423ba6360deab4ec000",
+                "width": 1283,
+                "height": 1350
+              },
+              {
+                "path": "assets/yoshhiide.session-board/a5d70c4df269572b.png",
+                "alt": "Board view in light mode, with three status columns and a Reply button on Bot Items.",
+                "sha256": "a5d70c4df269572bc12e78e0f05b8148406a94ab61f36e55dbb95b654ed2ae0f",
+                "width": 1829,
+                "height": 817
+              },
+              {
+                "path": "assets/yoshhiide.session-board/d169bab7d7e92f64.png",
+                "alt": "Bot Item details with a pending question, answer options, an Answer in Orca button, and the Activity conversation.",
+                "sha256": "d169bab7d7e92f64adde4e1f25e8b7b16088b7eda1fea12d7a220255d76b4ab5",
+                "width": 1280,
+                "height": 1370
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yoshhiide/orca-plugin-session-board",
+          "updatedAt": "2026-11-27T18:19:37+09:00"
+        },
         {
           "version": "0.2.12",
           "commit": "0ae1c22dcbef24782c0153057a1b34d9921450ad",
@@ -78770,67 +78875,6 @@
           "license": "MIT",
           "repository": "https://github.com/yoshhiide/orca-plugin-session-board",
           "updatedAt": "2026-11-27T11:40:44+09:00"
-        },
-        {
-          "version": "0.2.8",
-          "commit": "8ebede1a984dcc2f22d7fa814e287534f55b6008",
-          "contentHash": "954b386b4ba3f9c9b42a6abde7e2fab7989be18059118c6d6dae7027b080c194",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.277",
-          "name": "Session Board",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Session Board"
-            },
-            {
-              "kind": "commands",
-              "name": "Open Session Board"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            }
-          ],
-          "capabilities": [
-            "agent:read",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/yoshhiide.session-board/75b0db785d36f612.png",
-              "alt": "Session Board in dark mode, with Bot work, chats, and terminals grouped into Needs input, In progress, and Done.",
-              "sha256": "75b0db785d36f6121299e27485d4f2b7bae8f8aefc1285e76fb960900be8ce4c",
-              "width": 1590,
-              "height": 810
-            },
-            "screenshots": [
-              {
-                "path": "assets/yoshhiide.session-board/e575de549ff5d24e.png",
-                "alt": "List view of Bot work and regular sessions, grouped by status with Needs input first.",
-                "sha256": "e575de549ff5d24e9984b8f2a21f32de3c1d75da4e850423ba6360deab4ec000",
-                "width": 1283,
-                "height": 1350
-              },
-              {
-                "path": "assets/yoshhiide.session-board/a5d70c4df269572b.png",
-                "alt": "Board view in light mode, with three status columns and a Reply button on Bot Items.",
-                "sha256": "a5d70c4df269572bc12e78e0f05b8148406a94ab61f36e55dbb95b654ed2ae0f",
-                "width": 1829,
-                "height": 817
-              },
-              {
-                "path": "assets/yoshhiide.session-board/d169bab7d7e92f64.png",
-                "alt": "Bot Item details with a pending question, answer options, an Answer in Orca button, and the Activity conversation.",
-                "sha256": "d169bab7d7e92f64adde4e1f25e8b7b16088b7eda1fea12d7a220255d76b4ab5",
-                "width": 1280,
-                "height": 1370
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/yoshhiide/orca-plugin-session-board",
-          "updatedAt": "2026-11-27T11:05:34+09:00"
         }
       ]
     },

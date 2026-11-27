@@ -129,6 +129,16 @@
         ]
       }
     },
+    "adiityaastr/mint-chibi-coding": {
+      "state": "rejected",
+      "ref": "v1.0.1",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
+      ]
+    },
     "aeldi/orca-agent-advisor": {
       "state": "rejected",
       "ref": "v0.1.0",
@@ -2121,19 +2131,10 @@
     },
     "hu-qi/orca-grape-tasks": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "v0.4.0",
       "plugins": [
         "hu-qi.grape-tasks"
-      ],
-      "update": {
-        "ref": "v0.4.0",
-        "reasons": [
-          {
-            "category": "under-review",
-            "detail": "update"
-          }
-        ]
-      }
+      ]
     },
     "hubo1989/orca-codegraph-init": {
       "state": "listed",
@@ -3584,7 +3585,7 @@
     },
     "peterhiroshi-hub/cyber-hq-radar": {
       "state": "listed",
-      "ref": "v0.3.2",
+      "ref": "v0.3.4",
       "plugins": [
         "peterhiroshi-hub.cyber-hq-radar"
       ]
@@ -5134,7 +5135,7 @@
     },
     "wizhelp/orca-proxmox": {
       "state": "listed",
-      "ref": "v0.5.0",
+      "ref": "refs/tags/wizhelp/orca-proxmox/0.5.0",
       "plugins": [
         "wizhelp.proxmox-visualizer"
       ]
@@ -5241,7 +5242,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.12",
+      "ref": "v0.2.13",
       "plugins": [
         "yoshhiide.session-board"
       ],
