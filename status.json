@@ -1243,7 +1243,7 @@
     },
     "dungnt95/mermaid-studio-orca": {
       "state": "listed",
-      "ref": "v0.2.4",
+      "ref": "refs/tags/dungnt95/mermaid-studio-orca/0.2.4",
       "plugins": [
         "dungnt95.mermaid-studio"
       ]
@@ -1915,7 +1915,7 @@
     },
     "h00ns/test-runner-for-orca": {
       "state": "listed",
-      "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.2",
+      "ref": "v0.2.3",
       "plugins": [
         "h00ns.test-runner"
       ]
@@ -2416,7 +2416,7 @@
     },
     "jondmarien/orca-discord-presence": {
       "state": "listed",
-      "ref": "v1.2.1",
+      "ref": "refs/tags/jondmarien/orca-discord-presence/1.2.1",
       "plugins": [
         "jondmarien.discord-presence"
       ]
@@ -5181,7 +5181,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "v0.2.12",
+      "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.12",
       "plugins": [
         "yoshhiide.session-board"
       ],

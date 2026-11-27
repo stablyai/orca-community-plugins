@@ -20337,8 +20337,8 @@
       "ownerId": 33015211,
       "source": {
         "kind": "git",
-        "url": "https://github.com/dungnt95/mermaid-studio-orca.git",
-        "ref": "v0.2.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/dungnt95/mermaid-studio-orca/0.2.4"
       },
       "description": "WYSIWYG visual editor for Mermaid diagrams: edit flowcharts, sequence, state and mindmap diagrams directly on the canvas, with code and canvas kept in sync. Shapes, colours, manual layout, themes, Markdown fences and SVG/PNG export. Unofficial; not affiliated with the Mermaid project.",
       "categories": [],
@@ -29072,8 +29072,8 @@
       "ownerId": 97011015,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.2"
+        "url": "https://github.com/h00ns/test-runner-for-orca.git",
+        "ref": "v0.2.3"
       },
       "description": "Run your workspace's tests from the sidebar, re-run the related ones when an agent finishes, and send failures back to the agent. Vitest, Jest, Playwright, Cypress, Gradle, Maven and pytest are found on their own, monorepos included; if your setup is not, the README has a prompt that has your agent ",
       "categories": [
@@ -29082,6 +29082,88 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "b76ab0e1b389e5e00df7132eae8d225877532a5d",
+          "contentHash": "6ca1b4af4db78bf267f41c51882d82cdb835e507afad19b46b6aad7ecfe0be13",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.260",
+          "name": "Test Runner",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Test Runner"
+            },
+            {
+              "kind": "commands",
+              "name": "Test Runner: Run tests in this workspace"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Tests"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send",
+            "notifications:show",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/h00ns.test-runner/c9efd99a53b2ad97.png",
+              "alt": "The Test Runner panel showing a monorepo run with two failing tests, one of them new, after an agent finished",
+              "sha256": "c9efd99a53b2ad972ec04cfb3d9eeb38ca9905d75806c006330a791cb0855164",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/h00ns.test-runner/72e223fcab15ccc5.png",
+              "alt": "Test Runner icon",
+              "sha256": "72e223fcab15ccc5dd633123b98c29c6f864593ef4636d34e46aa581652261ab",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/h00ns.test-runner/fd2ea073fae72890.png",
+                "alt": "A failing test in the panel and the one-line prompt Test Runner types into the agent",
+                "sha256": "fd2ea073fae7289014a63f0a7384afa8a3705216eca5c8152168b9003e0e5163",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/h00ns.test-runner/e9ede61f0f6aa469.png",
+                "alt": "The README prompt that has an agent write .orca-test-runner.json, next to the file it writes",
+                "sha256": "e9ede61f0f6aa46917264491c93c2df005ee33c4aeb13e3d8e0677bc47086455",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/h00ns.test-runner/ee47d8591893c0dc.png",
+                "alt": "The panel while a monorepo runs, failing tests in the dark theme, and every project passing in the light theme",
+                "sha256": "ee47d8591893c0dcdf64b6fd33b6206797e2a871cc535814d907685b41eb71a8",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/h00ns/test-runner-for-orca",
+          "updatedAt": "2026-11-27T15:36:02+09:00"
+        },
         {
           "version": "0.2.2",
           "commit": "5d9aece44bb20afc4b809e8cd0406b6d3780c28d",
@@ -34358,8 +34440,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/jondmarien/orca-discord-presence.git",
-        "ref": "v1.2.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/jondmarien/orca-discord-presence/1.2.1"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -77743,8 +77825,8 @@
       "ownerId": 8830451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yoshhiide/orca-plugin-session-board.git",
-        "ref": "v0.2.12"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yoshhiide/orca-plugin-session-board/0.2.12"
       },
       "description": "Track Bot work and regular Orca sessions together in the sidebar.",
       "categories": [
