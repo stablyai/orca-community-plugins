@@ -115,7 +115,7 @@
     },
     "addisflava/orca-llm-router": {
       "state": "listed",
-      "ref": "refs/tags/addisflava/orca-llm-router/1.3.41",
+      "ref": "v1.3.42",
       "plugins": [
         "addisflava.llm-router"
       ]
@@ -1227,7 +1227,7 @@
     },
     "dungnt95/mermaid-studio-orca": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "under-review",
@@ -1876,6 +1876,16 @@
         }
       ]
     },
+    "gyj99/agy-cache-monitor": {
+      "state": "rejected",
+      "ref": null,
+      "reasons": [
+        {
+          "category": "no-release-tag",
+          "detail": "no release tag: push a tag such as v1.0.0"
+        }
+      ]
+    },
     "gzimbron/svelte-syntax-orca": {
       "state": "listed",
       "ref": "refs/tags/gzimbron/svelte-syntax-orca/1.0.0",
@@ -2322,7 +2332,7 @@
     },
     "jiang-xiaoxing/orca-quiet-usage": {
       "state": "rejected",
-      "ref": "v1.0.0",
+      "ref": "v1.0.1",
       "reasons": [
         {
           "category": "under-review",
@@ -5138,7 +5148,7 @@
     },
     "yoshhiide/orca-plugin-session-board": {
       "state": "listed",
-      "ref": "v0.2.9",
+      "ref": "v0.2.10",
       "plugins": [
         "yoshhiide.session-board"
       ],
