@@ -1915,9 +1915,15 @@
       "plugins": [
         "guilatrova.bot-kanban-board"
       ],
-      "notes": [
-        "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
-      ]
+      "update": {
+        "ref": "v0.15.1",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "code"
+          }
+        ]
+      }
     },
     "guilatrova/token-reminder": {
       "state": "rejected",
@@ -3318,7 +3324,7 @@
     },
     "naitsric/orca-claude-procesos": {
       "state": "listed",
-      "ref": "refs/tags/naitsric/orca-claude-procesos/0.6.1",
+      "ref": "v0.6.2",
       "plugins": [
         "naitsric.claude-procesos"
       ]
@@ -3875,7 +3881,7 @@
     },
     "rickyking/orca-tasks": {
       "state": "listed",
-      "ref": "v0.6.3",
+      "ref": "refs/tags/rickyking/orca-tasks/0.6.3",
       "plugins": [
         "rickyking.agent-tasks"
       ]

@@ -47809,8 +47809,8 @@
       "ownerId": 1311370,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/naitsric/orca-claude-procesos/0.6.1"
+        "url": "https://github.com/naitsric/orca-claude-procesos.git",
+        "ref": "v0.6.2"
       },
       "description": "Monitor for Claude Code sessions, the processes they start and the ones left orphaned, and the Git worktrees left open, with a verdict on which to close. In English and Spanish.",
       "categories": [
@@ -47818,6 +47818,57 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "15f18d33b9961509bba0f40d1183ddba49ea71ae",
+          "contentHash": "30f9f82625dd34fc3678f6dc775e5c063ca78caa032de1614a62b4e0088a3861",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Claude Processes",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Claude Processes"
+            },
+            {
+              "kind": "panels",
+              "name": "Claude Activity"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: check now"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close certain orphans"
+            },
+            {
+              "kind": "commands",
+              "name": "Claude Processes: close inactive worktrees"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Claude"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "notifications:show"
+          ],
+          "images": {
+            "icon": {
+              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
+              "alt": "Claude Processes icon",
+              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/naitsric/orca-claude-procesos",
+          "updatedAt": "2026-11-27T14:05:13-05:00"
+        },
         {
           "version": "0.6.1",
           "commit": "ca8f0e24e8d37da176bc15726888aee50d2175e4",
@@ -48013,53 +48064,6 @@
           "license": "MIT",
           "repository": "https://github.com/naitsric/orca-claude-procesos",
           "updatedAt": "2026-11-17T12:45:54-05:00"
-        },
-        {
-          "version": "0.3.0",
-          "commit": "a504f725fb49c4a26586dcfcf6ff6bf86f08300e",
-          "contentHash": "f223ac97bca38cb1011eb0b73a5278bd4bca7a3fcbed5321d90b73b2cf1faae3",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Procesos de Claude",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Procesos de Claude"
-            },
-            {
-              "kind": "panels",
-              "name": "Actividad de Claude"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: revisar ahora"
-            },
-            {
-              "kind": "commands",
-              "name": "Procesos de Claude: cerrar los huérfanos seguros"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Claude"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "notifications:show"
-          ],
-          "images": {
-            "icon": {
-              "path": "assets/naitsric.claude-procesos/f2b0227e4a4440a5.png",
-              "alt": "Procesos de Claude icon",
-              "sha256": "f2b0227e4a4440a59b2fb8620a367f790926d709dd122fb5b9bc20f926cdb67c",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/naitsric/orca-claude-procesos",
-          "updatedAt": "2026-11-17T09:28:18-05:00"
         }
       ]
     },
@@ -55760,8 +55764,8 @@
       "ownerId": 2820809,
       "source": {
         "kind": "git",
-        "url": "https://github.com/rickyking/orca-tasks.git",
-        "ref": "v0.6.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/rickyking/orca-tasks/0.6.3"
       },
       "description": "Scheduled bots collect tasks from your other apps into one board in Orca. From it, hand any task to a bot or start it in its project with a coding agent.",
       "categories": [
