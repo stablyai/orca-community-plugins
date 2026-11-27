@@ -10791,8 +10791,8 @@
       "ownerId": 75719217,
       "source": {
         "kind": "git",
-        "url": "https://github.com/chantawat741/isometric-pixel-art.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/chantawat741/isometric-pixel-art/0.2.0"
       },
       "description": "An isometric pixel-art virtual office for your AI agents. Every agent running in Orca becomes a little office worker: it sits at a desk while it works, raises a ? when it waits for you, shouts ! when it is blocked and wanders to the lounge when it is idle. Click a character to see its profile, focus",
       "categories": [
@@ -34267,8 +34267,8 @@
       "ownerId": 2687328,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/jondmarien/orca-discord-presence/1.1.1"
+        "url": "https://github.com/jondmarien/orca-discord-presence.git",
+        "ref": "v1.2.0"
       },
       "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
       "categories": [
@@ -34277,6 +34277,145 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.2.0",
+          "commit": "b3fec55b913c5a6eee5430f613981e5f6ad5a67d",
+          "contentHash": "4c448fd7a1694b84f70e3b057aa82c83130c98d28a6741eb5bb778a5824a2838",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.278",
+          "name": "Rich Presence for Discord",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Rich Presence"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Enable/Disable"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show or Hide Panel"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Show Status"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Reload RPC"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Cycle Detail Level"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Branch"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent State"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Terminal Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Machine Name"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Elapsed Timer"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Bridge"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Debug Logging"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Open Button"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Toggle Agent Count"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Clear"
+            },
+            {
+              "kind": "commands",
+              "name": "Rich Presence: Configure"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Discord"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/jondmarien.discord-presence/e2b815ffd538f18f.webp",
+              "alt": "Rich Presence for Discord: title, four agent state icons, Discord profile card showing Working in Orca",
+              "sha256": "e2b815ffd538f18f7f58150cedcf3af570393b1f7ac8cd67ae66196e539a96f3",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/jondmarien.discord-presence/97715988bb458fac.png",
+              "alt": "Rich Presence for Discord icon",
+              "sha256": "97715988bb458fac7de742d5ed999f4638639ca22eb9a3006b792b9d678bb093",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/jondmarien.discord-presence/47f6349c40c45689.webp",
+                "alt": "Rich Presence panel Full view: Discord profile preview, last 30 minutes of agent states, agent list with chat names, and Show on Discord switches",
+                "sha256": "47f6349c40c45689b272e19ab03104995178b8b04fae992aebfb4419899d1cd0",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/jondmarien.discord-presence/8b25f52a96af6933.webp",
+                "alt": "Rich Presence panel Minimal view: state-coloured hero showing Working with 2 agents and a timer, plus the 30-minute strip",
+                "sha256": "8b25f52a96af693320c093d33bb7bc6b768d6e782dd7d7d2c6c67f34ea34cfe7",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "updatedAt": "2026-11-26T23:56:00-05:00",
+          "license": "MIT",
+          "repository": "https://github.com/jondmarien/orca-discord-presence"
+        },
         {
           "version": "1.1.1",
           "commit": "ae774739126cfcd0c606e37c835aef5f3de003ab",
@@ -34824,135 +34963,6 @@
           "license": "MIT",
           "repository": "https://github.com/jondmarien/orca-discord-presence",
           "updatedAt": "2026-11-06T22:19:35-05:00"
-        },
-        {
-          "version": "1.0.1",
-          "commit": "0c79d117f8f7b3a2205703e45176a8e7ffbe2246",
-          "contentHash": "6163296b0d09136e1202692cee374ab991f27ef345f246f2fb77c7571ae29442",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "Rich Presence for Discord",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Rich Presence"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Enable/Disable"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Show Status"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Reload RPC"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Cycle Detail Level"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Branch"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Agent State"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Terminal Count"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Machine Name"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Elapsed Timer"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Bridge"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Debug Logging"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Open Button"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Toggle Agent Count"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Clear"
-            },
-            {
-              "kind": "commands",
-              "name": "Rich Presence: Configure"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "agent:read",
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/jondmarien.discord-presence/e2b815ffd538f18f.webp",
-              "alt": "Rich Presence for Discord: title, four agent state icons, Discord profile card showing Working in Orca",
-              "sha256": "e2b815ffd538f18f7f58150cedcf3af570393b1f7ac8cd67ae66196e539a96f3",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/jondmarien.discord-presence/c06515a54b51f9f2.png",
-              "alt": "Rich Presence for Discord icon",
-              "sha256": "c06515a54b51f9f2d8e94ef2450535bf178b1ef072957faf870f76d34fb5e4a9",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/jondmarien.discord-presence/47f6349c40c45689.webp",
-                "alt": "Rich Presence panel Full view: Discord profile preview, last 30 minutes of agent states, agent list with chat names, and Show on Discord switches",
-                "sha256": "47f6349c40c45689b272e19ab03104995178b8b04fae992aebfb4419899d1cd0",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/jondmarien.discord-presence/8b25f52a96af6933.webp",
-                "alt": "Rich Presence panel Minimal view: state-coloured hero showing Working with 2 agents and a timer, plus the 30-minute strip",
-                "sha256": "8b25f52a96af693320c093d33bb7bc6b768d6e782dd7d7d2c6c67f34ea34cfe7",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/jondmarien/orca-discord-presence",
-          "updatedAt": "2026-11-04T23:18:24-05:00"
         }
       ]
     },
@@ -48709,6 +48719,38 @@
           "license": "MIT",
           "repository": "https://github.com/oddieradhie/orca-kerjan",
           "updatedAt": "2026-11-19T21:03:25+07:00"
+        }
+      ]
+    },
+    {
+      "id": "olegoliyar-cmd.oliyar-uk",
+      "ownerId": 273304767,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/olegoliyar-cmd/orca-ukrainian.git",
+        "ref": "v1.4.278"
+      },
+      "description": "Інтерфейс Orca українською: повний переклад рядків Orca 1.4.278 (21 785 ключів, покриття за формулою Orca 100 %). Автор: Олег Оліяр (github.com/olegoliyar-cmd).",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "1.4.278",
+          "commit": "d4cdb18595d04fd414f69391a679beb241968886",
+          "contentHash": "473a932d07a1fb81d903a371241e4748223c4ea13da3549420550edd84eb2506",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Українська",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "uk"
+            }
+          ],
+          "updatedAt": "2026-11-27T13:00:05+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/olegoliyar-cmd/orca-ukrainian"
         }
       ]
     },
