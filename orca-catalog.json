@@ -2180,8 +2180,8 @@
       "ownerId": 13881665,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/addisflava/orca-llm-router/1.3.40"
+        "url": "https://github.com/addisflava/orca-llm-router.git",
+        "ref": "v1.3.41"
       },
       "description": "Use all your subscriptions and API credits from any provider and coding plan on any agent in Orca, in one place, without leaving Orca. Features multi-key credential pools with smooth weighted rotation, priority tiers, routing different providers behind a single model name with seamless fallback, and",
       "categories": [
@@ -2190,6 +2190,122 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.3.41",
+          "commit": "75c23fc8f68d31a7b1b39a8cdff96a600c1ce5e9",
+          "contentHash": "ade718d79eea182d55a8cc79770f38efa2785f1061274aebad088e9be0eee993",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "LLM Router for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Orca LLM Router"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: gateway status"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: start sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: stop sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: restart sidecar"
+            },
+            {
+              "kind": "commands",
+              "name": "Orca LLM Router: test providers"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "hooks",
+              "name": "agent.launch.before"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "router:18080"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "settings:own",
+            "secrets:own",
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/addisflava.llm-router/799ec8f03d513730.jpg",
+              "alt": "LLM Router for Orca cover with gateway overview and provider panels beside a short feature summary",
+              "sha256": "799ec8f03d513730144c8a83c8feebcd33ac34848521c48e56f2b20e0a02c387",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/addisflava.llm-router/c08a9eba6ad9af52.png",
+              "alt": "LLM Router for Orca icon",
+              "sha256": "c08a9eba6ad9af52a372810c5be0338212e4b6ee31d15744f05cbf35452efd41",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/addisflava.llm-router/db42611d50dc52bb.png",
+                "alt": "Orca LLM Router live overview dashboard showing active gateway, metrics, and agent endpoints",
+                "sha256": "db42611d50dc52bbd67b7e64a50296a54542dc3b5a834ed73dc46849343a157a",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/b46aa5bf26d30e54.png",
+                "alt": "Orca LLM Router routing panel showing model aliases, fastest-first ranking, and live failover telemetry",
+                "sha256": "b46aa5bf26d30e540bc0cc29b173fc4e87b0d3520317426d3609e903aebc7534",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/92bfe430175dc036.png",
+                "alt": "Orca LLM Router live request log showing query filtering and automatic failover retries resolving to 200 OK",
+                "sha256": "92bfe430175dc036dd1394bd9a60a116af39af7f729b2bdc90c79b569fe87f7d",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/3cd493af420187b3.png",
+                "alt": "Orca LLM Router providers panel showing multi-provider configuration, key pools, and model discovery",
+                "sha256": "3cd493af420187b38c92980099460cc2f4bd64cf3d06f1664b59876aac4b37e5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/2f8c0cc9fcc4e129.png",
+                "alt": "Interactive route target editor filtering 360+ models across providers with drag-and-drop order",
+                "sha256": "2f8c0cc9fcc4e1291f3fb6ae141c2dcfec8d5e51c10e60bb3c04e187d0e4b395",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/addisflava.llm-router/60f2ccbc766cc2cd.png",
+                "alt": "Orca LLM Router agents tab with one-click routing toggles for 45+ supported coding agents",
+                "sha256": "60f2ccbc766cc2cdec65f375902f7ad68c20471265d89cfa1d1d4bd0e86dfa17",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/addisflava/orca-llm-router",
+          "updatedAt": "2026-11-27T05:03:47+03:00"
+        },
         {
           "version": "1.3.40",
           "commit": "555efa2b64fd49f77de5a0dbe414b7d33e1f67c3",
@@ -2653,122 +2769,6 @@
           "license": "MIT",
           "repository": "https://github.com/addisflava/orca-llm-router",
           "updatedAt": "2026-11-26T22:53:42+03:00"
-        },
-        {
-          "version": "1.3.35",
-          "commit": "aeb42b32ad27124a09790d2e61bb175b81af2147",
-          "contentHash": "c9279777d5db66631639069261caed2a62349bef65e9c5a8ad2cbd1370dd1260",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "LLM Router for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Orca LLM Router"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: gateway status"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: start sidecar"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: stop sidecar"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: restart sidecar"
-            },
-            {
-              "kind": "commands",
-              "name": "Orca LLM Router: test providers"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "hooks",
-              "name": "agent.launch.before"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "router:18080"
-            }
-          ],
-          "capabilities": [
-            "storage:own",
-            "settings:own",
-            "secrets:own",
-            "agent:read",
-            "notifications:show"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/addisflava.llm-router/799ec8f03d513730.jpg",
-              "alt": "LLM Router for Orca cover with gateway overview and provider panels beside a short feature summary",
-              "sha256": "799ec8f03d513730144c8a83c8feebcd33ac34848521c48e56f2b20e0a02c387",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/addisflava.llm-router/c08a9eba6ad9af52.png",
-              "alt": "LLM Router for Orca icon",
-              "sha256": "c08a9eba6ad9af52a372810c5be0338212e4b6ee31d15744f05cbf35452efd41",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/addisflava.llm-router/db42611d50dc52bb.png",
-                "alt": "Orca LLM Router live overview dashboard showing active gateway, metrics, and agent endpoints",
-                "sha256": "db42611d50dc52bbd67b7e64a50296a54542dc3b5a834ed73dc46849343a157a",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/addisflava.llm-router/b46aa5bf26d30e54.png",
-                "alt": "Orca LLM Router routing panel showing model aliases, fastest-first ranking, and live failover telemetry",
-                "sha256": "b46aa5bf26d30e540bc0cc29b173fc4e87b0d3520317426d3609e903aebc7534",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/addisflava.llm-router/92bfe430175dc036.png",
-                "alt": "Orca LLM Router live request log showing query filtering and automatic failover retries resolving to 200 OK",
-                "sha256": "92bfe430175dc036dd1394bd9a60a116af39af7f729b2bdc90c79b569fe87f7d",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/addisflava.llm-router/3cd493af420187b3.png",
-                "alt": "Orca LLM Router providers panel showing multi-provider configuration, key pools, and model discovery",
-                "sha256": "3cd493af420187b38c92980099460cc2f4bd64cf3d06f1664b59876aac4b37e5",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/addisflava.llm-router/2f8c0cc9fcc4e129.png",
-                "alt": "Interactive route target editor filtering 360+ models across providers with drag-and-drop order",
-                "sha256": "2f8c0cc9fcc4e1291f3fb6ae141c2dcfec8d5e51c10e60bb3c04e187d0e4b395",
-                "width": 1600,
-                "height": 1000
-              },
-              {
-                "path": "assets/addisflava.llm-router/60f2ccbc766cc2cd.png",
-                "alt": "Orca LLM Router agents tab with one-click routing toggles for 45+ supported coding agents",
-                "sha256": "60f2ccbc766cc2cdec65f375902f7ad68c20471265d89cfa1d1d4bd0e86dfa17",
-                "width": 1600,
-                "height": 1000
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/addisflava/orca-llm-router",
-          "updatedAt": "2026-11-26T22:27:25+03:00"
         }
       ]
     },
@@ -12786,8 +12786,8 @@
       "ownerId": 5411281,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/cnzgray/orca-mattpocock-workflow/0.6.1"
+        "url": "https://github.com/cnzgray/orca-mattpocock-workflow.git",
+        "ref": "v0.6.2"
       },
       "description": "Matt Pocock workflow panel: ticket triage, backlog overview, environment checks, one-click prompt copy, and Orca worktree creation.",
       "categories": [
@@ -12796,6 +12796,43 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.6.2",
+          "commit": "d2b8a8e61b81821045aa7a7c92cc920b9c864806",
+          "contentHash": "44a4565a08dbc7fc2dd8fb0057d3cd1774424662d139905857280456a84429e4",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "MattWorkflow",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "MattWorkflow"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Refresh tickets"
+            },
+            {
+              "kind": "commands",
+              "name": "MattWorkflow: Open current workspace in Orca"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "storage:own",
+            "settings:own",
+            "notifications:show",
+            "agent:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
+          "updatedAt": "2026-11-27T09:49:21+08:00"
+        },
         {
           "version": "0.6.1",
           "commit": "c03bd2095b7e84666ba94aced33b383f171e2c42",
@@ -12943,43 +12980,6 @@
           "license": "MIT",
           "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
           "updatedAt": "2026-11-24T23:33:27+08:00"
-        },
-        {
-          "version": "0.3.1",
-          "commit": "ee0d441bb0a721f6e0585fdb848e13c462cad696",
-          "contentHash": "7440a98bc8ebb9aebdd8255b391841e3dd5f7766cd74a5ed4f468b6b58c75b2f",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "MattWorkflow",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "MattWorkflow"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Refresh tickets"
-            },
-            {
-              "kind": "commands",
-              "name": "MattWorkflow: Open current workspace in Orca"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "storage:own",
-            "settings:own",
-            "notifications:show",
-            "agent:read"
-          ],
-          "license": "MIT",
-          "repository": "https://github.com/cnzgray/orca-mattpocock-workflow",
-          "updatedAt": "2026-11-24T22:31:03+08:00"
         }
       ]
     },
@@ -37792,6 +37792,43 @@
       ]
     },
     {
+      "id": "lazy9sascha.p-999k",
+      "ownerId": 9911649,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lazy9sascha/p-999k.git",
+        "ref": "v0.2.3",
+        "path": "plugins/p-999k"
+      },
+      "description": "Connect the agents you use outside the terminal to Orca. Ask Dot, Muse, GrokBot, Cue, or Instinct and get replies in your project chat.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.2.3",
+          "commit": "3468a8e23efe3b2c9ae0377dae9e14cdb3353da4",
+          "contentHash": "2f7dac058a99bc307dd6b58e76f986e8fe6bff798519113125129d642bc4a46e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.268",
+          "name": "P-999K",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "P-999K"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "terminal:send"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/lazy9sascha/p-999k",
+          "updatedAt": "2026-11-27T10:56:09+09:00"
+        }
+      ]
+    },
+    {
       "id": "lazyjerry.forrrk",
       "ownerId": 22562898,
       "source": {
@@ -38862,14 +38899,41 @@
       "ownerId": 42560742,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/li363920783/orca-tapd-todo/0.3.1"
+        "url": "https://github.com/li363920783/orca-tapd-todo.git",
+        "ref": "v0.3.3"
       },
       "description": "在 Orca 右栏查看指派给你的 TAPD 缺陷与需求，筛选、看详情，并一键派给 Orca agent。View TAPD bugs and stories assigned to you in Orca: filter, read details, and dispatch one to an agent.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.3.3",
+          "commit": "322aa2b4c85729155eabd4f95d283202904a0f91",
+          "contentHash": "848dee2d429c7dc1e781d1f7f867e1cabfb70a17eae68943287b1b7a55ccf65e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "TAPD 待办",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "TAPD 待办"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "TAPD"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read"
+          ],
+          "updatedAt": "2026-11-27T09:14:44+08:00",
+          "license": "MIT",
+          "repository": "https://github.com/li363920783/orca-tapd-todo"
+        },
         {
           "version": "0.3.1",
           "commit": "8648c71fab569a8f119ce95f4064f502ce1080bc",
@@ -46114,6 +46178,119 @@
           "license": "MIT",
           "repository": "https://github.com/mz-jy/orca-dbt",
           "updatedAt": "2026-11-24T13:58:50+01:00"
+        }
+      ]
+    },
+    {
+      "id": "mz-jy.sql-workbench",
+      "ownerId": 12036014,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mz-jy/orca-sql-workbench.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Query Snowflake, ClickHouse, Postgres, DuckDB and SQLite from Orca: connections found in your dbt profiles, Snowflake config and workspace files added in one press, a schema browser with every database, schema, table and column, saved worksheets you run with Cmd+Enter, and results you can sort, filt",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "f9dc8961db7d79a89700aacb7331cf25d45ca7ba",
+          "contentHash": "ad94a9f78828fe46e0fccd9533426a7d8721b84d10bd3a1b68cd81165c786d89",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "SQL Workbench",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "SQL Workbench"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SQL Workbench",
+              "detail": ".worksheet.sql"
+            },
+            {
+              "kind": "customEditors",
+              "name": "SQL Workbench",
+              "detail": ".sql"
+            },
+            {
+              "kind": "newFiles",
+              "name": "New SQL worksheet",
+              "detail": ".worksheet.sql"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "secrets:own",
+            "settings:own",
+            "workspace:read",
+            "workspace:write"
+          ],
+          "fileTypes": [
+            "sql"
+          ],
+          "editorFileTypes": [
+            "sql"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mz-jy.sql-workbench/c2635b875e95fdd4.webp",
+              "alt": "A worksheet's query and its rows in the editor; beside it the schema tree open on the ORDERS table, with its columns, their types and its description.",
+              "sha256": "c2635b875e95fdd402530193b0d067661d2de41a5b849942dbffde4fc1eb5d58",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/mz-jy.sql-workbench/53479f5b7cccf200.webp",
+                "alt": "A worksheet's query and its rows in the editor; beside it the schema tree open on the ORDERS table, with its columns, their types and its description.",
+                "sha256": "53479f5b7cccf200f4d0cef0c1c2483c7dfa305042aff6aea6a1cfc1c581ce3d",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.sql-workbench/25ba2bc9da10d29a.webp",
+                "alt": "A worksheet's query and its rows in the editor; beside it the schema tree open on the ORDERS table, with its columns, their types and its description.",
+                "sha256": "25ba2bc9da10d29a9e7e06ae265ed5bbb5cab366f4273c278c258d8bfb13a66e",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.sql-workbench/457ca3ca2d815eb8.webp",
+                "alt": "The results with one row opened as a record, its JSON column indented; beside it the workspace's worksheets with their connections.",
+                "sha256": "457ca3ca2d815eb8d0da1c1d5e3bd4af631cfd286e3a80378d071a9e41a1ca25",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.sql-workbench/00453857ade44d26.webp",
+                "alt": "The results with one row opened as a record, its JSON column indented; beside it the workspace's worksheets with their connections.",
+                "sha256": "00453857ade44d269d0fd5e399fb7857ddd0b2653bbb162de336ab81a8153c1f",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.sql-workbench/5716b9b90efcb492.webp",
+                "alt": "The Connections screen: two saved connections with their state, and three more found in dbt, ClickHouse and workspace files, each with an Add button.",
+                "sha256": "5716b9b90efcb492e31d73680553ada91646800f49b4c5b4a0c23ddfc6d59dc3",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.sql-workbench/19dd7cbeec3099b6.webp",
+                "alt": "The Connections screen: two saved connections with their state, and three more found in dbt, ClickHouse and workspace files, each with an Add button.",
+                "sha256": "19dd7cbeec3099b6ee74dceca3500343c270d8c68f44df7c9fed07f0de3a9871",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mz-jy/orca-sql-workbench",
+          "updatedAt": "2026-11-27T03:00:47+01:00"
         }
       ]
     },
@@ -77219,15 +77396,76 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/yoshhiide/orca-plugin-session-board.git",
-        "ref": "v0.2.7"
+        "ref": "v0.2.8"
       },
-      "description": "Botの仕事と通常セッションの状態をまとめて確認するサイドバー",
+      "description": "Track Bot work and regular Orca sessions together in the sidebar.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.8",
+          "commit": "8ebede1a984dcc2f22d7fa814e287534f55b6008",
+          "contentHash": "954b386b4ba3f9c9b42a6abde7e2fab7989be18059118c6d6dae7027b080c194",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.277",
+          "name": "Session Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Session Board"
+            },
+            {
+              "kind": "commands",
+              "name": "Open Session Board"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read",
+            "notifications:show"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yoshhiide.session-board/75b0db785d36f612.png",
+              "alt": "Session Board in dark mode, with Bot work, chats, and terminals grouped into Needs input, In progress, and Done.",
+              "sha256": "75b0db785d36f6121299e27485d4f2b7bae8f8aefc1285e76fb960900be8ce4c",
+              "width": 1590,
+              "height": 810
+            },
+            "screenshots": [
+              {
+                "path": "assets/yoshhiide.session-board/e575de549ff5d24e.png",
+                "alt": "List view of Bot work and regular sessions, grouped by status with Needs input first.",
+                "sha256": "e575de549ff5d24e9984b8f2a21f32de3c1d75da4e850423ba6360deab4ec000",
+                "width": 1283,
+                "height": 1350
+              },
+              {
+                "path": "assets/yoshhiide.session-board/a5d70c4df269572b.png",
+                "alt": "Board view in light mode, with three status columns and a Reply button on Bot Items.",
+                "sha256": "a5d70c4df269572bc12e78e0f05b8148406a94ab61f36e55dbb95b654ed2ae0f",
+                "width": 1829,
+                "height": 817
+              },
+              {
+                "path": "assets/yoshhiide.session-board/d169bab7d7e92f64.png",
+                "alt": "Bot Item details with a pending question, answer options, an Answer in Orca button, and the Activity conversation.",
+                "sha256": "d169bab7d7e92f64adde4e1f25e8b7b16088b7eda1fea12d7a220255d76b4ab5",
+                "width": 1280,
+                "height": 1370
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yoshhiide/orca-plugin-session-board",
+          "updatedAt": "2026-11-27T11:05:34+09:00"
+        },
         {
           "version": "0.2.7",
           "commit": "71696cbf5cda814a49993ec1582ccfe3bb932568",
@@ -77418,8 +77656,8 @@
       "ownerId": 59564582,
       "source": {
         "kind": "git",
-        "url": "https://github.com/Zhanxiaogao/orca-ai-usage.git",
-        "ref": "v0.1.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/zhanxiaogao/orca-ai-usage/0.1.3"
       },
       "description": "统计本机 Claude Code、Codex、Antigravity 与 Gemini CLI 的 Token 用量、估算费用与生成速度。",
       "categories": [
