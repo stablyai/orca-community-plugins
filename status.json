@@ -255,7 +255,7 @@
     },
     "aliuda/orca-bot-items-board": {
       "state": "listed",
-      "ref": "v0.1.4",
+      "ref": "v0.1.5",
       "plugins": [
         "aliuda.bot-items-board"
       ]
@@ -1870,7 +1870,7 @@
     },
     "ghxxaqtv/agy-dart-monitor": {
       "state": "listed",
-      "ref": "v0.2.1",
+      "ref": "refs/tags/ghxxaqtv/agy-dart-monitor/0.2.1",
       "plugins": [
         "ghxxaqtv.agy-dart-monitor"
       ]
@@ -2293,7 +2293,7 @@
     },
     "iosrxwy/chatstamp": {
       "state": "listed",
-      "ref": "v1.8.1",
+      "ref": "refs/tags/iosrxwy/chatstamp/1.8.1",
       "plugins": [
         "iosrxwy.chatstamp"
       ]
@@ -2945,13 +2945,10 @@
       ]
     },
     "manasbhati24/orca-before-after": {
-      "state": "rejected",
-      "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "licence",
-          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
-        }
+      "state": "listed",
+      "ref": "v1.0.1",
+      "plugins": [
+        "manasbhati24.before-after"
       ]
     },
     "mancunianez/orca-ukrainian": {
@@ -5195,7 +5192,7 @@
     },
     "wahaha1024/inkstone-orca": {
       "state": "listed",
-      "ref": "refs/tags/wahaha1024/inkstone-orca/0.5.0",
+      "ref": "v0.5.1",
       "plugins": [
         "wahaha1024.inkstone-theme"
       ],
