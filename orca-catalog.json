@@ -28149,6 +28149,62 @@
       ]
     },
     {
+      "id": "ghxxaqtv.agy-dart-monitor",
+      "ownerId": 362186617,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ghxxaqtv/agy-dart-monitor.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Unofficial Orca sidebar & status-bar monitor for Antigravity agy-dart (by zou172866): live context window, KV cache, token savings, safety alerts & FTS5 search.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "a2cbc195c0c9f580226608ba44c33947b64a3d95",
+          "contentHash": "ae08c40b9952f5a719ee5a555c444d3a18eb57af4b1d9d7f5fe009237ea7b263",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "agy-dart Monitor for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "agy-dart Context"
+            },
+            {
+              "kind": "commands",
+              "name": "agy-dart: Refresh Context Monitor"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "agy-dart"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ghxxaqtv/agy-dart-monitor",
+          "updatedAt": "2026-11-28T11:19:31+08:00"
+        }
+      ]
+    },
+    {
       "id": "gino8080.git-overview",
       "ownerId": 1710920,
       "source": {

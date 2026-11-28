@@ -1861,6 +1861,13 @@
         "geromendez135.pr-review"
       ]
     },
+    "ghxxaqtv/agy-dart-monitor": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "ghxxaqtv.agy-dart-monitor"
+      ]
+    },
     "gino8080/orca-git-overview": {
       "state": "listed",
       "ref": "refs/tags/gino8080/orca-git-overview/0.1.10",
@@ -5232,6 +5239,16 @@
       "ref": "refs/tags/weixijia/orca-remote-activity-monitor/0.2.0",
       "plugins": [
         "weixijia.remote-activity-monitor"
+      ]
+    },
+    "whzlatan/orca-bilingual-chat": {
+      "state": "rejected",
+      "ref": "v0.1.0",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
       ]
     },
     "wilkywayre/orcarchy": {
