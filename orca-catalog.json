@@ -9,8 +9,8 @@
       "ownerId": 127002122,
       "source": {
         "kind": "git",
-        "url": "https://github.com/111e111/orca-droid-usage.git",
-        "ref": "v1.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/111e111/orca-droid-usage/1.1.0"
       },
       "description": "Factory Droid quota usage in the Orca status bar. Click to refresh the five-hour, weekly and monthly windows.",
       "categories": [
@@ -3711,7 +3711,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/aliuda/orca-bot-items-board.git",
-        "ref": "v0.1.2"
+        "ref": "v0.1.4"
       },
       "description": "Live right-sidebar workbench for Orca bots' Items: track open & needs-you items, inspect details, and act via secure per-bot webhook automation.",
       "categories": [
@@ -3719,6 +3719,41 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.4",
+          "commit": "608d328eae3e05d517de5738c43d87030f2439ed",
+          "contentHash": "172f51d0cedf17d465fe3c40d06261e39360d4219db96b00349697203d0f1a9d",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Items Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Items"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Items: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Items: Open Board"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Items: –"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aliuda/orca-bot-items-board",
+          "updatedAt": "2026-11-28T12:41:12+08:00"
+        },
         {
           "version": "0.1.2",
           "commit": "bc739a42e7f608b8fea3316aa996902957a155c5",
@@ -28225,7 +28260,7 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ghxxaqtv/agy-dart-monitor.git",
-        "ref": "v0.2.0"
+        "ref": "v0.2.1"
       },
       "description": "Unofficial Orca sidebar & status-bar monitor for Antigravity agy-dart (by zou172866): live context window, KV cache, session performance (TTFT & tok/s), Antigravity quota, token savings, safety alerts & FTS5 search.",
       "categories": [
@@ -28234,6 +28269,45 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "7d1fd38769cd8512e023737c4171b6a6f9aee7de",
+          "contentHash": "f88e15f56f047b5bb96ffba0cb27de8b3e4f8b71cc119948abbd0964e1ef8a07",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "agy-dart Monitor for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "agy-dart Context"
+            },
+            {
+              "kind": "commands",
+              "name": "agy-dart: Refresh Context Monitor"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "agy-dart"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ghxxaqtv/agy-dart-monitor",
+          "updatedAt": "2026-11-28T12:21:36+08:00"
+        },
         {
           "version": "0.2.0",
           "commit": "91cd0b24a72ba9bfe10f6287f0dd70ba2ba31870",
@@ -33600,8 +33674,8 @@
       "ownerId": 184130225,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/iosrxwy/chatstamp/1.8.0"
+        "url": "https://github.com/iosrxwy/ChatStamp.git",
+        "ref": "v1.8.1"
       },
       "description": "Orca 里各个代理的会话结束时，把标题收成 MMDD｜类型｜主题。",
       "categories": [
@@ -33609,6 +33683,39 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "1.8.1",
+          "commit": "a3a627ddf87ee9c33d010089d1d5f9fadab97c66",
+          "contentHash": "d9462602bce7a7bcdc719fff40cfb7b908b1ef4fbdf743a9ac2567c8f9b6e836",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.279",
+          "name": "ChatStamp",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "ChatStamp: 整理当前工作区"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            }
+          ],
+          "capabilities": [
+            "agent:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/iosrxwy.chatstamp/0eba9e7df72ee8b3.png",
+              "alt": "整理后的会话列表，标题为 MMDD｜类型｜主题",
+              "sha256": "0eba9e7df72ee8b3d24fe9912e8d2360c8fa60d2e1909f71d0418a302717abca",
+              "width": 1600,
+              "height": 1000
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/iosrxwy/ChatStamp",
+          "updatedAt": "2026-11-28T12:22:26+08:00"
+        },
         {
           "version": "1.8.0",
           "commit": "862604d2fc3774ad7dab65b95872f8e728777b30",

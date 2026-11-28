@@ -3,7 +3,7 @@
   "repos": {
     "111e111/orca-droid-usage": {
       "state": "listed",
-      "ref": "v1.1.0",
+      "ref": "refs/tags/111e111/orca-droid-usage/1.1.0",
       "plugins": [
         "111e111.droid-usage"
       ]
@@ -255,7 +255,7 @@
     },
     "aliuda/orca-bot-items-board": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "v0.1.4",
       "plugins": [
         "aliuda.bot-items-board"
       ]
@@ -1870,7 +1870,7 @@
     },
     "ghxxaqtv/agy-dart-monitor": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "ghxxaqtv.agy-dart-monitor"
       ]
@@ -2293,7 +2293,7 @@
     },
     "iosrxwy/chatstamp": {
       "state": "listed",
-      "ref": "refs/tags/iosrxwy/chatstamp/1.8.0",
+      "ref": "v1.8.1",
       "plugins": [
         "iosrxwy.chatstamp"
       ]
