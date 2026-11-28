@@ -4945,7 +4945,7 @@
     },
     "uttam-gelot/orca-todos": {
       "state": "listed",
-      "ref": "v0.3.1",
+      "ref": "refs/tags/uttam-gelot/orca-todos/0.3.1",
       "plugins": [
         "uttam-gelot.todos"
       ]
@@ -5390,6 +5390,13 @@
       "ref": "refs/tags/yohaneowo/pstack-orca-sync/0.1.0",
       "plugins": [
         "yohaneowo.pstack-orca-sync"
+      ]
+    },
+    "yohangwak/orca-agy-quota-mirror": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "yohangwak.agy-quota-mirror"
       ]
     },
     "yoshhiide/orca-plugin-session-board": {

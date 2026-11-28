@@ -73928,8 +73928,8 @@
       "ownerId": 38095267,
       "source": {
         "kind": "git",
-        "url": "https://github.com/uttam-gelot/orca-todos.git",
-        "ref": "v0.3.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/uttam-gelot/orca-todos/0.3.1"
       },
       "description": "Personal to-dos with custom states, tags, priorities, due dates with reminders, projects, markdown notes, list and board views, and coding agents you start from a to-do.",
       "categories": [
@@ -81804,6 +81804,47 @@
           "license": "MIT",
           "repository": "https://github.com/yohaneowo/pstack-orca-sync",
           "updatedAt": "2026-11-25T07:28:55+08:00"
+        }
+      ]
+    },
+    {
+      "id": "yohangwak.agy-quota-mirror",
+      "ownerId": 8709587,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yohangwak/orca-agy-quota-mirror.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Shows Antigravity (agy) quota in Orca's status bar and a panel, mirrored from what agy already pipes to its status line command. Never runs agy and makes no network request.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "0be33160c2e210b643055e07374fc902051578ee",
+          "contentHash": "6959d0a2baa379188908fdd442239c82a4b1875226334d28c18fc23c64e9fb15",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "agy Quota Mirror",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Antigravity quota"
+            },
+            {
+              "kind": "commands",
+              "name": "Show agy quota"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "AG –"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/yohangwak/orca-agy-quota-mirror",
+          "updatedAt": "2026-11-28T16:15:32+09:00"
         }
       ]
     },
