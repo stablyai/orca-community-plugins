@@ -3674,8 +3674,8 @@
       "ownerId": 40687041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aliuda/orca-bot-items-board.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aliuda/orca-bot-items-board/0.1.1"
       },
       "description": "Live right-sidebar workbench for Orca bots' Items: track open & needs-you items, inspect details, and act via secure per-bot webhook automation.",
       "categories": [
@@ -24572,8 +24572,8 @@
       "ownerId": 209480577,
       "source": {
         "kind": "git",
-        "url": "https://github.com/everlightlabs/orca-plugin-multica.git",
-        "ref": "v0.2.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/everlightlabs/orca-plugin-multica/0.2.0"
       },
       "description": "Browse, filter, and update Multica work items, and launch Orca worktrees and agents directly from tickets.",
       "categories": [
@@ -76917,8 +76917,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/wilsonliu123/orca-token-used.git",
-        "ref": "v0.2.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.6"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [

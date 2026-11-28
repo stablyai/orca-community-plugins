@@ -248,7 +248,7 @@
     },
     "aliuda/orca-bot-items-board": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/aliuda/orca-bot-items-board/0.1.1",
       "plugins": [
         "aliuda.bot-items-board"
       ]
@@ -1562,7 +1562,7 @@
     },
     "everlightlabs/orca-plugin-multica": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "refs/tags/everlightlabs/orca-plugin-multica/0.2.0",
       "plugins": [
         "everlightlabs.multica"
       ]
@@ -5252,7 +5252,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.2.6",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.6",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
