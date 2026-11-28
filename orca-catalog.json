@@ -27711,8 +27711,8 @@
       "ownerId": 98054504,
       "source": {
         "kind": "git",
-        "url": "https://github.com/gabrielalmir/orca-clickup.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/gabrielalmir/orca-clickup/0.1.0"
       },
       "description": "Tarefas do ClickUp, worktrees e sessões de agentes na sidebar do Orca.",
       "categories": [
@@ -64388,8 +64388,8 @@
       "ownerId": 46280444,
       "source": {
         "kind": "git",
-        "url": "https://github.com/shakechi/orca-prs.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/shakechi/orca-prs/0.1.1"
       },
       "description": "Shows your pull requests and the reviews requested from you, grouped by what to do next. Reads GitHub through the gh command.",
       "categories": [
@@ -79325,6 +79325,54 @@
           "license": "MIT",
           "repository": "https://github.com/wurenrumian/canvas-view",
           "updatedAt": "2026-11-03T13:13:41+08:00"
+        }
+      ]
+    },
+    {
+      "id": "x-taqu.japanese",
+      "ownerId": 332784777,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/x-taqu/orca-japanese.git",
+        "ref": "v0.2.0"
+      },
+      "description": "非公式のコミュニティ翻訳。Orca の開発元とは関係ありません。内蔵日本語を補う言語パックで、DeepL API（www.deepl.com）による未修正の機械翻訳を含みます。",
+      "categories": [
+        "language-packs"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "a88791b761c984bcff0a6638380ab65e762619f1",
+          "contentHash": "713461ff1c87f2e995287d64268c9e6af4821be774e859ed787662e8f8dfdc6a",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "日本語（補完）",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "ja"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/x-taqu.japanese/c085b3a3ae4d463d.png",
+              "alt": "非公式の日本語（補完）パックの表紙。撮影時の Orca の言語メニューと日本語パックのアイコン",
+              "sha256": "c085b3a3ae4d463d17735664dd003b54e7cccb4809647b3b08c5ac14dc0f70f2",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/x-taqu.japanese/6c2266ee8c81553e.png",
+              "alt": "日本語（補完） icon",
+              "sha256": "6c2266ee8c81553e11281a55b933e5f658340b7d3dc633de6f0ba7f9412416b9",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/x-taqu/orca-japanese",
+          "updatedAt": "2026-11-28T18:36:41+09:00"
         }
       ]
     },

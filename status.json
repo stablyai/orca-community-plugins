@@ -1789,7 +1789,7 @@
     },
     "gabrielalmir/orca-clickup": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/gabrielalmir/orca-clickup/0.1.0",
       "plugins": [
         "gabrielalmir.clickup"
       ]
@@ -4341,7 +4341,7 @@
     },
     "shakechi/orca-prs": {
       "state": "listed",
-      "ref": "v0.1.1",
+      "ref": "refs/tags/shakechi/orca-prs/0.1.1",
       "plugins": [
         "shakechi.prs"
       ]
@@ -5271,7 +5271,7 @@
     },
     "whzlatan/orca-bilingual-chat": {
       "state": "rejected",
-      "ref": "v0.1.0",
+      "ref": "v0.1.1",
       "reasons": [
         {
           "category": "licence",
@@ -5364,13 +5364,13 @@
       ]
     },
     "x-taqu/orca-japanese": {
-      "state": "rejected",
+      "state": "listed",
       "ref": "v0.2.0",
-      "reasons": [
-        {
-          "category": "under-review",
-          "detail": "size"
-        }
+      "plugins": [
+        "x-taqu.japanese"
+      ],
+      "notes": [
+        "contributes.languagePacks \"ja\" (locales/ja.json): 1621 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "xclas721/xclas721-theme": {
