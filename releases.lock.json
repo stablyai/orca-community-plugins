@@ -6401,6 +6401,12 @@
     "repoId": 1449838805,
     "firstSeen": "2026-11-23T11:15:16.323Z"
   },
+  "rsedano.spotify-cd@1.0.0": {
+    "commit": "8017d9f4531acb38ae89a0cf0d157c44641da493",
+    "contentHash": "b9207e804c6d2f3ae508161d2c2bcbc8f7a1642ed67fd72b752f8057587f0b61",
+    "repoId": 1475605572,
+    "firstSeen": "2026-11-28T14:15:35.889Z"
+  },
   "ruchkung.textile@0.1.0": {
     "commit": "5e6607beafdb99f6859669276c7c2224ae1d2f71",
     "contentHash": "5ee1fa616a17d29540d4c402f82b2e56db0b9effb0fc87548f05dae349b80958",
@@ -8842,6 +8848,12 @@
     "contentHash": "9251c46cf58586389b2fcce06e77139cb5068cd1a8b2fda164fb887c9e2587de",
     "repoId": 1475604805,
     "firstSeen": "2026-11-28T13:42:12.025Z"
+  },
+  "yoshhiide.codex-session-inspector@0.1.2": {
+    "commit": "e4bbd0bed98f5a9dfa3e2f97dc30e8bb0c324c77",
+    "contentHash": "0fa059701162c1e474bf8d1d0e9a9ddaaf0140d2ee333df9ca84b778ddc83c30",
+    "repoId": 1475604805,
+    "firstSeen": "2026-11-28T14:15:35.889Z"
   },
   "yoshhiide.session-board@0.2.10": {
     "commit": "dc347eec5e18ac0ffd2fff344036bb08a268155e",

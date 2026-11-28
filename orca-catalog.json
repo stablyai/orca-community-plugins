@@ -48640,8 +48640,8 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/mz-jy/orca-dbt.git",
-        "ref": "v0.7.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/mz-jy/orca-dbt/0.7.1"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
@@ -59308,6 +59308,102 @@
           "license": "MIT",
           "repository": "https://github.com/rr235/orca-task-launcher",
           "updatedAt": "2026-11-08T10:33:07+01:00"
+        }
+      ]
+    },
+    {
+      "id": "rsedano.spotify-cd",
+      "ownerId": 1515530,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/rsedano/spotify-cd.git",
+        "ref": "v1.0.0"
+      },
+      "description": "Your Spotify music as a CD spinning in Orca's sidebar, with album art, song name and playback controls. Ask any agent to play a song, and the sound comes out of your Mac.",
+      "categories": [
+        "panels",
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "8017d9f4531acb38ae89a0cf0d157c44641da493",
+          "contentHash": "b9207e804c6d2f3ae508161d2c2bcbc8f7a1642ed67fd72b752f8057587f0b61",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.276",
+          "name": "CD Player for Spotify",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "CD Player"
+            },
+            {
+              "kind": "commands",
+              "name": "CD Player for Spotify: Play or pause"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Spotify"
+            },
+            {
+              "kind": "mcpServers",
+              "name": "spotify",
+              "detail": "http://127.0.0.1:39417/mcp"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/rsedano.spotify-cd/94def2cce30c6143.jpg",
+              "alt": "A CD with album art spinning in the CD Player for Spotify panel, next to the headline Your music, spinning in Orca.",
+              "sha256": "94def2cce30c614391e041aa7341b35b35590eef2abb0202daba5d5ceaa9be07",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/rsedano.spotify-cd/83f993d69fde88d3.png",
+              "alt": "CD Player for Spotify icon",
+              "sha256": "83f993d69fde88d39d39073eb9b55c7ca4d804773358f755fb621f776a8cefcc",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/rsedano.spotify-cd/b74d9649d942bda3.jpg",
+                "alt": "The panel playing a song: its name above a spinning CD printed with the album art, and previous, pause and next buttons.",
+                "sha256": "b74d9649d942bda3112e4986ed4b6aa91a8d9f24a5e37d87762197db653d0aec",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/rsedano.spotify-cd/ee864066adf2f3a5.jpg",
+                "alt": "An agent prompt asking to play a song, the spotify_play tool answering, and the panel showing that song.",
+                "sha256": "ee864066adf2f3a5ee7f03436454e80fa03e8bc72d5828a20690a02d8bb6fedd",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/rsedano.spotify-cd/8072c17aa8806db0.jpg",
+                "alt": "Two panels: one playing on an iPhone with a Play on this Mac button, and one playing on this Mac.",
+                "sha256": "8072c17aa8806db0e698eccbd4eac538e4ff714894f52391cddb85d58fdb1a8c",
+                "width": 1440,
+                "height": 900
+              },
+              {
+                "path": "assets/rsedano.spotify-cd/7f2511ddd754d4d9.jpg",
+                "alt": "The setup card in a light theme: create a Spotify app, add the redirect URI and paste the Client ID.",
+                "sha256": "7f2511ddd754d4d9282aed1fad6d13a2dd8ae3c7b50dda6a7081679b9b9a5f56",
+                "width": 1440,
+                "height": 900
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/rsedano/spotify-cd",
+          "updatedAt": "2026-11-28T15:09:33+01:00"
         }
       ]
     },
@@ -82326,13 +82422,66 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/yoshhiide/orca-plugin-codex-session-inspector.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "description": "Inspect Codex sessions, command failures, and associated runtime logs in the Orca sidebar.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "e4bbd0bed98f5a9dfa3e2f97dc30e8bb0c324c77",
+          "contentHash": "0fa059701162c1e474bf8d1d0e9a9ddaaf0140d2ee333df9ca84b778ddc83c30",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Codex Session Inspector",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Codex Session Inspector"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yoshhiide.codex-session-inspector/4c4894d84c02c765.png",
+              "alt": "Codex Session Inspector showing a failed command and its output beside an example conversation.",
+              "sha256": "4c4894d84c02c765f9b72a48c69af7e64d70e8f6a7b83cf5362aaeb5b1f95c0e",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/yoshhiide.codex-session-inspector/0a80faad8b023a56.png",
+                "alt": "The session list with search, workspace filters, and failure counts.",
+                "sha256": "0a80faad8b023a56273e452018901e0e02e71d2390dab46de4e3b31ee991d3b2",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/yoshhiide.codex-session-inspector/44622df8ca952458.png",
+                "alt": "The selected session's timeline of messages, commands, and tool errors.",
+                "sha256": "44622df8ca95245830c88d2b6a9b6ef62737fea82a7aa2badb0b506b28a42fd3",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/yoshhiide.codex-session-inspector/8395153cccafcd14.png",
+                "alt": "Runtime logs associated with the selected session.",
+                "sha256": "8395153cccafcd14359d923bf4eab0a0605756c564a3bc49c13be3ebdfaf4f18",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yoshhiide/orca-plugin-codex-session-inspector",
+          "updatedAt": "2026-11-28T22:53:56+09:00"
+        },
         {
           "version": "0.1.1",
           "commit": "70d5297f380d88864eaaeaae38d66c5733ddc299",
