@@ -419,6 +419,12 @@
     "repoId": 1473185739,
     "firstSeen": "2026-11-26T13:17:32.817Z"
   },
+  "aliuda.bot-items-board@0.1.1": {
+    "commit": "3f2aeb5d450a3f8fdae00e224cb4904b97437030",
+    "contentHash": "2cab26ca2b89ca2e8a05b1d22e783cc4d4e7a048b1fa32b606d4084e0ed02120",
+    "repoId": 1473185739,
+    "firstSeen": "2026-11-28T02:21:04.377Z"
+  },
   "aliuda.lark-bot-bridge@0.1.0": {
     "commit": "c29bc64958fc92cc7ef99b60efca2c20d2d4bf6a",
     "contentHash": "e1ce16ac1d0aceec96c4cc85313f37c9638a9125e2c37192426ff12304a20e6d",
@@ -2638,6 +2644,12 @@
     "contentHash": "ed50da166b69c8dc31d9fdb640600dd3353209d6c28f72e74bc8838577bf695b",
     "repoId": 1473516069,
     "firstSeen": "2026-11-26T19:14:09.304Z"
+  },
+  "everlightlabs.multica@0.2.0": {
+    "commit": "c269bcdea924bc092f93583218117804de49e597",
+    "contentHash": "d9e90a2aa79be0fcc7a4c67cd067d8bc5943a938fc10ab66c18704282a7f8d5e",
+    "repoId": 1473516069,
+    "firstSeen": "2026-11-28T02:21:04.377Z"
   },
   "fabiopbarbieri.azure-boards@0.1.1": {
     "commit": "78517b513919656074dda3c755b204aafbc91409",
@@ -8410,6 +8422,12 @@
     "contentHash": "dc4ed4c62df5d87a7e235e1707a73dbc67727f54f26ad6c89a241f74b512e02b",
     "repoId": 1453595219,
     "firstSeen": "2026-11-28T01:17:30.268Z"
+  },
+  "wilsonliu123.token-pulse@0.2.6": {
+    "commit": "76a8d1299f082f6f9baa7064f09378e6f36f2150",
+    "contentHash": "aaff8d394b58caff3a25613f852f2af521b9be0ec2b45ee1964c708d18e39206",
+    "repoId": 1453595219,
+    "firstSeen": "2026-11-28T02:21:04.377Z"
   },
   "wizhelp.proxmox-visualizer@0.1.0": {
     "commit": "e661097caf596d55b3c6518f1a7acf0b0954c59a",

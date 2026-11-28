@@ -3674,8 +3674,8 @@
       "ownerId": 40687041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aliuda/orca-bot-items-board/0.1.0"
+        "url": "https://github.com/aliuda/orca-bot-items-board.git",
+        "ref": "v0.1.1"
       },
       "description": "Live right-sidebar workbench for Orca bots' Items: track open & needs-you items, inspect details, and act via secure per-bot webhook automation.",
       "categories": [
@@ -3683,6 +3683,41 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "3f2aeb5d450a3f8fdae00e224cb4904b97437030",
+          "contentHash": "2cab26ca2b89ca2e8a05b1d22e783cc4d4e7a048b1fa32b606d4084e0ed02120",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Items Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Items"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Items: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Items: Open Board"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Items: –"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aliuda/orca-bot-items-board",
+          "updatedAt": "2026-11-28T10:07:13+08:00"
+        },
         {
           "version": "0.1.0",
           "commit": "c7e0e42ca7a296739b5ae4f3af2bb9a5a134370c",
@@ -24537,8 +24572,8 @@
       "ownerId": 209480577,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/everlightlabs/orca-plugin-multica/0.1.2"
+        "url": "https://github.com/everlightlabs/orca-plugin-multica.git",
+        "ref": "v0.2.0"
       },
       "description": "Browse, filter, and update Multica work items, and launch Orca worktrees and agents directly from tickets.",
       "categories": [
@@ -24546,6 +24581,40 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "c269bcdea924bc092f93583218117804de49e597",
+          "contentHash": "d9e90a2aa79be0fcc7a4c67cd067d8bc5943a938fc10ab66c18704282a7f8d5e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Multica",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Multica"
+            },
+            {
+              "kind": "commands",
+              "name": "Multica: Refresh Work Items"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Multica"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "workspace:create",
+            "agent:launch",
+            "settings:own",
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/everlightlabs/orca-plugin-multica",
+          "updatedAt": "2026-11-27T18:16:26-08:00"
+        },
         {
           "version": "0.1.2",
           "commit": "a3767296d3813cf34f4f7300c8d31b53e29eb14b",
@@ -76848,8 +76917,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.5"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.2.6"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -76858,6 +76927,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.6",
+          "commit": "76a8d1299f082f6f9baa7064f09378e6f36f2150",
+          "contentHash": "aaff8d394b58caff3a25613f852f2af521b9be0ec2b45ee1964c708d18e39206",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-28T10:04:27+08:00"
+        },
         {
           "version": "0.2.5",
           "commit": "0fd3bc5208dc73d9152cc5010090f38455d3bbaf",
@@ -77181,87 +77331,6 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-24T14:42:11+08:00"
-        },
-        {
-          "version": "0.2.1",
-          "commit": "2623bb096db66dc266da3b83f0b6606ea3c6d98a",
-          "contentHash": "1dfd432bb2a2ea97f0acb70b515013e89bb80b99ce024850725f8a58248d34c8",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-23T17:36:16+08:00"
         }
       ]
     },
