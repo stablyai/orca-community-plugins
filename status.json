@@ -1350,7 +1350,7 @@
     },
     "eliomelo/orca-potiwave-theme": {
       "state": "listed",
-      "ref": "v1.0.1",
+      "ref": "refs/tags/eliomelo/orca-potiwave-theme/1.0.1",
       "plugins": [
         "eliomelo.potiwave-theme"
       ],
@@ -4129,7 +4129,7 @@
     },
     "samfaina/orca-kickoff": {
       "state": "listed",
-      "ref": "v0.7.0",
+      "ref": "refs/tags/samfaina/orca-kickoff/0.7.0",
       "plugins": [
         "samfaina.kickoff"
       ]
