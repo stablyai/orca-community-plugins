@@ -2085,7 +2085,7 @@
     },
     "hds-vdomingos/orca-github-explorer": {
       "state": "listed",
-      "ref": "v0.7.10",
+      "ref": "v0.7.12",
       "plugins": [
         "hds-vdomingos.github-explorer"
       ]
@@ -4204,6 +4204,16 @@
         "satangbudsai.git-control"
       ]
     },
+    "sathiyaseelank-dot/orca-pen-dev": {
+      "state": "rejected",
+      "ref": "v0.1.2",
+      "reasons": [
+        {
+          "category": "licence",
+          "detail": "no licence: add an SPDX \"license\" to orca-plugin.json or a LICENSE file"
+        }
+      ]
+    },
     "savenkosy/orca-buttons": {
       "state": "listed",
       "ref": "refs/tags/savenkosy/orca-buttons/0.1.0",
@@ -5382,7 +5392,7 @@
     },
     "x-taqu/orca-japanese": {
       "state": "listed",
-      "ref": "v0.2.2",
+      "ref": "refs/tags/x-taqu/orca-japanese/0.2.2",
       "plugins": [
         "x-taqu.japanese"
       ],

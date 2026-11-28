@@ -31452,15 +31452,109 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/hds-vdomingos/orca-github-explorer.git",
-        "ref": "v0.7.10"
+        "ref": "v0.7.12"
       },
-      "description": "Explore GitHub Actions, pull requests, and issues for the focused Orca worktree. Inspect runs, copy issue context, and prepare an issue worktree.",
+      "description": "Switch worktrees and GitHub Explorer follows. Check recent CI runs, browse open PRs, and copy issue context for your coding agent from Orca’s sidebar.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.7.12",
+          "commit": "6d4397ba9d86ac540dfa5583a1b563c27efc9a1a",
+          "contentHash": "dc8990679de1491fc81e1788435f47cd4f8e697f6fff35289757e4fc9ffc5ae0",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "GitHub Explorer",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Explorer"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Refresh now"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Set GitHub token (optional override)"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Clear plugin token override"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Work on issue (preview)"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Copy issue context"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Open Checks panel (this branch)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "storage:own",
+            "secrets:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/hds-vdomingos.github-explorer/5890b046ff62146a.png",
+              "alt": "GitHub Explorer Actions tab with a failed run and its branch visible.",
+              "sha256": "5890b046ff62146a0fe373594b56b80de68325da68f801b2c4d4ecc27b66949c",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/hds-vdomingos.github-explorer/5890b046ff62146a.png",
+                "alt": "Actions tab with example workflow runs, branches and CI results.",
+                "sha256": "5890b046ff62146a0fe373594b56b80de68325da68f801b2c4d4ecc27b66949c",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/hds-vdomingos.github-explorer/44be4a05b56eb3a6.png",
+                "alt": "Expanded failed Windows job with a failed launcher step and a file and line annotation.",
+                "sha256": "44be4a05b56eb3a6d313022a37b51812a83617e3a2b6f495f43336c77cdcc682",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/hds-vdomingos.github-explorer/ffda08e7d1d305d5.png",
+                "alt": "Open pull request showing its branch, author, description, verification notes, and Copy GitHub link button.",
+                "sha256": "ffda08e7d1d305d515fb81c56f2e0315173085c1923debc85cad4f80324457b4",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/hds-vdomingos.github-explorer/d7e389979d100331.png",
+                "alt": "Issue detail with its description and the Copy context and Work on issue buttons.",
+                "sha256": "d7e389979d10033151b30898384e5e30aba2cfdb34f6f4a7bc1edbb882492809",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/hds-vdomingos/orca-github-explorer",
+          "updatedAt": "2026-11-28T13:49:49+01:00"
+        },
         {
           "version": "0.7.10",
           "commit": "65393d888ead5afb0f5ca9944ef7bd279f825fc6",
@@ -79405,8 +79499,8 @@
       "ownerId": 332784777,
       "source": {
         "kind": "git",
-        "url": "https://github.com/x-taqu/orca-japanese.git",
-        "ref": "v0.2.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/x-taqu/orca-japanese/0.2.2"
       },
       "description": "Orca の画面を日本語に。内蔵の日本語にない文言を DeepL の機械翻訳で補う、非公式のコミュニティ翻訳です。",
       "categories": [
