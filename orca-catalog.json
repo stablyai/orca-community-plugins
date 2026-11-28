@@ -31451,8 +31451,8 @@
       "ownerId": 156004750,
       "source": {
         "kind": "git",
-        "url": "https://github.com/hds-vdomingos/orca-github-explorer.git",
-        "ref": "v0.7.12"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/hds-vdomingos/orca-github-explorer/0.7.12"
       },
       "description": "Switch worktrees and GitHub Explorer follows. Check recent CI runs, browse open PRs, and copy issue context for your coding agent from Orca’s sidebar.",
       "categories": [
@@ -48640,14 +48640,93 @@
       "ownerId": 12036014,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/mz-jy/orca-dbt/0.7.0"
+        "url": "https://github.com/mz-jy/orca-dbt.git",
+        "ref": "v0.7.1"
       },
       "description": "A data catalog for the dbt project in your workspace: explore models by folder, tag, schema or owner, read their docs, columns and tests, select with dbt selectors, see visual lineage, run tests and track data quality (failing tests flagged on every node, with the rows they found), check a pull requ",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.7.1",
+          "commit": "f61720c15c6372765930f0f29ddffad5a3a6ca84",
+          "contentHash": "09119f0973916b85e34fcbf8054a560daf53141c1d91d13a4f535c0e14e333dd",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "dbt for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "dbt"
+            },
+            {
+              "kind": "hooks",
+              "name": "editor.save.before"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/mz-jy.dbt/bc19cf3228a1c5d6.webp",
+              "alt": "The Quality pane with failing tests by model, the lineage graph with failing nodes flagged, and the rows a failing test found.",
+              "sha256": "bc19cf3228a1c5d6af679488b9015f262de80cdfdb1475d7edc691ca22bddf93",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/mz-jy.dbt/f130db0c6d4211e6.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "f130db0c6d4211e638ff0a90238e9a6334efaea5a7cb0e7ee5df97b54208fdb4",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/e09950ab37a24f56.webp",
+                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
+                "sha256": "e09950ab37a24f5648f0f39dd76d117ea1c138238908f3b7ddd3b930698a2335",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/3a34c9ccd86e8e83.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "3a34c9ccd86e8e83a5b057693310bdf20241d592b1eba2f25826be872be60822",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/f6566bbbb51c5196.webp",
+                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
+                "sha256": "f6566bbbb51c51969f1759ea663bc60e54ee2f0305d2c3ea3ed0d898a76839f9",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/6d73b03e4279a2a4.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "6d73b03e4279a2a4db01b579b5899ebfae232aea9febf9cf49d5a3590befdd30",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/mz-jy.dbt/89fffccaba764e08.webp",
+                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
+                "sha256": "89fffccaba764e088f4e5604a73c108b41c407012833ecad9c00754941de31f0",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/mz-jy/orca-dbt",
+          "updatedAt": "2026-11-28T14:26:44+01:00"
+        },
         {
           "version": "0.7.0",
           "commit": "b3d0bdf269ddcaa6d48e8f0b362c65d6c7211f94",
@@ -48947,81 +49026,6 @@
           "license": "MIT",
           "repository": "https://github.com/mz-jy/orca-dbt",
           "updatedAt": "2026-11-25T20:37:57+01:00"
-        },
-        {
-          "version": "0.6.0",
-          "commit": "e6e35933cfb81a75b7c09c4a41c7fdd2a30382f5",
-          "contentHash": "0236f14f186b5edc15d76426fdf3b8508073c22dfb65ed7421a78c42d91df466",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.248",
-          "name": "dbt for Orca",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "dbt"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/mz-jy.dbt/bc19cf3228a1c5d6.webp",
-              "alt": "The Quality pane with failing tests by model, the lineage graph with failing nodes flagged, and the rows a failing test found.",
-              "sha256": "bc19cf3228a1c5d6af679488b9015f262de80cdfdb1475d7edc691ca22bddf93",
-              "width": 1600,
-              "height": 1000
-            },
-            "screenshots": [
-              {
-                "path": "assets/mz-jy.dbt/f130db0c6d4211e6.webp",
-                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
-                "sha256": "f130db0c6d4211e638ff0a90238e9a6334efaea5a7cb0e7ee5df97b54208fdb4",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mz-jy.dbt/e09950ab37a24f56.webp",
-                "alt": "The Quality pane: failing, warning and passing tests by model, the lineage with failing nodes flagged, and the rows a test found.",
-                "sha256": "e09950ab37a24f5648f0f39dd76d117ea1c138238908f3b7ddd3b930698a2335",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mz-jy.dbt/3a34c9ccd86e8e83.webp",
-                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
-                "sha256": "3a34c9ccd86e8e83a5b057693310bdf20241d592b1eba2f25826be872be60822",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mz-jy.dbt/f6566bbbb51c5196.webp",
-                "alt": "The catalog, the lineage around fct_orders with test results and branch changes marked on each node, and its columns with their types and tests.",
-                "sha256": "f6566bbbb51c51969f1759ea663bc60e54ee2f0305d2c3ea3ed0d898a76839f9",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mz-jy.dbt/6d73b03e4279a2a4.webp",
-                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
-                "sha256": "6d73b03e4279a2a4db01b579b5899ebfae232aea9febf9cf49d5a3590befdd30",
-                "width": 2560,
-                "height": 1600
-              },
-              {
-                "path": "assets/mz-jy.dbt/89fffccaba764e08.webp",
-                "alt": "Changes: what the branch changed and what that reaches downstream, the dbt build command for it, and a data preview of the changed mart.",
-                "sha256": "89fffccaba764e088f4e5604a73c108b41c407012833ecad9c00754941de31f0",
-                "width": 2560,
-                "height": 1600
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/mz-jy/orca-dbt",
-          "updatedAt": "2026-11-24T13:58:50+01:00"
         }
       ]
     },
@@ -82313,6 +82317,42 @@
           "license": "MIT",
           "repository": "https://github.com/yohangwak/orca-agy-quota-mirror",
           "updatedAt": "2026-11-28T16:15:32+09:00"
+        }
+      ]
+    },
+    {
+      "id": "yoshhiide.codex-session-inspector",
+      "ownerId": 8830451,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yoshhiide/orca-plugin-codex-session-inspector.git",
+        "ref": "v0.1.1"
+      },
+      "description": "Inspect Codex sessions, command failures, and associated runtime logs in the Orca sidebar.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "70d5297f380d88864eaaeaae38d66c5733ddc299",
+          "contentHash": "9251c46cf58586389b2fcce06e77139cb5068cd1a8b2fda164fb887c9e2587de",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.247",
+          "name": "Codex Session Inspector",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Codex Session Inspector"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "workspace:read"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/yoshhiide/orca-plugin-codex-session-inspector",
+          "updatedAt": "2026-11-28T22:29:22+09:00"
         }
       ]
     },

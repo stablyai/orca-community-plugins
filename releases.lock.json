@@ -5273,6 +5273,12 @@
     "repoId": 1469988757,
     "firstSeen": "2026-11-26T17:15:27.950Z"
   },
+  "mz-jy.dbt@0.7.1": {
+    "commit": "f61720c15c6372765930f0f29ddffad5a3a6ca84",
+    "contentHash": "09119f0973916b85e34fcbf8054a560daf53141c1d91d13a4f535c0e14e333dd",
+    "repoId": 1469988757,
+    "firstSeen": "2026-11-28T13:42:12.025Z"
+  },
   "mz-jy.sql-workbench@0.1.0": {
     "commit": "f9dc8961db7d79a89700aacb7331cf25d45ca7ba",
     "contentHash": "ad94a9f78828fe46e0fccd9533426a7d8721b84d10bd3a1b68cd81165c786d89",
@@ -8830,6 +8836,12 @@
     "contentHash": "14a6efc81a5c79f4595ea187a79913590fce97e692544b17b300401c2837846f",
     "repoId": 1475313283,
     "firstSeen": "2026-11-28T12:20:35.891Z"
+  },
+  "yoshhiide.codex-session-inspector@0.1.1": {
+    "commit": "70d5297f380d88864eaaeaae38d66c5733ddc299",
+    "contentHash": "9251c46cf58586389b2fcce06e77139cb5068cd1a8b2fda164fb887c9e2587de",
+    "repoId": 1475604805,
+    "firstSeen": "2026-11-28T13:42:12.025Z"
   },
   "yoshhiide.session-board@0.2.10": {
     "commit": "dc347eec5e18ac0ffd2fff344036bb08a268155e",

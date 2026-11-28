@@ -2085,7 +2085,7 @@
     },
     "hds-vdomingos/orca-github-explorer": {
       "state": "listed",
-      "ref": "v0.7.12",
+      "ref": "refs/tags/hds-vdomingos/orca-github-explorer/0.7.12",
       "plugins": [
         "hds-vdomingos.github-explorer"
       ]
@@ -3341,7 +3341,7 @@
     },
     "mz-jy/orca-dbt": {
       "state": "listed",
-      "ref": "refs/tags/mz-jy/orca-dbt/0.7.0",
+      "ref": "v0.7.1",
       "plugins": [
         "mz-jy.dbt"
       ]
@@ -5458,6 +5458,13 @@
       "ref": "refs/tags/yohangwak/orca-agy-quota-mirror/0.1.1",
       "plugins": [
         "yohangwak.agy-quota-mirror"
+      ]
+    },
+    "yoshhiide/orca-plugin-codex-session-inspector": {
+      "state": "listed",
+      "ref": "v0.1.1",
+      "plugins": [
+        "yoshhiide.codex-session-inspector"
       ]
     },
     "yoshhiide/orca-plugin-session-board": {
