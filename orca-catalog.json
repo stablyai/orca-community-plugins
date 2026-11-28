@@ -3710,8 +3710,8 @@
       "ownerId": 40687041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/aliuda/orca-bot-items-board.git",
-        "ref": "v0.1.6"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/aliuda/orca-bot-items-board/0.1.6"
       },
       "description": "Live right-sidebar workbench for Orca bots' Items: track open & needs-you items, inspect details, and act via secure per-bot webhook automation.",
       "categories": [
@@ -30435,8 +30435,8 @@
       "ownerId": 97011015,
       "source": {
         "kind": "git",
-        "url": "https://github.com/h00ns/test-runner-for-orca.git",
-        "ref": "v0.2.4"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/h00ns/test-runner-for-orca/0.2.4"
       },
       "description": "Run your workspace's tests from the sidebar, re-run the related ones when an agent finishes, and send failures back to the agent. Vitest, Jest, Playwright, Cypress, Gradle, Maven and pytest are found on their own, monorepos included; if your setup is not, the README has a prompt that has your agent ",
       "categories": [
