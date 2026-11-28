@@ -169,16 +169,6 @@
         ]
       }
     },
-    "aiawake/orca-vietnamese": {
-      "state": "rejected",
-      "ref": "v1.0.0",
-      "reasons": [
-        {
-          "category": "validation",
-          "detail": "contributes.languagePacks \"vi\" (locales/vi.json): translation at bots.google.hostChoice.selfNote exceeds 80 characters (4x its English text, at least 64)"
-        }
-      ]
-    },
     "ainlee/orca_zh-hant": {
       "state": "listed",
       "ref": "refs/tags/ainlee/orca_zh-hant/1.4.272",
@@ -1475,7 +1465,7 @@
     },
     "erywim/orca-subagent-canvas": {
       "state": "rejected",
-      "ref": "v0.1.1",
+      "ref": "v0.1.2",
       "reasons": [
         {
           "category": "under-review",
@@ -3055,12 +3045,9 @@
     },
     "matteoeusebi/orca-italiano": {
       "state": "listed",
-      "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.279",
+      "ref": "v1.4.281",
       "plugins": [
         "matteoeusebi.italiano"
-      ],
-      "notes": [
-        "contributes.languagePacks \"it\" (locales/it.json): 7 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "matteoeusebi/orca-pulse": {
