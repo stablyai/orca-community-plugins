@@ -33999,15 +33999,84 @@
       "ownerId": 278208,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ivanscm/bmad-tickets-viewer/0.3.1"
+        "url": "https://github.com/ivanscm/bmad-tickets-viewer.git",
+        "ref": "v0.4.0"
       },
-      "description": "Read-only viewer for BMAD tickets (initiatives, epics, stories) in the workspace's _bmad-output: a sidebar tree, a kanban board in an editor tab, live updates, dependency blocking and BMAD skill launch.",
+      "description": "Read-only viewer for BMAD tickets (initiatives, epics, stories) in the workspace's _bmad-output: a sidebar tree, a kanban board in an editor tab, planning artifacts, live updates, dependency blocking and BMAD skill launch.",
       "categories": [
         "panels",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.4.0",
+          "commit": "67f243414a2dbe8411b75dcb608d7a78943dfc9f",
+          "contentHash": "fd2bdbd89cf519c49c688d269cb10fad95feb8cee50efacdd1c55c9c08ff257e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "BMAD Tickets Viewer",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "BMAD Tickets"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "BMAD Board",
+              "detail": "tickets.toml"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "bmad-status"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ivanscm.bmad-tickets-viewer/c2c1381a224176cb.png",
+              "alt": "BMAD Board: kanban of a BMAD initiative with state columns and dependency chips",
+              "sha256": "c2c1381a224176cb0dcd02b343c099eb415e9b62e411f7c160cac1771c92d622",
+              "width": 800,
+              "height": 500
+            },
+            "icon": {
+              "path": "assets/ivanscm.bmad-tickets-viewer/a94806857f1ca2ca.png",
+              "alt": "BMAD Tickets Viewer icon",
+              "sha256": "a94806857f1ca2ca06499a272e6f5c6d21a577c95e6fd33615a7a4acfab8baf6",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/ivanscm.bmad-tickets-viewer/7099fd49ed93c7a3.png",
+                "alt": "BMAD Board kanban with ticket cards, state badges and dependency chips",
+                "sha256": "7099fd49ed93c7a34a23d20ca88dba4a09dc4573f8f26f6ca2986d646a296a03",
+                "width": 1600,
+                "height": 900
+              },
+              {
+                "path": "assets/ivanscm.bmad-tickets-viewer/347cf2709ab9c4db.png",
+                "alt": "Sidebar tree of BMAD initiatives, epics and tickets with state icons",
+                "sha256": "347cf2709ab9c4dbe4e4528769c7363404863158ee68f7d99a9366b38fff3323",
+                "width": 1280,
+                "height": 932
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/ivanscm/bmad-tickets-viewer",
+          "updatedAt": "2026-11-28T11:41:16+05:00"
+        },
         {
           "version": "0.3.1",
           "commit": "cef9e24ca5100a7aa0a92af0fcf728b5094becad",
