@@ -31447,6 +31447,78 @@
       ]
     },
     {
+      "id": "hds-vdomingos.github-explorer",
+      "ownerId": 156004750,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hds-vdomingos/orca-github-explorer.git",
+        "ref": "v0.7.10"
+      },
+      "description": "Explore GitHub Actions, pull requests, and issues for the focused Orca worktree. Inspect runs, copy issue context, and prepare an issue worktree.",
+      "categories": [
+        "panels",
+        "commands",
+        "integrations"
+      ],
+      "releases": [
+        {
+          "version": "0.7.10",
+          "commit": "65393d888ead5afb0f5ca9944ef7bd279f825fc6",
+          "contentHash": "b55063517f491e31dbce6dff9e66da1776a35995aad0861b25cb1eb5c508532a",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.246",
+          "name": "GitHub Explorer",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "GitHub Explorer"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Refresh now"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Set GitHub token (optional override)"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Clear plugin token override"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Work on issue (preview)"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Copy issue context"
+            },
+            {
+              "kind": "commands",
+              "name": "GitHub Explorer: Open Checks panel (this branch)"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "notifications:show",
+            "storage:own",
+            "secrets:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/hds-vdomingos/orca-github-explorer",
+          "updatedAt": "2026-11-28T13:31:35+01:00"
+        }
+      ]
+    },
+    {
       "id": "heath0xff.stillwater",
       "ownerId": 35548666,
       "source": {
@@ -79334,13 +79406,46 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/x-taqu/orca-japanese.git",
-        "ref": "v0.2.1"
+        "ref": "v0.2.2"
       },
-      "description": "非公式のコミュニティ翻訳。Orca の開発元とは関係ありません。内蔵日本語を補う言語パックで、DeepL API（www.deepl.com）による未修正の機械翻訳を含みます。",
+      "description": "Orca の画面を日本語に。内蔵の日本語にない文言を DeepL の機械翻訳で補う、非公式のコミュニティ翻訳です。",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "0.2.2",
+          "commit": "2c8c438b05f2263fcdd59354c8d7d56f37fb9035",
+          "contentHash": "46eb7cc0e68496f5b0b39b508135ce20da75a0a4953eec805d29ac47638d4900",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "日本語（補完）",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "ja"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/x-taqu.japanese/530ef2703a7a3e27.png",
+              "alt": "非公式の日本語（補完）パックの表紙。撮影時の Orca の言語メニューと日本語パックのアイコン",
+              "sha256": "530ef2703a7a3e2742f310e45def86d36e20bece675628e93b0ba92670c875f6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/x-taqu.japanese/b293bba41ddc4902.png",
+              "alt": "日本語（補完） icon",
+              "sha256": "b293bba41ddc49025573b0a2ab095c18108d7377e9163dcdf46ab4b0efb125d4",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/x-taqu/orca-japanese",
+          "updatedAt": "2026-11-28T21:23:12+09:00"
+        },
         {
           "version": "0.2.1",
           "commit": "84ff8c46c43769f8f066ea1da9a91c0b5da76c5c",
@@ -82024,8 +82129,8 @@
       "ownerId": 8709587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yohangwak/orca-agy-quota-mirror.git",
-        "ref": "v0.1.1"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yohangwak/orca-agy-quota-mirror/0.1.1"
       },
       "description": "Shows Antigravity (agy) quota in Orca's status bar and a panel, mirrored from what agy already pipes to its status line command. Never runs agy and makes no network request.",
       "categories": [
