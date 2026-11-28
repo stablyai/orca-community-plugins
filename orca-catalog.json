@@ -21345,14 +21345,47 @@
       "ownerId": 205441686,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/ebbop/orca-italiano/1.4.280"
+        "url": "https://github.com/Ebbop/orca-italiano.git",
+        "ref": "v1.4.281"
       },
-      "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.498 testi su 23.498 (100%), allineato a Orca 1.4.280. Pacchetto della community, non ufficiale.",
+      "description": "jAI Studio · Spazi di lavoro, agenti e impostazioni di Orca nella tua lingua. 23.477 testi su 23.477 (100%), allineato a Orca 1.4.281. Pacchetto della community, non ufficiale.",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "1.4.281",
+          "commit": "2c412cc4cded904c252c35b5cfffc8b30271da4c",
+          "contentHash": "2248f3e75f6dec8a94d4781b477cad08a29174d6eaff5342dcfd52e848b79d7f",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Italiano",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "it"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/ebbop.italiano/7e60028779bdbb16.png",
+              "alt": "Illustrazione di una finestra in stile Orca in italiano: spazi di lavoro, un messaggio dell’agente e una conferma di eliminazione.",
+              "sha256": "7e60028779bdbb168329177e9273f33c1c68441205dfd638e8fa5bb0fe7a323c",
+              "width": 3200,
+              "height": 2000
+            },
+            "icon": {
+              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
+              "alt": "Italiano icon",
+              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/Ebbop/orca-italiano",
+          "updatedAt": "2026-11-28T10:54:50+01:00"
+        },
         {
           "version": "1.4.280",
           "commit": "d0d66c141461ee92526a9eb67ff1eef3dfa679d1",
@@ -21484,39 +21517,6 @@
           "license": "MIT",
           "repository": "https://github.com/Ebbop/orca-italiano",
           "updatedAt": "2026-11-25T11:37:51+01:00"
-        },
-        {
-          "version": "1.4.273",
-          "commit": "363422b8ec6e5008719f8e903f50e69f1421ed2a",
-          "contentHash": "a4e8f82c9852e3610299c795ff4395d0393d9b9690db767ccd31ec1a6a481b83",
-          "execution": "data",
-          "minimumOrca": "1.4.246",
-          "name": "Italiano",
-          "contributes": [
-            {
-              "kind": "languagePacks",
-              "name": "it"
-            }
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/ebbop.italiano/fbb66b598ea7767a.png",
-              "alt": "Illustrazione di una finestra in stile Orca con le impostazioni in italiano e la lingua Italiano selezionata.",
-              "sha256": "fbb66b598ea7767a99a6bc3c99d15814a53854b2128c22b1902e101016b0a938",
-              "width": 1600,
-              "height": 1000
-            },
-            "icon": {
-              "path": "assets/ebbop.italiano/8fcbcc9971caa102.png",
-              "alt": "Italiano icon",
-              "sha256": "8fcbcc9971caa102bdd54c7b19ec19e10b589057943e985a37c2d2dc61774adb",
-              "width": 256,
-              "height": 256
-            }
-          },
-          "license": "MIT",
-          "repository": "https://github.com/Ebbop/orca-italiano",
-          "updatedAt": "2026-11-24T13:02:30+01:00"
         }
       ]
     },
