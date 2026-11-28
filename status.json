@@ -3623,6 +3623,16 @@
         "ostkost.avari-glow-tweaks"
       ]
     },
+    "ozzy-e/agent-headquarters": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "binary-files",
+          "detail": "bundles binary files (panel/assets/models/task_chair.glb, panel/assets/motion/f_sit_down.glb, panel/assets/motion/f_sit_look.glb, panel/assets/motion/f_sit_think.glb, panel/assets/motion/f_sit_wait.glb, …)"
+        }
+      ]
+    },
     "palulabs/orca-tycoon": {
       "state": "listed",
       "ref": "refs/tags/palulabs/orca-tycoon/0.2.14",
@@ -5242,7 +5252,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.4",
+      "ref": "v0.2.5",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]

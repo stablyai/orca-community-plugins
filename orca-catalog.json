@@ -76848,8 +76848,8 @@
       "ownerId": 11918825,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.4"
+        "url": "https://github.com/wilsonliu123/orca-token-used.git",
+        "ref": "v0.2.5"
       },
       "description": "Real-time token usage, generation TPS, live model cost, and 5h/weekly quota gauges across Claude Code, Codex, Gemini, and Antigravity. Reads local agent transcripts and Orca metadata; sends only public pricing requests.",
       "categories": [
@@ -76858,6 +76858,87 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.5",
+          "commit": "0fd3bc5208dc73d9152cc5010090f38455d3bbaf",
+          "contentHash": "dc4ed4c62df5d87a7e235e1707a73dbc67727f54f26ad6c89a241f74b512e02b",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "Token Pulse",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Token Pulse"
+            },
+            {
+              "kind": "commands",
+              "name": "Token Pulse: Refresh Usage & Live Pricing"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.created"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.removed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Token Pulse"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "workspace:write",
+            "agent:read",
+            "history:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
+              "alt": "Token Pulse live token throughput dashboard",
+              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
+              "width": 1280,
+              "height": 800
+            },
+            "icon": {
+              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
+              "alt": "Token Pulse icon",
+              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
+                "alt": "Token Pulse live model input and output rates",
+                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
+                "width": 1280,
+                "height": 990
+              },
+              {
+                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
+                "alt": "Token Pulse expanded agent telemetry view",
+                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
+                "width": 1280,
+                "height": 990
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/wilsonliu123/orca-token-used",
+          "updatedAt": "2026-11-28T09:16:43+08:00"
+        },
         {
           "version": "0.2.4",
           "commit": "6aeeaf0c9bfbfe838cb0c4d70e0bfcc0a0a4c70d",
@@ -77181,87 +77262,6 @@
           "license": "MIT",
           "repository": "https://github.com/wilsonliu123/orca-token-used",
           "updatedAt": "2026-11-23T17:36:16+08:00"
-        },
-        {
-          "version": "0.2.0",
-          "commit": "96ed7261bcde92b7d2735bfc47eb09a8878b4f02",
-          "contentHash": "b04bafc26021331ef91082f5f2ea3c1f62773fb3c907c34262f4685bf566158d",
-          "execution": "trusted-worker",
-          "minimumOrca": "1.4.259",
-          "name": "Token Pulse",
-          "contributes": [
-            {
-              "kind": "panels",
-              "name": "Token Pulse"
-            },
-            {
-              "kind": "commands",
-              "name": "Token Pulse: Refresh Usage & Live Pricing"
-            },
-            {
-              "kind": "events",
-              "name": "agent.status.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.changed"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.created"
-            },
-            {
-              "kind": "events",
-              "name": "workspace.removed"
-            },
-            {
-              "kind": "statusBarItems",
-              "name": "Token Pulse"
-            }
-          ],
-          "capabilities": [
-            "workspace:read",
-            "workspace:write",
-            "agent:read",
-            "history:read",
-            "storage:own",
-            "settings:own"
-          ],
-          "images": {
-            "cover": {
-              "path": "assets/wilsonliu123.token-pulse/31b419f345ef4075.png",
-              "alt": "Token Pulse live token throughput dashboard",
-              "sha256": "31b419f345ef4075b5371fcfb1f0e8242e5b35c5095e389b9c831ce308cbf6aa",
-              "width": 1280,
-              "height": 800
-            },
-            "icon": {
-              "path": "assets/wilsonliu123.token-pulse/a5ccebcfb8ac6124.png",
-              "alt": "Token Pulse icon",
-              "sha256": "a5ccebcfb8ac6124951d6a860a6d6339c52674055000c0fe4313cd4fc77bc5ee",
-              "width": 256,
-              "height": 256
-            },
-            "screenshots": [
-              {
-                "path": "assets/wilsonliu123.token-pulse/2f5fc48db9be48f0.png",
-                "alt": "Token Pulse live model input and output rates",
-                "sha256": "2f5fc48db9be48f07a2308021ef9e809e26a4175422839d39461c9024674050c",
-                "width": 1280,
-                "height": 990
-              },
-              {
-                "path": "assets/wilsonliu123.token-pulse/863f619098c1705c.png",
-                "alt": "Token Pulse expanded agent telemetry view",
-                "sha256": "863f619098c1705c7f09e2184451a24ae30c20bc384f51dbe855e1efc6bdf545",
-                "width": 1280,
-                "height": 990
-              }
-            ]
-          },
-          "license": "MIT",
-          "repository": "https://github.com/wilsonliu123/orca-token-used",
-          "updatedAt": "2026-11-23T16:07:59+08:00"
         }
       ]
     },
