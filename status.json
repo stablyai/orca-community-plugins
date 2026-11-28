@@ -5365,7 +5365,7 @@
     },
     "x-taqu/orca-japanese": {
       "state": "listed",
-      "ref": "v0.2.0",
+      "ref": "v0.2.1",
       "plugins": [
         "x-taqu.japanese"
       ],
@@ -5428,7 +5428,7 @@
     },
     "yohangwak/orca-agy-quota-mirror": {
       "state": "listed",
-      "ref": "refs/tags/yohangwak/orca-agy-quota-mirror/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "yohangwak.agy-quota-mirror"
       ]

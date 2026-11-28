@@ -79334,13 +79334,46 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/x-taqu/orca-japanese.git",
-        "ref": "v0.2.0"
+        "ref": "v0.2.1"
       },
       "description": "非公式のコミュニティ翻訳。Orca の開発元とは関係ありません。内蔵日本語を補う言語パックで、DeepL API（www.deepl.com）による未修正の機械翻訳を含みます。",
       "categories": [
         "language-packs"
       ],
       "releases": [
+        {
+          "version": "0.2.1",
+          "commit": "84ff8c46c43769f8f066ea1da9a91c0b5da76c5c",
+          "contentHash": "92f4d7349b4b610ec57d14076165b3cd8b0df2ddee36380820a4a33a2ccaa5bf",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "日本語（補完）",
+          "contributes": [
+            {
+              "kind": "languagePacks",
+              "name": "ja"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/x-taqu.japanese/530ef2703a7a3e27.png",
+              "alt": "非公式の日本語（補完）パックの表紙。撮影時の Orca の言語メニューと日本語パックのアイコン",
+              "sha256": "530ef2703a7a3e2742f310e45def86d36e20bece675628e93b0ba92670c875f6",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/x-taqu.japanese/b293bba41ddc4902.png",
+              "alt": "日本語（補完） icon",
+              "sha256": "b293bba41ddc49025573b0a2ab095c18108d7377e9163dcdf46ab4b0efb125d4",
+              "width": 256,
+              "height": 256
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/x-taqu/orca-japanese",
+          "updatedAt": "2026-11-28T20:47:08+09:00"
+        },
         {
           "version": "0.2.0",
           "commit": "a88791b761c984bcff0a6638380ab65e762619f1",
@@ -81991,8 +82024,8 @@
       "ownerId": 8709587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/yohangwak/orca-agy-quota-mirror/0.1.0"
+        "url": "https://github.com/yohangwak/orca-agy-quota-mirror.git",
+        "ref": "v0.1.1"
       },
       "description": "Shows Antigravity (agy) quota in Orca's status bar and a panel, mirrored from what agy already pipes to its status line command. Never runs agy and makes no network request.",
       "categories": [
@@ -82000,6 +82033,63 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "69dbd0a75fadcfbe7c0f48916522995de0f5b669",
+          "contentHash": "14a6efc81a5c79f4595ea187a79913590fce97e692544b17b300401c2837846f",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "agy Quota Mirror",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Antigravity quota"
+            },
+            {
+              "kind": "commands",
+              "name": "Show agy quota"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "AG –"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/yohangwak.agy-quota-mirror/b0c877cd4a412ad8.png",
+              "alt": "Orca's status bar showing AG 5h 39% · 7d 54%, with the hover text listing both quota pools and reset times",
+              "sha256": "b0c877cd4a412ad8f07abb281be03395d2db682bf97cb560bf4e17556033dc70",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/yohangwak.agy-quota-mirror/f147bdc9bbd4583a.png",
+                "alt": "The status bar item with its hover text open",
+                "sha256": "f147bdc9bbd4583a21d5d01374fe891abdcb00feb31288965095a4e5dff3e6ab",
+                "width": 1380,
+                "height": 862
+              },
+              {
+                "path": "assets/yohangwak.agy-quota-mirror/c5c989647bc52a3b.png",
+                "alt": "Orca window with the quota item in the bottom status bar",
+                "sha256": "c5c989647bc52a3bbae01593c7ff66e30fd9351e4f851e1055a9f6929e30ec58",
+                "width": 2560,
+                "height": 1600
+              },
+              {
+                "path": "assets/yohangwak.agy-quota-mirror/71fa5e3d251c0479.png",
+                "alt": "The Antigravity quota panel with 5-hour and weekly bars for both pools",
+                "sha256": "71fa5e3d251c047988dea7b9397ce0e17492f62c1c79f0ae8ab8bc24435f8143",
+                "width": 2560,
+                "height": 1600
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/yohangwak/orca-agy-quota-mirror",
+          "updatedAt": "2026-11-28T21:07:28+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "0be33160c2e210b643055e07374fc902051578ee",
