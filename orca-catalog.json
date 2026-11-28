@@ -33999,8 +33999,8 @@
       "ownerId": 278208,
       "source": {
         "kind": "git",
-        "url": "https://github.com/ivanscm/bmad-tickets-viewer.git",
-        "ref": "v0.4.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/ivanscm/bmad-tickets-viewer/0.4.0"
       },
       "description": "Read-only viewer for BMAD tickets (initiatives, epics, stories) in the workspace's _bmad-output: a sidebar tree, a kanban board in an editor tab, planning artifacts, live updates, dependency blocking and BMAD skill launch.",
       "categories": [
@@ -73928,8 +73928,8 @@
       "ownerId": 38095267,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/uttam-gelot/orca-todos/0.3.0"
+        "url": "https://github.com/uttam-gelot/orca-todos.git",
+        "ref": "v0.3.1"
       },
       "description": "Personal to-dos with custom states, tags, priorities, due dates with reminders, projects, markdown notes, list and board views, and coding agents you start from a to-do.",
       "categories": [
@@ -73938,6 +73938,107 @@
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.3.1",
+          "commit": "cd463e5255877f7f5b0e10a49be39dce368e4c15",
+          "contentHash": "4a3ef3922a9f5578713b6c72b9c7c637d06bc67a5fc36aa07847c76cfd383237",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.274",
+          "name": "ToDos Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ToDos"
+            },
+            {
+              "kind": "commands",
+              "name": "ToDos: Show or hide the right sidebar"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "customEditors",
+              "name": "ToDos",
+              "detail": ".todos, ToDos"
+            },
+            {
+              "kind": "newFiles",
+              "name": "Open ToDos board",
+              "detail": ".todos"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "ToDos"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read",
+            "workspace:write",
+            "agent:launch",
+            "agent:read",
+            "terminal:send",
+            "settings:own",
+            "notifications:show"
+          ],
+          "fileTypes": [
+            "todos"
+          ],
+          "editorFileTypes": [
+            "todos"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/uttam-gelot.todos/27b679c590cfafa7.png",
+              "alt": "ToDos Board: your next steps beside your agents. The board tab with a column for each state, and the sidebar list",
+              "sha256": "27b679c590cfafa7ba4664d0cff4cbfc11cef8c22aa4d7a2f7305240de4fc8ee",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/uttam-gelot.todos/c0bf22723300f9d5.png",
+              "alt": "ToDos Board icon",
+              "sha256": "c0bf22723300f9d5eb05a992bb01526436c04b8c83ae42d39639c1e9208678b1",
+              "width": 256,
+              "height": 256
+            },
+            "screenshots": [
+              {
+                "path": "assets/uttam-gelot.todos/79b089199376721a.png",
+                "alt": "The board in light mode: a column for each state, cards with checklist progress, tags and agent status",
+                "sha256": "79b089199376721ac86ec420cc46fd95c1aba788b8eb4398fc3aae2e0c6dfd2b",
+                "width": 1500,
+                "height": 800
+              },
+              {
+                "path": "assets/uttam-gelot.todos/75680111b29b6cfe.png",
+                "alt": "The board in dark mode: a column for each state, cards with checklist progress, tags and agent status",
+                "sha256": "75680111b29b6cfead29c86b73ee634669838971f9357be50b1f91f0736a27c7",
+                "width": 1500,
+                "height": 800
+              },
+              {
+                "path": "assets/uttam-gelot.todos/afa5eb632ec11fff.png",
+                "alt": "The list in light mode: to-dos grouped by state, with the details pane and its checklist open",
+                "sha256": "afa5eb632ec11ffff1690bf7b8ee259a9e2b18ad0e74836fa2760860b4ce0ded",
+                "width": 1500,
+                "height": 800
+              },
+              {
+                "path": "assets/uttam-gelot.todos/73b12dedd95f5c75.png",
+                "alt": "The list in dark mode: to-dos grouped by state, with the details pane and its checklist open",
+                "sha256": "73b12dedd95f5c75e1e060414a1be616a2a1139c57dd94b5e3c21ae1afe28991",
+                "width": 1500,
+                "height": 800
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/uttam-gelot/orca-todos",
+          "updatedAt": "2026-11-28T12:32:59+05:30"
+        },
         {
           "version": "0.3.0",
           "commit": "846ca9283a79f8436ae5952b301809736f3b4e89",

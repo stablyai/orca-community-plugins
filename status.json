@@ -2324,7 +2324,7 @@
     },
     "ivanscm/bmad-tickets-viewer": {
       "state": "listed",
-      "ref": "v0.4.0",
+      "ref": "refs/tags/ivanscm/bmad-tickets-viewer/0.4.0",
       "plugins": [
         "ivanscm.bmad-tickets-viewer"
       ]
@@ -4945,7 +4945,7 @@
     },
     "uttam-gelot/orca-todos": {
       "state": "listed",
-      "ref": "refs/tags/uttam-gelot/orca-todos/0.3.0",
+      "ref": "v0.3.1",
       "plugins": [
         "uttam-gelot.todos"
       ]
