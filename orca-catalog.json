@@ -35120,6 +35120,42 @@
       ]
     },
     {
+      "id": "jason-shen2.t3-ocean-light",
+      "ownerId": 287273204,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Jason-Shen2/t3-ocean-for-orca.git",
+        "ref": "v0.2.0"
+      },
+      "description": "An unofficial port of the T3 Code Ocean light and dark app themes for Orca.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "de77d66f7b8c3af448da92221cb8bd177ea32e46",
+          "contentHash": "788e42edd4b62e67f51109874e82ff5bcf9262dda8e7cb3d800cf06bd6089a9a",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "T3 Ocean for Orca",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "T3 Ocean Light"
+            },
+            {
+              "kind": "themes",
+              "name": "T3 Ocean Dark"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/Jason-Shen2/t3-ocean-for-orca",
+          "updatedAt": "2026-11-28T16:00:50+08:00"
+        }
+      ]
+    },
+    {
       "id": "javierorp.nan-credits",
       "ownerId": 55992061,
       "source": {
@@ -46700,9 +46736,9 @@
               "height": 256
             }
           },
-          "updatedAt": "2026-11-27T23:25:42+01:00",
           "license": "MIT",
-          "repository": "https://github.com/moilolon/orca-obsidian-notes"
+          "repository": "https://github.com/moilolon/orca-obsidian-notes",
+          "updatedAt": "2026-11-27T23:25:42+01:00"
         },
         {
           "version": "0.2.5",
@@ -81812,8 +81848,8 @@
       "ownerId": 8709587,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yohangwak/orca-agy-quota-mirror.git",
-        "ref": "v0.1.0"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yohangwak/orca-agy-quota-mirror/0.1.0"
       },
       "description": "Shows Antigravity (agy) quota in Orca's status bar and a panel, mirrored from what agy already pipes to its status line command. Never runs agy and makes no network request.",
       "categories": [

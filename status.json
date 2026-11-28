@@ -186,7 +186,7 @@
         "ainlee.zh-hant-full-patch"
       ],
       "notes": [
-        "contributes.languagePacks \"zh-Hant\" (locales/zh-Hant.json): 2175 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"zh-Hant\" (locales/zh-Hant.json): 2174 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "albuquerquesz/orca-github-dark-theme": {
@@ -1221,7 +1221,7 @@
         "dohaidang.vietnamese"
       ],
       "notes": [
-        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 103 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"vi-VN\" (locales/vi-VN.json): 110 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "dohaidang/orca-wallpaper-studio": {
@@ -1321,6 +1321,9 @@
       "ref": "refs/tags/ebbop/orca-italiano/1.4.280",
       "plugins": [
         "ebbop.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 11 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "ebrgr/backlog-md-orca": {
@@ -1550,7 +1553,7 @@
         "eszetael.polski"
       ],
       "notes": [
-        "contributes.languagePacks \"pl\" (locales/pl.json): 34 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"pl\" (locales/pl.json): 41 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "etherll/orca-usage-insights": {
@@ -2210,6 +2213,9 @@
       "ref": "refs/tags/husrevkorpe/orca-turkce/1.1.3",
       "plugins": [
         "husrevkorpe.turkce"
+      ],
+      "notes": [
+        "contributes.languagePacks \"tr\" (locales/tr.json): 7 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "hygorfragas/sftp-bridge": {
@@ -2405,6 +2411,13 @@
         "jargez.docker-vm"
       ]
     },
+    "jason-shen2/t3-ocean-for-orca": {
+      "state": "listed",
+      "ref": "v0.2.0",
+      "plugins": [
+        "jason-shen2.t3-ocean-light"
+      ]
+    },
     "javierorp/orca-nan-credits": {
       "state": "listed",
       "ref": "refs/tags/javierorp/orca-nan-credits/0.1.0",
@@ -2497,7 +2510,7 @@
         "jiaonang.zh-cn"
       ],
       "notes": [
-        "contributes.languagePacks \"zh\" (locales/zh.json): 49 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"zh\" (locales/zh.json): 56 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "jig-harness/orca-plugin": {
@@ -2958,7 +2971,7 @@
         "mancunianez.ukrainian"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (locales/uk.json): 117 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (locales/uk.json): 128 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "manish-107/orca-dock-containers": {
@@ -3045,6 +3058,9 @@
       "ref": "refs/tags/matteoeusebi/orca-italiano/1.4.279",
       "plugins": [
         "matteoeusebi.italiano"
+      ],
+      "notes": [
+        "contributes.languagePacks \"it\" (locales/it.json): 7 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "matteoeusebi/orca-pulse": {
@@ -3579,7 +3595,7 @@
         "olegoliyar-cmd.oliyar-uk"
       ],
       "notes": [
-        "contributes.languagePacks \"uk\" (uk.json): 1670 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"uk\" (uk.json): 1669 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "omar227/orca-peon-ping": {
@@ -5015,7 +5031,7 @@
         "vann-dev.indonesian"
       ],
       "notes": [
-        "contributes.languagePacks \"id\" (locales/id.json): 19 protected strings are ignored; Orca always shows its own text for security dialogs"
+        "contributes.languagePacks \"id\" (locales/id.json): 26 protected strings are ignored; Orca always shows its own text for security dialogs"
       ]
     },
     "vann-dev/orca-palenight-theme": {
@@ -5394,7 +5410,7 @@
     },
     "yohangwak/orca-agy-quota-mirror": {
       "state": "listed",
-      "ref": "v0.1.0",
+      "ref": "refs/tags/yohangwak/orca-agy-quota-mirror/0.1.0",
       "plugins": [
         "yohangwak.agy-quota-mirror"
       ]
