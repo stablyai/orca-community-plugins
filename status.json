@@ -4068,7 +4068,16 @@
       "ref": "v1.0.0",
       "plugins": [
         "rsedano.spotify-cd"
-      ]
+      ],
+      "update": {
+        "ref": "v1.3.0",
+        "reasons": [
+          {
+            "category": "under-review",
+            "detail": "update"
+          }
+        ]
+      }
     },
     "ruchkung/orca-textile": {
       "state": "listed",
@@ -5469,7 +5478,7 @@
     },
     "yoshhiide/orca-plugin-codex-session-inspector": {
       "state": "listed",
-      "ref": "v0.1.2",
+      "ref": "refs/tags/yoshhiide/orca-plugin-codex-session-inspector/0.1.2",
       "plugins": [
         "yoshhiide.codex-session-inspector"
       ]

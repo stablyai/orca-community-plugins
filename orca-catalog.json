@@ -82421,8 +82421,8 @@
       "ownerId": 8830451,
       "source": {
         "kind": "git",
-        "url": "https://github.com/yoshhiide/orca-plugin-codex-session-inspector.git",
-        "ref": "v0.1.2"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/yoshhiide/orca-plugin-codex-session-inspector/0.1.2"
       },
       "description": "Inspect Codex sessions, command failures, and associated runtime logs in the Orca sidebar.",
       "categories": [
