@@ -3625,7 +3625,7 @@
     },
     "ozzy-e/agent-headquarters": {
       "state": "rejected",
-      "ref": "v0.2.0",
+      "ref": "v0.2.3",
       "reasons": [
         {
           "category": "binary-files",
@@ -5252,7 +5252,7 @@
     },
     "wilsonliu123/orca-token-used": {
       "state": "listed",
-      "ref": "v0.2.5",
+      "ref": "refs/tags/wilsonliu123/orca-token-used/0.2.5",
       "plugins": [
         "wilsonliu123.token-pulse"
       ]
