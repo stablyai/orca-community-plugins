@@ -21675,6 +21675,76 @@
       ]
     },
     {
+      "id": "eliomelo.potiwave-theme",
+      "ownerId": 4874825,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eliomelo/orca-potiwave-theme.git",
+        "ref": "v1.0.1"
+      },
+      "description": "Neon synthwave themes for Orca: a near-black dark theme and a soft lavender light theme, with matching syntax and terminal colors. Inspired by SynthWave '84.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.0.1",
+          "commit": "c573bbc0be20f0d599138cb929319af16d6e0d20",
+          "contentHash": "c75b9db24cb4de84dad1ec9247e62ee035e545dd861cd98678d7b61d433e101d",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "PotiWave",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "PotiWave"
+            },
+            {
+              "kind": "themes",
+              "name": "PotiWave Light"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "PotiWave"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "PotiWave Light"
+            }
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/eliomelo.potiwave-theme/caf3f708948cfe4c.png",
+              "alt": "The near-black PotiWave theme and the lavender PotiWave Light theme side by side on a TypeScript file, with a striped neon sun",
+              "sha256": "caf3f708948cfe4c68d2fc824aa189f11afddb735f6b2d3f9b65084321597da2",
+              "width": 1600,
+              "height": 1000
+            },
+            "screenshots": [
+              {
+                "path": "assets/eliomelo.potiwave-theme/06156adc3ff3c4d5.png",
+                "alt": "PotiWave on the editor and file tree, with the PotiWave terminal colors below",
+                "sha256": "06156adc3ff3c4d5032663c11e72923618ad76a975ae22f8c6b65dccb02588a5",
+                "width": 1600,
+                "height": 1000
+              },
+              {
+                "path": "assets/eliomelo.potiwave-theme/5f1bf2fc1aeadf91.png",
+                "alt": "PotiWave Light on the same file, with the PotiWave Light terminal colors below",
+                "sha256": "5f1bf2fc1aeadf91c7e263889feebaf3438846488268f400389fff6e742b1f0d",
+                "width": 1600,
+                "height": 1000
+              }
+            ]
+          },
+          "license": "MIT",
+          "repository": "https://github.com/eliomelo/orca-potiwave-theme",
+          "updatedAt": "2026-11-27T21:29:25-03:00"
+        }
+      ]
+    },
+    {
       "id": "ellebam.context-meter",
       "ownerId": 66612367,
       "source": {
@@ -29539,8 +29609,8 @@
       "ownerId": 14880710,
       "source": {
         "kind": "git",
-        "url": "https://github.com/guilatrova/bot-kanban-board.git",
-        "ref": "v0.15.3"
+        "url": "https://github.com/stablyai/orca-community-mirror.git",
+        "ref": "refs/tags/guilatrova/bot-kanban-board/0.15.3"
       },
       "description": "See every Orca bot's open Items and pull requests on one board, answer what needs you, and merge in one click.",
       "categories": [
@@ -59029,14 +59099,51 @@
       "ownerId": 13818206,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/samfaina/orca-kickoff/0.6.0"
+        "url": "https://github.com/samfaina/orca-kickoff.git",
+        "ref": "v0.7.0"
       },
-      "description": "Lists open tasks from Jira or GitHub and starts each one in its own linked worktree, with an agent and per-project prompt templates.",
+      "description": "Stop pasting tickets into your agent. Pick a GitHub, Jira or Linear task and Kickoff starts it in a fresh worktree, with a prompt filled from your template.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.7.0",
+          "commit": "8f58ecb4cb13106b0f7ed4fb139b151018831cfa",
+          "contentHash": "26955839f1e32cde473dc7d71bf7c3a5f6642d9ec0fbd9ff8f4c747783dd7f01",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.277",
+          "name": "Kickoff",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Kickoff"
+            }
+          ],
+          "capabilities": [
+            "storage:own",
+            "workspace:read"
+          ],
+          "images": {
+            "cover": {
+              "path": "assets/samfaina.kickoff/5590f2e46c73dd03.png",
+              "alt": "Kickoff with the line \"Your prompt templates, one click from any GitHub, Jira or Linear task.\" and an arrow to the open template menu in its panel.",
+              "sha256": "5590f2e46c73dd0318de9baf50d4e08537f715d9a4680b5f421cee74f8cc7799",
+              "width": 1600,
+              "height": 1000
+            },
+            "icon": {
+              "path": "assets/samfaina.kickoff/1defb25049a8ff6d.png",
+              "alt": "Kickoff icon",
+              "sha256": "1defb25049a8ff6d60e44b39f4de317ab6a557b0d4ce487121fc2c7504cb0fc0",
+              "width": 512,
+              "height": 512
+            }
+          },
+          "license": "MIT",
+          "repository": "https://github.com/samfaina/orca-kickoff",
+          "updatedAt": "2026-11-28T01:18:44+01:00"
+        },
         {
           "version": "0.6.0",
           "commit": "f88f2bd50b4d1262cd1c3f5a9887774ac129ea0f",
