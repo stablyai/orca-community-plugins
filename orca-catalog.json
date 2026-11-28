@@ -27707,6 +27707,48 @@
       ]
     },
     {
+      "id": "gabrielalmir.clickup",
+      "ownerId": 98054504,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gabrielalmir/orca-clickup.git",
+        "ref": "v0.1.0"
+      },
+      "description": "Tarefas do ClickUp, worktrees e sessões de agentes na sidebar do Orca.",
+      "categories": [
+        "panels"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "2574e96812ac8cc60acb16a83a7b8f8cc1f223e3",
+          "contentHash": "d56d2c0e958a94c54a4781828c482b0b2f7585977fd6f277544dcaef73c98226",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.280",
+          "name": "ClickUp",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "ClickUp"
+            }
+          ],
+          "capabilities": [
+            "secrets:own",
+            "storage:own",
+            "workspace:read",
+            "workspace:create",
+            "workspace:write",
+            "agent:read",
+            "agent:launch",
+            "terminal:send"
+          ],
+          "license": "Apache-2.0",
+          "repository": "https://github.com/gabrielalmir/orca-clickup",
+          "updatedAt": "2026-11-28T08:03:21-03:00"
+        }
+      ]
+    },
+    {
       "id": "gabrielvidal1.ask-form",
       "ownerId": 31007874,
       "source": {
@@ -64346,14 +64388,34 @@
       "ownerId": 46280444,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/shakechi/orca-prs/0.1.0"
+        "url": "https://github.com/shakechi/orca-prs.git",
+        "ref": "v0.1.1"
       },
       "description": "Shows your pull requests and the reviews requested from you, grouped by what to do next. Reads GitHub through the gh command.",
       "categories": [
         "panels"
       ],
       "releases": [
+        {
+          "version": "0.1.1",
+          "commit": "9edf6d3087358c33acfa235171b6e775376f17dc",
+          "contentHash": "ee5cb6fe14a4dc894d94efa95a68d1f245f27cb05ac991a6f92b01bd6a951545",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.259",
+          "name": "PRs",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "PRs"
+            }
+          ],
+          "capabilities": [
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/shakechi/orca-prs",
+          "updatedAt": "2026-11-28T20:03:33+09:00"
+        },
         {
           "version": "0.1.0",
           "commit": "f1479a3992f577dd881050b33514ee45de2e024a",

@@ -1787,6 +1787,13 @@
         }
       ]
     },
+    "gabrielalmir/orca-clickup": {
+      "state": "listed",
+      "ref": "v0.1.0",
+      "plugins": [
+        "gabrielalmir.clickup"
+      ]
+    },
     "gabrielvidal1/ask-form-orca": {
       "state": "listed",
       "ref": "refs/tags/gabrielvidal1/ask-form-orca/1.0.0",
@@ -4334,7 +4341,7 @@
     },
     "shakechi/orca-prs": {
       "state": "listed",
-      "ref": "refs/tags/shakechi/orca-prs/0.1.0",
+      "ref": "v0.1.1",
       "plugins": [
         "shakechi.prs"
       ]
@@ -5354,6 +5361,16 @@
       ],
       "notes": [
         "publisher is deprecated and ignored: Orca derives it from the repository owner, like a Go module path. Remove it once engines.orca is at least >=1.4.246; until then it must equal the repository owner"
+      ]
+    },
+    "x-taqu/orca-japanese": {
+      "state": "rejected",
+      "ref": "v0.2.0",
+      "reasons": [
+        {
+          "category": "under-review",
+          "detail": "size"
+        }
       ]
     },
     "xclas721/xclas721-theme": {
