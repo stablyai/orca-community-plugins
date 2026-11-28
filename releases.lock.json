@@ -449,6 +449,12 @@
     "repoId": 1473185739,
     "firstSeen": "2026-11-28T05:16:04.915Z"
   },
+  "aliuda.bot-items-board@0.1.6": {
+    "commit": "ba0cbc639321b5a084a00d4541ec6f99a82a491d",
+    "contentHash": "6dc48c985040b4b768816f719a8b27f3bede9b398e193946a8021ac620a168cf",
+    "repoId": 1473185739,
+    "firstSeen": "2026-11-28T05:42:33.750Z"
+  },
   "aliuda.lark-bot-bridge@0.1.0": {
     "commit": "c29bc64958fc92cc7ef99b60efca2c20d2d4bf6a",
     "contentHash": "e1ce16ac1d0aceec96c4cc85313f37c9638a9125e2c37192426ff12304a20e6d",
@@ -3370,6 +3376,12 @@
     "contentHash": "6ca1b4af4db78bf267f41c51882d82cdb835e507afad19b46b6aad7ecfe0be13",
     "repoId": 1465406152,
     "firstSeen": "2026-11-27T06:47:59.088Z"
+  },
+  "h00ns.test-runner@0.2.4": {
+    "commit": "cdfa857bc2a9f6c5b1e677a00aff809068feb7ff",
+    "contentHash": "a56f3f15c7ab146f6a82dd385e7f5e029b98ecb52f35a191b7cf7c8c06214e3d",
+    "repoId": 1465406152,
+    "firstSeen": "2026-11-28T05:42:33.750Z"
   },
   "hadisd.markdown-colorize@1.1.2": {
     "commit": "98600d90e80221c3e87ccf08195c5a35a2945d55",
