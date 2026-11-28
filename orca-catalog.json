@@ -5,6 +5,42 @@
   "owner": "stablyai",
   "plugins": [
     {
+      "id": "111e111.droid-usage",
+      "ownerId": 127002122,
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/111e111/orca-droid-usage.git",
+        "ref": "v1.1.0"
+      },
+      "description": "Factory Droid quota usage in the Orca status bar. Click to refresh the five-hour, weekly and monthly windows.",
+      "categories": [
+        "commands"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "45eda4ac668afdeb7cf302bb0435d565a3938087",
+          "contentHash": "7a35f41024c56dce3c311c174a4b557e8e78fec614fd9b3e27b17c1c102133a3",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Droid Usage",
+          "contributes": [
+            {
+              "kind": "commands",
+              "name": "Droid Usage: Refresh"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Droid …"
+            }
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/111e111/orca-droid-usage",
+          "updatedAt": "2026-11-28T11:56:44+08:00"
+        }
+      ]
+    },
+    {
       "id": "1am.agent-deck",
       "ownerId": 959323,
       "source": {
@@ -3674,8 +3710,8 @@
       "ownerId": 40687041,
       "source": {
         "kind": "git",
-        "url": "https://github.com/stablyai/orca-community-mirror.git",
-        "ref": "refs/tags/aliuda/orca-bot-items-board/0.1.1"
+        "url": "https://github.com/aliuda/orca-bot-items-board.git",
+        "ref": "v0.1.2"
       },
       "description": "Live right-sidebar workbench for Orca bots' Items: track open & needs-you items, inspect details, and act via secure per-bot webhook automation.",
       "categories": [
@@ -3683,6 +3719,41 @@
         "commands"
       ],
       "releases": [
+        {
+          "version": "0.1.2",
+          "commit": "bc739a42e7f608b8fea3316aa996902957a155c5",
+          "contentHash": "88ee316b34eea5cc9e172749ebff307ad0f2e6f9dd0107b497b3121f45c0956e",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "Bot Items Board",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "Bot Items"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Items: Refresh"
+            },
+            {
+              "kind": "commands",
+              "name": "Bot Items: Open Board"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "Items: –"
+            }
+          ],
+          "capabilities": [
+            "settings:own",
+            "secrets:own",
+            "storage:own",
+            "notifications:show"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/aliuda/orca-bot-items-board",
+          "updatedAt": "2026-11-28T12:10:44+08:00"
+        },
         {
           "version": "0.1.1",
           "commit": "3f2aeb5d450a3f8fdae00e224cb4904b97437030",
@@ -28154,15 +28225,54 @@
       "source": {
         "kind": "git",
         "url": "https://github.com/ghxxaqtv/agy-dart-monitor.git",
-        "ref": "v0.1.0"
+        "ref": "v0.2.0"
       },
-      "description": "Unofficial Orca sidebar & status-bar monitor for Antigravity agy-dart (by zou172866): live context window, KV cache, token savings, safety alerts & FTS5 search.",
+      "description": "Unofficial Orca sidebar & status-bar monitor for Antigravity agy-dart (by zou172866): live context window, KV cache, session performance (TTFT & tok/s), Antigravity quota, token savings, safety alerts & FTS5 search.",
       "categories": [
         "panels",
         "commands",
         "integrations"
       ],
       "releases": [
+        {
+          "version": "0.2.0",
+          "commit": "91cd0b24a72ba9bfe10f6287f0dd70ba2ba31870",
+          "contentHash": "d24b51bef09ff41da50bd47ba40351ac5e2131729f546f8b96f17543e7d1d330",
+          "execution": "trusted-worker",
+          "minimumOrca": "1.4.248",
+          "name": "agy-dart Monitor for Orca",
+          "contributes": [
+            {
+              "kind": "panels",
+              "name": "agy-dart Context"
+            },
+            {
+              "kind": "commands",
+              "name": "agy-dart: Refresh Context Monitor"
+            },
+            {
+              "kind": "events",
+              "name": "workspace.changed"
+            },
+            {
+              "kind": "events",
+              "name": "agent.status.changed"
+            },
+            {
+              "kind": "statusBarItems",
+              "name": "agy-dart"
+            }
+          ],
+          "capabilities": [
+            "workspace:read",
+            "agent:read",
+            "storage:own",
+            "settings:own"
+          ],
+          "license": "MIT",
+          "repository": "https://github.com/ghxxaqtv/agy-dart-monitor",
+          "updatedAt": "2026-11-28T12:14:46+08:00"
+        },
         {
           "version": "0.1.0",
           "commit": "a2cbc195c0c9f580226608ba44c33947b64a3d95",

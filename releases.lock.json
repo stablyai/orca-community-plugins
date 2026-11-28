@@ -1,4 +1,10 @@
 {
+  "111e111.droid-usage@1.1.0": {
+    "commit": "45eda4ac668afdeb7cf302bb0435d565a3938087",
+    "contentHash": "7a35f41024c56dce3c311c174a4b557e8e78fec614fd9b3e27b17c1c102133a3",
+    "repoId": 1475166706,
+    "firstSeen": "2026-11-28T04:18:08.370Z"
+  },
   "1am.agent-deck@0.1.2": {
     "commit": "208668047b563821484dc57309e6bbd89d88339c",
     "contentHash": "732c10824b585c9c5826f7e4d63a401c6d4b01c3228881094a958258c1a9031c",
@@ -424,6 +430,12 @@
     "contentHash": "2cab26ca2b89ca2e8a05b1d22e783cc4d4e7a048b1fa32b606d4084e0ed02120",
     "repoId": 1473185739,
     "firstSeen": "2026-11-28T02:21:04.377Z"
+  },
+  "aliuda.bot-items-board@0.1.2": {
+    "commit": "bc739a42e7f608b8fea3316aa996902957a155c5",
+    "contentHash": "88ee316b34eea5cc9e172749ebff307ad0f2e6f9dd0107b497b3121f45c0956e",
+    "repoId": 1473185739,
+    "firstSeen": "2026-11-28T04:18:08.370Z"
   },
   "aliuda.lark-bot-bridge@0.1.0": {
     "commit": "c29bc64958fc92cc7ef99b60efca2c20d2d4bf6a",
@@ -2986,6 +2998,12 @@
     "contentHash": "ae08c40b9952f5a719ee5a555c444d3a18eb57af4b1d9d7f5fe009237ea7b263",
     "repoId": 1475141089,
     "firstSeen": "2026-11-28T03:42:29.724Z"
+  },
+  "ghxxaqtv.agy-dart-monitor@0.2.0": {
+    "commit": "91cd0b24a72ba9bfe10f6287f0dd70ba2ba31870",
+    "contentHash": "d24b51bef09ff41da50bd47ba40351ac5e2131729f546f8b96f17543e7d1d330",
+    "repoId": 1475141089,
+    "firstSeen": "2026-11-28T04:18:08.370Z"
   },
   "gino8080.git-overview@0.1.10": {
     "commit": "60d32e139104724e446fdb491695f211b47180ba",
